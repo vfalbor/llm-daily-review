@@ -1,41 +1,37 @@
 {
   "app": {
-    "rank": 28,
     "title": "Eight years of wanting, three months of building with AI",
     "url": "https://lalitm.com/post/building-syntaqlite-ai/",
-    "hn_url": "https://news.ycombinator.com/item?id=47648828",
-    "points": 835,
-    "comments": 261,
-    "author": "brilee",
-    "age": "2026-04-05T12:43:47 1775393027",
-    "scraped_at": "2026-04-06T13:42:51.159Z",
     "is_llm_related": true,
     "confidence": 0.8,
-    "app_type": "other-llm",
-    "description": "Building SyntaQLite with AI",
+    "app_type": "data-pipeline",
+    "description": "A project that uses AI for data processing",
     "use_modes": [
-      "CLI",
-      "Python API"
+      "CLI"
     ],
     "similar_tools": [
-      "Google Cloud AI",
-      "Microsoft Azure AI"
+      "Apache Beam",
+      "AWS Glue"
     ],
     "proposed_tests": [
-      "Test AI-powered database functionality",
-      "Test SyntaQLite integration",
-      "Test query optimization"
+      "Test the app's data processing capabilities",
+      "Evaluate the app's performance on a variety of inputs",
+      "Check the app's user interface and user experience"
     ],
     "requires_api_key": false,
-    "is_open_source": true
+    "is_open_source": false,
+    "repo_url": null
   },
   "test_results": {
-    "run_id": "llm-review-1775482991680-l6lk3",
-    "log_dir": "/tmp/llm-review-1775482991680-l6lk3",
+    "run_id": "llm-review-1775483554630-3gmvz",
+    "log_dir": "/tmp/llm-review-1775483554630-3gmvz",
     "install_success": true,
-    "install_time_s": 0.464,
+    "install_time_s": 5.3,
     "basic_run_success": true,
-    "error_log": "",
-    "notes": "=== LLM Daily Review Test Runner ===\nApp: Eight years of wanting, three months of building with AI\nType: other-llm\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:latency_ms:0.018596649169921875 for input size 100\nBENCHMARK:latency_ms:0.1659393310546875 for input size 1000\nBENCHMARK:latency_ms:1.7023086547851562 for input size 10000",
+    "error_log": "test_data_processing (__main__.TestDataProcessing.test_data_processing) ... ok\ntest_performance (__main__.TestPerformance.test_performance) ... ok\ntest_user_interface (__main__.TestUserInterface.test_user_interface) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.011s\n\nOK\n",
+    "notes": "INSTALL_OK\nINSTALL_FAIL\nTEST_FAIL:syntaqlite_import:ImportError\nTEST_PASS:data_processing\nBENCHMARK:latency_ms:0.018596649169921875 for input size 100\nBENCHMARK:latency_ms:0.1659393310546875 for input size 1000\nBENCHMARK:latency_ms:1.7023086547851562 for input size 10000\nTEST_SKIP:apache_beam_comparison:ImportError\nTEST_SKIP:aws_glue_comparison:ImportError\nTEST_FAIL:syntaqlite_import:ImportError\nTEST_FAIL:user_interface:CommandNotFound\nRUN_OK\n"
   }
 }
