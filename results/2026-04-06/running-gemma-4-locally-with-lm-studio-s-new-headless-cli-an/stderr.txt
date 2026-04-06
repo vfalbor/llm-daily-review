@@ -1,6 +1,1 @@
-Traceback (most recent call last):
-  File "/app/test.py", line 96, in <module>
-    suite.test_evaluate_model_performance()
-  File "/app/test.py", line 40, in test_evaluate_model_performance
-    import gemma
-ModuleNotFoundError: No module named 'gemma'
+spawn docker ENOENT
