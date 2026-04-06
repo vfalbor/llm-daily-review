@@ -1,15 +1,12 @@
-Unable to find image 'python:3.12-alpine' locally
-3.12-alpine: Pulling from library/python
-89a8227ba99b: Pulling fs layer
-6de7811bee64: Pulling fs layer
-6f3f43492c5b: Pulling fs layer
-de9c3a90f8a7: Download complete
-100b8eb76870: Download complete
-89a8227ba99b: Download complete
-6de7811bee64: Download complete
-6f3f43492c5b: Download complete
-6de7811bee64: Pull complete
-89a8227ba99b: Pull complete
-6f3f43492c5b: Pull complete
-Digest: sha256:7747d47f92cfca63a6e2b50275e23dba8407c30d8ae929a88ddd49a5d3f2d331
-Status: Downloaded newer image for python:3.12-alpine
+Traceback (most recent call last):
+  File "/app/test.py", line 12, in <module>
+    import guppylm
+ModuleNotFoundError: No module named 'guppylm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 15, in <module>
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "guppylm"])
+                           ^^^
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
