@@ -207,16 +207,6 @@ IMPORTANT RULES:
   }
 }
 
-  try {
-    const code = await callGroq(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
-    // Strip any accidental markdown fences
-    return code.replace(/^```python\n?|^```\n?|```$/gm, '').trim();
-  } catch (err) {
-    // Fallback: minimal static script
-    return buildFallbackScript(app);
-  }
-}
-
 function buildFallbackScript(app) {
   const pkgName = app.title?.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'unknown';
   return `#!/usr/bin/env python3
