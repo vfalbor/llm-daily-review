@@ -1,0 +1,97 @@
+{
+  "app_name": "LÖVE: 2D Game Framework for Lua",
+  "url": "https://github.com/love2d/love",
+  "scored_at": "2026-04-06T18:13:09.710Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The app has been around for a long time (2507 days since creation), but it is not a fork and has a unique approach to 2D game development with Lua, which sets it apart from similar tools like Pygame and Pyglet."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installed successfully in 5.6 seconds, which is relatively fast, but it does not have a PyPI package, which might make it harder to install for some users."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is still relevant in the current game development landscape, with a large number of stars (8,116) and a recent commit (5 days ago), indicating an active community and maintenance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app has a unique feature set compared to similar tools like Pygame and Pyglet, with 8,116 stars on GitHub, which is comparable to Pygame (8,710 stars) but significantly more than Pyglet (2,186 stars)."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The app has a large and active community, with 8,116 stars, 573 forks, and 116 contributors, as well as a recent commit (5 days ago), indicating a healthy and maintained project."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 6 tests passed, and there is no information about specific TEST_PASS or TEST_FAIL names, which raises concerns about the app's ease of use and overall quality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app does not have a PyPI package, which makes it harder to integrate into existing workflows, but it does have a CLI and SDK, which can facilitate integration, although the license is not specified."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no information available about the quality of the app's documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The app has been around for a long time (2507 days since creation) and has a large number of contributors (116), which indicates a mature and stable project, but the open issues count (116) is relatively high."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available to evaluate the app's performance, so a neutral score is assigned."
+    }
+  },
+  "summary": "LÖVE is a mature and widely-used 2D game framework for Lua, with a large and active community, but it may have some issues with ease of use and performance, and the documentation quality is unknown.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/love2d/love",
+  "tool_url": "https://github.com/love2d/love",
+  "source_type": "tool",
+  "enriched": {
+    "github": {
+      "stars": 8116,
+      "forks": 573,
+      "open_issues": 116,
+      "watchers": 8116,
+      "contributors": 116,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 2507,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "LÖVE is an awesome 2D game framework for Lua.",
+      "topics": [
+        "game-development",
+        "gamedev",
+        "love2d",
+        "lua",
+        "luajit"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Pygame",
+        "stars": 8710,
+        "repo": "pygame/pygame"
+      },
+      {
+        "name": "Pyglet",
+        "stars": 2186,
+        "repo": "pyglet/pyglet"
+      },
+      {
+        "name": "SDL",
+        "stars": 15293,
+        "repo": "libsdl-org/SDL"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6
+  }
+}
