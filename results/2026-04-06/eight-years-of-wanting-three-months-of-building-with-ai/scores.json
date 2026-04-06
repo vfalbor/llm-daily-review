@@ -1,39 +1,46 @@
 {
-  "app_name": "Syntaqlite",
+  "app_name": "Eight years of wanting, three months of building with AI",
   "url": "https://lalitm.com/post/building-syntaqlite-ai/",
-  "scored_at": "2026-04-06T13:53:05.473Z",
-  "total_score": 39,
+  "scored_at": "2026-04-06T14:20:27.209Z",
+  "total_score": 9,
   "scores": {
     "novelty": {
-      "score": 6,
-      "justification": "The app uses AI for data processing, which is a common approach, but its specific implementation and focus on Syntaqlite set it apart from other data pipeline tools like Apache Beam and AWS Glue. However, its novelty is limited due to the existence of similar tools."
+      "score": 2,
+      "justification": "The app is not a first-of-its-kind approach, and it's difficult to assess its original contribution without a GitHub repository or comparison to similar tools. However, its 'ai-powered-software' type is currently relevant in the LLM ecosystem."
     },
     "system_requirements": {
-      "score": 8,
-      "justification": "The app installed successfully in 5.3 seconds, indicating a relatively simple setup. However, the lack of detailed system requirements and the absence of a public repository limit its score in this category."
+      "score": 0,
+      "justification": "The install success is false, and the install time is 0s, which indicates a failed installation process. Additionally, no PyPI package was found, making it not pip-installable."
     },
     "current_relevance": {
-      "score": 7,
-      "justification": "The app addresses a relevant problem in the current data processing landscape, using AI for data pipeline tasks. However, its relevance is not particularly acute, as other tools also provide similar functionality."
+      "score": 5,
+      "justification": "The app's type is 'ai-powered-software', which is somewhat relevant in the current LLM ecosystem. However, without more information, it's difficult to determine its current relevance accurately."
     },
     "differentiation": {
-      "score": 5,
-      "justification": "The app has a unique focus on Syntaqlite, but its overall feature set and approach to data processing are not significantly different from existing tools like Apache Beam and AWS Glue. This limits its differentiation score."
+      "score": 2,
+      "justification": "There's no clear information about the app's unique features or advantages compared to similar tools like google-gemmma, google-ai-editions, or google-ai-poly."
     },
     "community": {
-      "score": 3,
-      "justification": "The app does not have a public repository, and there is no evidence of an active community or responsive maintainers. This limits its community score, as there is no clear way for users to engage with the project or contribute to its development."
+      "score": 0,
+      "justification": "No GitHub repository was detected, and there's no information about the project's community or ecosystem."
     },
     "ease_of_use": {
-      "score": 6,
-      "justification": "The app's basic run was successful, but the tests revealed some friction, with several tests failing or being skipped due to import errors. This indicates that the app's ease of use could be improved, particularly in terms of its user interface and error handling."
+      "score": 0,
+      "justification": "No tests were passed out of 0 total tests, and the basic run success is false, indicating significant usability issues."
     },
     "ease_of_integration": {
-      "score": 4,
-      "justification": "The app has a CLI interface, but its integration with other tools and workflows is not well-documented, and there is no evidence of a REST API or SDK. This limits its ease of integration score, as users may need to write custom glue code to incorporate the app into their workflows."
+      "score": 0,
+      "justification": "There's no PyPI or npm package available, and the use mode is limited to a Web App. The license is also not specified."
     }
   },
-  "summary": "Syntaqlite is a data pipeline tool that uses AI for data processing, with a unique focus on Syntaqlite. While it has some notable features, its overall novelty, differentiation, and community engagement are limited, and its ease of use and integration could be improved. The app's relevance to the current data processing landscape is moderate, and its system requirements are relatively simple.",
-  "recommendation": "niche",
-  "app_url": "https://lalitm.com/post/building-syntaqlite-ai/"
+  "summary": "The app 'Eight years of wanting, three months of building with AI' has limited relevance and usability in its current state, with significant issues in installation, community, and ease of use. Its differentiation and novelty are also unclear.",
+  "recommendation": "skip",
+  "app_url": "https://lalitm.com/post/building-syntaqlite-ai/",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
 }
