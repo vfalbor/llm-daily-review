@@ -3,35 +3,35 @@
     "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
     "url": "https://github.com/kessler/gemma-gem",
     "is_llm_related": true,
-    "confidence": 0.99,
-    "app_type": "multimodal",
-    "description": "An AI model embedded in a browser",
+    "confidence": 0.95,
+    "app_type": "model-server",
+    "description": "Gemma Gem is an AI model embedded in a browser",
     "use_modes": [
-      "GUI"
+      "Web App"
     ],
     "similar_tools": [
-      "Google Lens",
-      "Microsoft Pix"
+      "Gemma",
+      "TensorFlow.js"
     ],
     "proposed_tests": [
-      "Test the app's image recognition capabilities",
-      "Evaluate the app's performance on a variety of inputs",
-      "Check the app's user interface and user experience"
+      "Test installation and basic usage",
+      "Evaluate model performance on a small dataset",
+      "Compare results with a baseline model"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/kessler/gemma-gem"
   },
   "test_results": {
-    "run_id": "llm-review-1775483534352-l2vuh",
-    "log_dir": "/tmp/llm-review-1775483534352-l2vuh",
+    "run_id": "llm-review-1775484193840-8ajvm",
+    "log_dir": "/tmp/llm-review-1775484193840-8ajvm",
     "install_success": false,
-    "install_time_s": 6.1,
+    "install_time_s": 6.4,
     "basic_run_success": true,
     "tests_passed": 0,
     "tests_total": 1,
     "benchmark_notes": "",
-    "error_log": "ERROR: Could not find a version that satisfies the requirement gemma-gem (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for gemma-gem\n",
-    "notes": "INSTALL_FAIL\nTEST_SKIP:all_tests:package_gemma-gem_not_installed\nRUN_OK\n"
+    "error_log": "",
+    "notes": "=== LLM Daily Review — Fallback Test Runner ===\nApp: Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud\nType: model-server\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement show-hn-gemma-gem-ai-model-embedded-in-a-browser-no-api-keys-no-cloud (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution \nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
   }
 }
