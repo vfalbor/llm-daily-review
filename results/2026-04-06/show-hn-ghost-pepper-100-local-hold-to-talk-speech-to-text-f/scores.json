@@ -1,0 +1,94 @@
+{
+  "app_name": "Ghost Pepper",
+  "url": "https://github.com/matthartman/ghost-pepper",
+  "scored_at": "2026-04-06T20:43:04.059Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 17 days since repo creation and no forks, Ghost Pepper presents a relatively new approach, but its similarity to other tools like Hotpot, Speech-to-Text, and Vosk suggests it's not entirely novel, as seen by its 165 GitHub stars compared to others."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Ghost Pepper had an install success of false and no PyPI package, indicating difficulty in setup, but it has a low install time of 7.7s, though this is overshadowed by the install failure."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool for speech recognition on macOS, Ghost Pepper addresses a specific need but doesn't necessarily break new ground in the broader LLM ecosystem, with its primary language being Swift, which is less common in AI development."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With only 165 stars, compared to 575 for Hotpot, 4,011 for Speech-to-Text, and 14,507 for Vosk, Ghost Pepper lacks significant differentiation, failing to stand out from its competitors."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Having 2 contributors and 165 GitHub stars, with the last commit being 0 days ago, indicates some community activity, but it's still a relatively small and potentially fragile ecosystem."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the ease of use is severely impacted, suggesting significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "As a CLI tool without a PyPI package and no API modes mentioned beyond CLI, integration into existing workflows may be challenging, though its use of Swift might offer some unique advantages for macOS-centric development."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of Ghost Pepper's documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the data, with the repository being only 17 days old and having 12 forks, but lacking information on open issues count and other maturity indicators, a neutral score is assigned due to insufficient data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is provided, making it impossible to assess the performance of Ghost Pepper relative to its competitors, thus a neutral score is given."
+    }
+  },
+  "summary": "Ghost Pepper is a hold-to-talk speech-to-text tool for macOS with a small but active community, facing challenges in usability and differentiation. It offers a unique approach but lacks significant traction compared to more established tools.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/matthartman/ghost-pepper",
+  "tool_url": "https://github.com/matthartman/ghost-pepper",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47666024",
+  "domain": "devtool",
+  "app_type": "devtool-speech_recognition",
+  "enriched": {
+    "github": {
+      "stars": 165,
+      "forks": 12,
+      "open_issues": 2,
+      "watchers": 165,
+      "contributors": 2,
+      "license": "none",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 17,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Hotpot",
+        "stars": 575,
+        "repo": "hotpotqa/hotpot"
+      },
+      {
+        "name": "Speech-to-Text",
+        "stars": 4011,
+        "repo": "buriburisuri/speech-to-text-wavenet"
+      },
+      {
+        "name": "Vosk",
+        "stars": 14507,
+        "repo": "alphacep/vosk-api"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
+}
