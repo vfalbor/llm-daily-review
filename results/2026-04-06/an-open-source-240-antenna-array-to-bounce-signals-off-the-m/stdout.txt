@@ -1,0 +1,8 @@
+INSTALL_OK
+TEST_FAIL:assemble_and_test_antenna_array_in_simulation:name 'simulated' is not defined
+TEST_SKIP:bounce_signals_off_the_moon_using_real_world_hardware:requires actual hardware
+BENCHMARK:signal_strength:%68.66
+BENCHMARK:signal_accuracy:%4.83
+TEST_PASS:measure_signal_strength_and_accuracy
+BENCHMARK:total_test_time_ms:0.02
+RUN_OK
