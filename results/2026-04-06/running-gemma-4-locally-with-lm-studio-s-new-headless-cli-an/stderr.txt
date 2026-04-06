@@ -1,0 +1,13 @@
+/bin/sh: docker: not found
+Traceback (most recent call last):
+  File "/app/test.py", line 60, in <module>
+    evaluate_performance()
+  File "/app/test.py", line 30, in evaluate_performance
+    importlib.import_module("transformers")
+  File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'transformers'
