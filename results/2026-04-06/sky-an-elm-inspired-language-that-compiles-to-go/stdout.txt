@@ -1,0 +1,9 @@
+INSTALLING Sky
+INSTALL_OK
+RUNNING Hello World program
+TEST_FAIL:Hello World:[Errno 2] No such file or directory: 'sky'
+RUNNING type inference test
+TEST_FAIL:Type Inference:[Errno 2] No such file or directory: 'sky'
+RUNNING performance comparison test
+TEST_FAIL:Performance Comparison:[Errno 2] No such file or directory: 'go'
+RUN_OK
