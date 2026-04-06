@@ -1,0 +1,60 @@
+{
+  "app_name": "Reducto Deep Extract",
+  "url": "https://reducto.ai/blog/reducto-deep-extract-agent",
+  "scored_at": "2026-04-06T18:11:40.438Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No specific data on days_since_created, is_fork, or comparison to similar tools is available, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false, indicating difficulties in setting up the application, and it requires an API key, which may limit accessibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an LLM-framework, it fits into the current AI development landscape, but the exact relevance cannot be determined without more specific data on its application type and current ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Comparing to similar tools like Stanford CoreNLP, spaCy, and AllenNLP, without specific benchmark comparisons or star ratings, it's challenging to determine a clear differentiation advantage, but it seems to offer a unique approach to entity extraction and relation mining."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected or API was unavailable, indicating a lack of open-source community involvement, and without GitHub stars or contributors count, the community support is deemed minimal."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant issues with usability and functionality."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The application has CLI and API use modes, but no PyPI package was found, which complicates integration, and it requires an API key, further complicating use."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on documentation quality, wiki availability, or GitHub topics count is provided, leading to a neutral score of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on days since created, forks count, or open issues is available, resulting in a neutral score of 5 for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines from tests are available to assess performance, leading to a neutral score of 5."
+    }
+  },
+  "summary": "Reducto Deep Extract is an LLM-based AI agent with potential but faces significant challenges in installation, community support, and usability, limiting its current value.",
+  "recommendation": "niche",
+  "app_url": "https://reducto.ai/blog/reducto-deep-extract-agent",
+  "tool_url": null,
+  "source_type": "tutorial",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
+}
