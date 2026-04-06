@@ -1,0 +1,39 @@
+{
+  "app_name": "GuppyLM",
+  "url": "https://github.com/arman-bd/guppylm",
+  "scored_at": "2026-04-06T13:51:20.176Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides a unique approach to demystify how language models work by being a tiny language model itself, but its novelty is somewhat reduced due to similarities with existing tools like transformers and torch."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installs quickly with a low install time of 6 seconds, but the install process seems to have been successful, despite errors in the basic run."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "GuppyLM addresses a relevant aspect of the current AI landscape by educating users about LLMs, but its relevance could be higher if it addressed more pressing pain points in LLM workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "GuppyLM differentiates itself by its tiny size and educational purpose, but it doesn't offer significant advantages over established alternatives like transformers and torch in terms of functionality or performance."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project is open-source and has a GitHub repository, but there's limited information available about its community size, activity, or documentation quality."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The app failed the basic run test, indicating potential usability issues or lack of clear documentation, despite having both CLI and Python API interfaces."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "GuppyLM provides a Python API, but the error log suggests issues with importing the module, and there's no clear information about its integration capabilities or compatibility with existing workflows."
+    }
+  },
+  "summary": "GuppyLM is a tiny language model designed to educate users about how LLMs work, offering a unique approach but lacking in differentiation and ease of use. Its potential value lies in its educational aspect, but it needs improvement in several areas to be more effective.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/arman-bd/guppylm"
+}
