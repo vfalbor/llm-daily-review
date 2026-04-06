@@ -1,39 +1,46 @@
 {
-  "app_name": "Gemma 4 Local Runner",
+  "app_name": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
   "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
-  "scored_at": "2026-04-06T13:52:13.401Z",
-  "total_score": 40,
+  "scored_at": "2026-04-06T14:19:00.409Z",
+  "total_score": 9,
   "scores": {
     "novelty": {
-      "score": 7,
-      "justification": "The app provides a unique solution for running Gemma 4 locally, which is a meaningful improvement on existing tools. However, it is not a first-of-its-kind approach, as similar solutions exist, such as Google Colab and Microsoft Azure Notebooks."
+      "score": 2,
+      "justification": "The app is a gemma-integration tool with no unique features compared to similar tools like gemma-code, gemma-ui, and claude-code, and its description does not indicate any first-of-its-kind approach."
     },
     "system_requirements": {
-      "score": 8,
-      "justification": "The app has a simple setup, with an install time of 6.1 seconds, and clear documentation. However, it requires Docker to be installed, which may not be the case for all users."
+      "score": 0,
+      "justification": "The install success is false, indicating that the installation process failed, and there is no PyPI package found, making it not pip-installable."
     },
     "current_relevance": {
-      "score": 8,
-      "justification": "The app addresses a current need in the AI development landscape, providing a way to run Gemma 4 locally, which is a relevant and useful tool for many developers. However, the error log suggests that there may be some issues with the app's compatibility with certain environments."
+      "score": 5,
+      "justification": "The app is a gemma-integration tool, which might be useful but its relevance is unclear as it does not clearly address an acute pain point in today's LLM workflows."
     },
     "differentiation": {
-      "score": 5,
-      "justification": "The app has one notable advantage, which is the ability to run Gemma 4 locally. However, it does not have a unique feature set, and its advantages over existing solutions are not clear. The error log also suggests that the app may have some issues with compatibility and usability."
+      "score": 0,
+      "justification": "The app has no discernible advantage compared to the closest 2-3 alternatives like gemma-code, gemma-ui, and claude-code, as there is no information about its unique features or benchmark comparisons."
     },
     "community": {
-      "score": 3,
-      "justification": "The app does not have a strong community or ecosystem, as it is not open-source and does not have a GitHub repository. The error log also suggests that the app may not be well-maintained, as there are issues with compatibility and usability."
+      "score": 0,
+      "justification": "There is no GitHub repository detected or API unavailable, indicating no community or ecosystem for the project."
     },
     "ease_of_use": {
-      "score": 5,
-      "justification": "The app has a simple setup, but the error log suggests that there may be some issues with usability, such as the requirement for Docker to be installed. The app also failed one of the two tests, which suggests that it may not be easy to use for all users."
+      "score": 0,
+      "justification": "The tests passed is 0 / 0, indicating that no tests were run, and the basic run success is false, indicating that the app could not complete basic tests."
     },
     "ease_of_integration": {
-      "score": 4,
-      "justification": "The app does not have a clean REST API or Python SDK, and it requires Docker to be installed, which may make it difficult to integrate into existing workflows or pipelines. The error log also suggests that there may be some issues with compatibility and usability."
+      "score": 2,
+      "justification": "The app has a CLI mode, but there is no PyPI or npm package, and the license is unknown, making integration difficult."
     }
   },
-  "summary": "The Gemma 4 Local Runner app provides a unique solution for running Gemma 4 locally, but it has some issues with compatibility, usability, and maintainability. The app may be useful for some developers, but it requires further development and testing to become a strong candidate.",
-  "recommendation": "niche",
-  "app_url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with"
+  "summary": "This app is a gemma-integration tool that failed to install and has no clear advantages over similar tools, and its relevance to the current LLM ecosystem is unclear.",
+  "recommendation": "skip",
+  "app_url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
 }
