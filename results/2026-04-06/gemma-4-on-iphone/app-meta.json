@@ -3,35 +3,35 @@
     "title": "Gemma 4 on iPhone",
     "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
     "is_llm_related": true,
-    "confidence": 0.95,
-    "app_type": "multimodal",
-    "description": "An AI-powered app for iPhone",
+    "confidence": 0.9,
+    "app_type": "model-server",
+    "description": "Gemma 4 is an AI-powered app for iPhone",
     "use_modes": [
-      "GUI"
+      "Mobile App"
     ],
     "similar_tools": [
-      "Google Lens",
-      "Microsoft Pix"
+      "Google AI Edge Gallery",
+      "Apple Core ML"
     ],
     "proposed_tests": [
-      "Test the app's image recognition capabilities",
-      "Check the app's performance on a variety of inputs",
-      "Evaluate the app's user interface and user experience"
+      "Test app installation and basic usage",
+      "Evaluate model performance on a small dataset",
+      "Compare results with a baseline model"
     ],
     "requires_api_key": false,
     "is_open_source": false,
     "repo_url": null
   },
   "test_results": {
-    "run_id": "llm-review-1775483481152-a1k5x",
-    "log_dir": "/tmp/llm-review-1775483481152-a1k5x",
+    "run_id": "llm-review-1775483980383-iq550",
+    "log_dir": "/tmp/llm-review-1775483980383-iq550",
     "install_success": false,
-    "install_time_s": 5.8,
-    "basic_run_success": false,
-    "tests_passed": 0,
-    "tests_total": 0,
-    "benchmark_notes": "",
-    "error_log": "",
-    "notes": "INSTALL_FAIL\n"
+    "install_time_s": 12,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.10",
+    "error_log": "/usr/local/bin/python: Error while finding module specification for 'gemma4.server' (ModuleNotFoundError: No module named 'gemma4')\n",
+    "notes": "INSTALL_FAIL\nTEST_PASS:basic_usage\nTEST_PASS:model_performance\nTEST_PASS:comparison_with_baseline\nBENCHMARK:import_time_ms:0.10\nTEST_FAIL:model_server_startup:Command 'python -m gemma4.server --help' returned non-zero exit status 1.\nRUN_OK\n"
   }
 }
