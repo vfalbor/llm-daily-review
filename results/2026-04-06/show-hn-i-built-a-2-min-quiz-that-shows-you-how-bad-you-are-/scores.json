@@ -1,0 +1,79 @@
+{
+  "app_name": "Convexly",
+  "url": "https://www.convexly.app/",
+  "scored_at": "2026-04-06T20:44:50.253Z",
+  "total_score": 38,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on days_since_created or is_fork is available to assess novelty, scoring 5 due to insufficient information."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success was false and there's no PyPI package, indicating significant issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "No clear data on app_type and its fit with current LLM ecosystem trends, scoring 5 due to lack of information."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No direct comparison can be made to similar tools like Estimote (1176 stars), Estimation game (12 stars), and Guesstimator (87 stars) due to lack of concrete data on Convexly's GitHub presence, scoring 5."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected, indicating a lack of community engagement and scoring 1 due to the absence of any community indicators."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were run (0/0), and basic run success was false, indicating significant ease of use issues, scoring 1."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While Convexly has use modes like Web application, API, and Config file, there's no PyPI package, scoring 5 due to mixed information on ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information is available on has_wiki, has_pages, or GitHub topics count, scoring 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on days_since_created, forks count, or open_issues is available to assess maturity, scoring 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines from tests are available to assess performance, scoring 5 due to lack of performance data."
+    }
+  },
+  "summary": "Convexly is a tool for estimating ability with significant challenges in installation and community engagement, lacking clear differentiation and documentation. Its value is hard to assess due to insufficient data and failed installation and test runs.",
+  "recommendation": "niche",
+  "app_url": "https://www.convexly.app/",
+  "tool_url": "https://github.com/yourname/convexly",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47660262",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Estimote",
+        "stars": 1176,
+        "repo": "Estimote/iOS-Fleet-Management-SDK"
+      },
+      {
+        "name": "Estimation game",
+        "stars": 12,
+        "repo": "YoavRozov/FRC-Game-Piece-Pos-Estimation"
+      },
+      {
+        "name": "Guesstimator",
+        "stars": 87,
+        "repo": "leerob/Guesstimator"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
+}
