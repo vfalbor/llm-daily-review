@@ -1,0 +1,60 @@
+{
+  "app_name": "MoonRF",
+  "url": "https://moonrf.com/",
+  "scored_at": "2026-04-06T18:12:45.309Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "This MoonRF tool brings a unique approach to radio hardware with its 240-antenna array, providing an innovative method to bounce signals off the Moon."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "While install success is true and install time is a short 5.8s, the lack of PyPI availability limits its accessibility; thus, a neutral score is warranted due to insufficient data on system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware-iot tool, MoonRF fits into the current landscape of IoT projects but doesn't directly address a pressing issue in the LLM ecosystem, so its relevance is moderate."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "MoonRF's unique selling point is its 240-antenna array for bouncing signals off the Moon, which differentiates it significantly from other radio hardware projects."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Since no GitHub repository was detected, community health and involvement cannot be evaluated, leading to a neutral score due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed, indicating potential usability issues or errors in the setup process."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool's hardware nature and lack of a PyPI package or any mentioned API modes make it difficult to integrate into existing workflows or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to the absence of detailed information on documentation, such as the presence of a wiki, pages, or GitHub topics, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With insufficient data on days since creation, forks, and open issues, maturity cannot be accurately assessed, leading to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements like signal strength and accuracy, without direct comparisons to similar tools or a clear indication of how these benchmarks translate to real-world performance, a neutral score is applied."
+    }
+  },
+  "summary": "MoonRF is an open-source tool featuring a 240-antenna array for bouncing signals off the Moon, bringing novelty and differentiation but faces challenges in ease of use and integration. Its value lies in its unique approach to radio hardware, but further development and community engagement are needed.",
+  "recommendation": "niche",
+  "app_url": "https://moonrf.com/",
+  "tool_url": "https://moonrf.com/",
+  "source_type": "tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3
+  }
+}
