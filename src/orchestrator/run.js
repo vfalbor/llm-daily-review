@@ -55,7 +55,7 @@ async function main() {
       await markTested(app, scored);
       dailyResults.push(scored);
 
-      log.info(`  Scored: ${scored.total_score}/70 — ${scored.recommendation} (tests: ${testResults.tests_passed}/${testResults.tests_total} passed)`);
+      log.info(`  Scored: ${scored.total_score}/100 — ${scored.recommendation} (tests: ${testResults.tests_passed}/${testResults.tests_total} passed)`);
     } catch (err) {
       log.error(`  Failed to test ${app.title}: ${err.message}`);
     }
