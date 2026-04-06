@@ -1,0 +1,79 @@
+{
+  "app_name": "Docking",
+  "url": "https://docking.cc/",
+  "scored_at": "2026-04-06T20:44:33.046Z",
+  "total_score": 30,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data available for novelty score, as there's no GitHub repository detected and no comparison to similar tools can be made directly from the provided data."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The install success is false, which indicates significant issues with system requirements, despite the PyPI package existence being unavailable."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Without specific data on the app's type and its fit with current LLM ecosystem trends, the score is neutral."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Given the lack of direct comparison data and benchmark results, differentiation is hard to assess, but the presence of similar tools like Dmenu (958 stars) and Rofi (15,898 stars) suggests a high bar for differentiation."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected, which severely limits the ability to assess community engagement or health based on stars, contributors, or update history."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With install success being false and no tests passing, ease of use is severely impacted, reflecting significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has command-line, API, and config file use modes, but lacks a PyPI package, complicating integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data regarding the presence of a wiki, pages, or GitHub topics to accurately assess documentation quality."
+    },
+    "maturity": {
+      "score": 1,
+      "justification": "Given the absence of a GitHub repository and the stated lack of pip-installability, the project appears to be in a very early stage of development or not publicly accessible."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data available to assess performance, leading to a neutral score."
+    }
+  },
+  "summary": "Docking is an extensible Linux dock in Python but lacks sufficient data for a comprehensive evaluation. Its current state, with no GitHub repository and failed installation, raises concerns about its usability and maturity.",
+  "recommendation": "skip",
+  "app_url": "https://docking.cc/",
+  "tool_url": "https://github.com/yourname/docking",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47637206",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Dmenu",
+        "stars": 958,
+        "repo": "firecat53/networkmanager-dmenu"
+      },
+      {
+        "name": "Rofi",
+        "stars": 15898,
+        "repo": "davatorium/rofi"
+      },
+      {
+        "name": "i3-dock",
+        "stars": 27,
+        "repo": "fennerm/arch-i3-novnc-docker"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
+}
