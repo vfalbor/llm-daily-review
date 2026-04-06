@@ -5,33 +5,33 @@
     "is_llm_related": true,
     "confidence": 0.9,
     "app_type": "prompt-tool",
-    "description": "A tool for efficient token usage",
+    "description": "Caveman is a tool for optimizing token usage",
     "use_modes": [
-      "CLI"
+      "CLI",
+      "Python API"
     ],
     "similar_tools": [
-      "tokenizers",
-      "pretrained-language-models"
+      "token optimization tools"
     ],
     "proposed_tests": [
-      "Test the app's token efficiency capabilities",
-      "Evaluate the app's performance on a variety of inputs",
-      "Check the app's user interface and user experience"
+      "Test installation and basic usage",
+      "Evaluate model performance on a small dataset",
+      "Compare results with a baseline model"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/JuliusBrussee/caveman"
   },
   "test_results": {
-    "run_id": "llm-review-1775483586266-3ljqh",
-    "log_dir": "/tmp/llm-review-1775483586266-3ljqh",
+    "run_id": "llm-review-1775484535749-m2clj",
+    "log_dir": "/tmp/llm-review-1775484535749-m2clj",
     "install_success": false,
-    "install_time_s": 5.9,
-    "basic_run_success": false,
+    "install_time_s": 6.4,
+    "basic_run_success": true,
     "tests_passed": 0,
-    "tests_total": 0,
+    "tests_total": 1,
     "benchmark_notes": "",
     "error_log": "",
-    "notes": "INSTALL_FAIL\n"
+    "notes": "=== LLM Daily Review — Fallback Test Runner ===\nApp: Caveman: Why use many token when few token do trick\nType: prompt-tool\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement caveman-why-use-many-token-when-few-token-do-trick (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for caveman-w\nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
   }
 }
