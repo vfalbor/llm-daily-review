@@ -1,39 +1,83 @@
 {
   "app_name": "Gemma Gem",
   "url": "https://github.com/kessler/gemma-gem",
-  "scored_at": "2026-04-06T13:52:33.826Z",
-  "total_score": 30,
+  "scored_at": "2026-04-06T14:19:48.448Z",
+  "total_score": 19,
   "scores": {
     "novelty": {
-      "score": 8,
-      "justification": "The app embeds an AI model in a browser, which is a unique approach, but not entirely new, as seen in tools like Google Lens and Microsoft Pix."
+      "score": 4,
+      "justification": "The app is not a fork, and its primary language is TypeScript, but with 0 days since creation, it's difficult to assess its original contribution, citing days_since_repo_created: 0."
     },
     "system_requirements": {
-      "score": 2,
-      "justification": "The app failed to install, with an error log indicating that no matching distribution was found for gemma-gem, despite a short install time of 6.1 seconds."
+      "score": 0,
+      "justification": "The app's install_success is false, and it's not pip-installable, as there is no PyPI package found, citing install_success: false and PyPI existence: false."
     },
     "current_relevance": {
-      "score": 6,
-      "justification": "The app's focus on AI model embedding is relevant, but its inability to install and run limits its current usefulness in today's LLM workflows."
+      "score": 5,
+      "justification": "The app is an ai-powered-broker, which is somewhat relevant to the current LLM ecosystem, but its type doesn't perfectly align with current trends, citing app_type: ai-powered-broker."
     },
     "differentiation": {
       "score": 5,
-      "justification": "The app's browser-embedded AI model offers some differentiation, but its similarity to existing tools like Google Lens and Microsoft Pix reduces its unique value proposition."
+      "justification": "The app has more GitHub stars than similar tools like gemma-browser and gemma-web, but significantly fewer than claude-web, citing GitHub stars: 226 vs claude-web: 998 stars."
     },
     "community": {
-      "score": 4,
-      "justification": "As an open-source project on GitHub, Gemma Gem has some community potential, but its current lack of installation success and limited documentation hinder its community growth."
+      "score": 3,
+      "justification": "The app has 226 GitHub stars, 1 contributor, and 0 open issues, but with only 1 contributor and 0 days since the last commit, the community is not very active, citing GitHub stars: 226, contributors: 1, and days_since_last_commit: 0."
     },
     "ease_of_use": {
-      "score": 2,
-      "justification": "The app's installation failure and lack of successful tests indicate significant ease-of-use issues, despite its proposed GUI-based interface."
+      "score": 0,
+      "justification": "No tests were passed out of 0 total tests, and the basic run was not successful, citing tests_passed: 0 / tests_total: 0 and basic_run_success: false."
     },
     "ease_of_integration": {
-      "score": 3,
-      "justification": "Without a successful installation, integrating Gemma Gem into existing workflows or pipelines is not feasible at this time."
+      "score": 2,
+      "justification": "The app has no PyPI package, but it does have a license, citing PyPI existence: false and license: Apache-2.0."
     }
   },
-  "summary": "Gemma Gem is an AI model embedded in a browser, offering a unique approach, but its installation failure and ease-of-use issues limit its current value. The app's relevance and differentiation are hindered by its similarity to existing tools and its lack of community traction.",
+  "summary": "Gemma Gem is an AI model embedded in a browser with no API keys or cloud requirements, but it has significant installation issues and lacks a strong community. It has some relevance to the current LLM ecosystem as an ai-powered-broker.",
   "recommendation": "skip",
-  "app_url": "https://github.com/kessler/gemma-gem"
+  "app_url": "https://github.com/kessler/gemma-gem",
+  "enriched": {
+    "github": {
+      "stars": 226,
+      "forks": 16,
+      "open_issues": 0,
+      "watchers": 226,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Gemma Gem runs Google's Gemma 4 model entirely on-device via WebGPU — no API keys, no cloud, no data leaving your machine.",
+      "topics": [
+        "ai",
+        "chrome-extension",
+        "gemma4",
+        "gemma4-2b",
+        "llm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "gemma-browser",
+        "stars": 2,
+        "repo": "lagna360/gemma3-270m-browser-demo"
+      },
+      {
+        "name": "gemma-web",
+        "stars": 9,
+        "repo": "Violet-sword/Google-MedGemma-WebUI"
+      },
+      {
+        "name": "claude-web",
+        "stars": 998,
+        "repo": "sugyan/claude-code-webui"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
 }
