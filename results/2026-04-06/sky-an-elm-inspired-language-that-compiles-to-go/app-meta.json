@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Sky – an Elm-inspired language that compiles to Go",
+    "url": "https://github.com/anzellai/sky",
+    "hn_url": "https://news.ycombinator.com/item?id=47662116",
+    "points": 32,
+    "comments": 3,
+    "author": "whalesalad",
+    "age": "2026-04-06T15:22:53 1775488973",
+    "scraped_at": "2026-04-06T18:08:50.223Z",
+    "is_reviewable": true,
+    "confidence": 0.89,
+    "domain": "language",
+    "app_type": "lang-runtime",
+    "description": "Elm-inspired language with type inference, compile-time evaluation",
+    "use_modes": [
+      "SDK"
+    ],
+    "similar_tools": [
+      "Elm",
+      "Elixir",
+      "Haskell"
+    ],
+    "proposed_tests": [
+      "Install and run basic Hello World program",
+      "Infer types for a sample program",
+      "Compare runtime performance with Go"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/anzellai/sky",
+    "tool_url": "https://github.com/anzellai/sky",
+    "source_type": "tool"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499049150-6cx7g",
+    "log_dir": "/tmp/llm-review-1775499049150-6cx7g",
+    "install_success": true,
+    "install_time_s": 5.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "INSTALLING Sky\nINSTALL_OK\nRUNNING Hello World program\nTEST_FAIL:Hello World:[Errno 2] No such file or directory: 'sky'\nRUNNING type inference test\nTEST_FAIL:Type Inference:[Errno 2] No such file or directory: 'sky'\nRUNNING performance comparison test\nTEST_FAIL:Performance Comparison:[Errno 2] No such file or directory: 'go'\nRUN_OK\n"
+  }
+}
