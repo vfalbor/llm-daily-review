@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "sc-im Spreadsheets in Your Terminal",
+    "url": "https://github.com/andmarti1424/sc-im",
+    "hn_url": "https://news.ycombinator.com/item?id=47662658",
+    "points": 58,
+    "comments": 13,
+    "author": "m-hodges",
+    "age": "2026-04-06T16:00:29 1775491229",
+    "scraped_at": "2026-04-06T18:08:50.221Z",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "spreadsheet engine for terminal and scripting",
+    "use_modes": [
+      "CLI",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Calc",
+      "Spread",
+      "tkc"
+    ],
+    "proposed_tests": [
+      "Create and open a spreadsheet in the terminal",
+      "Insert a function and evaluate the result",
+      "Export to CSV and verify format"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/andmarti1424/sc-im",
+    "tool_url": "https://github.com/andmarti1424/sc-im",
+    "source_type": "tool"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499027786-y575j",
+    "log_dir": "/tmp/llm-review-1775499027786-y575j",
+    "install_success": false,
+    "install_time_s": 5.6,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 18, in <module>\n    output = subprocess.check_output([\"sc-im\", \"-c\", \"2+2\"], text=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'sc-im'\n",
+    "notes": "TEST_PASS:spreadsheet_creation\n"
+  }
+}
