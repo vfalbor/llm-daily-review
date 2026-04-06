@@ -57,27 +57,46 @@ Called by orchestrator after hn-scraper, receives raw item list.
 
 ## What to include (is_reviewable = true)
 
-- **Show HN** posts with a concrete tool, library, app, or project
-- Articles/tutorials that describe a specific named tool (set source_type accordingly)
-- Research papers with runnable code or a named artifact
-- Open datasets or benchmarks people can use
+**The primary criterion**: there must be a concrete, installable or runnable software
+artifact that can be tested independently. Ask: "Can I download/install/run this right now?"
+
+- **Show HN** posts with a tool, library, framework, app, or open-source project
+- Research papers that ship a named, runnable artifact (code, model, dataset)
+- Open datasets or benchmarks with a download URL
 - Open-source models people can run locally
 
 ## What to exclude (is_reviewable = false)
 
-- Pure opinion pieces ("AI will change everything")
-- Ask HN questions with no specific tool
-- News about companies (funding, acquisitions) with no new tool
-- Generic tutorials with no specific tool (e.g., "How to learn Python")
+- Blog posts and personal stories ("Eight years of wanting...", "How I built X")
+- Tutorials that explain how to use an *existing* tool — no new software introduced
+- Articles about tools that already exist (e.g. "Running Gemma with LM Studio" → LM Studio is not new)
+- Opinion pieces, editorials, news about companies or funding
+- Ask HN / Tell HN with no linked software artifact
 - Paywalled content with no evaluable artifact
+- Videos, podcasts, or slide decks without accompanying code
+- Announcements of features in closed/proprietary SaaS with no testable interface
 
-## Article / post handling
+**Key rule**: if the item's primary value is the *writing* rather than the *software*, exclude it.
+A blog post that mentions 10 tools is NOT 10 reviewable items — it is 0.
 
-For articles that describe a specific tool:
-1. Set `source_type = "article"` or `"tutorial"`
-2. Infer `tool_url` from title/context (e.g. "How we built X with Drizzle ORM" → drizzle-orm GitHub)
-3. Set `app_type` for the described tool, not the article
-4. Proposed tests target the tool, not the article URL
+## Article / post handling (narrow exception)
+
+Include an article ONLY if ALL of the following are true:
+1. The article introduces a **new, specific tool** not previously known
+2. That tool has its own GitHub/package URL distinct from the article URL
+3. The tool can be installed and tested independently of the article
+
+Examples:
+- OK: "Show HN: I built FastEval" → tool_url = github.com/x/fasteval (new tool, runnable)
+- OK: Article with inline code + GitHub repo → tool_url = the repo, tests run against the code
+- NOT OK: "Running Gemma 4 with LM Studio" → LM Studio already exists, no new tool
+- NOT OK: "Eight years of wanting, built with AI" → personal story, no software artifact
+- NOT OK: "How we use LangChain in production" → tutorial about existing tool, no new code
+
+**What gets tested is always the code, never the article itself.**
+If an article links to a repo with runnable code → include it, set tool_url to the repo, run tests on that code.
+If an article has inline code snippets but no repo → exclude (not independently installable).
+If an article describes a technique with no named tool → exclude.
 
 ---
 
