@@ -7,7 +7,7 @@ import { execSync, spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
 import os from 'os';
-import { callGroq } from '../llm/groq-adapter.js';
+import { callGroq, GROQ_MODEL_POWERFUL } from '../llm/groq-adapter.js';
 
 const CONTAINER_TIMEOUT_S = 180;
 const BASE_IMAGE = 'python:3.12-alpine';
@@ -120,7 +120,7 @@ Example: BENCHMARK:import_time_ms:142
 Example: BENCHMARK:vs_langchain:faster_install`;
 
   try {
-    const code = await callGroq(systemPrompt, userPrompt, 3000);
+    const code = await callGroq(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
     // Strip any accidental markdown fences
     return code.replace(/^```python\n?|^```\n?|```$/gm, '').trim();
   } catch (err) {

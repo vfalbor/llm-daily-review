@@ -5,7 +5,7 @@
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { callGroq } from '../llm/groq-adapter.js';
+import { callGroq, GROQ_MODEL_FAST } from '../llm/groq-adapter.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const SKILL_MD = readFileSync(join(__dir, '../../skills/app-identifier/SKILL.md'), 'utf8');
@@ -30,7 +30,8 @@ ${list}`;
   const raw = await callGroq(
     'You are an expert AI/ML tool classifier. Follow the skill definition exactly. Return ONLY valid JSON, no markdown fences.',
     userPrompt,
-    4096
+    4096,
+    GROQ_MODEL_FAST   // classification only needs fast/cheap model
   );
 
   let classified;
