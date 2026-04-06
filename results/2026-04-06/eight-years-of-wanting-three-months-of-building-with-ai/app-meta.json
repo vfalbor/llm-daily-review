@@ -3,28 +3,28 @@
     "title": "Eight years of wanting, three months of building with AI",
     "url": "https://lalitm.com/post/building-syntaqlite-ai/",
     "is_llm_related": true,
-    "confidence": 0.95,
-    "app_type": "fine-tuning",
-    "description": "Eight years of wanting, three months of building with AI",
+    "confidence": 0.91,
+    "app_type": "ai-powered-software",
+    "description": "",
     "use_modes": [
-      "Webpage"
+      "Web App"
     ],
     "similar_tools": [
-      "Gemma 4",
-      "Google AI-Edge Gallery"
+      "google-gemmma",
+      "google-ai-editions",
+      "google-ai-poly"
     ],
     "proposed_tests": [
-      "Explore the project's README and code",
-      "Run the model on a small dataset",
-      "Test the model's output for accuracy"
+      "Run with multiple models and see results",
+      "Test output with a toy dataset"
     ],
     "requires_api_key": false,
     "is_open_source": false,
-    "repo_url": null
+    "repo_url": "https://github.com/delimitry/syntaqlite"
   },
   "test_results": {
-    "run_id": "llm-review-1775485190666-blxv7",
-    "log_dir": "/tmp/llm-review-1775485190666-blxv7",
+    "run_id": "llm-review-1775485205550-pl011",
+    "log_dir": "/tmp/llm-review-1775485205550-pl011",
     "install_success": false,
     "install_time_s": 0,
     "basic_run_success": false,
