@@ -233,6 +233,43 @@
     .badge-niche { background: var(--border); color: var(--muted); }
     .badge-skip { background: var(--red-light); color: var(--red); }
 
+    /* ── Legend ── */
+    .legend {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .legend-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      color: var(--muted);
+      align-self: center;
+      margin-right: 4px;
+      white-space: nowrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+    }
+    .legend-item .badge { font-size: 11px; white-space: nowrap; }
+    .legend-desc { color: var(--muted); font-size: 11px; }
+    .legend-score {
+      width: 100%;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
     .total-score { display: flex; align-items: baseline; gap: 2px; flex-shrink: 0; }
     .total-score .big { font-size: 26px; font-weight: 700; line-height: 1; }
     .total-score .max { font-size: 12px; color: var(--muted); }
@@ -346,6 +383,28 @@
       <div class="day-header">
         <h1 id="results-title">Today's results</h1>
         <p id="results-subtitle">Select a date from the calendar to load results.</p>
+      </div>
+
+      <!-- Score legend -->
+      <div class="legend">
+        <span class="legend-title">Recommendation:</span>
+        <span class="legend-item">
+          <span class="badge badge-strong">⭐ Strong candidate</span>
+          <span class="legend-desc">Score ≥78 and novelty ≥7. Genuinely innovative, works well, worth adopting.</span>
+        </span>
+        <span class="legend-item">
+          <span class="badge badge-watching">👀 Worth watching</span>
+          <span class="legend-desc">Score ≥57. Solid project with clear value — keep an eye on it.</span>
+        </span>
+        <span class="legend-item">
+          <span class="badge badge-niche">🔍 Niche</span>
+          <span class="legend-desc">Score 35–56. Useful for a specific audience or use case, not broadly applicable.</span>
+        </span>
+        <span class="legend-item">
+          <span class="badge badge-skip">⏭ Skip</span>
+          <span class="legend-desc">Score &lt;35 or differentiation ≤3. Too similar to existing tools, broken, or not enough substance to evaluate.</span>
+        </span>
+        <span class="legend-score">Score is out of 100 (10 criteria × 10 pts each).</span>
       </div>
 
       <div class="tabs">
