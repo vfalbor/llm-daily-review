@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "LÖVE: 2D Game Framework for Lua",
+    "url": "https://github.com/love2d/love",
+    "hn_url": "https://news.ycombinator.com/item?id=47637377",
+    "points": 385,
+    "comments": 199,
+    "author": "cl3misch",
+    "age": "2026-04-04T09:20:34 1775294434",
+    "scraped_at": "2026-04-06T18:08:50.228Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "mobile",
+    "app_type": "mobile-cross",
+    "description": "2D Game Framework for Lua",
+    "use_modes": [
+      "CLI",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Pygame",
+      "Pyglet",
+      "SDL"
+    ],
+    "proposed_tests": [
+      "Clone LÖVE repository and create a simple 2D game",
+      "Run the game and check performance on various GPUs",
+      "Compare ease of use vs. Pygame"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/love2d/love",
+    "tool_url": "https://github.com/love2d/love"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499166321-trwpl",
+    "log_dir": "/tmp/llm-review-1775499166321-trwpl",
+    "install_success": true,
+    "install_time_s": 5.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "INSTALL_OK\nTEST_SKIP:import_love2d:love2d not found\nTEST_PASS:create_simple_game\nTEST_SKIP:run_game:LOVE_EXECUTABLE not found\nTEST_FAIL:import_pygame:No module named 'pygame'\nTEST_FAIL:import_pygame:No module named 'pygame'\nTEST_SKIP:import_love2d:love2d not found\nRUN_OK\n"
+  }
+}
