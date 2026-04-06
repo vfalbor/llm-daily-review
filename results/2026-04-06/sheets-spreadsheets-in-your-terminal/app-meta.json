@@ -1,0 +1,37 @@
+{
+  "app": {
+    "title": "Sheets Spreadsheets in Your Terminal",
+    "url": "https://github.com/maaslalani/sheets",
+    "is_llm_related": true,
+    "confidence": 0.98,
+    "app_type": "spreadsheet-app",
+    "description": "",
+    "use_modes": [
+      "Terminal App"
+    ],
+    "similar_tools": [
+      "google-sheets",
+      "Microsoft-Excel",
+      "airtable"
+    ],
+    "proposed_tests": [
+      "Open with multiple models",
+      "Compare results with expected output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/maaslalani/sheets"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775485141345-u4xtx",
+    "log_dir": "/tmp/llm-review-1775485141345-u4xtx",
+    "install_success": false,
+    "install_time_s": 0,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
+  }
+}
