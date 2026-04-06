@@ -4,38 +4,38 @@
     "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
     "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
     "hn_url": "https://news.ycombinator.com/item?id=47651540",
-    "points": 315,
-    "comments": 76,
+    "points": 317,
+    "comments": 77,
     "author": "vbtechguy",
     "age": "2026-04-05T17:13:51 1775409231",
-    "scraped_at": "2026-04-06T13:37:38.801Z",
+    "scraped_at": "2026-04-06T13:42:51.156Z",
     "is_llm_related": true,
-    "confidence": 0.8,
-    "app_type": "model-server",
+    "confidence": 0.9,
+    "app_type": "other-llm",
     "description": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
     "use_modes": [
       "CLI",
       "Python API"
     ],
     "similar_tools": [
-      "Hugging Face Transformers",
-      "TensorFlow Serving"
+      "Google Cloud AI",
+      "Microsoft Azure AI"
     ],
     "proposed_tests": [
-      "Test model serving",
-      "Evaluate model performance",
-      "Compare with a baseline model"
+      "Test local deployment",
+      "Test headless CLI functionality",
+      "Test Claude Code integration"
     ],
     "requires_api_key": false,
     "is_open_source": true
   },
   "test_results": {
-    "run_id": "llm-review-1775482681349-wklfi",
-    "log_dir": "/tmp/llm-review-1775482681349-wklfi",
+    "run_id": "llm-review-1775482981824-xalt8",
+    "log_dir": "/tmp/llm-review-1775482981824-xalt8",
     "install_success": true,
-    "install_time_s": 0.514,
+    "install_time_s": 0.505,
     "basic_run_success": true,
     "error_log": "",
-    "notes": "=== LLM Daily Review Test Runner ===\nApp: Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code\nType: model-server\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+    "notes": "=== LLM Daily Review Test Runner ===\nApp: Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code\nType: other-llm\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
   }
 }
