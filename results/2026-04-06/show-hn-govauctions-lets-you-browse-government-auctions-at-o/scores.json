@@ -1,0 +1,60 @@
+{
+  "app_name": "GovAuctions",
+  "url": "https://www.govauctions.app/",
+  "scored_at": "2026-04-06T18:12:12.030Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No specific data is available for novelty due to the lack of GitHub repository information and comparison to similar tools, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Although the install time is 7.3s, which is relatively fast, the absence of PyPI existence and the lack of detailed system requirements information leads to a neutral score of 5."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Without specific data on the app's type and its fit with current LLM ecosystem trends, a neutral score of 5 is assigned due to insufficient information."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No specific data is available for differentiation due to the absence of stars vs similar tools and BENCHMARK comparisons, resulting in a neutral score of 5."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected or API unavailable, indicating a lack of community engagement, resulting in a score of 1."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "With only 1 out of 4 tests passed, and considering the basic run success, the ease of use is compromised, leading to a score of 3, as the majority of tests failed."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The absence of a PyPI package and the lack of detailed API modes or license information make integration challenging, resulting in a score of 3."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available regarding the quality and completeness of documentation, tutorials, and examples, leading to a neutral score of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the lack of specific data on days since created, forks count, and open issues, a neutral score of 5 is assigned for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Although an import_time_ms of 0.02 is provided, without comparisons to similar tools or more detailed benchmark data, a neutral score of 5 is assigned for performance."
+    }
+  },
+  "summary": "GovAuctions is a web-based tool for browsing government auctions, with limited information available on its development and community. Its potential value is uncertain due to the lack of detailed data on its features and performance compared to similar tools.",
+  "recommendation": "niche",
+  "app_url": "https://www.govauctions.app/",
+  "tool_url": "https://www.govauctions.app/",
+  "source_type": "tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4
+  }
+}
