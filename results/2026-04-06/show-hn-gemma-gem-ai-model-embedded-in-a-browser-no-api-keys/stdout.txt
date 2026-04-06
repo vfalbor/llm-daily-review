@@ -1,7 +1,3 @@
-=== LLM Daily Review Test Runner ===
-App: Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud
-Type: other-llm
-TEST_1: SKIP (manual implementation needed)
-TEST_2: SKIP (manual implementation needed)
-TEST_3: SKIP (manual implementation needed)
+INSTALL_FAIL
+TEST_SKIP:all_tests:package_gemma-gem_not_installed
 RUN_OK
