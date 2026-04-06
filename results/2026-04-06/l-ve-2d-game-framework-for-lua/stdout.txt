@@ -1,0 +1,8 @@
+INSTALL_OK
+TEST_SKIP:import_love2d:love2d not found
+TEST_PASS:create_simple_game
+TEST_SKIP:run_game:LOVE_EXECUTABLE not found
+TEST_FAIL:import_pygame:No module named 'pygame'
+TEST_FAIL:import_pygame:No module named 'pygame'
+TEST_SKIP:import_love2d:love2d not found
+RUN_OK
