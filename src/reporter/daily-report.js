@@ -48,6 +48,7 @@ export function generateDailyReport(date, apps, { skipped = 0 } = {}) {
       lines.push('|---|---|---|');
 
       const criteria = [
+        ['hn_sentiment', 'HN Sentiment'],
         ['novelty', 'Novelty'],
         ['system_requirements', 'System requirements'],
         ['current_relevance', 'Current relevance'],

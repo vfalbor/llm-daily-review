@@ -351,7 +351,7 @@
       <div class="card">
         <div class="card-title">About</div>
         <p style="font-size:12px;color:var(--muted);line-height:1.7">
-          Every day at 15:00 UTC, Claude Code scrapes Hacker News, finds LLM-related apps, tests them in isolated Docker containers, and scores them across 10 criteria.<br><br>
+          Every day at 15:00 UTC, Claude Code scrapes Hacker News, finds LLM-related apps, tests them in isolated Docker containers, and scores them across 11 criteria.<br><br>
           All code and skills are open source under <strong>CC BY 4.0</strong>.
           Community can fork and adapt the scoring skills.
         </p>
@@ -375,7 +375,7 @@
           <span class="badge badge-skip">⏭ Skip</span>
           <span class="legend-desc">Score &lt;35 or differentiation ≤3. Too similar to existing tools, broken, or not enough substance to evaluate.</span>
         </div>
-        <div class="legend-score">Score is out of 100 (10 criteria × 10 pts each).</div>
+        <div class="legend-score">Score is weighted across 11 criteria, normalized to 100.</div>
       </div>
 
     </aside>
@@ -523,6 +523,7 @@ async function loadDayResults(date) {
 function renderAppCard(app) {
   const scores = app.scores || {};
   const criteria = [
+    ['hn_sentiment',       'HN Sentiment'],
     ['novelty',            'Novelty'],
     ['system_requirements','System req.'],
     ['current_relevance',  'Relevance'],

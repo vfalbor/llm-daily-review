@@ -2,7 +2,7 @@
 
 > Automated daily discovery and evaluation of LLM-related applications published on Hacker News.
 
-Every day at 15:00, this system scrapes the HN front page, filters LLM-related tools, tests each one in an isolated Docker container, scores it across 7 criteria, and publishes the results — daily report + weekly Top 5.
+Every day at 15:00, this system scrapes the HN front page, filters LLM-related tools, tests each one in an isolated Docker container, scores it across 11 criteria, and publishes the results — daily report + weekly Top 5.
 
 ---
 
@@ -16,19 +16,23 @@ Every day at 15:00, this system scrapes the HN front page, filters LLM-related t
 6. **Report generator** creates daily markdown + web entry
 7. **Newsletter** sends daily digest + weekly Top 5 (Fridays)
 
-## Scoring criteria (0–10 each)
+## Scoring criteria (11 weighted, normalized to 100)
 
-| Criterion | Description |
-|---|---|
-| **Novelty** | How new or original is the approach? |
-| **System requirements** | Ease of setup; resource demands |
-| **Current relevance** | Fit with the current AI landscape |
-| **Differentiation** | What sets it apart from similar tools? |
-| **Community** | Stars, contributors, activity, docs |
-| **Ease of use** | QA test results; UX quality |
-| **Ease of integration** | API, SDK, plugin ecosystem |
+| Criterion | Weight | Description |
+|---|---|---|
+| **HN Sentiment** | 15% | Community reception on Hacker News — points, comments, positive/negative signals |
+| **Novelty** | 11% | How new or original is the approach? |
+| **Current relevance** | 11% | Fit with the current AI landscape |
+| **Differentiation** | 11% | What sets it apart from similar tools? |
+| **Performance** | 10% | Benchmark results from automated tests |
+| **Ease of use** | 8% | QA test results; UX quality |
+| **Ease of integration** | 8% | API, SDK, plugin ecosystem |
+| **Documentation** | 7% | Wiki, pages, topics, written clarity |
+| **Maturity** | 7% | Age, forks, open issues |
+| **Community** | 7% | Stars, contributors, activity |
+| **System requirements** | 5% | Ease of setup; resource demands |
 
-Each score is accompanied by a brief written justification.
+Each criterion is scored 0–10 by the LLM. The final score is weighted and normalized to 100. When a criterion is N/A, its weight is redistributed among the active criteria.
 
 ## Skills
 
@@ -38,7 +42,7 @@ All skills live in `/skills/` and are public. The community can fork and improve
 |---|---|
 | `hn-scraper` | Fetch and parse HN front page |
 | `app-identifier` | Classify apps and filter LLM-related ones |
-| `app-scorer` | Score apps across 7 criteria |
+| `app-scorer` | Score apps across 11 criteria |
 | `weekly-top5` | Friday ranking logic |
 | `newsletter` | Daily + weekly email generation |
 

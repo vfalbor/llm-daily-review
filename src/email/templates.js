@@ -9,7 +9,7 @@ function escHtml(str) {
 
 function criterionLabel(key) {
   const labels = {
-    novelty: 'Novelty', system_requirements: 'System req.',
+    hn_sentiment: 'HN Sentiment', novelty: 'Novelty', system_requirements: 'System req.',
     current_relevance: 'Relevance', differentiation: 'Differentiation',
     community: 'Community', ease_of_use: 'Ease of use',
     ease_of_integration: 'Integration', documentation: 'Docs',
@@ -81,7 +81,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
 
       // All 10 criteria
       const allCriteria = [
-        'novelty','system_requirements','current_relevance','differentiation',
+        'hn_sentiment','novelty','system_requirements','current_relevance','differentiation',
         'community','ease_of_use','ease_of_integration','documentation','maturity','performance',
       ];
       const criteriaRows = allCriteria.map(key => {
@@ -235,7 +235,7 @@ ${apps_tested
       `  ${r.summary || a.summary || ''}`,
       `  Tests: ${tot > 0 ? `${t}/${tot} passed` : 'n/a'}`,
       `  URL: ${r.tool_url || r.app_url || a.url}`,
-      `  Artifacts: ${GITHUB_RESULTS_BASE}/${(a.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 60)}`,
+      `  Artifacts: ${GITHUB_RESULTS_BASE}/${date}/${ghSlug}`,
     ].join('\n');
   }).join('\n\n')}
 
