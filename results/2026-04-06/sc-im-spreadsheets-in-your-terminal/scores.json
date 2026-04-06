@@ -1,0 +1,99 @@
+{
+  "app_name": "sc-im",
+  "url": "https://github.com/andmarti1424/sc-im",
+  "scored_at": "2026-04-06T18:10:48.234Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app has 5,515 GitHub stars and is not a fork, indicating some original contribution, but with 4176 days since the repo was created, it's not entirely new, and the primary language is C, which is less common for modern development tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and there is no PyPI package found, making it not pip-installable, which significantly limits its accessibility, despite the relatively fast install time of 5.6s."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "There's insufficient data to accurately assess the app's relevance to current LLM ecosystem trends, as the provided data focuses more on the app's development and community aspects rather than its functional alignment with current AI development landscapes."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 5,515 GitHub stars, it differentiates itself significantly from tools like tkc (106 stars), showing a clear advantage, but it still lags behind larger projects like Calc (30,895 stars) and Spread (14,610 stars), indicating a unique position in the market."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The app has 5,515 GitHub stars, 228 forks, and 65 contributors, indicating a healthy community, but with 111 open issues and 68 days since the last commit, there's room for improvement in terms of maintainability and activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that only 1 out of 1 test passed and basic run success is false, alongside the install success being false, it's challenging to assess the app's ease of use accurately without more comprehensive test data."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of a PyPI package and the lack of information on a straightforward API or SDK for integration make it less easy to integrate into existing workflows, despite the stated use modes of CLI and SDK."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's insufficient data provided about the quality and completeness of the documentation, such as the presence of a wiki, pages, or GitHub topics, to accurately score this criterion."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 4176 days since the repo was created and 68 days since the last commit, the project shows signs of maturity but also potential neglect, as indicated by the time since the last update."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines provided from the tests to assess the app's performance quantitatively, leading to a neutral score due to insufficient data."
+    }
+  },
+  "summary": "sc-im is a spreadsheet engine for the terminal and scripting with a strong community presence but faces challenges in terms of ease of use, integration, and performance metrics. Its unique differentiation and sizable community are notable strengths.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/andmarti1424/sc-im",
+  "tool_url": "https://github.com/andmarti1424/sc-im",
+  "source_type": "tool",
+  "enriched": {
+    "github": {
+      "stars": 5515,
+      "forks": 228,
+      "open_issues": 111,
+      "watchers": 5515,
+      "contributors": 65,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 68,
+      "days_since_created": 4176,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "sc-im - Spreadsheet Calculator Improvised -- An ncurses spreadsheet program for terminal",
+      "topics": [
+        "console",
+        "console-application",
+        "ncurses",
+        "spreadsheet",
+        "terminal",
+        "terminal-app",
+        "vim"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Calc",
+        "stars": 30895,
+        "repo": "microsoft/calculator"
+      },
+      {
+        "name": "Spread",
+        "stars": 14610,
+        "repo": "myliang/x-spreadsheet"
+      },
+      {
+        "name": "tkc",
+        "stars": 106,
+        "repo": "j4321/tkcalendar"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1
+  }
+}
