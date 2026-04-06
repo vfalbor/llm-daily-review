@@ -15,6 +15,7 @@ function createTransport() {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASS,
     },
+    tls: { rejectUnauthorized: false },  // allow IP-based SMTP without cert match
   });
 }
 

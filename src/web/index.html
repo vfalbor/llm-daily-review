@@ -220,9 +220,11 @@
     }
     .app-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
     .app-meta { flex: 1; min-width: 0; }
-    .app-title { font-size: 15px; font-weight: 500; margin-bottom: 6px; }
+    .app-title { font-size: 15px; font-weight: 500; margin-bottom: 6px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
     .app-title a { color: var(--text); text-decoration: none; }
     .app-title a:hover { color: var(--accent); }
+    .hn-link { display: inline-flex; align-items: center; gap: 3px; font-size: 11px; color: #FF6600; text-decoration: none; font-weight: 500; white-space: nowrap; opacity: 0.8; }
+    .hn-link:hover { opacity: 1; }
     .app-tags { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
     .app-type { font-size: 11px; background: var(--accent-light); color: var(--accent); padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
     .badge { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
@@ -515,21 +517,35 @@ function renderAppCard(app) {
     </div>`;
   }).join('');
 
-  const title = app.title || app.app_name || 'Unknown app';
-  const url   = app.url   || app.app_url  || '#';
+  const title  = app.title || app.app_name || 'Unknown app';
+  const url    = app.report?.tool_url || app.report?.app_url || app.url || '#';
+  const hn_url = app.report?.hn_url || null;
+  const hnLink = hn_url
+    ? `<a class="hn-link" href="${hn_url}" target="_blank" rel="noopener" title="HN discussion">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="14" height="14" rx="2" fill="#FF6600"/>
+          <text x="7" y="11" text-anchor="middle" font-size="9" font-weight="bold" fill="white" font-family="Verdana,sans-serif">Y</text>
+        </svg>
+        HN
+      </a>`
+    : '';
 
   return `<div class="app-card">
     <div class="app-header">
       <div class="app-meta">
-        <div class="app-title"><a href="${url}" target="_blank" rel="noopener">${title}</a></div>
+        <div class="app-title">
+          <a href="${url}" target="_blank" rel="noopener">${title}</a>
+          ${hnLink}
+        </div>
         <div class="app-tags">
-          ${app.app_type ? `<span class="app-type">${app.app_type}</span>` : ''}
+          ${app.report?.domain ? `<span class="app-type">${app.report.domain}</span>` : ''}
+          ${app.report?.app_type || app.app_type ? `<span class="app-type">${app.report?.app_type || app.app_type}</span>` : ''}
           <span class="badge ${badgeClass}">${badgeLabel}</span>
         </div>
       </div>
-      <div class="total-score"><span class="big">${app.total_score ?? '—'}</span><span class="max">/70</span></div>
+      <div class="total-score"><span class="big">${app.total_score ?? '—'}</span><span class="max">/100</span></div>
     </div>
-    ${app.summary ? `<p class="app-summary">${app.summary}</p>` : ''}
+    ${app.report?.summary || app.summary ? `<p class="app-summary">${app.report?.summary || app.summary}</p>` : ''}
     <div class="scores">${bars}</div>
   </div>`;
 }

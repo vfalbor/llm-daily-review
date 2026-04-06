@@ -71,6 +71,9 @@ Return ONLY valid JSON matching the output schema. No markdown fences.`;
   scored.app_url     = app.url;
   scored.tool_url    = app.tool_url || null;
   scored.source_type = app.source_type || 'tool';
+  scored.hn_url      = app.hn_url      || null;
+  scored.domain      = app.domain      || null;
+  scored.app_type    = app.app_type    || null;
   scored.enriched    = {
     github: enriched.github,
     similar_github: enriched.similar_github,
