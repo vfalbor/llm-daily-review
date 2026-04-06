@@ -1,41 +1,38 @@
 {
   "app": {
-    "rank": 2,
     "title": "Show HN: I built a tiny LLM to demystify how language models work",
     "url": "https://github.com/arman-bd/guppylm",
-    "hn_url": "https://news.ycombinator.com/item?id=47655408",
-    "points": 642,
-    "comments": 86,
-    "author": "armanified",
-    "age": "2026-04-06T00:20:12 1775434812",
-    "scraped_at": "2026-04-06T13:37:38.792Z",
     "is_llm_related": true,
-    "confidence": 0.9,
-    "app_type": "fine-tuning",
-    "description": "A tiny LLM to demystify how language models work",
+    "confidence": 0.99,
+    "app_type": "sdk-wrapper",
+    "description": "A tiny language model to demonstrate how LLMs work",
     "use_modes": [
       "CLI",
       "Python API"
     ],
     "similar_tools": [
-      "TensorFlow",
-      "PyTorch"
+      "transformers",
+      "torch"
     ],
     "proposed_tests": [
-      "Train a model on a small dataset",
-      "Evaluate the model on a test set",
-      "Compare results with a baseline model"
+      "Install and run the model on a small dataset",
+      "Test the model's performance on a benchmark task",
+      "Check the model's documentation and usage examples"
     ],
     "requires_api_key": false,
-    "is_open_source": true
+    "is_open_source": true,
+    "repo_url": "https://github.com/arman-bd/guppylm"
   },
   "test_results": {
-    "run_id": "llm-review-1775482665496-gwqm1",
-    "log_dir": "/tmp/llm-review-1775482665496-gwqm1",
+    "run_id": "llm-review-1775483456015-es4ou",
+    "log_dir": "/tmp/llm-review-1775483456015-es4ou",
     "install_success": true,
-    "install_time_s": 3.891,
-    "basic_run_success": true,
-    "error_log": "Unable to find image 'python:3.12-alpine' locally\n3.12-alpine: Pulling from library/python\n89a8227ba99b: Pulling fs layer\n6de7811bee64: Pulling fs layer\n6f3f43492c5b: Pulling fs layer\nde9c3a90f8a7: Download complete\n100b8eb76870: Download complete\n89a8227ba99b: Download complete\n6de7811bee64: Download complete\n6f3f43492c5b: Download complete\n6de7811bee64: Pull complete\n89a8227ba99b: Pull complete\n6f3f43492c5b: Pull complete\nDigest: sha256:7747d47f92cfca63a6e2b50275e23dba8407c30d8ae929a88ddd49a5d3f2d331\nStatus: Downloaded newer image for python:3.12-alpine\n",
-    "notes": "=== LLM Daily Review Test Runner ===\nApp: Show HN: I built a tiny LLM to demystify how language models work\nType: fine-tuning\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+    "install_time_s": 6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 12, in <module>\n    import guppylm\nModuleNotFoundError: No module named 'guppylm'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 15, in <module>\n    subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"guppylm\"])\n                           ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n",
+    "notes": "INSTALL_OK\n"
   }
 }
