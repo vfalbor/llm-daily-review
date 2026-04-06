@@ -1,41 +1,37 @@
 {
   "app": {
-    "rank": 14,
     "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
     "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
-    "hn_url": "https://news.ycombinator.com/item?id=47651540",
-    "points": 317,
-    "comments": 77,
-    "author": "vbtechguy",
-    "age": "2026-04-05T17:13:51 1775409231",
-    "scraped_at": "2026-04-06T13:42:51.156Z",
     "is_llm_related": true,
-    "confidence": 0.9,
-    "app_type": "other-llm",
-    "description": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+    "confidence": 0.95,
+    "app_type": "model-server",
+    "description": "A guide to running Gemma 4 locally",
     "use_modes": [
-      "CLI",
-      "Python API"
+      "CLI"
     ],
     "similar_tools": [
-      "Google Cloud AI",
-      "Microsoft Azure AI"
+      "Google Colab",
+      "Microsoft Azure Notebooks"
     ],
     "proposed_tests": [
-      "Test local deployment",
-      "Test headless CLI functionality",
-      "Test Claude Code integration"
+      "Test the setup and deployment of Gemma 4 locally",
+      "Evaluate the performance of Gemma 4 on a variety of tasks",
+      "Check the documentation and usage examples for the headless CLI"
     ],
     "requires_api_key": false,
-    "is_open_source": true
+    "is_open_source": false,
+    "repo_url": null
   },
   "test_results": {
-    "run_id": "llm-review-1775482981824-xalt8",
-    "log_dir": "/tmp/llm-review-1775482981824-xalt8",
+    "run_id": "llm-review-1775483516558-gkgiw",
+    "log_dir": "/tmp/llm-review-1775483516558-gkgiw",
     "install_success": true,
-    "install_time_s": 0.505,
-    "basic_run_success": true,
-    "error_log": "",
-    "notes": "=== LLM Daily Review Test Runner ===\nApp: Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code\nType: other-llm\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+    "install_time_s": 6.1,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "/bin/sh: docker: not found\nTraceback (most recent call last):\n  File \"/app/test.py\", line 60, in <module>\n    evaluate_performance()\n  File \"/app/test.py\", line 30, in evaluate_performance\n    importlib.import_module(\"transformers\")\n  File \"/usr/local/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'transformers'\n",
+    "notes": "INSTALL_OK\nINSTALL_OK\nTEST_PASS:setup_and_deployment\nTEST_FAIL:docker_image_startup:Failed to start the Docker image\n"
   }
 }
