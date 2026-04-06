@@ -1,0 +1,77 @@
+{
+  "app_name": "Sheets Spreadsheets in Your Terminal",
+  "url": "https://github.com/maaslalani/sheets",
+  "scored_at": "2026-04-06T14:19:30.697Z",
+  "total_score": 23,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository has been created 5 days ago and is not a fork, indicating some level of novelty, but its similarity to existing spreadsheet tools like google-sheets and Microsoft-Excel brings the score down to 6."
+    },
+    "system_requirements": {
+      "score": 0,
+      "justification": "The app has an install time of 0s and install success is false, indicating significant issues with the installation process."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a spreadsheet-app, it fits somewhat into the current LLM ecosystem trends, but its novelty and differentiation are limited by its similarity to existing tools."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Compared to similar tools, it has -3540 stars (-75%) compared to google-sheets, -1228 stars (-51%) compared to Microsoft-Excel, and -995 stars (-45%) compared to airtable, indicating a lack of differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repository has 1,198 GitHub stars, 3 contributors, and the last commit was made 1 day ago, indicating a somewhat active community."
+    },
+    "ease_of_use": {
+      "score": 0,
+      "justification": "No tests were passed out of 0 total tests, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found, and the license is MIT, but the use mode is limited to Terminal App, indicating limited ease of integration."
+    }
+  },
+  "summary": "Sheets Spreadsheets in Your Terminal is a spreadsheet-app with some level of novelty but struggles with installation and differentiation. It has a somewhat active community but significant usability and integration issues.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/maaslalani/sheets",
+  "enriched": {
+    "github": {
+      "stars": 1198,
+      "forks": 22,
+      "open_issues": 13,
+      "watchers": 1198,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 5,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Terminal based spreadsheet tool",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "google-sheets",
+        "stars": 4738,
+        "repo": "jamiewilson/form-to-google-sheets"
+      },
+      {
+        "name": "Microsoft-Excel",
+        "stars": 2426,
+        "repo": "amzn/computer-vision-basics-in-microsoft-excel"
+      },
+      {
+        "name": "airtable",
+        "stars": 2193,
+        "repo": "Airtable/airtable.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
+}
