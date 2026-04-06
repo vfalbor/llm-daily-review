@@ -1,0 +1,106 @@
+{
+  "app_name": "Sky",
+  "url": "https://github.com/anzellai/sky",
+  "scored_at": "2026-04-06T18:11:07.088Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app has a unique approach, being an Elm-inspired language that compiles to Go, but it's not the first of its kind, with 26 days since repo creation and being compared to similar tools like Elm and Elixir, with -41065 and -26370 stars difference respectively."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installed successfully in 5.4 seconds, which is relatively fast, but it's not pip-installable, as there's no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "There's insufficient data to determine the app's relevance to current LLM ecosystem trends, as the provided data doesn't include information about the app's type and its fit with current trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The app has 67 GitHub stars, which is significantly less than similar tools like Elm (41,132 stars) and Elixir (26,437 stars), with a -41065 and -26370 stars difference respectively, indicating a lack of differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 67 GitHub stars, 1 fork, and 2 open issues, with 2 contributors, indicating a small but not entirely inactive community, and 0 days since last commit, showing some recent activity."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "None of the 3 tests passed, indicating significant issues with the app's usability, and basic run success is true, but this doesn't outweigh the test failures."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There's insufficient data to determine the app's ease of integration, as the provided data doesn't include information about the app's API modes or license, other than it being MIT, but no PyPI package is found."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to determine the quality and completeness of the app's documentation, as the provided data doesn't include information about the app's wiki, pages, or GitHub topics."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There's insufficient data to determine the app's maturity, as the provided data doesn't include information about the app's days since creation, forks count, or open issues, other than 26 days since repo creation and 1 fork."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are provided in the test output, making it impossible to assess the app's performance, thus scoring 5 as per the instructions for insufficient data."
+    }
+  },
+  "summary": "Sky is an Elm-inspired language that compiles to Go, with a unique approach but limited differentiation and a small community, and while it installs quickly, its usability and performance are unclear due to test failures and lack of benchmark data.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/anzellai/sky",
+  "tool_url": "https://github.com/anzellai/sky",
+  "source_type": "tool",
+  "enriched": {
+    "github": {
+      "stars": 67,
+      "forks": 1,
+      "open_issues": 2,
+      "watchers": 67,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 26,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Sky — an Elm-inspired language that compiles to Go. Hindley-Milner types, server-driven UI (Sky.Live), single binary output.",
+      "topics": [
+        "compiler",
+        "compiles-to-go",
+        "elm-inspired",
+        "fullstack",
+        "functional-programming",
+        "go",
+        "liveview",
+        "lsp",
+        "programming-language",
+        "server-driven-ui",
+        "sky-language",
+        "sse",
+        "type-inference",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Elm",
+        "stars": 41132,
+        "repo": "bailicangdu/vue2-elm"
+      },
+      {
+        "name": "Elixir",
+        "stars": 26437,
+        "repo": "elixir-lang/elixir"
+      },
+      {
+        "name": "Haskell",
+        "stars": 3507,
+        "repo": "sdiehl/write-you-a-haskell"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3
+  }
+}
