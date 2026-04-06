@@ -1,0 +1,39 @@
+{
+  "app_name": "Gemma Gem",
+  "url": "https://github.com/kessler/gemma-gem",
+  "scored_at": "2026-04-06T13:52:33.826Z",
+  "total_score": 30,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app embeds an AI model in a browser, which is a unique approach, but not entirely new, as seen in tools like Google Lens and Microsoft Pix."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app failed to install, with an error log indicating that no matching distribution was found for gemma-gem, despite a short install time of 6.1 seconds."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's focus on AI model embedding is relevant, but its inability to install and run limits its current usefulness in today's LLM workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app's browser-embedded AI model offers some differentiation, but its similarity to existing tools like Google Lens and Microsoft Pix reduces its unique value proposition."
+    },
+    "community": {
+      "score": 4,
+      "justification": "As an open-source project on GitHub, Gemma Gem has some community potential, but its current lack of installation success and limited documentation hinder its community growth."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app's installation failure and lack of successful tests indicate significant ease-of-use issues, despite its proposed GUI-based interface."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Without a successful installation, integrating Gemma Gem into existing workflows or pipelines is not feasible at this time."
+    }
+  },
+  "summary": "Gemma Gem is an AI model embedded in a browser, offering a unique approach, but its installation failure and ease-of-use issues limit its current value. The app's relevance and differentiation are hindered by its similarity to existing tools and its lack of community traction.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/kessler/gemma-gem"
+}
