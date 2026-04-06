@@ -8,34 +8,34 @@
     "comments": 343,
     "author": "tosh",
     "age": "2026-04-05T08:56:18 1775379378",
-    "scraped_at": "2026-04-06T13:37:38.808Z",
+    "scraped_at": "2026-04-06T13:42:51.160Z",
     "is_llm_related": true,
-    "confidence": 0.8,
-    "app_type": "prompt-tool",
-    "description": "Caveman, a tool for efficient token usage",
+    "confidence": 0.7,
+    "app_type": "other-llm",
+    "description": "Caveman, a simple token-based AI model",
     "use_modes": [
       "CLI",
       "Python API"
     ],
     "similar_tools": [
-      "Language Tool",
-      "Grammarly"
+      "Google Cloud AI",
+      "Microsoft Azure AI"
     ],
     "proposed_tests": [
-      "Test text analysis",
-      "Evaluate language understanding",
-      "Compare with a baseline model"
+      "Test token-based language understanding",
+      "Test text generation",
+      "Test model fine-tuning"
     ],
     "requires_api_key": false,
     "is_open_source": true
   },
   "test_results": {
-    "run_id": "llm-review-1775482689895-vdnrh",
-    "log_dir": "/tmp/llm-review-1775482689895-vdnrh",
+    "run_id": "llm-review-1775483008521-7j0cy",
+    "log_dir": "/tmp/llm-review-1775483008521-7j0cy",
     "install_success": true,
-    "install_time_s": 0.476,
+    "install_time_s": 0.462,
     "basic_run_success": true,
     "error_log": "",
-    "notes": "=== LLM Daily Review Test Runner ===\nApp: Caveman: Why use many token when few token do trick\nType: prompt-tool\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+    "notes": "=== LLM Daily Review Test Runner ===\nApp: Caveman: Why use many token when few token do trick\nType: other-llm\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
   }
 }
