@@ -3,35 +3,35 @@
     "title": "Eight years of wanting, three months of building with AI",
     "url": "https://lalitm.com/post/building-syntaqlite-ai/",
     "is_llm_related": true,
-    "confidence": 0.8,
-    "app_type": "other-llm",
-    "description": "Building SyntaQLite AI",
+    "confidence": 0.95,
+    "app_type": "fine-tuning",
+    "description": "Eight years of wanting, three months of building with AI",
     "use_modes": [
-      "Web App"
+      "Webpage"
     ],
     "similar_tools": [
-      "SyntaQLite",
-      "AI-powered tools"
+      "Gemma 4",
+      "Google AI-Edge Gallery"
     ],
     "proposed_tests": [
-      "Test installation and basic usage",
-      "Evaluate model performance on a small dataset",
-      "Compare results with a baseline model"
+      "Explore the project's README and code",
+      "Run the model on a small dataset",
+      "Test the model's output for accuracy"
     ],
     "requires_api_key": false,
     "is_open_source": false,
     "repo_url": null
   },
   "test_results": {
-    "run_id": "llm-review-1775484365491-iizl2",
-    "log_dir": "/tmp/llm-review-1775484365491-iizl2",
+    "run_id": "llm-review-1775485190666-blxv7",
+    "log_dir": "/tmp/llm-review-1775485190666-blxv7",
     "install_success": false,
-    "install_time_s": 6.3,
-    "basic_run_success": true,
+    "install_time_s": 0,
+    "basic_run_success": false,
     "tests_passed": 0,
-    "tests_total": 1,
+    "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "",
-    "notes": "=== LLM Daily Review — Fallback Test Runner ===\nApp: Eight years of wanting, three months of building with AI\nType: other-llm\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement eight-years-of-wanting-three-months-of-building-with-ai (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for eigh\nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
   }
 }
