@@ -1,4 +1,7 @@
-  File "/app/test.py", line 143
-    BENCHMARK: latency_ms: 100
-                         ^
-SyntaxError: invalid syntax
+ERROR: Could not find a version that satisfies the requirement deep-extract (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for deep-extract
+Cloning into 'deep-extract'...
+fatal: could not read Username for 'https://github.com': No such device or address
