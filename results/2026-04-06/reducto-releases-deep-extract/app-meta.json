@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Reducto releases Deep Extract",
+    "url": "https://reducto.ai/blog/reducto-deep-extract-agent",
+    "hn_url": "https://news.ycombinator.com/item?id=47662833",
+    "points": 20,
+    "comments": 2,
+    "author": "raunakchowdhuri",
+    "age": "2026-04-06T16:13:47 1775492027",
+    "scraped_at": "2026-04-06T18:08:50.223Z",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "LLM-based AI agent for entity extraction and relation mining",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "Stanford CoreNLP",
+      "spaCy",
+      "AllenNLP"
+    ],
+    "proposed_tests": [
+      "Train the model on a sample dataset",
+      "Evaluate performance on a benchmark dataset",
+      "Run the agent on a sample text"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null,
+    "tool_url": null,
+    "source_type": "tutorial"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499085534-ymjq8",
+    "log_dir": "/tmp/llm-review-1775499085534-ymjq8",
+    "install_success": false,
+    "install_time_s": 5.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 143\n    BENCHMARK: latency_ms: 100\n                         ^\nSyntaxError: invalid syntax\n",
+    "notes": ""
+  }
+}
