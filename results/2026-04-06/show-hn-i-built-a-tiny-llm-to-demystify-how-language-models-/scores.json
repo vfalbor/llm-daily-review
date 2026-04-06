@@ -1,39 +1,72 @@
 {
   "app_name": "GuppyLM",
   "url": "https://github.com/arman-bd/guppylm",
-  "scored_at": "2026-04-06T13:51:20.176Z",
-  "total_score": 37,
+  "scored_at": "2026-04-06T13:59:39.358Z",
+  "total_score": 25,
   "scores": {
     "novelty": {
       "score": 6,
-      "justification": "The app provides a unique approach to demystify how language models work by being a tiny language model itself, but its novelty is somewhat reduced due to similarities with existing tools like transformers and torch."
+      "justification": "The app has a low number of days since it was created (7 days), but it is not a fork, which suggests some originality. However, its comparison to similar tools does not show significant novelty, with 977 stars, which is lower than transformers and Hugging Face."
     },
     "system_requirements": {
-      "score": 8,
-      "justification": "The app installs quickly with a low install time of 6 seconds, but the install process seems to have been successful, despite errors in the basic run."
+      "score": 2,
+      "justification": "The install success is false, indicating that the app failed to install, and the install time is 5.7s, which is relatively fast but not sufficient due to the install failure. Additionally, there is no PyPI package found, making it not pip-installable."
     },
     "current_relevance": {
-      "score": 7,
-      "justification": "GuppyLM addresses a relevant aspect of the current AI landscape by educating users about LLMs, but its relevance could be higher if it addressed more pressing pain points in LLM workflows."
+      "score": 5,
+      "justification": "The app type is an sdk-wrapper, which is relevant to the current LLM ecosystem trends, but its description and functionality do not show significant relevance to current pain points in LLM workflows."
     },
     "differentiation": {
-      "score": 5,
-      "justification": "GuppyLM differentiates itself by its tiny size and educational purpose, but it doesn't offer significant advantages over established alternatives like transformers and torch in terms of functionality or performance."
+      "score": 2,
+      "justification": "The app has a significant disadvantage in terms of GitHub stars compared to similar tools, with 977 stars, which is 99% fewer than transformers and 26% fewer than Hugging Face. This suggests that the app does not have a clear advantage over existing options."
     },
     "community": {
-      "score": 4,
-      "justification": "The project is open-source and has a GitHub repository, but there's limited information available about its community size, activity, or documentation quality."
+      "score": 6,
+      "justification": "The app has 977 GitHub stars, 1 open issue, and 1 contributor, which suggests a small but active community. However, the lack of license and the fact that it is a solo project (1 contributor) limit the community score."
     },
     "ease_of_use": {
-      "score": 3,
-      "justification": "The app failed the basic run test, indicating potential usability issues or lack of clear documentation, despite having both CLI and Python API interfaces."
+      "score": 0,
+      "justification": "The tests passed are 0 out of 0, and the basic run success is false, indicating that the app failed to run and did not pass any tests, resulting in a very low ease of use score."
     },
     "ease_of_integration": {
       "score": 4,
-      "justification": "GuppyLM provides a Python API, but the error log suggests issues with importing the module, and there's no clear information about its integration capabilities or compatibility with existing workflows."
+      "justification": "The app has a Python API and CLI use modes, but there is no PyPI package found, making it not pip-installable. Additionally, the lack of license limits the ease of integration score."
     }
   },
-  "summary": "GuppyLM is a tiny language model designed to educate users about how LLMs work, offering a unique approach but lacking in differentiation and ease of use. Its potential value lies in its educational aspect, but it needs improvement in several areas to be more effective.",
-  "recommendation": "niche",
-  "app_url": "https://github.com/arman-bd/guppylm"
+  "summary": "GuppyLM is a tiny language model that aims to demystify how LLMs work, but it has significant limitations in terms of install success, differentiation, and ease of use. Despite its small but active community, the app requires significant improvements to become a strong candidate in the LLM ecosystem.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/arman-bd/guppylm",
+  "enriched": {
+    "github": {
+      "stars": 977,
+      "forks": 53,
+      "open_issues": 1,
+      "watchers": 977,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A ~9M parameter LLM that talks like a small fish.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "transformers",
+        "stars": 158878,
+        "repo": "huggingface/transformers"
+      },
+      {
+        "name": "Hugging Face",
+        "stars": 1312,
+        "repo": "LetheSec/HuggingFace-Download-Accelerator"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0
+  }
 }
