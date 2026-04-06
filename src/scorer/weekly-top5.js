@@ -13,8 +13,7 @@ const SKILL_MD = readFileSync(
   join(__dir, '../../skills/weekly-top5/SKILL.md'), 'utf8'
 );
 
-const GROQ_API = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'llama-3.3-70b-versatile';
+import { callGroq } from '../llm/groq-adapter.js';
 
 // Criterion weights from the skill definition
 const WEIGHTS = {
@@ -119,28 +118,12 @@ Return JSON with shape:
 }
 Return ONLY valid JSON.`;
 
-  const res = await fetch(GROQ_API, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 2048,
-      messages: [
-        {
-          role: 'system',
-          content: 'You are the editor of a weekly LLM tools digest. Write concise, concrete, non-hype justifications. Return ONLY valid JSON, no markdown fences.'
-        },
-        { role: 'user', content: prompt }
-      ],
-    }),
-  });
-
-  if (!res.ok) throw new Error(`Groq API error in top5 enrichment: ${res.status} ${await res.text()}`);
-  const data = await res.json();
-  const text = data.choices[0].message.content.trim().replace(/^```json\n?|```$/g, '');
+  const raw = await callGroq(
+    'You are the editor of a weekly LLM tools digest. Write concise, concrete, non-hype justifications. Return ONLY valid JSON, no markdown fences.',
+    prompt,
+    2048
+  );
+  const text = raw.replace(/^```json\n?|```$/g, '');
   const enriched = JSON.parse(text);
 
   // Merge original score data back in

@@ -1,8 +1,7 @@
 // src/scorer/scorer.js
 // Calls Claude to score an app across 7 criteria using the app-scorer skill rubrics.
 
-const GROQ_API = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'llama-3.3-70b-versatile';
+import { callGroq } from '../llm/groq-adapter.js';
 
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
@@ -28,28 +27,12 @@ ${JSON.stringify(testResults, null, 2)}
 
 Return ONLY valid JSON matching the output schema in the skill.`;
 
-  const res = await fetch(GROQ_API, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 2048,
-      messages: [
-        {
-          role: 'system',
-          content: 'You are an expert LLM tool evaluator. You score apps rigorously and write concrete, evidence-based justifications. Return ONLY valid JSON, no markdown fences.'
-        },
-        { role: 'user', content: prompt }
-      ],
-    }),
-  });
-
-  if (!res.ok) throw new Error(`Groq scorer API error: ${res.status} ${await res.text()}`);
-  const data = await res.json();
-  const text = data.choices[0].message.content.trim().replace(/^```json\n?|```$/g, '');
+  const raw = await callGroq(
+    'You are an expert LLM tool evaluator. You score apps rigorously and write concrete, evidence-based justifications. Return ONLY valid JSON, no markdown fences.',
+    prompt,
+    2048
+  );
+  const text = raw.replace(/^```json\n?|```$/g, '');
 
   const scored = JSON.parse(text);
   scored.scored_at = new Date().toISOString();

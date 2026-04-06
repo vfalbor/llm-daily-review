@@ -2,35 +2,17 @@
 // Uses Claude to classify HN items as LLM-related or not,
 // and enriches each match with app type and proposed tests.
 
-const GROQ_API = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'llama-3.3-70b-versatile';
+import { callGroq } from '../llm/groq-adapter.js';
 
 export async function filterLLMApps(items) {
-  // Batch classify to reduce API calls
   const prompt = buildClassificationPrompt(items);
 
-  const res = await fetch(GROQ_API, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 4096,
-      messages: [
-        {
-          role: 'system',
-          content: `You are an expert AI/ML tool classifier. You receive a list of Hacker News items and must identify which ones are applications or systems directly related to LLMs, AI agents, or generative AI. Return ONLY valid JSON, no markdown fences.`
-        },
-        { role: 'user', content: prompt }
-      ],
-    }),
-  });
-
-  if (!res.ok) throw new Error(`Groq API error: ${res.status} ${await res.text()}`);
-  const data = await res.json();
-  const text = data.choices[0].message.content.trim().replace(/^```json\n?|```$/g, '');
+  const raw = await callGroq(
+    'You are an expert AI/ML tool classifier. You receive a list of Hacker News items and must identify which ones are applications or systems directly related to LLMs, AI agents, or generative AI. Return ONLY valid JSON, no markdown fences.',
+    prompt,
+    4096
+  );
+  const text = raw.replace(/^```json\n?|```$/g, '');
 
   let classified;
   try {

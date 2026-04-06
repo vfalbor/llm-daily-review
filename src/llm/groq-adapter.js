@@ -17,20 +17,36 @@ export async function callGroq(systemPrompt, userPrompt, maxTokens = 4096) {
   if (systemPrompt) messages.push({ role: 'system', content: systemPrompt });
   messages.push({ role: 'user', content: userPrompt });
 
-  const res = await fetch(GROQ_API, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({ model: MODEL, max_tokens: maxTokens, messages }),
-  });
+  const MAX_RETRIES = 4;
+  let attempt = 0;
 
-  if (!res.ok) {
+  while (attempt <= MAX_RETRIES) {
+    const res = await fetch(GROQ_API, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.GROQ_API_KEY}`,
+      },
+      body: JSON.stringify({ model: MODEL, max_tokens: maxTokens, messages }),
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      return data.choices[0].message.content.trim();
+    }
+
     const body = await res.text();
+
+    if (res.status === 429 && attempt < MAX_RETRIES) {
+      // Parse wait time from Groq error message ("try again in X.XXs")
+      const match = body.match(/try again in (\d+(?:\.\d+)?)s/i);
+      const waitMs = match ? Math.ceil(parseFloat(match[1]) * 1000) + 500 : (attempt + 1) * 8000;
+      console.log(`[groq] Rate limited — waiting ${(waitMs/1000).toFixed(1)}s (attempt ${attempt+1}/${MAX_RETRIES})`);
+      await new Promise(r => setTimeout(r, waitMs));
+      attempt++;
+      continue;
+    }
+
     throw new Error(`Groq API error ${res.status}: ${body}`);
   }
-
-  const data = await res.json();
-  return data.choices[0].message.content.trim();
 }
