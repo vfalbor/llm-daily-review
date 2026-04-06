@@ -1,7 +1,6 @@
-=== LLM Daily Review Test Runner ===
-App: Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B
-Type: other-llm
-TEST_1: SKIP (manual implementation needed)
-TEST_2: SKIP (manual implementation needed)
-TEST_3: SKIP (manual implementation needed)
+INSTALL_OK
+TEST_FAIL:speech_recognition:module_not_found
+TEST_FAIL:input_testing:name 'parlor' is not defined
+TEST_FAIL:interface_testing:[Errno 2] No such file or directory: 'parlor'
+TEST_SKIP:memory_usage:No module named 'psutil'
 RUN_OK
