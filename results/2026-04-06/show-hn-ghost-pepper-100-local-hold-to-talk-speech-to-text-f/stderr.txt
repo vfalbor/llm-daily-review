@@ -1,0 +1,13 @@
+ERROR: Could not find a version that satisfies the requirement ghost-pepper (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for ghost-pepper
+Traceback (most recent call last):
+  File "/app/test.py", line 84, in <module>
+    main()
+  File "/app/test.py", line 75, in main
+    measure_import_time()
+  File "/app/test.py", line 60, in measure_import_time
+    import ghost_pepper
+ModuleNotFoundError: No module named 'ghost_pepper'
