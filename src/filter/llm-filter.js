@@ -1,6 +1,7 @@
 // src/filter/llm-filter.js
 // Uses the app-identifier skill (skills/app-identifier/SKILL.md) via Groq
-// to classify HN items and propose type-specific QA benchmarks.
+// to classify ALL HN items — not just LLM apps — and propose type-specific benchmarks.
+// Covers devtools, databases, languages, security, infrastructure, research, and more.
 // For articles/posts, also fetches the page to extract the real tool URL.
 
 import { readFileSync } from 'fs';
@@ -14,17 +15,20 @@ const SKILL_MD = readFileSync(join(__dir, '../../skills/app-identifier/SKILL.md'
 // Patterns that suggest a URL is a direct tool/repo, not an article
 const TOOL_URL_PATTERNS = [
   /github\.com\/[^/]+\/[^/]+/,
+  /gitlab\.com\/[^/]+\/[^/]+/,
   /npmjs\.com\/package\//,
   /pypi\.org\/project\//,
+  /crates\.io\/crates\//,
+  /pkg\.go\.dev\//,
   /huggingface\.co\//,
-  /gitlab\.com\/[^/]+\/[^/]+/,
+  /hub\.docker\.com\//,
 ];
 
 function looksLikeTool(url) {
   return TOOL_URL_PATTERNS.some(p => p.test(url));
 }
 
-// Fetch a page and extract the first GitHub repo URL found in it
+// Fetch a page and extract the first known tool registry URL found in it
 async function extractToolUrlFromPage(url) {
   try {
     const res = await fetch(url, {
@@ -34,10 +38,26 @@ async function extractToolUrlFromPage(url) {
     if (!res.ok) return null;
     const html = await res.text();
 
-    // Find first GitHub repo link (owner/repo pattern, not github.com itself)
-    const ghMatch = html.match(/https?:\/\/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)(?:['"?\s])/);
-    if (ghMatch) {
-      return `https://github.com/${ghMatch[1].replace(/\.git$/, '')}`;
+    // Priority order: GitHub > GitLab > PyPI > npm > crates.io
+    const patterns = [
+      /https?:\/\/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)(?:['"?\s])/,
+      /https?:\/\/gitlab\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)(?:['"?\s])/,
+      /https?:\/\/pypi\.org\/project\/([a-zA-Z0-9_-]+)(?:['"?\s/])/,
+      /https?:\/\/npmjs\.com\/package\/([a-zA-Z0-9_@/-]+)(?:['"?\s])/,
+      /https?:\/\/crates\.io\/crates\/([a-zA-Z0-9_-]+)(?:['"?\s])/,
+    ];
+
+    const bases = [
+      'https://github.com/',
+      'https://gitlab.com/',
+      'https://pypi.org/project/',
+      'https://npmjs.com/package/',
+      'https://crates.io/crates/',
+    ];
+
+    for (let i = 0; i < patterns.length; i++) {
+      const m = html.match(patterns[i]);
+      if (m) return bases[i] + m[1].replace(/\.git$/, '');
     }
     return null;
   } catch {
@@ -56,17 +76,17 @@ export async function filterLLMApps(items) {
 
 Apply the skill above to classify the following Hacker News items.
 Return a JSON array — one object per item — with ALL fields from the Output schema.
-For is_llm_related=false items, you may use null for most fields.
+For is_reviewable=false items, you may use null for most fields.
 Return ONLY the JSON array, no markdown fences.
 
 Items:
 ${list}`;
 
   const raw = await callGroq(
-    'You are an expert AI/ML tool classifier. Follow the skill definition exactly. Return ONLY valid JSON, no markdown fences.',
+    'You are an expert HN app classifier. Identify reviewable tools, libraries, apps, and projects across ALL tech domains — not just LLM/AI. Follow the skill definition exactly. Return ONLY valid JSON, no markdown fences.',
     userPrompt,
     4096,
-    GROQ_MODEL_FAST   // classification only needs fast/cheap model
+    GROQ_MODEL_FAST
   );
 
   let classified;
@@ -76,8 +96,9 @@ ${list}`;
     throw new Error('Groq returned invalid JSON for classification');
   }
 
+  // Keep all reviewable items (was: is_llm_related — now: is_reviewable)
   const candidates = classified
-    .filter(c => c.is_llm_related)
+    .filter(c => c.is_reviewable)
     .map(c => {
       const original = items.find(i => i.rank === c.rank) || {};
       return { ...original, ...c };
@@ -90,12 +111,12 @@ ${list}`;
         if (!app.tool_url && !looksLikeTool(app.url)) {
           const extracted = await extractToolUrlFromPage(app.url);
           if (extracted) {
-            app.tool_url  = extracted;
-            app.repo_url  = extracted;
+            app.tool_url = extracted;
+            app.repo_url = extracted;
           }
         }
       }
-      // If tool_url not set but url is a direct tool, mirror it
+      // If tool_url not set but url is a direct tool link, mirror it
       if (!app.tool_url && looksLikeTool(app.url)) {
         app.tool_url = app.url;
       }
