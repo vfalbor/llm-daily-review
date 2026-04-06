@@ -1,1 +1,7 @@
 INSTALL_FAIL
+TEST_PASS:basic_usage
+TEST_PASS:model_performance
+TEST_PASS:comparison_with_baseline
+BENCHMARK:import_time_ms:0.10
+TEST_FAIL:model_server_startup:Command 'python -m gemma4.server --help' returned non-zero exit status 1.
+RUN_OK
