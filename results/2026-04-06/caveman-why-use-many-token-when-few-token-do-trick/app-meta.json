@@ -3,35 +3,35 @@
     "title": "Caveman: Why use many token when few token do trick",
     "url": "https://github.com/JuliusBrussee/caveman",
     "is_llm_related": true,
-    "confidence": 0.9,
-    "app_type": "prompt-tool",
-    "description": "Caveman is a tool for optimizing token usage",
+    "confidence": 0.87,
+    "app_type": "llm-based-tool",
+    "description": "",
     "use_modes": [
-      "CLI",
-      "Python API"
+      "Command Line"
     ],
     "similar_tools": [
-      "token optimization tools"
+      "llama",
+      "paddle-lm",
+      "gopher"
     ],
     "proposed_tests": [
-      "Test installation and basic usage",
-      "Evaluate model performance on a small dataset",
-      "Compare results with a baseline model"
+      "Test few token when many token do trick",
+      "Run multiple tests to see results"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/JuliusBrussee/caveman"
   },
   "test_results": {
-    "run_id": "llm-review-1775484535749-m2clj",
-    "log_dir": "/tmp/llm-review-1775484535749-m2clj",
+    "run_id": "llm-review-1775485228125-uui81",
+    "log_dir": "/tmp/llm-review-1775485228125-uui81",
     "install_success": false,
-    "install_time_s": 6.4,
-    "basic_run_success": true,
+    "install_time_s": 0,
+    "basic_run_success": false,
     "tests_passed": 0,
-    "tests_total": 1,
+    "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "",
-    "notes": "=== LLM Daily Review — Fallback Test Runner ===\nApp: Caveman: Why use many token when few token do trick\nType: prompt-tool\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement caveman-why-use-many-token-when-few-token-do-trick (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for caveman-w\nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
   }
 }
