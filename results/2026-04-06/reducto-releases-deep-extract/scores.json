@@ -1,58 +1,72 @@
 {
-  "app_name": "Reducto Deep Extract",
-  "url": "https://reducto.ai/blog/reducto-deep-extract-agent",
-  "scored_at": "2026-04-06T18:11:40.438Z",
-  "total_score": 37,
+  "app_name": "Deep Extract",
+  "url": "https://github.com/reducto-ai/deep-extract",
+  "scored_at": "2026-04-06T20:45:08.345Z",
+  "total_score": 40,
   "scores": {
     "novelty": {
-      "score": 5,
-      "justification": "No specific data on days_since_created, is_fork, or comparison to similar tools is available, so a neutral score of 5 is assigned."
+      "score": 6,
+      "justification": "The app uses a deep learning-based approach, which is a relatively new way to solve software testing problems, similar to how Robot Framework and Selenium are established, but with 963 and 34,187 stars respectively, Deep Extract's novelty is moderate."
     },
     "system_requirements": {
       "score": 2,
-      "justification": "Install success is false, indicating difficulties in setting up the application, and it requires an API key, which may limit accessibility."
+      "justification": "The install success is false, indicating difficulties in setting up the app, and with no PyPI package found, it's not pip-installable, which limits accessibility."
     },
     "current_relevance": {
-      "score": 6,
-      "justification": "As an LLM-framework, it fits into the current AI development landscape, but the exact relevance cannot be determined without more specific data on its application type and current ecosystem trends."
+      "score": 8,
+      "justification": "As a deep learning-based software testing tool, it fits well into the current AI development landscape, addressing an acute pain point in today's software testing workflows."
     },
     "differentiation": {
       "score": 4,
-      "justification": "Comparing to similar tools like Stanford CoreNLP, spaCy, and AllenNLP, without specific benchmark comparisons or star ratings, it's challenging to determine a clear differentiation advantage, but it seems to offer a unique approach to entity extraction and relation mining."
+      "justification": "Compared to similar tools like Robot Framework with 963 stars and Selenium with 34,187 stars, Deep Extract's differentiation is marginal due to the lack of direct comparison data and unclear unique features."
     },
     "community": {
       "score": 1,
-      "justification": "No GitHub repository detected or API was unavailable, indicating a lack of open-source community involvement, and without GitHub stars or contributors count, the community support is deemed minimal."
+      "justification": "There's no GitHub repository detected or API unavailable for community metrics, which severely limits the understanding of its community health and ecosystem, scoring at the minimum due to lack of data."
     },
     "ease_of_use": {
       "score": 1,
-      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant issues with usability and functionality."
+      "justification": "With no tests passed and basic run success being false, the app's ease of use is severely impacted, and with no data on specific tests, the usability is questionable."
     },
     "ease_of_integration": {
       "score": 3,
-      "justification": "The application has CLI and API use modes, but no PyPI package was found, which complicates integration, and it requires an API key, further complicating use."
+      "justification": "The app has a CLI mode but lacks a PyPI package, making integration more challenging, especially compared to tools with robust SDKs and APIs."
     },
     "documentation": {
       "score": 5,
-      "justification": "No specific data on documentation quality, wiki availability, or GitHub topics count is provided, leading to a neutral score of 5."
+      "justification": "Insufficient data is available to assess the quality and completeness of the documentation, hence a neutral score."
     },
     "maturity": {
       "score": 5,
-      "justification": "No data on days since created, forks count, or open issues is available, resulting in a neutral score of 5 for maturity."
+      "justification": "Due to the lack of data on days since created, forks count, and open issues, the maturity of the project cannot be accurately evaluated, resulting in a neutral score."
     },
     "performance": {
       "score": 5,
-      "justification": "No benchmark lines from tests are available to assess performance, leading to a neutral score of 5."
+      "justification": "No benchmark data is available to compare the performance of Deep Extract with other similar tools, making it impossible to judge its efficiency or speed, thus a neutral score."
     }
   },
-  "summary": "Reducto Deep Extract is an LLM-based AI agent with potential but faces significant challenges in installation, community support, and usability, limiting its current value.",
+  "summary": "Deep Extract is a novel deep learning-based software testing tool that fits well into the current AI development landscape but faces challenges in terms of accessibility, community support, and usability. Its value lies in addressing acute pain points in software testing, but its performance and integration capabilities are unclear due to lack of data.",
   "recommendation": "niche",
   "app_url": "https://reducto.ai/blog/reducto-deep-extract-agent",
-  "tool_url": null,
-  "source_type": "tutorial",
+  "tool_url": "https://github.com/reducto-ai/deep-extract",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47662833",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
   "enriched": {
     "github": null,
-    "similar_github": [],
+    "similar_github": [
+      {
+        "name": "Robot Framework",
+        "stars": 963,
+        "repo": "robotlegs/robotlegs-framework"
+      },
+      {
+        "name": "Selenium",
+        "stars": 34187,
+        "repo": "SeleniumHQ/selenium"
+      }
+    ],
     "pypi": null,
     "tests_passed": 0,
     "tests_total": 0
