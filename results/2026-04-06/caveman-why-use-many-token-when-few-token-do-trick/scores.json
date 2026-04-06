@@ -1,0 +1,39 @@
+{
+  "app_name": "Caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "scored_at": "2026-04-06T13:53:23.519Z",
+  "total_score": 25,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Caveman attempts to solve the problem of token usage efficiency, but its approach is not particularly new or innovative, as there are existing tokenizers and pretrained language models that address similar issues."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app failed to install, which indicates significant issues with its system requirements or setup process, despite the short install time of 5.9 seconds."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's focus on efficient token usage is relevant to current LLM workflows, but its failure to install and run limits its immediate usefulness."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "While Caveman aims to improve token efficiency, it does not significantly differentiate itself from existing tools like tokenizers and pretrained language models in terms of unique features or advantages."
+    },
+    "community": {
+      "score": 4,
+      "justification": "As an open-source project on GitHub, Caveman has potential for community involvement, but the current state of the project, including its install issues, may hinder community growth and participation."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app's failure to install and run successfully indicates significant ease of use issues, as users cannot even begin to utilize its functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Given the install failures and lack of clear documentation or APIs mentioned, integrating Caveman into existing workflows or pipelines appears to be highly challenging, if not impractical."
+    }
+  },
+  "summary": "Caveman is a token efficiency tool that, despite its relevant focus, fails to impress due to installation issues, limited innovation, and significant ease of use and integration challenges. Its current state limits its usefulness in practical LLM workflows.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/JuliusBrussee/caveman"
+}
