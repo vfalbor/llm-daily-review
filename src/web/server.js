@@ -16,8 +16,16 @@ const __dir = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 app.use(express.json());
 
-// Serve static UI
-app.use(express.static(path.join(__dir)));
+// Serve static UI — no-cache so browser always gets latest index.html
+app.use(express.static(path.join(__dir), {
+  etag: false,
+  lastModified: false,
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.html')) {
+      res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate');
+    }
+  },
+}));
 
 // API: calendar data for a month
 app.get('/api/calendar', (req, res) => {
