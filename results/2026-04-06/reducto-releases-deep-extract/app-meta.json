@@ -1,49 +1,46 @@
 {
   "app": {
-    "rank": 10,
+    "rank": 25,
     "title": "Reducto releases Deep Extract",
     "url": "https://reducto.ai/blog/reducto-deep-extract-agent",
     "hn_url": "https://news.ycombinator.com/item?id=47662833",
-    "points": 20,
-    "comments": 2,
+    "points": 36,
+    "comments": 4,
     "author": "raunakchowdhuri",
     "age": "2026-04-06T16:13:47 1775492027",
-    "scraped_at": "2026-04-06T18:08:50.223Z",
+    "scraped_at": "2026-04-06T20:41:07.746Z",
+    "tool_url": "https://github.com/reducto-ai/deep-extract",
     "is_reviewable": true,
-    "confidence": 0.85,
-    "domain": "llm-ai",
-    "app_type": "llm-framework",
-    "description": "LLM-based AI agent for entity extraction and relation mining",
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "Deep Extract is a deep learning-based software testing tool",
     "use_modes": [
-      "CLI",
-      "API"
+      "Software",
+      " CLI"
     ],
     "similar_tools": [
-      "Stanford CoreNLP",
-      "spaCy",
-      "AllenNLP"
+      "Robot Framework",
+      "Selenium"
     ],
     "proposed_tests": [
-      "Train the model on a sample dataset",
-      "Evaluate performance on a benchmark dataset",
-      "Run the agent on a sample text"
+      "Install and configure Deep Extract on a demo project",
+      "Run a simple test and verify result"
     ],
-    "requires_api_key": true,
-    "is_open_source": false,
-    "repo_url": null,
-    "tool_url": null,
-    "source_type": "tutorial"
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/reducto-ai/deep-extract"
   },
   "test_results": {
-    "run_id": "llm-review-1775499085534-ymjq8",
-    "log_dir": "/tmp/llm-review-1775499085534-ymjq8",
+    "run_id": "llm-review-1775508290975-kimmw",
+    "log_dir": "/tmp/llm-review-1775508290975-kimmw",
     "install_success": false,
-    "install_time_s": 5.3,
+    "install_time_s": 7.8,
     "basic_run_success": false,
     "tests_passed": 0,
     "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "  File \"/app/test.py\", line 143\n    BENCHMARK: latency_ms: 100\n                         ^\nSyntaxError: invalid syntax\n",
-    "notes": ""
+    "error_log": "ERROR: Could not find a version that satisfies the requirement deep-extract (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for deep-extract\nCloning into 'deep-extract'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/reducto-ai/deep-extract.git']' returned non-zero exit status 128.\n"
   }
 }
