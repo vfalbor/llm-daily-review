@@ -3,35 +3,35 @@
     "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
     "url": "https://github.com/kessler/gemma-gem",
     "is_llm_related": true,
-    "confidence": 0.95,
-    "app_type": "model-server",
-    "description": "Gemma Gem is an AI model embedded in a browser",
+    "confidence": 0.89,
+    "app_type": "ai-powered-broker",
+    "description": "",
     "use_modes": [
       "Web App"
     ],
     "similar_tools": [
-      "Gemma",
-      "TensorFlow.js"
+      "gemma-browser",
+      "gemma-web",
+      "claude-web"
     ],
     "proposed_tests": [
-      "Test installation and basic usage",
-      "Evaluate model performance on a small dataset",
-      "Compare results with a baseline model"
+      "Test gemma integration with multiple models",
+      "Embed model in a browser without cloud"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/kessler/gemma-gem"
   },
   "test_results": {
-    "run_id": "llm-review-1775484193840-8ajvm",
-    "log_dir": "/tmp/llm-review-1775484193840-8ajvm",
+    "run_id": "llm-review-1775485171601-vrxaq",
+    "log_dir": "/tmp/llm-review-1775485171601-vrxaq",
     "install_success": false,
-    "install_time_s": 6.4,
-    "basic_run_success": true,
+    "install_time_s": 0,
+    "basic_run_success": false,
     "tests_passed": 0,
-    "tests_total": 1,
+    "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "",
-    "notes": "=== LLM Daily Review — Fallback Test Runner ===\nApp: Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud\nType: model-server\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement show-hn-gemma-gem-ai-model-embedded-in-a-browser-no-api-keys-no-cloud (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution \nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
   }
 }
