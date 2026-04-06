@@ -1,12 +1,10 @@
-INSTALL_OK
-INSTALL_FAIL
-TEST_FAIL:syntaqlite_import:ImportError
-TEST_PASS:data_processing
-BENCHMARK:latency_ms:0.018596649169921875 for input size 100
-BENCHMARK:latency_ms:0.1659393310546875 for input size 1000
-BENCHMARK:latency_ms:1.7023086547851562 for input size 10000
-TEST_SKIP:apache_beam_comparison:ImportError
-TEST_SKIP:aws_glue_comparison:ImportError
-TEST_FAIL:syntaqlite_import:ImportError
-TEST_FAIL:user_interface:CommandNotFound
+=== LLM Daily Review — Fallback Test Runner ===
+App: Eight years of wanting, three months of building with AI
+Type: other-llm
+INSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement eight-years-of-wanting-three-months-of-building-with-ai (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for eigh
+TEST_SKIP:import:package_not_installed
 RUN_OK
