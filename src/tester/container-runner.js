@@ -7,7 +7,7 @@ import { execSync, spawn } from 'child_process';
 import path from 'path';
 import fs from 'fs';
 import os from 'os';
-import { callGroq, GROQ_MODEL_POWERFUL } from '../llm/groq-adapter.js';
+import { llmCall, GROQ_MODEL_POWERFUL } from '../llm/index.js';
 
 const CONTAINER_TIMEOUT_S = 180;
 const BASE_IMAGE = 'python:3.12-alpine';
@@ -200,7 +200,7 @@ IMPORTANT RULES:
 - The script must complete and print RUN_OK even if all tests fail`;
 
   try {
-    const code = await callGroq(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
+    const code = await llmCall(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
     return code.replace(/^```python\n?|^```\n?|```$/gm, '').trim();
   } catch (err) {
     return buildFallbackScript(app);

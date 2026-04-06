@@ -13,7 +13,7 @@ const SKILL_MD = readFileSync(
   join(__dir, '../../skills/weekly-top5/SKILL.md'), 'utf8'
 );
 
-import { callGroq } from '../llm/groq-adapter.js';
+import { llmCall } from '../llm/index.js';
 
 // Criterion weights for 10-criteria / 100-point scoring
 const WEIGHTS = {
@@ -121,7 +121,7 @@ Return JSON with shape:
 }
 Return ONLY valid JSON.`;
 
-  const raw = await callGroq(
+  const raw = await llmCall(
     'You are the editor of a weekly LLM tools digest. Write concise, concrete, non-hype justifications. Return ONLY valid JSON, no markdown fences.',
     prompt,
     2048

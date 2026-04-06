@@ -107,9 +107,15 @@ export function getDayApps(date) {
 export function addSubscriber({ email, edition, token }) {
   const db = getDb();
   db.prepare(`
-    INSERT OR IGNORE INTO subscribers (email, edition, token, subscribed_at)
-    VALUES (?, ?, ?, ?)
+    INSERT OR IGNORE INTO subscribers (email, edition, token, confirmed, subscribed_at)
+    VALUES (?, ?, ?, 1, ?)
   `).run(email, edition, token, new Date().toISOString());
+}
+
+export function getSubscriberToken(email) {
+  const db = getDb();
+  const row = db.prepare('SELECT token FROM subscribers WHERE email = ? AND unsubscribed_at IS NULL').get(email);
+  return row?.token || null;
 }
 
 export function unsubscribe(token) {

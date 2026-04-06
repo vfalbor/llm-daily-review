@@ -2,7 +2,7 @@
 // Sends daily + weekly newsletters via SMTP (nodemailer).
 
 import nodemailer from 'nodemailer';
-import { getActiveSubscribers } from '../db/database.js';
+import { getActiveSubscribers, getSubscriberToken } from '../db/database.js';
 import { renderDailyEmail, renderWeeklyEmail } from './templates.js';
 import { log } from '../utils/logger.js';
 
@@ -23,7 +23,7 @@ export async function sendNewsletter(payload) {
   const transport = createTransport();
 
   if (payload.edition === 'daily') {
-    const recipients = await getActiveSubscribers('daily');
+    const recipients = getActiveSubscribers('daily');
     if (!recipients.length) {
       log.info('No daily subscribers — skipping email');
       return;
@@ -34,7 +34,7 @@ export async function sendNewsletter(payload) {
   }
 
   if (payload.edition === 'weekly') {
-    const recipients = await getActiveSubscribers('weekly');
+    const recipients = getActiveSubscribers('weekly');
     if (!recipients.length) {
       log.info('No weekly subscribers — skipping email');
       return;
@@ -46,18 +46,21 @@ export async function sendNewsletter(payload) {
 }
 
 async function sendBatch(transport, recipients, subject, html, text) {
-  // Send individually so each email is personalised (unsubscribe token)
-  for (const to of recipients) {
+  for (const email of recipients) {
     try {
+      const token = getSubscriberToken(email) || '';
+      const personalHtml = html.replace(/\{\{TOKEN\}\}/g, token);
+      const personalText = text.replace(/\{\{TOKEN\}\}/g, token);
+
       await transport.sendMail({
         from: '"LLM Daily Review" <info@tokenstree.com>',
-        to,
+        to: email,
         subject,
-        html,
-        text,
+        html: personalHtml,
+        text: personalText,
       });
     } catch (err) {
-      log.error(`Failed to send to ${to}: ${err.message}`);
+      log.error(`Failed to send to ${email}: ${err.message}`);
     }
   }
 }

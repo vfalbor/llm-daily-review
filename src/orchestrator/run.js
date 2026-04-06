@@ -62,8 +62,9 @@ async function main() {
   }
 
   // Step 5: Generate daily report
+  const skippedCount = candidates.length - newApps.length;
   log.info('Generating daily report...');
-  const report = await generateDailyReport(runDate, dailyResults);
+  const report = await generateDailyReport(runDate, dailyResults, { skipped: skippedCount });
 
   // Step 6: Send daily newsletter
   log.info('Sending daily newsletter...');

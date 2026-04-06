@@ -3,6 +3,10 @@
 
 const GITHUB_RESULTS_BASE = 'https://github.com/vfalbor/llm-daily-review/tree/main/results';
 
+function escHtml(str) {
+  return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
 function criterionLabel(key) {
   const labels = {
     novelty: 'Novelty', system_requirements: 'System req.',
@@ -87,7 +91,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
         return `<tr>
           <td style="padding:4px 8px 4px 0;font-size:12px;color:#6b6a65;width:130px;vertical-align:top">${criterionLabel(key)}</td>
           <td style="padding:4px 0;width:36px;text-align:right;font-size:12px;font-weight:600;color:#1a1a18;vertical-align:top">${s}/10</td>
-          <td style="padding:4px 0 4px 10px;font-size:11px;color:#9a9891;vertical-align:top">${just.slice(0, 120)}${just.length > 120 ? '…' : ''}</td>
+          <td style="padding:4px 0 4px 10px;font-size:11px;color:#9a9891;vertical-align:top">${escHtml(just.slice(0, 120))}${just.length > 120 ? '…' : ''}</td>
         </tr>`;
       }).join('');
 
@@ -98,12 +102,12 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     <table width="100%" cellpadding="0" cellspacing="0"><tr>
       <td style="vertical-align:top">
         <div style="font-size:16px;font-weight:600;margin-bottom:5px">
-          <a href="${toolUrl}" style="color:#1a1a18;text-decoration:none">${app.title || app.app_name}</a>
-          ${hnUrl ? `&nbsp;<a href="${hnUrl}" style="font-size:11px;color:#FF6600;text-decoration:none;font-weight:500">▲ HN</a>` : ''}
+          <a href="${escHtml(toolUrl)}" style="color:#1a1a18;text-decoration:none">${escHtml(app.title || app.app_name)}</a>
+          ${hnUrl ? `&nbsp;<a href="${escHtml(hnUrl)}" style="font-size:11px;color:#FF6600;text-decoration:none;font-weight:500">▲ HN</a>` : ''}
         </div>
         <div>
-          ${domain ? `<span style="display:inline-block;font-size:11px;background:#f0f4ff;color:#2563eb;padding:2px 7px;border-radius:20px;margin-right:4px">${domainEmoji(domain)} ${domain}</span>` : ''}
-          ${appType ? `<span style="display:inline-block;font-size:11px;background:#f3f4f6;color:#6b7280;padding:2px 7px;border-radius:20px;margin-right:4px">${appType}</span>` : ''}
+          ${domain ? `<span style="display:inline-block;font-size:11px;background:#f0f4ff;color:#2563eb;padding:2px 7px;border-radius:20px;margin-right:4px">${domainEmoji(domain)} ${escHtml(domain)}</span>` : ''}
+          ${appType ? `<span style="display:inline-block;font-size:11px;background:#f3f4f6;color:#6b7280;padding:2px 7px;border-radius:20px;margin-right:4px">${escHtml(appType)}</span>` : ''}
           <span style="display:inline-block;font-size:11px;background:${badgeColor}22;color:${badgeColor};padding:2px 7px;border-radius:20px;font-weight:600">${badgeLabel}</span>
         </div>
       </td>
@@ -115,7 +119,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
 
   <!-- Summary -->
   ${report.summary || app.summary ? `<tr><td style="padding:0 20px 12px">
-    <p style="margin:0;font-size:13px;color:#44423d;line-height:1.6">${report.summary || app.summary}</p>
+    <p style="margin:0;font-size:13px;color:#44423d;line-height:1.6">${escHtml(report.summary || app.summary)}</p>
   </td></tr>` : ''}
 
   <!-- Test results + benchmarks -->
@@ -253,8 +257,8 @@ export function renderWeeklyEmail({ week, top5, honorable_mentions, week_summary
     <span style="font-size:12px;font-weight:600;color:#fff">#${i + 1} — Standout: ${criterionLabel(app.standout_criterion)}</span>
   </td></tr>
   <tr><td style="padding:16px 20px">
-    <a href="${app.url || app.app_url || '#'}" style="font-size:16px;font-weight:600;color:#1a1a18;text-decoration:none">${app.app_name}</a>
-    <p style="margin:10px 0 0;font-size:13px;color:#6b6a65;line-height:1.6">${app.why_top5 || ''}</p>
+    <a href="${escHtml(app.url || app.app_url || '#')}" style="font-size:16px;font-weight:600;color:#1a1a18;text-decoration:none">${escHtml(app.app_name)}</a>
+    <p style="margin:10px 0 0;font-size:13px;color:#6b6a65;line-height:1.6">${escHtml(app.why_top5 || '')}</p>
     <p style="margin:10px 0 0;font-size:12px;color:#9a9891">Total score: <strong>${app.total_score}/100</strong></p>
   </td></tr>
 </table>`).join('');
@@ -271,12 +275,12 @@ export function renderWeeklyEmail({ week, top5, honorable_mentions, week_summary
     <hr style="border:none;border-top:1px solid #e4e2da;margin:14px 0 0">
   </td></tr>
   <tr><td style="padding:0 0 24px">
-    <p style="margin:0;font-size:14px;color:#1a1a18;line-height:1.7">${week_summary || ''}</p>
+    <p style="margin:0;font-size:14px;color:#1a1a18;line-height:1.7">${escHtml(week_summary || '')}</p>
     <p style="margin:10px 0 0;font-size:12px;color:#9a9891">Apps reviewed this week: <strong>${total_apps_tested_week}</strong></p>
   </td></tr>
   <tr><td><h2 style="margin:0 0 16px;font-size:15px;font-weight:600;color:#1a1a18">Top 5 this week</h2>${top5Cards}</td></tr>
   ${honorable_mentions?.length ? `<tr><td style="padding:12px 0">
-    <p style="margin:0;font-size:12px;color:#9a9891"><strong>Honorable mentions:</strong> ${honorable_mentions.join(', ')}</p>
+    <p style="margin:0;font-size:12px;color:#9a9891"><strong>Honorable mentions:</strong> ${honorable_mentions.map(m => escHtml(m)).join(', ')}</p>
   </td></tr>` : ''}
   <tr><td style="padding:20px 0 0;border-top:1px solid #e4e2da">
     <p style="margin:0;font-size:12px;color:#9a9891">

@@ -166,10 +166,15 @@ async function fetchSimilarToolsStats(similarTools) {
 // ── PyPI ─────────────────────────────────────────────────────────────────────
 
 function guessPyPIName(app) {
-  // Try from title or repo name
+  // Strip common HN prefixes before guessing
+  const cleanTitle = (app.title || '')
+    .replace(/^(Show HN|Ask HN|Tell HN|Launch HN):\s*/i, '')
+    .replace(/\s*[–—-]\s*.+$/, '') // strip subtitle after dash
+    .trim();
+
   const candidates = [
-    app.title?.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''),
     extractGitHubRepo(app.url || '')?.split('/')[1]?.toLowerCase(),
+    cleanTitle.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''),
   ].filter(Boolean);
 
   return candidates[0] || null;

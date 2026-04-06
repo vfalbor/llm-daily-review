@@ -2,7 +2,7 @@
 // Scores an app across 10 criteria (0–10 each, total 100) using real quantitative data.
 // Every score justification must cite a concrete number from the enrichment data.
 
-import { callGroq } from '../llm/groq-adapter.js';
+import { llmCall } from '../llm/index.js';
 import { enrichApp, formatEnrichmentForScorer } from '../enricher/data-enricher.js';
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
@@ -60,7 +60,7 @@ APP METADATA:
 
 Return ONLY valid JSON matching the output schema. No markdown fences.`;
 
-  const raw = await callGroq(
+  const raw = await llmCall(
     'You are an expert LLM tool evaluator. Score across exactly 10 criteria. Every justification must cite a specific number from the quantitative data. Return ONLY valid JSON, no markdown fences.',
     prompt,
     2048

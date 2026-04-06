@@ -37,7 +37,7 @@ All scored apps from Monday–Friday of the current week (from SQLite).
 Remove apps with:
 - recommendation == "skip"
 - ease_of_use < 4 (broken or untestable)
-- total_score < 35
+- total_score < 50 (out of 100)
 
 ### Step 2: Weighted ranking
 Apply weekly weights to raw scores:
@@ -47,8 +47,11 @@ Apply weekly weights to raw scores:
 | novelty | 1.4 |
 | current_relevance | 1.3 |
 | differentiation | 1.3 |
+| performance | 1.2 |
 | ease_of_use | 1.0 |
 | ease_of_integration | 1.0 |
+| documentation | 0.9 |
+| maturity | 0.9 |
 | community | 0.8 |
 | system_requirements | 0.7 |
 
@@ -62,7 +65,7 @@ Ensures variety across benchmark-runners, agent-frameworks, etc.
 Sort by weighted_total DESC, take first 5.
 
 ### Step 5: Honorable mentions
-Apps ranked 6–8 that scored >= 45 total get an honorable mention.
+Apps ranked 6–8 that scored >= 65 total (out of 100) get an honorable mention.
 
 ## Justification format for why_top5
 - 2–4 sentences

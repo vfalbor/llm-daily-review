@@ -9,7 +9,7 @@
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { callGroq, GROQ_MODEL_FAST, GROQ_MODEL_POWERFUL } from '../llm/groq-adapter.js';
+import { llmCall, GROQ_MODEL_FAST } from '../llm/index.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const SKILL_MD = readFileSync(join(__dir, '../../skills/app-identifier/SKILL.md'), 'utf8');
@@ -86,7 +86,7 @@ Return ONLY the JSON array, no markdown fences.
 Items:
 ${list}`;
 
-  const raw = await callGroq(
+  const raw = await llmCall(
     'You are an expert HN app classifier. Identify reviewable tools, libraries, apps, and projects across ALL tech domains — not just LLM/AI. Return ONLY valid JSON array, no markdown fences.',
     userPrompt,
     2048,
