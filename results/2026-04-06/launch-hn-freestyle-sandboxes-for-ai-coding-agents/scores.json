@@ -1,0 +1,63 @@
+{
+  "app_name": "Launch HN: Freestyle",
+  "url": "https://www.freestyle.sh/",
+  "scored_at": "2026-04-06T20:43:25.890Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "There is no data available to assess the novelty of this app, such as days_since_created or comparison to similar tools, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 12.6s, which is relatively fast, but there is no PyPI package found, which makes installation less straightforward, thus scoring 6."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given that the app type is infra-sandbox, which fits the current AI development landscape focusing on sandbox environments for coding agents, it scores 7 for current relevance."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without data on GitHub stars or specific comparisons to similar tools like Google Cloud Sandbox and AWS Sandbox, a neutral score of 5 is assigned due to insufficient information."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected or the API is unavailable, indicating a lack of community engagement or openness, thus scoring 1, the minimum, as per the scoring floor rule."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Basic run success is false, and only 2 out of 3 tests passed, indicating some difficulties with usage, so it scores 4 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app requires an API key and has no PyPI package, making integration more challenging, thus scoring 3."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available regarding the quality or existence of documentation, such as has_wiki, has_pages, or GitHub topics count, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without data on days_since_created, forks count, or open issues, a neutral score of 5 is assigned due to insufficient information about the project's maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are some benchmark measurements, such as import_time_ms and query_latency_ms, the lack of direct comparisons to similar tools in the quantitative data provided makes it difficult to assess performance accurately, thus scoring 5."
+    }
+  },
+  "summary": "Freestyle offers sandbox environments for AI coding agents but lacks open-source availability and has limited integration ease. Its performance and novelty are hard to judge without more data.",
+  "recommendation": "niche",
+  "app_url": "https://www.freestyle.sh/",
+  "tool_url": "https://www.freestyle.sh/",
+  "source_type": "app",
+  "hn_url": "https://news.ycombinator.com/item?id=47663147",
+  "domain": "infrastructure",
+  "app_type": "infra-sandbox",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3
+  }
+}
