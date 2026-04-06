@@ -1,0 +1,39 @@
+{
+  "app_name": "Parlor",
+  "url": "https://github.com/fikrikarim/parlor",
+  "scored_at": "2026-04-06T13:51:55.857Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Parlor offers a unique approach to real-time AI audio and video processing, leveraging the M3 Pro with Gemma E2B, which sets it apart from other solutions like Google Cloud Speech-to-Text and Microsoft Azure Speech Services."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app installs quickly, taking only 6 seconds, and has a simple setup process, making it easily accessible to users."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Parlor addresses the need for real-time AI processing of audio and video inputs, which is a relevant problem in today's AI landscape, although its applicability might be limited to specific use cases."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While Parlor offers some unique features, such as its real-time processing capabilities and use of the M3 Pro with Gemma E2B, it does not significantly differentiate itself from established players like Google and Microsoft in terms of overall functionality."
+    },
+    "community": {
+      "score": 5,
+      "justification": "As an open-source project, Parlor has the potential to attract a community, but currently, it lacks a strong following, with no clear indication of active contributors or users beyond its creator."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app's user interface and experience are not well-suited for ease of use, as evidenced by the test failures, including issues with module imports and file directories, indicating potential complexity for users."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Parlor provides a CLI and GUI, which is a positive aspect for integration, but the lack of a clear API or SDK, and the dependency issues observed during testing, suggest that integrating it into existing workflows might require additional effort."
+    }
+  },
+  "summary": "Parlor is a real-time AI app for audio and video input that offers a unique approach but faces challenges in terms of ease of use and differentiation. Despite its potential, it requires further development to improve user experience and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/fikrikarim/parlor"
+}
