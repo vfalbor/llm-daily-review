@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Daily Review</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf8;
+      --surface: #fff;
+      --border: #e4e2da;
+      --text: #1a1a18;
+      --muted: #6b6a65;
+      --accent: #2563eb;
+      --accent-light: #dbeafe;
+      --green: #16a34a;
+      --green-light: #dcfce7;
+      --amber: #d97706;
+      --amber-light: #fef3c7;
+      --red: #dc2626;
+      --red-light: #fee2e2;
+      --radius: 10px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --surface: #1c1c1a;
+        --border: #2e2e2b;
+        --text: #e8e6df;
+        --muted: #9a9891;
+        --accent-light: #1e3a5f;
+        --green-light: #14291d;
+        --amber-light: #2d1f0a;
+        --red-light: #2d1010;
+      }
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Nav ── */
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      height: 52px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: auto;
+    }
+    .brand-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+    nav a { color: var(--muted); font-size: 13px; text-decoration: none; white-space: nowrap; }
+    nav a:hover { color: var(--text); }
+
+    /* ── Layout ── */
+    .page { max-width: 1200px; margin: 0 auto; padding: 28px 20px; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .sidebar { position: static !important; }
+    }
+
+    /* ── Sidebar ── */
+    .sidebar {
+      position: sticky;
+      top: 64px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    .card-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 14px;
+    }
+
+    /* ── Calendar ── */
+    .cal-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .cal-month { font-size: 14px; font-weight: 500; }
+    .cal-btn {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      width: 26px; height: 26px;
+      cursor: pointer;
+      color: var(--text);
+      font-size: 15px;
+      display: flex; align-items: center; justify-content: center;
+      line-height: 1;
+    }
+    .cal-btn:hover { background: var(--border); }
+    .cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+    .cal-day-label { text-align: center; font-size: 10px; color: var(--muted); padding: 3px 0; font-weight: 500; }
+    .cal-day {
+      aspect-ratio: 1;
+      border-radius: 5px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px;
+      cursor: default;
+      border: 1px solid transparent;
+      color: var(--muted);
+    }
+    .cal-day.clickable { cursor: pointer; color: var(--text); }
+    .cal-day.has-data { background: var(--accent-light); color: var(--accent); font-weight: 600; }
+    .cal-day.has-data:hover { border-color: var(--accent); }
+    .cal-day.selected { background: var(--accent) !important; color: #fff !important; border-color: var(--accent) !important; }
+    .cal-day.today { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+
+    /* ── Newsletter form ── */
+    .sub-form { display: flex; flex-direction: column; gap: 8px; }
+    .sub-form input,
+    .sub-form select {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 13px;
+      font-family: var(--font);
+    }
+    .sub-form input:focus,
+    .sub-form select:focus { outline: none; border-color: var(--accent); }
+
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px; font-weight: 500;
+      cursor: pointer; border: none;
+      transition: opacity 0.15s;
+      font-family: var(--font);
+    }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: var(--accent); color: #fff; width: 100%; }
+    .spam-notice { font-size: 11px; color: var(--muted); line-height: 1.5; }
+
+    /* ── Main content ── */
+    .main-content { min-width: 0; }
+
+    .day-header { margin-bottom: 20px; }
+    .day-header h1 { font-size: 20px; font-weight: 600; }
+    .day-header p { color: var(--muted); font-size: 13px; margin-top: 3px; }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      gap: 2px;
+      margin-bottom: 20px;
+      background: var(--border);
+      border-radius: 8px;
+      padding: 3px;
+      width: fit-content;
+    }
+    .tab {
+      padding: 6px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: var(--font);
+      white-space: nowrap;
+      transition: background 0.1s, color 0.1s;
+    }
+    .tab.active { background: var(--surface); color: var(--text); font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+
+    /* ── App card ── */
+    .app-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 14px;
+    }
+    .app-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 10px; }
+    .app-meta { flex: 1; min-width: 0; }
+    .app-title { font-size: 15px; font-weight: 500; margin-bottom: 6px; }
+    .app-title a { color: var(--text); text-decoration: none; }
+    .app-title a:hover { color: var(--accent); }
+    .app-tags { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+    .app-type { font-size: 11px; background: var(--accent-light); color: var(--accent); padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+    .badge { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 20px; white-space: nowrap; }
+    .badge-strong { background: var(--green-light); color: var(--green); }
+    .badge-watching { background: var(--amber-light); color: var(--amber); }
+    .badge-niche { background: var(--border); color: var(--muted); }
+    .badge-skip { background: var(--red-light); color: var(--red); }
+
+    .total-score { display: flex; align-items: baseline; gap: 2px; flex-shrink: 0; }
+    .total-score .big { font-size: 26px; font-weight: 700; line-height: 1; }
+    .total-score .max { font-size: 12px; color: var(--muted); }
+
+    .app-summary { font-size: 13px; color: var(--muted); margin-bottom: 14px; line-height: 1.6; }
+
+    /* Score bars */
+    .scores { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+    .score-item { }
+    .score-label { font-size: 11px; color: var(--muted); margin-bottom: 4px; display: flex; justify-content: space-between; }
+    .score-label span:last-child { font-weight: 600; color: var(--text); }
+    .score-bar { height: 5px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .score-fill { height: 100%; border-radius: 3px; }
+    .score-fill.high { background: var(--green); }
+    .score-fill.mid { background: var(--amber); }
+    .score-fill.low { background: var(--red); }
+
+    /* Justification (collapsed) */
+    .score-note { font-size: 11px; color: var(--muted); margin-top: 3px; line-height: 1.4; display: none; }
+    .scores:hover .score-note { display: block; }
+
+    /* ── Top 5 card ── */
+    .top5-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 14px;
+    }
+    .top5-rank {
+      background: var(--accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 16px;
+    }
+    .top5-body { padding: 18px; }
+    .top5-body .app-title { font-size: 15px; margin-bottom: 8px; }
+    .top5-why { font-size: 13px; color: var(--muted); line-height: 1.6; }
+    .top5-score { font-size: 12px; color: var(--muted); margin-top: 8px; }
+
+    /* ── Empty state ── */
+    .empty { text-align: center; padding: 48px 20px; color: var(--muted); }
+    .empty-icon { font-size: 28px; margin-bottom: 10px; opacity: 0.4; }
+    .empty p { font-size: 14px; }
+
+    /* ── Toast ── */
+    .toast {
+      position: fixed; bottom: 24px; right: 24px;
+      background: var(--text); color: var(--bg);
+      padding: 10px 16px; border-radius: 8px;
+      font-size: 13px; z-index: 999;
+      opacity: 0; transition: opacity 0.3s;
+      pointer-events: none;
+    }
+    .toast.show { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="brand"><span class="brand-dot"></span>LLM Daily Review</a>
+  <a href="https://github.com/vfalbor/llm-daily-review" target="_blank">GitHub</a>
+  <a href="https://github.com/vfalbor/llm-daily-review/tree/main/skills" target="_blank">Skills</a>
+</nav>
+
+<div class="page">
+  <div class="layout">
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar">
+
+      <div class="card">
+        <div class="card-title">Browse by date</div>
+        <div class="cal-nav">
+          <button class="cal-btn" id="prev-month">&#8249;</button>
+          <span class="cal-month" id="cal-label"></span>
+          <button class="cal-btn" id="next-month">&#8250;</button>
+        </div>
+        <div class="cal-grid" id="cal-grid"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Newsletter</div>
+        <form class="sub-form" id="subscribe-form">
+          <input type="email" id="sub-email" placeholder="your@email.com" required autocomplete="email">
+          <select id="sub-edition">
+            <option value="daily">Daily digest</option>
+            <option value="weekly">Weekly Top 5 only</option>
+            <option value="both">Daily + Weekly</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Subscribe free</button>
+          <p class="spam-notice">Sent from info@tokenstree.com — may land in spam on first delivery. Check your junk folder.</p>
+        </form>
+      </div>
+
+      <div class="card">
+        <div class="card-title">About</div>
+        <p style="font-size:12px;color:var(--muted);line-height:1.7">
+          Every day at 15:00 UTC, Claude Code scrapes Hacker News, finds LLM-related apps, tests them in isolated Docker containers, and scores them across 7 criteria.<br><br>
+          All code and skills are open source under <strong>CC BY 4.0</strong>.
+          Community can fork and adapt the scoring skills.
+        </p>
+      </div>
+
+    </aside>
+
+    <!-- ── Main ── -->
+    <main class="main-content">
+
+      <div class="day-header">
+        <h1 id="results-title">Today's results</h1>
+        <p id="results-subtitle">Select a date from the calendar to load results.</p>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="apps">Apps tested</button>
+        <button class="tab" data-tab="top5">Weekly Top 5</button>
+      </div>
+
+      <div id="tab-apps">
+        <div id="app-list">
+          <div class="empty">
+            <div class="empty-icon">◎</div>
+            <p>Select a date from the calendar</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="tab-top5" style="display:none">
+        <div id="top5-list">
+          <div class="empty">
+            <div class="empty-icon">◎</div>
+            <p>Top 5 is generated every Friday.<br>Select a week from the calendar.</p>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const DAYS = ['Su','Mo','Tu','We','Th','Fr','Sa'];
+
+let currentYear  = new Date().getFullYear();
+let currentMonth = new Date().getMonth();
+let selectedDate = null;
+let daysWithData = {};
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+/* ── Calendar ── */
+function renderCalendar() {
+  document.getElementById('cal-label').textContent = `${MONTHS[currentMonth]} ${currentYear}`;
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = '';
+
+  DAYS.forEach(d => {
+    const el = document.createElement('div');
+    el.className = 'cal-day-label';
+    el.textContent = d;
+    grid.appendChild(el);
+  });
+
+  const firstDay   = new Date(currentYear, currentMonth, 1).getDay();
+  const totalDays  = new Date(currentYear, currentMonth + 1, 0).getDate();
+  const todayStr   = new Date().toISOString().split('T')[0];
+
+  for (let i = 0; i < firstDay; i++) {
+    const el = document.createElement('div');
+    el.className = 'cal-day';
+    grid.appendChild(el);
+  }
+
+  for (let d = 1; d <= totalDays; d++) {
+    const yy = currentYear;
+    const mm = String(currentMonth + 1).padStart(2, '0');
+    const dd = String(d).padStart(2, '0');
+    const dateStr = `${yy}-${mm}-${dd}`;
+
+    const el = document.createElement('div');
+    el.className = 'cal-day';
+    el.textContent = d;
+
+    const hasData = !!daysWithData[dateStr];
+    const isToday = dateStr === todayStr;
+
+    if (hasData) el.classList.add('has-data');
+    if (isToday)  el.classList.add('today');
+    if (dateStr === selectedDate) el.classList.add('selected');
+
+    if (hasData || isToday) {
+      el.classList.add('clickable');
+      el.title = hasData ? `${daysWithData[dateStr]} app(s) tested` : 'Today';
+      el.addEventListener('click', () => {
+        selectedDate = dateStr;
+        renderCalendar();
+        loadDayResults(dateStr);
+        // Switch to apps tab
+        setTab('apps');
+      });
+    }
+
+    grid.appendChild(el);
+  }
+}
+
+async function loadCalendarData() {
+  try {
+    const res  = await fetch(`/api/calendar?year=${currentYear}&month=${currentMonth + 1}`);
+    const data = await res.json();
+    daysWithData = {};
+    data.forEach(r => { daysWithData[r.run_date] = r.apps_tested; });
+  } catch { /* non-fatal */ }
+  renderCalendar();
+}
+
+/* ── Results ── */
+async function loadDayResults(date) {
+  document.getElementById('results-title').textContent = formatDate(date);
+  document.getElementById('results-subtitle').textContent = 'Loading…';
+  document.getElementById('app-list').innerHTML = emptyHTML('Loading…');
+
+  try {
+    const res  = await fetch(`/api/results?date=${date}`);
+    const apps = await res.json();
+    const n    = apps.length;
+
+    document.getElementById('results-subtitle').textContent =
+      n ? `${n} app${n !== 1 ? 's' : ''} tested` : 'No LLM apps found on HN this day';
+
+    document.getElementById('app-list').innerHTML =
+      n ? apps.map(renderAppCard).join('') : emptyHTML('No LLM apps found on HN this day');
+  } catch {
+    document.getElementById('app-list').innerHTML = emptyHTML('Failed to load — please try again');
+  }
+}
+
+function renderAppCard(app) {
+  const scores = app.scores || {};
+  const criteria = [
+    ['novelty',            'Novelty'],
+    ['system_requirements','System req.'],
+    ['current_relevance',  'Relevance'],
+    ['differentiation',    'Differentiation'],
+    ['community',          'Community'],
+    ['ease_of_use',        'Ease of use'],
+    ['ease_of_integration','Integration'],
+  ];
+
+  const badgeClass = {
+    'strong-candidate': 'badge-strong',
+    'worth-watching':   'badge-watching',
+    'niche':            'badge-niche',
+    'skip':             'badge-skip',
+  }[app.recommendation] || 'badge-niche';
+
+  const badgeLabel = {
+    'strong-candidate': 'Strong candidate',
+    'worth-watching':   'Worth watching',
+    'niche':            'Niche',
+    'skip':             'Skip',
+  }[app.recommendation] || app.recommendation;
+
+  const bars = criteria.map(([key, label]) => {
+    const s   = scores[key]?.score ?? 0;
+    const cls = s >= 7 ? 'high' : s >= 5 ? 'mid' : 'low';
+    const just = scores[key]?.justification || '';
+    return `<div class="score-item">
+      <div class="score-label"><span>${label}</span><span>${s}/10</span></div>
+      <div class="score-bar"><div class="score-fill ${cls}" style="width:${s * 10}%"></div></div>
+      ${just ? `<div class="score-note">${just}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  const title = app.title || app.app_name || 'Unknown app';
+  const url   = app.url   || app.app_url  || '#';
+
+  return `<div class="app-card">
+    <div class="app-header">
+      <div class="app-meta">
+        <div class="app-title"><a href="${url}" target="_blank" rel="noopener">${title}</a></div>
+        <div class="app-tags">
+          ${app.app_type ? `<span class="app-type">${app.app_type}</span>` : ''}
+          <span class="badge ${badgeClass}">${badgeLabel}</span>
+        </div>
+      </div>
+      <div class="total-score"><span class="big">${app.total_score ?? '—'}</span><span class="max">/70</span></div>
+    </div>
+    ${app.summary ? `<p class="app-summary">${app.summary}</p>` : ''}
+    <div class="scores">${bars}</div>
+  </div>`;
+}
+
+/* ── Tabs ── */
+function setTab(name) {
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.tab === name);
+  });
+  document.getElementById('tab-apps').style.display  = name === 'apps'  ? '' : 'none';
+  document.getElementById('tab-top5').style.display  = name === 'top5'  ? '' : 'none';
+}
+
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => setTab(tab.dataset.tab));
+});
+
+/* ── Calendar nav ── */
+document.getElementById('prev-month').addEventListener('click', () => {
+  currentMonth--;
+  if (currentMonth < 0) { currentMonth = 11; currentYear--; }
+  loadCalendarData();
+});
+document.getElementById('next-month').addEventListener('click', () => {
+  currentMonth++;
+  if (currentMonth > 11) { currentMonth = 0; currentYear++; }
+  loadCalendarData();
+});
+
+/* ── Subscribe ── */
+document.getElementById('subscribe-form').addEventListener('submit', async e => {
+  e.preventDefault();
+  const email   = document.getElementById('sub-email').value.trim();
+  const edition = document.getElementById('sub-edition').value;
+  try {
+    const res = await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, edition }),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      showToast('Subscribed! Check your inbox (and spam folder).');
+      e.target.reset();
+    } else {
+      showToast('Error: ' + (data.error || 'please try again'));
+    }
+  } catch {
+    showToast('Subscription failed — please try again.');
+  }
+});
+
+/* ── Helpers ── */
+function formatDate(dateStr) {
+  return new Date(dateStr + 'T12:00:00Z').toLocaleDateString('en-US', {
+    weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+  });
+}
+
+function emptyHTML(msg) {
+  return `<div class="empty"><div class="empty-icon">◎</div><p>${msg}</p></div>`;
+}
+
+/* ── Init ── */
+loadCalendarData();
+const todayStr = new Date().toISOString().split('T')[0];
+selectedDate = todayStr;
+loadDayResults(todayStr);
+</script>
+</body>
+</html>

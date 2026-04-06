@@ -1,0 +1,63 @@
+# .github/workflows/daily-review.yml
+# Alternative to local cron: runs the full pipeline via GitHub Actions at 15:00 UTC.
+# Useful for cloud deployment without a dedicated server.
+
+name: LLM Daily Review
+
+on:
+  schedule:
+    - cron: '0 15 * * *'   # 15:00 UTC daily
+  workflow_dispatch:         # allow manual trigger from GitHub UI
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Pull Docker base image
+        run: docker pull python:3.12-alpine
+
+      - name: Restore database from cache
+        uses: actions/cache@v4
+        with:
+          path: data/review.db
+          key: review-db-${{ github.run_number }}
+          restore-keys: review-db-
+
+      - name: Run daily review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node --experimental-vm-modules src/orchestrator/run.js
+
+      - name: Upload daily report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report-${{ github.run_number }}
+          path: data/reports/
+          retention-days: 90
+
+      - name: Commit updated database
+        run: |
+          git config user.name "llm-daily-review[bot]"
+          git config user.email "bot@tokenstree.com"
+          git add data/review.db data/reports/ || true
+          git diff --staged --quiet || git commit -m "chore: daily review $(date -u +%Y-%m-%d)"
+          git push || true
