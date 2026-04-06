@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Battle for Wesnoth: open-source, turn-based strategy game",
+    "url": "https://www.wesnoth.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=47664186",
+    "points": 9,
+    "comments": 3,
+    "author": "akyuu",
+    "age": "2026-04-06T17:37:38 1775497058",
+    "scraped_at": "2026-04-06T18:08:50.223Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "turn-based strategy game with single-player and multiplayer modes",
+    "use_modes": [
+      "Web UI",
+      "Console Mode"
+    ],
+    "similar_tools": [
+      "Civilization VI",
+      "Stellaris",
+      "Freeciv"
+    ],
+    "proposed_tests": [
+      "Create a new game and play through basic tutorial",
+      "Fight a battle with a custom scenario",
+      "Export game saves and verify format"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/wesnoth/binf",
+    "tool_url": "https://github.com/wesnoth/binf",
+    "source_type": "tool"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499068068-a1x05",
+    "log_dir": "/tmp/llm-review-1775499068068-a1x05",
+    "install_success": true,
+    "install_time_s": 5.7,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.00\nBENCHMARK:vs_langchain:faster_install",
+    "error_log": "",
+    "notes": "INSTALL_OK\nTEST_PASS:create_new_game\nTEST_PASS:fight_battle\nTEST_PASS:export_game_save\nBENCHMARK:import_time_ms:0.00\nBENCHMARK:vs_langchain:faster_install\nRUN_OK\n"
+  }
+}
