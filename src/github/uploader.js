@@ -32,10 +32,10 @@ export async function uploadToGitHub(app, testResults) {
 
   // Files to upload from the temp log directory
   const files = {
-    'stdout.txt': path.join(testResults.log_dir, 'stdout.txt'),
-    'stderr.txt': path.join(testResults.log_dir, 'stderr.txt'),
-    'app-meta.json': null, // generated inline
-    'scores.json': null,   // generated inline
+    'test-script.py': path.join(testResults.log_dir, 'test-script.py'),
+    'stdout.txt':     path.join(testResults.log_dir, 'stdout.txt'),
+    'stderr.txt':     path.join(testResults.log_dir, 'stderr.txt'),
+    'app-meta.json':  null, // generated inline
   };
 
   const uploads = [];
@@ -45,9 +45,6 @@ export async function uploadToGitHub(app, testResults) {
 
     if (filename === 'app-meta.json') {
       content = Buffer.from(JSON.stringify({ app, test_results: testResults }, null, 2)).toString('base64');
-    } else if (filename === 'scores.json') {
-      // Scores are added after scoring; skip here, orchestrator calls a second upload
-      continue;
     } else if (filepath && fs.existsSync(filepath)) {
       content = fs.readFileSync(filepath).toString('base64');
     } else {

@@ -10,7 +10,7 @@ import { scoreApp } from '../scorer/scorer.js';
 import { generateDailyReport } from '../reporter/daily-report.js';
 import { sendNewsletter } from '../email/mailer.js';
 import { runWeeklyTop5 } from '../scorer/weekly-top5.js';
-import { uploadToGitHub } from '../github/uploader.js';
+import { uploadToGitHub, uploadScores } from '../github/uploader.js';
 import { log } from '../utils/logger.js';
 
 async function main() {
@@ -42,17 +42,20 @@ async function main() {
       // Run in isolated Docker container
       const testResults = await runInContainer(app);
 
-      // Upload container logs to GitHub
+      // Upload container logs + test script to GitHub
       await uploadToGitHub(app, testResults);
 
       // Score the app
       const scored = await scoreApp(app, testResults);
 
+      // Upload scores.json to GitHub
+      await uploadScores(app, scored, runDate);
+
       // Save to DB
       await markTested(app, scored);
       dailyResults.push(scored);
 
-      log.info(`  Scored: ${scored.total_score}/70 — ${scored.recommendation}`);
+      log.info(`  Scored: ${scored.total_score}/70 — ${scored.recommendation} (tests: ${testResults.tests_passed}/${testResults.tests_total} passed)`);
     } catch (err) {
       log.error(`  Failed to test ${app.title}: ${err.message}`);
     }
