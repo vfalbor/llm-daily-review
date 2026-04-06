@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "An open-source 240-antenna array to bounce signals off the Moon",
+    "url": "https://moonrf.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47656622",
+    "points": 224,
+    "comments": 45,
+    "author": "hillcrestenigma",
+    "age": "2026-04-06T03:22:42 1775445762",
+    "scraped_at": "2026-04-06T18:08:50.226Z",
+    "tool_url": "https://moonrf.com/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Open-source 240-antenna array to bounce signals off the Moon",
+    "use_modes": [
+      "Hardware"
+    ],
+    "similar_tools": [
+      "Open-source Radio Hardware"
+    ],
+    "proposed_tests": [
+      "Assemble and test the antenna array in simulation",
+      "Bounce signals off the Moon using real-world hardware",
+      "Measure signal strength and accuracy"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://moonrf.com/"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775499133009-1eaip",
+    "log_dir": "/tmp/llm-review-1775499133009-1eaip",
+    "install_success": true,
+    "install_time_s": 5.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:signal_strength:%68.66\nBENCHMARK:signal_accuracy:%4.83\nBENCHMARK:total_test_time_ms:0.02",
+    "error_log": "",
+    "notes": "INSTALL_OK\nTEST_FAIL:assemble_and_test_antenna_array_in_simulation:name 'simulated' is not defined\nTEST_SKIP:bounce_signals_off_the_moon_using_real_world_hardware:requires actual hardware\nBENCHMARK:signal_strength:%68.66\nBENCHMARK:signal_accuracy:%4.83\nTEST_PASS:measure_signal_strength_and_accuracy\nBENCHMARK:total_test_time_ms:0.02\nRUN_OK\n"
+  }
+}
