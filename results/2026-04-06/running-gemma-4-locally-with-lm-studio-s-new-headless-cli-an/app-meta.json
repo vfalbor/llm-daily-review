@@ -3,36 +3,35 @@
     "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
     "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
     "is_llm_related": true,
-    "confidence": 0.9,
-    "app_type": "model-server",
-    "description": "Run Gemma 4 locally with LM Studio's headless CLI",
+    "confidence": 0.92,
+    "app_type": "gemma-integration",
+    "description": "",
     "use_modes": [
-      "CLI",
-      "Python API"
+      "CLI"
     ],
     "similar_tools": [
-      "Gemma",
-      "LM Studio"
+      "gemma-code",
+      "gemma-ui",
+      "claude-code"
     ],
     "proposed_tests": [
-      "Test installation and basic usage",
-      "Evaluate model performance on a small dataset",
-      "Compare results with a baseline model"
+      "Test gemma integration with LM studio",
+      "Run with multiple models and see results"
     ],
     "requires_api_key": false,
     "is_open_source": false,
-    "repo_url": null
+    "repo_url": "https://github.com/google/gemma-code"
   },
   "test_results": {
-    "run_id": "llm-review-1775484100511-4wmeh",
-    "log_dir": "/tmp/llm-review-1775484100511-4wmeh",
+    "run_id": "llm-review-1775485133858-2ot7s",
+    "log_dir": "/tmp/llm-review-1775485133858-2ot7s",
     "install_success": false,
-    "install_time_s": 5.8,
+    "install_time_s": 0,
     "basic_run_success": false,
     "tests_passed": 0,
     "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 96, in <module>\n    suite.test_evaluate_model_performance()\n  File \"/app/test.py\", line 40, in test_evaluate_model_performance\n    import gemma\nModuleNotFoundError: No module named 'gemma'\n",
-    "notes": "INSTALL_FAIL\n"
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
   }
 }
