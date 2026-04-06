@@ -1,39 +1,86 @@
 {
   "app_name": "Parlor",
   "url": "https://github.com/fikrikarim/parlor",
-  "scored_at": "2026-04-06T13:51:55.857Z",
-  "total_score": 45,
+  "scored_at": "2026-04-06T14:01:39.629Z",
+  "total_score": 24,
   "scores": {
     "novelty": {
-      "score": 8,
-      "justification": "Parlor offers a unique approach to real-time AI audio and video processing, leveraging the M3 Pro with Gemma E2B, which sets it apart from other solutions like Google Cloud Speech-to-Text and Microsoft Azure Speech Services."
+      "score": 4,
+      "justification": "The app has 0 days since creation and is not a fork, but it has limited differentiation from similar tools like Gemma and Parlor, with 463 stars compared to Gemma's 6,805 stars."
     },
     "system_requirements": {
-      "score": 9,
-      "justification": "The app installs quickly, taking only 6 seconds, and has a simple setup process, making it easily accessible to users."
+      "score": 2,
+      "justification": "The install success is false, indicating significant issues with installation, despite an install time of 6.6s, and there is no PyPI package found."
     },
     "current_relevance": {
-      "score": 7,
-      "justification": "Parlor addresses the need for real-time AI processing of audio and video inputs, which is a relevant problem in today's AI landscape, although its applicability might be limited to specific use cases."
+      "score": 6,
+      "justification": "As a model-server for real-time AI audio/video processing, it aligns with current trends in the LLM ecosystem, given its type and use cases."
     },
     "differentiation": {
-      "score": 6,
-      "justification": "While Parlor offers some unique features, such as its real-time processing capabilities and use of the M3 Pro with Gemma E2B, it does not significantly differentiate itself from established players like Google and Microsoft in terms of overall functionality."
+      "score": 3,
+      "justification": "Compared to similar tools, Parlor has 0 stars more than Parlor itself and -6342 stars compared to Gemma, indicating limited unique value proposition."
     },
     "community": {
       "score": 5,
-      "justification": "As an open-source project, Parlor has the potential to attract a community, but currently, it lacks a strong following, with no clear indication of active contributors or users beyond its creator."
+      "justification": "The GitHub repository has 463 stars, 32 forks, 2 open issues, and 3 contributors, with the last commit being 0 days ago, indicating some community activity."
     },
     "ease_of_use": {
-      "score": 4,
-      "justification": "The app's user interface and experience are not well-suited for ease of use, as evidenced by the test failures, including issues with module imports and file directories, indicating potential complexity for users."
+      "score": 2,
+      "justification": "The tests passed is 0 out of 1, and basic run success is true, but the overall test performance is poor, indicating usability issues."
     },
     "ease_of_integration": {
-      "score": 6,
-      "justification": "Parlor provides a CLI and GUI, which is a positive aspect for integration, but the lack of a clear API or SDK, and the dependency issues observed during testing, suggest that integrating it into existing workflows might require additional effort."
+      "score": 2,
+      "justification": "There is no PyPI package, but it has a CLI and Python API, with an Apache-2.0 license, which may facilitate some integration efforts."
     }
   },
-  "summary": "Parlor is a real-time AI app for audio and video input that offers a unique approach but faces challenges in terms of ease of use and differentiation. Despite its potential, it requires further development to improve user experience and community engagement.",
-  "recommendation": "worth-watching",
-  "app_url": "https://github.com/fikrikarim/parlor"
+  "summary": "Parlor is a real-time AI model server for audio/video processing with some community activity, but it faces significant challenges in terms of novelty, system requirements, and ease of use. Its current relevance to the LLM ecosystem is notable, but overall, it requires substantial improvement to be competitive.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/fikrikarim/parlor",
+  "enriched": {
+    "github": {
+      "stars": 463,
+      "forks": 32,
+      "open_issues": 2,
+      "watchers": 463,
+      "contributors": 3,
+      "license": "Apache-2.0",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "On-device, real-time multimodal AI. Have natural voice and vision conversations with an AI that runs entirely on your machine. Powered by Gemma 4 E2B and Kokoro.",
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "kokoro",
+        "litert-lm",
+        "local-llm",
+        "mlx",
+        "multimodal",
+        "on-device-ai",
+        "python",
+        "real-time",
+        "speech-recognition",
+        "text-to-speech",
+        "voice-assistant"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Gemma",
+        "stars": 6805,
+        "repo": "google/gemma.cpp"
+      },
+      {
+        "name": "Parlor",
+        "stars": 463,
+        "repo": "fikrikarim/parlor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1
+  }
 }
