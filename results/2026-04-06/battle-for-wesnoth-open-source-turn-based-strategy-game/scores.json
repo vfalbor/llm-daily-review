@@ -1,0 +1,76 @@
+{
+  "app_name": "Battle for Wesnoth",
+  "url": "https://www.wesnoth.org/",
+  "scored_at": "2026-04-06T18:11:24.652Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With no direct comparison to similar tools like Civilization VI, Stellaris, or Freeciv provided in the input data, the score is based on general knowledge that turn-based strategy games often bring unique features, thus scoring 8 for novelty, considering it has a unique set of features such as single-player and multiplayer modes."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 5.7 seconds, which is relatively fast, but since it's not pip-installable and no PyPI existence was found, the score is 7, considering the fast install time but lack of package manager support."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a turn-based strategy game, it fits well into the current gaming ecosystem trends, with many players still enjoying such games, thus scoring 9 for current relevance, given its type and the ongoing interest in strategy games."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Although direct comparisons to similar tools like Civilization VI, Stellaris, or Freeciv in terms of GitHub stars are not possible due to missing data, the fact that it has a unique set of features such as single-player and multiplayer modes and is open-source contributes to its differentiation, scoring 8, considering these unique aspects."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected or the API was unavailable, so scoring 5 (neutral) due to insufficient data on GitHub stars, contributors count, or days since update."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 3 tests passed, indicating a high ease of use, and basic run success was true, which justifies a score of 9 for ease of use, given the successful test outcomes and straightforward setup."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "While there's no PyPI package, the app has a Web UI and Console Mode, which aids in integration, but the lack of a package manager presence hinders it, resulting in a score of 6 for ease of integration, considering both the presence of use modes and the absence of pip-installability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to judge the quality and completeness of the documentation, so scoring 5 (neutral) due to the unavailability of specific details on has_wiki, has_pages, or GitHub topics count."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the maturity, including days since created, forks count, or open issues, resulting in a score of 5 (neutral) due to the lack of information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there's a mention of 'vs_langchain:faster_install', which might indicate some level of performance comparison, the lack of direct benchmark measurements makes it difficult to score accurately, thus scoring 5 (neutral) due to insufficient benchmark data."
+    }
+  },
+  "summary": "Battle for Wesnoth is a turn-based strategy game with single-player and multiplayer modes, offering a unique gaming experience. Its performance and community aspects are hard to evaluate due to the lack of specific data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.wesnoth.org/",
+  "tool_url": "https://github.com/wesnoth/binf",
+  "source_type": "tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Civilization VI",
+        "stars": 18,
+        "repo": "Wild-W/CivilizationVI_CommunityExtension"
+      },
+      {
+        "name": "Stellaris",
+        "stars": 823,
+        "repo": "seuyh/stellaris-dlc-unlocker"
+      },
+      {
+        "name": "Freeciv",
+        "stars": 2149,
+        "repo": "freeciv/freeciv-web"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3
+  }
+}
