@@ -1,0 +1,37 @@
+{
+  "app": {
+    "title": "Show HN: I made a YouTube search form with advanced filters",
+    "url": "https://playlists.at/youtube/search/",
+    "is_llm_related": true,
+    "confidence": 0.85,
+    "app_type": "search-form",
+    "description": "",
+    "use_modes": [
+      "Web App"
+    ],
+    "similar_tools": [
+      "youtube-video",
+      "youtube-player",
+      "youtubearch"
+    ],
+    "proposed_tests": [
+      "Test advanced filters with multiple videos",
+      "Compare results with expected output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://github.com/playlists/youtube-search"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775485189547-p77c6",
+    "log_dir": "/tmp/llm-review-1775485189547-p77c6",
+    "install_success": false,
+    "install_time_s": 0,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "spawn docker ENOENT",
+    "notes": ""
+  }
+}
