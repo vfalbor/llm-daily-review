@@ -82,42 +82,130 @@ export async function runInContainer(app) {
 
 // ── Generate real Python test code via Groq ──────────────────────────────────
 
+// Installation strategy per domain/type
+function installStrategy(app) {
+  const type   = (app.app_type || '').toLowerCase();
+  const domain = (app.domain   || '').toLowerCase();
+  const url    = app.tool_url || app.url || '';
+  const isGithub = url.includes('github.com') || url.includes('gitlab.com');
+  const repoPath = url.replace(/https?:\/\/(github|gitlab)\.com\//, '').replace(/\.git$/, '');
+
+  if (domain === 'language' || type.startsWith('lang-')) {
+    return {
+      apk_packages: 'go git cargo rust nodejs npm',
+      strategy: `compiled-language`,
+      hint: `This is a compiled language/runtime. Use subprocess to: 1) apk add the needed compiler, 2) git clone the repo, 3) build from source, 4) run hello world. Do NOT assume a pip package exists.`,
+    };
+  }
+  if (domain === 'devtool' && (type.includes('build') || type.includes('cli'))) {
+    return {
+      apk_packages: 'nodejs npm git cargo rust',
+      strategy: 'cli-tool',
+      hint: `Install via npm/cargo/pip/apk. Try multiple methods. Measure execution time vs a known baseline.`,
+    };
+  }
+  if (domain === 'database' || type.startsWith('database-')) {
+    return {
+      apk_packages: 'sqlite',
+      strategy: 'database',
+      hint: `pip install the client. Create an in-memory DB. Insert 1000 rows. Query with WHERE. Measure latency vs sqlite3 stdlib as baseline.`,
+    };
+  }
+  if (domain === 'infrastructure' || type.startsWith('infra-')) {
+    return {
+      apk_packages: 'git curl',
+      strategy: 'infra',
+      hint: `Check if a pip/npm package exists. Test CLI availability. If Docker-only, test the image manifest via registry API (no docker run needed).`,
+    };
+  }
+  if (domain === 'hardware' || type.startsWith('hardware-')) {
+    return {
+      apk_packages: 'git',
+      strategy: 'hardware',
+      hint: `Clone the repo. Count source files and languages. Check for simulator/emulator. Run any Python examples found. No hardware required — test what can run in software.`,
+    };
+  }
+  if (domain === 'web' || type.startsWith('web-')) {
+    return {
+      apk_packages: 'nodejs npm',
+      strategy: 'web',
+      hint: `npm install or pip install. Start the server in background. Send HTTP requests. Measure response time. Check /health endpoint if available.`,
+    };
+  }
+  // Default: Python package
+  return {
+    apk_packages: 'git',
+    strategy: 'python-package',
+    hint: `pip install the package. Import it. Run a minimal functional test with synthetic data (no API key). Measure import time and core operation latency.`,
+  };
+}
+
 async function generateTestScript(app) {
-  const systemPrompt = `You are an expert Python QA engineer. Write a self-contained Python test script
-that runs inside a minimal Docker container (python:3.12-alpine, no internet access after start).
-The script must:
-- Use only stdlib + packages installable via pip at container start (network IS available during pip install)
-- Print structured markers: INSTALL_OK, INSTALL_FAIL, RUN_OK, TEST_PASS:<name>, TEST_FAIL:<name>:<reason>, TEST_SKIP:<name>:<reason>, BENCHMARK:<metric>:<value>
-- For each proposed test, write real executable code — never use placeholder comments or pass statements
-- Include benchmark comparisons where possible (e.g., measure latency, token throughput, memory)
-- End with print("RUN_OK") if the script completes without fatal errors
+  const strategy = installStrategy(app);
+  const repoUrl  = app.tool_url || app.url || '';
+
+  const systemPrompt = `You are an expert QA engineer. Write a self-contained Python test script
+that runs inside a Docker container based on python:3.12-alpine.
+NETWORK IS AVAILABLE throughout the entire script execution.
+
+The script MUST:
+1. Install system packages with subprocess: subprocess.run(['apk','add','--no-cache','<pkg>'], check=False)
+2. Install tool dependencies (pip/npm/cargo/go get) via subprocess
+3. Print structured markers on stdout:
+   INSTALL_OK | INSTALL_FAIL:<reason>
+   TEST_PASS:<name> | TEST_FAIL:<name>:<reason> | TEST_SKIP:<name>:<reason>
+   BENCHMARK:<metric_name>:<numeric_value>
+   RUN_OK  (always print this last, even after failures)
+4. Always emit at least 3 BENCHMARK lines with real numeric values (measure time/memory/count)
+5. Compare against a known baseline tool and emit: BENCHMARK:vs_<baseline>_<metric>:<ratio_or_ms>
+6. Never use placeholder pass statements — write real executable code for every test
+7. Handle failures gracefully: catch exceptions, print TEST_FAIL, continue to next test
+
+BENCHMARK examples:
+  BENCHMARK:install_time_s:12.4
+  BENCHMARK:import_time_ms:142
+  BENCHMARK:hello_world_ms:85
+  BENCHMARK:compile_time_ms:340
+  BENCHMARK:query_latency_ms:4.2
+  BENCHMARK:vs_python_fib35_ratio:0.82
+  BENCHMARK:loc_count:1240
+  BENCHMARK:test_files_count:23
+
 Return ONLY the Python script, no markdown fences, no explanation.`;
 
-  const userPrompt = `Write a QA test script for this LLM app:
+  const userPrompt = `Write a QA test script for this app from Hacker News:
 
 Title: ${app.title}
-URL: ${app.tool_url || app.url}
+URL: ${repoUrl}
+Domain: ${app.domain || 'unknown'}
 App type: ${app.app_type || 'unknown'}
 Description: ${app.description || ''}
-Use modes: ${(app.use_modes || []).join(', ')}
 Is open source: ${app.is_open_source ?? 'unknown'}
 Requires API key: ${app.requires_api_key ?? 'unknown'}
 Similar tools: ${(app.similar_tools || []).join(', ')}
-Proposed tests:
-${(app.proposed_tests || []).map((t, i) => `  ${i + 1}. ${t}`).join('\n')}
 
-Test strategy by app type:
-- fine-tuning / sdk-wrapper / other-llm: pip install, import, basic API call (use mock data if API key needed), measure import time
-- benchmark-runner / evaluation: pip install, run --help, compare CLI options with similar tools listed above
-- rag-system / vector-db: pip install, create a collection, insert 3 docs, query, measure latency
-- agent-framework / prompt-tool: pip install, import, create minimal agent/chain, run with a test prompt
-- model-server: check if Docker image exists (docker pull --dry-run), parse README for startup command
-- code-assistant: pip install, import, run a simple code completion request
-- multimodal: pip install, import, check available modalities
+INSTALLATION STRATEGY: ${strategy.strategy}
+Hint: ${strategy.hint}
+Pre-install these APK packages first: ${strategy.apk_packages}
 
-For BENCHMARK lines, compare against similar tools where possible.
-Example: BENCHMARK:import_time_ms:142
-Example: BENCHMARK:vs_langchain:faster_install`;
+Proposed tests to implement:
+${(app.proposed_tests || ['Install and basic run', 'Measure performance', 'Compare vs similar tool']).map((t, i) => `  ${i + 1}. ${t}`).join('\n')}
+
+IMPORTANT RULES:
+- If this is a compiled language/tool: use 'apk add' + git clone + build from source. DO NOT assume pip package.
+- If pip install fails, try: git clone + pip install -e . as fallback
+- If API key required: mock the API call with a fake key and test error handling, or test CLI --help
+- Always measure and emit BENCHMARK lines with real numbers (use time.time() and tracemalloc)
+- Compare performance vs the most similar baseline tool listed above
+- The script must complete and print RUN_OK even if all tests fail`;
+
+  try {
+    const code = await callGroq(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
+    return code.replace(/^```python\n?|^```\n?|```$/gm, '').trim();
+  } catch (err) {
+    return buildFallbackScript(app);
+  }
+}
 
   try {
     const code = await callGroq(systemPrompt, userPrompt, 3000, GROQ_MODEL_POWERFUL);
@@ -174,7 +262,7 @@ async function runDockerContainer({ runId, scriptPath, timeoutS }) {
       '-v', `${scriptPath}:/app/test.py:ro`,
       BASE_IMAGE,
       'sh', '-c',
-      'pip install --quiet requests 2>/dev/null; python /app/test.py',
+      'apk add --no-cache git curl 2>/dev/null; pip install --quiet requests 2>/dev/null; python /app/test.py',
     ];
 
     let stdout = '';
