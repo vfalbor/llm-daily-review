@@ -1,0 +1,12 @@
+Requirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.33.1)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.11)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.6.3)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.2.25)
+INSTALL_OK
+BENCHMARK:import_time_ms:0.02
+TEST_PASS:gov_auctions_api
+TEST_FAIL:search_items:404 Client Error: Not Found for url: https://www.govauctions.app/search?q=cars
+TEST_FAIL:auction_times:404 Client Error: Not Found for url: https://www.govauctions.app/auctions
+TEST_FAIL:browse_auctions:404 Client Error: Not Found for url: https://www.govauctions.app/auctions
+RUN_OK
