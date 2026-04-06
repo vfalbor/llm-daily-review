@@ -1,0 +1,40 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "Gemma 4 on iPhone",
+    "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+    "hn_url": "https://news.ycombinator.com/item?id=47652561",
+    "points": 721,
+    "comments": 201,
+    "author": "janandonly",
+    "age": "2026-04-05T18:45:53 1775414753",
+    "scraped_at": "2026-04-06T13:37:38.793Z",
+    "is_llm_related": true,
+    "confidence": 0.8,
+    "app_type": "multimodal",
+    "description": "Gemma 4 on iPhone, an AI-powered app",
+    "use_modes": [
+      "GUI"
+    ],
+    "similar_tools": [
+      "Google Lens",
+      "Amazon Rekognition"
+    ],
+    "proposed_tests": [
+      "Test image classification",
+      "Evaluate object detection",
+      "Compare with a baseline model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1775482674286-4qydd",
+    "log_dir": "/tmp/llm-review-1775482674286-4qydd",
+    "install_success": true,
+    "install_time_s": 0.453,
+    "basic_run_success": true,
+    "error_log": "",
+    "notes": "=== LLM Daily Review Test Runner ===\nApp: Gemma 4 on iPhone\nType: multimodal\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+  }
+}
