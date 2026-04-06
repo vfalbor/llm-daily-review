@@ -1,47 +1,47 @@
 {
   "app_name": "Caveman",
   "url": "https://github.com/JuliusBrussee/caveman",
-  "scored_at": "2026-04-06T14:21:02.449Z",
-  "total_score": 19,
+  "scored_at": "2026-04-06T14:21:16.831Z",
+  "total_score": 30,
   "scores": {
     "novelty": {
-      "score": 2,
-      "justification": "The repository was created 2 days ago, which is relatively recent, but the concept of using few tokens is not new, and with 2,936 stars, it does not appear to be a first-of-its-kind approach."
+      "score": 8,
+      "justification": "The repository was created 2 days ago and has 2938 stars, indicating a strong and potentially novel approach, with a high number of stars in a short time frame."
     },
     "system_requirements": {
       "score": 0,
-      "justification": "The install success was false, and there is no PyPI package found, which indicates that the installation process is not straightforward, and it may require manual configuration."
+      "justification": "The install success was false, indicating difficulties in setting up the application, and there is no PyPI package found, making it not pip-installable."
     },
     "current_relevance": {
-      "score": 6,
-      "justification": "As an llm-based-tool, it is relevant to current LLM ecosystem trends, and the fact that it is open source and does not require an API key makes it more accessible to users."
+      "score": 5,
+      "justification": "As a rag-system type app, it may have some relevance to the current LLM ecosystem trends, but the lack of clear documentation or explanation of its functionality limits its current relevance."
     },
     "differentiation": {
-      "score": 2,
-      "justification": "Compared to similar tools like llama, which has 101,812 stars, Caveman has significantly fewer stars, with a difference of -98,876 stars, indicating that it may not have a unique feature set or clear advantage over existing tools."
+      "score": 7,
+      "justification": "With 2938 stars, it has a significant lead over similar tools like GuppyLM, which has 1003 stars, indicating a clear advantage and differentiation in the market."
     },
     "community": {
-      "score": 7,
-      "justification": "The repository has 2,936 stars, 84 forks, and 5 contributors, with the last commit made 0 days ago, indicating an active community, but it still lags behind more popular tools like llama."
+      "score": 8,
+      "justification": "The repository has 2938 stars, 84 forks, 5 contributors, and was last committed to 0 days ago, indicating a strong and active community."
     },
     "ease_of_use": {
       "score": 0,
-      "justification": "The basic run success was false, and no tests were passed, which suggests that the app may have usability issues or may not be well-maintained."
+      "justification": "The basic run success was false, and no tests were passed, indicating significant difficulties in using the application."
     },
     "ease_of_integration": {
       "score": 2,
-      "justification": "There is no PyPI package found, which makes it harder to integrate into existing workflows, and the fact that it only has a Command Line interface limits its ease of integration."
+      "justification": "There is no PyPI package, and the use modes are limited to the GitHub repository, making it difficult to integrate into existing workflows or pipelines."
     }
   },
-  "summary": "Caveman is an llm-based-tool that aims to use fewer tokens, but it has a limited community and lacks a PyPI package, making it harder to integrate into existing workflows. Its novelty and differentiation are also limited compared to more established tools.",
-  "recommendation": "skip",
+  "summary": "Caveman is a novel approach to the LLM ecosystem, but it has significant difficulties in installation and usage, and its current relevance and ease of integration are limited.",
+  "recommendation": "niche",
   "app_url": "https://github.com/JuliusBrussee/caveman",
   "enriched": {
     "github": {
-      "stars": 2936,
+      "stars": 2938,
       "forks": 84,
       "open_issues": 7,
-      "watchers": 2936,
+      "watchers": 2938,
       "contributors": 5,
       "license": "MIT",
       "language": "Python",
@@ -66,19 +66,9 @@
     },
     "similar_github": [
       {
-        "name": "llama",
-        "stars": 101812,
-        "repo": "ggml-org/llama.cpp"
-      },
-      {
-        "name": "paddle-lm",
-        "stars": 9,
-        "repo": "OneYearIsEnough/PaddleOCR-Recog-LmdbDataset-Conversion"
-      },
-      {
-        "name": "gopher",
-        "stars": 13134,
-        "repo": "gopherjs/gopherjs"
+        "name": "GuppyLM",
+        "stars": 1003,
+        "repo": "arman-bd/guppylm"
       }
     ],
     "pypi": null,
