@@ -3,14 +3,20 @@
 // to classify ALL HN items — not just LLM apps — and propose type-specific benchmarks.
 // Covers devtools, databases, languages, security, infrastructure, research, and more.
 // For articles/posts, also fetches the page to extract the real tool URL.
+//
+// Batches items (BATCH_SIZE=10) to stay within Groq TPM limits.
 
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { callGroq, GROQ_MODEL_FAST } from '../llm/groq-adapter.js';
+import { callGroq, GROQ_MODEL_FAST, GROQ_MODEL_POWERFUL } from '../llm/groq-adapter.js';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const SKILL_MD = readFileSync(join(__dir, '../../skills/app-identifier/SKILL.md'), 'utf8');
+
+// Send items in batches to stay under Groq TPM limits
+// (SKILL.md is ~2k tokens, 10 items ~300 tokens, response ~1k tokens → ~3.3k total, safe under 6k)
+const BATCH_SIZE = 10;
 
 // Patterns that suggest a URL is a direct tool/repo, not an article
 const TOOL_URL_PATTERNS = [
@@ -38,7 +44,6 @@ async function extractToolUrlFromPage(url) {
     if (!res.ok) return null;
     const html = await res.text();
 
-    // Priority order: GitHub > GitLab > PyPI > npm > crates.io
     const patterns = [
       /https?:\/\/github\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)(?:['"?\s])/,
       /https?:\/\/gitlab\.com\/([a-zA-Z0-9_-]+\/[a-zA-Z0-9_.-]+)(?:['"?\s])/,
@@ -46,7 +51,6 @@ async function extractToolUrlFromPage(url) {
       /https?:\/\/npmjs\.com\/package\/([a-zA-Z0-9_@/-]+)(?:['"?\s])/,
       /https?:\/\/crates\.io\/crates\/([a-zA-Z0-9_-]+)(?:['"?\s])/,
     ];
-
     const bases = [
       'https://github.com/',
       'https://gitlab.com/',
@@ -65,8 +69,8 @@ async function extractToolUrlFromPage(url) {
   }
 }
 
-export async function filterLLMApps(items) {
-  const list = items
+async function classifyBatch(batch) {
+  const list = batch
     .map(i => `rank:${i.rank} | title:${i.title} | url:${i.url}`)
     .join('\n');
 
@@ -76,27 +80,42 @@ export async function filterLLMApps(items) {
 
 Apply the skill above to classify the following Hacker News items.
 Return a JSON array — one object per item — with ALL fields from the Output schema.
-For is_reviewable=false items, you may use null for most fields.
+For is_reviewable=false items, set is_reviewable:false and null for other fields.
 Return ONLY the JSON array, no markdown fences.
 
 Items:
 ${list}`;
 
   const raw = await callGroq(
-    'You are an expert HN app classifier. Identify reviewable tools, libraries, apps, and projects across ALL tech domains — not just LLM/AI. Follow the skill definition exactly. Return ONLY valid JSON, no markdown fences.',
+    'You are an expert HN app classifier. Identify reviewable tools, libraries, apps, and projects across ALL tech domains — not just LLM/AI. Return ONLY valid JSON array, no markdown fences.',
     userPrompt,
-    4096,
+    2048,
     GROQ_MODEL_FAST
   );
 
-  let classified;
-  try {
-    classified = JSON.parse(raw.replace(/^```json\n?|```$/gm, '').trim());
-  } catch {
-    throw new Error('Groq returned invalid JSON for classification');
+  return JSON.parse(raw.replace(/^```json\n?|```$/gm, '').trim());
+}
+
+export async function filterLLMApps(items) {
+  // Split into batches
+  const batches = [];
+  for (let i = 0; i < items.length; i += BATCH_SIZE) {
+    batches.push(items.slice(i, i + BATCH_SIZE));
   }
 
-  // Keep all reviewable items (was: is_llm_related — now: is_reviewable)
+  // Process batches sequentially (avoid concurrent TPM pressure)
+  const classified = [];
+  for (const batch of batches) {
+    try {
+      const results = await classifyBatch(batch);
+      classified.push(...results);
+    } catch (err) {
+      // If a batch fails, log and continue — don't crash the whole run
+      console.error(`[WARN] Batch classification failed: ${err.message}`);
+    }
+  }
+
+  // Keep all reviewable items
   const candidates = classified
     .filter(c => c.is_reviewable)
     .map(c => {
@@ -116,7 +135,6 @@ ${list}`;
           }
         }
       }
-      // If tool_url not set but url is a direct tool link, mirror it
       if (!app.tool_url && looksLikeTool(app.url)) {
         app.tool_url = app.url;
       }

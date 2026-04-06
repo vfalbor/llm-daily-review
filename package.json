@@ -10,8 +10,8 @@
     "url": "https://github.com/tokenstree/llm-daily-review"
   },
   "scripts": {
-    "start": "node src/web/server.js",
-    "review": "node src/orchestrator/run.js",
+    "start": "node --env-file=.env src/web/server.js",
+    "review": "node --env-file=.env src/orchestrator/run.js",
     "dev": "node --watch src/web/server.js",
     "test": "node --test src/**/*.test.js",
     "setup-cron": "bash cron/setup-cron.sh"
