@@ -3,28 +3,28 @@
     "title": "Caveman: Why use many token when few token do trick",
     "url": "https://github.com/JuliusBrussee/caveman",
     "is_llm_related": true,
-    "confidence": 0.87,
-    "app_type": "llm-based-tool",
-    "description": "",
+    "confidence": 0.95,
+    "app_type": "rag-system",
+    "description": "Caveman: Why use many token when few token do trick",
     "use_modes": [
-      "Command Line"
+      "GitHub repository"
     ],
     "similar_tools": [
-      "llama",
-      "paddle-lm",
-      "gopher"
+      "GuppyLM",
+      "Evals by OpenAI"
     ],
     "proposed_tests": [
-      "Test few token when many token do trick",
-      "Run multiple tests to see results"
+      "Explore the project's README and code",
+      "Run the model on a small dataset",
+      "Test the model's output for accuracy"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/JuliusBrussee/caveman"
   },
   "test_results": {
-    "run_id": "llm-review-1775485228125-uui81",
-    "log_dir": "/tmp/llm-review-1775485228125-uui81",
+    "run_id": "llm-review-1775485245196-2nt8v",
+    "log_dir": "/tmp/llm-review-1775485245196-2nt8v",
     "install_success": false,
     "install_time_s": 0,
     "basic_run_success": false,
