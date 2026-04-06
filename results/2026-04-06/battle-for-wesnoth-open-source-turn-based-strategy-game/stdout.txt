@@ -1,0 +1,7 @@
+INSTALL_OK
+TEST_PASS:create_new_game
+TEST_PASS:fight_battle
+TEST_PASS:export_game_save
+BENCHMARK:import_time_ms:0.00
+BENCHMARK:vs_langchain:faster_install
+RUN_OK
