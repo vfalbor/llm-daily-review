@@ -24,7 +24,9 @@ export async function enrichApp(app) {
     npm: null,
   };
 
-  const repoPath = extractGitHubRepo(app.url || app.repo_url || '');
+  // Prefer tool_url (set when HN post is an article about a specific tool)
+  const resolvedUrl = app.tool_url || app.repo_url || app.url || '';
+  const repoPath = extractGitHubRepo(resolvedUrl);
 
   if (repoPath) {
     data.github = await fetchGitHubRepo(repoPath);
@@ -32,14 +34,15 @@ export async function enrichApp(app) {
     data.similar_github = await fetchSimilarToolsStats(app.similar_tools || []);
   }
 
-  // PyPI lookup
-  const pkgName = guessPyPIName(app);
+  // PyPI lookup — use resolved URL for package name guessing
+  const resolvedApp = { ...app, url: resolvedUrl };
+  const pkgName = guessPyPIName(resolvedApp);
   if (pkgName) {
     data.pypi = await fetchPyPI(pkgName);
   }
 
   // npm lookup
-  const npmName = guessNpmName(app);
+  const npmName = guessNpmName(resolvedApp);
   if (npmName && !data.pypi) {
     data.npm = await fetchNpm(npmName);
   }

@@ -15,14 +15,17 @@ const SKILL_MD = readFileSync(
 
 import { callGroq } from '../llm/groq-adapter.js';
 
-// Criterion weights from the skill definition
+// Criterion weights for 10-criteria / 100-point scoring
 const WEIGHTS = {
-  novelty: 1.4,
-  current_relevance: 1.3,
-  differentiation: 1.3,
-  ease_of_use: 1.0,
+  novelty:             1.4,
+  current_relevance:   1.3,
+  differentiation:     1.3,
+  performance:         1.2,
+  ease_of_use:         1.0,
   ease_of_integration: 1.0,
-  community: 0.8,
+  documentation:       0.9,
+  maturity:            0.9,
+  community:           0.8,
   system_requirements: 0.7,
 };
 
@@ -49,7 +52,7 @@ export async function runWeeklyTop5() {
     if (app.recommendation === 'skip') return false;
     const scores = app.scores || {};
     if ((scores.ease_of_use?.score ?? 0) < 4) return false;
-    if ((app.total_score ?? 0) < 35) return false;
+    if ((app.total_score ?? 0) < 50) return false; // 50/100 minimum
     return true;
   });
 
@@ -77,7 +80,7 @@ export async function runWeeklyTop5() {
   const top5 = diversified.slice(0, 5);
   const honorableMentions = diversified
     .slice(5, 8)
-    .filter(a => (a.total_score ?? 0) >= 45)
+    .filter(a => (a.total_score ?? 0) >= 65)
     .map(a => a.title || a.app_name);
 
   // Step 5: Use Claude to write the justifications and week summary

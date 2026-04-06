@@ -96,7 +96,7 @@ Return ONLY the Python script, no markdown fences, no explanation.`;
   const userPrompt = `Write a QA test script for this LLM app:
 
 Title: ${app.title}
-URL: ${app.url}
+URL: ${app.tool_url || app.url}
 App type: ${app.app_type || 'unknown'}
 Description: ${app.description || ''}
 Use modes: ${(app.use_modes || []).join(', ')}
