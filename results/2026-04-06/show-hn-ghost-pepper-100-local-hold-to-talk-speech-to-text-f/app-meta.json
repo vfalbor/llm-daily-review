@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Show HN: Ghost Pepper – 100% local hold-to-talk speech-to-text for macOS",
+    "url": "https://github.com/matthartman/ghost-pepper",
+    "hn_url": "https://news.ycombinator.com/item?id=47666024",
+    "points": 37,
+    "comments": 10,
+    "author": "MattHart88",
+    "age": "2026-04-06T19:50:16 1775505016",
+    "scraped_at": "2026-04-06T20:41:07.738Z",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "devtool",
+    "app_type": "devtool-speech_recognition",
+    "description": "Hold-to-talk speech-to-text for macOS",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Hotpot",
+      "Speech-to-Text",
+      "Vosk"
+    ],
+    "proposed_tests": [
+      "Install Ghost Pepper CLI and test speech-to-text",
+      "Compare performance with built-in speech-to-text",
+      "Test robustness with background noise"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/matthartman/ghost-pepper",
+    "source_type": "tool",
+    "tool_url": "https://github.com/matthartman/ghost-pepper"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775508166565-2hg34",
+    "log_dir": "/tmp/llm-review-1775508166565-2hg34",
+    "install_success": false,
+    "install_time_s": 7.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement ghost-pepper (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for ghost-pepper\nTraceback (most recent call last):\n  File \"/app/test.py\", line 84, in <module>\n    main()\n  File \"/app/test.py\", line 75, in main\n    measure_import_time()\n  File \"/app/test.py\", line 60, in measure_import_time\n    import ghost_pepper\nModuleNotFoundError: No module named 'ghost_pepper'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_FAIL:Command '['pip', 'install', 'ghost-pepper']' returned non-zero exit status 1.\n"
+  }
+}
