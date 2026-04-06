@@ -3,36 +3,36 @@
     "title": "Show HN: I built a tiny LLM to demystify how language models work",
     "url": "https://github.com/arman-bd/guppylm",
     "is_llm_related": true,
-    "confidence": 0.99,
+    "confidence": 0.95,
     "app_type": "sdk-wrapper",
-    "description": "A tiny language model to demonstrate how LLMs work",
+    "description": "A tiny language model to understand how LLMs work",
     "use_modes": [
       "CLI",
       "Python API"
     ],
     "similar_tools": [
       "transformers",
-      "torch"
+      "Hugging Face"
     ],
     "proposed_tests": [
-      "Install and run the model on a small dataset",
-      "Test the model's performance on a benchmark task",
-      "Check the model's documentation and usage examples"
+      "Test installation and basic usage",
+      "Evaluate model performance on a small dataset",
+      "Compare results with a baseline model"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/arman-bd/guppylm"
   },
   "test_results": {
-    "run_id": "llm-review-1775483456015-es4ou",
-    "log_dir": "/tmp/llm-review-1775483456015-es4ou",
-    "install_success": true,
-    "install_time_s": 6,
+    "run_id": "llm-review-1775483954369-g5qh5",
+    "log_dir": "/tmp/llm-review-1775483954369-g5qh5",
+    "install_success": false,
+    "install_time_s": 5.7,
     "basic_run_success": false,
     "tests_passed": 0,
     "tests_total": 0,
     "benchmark_notes": "",
-    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 12, in <module>\n    import guppylm\nModuleNotFoundError: No module named 'guppylm'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 15, in <module>\n    subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"guppylm\"])\n                           ^^^\nNameError: name 'sys' is not defined. Did you forget to import 'sys'?\n",
-    "notes": "INSTALL_OK\n"
+    "error_log": "",
+    "notes": "INSTALL_FAIL\n"
   }
 }
