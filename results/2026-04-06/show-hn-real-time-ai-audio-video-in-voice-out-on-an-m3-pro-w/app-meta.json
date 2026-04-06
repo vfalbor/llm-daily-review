@@ -1,0 +1,41 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+    "url": "https://github.com/fikrikarim/parlor",
+    "hn_url": "https://news.ycombinator.com/item?id=47652007",
+    "points": 159,
+    "comments": 13,
+    "author": "karimf",
+    "age": "2026-04-05T17:53:19 1775411599",
+    "scraped_at": "2026-04-06T13:37:38.799Z",
+    "is_llm_related": true,
+    "confidence": 0.9,
+    "app_type": "multimodal",
+    "description": "Real-time AI audio/video processing on an M3 Pro with Gemma E2B",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "DeepSpeech",
+      "Google Cloud Speech-to-Text"
+    ],
+    "proposed_tests": [
+      "Test speech recognition",
+      "Evaluate audio classification",
+      "Compare with a baseline model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1775482678699-amdcc",
+    "log_dir": "/tmp/llm-review-1775482678699-amdcc",
+    "install_success": true,
+    "install_time_s": 0.488,
+    "basic_run_success": true,
+    "error_log": "",
+    "notes": "=== LLM Daily Review Test Runner ===\nApp: Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B\nType: multimodal\nTEST_1: SKIP (manual implementation needed)\nTEST_2: SKIP (manual implementation needed)\nTEST_3: SKIP (manual implementation needed)\nRUN_OK\n"
+  }
+}
