@@ -1,0 +1,24 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv
+  fatal: could not read Username for 'https://github.com': No such device or address
+  error: subprocess-exited-with-error
+  
+  × git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv did not run successfully.
+  │ exit code: 128
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv did not run successfully.
+│ exit code: 128
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Could not find a version that satisfies the requirement transformer-xl (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for transformer-xl
