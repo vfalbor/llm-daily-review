@@ -15,10 +15,7 @@
 Executing busybox-1.37.0-r30.trigger
 OK: 26.1 MiB in 52 packages
 OK: 26.1 MiB in 52 packages
-INSTALL_FAIL:[Errno 2] No such file or directory: 'deimos'
-TEST_FAIL:assemble_test_program:[Errno 2] No such file or directory: 'deimos'
-TEST_FAIL:run_test_program:[Errno 2] No such file or directory: './hello'
-TEST_FAIL:verify_test_program_output:[Errno 2] No such file or directory: './hello'
-TEST_FAIL:compare_performance_with_baseline:[Errno 2] No such file or directory: 'mos-6502-assembler'
-BENCHMARK:source_file_count:0
-BENCHMARK:language_count:0
+INSTALL_OK
+INSTALL_OK
+BENCHMARK:loc_count:4
+BENCHMARK:languages_count:0
