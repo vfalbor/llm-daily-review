@@ -1,0 +1,120 @@
+{
+  "app_name": "Solod",
+  "url": "https://github.com/solod-dev/solod",
+  "scored_at": "2026-04-07T14:03:07.647Z",
+  "total_score": 42,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The app received a sentiment score of 6/10 from 30 comments on HN, with 154 points and both positive signals about its design and negative signals about its compatibility with Go features and libraries."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "With 29 days since its creation and being a new subset of Go that translates to C, Solod presents a unique approach, scoring high on novelty, and is not a fork."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app had install success set to false and an install time of 20.8s, indicating difficulties in installation, and does not have a PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "There's not enough data provided about the app's type and its fit with current LLM ecosystem trends to score higher than the neutral midpoint of 5."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 410 stars compared to similar tools like Go (169,314 stars) and Rust (111,786 stars), Solod's differentiation is limited, though its unique translation to C is notable."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Having only 410 stars, 9 forks, and 1 contributor, the community around Solod appears to be small, with the last commit being 0 days ago."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app had 0 tests pass out of 3 and basic run success was false, indicating significant issues with its usability and functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Without a PyPI package and given its unique nature as a transpiler, integrating Solod into existing workflows might be challenging, though it does have a CLI use mode."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data about the documentation quality, wiki presence, or GitHub topics is provided, so it's scored at the neutral midpoint of 5."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Being only 29 days old, having 1 contributor, and 1 open issue, Solod is at an early stage of development, but it has seen recent activity with 0 days since the last commit."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements provided, such as clone_time_ms and memory_usage_mb, they are not directly comparable to other tools without more context, so it's scored neutrally at 5."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "Solod is a novel subset of Go that translates to C, with a small but active community and significant usability issues. It has potential for specific use cases but requires further development for broader adoption.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/solod-dev/solod",
+  "tool_url": "https://github.com/solod-dev/solod",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47669337",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": {
+      "stars": 410,
+      "forks": 9,
+      "open_issues": 1,
+      "watchers": 410,
+      "contributors": 1,
+      "license": "BSD-3-Clause",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 29,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A subset of Go that translates to C",
+      "topics": [
+        "c",
+        "go",
+        "language",
+        "transpiler"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Go",
+        "stars": 169314,
+        "repo": "avelino/awesome-go"
+      },
+      {
+        "name": "Rust",
+        "stars": 111786,
+        "repo": "rust-lang/rust"
+      },
+      {
+        "name": "Dart",
+        "stars": 15393,
+        "repo": "xiaoyaocz/dart_simple_live"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Go-syntax C target is useful for some use cases",
+        "nice design considerations",
+        "love the design"
+      ],
+      "negative_signals": [
+        "lacks important Go features (goroutines, channels, closures, generics)",
+        "incompatible with existing Go libraries",
+        "translating code to C can result in unreadable code"
+      ],
+      "justification": "The project received generally positive comments with some constructive criticism, particularly regarding its design and potential use cases. However, several commenters expressed concerns about its compatibility with Go's features and libraries.",
+      "comment_count": 30,
+      "hn_points": 154
+    }
+  }
+}
