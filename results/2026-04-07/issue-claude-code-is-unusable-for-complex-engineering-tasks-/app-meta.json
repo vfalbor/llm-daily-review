@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Issue: Claude Code is unusable for complex engineering tasks with Feb updates",
+    "url": "https://github.com/anthropics/claude-code/issues/42796/",
+    "hn_url": "https://news.ycombinator.com/item?id=47660925",
+    "points": 1210,
+    "comments": 651,
+    "author": "StanAngeloff",
+    "age": "2026-04-06T13:50:35 1775483435",
+    "scraped_at": "2026-04-07T13:56:28.171Z",
+    "is_reviewable": true,
+    "domain": "language",
+    "app_type": "lang-transpiler",
+    "source_type": "tool",
+    "tool_url": "https://github.com/anthropics/claude-code/",
+    "repo_url": "https://github.com/anthropics/claude-code/",
+    "confidence": 0.8,
+    "description": "Claude Code is unusable for complex engineering tasks with Feb updates",
+    "use_modes": [
+      "CLI"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "similar_tools": [
+      "LLaMA",
+      "Lena",
+      "BLOOM"
+    ],
+    "proposed_tests": [
+      "Install Claude Code and run integration tests to verify functionality",
+      "Evaluate performance of Claude Code on a set of complex engineering tasks",
+      "Conduct thorough benchmarking and profiling to compare with other alternatives"
+    ]
+  },
+  "test_results": {
+    "run_id": "llm-review-1775570519649-w3tv6",
+    "log_dir": "/tmp/llm-review-1775570519649-w3tv6",
+    "install_success": true,
+    "install_time_s": 19.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.9742560386657715",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nCloning into 'claude-code'...\nerror: could not find `Cargo.toml` in `/claude-code` or any parent directory\nerror: could not find `Cargo.toml` in `/claude-code` or any parent directory\nerror: could not find `Cargo.toml` in `/claude-code` or any parent directory\nerror: could not find `Cargo.toml` in `/claude-code` or any parent directory\npython: can't open file '//llama_benchmark.py': [Errno 2] No such file or directory\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/13) Installing libgcc (15.2.0-r2)\n( 2/13) Installing jansson (2.14.1-r0)\n( 3/13) Installing libstdc++ (15.2.0-r2)\n( 4/13) Installing binutils (2.45.1-r0)\n( 5/13) Installing libgomp (15.2.0-r2)\n( 6/13) Installing libatomic (15.2.0-r2)\n( 7/13) Installing gmp (6.3.0-r4)\n( 8/13) Installing isl26 (0.26-r1)\n( 9/13) Installing mpfr4 (4.2.2-r0)\n(10/13) Installing mpc1 (1.3.1-r1)\n(11/13) Installing gcc (15.2.0-r2)\n(12/13) Installing musl-dev (1.2.5-r21)\n(13/13) Installing go (1.25.8-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 368.2 MiB in 65 packages\nOK: 368.2 MiB in 65 packages\n(1/5) Installing libxml2 (2.13.9-r0)\n(2/5) Installing llvm21-libs (21.1.2-r1)\n(3/5) Installing scudo-malloc (21.1.2-r0)\n(4/5) Installing rust (1.91.1-r1)\n(5/5) Installing cargo (1.91.1-r1)\nExecuting busybox-1.37.0-r30.trigger\nOK: 774.2 MiB in 70 packages\nOK: 774.2 MiB in 70 packages\n(1/6) Installing ada-libs (3.3.0-r0)\n(2/6) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(3/6) Installing icu-libs (76.1-r1)\n(4/6) Installing simdjson (3.12.0-r0)\n(5/6) Installing simdutf (7.5.0-r1)\n(6/6) Installing nodejs (24.14.1-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 834.9 MiB in 76 packages\n(1/1) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 842.4 MiB in 77 packages\nINSTALL_OK\nBENCHMARK:clone_time_s:1.9742560386657715\nINSTALL_FAIL:Failed to clone and build Claude Code: Command '['cargo', 'build', '--release']' returned non-zero exit status 101.\nTEST_FAIL:integration_tests:Failed to run integration tests: Command '['cargo', 'test']' returned non-zero exit status 101.\nTEST_FAIL:hello_world:Failed to run hello world: Command '['cargo', 'run', '--release']' returned non-zero exit status 101.\nTEST_FAIL:memory_usage:Failed to measure memory usage: Command '['cargo', 'run', '--release']' returned non-zero exit status 101.\nTEST_SKIP:llama_benchmark:Failed to run LLaMA benchmark: Command '['python', 'llama_benchmark.py']' returned non-zero exit status 2.\nRUN_OK\n"
+  }
+}
