@@ -551,12 +551,15 @@ function renderAppCard(app) {
   }[app.recommendation] || app.recommendation;
 
   const bars = criteria.map(([key, label]) => {
-    const s   = scores[key]?.score ?? 0;
-    const cls = s >= 7 ? 'high' : s >= 5 ? 'mid' : 'low';
+    const raw  = scores[key]?.score;
+    const s    = (raw !== null && raw !== undefined) ? raw : null;
+    const cls  = s === null ? 'low' : s >= 7 ? 'high' : s >= 5 ? 'mid' : 'low';
     const just = scores[key]?.justification || '';
+    const display = s !== null ? `${s}/10` : '—';
+    const width   = s !== null ? s * 10 : 0;
     return `<div class="score-item">
-      <div class="score-label"><span>${label}</span><span>${s}/10</span></div>
-      <div class="score-bar"><div class="score-fill ${cls}" style="width:${s * 10}%"></div></div>
+      <div class="score-label"><span>${label}</span><span>${display}</span></div>
+      <div class="score-bar">${s !== null ? `<div class="score-fill ${cls}" style="width:${width}%"></div>` : ''}</div>
       ${just ? `<div class="score-note">${esc(just)}</div>` : ''}
     </div>`;
   }).join('');

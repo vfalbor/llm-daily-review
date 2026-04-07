@@ -211,7 +211,6 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     </p>
     <p style="margin:0;font-size:11px;color:#c4c2ba">
       Sent from info@tokenstree.com — if this landed in spam, please mark it safe.
-      All test artifacts: <a href="${GITHUB_RESULTS_BASE}/${date}" style="color:#9a9891">github.com/vfalbor/llm-daily-review/results/${date}</a>
     </p>
   </td></tr>
 
@@ -235,7 +234,7 @@ ${apps_tested
       `  ${r.summary || a.summary || ''}`,
       `  Tests: ${tot > 0 ? `${t}/${tot} passed` : 'n/a'}`,
       `  URL: ${r.tool_url || r.app_url || a.url}`,
-      `  Artifacts: ${GITHUB_RESULTS_BASE}/${date}/${ghSlug}`,
+      `  Artifacts: ${GITHUB_RESULTS_BASE}/${date}/${(a.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60)}`,
     ].join('\n');
   }).join('\n\n')}
 
