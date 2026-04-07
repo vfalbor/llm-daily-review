@@ -1,0 +1,102 @@
+( 1/14) Installing brotli-libs (1.2.0-r0)
+( 2/14) Installing c-ares (1.34.6-r0)
+( 3/14) Installing libunistring (1.4.1-r0)
+( 4/14) Installing libidn2 (2.3.8-r0)
+( 5/14) Installing nghttp2-libs (1.68.0-r0)
+( 6/14) Installing nghttp3 (1.13.1-r0)
+( 7/14) Installing libpsl (0.21.5-r3)
+( 8/14) Installing zstd-libs (1.5.7-r2)
+( 9/14) Installing libcurl (8.17.0-r1)
+(10/14) Installing curl (8.17.0-r1)
+(11/14) Installing libexpat (2.7.5-r0)
+(12/14) Installing pcre2 (10.47-r0)
+(13/14) Installing git (2.52.0-r0)
+(14/14) Installing git-init-template (2.52.0-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 26.1 MiB in 52 packages
+OK: 26.1 MiB in 52 packages
+OK: 26.1 MiB in 52 packages
+Collecting locker
+  Downloading Locker-1.0b.zip (6.3 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting cherrypy (from locker)
+  Downloading CherryPy-18.10.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting cheroot>=8.2.1 (from cherrypy->locker)
+  Downloading cheroot-11.1.2-py3-none-any.whl.metadata (7.0 kB)
+Collecting portend>=2.1.1 (from cherrypy->locker)
+  Downloading portend-3.2.1-py3-none-any.whl.metadata (4.1 kB)
+Collecting more-itertools (from cherrypy->locker)
+  Downloading more_itertools-11.0.1-py3-none-any.whl.metadata (41 kB)
+Collecting zc.lockfile (from cherrypy->locker)
+  Downloading zc_lockfile-4.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting jaraco.collections (from cherrypy->locker)
+  Downloading jaraco_collections-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting jaraco.functools (from cheroot>=8.2.1->cherrypy->locker)
+  Downloading jaraco_functools-4.4.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting tempora>=1.8 (from portend>=2.1.1->cherrypy->locker)
+  Downloading tempora-5.8.1-py3-none-any.whl.metadata (3.3 kB)
+Collecting jaraco.text (from jaraco.collections->cherrypy->locker)
+  Downloading jaraco_text-4.2.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting setuptools (from zc.lockfile->cherrypy->locker)
+  Using cached setuptools-82.0.1-py3-none-any.whl.metadata (6.5 kB)
+Collecting python-dateutil (from tempora>=1.8->portend>=2.1.1->cherrypy->locker)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting jaraco.context>=4.1 (from jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+Collecting typer-slim (from jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading typer_slim-0.24.0-py3-none-any.whl.metadata (4.2 kB)
+Collecting six>=1.5 (from python-dateutil->tempora>=1.8->portend>=2.1.1->cherrypy->locker)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting typer>=0.24.0 (from typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading typer-0.24.1-py3-none-any.whl.metadata (16 kB)
+Collecting click>=8.2.1 (from typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading click-8.3.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting shellingham>=1.3.0 (from typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=12.3.0 (from typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading rich-14.3.3-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=12.3.0->typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading markdown_it_py-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=12.3.0->typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=12.3.0->typer>=0.24.0->typer-slim->jaraco.text->jaraco.collections->cherrypy->locker)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading CherryPy-18.10.0-py3-none-any.whl (349 kB)
+Downloading cheroot-11.1.2-py3-none-any.whl (109 kB)
+Downloading more_itertools-11.0.1-py3-none-any.whl (72 kB)
+Downloading portend-3.2.1-py3-none-any.whl (5.7 kB)
+Downloading jaraco_collections-5.2.1-py3-none-any.whl (11 kB)
+Downloading zc_lockfile-4.0-py3-none-any.whl (9.1 kB)
+Downloading tempora-5.8.1-py3-none-any.whl (14 kB)
+Downloading jaraco_functools-4.4.0-py3-none-any.whl (10 kB)
+Downloading jaraco_text-4.2.0-py3-none-any.whl (13 kB)
+Using cached setuptools-82.0.1-py3-none-any.whl (1.0 MB)
+Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading typer_slim-0.24.0-py3-none-any.whl (3.4 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading typer-0.24.1-py3-none-any.whl (56 kB)
+Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Downloading click-8.3.2-py3-none-any.whl (108 kB)
+Downloading rich-14.3.3-py3-none-any.whl (310 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading markdown_it_py-4.0.0-py3-none-any.whl (87 kB)
+Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 22.1 MB/s eta 0:00:00
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Building wheels for collected packages: locker
+  Building wheel for locker (pyproject.toml): started
+  Building wheel for locker (pyproject.toml): finished with status 'done'
+  Created wheel for locker: filename=locker-1.0b0-py2.py3-none-any.whl size=3956 sha256=ff07e3021799318b365a834ef0ddc2bdfcd25403521faded97fb784a96ba0c35
+  Stored in directory: /root/.cache/pip/wheels/b2/32/9f/576ee67942e27821a03d081d95607541e6fa56a54dfe3ce66d
+Successfully built locker
+Installing collected packages: six, shellingham, setuptools, pygments, more-itertools, mdurl, jaraco.context, click, annotated-doc, zc.lockfile, python-dateutil, markdown-it-py, jaraco.functools, tempora, rich, cheroot, typer, portend, typer-slim, jaraco.text, jaraco.collections, cherrypy, locker
+Successfully installed annotated-doc-0.0.4 cheroot-11.1.2 cherrypy-18.10.0 click-8.3.2 jaraco.collections-5.2.1 jaraco.context-6.1.2 jaraco.functools-4.4.0 jaraco.text-4.2.0 locker-1.0b0 markdown-it-py-4.0.0 mdurl-0.1.2 more-itertools-11.0.1 portend-3.2.1 pygments-2.20.0 python-dateutil-2.9.0.post0 rich-14.3.3 setuptools-82.0.1 shellingham-1.5.4 six-1.17.0 tempora-5.8.1 typer-0.24.1 typer-slim-0.24.0 zc.lockfile-4.0
+INSTALL_OK
