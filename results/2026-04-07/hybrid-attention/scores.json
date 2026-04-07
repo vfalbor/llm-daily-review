@@ -1,0 +1,86 @@
+{
+  "app_name": "Hybrid Attention",
+  "url": "https://news.ycombinator.com/item?id=47674749",
+  "scored_at": "2026-04-07T14:01:58.649Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No specific data is provided about the age of the project or its originality, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and no PyPI package is found, indicating significant issues with installation, with an install time of 8.5s which is not particularly fast or slow."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app's relevance to current LLM ecosystem trends is not clearly stated, so a neutral score of 5 is given."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Transformer-XL with 3,697 stars and BIG-BIRD with 202 stars, Hybrid Attention's uniqueness is not quantitatively demonstrated, so it scores slightly above the minimum."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected, which severely limits community engagement and contribution, with no available data on GitHub stars, contributors, or update frequency."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were passed out of 0, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The absence of a PyPI package makes integration more challenging, despite having use modes like training a model and fine-tuning."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information is provided about the quality or existence of documentation, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as days since created, forks count, and open issues are not available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines from tests are provided, making it impossible to assess performance, thus scoring neutral at 5."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score is 5/10, with only 1 comment analyzed, which is insufficient for a meaningful sentiment analysis, defaulting to a neutral score."
+    }
+  },
+  "summary": "Hybrid Attention is a model with an open-source attention mechanism that has significant installation issues and lacks clear community support or maturity indicators.",
+  "recommendation": "niche",
+  "app_url": "https://news.ycombinator.com/item?id=47674749",
+  "tool_url": null,
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=47674749",
+  "domain": "llm-ai",
+  "app_type": "transformer-architecture",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Transformer-XL",
+        "stars": 3697,
+        "repo": "kimiyoung/transformer-xl"
+      },
+      {
+        "name": "BIG-BIRD",
+        "stars": 202,
+        "repo": "monologg/KoBigBird"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 12
+    }
+  }
+}
