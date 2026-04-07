@@ -1,0 +1,83 @@
+{
+  "app_name": "Locker",
+  "url": "https://locker.dev/",
+  "scored_at": "2026-04-07T13:59:47.385Z",
+  "total_score": 60,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10 based on 89 HN points and 30 comments analyzed, with positive signals such as appreciation for offline support and local file management, and negative signals including concerns about integration with mobile operating systems."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique solution by utilizing an S3 bucket as an alternative for cloud storage, which is a meaningful improvement on existing tools, but no days_since_created is available for a more precise evaluation."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install success is true but install time is 18s, and since the app is not pip-installable, the score is set to 5 due to insufficient data for a thorough evaluation of system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's focus on allowing users to use their own S3 bucket instead of paid services like Dropbox or Google Drive aligns well with current trends towards cost-effective and self-managed cloud storage solutions."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app differentiates itself by offering an alternative to traditional cloud storage services, providing offline support and local file management, but no direct comparison to similar tools is available in the provided data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so the score is set to 5 due to insufficient data to evaluate the community and ecosystem around the app."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were run (0/0 tests passed), and basic run success is false, indicating potential usability issues, but insufficient data is available for a thorough assessment of ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Since the app is not pip-installable and no API modes or license information is provided, the score is set to 5 due to insufficient data for evaluating integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available regarding the existence of a wiki, pages, or GitHub topics, so the score is set to 5 due to lack of information on documentation quality and completeness."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on days_since_created, forks count, or open_issues, making it impossible to assess the project's maturity accurately, hence a neutral score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines from tests are available, so the performance score is set to 5, indicating neutral or insufficient data to evaluate the app's performance compared to alternatives."
+    }
+  },
+  "summary": "Locker offers an innovative approach to cloud storage by utilizing personal S3 buckets, addressing a current need for cost-effective and self-managed solutions, with users appreciating its offline and local file management capabilities.",
+  "recommendation": "worth-watching",
+  "app_url": "https://locker.dev/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47673394",
+  "domain": "infra",
+  "app_type": "infra-iac",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "S3 bucket alternative for cloud storage",
+        "Users appreciate offline support and local file management",
+        "Several open-source alternatives offered"
+      ],
+      "negative_signals": [
+        "Concerns about integration with mobile operating systems",
+        "Users want better management of sync failures and exclusions",
+        "No official mobile solution available"
+      ],
+      "justification": "Comments suggest a positive reception to the project's concept, with users appreciating offline support and local file management. However, some users raise concerns about integration with mobile operating systems and the need for better sync failure management.",
+      "comment_count": 30,
+      "hn_points": 89
+    }
+  }
+}
