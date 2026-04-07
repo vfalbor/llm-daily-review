@@ -1,0 +1,101 @@
+{
+  "app_name": "Pion/Handoff",
+  "url": "https://github.com/pion/handoff",
+  "scored_at": "2026-04-07T14:00:12.542Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The app received a sentiment score of 9/10, with 38 HN points and 8 comments analyzed, indicating a positive reception with comments praising the project's novelty and potential applications."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "The app is not a fork and has been created recently, with 3 days since the repository was created, indicating a new approach."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and the install time is 7.9s, indicating difficulties in installation, but PyPI package exists with version 0.4.2."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's type is infra-container, which is relevant in current LLM ecosystem trends, but its novelty and differentiation need to be further evaluated."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app has 57 stars on GitHub, but without a direct comparison to similar tools, its differentiation cannot be fully evaluated, so a neutral score is assigned."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 57 stars, 1 fork, and 1 contributor, with 0 days since the last commit, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed are 0 out of 0, and the basic run success is false, indicating significant difficulties in usage, but since scoring 0 is not allowed, the minimum score of 1 is assigned."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a PyPI package and an MIT license, but without information on API modes, the ease of integration cannot be fully evaluated."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality and completeness of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the production readiness and stability of the app, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines from tests, so the performance cannot be evaluated, resulting in a neutral score."
+    }
+  },
+  "summary": "Pion/Handoff is a new project that aims to move WebRTC out of the browser and into Go, with a small but active community and positive reception on HN, but it faces difficulties in installation and usage.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/pion/handoff",
+  "tool_url": "https://github.com/pion/handoff",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47673880",
+  "domain": "infra",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 57,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 57,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Start WebRTC in the browser—run it somewhere else",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.2",
+      "summary": "Deploy configurable unix pipeline jobs serverlessly.",
+      "requires_python": ">=3.9",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Interesting and novel project",
+        "Well done for working on something useful",
+        "Promising demo potential with picture-in-picture overlay"
+      ],
+      "negative_signals": [],
+      "justification": "Mostly positive comments, with commenters praising the project's novelty and potential applications, and one commenter even expressing envy for the project's functionality.",
+      "comment_count": 8,
+      "hn_points": 38
+    }
+  }
+}
