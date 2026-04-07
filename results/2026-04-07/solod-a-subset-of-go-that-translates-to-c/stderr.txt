@@ -1,0 +1,11 @@
+  * 
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+  * 
+Cloning into 'solod'...
+go: go.mod requires go >= 1.26 (running go 1.25.8; GOTOOLCHAIN=local)
+Traceback (most recent call last):
+  File "/app/test.py", line 113, in <module>
+    with open('solod/main.go', 'r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'solod/main.go'
