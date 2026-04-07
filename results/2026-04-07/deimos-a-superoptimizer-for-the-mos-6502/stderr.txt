@@ -1,0 +1,17 @@
+Cloning into 'deimos'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Cloning into 'mos-6502-assembler'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/app/test.py", line 107, in <module>
+    main()
+  File "/app/test.py", line 100, in main
+    subprocess.run(['deimos', '--help'], check=False)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'deimos'
