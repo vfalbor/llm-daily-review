@@ -1,0 +1,109 @@
+{
+  "app_name": "Claude Code",
+  "url": "https://github.com/anthropics/claude-code/",
+  "scored_at": "2026-04-07T14:02:33.927Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "With 408 days since the repository was created and being compared to similar tools like LLaMA, Lena, and BLOOM, Claude Code does not introduce a first-of-its-kind approach, scoring 6 for novelty."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Given that the install success is true and the install time is 19.7s, the system requirements score is 8, as it meets the criteria for a simple setup and minor dependencies."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a lang-transpiler, Claude Code is clearly useful for common LLM use cases, scoring 7 for current relevance, considering its fit with current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools, with 110,439 stars, Claude Code has a significant number of stars compared to LLaMA, Lena, and BLOOM, scoring 8 for differentiation."
+    },
+    "community": {
+      "score": 9,
+      "justification": "With 110,439 GitHub stars, 49 contributors, and only 3 days since the last commit, Claude Code has a strong community, scoring 9."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Since no tests passed out of 4, despite the basic run success being true, the ease of use score is 1, indicating significant difficulties with usability."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Given the existence of a PyPI package and CLI use mode, Claude Code has a moderate ease of integration, scoring 7."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to fully evaluate the quality and completeness of Claude Code's documentation, so it scores 5 by default."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "Considering the days since the repository was created and the number of forks and open issues, Claude Code appears to be mature, with a score of 8 for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Given the lack of comprehensive benchmark measurements directly comparable to similar tools, the performance score is 5, indicating insufficient data for a definitive judgment."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for Claude Code."
+    }
+  },
+  "summary": "Claude Code, a lang-transpiler, presents a valuable tool within the LLM ecosystem, offering a notable community and relevance. However, its usability and performance aspects require further evaluation due to insufficient or unfavorable data. Its differentiation and system requirements indicate a strong standing among similar tools.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/anthropics/claude-code/issues/42796/",
+  "tool_url": "https://github.com/anthropics/claude-code/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47660925",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": {
+      "stars": 110439,
+      "forks": 18380,
+      "open_issues": 9193,
+      "watchers": 110439,
+      "contributors": 49,
+      "license": "none",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 408,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LLaMA",
+        "stars": 102281,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "Lena",
+        "stars": 679,
+        "repo": "davidsonfellipe/lena.js"
+      },
+      {
+        "name": "BLOOM",
+        "stars": 9006,
+        "repo": "bloomrpc/bloomrpc"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Reserved",
+      "requires_python": null,
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
