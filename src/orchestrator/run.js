@@ -12,8 +12,36 @@ import { sendNewsletter } from '../email/mailer.js';
 import { runWeeklyTop5 } from '../scorer/weekly-top5.js';
 import { uploadToGitHub, uploadScores } from '../github/uploader.js';
 import { log } from '../utils/logger.js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dir = path.dirname(fileURLToPath(import.meta.url));
+const LOCK_FILE = path.join(__dir, '../../data/run.lock');
+
+function acquireLock() {
+  if (fs.existsSync(LOCK_FILE)) {
+    const pid = fs.readFileSync(LOCK_FILE, 'utf8').trim();
+    // Check if that process is still alive
+    try { process.kill(parseInt(pid), 0); return false; } catch { /* stale lock */ }
+  }
+  fs.writeFileSync(LOCK_FILE, String(process.pid));
+  return true;
+}
+
+function releaseLock() {
+  try { fs.unlinkSync(LOCK_FILE); } catch {}
+}
 
 async function main() {
+  if (!acquireLock()) {
+    log.warn('Another run is already in progress — aborting to avoid duplicate sends');
+    process.exit(0);
+  }
+  process.on('exit', releaseLock);
+  process.on('SIGINT', () => { releaseLock(); process.exit(1); });
+  process.on('SIGTERM', () => { releaseLock(); process.exit(1); });
+
   const runDate = new Date().toISOString().split('T')[0];
   const dayOfWeek = new Date().getDay(); // 5 = Friday
 
