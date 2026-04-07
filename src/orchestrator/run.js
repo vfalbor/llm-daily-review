@@ -80,6 +80,7 @@ async function main() {
       await uploadScores(app, scored, runDate);
 
       // Save to DB
+      scored.title = app.title;  // preserve original HN title for GitHub slug
       await markTested(app, scored);
       dailyResults.push(scored);
 

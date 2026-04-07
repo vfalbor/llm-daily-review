@@ -63,7 +63,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
       const hnUrl    = report.hn_url;
       const domain   = report.domain || '';
       const appType  = report.app_type || app.app_type || '';
-      const ghSlug   = (app.title || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+      const ghSlug   = (app.title || app.report?.app_name || app.app_name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
       const ghLink   = `${GITHUB_RESULTS_BASE}/${date}/${ghSlug}`;
 
       // Test results
@@ -102,7 +102,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     <table width="100%" cellpadding="0" cellspacing="0"><tr>
       <td style="vertical-align:top">
         <div style="font-size:16px;font-weight:600;margin-bottom:5px">
-          <a href="${escHtml(toolUrl)}" style="color:#1a1a18;text-decoration:none">${escHtml(app.title || app.app_name)}</a>
+          <a href="${escHtml(toolUrl)}" style="color:#1a1a18;text-decoration:none">${escHtml(app.report?.app_name || app.app_name || app.title)}</a>
           ${hnUrl ? `&nbsp;<a href="${escHtml(hnUrl)}" style="font-size:11px;color:#FF6600;text-decoration:none;font-weight:500">▲ HN</a>` : ''}
         </div>
         <div>
