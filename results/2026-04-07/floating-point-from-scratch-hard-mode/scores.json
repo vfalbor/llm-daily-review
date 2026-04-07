@@ -1,81 +1,80 @@
 {
   "app_name": "Floating point from scratch: Hard Mode",
   "url": "https://essenceia.github.io/projects/floating_dragon/",
-  "scored_at": "2026-04-07T14:01:31.312Z",
-  "total_score": 67,
+  "scored_at": "2026-04-07T14:01:39.467Z",
+  "total_score": 55,
   "scores": {
     "hn_sentiment": {
       "score": 7,
-      "justification": "The sentiment score is 7/10 based on 8 comments, with 50 HN points, positive signals praising the thoughtful design of the fp spec, and negative signals acknowledging the frustration with NaNs and Infs."
+      "justification": "The HN sentiment score is 7/10, with 50 HN points, 8 comments analyzed, and positive signals including 'tremendous amount of thought put into the fp spec' and 'nifty pedantry'."
     },
     "novelty": {
       "score": 8,
-      "justification": "The project implements a floating point arithmetic library from scratch, which is a unique approach, but since there's no GitHub data, we can't compare it directly to similar tools like fp."
+      "justification": "No GitHub repository stats are available, but the app's implementation from scratch in assembly language suggests a high level of novelty, comparable to similar tools like TinyOS."
     },
     "system_requirements": {
-      "score": 6,
-      "justification": "The install time is 19s, which is moderate, but since there's no PyPI package and install success is true, it's not straightforward to install and run."
+      "score": 3,
+      "justification": "The install success is false, and the install time is not applicable, indicating potential system requirement issues, and the app is not pip-installable since no PyPI package was found."
     },
     "current_relevance": {
-      "score": 8,
-      "justification": "The project is a lang-from-scratch tool, which fits well with current LLM ecosystem trends, but without more data, it's hard to assess its relevance precisely."
+      "score": 6,
+      "justification": "The app's type is numerical-computation, which is relevant to current LLM ecosystem trends, but the lack of GitHub repository stats and PyPI package makes it less relevant."
     },
     "differentiation": {
-      "score": 7,
-      "justification": "The project has a unique approach to implementing floating point arithmetic, but without GitHub stars or similar metrics, it's hard to quantify its differentiation from similar tools like fp."
+      "score": 8,
+      "justification": "The app's implementation from scratch in assembly language differentiates it from similar tools like TinyOS, with a unique feature set."
     },
     "community": {
       "score": 5,
-      "justification": "There is no GitHub repository data available, so we can't assess the community health or ecosystem."
+      "justification": "No GitHub repository stats are available, making it difficult to evaluate the community, so a neutral score of 5 is assigned."
     },
     "ease_of_use": {
-      "score": 7,
-      "justification": "The tests passed are 3/4, which indicates some friction, but basic run success is true, suggesting that the core functionality works."
+      "score": 1,
+      "justification": "The tests passed is 0 / 0, and the basic run success is false, indicating significant ease of use issues."
     },
     "ease_of_integration": {
-      "score": 5,
-      "justification": "There is no PyPI package, but the project has use modes for C, C++, and Python, which could facilitate integration, but without more data, it's hard to assess its ease of integration."
+      "score": 3,
+      "justification": "The app has no PyPI package, and the use modes are limited, making integration more difficult, but the absence of an API key requirement is a positive factor."
     },
     "documentation": {
       "score": 5,
-      "justification": "There is no data available on the documentation quality, so we can't assess it."
+      "justification": "No data is available on the app's documentation, so a neutral score of 5 is assigned."
     },
     "maturity": {
       "score": 5,
-      "justification": "There is no data available on the project's maturity, so we can't assess it."
+      "justification": "No data is available on the app's maturity, including days since created, forks count, and open issues, so a neutral score of 5 is assigned."
     },
     "performance": {
-      "score": 8,
-      "justification": "The benchmark measurements show a vs_python_fp_add_time_ratio of 2.58, indicating a performance advantage, and an fp_performance_time_s of 0.21, which is relatively fast."
+      "score": 5,
+      "justification": "No benchmark data is available, so a neutral score of 5 is assigned."
     }
   },
-  "summary": "The Floating point from scratch project is a unique tool that implements a floating point arithmetic library from scratch, with a moderate install time and good performance, but its ease of use, integration, and maturity are hard to assess due to lacking data.",
-  "recommendation": "worth-watching",
+  "summary": "The Floating point from scratch: Hard Mode app is a unique, novel implementation of a floating-point unit simulator in assembly language, but it has significant ease of use and system requirement issues, and limited integration options.",
+  "recommendation": "niche",
   "app_url": "https://essenceia.github.io/projects/floating_dragon/",
   "tool_url": "https://essenceia.github.io/projects/floating_dragon/",
   "source_type": "tool",
   "hn_url": "https://news.ycombinator.com/item?id=47641472",
-  "domain": "language",
-  "app_type": "lang-from-scratch",
+  "domain": "research",
+  "app_type": "numerical-computation",
   "enriched": {
     "github": null,
     "similar_github": [],
     "pypi": null,
-    "tests_passed": 3,
-    "tests_total": 4,
+    "tests_passed": 0,
+    "tests_total": 0,
     "sentiment": {
       "score": 7,
       "positive_signals": [
-        "Thoughtful design of the fp spec makes the code safer",
-        "Implementing floating point unit can be a fun learning experience",
-        "Horrible floating point implementations in hardware are a bigger concern"
+        "tremendous amount of thought put into the fp spec",
+        "makes the code much safer",
+        "nifty pedantry"
       ],
       "negative_signals": [
-        "Complexity of floating point spec and implementations can be annoying",
-        "IEEE-754 and custom formats have their own flaws",
-        "Writing floating point code can be frustrating, particularly with NaNs and Infs"
+        "annoying for very little benefit",
+        "plethora of NaNs can be annoying"
       ],
-      "justification": "Overall, the comments praise the thoughtfulness behind the fp spec and implementing a floating point unit, but also acknowledge the frustration and annoyances that come with it, such as dealing with NaNs and Infs.",
+      "justification": "Despite some criticism about the complexity of floating point operations and the annoyance caused by NaNs, the community seems to appreciate the thought and effort put into the FP spec, and some find it educational and challenging, but also fun.",
       "comment_count": 8,
       "hn_points": 50
     }
