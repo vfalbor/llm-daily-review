@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Hybrid Attention",
+    "url": "https://news.ycombinator.com/item?id=47674749",
+    "hn_url": "https://news.ycombinator.com/item?id=47674749",
+    "points": 12,
+    "comments": 1,
+    "author": "JohannaAlmeida",
+    "age": "2026-04-07T13:06:28 1775567188",
+    "scraped_at": "2026-04-07T13:56:28.170Z",
+    "tool_url": null,
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "transformer-architecture",
+    "description": "An open-source attention mechanism that combines the strengths of both self-attention and cross-attention",
+    "use_modes": [
+      "Train a model on a benchmark dataset and evaluate its performance.",
+      "Use a pre-trained model as a starting point and fine-tune it on a new task."
+    ],
+    "similar_tools": [
+      "Transformer-XL",
+      "BIG-BIRD"
+    ],
+    "proposed_tests": [
+      "Benchmark the performance of the Hybrid Attention model on a series of language tasks.",
+      "Analyze the effect of varying the hyperparameters on the model's performance."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/open-nlp/hybrid-attention"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775570500440-mayht",
+    "log_dir": "/tmp/llm-review-1775570500440-mayht",
+    "install_success": false,
+    "install_time_s": 8.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv\n  fatal: could not read Username for 'https://github.com': No such device or address\n  error: subprocess-exited-with-error\n  \n  × git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv did not run successfully.\n  │ exit code: 128\n  ╰─> See above for output.\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× git clone --filter=blob:none --quiet https://github.com/some-repo/hybrid-attention /tmp/pip-req-build-w1w445hv did not run successfully.\n│ exit code: 128\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nERROR: Could not find a version that satisfies the requirement transformer-xl (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for transformer-xl\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting git+https://github.com/some-repo/hybrid-attention\n  Cloning https://github.com/some-repo/hybrid-attention to /tmp/pip-req-build-w1w445hv\nINSTALL_FAIL:Hybrid Attention import failed\n"
+  }
+}
