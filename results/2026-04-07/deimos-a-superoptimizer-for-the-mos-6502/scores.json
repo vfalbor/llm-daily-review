@@ -1,62 +1,62 @@
 {
   "app_name": "DeiMOS",
   "url": "https://aransentin.github.io/deimos/",
-  "scored_at": "2026-04-07T14:00:34.039Z",
-  "total_score": 61,
+  "scored_at": "2026-04-07T14:00:53.036Z",
+  "total_score": 58,
   "scores": {
     "hn_sentiment": {
-      "score": 9,
-      "justification": "The project received a sentiment score of 9/10, with 28 HN points, 4 comments analyzed, and positive signals such as 'Incredibly clever and a fun read' and 'Useful for demo coders'."
+      "score": 8,
+      "justification": "DeiMOS has an HN sentiment score of 8/10, with 28 HN points, 4 comments analyzed, and positive signals including being clever and fun to read, useful for demo coders and homebrew video game developers, and generating faster code."
     },
     "novelty": {
-      "score": 8,
-      "justification": "Unfortunately, without information on days_since_created or is_fork, we cannot directly compare to similar tools, but given its unique application as a Superoptimizer for the MOS 6502, it likely offers a meaningful improvement on existing tools."
+      "score": 7,
+      "justification": "DeiMOS has a unique approach as a superoptimizer for the MOS 6502 microprocessor, but its novelty score is reduced due to the lack of available data on its creation date and comparison to similar tools."
     },
     "system_requirements": {
       "score": 5,
-      "justification": "Since install_success was false, despite the PyPI package existing, it's challenging to assess the ease of installation, thus scoring at the midpoint due to insufficient data for a definitive evaluation."
+      "justification": "The install success is true, but the install time and tests passed are not sufficient to evaluate the system requirements fully, so a neutral score of 5 is given."
     },
     "current_relevance": {
       "score": 6,
-      "justification": "As an embedded-systems tool for the MOS 6502, its relevance is somewhat niche, although it still addresses specific needs within that domain, particularly with its focus on superoptimization."
+      "justification": "DeiMOS is relevant to current LLM ecosystem trends as a tool for optimizing code, particularly for the MOS 6502 microprocessor, but its relevance score is moderate due to the niche nature of its application."
     },
     "differentiation": {
-      "score": 8,
-      "justification": "Without direct comparisons to similar tools like MOS 6502 Assembler or 6502 Simulator in terms of BENCHMARK comparisons, but considering its unique application and the lack of available data, we acknowledge its unique contribution to the field."
+      "score": 7,
+      "justification": "DeiMOS differentiates itself from similar tools like duper with its high-performance, open-source superoptimizer for the MOS 6502 microprocessor, and its use modes such as assembler, bin2c, and c2bin."
     },
     "community": {
       "score": 5,
-      "justification": "Given the absence of GitHub repository stats, we cannot assess the health of the project's community, leading to a neutral score."
+      "justification": "No GitHub repository stats are available for DeiMOS, so a neutral score of 5 is given due to insufficient data."
     },
     "ease_of_use": {
-      "score": 2,
-      "justification": "With 0 tests passed out of 4 and basic run success being false, the usability is significantly hindered, indicating a need for improvement in this area."
+      "score": 1,
+      "justification": "The tests passed is 0, indicating significant challenges with ease of use, despite the basic run success being false."
     },
     "ease_of_integration": {
-      "score": 5,
-      "justification": "While the PyPI package exists, without clear information on API modes or license, we default to a neutral score due to the lack of detailed data."
+      "score": 7,
+      "justification": "DeiMOS has a PyPI package available, and its use modes include assembler, bin2c, and c2bin, making it relatively easy to integrate, but the lack of API modes information reduces its score."
     },
     "documentation": {
       "score": 5,
-      "justification": "Insufficient data is available to evaluate the quality and completeness of the documentation accurately."
+      "justification": "There is insufficient data available to evaluate the quality and completeness of DeiMOS's documentation, so a neutral score of 5 is given."
     },
     "maturity": {
       "score": 5,
-      "justification": "Lacking specific details on days_since_created, forks count, or open_issues, we cannot assess maturity and thus score at the midpoint."
+      "justification": "There is insufficient data available to evaluate the maturity of DeiMOS, including its creation date, forks count, and open issues, so a neutral score of 5 is given."
     },
     "performance": {
       "score": 5,
-      "justification": "No applicable BENCHMARK lines from tests are available to compare performance, leading to a neutral score."
+      "justification": "The benchmark measurements from the container are insufficient to evaluate the performance of DeiMOS fully, so a neutral score of 5 is given."
     }
   },
-  "summary": "DeiMOS is a unique superoptimizer for the MOS 6502, offering specific improvements in optimization for this CPU, but faces challenges in installation and usability. Its niche application and lack of available comparative data make it a specialized tool with potential, yet requiring further development for broader appeal.",
+  "summary": "DeiMOS is a high-performance, open-source superoptimizer for the MOS 6502 microprocessor that has a unique approach and differentiates itself from similar tools, but its ease of use and maturity are uncertain due to insufficient data.",
   "recommendation": "worth-watching",
   "app_url": "https://aransentin.github.io/deimos/",
   "tool_url": "https://aransentin.github.io/deimos/",
   "source_type": "tool",
   "hn_url": "https://news.ycombinator.com/item?id=47673379",
   "domain": "hardware",
-  "app_type": "embedded-systems",
+  "app_type": "hardware-6502-superoptimizer",
   "enriched": {
     "github": null,
     "similar_github": [],
@@ -69,16 +69,16 @@
       "home_page": "https://github.com/mesosphere/deimos"
     },
     "tests_passed": 0,
-    "tests_total": 4,
+    "tests_total": 0,
     "sentiment": {
-      "score": 9,
+      "score": 8,
       "positive_signals": [
-        "Incredibly clever and a fun read",
-        "Useful for demo coders",
-        "Optimizing tight loops and such"
+        "clever and fun read",
+        "useful for demo coders and homebrew video game developers",
+        "faster code generation"
       ],
       "negative_signals": [],
-      "justification": "The project received praise for its cleverness and practical applications, particularly in demo coding and optimization of tight loops.",
+      "justification": "The comments praise the project as clever and fun to read, acknowledging its utility for specific use cases such as demo coding and homebrew video game development, and suggesting it can generate faster code.",
       "comment_count": 4,
       "hn_points": 28
     }
