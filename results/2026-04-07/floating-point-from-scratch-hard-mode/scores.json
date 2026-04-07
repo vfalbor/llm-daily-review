@@ -1,0 +1,83 @@
+{
+  "app_name": "Floating point from scratch: Hard Mode",
+  "url": "https://essenceia.github.io/projects/floating_dragon/",
+  "scored_at": "2026-04-07T14:01:31.312Z",
+  "total_score": 67,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10 based on 8 comments, with 50 HN points, positive signals praising the thoughtful design of the fp spec, and negative signals acknowledging the frustration with NaNs and Infs."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The project implements a floating point arithmetic library from scratch, which is a unique approach, but since there's no GitHub data, we can't compare it directly to similar tools like fp."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 19s, which is moderate, but since there's no PyPI package and install success is true, it's not straightforward to install and run."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The project is a lang-from-scratch tool, which fits well with current LLM ecosystem trends, but without more data, it's hard to assess its relevance precisely."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project has a unique approach to implementing floating point arithmetic, but without GitHub stars or similar metrics, it's hard to quantify its differentiation from similar tools like fp."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository data available, so we can't assess the community health or ecosystem."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "The tests passed are 3/4, which indicates some friction, but basic run success is true, suggesting that the core functionality works."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package, but the project has use modes for C, C++, and Python, which could facilitate integration, but without more data, it's hard to assess its ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available on the documentation quality, so we can't assess it."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no data available on the project's maturity, so we can't assess it."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements show a vs_python_fp_add_time_ratio of 2.58, indicating a performance advantage, and an fp_performance_time_s of 0.21, which is relatively fast."
+    }
+  },
+  "summary": "The Floating point from scratch project is a unique tool that implements a floating point arithmetic library from scratch, with a moderate install time and good performance, but its ease of use, integration, and maturity are hard to assess due to lacking data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://essenceia.github.io/projects/floating_dragon/",
+  "tool_url": "https://essenceia.github.io/projects/floating_dragon/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47641472",
+  "domain": "language",
+  "app_type": "lang-from-scratch",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Thoughtful design of the fp spec makes the code safer",
+        "Implementing floating point unit can be a fun learning experience",
+        "Horrible floating point implementations in hardware are a bigger concern"
+      ],
+      "negative_signals": [
+        "Complexity of floating point spec and implementations can be annoying",
+        "IEEE-754 and custom formats have their own flaws",
+        "Writing floating point code can be frustrating, particularly with NaNs and Infs"
+      ],
+      "justification": "Overall, the comments praise the thoughtfulness behind the fp spec and implementing a floating point unit, but also acknowledge the frustration and annoyances that come with it, such as dealing with NaNs and Infs.",
+      "comment_count": 8,
+      "hn_points": 50
+    }
+  }
+}
