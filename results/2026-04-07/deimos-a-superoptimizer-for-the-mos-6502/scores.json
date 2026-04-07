@@ -1,0 +1,86 @@
+{
+  "app_name": "DeiMOS",
+  "url": "https://aransentin.github.io/deimos/",
+  "scored_at": "2026-04-07T14:00:34.039Z",
+  "total_score": 61,
+  "scores": {
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The project received a sentiment score of 9/10, with 28 HN points, 4 comments analyzed, and positive signals such as 'Incredibly clever and a fun read' and 'Useful for demo coders'."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Unfortunately, without information on days_since_created or is_fork, we cannot directly compare to similar tools, but given its unique application as a Superoptimizer for the MOS 6502, it likely offers a meaningful improvement on existing tools."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Since install_success was false, despite the PyPI package existing, it's challenging to assess the ease of installation, thus scoring at the midpoint due to insufficient data for a definitive evaluation."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an embedded-systems tool for the MOS 6502, its relevance is somewhat niche, although it still addresses specific needs within that domain, particularly with its focus on superoptimization."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Without direct comparisons to similar tools like MOS 6502 Assembler or 6502 Simulator in terms of BENCHMARK comparisons, but considering its unique application and the lack of available data, we acknowledge its unique contribution to the field."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the absence of GitHub repository stats, we cannot assess the health of the project's community, leading to a neutral score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 4 and basic run success being false, the usability is significantly hindered, indicating a need for improvement in this area."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While the PyPI package exists, without clear information on API modes or license, we default to a neutral score due to the lack of detailed data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to evaluate the quality and completeness of the documentation accurately."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lacking specific details on days_since_created, forks count, or open_issues, we cannot assess maturity and thus score at the midpoint."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No applicable BENCHMARK lines from tests are available to compare performance, leading to a neutral score."
+    }
+  },
+  "summary": "DeiMOS is a unique superoptimizer for the MOS 6502, offering specific improvements in optimization for this CPU, but faces challenges in installation and usability. Its niche application and lack of available comparative data make it a specialized tool with potential, yet requiring further development for broader appeal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://aransentin.github.io/deimos/",
+  "tool_url": "https://aransentin.github.io/deimos/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47673379",
+  "domain": "hardware",
+  "app_type": "embedded-systems",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.0",
+      "summary": "Mesos containerization hooks for Docker",
+      "requires_python": null,
+      "license": "Apache",
+      "home_page": "https://github.com/mesosphere/deimos"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Incredibly clever and a fun read",
+        "Useful for demo coders",
+        "Optimizing tight loops and such"
+      ],
+      "negative_signals": [],
+      "justification": "The project received praise for its cleverness and practical applications, particularly in demo coding and optimization of tight loops.",
+      "comment_count": 4,
+      "hn_points": 28
+    }
+  }
+}
