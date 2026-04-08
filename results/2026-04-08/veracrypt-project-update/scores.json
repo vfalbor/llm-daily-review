@@ -1,0 +1,83 @@
+{
+  "app_name": "Veracrypt",
+  "url": "https://sourceforge.net/projects/veracrypt/",
+  "scored_at": "2026-04-08T13:02:00.765Z",
+  "total_score": 53,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 504 HN points and 30 comments analyzed, indicating a generally positive discussion about the project's update and its implications for digital freedom."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No data is available to evaluate the novelty of the app, as there is no information about days_since_created or comparison to similar tools, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, indicating issues with installation, and the app is not pip-installable, as there is no PyPI package found, which affects its accessibility and usability."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is a crypto-library, which is relevant to current trends in data security and encryption, but the lack of detailed information about its specific features and applications makes it difficult to fully assess its relevance."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No data is available to compare the app's features and performance to similar tools like TrueCrypt, BitLocker, and CipherShed, so a neutral score of 5 is assigned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, making it impossible to evaluate the community's health and engagement, resulting in a neutral score of 5."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The install success is false and no tests were passed, indicating significant issues with the app's usability and functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has GUI and CLI use modes, but the lack of information about its API and integration capabilities makes it difficult to fully evaluate its ease of integration, resulting in a neutral score of 5."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to evaluate the quality and completeness of the app's documentation, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the app's maturity, including its release history, versioning, and maintenance, resulting in a neutral score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to evaluate the app's performance, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "Veracrypt is a crypto-library with a positive community discussion but faces significant challenges with installation and usability. Its relevance to current data security trends is notable, but more information is needed to fully assess its features and performance.",
+  "recommendation": "niche",
+  "app_url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+  "tool_url": "https://sourceforge.net/projects/veracrypt/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47686549",
+  "domain": "security",
+  "app_type": "crypto-library",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Project can still be installed, albeit with a warning.",
+        "Alternative distribution methods are available.",
+        "Many users see this as an opportunity to discuss and raise awareness about digital rights and freedom."
+      ],
+      "negative_signals": [
+        "Microsoft's behavior is perceived as overly controlling and restrictive.",
+        "Sourceforge criticism resurfaces, with some users expressing concerns about its reliability and security.",
+        "There's skepticism about the project's future and the risks associated with relying on Microsoft's services."
+      ],
+      "justification": "Users are generally concerned about Microsoft's control over software distribution and the potential consequences for digital freedom. While some offer practical solutions, others emphasize the broader implications and call for further action.",
+      "comment_count": 30,
+      "hn_points": 504
+    }
+  }
+}
