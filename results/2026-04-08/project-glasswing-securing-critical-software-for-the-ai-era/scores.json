@@ -1,0 +1,106 @@
+{
+  "app_name": "Project Glasswing",
+  "url": "https://github.com/anthropic/glasswing",
+  "scored_at": "2026-04-08T13:02:23.170Z",
+  "total_score": 62,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 1352 HN points, 30 comments analyzed, and positive signals including potential for securing critical software and competitive pricing, indicating a generally positive reception."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "No GitHub repository data is available, but the tool is described as a system for identifying vulnerabilities and securing AI models, suggesting some level of innovation, but without more data, it's hard to assess its novelty, so a neutral score of 6 is given."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The install success is true, and the install time is 7s, indicating easy installation, and the PyPI package exists, which suggests good system requirements, scoring 8."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is described as a system for securing AI models, which is relevant to current AI development, but without more specific data on its usage and integration, a score of 7 is given."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool has similar tools like CycloneDX, OWASP Dependency Check, and Snyk, with 494, 18, and 5,485 stars respectively, but without direct comparison of features and functionalities, it's hard to differentiate, so a neutral score of 6 is given."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository data is available, so it's impossible to assess the community, resulting in a neutral score of 5."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No test results are available (0 tests passed out of 0), and the basic run success is false, which makes it hard to assess ease of use, so a neutral score of 5 is given."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool has a PyPI package and supports CLI and API use modes, indicating relatively easy integration, scoring 7."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available regarding the documentation, so a neutral score of 5 is given."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available regarding the maturity, so a neutral score of 5 is given."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, so a neutral score of 5 is given."
+    }
+  },
+  "summary": "Project Glasswing is a system for securing critical software, with a positive HN sentiment and relatively easy system requirements, but lacks data in other areas, making its overall score 65.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.anthropic.com/glasswing",
+  "tool_url": "https://github.com/anthropic/glasswing",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47679121",
+  "domain": "security",
+  "app_type": "crypto-library",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CycloneDX",
+        "stars": 494,
+        "repo": "CycloneDX/specification"
+      },
+      {
+        "name": "OWASP Dependency Check",
+        "stars": 18,
+        "repo": "OWASP/www-project-dependency-check"
+      },
+      {
+        "name": "Snyk",
+        "stars": 5485,
+        "repo": "snyk/cli"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1",
+      "summary": "GlassWing is a library for nonlinear dynamics analysis in Python.",
+      "requires_python": ">=3.6",
+      "license": "BSD 3-clause \"New\" or \"Revised License\"",
+      "home_page": "https://github.com/jeylau/glasswing"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Potential for securing critical software",
+        "Model found thousands of high-severity vulnerabilities",
+        "Competitive pricing compared to other models"
+      ],
+      "negative_signals": [
+        "Criticism of Anthropic's ethics and intentions",
+        "Skepticism about the existence of Mythos Preview vulnerabilities",
+        "Concerns about over-promising and under-delivering"
+      ],
+      "justification": "Many comments praise the potential of Project Glasswing to secure critical software, but some express skepticism about Anthropic's ethics and intentions, with criticism about their over-promising and under-delivering. The mention of found vulnerabilities is a mixed signal, but overall the comments are leaning towards a positive direction.",
+      "comment_count": 30,
+      "hn_points": 1352
+    }
+  }
+}
