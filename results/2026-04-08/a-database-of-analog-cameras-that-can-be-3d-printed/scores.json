@@ -1,0 +1,82 @@
+{
+  "app_name": "A database of analog cameras that can be 3D printed",
+  "url": "https://printed.analogcamera.space/",
+  "scored_at": "2026-04-08T13:04:28.434Z",
+  "total_score": 43,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 129 points, 21 comments analyzed, and positive signals indicating enthusiasm and support for the project, despite some skepticism about DIY camera feasibility."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate novelty, as there is no information on days_since_created, is_fork, or comparison to similar tools."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant issues with installation, and no PyPI package is found, making it not pip-installable, with an install time of 8.4s being less relevant due to the install failure."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Insufficient data to assess current relevance accurately, as the app_type and its fit with current LLM ecosystem trends are not clearly defined in the provided data."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without specific comparisons to similar tools like Camera Database or BENCHMARK comparisons, differentiation cannot be accurately scored, so it is set to 5 due to lack of data."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected or the API is unavailable, indicating a lack of open-source community engagement or contribution."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant usability issues or a lack of functional testing data."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "No PyPI package is found, and there's no clear indication of API modes or a straightforward integration process, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality and completeness of the documentation, as specific metrics like has_wiki, has_pages, or GitHub topics count are not provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the lack of information on days_since_created, forks count, and open_issues, maturity cannot be accurately evaluated, so it is scored as 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are provided, making it impossible to assess performance relative to alternatives, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "A database of analog cameras that can be 3D printed, with a strong HN sentiment but lacking in other areas such as installation success, community, and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://printed.analogcamera.space/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47624572",
+  "domain": "database",
+  "app_type": "database-research",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative and fun projects for DIY enthusiasts",
+        "Encourages creativity and experimentation with analog photography",
+        "Community interest and support for the project"
+      ],
+      "negative_signals": [
+        "Some skepticism about the feasibility and quality of 3D printed cameras",
+        "Concerns about the lack of precision and reliability in DIY cameras"
+      ],
+      "justification": "While some commenters express concerns about the feasibility and quality of 3D printed cameras, the majority of the conversation is positive and enthusiastic about the project. Commenters share their own experiences and projects, and there is evident interest and support for the initiative.",
+      "comment_count": 21,
+      "hn_points": 129
+    }
+  }
+}
