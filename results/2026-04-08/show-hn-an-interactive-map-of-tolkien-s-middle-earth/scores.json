@@ -1,0 +1,83 @@
+{
+  "app_name": "Middle-earth Interactive Map",
+  "url": "https://middle-earth-interactive-map.web.app/",
+  "scored_at": "2026-04-08T13:04:09.614Z",
+  "total_score": 72,
+  "scores": {
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score is 9/10, with 230 HN points and 30 comments analyzed, indicating a very positive reception with many interactive and detailed map comments."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique interactive map of Tolkien's Middle-earth, offering a new way to explore the fictional world, but it is not the first-of-its-kind approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app is a web app, so it does not require installation, but it does require a modern web browser, and the install time is not applicable, however the basic run success is true."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is a research tool and is relevant to the current LLM ecosystem trends, particularly in the area of interactive maps and fictional world-building."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself from similar tools like Middle-earth Atlas by providing an interactive experience, but it lacks a clear quantitative advantage in terms of BENCHMARK comparisons."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, so the community score is set to 5, as there is insufficient data to evaluate the health of the project's community and ecosystem."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The app has a basic run success of true and 1 out of 1 tests passed, indicating that it is easy to use, but the tests_passed and tests_total numbers are limited."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app is not pip-installable and does not have a PyPI package, so the ease of integration score is set to 5, as there is insufficient data to evaluate its integrability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality and completeness of the app's documentation, so the score is set to 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the production readiness, stability, and project lifecycle stage of the app, so the score is set to 5."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app has a import_time_ms of 28.02, memory_usage_mb of 0.04, and map_generation_time_ms of 28.02, indicating good performance, but the BENCHMARK comparisons are limited."
+    }
+  },
+  "summary": "The Middle-earth Interactive Map is a research tool that provides an interactive map of Tolkien's Middle-earth, with a unique approach and good performance, but it lacks a clear quantitative advantage and has limited community and integration data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://middle-earth-interactive-map.web.app/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47681112",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "interactive and detailed map",
+        "well-received by fans and coders",
+        "vibe-coded with pride and results shown"
+      ],
+      "negative_signals": [
+        "zooming could be smoother",
+        "source image quality and availability is unclear",
+        "some users find it triggering due to visuals"
+      ],
+      "justification": "The project is well-receptioned by fans and coders with many positive comments about its detail and vibe-coded approach. However, there are a few criticisms about the zooming experience and the availability of the source image.",
+      "comment_count": 30,
+      "hn_points": 230
+    }
+  }
+}
