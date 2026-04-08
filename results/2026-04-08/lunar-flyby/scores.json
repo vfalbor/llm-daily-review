@@ -1,0 +1,114 @@
+{
+  "app_name": "Lunar Flyby",
+  "url": "https://www.nasa.gov/gallery/lunar-flyby/",
+  "scored_at": "2026-04-08T13:03:07.203Z",
+  "total_score": 44,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 796 HN points and 30 comments analyzed, indicating a generally positive reception with inspirational and hard-hitting comments."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate novelty, as days_since_created and comparison to similar tools do not provide clear evidence of original contribution, but it does have a unique dataset."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, and there is no PyPI package found, indicating significant issues with accessibility and installation."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app type is research-dataset, which may be relevant to current LLM ecosystem trends, but insufficient data is available to fully evaluate its relevance."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app has 33 stars, which is more than Earth Observatory but less than Space Images, indicating some differentiation but not enough to stand out significantly."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The GitHub repository has 33 stars, 29 forks, and only 3 contributors, with 1 open issue and 2316 days since the last commit, indicating a relatively inactive and small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 0, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has API and Download use modes, but no PyPI package and no license, making integration possible but with some difficulties."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation quality, as no information is available about the presence of a wiki, pages, or GitHub topics."
+    },
+    "maturity": {
+      "score": 1,
+      "justification": "The repository is 4680 days old, with 2316 days since the last commit, indicating a relatively old and inactive project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to evaluate performance, so a neutral score is assigned."
+    }
+  },
+  "summary": "Lunar Flyby is a research dataset with high-resolution images from a lunar flyby, but it has significant usability and accessibility issues, a relatively inactive community, and insufficient data to evaluate its novelty and relevance.",
+  "recommendation": "niche",
+  "app_url": "https://www.nasa.gov/gallery/lunar-flyby/",
+  "tool_url": null,
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=47676509",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": {
+      "stars": 33,
+      "forks": 29,
+      "open_issues": 1,
+      "watchers": 33,
+      "contributors": 3,
+      "license": "none",
+      "language": "CSS",
+      "is_fork": false,
+      "days_since_update": 2316,
+      "days_since_created": 4680,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "NASA Image and Video Library",
+        "stars": 0,
+        "repo": "dchesterton/nasa-image-and-video-library"
+      },
+      {
+        "name": "Earth Observatory",
+        "stars": 3,
+        "repo": "iyashjayesh/NASA-Earth-Observatory-Natural-Event-Tracker"
+      },
+      {
+        "name": "Space Images",
+        "stars": 59,
+        "repo": "oneThousand1000/Facial-Structure-Editing-of-Portrait-Images-via-Latent-Space-Classifications"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Inspirational and hard-hitting achievement",
+        "Fostering cooperation and competition in space development",
+        "Value of moon outposts for observation, mining, etc."
+      ],
+      "negative_signals": [
+        "High cost of SLS and Artemis programs",
+        "Concerns about stagnation and monopoly in the aerospace industry",
+        "Doubts about the effectiveness of sending people to the moon"
+      ],
+      "justification": "The comments are generally positive, highlighting the inspirational and hard-hitting nature of the Lunar Flyby, while also acknowledging concerns about the high cost of the program and stagnation in the aerospace industry. Some comments also express skepticism about the effectiveness of sending people to the moon, but these are outnumbered by positive sentiments.",
+      "comment_count": 30,
+      "hn_points": 796
+    }
+  }
+}
