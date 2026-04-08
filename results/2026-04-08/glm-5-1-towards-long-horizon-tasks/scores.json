@@ -1,0 +1,94 @@
+{
+  "app_name": "GLM-5.1",
+  "url": "https://z.ai/blog/glm-5.1",
+  "scored_at": "2026-04-08T13:03:44.944Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score is 5/10, with 561 HN points and 30 comments analyzed, indicating a mixed sentiment towards GLM-5.1, with both positive and negative signals."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "GLM-5.1 is a new model for long-horizon tasks, but no data is available on its creation date or if it's a fork, so scoring based on its application to long-horizon tasks, which is a relatively new area of focus."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, indicating difficulties with installation, and no PyPI package is found, making it less accessible."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "GLM-5.1 is relevant to current LLM ecosystem trends, focusing on long-horizon tasks, which is a current area of interest."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "GLM-5.1 differentiates itself by focusing on long-horizon tasks, but its comparison to similar tools like LangChain and CrewAI, with 132,791 and 48,333 stars respectively, indicates it may not be as widely recognized or adopted."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so scoring at the neutral midpoint due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Only 1 out of 6 tests passed, and basic run success is true, but the low pass rate indicates potential difficulties in use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is found, but it has CLI and SDK use modes, so scoring at the neutral midpoint due to mixed information."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to evaluate the quality and completeness of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on days since creation, forks count, or open issues, so scoring at the neutral midpoint due to insufficient information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are some benchmark measurements, like file_count:19, there's not enough data to make a thorough evaluation of its performance compared to other tools."
+    }
+  },
+  "summary": "GLM-5.1 is a tool for long-horizon tasks with mixed sentiment and limited accessibility due to installation issues and no PyPI package. It differentiates itself by its focus but lacks clear performance and maturity data.",
+  "recommendation": "niche",
+  "app_url": "https://z.ai/blog/glm-5.1",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47677853",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 132791,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 48333,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "some users have found GLM-5.1 to be an okay model for short-term tasks",
+        "with the right setup, GLM-5.1 can be a fine model for coding",
+        "some users have reported good results with the model"
+      ],
+      "negative_signals": [
+        "GLM-5.1 has been criticized for losing coherency over longer contexts",
+        "the model has been accused of spouting gibberish when context exceeds 128k tokens",
+        "some users have reported stability issues with GLM-5.1 on Z.ai"
+      ],
+      "justification": "The sentiment towards GLM-5.1 is mixed, with some users praising its performance for short-term tasks and others criticizing its loss of coherency over long contexts and stability issues. Insufficient data prevents a more definitive conclusion.",
+      "comment_count": 30,
+      "hn_points": 561
+    }
+  }
+}
