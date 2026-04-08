@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Lunar Flyby",
+    "url": "https://www.nasa.gov/gallery/lunar-flyby/",
+    "hn_url": "https://news.ycombinator.com/item?id=47676509",
+    "points": 794,
+    "comments": 191,
+    "author": "kipi",
+    "age": "2026-04-07T15:03:18 1775574198",
+    "scraped_at": "2026-04-08T13:00:02.914Z",
+    "tool_url": null,
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.82,
+    "domain": "research",
+    "app_type": "research-dataset",
+    "description": "High-resolution images from a lunar flyby.",
+    "use_modes": [
+      "API",
+      "Download"
+    ],
+    "similar_tools": [
+      "NASA Image and Video Library",
+      "Earth Observatory",
+      "Space Images"
+    ],
+    "proposed_tests": [
+      "Download 100 images from the dataset, verify resolution and format",
+      "Run a script to automatically generate a mosaic from the full dataset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/nasa/data.nasa.gov"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775653362013-p9yf5",
+    "log_dir": "/tmp/llm-review-1775653362013-p9yf5",
+    "install_success": false,
+    "install_time_s": 7.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    from PIL import Image\nModuleNotFoundError: No module named 'PIL'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n"
+  }
+}
