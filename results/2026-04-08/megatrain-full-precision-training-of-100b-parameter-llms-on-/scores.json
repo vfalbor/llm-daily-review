@@ -1,0 +1,91 @@
+{
+  "app_name": "MegaTrain",
+  "url": "https://github.com/facebookresearch/MegaTrain",
+  "scored_at": "2026-04-08T13:02:41.201Z",
+  "total_score": 57,
+  "scores": {
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score is 5/10 with 11 HN points from 2 comments, which is not sufficient for a meaningful analysis."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "MegaTrain is a unique implementation, but its novelty score is difficult to evaluate without more data on its creation date and comparison to similar tools, so scoring based on its open-source and research nature."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and there's no PyPI package found, making it difficult to install, but the install time is not applicable in this case."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "MegaTrain is relevant to current LLM ecosystem trends as it focuses on full precision training of large parameter LLMs, a current pain point."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "MegaTrain differentiates itself with its ability to train 100B+ parameter LLMs on a single GPU, a unique feature compared to similar tools like Adam (60,174 stars), SGD (2,099 stars), and RMSProp (14 stars)."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available for MegaTrain to assess the community, so scoring at the neutral midpoint."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 out of 0, and basic run success is false, indicating significant issues with ease of use, but scoring at the minimum to reflect this without setting to 0."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "MegaTrain has a CLI and API, but without more data on its API modes and license, the ease of integration is scored at the neutral midpoint."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability of documentation such as a wiki, pages, or GitHub topics is not mentioned, so scoring at the neutral midpoint due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without data on days since creation, forks count, or open issues, maturity is scored at the neutral midpoint."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons are provided, so the performance score is set to the neutral midpoint."
+    }
+  },
+  "summary": "MegaTrain offers a unique approach to training large LLMs but faces challenges in terms of ease of use and community support. Its relevance and differentiation are its strongest points.",
+  "recommendation": "worth-watching",
+  "app_url": "https://arxiv.org/abs/2604.05091",
+  "tool_url": "https://github.com/facebookresearch/MegaTrain",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=47689174",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Adam",
+        "stars": 60174,
+        "repo": "adam-p/markdown-here"
+      },
+      {
+        "name": "SGD",
+        "stars": 2099,
+        "repo": "Stephane-D/SGDK"
+      },
+      {
+        "name": "RMSProp",
+        "stars": 14,
+        "repo": "mmahesh/variants-of-rmsprop-and-adagrad"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 11
+    }
+  }
+}
