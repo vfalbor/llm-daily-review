@@ -1,0 +1,54 @@
+( 1/14) Installing brotli-libs (1.2.0-r0)
+( 2/14) Installing c-ares (1.34.6-r0)
+( 3/14) Installing libunistring (1.4.1-r0)
+( 4/14) Installing libidn2 (2.3.8-r0)
+( 5/14) Installing nghttp2-libs (1.68.0-r0)
+( 6/14) Installing nghttp3 (1.13.1-r0)
+( 7/14) Installing libpsl (0.21.5-r3)
+( 8/14) Installing zstd-libs (1.5.7-r2)
+( 9/14) Installing libcurl (8.17.0-r1)
+(10/14) Installing curl (8.17.0-r1)
+(11/14) Installing libexpat (2.7.5-r0)
+(12/14) Installing pcre2 (10.47-r0)
+(13/14) Installing git (2.52.0-r0)
+(14/14) Installing git-init-template (2.52.0-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 26.1 MiB in 52 packages
+OK: 26.1 MiB in 52 packages
+Collecting folium
+  Downloading folium-0.20.0-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting branca>=0.6.0 (from folium)
+  Downloading branca-0.8.2-py3-none-any.whl.metadata (1.7 kB)
+Collecting jinja2>=2.9 (from folium)
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting numpy (from folium)
+  Downloading numpy-2.4.4-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)
+Requirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (from folium) (2.33.1)
+Collecting xyzservices (from folium)
+  Downloading xyzservices-2026.3.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting MarkupSafe>=2.0 (from jinja2>=2.9->folium)
+  Downloading markupsafe-3.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.7 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests->folium) (3.4.7)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests->folium) (3.11)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests->folium) (2.6.3)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests->folium) (2026.2.25)
+Downloading folium-0.20.0-py2.py3-none-any.whl (113 kB)
+Downloading branca-0.8.2-py3-none-any.whl (26 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading numpy-2.4.4-cp312-cp312-musllinux_1_2_x86_64.whl (18.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.4/18.4 MB 69.9 MB/s eta 0:00:00
+Downloading xyzservices-2026.3.0-py3-none-any.whl (94 kB)
+Downloading markupsafe-3.0.3-cp312-cp312-musllinux_1_2_x86_64.whl (23 kB)
+Installing collected packages: xyzservices, numpy, MarkupSafe, jinja2, branca, folium
+Successfully installed MarkupSafe-3.0.3 branca-0.8.2 folium-0.20.0 jinja2-3.1.6 numpy-2.4.4 xyzservices-2026.3.0
+INSTALL_OK
+INSTALL_OK
+TEST_PASS:map_interaction
+BENCHMARK:import_time_ms:28.02
+BENCHMARK:memory_usage_mb:0.04
+BENCHMARK:map_generation_time_ms:28.02
+BENCHMARK:vs_middle_earth_atlas_import_time_ratio:1.0
+BENCHMARK:vs_middle_earth_atlas_map_generation_time_ratio:1.0
+BENCHMARK:location_count:10
+BENCHMARK:zoom_level:2
+RUN_OK
