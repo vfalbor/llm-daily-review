@@ -49,17 +49,17 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     : 0;
 
   // Domains covered
-  const domains = [...new Set(apps_tested.map(a => a.report?.domain).filter(Boolean))];
+  const domains = [...new Set(apps_tested.map(a => (a.report || a).domain).filter(Boolean))];
 
   const appCards = apps_tested
     .sort((a, b) => (b.total_score || 0) - (a.total_score || 0))
     .map(app => {
       const scores   = app.scores || {};
-      const report   = app.report || {};
+      const report   = app.report || app;
       const badgeColor = { 'strong-candidate': '#16a34a', 'worth-watching': '#d97706', 'niche': '#6b7280', 'skip': '#dc2626' }[app.recommendation] || '#6b7280';
       const badgeLabel = { 'strong-candidate': '⭐ Strong candidate', 'worth-watching': '👀 Worth watching', 'niche': '🔍 Niche', 'skip': '⏭ Skip' }[app.recommendation] || app.recommendation;
 
-      const toolUrl  = report.tool_url || report.app_url || app.url || '#';
+      const toolUrl  = report.app_url || report.tool_url || app.url || '#';
       const hnUrl    = report.hn_url;
       const domain   = report.domain || '';
       const appType  = report.app_type || app.app_type || '';
