@@ -1,0 +1,9 @@
+  ERROR: HTTP error 404 while getting https://codeload.github.com/veracrypt/veracrypt/zip/main
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: Could not install requirement https://codeload.github.com/veracrypt/veracrypt/zip/main because of HTTP error 404 Client Error: Not Found for url: https://codeload.github.com/veracrypt/veracrypt/zip/main for URL https://codeload.github.com/veracrypt/veracrypt/zip/main
+Traceback (most recent call last):
+  File "/app/test.py", line 30, in <module>
+    import veracrypt
+ModuleNotFoundError: No module named 'veracrypt'
