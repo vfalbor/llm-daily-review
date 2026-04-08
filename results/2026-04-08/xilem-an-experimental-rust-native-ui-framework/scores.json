@@ -1,0 +1,97 @@
+{
+  "app_name": "Xilem",
+  "url": "https://github.com/linebender/xilem",
+  "scored_at": "2026-04-08T13:07:50.629Z",
+  "total_score": 48,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app has 1238 days since creation and is not a fork, indicating a unique approach to the problem."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app installation failed with an install time of 192.3s, indicating significant issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is an experimental Rust native UI framework, which is a niche area, but has some relevance to current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has 5080 stars compared to similar tools like Futures with 5835 stars and Tokio with 31599 stars, indicating a lack of differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The app has 5080 stars, 197 forks, 79 contributors, and 145 open issues, indicating a moderately active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app had 0 tests passed out of 0 tests total, and basic run success was false, indicating significant issues with ease of use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app has no PyPI package and requires manual integration, indicating moderate difficulty in integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available regarding documentation, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no data available regarding maturity, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "Xilem is an experimental Rust native UI framework with a moderately active community, but has significant issues with system requirements, ease of use, and differentiation. Its relevance to current LLM ecosystem trends is niche. The app requires manual integration and has no benchmark data available.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/linebender/xilem",
+  "tool_url": "https://github.com/linebender/xilem",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47682719",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 5080,
+      "forks": 197,
+      "open_issues": 145,
+      "watchers": 5080,
+      "contributors": 79,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 1238,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An experimental Rust native UI framework",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Futures",
+        "stars": 5835,
+        "repo": "rust-lang/futures-rs"
+      },
+      {
+        "name": "Tokio",
+        "stars": 31599,
+        "repo": "tokio-rs/tokio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
