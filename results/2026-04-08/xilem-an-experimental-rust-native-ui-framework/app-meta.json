@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Xilem – An experimental Rust native UI framework",
+    "url": "https://github.com/linebender/xilem",
+    "hn_url": "https://news.ycombinator.com/item?id=47682719",
+    "points": 120,
+    "comments": 54,
+    "author": "Levitating",
+    "age": "2026-04-07T23:36:15 1775604975",
+    "scraped_at": "2026-04-08T13:00:02.922Z",
+    "tool_url": "https://github.com/linebender/xilem",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Experimental Rust native UI framework",
+    "use_modes": [
+      "CLI",
+      "Rust library"
+    ],
+    "similar_tools": [
+      "Futures",
+      "Tokio"
+    ],
+    "proposed_tests": [
+      "Run the demo app and report any issues",
+      "Measure performance of a custom app using Xilem"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/linebender/xilem"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775653469400-mvavb",
+    "log_dir": "/tmp/llm-review-1775653469400-mvavb",
+    "install_success": false,
+    "install_time_s": 192.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \n    Creating binary (application) `xilem_app` package\nnote: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html\nFrom https://github.com/linebender/xilem\n * branch              main       -> FETCH_HEAD\n * [new branch]        main       -> origin/main\nerror: The following untracked working tree files would be overwritten by merge:\n\t.gitignore\n\tCargo.toml\nPlease move or remove them before you merge.\nAborting\n    Updating crates.io index\n      Adding xilem v0.4.0 to dependencies\n    Updating crates.io index\n     Locking 421 packages to latest Rust 1.91.1 compatible versions\n      Adding ordered-float v5.0.0 (available: v5.3.0)\n Downloading crates ...\n  Downloaded calloop-wayland-source v0.4.1\n  Downloaded blocking v1.6.2\n  Downloaded async-signal v0.2.14\n  Downloaded document-features v0.2.12\n  Downloaded downcast-rs v1.2.1\n  Downloaded copypasta v0.10.2\n  Downloaded linebender_resource_handle v0.1.1\n  Downloaded dpi v0.1.2\n  Downloaded matchers v0.2.0\n  Downloaded itoa v1.0.18\n  Downloaded pollster v0.4.0\n  Downloaded ui-events v0.2.0\n  Downloaded vello_encoding v0.6.0\n  Downloaded toml_parser v1.1.2+spec-1.1.0\n  Downloaded yeslogic-fontconfig-sys v6.0.0\n  Downloaded writeable v0.6.3\n  Downloaded wayland-sys v0.31.11\n  Downloaded zvariant_derive v5.10.0\n  Downloaded zerofrom v0.1.7\n  Downloaded zeno v0.3.3\n  Downloaded zvariant_utils v3.3.0\n  Downloaded winnow v0.7.15\n  Downloaded winnow v1.0.1\n  Downloaded x11-dl v2.21.0\n  Downloaded smithay-client-toolkit v0.19.2\n  Downloaded time v0.3.47\n  Downloaded x11rb-protocol v0.13.2\n  Downloaded rustix v1.1.4\n  Downloaded skrifa v0.40.0\n  Downloaded read-fonts v0.35.0\n  Downloaded x11rb v0.13.2\n  Downloaded syn v2.0.117\n  Downloaded swash v0.2.7\n  Downloaded read-fonts v0.37.0\n  Downloaded regex-automata v0.4.14\n  Downloaded rustix v0.38.44\n  Downloaded naga v26.0.0\n  Downloaded xilem v0.4.0\n  Downloaded xkeysym v0.2.1\n  Downloaded libc v0.2.184\n  Downloaded regex-syntax v0.8.10\n  Downloaded skrifa v0.37.0\n  Downloaded wayland-protocols-plasma v0.3.12\n  Downloaded winit v0.30.13\n  Downloaded zvariant v5.10.0\n  Downloaded tokio v1.51.1\n  Downloaded zbus-lockstep-macros v0.5.2\n  Downloaded zbus v5.14.0\n  Downloaded wgpu v26.0.1\n  Downloaded zbus_macros v5.14.0\n  Downloaded wgpu-types v26.0.0\n  Downloaded quick-xml v0.39.2\n  Downloaded quick-xml v0.38.4\n  Downloaded zbus_xml v5.1.0\n  Downloaded zbus-lockstep v0.5.2\n  Downloaded xkbcommon-dl v0.4.2\n  Downloaded x11-clipboard v0.9.3\n  Downloaded wgpu-hal v26.0.6\n  Downloaded wgpu-core v26.0.1\n  Downloaded tiny-skia v0.11.4\n  Downloaded zbus_names v4.3.1\n  Downloaded yazi v0.2.1\n  Downloaded unicode-width v0.2.2\n  Downloaded smithay-client-toolkit v0.20.0\n  Downloaded masonry v0.4.0\n  Downloaded linux-raw-sys v0.4.15\n  Downloaded kurbo v0.12.0\n  Downloaded wayland-protocols-wlr v0.3.12\n  Dow",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/24) Installing libgcc (15.2.0-r2)\n( 2/24) Installing jansson (2.14.1-r0)\n( 3/24) Installing libstdc++ (15.2.0-r2)\n( 4/24) Installing binutils (2.45.1-r0)\n( 5/24) Installing libgomp (15.2.0-r2)\n( 6/24) Installing libatomic (15.2.0-r2)\n( 7/24) Installing gmp (6.3.0-r4)\n( 8/24) Installing isl26 (0.26-r1)\n( 9/24) Installing mpfr4 (4.2.2-r0)\n(10/24) Installing mpc1 (1.3.1-r1)\n(11/24) Installing gcc (15.2.0-r2)\n(12/24) Installing musl-dev (1.2.5-r21)\n(13/24) Installing libxml2 (2.13.9-r0)\n(14/24) Installing llvm21-libs (21.1.2-r1)\n(15/24) Installing scudo-malloc (21.1.2-r0)\n(16/24) Installing rust (1.91.1-r1)\n(17/24) Installing cargo (1.91.1-r1)\n(18/24) Installing ada-libs (3.3.0-r0)\n(19/24) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(20/24) Installing icu-libs (76.1-r1)\n(21/24) Installing simdjson (3.12.0-r0)\n(22/24) Installing simdutf (7.5.0-r1)\n(23/24) Installing nodejs (24.14.1-r0)\n(24/24) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nReinitialized existing Git repository in /xilem_app/.git/\n"
+  }
+}
