@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
+    "url": "https://werwolv.net/posts/usb_for_sw_devs/",
+    "hn_url": "https://news.ycombinator.com/item?id=47695012",
+    "points": 333,
+    "comments": 39,
+    "author": "WerWolv",
+    "age": "2026-04-08T19:23:34 1775676214",
+    "scraped_at": "2026-04-09T13:00:03.116Z",
+    "tool_url": "https://github.com/werwolv/usb4swdevs",
+    "source_type": "article",
+    "is_reviewable": true,
+    "confidence": 0.86,
+    "domain": "hardware",
+    "app_type": "usb-sdk",
+    "description": "A tutorial on writing userspace USB drivers.",
+    "use_modes": [
+      "Command Line Interface"
+    ],
+    "similar_tools": [
+      "libusb",
+      "usbtools",
+      "USBDroid"
+    ],
+    "proposed_tests": [
+      "Install libusb, clone repo, write and compile sample driver",
+      "Test driver functionality with sample USB devices",
+      "Verify USB bus activity with a debugger"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/werwolv/usb4swdevs"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775739790350-e9n0r",
+    "log_dir": "/tmp/llm-review-1775739790350-e9n0r",
+    "install_success": true,
+    "install_time_s": 6.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 72, in <module>\n    main()\n  File \"/app/test.py\", line 62, in main\n    with run_benchmark('clone_repo_time'):\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'generator' object does not support the context manager protocol\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\n(1/1) Installing libusb (1.0.29-r0)\nOK: 26.2 MiB in 53 packages\nINSTALL_OK\n"
+  }
+}
