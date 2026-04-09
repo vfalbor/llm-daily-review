@@ -1,0 +1,99 @@
+{
+  "app_name": "LittleSnitch for Linux",
+  "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+  "scored_at": "2026-04-09T13:02:04.728Z",
+  "total_score": 44,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 914 points, 30 comments analyzed, and both positive and negative signals, indicating a mixed but generally positive reception."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No data is available for days_since_created, is_fork, or comparison to similar tools, so scoring at the neutral midpoint of 5."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false and no PyPI package was found, indicating significant difficulties with installation, but install time is 12s, suggesting potential for improvement."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "No data is available for app_type or its fit with current LLM ecosystem trends, so scoring at the neutral midpoint of 5."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No stars are available for the tool, but comparisons to Wireshark (9,171 stars), TCPDump (3,158 stars), and Netfilter (449 stars) suggest it may have unique features, so scoring at the neutral midpoint of 5."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository was detected or the API was unavailable, indicating a potential lack of community engagement or open-source development."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Install success is false and basic run success is false, with 0 tests passed out of 0, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package was found, but the tool has GUI and CLI use modes, suggesting potential for integration, so scoring at the neutral midpoint of 5."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available for has_wiki, has_pages, or GitHub topics count, so scoring at the neutral midpoint of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available for days_since_created, forks count, or open_issues, so scoring at the neutral midpoint of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines are available from tests, so scoring at the neutral midpoint of 5 due to insufficient data."
+    }
+  },
+  "summary": "LittleSnitch for Linux is a network filter tool with mixed community reception, significant installation and usability issues, and insufficient data for many criteria, limiting its overall value and potential for adoption.",
+  "recommendation": "niche",
+  "app_url": "https://obdev.at/products/littlesnitch-linux/index.html",
+  "tool_url": "https://github.com/Obdev/LittleSnitch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47697870",
+  "domain": "devtool",
+  "app_type": "devtool-netfilter",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Wireshark",
+        "stars": 9171,
+        "repo": "wireshark/wireshark"
+      },
+      {
+        "name": "TCPDump",
+        "stars": 3158,
+        "repo": "the-tcpdump-group/tcpdump"
+      },
+      {
+        "name": "Netfilter",
+        "stars": 449,
+        "repo": "Chion82/netfilter-full-cone-nat"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Free and open-source",
+        "Good functionality",
+        "Potential for improvement"
+      ],
+      "negative_signals": [
+        "UI lacking at launch",
+        "Some process identification failed",
+        "Limitations of the Linux version"
+      ],
+      "justification": "The commenters seem to generally like the project's functionality, but some express concerns about the UI and initial issues with process identification. The developer is actively engaging with the community and trying to address these concerns.",
+      "comment_count": 30,
+      "hn_points": 914
+    }
+  }
+}
