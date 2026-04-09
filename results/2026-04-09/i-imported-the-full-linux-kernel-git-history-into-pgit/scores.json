@@ -1,0 +1,106 @@
+{
+  "app_name": "pgit",
+  "url": "https://github.com/oseifert/pgit",
+  "scored_at": "2026-04-09T13:03:45.081Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool provides a unique way to visualize and explore Git revisions, with 3,239 stars on GitHub, indicating a meaningful improvement on existing tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, but the install time is 6.2s, indicating moderate complexity in setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The tool is clearly useful for common LLM use cases, as shown by its ability to import the full Linux kernel git history into pgit."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool has a unique feature set, with 3,239 stars on GitHub, compared to similar tools like Git Browser, GitHub, and Gitlab, which have 173,341, 24,297, and 3,239 stars respectively."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so scoring at the neutral midpoint of 5."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 / 0, and the install success is false, indicating difficulty in use."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool has a PyPI package, with version 0.1.0-beta, and has a CLI and Web Interface, indicating a clean and easy integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available on the documentation, so scoring at the neutral midpoint of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no data available on the maturity, so scoring at the neutral midpoint of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines from tests, so scoring at the neutral midpoint of 5."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 144 HN points, and 28 comments analyzed, indicating a positive sentiment."
+    }
+  },
+  "summary": "The pgit tool provides a unique way to visualize and explore Git revisions, with a strong community and good performance, but has difficulty in use and lacks documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://oseifert.ch/blog/linux-kernel-pgit",
+  "tool_url": "https://github.com/oseifert/pgit",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47648538",
+  "domain": "database",
+  "app_type": "tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Git Browser",
+        "stars": 3239,
+        "repo": "stefanbuck/awesome-browser-extensions-for-github"
+      },
+      {
+        "name": "GitHub",
+        "stars": 173341,
+        "repo": "github/gitignore"
+      },
+      {
+        "name": "Gitlab",
+        "stars": 24297,
+        "repo": "gitlabhq/gitlabhq"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0-beta",
+      "summary": "Git Commandline Tools written in Python",
+      "requires_python": null,
+      "license": "New BSD",
+      "home_page": "https://github.com/Byron/pgit"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive import of full Linux kernel git history into pgit",
+        "Discussion highlights benefits of storing version control data in a relational database",
+        "Engaging conversation about LLM-generated content and its pros and cons"
+      ],
+      "negative_signals": [
+        "Some users find LLM-generated content style too awkward to read",
+        "A few users mention difficulties with pgit compared to other VCS",
+        "User 'spit2wind' questions Fossil's ability to import kernel history"
+      ],
+      "justification": "The majority of comments praise the author's technical achievement, engaging discussion, and exploration of LLM-generated content. However, some users find the content style unpalatable and raise questions about Fossil's capabilities.",
+      "comment_count": 28,
+      "hn_points": 144
+    }
+  }
+}
