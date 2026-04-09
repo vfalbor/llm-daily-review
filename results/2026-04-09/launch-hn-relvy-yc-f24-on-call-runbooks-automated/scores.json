@@ -1,0 +1,93 @@
+{
+  "app_name": "Relvy",
+  "url": "https://www.relvy.ai/",
+  "scored_at": "2026-04-09T13:02:25.168Z",
+  "total_score": 53,
+  "scores": {
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score is 9/10, with 6 HN points, 6 comments analyzed, and positive signals including a good tool concept, greater accuracy, and being faster, more accurate, and more consistent, with only negative signals being some skepticism about differentiation."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No data is available on days_since_created or is_fork to accurately assess novelty, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Although install success is true and install time is 8.2s, PyPI existence is not found, so a neutral score of 5 is assigned due to insufficient data on system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is a devtool-notification, which fits the current LLM ecosystem trends, as on-call runbooks and automated notifications are relevant, but specific numbers on its fit are not available."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While Relvy has similar tools like Splunk OnCall and PagerDuty, no direct comparison of features or BENCHMARK lines are provided to assess differentiation accurately, so a neutral score of 5 is assigned."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected or the API is unavailable, making it impossible to evaluate the health of the project's community, so the minimum score of 1 is assigned due to lack of information."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 5 and basic run success being true, but no specific TEST_PASS or TEST_FAIL names available, the minimum score of 1 is assigned due to significant issues or lack of information on ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Although the app has a CLI and Web use mode, and does not require an API key, no data is available on PyPI/npm existence or API modes to accurately assess ease of integration, so a neutral score of 5 is assigned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on has_wiki, has_pages, or GitHub topics count, so a neutral score of 5 is assigned due to insufficient data on documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on days_since_created, forks count, or open_issues to assess maturity accurately, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Although an install_time_s of 0.83 is measured, no direct BENCHMARK comparisons to similar tools are provided to assess performance, so a neutral score of 5 is assigned due to insufficient data."
+    }
+  },
+  "summary": "Relvy is an on-call runbook and automated notification tool that, despite receiving positive HN comments, lacks sufficient data for a comprehensive evaluation across most criteria, making its current relevance and potential impact difficult to assess fully.",
+  "recommendation": "niche",
+  "app_url": "https://www.relvy.ai/",
+  "tool_url": "https://github.com/relvy/relvy",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47702647",
+  "domain": "devtool",
+  "app_type": "devtool-notification",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Splunk OnCall",
+        "stars": 1,
+        "repo": "pauldenver/splunk-oncall-client"
+      },
+      {
+        "name": "PagerDuty",
+        "stars": 1042,
+        "repo": "PagerDuty/incident-response-docs"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "good tool concept",
+        "greater accuracy",
+        "faster, more accurate and more consistent"
+      ],
+      "negative_signals": [
+        "not fully clear on differences from similar projects",
+        "some skepticism about differentiation"
+      ],
+      "justification": "The project received overwhelmingly positive comments with one commenter expressing some skepticism about the differences from existing solutions, however the overall sentiment is very positive.",
+      "comment_count": 6,
+      "hn_points": 6
+    }
+  }
+}
