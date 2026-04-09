@@ -1,0 +1,82 @@
+{
+  "app_name": "Moon simulator game, ray-casting",
+  "url": "https://mooncraft2000.com/",
+  "scored_at": "2026-04-09T13:03:09.242Z",
+  "total_score": 43,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, indicating a very positive reception, with 10 comments analyzed, 38 HN points, and positive signals such as \"Very neat visual similarity to Terminal Velocity\" and \"Love this game and it's gorgeous\"."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No data on days_since_created or comparison to similar tools is available, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The install success is false and install time is not applicable, indicating significant issues with system requirements, and the PyPI existence is also not found."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "No data on app_type and its fit with current LLM ecosystem trends is available, so a neutral score of 5 is assigned."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No data on stars vs similar tools or BENCHMARK comparisons is available, so a neutral score of 5 is assigned."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repo is detected or API is unavailable, indicating a lack of community presence."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 / 0 and install success is false, indicating significant issues with ease of use."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "No PyPI package is found and the use modes are limited to Web Browser, indicating difficulties with integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on has_wiki, has_pages, or GitHub topics count is available, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on days_since_created, forks count, or open_issues is available, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are available, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "The Moon simulator game, ray-casting, has received a very positive reception on HN, but its novelty, system requirements, and community presence are unclear due to lack of data. The game's performance and maturity are also unknown.",
+  "recommendation": "niche",
+  "app_url": "https://mooncraft2000.com/",
+  "tool_url": "https://mooncraft2000.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47663743",
+  "domain": "hardware",
+  "app_type": "game",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Very neat visual similarity to Terminal Velocity",
+        "Nice game!",
+        "Love this game and it's gorgeous"
+      ],
+      "negative_signals": [
+        "distorted sound effect when two thrusters fire",
+        "awkward controls on iOS safari"
+      ],
+      "justification": "The overwhelming majority of comments praise the visual and gaming aspects of the project, with constructive criticism around sound effects and controls on iOS safari. The game's potential for extensions and progression is also mentioned as a positive aspect.",
+      "comment_count": 10,
+      "hn_points": 38
+    }
+  }
+}
