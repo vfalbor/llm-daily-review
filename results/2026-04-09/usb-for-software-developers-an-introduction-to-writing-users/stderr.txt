@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 72, in <module>
+    main()
+  File "/app/test.py", line 62, in main
+    with run_benchmark('clone_repo_time'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'generator' object does not support the context manager protocol
