@@ -1,0 +1,99 @@
+{
+  "app_name": "USB for Software Developers",
+  "url": "https://werwolv.net/posts/usb_for_sw_devs/",
+  "scored_at": "2026-04-09T13:03:27.055Z",
+  "total_score": 55,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 333 HN points, 30 comments analyzed, and positive signals including useful introduction to writing userspace USB drivers."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate novelty, as no specific numbers on days_since_created, is_fork, or comparison to similar tools are available."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No PyPI package found, not pip-installable, but since install success is true, this criterion is not entirely impossible to evaluate, thus scoring at the midpoint."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate current relevance, as the fit with current LLM ecosystem trends is not clearly stated in the provided data."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate differentiation, as no direct comparison of features or BENCHMARK comparisons with similar tools like libusb, usbtools, and USBDroid is provided."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected or API unavailable, thus insufficient data to evaluate the community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Tests passed are 0 out of 0 and basic run success is false, indicating either no tests were run or the app did not run successfully, thus insufficient data to evaluate ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate ease of integration, as while the tool has a Command Line Interface, details on API modes and license are not provided in a way that allows for a clear assessment."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation, as no information on has_wiki, has_pages, or GitHub topics count is available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as no information on days_since_created, forks count, or open_issues is available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are provided, thus insufficient data to evaluate performance, scoring at the neutral midpoint."
+    }
+  },
+  "summary": "A tutorial on writing userspace USB drivers with generally positive HN comment sentiment, but lacking in detailed evaluation criteria due to insufficient data.",
+  "recommendation": "niche",
+  "app_url": "https://werwolv.net/posts/usb_for_sw_devs/",
+  "tool_url": "https://github.com/werwolv/usb4swdevs",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47695012",
+  "domain": "hardware",
+  "app_type": "usb-sdk",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "libusb",
+        "stars": 6018,
+        "repo": "libusb/libusb"
+      },
+      {
+        "name": "usbtools",
+        "stars": 12,
+        "repo": "USBhost/USBtools"
+      },
+      {
+        "name": "USBDroid",
+        "stars": 5,
+        "repo": "freetronics/USBDroid"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Useful introduction to writing userspace USB drivers",
+        "Abstraction layers in modern OS make it easier to work with low-level hardware APIs",
+        "Good generic support for standard USB devices"
+      ],
+      "negative_signals": [
+        "Complexity of writing descriptors and working with USB 1/2",
+        "Windows driver signing issues",
+        "Zero information on how to correctly write descriptors"
+      ],
+      "justification": "The comments are generally positive, with useful examples and good explanations. However, there are some negative comments about the complexity of writing descriptors and working with USB 1/2, and some concerns about Windows driver signing.",
+      "comment_count": 30,
+      "hn_points": 333
+    }
+  }
+}
