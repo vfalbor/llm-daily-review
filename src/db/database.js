@@ -20,6 +20,11 @@ function getDb() {
 }
 
 function migrate(db) {
+  // Add hn_points/hn_comments to existing DBs that predate this migration
+  for (const col of ['hn_points INTEGER DEFAULT 0', 'hn_comments INTEGER DEFAULT 0']) {
+    try { db.exec(`ALTER TABLE tested_apps ADD COLUMN ${col}`); } catch {}
+  }
+
   db.exec(`
     CREATE TABLE IF NOT EXISTS tested_apps (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -29,7 +34,9 @@ function migrate(db) {
       total_score INTEGER,
       recommendation TEXT,
       scores_json TEXT,
-      report_json TEXT
+      report_json TEXT,
+      hn_points INTEGER DEFAULT 0,
+      hn_comments INTEGER DEFAULT 0
     );
 
     CREATE TABLE IF NOT EXISTS subscribers (
@@ -65,8 +72,8 @@ export function markTested(app, scored) {
   const db = getDb();
   db.prepare(`
     INSERT OR IGNORE INTO tested_apps
-      (url, title, tested_at, total_score, recommendation, scores_json, report_json)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+      (url, title, tested_at, total_score, recommendation, scores_json, report_json, hn_points, hn_comments)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
   `).run(
     app.url,
     app.title,
@@ -74,7 +81,9 @@ export function markTested(app, scored) {
     scored.total_score,
     scored.recommendation,
     JSON.stringify(scored.scores),
-    JSON.stringify(scored)
+    JSON.stringify(scored),
+    app.points ?? 0,
+    app.comments ?? 0
   );
 }
 

@@ -15,8 +15,12 @@ const SKILL_MD = readFileSync(
 
 import { llmCall } from '../llm/index.js';
 
-// Criterion weights for 10-criteria / 100-point scoring
+// Criterion weights for 12-criteria scoring
+// hn_sentiment: LLM-derived score (0–10) based on comment tone, sentiment, etc.
+// hn_points: raw HN upvotes normalised to 0–10 against the week's maximum
 const WEIGHTS = {
+  hn_sentiment:        1.2,
+  hn_points:           1.1,
   novelty:             1.4,
   current_relevance:   1.3,
   differentiation:     1.3,
@@ -57,12 +61,16 @@ export async function runWeeklyTop5() {
   });
 
   // Step 2: Weighted ranking
+  // Normalise raw HN points to 0–10 against the week's maximum
+  const maxPoints = Math.max(1, ...eligible.map(a => a.hn_points ?? 0));
   const ranked = eligible.map(app => {
     const scores = app.scores || {};
+    const hnPointsScore = ((app.hn_points ?? 0) / maxPoints) * 10;
     const weighted = Object.entries(WEIGHTS).reduce((sum, [key, weight]) => {
-      return sum + (scores[key]?.score ?? 0) * weight;
+      const raw = key === 'hn_points' ? hnPointsScore : (scores[key]?.score ?? 0);
+      return sum + raw * weight;
     }, 0);
-    return { ...app, weighted_total: weighted };
+    return { ...app, weighted_total: weighted, hn_points_score: hnPointsScore };
   }).sort((a, b) => b.weighted_total - a.weighted_total);
 
   // Step 3: Diversity bonus — penalise duplicate app types

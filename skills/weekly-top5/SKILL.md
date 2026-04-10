@@ -42,18 +42,20 @@ Remove apps with:
 ### Step 2: Weighted ranking
 Apply weekly weights to raw scores:
 
-| Criterion | Weight |
-|---|---|
-| novelty | 1.4 |
-| current_relevance | 1.3 |
-| differentiation | 1.3 |
-| performance | 1.2 |
-| ease_of_use | 1.0 |
-| ease_of_integration | 1.0 |
-| documentation | 0.9 |
-| maturity | 0.9 |
-| community | 0.8 |
-| system_requirements | 0.7 |
+| Criterion | Weight | Source |
+|---|---|---|
+| novelty | 1.4 | LLM score (0–10) |
+| current_relevance | 1.3 | LLM score (0–10) |
+| differentiation | 1.3 | LLM score (0–10) |
+| hn_sentiment | 1.2 | LLM score derived from comment tone and signals |
+| hn_points | 1.1 | Raw HN upvotes at scrape time, normalised to 0–10 against week max |
+| performance | 1.2 | LLM score (0–10) |
+| ease_of_use | 1.0 | LLM score (0–10) |
+| ease_of_integration | 1.0 | LLM score (0–10) |
+| documentation | 0.9 | LLM score (0–10) |
+| maturity | 0.9 | LLM score (0–10) |
+| community | 0.8 | LLM score (0–10) |
+| system_requirements | 0.7 | LLM score (0–10) |
 
 weighted_total = sum(score_i × weight_i)
 

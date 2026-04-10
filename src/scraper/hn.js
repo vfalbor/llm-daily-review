@@ -5,7 +5,7 @@
 import * as cheerio from 'cheerio';
 
 const HN_URL = 'https://news.ycombinator.com/';
-const USER_AGENT = 'llm-daily-review/1.0 (+https://github.com/tokenstree/llm-daily-review)';
+const USER_AGENT = 'llm-daily-review/1.0 (+https://github.com/vfalbor/llm-daily-review)';
 
 export async function scrapeHN({ max_items = 30 } = {}) {
   const res = await fetch(HN_URL, {

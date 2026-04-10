@@ -15,9 +15,11 @@ import { log } from '../utils/logger.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url';
 
 const __dir = path.dirname(fileURLToPath(import.meta.url));
-const LOCK_FILE = path.join(__dir, '../../data/run.lock');
+const LOCK_FILE    = path.join(__dir, '../../data/run.lock');
+const PENDING_FILE = path.join(__dir, '../../data/pending-hn-comment.json');
 
 function acquireLock() {
   if (fs.existsSync(LOCK_FILE)) {
@@ -104,6 +106,23 @@ async function main() {
     log.info('Friday — generating weekly Top 5...');
     const top5 = await runWeeklyTop5();
     await sendNewsletter({ edition: 'weekly', ...top5 });
+
+    // Save top-1 app for the 15:30 HN comment job
+    const top1 = top5.top5?.[0];
+    if (top1?.hn_url || top1?.report?.hn_url) {
+      const pending = {
+        app_name:          top1.app_name || top1.title,
+        hn_url:            top1.hn_url || top1.report?.hn_url,
+        why_top5:          top1.why_top5,
+        standout_criterion: top1.standout_criterion,
+        total_score:       top1.total_score,
+        week:              top5.week,
+      };
+      fs.writeFileSync(PENDING_FILE, JSON.stringify(pending, null, 2));
+      log.info(`Saved pending HN comment for: ${pending.app_name}`);
+    } else {
+      log.warn('Top-1 app has no hn_url — skipping HN comment save.');
+    }
   }
 
   log.info(`=== Run complete. Tested: ${dailyResults.length} apps ===`);

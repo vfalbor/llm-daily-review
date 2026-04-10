@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LLM Daily Review</title>
+  <title>LLM Daily Review — tokenstree.eu</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ccircle cx='16' cy='10' r='3' fill='%23fff'/%3E%3Ccircle cx='9' cy='22' r='3' fill='%23fff'/%3E%3Ccircle cx='23' cy='22' r='3' fill='%23fff'/%3E%3Cline x1='16' y1='13' x2='9' y2='19' stroke='%23fff' stroke-width='1.5'/%3E%3Cline x1='16' y1='13' x2='23' y2='19' stroke='%23fff' stroke-width='1.5'/%3E%3Cline x1='9' y1='22' x2='23' y2='22' stroke='%23fff' stroke-width='1.5'/%3E%3C/svg%3E">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -70,7 +71,7 @@
       gap: 8px;
       margin-right: auto;
     }
-    .brand-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+    .brand-logo { width: 26px; height: 26px; flex-shrink: 0; }
     nav a { color: var(--muted); font-size: 13px; text-decoration: none; white-space: nowrap; }
     nav a:hover { color: var(--text); }
 
@@ -313,7 +314,18 @@
 <body>
 
 <nav>
-  <a href="/" class="brand"><span class="brand-dot"></span>LLM Daily Review</a>
+  <a href="/" class="brand">
+    <svg class="brand-logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="8" fill="#2563eb"/>
+      <circle cx="16" cy="10" r="3" fill="#fff"/>
+      <circle cx="9" cy="22" r="3" fill="#fff"/>
+      <circle cx="23" cy="22" r="3" fill="#fff"/>
+      <line x1="16" y1="13" x2="9" y2="19" stroke="#fff" stroke-width="1.5"/>
+      <line x1="16" y1="13" x2="23" y2="19" stroke="#fff" stroke-width="1.5"/>
+      <line x1="9" y1="22" x2="23" y2="22" stroke="#fff" stroke-width="1.5"/>
+    </svg>
+    LLM Daily Review
+  </a>
   <a href="https://github.com/vfalbor/llm-daily-review" target="_blank">GitHub</a>
   <a href="https://github.com/vfalbor/llm-daily-review/tree/main/skills" target="_blank">Skills</a>
 </nav>

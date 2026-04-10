@@ -80,7 +80,7 @@ Include this notice in the footer:
 > mark it as safe — we're a new sender and email providers may flag us initially."
 
 ## Unsubscribe
-Link to `https://tokenstree.com/unsubscribe?token={subscriber_token}`
+Link to `https://tokenstree.eu/unsubscribe?token={subscriber_token}`
 Must work without JavaScript.
 
 ## Community adaptation notes

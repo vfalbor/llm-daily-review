@@ -2,6 +2,8 @@
 
 > Automated daily discovery and evaluation of LLM-related applications published on Hacker News.
 
+**Live portal → [tokenstree.eu](https://tokenstree.eu)**
+
 Every day at 15:00, this system scrapes the HN front page, filters LLM-related tools, tests each one in an isolated Docker container, scores it across 11 criteria, and publishes the results — daily report + weekly Top 5.
 
 ---
@@ -12,7 +14,7 @@ Every day at 15:00, this system scrapes the HN front page, filters LLM-related t
 2. **Identifier skill** filters apps related to LLMs / AI agents
 3. **Deduplication** skips apps already evaluated
 4. **Docker runner** tests each app in an isolated, minimal container
-5. **Scorer skill** rates each app 0–10 on 7 criteria
+5. **Scorer skill** rates each app 0–10 on 11 criteria
 6. **Report generator** creates daily markdown + web entry
 7. **Newsletter** sends daily digest + weekly Top 5 (Fridays)
 
@@ -66,7 +68,7 @@ Skills are intentionally designed to be community-adaptable. Fork, improve, and 
 
 ## Newsletter
 
-Subscribe at [tokenstree.com](https://tokenstree.com) — daily and weekly editions available.
+Subscribe at [tokenstree.eu](https://tokenstree.eu) — daily and weekly editions available.
 Sent from **info@tokenstree.com** — check your spam folder on the first delivery.
 
 ---

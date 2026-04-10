@@ -203,11 +203,16 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     </tr></table>
   </td></tr>
 
+  <!-- Portal link -->
+  <tr><td style="padding:20px 0 16px;text-align:center">
+    <a href="https://tokenstree.eu" style="display:inline-block;padding:10px 24px;background:#2563eb;color:#fff;font-size:13px;font-weight:600;text-decoration:none;border-radius:8px">View full results on tokenstree.eu →</a>
+  </td></tr>
+
   <!-- Footer -->
   <tr><td style="padding:16px 0 0;border-top:1px solid #e4e2da">
     <p style="margin:0 0 6px;font-size:12px;color:#9a9891">
-      You're receiving this because you subscribed at <a href="https://tokenstree.com" style="color:#2563eb">tokenstree.com</a>.
-      <a href="https://tokenstree.com/unsubscribe?token={{TOKEN}}" style="color:#9a9891;margin-left:8px">Unsubscribe</a>
+      You're receiving this because you subscribed at <a href="https://tokenstree.eu" style="color:#2563eb">tokenstree.eu</a>.
+      <a href="https://tokenstree.eu/unsubscribe?token={{TOKEN}}" style="color:#9a9891;margin-left:8px">Unsubscribe</a>
     </p>
     <p style="margin:0;font-size:11px;color:#c4c2ba">
       Sent from info@tokenstree.com — if this landed in spam, please mark it safe.
@@ -238,8 +243,9 @@ ${apps_tested
     ].join('\n');
   }).join('\n\n')}
 
+View on portal: https://tokenstree.eu
 All results: ${GITHUB_RESULTS_BASE}/${date}
-Unsubscribe: https://tokenstree.com/unsubscribe?token={{TOKEN}}`;
+Unsubscribe: https://tokenstree.eu/unsubscribe?token={{TOKEN}}`;
 
   const worthy = apps_tested.filter(a => ['strong-candidate','worth-watching'].includes(a.recommendation));
   const subject = worthy.length
@@ -281,16 +287,19 @@ export function renderWeeklyEmail({ week, top5, honorable_mentions, week_summary
   ${honorable_mentions?.length ? `<tr><td style="padding:12px 0">
     <p style="margin:0;font-size:12px;color:#9a9891"><strong>Honorable mentions:</strong> ${honorable_mentions.map(m => escHtml(m)).join(', ')}</p>
   </td></tr>` : ''}
-  <tr><td style="padding:20px 0 0;border-top:1px solid #e4e2da">
+  <tr><td style="padding:20px 0 16px;text-align:center">
+    <a href="https://tokenstree.eu" style="display:inline-block;padding:10px 24px;background:#2563eb;color:#fff;font-size:13px;font-weight:600;text-decoration:none;border-radius:8px">View all results on tokenstree.eu →</a>
+  </td></tr>
+  <tr><td style="padding:16px 0 0;border-top:1px solid #e4e2da">
     <p style="margin:0;font-size:12px;color:#9a9891">
-      <a href="https://tokenstree.com/unsubscribe?token={{TOKEN}}" style="color:#9a9891">Unsubscribe</a> ·
+      <a href="https://tokenstree.eu/unsubscribe?token={{TOKEN}}" style="color:#9a9891">Unsubscribe</a> ·
       <a href="https://github.com/vfalbor/llm-daily-review" style="color:#9a9891">GitHub</a>
     </p>
   </td></tr>
 </table></td></tr></table>
 </body></html>`;
 
-  const text = `TokensTree Week in Review — ${week}\n\n${week_summary}\n\nApps reviewed: ${total_apps_tested_week}\n\nTop 5:\n${(top5 || []).map((a, i) => `${i + 1}. ${a.app_name} (${a.total_score}/100)\n   ${a.why_top5}`).join('\n\n')}\n\nUnsubscribe: https://tokenstree.com/unsubscribe?token={{TOKEN}}`;
+  const text = `TokensTree Week in Review — ${week}\n\n${week_summary}\n\nApps reviewed: ${total_apps_tested_week}\n\nTop 5:\n${(top5 || []).map((a, i) => `${i + 1}. ${a.app_name} (${a.total_score}/100)\n   ${a.why_top5}`).join('\n\n')}\n\nUnsubscribe: https://tokenstree.eu/unsubscribe?token={{TOKEN}}`;
 
   return {
     subject: `[HN Weekly] Top 5 apps this week — ${week}`,
