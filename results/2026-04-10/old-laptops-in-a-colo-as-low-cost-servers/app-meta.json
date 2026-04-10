@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Old laptops in a colo as low cost servers",
+    "url": "https://colaptop.pages.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=47707477",
+    "points": 339,
+    "comments": 193,
+    "author": "argentum47",
+    "age": "2026-04-09T18:22:39 1775758959",
+    "scraped_at": "2026-04-10T13:59:31.931Z",
+    "is_reviewable": true,
+    "confidence": 1,
+    "domain": "infrastructure",
+    "app_type": "infrastructure-cloud",
+    "description": "Colo server setup using old laptops",
+    "use_modes": [
+      "Web interface"
+    ],
+    "similar_tools": [
+      "Colo server management tools"
+    ],
+    "proposed_tests": [
+      "Deploy a simple service on the colo, measure performance",
+      "Test network connectivity between colo servers",
+      "Verify data persistence and recovery"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/your-repo"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775829715157-ce5mv",
+    "log_dir": "/tmp/llm-review-1775829715157-ce5mv",
+    "install_success": false,
+    "install_time_s": 8.3,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:network_connectivity_ms:91.25590324401855",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement colaptop (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for colaptop\nTraceback (most recent call last):\n  File \"/app/test.py\", line 38, in <module>\n    subprocess.run(['colaptop', 'deploy', 'example_service'], check=False)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'colaptop'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nTEST_PASS:network_connectivity\nBENCHMARK:network_connectivity_ms:91.25590324401855\n"
+  }
+}
