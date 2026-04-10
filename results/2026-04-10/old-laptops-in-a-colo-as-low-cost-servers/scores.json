@@ -1,0 +1,83 @@
+{
+  "app_name": "Old laptops in a colo as low cost servers",
+  "url": "https://colaptop.pages.dev/",
+  "scored_at": "2026-04-10T14:02:12.762Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN discussion has a sentiment score of 6/10, with 339 points and 30 comments analyzed, indicating a generally positive discussion with some concerns about reliability and legitimacy."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The idea of using old laptops as servers in a colo setup is a unique approach, but no specific days_since_created or is_fork data is available for comparison to similar tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and no PyPI package was found, indicating potential issues with installation and system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app type is infrastructure-cloud, which fits with current trends, but no specific data is available to further support this score."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No specific comparison data is available to assess the differentiation of this app from similar tools, so a neutral score is assigned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so a neutral score is assigned due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The tests passed is 1/1, but the install success is false and basic run success is false, indicating some issues with ease of use, but not enough data to fully assess."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package was found, and the use modes are limited to a web interface, indicating potential difficulties with integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data is available to assess the quality of the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No specific data is available to assess the maturity of the app, such as days_since_created or forks count, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The only available benchmark measurement is network_connectivity_ms:91.25590324401855, which is not enough to fully assess performance, so a neutral score is assigned."
+    }
+  },
+  "summary": "The app proposes a unique approach to using old laptops as servers in a colo setup, but faces challenges with installation, integration, and maturity. While the idea has potential, more development and data are needed to fully assess its value.",
+  "recommendation": "niche",
+  "app_url": "https://colaptop.pages.dev/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47707477",
+  "domain": "infrastructure",
+  "app_type": "infrastructure-cloud",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "old laptops can provide cost-effective hosting solutions",
+        "some users are using similar setups successfully",
+        "there are valid points about the comparison to cloud services"
+      ],
+      "negative_signals": [
+        "potential fire risk with 20,000 laptops",
+        "concerns about reliability and hardware failure",
+        "users are skeptical about the legitimacy of the project"
+      ],
+      "justification": "The discussion is generally positive about the idea of using old laptops as servers, but there are concerns about reliability, hardware failure, and the legitimacy of the project. Some users share their own experiences with similar setups, and there are valid points about the comparison to cloud services.",
+      "comment_count": 30,
+      "hn_points": 339
+    }
+  }
+}
