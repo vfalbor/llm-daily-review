@@ -1,0 +1,104 @@
+{
+  "app_name": "Keeper",
+  "url": "https://github.com/agberohq/keeper",
+  "scored_at": "2026-04-10T14:01:38.329Z",
+  "total_score": 62,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 41 HN points and 25 comments analyzed, indicating a largely positive community response, with 25 comments showing excitement about the project's potential and praise for its focus on correct crypto design."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "The project is 10 days old, has 51 stars, and is not a fork, indicating a relatively new and original contribution, with a unique approach to embedded secret storage for Go."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The install success is true, install time is 8.3s, and the package exists on PyPI, indicating easy installation and accessibility, with a fast install time and presence on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is devtool-security, which is currently relevant in the LLM ecosystem, and the project's focus on embedded secret storage for Go addresses a specific pain point, with 51 stars and 2 forks indicating growing interest."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 51 stars, which is lower than some similar tools, but its focus on embedded secret storage for Go provides a unique value proposition, with a comparison to similar tools showing a distinct approach."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 51 stars, 2 forks, and 1 contributor, indicating a small but active community, with 2 open issues and a recent last commit, showing some engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The basic run success is false, indicating some difficulty in usage, with no tests passed or failed, and the need for an API key, which may add complexity."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The project has a PyPI package, an MIT license, and supports CLI and SDK use modes, making it relatively easy to integrate, with a score of 7 due to the presence of these factors."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality and completeness of the documentation, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the project's maturity, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the project's performance, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "Keeper is an embedded secret store for Go that addresses a specific pain point in the LLM ecosystem, with a unique approach and a small but active community, but may require more development for ease of use and maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/agberohq/keeper",
+  "tool_url": "https://github.com/agberohq/keeper",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47715339",
+  "domain": "devtool",
+  "app_type": "devtool-security",
+  "enriched": {
+    "github": {
+      "stars": 51,
+      "forks": 2,
+      "open_issues": 2,
+      "watchers": 51,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 10,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Simple Secure Keeper for Secrets ",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.1.1",
+      "summary": "A file-based value store for bytes and strings.",
+      "requires_python": "",
+      "license": "MIT License",
+      "home_page": "https://github.com/rob-smallshire/keeper/"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many commenters are excited about the project's potential to solve embedded security needs, such as hiding certs and environment secrets.",
+        "Commenters praise the project for its focus on correct and boring crypto design.",
+        "Several commenters appreciate the author's openness to feedback and bug reports."
+      ],
+      "negative_signals": [
+        "Concerns were raised about the project's thread model and potential security implications.",
+        "Some commenters were critical of the project's naming decision due to conflict with a popular enterprise secrets store."
+      ],
+      "justification": "The majority of comments were overwhelmingly positive, with several praise-worthy aspects of the project's design. However, some commenters raised valid concerns about security and naming. Overall, the positive feedback and encouragement of the community contribute to a high score.",
+      "comment_count": 25,
+      "hn_points": 41
+    }
+  }
+}
