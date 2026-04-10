@@ -1,0 +1,82 @@
+{
+  "app_name": "Unfolder for Mac",
+  "url": "https://www.unfolder.app/",
+  "scored_at": "2026-04-10T14:03:08.515Z",
+  "total_score": 51,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The app received a sentiment score of 8/10, with 275 HN points and 30 comments analyzed, indicating a generally positive reception."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No data on days_since_created, is_fork, or comparison to similar tools is available, so a neutral score of 5 is assigned."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false and install time was not provided, but the basic run success was true, indicating some issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's type, devtool-graphics, is relevant to the current LLM ecosystem trends, with a focus on 3D model unfolding for papercraft creation."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No data on stars vs similar tools or BENCHMARK comparisons is available, so a neutral score of 5 is assigned."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository was detected, indicating a lack of community presence."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No data on tests_passed / tests_total or specific TEST_PASS or TEST_FAIL names is available, so a neutral score of 5 is assigned."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package was found, and the app requires a native installation, indicating some difficulty with integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on has_wiki, has_pages, or GitHub topics count is available, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on days_since_created, forks count, or open_issues is available, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are available, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "Unfolder for Mac is a 3D model unfolding tool for creating papercraft, with a focus on native app development and a generally positive reception on HN, but lacking in community presence and integration ease.",
+  "recommendation": "niche",
+  "app_url": "https://www.unfolder.app/",
+  "tool_url": "https://github.com/unfolder-app",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47706140",
+  "domain": "devtool",
+  "app_type": "devtool-graphics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "clean design of the landing page",
+        "fascinating tool with great potential",
+        "reminds me of the golden age of cool little MacOS apps"
+      ],
+      "negative_signals": [
+        "OBJ file requirement can be a barrier to entry",
+        "comparison to other free alternatives (e.g., Pepakura)"
+      ],
+      "justification": "The project received mostly positive comments, praising the tool's potential and the developer's efforts. However, some users were deterred by the need for OBJ files and comparisons were drawn to free alternatives, which dragged the overall sentiment down slightly.",
+      "comment_count": 30,
+      "hn_points": 275
+    }
+  }
+}
