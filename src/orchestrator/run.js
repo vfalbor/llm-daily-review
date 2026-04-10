@@ -4,7 +4,7 @@
 
 import { scrapeHN } from '../scraper/hn.js';
 import { filterLLMApps } from '../filter/llm-filter.js';
-import { checkDedup, markTested } from '../db/database.js';
+import { checkDedup, markTested, saveWeeklyTop5 } from '../db/database.js';
 import { runInContainer } from '../tester/container-runner.js';
 import { scoreApp } from '../scorer/scorer.js';
 import { generateDailyReport } from '../reporter/daily-report.js';
@@ -104,6 +104,7 @@ async function main() {
   if (dayOfWeek === 5) {
     log.info('Friday — generating weekly Top 5...');
     const top5 = await runWeeklyTop5();
+    saveWeeklyTop5(top5);
     await sendNewsletter({ edition: 'weekly', ...top5 });
 
     // Save top-1 app for the 15:30 HN comment job

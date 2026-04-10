@@ -256,17 +256,36 @@ Unsubscribe: https://tokenstree.eu/unsubscribe?token={{TOKEN}}`;
 }
 
 export function renderWeeklyEmail({ week, top5, honorable_mentions, week_summary, total_apps_tested_week }) {
-  const top5Cards = (top5 || []).map((app, i) => `
+  const top5Cards = (top5 || []).map((app, i) => {
+    const scores = app.scores_snapshot || app.scores || {};
+    const scoreBars = Object.entries(scores)
+      .filter(([, v]) => v?.score !== null && v?.score !== undefined)
+      .map(([key, v]) => {
+        const s = v.score;
+        return `<tr>
+          <td style="padding:3px 0;font-size:11px;color:#6b6a65;white-space:nowrap;padding-right:8px">${criterionLabel(key)}</td>
+          <td style="width:100%;padding:3px 0">
+            <div style="height:4px;background:#e4e2da;border-radius:2px">
+              <div style="height:4px;width:${s * 10}%;background:${s >= 7 ? '#16a34a' : s >= 5 ? '#d97706' : '#dc2626'};border-radius:2px"></div>
+            </div>
+          </td>
+          <td style="padding:3px 0 3px 8px;font-size:11px;color:#9a9891;white-space:nowrap">${s}/10</td>
+        </tr>`;
+      }).join('');
+
+    return `
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:16px;border:1px solid #e4e2da;border-radius:10px;overflow:hidden;background:#fff">
   <tr><td style="padding:4px 20px;background:#2563eb">
     <span style="font-size:12px;font-weight:600;color:#fff">#${i + 1} — Standout: ${criterionLabel(app.standout_criterion)}</span>
   </td></tr>
   <tr><td style="padding:16px 20px">
     <a href="${escHtml(app.url || app.app_url || '#')}" style="font-size:16px;font-weight:600;color:#1a1a18;text-decoration:none">${escHtml(app.app_name)}</a>
-    <p style="margin:10px 0 0;font-size:13px;color:#6b6a65;line-height:1.6">${escHtml(app.why_top5 || '')}</p>
-    <p style="margin:10px 0 0;font-size:12px;color:#9a9891">Total score: <strong>${app.total_score}/100</strong></p>
+    <p style="margin:10px 0;font-size:13px;color:#6b6a65;line-height:1.6">${escHtml(app.why_top5 || '')}</p>
+    <p style="margin:0 0 12px;font-size:12px;color:#9a9891">Total score: <strong>${app.total_score}/100</strong></p>
+    ${scoreBars ? `<table width="100%" cellpadding="0" cellspacing="0">${scoreBars}</table>` : ''}
   </td></tr>
-</table>`).join('');
+</table>`;
+  }).join('');
 
   const html = `<!DOCTYPE html>
 <html lang="en">

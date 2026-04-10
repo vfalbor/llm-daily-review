@@ -10,6 +10,7 @@ import {
   getCalendarDays,
   addSubscriber,
   unsubscribe,
+  getWeeklyTop5,
 } from '../db/database.js';
 
 const __dir = path.dirname(fileURLToPath(import.meta.url));
@@ -43,6 +44,13 @@ app.get('/api/results', (req, res) => {
   }
   const apps = getDayApps(date);
   res.json(apps);
+});
+
+// API: weekly top 5 (latest or by week param e.g. ?week=2026-W15)
+app.get('/api/weekly-top5', (req, res) => {
+  const result = getWeeklyTop5(req.query.week || null);
+  if (!result) return res.status(404).json({ error: 'No weekly top 5 found' });
+  res.json(result);
 });
 
 // API: subscribe to newsletter

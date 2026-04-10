@@ -58,6 +58,13 @@ function migrate(db) {
       report_md TEXT,
       created_at TEXT NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS weekly_top5 (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      week TEXT UNIQUE NOT NULL,
+      generated_at TEXT NOT NULL,
+      result_json TEXT NOT NULL
+    );
   `);
 }
 
@@ -151,6 +158,22 @@ export function saveDailyRun(date, stats, reportMd) {
       (run_date, apps_found, apps_tested, apps_skipped, report_md, created_at)
     VALUES (?, ?, ?, ?, ?, ?)
   `).run(date, stats.found, stats.tested, stats.skipped, reportMd, new Date().toISOString());
+}
+
+export function saveWeeklyTop5(result) {
+  const db = getDb();
+  db.prepare(`
+    INSERT OR REPLACE INTO weekly_top5 (week, generated_at, result_json)
+    VALUES (?, ?, ?)
+  `).run(result.week, result.generated_at, JSON.stringify(result));
+}
+
+export function getWeeklyTop5(week) {
+  const db = getDb();
+  const row = week
+    ? db.prepare('SELECT result_json FROM weekly_top5 WHERE week = ?').get(week)
+    : db.prepare('SELECT result_json FROM weekly_top5 ORDER BY generated_at DESC LIMIT 1').get();
+  return row ? JSON.parse(row.result_json) : null;
 }
 
 export function getCalendarDays(year, month) {

@@ -622,6 +622,62 @@ function renderAppCard(app) {
   </div>`;
 }
 
+/* ── Weekly Top 5 ── */
+const CRITERION_LABELS = {
+  hn_sentiment: 'HN Sentiment', novelty: 'Novelty', current_relevance: 'Relevance',
+  differentiation: 'Differentiation', performance: 'Performance', ease_of_use: 'Ease of use',
+  ease_of_integration: 'Integration', documentation: 'Docs', maturity: 'Maturity',
+  community: 'Community', system_requirements: 'System req.', hn_points: 'HN Points',
+};
+
+function renderTop5Card(app, rank) {
+  const scores = app.scores_snapshot || app.scores || {};
+  const bars = Object.entries(CRITERION_LABELS).map(([key, label]) => {
+    const entry = scores[key];
+    const s = entry?.score ?? null;
+    if (s === null) return '';
+    const cls = s >= 7 ? 'high' : s >= 5 ? 'mid' : 'low';
+    return `<div class="score-item">
+      <div class="score-label"><span>${label}</span><span>${s}/10</span></div>
+      <div class="score-bar"><div class="score-fill ${cls}" style="width:${s * 10}%"></div></div>
+      ${entry?.justification ? `<div class="score-note">${esc(entry.justification)}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  const url = esc(app.app_url || app.url || '#');
+  const standout = CRITERION_LABELS[app.standout_criterion] || app.standout_criterion || '';
+  return `<div class="top5-card">
+    <div class="top5-rank">#${rank}</div>
+    <div class="top5-body">
+      <div class="app-title" style="margin-bottom:6px">
+        <a href="${url}" target="_blank" rel="noopener">${esc(app.app_name)}</a>
+      </div>
+      ${standout ? `<div style="font-size:11px;color:var(--accent);font-weight:600;margin-bottom:8px">Standout: ${esc(standout)}</div>` : ''}
+      <p class="top5-why">${esc(app.why_top5 || '')}</p>
+      <p class="top5-score">Total score: <strong>${app.total_score}/100</strong></p>
+      <div class="scores" style="margin-top:12px">${bars}</div>
+    </div>
+  </div>`;
+}
+
+async function loadWeeklyTop5() {
+  const container = document.getElementById('top5-list');
+  container.innerHTML = emptyHTML('Loading…');
+  try {
+    const res = await fetch('/api/weekly-top5');
+    if (!res.ok) throw new Error('not found');
+    const data = await res.json();
+    const mentionsHtml = data.honorable_mentions?.length
+      ? `<p style="font-size:12px;color:var(--muted);margin-top:8px"><strong>Honorable mentions:</strong> ${data.honorable_mentions.map(esc).join(', ')}</p>`
+      : '';
+    container.innerHTML = `
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px">${esc(data.week_summary || '')}${mentionsHtml}</p>
+      ${(data.top5 || []).map((app, i) => renderTop5Card(app, i + 1)).join('')}`;
+  } catch {
+    container.innerHTML = emptyHTML('No weekly Top 5 yet.<br>Generated every Friday after 15:00 UTC.');
+  }
+}
+
 /* ── Tabs ── */
 function setTab(name) {
   document.querySelectorAll('.tab').forEach(t => {
@@ -629,6 +685,7 @@ function setTab(name) {
   });
   document.getElementById('tab-apps').style.display  = name === 'apps'  ? '' : 'none';
   document.getElementById('tab-top5').style.display  = name === 'top5'  ? '' : 'none';
+  if (name === 'top5') loadWeeklyTop5();
 }
 
 document.querySelectorAll('.tab').forEach(tab => {
