@@ -15,7 +15,6 @@ import { log } from '../utils/logger.js';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { fileURLToPath } from 'url';
 
 const __dir = path.dirname(fileURLToPath(import.meta.url));
 const LOCK_FILE    = path.join(__dir, '../../data/run.lock');
