@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Unfolder for Mac – A 3D model unfolding tool for creating papercraft",
+    "url": "https://www.unfolder.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=47706140",
+    "points": 272,
+    "comments": 52,
+    "author": "codazoda",
+    "age": "2026-04-09T16:58:46 1775753926",
+    "scraped_at": "2026-04-10T13:59:31.931Z",
+    "tool_url": "https://github.com/unfolder-app",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 1,
+    "domain": "devtool",
+    "app_type": "devtool-graphics",
+    "description": "3D model unfolding tool for papercraft creation",
+    "use_modes": [
+      "Native app"
+    ],
+    "similar_tools": [
+      "Autodesk Meshmixer",
+      "Blender"
+    ],
+    "proposed_tests": [
+      "Unfold a complex 3D model, measure accuracy vs human-facilitated unfolding",
+      "Test papercraft creation process from unfolded model",
+      "Benchmark performance on large, complex models"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://github.com/unfolder-app"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775829733644-ldqxc",
+    "log_dir": "/tmp/llm-review-1775829733644-ldqxc",
+    "install_success": false,
+    "install_time_s": 45.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nCloning into 'unfolder'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: unfold is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting unfold\n  Downloading unfold-1.2.4-py3-none-any.whl.metadata (46 kB)\nCollecting numpy<2.0.0 (from unfold)\n  Downloading numpy-1.26.4-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (61 kB)\nCollecting pandas (from unfold)\n  Downloading pandas-3.0.2-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (79 kB)\nCollecting bw2io (from unfold)\n  Downloading bw2io-0.9.14-py3-none-any.whl.metadata (7.1 kB)\nCollecting bw2data (from unfold)\n  Downloading bw2data-4.6-py3-none-any.whl.metadata (5.0 kB)\nCollecting bw2calc (from unfold)\n  Downloading bw2calc-2.4.0-py3-none-any.whl.metadata (2.8 kB)\nCollecting prettytable (from unfold)\n  Downloading prettytable-3.17.0-py3-none-any.whl.metadata (34 kB)\nCollecting datapackage (from unfold)\n  Downloading datapackage-1.15.4-py2.py3-none-any.whl.metadata (40 kB)\nCollecting sparse (from unfold)\n  Downloading sparse-0.18.0-py2.py3-none-any.whl.metadata (5.3 kB)\nCollecting scipy (from unfold)\n  Downloading scipy-1.17.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (62 kB)\nCollecting pyyaml (from unfold)\n  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)\nCollecting wurst>=0.4.0 (from unfold)\n  Downloading wurst-0.5.3-py3-none-any.whl.metadata (3.6 kB)\nCollecting pyprind (from unfold)\n  Downloading PyPrind-2.11.3-py2.py3-none-any.whl.metadata (1.1 kB)\nCollecting platformdirs (from wurst>=0.4.0->unfold)\n  Downloading platformdirs-4.9.6-py3-none-any.whl.metadata (4.7 kB)\nCollecting constructive_geometries>=0.9.4 (from wurst>=0.4.0->unfold)\n  Downloading constructive_geometries-1.0-py3-none-any.whl.metadata (2.7 kB)\nCollecting docopt (from wurst>=0.4.0->unfold)\n  Downloading docopt-0.6.2.tar.gz (25 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting python-json-logger (from wurst>=0.4.0->unfold)\n  Downloading python_json_logger-4.1.0-py3-none-any.whl.metadata (3.7 kB)\nCollecting structlog (from wurst>=0.4.0->unfold)\n  Downloading structlog-25.5.0-py3-none-any.whl.metadata (9.5 kB)\nCollecting toolz (from wurst>=0.4.0->unfold)\n  Downloading toolz-1.1.0-py3-none-any.whl.metadata (5.1 kB)\nCollecting tqdm (from wurst>=0.4.0->unfold)\n  Downloading tqdm-4.67.3-py3-none-any.whl.metadata (57 kB)\nCollecting wrapt (from wurst>=0.4.0->unfold)\n  Downloading wrapt-2.1.2-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (7.4 kB)\nCollecting bw_processing>=1.0 (from bw2calc->unfold)\n  Downloading bw_processing-1.0-py3-none-any.whl.metadata (16 kB)\nCollecting fsspec (from bw2calc->unfold)\n  Downloading fsspec-2026.3.0-py3-none-any.whl.metadata (10 kB)\nCollecting matrix_utils>=0.6 (from bw2calc->unfold)\n  Downloading matrix_utils-0.7.1-py3-none-any.whl.metadata (8.7 kB)\nCollecting pydantic (from bw2calc->unfold)\n  Downloading pydantic-2.12.5-py3-none-any.whl.metadata (90 kB)\nCollecting stats_arrays (from bw2calc->unfold)\n  Downloading stats_arrays-1.0-py3-none-any.whl.metadata (3.8 kB)\nCollecting xarray (from bw2calc->unfold)\n  Downloading xarray-2026.2.0-py3-none-any.whl.metadata (12 kB)\nCollecting blinker (from bw2data->unfold)\n  Downloading blinker-1.9.0-py3-none-any.w"
+  }
+}
