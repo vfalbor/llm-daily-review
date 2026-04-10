@@ -1,0 +1,104 @@
+{
+  "app_name": "Marimo pair",
+  "url": "https://github.com/marimo-team/marimo-pair",
+  "scored_at": "2026-04-10T14:01:54.342Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 9/10 with 49 points, indicating a very positive reception with 3 comments analyzed, including positive signals such as enthusiasm and excitement about the reactive notebooks."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "The app has been created 44 days ago and is not a fork, indicating some level of originality, but without direct comparison to similar tools, scoring at 7 seems appropriate."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install success is false, indicating issues with installation, and no PyPI package is found, but install time is 5.8s, which is relatively fast, thus scoring at the neutral midpoint of 5."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is a research tool for reactive Python notebooks, which is somewhat relevant in today's LLM ecosystem, but its impact is not clearly defined, scoring at 6."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without direct comparison to similar tools in terms of BENCHMARK or features, and given the lack of specific data, scoring at the neutral midpoint of 5 seems appropriate."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repository has 100 stars, 1 fork, and 5 contributors, with 4 open issues and the last commit being 1 day ago, indicating a small but somewhat active community, scoring at 4."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Install success is false and basic run success is also false, with 0 tests passed out of 0, indicating significant issues with usability, thus scoring at the minimum of 1."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has no PyPI package and its integration capabilities are not clearly defined, scoring at the neutral midpoint of 5 due to lack of specific data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data on the quality and completeness of the documentation, so scoring at the neutral midpoint of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 44 days old with 1 day since the last commit, but without more specific data on releases, stability, or known production deployments, scoring at the neutral midpoint of 5 seems appropriate."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines from tests provided, so scoring at the neutral midpoint of 5 due to insufficient data."
+    }
+  },
+  "summary": "Marimo pair offers reactive Python notebooks as environments for agents, with a positive HN sentiment but faces challenges in terms of installation and usability. Its relevance and differentiation in the current LLM ecosystem are not clearly defined.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/marimo-team/marimo-pair",
+  "tool_url": "https://github.com/marimo-team/marimo-pair",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47678844",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 100,
+      "forks": 1,
+      "open_issues": 4,
+      "watchers": 100,
+      "contributors": 5,
+      "license": "Apache-2.0",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 44,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Drop agents inside running marimo notebook sessions",
+      "topics": [
+        "agents",
+        "ai",
+        "data",
+        "marimo",
+        "ml",
+        "notebook"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Author is available for questions",
+        "Reactive Python notebooks are a great concept",
+        "Users are excited and have a positive experience with the project"
+      ],
+      "negative_signals": [
+        "Still some bugs need addressing",
+        "Potential compatibility issues with certain subscriptions"
+      ],
+      "justification": "The comments suggest that the project is well-received, with users expressing enthusiasm and excitement about the reactive notebooks. However, there are also some minor concerns about bugs and compatibility that need to be addressed.",
+      "comment_count": 3,
+      "hn_points": 49
+    }
+  }
+}
