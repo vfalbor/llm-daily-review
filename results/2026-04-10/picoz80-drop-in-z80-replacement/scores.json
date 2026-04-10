@@ -1,0 +1,82 @@
+{
+  "app_name": "PicoZ80",
+  "url": "https://eaw.app/picoz80/",
+  "scored_at": "2026-04-10T14:03:44.948Z",
+  "total_score": 37,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available due to no comments or analysis failed"
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate novelty, as no GitHub repository stats or comparison to similar tools are available"
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false, indicating difficulty in installation, and install time is 6.9s, which is relatively fast but not indicative of overall system requirements"
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate current relevance, as no information on app type and its fit with current LLM ecosystem trends is available"
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Comparison to similar tools like Arduino (16,592 stars) and Raspberry Pi (16,189 stars) suggests that PicoZ80 may not have a significant advantage in terms of community or popularity, but without more data, it's hard to determine the level of differentiation"
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected or API unavailable, indicating a lack of community or open-source presence"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 0 and basic run success is false, indicating significant difficulties in using the app"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package found, making it not pip-installable, and lack of information on API modes or license"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation quality, as no information on has_wiki, has_pages, or GitHub topics count is available"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as no information on days_since_created, forks count, or open_issues is available"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are available, making it impossible to evaluate performance"
+    }
+  },
+  "summary": "PicoZ80 is a Z80-based processor replacement with limited information available, making it difficult to evaluate its effectiveness and potential. The lack of a GitHub repository, PyPI package, and insufficient data on various criteria hinder its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://eaw.app/picoz80/",
+  "tool_url": "https://github.com/eaw/picoz80",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47708041",
+  "domain": "hardware",
+  "app_type": "hardware-iwasmachine",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Arduino",
+        "stars": 16592,
+        "repo": "esp8266/Arduino"
+      },
+      {
+        "name": "Raspberry Pi",
+        "stars": 16189,
+        "repo": "thibmaek/awesome-raspberry-pi"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
