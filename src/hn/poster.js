@@ -24,6 +24,7 @@ export async function postHNComment(hnUrl, commentText) {
     ? loginRes.headers.getSetCookie()
     : [loginRes.headers.get('set-cookie')].filter(Boolean);
 
+  if (loginRes.status === 429) throw new Error('HN login rate-limited (429) — wait a few minutes and retry.');
   if (!rawCookies.length) throw new Error('HN login failed — no cookie returned. Check credentials.');
 
   const cookieHeader = rawCookies.map(c => c.split(';')[0]).join('; ');
