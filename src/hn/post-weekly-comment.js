@@ -14,23 +14,24 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 const PENDING_FILE = join(__dir, '../../data/pending-hn-comment.json');
 
 async function generateComment(app) {
-  const prompt = `You are a developer who just discovered a useful open-source tool on Hacker News.
-Write a SHORT comment (2–3 sentences) for the HN thread of this tool.
+  const prompt = `Write a SHORT Hacker News comment (2–3 sentences) announcing that this project ranked #1 in the weekly LLM Daily Review top-5 on tokenstree.eu.
 
-Tool: ${app.app_name}
-Why it stands out this week: ${app.why_top5}
+Project: ${app.app_name}
+Why it ranked #1 this week: ${app.why_top5}
 Standout criterion: ${app.standout_criterion}
+Score: ${app.total_score}/100
 
 Rules:
-- Sound like a genuine developer, first-person ("I tried this", "been looking for", etc.)
-- Reference ONE specific technical detail from the "why it stands out" text
-- Do NOT use marketing language, hashtags, or generic praise like "great project"
-- Do NOT mention rankings, newsletters, or automated systems
+- Mention it ranked #1 in the weekly top-5 at tokenstree.eu this week
+- Reference ONE specific reason from "why it ranked #1"
+- Include the portal URL: https://tokenstree.eu
+- Sound natural, not promotional
+- Do NOT use hashtags or generic praise
 - Plain text only, no markdown
 - Maximum 3 sentences`;
 
   return llmCall(
-    'You are a developer writing a brief, genuine comment on Hacker News.',
+    'You write brief, genuine Hacker News comments announcing weekly rankings.',
     prompt,
     256
   );
