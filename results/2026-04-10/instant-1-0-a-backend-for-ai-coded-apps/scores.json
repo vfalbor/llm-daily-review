@@ -1,0 +1,82 @@
+{
+  "app_name": "Instant",
+  "url": "https://www.instantdb.com/essays/architecture",
+  "scored_at": "2026-04-10T14:03:27.511Z",
+  "total_score": 45,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment analysis yields a score of 8/10, with 180 points and 30 comments, indicating a generally positive reception, with many users excited about the project and its potential for building AI-coded apps, despite some concerns about security and dependencies."
+    },
+    "novelty": {
+      "score": 5,
+      "justification": "No GitHub repository data is available to assess novelty. Score set to 5 due to insufficient data."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time is 8.9s, which indicates significant issues with system requirements. Additionally, no PyPI package is found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app type is llm-inference, but the current relevance cannot be fully assessed due to lack of specific data on its fit with current LLM ecosystem trends. Score set to 5 due to insufficient data."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No specific data is provided for differentiation in terms of stars vs similar tools or BENCHMARK comparisons, making it impossible to accurately assess. Score set to 5 due to insufficient data."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected or API is unavailable, which significantly hampers the evaluation of the community aspect, scoring it the minimum of 1 due to complete inability to assess."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant usability issues, which leads to the minimum score of 1 due to complete inability to use the app as intended."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package is found, and while the API mode is mentioned, the lack of pip-installability and unclear integration details lead to a low score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation quality cannot be assessed due to lack of data on has_wiki, has_pages, or GitHub topics count. Score set to 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess maturity, including days_since_created, forks count, or open_issues. Score set to 5 due to insufficient data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are provided to assess performance, leading to a neutral score of 5 due to lack of data."
+    }
+  },
+  "summary": "Instant is a backend system for deploying AI-coded applications but faces significant issues with install success, community engagement, and lacks sufficient data for a comprehensive evaluation of its novelty, differentiation, and performance.",
+  "recommendation": "niche",
+  "app_url": "https://www.instantdb.com/essays/architecture",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47707632",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many users are excited about the project and think it's a good solution for building AI-coded apps.",
+        "The project seems to be well-maintained, with a clear roadmap and open-source code.",
+        "Users appreciate the ease of use and the possibility to create real-time, offline-enabled apps."
+      ],
+      "negative_signals": [
+        "Some users are skeptical about the need for a framework when building vibe-coded apps, suggesting that a simpler approach would be enough.",
+        "There is some concern about security and isolation, with users questioning how Instant would protect against data breaches."
+      ],
+      "justification": "Overall, the project receives positive feedback, with users excited about its potential for building AI-coded apps. However, there are some concerns about security, dependencies, and the need for a framework, which slightly lowers the score.",
+      "comment_count": 30,
+      "hn_points": 180
+    }
+  }
+}
