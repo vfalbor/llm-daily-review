@@ -22,6 +22,7 @@ export async function enrichApp(app) {
     similar_github: [],
     pypi: null,
     npm: null,
+    web: null,
   };
 
   // Prefer tool_url (set when HN post is an article about a specific tool)
@@ -45,6 +46,11 @@ export async function enrichApp(app) {
   const npmName = guessNpmName(resolvedApp);
   if (npmName && !data.pypi) {
     data.npm = await fetchNpm(npmName);
+  }
+
+  // Web fetch for non-GitHub apps — extracts docs/version/community signals
+  if (!data.github && resolvedUrl && !resolvedUrl.includes('news.ycombinator.com')) {
+    data.web = await fetchWebSignals(resolvedUrl);
   }
 
   return data;
@@ -223,6 +229,52 @@ async function fetchNpm(pkgName) {
   }
 }
 
+// ── Web signals (for non-GitHub apps) ────────────────────────────────────────
+
+async function fetchWebSignals(url) {
+  try {
+    const res = await fetch(url, {
+      headers: { 'User-Agent': 'llm-daily-review/1.0 (+https://github.com/vfalbor/llm-daily-review)' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+
+    // Extract title
+    const titleMatch = html.match(/<title[^>]*>([^<]{1,200})<\/title>/i);
+    const title = titleMatch ? titleMatch[1].trim() : null;
+
+    // Detect docs/wiki links
+    const hasDocsLink = /href=["'][^"']*\/(docs?|wiki|documentation|reference|guide|manual|tutorial)[^"']*["']/i.test(html);
+    const hasChangelog = /changelog|release.?notes|what.?s.?new/i.test(html);
+    const hasExamples = /example|demo|playground|getting.?started/i.test(html);
+
+    // Detect version number (e.g. v1.2.3, 2.0, "version 3")
+    const versionMatch = html.match(/v?(\d+\.\d+(?:\.\d+)?(?:-[a-z]+\d*)?)\b/i);
+    const version = versionMatch ? versionMatch[1] : null;
+
+    // Detect API / integration signals
+    const hasApi = /\bapi\b|\brest\b|\bgraphql\b|\bwebhook|\bsdk\b/i.test(html);
+    const hasInstallCmd = /pip install|npm install|cargo add|brew install|apt install/i.test(html);
+
+    // Page length as rough proxy for content depth
+    const contentLength = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().length;
+
+    return {
+      title,
+      has_docs_link: hasDocsLink,
+      has_changelog: hasChangelog,
+      has_examples: hasExamples,
+      version,
+      has_api: hasApi,
+      has_install_cmd: hasInstallCmd,
+      content_length_chars: contentLength,
+    };
+  } catch {
+    return null;
+  }
+}
+
 // ── Format for scorer prompt ─────────────────────────────────────────────────
 
 export function formatEnrichmentForScorer(enriched, testResults) {
@@ -283,6 +335,21 @@ export function formatEnrichmentForScorer(enriched, testResults) {
   } else {
     lines.push('\n### PyPI package');
     lines.push('- No PyPI package found — not pip-installable');
+  }
+
+  // Web signals (non-GitHub apps)
+  if (enriched.web) {
+    const w = enriched.web;
+    lines.push('\n### Web page signals (fetched from app URL)');
+    lines.push(`- Page title: ${w.title || 'unknown'}`);
+    lines.push(`- Has docs/wiki/guide link: ${w.has_docs_link}`);
+    lines.push(`- Has changelog or release notes: ${w.has_changelog}`);
+    lines.push(`- Has examples or demo: ${w.has_examples}`);
+    lines.push(`- Detected version: ${w.version || 'none found'}`);
+    lines.push(`- Has API/SDK/webhook mention: ${w.has_api}`);
+    lines.push(`- Has install command on page: ${w.has_install_cmd}`);
+    lines.push(`- Page content length: ${w.content_length_chars} chars (proxy for depth)`);
+    lines.push('NOTE: Use these signals for documentation, maturity, and integration scores when GitHub data is unavailable.');
   }
 
   return lines.join('\n');

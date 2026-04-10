@@ -53,10 +53,21 @@ Called after Docker runner completes tests and data enrichment for an app.
 }
 ```
 
-## Scoring floor rule
-**Never score 0** unless the criterion is completely impossible to evaluate AND the app
-is broken or non-existent. When data is unavailable, score at the neutral midpoint (5)
-and explain why in the justification. The scale starts at 1.
+## Scoring rules — null vs 5 vs actual score
+
+This is the most important rule. Read carefully:
+
+- **`null`** = criterion **does not apply** to this app type (e.g. `ease_of_integration` for a game, `performance` for an article). See `skills/app-type-rubric/SKILL.md` for the full map.
+- **`5`** = criterion **applies** to this app type, but quantitative data is missing after looking everywhere. Use sparingly — if you haven't fetched the app's URL/README, you have not looked everywhere.
+- **`1–10`** = criterion applies and you found evidence to support the score. Always preferred.
+
+**Never use 5 as a lazy default. Before assigning 5, you must:**
+1. Check test results (install_success, tests_passed, benchmark_notes)
+2. Check GitHub data if available
+3. Check the app's own URL for docs, README, performance claims, community signals
+4. Use HN points/comments as a proxy for community and maturity when no repo exists
+
+**Never score 0.** Minimum non-null score is 1.
 
 ## Scoring rubrics
 
@@ -130,7 +141,8 @@ Quality and completeness of documentation, tutorials, and examples.
 - 5–6: Basic README with install instructions and minimal examples
 - 3–4: Sparse README, must read source code to understand usage
 - 1–2: No documentation beyond the code itself
-- *Cite: has_wiki, has_pages, README quality, GitHub topics*
+- *Cite: has_wiki, has_pages, README quality, GitHub topics, docs site URL if found*
+- **IMPORTANT**: Do NOT score 5 just because GitHub flags are absent. Fetch the app URL and evaluate what you find. A project with a rich website, wiki, or tutorials scores 7–9 even without GitHub data.
 
 ### 9. Maturity (1–10)
 Production readiness, stability, and project lifecycle stage.
@@ -139,7 +151,8 @@ Production readiness, stability, and project lifecycle stage.
 - 5–6: Alpha, API may change, usable for experiments
 - 3–4: Pre-alpha or prototype, frequent breaking changes, no releases
 - 1–2: Proof-of-concept only, single commit, no versioning
-- *Must cite: days_since_created, is_fork, forks count, open_issues count*
+- *Must cite: days_since_created, forks count, open_issues count when available*
+- **When no GitHub data**: use HN points, description, version number in title, or website as signals. A project with 500+ HN points and a stable domain is likely mature (6–8). A fresh Show HN with no prior history scores 3–4.
 
 ### 10. Performance (1–10)
 Speed, efficiency, and benchmark results relative to alternatives.
@@ -149,7 +162,8 @@ Speed, efficiency, and benchmark results relative to alternatives.
 - 3–4: Slightly slower or more resource-hungry than alternatives
 - 1–2: Significantly worse performance than free alternatives
 - *Must cite: BENCHMARK lines from test output, install_time_s, comparison to similar tools*
-- *If no benchmarks run: score 5 (neutral — insufficient data to judge)*
+- **If no benchmarks ran AND no performance claims exist anywhere**: use `null` (not 5) if this app type doesn't have a meaningful performance dimension, or score 3 (insufficient evidence, assume average) if it does.
+- **If the app type is article/paper/game**: set to `null` unless explicit benchmarks are reported.
 
 ## Justification format
 Each justification must:

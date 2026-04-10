@@ -12,7 +12,8 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dir = dirname(fileURLToPath(import.meta.url));
-const SKILL_MD = readFileSync(join(__dir, '../../skills/app-scorer/SKILL.md'), 'utf8');
+const SKILL_MD      = readFileSync(join(__dir, '../../skills/app-scorer/SKILL.md'), 'utf8');
+const TYPE_RUBRIC   = readFileSync(join(__dir, '../../skills/app-type-rubric/SKILL.md'), 'utf8');
 
 // ── Criterion weights (percentage-based, sum = 100) ─────────────────────────
 // hn_sentiment is the heaviest single criterion at 15%.
@@ -73,8 +74,14 @@ export async function scoreApp(app, testResults) {
 
 ---
 
+${TYPE_RUBRIC}
+
+---
+
 Score the following app. You MUST base every justification on the quantitative data
 provided below. Do not guess or estimate — cite actual numbers.
+IMPORTANT: consult the app-type-rubric above before scoring. Set criteria that do not
+apply to this app type to null, not 5.
 
 Rules for justifications (11 criteria, weighted to 100 points total):
 - hn_sentiment MUST cite: sentiment score, HN points, comment count, positive/negative signals
