@@ -1,0 +1,94 @@
+{
+  "app_name": "Twill.ai",
+  "url": "https://twill.ai/",
+  "scored_at": "2026-04-11T10:46:13.835Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Twill.ai's 'prompt to PR model' is a unique approach, with 67 HN points and 30 comments analyzed, showing excitement and praise for its innovative solution, as seen in the HN comment sentiment analysis with a sentiment score of 8/10."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 11.7s, which is moderate, and install success is true, but no PyPI package is found, indicating some complexity in setup, as shown in the container test results."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Twill.ai addresses the current need for efficient software development tools, fitting well with the current LLM ecosystem trends, as seen in its application of cloud agents for PRs, with 67 HN points indicating interest in the tool."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Twill.ai differentiates itself with its 'prompt to PR model', but similar tools like cloud and PRs have more GitHub stars, with 30,291 and 3,116 stars respectively, indicating a competitive landscape, as seen in the similar tools comparison."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected, and while HN points are 67, indicating some community interest, the lack of GitHub data makes it difficult to assess the community fully, resulting in a neutral score of 5."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Tests passed are 2 out of 3, indicating some ease of use, but not all tests pass, showing minor friction, as seen in the container test results, with install success being true but some tests failing."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is found, and no API modes are explicitly mentioned, making integration potentially more difficult, as shown in the app metadata and PyPI package information."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct documentation is available from the provided data, and while the tool has a web interface, the lack of explicit documentation information results in a neutral score of 5, as seen in the app metadata."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No explicit information on days since created, forks, or open issues is available, due to the lack of GitHub repository data, resulting in a neutral score of 5, as seen in the GitHub repository stats section."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark measurements show visit_twill_ai_ms at 394.0308094024658 and visit_twill_ai_peak_memory_mb at 0.04893207550048828, indicating moderate performance, as seen in the benchmark measurements from the container, but no direct comparison to similar tools is available for a more comprehensive assessment."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN comment sentiment analysis shows a sentiment score of 8/10, with 67 HN points and 30 comments analyzed, indicating a generally positive sentiment towards Twill.ai, with excitement and praise for its innovative approach, as well as recognition of its potential as a useful tool for software development."
+    }
+  },
+  "summary": "Twill.ai is a novel tool that delegates to cloud agents and returns PRs, showing promise in the current LLM ecosystem with its unique approach, but its community, ease of integration, and documentation could be improved for higher adoption and usability, as indicated by its scores in these areas.",
+  "recommendation": "worth-watching",
+  "app_url": "https://twill.ai/",
+  "tool_url": "https://github.com/yourcompanyname/twill.ai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47720418",
+  "domain": "infra",
+  "app_type": "infra-cloud",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "cloud",
+        "stars": 30291,
+        "repo": "Binaryify/NeteaseCloudMusicApi"
+      },
+      {
+        "name": "PRs",
+        "stars": 3116,
+        "repo": "prs-eth/Marigold"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement and praise for the 'prompt to PR model'",
+        "Recognition of Twill as a useful tool for software development",
+        "Appreciation for the flexibility and scalability of Twill"
+      ],
+      "negative_signals": [
+        "Concerns about vendor lock-in and the potential for workflow disruptions",
+        "Criticism of Tweill's business model and API rates",
+        "Skepticism about Twill's value proposition in relation to existing solutions"
+      ],
+      "justification": "Twill has received largely positive feedback from the HN community, with many users expressing excitement and praise for its 'prompt to PR model' and recognizing its potential as a useful tool for software development. However, some users have raised concerns about vendor lock-in and high API rates, leading to skepticism about Twill's value proposition in relation to existing solutions.",
+      "comment_count": 30,
+      "hn_points": 67
+    }
+  }
+}
