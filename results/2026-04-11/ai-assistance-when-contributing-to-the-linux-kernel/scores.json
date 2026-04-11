@@ -1,0 +1,121 @@
+{
+  "app_name": "AI assistance for Linux kernel contributions",
+  "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+  "scored_at": "2026-04-11T10:43:11.788Z",
+  "total_score": 74,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app's approach to AI-assisted development in the Linux kernel is novel, with 5332 days since the repository was created and 0 days since the last commit, indicating a well-established and recently updated project."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app's system requirements are moderate, with an install time of 46.1s and install success set to true, but no dependencies or configuration needed are mentioned."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to the current LLM ecosystem trends, with its focus on AI-assisted development in the Linux kernel, which is a crucial area of interest in the AI and open-source communities."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The app differentiates itself from similar tools like CodeWhisperer, Kite, and TabNine, with 227,980 stars on GitHub, significantly more than its counterparts, such as CodeWhisperer with 43 stars, Kite with 12,156 stars, and TabNine with 10,800 stars."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The app has a strong community, with 227,980 GitHub stars, 61,520 forks, and 0 contributors, indicating a large user base and significant interest in the project, although the number of contributors is zero."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app's ease of use is uncertain, with 1 out of 3 tests passed and basic run success set to false, but no specific user experience or usability metrics are provided to support a higher or lower score."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The app has a PyPI package with version 0.0, and it exists, which facilitates integration, but no API modes or license information is provided to further assess its ease of integration."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app has a comprehensive guide for AI-assisted development in the Linux kernel, which serves as documentation, and the project's GitHub repository provides additional information, contributing to a high documentation score."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "The app is mature, with 5332 days since its creation, 0 days since the last commit, and 0 open issues, indicating a well-established project with recent activity and minimal pending issues."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app's performance is moderate, with an import time of 0.001430511474609375 ms and a latency test ratio of 0.10011649131774902 compared to CodeWhisperer, but no direct performance comparisons are available to fully assess its performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 334 points, 30 comments analyzed, and a mix of positive and negative signals, indicating a moderate sentiment towards the project, with both appreciation for its approach and concerns about potential risks and liabilities."
+    }
+  },
+  "summary": "The AI assistance for Linux kernel contributions app provides guidelines for AI-assisted development in the Linux kernel, with a strong community, high relevance, and good documentation, but its ease of use and performance are uncertain and require further evaluation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+  "tool_url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+  "source_type": "guide",
+  "hn_url": "https://news.ycombinator.com/item?id=47721953",
+  "domain": "devtool",
+  "app_type": "contributor-tool",
+  "enriched": {
+    "github": {
+      "stars": 227980,
+      "forks": 61520,
+      "open_issues": 3,
+      "watchers": 227980,
+      "contributors": 0,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5332,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Linux kernel source tree",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "CodeWhisperer",
+        "stars": 43,
+        "repo": "cami-la/programacao_assistida_por_IA_com_Amazon_CodeWhisperer"
+      },
+      {
+        "name": "Kite",
+        "stars": 12156,
+        "repo": "docker-archive-public/docker.kitematic"
+      },
+      {
+        "name": "TabNine",
+        "stars": 10800,
+        "repo": "codota/TabNine"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0",
+      "summary": "",
+      "requires_python": null,
+      "license": "",
+      "home_page": ""
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Mostly positive comments regarding the use of AI assistance in kernel contributions",
+        "Comments praise the common-sense rule that only humans can be held accountable for code generated by AI agents",
+        "Developers appreciate the refreshingly normal and common-sense approach to AI usage"
+      ],
+      "negative_signals": [
+        "Concerns about the risk of copyright infringement due to AI-generated code",
+        "Fears of a foreseeable consequence of allowing AI contributions, with the Linux Foundation potentially liable",
+        "Skeptical comments regarding the responsibility of humans for AI-generated code"
+      ],
+      "justification": "Comments express a general positive sentiment towards the project, acknowledging the importance of accountability and liability, but also raising concerns about the potential risks of AI-generated code and the responsibilities associated with it.",
+      "comment_count": 30,
+      "hn_points": 334
+    }
+  }
+}
