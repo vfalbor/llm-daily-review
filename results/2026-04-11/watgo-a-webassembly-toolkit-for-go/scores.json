@@ -1,0 +1,96 @@
+{
+  "app_name": "Watgo",
+  "url": "https://github.com/golang/watgo",
+  "scored_at": "2026-04-11T10:45:39.134Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Watgo is a new toolkit for WebAssembly in Go, with no direct equivalent in the similar tools listed (11,564 stars for WebAssembly/design and 169,660 stars for avelino/awesome-go), indicating a high level of novelty (8/10)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 7.7s, indicating issues with the installation process, resulting in a lower score for system requirements (3/10)."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a WebAssembly toolkit for Go, Watgo addresses a specific pain point in the current LLM ecosystem, particularly relevant given the trends in WebAssembly and Go, scoring high for current relevance (8/10)."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Watgo differentiates itself from similar tools like WebAssembly (11,564 stars) and Go (169,660 stars) by focusing specifically on WebAssembly in Go, giving it a notable advantage, though not entirely unique, resulting in a differentiation score of 7/10."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The lack of GitHub repository data (No GitHub repo detected or API unavailable) limits the assessment of community engagement. However, the HN points (96) and positive reception in comments (7 comments analyzed) suggest some community interest, scoring 4/10 for community due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With no tests passing out of 2 and basic run success being true, the ease of use is hindered, especially considering the false install success, resulting in a lower score for ease of use (2/10)."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Watgo's integration ease is limited by the lack of a PyPI package (No PyPI package found) and unclear API modes (use_modes listed but not explicitly API-oriented), resulting in a moderate score for ease of integration (3/10)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess the quality of Watgo's documentation directly from the provided information, resulting in a neutral score (5/10) due to lack of evidence."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the lack of specific data on days since created, forks, and open issues, and considering the article describes it as a toolkit, maturity cannot be accurately assessed, leading to a neutral score (5/10)."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The inability to compare due to 'No module named 'pywasm'' and lack of direct performance metrics in the benchmark measurements limits the assessment of Watgo's performance, resulting in a neutral score (5/10)."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "While HN sentiment data is provided, with a sentiment score of 8/10, HN points of 96, and 7 comments analyzed, the hn_sentiment score itself is not applicable as a separate criterion in this scoring context, thus set to null."
+    },
+    "overall_impact": {
+      "score": 6,
+      "justification": "Considering the novelty, current relevance, and potential of Watgo, despite its installation and performance evaluation issues, it contributes to the ecosystem, though with room for improvement, scoring moderately (6/10) for overall impact."
+    }
+  },
+  "summary": "Watgo, a WebAssembly toolkit for Go, brings novelty and relevance to the LLM ecosystem but faces challenges with installation, performance evaluation, and community engagement. Its potential and reception suggest it's worth further development and attention.",
+  "recommendation": "niche",
+  "app_url": "https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/",
+  "tool_url": "https://github.com/golang/watgo",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47722262",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "WebAssembly",
+        "stars": 11564,
+        "repo": "WebAssembly/design"
+      },
+      {
+        "name": "Go",
+        "stars": 169660,
+        "repo": "avelino/awesome-go"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Very positive reception",
+        "Praise for the toolkit's utility and potential",
+        "Developers see value in pre-runtime inspection"
+      ],
+      "negative_signals": [
+        "No major criticisms mentioned"
+      ],
+      "justification": "The community welcomes the project, acknowledging its utility and potential applications. The only potential concern is the lack of benchmarking data on large binaries, but this is minor.",
+      "comment_count": 7,
+      "hn_points": 96
+    }
+  }
+}
