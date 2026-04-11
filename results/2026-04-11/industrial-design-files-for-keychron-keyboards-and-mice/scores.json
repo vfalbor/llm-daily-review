@@ -1,0 +1,114 @@
+{
+  "app_name": "Keychron Hardware Design",
+  "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+  "scored_at": "2026-04-11T10:43:27.497Z",
+  "total_score": 53,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points are 376, and the sentiment score is 8/10, with 30 comments analyzed, indicating a generally positive community response, with positive signals including praise for Keychron keyboards and mice, and negative signals about license terms and backlighting issues."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 7 days old, and it's not a fork, which suggests some level of novelty, but the concept of sharing design files is not new, and similar tools exist, like other open hardware projects."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, and install time is 6.6s, which indicates difficulties in installing or running the project, possibly due to missing dependencies or incorrect setup instructions."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app type is hardware-iot, which is not directly related to current LLM ecosystem trends, but the project's focus on open hardware design could be relevant to certain niches within the broader tech community."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project has 2,389 stars, but there is no direct comparison to similar tools provided, making it difficult to assess its differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repository has 2,389 stars, 169 forks, and 4 contributors, indicating a relatively active and interested community, with a low number of open issues."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 / 0, and basic run success is false, which suggests significant difficulties in using the project, possibly due to a lack of clear instructions or dependencies."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is a hardware design project and not a software library or service."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no information available about the quality of the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to accurately assess the project's maturity, as the days since the last commit is 0, but other factors like the number of contributors and forks do not provide a clear picture."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is a hardware design project and not a software application or service."
+    }
+  },
+  "summary": "The Keychron Hardware Design project provides open design files for Keychron keyboards and mice, with a relatively active community and a positive sentiment on Hacker News, but faces challenges in terms of ease of use and system requirements.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+  "tool_url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47720419",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 2389,
+      "forks": 169,
+      "open_issues": 7,
+      "watchers": 2389,
+      "contributors": 4,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Industrial design files for Keychron keyboards and mice. 100+ models with CAD assets in STEP, DXF, DWG, and PDF. Source-available, with commercial use allowed for original compatible accessories within the license terms.",
+      "topics": [
+        "3d-printing",
+        "cad",
+        "gaming",
+        "gaming-keyboard",
+        "gaming-mouse",
+        "hardware-designs",
+        "keyboard",
+        "keyboard-firmware",
+        "keychron",
+        "mechanical-keyboard",
+        "mouse",
+        "qmk",
+        "qmk-firmware",
+        "zephyr",
+        "zmk",
+        "zmk-firmware"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Users praise Keychron keyboards and mice",
+        "Design files offer flexibility for users to modify and upgrade their devices",
+        "Company's decision to share design files is seen as a positive move"
+      ],
+      "negative_signals": [
+        "Concerns about license terms, particularly regarding commercial use",
+        "Some users find backlighting issues with certain Keychron models"
+      ],
+      "justification": "The comments are generally positive, with users praising the Keychron keyboards and mice. However, there are some concerns about the license terms, particularly regarding commercial use. Additionally, some users have reported backlighting issues with certain models.",
+      "comment_count": 30,
+      "hn_points": 376
+    }
+  }
+}
