@@ -1,0 +1,83 @@
+{
+  "app_name": "Bevy Engine",
+  "url": "https://bevyengine.org/",
+  "scored_at": "2026-04-11T13:02:20.784Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The Bevy Engine is a relatively new game engine that offers a unique set of features and tools for game development, with its version being 0.8 as noted on the webpage."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The engine does not have a straightforward install command, but its basic run is successful, with an install time of 23.3s, indicating moderate system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a game engine, the Bevy Engine is highly relevant to the current game development landscape, competing with established tools like Godot and Unity3D."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Godot and Unity3D, the Bevy Engine offers a unique set of features but lacks direct comparisons in benchmark measurements, with only its version being noted as 0.8."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without GitHub repository data, it's challenging to assess the community size and engagement accurately, but the web page signals a dedicated authors and maintainers presence."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the lack of direct data on usability, such as test passes and failures, scoring is neutral, but basic run success indicates some level of usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a detected version, API/SDK/webhook mention, and examples/demos on the webpage suggests a moderate level of ease of integration."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The webpage lacks a dedicated docs/wiki/guide link and changelog or release notes, but does have examples and demo, resulting in a lower documentation score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version of 0.8, the presence of a dedicated webpage, and signals of active maintenance suggest a moderate level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without specific benchmark measurements, it's challenging to assess performance, but some negative signals about compile times being slow suggest potential performance issues."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score of 8/10, with 95 HN points and 23 comments analyzed, indicates a highly positive community response, with comprehensive tutorials and free resources being praised, despite some concerns about performance."
+    }
+  },
+  "summary": "The Bevy Engine is a game development tool that offers a unique set of features, with moderate system requirements, high relevance to the current landscape, and a dedicated community, but it lacks in documentation and has mixed signals on performance and ease of integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://taintedcoders.com/",
+  "tool_url": "https://bevyengine.org/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47698111",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Comprehensive and in-depth tutorials",
+        "Free resources, unlike most others",
+        "Dedicated authors and maintainers"
+      ],
+      "negative_signals": [
+        "Compile times are slow",
+        "Output binaries are huge compared to others",
+        "Some users struggle with Bevy engine"
+      ],
+      "justification": "The comment section is highly positive, praising the comprehensive tutorials and free resources provided. However, some users express concerns about slow compile times and large output binaries, which suggests a need for further optimization and development.",
+      "comment_count": 23,
+      "hn_points": 95
+    }
+  }
+}
