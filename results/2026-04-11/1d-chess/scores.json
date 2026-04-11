@@ -1,0 +1,82 @@
+{
+  "app_name": "1D Chess",
+  "url": "https://rowan441.github.io/1dchess/chess.html",
+  "scored_at": "2026-04-11T10:42:11.849Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project presents a unique concept of 1D chess, which is a new and interesting take on the classic game, with a detected version of 3.6.0."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The game does not require installation, as it is a web application, and it runs directly in the browser, making it easily accessible."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "No data available to determine how well 1D Chess fits into current gaming trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar games like 2048, Hex, and Checkers, 1D Chess offers a distinct and simplified version of chess, but it doesn't provide any benchmarks or comparisons to other games."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The game has a sentiment score of 8/10 on HN, with 826 points and 30 comments, indicating a positive and engaged community, with many readers finding the project fun and interesting."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No data available from tests, but as a web application, it's expected to be easy to use, with a simple and intuitive interface."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as games are not typically integrated into workflows or pipelines."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The game does not have a wiki, guide, or changelog, and the page content is minimal, with no examples or demos provided, making it difficult for new players to learn."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data available to determine the maturity of the project, as there is no GitHub repository or release history available."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as games do not typically have performance benchmarks."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 826 points and 30 comments, indicating a positive community response to the project, with many users praising the simplicity and elegance of the 1D chess concept."
+    }
+  },
+  "summary": "1D Chess is a unique and simplified version of chess, with a positive and engaged community, but it lacks documentation and maturity signals.",
+  "recommendation": "worth-watching",
+  "app_url": "https://rowan441.github.io/1dchess/chess.html",
+  "tool_url": "https://rowan441.github.io/1dchess/chess.html",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47719740",
+  "domain": "mobile",
+  "app_type": "game",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many readers found the project fun and interesting.",
+        "Some users praised the simplicity and elegance of the 1D chess idea.",
+        "The comments show a sense of community and shared enthusiasm for chess and backgammon."
+      ],
+      "negative_signals": [
+        "A few users misunderstood the stalemate concept in regular chess, highlighting a potential learning curve.",
+        "Some readers found the notation confusing, with one user expressing difficulty in decoding it."
+      ],
+      "justification": "The overwhelming majority of comments are positive, praising the project's simplicity and cleverness, with minor criticism related to notation and a misunderstanding of the stalemate rule.",
+      "comment_count": 30,
+      "hn_points": 826
+    }
+  }
+}
