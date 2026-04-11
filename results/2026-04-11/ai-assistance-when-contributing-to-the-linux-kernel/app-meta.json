@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "AI assistance when contributing to the Linux kernel",
+    "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+    "hn_url": "https://news.ycombinator.com/item?id=47721953",
+    "points": 334,
+    "comments": 233,
+    "author": "hmokiguess",
+    "age": "2026-04-10T18:35:21 1775846121",
+    "scraped_at": "2026-04-11T10:39:32.579Z",
+    "domain": "devtool",
+    "app_type": "contributor-tool",
+    "source_type": "guide",
+    "tool_url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+    "repo_url": "https://github.com/torvalds/linux",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "description": "Guidelines for AI-assisted development in the Linux kernel",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "CodeWhisperer",
+      "Kite",
+      "TabNine"
+    ],
+    "proposed_tests": [
+      "Check the tool's accuracy on a random code snippet"
+    ],
+    "requires_api_key": false,
+    "is_open_source": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1775904132707-adktj",
+    "log_dir": "/tmp/llm-review-1775904132707-adktj",
+    "install_success": true,
+    "install_time_s": 46.1,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.001430511474609375\nBENCHMARK:vs_codewhisperer_latency_test_ratio:0.10011649131774902",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\n2026-04-11 10:43:02.460 | INFO     | codex.settings.config:_ensure_config:92 - Copied default config to /config/codex.toml\nTraceback (most recent call last):\n  File \"/app/test.py\", line 103, in <module>\n    measure_memory()\n  File \"/app/test.py\", line 98, in measure_memory\n    codex.complete_code(code)\n    ^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'codex' has no attribute 'complete_code'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting codex\n  Downloading codex-1.10.9-py3-none-any.whl.metadata (24 kB)\nCollecting bidict~=0.23 (from codex)\n  Downloading bidict-0.23.1-py3-none-any.whl.metadata (8.7 kB)\nCollecting channels~=4.2 (from codex)\n  Downloading channels-4.3.2-py3-none-any.whl.metadata (4.7 kB)\nCollecting comicbox~=2.2.1 (from comicbox[pdf]~=2.2.1->codex)\n  Downloading comicbox-2.2.2-py3-none-any.whl.metadata (12 kB)\nCollecting dateparser~=1.2 (from codex)\n  Downloading dateparser-1.4.0-py3-none-any.whl.metadata (31 kB)\nCollecting django-cachalot~=2.8 (from codex)\n  Downloading django_cachalot-2.9.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting django-cors-headers~=4.0 (from codex)\n  Downloading django_cors_headers-4.9.0-py3-none-any.whl.metadata (16 kB)\nCollecting django-rest-registration~=0.9 (from codex)\n  Downloading django_rest_registration-0.9.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting django-vite~=3.1 (from codex)\n  Downloading django_vite-3.1.0-py3-none-any.whl.metadata (15 kB)\nCollecting djangorestframework-camel-case~=1.4 (from codex)\n  Downloading djangorestframework-camel-case-1.4.2.tar.gz (8.8 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting djangorestframework~=3.16 (from codex)\n  Downloading djangorestframework-3.17.1-py3-none-any.whl.metadata (7.9 kB)\nCollecting django~=6.0 (from codex)\n  Downloading django-6.0.4-py3-none-any.whl.metadata (3.9 kB)\nCollecting drf-spectacular~=0.28 (from codex)\n  Downloading drf_spectacular-0.29.0-py3-none-any.whl.metadata (14 kB)\nCollecting granian~=2.7 (from codex)\n  Downloading granian-2.7.3-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (41 kB)\nCollecting humanize~=4.12 (from codex)\n  Downloading humanize-4.15.0-py3-none-any.whl.metadata (7.8 kB)\nCollecting lark~=1.2 (from codex)\n  Downloading lark-1.3.1-py3-none-any.whl.metadata (1.8 kB)\nCollecting loguru~=0.7.3 (from codex)\n  Downloading loguru-0.7.3-py3-none-any.whl.metadata (22 kB)\nCollecting nh3~=0.2 (from codex)\n  Downloading nh3-0.3.4-cp38-abi3-musllinux_1_2_x86_64.whl.metadata (2.0 kB)\nCollecting pillow~=12.0 (from codex)\n  Downloading pillow-12.2.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (8.8 kB)\nCollecting psutil~=7.1 (from codex)\n  Downloading psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl.metadata (22 kB)\nCollecting servestatic~=4.1 (from servestatic[brotli]~=4.1->codex)\n  Downloading servestatic-4.3.0-py3-none-any.whl.metadata (7.0 kB)\nCollecting setproctitle~=1.3.7 (from codex)\n  Downloading setproctitle-1.3.7-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (10 kB)\nCollecting typing-extensions~=4.14 (from codex)\n  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting tzlocal~=5.0 (from codex)\n  Downloading tzlocal-5.3.1-py3-none-any.whl.metadata (7.6 kB)\nCollecting watchfiles>=1.1.1 (from codex)\n  Downloading watchfiles-1.1.1-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (4.9 kB)\nCollecting zipstream-ng~=1.8 (from codex)\n  Downloading zipstream_ng-1.9.0-py3-none-any.whl.metadata (10 kB)\nCollecting asgiref<4,>=3.9.0 (from channels~=4.2->codex)\n  Downloading asgiref"
+  }
+}
