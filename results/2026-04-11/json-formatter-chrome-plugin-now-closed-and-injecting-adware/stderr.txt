@@ -1,0 +1,9 @@
+ERROR: Could not find a version that satisfies the requirement json-formatter (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for json-formatter
+Traceback (most recent call last):
+  File "/app/test.py", line 32, in <module>
+    import json_formatter
+ModuleNotFoundError: No module named 'json_formatter'
