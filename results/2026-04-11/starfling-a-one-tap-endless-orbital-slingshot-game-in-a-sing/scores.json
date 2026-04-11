@@ -1,0 +1,83 @@
+{
+  "app_name": "Starfling",
+  "url": "https://playstarfling.com/",
+  "scored_at": "2026-04-11T10:41:44.835Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The game offers a unique one-tap endless orbital slingshot experience, setting it apart from similar tools like Fancy Comets and Sky Wars, with 27487 characters of content on its webpage, indicating a well-developed game."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as the game is not installed via pip and no specific requirements are mentioned on the webpage."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a game, it might not directly fit into current LLM ecosystem trends, but its unique gameplay could appeal to a wide audience, with 188 HN points indicating some interest in the gaming community."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like WebSlingshot, Starfling's single HTML file and one-tap mechanics differentiate it, with a detected version of 1.0, suggesting a finished product."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess the community directly, but 30 comments on HN with a sentiment score of 9/10 indicate a positive reception."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The game is described as 'intuitive' and 'addictive,' but some users found it 'unintuitive,' with no clear install command or specific TEST_PASS/TEST_FAIL names available to fully evaluate ease of use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to games, as they are not typically integrated into workflows or pipelines."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The webpage does not have a clear docs/wiki link, changelog, or release notes, but it does have examples and demos, with 27487 characters of content indicating some level of depth."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With a detected version of 1.0, the game appears to be a finished product, but without a GitHub repository or clear release history, it's difficult to fully assess maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance metrics such as frame rate or load time are not applicable or provided for this type of application."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With an HN sentiment score of 9/10, 188 points, and 30 comments analyzed, the community response is overwhelmingly positive, highlighting the game's enjoyment and uniqueness, despite some minor issues with text overlap and scorekeeping."
+    }
+  },
+  "summary": "Starfling is a unique one-tap endless orbital slingshot game with a strong positive community response, but lacks in areas such as documentation and maturity due to the absence of a GitHub repository and clear release history.",
+  "recommendation": "worth-watching",
+  "app_url": "https://playstarfling.com/",
+  "tool_url": "https://playstarfling.com/",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47698455",
+  "domain": "hardware",
+  "app_type": "game",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Highly enjoyable and addictive",
+        "Well-crafted game mechanics",
+        "Unique distribution format"
+      ],
+      "negative_signals": [
+        "Some users experienced difficulty seeing the ball due to text overlap",
+        "Game can be unintuitive for some players",
+        "Scorekeeping issues"
+      ],
+      "justification": "The comments are overwhelmingly positive, with users praising the game's addictive nature and well-crafted mechanics. However, some users experienced difficulties with text overlap and unintuitive gameplay, as well as some scorekeeping issues.",
+      "comment_count": 30,
+      "hn_points": 188
+    }
+  }
+}
