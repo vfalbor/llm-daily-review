@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Show HN: Pardonned.com – A searchable database of US Pardons",
+    "url": "https://news.ycombinator.com/item?id=47727960",
+    "hn_url": "https://news.ycombinator.com/item?id=47727960",
+    "points": 12,
+    "comments": 1,
+    "author": "vidluther",
+    "age": "2026-04-11T06:19:25 1775888365",
+    "scraped_at": "2026-04-11T10:39:32.583Z",
+    "tool_url": "https://pardonned.com/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "A searchable database of US Pardons",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "pardon"
+    ],
+    "proposed_tests": [
+      "Visit Pardonned.com and search for a pardon"
+    ],
+    "requires_api_key": false,
+    "is_open_source": null,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1775904271700-p6y55",
+    "log_dir": "/tmp/llm-review-1775904271700-p6y55",
+    "install_success": true,
+    "install_time_s": 12.2,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:search_pardon_ms:224.35331344604492\nBENCHMARK:health_check_ms:95.68643569946289\nBENCHMARK:memory_usage_bytes:152\nBENCHMARK:peak_memory_usage_bytes:51269\nBENCHMARK:startup_time_s:0.2122960090637207\nBENCHMARK:vs_pardon_search_pardon_ms:556.7703247070312\nBENCHMARK:vs_pardon_search_pardon_ratio:5.5677032470703125",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-11T10_44_44_364Z-debug-0.log\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-11T10_44_45_052Z-debug-0.log\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-11T10_44_47_593Z-debug-0.log\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/9) Installing libgcc (15.2.0-r2)\n(2/9) Installing libstdc++ (15.2.0-r2)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/9) Installing icu-libs (76.1-r1)\n(6/9) Installing simdjson (3.12.0-r0)\n(7/9) Installing simdutf (7.5.0-r1)\n(8/9) Installing nodejs (24.14.1-r0)\n(9/9) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nINSTALL_OK\nBENCHMARK:search_pardon_ms:224.35331344604492\nTEST_PASS:search_pardon\nBENCHMARK:health_check_ms:95.68643569946289\nTEST_PASS:health_endpoint\nBENCHMARK:memory_usage_bytes:152\nBENCHMARK:peak_memory_usage_bytes:51269\nBENCHMARK:startup_time_s:0.2122960090637207\nBENCHMARK:vs_pardon_search_pardon_ms:556.7703247070312\nBENCHMARK:vs_pardon_search_pardon_ratio:5.5677032470703125\nRUN_OK\n"
+  }
+}
