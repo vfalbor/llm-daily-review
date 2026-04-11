@@ -1,0 +1,120 @@
+{
+  "app_name": "Quien",
+  "url": "https://github.com/retlehs/quien/",
+  "scored_at": "2026-04-11T10:44:30.877Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Quien is not a first-of-its-kind approach, but it improves upon existing WHOIS lookup tools with its better features, as seen in its 1 day since repo creation and 128 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success was false, indicating difficulties in installation, and the install time was 18.2s, which is relatively long. Additionally, PyPI package was not found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a WHOIS lookup tool, Quien fits well into the current ecosystem trends of devtools, especially with its focus on providing a better user experience, as mentioned in its description as 'A better WHOIS lookup tool'."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Quien differentiates itself from similar tools like whois and dns, but it still has a significant gap in GitHub stars, with -1218 stars compared to whois and -29100 stars compared to dns."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 128 GitHub stars, 1 fork, and 1 contributor, the community around Quien is relatively small, especially considering its recent creation, with only 1 day since the repo was created."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed were 1 out of 3, indicating some difficulties in usage, and the basic run success was false, which further highlights usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found for Quien, making it less easy to integrate into existing workflows or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality of Quien's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the maturity of Quien, given its recent creation and lack of release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The benchmark measurements from the container show a whois_lookup_baseline_ms of 895.67, but without comparison to similar tools, it's challenging to assess its performance accurately."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, with 45 HN points, and 13 comments analyzed. The positive signals include praise for the TUI and RDAP support, but there are also negative signals regarding anxiety about AI usage and lack of transparency."
+    }
+  },
+  "summary": "Quien is a better WHOIS lookup tool that, despite its small community and difficulties in installation and usage, shows promise in its features and potential for improvement. Its current relevance in the devtool ecosystem is notable, but more development and community engagement are necessary for its growth.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/retlehs/quien/",
+  "tool_url": "https://github.com/retlehs/quien/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47727076",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 128,
+      "forks": 1,
+      "open_issues": 2,
+      "watchers": 128,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A better WHOIS lookup tool",
+      "topics": [
+        "cli",
+        "dns",
+        "domain",
+        "ip-lookup",
+        "rdap",
+        "tech-stack",
+        "tui",
+        "whois"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "whois",
+        "stars": 1346,
+        "repo": "amachanic/sp_whoisactive"
+      },
+      {
+        "name": "dns",
+        "stars": 29228,
+        "repo": "dnSpy/dnSpy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Well done TUI",
+        "Meets needs",
+        "First-class RDAP support",
+        "Provides value",
+        "Nice to see"
+      ],
+      "negative_signals": [
+        "Lack of transparency about AI usage",
+        "Anxiety about asbestos code",
+        "Anxiety about AI writing code"
+      ],
+      "justification": "The comments are generally positive, with praise for the well-done TUI and RDAP support. However, there are also some negative comments expressing anxiety about AI usage and the lack of transparency, as well as concerns about the potential for 'asbestos' code.",
+      "comment_count": 13,
+      "hn_points": 45
+    }
+  }
+}
