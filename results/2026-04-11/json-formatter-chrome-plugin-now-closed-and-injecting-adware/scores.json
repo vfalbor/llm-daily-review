@@ -1,0 +1,102 @@
+{
+  "app_name": "JSON formatter Chrome plugin",
+  "url": "https://github.com/callumlocke/json-formatter",
+  "scored_at": "2026-04-11T10:43:55.892Z",
+  "total_score": 17,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The JSON formatter Chrome plugin is not the first of its kind, with many similar tools available (e.g., JSON Formatter, JSON Viewer). The plugin's functionality is largely duplicated by existing tools, scoring 2 for novelty."
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "The install time of 7.6s is relatively fast, but install success is true and tests passed is 0, indicating some issues with the installation or testing process, scoring 4 for system requirements."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The JSON formatter Chrome plugin, as a browser extension, may still have some relevance in the current ecosystem, but its current issues and criticism from users (e.g., adware injection) detract from its usefulness, scoring 3 for current relevance."
+    },
+    "differentiation": {
+      "score": 1,
+      "justification": "With 4,100 stars on GitHub, the JSON formatter Chrome plugin has some popularity, but similar tools like JSON Formatter have more stars, and the plugin's recent adware injection issues have led to negative sentiment, scoring 1 for differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The JSON formatter Chrome plugin has 14 contributors, but the negative sentiment from the community (HN points: 222, negative signals: adware injection) and days since last commit (43) indicate a lack of activity or engagement, scoring 2 for community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The JSON formatter Chrome plugin had 0 tests passed out of 1, and basic run success is false, indicating significant usability issues, scoring 1 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The plugin is a Chrome extension, which typically has a straightforward installation process, but the recent issues with adware injection and vendor-lock-in concerns raise significant integration concerns, scoring 1 for ease of integration."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "There is little information available on the plugin's documentation, but the presence of a GitHub repository suggests some level of documentation, scoring 2 for documentation."
+    },
+    "maturity": {
+      "score": 1,
+      "justification": "The JSON formatter Chrome plugin has been around for some time (days since repo created: 4996), but the recent issues with adware injection, lack of activity (days since last commit: 43), and negative community sentiment indicate a lack of maturity, scoring 1 for maturity."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "There is no performance data available for the JSON formatter Chrome plugin, but the recent issues with adware injection suggest potential performance problems, scoring 1 for performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but we are setting it to null to follow the exact output schema, which requires 11 criteria but does not specify HN sentiment as a separate score."
+    }
+  },
+  "summary": "The JSON formatter Chrome plugin has significant issues with usability, community sentiment, and performance, making it a less desirable choice for users. The plugin's recent adware injection problems and vendor-lock-in concerns further detract from its usefulness.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/callumlocke/json-formatter",
+  "tool_url": "https://github.com/callumlocke/json-formatter",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47721946",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": {
+      "stars": 4100,
+      "forks": 960,
+      "open_issues": 0,
+      "watchers": 4100,
+      "contributors": 14,
+      "license": "BSD-3-Clause",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 43,
+      "days_since_created": 4996,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Makes JSON easy to read.",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "A python library adding a json log formatter",
+      "requires_python": null,
+      "license": "BSD",
+      "home_page": "http://github.com/nikicat/python-json-logger"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 2,
+      "positive_signals": [],
+      "negative_signals": [
+        "injection of adware",
+        "vendor-lock-in",
+        "potential abuse of unilateral discretion to end software developer careers",
+        "botnets on mobile phones"
+      ],
+      "justification": "The comments largely express concern and criticism towards the JSON formatter Chrome plugin for injecting adware and discussing the limitations and dangers of browser extension marketplaces, vendor-lock-in, and botnets.",
+      "comment_count": 30,
+      "hn_points": 222
+    }
+  }
+}
