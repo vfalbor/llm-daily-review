@@ -142,7 +142,13 @@ Quality and completeness of documentation, tutorials, and examples.
 - 3–4: Sparse README, must read source code to understand usage
 - 1–2: No documentation beyond the code itself
 - *Cite: has_wiki, has_pages, README quality, GitHub topics, docs site URL if found*
-- **IMPORTANT**: Do NOT score 5 just because GitHub flags are absent. Fetch the app URL and evaluate what you find. A project with a rich website, wiki, or tutorials scores 7–9 even without GitHub data.
+- **When no GitHub data — mandatory proxy scoring (do NOT use 5 by default):**
+  - Web signals: `has_docs_link=true` → minimum score 6
+  - Web signals: `has_examples=true` → add +1
+  - Web signals: `content_length_chars > 5000` → indicates substantive content, score at least 5
+  - Web signals: `content_length_chars < 1000` → sparse, score 2–3
+  - No web signals AND no GitHub → score 2 (absence of docs is itself evidence)
+  - You MUST score based on what you found, not default to 5 because data is "insufficient"
 
 ### 9. Maturity (1–10)
 Production readiness, stability, and project lifecycle stage.
@@ -152,7 +158,13 @@ Production readiness, stability, and project lifecycle stage.
 - 3–4: Pre-alpha or prototype, frequent breaking changes, no releases
 - 1–2: Proof-of-concept only, single commit, no versioning
 - *Must cite: days_since_created, forks count, open_issues count when available*
-- **When no GitHub data**: use HN points, description, version number in title, or website as signals. A project with 500+ HN points and a stable domain is likely mature (6–8). A fresh Show HN with no prior history scores 3–4.
+- **When no GitHub data — mandatory proxy scoring (do NOT use 5):**
+  - Web signals show version ≥ 1.0 → score 7
+  - Web signals show version 0.x → score 4
+  - HN points > 300 AND stable domain → score 6
+  - HN points 100–300 → score 5 only if NO other signals exist
+  - Fresh Show HN, no version, no prior mentions → score 3
+  - You MUST pick one of these — score 5 is only valid when HN points are 100–300 with zero other signals
 
 ### 10. Performance (1–10)
 Speed, efficiency, and benchmark results relative to alternatives.
