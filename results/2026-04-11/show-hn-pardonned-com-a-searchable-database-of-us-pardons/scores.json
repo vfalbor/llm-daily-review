@@ -1,0 +1,75 @@
+{
+  "app_name": "Pardonned",
+  "url": "https://pardonned.com/",
+  "scored_at": "2026-04-11T10:45:05.226Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The app provides a searchable database of US Pardons, which is a unique contribution, as mentioned in the app title 'Show HN: Pardonned.com – A searchable database of US Pardons'."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app can be accessed via a web page, which means it has minimal system requirements, with an install time of 12.2s, and install success is true."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is relevant to the current ecosystem as it provides a searchable database of US Pardons, but its type is web-saas which may not be the most in-demand tool type."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Similar tools like 'pardon' exist, but no quantitative comparison is available."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has only 2 comments on HN with 14 points, indicating a small community."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "The app has a basic web interface and 2 out of 2 tests passed, with a startup time of 0.2122960090637207s."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no API or SDK mentioned on the app's webpage, and no PyPI package found."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No documentation or wiki link was found on the webpage, and it has no changelog or release notes."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 6.1.5, but there is no information about its release history or open issues."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app's search performance is measured at 224.35331344604492 ms, but no comparison to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The HN sentiment score is 5/10, with 14 points and only 2 comments, indicating a neutral sentiment."
+    }
+  },
+  "summary": "Pardonned is a web-based searchable database of US Pardons with a unique contribution and good system requirements, but its community and documentation are lacking.",
+  "recommendation": "niche",
+  "app_url": "https://news.ycombinator.com/item?id=47727960",
+  "tool_url": "https://pardonned.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47727960",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 14
+    }
+  }
+}
