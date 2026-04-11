@@ -34,17 +34,15 @@ const WEIGHTS = {
 };
 
 export async function runWeeklyTop5() {
-  // Determine Monday–Friday window of current week
+  // Window: last 7 days ending now (covers Sat+Sun of previous week through Friday)
   const now = new Date();
-  const friday = new Date(now);
-  const monday = new Date(now);
-  monday.setDate(now.getDate() - now.getDay() + 1);
-  monday.setHours(0, 0, 0, 0);
-  friday.setHours(23, 59, 59, 999);
+  const weekEnd = new Date(now);
+  weekEnd.setHours(23, 59, 59, 999);
+  const weekStart = new Date(now);
+  weekStart.setDate(now.getDate() - 6);
+  weekStart.setHours(0, 0, 0, 0);
 
-  const weekStart = monday.toISOString();
-  const weekEnd = friday.toISOString();
-  const weekLabel = getISOWeek(monday);
+  const weekLabel = getISOWeek(weekStart);
 
   log.info(`Weekly Top 5: pulling apps from ${weekStart} to ${weekEnd}`);
 
