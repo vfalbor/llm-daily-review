@@ -1,0 +1,26 @@
+ERROR: Could not find a version that satisfies the requirement git-diff-driver (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for git-diff-driver
+Cloning into 'git-diff-driver'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/app/test.py", line 14, in install_dependencies
+    subprocess.run(['pip', 'install', 'git-diff-driver'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'git-diff-driver']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 115, in <module>
+    main()
+  File "/app/test.py", line 97, in main
+    install_dependencies()
+  File "/app/test.py", line 17, in install_dependencies
+    subprocess.run(['git', 'clone', 'https://github.com/jessitron/git-diff-driver.git'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/jessitron/git-diff-driver.git']' returned non-zero exit status 128.
