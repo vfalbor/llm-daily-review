@@ -60,8 +60,19 @@ async function extractToolUrlFromPage(url) {
     ];
 
     for (let i = 0; i < patterns.length; i++) {
-      const m = html.match(patterns[i]);
-      if (m) return bases[i] + m[1].replace(/\.git$/, '');
+      const matches = [...html.matchAll(new RegExp(patterns[i].source, 'g'))];
+      for (const m of matches) {
+        const candidate = bases[i] + m[1].replace(/\.git$/, '');
+        // Validate the URL actually exists before returning it
+        try {
+          const check = await fetch(candidate, {
+            method: 'HEAD',
+            signal: AbortSignal.timeout(4000),
+            headers: { 'User-Agent': 'Mozilla/5.0 (compatible; HNReviewer/1.0)' },
+          });
+          if (check.ok) return candidate;
+        } catch { /* try next match */ }
+      }
     }
     return null;
   } catch {
