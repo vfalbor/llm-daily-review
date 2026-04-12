@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "Phyphox – Physical Experiments Using a Smartphone",
+    "url": "https://phyphox.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=47737376",
+    "points": 57,
+    "comments": 14,
+    "author": "_Microft",
+    "age": "2026-04-12T08:38:11 1775983091",
+    "scraped_at": "2026-04-12T13:00:03.251Z",
+    "tool_url": "https://github.com/phononlab/phyphox",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "App for smartphone-based physical experiments",
+    "use_modes": [
+      "Mobile App"
+    ],
+    "similar_tools": [
+      "Sensor Kinetics",
+      "Arduino",
+      "Raspberry Pi"
+    ],
+    "proposed_tests": [
+      "Try running a simple experiment like acceleration measurement",
+      "Test different experiment modes",
+      "Check accuracy of measurements"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/phononlab/phyphox"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775998900074-4m0f8",
+    "log_dir": "/tmp/llm-review-1775998900074-4m0f8",
+    "install_success": false,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 7,
+    "benchmark_notes": "BENCHMARK:run_example_./usr/local/lib/python3.12/_aix_support.py_time_ms:29.45542335510254\nBENCHMARK:run_example_./usr/local/lib/python3.12/_aix_support.py_mem_mb:0.051285\nBENCHMARK:run_example_./usr/local/lib/python3.12/struct.py_time_ms:19.581079483032227\nBENCHMARK:run_example_./usr/local/lib/python3.12/struct.py_mem_mb:0.051277\nBENCHMARK:run_example_./usr/local/lib/python3.12/enum.py_time_ms:62.3931884765625\nBENCHMARK:run_example_./usr/local/lib/python3.12/enum.py_mem_mb:0.051269\nBENCHMARK:run_example_./usr/local/lib/python3.12/sched.py_time_ms:42.34170913696289\nBENCHMARK:run_example_./usr/local/lib/python3.12/sched.py_mem_mb:0.051253\nBENCHMARK:run_example_./usr/local/lib/python3.12/heapq.py_time_ms:242.8750991821289\nBENCHMARK:run_example_./usr/local/lib/python3.12/heapq.py_mem_mb:0.051245\nBENCHMARK:run_example_./usr/local/lib/python3.12/opcode.py_time_ms:39.65353965759277\nBENCHMARK:run_example_./usr/local/lib/python3.12/opcode.py_mem_mb:0.051237\nBENCHMARK:run_example_./usr/local/lib/python3.12/tomllib/_types.py_time_ms:33.91909599304199\nBENCHMARK:run_example_./usr/local/lib/python3.12/tomllib/_types.py_mem_mb:0.051229",
+    "error_log": "Cloning into 'phyphox'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"//./usr/local/lib/python3.12/tomllib/_re.py\", line 12, in <module>\n    from ._types import ParseFloat\nImportError: attempted relative import with no known parent package\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'phyphox'\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\nModuleNotFoundError: No module named 'phyphox'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nTestResults(failed=0, attempted=2)\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/phononlab/phyphox.git']' returned non-zero exit status 128.\nTEST_FAIL:count_source_files:[Errno 2] No such file or directory: 'phyphox'\nTEST_PASS:check_simulator\nBENCHMARK:run_example_./usr/local/lib/python3.12/_aix_support.py_time_ms:29.45542335510254\nBENCHMARK:run_example_./usr/local/lib/python3.12/_aix_support.py_mem_mb:0.051285\nBENCHMARK:run_example_./usr/local/lib/python3.12/struct.py_time_ms:19.581079483032227\nBENCHMARK:run_example_./usr/local/lib/python3.12/struct.py_mem_mb:0.051277\nBENCHMARK:run_example_./usr/local/lib/python3.12/enum.py_time_ms:62.3931884765625\nBENCHMARK:run_example_./usr/local/lib/python3.12/enum.py_mem_mb:0.051269\nBENCHMARK:run_example_./usr/local/lib/python3.12/sched.py_time_ms:42.34170913696289\nBENCHMARK:run_example_./usr/local/lib/python3.12/sched.py_mem_mb:0.051253\nBENCHMARK:run_example_./usr/local/lib/python3.12/heapq.py_time_ms:242.8750991821289\nBENCHMARK:run_example_./usr/local/lib/python3.12/heapq.py_mem_mb:0.051245\nBENCHMARK:run_example_./usr/local/lib/python3.12/opcode.py_time_ms:39.65353965759277\nBENCHMARK:run_example_./usr/local/lib/python3.12/opcode.py_mem_mb:0.051237\nBENCHMARK:run_example_./usr/local/lib/python3.12/tomllib/_types.py_time_ms:33.91909599304199\nBENCHMARK:run_example_./usr/local/lib/python3.12/tomllib/_types.py_mem_mb:0.051229\nTEST_FAIL:run_examples:Command '['python', './usr/local/lib/python3.12/tomllib/_re.py']' returned non-zero exit status 1.\nTEST_FAIL:run_experiment:Command '['python', '-c', 'import phyphox']' returned non-zero exit status 1.\nTEST_FAIL:test_experiment_modes:Command '['python', '-c', 'import phyphox; phyphox.acceleration()']' returned non-zero exit status 1.\nTEST_SKIP:check_accuracy:requires_hardware\nTEST_SKIP:compare_performance:requires_hardware\nRUN_OK\n"
+  }
+}
