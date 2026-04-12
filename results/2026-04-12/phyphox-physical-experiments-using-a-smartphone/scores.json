@@ -1,0 +1,98 @@
+{
+  "app_name": "Phyphox",
+  "url": "https://phyphox.org/",
+  "scored_at": "2026-04-12T13:01:58.872Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Phyphox offers a unique approach to physical experiments using a smartphone, with 14 positive signals from HN comments, including its ability to turn a smartphone into a 'poorman's tricorder'."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, and install time was 8.9s, indicating potential issues with installation."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Phyphox fits the current IoT and hardware trends, but its relevance is limited to the specific domain of physical experiments using smartphones."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Phyphox has 2 stars on GitHub, compared to 16,599 stars for Arduino and 16,208 stars for Raspberry Pi, but its uniqueness and usefulness for science experiments set it apart."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, but HN points are 57, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 7 tests passed, and basic run success was true, but this is not sufficient to guarantee ease of use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a mobile app, integration is not applicable."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the quality of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the maturity of the project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark measurements show a time of 29.45542335510254 ms for run_example_./usr/local/lib/python3.12/_aix_support.py, indicating decent performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 57 points, 14 comments, and positive signals about its usefulness for science experiments."
+    }
+  },
+  "summary": "Phyphox is a unique app for physical experiments using smartphones, with a strong novelty score, but faces challenges in terms of system requirements, community, and ease of use. While it has some positive community signals, its overall score is dragged down by these challenges.",
+  "recommendation": "worth-watching",
+  "app_url": "https://phyphox.org/",
+  "tool_url": "https://github.com/phononlab/phyphox",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47737376",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Sensor Kinetics",
+        "stars": 2,
+        "repo": "sebLopezCot/KineticSensors"
+      },
+      {
+        "name": "Arduino",
+        "stars": 16599,
+        "repo": "espressif/arduino-esp32"
+      },
+      {
+        "name": "Raspberry Pi",
+        "stars": 16208,
+        "repo": "thibmaek/awesome-raspberry-pi"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Users find it useful for various science experiments and projects",
+        "App makes it easy to capture and export data for graphs",
+        "Users praise its ability to turn a smartphone into a 'poorman's tricorder'"
+      ],
+      "negative_signals": [
+        "Sampling rate of the acceleration sensor is limited to 50/s on Android (and possibly iOS)",
+        "Risk of damaging the OIS VCs in the camera when measuring vibrating things"
+      ],
+      "justification": "The comments are generally very positive, with users praising the app's usefulness for science experiments and its ability to turn a smartphone into a tricorder. However, there are minor concerns about the limited sampling rate and potential damage to the camera.",
+      "comment_count": 14,
+      "hn_points": 57
+    }
+  }
+}
