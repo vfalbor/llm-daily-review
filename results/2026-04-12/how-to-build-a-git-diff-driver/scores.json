@@ -1,0 +1,93 @@
+{
+  "app_name": "Git Diff Driver",
+  "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+  "scored_at": "2026-04-12T13:02:58.730Z",
+  "total_score": 52,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 121 HN points, 13 comments analyzed, and mostly positive signals such as practical solutions offered and enthusiastic recommendations, with some skepticism about the need for a full diff driver."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The app teaches how to build a custom Git diff driver, which is a unique contribution, but not entirely new as the concept of diff drivers exists, with 8.6s install time, but no direct comparison to similar tools in novelty."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false, indicating significant issues with installation, and no PyPI package was found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to current Git and developer tool trends, as it addresses building a custom diff driver, which is a useful addition to the ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to git with 173,357 stars and subversion with 631 stars, this project does not have a GitHub repository detected, making differentiation based on star count difficult, but the custom diff driver offers a unique feature."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Without a GitHub repository, traditional community signals like stars and contributors are unavailable, but the HN post has 121 points and 13 comments, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, it indicates significant usability issues, and the lack of a straightforward installation process contributes to the low score."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As the project described is more of an article or guide and does not provide an installable tool or library, ease of integration does not apply."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The article provides a step-by-step guide on how to build a custom Git diff driver, which is a form of documentation, but without a formal docs site or wiki, the score is not higher."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "Maturity in terms of software or project age and release cycles does not apply directly since the subject is an article or guide rather than a software project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance metrics such as benchmarks are not applicable to an article or guide on building a custom Git diff driver, as it does not provide a tool to measure performance."
+    }
+  },
+  "summary": "The Git Diff Driver guide provides a unique perspective on customizing Git functionality but lacks in terms of traditional software project maturity, community engagement, and ease of use due to its nature as an article rather than a software tool.",
+  "recommendation": "niche",
+  "app_url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+  "tool_url": "https://github.com/jessitron/git-diff-driver",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47732697",
+  "domain": "devtool",
+  "app_type": "devtool-git",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "git",
+        "stars": 173357,
+        "repo": "github/gitignore"
+      },
+      {
+        "name": "subversion",
+        "stars": 631,
+        "repo": "apache/subversion"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "practical solutions offered",
+        "alternative solutions presented",
+        "enthusiastic recommendations"
+      ],
+      "negative_signals": [
+        "some skepticism about the need for a full diff driver",
+        "question about lack of OSS image diff tool"
+      ],
+      "justification": "The comments are generally positive, with many users sharing their own solutions or recommending other tools. However, some users express skepticism about the need for a full diff driver and question the availability of OSS image diff tools.",
+      "comment_count": 13,
+      "hn_points": 121
+    }
+  }
+}
