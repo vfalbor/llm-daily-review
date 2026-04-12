@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "How to build a `Git diff` driver",
+    "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
+    "hn_url": "https://news.ycombinator.com/item?id=47732697",
+    "points": 121,
+    "comments": 13,
+    "author": "zdw",
+    "age": "2026-04-11T18:07:49 1775930869",
+    "scraped_at": "2026-04-12T13:00:03.263Z",
+    "tool_url": "https://github.com/jessitron/git-diff-driver",
+    "source_type": "project",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-git",
+    "description": "How to build a custom Git diff driver",
+    "use_modes": [
+      "install git-diff-driver",
+      "run unit tests"
+    ],
+    "similar_tools": [
+      "git",
+      "subversion"
+    ],
+    "proposed_tests": [
+      "Verify basic functionality with a single file",
+      "Check edge cases including binary and large files",
+      "Test with multiple commit scenarios"
+    ],
+    "requires_api_key": null,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jessitron/git-diff-driver"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775998944738-rgxm1",
+    "log_dir": "/tmp/llm-review-1775998944738-rgxm1",
+    "install_success": false,
+    "install_time_s": 8.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement git-diff-driver (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for git-diff-driver\nCloning into 'git-diff-driver'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 14, in install_dependencies\n    subprocess.run(['pip', 'install', 'git-diff-driver'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'git-diff-driver']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 115, in <module>\n    main()\n  File \"/app/test.py\", line 97, in main\n    install_dependencies()\n  File \"/app/test.py\", line 17, in install_dependencies\n    subprocess.run(['git', 'clone', 'https://github.com/jessitron/git-diff-driver.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/jessitron/git-diff-driver.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\n"
+  }
+}
