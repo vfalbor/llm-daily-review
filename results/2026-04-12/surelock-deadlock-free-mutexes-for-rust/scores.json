@@ -1,0 +1,83 @@
+{
+  "app_name": "Surelock",
+  "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+  "scored_at": "2026-04-12T13:02:23.843Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "Surelock's deadlock-free mutex implementation is a unique solution, and its focus on TVars in Rust is innovative, with no direct comparison to similar tools like parking_lot and crossbeam, indicating a high novelty score of 9"
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "Although Surelock requires Rust, its installation time is 8.1s and it was not possible to install via pip, indicating a moderate system requirement score of 4 due to the need for specific environment setup"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a Rust library addressing concurrency issues, Surelock is highly relevant in the current LLM and software development landscape, particularly with the growing interest in efficient and effective locking mechanisms, scoring 8 for current relevance"
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to parking_lot and crossbeam, Surelock's TVars and deadlock-free approach differentiate it, but its lack of direct benchmarks and comparisons makes it less clear-cut, resulting in a differentiation score of 7"
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without direct access to GitHub repository data, and considering HN points and comments as a proxy, Surelock has a community score of 5 due to insufficient data on GitHub stats but a positive reception on HN with 224 points and 30 comments analyzed"
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Surelock's basic run success is true, but with 0 out of 3 tests passed and no clear user guide, the ease of use is compromised, scoring 3 due to the lack of straightforward usage and testing outcomes"
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Although Surelock is available on crates.io for easy installation via cargo, its integration requires Rust knowledge and lacks a straightforward API for non-Rust applications, resulting in an ease of integration score of 6"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The article describing Surelock provides a clear overview and example usage, but detailed documentation on crates.io or a dedicated site is not provided, leading to a documentation score of 6"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lacking direct data on the project's age, forks, or open issues, and with no clear indication of a release history or changelog, maturity is scored as 5 due to insufficient information"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct benchmark comparisons are available for Surelock against other mutex implementations like parking_lot, and import_time_ms and memory_usage_bytes measurements were not provided, resulting in a performance score of 5 due to insufficient data"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 8/10, 224 points, and 30 comments, the overall reception is positive, focusing on the innovation and technical merits of Surelock, despite some negative comments on documentation and tone, leading to an HN sentiment score of 8"
+    }
+  },
+  "summary": "Surelock is a novel, deadlock-free mutex implementation for Rust, offering a unique solution in the concurrency space, although its community and maturity aspects are less clear due to lack of direct GitHub data, and its ease of use is compromised by limited integration with non-Rust applications.",
+  "recommendation": "worth-watching",
+  "app_url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+  "tool_url": "https://crates.io/crates/surelock",
+  "source_type": "library",
+  "hn_url": "https://news.ycombinator.com/item?id=47693559",
+  "domain": "devtool",
+  "app_type": "devtool-mutex",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative solution to deadlocks in concurrency",
+        "Support for TVars in Rust is a great idea",
+        "Efficient and effective locking mechanism"
+      ],
+      "negative_signals": [
+        "Some users find the documentation and explanation lacking",
+        "Some users are skeptical about the feasibility of TVars in multiple domains",
+        "One user found the ChatGPT tone grating"
+      ],
+      "justification": "The comments generally praise Surelock as an innovative solution, but some users express skepticism or concerns about the feasibility of TVars, and one user finds the tone off-putting. However, the majority of comments focus on the technical merits of the implementation and the benefits of TVars in concurrency.",
+      "comment_count": 30,
+      "hn_points": 224
+    }
+  }
+}
