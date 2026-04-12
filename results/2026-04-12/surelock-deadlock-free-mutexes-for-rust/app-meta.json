@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Surelock: Deadlock-Free Mutexes for Rust",
+    "url": "https://notes.brooklynzelenka.com/Blog/Surelock",
+    "hn_url": "https://news.ycombinator.com/item?id=47693559",
+    "points": 224,
+    "comments": 72,
+    "author": "codetheweb",
+    "age": "2026-04-08T17:36:19 1775669779",
+    "scraped_at": "2026-04-12T13:00:03.263Z",
+    "tool_url": "https://crates.io/crates/surelock",
+    "source_type": "library",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "devtool",
+    "app_type": "devtool-mutex",
+    "description": "A deadlock-free mutex implementation for Rust",
+    "use_modes": [
+      "cargo install",
+      "Rust code example"
+    ],
+    "similar_tools": [
+      "parking_lot",
+      "crossbeam"
+    ],
+    "proposed_tests": [
+      "Test thread safety and concurrency with 10 threads",
+      "Measure throughput and contention under load",
+      "Compare with std::sync::Mutex to verify performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bzelenka/surelock"
+  },
+  "test_results": {
+    "run_id": "llm-review-1775998919866-kw1yz",
+    "log_dir": "/tmp/llm-review-1775998919866-kw1yz",
+    "install_success": false,
+    "install_time_s": 8.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0\nBENCHMARK:memory_usage_bytes:0",
+    "error_log": "Cloning into 'surelock'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_FAIL:[Errno 2] No such file or directory: './surelock'\nBENCHMARK:import_time_ms:0\nBENCHMARK:memory_usage_bytes:0\nTEST_FAIL:thread_safety:No module named 'surelock'\nTEST_FAIL:throughput:No module named 'surelock'\nTEST_FAIL:compare_with_baseline:No module named 'surelock'\nRUN_OK\n"
+  }
+}
