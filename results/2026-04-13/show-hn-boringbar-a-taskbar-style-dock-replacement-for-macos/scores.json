@@ -1,0 +1,86 @@
+{
+  "app_name": "boringBar",
+  "url": "https://boringbar.app/",
+  "scored_at": "2026-04-13T13:02:04.898Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "boringBar is a taskbar-style dock replacement, which is a unique approach, citing 412 HN points and 30 comments"
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "install success was false, indicating difficulty in installation, citing install_success=false and install_time_s=7.9"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "as a devtool, boringBar is relevant to the current ecosystem, citing its macOS compatibility and taskbar-style features"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "boringBar has a unique approach to dock replacement, but its differentiation is limited by its macOS exclusivity, citing 412 HN points"
+    },
+    "community": {
+      "score": 5,
+      "justification": "no GitHub repository statistics available, citing no GitHub repo detected"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "tests passed was 0 out of 4, indicating difficulty in usage, citing tests_passed=0 and tests_total=4"
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "no PyPI package found, indicating difficulty in integration, citing no PyPI package found"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "no data available for documentation quality, citing no data"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "no data available for maturity, citing no data"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "no benchmark data available, citing loc_count=0 and test_files_count=0"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with positive signals including clean design and attractive features, citing sentiment score=8/10 and HN points=412"
+    }
+  },
+  "summary": "boringBar is a taskbar-style dock replacement for macOS, with a unique approach and positive community feedback, but faces challenges in installation and usage.",
+  "recommendation": "niche",
+  "app_url": "https://boringbar.app/",
+  "tool_url": "https://github.com/boringbar/boringbar",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47742200",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "clean design",
+        "well done",
+        "looks great",
+        "highly attractive"
+      ],
+      "negative_signals": [
+        "subscription model",
+        "price concerns",
+        "black box concerns",
+        "issues with automatic color selection",
+        "multi-monitor and waking from sleep issues"
+      ],
+      "justification": "The majority of comments praise the app's design and features, but are split on the subscription model. Some users express concerns about the price, security, and potential issues, but the overall tone remains positive.",
+      "comment_count": 30,
+      "hn_points": 412
+    }
+  }
+}
