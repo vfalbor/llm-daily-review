@@ -1,0 +1,131 @@
+{
+  "app_name": "Brightbean Studio",
+  "url": "https://github.com/brightbeanxyz/brightbean-studio",
+  "scored_at": "2026-04-13T13:02:42.200Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app built a social media management tool in 3 weeks using Claude and Codex, showing a unique approach with a short development time, citing 19 days since repo creation and 0 days since last commit."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 19.4s, which is moderate, and there's no PyPI package found, citing install_success=true and install_time_s=19.4"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits the current devtool-clients landscape, using AI tools like Claude and Codex, citing the app type as devtool-clients and its fit with current trends"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has 171 stars, compared to similar tools like Hootsuite with 610 stars and Buffer with 4,291 stars, showing some differentiation but not a large advantage, citing the star comparison"
+    },
+    "community": {
+      "score": 5,
+      "justification": "The app has 171 stars, 2 contributors, and 1 open issue, but data is insufficient for a higher score, citing the GitHub stats"
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Tests passed 5/11, which is not a high pass rate, and basic run success is true, but more data is needed for a higher score, citing tests_passed=5 and tests_total=11"
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "There's no PyPI package, and the license is AGPL-3.0, which might limit integration, citing the lack of PyPI package and license"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a GitHub repository with some documentation, but more data is needed for a higher score, citing the GitHub repository"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has 19 days since repo creation and 0 days since last commit, but more data is needed for a higher score, citing the days since creation and last commit"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, so a neutral score is given, citing the lack of BENCHMARK lines from tests"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 85 points, 30 comments, and mostly positive signals, such as successful integration of AI tools and polished tech stack, citing the sentiment score and positive signals"
+    }
+  },
+  "summary": "Brightbean Studio is a social media management tool built with Claude and Codex, showing a unique approach and some differentiation, but with room for improvement in terms of community, ease of use, and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/brightbeanxyz/brightbean-studio",
+  "tool_url": "https://github.com/brightbeanxyz/brightbean-studio",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47749674",
+  "domain": "devtool",
+  "app_type": "devtool-clients",
+  "enriched": {
+    "github": {
+      "stars": 171,
+      "forks": 20,
+      "open_issues": 1,
+      "watchers": 171,
+      "contributors": 2,
+      "license": "AGPL-3.0",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 19,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Open-source, self-hostable social media management platform. Schedule, publish, and manage content across 10+ platforms from a single dashboard. Free alternative to Buffer, Sendible, and SocialPilot.",
+      "topics": [
+        "agpl",
+        "buffer-alternative",
+        "content-management",
+        "django",
+        "docker",
+        "htmx",
+        "multi-platform",
+        "open-source",
+        "python",
+        "scheduling",
+        "self-hosted",
+        "social-media",
+        "social-media-management",
+        "social-media-scheduler",
+        "tailwindcss"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Hootsuite",
+        "stars": 610,
+        "repo": "hootsuite/atlantis"
+      },
+      {
+        "name": "Buffer",
+        "stars": 4291,
+        "repo": "akinsho/bufferline.nvim"
+      },
+      {
+        "name": "Sendible",
+        "stars": 2,
+        "repo": "sendible-labs/sorry-cypress-run-cleaner"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 5,
+    "tests_total": 11,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Successful integration of AI tools in a real-world project",
+        "Effective use of Postgres for database management",
+        "Polished and efficient tech stack",
+        "Strong project architecture and planning"
+      ],
+      "negative_signals": [
+        "Perceived aging of tech stack compared to newer frameworks",
+        "Some skepticism about the choice of technologies",
+        "Mention of potential cost and limitations of using LLMs"
+      ],
+      "justification": "The overall sentiment towards this project is positive, with many commenters praising the effective use of AI tools, strong project architecture, and efficient tech stack. However, some commenters express skepticism about the choice of technologies, such as HTMX and PostgreSQL, and mention potential limitations and costs associated with using LLMs. Overall, the discussion is enthusiastic and constructive, with many practical suggestions and questions.",
+      "comment_count": 30,
+      "hn_points": 85
+    }
+  }
+}
