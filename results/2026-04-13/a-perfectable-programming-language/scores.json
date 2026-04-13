@@ -1,0 +1,83 @@
+{
+  "app_name": "Lean",
+  "url": "https://lean-lang.org/",
+  "scored_at": "2026-04-13T13:03:37.572Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The Lean programming language is described as 'perfectable', indicating a unique approach to programming language design, with 159 HN points and 30 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No install time or success data is available for this app type."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The Lean language is mentioned in the context of current programming language trends, with similar tools like Elm, PureScript, and TypeScript, and has a detected version of 2.11."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Lean is compared to Elm, PureScript, and TypeScript, with 159 HN points and a sentiment score of 6/10, indicating some differentiation but not a clear advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 159 HN points and 30 comments analyzed, the community engagement is moderate, but there is no GitHub repository detected to assess contributors or stars."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were run to evaluate ease of use, so the score is neutral."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The Lean language has a detected API/SDK/webhook mention and is described as having a use mode of IDE, with a page content length of 62091 characters."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The Lean language has a detected docs/wiki/guide link and a page content length of 62091 characters, indicating substantial documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 2.11, but there is no changelog or release notes, and no GitHub repository to assess maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks or data are available for this app type."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 159 points, 30 comments, and mixed positive and negative signals, indicating a moderate sentiment."
+    }
+  },
+  "summary": "Lean is a unique programming language with substantial documentation and a moderate community, but its maturity and performance are unknown due to lack of data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://alok.github.io/lean-pages/perfectable-lean/",
+  "tool_url": "https://lean-lang.org/",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47744540",
+  "domain": "lang",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Effective use of documentation",
+        "Positive comments on the language and its features",
+        "Interesting and engaging blog post"
+      ],
+      "negative_signals": [
+        "Discomfort with capitalization and informal writing style",
+        "Concerns about the language's performance and distribution size",
+        "Some users found the blog post to be unclear or hard to read"
+      ],
+      "justification": "The discussion is generally positive, with praise for the blog post, documentation, and language features. However, there are some mixed feelings about the language's size and performance, as well as discomfort with the informal writing style.",
+      "comment_count": 30,
+      "hn_points": 159
+    }
+  }
+}
