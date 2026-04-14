@@ -1,0 +1,36 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr
+  fatal: could not read Username for 'https://github.com': No such device or address
+  error: subprocess-exited-with-error
+  
+  × git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr did not run successfully.
+  │ exit code: 128
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr did not run successfully.
+│ exit code: 128
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+Cloning into 'introspective-diffusion'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/app/test.py", line 11, in <module>
+    subprocess.run(['pip', 'install', 'git+https://github.com/introspective-diffusion/introspective-diffusion.git'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'git+https://github.com/introspective-diffusion/introspective-diffusion.git']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 14, in <module>
+    subprocess.run(['git', 'clone', 'https://github.com/introspective-diffusion/introspective-diffusion.git'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/introspective-diffusion/introspective-diffusion.git']' returned non-zero exit status 128.
