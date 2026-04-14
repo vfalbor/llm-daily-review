@@ -1,0 +1,104 @@
+{
+  "app_name": "Nothing Ever Happens",
+  "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+  "scored_at": "2026-04-14T13:05:18.374Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Days since repo created is 1, indicating it's a new project, and the concept of a bot that always buys 'No' in non-sports markets on Polymarket is unique, setting it apart from similar tools like Polymarket API with 175 stars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and there's no PyPI package found, making it not pip-installable, and the primary language is Python which is widely used but doesn't directly impact system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project fits within the current landscape of prediction marketplaces like Polymarket, but its specific use case might be considered niche."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 620 stars, it has significantly more stars than similar tools like Polymarket API, showing a clear advantage, but the lack of a PyPI package and the need for an API key might hinder its accessibility."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 620 stars, but only 1 contributor and 57 forks, indicating a relatively small and not very active community compared to other projects."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, showing significant issues with usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package, and it requires an API key, making integration more difficult, and the use modes include a Web API but the lack of a package complicates the process."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data available to assess the quality of the documentation directly from the provided information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Days since last commit is 0, indicating recent activity, but insufficient data available to fully assess maturity, including release versions or a changelog."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient data available to assess performance, as no benchmarks are provided."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided but the HN points and comments signal a complex and mixed reception that doesn't directly translate to a score for this criterion."
+    }
+  },
+  "summary": "Nothing Ever Happens is a unique marketplace bot but faces significant challenges in terms of ease of use, integration, and community support, despite showing some promise with its concept.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+  "tool_url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47753472",
+  "domain": "sec",
+  "app_type": "marketplace-bot",
+  "enriched": {
+    "github": {
+      "stars": 620,
+      "forks": 57,
+      "open_issues": 0,
+      "watchers": 620,
+      "contributors": 1,
+      "license": "CC0-1.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Polymarket API",
+        "stars": 175,
+        "repo": "qualiaenjoyer/polymarket-apis"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Some users see it as a way for 'normies' to see what the powerful are thinking",
+        "It can be cheaper and more accessible than traditional casinos",
+        "Some users are optimistic about market prices reflecting reality"
+      ],
+      "negative_signals": [
+        "Concerns about the lack of regulation and potential for exploitation",
+        "Criticism of the platform's unregulated nature and potential for grifts and cheats",
+        "Risk of increasing the potential payoff high enough to motivate someone to influence the outcome"
+      ],
+      "justification": "This project generally received a mixed reception, with some users seeing it as a way to gain insight into the powerful while others are critical of its lack of regulation and potential for exploitation. The discussion is nuanced, with some users pointing out the potential benefits of the market while others express skepticism and concerns about its impact.",
+      "comment_count": 30,
+      "hn_points": 443
+    }
+  }
+}
