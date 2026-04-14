@@ -1,0 +1,105 @@
+{
+  "app_name": "pg_6502",
+  "url": "https://github.com/lasect/pg_6502",
+  "scored_at": "2026-04-14T13:04:41.145Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The 6502 microprocessor implementation in pure SQL is a highly novel approach, with no similar tools found, and considering it's a new repository with 1 day since creation."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Installation failed as indicated by the false install success, and although the install time was 6.4s, this criterion is heavily penalized due to the failed installation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the current trend of creative uses of SQL, this 6502 microprocessor implementation in SQL fits well with the innovative spirit of the LLM ecosystem, despite not directly contributing to LLM development."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools like the 6502 Emulator with 585 stars and FPGA 6502 with 12 stars, this project has a unique 8-bit microprocessor implementation in SQL, setting it apart, despite having significantly fewer stars."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 13 GitHub stars and 1 contributor, this project has a very small community, although it's a very new repository with 1 day since creation."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The fact that the installation failed and no tests were passed indicates a very low ease of use, requiring significant effort to set up and run."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The lack of a PyPI package and the necessity of directly interacting with GitHub and Postgres for SQL queries makes integration more challenging, with no clear API modes or documentation for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's insufficient data available to assess the quality of the documentation directly from the provided information, thus a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Considering the project's age, with 1 day since creation and 0 days since the last commit, it's clear the project is in its infancy, with a MIT license and no open issues, but the rapid development indicates some level of maturity in its initial stages."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "The performance cannot be directly evaluated from the provided data as there are no benchmark results available, and the basic run success was false, indicating potential performance issues."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this app"
+    }
+  },
+  "summary": "The pg_6502 is a novel implementation of the 6502 microprocessor in pure SQL, showing a creative approach, but it faces challenges in terms of ease of use, community support, and performance evaluation. Its unique SQL-based implementation differentiates it from other tools but requires further development for broader adoption and usability.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/lasect/pg_6502",
+  "tool_url": "https://github.com/lasect/pg_6502",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47761723",
+  "domain": "hardware",
+  "app_type": "microprocessor-implementation",
+  "enriched": {
+    "github": {
+      "stars": 13,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 13,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "PLpgSQL",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "the MOS tech 6502 8-bit microprocessor in pure SQL powered by postgres",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "6502 Emulator",
+        "stars": 585,
+        "repo": "davepoo/6502Emulator"
+      },
+      {
+        "name": "FPGA 6502",
+        "stars": 12,
+        "repo": "m1geo/BE6502-FPGA"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Creative implementation",
+        "Impressive idea with SQL and Postgres",
+        "A+-worthy effort"
+      ],
+      "negative_signals": [],
+      "justification": "The project has received a positive response with no significant criticism, showcasing creative use of SQL and Postgres, and earning a high praise with 'A+ for pers' by Someone.",
+      "comment_count": 3,
+      "hn_points": 42
+    }
+  }
+}
