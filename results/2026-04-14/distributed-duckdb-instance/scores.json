@@ -1,0 +1,121 @@
+{
+  "app_name": "Distributed DuckDB Instance",
+  "url": "https://github.com/citguru/openduck",
+  "scored_at": "2026-04-14T13:03:17.270Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The Distributed DuckDB Instance provides a unique approach to distributed database management, scoring 6 for novelty, as it leverages DuckDB's capabilities and offers a fresh perspective with its extension system, as seen in the comparison to similar tools, such as DuckDB with 37,422 stars and PostgreSQL with 3,150 stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time of 7.1s indicates moderate system requirements, warranting a score of 6, considering the installation success was false, which might be due to the Dockerized environment."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Given the lack of explicit data on the current relevance to the LLM ecosystem, a score of 5 is assigned, as the app's description does not directly tie into current LLM trends, but its database nature could imply indirect relevance."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Comparing to similar tools like DuckDB and PostgreSQL, this instance scores 3 for differentiation, with -37283 and -3011 fewer stars respectively, indicating it has yet to carve out its unique niche in the market."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 139 GitHub stars, 3 forks, and 1 contributor, the community engagement is relatively low, scoring 3, and the recent activity with 0 days since the last commit suggests some level of ongoing development but lacks a broad community support."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 tests passed out of 0 and basic run success was false, the ease of use scores 1, indicating a potentially complex setup or significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Since the PyPI package exists and it has a RESTful API, but with no further details on the integration process, a neutral score of 5 is given for ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without explicit information on the quality of documentation, such as a wiki, pages, or topics count, a score of 5 is assigned, assuming moderate or insufficient documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of detailed information on the project's maturity, such as release tags or changelog, and considering it's a new repository (0 days since created), a score of 5 is given, reflecting insufficient data to accurately assess maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without any benchmark data or performance comparisons to similar tools, a score of 5 is assigned, indicating insufficient evidence to evaluate performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Given the provided sentiment analysis, a score cannot be directly derived for this criterion as it does not directly map to the quantitative scoring system, so it is set to null."
+    }
+  },
+  "summary": "The Distributed DuckDB Instance offers a distinct approach to distributed database management, leveraging DuckDB's capabilities, but faces challenges in terms of community support, ease of use, and differentiation. Its relevance to current LLM trends is not directly established.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/citguru/openduck",
+  "tool_url": "https://github.com/citguru/openduck",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47761997",
+  "domain": "database",
+  "app_type": "database-distributed",
+  "enriched": {
+    "github": {
+      "stars": 139,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 139,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Distributed DuckDB - dual execution and differential storage",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "DuckDB",
+        "stars": 37422,
+        "repo": "duckdb/duckdb"
+      },
+      {
+        "name": "PostgreSQL",
+        "stars": 3150,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "MySQL",
+        "stars": 18685,
+        "repo": "mysqljs/mysql"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0.dev0",
+      "summary": "Application for running Dynamic Undocking",
+      "requires_python": "",
+      "license": "Apache 2.0",
+      "home_page": "https://github.com/CBDD/openduck.git"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Excitement for DuckLake's capabilities, such as concurrent read-write access",
+        "Appreciation for the extension system and flexibility in DuckDB",
+        "Real-world alternatives and use cases being discussed"
+      ],
+      "negative_signals": [
+        "Concerns about complexity and difficulty of adoption",
+        "Criticism of 'vibe coded slop' and cloud chasing projects",
+        "Lack of clear understanding of technical concepts and benefits"
+      ],
+      "justification": "The comments generally support the idea of distributed DuckDB, with some expressing excitement about DuckLake's capabilities. However, there are also concerns about complexity, criticism of certain aspects of the project, and a lack of clear understanding of technical concepts.",
+      "comment_count": 19,
+      "hn_points": 89
+    }
+  }
+}
