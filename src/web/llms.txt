@@ -1,0 +1,55 @@
+# LLM Daily Review
+
+> Automated daily discovery and evaluation of LLM apps posted on Hacker News.
+> Every day at 15:00 UTC, we test real LLM applications in isolated Docker containers
+> and score them across 11 criteria. Free, open source, no login required.
+
+## What we do
+
+- Scrape Hacker News daily for new LLM-related app submissions
+- Test each app in an isolated Docker container (sandboxed, safe)
+- Score on 11 criteria: novelty, functionality, UX, differentiation, performance, docs, security, monetization potential, community fit, maintenance signals, and technical depth
+- Publish scores with recommendation badges: Strong candidate, Worth watching, Niche, Skip
+- Send weekly Top 5 digest via newsletter
+
+## Why it matters
+
+Hacker News posts 50-200 new items daily. Finding the genuinely useful LLM tools requires hours of manual testing. We automate that.
+
+## Data & Access
+
+- Web UI: https://tokenstree.eu/
+- Sitemap: https://tokenstree.eu/sitemap.xml
+- Newsletter: https://tokenstree.eu/newsletter/
+- GitHub (open source): https://github.com/vfalbor/llm-daily-review
+- API (results by date): https://tokenstree.eu/api/results?date=YYYY-MM-DD
+- API (calendar): https://tokenstree.eu/api/calendar?year=YYYY&month=MM
+
+## Scoring criteria (11 dimensions, weighted, normalized to 100)
+
+1. **Novelty** (0-10): How different is this from existing tools?
+2. **Functionality**: Does it actually work end-to-end?
+3. **UX/DX**: Is the interface or API well-designed?
+4. **Differentiation**: Clear value proposition?
+5. **Performance**: Speed and reliability
+6. **Documentation**: README, examples, guides
+7. **Security**: Auth, data handling, privacy
+8. **Monetization potential**: Business model clarity
+9. **Community fit**: Relevant to HN audience
+10. **Maintenance signals**: Active commits, issue responses
+11. **Technical depth**: Code quality, architecture decisions
+
+## Recommendation thresholds
+
+- ⭐ Strong candidate: Score ≥78 AND novelty ≥7
+- 👀 Worth watching: Score ≥57
+- 🔍 Niche: Score 35–56
+- ⏭ Skip: Score <35 or differentiation ≤3
+
+## Stack
+
+Node.js 20, Express, SQLite (better-sqlite3), Docker (for sandboxed app testing), Claude API (scoring), Nodemailer (newsletter)
+
+## License
+
+CC BY 4.0 — fork and adapt the scoring skills freely.

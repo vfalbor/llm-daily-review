@@ -176,6 +176,17 @@ export function getWeeklyTop5(week) {
   return row ? JSON.parse(row.result_json) : null;
 }
 
+export function getRecentApps(limit = 30) {
+  const db = getDb();
+  return db.prepare(`
+    SELECT title, total_score, recommendation, url, tested_at
+    FROM tested_apps
+    WHERE total_score IS NOT NULL
+    ORDER BY tested_at DESC, total_score DESC
+    LIMIT ?
+  `).all(limit);
+}
+
 export function getCalendarDays(year, month) {
   const db = getDb();
   return db.prepare(`
