@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "N-Day-Bench – Can LLMs find real vulnerabilities in real codebases?",
+    "url": "https://ndaybench.winfunc.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47758347",
+    "points": 80,
+    "comments": 26,
+    "author": "mufeedvh",
+    "age": "2026-04-13T21:54:03 1776117243",
+    "scraped_at": "2026-04-14T13:00:03.125Z",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Semgrep",
+      "Bandit",
+      "Pylint",
+      "ESLint"
+    ],
+    "proposed_tests": [
+      "install and run against a sample repo",
+      "compare results with Semgrep",
+      "test against diverse codebases and languages"
+    ],
+    "requires_api_key": null,
+    "is_open_source": null,
+    "repo_url": "https://github.com/nday-bench/nday-bench"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776171962417-dp7mc",
+    "log_dir": "/tmp/llm-review-1776171962417-dp7mc",
+    "install_success": true,
+    "install_time_s": 32,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement ndaybench (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for ndaybench\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nCloning into 'ndaybench'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 49, in <module>\n    subprocess.run(['ndaybench', '--help'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'ndaybench'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting semgrep\n  Downloading semgrep-1.159.0-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-musllinux_1_2_x86_64.whl.metadata (22 kB)\nCollecting attrs>=21.3 (from semgrep)\n  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting boltons~=21.0 (from semgrep)\n  Downloading boltons-21.0.0-py2.py3-none-any.whl.metadata (1.5 kB)\nCollecting click-option-group~=0.5 (from semgrep)\n  Downloading click_option_group-0.5.9-py3-none-any.whl.metadata (5.8 kB)\nCollecting click~=8.1.8 (from semgrep)\n  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)\nCollecting colorama~=0.4.0 (from semgrep)\n  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)\nCollecting exceptiongroup~=1.2.0 (from semgrep)\n  Downloading exceptiongroup-1.2.2-py3-none-any.whl.metadata (6.6 kB)\nCollecting glom>=23.3 (from semgrep)\n  Downloading glom-25.12.0-py3-none-any.whl.metadata (5.2 kB)\nCollecting jsonschema~=4.25.1 (from semgrep)\n  Downloading jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)\nCollecting mcp==1.23.3 (from semgrep)\n  Downloading mcp-1.23.3-py3-none-any.whl.metadata (89 kB)\nCollecting opentelemetry-api~=1.37.0 (from semgrep)\n  Downloading opentelemetry_api-1.37.0-py3-none-any.whl.metadata (1.5 kB)\nCollecting opentelemetry-sdk~=1.37.0 (from semgrep)\n  Downloading opentelemetry_sdk-1.37.0-py3-none-any.whl.metadata (1.5 kB)\nCollecting opentelemetry-exporter-otlp-proto-http~=1.37.0 (from semgrep)\n  Downloading opentelemetry_exporter_otlp_proto_http-1.37.0-py3-none-any.whl.metadata (2.3 kB)\nCollecting opentelemetry-instrumentation-requests~=0.58b0 (from semgrep)\n  Downloading opentelemetry_instrumentation_requests-0.62b0-py3-none-any.whl.metadata (2.7 kB)\nCollecting opentelemetry-instrumentation-threading~=0.58b0 (from semgrep)\n  Downloading opentelemetry_instrumentation_threading-0.62b0-py3-none-any.whl.metadata (2.2 kB)\nCollecting packaging>=21.0 (from semgrep)\n  Downloading packaging-26.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting peewee~=3.14 (from semgrep)\n  Downloading peewee-3.19.0-py3-none-any.whl.metadata (7.0 kB)\nCollecting pyjwt~=2.12.0 (from pyjwt[crypto]~=2.12.0->semgrep)\n  Downloading pyjwt-2.12.1-py3-none-any.whl.metadata (4.1 kB)\nRequirement already satisfied: requests~=2.22 in /usr/local/lib/python3.12/site-packages (from semgrep) (2.33.1)\nCollecting rich>=13.5.2 (from semgrep)\n  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting ruamel.yaml>=0.18.15 (from semgrep)\n  Downloading ruamel_yaml-0.19.1-py3-none-any.whl.metadata (16 kB)\nCollecting ruamel.yaml.clib==0.2.14 (from semgrep)\n  Downloading ruamel.yaml.clib-0.2.14-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (3.0 kB)\nCollecting semantic-version~=2.10.0 (from semgrep)\n  Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)\nCollecting tomli~=2.0.1 (from semgrep)\n  Downloading tomli-2.0.2-py3-none-any.whl.metadata (10.0 kB)\nCollecting typing-extensions~=4.2 (from semgrep)\n  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)\nRequirement already satisfied: urllib3~=2.0 in /usr/local/lib/python3.12/site-packages (from semgrep) (2.6.3)\nCollecting wcmatch~=8.3 (from semgrep)\n  Downloading wcmatch-8.5.2-py3-none-any.whl.metadata (4.8 kB)\nCollecting anyio>=4.5 (from mcp==1.23.3->semgrep)\n  Downloading anyio-4.13.0-py3-none-any.whl.metadata "
+  }
+}
