@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I've been auto-scoring every tool that hits HN for weeks – here's what I found — tokenstree.eu</title>
+  <meta name="description" content="A few weeks ago I built a pipeline to deal with HN overload. I didn't expect the data to be interesting on its own.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563eb'/%3E%3Ccircle cx='16' cy='10' r='3' fill='%23fff'/%3E%3Ccircle cx='9' cy='22' r='3' fill='%23fff'/%3E%3Ccircle cx='23' cy='22' r='3' fill='%23fff'/%3E%3Cline x1='16' y1='13' x2='9' y2='19' stroke='%23fff' stroke-width='1.5'/%3E%3Cline x1='16' y1='13' x2='23' y2='19' stroke='%23fff' stroke-width='1.5'/%3E%3Cline x1='9' y1='22' x2='23' y2='22' stroke='%23fff' stroke-width='1.5'/%3E%3C/svg%3E">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #fafaf8;
+      --surface: #fff;
+      --border: #e4e2da;
+      --text: #1a1a18;
+      --muted: #6b6a65;
+      --accent: #2563eb;
+      --accent-light: #dbeafe;
+      --radius: 10px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --surface: #1c1c1a;
+        --border: #2e2e2b;
+        --text: #e8e6df;
+        --muted: #9a9891;
+        --accent-light: #1e3a5f;
+      }
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      height: 52px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand {
+      font-weight: 700;
+      font-size: 15px;
+      color: var(--text);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: auto;
+    }
+    .brand-logo { width: 26px; height: 26px; flex-shrink: 0; }
+    nav a { color: var(--muted); font-size: 13px; text-decoration: none; white-space: nowrap; }
+    nav a:hover { color: var(--text); }
+    nav a.active { color: var(--accent); }
+
+    .page { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--muted);
+      text-decoration: none;
+      margin-bottom: 36px;
+    }
+    .back-link:hover { color: var(--text); }
+
+    .article-meta {
+      margin-bottom: 32px;
+    }
+    .article-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      background: var(--accent-light);
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+    .article-title {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    .article-date {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .article-body {
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    .article-body p {
+      margin-bottom: 20px;
+    }
+    .article-body h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 36px 0 12px;
+      letter-spacing: -0.01em;
+    }
+    .article-body strong {
+      font-weight: 600;
+      color: var(--text);
+    }
+    .article-body a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .article-body a:hover { opacity: 0.8; }
+
+    .article-body ul {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    .article-body ul li {
+      margin-bottom: 8px;
+    }
+
+    .finding {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin: 24px 0;
+    }
+    .finding p { margin-bottom: 0; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    .footer-cta {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-top: 48px;
+      text-align: center;
+    }
+    .footer-cta p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .footer-cta .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .footer-cta .links a {
+      font-size: 13px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .footer-cta .links a:hover { opacity: 0.8; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="brand">
+    <svg class="brand-logo" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="8" fill="#2563eb"/>
+      <circle cx="16" cy="10" r="3" fill="#fff"/>
+      <circle cx="9" cy="22" r="3" fill="#fff"/>
+      <circle cx="23" cy="22" r="3" fill="#fff"/>
+      <line x1="16" y1="13" x2="9" y2="19" stroke="#fff" stroke-width="1.5"/>
+      <line x1="16" y1="13" x2="23" y2="19" stroke="#fff" stroke-width="1.5"/>
+      <line x1="9" y1="22" x2="23" y2="22" stroke="#fff" stroke-width="1.5"/>
+    </svg>
+    LLM Daily Review
+  </a>
+  <a href="https://github.com/vfalbor/llm-daily-review" target="_blank">GitHub</a>
+  <a href="https://github.com/vfalbor/llm-daily-review/tree/main/skills" target="_blank">Skills</a>
+  <a href="/newsletter/" class="active">Newsletter</a>
+</nav>
+
+<div class="page">
+  <a href="/newsletter/" class="back-link">
+    ← All articles
+  </a>
+
+  <div class="article-meta">
+    <span class="article-tag">Behind the build</span>
+    <h1 class="article-title">I've been auto-scoring every tool that hits HN for weeks – here's what I found</h1>
+    <span class="article-date">April 15, 2026</span>
+  </div>
+
+  <div class="article-body">
+    <p>A few weeks ago I built a pipeline to deal with HN overload: scrape the front page, filter real installable tools, run them in Docker, score them across 11 criteria, send me a daily digest.</p>
+
+    <p>I didn't expect the data to be interesting on its own.</p>
+
+    <hr class="divider">
+
+    <div class="finding">
+      <p><strong>HN points don't predict install success.</strong> Tools with 400+ points failed to install more often than tools with 80. The crowd votes on ideas, not on whether the thing actually works.</p>
+    </div>
+
+    <div class="finding">
+      <p><strong>The hardest classification problem isn't spam.</strong> It's distinguishing "a new tool" from "an article about a tool." A post titled "I built X" often links to a Medium post which links to a GitHub repo which has no README. The LLM gets this wrong more than I expected.</p>
+    </div>
+
+    <div class="finding">
+      <p><strong>LLM-generated test scripts work about 70% of the time.</strong> The model reads the repo, decides the install strategy, writes Python, and runs it blind in a container. Compiled languages and tools with system dependencies break it. Python-first tools almost always pass.</p>
+    </div>
+
+    <div class="finding">
+      <p><strong>Novelty scores high, maturity scores low.</strong> Which is expected. But the gap is larger on days when a specific domain clusters — four similar tools in one week all score "niche" against each other even if each would score "strong candidate" in isolation.</p>
+    </div>
+
+    <hr class="divider">
+
+    <h2>How it works</h2>
+
+    <p>Every day at 15:00 UTC the pipeline runs seven steps:</p>
+
+    <ul>
+      <li>Scrape the top 30 items from the HN front page</li>
+      <li>Classify each one: is it actual installable software, or an article/opinion? (llama-3.1-8b via Groq)</li>
+      <li>For each real tool: generate a Python QA script tailored to the app type, run it in a <code>python:3.12-alpine</code> container (512MB, 180s timeout)</li>
+      <li>Enrich with GitHub stats, PyPI/npm metadata, HN comment sentiment</li>
+      <li>Score across 11 weighted criteria — llama-3.3-70b with justifications citing actual numbers</li>
+      <li>Generate a ranked markdown report</li>
+      <li>Send daily email digest. Fridays: a ranked Top 5 for the week</li>
+    </ul>
+
+    <p>The scoring rubrics and classification prompts live in <code>/skills/</code> — plain markdown files tunable to your interests. Security tools, infra, ML research — fork it and change the weights.</p>
+
+    <h2>What this is not</h2>
+
+    <p>A replacement for HN. HN is where I discover everything. This just helps me not miss the good stuff when I can't sit down for an hour to read. The signal is still there; the pipeline just helps me find it faster.</p>
+
+    <p>The whole thing is CC BY 4.0. If you want to improve the classification logic, scoring criteria, or add support for other package registries (Crates, Go modules, etc.) — PRs are welcome. The prompts especially need more eyes.</p>
+
+    <p>I'm mainly curious whether the "points don't predict install success" finding matches anyone else's intuition — or if my sample is just too small yet.</p>
+  </div>
+
+  <div class="footer-cta">
+    <p>LLM Daily Review is open source and runs every day at 15:00 UTC.</p>
+    <div class="links">
+      <a href="https://github.com/vfalbor/llm-daily-review" target="_blank">GitHub</a>
+      <a href="https://github.com/vfalbor/llm-daily-review/tree/main/skills" target="_blank">Skills</a>
+      <a href="/newsletter/">More articles</a>
+      <a href="/">Daily results →</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
