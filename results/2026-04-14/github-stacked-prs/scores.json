@@ -1,0 +1,99 @@
+{
+  "app_name": "GitHub Stacked PRs",
+  "url": "https://github.com/gh-stack/stacked-pull-requests",
+  "scored_at": "2026-04-14T13:02:48.279Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a real problem with a unique approach, as seen in its ability to stack pull requests, which is different from similar tools like GitHub (173,384 stars), Bitbucket (638 stars), and GitLab (24,298 stars)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app requires no API key and is accessible via a web UI, but it's not pip-installable, and the install success was false in the container test with an install time of 19.4s."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits with the current trend of improving code review processes and organization, which is relevant to the LLM ecosystem as it relates to developer tools and workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app differentiates itself with its stackable diffs feature, but it faces criticism for relying on GitHub CLI and its limitations, and some users don't see its value in comparison to other solutions like GitHub, Bitbucket, or GitLab."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository was detected, so community signals from GitHub are not available, but HN points (766) and comments (30) provide some insight into its community and reception."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app had 0 tests passed out of 3, and the basic run was not successful, indicating potential usability issues or lack of clear documentation for setup and use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app's integration capabilities are unclear due to lack of data on its API modes and license, but it does offer a web UI for use."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of the app's documentation are unknown due to insufficient data, but the project's description and the presence of a web UI suggest some level of documentation or guidance for users."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity is difficult to assess due to the absence of specific data on its release history, versioning, or maintenance, but being an open-source tool with a web UI might indicate some level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements available, such as import_time_ms (0.0019073486328125) and vs_github_api_request_ms (144.64044570922852), the overall performance in comparison to similar tools or expectations is not clearly defined due to insufficient context or data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 766 points and 30 comments, indicating a generally positive reception with some criticisms regarding its reliance on GitHub CLI and perceived value compared to other tools."
+    }
+  },
+  "summary": "GitHub Stacked PRs offers a unique solution for organizing pull requests but faces challenges in usability and community engagement. It has a positive reception on HN but lacks clear documentation and integration information.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.github.com/gh-stack/",
+  "tool_url": "https://github.com/gh-stack/stacked-pull-requests",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47757495",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "GitHub",
+        "stars": 173384,
+        "repo": "github/gitignore"
+      },
+      {
+        "name": "Bitbucket",
+        "stars": 638,
+        "repo": "refined-bitbucket/refined-bitbucket"
+      },
+      {
+        "name": "GitLab",
+        "stars": 24298,
+        "repo": "gitlabhq/gitlabhq"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Solves problems faced by developers with complex codebases",
+        "Improves code review process with stackable diffs",
+        "Encourages well-organized commits and isolated changes"
+      ],
+      "negative_signals": [
+        "Criticism of relying on GitHub CLI and its limitations",
+        "Some users don't see its value in comparison to other solutions",
+        "Concerns about maintaining a list of PRs for merge coordination"
+      ],
+      "justification": "The project received praise for solving real-world pain points and improving code review, but there are also concerns about its usability and limitations. Users are generally positive, but some are skeptical about its benefits and value proposition.",
+      "comment_count": 30,
+      "hn_points": 766
+    }
+  }
+}
