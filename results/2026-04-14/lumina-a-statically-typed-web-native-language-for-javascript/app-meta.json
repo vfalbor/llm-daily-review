@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Lumina – a statically typed web-native language for JavaScript and WASM",
+    "url": "https://github.com/nyigoro/lumina-lang",
+    "hn_url": "https://news.ycombinator.com/item?id=47705390",
+    "points": 25,
+    "comments": 7,
+    "author": "light_ideas",
+    "age": "2026-04-09T16:02:11 1775750531",
+    "scraped_at": "2026-04-14T13:00:03.124Z",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "",
+    "use_modes": [
+      "CLI",
+      "WASM"
+    ],
+    "similar_tools": [
+      "TypeScript",
+      "Rust",
+      "Solidity",
+      "Elm"
+    ],
+    "proposed_tests": [
+      "install via npm and run 'hello world'",
+      "run the provided WASM example",
+      "compile a simple program and measure compile time"
+    ],
+    "requires_api_key": null,
+    "is_open_source": null,
+    "repo_url": "https://github.com/nyigoro/lumina-lang",
+    "tool_url": "https://github.com/nyigoro/lumina-lang"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776171919368-hniwf",
+    "log_dir": "/tmp/llm-review-1776171919368-hniwf",
+    "install_success": false,
+    "install_time_s": 18.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \ngo: go.mod file not found in current directory or any parent directory.\n\t'go get' is no longer supported outside a module.\n\tTo build and install a command, use 'go install' with a version,\n\tlike 'go install example.com/cmd@latest'\n\tFor more information, see https://golang.org/doc/go-get-install-deprecation\n\tor run 'go help get' or 'go help install'.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/14) Upgrading musl (1.2.5-r21 -> 1.2.5-r23)\n( 2/14) Installing libgcc (15.2.0-r2)\n( 3/14) Installing jansson (2.14.1-r0)\n( 4/14) Installing libstdc++ (15.2.0-r2)\n( 5/14) Installing binutils (2.45.1-r0)\n( 6/14) Installing libgomp (15.2.0-r2)\n( 7/14) Installing libatomic (15.2.0-r2)\n( 8/14) Installing gmp (6.3.0-r4)\n( 9/14) Installing isl26 (0.26-r1)\n(10/14) Installing mpfr4 (4.2.2-r0)\n(11/14) Installing mpc1 (1.3.1-r1)\n(12/14) Installing gcc (15.2.0-r2)\n(13/14) Installing musl-dev (1.2.5-r23)\n(14/14) Installing go (1.25.9-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 368.2 MiB in 65 packages\nOK: 368.2 MiB in 65 packages\n(1/5) Installing libxml2 (2.13.9-r0)\n(2/5) Installing llvm21-libs (21.1.2-r1)\n(3/5) Installing scudo-malloc (21.1.2-r0)\n(4/5) Installing rust (1.91.1-r1)\n(5/5) Installing cargo (1.91.1-r1)\nExecuting busybox-1.37.0-r30.trigger\nOK: 774.3 MiB in 70 packages\nOK: 774.3 MiB in 70 packages\n(1/6) Installing ada-libs (3.3.0-r0)\n(2/6) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(3/6) Installing icu-libs (76.1-r1)\n(4/6) Installing simdjson (3.12.0-r0)\n(5/6) Installing simdutf (7.5.0-r1)\n(6/6) Installing nodejs (24.14.1-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 834.9 MiB in 76 packages\n(1/1) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 842.4 MiB in 77 packages\nInstalling system packages...\nInstalling Lumina language...\nINSTALL_FAIL:Command '['go', 'get', 'github.com/nyigoro/lumina']' returned non-zero exit status 1.\n"
+  }
+}
