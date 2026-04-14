@@ -1,0 +1,99 @@
+{
+  "app_name": "N-Day-Bench",
+  "url": "https://ndaybench.winfunc.com/",
+  "scored_at": "2026-04-14T13:06:45.576Z",
+  "total_score": 50,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN points: 80, sentiment score: 7/10, with 26 comments analyzed, indicating a generally positive reception of the app"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Comparison to similar tools like Semgrep, Bandit, and Pylint suggests a unique approach to vulnerability detection, with a focus on LLMs finding real vulnerabilities in real codebases"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install time: 32s, install success: true, but no PyPI package found, indicating potential installation difficulties"
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "App type is sec-scanner, which is relevant to current security trends, but the use of LLMs for vulnerability detection is still a developing area"
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Comparing to similar tools like Semgrep (14,793 stars), Bandit (7,928 stars), and Pylint (5,671 stars), N-Day-Bench does not have a GitHub repository, making differentiation based on GitHub stars and contributors count unavailable"
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository detected, but HN points: 80, and comments analyzed: 26, indicate some community interest, although not as high as established tools like Semgrep or Pylint"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed: 0 / 1, and basic run success: false, indicating significant usability issues"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package found, and no API modes other than CLI, making integration potentially difficult"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki available to assess documentation quality directly"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repository or release information available to assess maturity"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results available to assess performance"
+    }
+  },
+  "summary": "N-Day-Bench is a unique sec-scanner tool leveraging LLMs to detect vulnerabilities, with a promising but not yet mature approach, and significant usability and integration challenges. Its community reception is generally positive, but it lacks the maturity and documentation of more established tools.",
+  "recommendation": "niche",
+  "app_url": "https://ndaybench.winfunc.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47758347",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Semgrep",
+        "stars": 14793,
+        "repo": "semgrep/semgrep"
+      },
+      {
+        "name": "Bandit",
+        "stars": 7928,
+        "repo": "PyCQA/bandit"
+      },
+      {
+        "name": "Pylint",
+        "stars": 5671,
+        "repo": "pylint-dev/pylint"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "interesting benchmark design and results",
+        "successful exploitation of hidden SQL injection vulnerability",
+        "really cool and helpful benchmark"
+      ],
+      "negative_signals": [
+        "false-positive rate is high and concerns about judging accuracy",
+        "lack of transparency about model weights and filtering",
+        "serious question about model's trustworthiness after discovering an issue with GPT 5.4"
+      ],
+      "justification": "The majority of comments have a positive tone, with a few constructive criticisms about false-positive rates, trustworthiness, and transparency. However, these concerns are not widespread, and the project's design and results seem to be well-received.",
+      "comment_count": 26,
+      "hn_points": 80
+    }
+  }
+}
