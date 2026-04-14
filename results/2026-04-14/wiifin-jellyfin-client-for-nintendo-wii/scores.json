@@ -1,0 +1,114 @@
+{
+  "app_name": "WiiFin",
+  "url": "https://github.com/fabienmillet/WiiFin",
+  "scored_at": "2026-04-14T13:03:50.687Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "WiiFin is a client for Jellyfin on the Nintendo Wii, which is a unique approach, with 326 days since the repo was created and 1 day since the last commit, showing active development."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 9.4s, indicating potential issues with installation, and no PyPI package was found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a home-server-client, WiiFin fits into the current ecosystem trends, but its relevance is limited by the Wii's outdated hardware and the availability of more modern alternatives."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Comparing to similar tools, WiiFin has significantly fewer stars than Jellyfin (50,305), Emby (4,844), and Plex (11,310), with -50167, -4706, and -11172 stars respectively, indicating limited differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 138 GitHub stars, 1 fork, and 1 contributor, the community is small, but the project has 1 day since the last commit, showing some level of activity, and HN points of 184 with 30 comments analyzed."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 tests passed out of 0, and the basic run success is true but installation failed, the ease of use is severely impacted, making it difficult for users to get started."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "WiiFin does not have a PyPI package, making it not easily integratable into existing workflows, and its use mode is limited to CLI, which may not be user-friendly for all audiences."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on documentation quality is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No specific data on maturity is available, so a neutral score is assigned, but with 326 days since the repo was created and active commits, it may have some level of maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark data is available, so a neutral score leaning towards lower performance is assigned due to the outdated Nintendo Wii hardware."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, with 184 HN points, 30 comments analyzed, and both positive and negative signals, indicating a generally positive reception of the project."
+    }
+  },
+  "summary": "WiiFin is a unique client for Jellyfin on the Nintendo Wii, showing active development but facing challenges in terms of installation, differentiation, and community size, with potential for improvement in documentation and performance.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/fabienmillet/WiiFin",
+  "tool_url": "https://github.com/fabienmillet/WiiFin",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47759341",
+  "domain": "web",
+  "app_type": "home-server-client",
+  "enriched": {
+    "github": {
+      "stars": 138,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 138,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 326,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Jellyfin Client for Wii",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Jellyfin",
+        "stars": 50305,
+        "repo": "jellyfin/jellyfin"
+      },
+      {
+        "name": "Emby",
+        "stars": 4844,
+        "repo": "MediaBrowser/Emby"
+      },
+      {
+        "name": "Plex",
+        "stars": 11310,
+        "repo": "IBM/plex"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Enthusiasm for the project and its potential",
+        "Appreciation for the DIY home server community",
+        "Recognition of the project as a strong alternative to Plex"
+      ],
+      "negative_signals": [
+        "Minor criticisms of the user interface and security",
+        "Concerns about user experience for non-technical family members",
+        "Suggestions for security improvements"
+      ],
+      "justification": "The comments are generally positive about the project and its potential. There are some criticisms about the user interface and security, but they are minor and do not detract from the enthusiasm for the project. The community is also enthusiastic about alternative solutions like SMB + Nova Player.",
+      "comment_count": 30,
+      "hn_points": 184
+    }
+  }
+}
