@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Introspective Diffusion Language Models",
+    "url": "https://introspective-diffusion.github.io/",
+    "hn_url": "https://news.ycombinator.com/item?id=47762641",
+    "points": 96,
+    "comments": 26,
+    "author": "zagwdt",
+    "age": "2026-04-14T07:57:33 1776153453",
+    "scraped_at": "2026-04-14T13:00:03.116Z",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Introspective Diffusion is a new method for language models that enables more efficient use of pre-trained models through self-awareness.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "Opt, VGG",
+      "ResNet"
+    ],
+    "proposed_tests": [
+      "Train on a small dataset and measure inference latency",
+      "Compare against a baseline language model with no introspection",
+      "Test on various types of text inputs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "tool_url": "https://github.com/introspective-diffusion",
+    "repo_url": "https://github.com/introspective-diffusion"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776171709623-xymzd",
+    "log_dir": "/tmp/llm-review-1776171709623-xymzd",
+    "install_success": false,
+    "install_time_s": 7.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr\n  fatal: could not read Username for 'https://github.com': No such device or address\n  error: subprocess-exited-with-error\n  \n  × git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr did not run successfully.\n  │ exit code: 128\n  ╰─> See above for output.\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× git clone --filter=blob:none --quiet https://github.com/introspective-diffusion/introspective-diffusion.git /tmp/pip-req-build-ycjuvdnr did not run successfully.\n│ exit code: 128\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nCloning into 'introspective-diffusion'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 11, in <module>\n    subprocess.run(['pip', 'install', 'git+https://github.com/introspective-diffusion/introspective-diffusion.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'git+https://github.com/introspective-diffusion/introspective-diffusion.git']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 14, in <module>\n    subprocess.run(['git', 'clone', 'https://github.com/introspective-diffusion/introspective-diffusion.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/introspective-diffusion/introspective-diffusion.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting git+https://github.com/introspective-diffusion/introspective-diffusion.git\n  Cloning https://github.com/introspective-diffusion/introspective-diffusion.git to /tmp/pip-req-build-ycjuvdnr\nINSTALL_FAIL:Failed to install package with pip, trying fallback method\n"
+  }
+}
