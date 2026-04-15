@@ -1,0 +1,96 @@
+{
+  "app_name": "Dependency Cooldowns",
+  "url": "https://github.com/calpaterson/deps",
+  "scored_at": "2026-04-15T13:03:53.504Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique dependency cooldown feature, which is not commonly found in other tools, with no GitHub repo detected to compare with similar projects, but its concept is innovative."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 17.1 seconds, which is relatively fast, but the lack of detailed system requirements information limits this score."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits well with the current devtool-cicd ecosystem trends, addressing dependency management, a key concern in the field, with its library providing a valuable contribution."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to pip, which has 37,808 stars, this tool's unique feature set differentiates it, although direct comparison is challenging without GitHub data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected for direct community analysis, but HN discussion indicates some interest and debate around the concept."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Zero out of one test passed, indicating possible usability issues or lack of comprehensive testing."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The app has a PyPI package, making integration relatively straightforward, with a clear Python requirement."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct evidence of extensive documentation was found, but the tool's simplicity and focus might imply minimal documentation needs."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to assess maturity accurately, as there's no clear indication of the project's age, updates, or releases beyond its version."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The benchmark shows an import time of 1.142 milliseconds, which is relatively fast, but without comparison to similar tools, the score is middling."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment is not directly applicable as a separate criterion here but was used in the community score justification."
+    }
+  },
+  "summary": "Dependency Cooldowns is a library offering a unique dependency cooldown feature, relevant to current devtool-cicd trends. Though it shows promise, its community and usability aspects need further development.",
+  "recommendation": "worth-watching",
+  "app_url": "https://calpaterson.com/deps.html",
+  "tool_url": "https://github.com/calpaterson/deps",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47773812",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "pip",
+        "stars": 37808,
+        "repo": "TeamNewPipe/NewPipe"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.3",
+      "summary": "A terminal UI dashboard to view python dependencies across Github repositories.",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "dependency cooldowns encourage responsible and cautious dependency management",
+        "it can help spread the testing burden and reduce the risk of unexpected issues",
+        "it provides a chance for scanners to run and improve the security of the dependency"
+      ],
+      "negative_signals": [
+        "some commenters feel that dependency cooldowns promote 'free-riding' and shift the problem of security to others",
+        "there are concerns that cooldowns might be exploited by attackers",
+        "not everyone has the same update cycle, and cooldowns might not be suitable for all organizations"
+      ],
+      "justification": "While some commenters feel that dependency cooldowns promote 'free-riding' and shift the problem of security to others, others argue that it can help spread the testing burden and reduce the risk of unexpected issues. The discussion highlights the complexity of the issue, with some commenters emphasizing the need for responsible and cautious dependency management.",
+      "comment_count": 30,
+      "hn_points": 137
+    }
+  }
+}
