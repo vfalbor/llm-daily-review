@@ -1,0 +1,102 @@
+{
+  "app_name": "Wacli",
+  "url": "https://github.com/steipete/wacli",
+  "scored_at": "2026-04-15T13:02:38.214Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Wacli offers a unique command-line interface for WhatsApp, with 124 days since repo creation and 0 days since last commit, indicating active development and a first-of-its-kind approach, as seen with 1,216 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 15.1 seconds, but since it's not pip-installable and has no PyPI package, this affects its accessibility, with install_success=true and install_time_s=15.1."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli, Wacli fits well with current trends in command-line interfaces for messaging apps, particularly with its GitHub stats showing 9 contributors and 178 forks."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 1,216 GitHub stars and 178 forks, Wacli differentiates itself from similar tools, although no direct BENCHMARK comparisons are available for this CLI tool."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Although Wacli has 1,216 GitHub stars, 9 contributors, and is actively maintained with 0 days since last commit, the lack of further data on community engagement beyond GitHub stats makes it challenging to assess fully."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that 0 out of 6 tests passed, despite basic run success being true, Wacli's usability is questionable without further evidence of user experience or successful test runs."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Wacli's CLI nature and the absence of a PyPI package might make integration into workflows or other projects more challenging compared to libraries or tools with clearer API modes and installation methods."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of Wacli's documentation are unclear without direct access to its wiki, pages, or topics, but as an open-source tool, it likely has some form of documentation or README."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 124 days since the repo was created and 0 days since the last commit, Wacli demonstrates a level of maturity, but the lack of a clear versioning system or release tags makes it slightly less mature than established tools."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate Wacli's performance accurately, as no specific benchmarks or performance metrics are provided in the given data."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Wacli's HN sentiment score is 7/10, with 139 HN points and 30 comments analyzed, indicating a generally positive reception with some criticisms and concerns about security and competition."
+    }
+  },
+  "summary": "Wacli is a novel WhatsApp command-line interface with active development and a notable GitHub presence, but it faces challenges in terms of usability and integration, with mixed sentiments from the community.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/steipete/wacli",
+  "tool_url": "https://github.com/steipete/wacli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47775628",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1216,
+      "forks": 178,
+      "open_issues": 117,
+      "watchers": 1216,
+      "contributors": 9,
+      "license": "NOASSERTION",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 124,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "WhatsApp CLI",
+      "topics": [
+        "cli",
+        "go",
+        "whatsapp"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "High utility",
+        "Decision-makers willing to take risks",
+        "Competing solutions mentioned as options"
+      ],
+      "negative_signals": [
+        "Security concerns about using custom clients",
+        "Criticism of WhatsApp's control and limitations",
+        "Some users prefer alternative solutions (e.g., Telegram)"
+      ],
+      "justification": "The sentiment is generally positive, with users recognizing the utility of Wacli, even with security considerations and limitations in mind. However, there is a healthy dose of skepticism and criticism about WhatsApp's control and the existence of competing solutions.",
+      "comment_count": 30,
+      "hn_points": 139
+    }
+  }
+}
