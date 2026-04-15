@@ -1,0 +1,29 @@
+  * 
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+  * 
+npm error code ENOENT
+npm error syscall open
+npm error path /app/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/app/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-15T13_04_05_695Z-debug-0.log
+npm error code ENOENT
+npm error syscall open
+npm error path /app/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/app/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-15T13_04_06_412Z-debug-0.log
+Traceback (most recent call last):
+  File "/app/test.py", line 79, in <module>
+    main()
+  File "/app/test.py", line 73, in main
+    compare_to_baseline()
+  File "/app/test.py", line 45, in compare_to_baseline
+    our_response_time = float(next(line.split(':')[1] for line in open('output.txt') if line.startswith('BENCHMARK:create_guide_ms:')))
+                                                                  ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'output.txt'
