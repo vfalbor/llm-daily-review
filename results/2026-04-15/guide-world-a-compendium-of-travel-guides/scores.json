@@ -1,0 +1,83 @@
+{
+  "app_name": "Guide.world",
+  "url": "https://guide.world/",
+  "scored_at": "2026-04-15T13:04:20.616Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The platform provides a unique compendium of travel guides, with 8770 characters of content, which is a significant amount of information, indicating a high level of novelty, as seen in the page content length."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and the install time is 11.3s, indicating moderate to high system requirements, as shown by the container test results."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is a web-frontend, and the use mode is Web, which fits with the current LLM ecosystem trends of having web-based interfaces for travel guides, as described in the app metadata."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The platform has a detected version of 1.1 and has a changelog or release notes, which is a good sign of differentiation from other similar tools like Google Trips, as shown in the web page signals."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The HN sentiment score is 8/10, with 125 HN points, 21 comments analyzed, and 13 positive signals, indicating a moderate to high level of community engagement, as seen in the HN comment sentiment analysis."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tests passed is 1/2, and the basic run success is false, indicating moderate difficulties in using the platform, as shown by the container test results."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package found, and no install command on the page, but it has an API/SDK/webhook mention, indicating neutral ease of integration, as shown in the web page signals and PyPI package data."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The platform has a detected version of 1.1, has a changelog or release notes, and has examples or demo is false, but the page content length is 8770 characters, indicating a high level of documentation quality, as shown in the web page signals."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 1.1, and it has a changelog or release notes, indicating neutral maturity, as shown in the web page signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark measurements available, but the memory usage is 35656 bytes, indicating neutral performance, as shown in the benchmark measurements from the container."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 125 HN points, 21 comments analyzed, and 13 positive signals, indicating a high level of positive sentiment, as seen in the HN comment sentiment analysis."
+    }
+  },
+  "summary": "Guide.world is a web-frontend platform that provides a unique compendium of travel guides, with a high level of novelty and current relevance, but moderate difficulties in using the platform, and neutral ease of integration and maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://guide.world/",
+  "tool_url": "https://github.com/your-project",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47707382",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "interesting travel observations",
+        "well-received recommendations",
+        "high praise for content quality"
+      ],
+      "negative_signals": [
+        "paywall issues and concerns",
+        "omission of important travel destinations",
+        "quality concerns due to aggregation"
+      ],
+      "justification": "Most comments (13/21) are positive, with users appreciating the unique observations, recommendations, and in-depth writing found in the aggregated articles. However, a few comments raise valid concerns about paywalls, omissions, and the quality of the aggregated content, which detract from an otherwise overwhelmingly positive reception.",
+      "comment_count": 21,
+      "hn_points": 125
+    }
+  }
+}
