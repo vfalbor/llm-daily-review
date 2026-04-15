@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "The Orange Pi 6 Plus",
+    "url": "https://taoofmac.com/space/reviews/2026/04/11/1900",
+    "hn_url": "https://news.ycombinator.com/item?id=47732535",
+    "points": 203,
+    "comments": 172,
+    "author": "rcarmo",
+    "age": "2026-04-11T17:48:02 1775929682",
+    "scraped_at": "2026-04-15T13:00:03.439Z",
+    "tool_url": "https://github.com/your-project",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.83,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "A single-board computer",
+    "use_modes": [
+      "Hardware"
+    ],
+    "similar_tools": [
+      "Raspberry Pi"
+    ],
+    "proposed_tests": [
+      "Connect the board to a monitor and test its features"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/your-project"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776258304330-i12i4",
+    "log_dir": "/tmp/llm-review-1776258304330-i12i4",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'your-project'...\nremote: Not Found\nfatal: repository 'https://github.com/your-project.git/' not found\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_OK\nINSTALL_FAIL:git clone failed:Command '['git', 'clone', 'https://github.com/your-project.git']' returned non-zero exit status 128.\n"
+  }
+}
