@@ -1,0 +1,83 @@
+{
+  "app_name": "Claude Code Routines",
+  "url": "https://code.claude.com/docs/en/routines",
+  "scored_at": "2026-04-15T13:02:08.716Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a collection of routines for various programming tasks, which is a unique approach in the devtool-codegen space, with detected version 18.226 indicating recent development."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false and install time is not applicable due to failed installation, indicating potential system requirement issues."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app type is devtool-codegen, which fits with current trends in AI-assisted coding, with autonomous tools and fast feature delivery as noted in the HN comments."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique set of routines, but without comparable BENCHMARK data or similar tools' metrics, its differentiation is moderate, with potential benefits in autonomous tools and feature delivery."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN points are 658 and comments are 30, with a sentiment score of 7/10, indicating a moderately active and positive community around Claude Code."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed are 0/0 and basic run success is false, indicating significant ease of use issues due to failed installation and lack of applicable test results."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has no PyPI package, but the webpage mentions API/SDK/webhook, indicating potential for integration, though specifics are unclear without further data."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The webpage has a docs link, changelog, and examples, with a content length of 359384 chars, indicating thorough documentation for the devtool-codegen app."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version is 18.226, indicating recent development, and the webpage has a changelog, suggesting moderate maturity for the devtool-codegen space."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No BENCHMARK data is available for performance assessment, making it not applicable for this criteria in the devtool-codegen context."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "While HN sentiment data is provided for community assessment, a separate sentiment score is not applicable as a distinct criterion here, given the context of the other scores and justifications."
+    }
+  },
+  "summary": "Claude Code Routines offers a unique set of programming task routines, with a moderately active community and thorough documentation, but faces installation and ease of use issues. Its performance and maturity are promising but require further assessment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://code.claude.com/docs/en/routines",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47768133",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Autonomous tools work within Claude Code usage limits",
+        "Features are being delivered quickly",
+        "Potential to avoid usage issues"
+      ],
+      "negative_signals": [
+        "Inconsistent model output from top-tier models",
+        "High utilization leading to low-tier binning or throttling",
+        "Perception of AI being unstable and not working properly"
+      ],
+      "justification": "The comments are generally positive, citing the benefits of autonomous tools and fast feature delivery. However, there are concerns about inconsistent model output, high utilization, and the perception of AI instability.",
+      "comment_count": 30,
+      "hn_points": 658
+    }
+  }
+}
