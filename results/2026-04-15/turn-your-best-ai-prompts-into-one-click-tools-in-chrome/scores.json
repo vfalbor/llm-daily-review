@@ -1,0 +1,101 @@
+{
+  "app_name": "Chrome Skills",
+  "url": "https://github.com/ChromeDevTools/skills",
+  "scored_at": "2026-04-15T13:03:18.438Z",
+  "total_score": 65,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this type of scoring, but the provided HN comment sentiment score is 6/10 with 177 points and 30 comments analyzed"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The tool introduces a new way to turn AI prompts into one-click tools in Chrome, with a unique approach to automation, but the space has similar tools like LangChain and CrewAI"
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The tool is a Chrome extension and does not require a complex setup, but the installation success is false and the install time is 8.7s"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The tool is highly relevant to the current LLM ecosystem trends, as it allows users to leverage AI prompts in a practical way"
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool differentiates itself from similar tools like LangChain (133,644 stars) and CrewAI (48,942 stars) by providing a Chrome extension-based approach"
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected or API unavailable, so the community score is neutral"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool has a basic run success of true, but the tests passed is 0 / 3, indicating some issues with usability"
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The tool has a PyPI package existence (v0.3.0) and does not require an API key, making it relatively easy to integrate"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The tool has a GitHub repository URL (https://github.com/ChromeDevTools/skills), but the quality of the documentation is not explicitly stated"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no clear information on the maturity of the tool, as there is no GitHub repository detected or API unavailable"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available to assess the performance of the tool"
+    }
+  },
+  "summary": "Chrome Skills is a new tool that allows users to turn their best AI prompts into one-click tools in Chrome, with a unique approach to automation and a relatively easy integration process.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+  "tool_url": "https://github.com/ChromeDevTools/skills",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47768339",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 133644,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 48942,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.0",
+      "summary": "Implementation of the TrueSkill, Glicko and Elo Ranking Algorithms",
+      "requires_python": null,
+      "license": "BSD",
+      "home_page": "http://github.com/McLeopold/PythonSkills/"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "generally seen as useful or interesting",
+        "can save steps and automate tasks",
+        "can be used for personal use cases and to 'fight enshittification'"
+      ],
+      "negative_signals": [
+        "concerns about security model and premature release",
+        "skepticism about potential misuse or anthropomorphization",
+        "some see it as unnecessary or 'completely useless'"
+      ],
+      "justification": "The project seems to be well-received, with users seeing its potential to save steps and automate tasks. However, there are also concerns about the security model and the potential for misuse or anthropomorphization.",
+      "comment_count": 30,
+      "hn_points": 177
+    }
+  }
+}
