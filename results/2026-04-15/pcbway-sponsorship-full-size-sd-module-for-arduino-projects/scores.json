@@ -1,0 +1,84 @@
+{
+  "app_name": "PCBWay SD Module",
+  "url": "https://www.colino.net/wordpress/archives/2026/04/10/pcbway-sponsorship-full-size-sd-module-for-arduino-projects/",
+  "scored_at": "2026-04-15T13:05:03.137Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project is a unique SD module for Arduino projects, with a detected version of 1.1, indicating some level of development and iteration, but without direct comparison to similar tools like MicroSD, it's challenging to assess its novelty fully."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The project does not have a PyPI package, and the install success is false, with an install time of 7.1s, indicating potential issues with accessibility and setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The project's fit with current LLM ecosystem trends is unclear, as the provided data does not directly relate to LLM applications, thus scoring it as 5 due to insufficient data."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without specific comparisons to similar tools like MicroSD in terms of features, pricing, or community, and given that stars vs similar tools and BENCHMARK comparisons are not provided, the differentiation score is set to 5 due to lack of data."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 31, and there are 26 comments analyzed, indicating some level of community interest, but without GitHub repository stats, it's challenging to fully assess the community's health and engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 out of 0, and the basic run success is false, indicating significant issues with usability and potentially with the project's overall functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While the project has a detected API/SDK/webhook mention, the lack of clear information on its integration capabilities, such as PyPI/npm existence and specific use modes, leads to a score of 5 due to insufficient data."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The project has a page content length of 8770 chars, indicating substantial information, and mentions of docs/wiki/guide, changelog, or release notes, suggesting a decent level of documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 1.1, suggesting some maturity, but without specific data on days since created, forks count, or open issues, the maturity score is set to 5 due to insufficient information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The project type is hardware-iot, and there are no direct performance benchmarks available in the provided data, making it not applicable for scoring."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 31 HN points and 26 comments analyzed, showing a generally positive view of the project, with positive signals including appreciation for creating a community and pushing users to learn electronics."
+    }
+  },
+  "summary": "The PCBWay SD module for Arduino projects shows promise with its unique approach and decent documentation but faces challenges in terms of usability, community engagement, and maturity. Its hardware nature sets it apart, but more data is needed to fully evaluate its potential and performance.",
+  "recommendation": "niche",
+  "app_url": "https://www.colino.net/wordpress/archives/2026/04/10/pcbway-sponsorship-full-size-sd-module-for-arduino-projects/",
+  "tool_url": "https://github.com/your-project",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47722731",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Useful overview of PCBWay's capabilities",
+        "Creating new audience",
+        "Pushing users to get back into hardware design",
+        "Value for society by cultivating people who learn electronics"
+      ],
+      "negative_signals": [
+        "Question regarding sponsorship price and its value",
+        "Perception of being easily bought",
+        "Question about matte boards being non-default"
+      ],
+      "justification": "The commenters have a generally positive view of the project, with many appreciating the sponsorship for creating a community and pushing users to learn electronics. However, there are some questions about the value of the sponsorship and the default board choice, which are the negative signals in this sentiment analysis.",
+      "comment_count": 26,
+      "hn_points": 31
+    }
+  }
+}
