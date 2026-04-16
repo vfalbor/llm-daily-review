@@ -1,0 +1,83 @@
+{
+  "app_name": "Darkbloom",
+  "url": "https://darkbloom.dev/",
+  "scored_at": "2026-04-16T13:02:11.260Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique approach to leveraging idle Macs for private AI inference, with a potential for scalability and profitability, as mentioned in the HN comments with 314 points and 30 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app requires specific hardware (Apple Silicon) and has no pip-installable package, with an install time not available due to failed install, but detected version is 1.0."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app fits into the current trend of decentralized platforms and private AI inference, but its dependency on specific hardware limits its broader relevance, with a page content length of 34468 chars indicating some depth in its approach."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has a unique feature set focusing on idle Macs, but its differentiation is somewhat limited by its dependency on Apple Silicon, with HN comments praising its interesting approach."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected or API unavailable, but HN points are 314, indicating some community interest, with 30 comments analyzed showing a mix of praise and criticism."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Basic run success is false, and there are no tests passed, indicating potential usability issues, with no clear install command on the page."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has no PyPI package and no API/SDK/webhook mention on the GitHub repository, but it does mention having an API, with a detected version of 1.0 and a page content length of 34468 chars."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The app has no docs/wiki/guide link, no changelog or release notes, and no examples or demo on its webpage, with a content length of 34468 chars, indicating some information but not sufficient documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 1.0, which suggests some level of maturity, but without GitHub data or clear release notes, it's hard to assess fully, with HN points and comments suggesting ongoing development and discussion."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmarks are available, and due to the lack of a successful install, performance cannot be directly evaluated, with no clear claims on the webpage regarding its performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 314 HN points and 30 comments analyzed, showing a mix of positive and negative signals regarding the project's scalability, security, and business model."
+    }
+  },
+  "summary": "Darkbloom offers a unique approach to private AI inference on idle Macs, with potential scalability and profitability, but it faces significant security concerns, dependency on specific hardware, and questions about its business model and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://darkbloom.dev/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47788542",
+  "domain": "infra",
+  "app_type": "device-as-infrastructure",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "potentially scalable and profitable business model",
+        "interesting approach to leveraging idle Macs",
+        "opportunity to create a large, decentralized platform"
+      ],
+      "negative_signals": [
+        "major security concerns and potential flaws in the system",
+        "dependency on a specific hardware platform (Mac)",
+        "unrealistic revenue projections and potential for oversimplification"
+      ],
+      "justification": "The project has garnered both praise and criticism for its potential scalability and profit margins. However, numerous commenters have raised significant concerns about the system's security, specifically the use of the Apple TEE and the possibility of attacks on the macOS kernel. Additionally, some commenters have raised questions about the accuracy of the revenue projections and the feasibility of the business model.",
+      "comment_count": 30,
+      "hn_points": 314
+    }
+  }
+}
