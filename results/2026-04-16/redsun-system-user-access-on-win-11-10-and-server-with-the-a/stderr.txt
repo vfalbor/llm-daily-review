@@ -1,0 +1,20 @@
+Cloning into 'RedSun'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./RedSun is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Traceback (most recent call last):
+  File "/app/test.py", line 85, in <module>
+    main()
+  File "/app/test.py", line 70, in main
+    test_create_user()
+  File "/app/test.py", line 38, in test_create_user
+    subprocess.run(['redsun', 'create-user', 'testuser'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'redsun'
