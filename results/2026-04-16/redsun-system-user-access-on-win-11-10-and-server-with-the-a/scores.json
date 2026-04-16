@@ -1,0 +1,109 @@
+{
+  "app_name": "RedSun",
+  "url": "https://github.com/Nightmare-Eclipse/RedSun",
+  "scored_at": "2026-04-16T13:02:36.066Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "RedSun is considered a useful or interesting project, with 331 GitHub stars and 64 forks, indicating a unique approach to managing system user access on Windows 11/10 and Server with the April 2026 Update, but there is limited information about its comparison to similar tools."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 8.7 seconds, but the basic run was unsuccessful, and there is a Python requirement of >=3.10, which may limit its accessibility to some users."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an infra-iam tool, RedSun has some relevance to current infrastructure and access management trends, particularly given the recent April 2026 Update for Windows 11/10 and Server, but its specific use case may be niche."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While RedSun has 331 GitHub stars, there is limited information about its differentiation from similar tools, with no direct comparisons available."
+    },
+    "community": {
+      "score": 5,
+      "justification": "RedSun has 331 GitHub stars, but only 1 contributor and 64 forks, indicating a relatively small community, and the HN sentiment analysis shows a mixed reaction with 120 points and 24 comments, which is not a strong signal of community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The basic run was unsuccessful, indicating significant usability issues, despite 0 tests passed out of 0 total, which may not be a comprehensive assessment."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "RedSun has a PyPI package with version 0.9.1 and a Python requirement of >=3.10, which facilitates integration, but there is no information about its API modes or license details that might impact ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited information about RedSun's documentation, with no clear indication of whether it has a wiki, pages, or GitHub topics, which makes it difficult to assess its documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "RedSun has 0 days since its last commit and 0 days since its creation, but only 1 contributor, which may indicate limited maturity, and there is no clear information about its release history or stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available for RedSun, which makes it difficult to assess its performance, and the test results do not provide any insights into its efficiency or speed."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment score is 5/10, with 120 points and 24 comments, but the sentiment is mixed, and there are concerns about security decisions and potential attack surfaces, which are not directly related to the tool's sentiment."
+    },
+    "security": {
+      "score": 3,
+      "justification": "There are concerns about RedSun's security decisions and potential attack surfaces, with criticism of privilege escalation and vulnerabilities, which may impact its overall security."
+    }
+  },
+  "summary": "RedSun is a tool for managing system user access on Windows 11/10 and Server with the April 2026 Update, with a unique approach but limited information about its differentiation and community engagement, and significant concerns about its security implications.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/Nightmare-Eclipse/RedSun",
+  "tool_url": "https://github.com/Nightmare-Eclipse/RedSun",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47788473",
+  "domain": "infra-iac",
+  "app_type": "infra-iam",
+  "enriched": {
+    "github": {
+      "stars": 331,
+      "forks": 64,
+      "open_issues": 0,
+      "watchers": 331,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "The Red Sun vulnerability repository",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.9.1",
+      "summary": "Event-driven data acquisition software for scientific applications.",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "RedSun is considered a useful or interesting project",
+        "There is some nostalgia for past Windows versions, particularly XP SP2",
+        "Some users appreciate the idea of exploring security concepts"
+      ],
+      "negative_signals": [
+        "Criticism of security decisions and privilege escalation",
+        "Concerns about the potential attack surface and vulnerabilities",
+        "Mistrust of Microsoft's handling of codebase security"
+      ],
+      "justification": "The sentiment is mostly mixed, with a lack of enthusiasm and concern regarding the project's security implications, as well as a general skepticism towards Microsoft's handling of its codebase. With a small number of comments, the justification must be cautious and consider the potential risks associated with the project.",
+      "comment_count": 24,
+      "hn_points": 120
+    }
+  }
+}
