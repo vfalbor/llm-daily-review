@@ -1,0 +1,83 @@
+{
+  "app_name": "A Python Interpreter Written in Python",
+  "url": "https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html",
+  "scored_at": "2026-04-17T13:03:19.805Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project presents a unique approach to implementing a Python interpreter in Python, as indicated by the article's content and the HN discussion, with 88 HN points and 22 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The project does not provide any system requirements information, and no PyPI package or GitHub repository is available, so the score is set to 5 due to insufficient data."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project is relevant to current trends in the LLM ecosystem, as it discusses innovative approaches to programming language interpretation, but its impact is limited due to being an article rather than an actively developed tool, with 50970 characters of content."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has a unique approach but does not provide comparisons to similar tools like CPython or PyPy, and with no GitHub repository or clear community signals, its differentiation is moderately scored, based on the article's content and 88 HN points."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 88 HN points and 22 comments, the community shows interest, but there is no GitHub repository, and the project's open-source status is unclear, so the community score is set to 4, citing the HN points and comment count."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Due to the lack of a GitHub repository or a PyPI package, and with no install command on the page, the ease of use is difficult to assess directly, so the score is set to 5 due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project mentions an API/SDK but does not provide clear integration instructions, and without a GitHub repository or a PyPI package, integration seems challenging, based on the detected version and page content."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage has 50970 characters of content, indicating substantial information, and despite no dedicated docs link, the article itself provides detailed explanations, scoring 6 for documentation quality."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project, being an article, does not have a clear versioning or release cycle, and with no GitHub repository, maturity is hard to assess, but the detected version is 1.0, and the HN discussion indicates some level of recognition."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As the project is an article about a Python interpreter and does not provide benchmark comparisons or performance metrics, this criterion does not apply."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 88 HN points, 22 comments, and positive signals indicating an innovative approach and good explanation, despite some minor criticisms."
+    }
+  },
+  "summary": "A Python Interpreter Written in Python is an innovative article discussing the implementation of a Python interpreter in Python, with a unique approach but limited by its nature as an article rather than an actively developed tool, showing promise but requiring further development for practical use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://aosabook.org/en/500L/a-python-interpreter-written-in-python.html",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47755261",
+  "domain": "programming",
+  "app_type": "python-compiler",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative approach to implementing a Python interpreter in Python",
+        "Good explanation and implementation of the interpreter's logic",
+        "Interesting discussion about the differences between self-hosted compilers and circular interpreters"
+      ],
+      "negative_signals": [
+        "Some users find the concept of a Python interpreter in Python misleading",
+        "PyPy, another Python interpreter in Python, has limitations and lags behind CPython",
+        "One user questions the usefulness of a Metacircular Interpreter"
+      ],
+      "justification": "The discussion appears overwhelmingly positive, with users praising the innovative approach and good explanation, but also notes some potential limitations and misperceptions. However, these criticisms are minor and do not detract from the excitement and enthusiasm for the project.",
+      "comment_count": 22,
+      "hn_points": 88
+    }
+  }
+}
