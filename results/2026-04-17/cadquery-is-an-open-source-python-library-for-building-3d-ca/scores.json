@@ -1,0 +1,83 @@
+{
+  "app_name": "CadQuery",
+  "url": "https://cadquery.github.io/",
+  "scored_at": "2026-04-17T13:02:50.606Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "CadQuery is a parametric CAD model creator with a Python interface, which is a unique approach compared to other CAD software like Blender or SketchUp, which are more traditional GUI-based tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, indicating potential installation issues, and no PyPI package was found, making it less accessible."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a CAD software, CadQuery's relevance is not directly tied to LLM ecosystem trends but is more related to the demand for parametric CAD modeling, which is a niche but useful application."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "CadQuery differentiates itself from similar tools like Blender or SketchUp by being a Python-based library, allowing for programmatic creation of CAD models, which is a significant advantage for users who need to automate or script their CAD workflows."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without direct GitHub repository data, we cannot accurately assess the community size or activity. HN points and comments provide some insight into user engagement but are not sufficient for a comprehensive community evaluation."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the install success was false and no tests were run, it indicates significant usability issues or a lack of straightforward installation and testing processes."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "CadQuery's ease of integration is somewhat hindered by the lack of a PyPI package and no clear API or SDK mentioned, making it less straightforward to integrate into existing workflows or projects."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The webpage lacks a clear link to documentation, wiki, or guide, and with a content length of 811 characters, it suggests that while there is some information, it may not be comprehensive or easy to find."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Without direct GitHub data, maturity is hard to assess. The detected version is 2.8.0, suggesting some level of development, but the lack of changelog or release notes makes it difficult to gauge the project's stability or release cadence."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance cannot be evaluated without benchmark data or comparisons to similar tools, which are not provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 169 points and 30 comments analyzed, indicating a generally positive reception with comments highlighting its usefulness for prototyping and 3D printing, though some users note the potential steep learning curve due to its programming nature."
+    }
+  },
+  "summary": "CadQuery is a unique parametric CAD modeling library with a Python interface, offering differentiation through its programmable nature, but faces challenges in terms of installation, usability, and documentation. Its community and performance aspects are less clear due to a lack of direct data.",
+  "recommendation": "niche",
+  "app_url": "https://cadquery.github.io/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47772725",
+  "domain": "software",
+  "app_type": "cad-software",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Useful for prototyping and 3D printing",
+        "Has a nice GUI and notebook style development",
+        "Allows for interchange of step files, a commonly used CAD format",
+        "Has a strong and supportive community"
+      ],
+      "negative_signals": [
+        "May not be as easy to use as GUI-based CAD software",
+        "Limited adoption among beginners without programming background"
+      ],
+      "justification": "The comments are largely positive, with developers sharing their experiences and success stories with CadQuery, such as use cases for 3D printing and creating complex CAD models. However, some users note that the library may not be as user-friendly as GUI-based CAD software, and that its adoption may be limited by the requirement of a programming background. Overall, the tone is enthusiastic and encouraging, with users actively sharing their projects and experiences with CadQuery.",
+      "comment_count": 30,
+      "hn_points": 169
+    }
+  }
+}
