@@ -1,0 +1,118 @@
+{
+  "app_name": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+  "url": "https://github.com/gainsec/autoprober",
+  "scored_at": "2026-04-17T13:04:44.631Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a unique combination of duct tape, old cam, and CNC machine, with a robotic arm built from these components, showing a high level of originality with 1 day since repo creation and 1 contributor."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project has an install time of 12.7s and basic run success is true, but it's not pip-installable and requires specific hardware, which might limit its accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project fits into the current robotics and hardware hacking trends, particularly with the use of CNC machines and robotic arms, aligning with the type 'hardware-robotics'."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like RepRap (1035 stars), OpenROV (431 stars), and Robot Operating System (101 stars), this project has -858, -254, and +76 stars respectively, indicating a unique approach but less community attention."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 177 GitHub stars, 7 forks, and 1 contributor, the project has a small but potentially growing community, and it's been only 1 day since the last commit, showing recent activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Due to the lack of tests passed (0/0) and no specific feedback on usability, the score is neutral, requiring more data to assess user experience accurately."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project lacks a PyPI package, making it less integratable into existing workflows without manual installation and configuration, which could be challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Given the unavailability of specific documentation data, the score is neutral, suggesting that while there might be some documentation, it's not clearly outlined in the provided data."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "As the project is very new (1 day since repo creation), has a single contributor, and lacks a clear release cycle, it's considered to be in its early stages of development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The robotic arm's performance metrics such as cnc_machine_accuracy_test_time_ms (1023.30) and robotic_arm_movement_test_time_ms (1018.39) indicate efficient operation, with a vs_reprap_performance_ratio of 1.02, showing competitive performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of comments or failed analysis, making it impossible to assess community sentiment accurately."
+    }
+  },
+  "summary": "This project showcases a uniquely built robotic arm from unconventional materials, demonstrating innovate hardware hacking. However, its community, documentation, and maturity are in early stages, needing further development and engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/gainsec/autoprober",
+  "tool_url": "https://github.com/gainsec/autoprober",
+  "source_type": "repost",
+  "hn_url": "https://news.ycombinator.com/item?id=47800033",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 177,
+      "forks": 7,
+      "open_issues": 0,
+      "watchers": 177,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Hardware hacker’s flying probe automation stack for agent-driven   target discovery, microscope mapping, safety-monitored CNC motion, probe review, and   controlled pin probing.",
+      "topics": [
+        "ai-agents",
+        "autromation",
+        "embedded-security",
+        "flying-probe",
+        "gainsec",
+        "hardware-hacking",
+        "hardware-security",
+        "iot-security",
+        "offensive-security",
+        "pcb",
+        "pcb-probing",
+        "penetration-testing",
+        "reverse-engineering",
+        "robotics",
+        "security-research"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "RepRap",
+        "stars": 1035,
+        "repo": "Duet3D/RepRapFirmware"
+      },
+      {
+        "name": "OpenROV",
+        "stars": 431,
+        "repo": "OpenROV/openrov-software"
+      },
+      {
+        "name": "Robot Operating System",
+        "stars": 101,
+        "repo": "PacktPublishing/Robot-Operating-System-Cookbook"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
