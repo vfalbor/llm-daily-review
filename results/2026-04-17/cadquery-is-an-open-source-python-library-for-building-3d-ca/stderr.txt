@@ -1,0 +1,4 @@
+  File "/app/test.py", line 82
+    print('BENCHMARK:test_files_count:{}'.format(len(os.listdir()))))
+                                                                    ^
+SyntaxError: unmatched ')'
