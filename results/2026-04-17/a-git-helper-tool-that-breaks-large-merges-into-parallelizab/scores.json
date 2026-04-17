@@ -1,0 +1,104 @@
+{
+  "app_name": "A Git helper tool that breaks large merges into parallelizable tasks",
+  "url": "https://github.com/mwallner/mergetopus",
+  "scored_at": "2026-04-17T13:06:39.598Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 25 days since repo creation and being a new approach to Git merge tasks, this tool scores high in novelty, but as it's not the first-of-its-kind, it doesn't reach the top scores (days_since_created: 25)"
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The tool failed to install, which significantly impacts its system requirements score (install_success: false, install_time: 9.5s, PyPI existence: false)"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the tool's purpose is to aid in Git tasks, which are highly relevant to current development workflows, it scores well in current relevance (app_type: devtool-helper, fit with current ecosystem trends)"
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Git, this tool has a significant difference in stars (-173380 stars vs Git), indicating a smaller community but not necessarily less value (stars vs similar tools: 62 vs 173442)"
+    },
+    "community": {
+      "score": 3,
+      "justification": "With only 62 GitHub stars, 1 fork, and 3 contributors, the community is small but active, as indicated by the recent commit activity (GitHub stars: 62, contributors: 3, days_since_update: 3)"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the tool's failure to install and run, it scores low in ease of use (tests_passed: 0 / 0, install_success: false)"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Without a PyPI package and considering the difficulties in installation, integrating this tool may be challenging (PyPI existence: false, API modes: CLI)"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to lack of data on the quality of documentation, it's scored neutrally (has_wiki: unknown, has_pages: unknown, topics: unknown)"
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Being a relatively new project (25 days since creation) with some activity (3 days since last commit), maturity is scored based on this activity (days_since_created: 25, forks: 1, open_issues: 0)"
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Insufficient evidence to assess performance, as no benchmarks were provided, but the tool aims to improve merge efficiency (BENCHMARK lines: none)"
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "With an HN sentiment score of 6/10, 46 points, and mixed comments, the tool has a moderate community reception (sentiment score: 6/10, HN points: 46, comments: 11)"
+    }
+  },
+  "summary": "This Git helper tool aims to improve merge efficiency by breaking large merges into parallelizable tasks, with a small but active community and moderate novelty, but faces challenges in installation and integration.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/mwallner/mergetopus",
+  "tool_url": "https://github.com/mwallner/mergetopus",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47748733",
+  "domain": "devtool",
+  "app_type": "devtool-helper",
+  "enriched": {
+    "github": {
+      "stars": 62,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 62,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 25,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "untangle complex merges",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Git",
+        "stars": 173442,
+        "repo": "github/gitignore"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "helpful for very large merges",
+        "structured workflow improves review and merger efficiency",
+        "allows parallelization of tasks"
+      ],
+      "negative_signals": [
+        "some critics find alternative approaches more effective (e.g., Agile methodologies)",
+        "integration branch may be considered broken if not complete",
+        "tool not a cure-all for poor team practices"
+      ],
+      "justification": "The project received generally positive comments, with praise for its ability to improve review and merger efficiency, but some critics argued that alternative approaches, such as Agile methodologies, are more effective. A few comments also highlighted concerns about the tool's limitations and potential for misuse due to poor team practices.",
+      "comment_count": 11,
+      "hn_points": 46
+    }
+  }
+}
