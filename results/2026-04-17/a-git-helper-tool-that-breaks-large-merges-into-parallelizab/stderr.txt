@@ -1,0 +1,25 @@
+ERROR: Could not find a version that satisfies the requirement mergetopus (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for mergetopus
+Cloning into 'mergetopus'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///mergetopus does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 12, in <module>
+    subprocess.run(['pip', 'install', 'mergetopus'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'mergetopus']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 16, in <module>
+    subprocess.run(['pip', 'install', '-e', '.'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', '.']' returned non-zero exit status 1.
