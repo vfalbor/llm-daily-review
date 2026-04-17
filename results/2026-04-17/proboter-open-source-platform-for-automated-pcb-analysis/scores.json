@@ -1,0 +1,71 @@
+{
+  "app_name": "PROBoter",
+  "url": "https://www.schutzwerk.com/en/blog/proboter-01/",
+  "scored_at": "2026-04-17T13:06:59.889Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "PROBoter is an open-source platform for automated PCB analysis, providing a unique solution with a detected version of 1.1, setting it apart from similar tools like KiCad and Fritzing."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating potential difficulties in setting up the platform, and the install time is not directly applicable due to the nature of the web-based tool."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware-cad tool, PROBoter fits into the current landscape of PCB analysis, but its relevance is somewhat niche compared to broader LLM trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "PROBoter's open-source nature and automated PCB analysis capabilities differentiate it from similar tools like KiCad and Fritzing, with a unique approach to PCB analysis."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no available data on GitHub stars, contributors, or updates, making it difficult to assess the community aspect, thus defaulting to a neutral score of 5."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool did not pass any tests and had a basic run failure, indicating potential difficulties in use, but the presence of examples or demos on the webpage suggests some level of usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no PyPI package found and no API/SDK/webhook mention on the webpage, suggesting integration might be challenging, but the tool's web-based nature simplifies initial access."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage has a docs/wiki/guide link and examples or demos, but no changelog or release notes, indicating a moderate level of documentation quality with 18798 characters of content, suggesting some depth."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 1.1, but without more information on releases, updates, or forks, maturity is hard to assess, leading to a default score of 5."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks were provided or ran, and given the nature of the tool as a platform for PCB analysis, performance scoring is not directly applicable."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of HN comments or failed analysis."
+    }
+  },
+  "summary": "PROBoter is an innovative, open-source platform for automated PCB analysis, offering a unique approach but facing challenges in terms of community engagement, ease of use, and integration. Its documentation and differentiation are notable strengths.",
+  "recommendation": "niche",
+  "app_url": "https://www.schutzwerk.com/en/blog/proboter-01/",
+  "tool_url": "https://www.schutzwerk.com/en/blog/proboter-01/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47802971",
+  "domain": "hardware",
+  "app_type": "hardware-cad",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
