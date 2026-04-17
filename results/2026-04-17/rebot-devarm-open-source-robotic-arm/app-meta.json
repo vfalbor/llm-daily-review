@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "ReBot-DevArm: open-source Robotic Arm",
+    "url": "https://github.com/Seeed-Projects/reBot-DevArm",
+    "hn_url": "https://news.ycombinator.com/item?id=47750600",
+    "points": 73,
+    "comments": 18,
+    "author": "rickcarlino",
+    "age": "2026-04-13T11:39:12 1776080352",
+    "scraped_at": "2026-04-17T13:00:03.277Z",
+    "is_reviewable": true,
+    "is_open_source": true,
+    "requires_api_key": false,
+    "domain": "hardware",
+    "app_type": "hardware-robotics",
+    "source_type": "tool",
+    "tool_url": "https://github.com/Seeed-Projects/reBot-DevArm",
+    "repo_url": "https://github.com/Seeed-Projects/reBot-DevArm",
+    "description": "A robotic arm that is open-source.",
+    "use_modes": [
+      "Hardware",
+      "CNC"
+    ],
+    "similar_tools": [
+      "RepRap",
+      "OpenROV",
+      "Robot Operating System"
+    ],
+    "proposed_tests": [
+      "Verify the movement of the robotic arm",
+      "Test the accuracy of the CNC machine"
+    ]
+  },
+  "test_results": {
+    "run_id": "llm-review-1776431085483-lu7wh",
+    "log_dir": "/tmp/llm-review-1776431085483-lu7wh",
+    "install_success": true,
+    "install_time_s": 75.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:source_file_count:128\nBENCHMARK:prusa_slicer_install_time_s:63.24129009246826\nBENCHMARK:vs_prusa_slicer_install_time_ratio:1.0",
+    "error_log": "Cloning into 'reBot-DevArm'...\nCloning into 'PrusaSlicer'...\nUpdating files:  59% (2477/4197)\rUpdating files:  60% (2519/4197)\rUpdating files:  61% (2561/4197)\rUpdating files:  62% (2603/4197)\rUpdating files:  63% (2645/4197)\rUpdating files:  64% (2687/4197)\rUpdating files:  65% (2729/4197)\rUpdating files:  66% (2771/4197)\rUpdating files:  67% (2812/4197)\rUpdating files:  68% (2854/4197)\rUpdating files:  69% (2896/4197)\rUpdating files:  70% (2938/4197)\rUpdating files:  71% (2980/4197)\rUpdating files:  72% (3022/4197)\rUpdating files:  73% (3064/4197)\rUpdating files:  74% (3106/4197)\rUpdating files:  75% (3148/4197)\rUpdating files:  76% (3190/4197)\rUpdating files:  77% (3232/4197)\rUpdating files:  78% (3274/4197)\rUpdating files:  79% (3316/4197)\rUpdating files:  80% (3358/4197)\rUpdating files:  81% (3400/4197)\rUpdating files:  82% (3442/4197)\rUpdating files:  83% (3484/4197)\rUpdating files:  84% (3526/4197)\rUpdating files:  85% (3568/4197)\rUpdating files:  86% (3610/4197)\rUpdating files:  87% (3652/4197)\rUpdating files:  88% (3694/4197)\rUpdating files:  89% (3736/4197)\rUpdating files:  90% (3778/4197)\rUpdating files:  91% (3820/4197)\rUpdating files:  92% (3862/4197)\rUpdating files:  93% (3904/4197)\rUpdating files:  94% (3946/4197)\rUpdating files:  95% (3988/4197)\rUpdating files:  96% (4030/4197)\rUpdating files:  97% (4072/4197)\rUpdating files:  98% (4114/4197)\rUpdating files:  99% (4156/4197)\rUpdating files: 100% (4197/4197)\rUpdating files: 100% (4197/4197), done.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:source_file_count:128\nTEST_PASS:count_source_files\nINSTALL_OK\nBENCHMARK:prusa_slicer_install_time_s:63.24129009246826\nBENCHMARK:vs_prusa_slicer_install_time_ratio:1.0\nRUN_OK\n"
+  }
+}
