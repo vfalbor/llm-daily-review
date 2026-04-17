@@ -1,0 +1,98 @@
+{
+  "app_name": "Claude Code",
+  "url": "https://github.com/lucasgerads/claudicode",
+  "scored_at": "2026-04-17T13:04:01.610Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project combines SPICE simulation, oscilloscope, and verification, which is a unique approach, as seen in the article at https://lucasgerads.com/blog/lecroy-mcp-spice-demo/, with 1177 lines of code and 3 source files."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project has an install time of 8.7s and install success is true, but it's not available on PyPI, which might make installation more complex for some users."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project is relevant to the current LLM ecosystem trends, as it utilizes Claude Code for simulation and verification, and it has been discussed on HN with 96 points and 19 comments."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 0 GitHub stars, which is lower than similar tools like LTspice (280 stars), Qucs (1288 stars), and NGSPICE (230 stars), but it offers a unique combination of features."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected, but the project has been discussed on HN with 96 points and 19 comments, indicating some interest in the community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has 0 tests passed out of 5, which indicates potential difficulties in use, but it has a basic run success, which is a positive sign."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project is not available on PyPI, which might make integration more complex, but it has a unique combination of features that could make it useful for specific use cases."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no GitHub repository or wiki available, but the project has been described in an article at https://lucasgerads.com/blog/lecroy-mcp-spice-demo/, which provides some information about its usage."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no information available about the project's maturity, as there is no GitHub repository or release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available for the project, but it has been used for simulation and verification, which indicates some level of performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The project has a sentiment score of 7/10 on HN, with 96 points and 19 comments, indicating a mixed reaction from the community, with both positive and negative signals."
+    }
+  },
+  "summary": "Claude Code is a unique project that combines SPICE simulation, oscilloscope, and verification, with a mixed reaction from the HN community, and some potential difficulties in use, but it offers a new approach to circuit design and testing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://lucasgerads.com/blog/lecroy-mcp-spice-demo/",
+  "tool_url": "https://github.com/lucasgerads/claudicode",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47801255",
+  "domain": "hardware",
+  "app_type": "hardware-hybrid",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LTspice",
+        "stars": 280,
+        "repo": "nunobrum/PyLTSpice"
+      },
+      {
+        "name": "Qucs",
+        "stars": 1288,
+        "repo": "Qucs/qucs"
+      },
+      {
+        "name": "NGSPICE",
+        "stars": 230,
+        "repo": "ngspice/ngspice"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Closing the loop between simulation and real hardware",
+        "Potential to streamline circuit design and testing",
+        "Useful for educators in applied physics and electronics"
+      ],
+      "negative_signals": [
+        "Concerns about LLM hallucinations and accuracy",
+        "Potential for LLM to misinterpret or make false claims about circuits"
+      ],
+      "justification": "The project has sparked a mixed reaction, with some users praising its potential for streamlining circuit design and testing, while others expressed concerns about the accuracy and reliability of the LLM's predictions. The most significant negatives relate to LLM hallucinations and the potential for misinterpretation.",
+      "comment_count": 19,
+      "hn_points": 96
+    }
+  }
+}
