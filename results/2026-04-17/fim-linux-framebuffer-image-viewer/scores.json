@@ -1,0 +1,83 @@
+{
+  "app_name": "FIM",
+  "url": "https://www.nongnu.org/fbi-improved/",
+  "scored_at": "2026-04-17T13:02:23.648Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "FIM is not the first-of-its-kind image viewer, but its focus on the Linux framebuffer is a unique aspect, with 184351 characters on its webpage indicating a rich set of features or documentation, similar to tools like eek and fbi, which also operate in the image viewer space."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app could not be installed, with install success being false and no PyPI package found, making it difficult for users to get started, as indicated by the 7.1 seconds install time, which may not be entirely relevant due to the install failure."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an image viewer for the Linux framebuffer, FIM fits into a specific niche within the current tech landscape, particularly useful for those working in environments where the Linux framebuffer is utilized, similar to how fbi and eek are used."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While FIM has a unique approach by focusing on the Linux framebuffer, without direct comparisons to similar tools like eek and fbi in terms of features or benchmarks, it's challenging to assert a significant advantage, despite its detected version being 4.01, indicating some level of development and refinement."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected and no clear indication of community engagement through traditional open-source channels, but considering the webpage's content length of 184351 characters and the presence of a changelog or release notes, there's some level of maintenance and care, though not as robust as seen in highly community-driven projects."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the basic run success is false and no tests were passed, it indicates potential difficulties in getting started with or using FIM, which could be due to its command-line interface nature and the need for specific setup or dependencies, though it's designed as a simple image viewer."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "While FIM is designed for a specific use case and has a command-line interface, the presence of a detected API/SDK/webhook mention on its webpage suggests some capability for integration, though the lack of a straightforward install command on the page and no PyPI package complicates this, with its license being open-source adding to its integrability."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The webpage has a significant amount of content (184351 characters), includes links to documentation, a guide, examples, and a changelog, which are strong indicators of good documentation quality, facilitating easier use and integration of FIM for its users, similar to what is expected from mature projects like fbi."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version of 4.01, presence of changelog or release notes, and significant webpage content suggest a level of maturity and ongoing development, despite the lack of clear community engagement metrics, indicating that FIM has been refined over time, similar to other specialized tools in the image viewer space."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no available benchmark results to assess FIM's performance directly, making it challenging to evaluate its efficiency compared to similar tools without specific metrics or comparisons to other image viewers like eek and fbi."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not provided for this app, so it cannot be scored, though the general positive community reaction to similar projects could be a proxy, given the specific nature of this tool and its niche use case."
+    },
+    "overall_impact": {
+      "score": 5,
+      "justification": "Without comprehensive data on community engagement, performance benchmarks, and considering the specific niche FIM caters to, its overall impact is difficult to gauge on a larger scale, especially compared to more widely used image viewers, though its unique features and documentation contribute positively."
+    }
+  },
+  "summary": "FIM is a specialized image viewer for the Linux framebuffer, offering a unique set of features and documentation, though it faces challenges in terms of ease of use and integration, and its overall impact is somewhat limited by its niche focus, similar to other specialized image viewers.",
+  "recommendation": "niche",
+  "app_url": "https://www.nongnu.org/fbi-improved/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47803323",
+  "domain": "hardware",
+  "app_type": "image-viewer",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Effective use of framebuffer for minimalistic image viewing"
+      ],
+      "negative_signals": [
+        "Concerns about developer's behavior and choice of name for kitty terminal"
+      ],
+      "justification": "The comment thread is generally positive, with several users sharing their experiences and offering related tips, but there are a few comments expressing concerns about developer behavior and the naming of the kitty terminal.",
+      "comment_count": 30,
+      "hn_points": 88
+    }
+  }
+}
