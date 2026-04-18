@@ -1,0 +1,25 @@
+  * 
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+  * 
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/sfsym - Not found
+npm error 404
+npm error 404  The requested resource 'sfsym@*' could not be found or you do not have permission to access it.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-18T13_02_40_794Z-debug-0.log
+Cloning into 'sfsym'...
+error: could not find `Cargo.toml` in `/sfsym` or any parent directory
+Traceback (most recent call last):
+  File "/app/test.py", line 44, in <module>
+    subprocess.run(['./target/debug/sfsym', 'export', 'symbol'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: './target/debug/sfsym'
