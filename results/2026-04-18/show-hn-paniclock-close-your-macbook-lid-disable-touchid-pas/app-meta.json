@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Show HN: PanicLock – Close your MacBook lid disable TouchID –> password unlock",
+    "url": "https://github.com/paniclock/paniclock/",
+    "hn_url": "https://news.ycombinator.com/item?id=47807809",
+    "points": 209,
+    "comments": 97,
+    "author": "seanieb",
+    "age": "2026-04-17T16:38:44 1776443924",
+    "scraped_at": "2026-04-18T13:00:03.649Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "tool_url": "https://github.com/paniclock/paniclock",
+    "description": "Close your MacBook lid to disable Touch ID, requiring a password for unlock",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      null
+    ],
+    "proposed_tests": [
+      "`brew install paniclock`, run `paniclock` in a Terminal, then lock the MacBook and test TouchID"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/paniclock/paniclock",
+    "confidence": 1
+  },
+  "test_results": {
+    "run_id": "llm-review-1776517327032-nxxgz",
+    "log_dir": "/tmp/llm-review-1776517327032-nxxgz",
+    "install_success": true,
+    "install_time_s": 10.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'paniclock'...\nmake: *** No rule to make target 'install'.  Stop.\nwc: paniclock/**/*.py: No such file or directory\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\n( 1/13) Installing libgcc (15.2.0-r2)\n( 2/13) Installing jansson (2.14.1-r0)\n( 3/13) Installing libstdc++ (15.2.0-r2)\n( 4/13) Installing binutils (2.45.1-r0)\n( 5/13) Installing libgomp (15.2.0-r2)\n( 6/13) Installing libatomic (15.2.0-r2)\n( 7/13) Installing gmp (6.3.0-r4)\n( 8/13) Installing isl26 (0.26-r1)\n( 9/13) Installing mpfr4 (4.2.2-r0)\n(10/13) Installing mpc1 (1.3.1-r1)\n(11/13) Installing gcc (15.2.0-r2)\n(12/13) Installing make (4.4.1-r3)\n(13/13) Installing musl-dev (1.2.5-r23)\nExecuting busybox-1.37.0-r30.trigger\nOK: 215.4 MiB in 65 packages\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:cli:[Errno 2] No such file or directory: 'paniclock'\nTEST_FAIL:touchid_disable:[Errno 2] No such file or directory: 'paniclock'\nTEST_FAIL:memory_usage:[Errno 2] No such file or directory: 'paniclock'\nTEST_FAIL:loc_count:list index out of range\nTEST_SKIP:baseline_comparison:No similar baseline tool provided\nRUN_OK\n"
+  }
+}
