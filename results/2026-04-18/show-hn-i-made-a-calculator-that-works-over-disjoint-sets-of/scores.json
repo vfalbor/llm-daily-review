@@ -1,0 +1,82 @@
+{
+  "app_name": "Interval Calculator",
+  "url": "https://victorpoughon.github.io/interval-calculator/",
+  "scored_at": "2026-04-18T13:02:06.055Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a specific problem in a unique way, with a focus on interval arithmetic, which is not commonly addressed by other tools. The page content length of 5358 characters suggests a well-documented effort."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating difficulty in setting up the app, and no PyPI package is available, which complicates the installation process. However, the page provides examples and a detected version of 1.0, suggesting some level of organization."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app type is a devtool-cli, and the current relevance is tied to the need for interval arithmetic in development, which, while niche, has a clear audience. The page signals suggest an attempt to address a specific need within the LLM ecosystem, particularly with discussions on its applications and limitations."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app's focus on interval arithmetic sets it apart, but it lacks direct comparisons to similar tools like Interval arithmetic and Interval mathematics. The unique selling point is its application to disjoint sets of intervals, which is a differentiation but not a significant one without more context."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without GitHub repository data, we rely on HN points (197) and comments (30) as a proxy. The sentiment score of 9/10 indicates a positive reception, but the lack of direct community engagement metrics like GitHub stars and contributors makes it difficult to assess the community's health accurately."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant usability issues. The install command is not provided on the page, complicating the setup process further."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available, and there's no mention of an API or SDK, making integration into existing workflows challenging. However, the app is designed as a CLI tool, which could simplify use for some users."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The page has a docs/wiki/guide link, examples, and a changelog or release notes, although the latter is not present. The content length suggests a well-documented project, contributing to a positive documentation score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 1.0, suggesting a level of maturity, but without GitHub data or release notes, it's challenging to accurately assess the project's maturity and stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmarks are provided, and without quantitative data on performance, it's not possible to evaluate this criterion accurately. The app's unique nature and lack of direct comparisons make it hard to assess performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is provided, but since the 'hn_sentiment' score is not one of the required criteria and is instead an input for other scores, particularly community and maturity, it is set to null to adhere to the scoring format."
+    }
+  },
+  "summary": "The Interval Calculator is a unique tool addressing interval arithmetic over disjoint sets of intervals, with a positive reception on HN but significant usability and integration challenges. Its documentation and novelty are notable, but the lack of direct comparisons and community engagement metrics limits its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://victorpoughon.github.io/interval-calculator/",
+  "tool_url": "https://victorpoughon.github.io/interval-calculator/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47812341",
+  "domain": "math",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Interval arithmetic implementation with interesting discussions on its applications and limitations.",
+        "Developer community appreciating the effort and sharing experiences with interval arithmetic.",
+        "Suggestions for further development and integration with other programming concepts."
+      ],
+      "negative_signals": [
+        "Some users are confused by the notation used in the interval arithmetic representation.",
+        "One user suggests support for closed intervals, which is marked as complicated and not currently supported."
+      ],
+      "justification": "Most comments are overwhelmingly positive, appreciating the effort, understanding of interval arithmetic, and its applications. However, a few users express minor criticisms, primarily about notation and limitations of the current implementation.",
+      "comment_count": 30,
+      "hn_points": 197
+    }
+  }
+}
