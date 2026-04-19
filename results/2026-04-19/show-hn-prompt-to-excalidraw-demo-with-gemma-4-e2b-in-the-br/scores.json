@@ -1,0 +1,97 @@
+{
+  "app_name": "Gemma 4 Demo",
+  "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+  "scored_at": "2026-04-19T13:02:37.773Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app demonstrates real-time inference with Gemma 4 in the browser, which is a unique approach, but it is based on existing tools like Gemma 4 and TurboQuant, with 229 GitHub stars and 7 forks, as of 15 days since the repo was created."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is not pip-installable, with install success being false and install time of 46.4s, indicating potential issues with accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to the current LLM ecosystem trends, as it demonstrates real-time inference in the browser, with a primary language of Zig, and is classified as an llm-inference tool."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has 229 GitHub stars, compared to similar tools like Gemma 4 with 107 stars and TurboQuant with 6,357 stars, indicating a smaller community and less differentiation."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 229 GitHub stars, 7 forks, and 4 contributors, with 0 open issues and 0 days since the last commit, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app has 0 tests passed out of 5, with basic run success being true, but install success being false, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is not pip-installable and has no PyPI package found, with a license of MIT, but no clear API modes or use_modes, indicating potential integration difficulties."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data available to evaluate the quality of the documentation, as the GitHub repository and app URL do not provide enough information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data available to evaluate the maturity of the app, as the GitHub repository and app URL do not provide enough information about the development stage or release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data available to evaluate the performance of the app, as the benchmark measurements from the container do not provide enough information about the app's performance relative to similar tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available, as there are no comments or the analysis failed."
+    }
+  },
+  "summary": "The Gemma 4 Demo is a unique tool that demonstrates real-time inference with Gemma 4 in the browser, but it has potential issues with accessibility, usability, and integration, and lacks sufficient data to evaluate its documentation, maturity, and performance.",
+  "recommendation": "niche",
+  "app_url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47823460",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 229,
+      "forks": 7,
+      "open_issues": 0,
+      "watchers": 229,
+      "contributors": 4,
+      "license": "MIT",
+      "language": "Zig",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 15,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "TurboQuant WASM SIMD vector compression — 3 bits/dim with fast dot product. Requires relaxed SIMD (Chrome 114+, Firefox 128+, Safari 18+, Node 20+)",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Gemma 4",
+        "stars": 107,
+        "repo": "pmarreck/gemma4-heretical"
+      },
+      {
+        "name": "TurboQuant",
+        "stars": 6357,
+        "repo": "TheTom/turboquant_plus"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
