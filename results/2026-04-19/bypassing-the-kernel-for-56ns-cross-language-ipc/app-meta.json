@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Bypassing the kernel for 56ns cross-language IPC",
+    "url": "https://github.com/riyaneel/Tachyon/tree/main/docs/adr",
+    "hn_url": "https://news.ycombinator.com/item?id=47796496",
+    "points": 58,
+    "comments": 23,
+    "author": "riyaneel",
+    "age": "2026-04-16T17:13:50 1776359630",
+    "scraped_at": "2026-04-19T13:00:03.207Z",
+    "tool_url": "https://github.com/riyaneel/Tachyon",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A library and tools for bypassing the kernel for cross-language IPC at extremely low overheads.",
+    "use_modes": [
+      "GitHub"
+    ],
+    "similar_tools": [
+      "gRPC",
+      "FlatBuffers"
+    ],
+    "proposed_tests": [
+      "Install Tachyon",
+      "Run a cross-language IPC example",
+      "Measure latency"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/riyaneel/Tachyon"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776603758726-9rhgl",
+    "log_dir": "/tmp/llm-review-1776603758726-9rhgl",
+    "install_success": true,
+    "install_time_s": 12.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.002384185791015625",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting tachyon\n  Downloading Tachyon-1.0.3.tar.gz (10 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: tachyon\n  Building wheel for tachyon (pyproject.toml): started\n  Building wheel for tachyon (pyproject.toml): finished with status 'done'\n  Created wheel for tachyon: filename=tachyon-1.0.3-py3-none-any.whl size=13814 sha256=9ed0e401119bf8ebc33632d4e29d0f6b6304014199c0c8069409653413aed87c\n  Stored in directory: /root/.cache/pip/wheels/99/00/2f/6b7810d6bbdc6e45b9641836c6ca1c02e624da99a905b1969e\nSuccessfully built tachyon\nInstalling collected packages: tachyon\nSuccessfully installed tachyon-1.0.3\nInstalling dependencies...\nINSTALL_OK\nInstalling Tachyon...\nINSTALL_OK\nRunning cross-language IPC example...\nTEST_FAIL:cross_language_ipc_example:module 'tachyon' has no attribute 'send'\nMeasuring import time...\nTEST_PASS:import_time\nBENCHMARK:import_time_ms:0.002384185791015625\nMeasuring latency...\nTEST_FAIL:latency_test:module 'tachyon' has no attribute 'send'\nTEST_SKIP:compare_performance_to_baseline:No module named 'grpc'\nMeasuring memory usage...\nTEST_FAIL:memory_usage_test:module 'tachyon' has no attribute 'send'\nRUN_OK\n"
+  }
+}
