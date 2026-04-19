@@ -1,0 +1,574 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/teamchong/turboquant-wasm.git /tmp/pip-req-build-d0i6zov0
+  error: unable to write file demo/public/data/embeddings.bin
+  error: unable to write file demo/public/data/image_compressed.tqv
+  error: unable to write file demo/public/data/image_embeddings.bin
+  error: unable to write file demo/public/data/image_meta.json
+  error: unable to write file demo/public/data/lego.ply
+  error: unable to write file demo/public/data/lego.tqply
+  error: unable to write file demo/public/data/passages.json
+  error: unable to write file demo/public/data/query_embeddings.json
+  error: unable to write file demo/public/data/wiki-50k/compressed.tqv
+  error: unable to write file demo/public/data/wiki-50k/embeddings.bin
+  error: unable to write file demo/public/data/wiki-50k/passages.json
+  error: unable to write file demo/public/gguf-parser.wasm
+  error: unable to write file demo/public/system-cache.bin
+  error: unable to write file demo/scripts/download-scene.sh
+  error: unable to write file demo/scripts/write-prompt-hash.mjs
+  error: unable to write file demo/search.html
+  error: unable to write file demo/src/decompressor.ts
+  error: unable to write file demo/src/draw/code-editor.ts
+  error: unable to write file demo/src/draw/drawmode/drawmode-wasm.ts
+  error: unable to write file demo/src/draw/drawmode/executor.ts
+  error: unable to write file demo/src/draw/drawmode/layout.ts
+  error: unable to write file demo/src/draw/drawmode/sdk-types.ts
+  error: unable to write file demo/src/draw/drawmode/sdk.ts
+  error: unable to write file demo/src/draw/drawmode/types.ts
+  error: unable to write file demo/src/draw/engine-worker.ts
+  error: unable to write file demo/src/draw/engine.ts
+  error: unable to write file demo/src/draw/excalidraw-viewer.ts
+  error: unable to write file demo/src/draw/grammar.ts
+  error: unable to write file demo/src/draw/main.ts
+  error: unable to write file demo/src/draw/model-loader.ts
+  error: unable to write file demo/src/draw/polar-config.ts
+  error: unable to write file demo/src/draw/prompts/architecture.ts
+  error: unable to write file demo/src/draw/prompts/class.ts
+  error: unable to write file demo/src/draw/prompts/er.ts
+  error: unable to write file demo/src/draw/prompts/flowchart.ts
+  error: unable to write file demo/src/draw/prompts/index.ts
+  error: unable to write file demo/src/draw/prompts/orgchart.ts
+  error: unable to write file demo/src/draw/prompts/preamble.ts
+  error: unable to write file demo/src/draw/prompts/router.ts
+  error: unable to write file demo/src/draw/prompts/sequence.ts
+  error: unable to write file demo/src/draw/prompts/state.ts
+  error: unable to write file demo/src/draw/prompts/swimlane.ts
+  error: unable to write file demo/src/draw/shaders/argmax.wgsl
+  error: unable to write file demo/src/draw/shaders/gelu.wgsl
+  error: unable to write file demo/src/draw/shaders/get-rows-q4k.wgsl
+  error: unable to write file demo/src/draw/shaders/get-rows-q5k.wgsl
+  error: unable to write file demo/src/draw/shaders/logit-mask.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-bf16.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-f32-gelu.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-f32.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q4k-batched-fixed.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q4k-batched-gelu.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q4k-batched.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q4k-gelu.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q4k.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q6k-batched.wgsl
+  error: unable to write file demo/src/draw/shaders/matmul-q6k.wgsl
+  error: unable to write file demo/src/draw/shaders/mh-softmax.wgsl
+  error: unable to write file demo/src/draw/shaders/residual-add-inplace.wgsl
+  error: unable to write file demo/src/draw/shaders/residual-add-scale-inplace.wgsl
+  error: unable to write file demo/src/draw/shaders/residual-add.wgsl
+  error: unable to write file demo/src/draw/shaders/rms-norm-residual.wgsl
+  error: unable to write file demo/src/draw/shaders/rms-norm.wgsl
+  error: unable to write file demo/src/draw/shaders/rope.wgsl
+  error: unable to write file demo/src/draw/shaders/scale-by-buf.wgsl
+  error: unable to write file demo/src/draw/shaders/scale-inplace.wgsl
+  error: unable to write file demo/src/draw/shaders/softcap.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-attention.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-decode.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-encode.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-f16-to-f32.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-inverse-rotate.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-rotate.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-weighted-sum-p1.wgsl
+  error: unable to write file demo/src/draw/shaders/tq-weighted-sum-p2.wgsl
+  error: unable to write file demo/src/draw/style.css
+  error: unable to write file demo/src/draw/system-cache-container.ts
+  error: unable to write file demo/src/draw/wasm/build-cache.sh
+  error: unable to write file demo/src/draw/wasm/build-wasm.sh
+  error: unable to write file demo/src/draw/wasm/build.zig
+  error: unable to write file demo/src/draw/wasm/optimize-wasm.sh
+  error: unable to write file demo/src/draw/wasm/src/arrows.zig
+  error: unable to write file demo/src/draw/wasm/src/compress.zig
+  error: unable to write file demo/src/draw/wasm/src/fonts/Assistant-Regular.ttf
+  error: unable to write file demo/src/draw/wasm/src/fonts/Virgil.ttf
+  error: unable to write file demo/src/draw/wasm/src/layout.zig
+  error: unable to write file demo/src/draw/wasm/src/main.zig
+  error: unable to write file demo/src/draw/wasm/src/util.zig
+  error: unable to write file demo/src/draw/wasm/src/validate.zig
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/config.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/README
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/cdt.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/cdt.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtclose.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtdisc.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtextract.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtflatten.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dthash.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dthdr.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtmethod.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtopen.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtrenew.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtrestore.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtsize.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtstat.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtstrhash.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dttree.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtview.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/dtwalk.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cdt/libcdt.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/acyclic.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/agerror.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/agstrcanon.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/apply.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/attr.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/cghdr.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/cgraph.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/cgraph.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/edge.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/grammar.y
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/graph.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/gv_ctype.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/gv_math.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/id.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/imap.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/ingraphs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/io.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/libcgraph.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/list.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/node.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/node_induce.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/node_set.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/obj.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/rdr.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/rec.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/refstr.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/scan.l
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/subg.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/tred.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/unflatten.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/utils.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/cgraph/write.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/block.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/block.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/blockpath.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/blockpath.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/blocktree.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/blocktree.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circo.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circpos.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circpos.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circular.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circular.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/circularinit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/edgelist.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/edgelist.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/nodelist.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/circogen/nodelist.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/README.imap
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/arith.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/arrows.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/boxes.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/brewer_colors
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/color.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/color_names
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/colorprocs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/colortbl.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/colxlate.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/const.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/ellipse.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/entities.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/entities.html
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/entities.py
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/geom.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/geom.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/geomprocs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/globals.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/globals.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/htmllex.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/htmlparse.y
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/htmltable.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/input.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/labels.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/macros.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/make_colortbl.py
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/ns.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/pointset.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/pointset.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/postproc.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/ps_font_equiv.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/render.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/routespl.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/shapes.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/splines.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/svgcolor_names
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/taper.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/textspan.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/textspan.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/textspan_lut.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/textspan_lut.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/timing.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/types.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/usershape.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/utils.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/common/utils.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/README.imap
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/acyclic.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/aspect.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/aspect.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/class1.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/class2.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/cluster.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/compound.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/conc.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/decomp.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/dot.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/dotinit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/dotprocs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/dotsplines.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/fastgr.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/flat.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/mincross.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/position.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/rank.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/dotgen/sameport.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/fdpgen/fdp.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/README.lifecycles
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/builddate.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvc.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvc.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvc.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcext.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcint.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcjob.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcommon.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvconfig.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcontext.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvcproc.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvio.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvjobs.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvlayout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin_device.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin_layout.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin_loadimage.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin_render.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/gvplugin_textlayout.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/gvc/libgvc.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/index.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/index.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/node.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/node.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/rectangle.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/rectangle.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/split.q.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/split.q.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/xlabels.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/label/xlabels.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/adjust.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/adjust.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/bfs.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/bfs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/call_tri.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/call_tri.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/circuit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/closest.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/closest.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/compute_hierarchy.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/conjgrad.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/conjgrad.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/constrained_majorization.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/constrained_majorization_ipsep.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/constraint.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/defs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/delaunay.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/delaunay.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/digcola.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/dijkstra.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/dijkstra.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/edges.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/edges.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/embed_graph.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/embed_graph.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/fPQ.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/geometry.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/geometry.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/heap.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/heap.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/hedges.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/hedges.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/info.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/info.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/kkutils.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/kkutils.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/legal.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/lu.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/matinv.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/matrix_ops.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/matrix_ops.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/mem.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/memory.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/multispline.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/multispline.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/neato.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/neatoinit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/neatoprocs.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/neatosplines.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/opt_arrangement.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/overlap.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/overlap.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/pca.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/pca.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/poly.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/poly.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/quad_prog_solve.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/quad_prog_solver.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/quad_prog_vpsc.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/quad_prog_vpsc.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/randomkit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/randomkit.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/sgd.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/sgd.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/site.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/site.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/smart_ini_x.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/solve.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/sparsegraph.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/stress.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/stress.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/stuff.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/voronoi.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/neatogen/voronoi.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/fPQ.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/fPQ.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/maze.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/maze.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/ortho.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/ortho.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/partition.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/partition.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/rawgraph.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/rawgraph.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/sgraph.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/sgraph.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/structures.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/trap.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/ortho/trapezoid.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pack/ccomps.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pack/pack.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pack/pack.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pack/pack.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/README
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/cvt.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/inpoly.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/libpathplan.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/pathgeom.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/pathplan.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/pathplan.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/pathutil.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/route.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/shortest.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/shortestpth.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/solvers.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/solvers.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/tri.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/triang.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/util.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/vis.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/visibility.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/pathplan/vispath.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/CHANGES
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/LICENSE
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/makefile.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/red_black_tree.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/red_black_tree.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/rbtree/test_red_black_tree.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/Multilevel.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/Multilevel.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/libsfdp.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/post_process.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/post_process.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/sfdp.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/sfdpinit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/sparse_solve.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/sparse_solve.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/spring_electrical.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/spring_electrical.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/stress_model.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sfdpgen/stress_model.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/DotIO.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/DotIO.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/QuadTree.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/QuadTree.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/SparseMatrix.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/SparseMatrix.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/clustering.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/clustering.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/color_palette.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/color_palette.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/colorutil.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/colorutil.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/general.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/general.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/mq.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/sparse/mq.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/twopigen/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/twopigen/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/twopigen/circle.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/twopigen/circle.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/twopigen/twopiinit.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/README
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/agxbuf.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/alloc.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/api.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/arena.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/arena.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/asan.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/base64.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/base64.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/bitarray.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/debug.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/exit.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/gv_ctype.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/gv_find_me.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/gv_fopen.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/gv_ftell.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/gv_math.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/itos.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/list-private.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/list.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/list.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/lockfile.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/optional.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/overflow.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/path.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/prisize_t.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/random.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/random.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/sort.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/startswith.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/strcasecmp.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/streq.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/strview.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/tokenize.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/unreachable.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/unused.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/xml.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/util/xml.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/xdot/libxdot.pc.in
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/xdot/xdot.3
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/xdot/xdot.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/lib/xdot/xdot.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/circo_layout/gvlayout_circo_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/circo_layout/gvplugin_circo_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/dot_layout/gvlayout_dot_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/dot_layout/gvplugin_dot_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/neato_layout/CMakeLists.txt
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/neato_layout/Makefile.am
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/neato_layout/gvlayout_neato_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/plugin/neato_layout/gvplugin_neato_layout.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/wasm_platform/gviz_bridge.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/wasm_platform/gviz_bridge.h
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/wasm_platform/neato_compat.c
+  error: unable to write file demo/src/draw/wasm/vendor/graphviz/wasm_platform/platform.c
+  error: unable to write file demo/src/gaussian-splats-3d.d.ts
+  error: unable to write file demo/src/images/main.ts
+  error: unable to write file demo/src/images/style.css
+  error: unable to write file demo/src/landing/style.css
+  error: unable to write file demo/src/main.ts
+  error: unable to write file demo/src/ply-parser.ts
+  error: unable to write file demo/src/ply-writer.ts
+  error: unable to write file demo/src/search/brute-gpu.ts
+  error: unable to write file demo/src/search/data-loader.ts
+  error: unable to write file demo/src/search/embedder.ts
+  error: unable to write file demo/src/search/main.ts
+  error: unable to write file demo/src/search/search-engine.ts
+  error: unable to write file demo/src/search/style.css
+  error: unable to write file demo/src/stats.ts
+  error: unable to write file demo/src/style.css
+  error: unable to write file demo/src/tqply-format.ts
+  error: unable to write file demo/src/viewer.ts
+  error: unable to write file demo/src/vite-env.d.ts
+  error: unable to write file demo/tests/addgroup-repro.spec.ts
+  error: unable to write file demo/tests/build-cache.spec.ts
+  error: unable to write file demo/tests/conformance-bos-reference.txt
+  error: unable to write file demo/tests/conformance.spec.ts
+  error: unable to write file demo/tests/decode-batch-equiv.spec.ts
+  error: unable to write file demo/tests/decode-batch-genuine-equiv.spec.ts
+  error: unable to write file demo/tests/decode-batch-genuine-perf.spec.ts
+  error: unable to write file demo/tests/diagnose-long-output-drift.spec.ts
+  error: unable to write file demo/tests/gpu-shaders.spec.ts
+  error: unable to write file demo/tests/integration.spec.ts
+  error: unable to write file demo/tests/manual-check.spec.ts
+  error: unable to write file demo/tests/matmul-batched-benchmark.spec.ts
+  error: unable to write file demo/tests/matmul-batched-conformance.spec.ts
+  error: unable to write file demo/tests/mode-tracker.spec.ts
+  error: unable to write file demo/tests/perf-baseline.spec.ts
+  error: unable to write file demo/tests/race-mapasync.spec.ts
+  error: unable to write file demo/tests/sdk-er-table.spec.ts
+  error: unable to write file demo/tests/sdk-label-collision.spec.ts
+  error: unable to write file demo/tests/sdk-swimlane.spec.ts
+  error: unable to write file demo/tests/sdk-uml-class.spec.ts
+  error: unable to write file demo/tests/speculative-ngram-analysis.spec.ts
+  error: unable to write file demo/tests/system-cache-container.spec.ts
+  error: unable to write file demo/tests/upload-bench.spec.ts
+  error: unable to write file demo/tests/url-prompt.spec.ts
+  error: unable to write file demo/tests/viewer-smoke.spec.ts
+  error: unable to write file demo/tests/webllm-baseline.spec.ts
+  error: unable to write file demo/tsconfig.json
+  error: unable to write file demo/vite.config.ts
+  error: unable to write file demo/webllm-bench.html
+  error: unable to write file docs/assets/bits-per-dimension.png
+  error: unable to write file docs/assets/component-analysis.png
+  error: unable to write file docs/assets/compression-ratio.png
+  error: unable to write file docs/assets/dot-product-error.png
+  error: unable to write file docs/assets/mse-distortion.png
+  error: unable to write file docs/assets/performance.png
+  error: unable to write file docs/assets/recall-at-k.png
+  error: unable to write file package.json
+  error: unable to write file scripts/embed-wasm.mjs
+  error: unable to write file scripts/plot_quality.py
+  error: unable to write file src/format.zig
+  error: unable to write file src/js/gpu-index.ts
+  error: unable to write file src/js/index.ts
+  error: unable to write file src/js/shaders/tq-dot-batch.wgsl
+  error: unable to write file src/js/wgsl.d.ts
+  error: unable to write file src/math.zig
+  error: unable to write file src/polar.zig
+  error: unable to write file src/qjl.zig
+  error: unable to write file src/rotation.zig
+  error: unable to write file src/tqstream.zig
+  error: unable to write file src/turboquant.zig
+  error: unable to write file src/wasm_exports.zig
+  error: unable to write file tsconfig.json
+  fatal: unable to checkout working tree
+  warning: Clone succeeded, but checkout failed.
+  You can inspect what was checked out with 'git status'
+  and retry with 'git restore --source=HEAD :/'
+
+  error: subprocess-exited-with-error
+  
+  × git clone --filter=blob:none --quiet https://github.com/teamchong/turboquant-wasm.git /tmp/pip-req-build-d0i6zov0 did not run successfully.
+  │ exit code: 128
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× git clone --filter=blob:none --quiet https://github.com/teamchong/turboquant-wasm.git /tmp/pip-req-build-d0i6zov0 did not run successfully.
+│ exit code: 128
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+Cloning into 'turboquant-wasm'...
+Updating files:   8% (48/580)Updating files:   9% (53/580)Updating files:  10% (58/580)Updating files:  11% (64/580)Updating files:  12% (70/580)Updating files:  13% (76/580)Updating files:  14% (82/580)Updating files:  15% (87/580)Updating files:  16% (93/580)Updating files:  17% (99/580)Updating files:  18% (105/580)Updating files:  19% (111/580)Updating files:  20% (116/580)Updating files:  21% (122/580)Updating files:  22% (128/580)Updating files:  23% (134/580)Updating files:  24% (140/580)Updating files:  25% (145/580)Updating files:  26% (151/580)Updating files:  27% (157/580)Updating files:  28% (163/580)Updating files:  29% (169/580)Updating files:  30% (174/580)Updating files:  31% (180/580)Updating files:  32% (186/580)Updating files:  33% (192/580)Updating files:  34% (198/580)Updating files:  35% (203/580)Updating files:  36% (209/580)Updating files:  37% (215/580)Updating files:  38% (221/580)Updating files:  39% (227/580)Updating files:  40% (232/580)Updating files:  41% (238/580)Updating files:  42% (244/580)Updating files:  43% (250/580)Updating files:  44% (256/580)Updating files:  45% (261/580)Updating files:  46% (267/580)Updating files:  47% (273/580)Updating files:  48% (279/580)Updating files:  49% (285/580)Updating files:  50% (290/580)Updating files:  51% (296/580)Updating files:  52% (302/580)Updating files:  53% (308/580)Updating files:  54% (314/580)Updating files:  55% (319/580)Updating files:  56% (325/580)Updating files:  57% (331/580)Updating files:  58% (337/580)Updating files:  59% (343/580)Updating files:  60% (348/580)Updating files:  61% (354/580)Updating files:  62% (360/580)Updating files:  63% (366/580)Updating files:  64% (372/580)Updating files:  65% (377/580)Updating files:  66% (383/580)Updating files:  67% (389/580)Updating files:  68% (395/580)Updating files:  69% (401/580)Updating files:  70% (406/580)Updating files:  71% (412/580)Updating files:  72% (418/580)Updating files:  73% (424/580)Updating files:  74% (430/580)Updating files:  75% (435/580)Updating files:  76% (441/580)Updating files:  77% (447/580)Updating files:  78% (453/580)Updating files:  79% (459/580)Updating files:  80% (464/580)Updating files:  81% (470/580)Updating files:  82% (476/580)Updating files:  83% (482/580)Updating files:  84% (488/580)Updating files:  85% (493/580)Updating files:  86% (499/580)Updating files:  87% (505/580)Updating files:  88% (511/580)Updating files:  89% (517/580)Updating files:  90% (522/580)Updating files:  91% (528/580)Updating files:  92% (534/580)Updating files:  93% (540/580)Updating files:  94% (546/580)Updating files:  95% (551/580)Updating files:  96% (557/580)Updating files:  97% (563/580)Updating files:  98% (569/580)Updating files:  99% (575/580)Updating files: 100% (580/580)Updating files: 100% (580/580), done.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./turboquant-wasm is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
