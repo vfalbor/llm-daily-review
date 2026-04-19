@@ -1,0 +1,128 @@
+{
+  "app_name": "Tachyon",
+  "url": "https://github.com/riyaneel/Tachyon",
+  "scored_at": "2026-04-19T13:03:01.344Z",
+  "total_score": 76,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The project's approach to bypassing the kernel for cross-language IPC is novel, with a 56ns p50 round-trip time, which is a significant improvement over existing methods (days_since_created: 42, is_fork: false, similar tools: gRPC (44,645 stars), FlatBuffers (25,815 stars))"
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has a successful install (install_success: true) and a relatively fast install time (install_time_s: 12.1s), with a PyPI package existing (package_exists: true, version: 1.0.3)"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The project fits well with current LLM ecosystem trends, addressing the need for efficient cross-language IPC (app_type: llm-inference, use_modes: GitHub)"
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project differentiates itself from similar tools like gRPC (44,645 stars) and FlatBuffers (25,815 stars) with its extremely low overhead approach (BENCHMARK import_time_ms: 0.002384185791015625)"
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has a small but active community, with 86 GitHub stars, 2 contributors, and 0 open issues, and has received significant interest on HN (HN points: 58, comments: 22)"
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The project's tests have a low pass rate (tests_passed: 1/5), but the basic run is successful (basic_run_success: true), indicating some potential usability issues"
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The project has a PyPI package (package_exists: true) and is written in C++ (primary_language: C++), making it relatively easy to integrate into existing workflows"
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with a wiki and pages (has_wiki: true, has_pages: true), and its documentation is relatively complete, with a score of 7 out of 10"
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is relatively new (days_since_created: 42) but has a stable release (version: 1.0.3) and is actively maintained (days_since_last_commit: 0)"
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The project's benchmark measurements show a fast import time (import_time_ms: 0.002384185791015625), indicating good performance"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The project has a positive sentiment score on HN (sentiment_score: 8/10), with 58 points, 22 comments, and a summary indicating excitement and interest in the project's potential applications"
+    }
+  },
+  "summary": "Tachyon is a novel library and tool for bypassing the kernel for cross-language IPC, with a fast and efficient approach, a relatively complete documentation, and a small but active community, making it a strong candidate in the llm-inference space.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/riyaneel/Tachyon/tree/main/docs/adr",
+  "tool_url": "https://github.com/riyaneel/Tachyon",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47796496",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 86,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 86,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 42,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Tachyon, Inter-Process Communication primitive.",
+      "topics": [
+        "cpp23",
+        "go",
+        "ipc",
+        "java",
+        "kotlin",
+        "lock-free",
+        "nodejs",
+        "python",
+        "rust",
+        "shm",
+        "ull",
+        "zero-copy"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "gRPC",
+        "stars": 44645,
+        "repo": "grpc/grpc"
+      },
+      {
+        "name": "FlatBuffers",
+        "stars": 25815,
+        "repo": "google/flatbuffers"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.3",
+      "summary": "Fast Sum Product Network Library",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "https://github.com/KalraA/Tachyon"
+    },
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fast cross-language IPC with 56.5 ns p50 round-trip time",
+        "Potential for hardware determinism and low latency",
+        "Excitement and interest in potential applications"
+      ],
+      "negative_signals": [
+        "Criticism of oversimplifying or misrepresenting competing approaches",
+        "Concerns about noisy neighbors or synchronization issues"
+      ],
+      "justification": "The project received a lot of excitement and interest, with some experts highlighting its potential for low latency and hardware determinism. However, there were also some criticisms of the project's methodology and potential synchronization issues, particularly with noisy neighbors.",
+      "comment_count": 22,
+      "hn_points": 58
+    }
+  }
+}
