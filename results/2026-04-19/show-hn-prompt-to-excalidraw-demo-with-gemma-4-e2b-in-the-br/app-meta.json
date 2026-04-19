@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Show HN: Prompt-to-Excalidraw demo with Gemma 4 E2B in the browser (3.1GB)",
+    "url": "https://teamchong.github.io/turboquant-wasm/draw.html",
+    "hn_url": "https://news.ycombinator.com/item?id=47823460",
+    "points": 3,
+    "comments": 0,
+    "author": "teamchong",
+    "age": "2026-04-19T11:17:27 1776597447",
+    "scraped_at": "2026-04-19T13:00:03.200Z",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A live demonstration of real-time inference with Gemma 4 in the browser.",
+    "use_modes": [
+      "browser-based"
+    ],
+    "similar_tools": [
+      "Gemma 4",
+      "TurboQuant"
+    ],
+    "proposed_tests": [
+      "Run inference with a sample dataset in the browser",
+      "Measure latency of inference",
+      "Check Excalidraw output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://github.com/teamchong/turboquant-wasm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776603701073-gxhzn",
+    "log_dir": "/tmp/llm-review-1776603701073-gxhzn",
+    "install_success": false,
+    "install_time_s": 46.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:memory_usage_bytes:1334\nBENCHMARK:peak_memory_usage_bytes:3082\nBENCHMARK:test_files_count:0\nBENCHMARK:loc_count:0",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/teamchong/turboquant-wasm.git /tmp/pip-req-build-d0i6zov0\n  error: unable to write file demo/public/data/embeddings.bin\n  error: unable to write file demo/public/data/image_compressed.tqv\n  error: unable to write file demo/public/data/image_embeddings.bin\n  error: unable to write file demo/public/data/image_meta.json\n  error: unable to write file demo/public/data/lego.ply\n  error: unable to write file demo/public/data/lego.tqply\n  error: unable to write file demo/public/data/passages.json\n  error: unable to write file demo/public/data/query_embeddings.json\n  error: unable to write file demo/public/data/wiki-50k/compressed.tqv\n  error: unable to write file demo/public/data/wiki-50k/embeddings.bin\n  error: unable to write file demo/public/data/wiki-50k/passages.json\n  error: unable to write file demo/public/gguf-parser.wasm\n  error: unable to write file demo/public/system-cache.bin\n  error: unable to write file demo/scripts/download-scene.sh\n  error: unable to write file demo/scripts/write-prompt-hash.mjs\n  error: unable to write file demo/search.html\n  error: unable to write file demo/src/decompressor.ts\n  error: unable to write file demo/src/draw/code-editor.ts\n  error: unable to write file demo/src/draw/drawmode/drawmode-wasm.ts\n  error: unable to write file demo/src/draw/drawmode/executor.ts\n  error: unable to write file demo/src/draw/drawmode/layout.ts\n  error: unable to write file demo/src/draw/drawmode/sdk-types.ts\n  error: unable to write file demo/src/draw/drawmode/sdk.ts\n  error: unable to write file demo/src/draw/drawmode/types.ts\n  error: unable to write file demo/src/draw/engine-worker.ts\n  error: unable to write file demo/src/draw/engine.ts\n  error: unable to write file demo/src/draw/excalidraw-viewer.ts\n  error: unable to write file demo/src/draw/grammar.ts\n  error: unable to write file demo/src/draw/main.ts\n  error: unable to write file demo/src/draw/model-loader.ts\n  error: unable to write file demo/src/draw/polar-config.ts\n  error: unable to write file demo/src/draw/prompts/architecture.ts\n  error: unable to write file demo/src/draw/prompts/class.ts\n  error: unable to write file demo/src/draw/prompts/er.ts\n  error: unable to write file demo/src/draw/prompts/flowchart.ts\n  error: unable to write file demo/src/draw/prompts/index.ts\n  error: unable to write file demo/src/draw/prompts/orgchart.ts\n  error: unable to write file demo/src/draw/prompts/preamble.ts\n  error: unable to write file demo/src/draw/prompts/router.ts\n  error: unable to write file demo/src/draw/prompts/sequence.ts\n  error: unable to write file demo/src/draw/prompts/state.ts\n  error: unable to write file demo/src/draw/prompts/swimlane.ts\n  error: unable to write file demo/src/draw/shaders/argmax.wgsl\n  error: unable to write file demo/src/draw/shaders/gelu.wgsl\n  error: unable to write file demo/src/draw/shaders/get-rows-q4k.wgsl\n  error: unable to write file demo/src/draw/shaders/get-rows-q5k.",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting git+https://github.com/teamchong/turboquant-wasm.git\n  Cloning https://github.com/teamchong/turboquant-wasm.git to /tmp/pip-req-build-d0i6zov0\nINSTALL_FAIL: unable to install via pip or git clone\nTEST_FAIL:import_test:'NoneType' object has no attribute 'loader'\nTEST_FAIL:inference_test:name 'turboquant_wasm' is not defined\nTEST_FAIL:latency_test:name 'turboquant_wasm' is not defined\nTEST_FAIL:excalidraw_test:name 'turboquant_wasm' is not defined\nTEST_SKIP:baseline_test: unable to install or import gemma4\nBENCHMARK:memory_usage_bytes:1334\nBENCHMARK:peak_memory_usage_bytes:3082\nBENCHMARK:test_files_count:0\nBENCHMARK:loc_count:0\nRUN_OK\n"
+  }
+}
