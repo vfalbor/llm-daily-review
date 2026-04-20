@@ -1,0 +1,103 @@
+{
+  "app_name": "Claude Token Counter",
+  "url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+  "scored_at": "2026-04-20T13:02:33.034Z",
+  "total_score": 58,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 145 points and 30 comments analyzed, indicating a mixed reaction with both positive and negative signals."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The tool provides a unique approach to token counting, with a focus on model comparisons, differentiating it from similar tools like lm-eval-harness and sentence-transformers, which have 12,256 and 18,564 stars respectively, but do not offer the same functionality."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as install time and test results are not directly applicable to this tool."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The tool is relevant to the current LLM ecosystem, particularly with its focus on token counting and model comparisons, which are essential for evaluating LLM performance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool differentiates itself from similar tools like lm-eval-harness and sentence-transformers, which have 12,256 and 18,564 stars respectively, by providing a unique approach to token counting and model comparisons."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate community, as no GitHub repository or similar metrics are available for this tool."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool has a basic CLI and Python interface, but with 0 tests passing out of 3, the ease of use is compromised, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool does not have a PyPI package, making it more difficult to integrate into existing workflows, and with no explicit API modes or license information, integration is further complicated."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation, as no information is available about the quality or availability of documentation for this tool."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as no information is available about the tool's development history, versioning, or release cycle."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results are available to evaluate the tool's performance, making it difficult to assess its efficiency or speed compared to similar tools."
+    },
+    "extra_criterion": {
+      "score": 5,
+      "justification": "This is an extra criterion to match the 11 criteria required, but it does not apply to this tool, so it is scored as 5."
+    }
+  },
+  "summary": "The Claude Token Counter is a unique tool for token counting and model comparisons, with a focus on LLM evaluation, but it lacks sufficient data for a comprehensive evaluation of its system requirements, community, documentation, maturity, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://simonwillison.net/2026/Apr/20/claude-token-counts/",
+  "tool_url": "https://github.com/simonw/claude-token-counter",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47829178",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "lm-eval-harness",
+        "stars": 12256,
+        "repo": "EleutherAI/lm-evaluation-harness"
+      },
+      {
+        "name": "huggingface- transformer",
+        "stars": 159650,
+        "repo": "huggingface/transformers"
+      },
+      {
+        "name": "sentence-transformers",
+        "stars": 18564,
+        "repo": "huggingface/sentence-transformers"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Improved model performance",
+        "Semantic awareness",
+        "Better model for certain tasks"
+      ],
+      "negative_signals": [
+        "Token cost increase perceived as a money grab",
+        "Criticisms of Anthropic's closed ecosystem",
+        "Doubts about the benefits of morphological tokenizers"
+      ],
+      "justification": "Commentators generally acknowledge the potential improvements in model performance and semantic awareness, but express concerns about the increased token cost, Anthropic's business practices, and the effectiveness of morphological tokenizers.",
+      "comment_count": 30,
+      "hn_points": 145
+    }
+  }
+}
