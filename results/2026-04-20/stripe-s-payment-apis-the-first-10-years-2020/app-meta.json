@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Stripe's Payment APIs: the first 10 years (2020)",
+    "url": "https://stripe.dev/blog/payment-api-design",
+    "hn_url": "https://news.ycombinator.com/item?id=47830575",
+    "points": 68,
+    "comments": 35,
+    "author": "tibbar",
+    "age": "2026-04-20T05:05:43 1776661543",
+    "scraped_at": "2026-04-20T13:00:03.224Z",
+    "is_reviewable": true,
+    "tool_url": "https://stripe.dev",
+    "source_type": "tool",
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "Stripe's Payment APIs: the first 10 years",
+    "use_modes": [
+      "API Client"
+    ],
+    "similar_tools": [
+      "Stripe API",
+      "Square API"
+    ],
+    "proposed_tests": [
+      "Set up a Stripe account and make a payment"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1776690222986-f5blr",
+    "log_dir": "/tmp/llm-review-1776690222986-f5blr",
+    "install_success": true,
+    "install_time_s": 11.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:square_api_ms:176.30767822265625\nBENCHMARK:stripe_api_ms:163.55490684509277\nBENCHMARK:vs_square_api_ratio:0.9276675213120429\nBENCHMARK:current_memory_usage:1045\nBENCHMARK:peak_memory_usage:41594\nBENCHMARK:request_time_ms:151.7019271850586\nBENCHMARK:installation_time_s:0.5816566944122314",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-20T13_03_57_524Z-debug-0.log\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-20T13_03_59_075Z-debug-0.log\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/9) Installing libgcc (15.2.0-r2)\n(2/9) Installing libstdc++ (15.2.0-r2)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/9) Installing icu-libs (76.1-r1)\n(6/9) Installing simdjson (3.12.0-r0)\n(7/9) Installing simdutf (7.5.0-r1)\n(8/9) Installing nodejs (24.14.1-r0)\n(9/9) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:health_endpoint:HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /health (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=8080): Failed to establish a new connection: [Errno 111] Connection refused\"))\nTEST_FAIL:payment:status_code_401\nBENCHMARK:square_api_ms:176.30767822265625\nBENCHMARK:stripe_api_ms:163.55490684509277\nBENCHMARK:vs_square_api_ratio:0.9276675213120429\nBENCHMARK:current_memory_usage:1045\nBENCHMARK:peak_memory_usage:41594\nBENCHMARK:request_time_ms:151.7019271850586\nBENCHMARK:installation_time_s:0.5816566944122314\nRUN_OK\n"
+  }
+}
