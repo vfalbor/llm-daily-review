@@ -1,0 +1,79 @@
+{
+  "app_name": "Xata",
+  "url": "https://xata.io",
+  "scored_at": "2026-04-20T13:02:57.639Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Xata solves the problem of database branching in a unique way, with a cloud-hosted database and native branching and merging, which differentiates it from similar tools like PlanetScale, FaunaDB, and CockroachDB, with 12 HN points indicating interest in the concept."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable and has no PyPI package found, with a detected version of 4.5 but no clear system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits with current database trends, with a focus on cloud-hosted databases and native branching and merging, and is described as 'easy database branching' in the article."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Xata's native branching and merging differentiate it from similar tools, with one commenter mentioning a similar feature in another product (Neon) and others showing enthusiasm for related projects (Datomic, XTDB), and 12 HN points indicating interest."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repo detected or API unavailable, with only 12 HN points and 3 comments analyzed, indicating a small but interested community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests were run due to the app being not pip-installable, and the article does not provide clear instructions on how to use the tool."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has a detected API/SDK/webhook mention, indicating potential for integration, but requires an API key and has no clear documentation on how to integrate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app has a webpage with a content length of 53214 characters, indicating some depth, but no clear documentation or guides."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has a detected version of 4.5, indicating some level of maturity, but no clear release notes or changelog."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmarks or performance data available for the app, and it is not clear how to assess its performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided, with a sentiment score of 6/10, but it is not directly applicable to the app's technical quality or performance."
+    }
+  },
+  "summary": "Xata is a cloud-hosted database with native branching and merging, offering a unique solution to the problem of database branching, but has limited community engagement and no clear documentation or performance data.",
+  "recommendation": "niche",
+  "app_url": "https://xata.io/blog/what-if-database-branching-was-easy",
+  "tool_url": "https://xata.io",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47813616",
+  "domain": "database",
+  "app_type": "database-transactional",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "easy database branching",
+        "magic solution for developers",
+        "itchy to use Datomic or XTDB"
+      ],
+      "negative_signals": [],
+      "justification": "The comments indicate that the concept of easy database branching is exciting and has been a long-standing desire, with one commenter mentioning a similar feature in another product (Neon) and others showing enthusiasm for related projects (Datomic, XTDB).",
+      "comment_count": 3,
+      "hn_points": 12
+    }
+  }
+}
