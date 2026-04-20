@@ -1,0 +1,84 @@
+{
+  "app_name": "SDF Public Access Unix System",
+  "url": "https://sdf.org/?ssh=",
+  "scored_at": "2026-04-20T13:02:07.166Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Given the longstanding history and nostalgic value of SDF Public Access Unix System, with its unique blend of services and community engagement, it earns a novelty score of 8. This is inferred from the HN sentiment analysis which highlights 'Longstanding community trust and loyalty' and 'Rich history and nostalgic value', indicating a unique approach to public Unix access."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "With no PyPI package found and a page content length of 1402 chars, which is relatively low for comprehensive documentation, the system requirements score is 2. This is due to the lack of clear install commands on the page and the absence of pip-installability."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Considering the current relevance of SDF Public Access Unix System in the infrastructure provider landscape, with trends moving towards cloud services like Linode, DigitalOcean, and AWS EC2, it scores 6. This is because, despite its unique offerings, the absence of modern cloud infrastructure provisions might make it less competitive."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Differentiation from similar tools like Linode, DigitalOcean, and AWS EC2 is notable, given SDF's public Unix shell accounts and community-driven approach. This earns a differentiation score of 7, considering the unique blend of services and the community aspect."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the lack of GitHub repository data and relying on HN comments, with 103 points and 30 comments analyzed, the community score is set to 5 due to insufficient data for a more precise evaluation."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The ease of use is scored 1 due to the absence of straightforward install commands on the page and the reported difficulty in signing up for certain services, as mentioned in the HN comments."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The ease of integration score is 2, considering the absence of a PyPI package, no API/SDK/webhook mention, and the lack of a clear install command on the page, making integration challenging."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The documentation score is 3, as there's no docs/wiki/guide link found on the page, and the page content length, while not extremely short, lacks detailed information or tutorials, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Maturity is scored 4, considering the longstanding history but recent security concerns and slow response times, as well as the difficulty in signing up, which suggests some maturity issues despite its age."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance cannot be evaluated due to the lack of benchmark data or any performance-related information on the page or in the provided data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8, based on the sentiment score of 8/10, indicating a generally positive community perception, despite some negative signals like recent security concerns."
+    }
+  },
+  "summary": "SDF Public Access Unix System offers a unique public Unix shell account experience with a strong community aspect, but faces challenges in terms of ease of use, integration, and recent security concerns. Its maturity and performance are difficult to assess with the provided data.",
+  "recommendation": "niche",
+  "app_url": "https://sdf.org/?ssh=",
+  "tool_url": "https://sdf.org",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47819410",
+  "domain": "infrastructure",
+  "app_type": "infra-provider",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Longstanding community trust and loyalty",
+        "Variety of projects and services offered",
+        "Rich history and nostalgic value",
+        "Expertise and enthusiasm from users"
+      ],
+      "negative_signals": [
+        "Recent security concerns and slow response",
+        "Difficulty in signing up for certain services",
+        "Some users frustrated with transparency and updates"
+      ],
+      "justification": "While SDF Public Access Unix System has a strong and dedicated community, some recent security concerns and frustration with transparency may be impacting overall user experience.",
+      "comment_count": 30,
+      "hn_points": 103
+    }
+  }
+}
