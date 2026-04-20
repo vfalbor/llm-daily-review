@@ -1,0 +1,97 @@
+{
+  "app_name": "planb-lpm",
+  "url": "https://github.com/esutcu/planb-lpm",
+  "scored_at": "2026-04-20T13:04:54.226Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project implements a cache-friendly IPv6 LPM with AVX-512, which is a unique approach, and it's not a fork (is_fork: false), giving it a high novelty score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 10s, which is reasonable, but the PyPI package is not found, making it less accessible, hence a score of 6."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an IPv6 LPM, it's relevant to current networking trends, especially with the emphasis on AVX-512, which is a current technology, thus scoring 7."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 28 stars and only 2 forks, it differentiates itself from similar tools by its specific implementation and benchmarks, earning a score of 8."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Having only 1 contributor and 28 stars indicates a small but nascent community, hence a score of 4, considering the days_since_update is 0, showing recent activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 3 and basic run success being false, the ease of use is significantly impacted, resulting in a score of 2."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Since there's no PyPI package and the license is NOASSERTION, integrating this project might be challenging, leading to a score of 3."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation quality is not directly available from the provided data, thus scoring 5 due to insufficient information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the recent last commit (days_since_last_commit: 0) but lack of specific release versions or more detailed historical data, maturity is scored as 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no direct benchmark comparisons provided in the data to assess performance comprehensively, thus a neutral score of 5."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 43 points and positive comments about the implementation and benchmarks, indicating a very positive sentiment."
+    }
+  },
+  "summary": "Planb-lpm is a novel, cache-friendly IPv6 LPM with AVX-512 implementation that, despite its small community and current difficulties in integration and usage, shows potential in its unique approach and positive community reception.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/esutcu/planb-lpm",
+  "tool_url": "https://github.com/esutcu/planb-lpm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47830071",
+  "domain": "infra",
+  "app_type": "infra-routing",
+  "enriched": {
+    "github": {
+      "stars": 28,
+      "forks": 2,
+      "open_issues": 1,
+      "watchers": 28,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Clean-room, portable C++17 implementation",
+        "Very detailed and interesting benchmarks",
+        "Faster than what's in the Linux kernel"
+      ],
+      "negative_signals": [
+        "Portability concerns",
+        "Perceived AI-generated code"
+      ],
+      "justification": "The comments are generally very positive, with users showing interest in the project and its potential to be faster than what's in the Linux kernel. However, there are some concerns about portability and the perceived AI-generated nature of the code. The score reflects the overall positive sentiment with some minor criticisms.",
+      "comment_count": 17,
+      "hn_points": 43
+    }
+  }
+}
