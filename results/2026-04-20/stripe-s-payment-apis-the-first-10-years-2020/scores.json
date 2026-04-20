@@ -1,0 +1,83 @@
+{
+  "app_name": "Stripe's Payment APIs",
+  "url": "https://stripe.dev",
+  "scored_at": "2026-04-20T13:04:19.362Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is not a new tool, but rather a blog post discussing Stripe's payment APIs over the first 10 years, with a detected version of 12.6296, indicating some level of maturity and development."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No install time or success data is available, as the app is a web service and does not require installation, with a mentioned installation time of 0.5816566944122314 seconds for something, possibly a related tool or library."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Stripe's payment APIs are highly relevant to current e-commerce and payment trends, being a major player in the field, with a blog post discussing their first 10 years, indicating a high level of relevance and establishment."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The Stripe API differentiates itself through features like international VAT service and ease of integration, although some users find the API complex, with a vs_square_api_ratio of 0.9276675213120429, indicating some level of performance comparison to similar tools."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 69 HN points and 30 comments analyzed, the community around Stripe's payment APIs is moderate, although some users express frustration with complexity and payment processing issues, with a sentiment score of 6/10, indicating a relatively neutral to positive community sentiment."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No test results are available for ease of use, but Stripe's API is known for being complex, and some users praise its ease of integration, with a page content length of 33193 characters, which may indicate a detailed and helpful documentation, but no concrete evidence is available."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of an API and SDK, along with mentions of ease of integration, suggests a moderate level of ease of integration, with a detected API/SDK/webhook mention on the page, indicating some level of support for integration."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The presence of a wiki, guide, and changelog on the Stripe website, along with a long page content length of 33193 characters, suggests a high level of documentation quality, which is further supported by the detected has_docs_link, has_changelog, and has_examples flags being true."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With a detected version of 12.6296 and a blog post discussing the first 10 years of Stripe's payment APIs, the service appears to be mature and well-established, with a high level of development and maintenance, although no concrete data on days since creation or update is available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Some benchmark measurements are available, but they are not directly comparable to other tools, with a square_api_ms of 176.30767822265625 and a stripe_api_ms of 163.55490684509277, indicating some level of performance, but not enough to make a definitive judgment."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 69 points and 30 comments, indicating a relatively neutral to positive sentiment, with many users praising the ease of integration and quality of service, but some expressing frustration with complexity and payment processing issues."
+    }
+  },
+  "summary": "Stripe's payment APIs are a well-established and relevant service in the e-commerce and payment landscape, with a moderate level of community and ease of integration, although some users find the API complex and frustrating to use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://stripe.dev/blog/payment-api-design",
+  "tool_url": "https://stripe.dev",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47830575",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Many users have had positive experiences with Stripe, citing ease of integration and developer-friendliness",
+        "Some users praise the quality of service and the fact that Stripe has no real competitor",
+        "Stripe offers a service for international VAT, which is a unique feature among payment providers"
+      ],
+      "negative_signals": [
+        "Some users find Stripe's APIs and overall complexity overwhelming, leading to frustration and difficulties in using the service",
+        "Others report issues with payment processing, including rejection and fees",
+        "Stripe's constant flow of new updates and features is seen as overwhelming and even annoying by some users"
+      ],
+      "justification": "While many users praise Stripe for its ease of use and quality of service, others are frustrated by its complexity and payment processing issues. Some users appreciate Stripe's unique features and competitive advantages.",
+      "comment_count": 30,
+      "hn_points": 69
+    }
+  }
+}
