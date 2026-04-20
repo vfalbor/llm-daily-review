@@ -1,0 +1,89 @@
+{
+  "app_name": "Zero-copy protobuf and ConnectRPC for Rust",
+  "url": "https://github.com/iainmcgin/connectrpc",
+  "scored_at": "2026-04-20T13:03:41.757Z",
+  "total_score": 56,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a problem in a genuinely new way, with a unique implementation of zero-copy protobuf and ConnectRPC for Rust, as seen in the article describing the tool."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app requires Python >=3.10 and has an install time of 0.31832051277160645 seconds, indicating moderate system requirements, and the package exists on PyPI (v0.9.0)."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is a devtool-build type, and its implementation of zero-copy protobuf and ConnectRPC for Rust is relevant to the current LLM ecosystem trends, particularly with the rise of Rust adoption."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has 117 stars on GitHub, which is significantly fewer than similar tools like protobuf (71,113 stars), but its unique implementation and focus on Rust set it apart, with a comparison to connectr (117 stars) showing its targeted approach."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has no GitHub repo detected or API unavailable, making it difficult to assess the community, but with 117 stars, it indicates a small but potentially active community, and the article about the tool has no comments, limiting the sentiment analysis."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app had 0 tests pass out of 1, and basic run success was false, indicating significant friction in use, with specific issues in the test results, such as install success being true but basic run success being false."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The app is a Rust crate, and its use modes are well-defined, making it relatively easy to integrate, with the PyPI package existing and the license terms being open-source."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on the quality of the documentation, as there is no GitHub repo detected or API unavailable, and the app's documentation cannot be directly assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on the maturity, as there is no GitHub repo detected or API unavailable, and the app's maturity cannot be directly assessed, with the days since created and forks count being unknown."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, but the app's focus on zero-copy protobuf and ConnectRPC for Rust suggests potential for high performance, with the install time being 0.31832051277160645 seconds, but without direct comparisons or benchmark results, the score remains neutral."
+    }
+  },
+  "summary": "The Zero-copy protobuf and ConnectRPC for Rust is a unique devtool-build with a potential for high performance, but its community and documentation are difficult to assess due to the lack of GitHub data, and the app's ease of use is hindered by significant friction in testing.",
+  "recommendation": "niche",
+  "app_url": "https://medium.com/@iainmcgin/zero-copy-protobuf-and-connectrpc-for-rust-69bda8ac0f02",
+  "tool_url": "https://github.com/iainmcgin/connectrpc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47801200",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "protobuf",
+        "stars": 71113,
+        "repo": "protocolbuffers/protobuf"
+      },
+      {
+        "name": "connectr",
+        "stars": 117,
+        "repo": "mrmekon/connectr"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.9.0",
+      "summary": "Server and client runtime library for Connect RPC",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
