@@ -1,0 +1,42 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "A cache-friendly IPv6 LPM with AVX-512 (linearized B+-tree, real BGP benchmarks)",
+    "url": "https://github.com/esutcu/planb-lpm",
+    "hn_url": "https://news.ycombinator.com/item?id=47830071",
+    "points": 43,
+    "comments": 17,
+    "author": "debugga",
+    "age": "2026-04-20T03:24:21 1776655461",
+    "scraped_at": "2026-04-20T13:00:03.229Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/esutcu/planb-lpm",
+    "source_type": "tool",
+    "confidence": 0.99,
+    "domain": "infra",
+    "app_type": "infra-routing",
+    "description": null,
+    "use_modes": null,
+    "similar_tools": null,
+    "proposed_tests": [
+      "Install planb-lpm CLI and run a benchmark",
+      "Insert 1000 rows and measure write latency with AVX-512",
+      "Run a query with linearized B+-tree, measure query latency"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/esutcu/planb-lpm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776690260576-2yat9",
+    "log_dir": "/tmp/llm-review-1776690260576-2yat9",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:planb_lpm_memory_usage_mb:0.00",
+    "error_log": "Cloning into 'planb-lpm'...\nTraceback (most recent call last):\n  File \"/app/test.py\", line 72, in <module>\n    print(f\"BENCHMARK:vs_python_fib35_ratio:{benchmark_time / python_benchmark_time:.2f}\")\n                                             ^^^^^^^^^^^^^^\nNameError: name 'benchmark_time' is not defined\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_OK\nINSTALL_FAIL:[Errno 2] No such file or directory: 'make'\nTEST_FAIL:planb_lpm_benchmark:[Errno 2] No such file or directory: './planb-lpm'\nTEST_FAIL:planb_lpm_write_latency:[Errno 2] No such file or directory: './planb-lpm'\nTEST_FAIL:planb_lpm_query_latency:[Errno 2] No such file or directory: './planb-lpm'\nBENCHMARK:planb_lpm_memory_usage_mb:0.00\n"
+  }
+}
