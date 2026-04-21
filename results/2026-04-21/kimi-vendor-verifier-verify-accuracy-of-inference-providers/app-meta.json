@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Kimi vendor verifier – verify accuracy of inference providers",
+    "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+    "hn_url": "https://news.ycombinator.com/item?id=47838703",
+    "points": 275,
+    "comments": 25,
+    "author": "Alifatisk",
+    "age": "2026-04-20T18:39:53 1776710393",
+    "scraped_at": "2026-04-21T13:00:02.965Z",
+    "tool_url": "https://github.com/kimi-innovation/kimivendor-verifier",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "Kimi Vendor Verifier",
+    "use_modes": [
+      "Code",
+      "Docs"
+    ],
+    "similar_tools": [
+      "Semgrep",
+      "Truffle Security",
+      "CodeQL"
+    ],
+    "proposed_tests": [
+      "Install the tool",
+      "Run a simple test",
+      "Measure performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/kimi-innovation/kimivendor-verifier"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776776670092-v6p8h",
+    "log_dir": "/tmp/llm-review-1776776670092-v6p8h",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement kimivendor-verifier (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for kimivendor-verifier\nCloning into 'kimivendor-verifier'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\n/usr/bin/git\nINSTALL_OK\nINSTALL_FAIL:tool installation failed\nRUN_OK\n"
+  }
+}
