@@ -1,0 +1,98 @@
+{
+  "app_name": "Kimi Vendor Verifier",
+  "url": "https://github.com/kimi-innovation/kimivendor-verifier",
+  "scored_at": "2026-04-21T13:05:03.417Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique solution for verifying the accuracy of inference providers, with no direct equivalent found in similar tools like Semgrep (14,874 stars), Truffle Security (126 stars), or CodeQL (9,503 stars), indicating a high level of novelty with 8/10 score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Although the app's installation time of 8.9s is relatively fast, the lack of a PyPI package and the absence of a GitHub repository detected make it difficult to assess system requirements fully, resulting in a score of 6/10."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool for testing, the Kimi Vendor Verifier is highly relevant in the current LLM ecosystem, addressing concerns about the accuracy of inference providers, which earns it a score of 9/10."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Semgrep, Truffle Security, and CodeQL, the Kimi Vendor Verifier has a distinct approach to verifying provider accuracy, with 126 stars indicating a growing but still niche presence, resulting in a differentiation score of 7/10."
+    },
+    "community": {
+      "score": null,
+      "justification": "Community score is null due to the absence of a GitHub repository for direct assessment, and while HN points and sentiment can provide some insight, they are not directly applicable to this criterion."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the lack of direct testing data (0/0 tests passed), ease of use cannot be accurately assessed, leading to a neutral score of 5/10."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Without a clear API or integration guidelines and no PyPI package, the ease of integration is difficult to determine, resulting in a score of 5/10."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation quality is neutral due to insufficient data, as the absence of a GitHub repository or a dedicated docs site makes it challenging to evaluate, leading to a score of 5/10."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Maturity is scored neutral at 5/10 due to the lack of accessible data on the project's age, releases, or maintenance history, making it hard to assess its maturity level accurately."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is set to null as there are no available benchmarks or performance claims that can be used for evaluation."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment analysis shows a positive score of 8/10, with 276 points and 25 comments, indicating a very positive reception of the tool, with many users appreciating its existence and potential to improve quality, despite some concerns about the threat model and potential for providers to cheat."
+    }
+  },
+  "summary": "The Kimi Vendor Verifier is a novel tool that addresses a significant concern in the LLM ecosystem by verifying the accuracy of inference providers, showing great potential but lacking in accessible data for some criteria, making it a worth-watching app with a total score of 68.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+  "tool_url": "https://github.com/kimi-innovation/kimivendor-verifier",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47838703",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Semgrep",
+        "stars": 14874,
+        "repo": "semgrep/semgrep"
+      },
+      {
+        "name": "Truffle Security",
+        "stars": 126,
+        "repo": "ConsenSysDiligence/truffle-security"
+      },
+      {
+        "name": "CodeQL",
+        "stars": 9503,
+        "repo": "github/codeql"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many users appreciate the existence of a standard verifier from the model maker.",
+        "The test addresses a widespread concern that affects all kinds of cloud services.",
+        "The idea of a vendor verifier is well-received, with some users suggesting it could lead to better quality providers."
+      ],
+      "negative_signals": [
+        "Some users are skeptical about the threat model, worrying that it only covers accidental issues and not malicious actors.",
+        "Providers may find ways to cheat or lie about their quantization, which could undermine the effectiveness of the verifier."
+      ],
+      "justification": "The overall sentiment is very positive, with many users praising the idea of a vendor verifier and its potential to improve quality. However, there are some concerns about the threat model and the potential for providers to cheat.",
+      "comment_count": 25,
+      "hn_points": 276
+    }
+  }
+}
