@@ -1,0 +1,104 @@
+{
+  "app_name": "TagTinker",
+  "url": "https://github.com/i12bp8/TagTinker",
+  "scored_at": "2026-04-21T13:06:20.373Z",
+  "total_score": 55,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10 with 72 points and 30 comments, indicating a generally positive sentiment with both positive signals about the tool's usefulness and negative signals about potential misuse."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The tool has 808 stars on GitHub and was created 17 days ago, with a significant number of forks (60) and only 2 open issues, showing that it is a relatively new but somewhat original approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The tool installs successfully in 11.4 seconds but does not have a PyPI package available, indicating moderate complexity in setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The tool's fit with current web_extension ecosystem trends is uncertain, given the lack of comparable tools and limited information on its current relevance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The tool has 808 stars on GitHub, which is only 34 stars less than the similar tool TagEditor, showing a relatively high level of differentiation and competitiveness."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The tool has a moderate number of stars (808) and forks (60), but only 1 contributor and limited recent activity (11 days since the last commit), indicating a community that is not very active or large."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool's tests pass with a rate of 2/4, and the basic run is successful, but the install time and test results indicate some difficulty in use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool does not have a PyPI package and lacks clear documentation on integration, indicating difficulties in integrating it into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The tool's documentation is insufficient, with no clear information on its usage, features, or APIs, resulting in a neutral score due to a lack of data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The tool's maturity is uncertain due to limited information on its versioning, release cycle, and stability, resulting in a neutral score due to insufficient data."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The tool's edit time (1000 ms) is comparable to alternative editors (800 ms), with a vs_tagtinker_edit_time_ratio of 0.5, indicating relatively good performance."
+    }
+  },
+  "summary": "TagTinker is a tool for editing store price tags using Flipper Zero, showing a relatively high level of differentiation and competitiveness but facing challenges in terms of community size and activity, ease of integration, and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/i12bp8/TagTinker",
+  "tool_url": "https://github.com/i12bp8/TagTinker",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47822978",
+  "domain": "web",
+  "app_type": "web_extension",
+  "enriched": {
+    "github": {
+      "stars": 808,
+      "forks": 60,
+      "open_issues": 2,
+      "watchers": 808,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 11,
+      "days_since_created": 17,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Flipper Zero app for ESL research using IR. All based on https://www.furrtek.org/?a=esl",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "TagEditor",
+        "stars": 842,
+        "repo": "Martchus/tageditor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Useful for dealing with industrial IoT",
+        "Provides a standardized hardware platform for security research",
+        "Has multiple real-world applications"
+      ],
+      "negative_signals": [
+        "Potential for misuse or crime",
+        "Law and jurisdiction-specific issues with price tags",
+        "Concerns about security and safety"
+      ],
+      "justification": "Overall, the comments are generally positive, highlighting the device's usefulness and versatility. However, there are some concerns about potential misuse or crime, as well as law and jurisdiction-specific issues with price tags.",
+      "comment_count": 30,
+      "hn_points": 72
+    }
+  }
+}
