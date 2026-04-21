@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+    "url": "https://mediator.ai/",
+    "hn_url": "https://news.ycombinator.com/item?id=47835411",
+    "points": 94,
+    "comments": 36,
+    "author": "sanity",
+    "age": "2026-04-20T15:07:04 1776697624",
+    "scraped_at": "2026-04-21T13:00:02.964Z",
+    "tool_url": "https://github.com/mediator-ai",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "Mediator AI",
+    "use_modes": [
+      "Code",
+      "Docs"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "LLM Studio"
+    ],
+    "proposed_tests": [
+      "Clone the repo",
+      "Run the example",
+      "Measure performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mediator-ai"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776776642298-pj0p1",
+    "log_dir": "/tmp/llm-review-1776776642298-pj0p1",
+    "install_success": false,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'mediator-ai'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: mediator-ai is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: ./mediator-ai is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_FAIL:git_clone_failed:Command '['git', 'clone', 'https://github.com/mediator-ai/mediator-ai.git']' returned non-zero exit status 128.\nINSTALL_FAIL:pip_install_failed:Command '['pip', 'install', '-e', './mediator-ai']' returned non-zero exit status 1.\nTEST_FAIL:import_test:No module named 'mediator_ai'\nTEST_FAIL:performance_test:name 'mediator_ai' is not defined\nTEST_FAIL:baseline_test:No module named 'langchain'\nRUN_OK\n"
+  }
+}
