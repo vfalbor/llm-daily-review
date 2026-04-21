@@ -35,7 +35,7 @@ function domainEmoji(domain) {
   return map[domain] || '📦';
 }
 
-export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) {
+export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0, news_summary = [] }) {
   const dateFormatted = new Date(date + 'T12:00:00Z').toLocaleDateString('en-US', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
   });
@@ -50,6 +50,28 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
 
   // Domains covered
   const domains = [...new Set(apps_tested.map(a => (a.report || a).domain).filter(Boolean))];
+
+  // News digest section
+  const newsSection = news_summary.length ? `
+<table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:24px;border:1px solid #e4e2da;border-radius:10px;overflow:hidden;background:#fff">
+  <tr><td style="padding:12px 20px;background:#f5f3ee;border-bottom:1px solid #e4e2da">
+    <span style="font-size:11px;font-weight:600;color:#6b6a65;text-transform:uppercase;letter-spacing:.07em">▲ Today on Hacker News</span>
+  </td></tr>
+  ${news_summary.map(item => `
+  <tr><td style="padding:12px 20px;border-bottom:1px solid #f0ede6">
+    <table width="100%" cellpadding="0" cellspacing="0"><tr>
+      <td style="vertical-align:top;padding-right:12px;width:36px">
+        <span style="font-size:13px;font-weight:700;color:#FF6600">${item.points || 0}</span>
+        <div style="font-size:9px;color:#9a9891">pts</div>
+      </td>
+      <td style="vertical-align:top">
+        <a href="${escHtml(item.url)}" style="font-size:13px;font-weight:600;color:#1a1a18;text-decoration:none;line-height:1.4">${escHtml(item.title)}</a>
+        ${item.hn_url ? `&nbsp;<a href="${escHtml(item.hn_url)}" style="font-size:11px;color:#FF6600;text-decoration:none;font-weight:500">[${item.comments || 0} comments]</a>` : ''}
+        ${item.summary ? `<div style="margin-top:4px;font-size:12px;color:#6b6a65;line-height:1.5">${escHtml(item.summary)}</div>` : ''}
+      </td>
+    </tr></table>
+  </td></tr>`).join('')}
+</table>` : '';
 
   const appCards = apps_tested
     .sort((a, b) => (b.total_score || 0) - (a.total_score || 0))
@@ -189,6 +211,9 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
     ${domains.length ? `<p style="margin:10px 0 0;font-size:12px;color:#9a9891">Domains today: ${domains.map(d => `${domainEmoji(d)} ${d}`).join(' · ')}</p>` : ''}
   </td></tr>
 
+  <!-- News digest -->
+  ${news_summary.length ? `<tr><td style="padding:0 0 4px">${newsSection}</td></tr>` : ''}
+
   <!-- App cards -->
   <tr><td>${appCards || '<p style="color:#9a9891;font-size:14px">No new apps found today.</p>'}</td></tr>
 
@@ -226,6 +251,7 @@ export function renderDailyEmail({ date, apps_tested, apps_skipped_dedup = 0 }) 
   const text = `TokensTree Daily Review — ${dateFormatted}
 
 ${apps_tested.length} apps tested today | avg score: ${avgScore}/100 | ${byRec['worth-watching'] + byRec['strong-candidate']} worth watching | ${apps_skipped_dedup} skipped (already known)
+${news_summary.length ? `\n--- TODAY ON HACKER NEWS ---\n${news_summary.map(i => `[${i.points} pts] ${i.title}\n  ${i.url}${i.summary ? '\n  ' + i.summary : ''}`).join('\n\n')}\n` : ''}
 
 ${apps_tested
   .sort((a, b) => (b.total_score || 0) - (a.total_score || 0))

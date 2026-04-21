@@ -3,6 +3,7 @@
 // Coordinates all skills in sequence.
 
 import { scrapeHN } from '../scraper/hn.js';
+import { summarizeNewsItems } from '../summarizer/hn-news-summary.js';
 import { filterLLMApps } from '../filter/llm-filter.js';
 import { checkDedup, markTested, saveWeeklyTop5 } from '../db/database.js';
 import { runInContainer } from '../tester/container-runner.js';
@@ -53,6 +54,11 @@ async function main() {
   const items = await scrapeHN({ max_items: 30 });
   log.info(`Fetched ${items.length} items`);
 
+  // Step 1b: Generate news digest from all items
+  log.info('Generating news digest...');
+  const newsSummary = await summarizeNewsItems(items, 6);
+  log.info(`News digest: ${newsSummary.length} items selected`);
+
   // Step 2: Filter LLM-related apps
   log.info('Identifying LLM-related apps...');
   const candidates = await filterLLMApps(items);
@@ -98,7 +104,7 @@ async function main() {
 
   // Step 6: Send daily newsletter
   log.info('Sending daily newsletter...');
-  await sendNewsletter({ edition: 'daily', date: runDate, apps_tested: dailyResults });
+  await sendNewsletter({ edition: 'daily', date: runDate, apps_tested: dailyResults, news_summary: newsSummary });
 
   // Step 7: If Friday, run weekly Top 5
   if (dayOfWeek === 5) {
