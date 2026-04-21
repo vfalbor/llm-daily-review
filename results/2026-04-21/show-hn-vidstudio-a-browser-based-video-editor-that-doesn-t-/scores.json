@@ -1,0 +1,95 @@
+{
+  "app_name": "VidStudio",
+  "url": "https://vidstudio.app/video-editor",
+  "scored_at": "2026-04-21T13:02:12.116Z",
+  "total_score": 51,
+  "scores": {
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The HN sentiment score is 5/10, with 31 HN points and 3 comments analyzed, indicating a neutral or mixed reception due to concerns about the project's licensing and closed source nature."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "VidStudio offers a unique approach to video editing by being browser-based and not uploading files, setting it apart from similar tools like Shotgun (1,990 stars), Lightworks (6 stars), and DaVinci Resolve (834 stars)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is a web application, so system requirements are minimal, but the lack of a GitHub repository and PyPI package limits its installability and accessibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web-based video editor, VidStudio fits into the current trend of cloud-based creative tools, but its relevance is somewhat limited by its closed source nature and potential licensing issues."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "VidStudio differentiates itself from other video editing tools like Shotgun, Lightworks, and DaVinci Resolve by being browser-based and preserving user file privacy, with a unique feature set that sets it apart."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is limited community engagement, with only 31 HN points and 3 comments, indicating a small or nascent community, and no GitHub repository detected to gauge contributor activity."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "As a web application, VidStudio is relatively easy to use, but the lack of clear documentation and potential licensing issues may confuse some users, with no tests passed or basic run success to gauge usability."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this web application, as it does not require integration with other tools or services."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "There is limited documentation available, with no clear indication of how the tool works or what features it offers, and no GitHub repository or wiki to provide further insight."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project's maturity is uncertain due to the lack of a GitHub repository, unclear licensing, and limited community engagement, with no clear indication of its production readiness or stability."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this web application, as performance is not a meaningful dimension for a tool that does not provide explicit performance metrics or benchmarks."
+    }
+  },
+  "summary": "VidStudio is a novel, browser-based video editor that prioritizes user file privacy, but its closed source nature, limited community, and potential licensing issues raise concerns about its long-term viability and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://vidstudio.app/video-editor",
+  "tool_url": "https://github.com/vidstudio/videostudio.app",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47847558",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Shotgun",
+        "stars": 1990,
+        "repo": "glebkudr/shotgun_code"
+      },
+      {
+        "name": "Lightworks",
+        "stars": 6,
+        "repo": "amussey/sk-lightworks"
+      },
+      {
+        "name": "DaVinci Resolve",
+        "stars": 834,
+        "repo": "samuelgursky/davinci-resolve-mcp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [
+        "Concerns about closed source software",
+        "Uncertainty about licensing",
+        "Potential GPL issues with some codecs"
+      ],
+      "justification": "The comments suggest a neutral or mixed reception due to the project's licensing and code openness. The developers address the LGPL license, but some concerns remain about the project's closed source nature and potential GPL issues.",
+      "comment_count": 3,
+      "hn_points": 31
+    }
+  }
+}
