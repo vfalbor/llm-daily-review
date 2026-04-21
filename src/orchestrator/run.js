@@ -5,7 +5,7 @@
 import { scrapeHN } from '../scraper/hn.js';
 import { summarizeNewsItems } from '../summarizer/hn-news-summary.js';
 import { filterLLMApps } from '../filter/llm-filter.js';
-import { checkDedup, markTested, saveWeeklyTop5 } from '../db/database.js';
+import { checkDedup, markTested, saveWeeklyTop5, saveDailyNews } from '../db/database.js';
 import { runInContainer } from '../tester/container-runner.js';
 import { scoreApp } from '../scorer/scorer.js';
 import { generateDailyReport } from '../reporter/daily-report.js';
@@ -58,6 +58,7 @@ async function main() {
   log.info('Generating news digest...');
   const newsSummary = await summarizeNewsItems(items, 6);
   log.info(`News digest: ${newsSummary.length} items selected`);
+  saveDailyNews(runDate, newsSummary);
 
   // Step 2: Filter LLM-related apps
   log.info('Identifying LLM-related apps...');

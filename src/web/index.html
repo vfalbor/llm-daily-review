@@ -341,6 +341,58 @@
     .top5-why { font-size: 13px; color: var(--muted); line-height: 1.6; }
     .top5-score { font-size: 12px; color: var(--muted); margin-top: 8px; }
 
+    /* ── News digest ── */
+    .news-digest {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+    .news-digest-header {
+      padding: 10px 16px;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+    .news-item {
+      display: flex;
+      gap: 12px;
+      padding: 11px 16px;
+      border-bottom: 1px solid var(--border);
+      align-items: flex-start;
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-pts {
+      min-width: 32px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .news-pts-num { font-size: 13px; font-weight: 700; color: #FF6600; line-height: 1; }
+    .news-pts-label { font-size: 9px; color: var(--muted); }
+    .news-body { flex: 1; min-width: 0; }
+    .news-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      text-decoration: none;
+      line-height: 1.4;
+      display: inline;
+    }
+    .news-title:hover { color: var(--accent); }
+    .news-hn-link {
+      font-size: 11px;
+      color: #FF6600;
+      text-decoration: none;
+      margin-left: 6px;
+      white-space: nowrap;
+    }
+    .news-summary { font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.5; }
+
     /* ── Empty state ── */
     .empty { text-align: center; padding: 48px 20px; color: var(--muted); }
     .empty-icon { font-size: 28px; margin-bottom: 10px; opacity: 0.4; }
@@ -447,6 +499,8 @@
         <h1 id="results-title">Daily LLM App Reviews from Hacker News</h1>
         <p id="results-subtitle">Every day we test and score LLM apps posted on Hacker News — select a date to see results.</p>
       </div>
+
+      <div id="news-digest-container"></div>
 
       <div class="tabs">
         <button class="tab active" data-tab="apps">Apps tested</button>
@@ -559,11 +613,40 @@ async function loadCalendarData() {
   renderCalendar();
 }
 
+/* ── News digest ── */
+async function loadNewsDigest(date) {
+  const container = document.getElementById('news-digest-container');
+  container.innerHTML = '';
+  try {
+    const res   = await fetch(`/api/news?date=${date}`);
+    const items = await res.json();
+    if (!items.length) return;
+    const rows = items.map(item => `
+      <div class="news-item">
+        <div class="news-pts">
+          <div class="news-pts-num">${item.points || 0}</div>
+          <div class="news-pts-label">pts</div>
+        </div>
+        <div class="news-body">
+          <a href="${esc(item.url)}" target="_blank" rel="noopener" class="news-title">${esc(item.title)}</a>
+          ${item.hn_url ? `<a href="${esc(item.hn_url)}" target="_blank" rel="noopener" class="news-hn-link">[${item.comments || 0} comments]</a>` : ''}
+          ${item.summary ? `<div class="news-summary">${esc(item.summary)}</div>` : ''}
+        </div>
+      </div>`).join('');
+    container.innerHTML = `
+      <div class="news-digest">
+        <div class="news-digest-header">▲ Today on Hacker News</div>
+        ${rows}
+      </div>`;
+  } catch { /* non-fatal */ }
+}
+
 /* ── Results ── */
 async function loadDayResults(date) {
   document.getElementById('results-title').textContent = formatDate(date);
   document.getElementById('results-subtitle').textContent = 'Loading…';
   document.getElementById('app-list').innerHTML = emptyHTML('Loading…');
+  loadNewsDigest(date);
 
   try {
     const res  = await fetch(`/api/results?date=${date}`);

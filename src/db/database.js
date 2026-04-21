@@ -65,6 +65,13 @@ function migrate(db) {
       generated_at TEXT NOT NULL,
       result_json TEXT NOT NULL
     );
+
+    CREATE TABLE IF NOT EXISTS daily_news (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      run_date TEXT UNIQUE NOT NULL,
+      news_json TEXT NOT NULL,
+      created_at TEXT NOT NULL
+    );
   `);
 }
 
@@ -96,11 +103,13 @@ export function markTested(app, scored) {
 
 export function getWeekApps(weekStart, weekEnd) {
   const db = getDb();
+  const start = weekStart instanceof Date ? weekStart.toISOString() : weekStart;
+  const end = weekEnd instanceof Date ? weekEnd.toISOString() : weekEnd;
   return db.prepare(`
     SELECT * FROM tested_apps
     WHERE tested_at >= ? AND tested_at <= ?
     ORDER BY total_score DESC
-  `).all(weekStart, weekEnd).map(row => ({
+  `).all(start, end).map(row => ({
     ...row,
     scores: JSON.parse(row.scores_json),
     report: JSON.parse(row.report_json),
@@ -149,6 +158,20 @@ export function getActiveSubscribers(edition) {
     AND confirmed = 1
     AND unsubscribed_at IS NULL
   `).all(edition).map(r => r.email);
+}
+
+export function saveDailyNews(date, newsItems) {
+  const db = getDb();
+  db.prepare(`
+    INSERT OR REPLACE INTO daily_news (run_date, news_json, created_at)
+    VALUES (?, ?, ?)
+  `).run(date, JSON.stringify(newsItems), new Date().toISOString());
+}
+
+export function getDailyNews(date) {
+  const db = getDb();
+  const row = db.prepare('SELECT news_json FROM daily_news WHERE run_date = ?').get(date);
+  return row ? JSON.parse(row.news_json) : [];
 }
 
 export function saveDailyRun(date, stats, reportMd) {

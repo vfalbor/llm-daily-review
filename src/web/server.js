@@ -13,6 +13,7 @@ import {
   unsubscribe,
   getWeeklyTop5,
   getRecentApps,
+  getDailyNews,
 } from '../db/database.js';
 
 const __dir = path.dirname(fileURLToPath(import.meta.url));
@@ -83,6 +84,15 @@ app.get('/api/results', (req, res) => {
   res.json(apps);
 });
 
+// API: daily news digest for a specific date
+app.get('/api/news', (req, res) => {
+  const { date } = req.query;
+  if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    return res.status(400).json({ error: 'date required (YYYY-MM-DD)' });
+  }
+  res.json(getDailyNews(date));
+});
+
 // API: weekly top 5 (latest or by week param e.g. ?week=2026-W15)
 app.get('/api/weekly-top5', (req, res) => {
   const result = getWeeklyTop5(req.query.week || null);
@@ -90,7 +100,11 @@ app.get('/api/weekly-top5', (req, res) => {
   res.json(result);
 });
 
-// API: subscribe to newsletter
+// API: subscribe to newsletter — GET redirects to homepage (avoids Google 404 on form action URL)
+app.get('/api/subscribe', (req, res) => {
+  res.redirect(301, '/');
+});
+
 app.post('/api/subscribe', (req, res) => {
   const { email, edition } = req.body;
   if (!email || !edition) return res.status(400).json({ error: 'email and edition required' });

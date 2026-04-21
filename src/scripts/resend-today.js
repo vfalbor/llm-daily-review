@@ -2,7 +2,7 @@
 // Resends today's daily email with the latest template (including news digest).
 // Usage: node --env-file=.env src/scripts/resend-today.js
 
-import { getDayApps } from '../db/database.js';
+import { getDayApps, saveDailyNews } from '../db/database.js';
 import { scrapeHN } from '../scraper/hn.js';
 import { summarizeNewsItems } from '../summarizer/hn-news-summary.js';
 import { sendNewsletter } from '../email/mailer.js';
@@ -23,6 +23,9 @@ log.info('Generating news summary via Groq...');
 const newsSummary = await summarizeNewsItems(items, 6);
 log.info(`News digest: ${newsSummary.length} items`);
 newsSummary.forEach(n => log.info(`  [${n.points}pts] ${n.title}`));
+
+saveDailyNews(runDate, newsSummary);
+log.info('News saved to DB');
 
 log.info('Sending newsletter...');
 await sendNewsletter({
