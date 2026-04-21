@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "ggsql: A Grammar of Graphics for SQL",
+    "url": "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/",
+    "hn_url": "https://news.ycombinator.com/item?id=47833558",
+    "points": 433,
+    "comments": 80,
+    "author": "thomasp85",
+    "age": "2026-04-20T12:51:20 1776689480",
+    "scraped_at": "2026-04-21T13:00:02.967Z",
+    "tool_url": "https://github.com/open-source-posit/ggsql",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "database",
+    "app_type": "data_viz",
+    "description": "Grammar of graphics for SQL",
+    "use_modes": [
+      "R Package",
+      "SQL"
+    ],
+    "similar_tools": [
+      "ggplot2",
+      "Plotly",
+      "Tableau"
+    ],
+    "proposed_tests": [
+      "Install ggsql R package, create a new chart, measure chart quality",
+      "Query a database, visualize results with ggsql, compare vs other viz tools",
+      "Compare ggsql chart styles vs ggplot2"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/open-source-posit/ggsql"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776776704576-861gv",
+    "log_dir": "/tmp/llm-review-1776776704576-861gv",
+    "install_success": false,
+    "install_time_s": 6.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 5, in <module>\n    import ggsql\nModuleNotFoundError: No module named 'ggsql'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n"
+  }
+}
