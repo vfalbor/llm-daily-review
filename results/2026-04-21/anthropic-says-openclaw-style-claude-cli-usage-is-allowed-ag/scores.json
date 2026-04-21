@@ -1,0 +1,99 @@
+{
+  "app_name": "Claude CLI",
+  "url": "https://github.com/claude-ai/claude-cli",
+  "scored_at": "2026-04-21T13:03:33.414Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Claude CLI is an open-source LLM inference engine with a unique approach, but it's not a first-of-its-kind tool, with 30 comments analyzed on HN, and a sentiment score of 9/10, similar to other tools like Google Cloud AI Platform (23 stars) and Hugging Face Transformers (27 stars)"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 7s, which indicates issues with the installation process"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an LLM inference engine, Claude CLI fits well with the current AI development landscape, with a sentiment score of 9/10 and 281 HN points, indicating a relevant and timely tool"
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Claude CLI has a unique approach with an allowed OpenClaw-style Claude CLI usage, and it has more HN points (281) than similar tools like Google Cloud AI Platform (23 stars) and Hugging Face Transformers (27 stars)"
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, but with 281 HN points and 30 comments analyzed, the community seems active"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 / 0 and basic run success is false, indicating difficulties with the usage"
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool has a CLI and REST API, but no PyPI package is found, making integration more complicated"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The tool has a documentation page, but no GitHub repository stats are available, so it's hard to evaluate the quality of the documentation"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, making it hard to evaluate the maturity of the tool"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results are available, making it hard to evaluate the performance of the tool"
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score is 9/10, with 281 HN points, 30 comments analyzed, and mostly positive signals, indicating a very positive sentiment"
+    }
+  },
+  "summary": "Claude CLI is an open-source LLM inference engine with a unique approach and active community, but it has issues with installation and usage, and its performance and maturity are hard to evaluate.",
+  "recommendation": "worth-watching",
+  "app_url": "https://docs.openclaw.ai/providers/anthropic",
+  "tool_url": "https://github.com/claude-ai/claude-cli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47844269",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Google Cloud AI Platform",
+        "stars": 23,
+        "repo": "googleapis/google-cloud-php-ai-platform"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "stars": 27,
+        "repo": "nicknochnack/Hugging-Face-Transformers-Summarization"
+      },
+      {
+        "name": "Microsoft Bot Framework",
+        "stars": 1898,
+        "repo": "microsoft/BotFramework-Emulator"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Codex is 'so much better'",
+        "Anthurpic models write better code",
+        "users getting more value for cheaper prices"
+      ],
+      "negative_signals": [
+        "concerns about Anthropic's product strategy",
+        "users canceling and switching to Codex/other providers",
+        "unclear terms about usage and restrictions"
+      ],
+      "justification": "Commenters praise Codex's performance and express concerns about Anthropic's product strategy and unclear terms, but overall sentiment is very positive with some minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 281
+    }
+  }
+}
