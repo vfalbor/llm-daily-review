@@ -1,0 +1,127 @@
+{
+  "app_name": "Graph",
+  "url": "https://codemix.com/graph",
+  "scored_at": "2026-04-21T13:02:43.235Z",
+  "total_score": 49,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10 with 43 points and 13 comments, indicating a generally positive reception with potential for efficiency and deterministic activities through agent knowledge graphs."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The project is 12 days old, has 24 stars, and is not a fork, indicating some novelty but not a completely new approach, as it has a similar concept to existing graph databases like Amazon Neptune and Azure Cosmos DB."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false and the install time is 6.6s, indicating difficulties in installing the project, which affects its accessibility and usability."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project is a graph database, which is relevant in today's database landscape, particularly with the rise of real-time collaborative applications and the need for flexible data models."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 24 stars compared to Amazon Neptune's 369 stars and Azure Cosmos DB's 346 stars, indicating a significant difference in popularity, although its focus on real-time collaboration and TypeScript support may differentiate it from other graph databases like Neo4j."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 24 stars, 1 fork, and 2 contributors, but 0 open issues and 10 days since the last commit, indicating a small but potentially inactive community compared to other graph databases."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project has 0 tests passed out of 0, and the basic run success is false, indicating significant difficulties in using the project, which may be due to its demanding nature and complexity."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project has a PyPI package, but its license is none, which may affect its ease of integration, although its API and client library support may facilitate integration into existing applications."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no information available about the project's documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The project is 12 days old, has 1 fork, and 10 days since the last commit, indicating a low level of maturity, which may affect its stability and production readiness."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There is no performance data available for this project, as it is not applicable to this type of application."
+    }
+  },
+  "summary": "This project is a real-time collaborative graph database with potential for efficiency and deterministic activities, but it has a small community, is difficult to install, and lacks maturity, which may affect its usability and production readiness.",
+  "recommendation": "niche",
+  "app_url": "https://codemix.com/graph",
+  "tool_url": "https://github.com/codemix/graph",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47846946",
+  "domain": "database",
+  "app_type": "database-transactional",
+  "enriched": {
+    "github": {
+      "stars": 24,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 24,
+      "contributors": 2,
+      "license": "none",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 10,
+      "days_since_created": 12,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A type-safe, realtime, collaborative Graph Database which runs inside a CRDT",
+      "topics": [
+        "crdt",
+        "cypher-query-language",
+        "graphdatabase",
+        "graphdb",
+        "gremlin",
+        "yjs"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Amazon Neptune",
+        "stars": 369,
+        "repo": "aws-samples/amazon-neptune-samples"
+      },
+      {
+        "name": "Azure Cosmos DB",
+        "stars": 346,
+        "repo": "ShawnShiSS/clean-architecture-azure-cosmos-db"
+      },
+      {
+        "name": "Neo4j",
+        "stars": 16346,
+        "repo": "neo4j/neo4j"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.4",
+      "summary": "Directed and undirected graph data structures and algorithms.",
+      "requires_python": null,
+      "license": "modified Python",
+      "home_page": "http://robertdick.org/python/mods.html"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Potential for efficiency and deterministic activities through agent knowledge graphs",
+        "Graph database flexibility and ease of use with TypeScript",
+        "Excitement for the possibility of large-scale, effective Knowledge Graph (KG) applications"
+      ],
+      "negative_signals": [
+        "Demanding nature of graph databases and potential for complexity",
+        "Concerns about LLM (Large Language Model) capabilities and limitations"
+      ],
+      "justification": "The majority of comments are positive, expressing enthusiasm for the potential applications and ease of use of the graph database. However, some concern has been raised about the demanding nature of graph databases and the limitations of LLMs.",
+      "comment_count": 13,
+      "hn_points": 43
+    }
+  }
+}
