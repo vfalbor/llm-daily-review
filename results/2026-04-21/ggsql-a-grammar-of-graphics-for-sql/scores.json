@@ -1,0 +1,94 @@
+{
+  "app_name": "ggsql",
+  "url": "https://github.com/open-source-posit/ggsql",
+  "scored_at": "2026-04-21T13:05:56.718Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "ggsql introduces a new approach to visualizing SQL data, with 0 days since its GitHub repository was created, setting it apart from similar tools like ggplot2 with 6,914 stars and Plotly with 24,200 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success was false and install time is not relevant due to the failure, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data visualization tool, ggsql fits well with current data visualization trends, particularly in making SQL data more accessible."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While ggsql offers a unique approach to SQL visualization, its differentiation is somewhat tempered by the existence of mature tools like Tableau with 1,645 stars and Plotly with 24,200 stars."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without direct access to GitHub repository stats, we cannot accurately assess the community support, but the presence of similar tools suggests a potentially interested community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the ease of use is significantly impacted, suggesting potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The existence of a PyPI package (v0.2.7) and support for Python >=3.10 suggests a moderate level of ease of integration, particularly for those familiar with Python environments."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Lacking direct access to documentation quality or GitHub pages, we default to a neutral score, though the article describing the tool provides some insight into its capabilities."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without specific data on days since creation, forks, or open issues, and given the described alpha release status, maturity is difficult to assess directly."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks were provided, making it challenging to assess the tool's performance compared to others like ggplot2 or Plotly."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of HN comments or failed analysis."
+    }
+  },
+  "summary": "ggsql offers a novel approach to SQL visualization but faces challenges in terms of install success and community metrics, which are currently unknown. Its differentiation and ease of integration are notable, but performance and maturity assessments are hindered by a lack of specific data.",
+  "recommendation": "niche",
+  "app_url": "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/",
+  "tool_url": "https://github.com/open-source-posit/ggsql",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47833558",
+  "domain": "database",
+  "app_type": "data_viz",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "ggplot2",
+        "stars": 6914,
+        "repo": "tidyverse/ggplot2"
+      },
+      {
+        "name": "Plotly",
+        "stars": 24200,
+        "repo": "plotly/dash"
+      },
+      {
+        "name": "Tableau",
+        "stars": 1645,
+        "repo": "tableau/TabPy"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.7",
+      "summary": "SQL extension for declarative data visualization",
+      "requires_python": ">=3.10",
+      "license": "MIT",
+      "home_page": "https://ggsql.org"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
