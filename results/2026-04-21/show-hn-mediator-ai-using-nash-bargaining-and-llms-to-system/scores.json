@@ -1,0 +1,83 @@
+{
+  "app_name": "Mediator.ai",
+  "url": "https://mediator.ai/",
+  "scored_at": "2026-04-21T13:04:28.943Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Mediator.ai uses a unique approach to systematize fairness using Nash bargaining and LLMs, which is a novel contribution to the field, as seen in the positive HN comments (95 points, 30 comments) where users highlight the 'brilliant idea' and 'effective' use of LLMs."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is not pip-installable and the installation was not successful (install_success: false), taking 8.9s to fail, which indicates potential system requirement issues."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM framework, Mediator.ai fits into the current trend of leveraging LLMs for various applications, including systematizing fairness, which is relevant to today's AI development landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools like LangChain, CrewAI, and LLM Studio exist, Mediator.ai differentiates itself through its use of Nash bargaining, with users commenting on its 'potentially addressable market' and 'cool use of LLMS'."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected and no contributors count available, but having 95 HN points and positive comments, the community score is based on the HN engagement, which is modest but indicates some interest in the tool."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 3 tests passed and the basic run success is true but install success is false, it indicates significant ease of use issues, particularly with installation."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, which complicates integration, but it does have a documented use case, suggesting some potential for integration with effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to fully evaluate the documentation quality, as there's no clear information on the availability or quality of documentation beyond the tool's description and use modes (Code, Docs)."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Lack of specific information on the project's age, forks, or open issues, combined with the installation issues, suggests the project may still be in early stages of development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no specific benchmark data available to assess the performance, and without GitHub or PyPI data, it's challenging to evaluate performance claims directly."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 95 points, 30 comments, and positive signals indicating a 'brilliant idea' and 'effective' use of LLMs, despite some negative concerns about power disparity and fairness definitions."
+    }
+  },
+  "summary": "Mediator.ai is a novel tool using Nash bargaining and LLMs for systematizing fairness, with potential relevance and differentiation in the LLM framework space, but faces challenges in ease of use, integration, and maturity. Despite positive community engagement on HN, the tool's overall development and accessibility need improvement.",
+  "recommendation": "niche",
+  "app_url": "https://mediator.ai/",
+  "tool_url": "https://github.com/mediator-ai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47835411",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Brilliant idea for LLM-assisted mediation with a potentially addressable market of all humanity",
+        "Effective in bringing fairness to low-stakes agreements",
+        "Cool use of LLMS and Nash bargaining"
+      ],
+      "negative_signals": [
+        "Some concerns about power disparity and the need to acknowledge it",
+        "Difficulty defining fairness and making assumptions",
+        "Potential for exploiting less powerful parties in negotiations"
+      ],
+      "justification": "The comments are mostly positive, with some users highlighting the potential impact and effectiveness of the tool. However, there are also concerns about power disparity and the need to acknowledge it, as well as difficulties defining fairness and making assumptions.",
+      "comment_count": 30,
+      "hn_points": 95
+    }
+  }
+}
