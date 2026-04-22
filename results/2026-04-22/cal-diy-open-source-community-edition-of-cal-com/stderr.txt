@@ -1,0 +1,36 @@
+  * 
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+  * 
+ERROR: unable to select packages:
+  pip (no such package):
+    required by: world[pip]
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/@calcom%2fcal - Not found
+npm error 404
+npm error 404  The requested resource '@calcom/cal@*' could not be found or you do not have permission to access it.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-22T13_04_38_059Z-debug-0.log
+Cloning into 'cal.diy'...
+Updating files:  45% (3492/7703)Updating files:  46% (3544/7703)Updating files:  47% (3621/7703)Updating files:  48% (3698/7703)Updating files:  49% (3775/7703)Updating files:  50% (3852/7703)Updating files:  51% (3929/7703)Updating files:  52% (4006/7703)Updating files:  53% (4083/7703)Updating files:  54% (4160/7703)Updating files:  55% (4237/7703)Updating files:  56% (4314/7703)Updating files:  57% (4391/7703)Updating files:  58% (4468/7703)Updating files:  59% (4545/7703)Updating files:  60% (4622/7703)Updating files:  61% (4699/7703)Updating files:  62% (4776/7703)Updating files:  63% (4853/7703)Updating files:  64% (4930/7703)Updating files:  65% (5007/7703)Updating files:  66% (5084/7703)Updating files:  67% (5162/7703)Updating files:  68% (5239/7703)Updating files:  69% (5316/7703)Updating files:  70% (5393/7703)Updating files:  71% (5470/7703)Updating files:  72% (5547/7703)Updating files:  73% (5624/7703)Updating files:  74% (5701/7703)Updating files:  75% (5778/7703)Updating files:  76% (5855/7703)Updating files:  77% (5932/7703)Updating files:  78% (6009/7703)Updating files:  79% (6086/7703)Updating files:  80% (6163/7703)Updating files:  81% (6240/7703)Updating files:  82% (6317/7703)Updating files:  82% (6349/7703)Updating files:  83% (6394/7703)Updating files:  84% (6471/7703)Updating files:  85% (6548/7703)Updating files:  86% (6625/7703)Updating files:  87% (6702/7703)Updating files:  88% (6779/7703)Updating files:  89% (6856/7703)Updating files:  90% (6933/7703)Updating files:  91% (7010/7703)Updating files:  92% (7087/7703)Updating files:  93% (7164/7703)Updating files:  94% (7241/7703)Updating files:  95% (7318/7703)Updating files:  96% (7395/7703)Updating files:  97% (7472/7703)Updating files:  98% (7549/7703)Updating files:  99% (7626/7703)Updating files: 100% (7703/7703)Updating files: 100% (7703/7703), done.
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/cal.diy - Not found
+npm error 404
+npm error 404  The requested resource 'cal.diy@*' could not be found or you do not have permission to access it.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-22T13_06_12_663Z-debug-0.log
+cal: invalid number 'create'
+cal: invalid number 'join'
+BusyBox v1.37.0 (2025-12-16 14:19:28 UTC) multi-call binary.
+
+Usage: cal [-jmy] [[MONTH] YEAR]
+
+Display a calendar
+
+	-j	Use julian dates
+	-m	Week starts on Monday
+	-y	Display the entire year
