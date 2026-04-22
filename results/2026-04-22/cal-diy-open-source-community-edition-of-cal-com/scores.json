@@ -1,0 +1,104 @@
+{
+  "app_name": "Cal.diy",
+  "url": "https://github.com/calcom/cal.diy",
+  "scored_at": "2026-04-22T13:06:26.376Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "As an open-source alternative to Cal.com, Cal.diy offers a unique value proposition with 41,867 stars on GitHub, indicating a significant original contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success was false and the install time was 112.1s, indicating difficulties in installing the application."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a video conferencing platform, Cal.diy is highly relevant in today's remote work landscape, especially given its open-source nature and the popularity of the original Cal.com."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 41,867 stars, Cal.diy differentiates itself significantly from similar tools like Cal.com, which has 1,518 stars, showing a clear advantage in community adoption."
+    },
+    "community": {
+      "score": 9,
+      "justification": "Cal.diy has 41,867 stars, 937 contributors, and a strong signal of community engagement, suggesting a healthy and active ecosystem."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that only 1 out of 4 tests passed and the install success was false, the ease of use is compromised, indicating potential issues with the application's usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package was found, and while the application has a CLI mode, the lack of pip-installability might hinder integration for some users."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct evidence of documentation quality from GitHub or the application's URL, and given the absence of specific data, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 1856 days since the repository was created, 0 days since the last commit, and an MIT license, Cal.diy demonstrates signs of maturity and active maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements like cli_usage_time_ms and memory_usage_mb, the lack of direct comparisons to similar tools or explicit performance claims makes it challenging to assess performance accurately."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available for Cal.diy on HN."
+    }
+  },
+  "summary": "Cal.diy is an open-source version of Cal.com, offering a unique value proposition in the video conferencing space. With a strong community and signs of maturity, it faces challenges in usability and integration. Cal.diy is highly relevant in today's remote work landscape, with significant differentiation from similar tools.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/calcom/cal.diy",
+  "tool_url": "https://github.com/calcom/cal.diy",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47852155",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 41867,
+      "forks": 12933,
+      "open_issues": 1314,
+      "watchers": 41867,
+      "contributors": 937,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1856,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "topics": [
+        "next-auth",
+        "nextjs",
+        "open-source",
+        "postgresql",
+        "prisma",
+        "t3-stack",
+        "tailwindcss",
+        "trpc",
+        "turborepo",
+        "typescript",
+        "zod"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Cal.com",
+        "stars": 1518,
+        "repo": "SundeepK/CompactCalendarView"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
