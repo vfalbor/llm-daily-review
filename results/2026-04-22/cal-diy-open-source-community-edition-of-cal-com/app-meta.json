@@ -1,0 +1,43 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Cal.diy: open-source community edition of cal.com ",
+    "url": "https://github.com/calcom/cal.diy",
+    "hn_url": "https://news.ycombinator.com/item?id=47852155",
+    "points": 229,
+    "comments": 56,
+    "author": "petecooper",
+    "age": "2026-04-21T17:58:21 1776794301",
+    "scraped_at": "2026-04-22T13:00:03.657Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Open-source version of Cal.com, a video conferencing platform.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Cal.com"
+    ],
+    "proposed_tests": [
+      "Install Cal.diy, create a meeting, verify video quality, measure CLI usage"
+    ],
+    "tool_url": "https://github.com/calcom/cal.diy",
+    "repo_url": "https://github.com/calcom/cal.diy",
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1776863056699-obpyr",
+    "log_dir": "/tmp/llm-review-1776863056699-obpyr",
+    "install_success": false,
+    "install_time_s": 112.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:cli_usage_time_ms:4.57\nBENCHMARK:memory_usage_mb:0.00\nBENCHMARK:cpu_count:4\nBENCHMARK:file_count:51084",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nERROR: unable to select packages:\n  pip (no such package):\n    required by: world[pip]\nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/@calcom%2fcal - Not found\nnpm error 404\nnpm error 404  The requested resource '@calcom/cal@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-22T13_04_38_059Z-debug-0.log\nCloning into 'cal.diy'...\nUpdating files:  45% (3492/7703)\rUpdating files:  46% (3544/7703)\rUpdating files:  47% (3621/7703)\rUpdating files:  48% (3698/7703)\rUpdating files:  49% (3775/7703)\rUpdating files:  50% (3852/7703)\rUpdating files:  51% (3929/7703)\rUpdating files:  52% (4006/7703)\rUpdating files:  53% (4083/7703)\rUpdating files:  54% (4160/7703)\rUpdating files:  55% (4237/7703)\rUpdating files:  56% (4314/7703)\rUpdating files:  57% (4391/7703)\rUpdating files:  58% (4468/7703)\rUpdating files:  59% (4545/7703)\rUpdating files:  60% (4622/7703)\rUpdating files:  61% (4699/7703)\rUpdating files:  62% (4776/7703)\rUpdating files:  63% (4853/7703)\rUpdating files:  64% (4930/7703)\rUpdating files:  65% (5007/7703)\rUpdating files:  66% (5084/7703)\rUpdating files:  67% (5162/7703)\rUpdating files:  68% (5239/7703)\rUpdating files:  69% (5316/7703)\rUpdating files:  70% (5393/7703)\rUpdating files:  71% (5470/7703)\rUpdating files:  72% (5547/7703)\rUpdating files:  73% (5624/7703)\rUpdating files:  74% (5701/7703)\rUpdating files:  75% (5778/7703)\rUpdating files:  76% (5855/7703)\rUpdating files:  77% (5932/7703)\rUpdating files:  78% (6009/7703)\rUpdating files:  79% (6086/7703)\rUpdating files:  80% (6163/7703)\rUpdating files:  81% (6240/7703)\rUpdating files:  82% (6317/7703)\rUpdating files:  82% (6349/7703)\rUpdating files:  83% (6394/7703)\rUpdating files:  84% (6471/7703)\rUpdating files:  85% (6548/7703)\rUpdating files:  86% (6625/7703)\rUpdating files:  87% (6702/7703)\rUpdating files:  88% (6779/7703)\rUpdating files:  89% (6856/7703)\rUpdating files:  90% (6933/7703)\rUpdating files:  91% (7010/7703)\rUpdating files:  92% (7087/7703)\rUpdating files:  93% (7164/7703)\rUpdating files:  94% (7241/7703)\rUpdating files:  95% (7318/7703)\rUpdating files:  96% (7395/7703)\rUpdating files:  97% (7472/7703)\rUpdating files:  98% (7549/7703)\rUpdating files:  99% (7626/7703)\rUpdating files: 100% (7703/7703)\rUpdating files: 100% (7703/7703), done.\nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/cal.diy - Not found\nnpm error 404\nnpm error 404  The requested resource 'cal.diy@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be ",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/24) Installing libgcc (15.2.0-r2)\n( 2/24) Installing jansson (2.14.1-r0)\n( 3/24) Installing libstdc++ (15.2.0-r2)\n( 4/24) Installing binutils (2.45.1-r0)\n( 5/24) Installing libgomp (15.2.0-r2)\n( 6/24) Installing libatomic (15.2.0-r2)\n( 7/24) Installing gmp (6.3.0-r4)\n( 8/24) Installing isl26 (0.26-r1)\n( 9/24) Installing mpfr4 (4.2.2-r0)\n(10/24) Installing mpc1 (1.3.1-r1)\n(11/24) Installing gcc (15.2.0-r2)\n(12/24) Installing musl-dev (1.2.5-r23)\n(13/24) Installing libxml2 (2.13.9-r0)\n(14/24) Installing llvm21-libs (21.1.2-r1)\n(15/24) Installing scudo-malloc (21.1.2-r0)\n(16/24) Installing rust (1.91.1-r1)\n(17/24) Installing cargo (1.91.1-r1)\n(18/24) Installing ada-libs (3.3.0-r0)\n(19/24) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(20/24) Installing icu-libs (76.1-r1)\n(21/24) Installing simdjson (3.12.0-r0)\n(22/24) Installing simdutf (7.5.0-r1)\n(23/24) Installing nodejs (24.14.1-r0)\n(24/24) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nINSTALL_FAIL:Command '['npm', 'install', '-g', 'cal.diy']' returned non-zero exit status 1.\nTEST_FAIL:create_meeting:Command '['cal', 'create', 'meeting']' returned non-zero exit status 1.\nTEST_FAIL:verify_video_quality:Command '['cal', 'join', 'meeting']' returned non-zero exit status 1.\nBENCHMARK:cli_usage_time_ms:4.57\nTEST_PASS:measure_cli_usage\nTEST_SKIP:compare_performance_vs_cal.com:[Errno 2] No such file or directory: 'cal.com'\nBENCHMARK:memory_usage_mb:0.00\nBENCHMARK:cpu_count:4\nBENCHMARK:file_count:51084\nRUN_OK\n"
+  }
+}
