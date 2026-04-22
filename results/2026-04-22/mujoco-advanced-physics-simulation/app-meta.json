@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "MuJoCo – Advanced Physics Simulation",
+    "url": "https://github.com/google-deepmind/mujoco",
+    "hn_url": "https://news.ycombinator.com/item?id=47820791",
+    "points": 51,
+    "comments": 9,
+    "author": "modinfo",
+    "age": "2026-04-19T00:34:11 1776558851",
+    "scraped_at": "2026-04-22T13:00:03.646Z",
+    "tool_url": "https://github.com/google-deepmind/mujoco",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.87,
+    "domain": "research",
+    "app_type": "research-model",
+    "description": "High-performance physics engine for modeling and simulating complex systems",
+    "use_modes": [
+      "Command Line"
+    ],
+    "similar_tools": [
+      "PhysX",
+      "Havok",
+      "ODE"
+    ],
+    "proposed_tests": [
+      "Clone the repository, build and run the MuJoCo server, verify output matches example",
+      "Use MuJoCo to simulate a 3D model, measure simulation speed and accuracy",
+      "Compare MuJoCo's performance against similar physics engines"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/google-deepmind/mujoco"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776862948775-929f3",
+    "log_dir": "/tmp/llm-review-1776862948775-929f3",
+    "install_success": true,
+    "install_time_s": 24.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:memory_peak_mb:0.00\nBENCHMARK:memory_current_mb:0.00\nBENCHMARK:cpu_idle_time_s:1",
+    "error_log": "Cloning into 'mujoco'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///mujoco does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nCloning into 'ode'...\nwarning: You appear to have cloned an empty repository.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nObtaining file:///mujoco\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:test_import:No module named 'mujoco'\nTEST_FAIL:test_simulation:No module named 'mujoco'\nTEST_FAIL:test_baseline_comparison:No module named 'mujoco'\nBENCHMARK:memory_peak_mb:0.00\nBENCHMARK:memory_current_mb:0.00\nBENCHMARK:cpu_idle_time_s:1\nRUN_OK\n"
+  }
+}
