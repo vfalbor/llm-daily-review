@@ -1,0 +1,83 @@
+{
+  "app_name": "Zeta",
+  "url": "https://zknill.io/zeta",
+  "scored_at": "2026-04-22T13:03:41.037Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool introduces an asynchronous agent framework, which is a new approach in the LLM ecosystem, with 0 days since creation not applicable as no GitHub repo is available, but the concept is innovative compared to similar tools like Rasa and Dialogflow."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, and the install time is not provided, but it is mentioned that it can be used via the Command Line or API, with the PyPI package not found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is an LLM assistant, which is currently relevant in the LLM ecosystem, with the app type being a good fit for the current trends, as it provides an asynchronous agent framework for natural language processing."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool has a unique feature set compared to similar tools like Rasa and Dialogflow, with 0 GitHub stars and 0 contributors, but it breaks coupling between human and agent, and is useful for long-running or async workflows."
+    },
+    "community": {
+      "score": 4,
+      "justification": "There is no GitHub repository detected, but the HN post has 70 points, 30 comments, and some positive signals like 'interesting solution for async agents' and 'breaks coupling between human and agent', indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tool has 0 tests passed out of 1, and the basic run success is false, indicating that it may be difficult to use, with no specific TEST_PASS or TEST_FAIL names available."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool has a Command Line and API interface, but no PyPI package is found, and the license is not specified, making it difficult to assess its ease of integration, with insufficient data to score higher or lower than 5."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available on the documentation, as the GitHub repository is not detected, and the tool's website does not provide clear information on its usage, with insufficient data to score higher or lower than 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no data available on the maturity of the tool, as the GitHub repository is not detected, and the tool's website does not provide clear information on its development status, with insufficient data to score higher or lower than 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark results available for the tool, and no BENCHMARK lines from tests are provided, making it difficult to assess its performance, with insufficient data to score higher or lower than 5."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN post has a sentiment score of 6/10, with 70 points, 30 comments, and some positive signals like 'interesting solution for async agents' and 'breaks coupling between human and agent', indicating a generally positive sentiment, with a mix of constructive criticism and doubts about the effectiveness of the solution."
+    }
+  },
+  "summary": "Zeta is an asynchronous agent framework for natural language processing that introduces a new approach in the LLM ecosystem. While it has a unique feature set and is currently relevant, it lacks a GitHub repository, and its ease of use and integration are uncertain. The community is small but active, with some positive signals on HN.",
+  "recommendation": "niche",
+  "app_url": "https://zknill.io/posts/all-your-agents-are-going-async/",
+  "tool_url": "https://zknill.io/zeta",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47832720",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "interesting solution for async agents",
+        "breaks coupling between human and agent",
+        "useful for long-running or async workflows"
+      ],
+      "negative_signals": [
+        "skeptical about the effectiveness of the solution",
+        "concerns about industry obsession with concatenating messages",
+        "doubts about the ability of agents to determine relevance"
+      ],
+      "justification": "The comments are generally positive, with some constructive criticism. Users are interested in the solution and see its potential benefits, but they also have concerns about its effectiveness and the industry's approach to message processing.",
+      "comment_count": 30,
+      "hn_points": 70
+    }
+  }
+}
