@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "GitHub CLI now collects pseudoanonymous telemetry",
+    "url": "https://cli.github.com/telemetry",
+    "hn_url": "https://news.ycombinator.com/item?id=47862331",
+    "points": 56,
+    "comments": 18,
+    "author": "ingve",
+    "age": "2026-04-22T11:58:58 1776859138",
+    "scraped_at": "2026-04-22T13:00:03.639Z",
+    "tool_url": "https://github.com/cli/cli",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "GitHub CLI is a fast and simple way to work with repositories from the terminal.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "GitHub Desktop",
+      "gitkraken",
+      "Git"
+    ],
+    "proposed_tests": [
+      "Install GitHub CLI using pip",
+      "Run a simple command like `gh repo list`",
+      "Compare CLI output vs GitHub Web UI",
+      "Test API calls with `gh api`"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cli/cli"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776862910201-1f403",
+    "log_dir": "/tmp/llm-review-1776862910201-1f403",
+    "install_success": true,
+    "install_time_s": 24.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/@github%2fcli - Not found\nnpm error 404\nnpm error 404  The requested resource '@github/cli@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-22T13_02_05_375Z-debug-0.log\nCloning into '/tmp/cli'...\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /tmp/cli/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/cli/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-22T13_02_15_521Z-debug-0.log\nTraceback (most recent call last):\n  File \"/app/test.py\", line 27, in <module>\n    subprocess.run(['gh', 'repo', 'list'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'gh'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/24) Installing libgcc (15.2.0-r2)\n( 2/24) Installing jansson (2.14.1-r0)\n( 3/24) Installing libstdc++ (15.2.0-r2)\n( 4/24) Installing binutils (2.45.1-r0)\n( 5/24) Installing libgomp (15.2.0-r2)\n( 6/24) Installing libatomic (15.2.0-r2)\n( 7/24) Installing gmp (6.3.0-r4)\n( 8/24) Installing isl26 (0.26-r1)\n( 9/24) Installing mpfr4 (4.2.2-r0)\n(10/24) Installing mpc1 (1.3.1-r1)\n(11/24) Installing gcc (15.2.0-r2)\n(12/24) Installing musl-dev (1.2.5-r23)\n(13/24) Installing libxml2 (2.13.9-r0)\n(14/24) Installing llvm21-libs (21.1.2-r1)\n(15/24) Installing scudo-malloc (21.1.2-r0)\n(16/24) Installing rust (1.91.1-r1)\n(17/24) Installing cargo (1.91.1-r1)\n(18/24) Installing ada-libs (3.3.0-r0)\n(19/24) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(20/24) Installing icu-libs (76.1-r1)\n(21/24) Installing simdjson (3.12.0-r0)\n(22/24) Installing simdutf (7.5.0-r1)\n(23/24) Installing nodejs (24.14.1-r0)\n(24/24) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nINSTALL_OK\nINSTALL_FAIL:npm install failed with error code 1\nINSTALL_FAIL:git clone and npm install failed with error code 254\n"
+  }
+}
