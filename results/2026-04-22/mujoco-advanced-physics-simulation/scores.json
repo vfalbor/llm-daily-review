@@ -1,0 +1,124 @@
+{
+  "app_name": "MuJoCo",
+  "url": "https://github.com/google-deepmind/mujoco",
+  "scored_at": "2026-04-22T13:03:06.322Z",
+  "total_score": 75,
+  "scores": {
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "HN sentiment score is 9/10 with 52 points, 9 comments, indicating a highly positive community response, with users expressing excitement and enthusiasm for the MuJoCo physics simulation."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "With 1699 days since repo creation and being the primary physics engine for many research projects, MuJoCo demonstrates a meaningful improvement on existing tools, scoring 8 for novelty."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 24.9s, which is relatively long, resulting in a score of 6 for system requirements."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a high-performance physics engine, MuJoCo is highly relevant to the current AI and robotics research landscape, scoring 9 for current relevance."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 13,071 stars, MuJoCo significantly outperforms similar tools like PhysX (4,506 stars), Havok (89 stars), and ODE (1,528 stars), demonstrating a unique feature set and scoring 9 for differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "MuJoCo has 13,071 stars, 1455 forks, and 112 contributors, indicating a large and active community, but the 325 open issues prevent a perfect score, resulting in 8 for community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Despite basic run success being true, 0 out of 3 tests passed, indicating potential issues with ease of use, resulting in a score of 4."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The presence of a PyPI package (v3.7.0) and a command-line interface indicates a moderate level of ease of integration, scoring 7."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub wiki and topics, but the quality and completeness of the documentation could be improved, resulting in a score of 7 for documentation."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 1699 days since creation, 1455 forks, and 112 contributors, MuJoCo demonstrates a high level of maturity, but the 325 open issues prevent a perfect score, resulting in 8 for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmark results to assess performance, resulting in a neutral score of 5."
+    }
+  },
+  "summary": "MuJoCo is a high-performance physics engine with a large and active community, demonstrating a unique feature set and high relevance to the current AI and robotics research landscape. However, it faces challenges with ease of use and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/google-deepmind/mujoco",
+  "tool_url": "https://github.com/google-deepmind/mujoco",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47820791",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 13071,
+      "forks": 1455,
+      "open_issues": 325,
+      "watchers": 13071,
+      "contributors": 112,
+      "license": "Apache-2.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1699,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "topics": [
+        "mujoco",
+        "physics",
+        "robotics"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PhysX",
+        "stars": 4506,
+        "repo": "NVIDIA-Omniverse/PhysX"
+      },
+      {
+        "name": "Havok",
+        "stars": 89,
+        "repo": "PredatorCZ/HavokLib"
+      },
+      {
+        "name": "ODE",
+        "stars": 1528,
+        "repo": "Zymrael/awesome-neural-ode"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "3.7.0",
+      "summary": "MuJoCo Physics Simulator",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Impressive physics simulation",
+        "Excitement and enthusiasm from users",
+        "Success stories and innovative applications"
+      ],
+      "negative_signals": [
+        "Concerns about dependency on LLMs",
+        "Cautioning against over-reliance on technology"
+      ],
+      "justification": "The comments express widespread excitement and enthusiasm for the MuJoCo physics simulation, with several users sharing their positive experiences and innovative applications. However, a few users caution against over-reliance on technology, suggesting that building things themselves is more beneficial for learning.",
+      "comment_count": 9,
+      "hn_points": 52
+    }
+  }
+}
