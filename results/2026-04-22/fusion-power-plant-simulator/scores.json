@@ -1,0 +1,83 @@
+{
+  "app_name": "Fusion Power Plant Simulator",
+  "url": "https://www.fusionenergybase.com/fusion-power-plant-simulator",
+  "scored_at": "2026-04-22T13:04:15.380Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The fusion simulator shows promise and has an innovative approach to plasma confinement, as seen in the HN comments. However, the sentiment score of 7/10 indicates some concerns and doubts about practicality and feasibility."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false, indicating difficulty in installation, and the install time is 9.4s, which is relatively fast but not indicative of overall system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is infra-simulator, which is somewhat relevant to current LLM ecosystem trends, but not directly related to LLM development."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The simulator has a unique approach to plasma confinement, but there are concerns about practicality and safety, and it is compared to traditional forms of energy generation, indicating some differentiation but also some drawbacks."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected, and the HN points are 174, which is a moderate level of engagement, but not indicative of a strong community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0/1, indicating difficulty in usage, and the basic run success is true, but the error message 'No such file or directory' indicates some issues with the simulator."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found, and the app URL does not mention API/SDK/webhook, indicating difficulty in integration."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The page title is 'Home | Fusion Energy Base', and there is a link to a guide, but no changelog or release notes, and no examples or demo, indicating some documentation but not comprehensive."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The detected version is 1.0, but there is no changelog or release notes, and the page content length is 841 chars, which is relatively short, indicating some level of maturity but not well-established."
+    },
+    "performance": {
+      "score": 2,
+      "justification": "The benchmark measurements indicate an error, and there is no comparison to similar tools, indicating poor performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but it is not applicable to this score, as it is already considered in the novelty score."
+    }
+  },
+  "summary": "The Fusion Power Plant Simulator is a web-based simulator with some innovative approaches, but it has difficulty in installation, usage, and integration, and lacks comprehensive documentation and a strong community.",
+  "recommendation": "niche",
+  "app_url": "https://www.fusionenergybase.com/fusion-power-plant-simulator",
+  "tool_url": "https://www.fusionenergybase.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47849315",
+  "domain": "infrastructure",
+  "app_type": "infra-simulator",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Fusion simulation shows promise",
+        "Potential for combined heat and electricity production",
+        "Innovative approach to plasma confinement"
+      ],
+      "negative_signals": [
+        "Concerns about practicality and safety in urban areas",
+        "Doubts about feasibility of fusion power",
+        "Comparison to traditional forms of energy generation"
+      ],
+      "justification": "The comments are generally positive, with users appreciating the fusion simulator and its innovative approach to plasma confinement. However, there are concerns about practicality and safety in urban areas and doubts about the feasibility of fusion power.",
+      "comment_count": 30,
+      "hn_points": 174
+    }
+  }
+}
