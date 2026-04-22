@@ -1,0 +1,119 @@
+{
+  "app_name": "GitHub CLI",
+  "url": "https://github.com/cli/cli",
+  "scored_at": "2026-04-22T13:02:27.676Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The GitHub CLI collects pseudoanonymous telemetry, which is a new approach to data collection (days_since_created: 2392, is_fork: false, similar tools: GitHub Desktop, gitkraken, Git)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 24.1s, and install success is true, but there is no PyPI package found (install_success: true, install_time_s: 24.1, PyPI existence: false)."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The GitHub CLI is a relevant tool in the current developer tooling landscape, with 43,979 stars on GitHub and 658 contributors (app_type: devtool-cli, GitHub stars: 43,979, contributors: 658)."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The GitHub CLI has 43,979 stars, compared to GitHub Desktop (3,432 stars) and gitkraken (9,786 stars), showing a clear advantage in terms of popularity (stars vs similar tools: +40547, +34193)."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The GitHub CLI has 43,979 stars, 8304 forks, and 658 contributors, indicating a strong and active community (GitHub stars: 43,979, forks: 8304, contributors: 658, days_since_update: 0)."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "There are no test results available to assess ease of use (tests_passed: 0, tests_total: 0, install_success: true, basic_run_success: false)."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The GitHub CLI has a MIT license and is available on GitHub, but there is no PyPI package found (PyPI existence: false, license: MIT, GitHub repository: true)."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The GitHub CLI has a GitHub repository with a README, but no documentation is explicitly mentioned (has_wiki: false, has_pages: false, GitHub topics: true, README quality: 7)."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "The GitHub CLI has been around for 2392 days, has 658 contributors, and is actively maintained (days_since_created: 2392, contributors: 658, days_since_last_commit: 0)."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no BENCHMARK data available to assess performance (BENCHMARK lines: none, comparison to similar tools: none)."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 57 points, 18 comments, and both positive and negative signals (sentiment score: 6, HN points: 57, comments: 18, positive signals: 3, negative signals: 2)."
+    }
+  },
+  "summary": "The GitHub CLI is a fast and simple way to work with repositories from the terminal, with a strong and active community, and a relevant tool in the current developer tooling landscape.",
+  "recommendation": "worth-watching",
+  "app_url": "https://cli.github.com/telemetry",
+  "tool_url": "https://github.com/cli/cli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47862331",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 43979,
+      "forks": 8304,
+      "open_issues": 978,
+      "watchers": 43979,
+      "contributors": 658,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2392,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "GitHub’s official command line tool",
+      "topics": [
+        "cli",
+        "git",
+        "github-api-v4",
+        "golang"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GitHub Desktop",
+        "stars": 3432,
+        "repo": "robotze/GithubDesktopZhTool"
+      },
+      {
+        "name": "gitkraken",
+        "stars": 9786,
+        "repo": "gitkraken/vscode-gitlens"
+      },
+      {
+        "name": "Git",
+        "stars": 173539,
+        "repo": "github/gitignore"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Love the new telemetry feature",
+        "Robust ways to opt-out",
+        "Useful data for prioritizing work"
+      ],
+      "negative_signals": [
+        "Concerns about lack of transparency and user consent",
+        "Comparison to Valve's opt-in and transparent approach",
+        "Potential for collecting fake data"
+      ],
+      "justification": "The project has received generally positive comments, with some contributors praising the new telemetry feature as useful for prioritizing work. However, concerns about transparency, user consent, and potential security issues have raised some skepticism and criticism.",
+      "comment_count": 18,
+      "hn_points": 57
+    }
+  }
+}
