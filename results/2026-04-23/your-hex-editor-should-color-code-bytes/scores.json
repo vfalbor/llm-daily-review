@@ -1,0 +1,86 @@
+{
+  "app_name": "Your hex editor should color-code bytes",
+  "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+  "scored_at": "2026-04-23T13:02:34.004Z",
+  "total_score": 61,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, indicating a generally positive sentiment, with 195 HN points and 30 comments analyzed, including positive signals such as the value of color coding in hex editors."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The article presents a unique perspective on hex editors, emphasizing the importance of color coding, but does not introduce a fundamentally new concept, with no direct comparison to similar tools like Hxd or Hex-Edit."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The article does not require any specific system requirements to be met, as it is a blog post, and the detected version is 0.4.0, with no install command on the page, but basic syntax highlighting can be considered a low system requirement."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The article's focus on hex editors and color coding aligns with current trends in developer tools, as evidenced by the discussion on HN, with 195 points and 30 comments, indicating a relevant and timely topic."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to compare the article's approach to similar tools, as no direct comparison is made, but the article's unique perspective on color coding can be considered a differentiating factor."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 195 HN points and 30 comments, the community engagement is moderate, but there is no GitHub repository or open-source data available to assess the community's involvement, and the article's discussion is limited to HN."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and not a tool or software that can be installed or used."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and not a tool or software that can be integrated into a workflow or pipeline."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The article provides a clear and concise explanation of the importance of color coding in hex editors, with a content length of 42513 characters, indicating a well-written and informative piece, but lacks a dedicated docs site or wiki."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 0.4.0, but there is no information on the project's age, releases, or maintainers, and the article's discussion on HN is limited, indicating a potentially immature or unestablished project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and not a tool or software that can be benchmarked for performance."
+    }
+  },
+  "summary": "The article 'Your hex editor should color-code bytes' presents a unique perspective on the importance of color coding in hex editors, with a generally positive sentiment on HN, but lacks a clear comparison to similar tools and has limited community engagement, and the project's maturity is uncertain due to the lack of available data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://simonomi.dev/blog/color-code-your-bytes/",
+  "tool_url": null,
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47846688",
+  "domain": "development",
+  "app_type": "devtool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "hex editors should color-code bytes",
+        "semantic coloring (based on structure) is useful",
+        "color coding improves readability and tracking of hashes",
+        "hex dumps win due to familiarity",
+        "basic syntax highlighting can make a difference in readability"
+      ],
+      "negative_signals": [
+        "it’s a pretty basic hex viewer",
+        "can’t think of a better representation than a hex dump",
+        "random colors at each byte is hard to identify specific values",
+        "unique bytes have no unique meaning across data types"
+      ],
+      "justification": "Commenters generally agree on the value of color coding in hex editors, but some express concern about the quality and usability of specific implementations, while others suggest additional features or alternative approaches for visualizing binary data.",
+      "comment_count": 30,
+      "hn_points": 195
+    }
+  }
+}
