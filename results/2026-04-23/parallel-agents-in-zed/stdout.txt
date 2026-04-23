@@ -1,0 +1,88 @@
+( 1/14) Installing brotli-libs (1.2.0-r0)
+( 2/14) Installing c-ares (1.34.6-r0)
+( 3/14) Installing libunistring (1.4.1-r0)
+( 4/14) Installing libidn2 (2.3.8-r0)
+( 5/14) Installing nghttp2-libs (1.68.0-r0)
+( 6/14) Installing nghttp3 (1.13.1-r0)
+( 7/14) Installing libpsl (0.21.5-r3)
+( 8/14) Installing zstd-libs (1.5.7-r2)
+( 9/14) Installing libcurl (8.17.0-r1)
+(10/14) Installing curl (8.17.0-r1)
+(11/14) Installing libexpat (2.7.5-r0)
+(12/14) Installing pcre2 (10.47-r0)
+(13/14) Installing git (2.52.0-r0)
+(14/14) Installing git-init-template (2.52.0-r0)
+Executing busybox-1.37.0-r30.trigger
+OK: 26.1 MiB in 52 packages
+OK: 26.1 MiB in 52 packages
+Collecting zed
+  Downloading zed-1.1.1.tar.gz (4.0 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting twisted (from zed)
+  Downloading twisted-25.5.0-py3-none-any.whl.metadata (22 kB)
+Collecting pyzmq (from zed)
+  Downloading pyzmq-27.1.0-cp312-abi3-musllinux_1_2_x86_64.whl.metadata (6.0 kB)
+Collecting attrs>=22.2.0 (from twisted->zed)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting automat>=24.8.0 (from twisted->zed)
+  Downloading automat-25.4.16-py3-none-any.whl.metadata (8.4 kB)
+Collecting constantly>=15.1 (from twisted->zed)
+  Downloading constantly-23.10.4-py3-none-any.whl.metadata (1.8 kB)
+Collecting hyperlink>=17.1.1 (from twisted->zed)
+  Downloading hyperlink-21.0.0-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting incremental>=24.7.0 (from twisted->zed)
+  Downloading incremental-24.11.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting typing-extensions>=4.2.0 (from twisted->zed)
+  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting zope-interface>=5 (from twisted->zed)
+  Downloading zope_interface-8.3.tar.gz (256 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: idna>=2.5 in /usr/local/lib/python3.12/site-packages (from hyperlink>=17.1.1->twisted->zed) (3.13)
+Collecting packaging>=17.0 (from incremental>=24.7.0->twisted->zed)
+  Using cached packaging-26.1-py3-none-any.whl.metadata (3.5 kB)
+Downloading pyzmq-27.1.0-cp312-abi3-musllinux_1_2_x86_64.whl (1.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 21.4 MB/s eta 0:00:00
+Downloading twisted-25.5.0-py3-none-any.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 63.9 MB/s eta 0:00:00
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Downloading automat-25.4.16-py3-none-any.whl (42 kB)
+Downloading constantly-23.10.4-py3-none-any.whl (13 kB)
+Downloading hyperlink-21.0.0-py2.py3-none-any.whl (74 kB)
+Downloading incremental-24.11.0-py3-none-any.whl (21 kB)
+Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached packaging-26.1-py3-none-any.whl (95 kB)
+Building wheels for collected packages: zed, zope-interface
+  Building wheel for zed (pyproject.toml): started
+  Building wheel for zed (pyproject.toml): finished with status 'done'
+  Created wheel for zed: filename=zed-1.1.1-py3-none-any.whl size=4196 sha256=45fa0a7be6db861073b58fed39bca27ea1153abdd3dc29546d3ac7a1389dea00
+  Stored in directory: /root/.cache/pip/wheels/74/bb/3b/cde2d8ea4ced8df977083c841919cb9376769d5ef60ab6914e
+  Building wheel for zope-interface (pyproject.toml): started
+  Building wheel for zope-interface (pyproject.toml): finished with status 'done'
+  Created wheel for zope-interface: filename=zope_interface-8.3-cp312-cp312-linux_x86_64.whl size=199171 sha256=6c970551af3d9abf5c987d3713ce7734ed2d6b32c0bb2f0d9c05a540557d2987
+  Stored in directory: /root/.cache/pip/wheels/ad/b4/84/ef23db959358d6d1644baac2897e0ffa72816cf20c473440e7
+Successfully built zed zope-interface
+Installing collected packages: zope-interface, typing-extensions, pyzmq, packaging, hyperlink, constantly, automat, attrs, incremental, twisted, zed
+Successfully installed attrs-26.1.0 automat-25.4.16 constantly-23.10.4 hyperlink-21.0.0 incremental-24.11.0 packaging-26.1 pyzmq-27.1.0 twisted-25.5.0 typing-extensions-4.15.0 zed-1.1.1 zope-interface-8.3
+INSTALL_OK
+INSTALL_OK
+BENCHMARK:import_time_ms:156.03923797607422
+TEST_FAIL:test_import_zed:module 'zed' has no attribute 'Example'
+TEST_FAIL:test_zed_api_latency:module 'zed' has no attribute 'api'
+TEST_FAIL:test_vs_langchain:No module named 'langchain'
+BENCHMARK:memory_usage_mb:0.0
+TEST_PASS:test_memory_usage
+BENCHMARK:loc_count:0
+TEST_PASS:test_loc_count
+BENCHMARK:test_files_count:0
+TEST_PASS:test_test_files_count
+RUN_OK
