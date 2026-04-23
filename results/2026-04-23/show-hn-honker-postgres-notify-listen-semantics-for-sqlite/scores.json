@@ -1,0 +1,120 @@
+{
+  "app_name": "Honker",
+  "url": "https://github.com/russellromney/honker",
+  "scored_at": "2026-04-23T13:01:59.561Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Honker introduces PostgreSQL's LISTEN/NOTIFY semantics to SQLite, which is a unique contribution, as seen in its ability to add this functionality to SQLite, with 34 GitHub stars in 4 days since its creation."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success was false, and the install time was 7.3s, indicating potential issues with the installation process, despite the Python requirement being >=3.11 and the package existing on PyPI."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a database-relational tool, Honker's addition of LISTEN/NOTIFY semantics to SQLite is relevant, but its impact is currently limited by its small user base and recent creation, with only 34 GitHub stars."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like SQLite and PostgreSQL, Honker has -23918 and -3122 stars respectively, but its unique feature set earns it a score of 4, given its comparison to Honker: -942 stars (-97%) vs the Honkers railway launcher."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 34 GitHub stars, 1 fork, and 1 contributor, the community around Honker is currently small, and the project has been updated recently, with only 1 day since the last commit."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 0 tests passed and the basic run was not successful, the ease of use is currently low, and the install success was false."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The existence of a Python API and a PyPI package contributes to its ease of integration, but the data is insufficient to evaluate this criterion fully, with a Python requirement of >=3.11."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The data is insufficient to evaluate the quality of the documentation fully, but the project has a GitHub repository, which may contain some documentation, and has a Python API."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Honker is a new project, created only 4 days ago, with limited activity, which suggests it is still in the early stages of development, and only 1 contributor."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no available data to evaluate the performance of Honker, and no benchmarks were provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 35 HN points, 4 comments analyzed, and both positive and negative signals, indicating a generally positive reception with some valid concerns."
+    }
+  },
+  "summary": "Honker is a novel tool that adds PostgreSQL's LISTEN/NOTIFY semantics to SQLite, but it is still in the early stages of development, with a small community and limited documentation, and its performance and ease of integration have not been fully evaluated.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/russellromney/honker",
+  "tool_url": "https://github.com/russellromney/honker",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47874647",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 34,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 34,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "SQLite extension + bindings for Postgres NOTIFY/LISTEN semantics with durable queues, streams, pub/sub, and scheduler",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "SQLite",
+        "stars": 23952,
+        "repo": "sqlitebrowser/sqlitebrowser"
+      },
+      {
+        "name": "PostgreSQL",
+        "stars": 3156,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "Honker",
+        "stars": 976,
+        "repo": "an-anime-team/the-honkers-railway-launcher"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Durable queues, streams, pub/sub, and cron scheduler on SQLite. One file, zero servers.",
+      "requires_python": ">=3.11",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "clean idea and nice abstraction layer",
+        "pretty high-traffic applications are just Framework+SQLite+Litestream on a VPS "
+      ],
+      "negative_signals": [
+        "durability and concurrency under load",
+        "polling looks gross",
+        "chase same-process notifications"
+      ],
+      "justification": "The project received a generally positive reception, with comments highlighting its clean idea and abstraction layer, as well as its potential for high-traffic applications. However, there are valid concerns regarding durability and concurrency under load, and some alternatives to polling were suggested.",
+      "comment_count": 4,
+      "hn_points": 35
+    }
+  }
+}
