@@ -1,0 +1,110 @@
+{
+  "app_name": "flipbook",
+  "url": "https://flipbook.page/",
+  "scored_at": "2026-04-23T13:05:45.086Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app uses a unique concept of streaming live directly from a model, with 7/10 sentiment score and 324 HN points, indicating a high level of innovation and interest, with 30 comments analyzed and positive signals including 'Interesting idea and cool demo' and 'Unique and innovative concept'."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 28.3s and requires Python >=3.7, but the install success is true, indicating moderate system requirements, with a PyPI package existing at version 1.2.2."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is a devtool-editor, which fits with current trends in the LLM ecosystem, particularly with the rise of streaming and live coding, and has a unique concept that sets it apart from other tools like WebAssembly Playground and Livecoding Studio."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique feature set compared to similar tools like WebAssembly Playground (7 stars) and Livecoding Studio (0 stars), but its differentiation is not extremely high, with a sentiment score of 7/10 and 324 HN points, indicating a moderate level of differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, but the app has an HN post with 324 points and 30 comments, indicating a moderate level of community engagement, with positive signals including 'Great educational tool and inspiring ideas' and 'Good potential for future educational resources'."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has a basic run success of false and 0/2 tests passed, indicating significant difficulties with ease of use, with no clear instructions or user-friendly interface, and limited feedback from the 30 comments analyzed."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has a PyPI package, but its integration with other tools and services is unclear, with no explicit API modes or licensing information available, and a limited number of comments and feedback from users."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is unclear, with no clear information on how to use the tool or its capabilities, and no wiki or pages detected, with a limited number of comments and feedback from users, and no explicit information on the tool's usage or requirements."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity is unclear, with no information on its development history, versioning, or release cycle, and no clear signals from the HN post or comments, with a sentiment score of 7/10 and 324 HN points, indicating a moderate level of maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "The app's performance is unclear, with limited benchmark measurements available, such as memory usage of 0.000252 MB, but no clear comparison to similar tools or baseline performance, and concerns about speed and cost from the 30 comments analyzed."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 324 points, 30 comments, and positive signals including 'Interesting idea and cool demo' and 'Unique and innovative concept', but also negative signals including 'Too slow to work with current GPUs' and 'Practicality is still a concern due to speed and cost', indicating a generally positive sentiment with some concerns."
+    }
+  },
+  "summary": "The flipbook app is a unique devtool-editor that streams live directly from a model, with a high level of innovation and interest, but significant difficulties with ease of use and unclear documentation, and moderate system requirements and differentiation, with a sentiment score of 7/10 and 324 HN points, indicating a moderate level of community engagement and potential value as an educational tool.",
+  "recommendation": "niche",
+  "app_url": "https://flipbook.page/",
+  "tool_url": "https://github.com/flipbook-app/flipbook",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47867048",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "WebAssembly Playground",
+        "stars": 7,
+        "repo": "ole/Swift-WebAssembly-JavaScriptKit-playground"
+      },
+      {
+        "name": "Livecoding Studio",
+        "stars": 0,
+        "repo": "gage1145/OsciStudio-Livecoding"
+      },
+      {
+        "name": "CodePen",
+        "stars": 707,
+        "repo": "nucliweb/People-You-Should-Follow-on-CodePen"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2.2",
+      "summary": "Starts a simple image server that lets you quickly flip through image files from a local directory using your web browser and optionally answering customizable questions about each one",
+      "requires_python": ">=3.7",
+      "license": "MIT",
+      "home_page": "https://github.com/broadinstitute/flipbook"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Interesting idea and cool demo",
+        "Unique and innovative concept",
+        "Great educational tool and inspiring ideas",
+        "Visualizations are visually appealing",
+        "Good potential for future educational resources"
+      ],
+      "negative_signals": [
+        "Too slow to work with current GPUs",
+        "Practicality is still a concern due to speed and cost",
+        "May have high hallucination potential",
+        "Graphics are hit-and-miss",
+        "Results can be nonsensical at times"
+      ],
+      "justification": "The comments are generally positive due to the unique concept and potential value as an educational tool. However, concerns about speed, cost, and accuracy prevail, keeping the score from being higher. The HN hug of death also poses a significant challenge for the project's adoption.",
+      "comment_count": 30,
+      "hn_points": 324
+    }
+  }
+}
