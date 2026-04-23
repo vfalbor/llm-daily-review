@@ -1,0 +1,83 @@
+{
+  "app_name": "Zed",
+  "url": "https://zed.dev",
+  "scored_at": "2026-04-23T13:06:22.404Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Zed is a unique framework for building and deploying large language models, with features like parallel agents, and thus scores high in novelty, citing the lack of similar tools with such capabilities, and its position as a distinct tool compared to LangChain and CrewAI."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 23.2s, which is moderate, and install success is true, but PyPI package is not found, impacting the score, citing the need for pip-installability for ease of use."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Zed fits well with current LLM ecosystem trends, providing a framework for building and deploying large language models, which is a highly relevant and needed tool in the current landscape, citing the app type as llm-framework and its alignment with current trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Zed differentiates itself from similar tools like LangChain and CrewAI by its unique features such as parallel agents, and its focus on building and deploying large language models, citing the tool's description and comparison to similar tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so we rely on web page signals and HN sentiment, with 244 HN points and 30 comments, indicating some community engagement, but not enough to definitively score higher."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The app has a basic run success of true, but only 3 out of 6 tests passed, indicating some potential ease of use issues, citing the tests passed and total tests."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The app has a REST API and is open source, making it easier to integrate, but lacks a PyPI package, which would simplify installation, citing the API modes and open source status."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app's web page has a docs/wiki/guide link, examples, and a long content length of 1725376 chars, indicating thorough documentation, citing the web page signals."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version is 7.5, indicating some maturity, but the lack of a changelog or release notes, and no clear indication of production use, prevents a higher score, citing the web page signals for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks are available from the tests, and while the app mentions parallel agents, which could indicate good performance, there's not enough data to score higher, citing the lack of BENCHMARK lines from tests."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 244 HN points, 30 comments, and positive signals such as users loving the tool and its features, but also some negative signals like difficulties with test data isolation, preventing a perfect score, citing the sentiment score, HN points, and comment count."
+    }
+  },
+  "summary": "Zed is a unique framework for building and deploying large language models, with features like parallel agents, and thus has a high novelty score. It has moderate system requirements and ease of use, with some differentiation from similar tools. The community engagement is present but not highly quantifiable due to lack of GitHub data. The app has good documentation and maturity, but performance benchmarks are not available. Overall, Zed is a relevant tool in the current LLM ecosystem with potential for growth and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://zed.dev/blog/parallel-agents",
+  "tool_url": "https://zed.dev",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47866750",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "users love the tool",
+        "helpful features like worktree support",
+        "well-received for its parallel agent capabilities"
+      ],
+      "negative_signals": [
+        "some users mention difficulties or limitations with test data isolation",
+        "Devcontainer is seen as an alternative for isolating dependencies",
+        "historical issues with a bug in Conductor"
+      ],
+      "justification": "Most users are enthusiastic about the tool, praising features like worktree support and parallel agent capabilities. However, some users mention difficulties with test data isolation and some historical issues with a bug in Conductor, and alternatives like Devcontainer are mentioned, preventing an overwhelmingly positive score.",
+      "comment_count": 30,
+      "hn_points": 244
+    }
+  }
+}
