@@ -1,0 +1,117 @@
+{
+  "app_name": "Arch Linux Docker Image",
+  "url": "https://github.com/archlinux/archlinux-docker",
+  "scored_at": "2026-04-23T13:05:00.779Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 520 GitHub stars and being a reproducible Docker image, this tool shows a high level of novelty, especially when compared to similar tools like Debian Docker Image (17 stars), Ubuntu Docker Image (6 stars), and Fedora Docker Image (0 stars)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 9.6s, which indicates moderate system requirements but with significant issues in the installation process."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a Docker image for Arch Linux with a focus on reproducibility, this tool is highly relevant to current infrastructure and containerization trends, addressing a significant need in the ecosystem."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Compared to similar tools, this Arch Linux Docker Image stands out with its focus on reproducibility, having significantly more GitHub stars than alternatives like Debian Docker Image (+503 stars), Ubuntu Docker Image (+514 stars), and Fedora Docker Image (+520 stars)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 520 GitHub stars, 97 forks, and 23 contributors, the community engagement is notable, but the days since the last commit being 0 indicates active maintenance, yet the overall community size and engagement are moderate compared to other projects."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 7 tests passed and basic run success is true, the ease of use is compromised due to the difficulty in testing and potentially using the tool, despite the successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of a PyPI package and the specific nature of the tool as a Docker image for Arch Linux might make integration more challenging than tools with broader compatibility or easier installation methods."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality from the provided data, and considering the lack of information on GitHub about extensive documentation, the score is set to neutral, as the presence or quality of documentation cannot be directly assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given the days since the repo was created is 3302, indicating the project is several years old, and days since the last commit is 0, showing active development, the maturity of the project is moderate, with a significant history but ongoing updates."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without specific benchmark data provided in the test results, the performance score is neutral, as performance cannot be directly compared to similar tools or assessed based on the given data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment does not directly apply to the scoring of the tool's functionality or technical merits, but the sentiment score of 8/10, with 122 HN points and 30 comments, indicates a positive community response to the news about the tool, with both positive and negative signals regarding reproducibility challenges and solutions."
+    }
+  },
+  "summary": "The Arch Linux Docker Image tool offers a unique approach to containerization with its focus on reproducibility, making it highly relevant and differentiated in the current ecosystem, despite facing challenges in ease of use and integration due to its specific nature and installation issues.",
+  "recommendation": "worth-watching",
+  "app_url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+  "tool_url": "https://github.com/archlinux/archlinux-docker",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47871519",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 520,
+      "forks": 97,
+      "open_issues": 9,
+      "watchers": 520,
+      "contributors": 23,
+      "license": "GPL-3.0",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3302,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Docker Base Image for Arch Linux (read-only mirror)",
+      "topics": [
+        "archlinux",
+        "docker"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Debian Docker Image",
+        "stars": 17,
+        "repo": "toradex/debian-docker-images"
+      },
+      {
+        "name": "Ubuntu Docker Image",
+        "stars": 6,
+        "repo": "haixinsong/ubuntu-base-docker-image"
+      },
+      {
+        "name": "Fedora Docker Image",
+        "stars": 0,
+        "repo": "speedooo/fedora-dockerImages"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Arch Linux leading the way on reproducible builds",
+        "Various alternatives to Docker for reproducibility, including Nix, stagex, and StableBuild",
+        "Community engagement and discussion on solutions to reproducibility challenges"
+      ],
+      "negative_signals": [
+        "Concerns about the complexity of reproducibility",
+        "Lack of perfect solutions to the problem",
+        "Potential trade-offs between reproducibility and security"
+      ],
+      "justification": "The community shows excitement and praise for the innovation, but also acknowledges the challenges and limitations of reproducibility, including the complexity of solutions and the trade-offs between reproducibility and security.",
+      "comment_count": 30,
+      "hn_points": 122
+    }
+  }
+}
