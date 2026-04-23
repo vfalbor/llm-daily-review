@@ -1,0 +1,10 @@
+  * 
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+  * 
+Cloning into 'c-compiler'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/app/test.py", line 24, in <module>
+    os.chdir('c-compiler')
+FileNotFoundError: [Errno 2] No such file or directory: 'c-compiler'
