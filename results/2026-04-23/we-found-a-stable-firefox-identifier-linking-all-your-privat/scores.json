@@ -1,0 +1,84 @@
+{
+  "app_name": "We found a stable Firefox identifier linking all your private Tor identities",
+  "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+  "scored_at": "2026-04-23T13:03:47.977Z",
+  "total_score": 79,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article presents a unique perspective on a privacy vulnerability in Firefox, with 768 HN points indicating significant interest and discussion, and 30 comments analyzed showing a high level of engagement."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "This criterion does not apply to an article."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The article's focus on a critical privacy issue in the current browser ecosystem, particularly for Tor users, makes it highly relevant, as evidenced by the HN points and comments."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The article provides a detailed analysis of the vulnerability, setting it apart from general discussions, with a detected version of 5.16.1 and mentions of API/SDK/webhook, indicating some level of technical depth."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 768 HN points and 30 comments, the community engagement is high, indicating a strong interest in the topic, and the positive signals from comments support this, such as 'Responsible disclosure to Mozilla' and 'Good research and writing'."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "This criterion does not apply to an article, as it is not software to be installed or used."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to an article, as it does not integrate into workflows or pipelines."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article itself serves as detailed documentation of the issue, with a content length of 2539030 characters, indicating thorough coverage, and the presence of a guide link further supports this score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given the article's publication and the detected version of 5.16.1, it suggests a level of maturity in the research, and the presence of release notes or changelogs is not applicable but the article's discussion indicates an ongoing and evolving understanding of the issue."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to an article, as performance metrics such as speed or efficiency are not relevant."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score of 9/10, with 768 HN points, 30 comments, and positive signals like 'Responsible disclosure to Mozilla' and 'Good research and writing', indicates a highly positive community response to the article."
+    }
+  },
+  "summary": "This article presents a significant and timely discussion on a privacy vulnerability in Firefox affecting Tor users, with high community engagement and a positive sentiment towards the research and its disclosure. It highlights the importance of responsible vulnerability disclosure and sparks nuanced discussions on fingerprinting and user privacy.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+  "tool_url": null,
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=47866697",
+  "domain": "security",
+  "app_type": "sec-auth",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Responsible disclosure to Mozilla",
+        "Tor Browser releases quick fixes on Firefox ESR",
+        "Good research and writing",
+        "Realistic understanding of user behavior"
+      ],
+      "negative_signals": [
+        "Fingerprinting concerns",
+        "Lack of clear user intent",
+        "Abuse of vulnerability disclosure"
+      ],
+      "justification": "The comments are generally supportive of the research and its responsible disclosure, with some nuanced discussions on the ethics of fingerprinting and the potential for abuse. However, some comments express skepticism about the company's intentions and the value of vulnerability disclosure.",
+      "comment_count": 30,
+      "hn_points": 768
+    }
+  }
+}
