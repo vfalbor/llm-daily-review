@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Parallel agents in Zed |",
+    "url": "https://zed.dev/blog/parallel-agents",
+    "hn_url": "https://news.ycombinator.com/item?id=47866750",
+    "points": 243,
+    "comments": 135,
+    "author": "ajeetdsouza",
+    "age": "2026-04-22T17:38:57 1776879537",
+    "scraped_at": "2026-04-23T13:00:03.509Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "Zed is a framework for building and deploying large language models.",
+    "use_modes": [
+      "Python CLI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI"
+    ],
+    "proposed_tests": [
+      "pip install zed",
+      "Import Zed and run a simple example",
+      "Mock a Zed API request and measure latency"
+    ],
+    "tool_url": "https://zed.dev",
+    "repo_url": "https://github.com/zed-dev/zed",
+    "source_type": "tool",
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1776949546247-yby2x",
+    "log_dir": "/tmp/llm-review-1776949546247-yby2x",
+    "install_success": true,
+    "install_time_s": 23.2,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:import_time_ms:156.03923797607422\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting zed\n  Downloading zed-1.1.1.tar.gz (4.0 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting twisted (from zed)\n  Downloading twisted-25.5.0-py3-none-any.whl.metadata (22 kB)\nCollecting pyzmq (from zed)\n  Downloading pyzmq-27.1.0-cp312-abi3-musllinux_1_2_x86_64.whl.metadata (6.0 kB)\nCollecting attrs>=22.2.0 (from twisted->zed)\n  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting automat>=24.8.0 (from twisted->zed)\n  Downloading automat-25.4.16-py3-none-any.whl.metadata (8.4 kB)\nCollecting constantly>=15.1 (from twisted->zed)\n  Downloading constantly-23.10.4-py3-none-any.whl.metadata (1.8 kB)\nCollecting hyperlink>=17.1.1 (from twisted->zed)\n  Downloading hyperlink-21.0.0-py2.py3-none-any.whl.metadata (1.5 kB)\nCollecting incremental>=24.7.0 (from twisted->zed)\n  Downloading incremental-24.11.0-py3-none-any.whl.metadata (9.5 kB)\nCollecting typing-extensions>=4.2.0 (from twisted->zed)\n  Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting zope-interface>=5 (from twisted->zed)\n  Downloading zope_interface-8.3.tar.gz (256 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nRequirement already satisfied: idna>=2.5 in /usr/local/lib/python3.12/site-packages (from hyperlink>=17.1.1->twisted->zed) (3.13)\nCollecting packaging>=17.0 (from incremental>=24.7.0->twisted->zed)\n  Using cached packaging-26.1-py3-none-any.whl.metadata (3.5 kB)\nDownloading pyzmq-27.1.0-cp312-abi3-musllinux_1_2_x86_64.whl (1.9 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 21.4 MB/s eta 0:00:00\nDownloading twisted-25.5.0-py3-none-any.whl (3.2 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 63.9 MB/s eta 0:00:00\nDownloading attrs-26.1.0-py3-none-any.whl (67 kB)\nDownloading automat-25.4.16-py3-none-any.whl (42 kB)\nDownloading constantly-23.10.4-py3-none-any.whl (13 kB)\nDownloading hyperlink-21.0.0-py2.py3-none-any.whl (74 kB)\nDownloading incremental-24.11.0-py3-none-any.whl (21 kB)\nDownloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)\nUsing cached packaging-26.1-py3-none-any.whl (95 kB)\nBuilding wheels for collected packages: zed, zope-interface\n  Building wheel for zed (pyproject.toml): started\n  Building wheel for zed (pyproject.toml): finished with status 'done'\n  Created wheel for zed: filename=zed-1.1.1-py3-none-any.whl size=4196 sha256=45fa0a7be6db861073b58fed39bca27ea1153abdd3dc29546d3ac7a1389dea00\n  Stored in directory: /root/.cache/pip/wheels/74/bb/3b/cde2d8ea4ced8df977083c841919cb9376769d5ef60ab6914e\n  Building wheel for zope-interface (pyproject.toml): started\n  Building wheel for zope-interface (pyproject.toml): finished with status 'done'\n  Created wheel for zope-interface: filename=zope_interface-8.3-cp312-cp312-linux_x86_64.whl size=199171 sha256=6c970551af3d9ab"
+  }
+}
