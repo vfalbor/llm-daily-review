@@ -1,0 +1,71 @@
+{
+  "app_name": "Writing a C Compiler, in Zig",
+  "url": "https://ar-ms.me/thoughts/c-compiler-1-zig/",
+  "scored_at": "2026-04-23T13:03:14.407Z",
+  "total_score": 45,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available (no comments or analysis failed)"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "This project is a unique implementation of a C compiler in Zig, which is a novel approach, but due to the lack of direct comparison to similar tools, the score is based on the innovative use of Zig."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install success and time are not applicable since it's a research article and not a pip-installable package, hence scored as 5 due to insufficient data."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "This project is relevant in the current ecosystem as it deals with compiler development, a crucial aspect of programming languages, but its relevance is somewhat niche."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project differentiates itself by using Zig for implementing a C compiler, which is not a common approach, but the lack of direct comparison to similar tools limits the score."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There's no detectable community around this specific project, no GitHub repository found, and no HN comments, indicating a minimal community presence."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Since it's a research article and not a tool or software, ease of use is not applicable in the traditional sense, but given it's not a straightforward implementation, it's scored low."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The project does not provide clear integration pathways, no API/SDK mentions, and no clear install command, making integration difficult."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The page content length is 733 characters, which is somewhat sparse, indicating limited documentation, and there's no detected wiki, guide, or changelog."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The project seems to be in its early stages, with no detected versioning, no changelog, and no release notes, indicating low maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for this type of project, as it's a research article and not a software tool that can be benchmarked."
+    }
+  },
+  "summary": "This project presents a unique approach to implementing a C compiler using Zig, showcasing novelty and differentiation. However, it lacks a strong community, clear documentation, and maturity, limiting its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://ar-ms.me/thoughts/c-compiler-1-zig/",
+  "tool_url": null,
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=47873694",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
