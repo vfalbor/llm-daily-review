@@ -1,0 +1,83 @@
+{
+  "app_name": "Qwen",
+  "url": "https://qwen.ai",
+  "scored_at": "2026-04-23T13:06:50.354Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Qwen 3.6 offers a new approach to large language models, with a 27B dense model and improved performance on general tasks, as reported by users with positive signals (9/10 sentiment score) and comparative benchmarks showing it to be better than Gemma 4."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app could not be installed, as indicated by the container test results showing false for install success and 7s for install time, suggesting issues with the installation process."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Qwen 3.6 is highly relevant to the current LLM ecosystem, addressing the need for better performance and coding capabilities, as demonstrated by its flagship-level coding features and positive user feedback."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Qwen 3.6 differentiates itself from similar tools like Axolotl and Unsloth with its 27B dense model and improved performance, although some users express skepticism about benchmark results, indicating a score of 7 out of 10."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The community around Qwen is active, with 885 HN points, 30 comments analyzed, and a sentiment score of 9/10, indicating a strong and engaged user base, despite some negative signals regarding benchmark accuracy and model limitations."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has a low ease of use score due to the lack of installation success and basic run success, as shown in the container test results, indicating difficulties in getting started with the tool."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Qwen has a mentioned API/SDK/webhook, which facilitates integration, but the absence of a clear install command on the page and lack of pip-installability hinder the integration process, resulting in a score of 6 out of 10."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The webpage lacks a clear docs/wiki/guide link, but it does have examples or demos, with a detected version of 2.5, and a page content length of 2114 characters, indicating some level of documentation, although not fully comprehensive."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version of 2.5 and the mention of a changelog or release notes on the webpage indicate some level of maturity, although the lack of clear installation instructions and API documentation raises concerns, resulting in a score of 6 out of 10."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Users report excellent performance on general tasks, image comprehension, and coding/tool-calling, with comparative benchmarks showing Qwen 3.6 to be better than Gemma 4, and the FP8 quants release allowing for faster inference speed, resulting in a score of 8 out of 10."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score of 9/10, based on 30 comments analyzed, indicates a highly positive sentiment, with 885 HN points and negative signals being mostly constructive criticism about benchmark accuracy and model limitations."
+    }
+  },
+  "summary": "Qwen 3.6 is a flagship-level coding tool with a 27B dense model, offering improved performance and capabilities, although with some integration and documentation challenges, and user concerns about benchmark accuracy and model limitations.",
+  "recommendation": "worth-watching",
+  "app_url": "https://qwen.ai/blog?id=qwen3.6-27b",
+  "tool_url": "https://qwen.ai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47863217",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Users report excellent performance on general tasks, image comprehension and coding/tool-calling",
+        "Comparative benchmarks show Qwen 3.6 to be better than Gemma 4",
+        "FP8 quants release allows for faster inference speed"
+      ],
+      "negative_signals": [
+        "Some users express skepticism about benchmark results",
+        "Concerns about models being 'gameable' and not representing real-world workloads",
+        "Need for careful guidance when using models for systems programming"
+      ],
+      "justification": "Users share generally positive impressions, with some constructive criticism about benchamrk accuracy and model limitations. Specific comments highlight improvements over previous models, but also emphasize the importance of careful guidance and guidance settings.",
+      "comment_count": 30,
+      "hn_points": 885
+    }
+  }
+}
