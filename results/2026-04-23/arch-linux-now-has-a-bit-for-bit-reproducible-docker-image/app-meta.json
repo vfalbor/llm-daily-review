@@ -1,0 +1,40 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Arch Linux Now Has a Bit-for-Bit Reproducible Docker Image",
+    "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
+    "hn_url": "https://news.ycombinator.com/item?id=47871519",
+    "points": 122,
+    "comments": 39,
+    "author": "maxloh",
+    "age": "2026-04-23T01:59:08 1776909548",
+    "scraped_at": "2026-04-23T13:00:03.502Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "tool_url": "https://github.com/archlinux/archlinux-docker",
+    "similar_tools": [
+      "Debian Docker Image",
+      "Ubuntu Docker Image",
+      "Fedora Docker Image"
+    ],
+    "proposed_tests": [
+      "Pull reproducible Arch Linux Docker image, verify hash and checksum",
+      "Run Arch Linux Docker image, benchmark containerization time"
+    ],
+    "repo_url": "https://github.com/archlinux/archlinux-docker"
+  },
+  "test_results": {
+    "run_id": "llm-review-1776949468096-aidas",
+    "log_dir": "/tmp/llm-review-1776949468096-aidas",
+    "install_success": false,
+    "install_time_s": 9.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "benchmark_notes": "",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nRequirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.33.1)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.4.7)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.13)\nRequirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.6.3)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.4.22)\nTEST_FAIL:pull_image:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:run_image:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:verify_image:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:benchmark_containerization:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:benchmark_loc_count:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:benchmark_test_files_count:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:compare_with_baseline:[Errno 2] No such file or directory: 'docker'\nRUN_OK\n"
+  }
+}
