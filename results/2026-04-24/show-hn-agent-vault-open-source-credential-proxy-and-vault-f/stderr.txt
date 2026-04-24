@@ -1,0 +1,25 @@
+ERROR: Could not find a version that satisfies the requirement agent-vault (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for agent-vault
+Cloning into 'agent-vault'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///agent-vault does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 21, in <module>
+    subprocess.run(['pip', 'install', 'agent-vault'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'agent-vault']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 27, in <module>
+    subprocess.run(['pip', 'install', '-e', 'agent-vault'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', 'agent-vault']' returned non-zero exit status 1.
