@@ -1,0 +1,104 @@
+{
+  "app_name": "Spinel",
+  "url": "https://github.com/matz/spinel",
+  "scored_at": "2026-04-24T13:02:09.526Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Spinel is a new Ruby AOT native compiler, with 30 days since repo creation and 0 days since last commit, indicating a high level of novelty, as seen in its unique approach to AOT compilation for Ruby, differentiating it from existing tools with 8 contributors on similar projects."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install success is true, and install time is 9.5s, which is relatively fast, and Spinel has a PyPI package, indicating easy installation and low system requirements, with a Python requirement of >=3.6."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a Ruby AOT native compiler, Spinel fits into the current trend of improving programming language performance, and its use of AOT compilation makes it highly relevant, with 115 HN points indicating a high level of interest in the developer community."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 590 GitHub stars and a unique approach to AOT compilation for Ruby, Spinel differentiates itself from other compiler tools, although its limitations in handling eval, metaprogramming, and threads may affect its differentiation, as noted in the 24 HN comments analyzed."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Spinel has 590 GitHub stars, 8 forks, and 1 contributor, indicating a small but active community, and its 0 days since last commit and MIT license also contribute to its community score, with 24 HN comments providing feedback and discussion."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Although Spinel has a basic run success of true, its tests passed is 0/1, which may indicate some usability issues that need to be addressed, so the score is set to 5 due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "With a PyPI package and a CLI/SDK use mode, Spinel seems to be relatively easy to integrate into existing workflows, and its Python requirement of >=3.6 makes it accessible to a wide range of users."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "Although Spinel's GitHub repository has some documentation, its quality and completeness are not fully assessed due to insufficient data, so the score is set to 6, indicating a moderate level of documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With 30 days since repo creation and 0 days since last commit, Spinel is still a relatively new project, so its maturity is not fully assessable yet, resulting in a score of 5 due to insufficient data."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurement of import_time_ms:0.0011920928955078125 indicates that Spinel has a relatively fast performance, and its AOT compilation approach is designed to improve performance, making it a strong point for the project."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 8/10, 115 HN points, and 24 comments analyzed, the community reception of Spinel is highly positive, with praise for its potential to improve Ruby performance and appreciation for its features, outweighing some concerns about maintainability and limitations."
+    }
+  },
+  "summary": "Spinel is a new Ruby AOT native compiler that shows promise in improving performance and has a relatively active community, although its maturity and usability are still being developed, with some limitations and concerns noted by users, but overall, it has generated significant interest and excitement in the developer community.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/matz/spinel",
+  "tool_url": "https://github.com/matz/spinel",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47887334",
+  "domain": "devtool",
+  "app_type": "devtool-compiler",
+  "enriched": {
+    "github": {
+      "stars": 590,
+      "forks": 8,
+      "open_issues": 2,
+      "watchers": 590,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Ruby",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 30,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.1.5",
+      "summary": "A minecraft server wrapper written in python",
+      "requires_python": ">=3.6",
+      "license": "",
+      "home_page": "https://github.com/DoubleF3lix/Spinel/"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Praise for Matz's involvement and expertise",
+        "Excitement about potential for Ruby AOT compilation",
+        "Appreciation for Spinell's performance and features"
+      ],
+      "negative_signals": [
+        "Concerns about maintainability and complexity",
+        "Limitations in handling eval, metaprogramming, and threads"
+      ],
+      "justification": "While users express enthusiasm for Spinell and its potential to improve Ruby performance, some raise concerns about maintainability and the limitations of the current implementation. These concerns are largely outweighed by the praise and excitement for the project, leading to a score of 8.",
+      "comment_count": 24,
+      "hn_points": 115
+    }
+  }
+}
