@@ -1,0 +1,16 @@
+ERROR: Could not find a version that satisfies the requirement tolaria (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for tolaria
+Cloning into 'tolaria'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./tolaria is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Traceback (most recent call last):
+  File "/app/test.py", line 22, in <module>
+    subprocess.run(['pip', 'install', '-e', './tolaria'], cwd='./tolaria', check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', './tolaria']' returned non-zero exit status 1.
