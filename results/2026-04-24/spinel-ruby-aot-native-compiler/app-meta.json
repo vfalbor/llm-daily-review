@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Spinel: Ruby AOT Native Compiler",
+    "url": "https://github.com/matz/spinel",
+    "hn_url": "https://news.ycombinator.com/item?id=47887334",
+    "points": 115,
+    "comments": 24,
+    "author": "dluan",
+    "age": "2026-04-24T08:28:47 1777019327",
+    "scraped_at": "2026-04-24T13:00:02.513Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "domain": "devtool",
+    "app_type": "devtool-compiler",
+    "tool_url": "https://github.com/matz/spinel",
+    "repo_url": "https://github.com/matz/spinel",
+    "description": "Ruby AOT native compiler",
+    "use_modes": [
+      "CLI",
+      "SDK"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      "Install Spinel CLI and build a hello-world project",
+      "Measure compile time for a small program",
+      "Check generated machine code",
+      "Compare Spinel-generated code to C code"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1777035701764-a122i",
+    "log_dir": "/tmp/llm-review-1777035701764-a122i",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.0011920928955078125",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting spinel\n  Downloading spinel-1.1.5-py3-none-any.whl.metadata (2.3 kB)\nDownloading spinel-1.1.5-py3-none-any.whl (4.0 kB)\nInstalling collected packages: spinel\nSuccessfully installed spinel-1.1.5\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_ms:0.0011920928955078125\nTEST_FAIL:import_spinel:[Errno 2] No such file or directory: 'spinel'\nRUN_OK\n"
+  }
+}
