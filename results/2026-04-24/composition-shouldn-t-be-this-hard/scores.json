@@ -1,0 +1,89 @@
+{
+  "app_name": "Composition Shouldn't be this Hard",
+  "url": "https://www.cambra.dev/blog/announcement/",
+  "scored_at": "2026-04-24T13:05:56.215Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app introduces a unique approach to UI component editing with a focus on efficient design and coding, citing its potential to simplify composition, which sets it apart from similar tools like React Studio with 461 stars."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No quantitative data on system requirements is available due to the install process failing, so a neutral score is applied."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app addresses a current pain point in the development landscape, specifically the difficulty of composition in UI development, which aligns with current trends in simplifying development workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it offers a unique approach, the differentiation from similar tools like React Studio is not strongly quantifiable without direct comparison data, but its focus on custom views and efficient design is distinctive."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository data is available for community scoring, and without this or HN points specifically for the tool, this criterion cannot be evaluated."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests passed, and basic run success was false, indicating significant usability issues, but without further data, a neutral score is applied due to lack of information on user experience."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, and without clear API documentation or use modes beyond Web Browser and CLI, the ease of integration into existing workflows cannot be accurately assessed."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The URL provided points to a blog announcement, which lacks substantive documentation on the tool itself, indicating sparse information for users."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without GitHub data or release information, the maturity of the project, including its stability and production readiness, cannot be determined."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is provided or mentioned, making it impossible to evaluate the performance of the tool against others in its category."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "While there is sentiment data, it does not directly apply to this app but rather to a broader discussion, making it unsuitable for scoring."
+    }
+  },
+  "summary": "This tool aims to simplify UI component editing but lacks concrete evidence of its usability, integration ease, and performance. Its unique approach may offer advantages, but more data is needed for a thorough evaluation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.cambra.dev/blog/announcement/",
+  "tool_url": "https://github.com/cambra/cambra",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47886773",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "React Studio",
+        "stars": 461,
+        "repo": "Renegades-Studio/react-native-tickle"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Advances in programming language theory and database systems could simplify composition",
+        "Potential for old-school UI in business software for improved efficiency",
+        "Examples of reliable abstractions in specific domains"
+      ],
+      "negative_signals": [
+        "Distributed Monolith antipattern",
+        "Tools and technologies can't solve accidental complexity",
+        "Criticism of current LLMs and their proponents"
+      ],
+      "justification": "The discussion highlights potential solutions to the issue of composition being hard, but also criticizes current approaches and limitations of tools and technologies in solving complexity. Some commenters express doubts and concerns about the effectiveness of relying on tools and technologies alone.",
+      "comment_count": 30,
+      "hn_points": 80
+    }
+  }
+}
