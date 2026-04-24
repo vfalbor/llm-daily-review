@@ -1,0 +1,108 @@
+{
+  "app_name": "Gova",
+  "url": "https://github.com/NV404/gova",
+  "scored_at": "2026-04-24T13:03:16.298Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Gova is a declarative GUI framework for Go, which is a new approach in the Go ecosystem, with 1 day since repo creation and no fork, indicating a novel solution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation time is 9.4 seconds, which is relatively fast, but install success is true and there are no PyPI packages, affecting its accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a declarative GUI framework for Go, Gova fits well with current trends in the Go ecosystem, which is looking for more efficient and modern GUI development solutions."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Gova has 95 stars on GitHub, compared to similar tools like PyQt (7,821 stars) and wxPython (385 stars), showing it has a unique approach but lacks the community size of established libraries."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Gova has 95 stars, 1 fork, and 2 contributors on GitHub, with 0 open issues, indicating a small but active community, and HN points of 65 with positive comments, but the community is not large compared to other libraries."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The basic run success is false, which indicates difficulties in using the framework, and with no tests passed, the usability is questionable, but it has a simple and declarative API."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package, and the use modes are CLI and HTTP API, making integration possible but not straightforward without more information on its API and compatibility."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The GitHub repository has a README, and the project is well-structured, but there is no wiki, indicating that while there is some documentation, it may not be comprehensive, but it's sufficient for a new project."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 1 day since the repo was created and 0 days since the last commit, Gova is a very new project, but it has a clear and functional implementation, showing some level of maturity, and an MIT license."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no available benchmark data to assess the performance of Gova, so it's scored as neutral."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 65 HN points, 14 comments analyzed, and positive signals such as 'Well-designed library' and 'Excited about cross-platform GUI in Go', indicating a very positive sentiment towards Gova, with minor criticisms."
+    }
+  },
+  "summary": "Gova is a novel, declarative GUI framework for Go that offers a unique approach to GUI development, with a small but active community, and while it has some usability issues and lacks comprehensive documentation, it shows promise with its simple API and positive community feedback.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/NV404/gova",
+  "tool_url": "https://github.com/NV404/gova",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47886272",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 95,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 95,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PyQt",
+        "stars": 7821,
+        "repo": "zhiyiYo/PyQt-Fluent-Widgets"
+      },
+      {
+        "name": "wxPython",
+        "stars": 385,
+        "repo": "ubbn/wxPython"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Well-designed library",
+        "Excited about cross-platform GUI in Go",
+        "Hot-reload dev cli looks cool"
+      ],
+      "negative_signals": [
+        "No screenshots of GUIs",
+        "Some confusion about what Gova provides beyond Fyne"
+      ],
+      "justification": "The comments are generally positive, with some praise for the library's design and functionality. However, there are some minor criticisms, such as the lack of screenshots and some confusion about what Gova provides beyond Fyne. Overall, the sentiment is overwhelmingly positive.",
+      "comment_count": 14,
+      "hn_points": 65
+    }
+  }
+}
