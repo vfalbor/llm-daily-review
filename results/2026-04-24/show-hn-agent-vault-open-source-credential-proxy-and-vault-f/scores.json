@@ -1,0 +1,113 @@
+{
+  "app_name": "Agent Vault",
+  "url": "https://github.com/Infisical/agent-vault",
+  "scored_at": "2026-04-24T13:06:26.256Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Agent Vault offers a unique approach to credential exfiltration with its egress proxy, which is not found in similar tools like Hashicorp Vault (35,488 stars) or AWS Secrets Manager (368 stars), as of 27 days since the repo was created."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed in 12.6 seconds, but it is not pip-installable since there is no PyPI package found, which may affect its accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Agent Vault fits well with current sec-auth trends, addressing the pressing issue of credential exfiltration with a novel approach, making it relevant to the current ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to Hashicorp Vault (35,488 stars) and AWS Secrets Manager (368 stars), Agent Vault has -98% and +51% stars respectively, but its unique egress proxy approach and Infisical integration planned differentiate it from existing tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 556 GitHub stars, 26 forks, and 5 contributors, the community is relatively small but active, considering the repo is only 27 days old, and there are concerns and discussions about its approach on HN."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Since no tests were run due to basic run failure, and there is no clear documentation on how to use it beyond the GitHub README, the ease of use is compromised, despite the project being open-source and not requiring an API key."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of a PyPI package and the lack of a straightforward API or clear documentation on integration modes limit the ease of integration, despite having a CLI and an intended API mode."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The project has a GitHub repository with a README but lacks comprehensive documentation or a dedicated docs site, which is not uncommon for a project of its age and nature."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Given the project is only 27 days old with a single digit number of contributors, and its last commit was just 1 day ago, it is still in an early stage of development, though active, with 5 open issues."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no available benchmark data to assess the performance of Agent Vault compared to its peers like Hashicorp Vault or AWS Secrets Manager."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "With an HN sentiment score of 6/10, 116 points, and 30 comments analyzed, the community reception is generally positive, noting its approach to credential exfiltration, but also raises concerns about its token-based auth scheme and the lack of an agent identity solution."
+    }
+  },
+  "summary": "Agent Vault is an open-source credential proxy and vault for agents, offering a novel approach to credential exfiltration. While it is still in its early stages, it has garnered a positive community response for its unique egress proxy approach and planned Infisical integration, despite some concerns about its token-based auth scheme and lack of agent identity solution.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Infisical/agent-vault",
+  "tool_url": "https://github.com/Infisical/agent-vault",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47865822",
+  "domain": "llm-ai",
+  "app_type": "sec-auth",
+  "enriched": {
+    "github": {
+      "stars": 556,
+      "forks": 26,
+      "open_issues": 5,
+      "watchers": 556,
+      "contributors": 5,
+      "license": "NOASSERTION",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 27,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A HTTP credential proxy and vault for AI agents",
+      "topics": [
+        "agents",
+        "ai-agents",
+        "secrets-management"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Hashicorp Vault",
+        "stars": 35488,
+        "repo": "hashicorp/vault"
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "stars": 368,
+        "repo": "aws-samples/aws-secrets-manager-rotation-lambdas"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Good start to addressing credential exfiltration",
+        "Egress proxy approach enables auditing and gateways",
+        "Infisical integration planned"
+      ],
+      "negative_signals": [
+        "Concerns about token-based auth scheme, potentially exploitable",
+        "Lack of agent identity solution",
+        "Comparison to existing tools, such as OneCLI"
+      ],
+      "justification": "The project has a generally positive reception, with several users praising its approach to credential exfiltration. However, there are concerns about the token-based auth scheme and the lack of an agent identity solution.",
+      "comment_count": 30,
+      "hn_points": 116
+    }
+  }
+}
