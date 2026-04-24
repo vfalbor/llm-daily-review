@@ -1,0 +1,40 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "UK Biobank health data keeps ending up on GitHub",
+    "url": "https://biobank.rocher.lc/",
+    "hn_url": "https://news.ycombinator.com/item?id=47875843",
+    "points": 157,
+    "comments": 39,
+    "author": "Cynddl",
+    "age": "2026-04-23T13:58:03 1776952683",
+    "scraped_at": "2026-04-24T13:00:02.524Z",
+    "tool_url": "https://github.com/UKBiobank/UKBiobank-Data-Repository",
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "data",
+    "app_type": "dataset",
+    "description": null,
+    "use_modes": null,
+    "similar_tools": [
+      "UKBiobank"
+    ],
+    "proposed_tests": null,
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/UKBiobank/UKBiobank-Data-Repository"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777035833701-syx22",
+    "log_dir": "/tmp/llm-review-1777035833701-syx22",
+    "install_success": true,
+    "install_time_s": 7.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement UKBiobank (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.0.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for UKBiobank\nTraceback (most recent call last):\n  File \"/app/test.py\", line 32, in <module>\n    import UKBiobank\nModuleNotFoundError: No module named 'UKBiobank'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_OK\nINSTALL_FAIL:\n"
+  }
+}
