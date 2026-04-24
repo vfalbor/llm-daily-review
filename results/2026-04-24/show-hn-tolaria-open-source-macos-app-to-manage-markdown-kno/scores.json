@@ -1,0 +1,111 @@
+{
+  "app_name": "Tolaria",
+  "url": "https://github.com/refactoringhq/tolaria",
+  "scored_at": "2026-04-24T13:03:52.672Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 68 days since repo creation and being a non-fork, Tolaria offers a fresh approach, scoring an 8 for novelty."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false and install time was 21.8s, which is long for a typical install, scoring a 2 for system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-editor, Tolaria aligns with current trends in developer tools, making it relevant, with a score of 7."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Typora (5,788 stars) and Obsidian (26,224 stars), Tolaria (2,721 stars) has fewer stars, scoring a 4 for differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 2,721 stars, 167 forks, and 2 contributors, Tolaria has a small but active community, scoring a 6 for community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 0 tests passed and basic run success was false, ease of use is significantly impacted, scoring a 1."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Without a PyPI package and considering its GUI and CLI use modes, ease of integration is somewhat limited, scoring a 3."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific documentation metrics are available, so it scores a neutral 5 for documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of specific data on maturity, such as release versions or changelogs, it scores a neutral 5 for maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark data is available, so performance cannot be accurately assessed, resulting in a score of 3."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With a sentiment score of 9/10, 228 HN points, and positive comments about its polish and open-source nature, Tolaria has a strong HN sentiment, scoring a 9."
+    }
+  },
+  "summary": "Tolaria is an open-source, macOS-based knowledge base manager that, despite its novelty and strong community sentiment, faces challenges with system requirements, ease of use, and performance metrics. Its differentiation and maturity are yet to be fully established.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/refactoringhq/tolaria",
+  "tool_url": "https://github.com/refactoringhq/tolaria",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47882697",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 2721,
+      "forks": 167,
+      "open_issues": 15,
+      "watchers": 2721,
+      "contributors": 2,
+      "license": "AGPL-3.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 68,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Desktop app to manage markdown knowledge bases",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Typora",
+        "stars": 5788,
+        "repo": "Keldos-Li/typora-latex-theme"
+      },
+      {
+        "name": "Obsidian",
+        "stars": 26224,
+        "repo": "kepano/obsidian-skills"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "polish of Bear Notes",
+        "git-backed approach",
+        "clean UI",
+        "Tauri framework",
+        "open-source"
+      ],
+      "negative_signals": [
+        "webwrapper",
+        "has nothing to do with actual Helix",
+        "crashing issues with Zettlr"
+      ],
+      "justification": "Developers praise the app for its polish, git-backed approach, and open-source nature. Some concerns are raised about its webwrapper design and some users report crashing issues with Zettlr, a similar app.",
+      "comment_count": 30,
+      "hn_points": 228
+    }
+  }
+}
