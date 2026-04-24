@@ -1,0 +1,82 @@
+{
+  "app_name": "How LLMs Work",
+  "url": "https://ynarwal.github.io/how-llms-work/",
+  "scored_at": "2026-04-24T13:02:40.140Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides an interactive visual guide based on Karpathy's lecture, which is a unique approach to explaining LLMs, but similar tools like LLaMA and DALL-E exist, so it's not entirely new, with 110 HN points indicating some interest."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app is a web application, so it does not require installation, and it can be accessed directly, but it's not clear if it works on all devices, with an 8.1s install time not being directly relevant, although it does indicate a quick load."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to the current LLM ecosystem, as it provides an educational resource for understanding LLMs, and its web-based nature makes it easily accessible, with the page content length of 66660 characters suggesting a comprehensive guide."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While the app provides a unique interactive guide, similar tools like LLaMA and DALL-E exist, and it's unclear how much of an advantage this app has, with no direct comparisons available."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 110, indicating some interest, but the comments are mostly negative, with a sentiment score of 4/10, and 25 comments analyzed, showing a mixed but mostly hostile reaction."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has 0 tests passed out of 5, and while it can be accessed directly, the lack of testing success and mostly negative community feedback suggest usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a detected version of 1.0 and mentions API/SDK/webhook, but it does not have an install command, suggesting that it may be easy to integrate, but more information is needed, with no PyPI package found."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app does not have a wiki or guide link, and while it has a comprehensive content length of 66660 characters, it's unclear how well-structured the documentation is, with no clear evidence of release notes or changelog."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The app has a version of 1.0, but it's unclear when it was created, and with no clear release notes or changelog, and a mostly negative community reaction, its maturity is questionable."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available for this app type, which is an educational web application, making performance less relevant."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Already considered in the community score, with a sentiment score of 4/10, HN points of 110, and 25 comments analyzed."
+    }
+  },
+  "summary": "How LLMs Work is an interactive visual guide that provides a unique educational resource for understanding LLMs, but it faces criticism for its AI-generated content and has mostly negative community feedback. While it has some strengths in relevance and accessibility, its usability and maturity are questionable.",
+  "recommendation": "niche",
+  "app_url": "https://ynarwal.github.io/how-llms-work/",
+  "tool_url": "https://ynarwal.github.io/how-llms-work/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47886517",
+  "domain": "llm-ai",
+  "app_type": "llm-education",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Commenters found the explanation well-structured and clear",
+        "Some users appreciated the interactive visual guide"
+      ],
+      "negative_signals": [
+        "Major criticism for a poorly written and AI-generated website",
+        "Users accused the site of plagiarism and intellectual dishonesty",
+        "Design language and effort were questioned by multiple commenters"
+      ],
+      "justification": "The majority of commenters were hostile to the AI-generated website, citing concerns about effort, design, and plagiarism, while a few found the explanation well-structured",
+      "comment_count": 25,
+      "hn_points": 110
+    }
+  }
+}
