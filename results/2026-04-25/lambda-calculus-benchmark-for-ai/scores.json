@@ -1,0 +1,100 @@
+{
+  "app_name": "Lambda Calculus Benchmark for AI",
+  "url": "https://victortaelin.github.io/lambench/",
+  "scored_at": "2026-04-25T13:02:11.374Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app has 21 GitHub stars and is not a fork, with 1 day since its creation, indicating some originality, but its novelty is diminished by the existence of similar tools like Lambda-ML with 78 stars."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installed successfully in 9.2 seconds, which is relatively fast, but it's not pip-installable as it has no PyPI package, affecting ease of setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a research tool focused on lambda calculus in AI, it aligns with current interests in AI research, but its relevance might be niche due to the specific focus on lambda calculus."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to Lambda-ML with 78 stars, this app has -57 stars, indicating a significant difference in community recognition, suggesting it may not offer distinctly better features or solutions."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 21 GitHub stars, 1 contributor, and 1 fork, the community around this app is very small, indicating limited support and engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Despite basic run success, the app had 0 tests passed out of 1, indicating potential issues with usability or functionality."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app does not have a PyPI package, making integration more difficult, and there's limited information on its API modes or license, affecting ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of the documentation directly."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the maturity of the project accurately."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are provided, making it challenging to evaluate the app's performance compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The HN sentiment analysis had insufficient comments (only 2) to provide a meaningful score, thus it's not applicable for the sentiment score."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "Given the app's low community engagement, specific focus, and lack of differentiation, it seems to cater to a very specific niche rather than having broad appeal."
+    }
+  },
+  "summary": "Lambda Calculus Benchmark for AI is a niche research tool with limited community support and differentiation. Its unique focus on lambda calculus in AI might appeal to specific researchers but lacks broad appeal due to the existence of similar tools with stronger community backing.",
+  "recommendation": "niche",
+  "app_url": "https://victortaelin.github.io/lambench/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47900506",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 21,
+      "forks": 3,
+      "open_issues": 1,
+      "watchers": 21,
+      "contributors": 1,
+      "license": "none",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Lambda-ML",
+        "stars": 78,
+        "repo": "cloudkj/lambda-ml"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 13
+    }
+  }
+}
