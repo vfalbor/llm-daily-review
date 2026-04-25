@@ -1,0 +1,121 @@
+{
+  "app_name": "Stash",
+  "url": "https://github.com/alash3al/stash",
+  "scored_at": "2026-04-25T13:05:08.185Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Stash is an open-source memory layer, which is a novel approach in the LLM ecosystem. With 0 days since its creation and being not a fork, it shows promise as a new tool with 96 stars on GitHub, although it still lags behind similar tools like Claude.ai with 9,485 stars."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app installed successfully in 8.7 seconds, which is a relatively fast installation time. The presence of the app on PyPI with version 0.3.1 also indicates ease of installation."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an LLM evaluation tool, Stash fits well within the current trends of the LLM ecosystem, focusing on memory management, which is a critical aspect of AI agents like Claude.ai and ChatGPT."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While Stash offers an open-source memory layer, which differentiates it from proprietary solutions like Claude.ai and ChatGPT, its novelty and impact are somewhat diminished by comparisons to established methods and concerns about context pollution, with -9389 stars compared to Claude.ai."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 96 GitHub stars, 1 fork, and 1 contributor, the community around Stash is still in its early stages. The lack of open issues might indicate either a very stable project or a lack of community engagement."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "Stash had a basic run success and passed 2 out of 3 tests, indicating some level of usability. However, the relatively low test pass rate and the absence of detailed user feedback suggest there might be usability issues."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "With a PyPI package available and an API mode of use, Stash seems relatively easy to integrate into existing workflows. The Apache-2.0 license also facilitates adoption and contribution."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While direct assessment of documentation quality is not provided, the presence of a GitHub repository and the fact that it's an open-source project suggest that documentation and community support are available, albeit potentially limited."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the app's recent creation and the lack of detailed information on its production readiness, stability, or known deployments, the maturity of Stash is difficult to assess directly from the provided data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without specific performance benchmarks or comparisons to similar tools in terms of speed, efficiency, or other relevant metrics, it's challenging to accurately assess Stash's performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Although HN sentiment data is typically used to gauge community perception, the provided sentiment score, points, and comments are more indicative of the discussion around the tool rather than a direct measure of its technical or functional aspects."
+    }
+  },
+  "summary": "Stash is an open-source memory layer for AI agents, offering a novel approach to memory management but facing challenges in differentiation and community engagement. Its ease of use and integration are notable, but maturity and performance assessments are hindered by limited data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://alash3al.github.io/stash?_v01=",
+  "tool_url": "https://github.com/alash3al/stash",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47897790",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 96,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 96,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required.",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "memory"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Claude.ai",
+        "stars": 9485,
+        "repo": "Piebald-AI/claude-code-system-prompts"
+      },
+      {
+        "name": "ChatGPT",
+        "stars": 59302,
+        "repo": "PlexPt/awesome-chatgpt-prompts-zh"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.1",
+      "summary": null,
+      "requires_python": null,
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Promising tool for LLM memory management",
+        "Effective combination of existing projects",
+        "Open-source and widely accessible"
+      ],
+      "negative_signals": [
+        "Major concerns about context pollution",
+        "Comparisons to established methods like Markdown files",
+        "Difficulty in explaining how the memory management works"
+      ],
+      "justification": "The comments are mostly negative, with significant skepticism about the tool's effectiveness and concerns about context pollution. Although some users see potential in the tool, there are enough criticisms to bring the overall sentiment down to 4.",
+      "comment_count": 30,
+      "hn_points": 83
+    }
+  }
+}
