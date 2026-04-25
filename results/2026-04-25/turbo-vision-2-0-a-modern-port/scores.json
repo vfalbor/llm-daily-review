@@ -1,0 +1,125 @@
+{
+  "app_name": "Turbo Vision 2.0",
+  "url": "https://github.com/magiblot/tvision",
+  "scored_at": "2026-04-25T13:05:57.456Z",
+  "total_score": 72,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Turbo Vision 2.0 is a modern port of the classic Turbo Vision C++ GUI library, with 2551 days since the original repo was created and 21 days since the last commit, indicating a significant update to the original tool, which had 56 stars on GitHub, while this version has 2908 stars, a +5093% increase."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 18.2 seconds, but since there's no PyPI package found, it's not pip-installable, which may pose some system requirement challenges."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-build type, Turbo Vision 2.0 is relevant in the current ecosystem, particularly given the nostalgia and interest in retro tools, but it may not be the most cutting-edge solution, hence a score of 7."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 2908 GitHub stars compared to the original Turbo Vision's 56 stars, this modern port differentiates itself significantly from similar tools, offering a unique value proposition to developers looking for a retro GUI experience with modern capabilities."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 2908 GitHub stars, 211 forks, 14 contributors, and 43 open issues, indicating a relatively active community, plus positive signals from HN comments, including 155 points and 30 comments analyzed, with an overall positive sentiment score of 9/10."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "The app has a basic run success of true and 5 out of 6 tests passed, indicating a good level of usability, but there might be some minor issues that need to be addressed, such as the lack of documentation."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Without a PyPI package and considering the specific use modes like C++ and Borland C, integration might be more complex compared to other tools, hence a lower score."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "There is a lack of comprehensive documentation, with users needing to learn from examples, which could hinder the ease of use for new users, but the project's GitHub page provides some information."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given that the original Turbo Vision has been around for a long time, but this modern port has seen updates 21 days ago, and with 14 contributors, it shows signs of maturity, although the days since the last commit and the lack of a clear release cycle might suggest some instability."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark measurements show efficient build times (2.25 seconds), create project times (31.25 milliseconds), and run app times (0.73 milliseconds), indicating good performance capabilities, especially considering the vs_turbo_vision_time_ratio of 0.00, which suggests significant improvements."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "HN sentiment analysis shows a positive score of 9/10, with 155 points, 30 comments, and overwhelmingly positive signals about the project's cultural significance, potential for modern use, and excitement for bringing back a bygone era with updated tools."
+    }
+  },
+  "summary": "Turbo Vision 2.0 is a modern port of the classic Turbo Vision C++ GUI library, offering a unique blend of retro and modern capabilities, with a strong community and good performance, but it lacks comprehensive documentation and might have some integration challenges.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/magiblot/tvision",
+  "tool_url": "https://github.com/magiblot/tvision",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47898597",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 2908,
+      "forks": 211,
+      "open_issues": 43,
+      "watchers": 2908,
+      "contributors": 14,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 21,
+      "days_since_created": 2551,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A modern port of Turbo Vision 2.0, the classical framework for text-based user interfaces. Now cross-platform and with Unicode support.",
+      "topics": [
+        "ascii",
+        "borland",
+        "borland-cpp",
+        "cpp",
+        "cpp14",
+        "cross-platform",
+        "linux",
+        "linux-console",
+        "ms-dos",
+        "msvc",
+        "ncurses",
+        "retrocomputing",
+        "retroprogramming",
+        "terminal",
+        "text-based",
+        "tui",
+        "turbo-vision",
+        "utf-8",
+        "utf8-everywhere",
+        "windows"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Turbo Vision",
+        "stars": 56,
+        "repo": "aovestdipaperino/turbo-vision-4-rust"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 5,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Warm nostalgia for Turbo Vision and Borland tools",
+        "Appreciation for the project's cultural significance and potential for modern use",
+        "Excitement for the possibility of bringing back a bygone era with updated tools"
+      ],
+      "negative_signals": [
+        "Mixed feelings about the font and GUI style, with some critics hating the VGA look",
+        "Criticism of the lack of documentation and need to learn from examples",
+        "Negative comments about compiler complexity and the horror of autotools and cmake"
+      ],
+      "justification": "The comments are overwhelmingly positive, with many reminiscing about the good old days of Turbo Vision and Borland tools. While some critics point out issues with the font and GUI style, and express frustration with the lack of documentation and complexity of modern build systems, the overall sentiment is very positive. ",
+      "comment_count": 30,
+      "hn_points": 155
+    }
+  }
+}
