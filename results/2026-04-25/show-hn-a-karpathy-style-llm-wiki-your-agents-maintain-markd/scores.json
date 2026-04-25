@@ -1,0 +1,102 @@
+{
+  "app_name": "Wuphf",
+  "url": "https://github.com/nex-crm/wuphf",
+  "scored_at": "2026-04-25T13:02:44.542Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Wuphf has a unique approach to LLM wikis with Markdown and Git support, but it's not the first of its kind, with similar tools like LLM-Wiki (3,296 stars) and Kaiju (4,461 stars) existing, and it was created 30 days ago."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install failed, indicating potential issues with system requirements, with an install time of 15.5s, and no PyPI package found, which could hinder accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM wiki, Wuphf fits into the current ecosystem trends of using LLMs for knowledge management, given its use of Markdown and Git, which are popular tools in the developer community."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Wuphf has 251 stars, which is significantly less than similar tools like LLM-Wiki (3,296 stars) and Kaiju (4,461 stars), indicating a need for more differentiation, with Wuphf being -92% and -94% in terms of stars compared to LLM-Wiki and Kaiju respectively."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Wuphf has 251 stars and 8 contributors, but it has 12 open issues, which may indicate a need for more community engagement, and it has been 0 days since the last commit, indicating active maintenance."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 tests, indicating no test coverage, and a failed basic run, Wuphf may have issues with ease of use, especially considering the failed install."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Wuphf does not have a PyPI package, which makes integration more difficult, and its use modes are limited to markdown-editing and git-repository, which may not be compatible with all workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the quality of Wuphf's documentation, as there is no information about its documentation or wiki."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the maturity of Wuphf, as there is no information about its release history or versioning, but it has been 0 days since the last commit, indicating active maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the performance of Wuphf, as there are no BENCHMARK lines from tests."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available for Wuphf."
+    }
+  },
+  "summary": "Wuphf is an LLM wiki with Markdown and Git support, but it has issues with system requirements, ease of use, and documentation, and it needs more differentiation and community engagement to compete with similar tools.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/nex-crm/wuphf",
+  "tool_url": "https://github.com/nex-crm/wuphf",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47899844",
+  "domain": "llm-ai",
+  "app_type": "llm-wiki",
+  "enriched": {
+    "github": {
+      "stars": 251,
+      "forks": 11,
+      "open_issues": 12,
+      "watchers": 251,
+      "contributors": 8,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 30,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Slack for AI employees with a shared brain. Get Claudes, Codexes and OpenClaws to collaborate and do your work autonomously while never losing context.",
+      "topics": [
+        "agents",
+        "autonomous-agents",
+        "claude-code",
+        "knowledge-graph"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LLM-Wiki",
+        "stars": 3296,
+        "repo": "nashsu/llm_wiki"
+      },
+      {
+        "name": "Kaiju",
+        "stars": 4461,
+        "repo": "KaijuEngine/kaiju"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
