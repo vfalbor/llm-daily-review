@@ -1,0 +1,104 @@
+{
+  "app_name": "Replace IBM Quantum back end with /dev/urandom",
+  "url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+  "scored_at": "2026-04-25T13:03:20.734Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This tool provides a unique approach by replacing IBM Quantum's back end with /dev/urandom, with 0 days since repo created and 1 contributor."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The tool installed successfully in 9s, but since it's not pip-installable and has limited information on system requirements, the score is 6."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The tool is part of the 'hardware-tool' type, but its relevance in the current ecosystem is limited, with 8 GitHub stars and a controversial concept."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Compared to similar tools like Quantum- Simulator, which has 65 stars, this tool has -57 stars, indicating a lack of differentiation in terms of popularity."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The tool has 8 GitHub stars, 1 contributor, and 0 days since the last commit, but the community is limited, and the sentiment on HN is mostly negative."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "With 3 out of 4 tests passing and basic run success, the ease of use is moderate, but more data is needed for a definitive score."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool is not pip-installable and lacks a clear API, making integration difficult, with no PyPI package found."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The tool has some documentation on GitHub, but it's limited, and the primary language is unknown, which makes it harder to understand and use."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Since the tool is a fork, has 0 days since the last commit, and limited data on its maturity, the score is 5 due to insufficient information."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The tool's performance is moderate, with demo_time_s of 0.01618647575378418 and simulator_time_s of 0.018524169921875, but more benchmark data is needed for a thorough evaluation."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but since it's not directly applicable to the tool's performance or features, it's not a relevant criterion for the final score."
+    }
+  },
+  "summary": "This tool replaces IBM Quantum's back end with /dev/urandom, offering a unique approach but with limited community support and a controversial concept. Its relevance and differentiation in the current ecosystem are limited.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+  "tool_url": "https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47897647",
+  "domain": "hardware",
+  "app_type": "hardware-tool",
+  "enriched": {
+    "github": {
+      "stars": 8,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 8,
+      "contributors": 1,
+      "license": "MIT",
+      "language": null,
+      "is_fork": true,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "This repository contains the code and submission detail for the QDay prize challenge by https://www.projecteleven.com/",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Quantum- Simulator",
+        "stars": 65,
+        "repo": "JoeyT1994/TensorNetworkQuantumSimulator.jl"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Universally panned 'quantum grifting'",
+        "Faster than brute force solution claimed not to be a useful computing task",
+        "Users expressing excitement about the hack"
+      ],
+      "negative_signals": [
+        "Criticism of quantum computing and its applications",
+        "Questioning the practicality and relevance of quantum computing",
+        "Comparison to scams, 'quantum grifting', and wasting of resources"
+      ],
+      "justification": "Commenters are overwhelmingly negative towards the concept of quantum computing, with many calling it a scam. However, some users find the hack exciting and praise the author for pointing out the ineffectiveness of quantum computers in this case.",
+      "comment_count": 29,
+      "hn_points": 203
+    }
+  }
+}
