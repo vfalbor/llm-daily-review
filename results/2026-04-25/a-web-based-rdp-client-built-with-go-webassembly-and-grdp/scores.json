@@ -1,0 +1,109 @@
+{
+  "app_name": "grdpwasm",
+  "url": "https://github.com/nakagami/grdpwasm",
+  "scored_at": "2026-04-25T13:04:42.203Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a first-of-its-kind web-based RDP client built with Go WebAssembly and grdp, showing original contribution with 0 days since repo created and not being a fork."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 15.6 seconds, but it is not pip-installable since no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-based RDP client, it fits into current remote work trends, especially with the rise of WebAssembly and cloud services."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "It has 15 stars on GitHub, which is significantly more than similar tools like Windows Remote Desktop (8 stars) and Citrix Receiver (8 stars), showing a unique advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has 15 GitHub stars, 1 fork, and 1 contributor, indicating a small but potentially growing community, with 0 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed, and while it has basic run success, the test failure indicates potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "There is no PyPI package, which would simplify integration, but it does have a clear use mode as a web browser via WASM."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data available to assess the quality of documentation directly from the repository or the project's URL."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data available to accurately assess maturity, considering factors like days since created, forks, and open issues without more context."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark measurements show a connect time of 9.97ms, wasm response time of 2.20ms, and server startup time of 5 seconds, indicating moderate performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment analysis shows a score of 6/10, with 13 points and 5 comments, indicating a neutral to positive reception with both positive and negative signals discussed."
+    }
+  },
+  "summary": "grdpwasm is a web-based RDP client that offers a novel approach to remote desktop connections. While it shows promise with its differentiation and potential for ease of use, it faces challenges in terms of community size and performance optimization. The application's uniqueness and the discussions around it on HN suggest it could address specific needs within the remote work ecosystem.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/nakagami/grdpwasm",
+  "tool_url": "https://github.com/nakagami/grdpwasm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47900440",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": {
+      "stars": 15,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 15,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Windows Remote Desktop",
+        "stars": 8,
+        "repo": "mrlesmithjr/ansible-windows-remote-desktop"
+      },
+      {
+        "name": "Citrix Receiver",
+        "stars": 8,
+        "repo": "CloCkWeRX/citrix-receiver-ubuntu-fixed"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "interesting from a technical perspective",
+        "lets you wrap the whole thing with OAUTH/passkeys",
+        "copy pasting a file across 3 nested RDP sessions feels magical"
+      ],
+      "negative_signals": [
+        "native RDP clients readily available",
+        "not mentioned: clipboard sharing",
+        "not many good MFA options for native RDP/RDG"
+      ],
+      "justification": "While there are concerns about the need for a web-based RDP client and missing features, the comments highlight technical interest and potential benefits in MFA and clipboard sharing. The tone is generally positive with a few constructive criticisms.",
+      "comment_count": 5,
+      "hn_points": 13
+    }
+  }
+}
