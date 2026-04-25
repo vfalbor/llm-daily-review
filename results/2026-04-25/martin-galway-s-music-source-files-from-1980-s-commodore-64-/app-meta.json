@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Martin Galway's music source files from 1980's Commodore 64 games",
+    "url": "https://github.com/MartinGalway/C64_music",
+    "hn_url": "https://news.ycombinator.com/item?id=47900398",
+    "points": 7,
+    "comments": 0,
+    "author": "ingve",
+    "age": "2026-04-25T10:46:14 1777113974",
+    "scraped_at": "2026-04-25T13:00:03.548Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/MartinGalway/C64_music",
+    "source_type": "tool",
+    "confidence": 0.9,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Source files for Commodore 64 music.",
+    "use_modes": [
+      "music composition",
+      " Commodore 64 programming"
+    ],
+    "similar_tools": [
+      "Commodore 64 music trackers"
+    ],
+    "proposed_tests": [
+      "Compile and run a simple music program",
+      "Compare music with original Commodore 64 versions"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/MartinGalway/C64_music"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777122358426-bjo13",
+    "log_dir": "/tmp/llm-review-1777122358426-bjo13",
+    "install_success": false,
+    "install_time_s": 6.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n"
+  }
+}
