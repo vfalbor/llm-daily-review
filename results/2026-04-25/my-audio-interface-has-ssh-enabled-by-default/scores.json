@@ -1,0 +1,82 @@
+{
+  "app_name": "Rodecaster Pro Firmware",
+  "url": "https://rodecaster.com/support/#firmware",
+  "scored_at": "2026-04-25T13:03:56.510Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The Rodecaster Pro's SSH-enabled firmware is a notable feature, but it's not entirely new, as similar audio interfaces like the Behringer X32 and PreSonus StudioLive offer similar functionality, with 0 days since created not being applicable due to the lack of exact creation data."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The Rodecaster Pro's firmware can be accessed and controlled via USB/Bluetooth, making it relatively easy to install and run, with an install time of 8.4s, although it's not pip-installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The Rodecaster Pro's firmware is relevant to the current audio interface market, with live streaming and podcasting on the rise, and its built-in USB/Bluetooth interface makes it a competitive option, fitting with current trends in the audio industry."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The Rodecaster Pro's SSH-enabled firmware is a differentiating feature, but without more information on its implementation and how it compares to similar tools, it's difficult to determine its uniqueness, with no direct comparison to similar tools like the Behringer X32 and PreSonus StudioLive available."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN post discussing the Rodecaster Pro's firmware has 267 points and 30 comments, indicating some interest in the community, but without more information on the community surrounding the Rodecaster Pro, it's hard to determine its strength, with no GitHub repository detected or API unavailable."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The Rodecaster Pro's firmware has a basic run success, but with 0 tests passed out of 4, it indicates some issues with usability, and the lack of clear documentation or tutorials makes it harder to use, with no clear evidence of ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The Rodecaster Pro's firmware has a USB/Bluetooth interface, but without more information on its API modes or license, it's difficult to determine its ease of integration, and the fact that it's not pip-installable makes it harder to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The Rodecaster Pro's website has some information on its firmware, but without more detailed documentation or tutorials, it's hard to determine its quality, with no clear evidence of documentation quality."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The Rodecaster Pro's firmware is a relatively established product, but without more information on its development history or versioning, it's hard to determine its maturity, with no clear evidence of maturity."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The benchmark measurements from the container show a count time of 0.35ms and memory usage of 24 bytes, indicating some level of performance, but without more context or comparison to similar tools, it's hard to determine its significance, with no direct comparison to similar tools available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN comment sentiment score is 6/10, with 267 points and 30 comments, indicating a generally positive but cautious reception, with positive signals including open firmware being appreciated and users wanting to customize their devices, and negative signals including concerns about security and regulatory compliance."
+    }
+  },
+  "summary": "The Rodecaster Pro's firmware offers a unique SSH-enabled feature, but its overall quality and community support are uncertain due to limited information and lack of clear documentation. Its performance is decent, but more context is needed to fully evaluate it.",
+  "recommendation": "niche",
+  "app_url": "https://hhh.hn/rodecaster-duo-fw/",
+  "tool_url": "https://rodecaster.com/support/#firmware",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47894747",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Open firmware is appreciated",
+        "Users want to customize their devices",
+        "AI tools make firmware modification easier"
+      ],
+      "negative_signals": [
+        "Concerns about security and firmware updates",
+        "Regulatory compliance may lead to closed software"
+      ],
+      "justification": "Users generally appreciate the open firmware, but there are concerns about security and regulatory compliance, which may lead vendors to lock down the software.",
+      "comment_count": 30,
+      "hn_points": 267
+    }
+  }
+}
