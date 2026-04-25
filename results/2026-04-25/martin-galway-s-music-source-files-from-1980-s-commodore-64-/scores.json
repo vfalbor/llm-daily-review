@@ -1,0 +1,86 @@
+{
+  "app_name": "Martin Galway's music source files",
+  "url": "https://github.com/MartinGalway/C64_music",
+  "scored_at": "2026-04-25T13:06:37.466Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique collection of music source files from 1980's Commodore 64 games, which is a novel contribution with 8 days since repo creation."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, and install time is 6.2s, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app is a collection of music source files, which may not be highly relevant to current trends, but still holds historical significance, with 8 days since repo creation."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app provides a unique collection of music source files, with 170 stars and 15 forks on GitHub, differentiating it from similar tools."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has 170 stars and 1 contributor on GitHub, indicating a relatively small community, with 1 open issue and 3 days since last commit."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app has 0 tests passed and basic run success is false, indicating potential difficulties with ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app has no PyPI package and is not pip-installable, indicating potential difficulties with integration, but has a GPL-3.0 license."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app has a GitHub repository with some documentation, but no wiki or pages, and the primary language is Assembly."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The app has 8 days since repo creation and 3 days since last commit, indicating a relatively immature project, with 1 contributor and 1 open issue."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks are available for this app, as it is a collection of music source files and not a software application."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this app."
+    }
+  },
+  "summary": "Martin Galway's music source files provide a unique collection of music from 1980's Commodore 64 games, but may have issues with system requirements and ease of use. The app has a relatively small community and immature project development.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/MartinGalway/C64_music",
+  "tool_url": "https://github.com/MartinGalway/C64_music",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47900398",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 170,
+      "forks": 15,
+      "open_issues": 1,
+      "watchers": 170,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "Assembly",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 8,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Music source files from 1980's Commodore 64 games",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
