@@ -1,0 +1,98 @@
+{
+  "app_name": "Statecharts",
+  "url": "https://statecharts.dev/",
+  "scored_at": "2026-04-26T13:02:16.709Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool provides a new approach to managing complex behavior with hierarchical state machines, similar to XState with 29,518 stars, but with a unique implementation."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The tool is not pip-installable and install success is false, with an install time of 9.2s, indicating potential difficulties in setting up the tool."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is relevant to current LLM ecosystem trends, particularly in managing complex behavior and UI interactions, with a focus on statecharts."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool has a unique implementation of statecharts, but similar tools like XState, Reo, and Scenic have more stars, with XState having 29,518 stars, indicating a competitive landscape."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The tool has no GitHub repository detected, but the HN post has 80 points and 16 comments, indicating some interest in the tool, but limited community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tool has 0 tests passed out of 0, and basic run success is false, indicating potential difficulties in using the tool."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has no PyPI package and is not pip-installable, but it has API modes like Library, CLI, and IDE Integration, indicating some potential for integration, but requiring more effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on the quality of the documentation, as the GitHub repository is not detected, but the tool's website provides some information on its usage."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on the maturity of the tool, as the GitHub repository is not detected, and there is limited information on its development history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for the tool, and there is limited information on its performance, making it difficult to evaluate its performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The HN sentiment analysis is not applicable as a separate criterion, but it is used to inform the community score, with a sentiment score of 8/10 and 80 HN points, indicating a positive but limited community response."
+    }
+  },
+  "summary": "Statecharts is a tool for managing complex behavior with hierarchical state machines, with a unique implementation and potential for use in UI interactions and AI generated code, but it has limitations in terms of installation, testing, and community engagement.",
+  "recommendation": "niche",
+  "app_url": "https://statecharts.dev/",
+  "tool_url": "https://github.com/statecharts/js-statecharts",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47908833",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "XState",
+        "stars": 29518,
+        "repo": "statelyai/xstate"
+      },
+      {
+        "name": "Reo",
+        "stars": 8558,
+        "repo": "reorproject/reor"
+      },
+      {
+        "name": "Scenic",
+        "stars": 3793,
+        "repo": "google-research/scenic"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Statecharts are gaining traction and being used in real-world applications",
+        "Developers are excited about the potential of statecharts and visualizing state machines",
+        "Statecharts have practical use cases, particularly in UI interactions and AI generated code"
+      ],
+      "negative_signals": [
+        "Concerns about statecharts being 'ugly' in real-world applications",
+        "Limited use cases and potential for complexity with multithreading and perf requirements"
+      ],
+      "justification": "The comments showcase mixed opinions about statecharts, with some developers praising their adoption and use, while others express concerns about their practicality and complexity. However, the overall tone leans towards positivity and excitement, especially about the potential of statecharts in UI interactions and AI generated code.",
+      "comment_count": 16,
+      "hn_points": 80
+    }
+  }
+}
