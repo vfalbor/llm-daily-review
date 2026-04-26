@@ -1,0 +1,83 @@
+{
+  "app_name": "Eden AI",
+  "url": "https://www.edenai.co/",
+  "scored_at": "2026-04-26T13:04:41.078Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app is not the first of its kind, with similar tools like OpenRouter and LangChain existing, and it does not bring a significantly new approach, scoring 4 out of 10."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable, with no PyPI package found, and the install time is not provided due to install failure, scoring 3 out of 10."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app fits into current LLM ecosystem trends as an alternative to OpenRouter, but its lack of open-source nature might limit its appeal, scoring 6 out of 10."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app is compared to OpenRouter and LangChain, with 81 HN points, but the exact number of stars is not provided, and comments show mixed opinions about its uniqueness, scoring 4 out of 10."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 81 HN points and 30 comments, with mixed signals about its appeal, and no GitHub repository detected, scoring 4 out of 10."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has no tests passed and basic run success is false, indicating potential usability issues, scoring 2 out of 10."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has API/SDK/webhook mention on its page but lacks clear installation commands, scoring 5 out of 10 due to insufficient data."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a docs/wiki/guide link and changelog or release notes, with a page content length of 20019 characters, indicating substantial documentation, scoring 7 out of 10."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's version is 1.6.26, but without GitHub data, its maturity is hard to assess directly, scoring 5 out of 10 due to insufficient data."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no BENCHMARK lines from tests to assess performance, and the app type does not inherently imply a performance dimension that can be evaluated without specific metrics, scoring null."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for scoring purposes, as the data provided mixes positive and negative signals without a clear consensus, scoring null."
+    }
+  },
+  "summary": "Eden AI is a European alternative to OpenRouter, offering an API for routing best AI models, but its novelty, differentiation, and community engagement are limited, while its documentation appears substantial.",
+  "recommendation": "niche",
+  "app_url": "https://www.edenai.co/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47908433",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Such initiatives are very much welcome",
+        "I am happy to start using them",
+        "It solves an organizational problem, not a technical one"
+      ],
+      "negative_signals": [
+        "This website doesn't even comply with general basic standards",
+        "It should be more independent from foreign services",
+        "The title is misleading"
+      ],
+      "justification": "The comments are mixed, some users praise the initiative and the European approach, while others criticize the website's compliance and the fact that it's not significantly different from OpenRouter. There's a lack of clear consensus in this small set of comments.",
+      "comment_count": 30,
+      "hn_points": 81
+    }
+  }
+}
