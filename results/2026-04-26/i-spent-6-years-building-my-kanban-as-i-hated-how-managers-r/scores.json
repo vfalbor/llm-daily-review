@@ -1,0 +1,99 @@
+{
+  "app_name": "Ooko",
+  "url": "https://www.npmjs.com/package/ooko",
+  "scored_at": "2026-04-26T13:03:31.866Z",
+  "total_score": 36,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool's unique approach to Kanban board building and its customizability set it apart from existing tools like Trello, Asana, and Kanbanize, with 7,664, 685, and 34 stars, respectively."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false, indicating difficulties in installing the tool, and no PyPI package was found, limiting its accessibility with an install time of 8.1s."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The tool's focus on solving the problem of manager-run boards is somewhat relevant to current project management trends, but its restrictive license and lack of free version may limit its adoption."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without GitHub data, the differentiation score is neutral due to insufficient information about the tool's unique features compared to similar tools like Trello, Asana, and Kanbanize."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The tool has no GitHub repository detected, but its HN post received 47 points and 30 comments, indicating some community interest, although the sentiment is mixed with both positive and negative signals."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tool's install success was false, and basic run success was also false, indicating significant ease-of-use issues, with 0 tests passed out of 0 total tests."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool has no PyPI package and requires a custom installation process, making integration more difficult, and its CLI use mode may not be as accessible as other tools."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "Without a GitHub repository or a dedicated docs site, the documentation score is low, relying on the tool's URL and potential README for information, which may not be sufficient for users."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to determine the tool's maturity, as no GitHub repository is detected, and the HN post does not provide clear signals about the tool's production readiness or stability."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available for the tool, and its performance cannot be evaluated, as there are no BENCHMARK lines from tests or other performance metrics provided."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment score is 5/10 with 47 points, 30 comments, and mixed positive and negative signals, but this score is not directly applicable to the other criteria"
+    }
+  },
+  "summary": "Ooko is a custom Kanban board builder with a unique approach, but it faces challenges in terms of install success, community support, and documentation, limiting its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://www.npmjs.com/package/ooko",
+  "tool_url": "https://github.com/okayke/ooko",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47877277",
+  "domain": "devtool",
+  "app_type": "devtool-project-management",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Trello",
+        "stars": 7664,
+        "repo": "trello-archive/RxLifecycle"
+      },
+      {
+        "name": "Asana",
+        "stars": 685,
+        "repo": "Asana/Drawsana"
+      },
+      {
+        "name": "Kanbanize",
+        "stars": 34,
+        "repo": "dariye/kanbanize"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Some users praise the creator for their dedication and effort",
+        "Customizability and flexibility are seen as advantages",
+        "The idea of building a Kanban tool that solves the problem of manager-run boards resonates with some users"
+      ],
+      "negative_signals": [
+        "Many users criticize the tool's limitations, such as its restrictive license and lack of free version",
+        "Some users are skeptical about the tool's value proposition and whether it truly solves the problem of manager-run boards",
+        "Users express frustration with the tool's complexity and feature creep"
+      ],
+      "justification": "The comment section is divided on the tool's merits, with some users praising its potential and others criticizing its limitations. While some users express enthusiasm for the tool's customizability and flexibility, others raise concerns about its restrictive license, lack of free version, and potential complexity.",
+      "comment_count": 30,
+      "hn_points": 47
+    }
+  }
+}
