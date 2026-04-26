@@ -1,0 +1,99 @@
+{
+  "app_name": "Gaussian Splat Game Engine",
+  "url": "https://github.com/playcanvas/gaussian-splat",
+  "scored_at": "2026-04-26T13:02:49.049Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app converts a mathematical concept into a playable game, which is a unique approach, as seen in the blog post on https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, indicating potential issues with installation, and install time was 8.3s, which is relatively slow"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is a web-game-engine, which is relevant to current gaming trends, and is described in the article https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has 0 GitHub stars, compared to similar tools like PlayCanvas (14,807 stars), Babylon.js (25,422 stars), and Three.js (112,188 stars), indicating a need for more differentiation"
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has no GitHub repository detected, and the article https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/ has 54 HN points, indicating a small community"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed was 0/6, indicating potential usability issues, and basic run success was true, but install success was false"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is not pip-installable, and has no PyPI package found, making integration more difficult"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a blog post https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/ describing its functionality, indicating some documentation effort"
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has no GitHub repository detected, and the article https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/ has a recent publication date, indicating some level of maturity"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for the app, making it difficult to assess its performance"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN comment sentiment score is 8/10, with 54 HN points, 10 comments analyzed, and positive signals such as smooth performance and potential for artistic applications"
+    }
+  },
+  "summary": "The Gaussian Splat Game Engine is a unique game engine that converts a mathematical concept into a playable game, but it has some issues with installation and usability, and lacks a strong community and documentation, however, it has a positive sentiment on HN and shows potential for artistic applications.",
+  "recommendation": "niche",
+  "app_url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
+  "tool_url": "https://github.com/playcanvas/gaussian-splat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47876071",
+  "domain": "web",
+  "app_type": "web-game-engine",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PlayCanvas",
+        "stars": 14807,
+        "repo": "playcanvas/engine"
+      },
+      {
+        "name": "Babylon.js",
+        "stars": 25422,
+        "repo": "BabylonJS/Babylon.js"
+      },
+      {
+        "name": "Three.js",
+        "stars": 112188,
+        "repo": "mrdoob/three.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Smooth performance on mid-range hardware",
+        "Potential to fill artistic blank canvas problem",
+        "Gaussian splatting has a lot of potential in video games",
+        "Excitement for future improvements and integrations"
+      ],
+      "negative_signals": [
+        "Visual quality may clash with meshed characters",
+        "Lack of dynamic features like lighting and effects"
+      ],
+      "justification": "The comments generally support the idea of Gaussian splatting, but express concerns about its limitations in certain areas, such as dynamic objects and visual consistency.",
+      "comment_count": 10,
+      "hn_points": 54
+    }
+  }
+}
