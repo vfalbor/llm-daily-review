@@ -1,0 +1,117 @@
+{
+  "app_name": "OpenAI Privacy Filter",
+  "url": "https://github.com/openai/privacy-filter",
+  "scored_at": "2026-04-26T13:04:06.760Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is an open-source browser extension that filters sensitive data in the web, which is a new approach to privacy protection, as seen in its 8 days since repo creation and 3 days since last commit, indicating a fresh contribution to the field."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 9.2s and install success is false, indicating some issues with installation, but it requires Python >=3.11 and has a PyPI package, making it relatively accessible."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to the current LLM ecosystem trends, addressing the need for privacy protection in the web, as seen in its Apache-2.0 license and open-source model, making it suitable for enterprise customers with SaaS products."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has 1,444 stars on GitHub, which is -74% compared to uBlock Origin's 5,529 stars, but +48033% compared to Privacy Badger's 3 stars, indicating a unique value proposition and notable differentiation in the market, with its lightweight model size and open-source model being major advantages."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The app has 1,444 stars, 118 forks, and 21 open issues on GitHub, with 2 contributors and a recent commit activity, indicating a growing but still relatively small community, with HN points at 234 and sentiment score at 8/10, showing a positive reception from the community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app has a basic run success of true, but only 3 out of 5 tests passed, and no specific test results are available to assess ease of use, so a neutral score is assigned due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The app has a PyPI package and is available under the Apache-2.0 license, making it easy to integrate into existing workflows, with its use modes including extension, and requiring no API key, indicating a relatively straightforward integration process."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a GitHub repository with some documentation, but no specific information on the quality or completeness of the documentation is available, so a moderate score is assigned, with the presence of a wiki, pages, or topics not explicitly mentioned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app is relatively new, with only 8 days since its creation, and 3 days since its last commit, indicating a high level of activity, but not enough data is available to assess its maturity, so a neutral score is assigned due to insufficient data."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app's benchmark measurements show relatively low times for various operations, such as install_extension_time_ms: 0.0026226043701171875, verify_filters_time_ms: 0.001430511474609375, and filter_data_time_ms: 0.001430511474609375, indicating good performance, but memory_usage_mb is 0.0, which may indicate an issue with memory usage tracking or not being applicable in this context."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 234 points, 30 comments analyzed, and positive signals including its usefulness for enterprise customers and open-source model, but also negative signals such as concerns about model accuracy and compliance, indicating a generally positive reception from the community, but with some concerns and areas for improvement."
+    }
+  },
+  "summary": "The OpenAI Privacy Filter is a browser extension that filters sensitive data in the web, with a new approach to privacy protection, and is highly relevant to the current LLM ecosystem trends, but has some issues with installation and a relatively small community.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openai.com/index/introducing-openai-privacy-filter/",
+  "tool_url": "https://github.com/openai/privacy-filter",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47870901",
+  "domain": "security",
+  "app_type": "privacy",
+  "enriched": {
+    "github": {
+      "stars": 1444,
+      "forks": 118,
+      "open_issues": 21,
+      "watchers": 1444,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 8,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "OpenAI Privacy Filter",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "uBlock Origin",
+        "stars": 5529,
+        "repo": "laylavish/uBlockOrigin-HUGE-AI-Blocklist"
+      },
+      {
+        "name": "Privacy Badger",
+        "stars": 3,
+        "repo": "einyx/windows10-privacyBadger"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "PII redaction using the openai/privacy-filter token-classification model",
+      "requires_python": ">=3.11",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 3,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Helpful for enterprise customers with SaaS products",
+        "Open-source model available under Apache 2.0 license",
+        "Lightweight model (50M effective parameters)"
+      ],
+      "negative_signals": [
+        "Concerns about model accuracy and potential misuse",
+        "Not enough to meet compliance requirements",
+        "Comparison to existing solutions, such as Presidio and SuperagentLM",
+        "Not suitable for reconstructing original entities without additional processing"
+      ],
+      "justification": "The commenters are generally positive about the OpenAI Privacy Filter, citing its usefulness for enterprise customers, openness, and lightweight model size. However, they also raise concerns about model accuracy and compliance, and suggest that it may not be sufficient for more complex use cases, such as reconstructing original entities.",
+      "comment_count": 30,
+      "hn_points": 234
+    }
+  }
+}
