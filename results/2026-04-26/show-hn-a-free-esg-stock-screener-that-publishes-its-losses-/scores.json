@@ -1,0 +1,71 @@
+{
+  "app_name": "Jumpstart Signal",
+  "url": "https://jumpstartsignal.com/",
+  "scored_at": "2026-04-26T13:05:18.623Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is a free ESG stock screener, which is a unique offering in the current market, but there are similar tools available, such as ESGtool, Stockfilter, and FinancePro, with no clear indication of how Jumpstart Signal differentiates itself from these, scoring 6 out of 10 for novelty."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "There is no clear information on the system requirements for running the app, including install time and success, scoring 5 out of 10 due to lack of data."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to the current ESG stock screening landscape, as it provides a free service that publishes its losses and methodology, scoring 8 out of 10 for relevance."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "While the app offers a unique feature set, there are similar tools available, such as ESGtool, Stockfilter, and FinancePro, with 0 GitHub stars for Jumpstart Signal, indicating low differentiation, scoring 4 out of 10."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, no API, and no clear community engagement, scoring 2 out of 10 for community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The app has a basic run success, but 0 out of 2 tests passed, and no clear information on the user experience, scoring 3 out of 10 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no clear information on the ease of integration, including API modes and license, scoring 5 out of 10 due to lack of data."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The app's webpage has no clear documentation, no wiki, no guide link, and no changelog, with a content length of 20407 characters, indicating some information but not enough for a high score, scoring 2 out of 10 for documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no clear information on the app's maturity, including days since created, forks count, and open issues, scoring 5 out of 10 due to lack of data."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for this app type, as it's a stock screener and does not have a performance benchmark, scoring null."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available, as there are no comments or the analysis failed, scoring null."
+    }
+  },
+  "summary": "Jumpstart Signal is a free ESG stock screener that publishes its losses and methodology, but it lacks clear differentiation from similar tools and has limited community engagement and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://jumpstartsignal.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47908912",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
