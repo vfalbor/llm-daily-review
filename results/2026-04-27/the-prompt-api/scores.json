@@ -1,0 +1,95 @@
+{
+  "app_name": "The Prompt API",
+  "url": "https://developer.chrome.com/docs/ai/prompt-api",
+  "scored_at": "2026-04-27T13:04:23.441Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The Prompt API introduces a new way of interacting with LLMs, with a focus on decentralization and user transparency, but it is not the first of its kind, and similar tools like Microsoft Bot Framework and Rasa have 1,896 and 21,144 GitHub stars respectively, indicating some level of originality but also a competitive landscape."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The Prompt API has a successful install process, with an install time of 7.6s, which is relatively fast, but PyPI package information is not available, limiting its score."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM-assistant, The Prompt API fits into the current ecosystem trends of AI development, particularly with its focus on privacy and decentralization, but it faces competition from established tools like Rasa."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The Prompt API's unique selling point is its decentralized approach and focus on user transparency, but direct comparisons to similar tools are challenging without more data on its performance and community adoption."
+    },
+    "community": {
+      "score": null,
+      "justification": "The Prompt API does not have a GitHub repository detected or API unavailable, making it impossible to assess its community health based on GitHub metrics."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "With 0 out of 1 tests passed and no specific test results available, the ease of use of The Prompt API is questionable, although its basic run success indicates some level of functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The absence of PyPI package information and unclear API modes limit the understanding of how easily The Prompt API can be integrated into existing workflows, requiring more data for a precise score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of The Prompt API's documentation directly from its URL or GitHub, necessitating a neutral score."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "Without GitHub data or other relevant metrics, assessing the maturity of The Prompt API based on its age, forks, or open issues is not possible."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark comparisons are not available, and the vs_python baseline_ratio:fail indicates a potential performance issue, but without concrete numbers, a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this app type."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "The Prompt API offers a unique decentralized and transparent approach to LLM interactions, but its overall score is affected by the lack of concrete data on performance, community, and documentation. Its potential as a niche tool is significant, especially in environments prioritizing user privacy and decentralization.",
+  "app_url": "https://developer.chrome.com/docs/ai/prompt-api",
+  "tool_url": "https://github.com/GoogleChrome/prompt-api",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47917026",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Microsoft Bot Framework",
+        "stars": 1896,
+        "repo": "microsoft/BotFramework-Emulator"
+      },
+      {
+        "name": "Rasa",
+        "stars": 21144,
+        "repo": "RasaHQ/rasa"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "free and privacy preserving",
+        "transparent to users",
+        "decentralized compute"
+      ],
+      "negative_signals": [
+        "large model download (22 GB)",
+        "slow token generation",
+        "potential security risks"
+      ],
+      "justification": "The discussion is mixed, with some users praising the feature for being free and privacy-preserving, while others express concerns about the large model download size and potential security risks. However, there is a lack of concrete data on the actual impact and effectiveness of the feature.",
+      "comment_count": 30,
+      "hn_points": 180
+    }
+  },
+  "recommendation": "niche"
+}
