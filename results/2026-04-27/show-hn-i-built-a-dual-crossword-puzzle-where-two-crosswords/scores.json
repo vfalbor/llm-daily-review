@@ -1,0 +1,71 @@
+{
+  "app_name": "Forkle",
+  "url": "https://forkle.co.uk/",
+  "scored_at": "2026-04-27T13:08:37.738Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique dual crossword puzzle where two crosswords share one grid, which is a new approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No data is available on the system requirements, so a neutral score is assigned."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is a development tool and its relevance to the current LLM ecosystem trends is moderate, with 6 out of 10."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The dual crossword puzzle generator is different from other puzzle generators, with a unique feature set."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, and no data is available on the community, so a low score is assigned."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No data is available on the ease of use, so a neutral score is assigned."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No data is available on the ease of integration, so a neutral score is assigned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on the maturity, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available, so this criterion does not apply."
+    }
+  },
+  "summary": "Forkle is a unique dual crossword puzzle generator where two crosswords share one grid, but lacks data on its system requirements, community, and performance.",
+  "recommendation": "niche",
+  "app_url": "https://forkle.co.uk/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47920007",
+  "domain": "devtool",
+  "app_type": "development-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
