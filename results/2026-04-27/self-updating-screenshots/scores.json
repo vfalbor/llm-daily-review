@@ -1,0 +1,90 @@
+{
+  "app_name": "Self-updating screenshots",
+  "url": "https://interblah.net/self-updating-screenshots",
+  "scored_at": "2026-04-27T13:03:38.313Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a common problem in a new way by providing self-updating screenshots, which is different from similar tools like Lighthouse and WebPageTest."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app can be accessed via a web browser, making it easily accessible, and does not require an API key, with an install time of 19.2s."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app fits well with current web development trends, providing a useful tool for developers, with 362 HN points indicating interest in the concept."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While similar tools like Lighthouse exist, this app's self-updating screenshot feature offers a unique advantage, with users appreciating its utility."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 362 HN points and 30 comments analyzed, the community shows interest, but there's no GitHub repo detected, limiting the community score."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The app passed all 3 tests, has a basic run success, and is accessible via a web browser, indicating ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While the app has a detected version of 1.0 and a PyPI package exists, there is no API/SDK/webhook mention, making integration assessment challenging without more data."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app's webpage has a content length of 4632 characters, indicating some depth, but lacks a docs/wiki/guide link, changelog, or release notes, limiting the documentation score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version is 1.0, and the webpage signals indicate some level of maturity, but without GitHub data, the score is based on the webpage signals and HN points."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While benchmark measurements are provided, such as request_time_ms:377.59 and refresh_time_ms:226.22, the lack of comparison to similar tools makes it hard to assess performance comprehensively."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 362 points, 30 comments analyzed, and positive signals indicating the community's appreciation for the self-updating screenshot feature."
+    },
+    "recommendation": "worth-watching"
+  },
+  "summary": "Self-updating screenshots is a novel web development tool that solves a common problem in a new way, with a strong community interest and ease of use, but lacks comprehensive documentation and integration pathways. Its performance and maturity are promising but require more data for thorough assessment.",
+  "app_url": "https://interblah.net/self-updating-screenshots",
+  "tool_url": null,
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47908051",
+  "domain": "web",
+  "app_type": "web-development",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "2020.12.3",
+      "summary": "@self decorator makes method return self (jQuery-like chaining)",
+      "requires_python": "",
+      "license": "Unlicense",
+      "home_page": "https://github.com/andrewp-as-is/self.py"
+    },
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Self-updating screenshots solve a common problem",
+        "Many users appreciate the approach and find it useful",
+        "Several commenters propose similar projects and techniques"
+      ],
+      "negative_signals": [
+        "Some users question the approach, suggesting it may be brittle",
+        "One commenter encountered an error accessing the page"
+      ],
+      "justification": "Users generally react positively to the self-updating screenshot feature, appreciating its utility and convenience. Some minor concerns about brittleness and error handling are raised, but overall the tone is overwhelmingly positive.",
+      "comment_count": 30,
+      "hn_points": 362
+    }
+  },
+  "recommendation": "worth-watching"
+}
