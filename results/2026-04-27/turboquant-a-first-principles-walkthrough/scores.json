@@ -1,0 +1,101 @@
+{
+  "app_name": "TurboQuant",
+  "url": "https://arkaung.github.io/interactive-turboquant/",
+  "scored_at": "2026-04-27T13:02:59.892Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool has a unique approach with first-principles walkthrough, however it was criticized for questionable attribution and thin claim to originality, with 209 HN points and 30 comments."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements due to install_success being false and lack of specific hardware or software requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is relevant in the current LLM ecosystem trends as it provides a first-principles walkthrough, which could be useful in understanding complex models."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The tool has some unique features, but the comparison to similar tools like QuantLib and TensorFlow is difficult without more specific data on their functionalities."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess the community and maturity of the tool, although it has 209 HN points and 30 comments."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tool had install_success as false and basic_run_success as false, indicating potential difficulties in usage."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this type of app, which is a research tool."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data on the quality of documentation, although the tool has an interactive walkthrough."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The tool's maturity is uncertain, with criticism of overstated benefits and thin attribution in its marketing."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this type of app, which is a research paper and does not have direct performance metrics."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 209 HN points, 30 comments, positive signals about potential and accessibility, and negative signals about originality and marketing, indicating a mixed but generally positive sentiment."
+    }
+  },
+  "summary": "TurboQuant is a first-principles walkthrough tool that has potential for more efficient model inference but has faced criticism regarding its originality and marketing. It has a mixed but generally positive sentiment on HN with 209 points and 30 comments.",
+  "recommendation": "niche",
+  "app_url": "https://arkaung.github.io/interactive-turboquant/",
+  "tool_url": "https://github.com/Arkaung/TurboQuant",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47916890",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "QuantLib",
+        "stars": 7067,
+        "repo": "lballabio/QuantLib"
+      },
+      {
+        "name": "TensorFlow",
+        "stars": 194912,
+        "repo": "tensorflow/tensorflow"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "TurboQuant KV cache compression for LLM inference. Open-source pip-installable implementation for HuggingFace models.",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Potential for more efficient model inference",
+        "Promising advancements in research",
+        "Interactive demos make mathematics more accessible"
+      ],
+      "negative_signals": [
+        "Questionable attribution and thin claim to originality",
+        "Results may repeat previous research",
+        "Criticism of marketing of the paper as a breakthrough story"
+      ],
+      "justification": "While some comments express enthusiasm for the research and its potential implications, others raise concerns about the paper's originality, thin attribution, and overstated benefits, leading to a generally positive but mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 209
+    }
+  }
+}
