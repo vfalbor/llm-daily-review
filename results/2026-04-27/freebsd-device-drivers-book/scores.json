@@ -1,0 +1,98 @@
+{
+  "app_name": "FreeBSD Device Drivers Book",
+  "url": "https://github.com/ebrandi/FDD-book",
+  "scored_at": "2026-04-27T13:09:04.301Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Although not entirely new, with 238 stars and being created 266 days ago, this book offers useful information on FreeBSD device drivers, as seen in its comparison to similar tools, with a relatively small but notable following."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The book does not require any specific system requirements to be accessed, with an install time of 12.9s, and since it's a documentation resource, it's easily accessible through its GitHub repository."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the book's focus on FreeBSD device drivers, it fits within the current trends of operating system development and low-level programming, although its relevance might be somewhat niche compared to more general programming topics."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There isn't sufficient data to compare the book's uniqueness directly to other similar resources, so its differentiation score remains neutral at 5."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 238 stars, 12 forks, and 3 open issues on GitHub, the community around this book is present but relatively small, indicating some level of engagement but limited compared to larger, more popular projects."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "As a documentation resource, the book is relatively easy to use, with basic run success being true, although there are no specific tests run to fully gauge user experience."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The book does not have a PyPI package, and its integration into other projects or workflows might be limited due to its nature as a documentation resource rather than a software library."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Given that the book serves as a documentation resource, its primary purpose is to provide documentation, and with a GitHub repository providing access to its content, it scores well in this category."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The book has been around for 266 days, with the last commit made 1 day ago, indicating ongoing activity and a level of maturity as a resource, although its development pace and breadth of contributors are somewhat limited."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a documentation resource and not a software application, performance metrics such as benchmarks are not applicable, so this criterion is set to null."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 106 points and 23 comments analyzed, showing mixed opinions but highlighting the book's usefulness as a resource for learning, despite criticisms about content quality and the use of LLMs in its creation."
+    }
+  },
+  "summary": "The FreeBSD Device Drivers Book is a documentation resource providing useful information on device drivers for FreeBSD, with a relatively small but engaged community and mixed reviews on its quality and utility.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ebrandi/FDD-book",
+  "tool_url": "https://github.com/ebrandi/FDD-book",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47915632",
+  "domain": "devtool",
+  "app_type": "development-resource",
+  "enriched": {
+    "github": {
+      "stars": 238,
+      "forks": 12,
+      "open_issues": 3,
+      "watchers": 238,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 266,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "FreeBSD Device Driver Book",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful resource for learning FreeBSD",
+        "free and accessible to more readers",
+        "good introduction to C for kernel work"
+      ],
+      "negative_signals": [
+        "quality of content is questionable",
+        "appears to be written by an LLM",
+        "inaccurate or missing information"
+      ],
+      "justification": "While there are mixed opinions about the book's quality, many commenters praise its usefulness and availability as a free resource. Some commenters also express skepticism about the use of LLMs in writing the book, citing issues such as lack of human review and potential inaccuracies.",
+      "comment_count": 23,
+      "hn_points": 106
+    }
+  }
+}
