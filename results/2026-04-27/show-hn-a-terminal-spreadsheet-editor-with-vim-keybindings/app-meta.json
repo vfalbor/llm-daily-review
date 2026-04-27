@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Show HN: A terminal spreadsheet editor with Vim keybindings",
+    "url": "https://github.com/garritfra/cell",
+    "hn_url": "https://news.ycombinator.com/item?id=47920289",
+    "points": 8,
+    "comments": 1,
+    "author": "garritfra",
+    "age": "2026-04-27T11:39:49 1777289989",
+    "scraped_at": "2026-04-27T13:00:03.128Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/garritfra/cell",
+    "source_type": "tool",
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "A terminal spreadsheet editor for Vim users",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Vim",
+      "Emacs",
+      "Excel"
+    ],
+    "proposed_tests": [
+      "Install Cell, create a new sheet, measure load time",
+      "Run a simple query on a sheet, measure latency",
+      "Verify Vim keybinding implementation, measure keybind response time"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/garritfra/cell"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777295064580-oylvo",
+    "log_dir": "/tmp/llm-review-1777295064580-oylvo",
+    "install_success": false,
+    "install_time_s": 12.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:vs_vim_load_time_ratio:Failed to measure",
+    "error_log": "  error: subprocess-exited-with-error\n  \n  × Getting requirements to build wheel did not run successfully.\n  │ exit code: 1\n  ╰─> [5 lines of output]\n      /tmp/pip-build-env-75qsh988/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'test_suite'\n        warnings.warn(msg)\n      /tmp/pip-build-env-75qsh988/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py:287: UserWarning: Unknown distribution option: 'tests_require'\n        warnings.warn(msg)\n      error in cell setup command: use_2to3 is invalid.\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× Getting requirements to build wheel did not run successfully.\n│ exit code: 1\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nCloning into 'cell'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nERROR: ./cell is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.68.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting cell\n  Downloading cell-0.0.3.tar.gz (17 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'error'\nINSTALL_FAIL:Command '['pip', 'install', '-e', './cell']' returned non-zero exit status 1.\nTEST_FAIL:load_time:No module named 'cell'\nBENCHMARK:vs_vim_load_time_ratio:Failed to measure\nTEST_FAIL:query_latency:No module named 'cell'\nTEST_FAIL:vim_keybinding:No module named 'cell'\nTEST_FAIL:memory_usage:No module named 'cell'\nTEST_FAIL:import_time:No module named 'cell'\nRUN_OK\n"
+  }
+}
