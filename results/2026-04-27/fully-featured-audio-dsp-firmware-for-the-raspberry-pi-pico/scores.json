@@ -1,0 +1,113 @@
+{
+  "app_name": "DSPi",
+  "url": "https://github.com/WeebLabs/DSPi",
+  "scored_at": "2026-04-27T13:02:29.331Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project is not a direct clone, with 108 days since its creation and being not a fork, indicating some level of original contribution, but in a crowded field like audio processing, scoring 6 for novelty due to the existing solutions like PicoSDK and Pi4J."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, and install time, though quick at 6.1s, is less relevant due to the failure, indicating some issues with accessibility, scoring 3 for system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given its focus on audio DSP for Raspberry Pi Pico, it taps into current trends in DIY electronics and audio processing, scoring 7 for current relevance due to its fit within the maker community and recent advancements in audio technologies."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Compared to similar tools like PicoSDK and Pi4J, DSPi has a unique offering but lacks direct comparisons in terms of performance or feature set, scoring 5 due to insufficient data for a more precise differentiation score."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 286 GitHub stars, 10 forks, and 2 contributors, the project has a small but present community, scoring 4, considering the relatively low engagement but recent activity indicated by 0 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed are 0 out of 0, and basic run success is false, indicating significant usability issues, scoring 2 due to the lack of successful tests or runs."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package exists, but it's designed for Raspberry Pi Pico, which might simplify integration for specific use cases, scoring 4 for ease of integration considering the specific hardware focus."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess documentation quality directly, scoring 5 as a neutral stance due to the lack of available information on the project's documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "With 108 days since the repository was created and 0 days since the last commit, the project is relatively new but has recent activity, scoring 3 for maturity due to its early stage and limited history."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Without direct benchmark comparisons, but considering the Raspberry Pi Pico's known constraints (like RAM and processing power), performance might be limited, scoring 4 for performance based on the potential constraints of the hardware."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this specific app type, thus set to null."
+    },
+    "security": {
+      "score": 5,
+      "justification": "No specific information is available regarding the security of the project, thus scoring 5 due to insufficient data."
+    }
+  },
+  "summary": "DSPi is a novel audio DSP firmware for the Raspberry Pi Pico, offering a unique solution in the DIY electronics and audio processing space, but faces challenges in usability, community engagement, and performance. Its recent activity and specific focus are notable, but the project's overall maturity and accessibility need improvement.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/WeebLabs/DSPi",
+  "tool_url": "https://github.com/WeebLabs/DSPi",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47901433",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 286,
+      "forks": 10,
+      "open_issues": 10,
+      "watchers": 286,
+      "contributors": 2,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 108,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A fully featured audio DSP firmware for the Raspberry Pi Pico (RP2040) and Pico 2 (RP2350).",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PicoSDK",
+        "stars": 239,
+        "repo": "picotech/picosdk-python-wrappers"
+      },
+      {
+        "name": "Pi4J",
+        "stars": 1292,
+        "repo": "Pi4J/pi4j-v1"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Cool project for audio enthusiasts",
+        "Potential for simplifying music setups",
+        "Cheap and accessible solution for audio processing"
+      ],
+      "negative_signals": [
+        "Limited functionality (output only, one stereo pair processed)",
+        "Latency concerns (85ms)",
+        "RAM constraints may limit project complexity"
+      ],
+      "justification": "The project seems to have a positive reception among audio enthusiasts, but with some concerns about latency and the limitations of the Raspberry Pi Pico's capabilities.",
+      "comment_count": 11,
+      "hn_points": 87
+    }
+  }
+}
