@@ -1,0 +1,83 @@
+{
+  "app_name": "Box to save memory in Rust",
+  "url": "https://dystroy.org/blog/box-to-save-memory/",
+  "scored_at": "2026-04-27T13:08:17.478Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool provides a unique approach to saving memory in Rust, which is a valuable contribution to the ecosystem, as seen in the page title 'Box to save memory' and the detected version '1.0'."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The tool is not pip-installable, and the install time is not available, but the page content length is 11849 chars, which is a proxy for the depth of the documentation, and the page has a docs/wiki/guide link."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool fits well with the current LLM ecosystem trends, as it addresses a relevant problem of memory allocation in Rust, and the detected version '1.0' indicates a level of maturity."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There is insufficient data to compare this tool to similar tools, but the page has examples or demo, and the page content length is 11849 chars, which suggests a level of documentation and community engagement."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 150, and the comments analyzed are 30, with positive signals such as 'Helpful tools like Clippy and heaptrack exist to identify memory-wasteful use cases', which indicates some level of community interest and engagement, but the sentiment score is 6/10, which is relatively neutral."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tool is not easy to use, as it is not pip-installable, and the basic run success is false, but the page has examples or demo, which suggests some level of usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the ease of integration, but the page has an API/SDK/webhook mention, which suggests some level of integration capability."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The page has a docs/wiki/guide link, and the page content length is 11849 chars, which suggests a level of documentation, but there is no changelog or release notes."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the maturity, but the detected version '1.0' indicates a level of maturity, and the page has examples or demo, which suggests some level of community engagement."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "There is insufficient data to evaluate the performance, but the tool is designed to save memory, which suggests a potential performance benefit."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The HN sentiment data is available, but it is not applicable to this criterion, as the score is already provided in the quantitative data."
+    }
+  },
+  "summary": "The Box to save memory in Rust is a tool that provides a unique approach to saving memory in Rust, with a level of maturity and community engagement, but it is not easy to use and has insufficient data for integration and performance evaluation.",
+  "recommendation": "niche",
+  "app_url": "https://dystroy.org/blog/box-to-save-memory/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47878231",
+  "domain": "devtool",
+  "app_type": "development-pattern",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Helpful tools like Clippy and heaptrack exist to identify memory-wasteful use cases.",
+        "Several alternative solutions to CompactStr are mentioned, offering potential optimizations.",
+        "Many commenters express interest and willingness to adopt a compact string type."
+      ],
+      "negative_signals": [
+        "Some commenters express skepticism about the effectiveness and complexity of CompactStr.",
+        "The implementation may introduce design and architectural tradeoffs.",
+        "Several commenters mention that CompactStr has no significant advantages over existing implementations."
+      ],
+      "justification": "The comment section is largely positive, with several commenters offering alternative solutions and expressing interest in the concept. However, some commenters also express skepticism about the effectiveness and complexity of CompactStr.",
+      "comment_count": 30,
+      "hn_points": 150
+    }
+  }
+}
