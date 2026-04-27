@@ -1,0 +1,118 @@
+{
+  "app_name": "Cell",
+  "url": "https://github.com/garritfra/cell",
+  "scored_at": "2026-04-27T13:04:52.344Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is not a direct clone, with a unique approach to terminal spreadsheet editing and Vim keybindings, but it's similar to existing tools like Vim and Emacs, with 18 days since repo creation and 0 days since last commit."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate, as install success is false but install time was 12.1s and PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app fits well with current trends in terminal-based tools and Vim user base, offering a unique solution for spreadsheet editing."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has -40268 stars compared to Vim and -9234 stars compared to Emacs, showcasing a significant gap in community and popularity, but its unique Vim keybindings and terminal spreadsheet editing set it apart."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has 8 GitHub stars, 0 forks, and 0 open issues, with 1 contributor, indicating a very small community and limited engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app had 0 tests passed out of 5, and basic run success was true, but install success was false, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate, as PyPI package exists but no information on API modes or integration complexity is available."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate, as no information on documentation quality or availability is provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate, as days since creation is 18, but no other maturity signals like release tags or changelog are available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "BENCHMARK measurements failed, providing no basis for evaluation, and no other performance claims or data are available."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not applicable due to insufficient comments (only 1 comment found), resulting in a neutral sentiment score of 5/10, which is not meaningful for this criterion"
+    }
+  },
+  "summary": "Cell is a terminal spreadsheet editor with Vim keybindings, offering a unique solution but facing significant community and popularity gaps compared to established tools like Vim and Emacs.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/garritfra/cell",
+  "tool_url": "https://github.com/garritfra/cell",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47920289",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 8,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 8,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 18,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A terminal spreadsheet editor with Vim keybindings",
+      "topics": [
+        "rust",
+        "spreadsheet",
+        "spreadsheets",
+        "vim"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Vim",
+        "stars": 40276,
+        "repo": "vim/vim"
+      },
+      {
+        "name": "Emacs",
+        "stars": 9242,
+        "repo": "emacs-tw/awesome-emacs"
+      },
+      {
+        "name": "Excel",
+        "stars": 20518,
+        "repo": "qax-os/excelize"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.3",
+      "summary": "Kombu actor framework",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "http://github.com/celery/cell/"
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 11
+    }
+  }
+}
