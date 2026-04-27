@@ -1,0 +1,108 @@
+{
+  "app_name": "Dirac",
+  "url": "https://github.com/dirac-run/dirac",
+  "scored_at": "2026-04-27T13:02:02.882Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is not a clone, with 21 days since repo creation and 3 contributors, indicating some original contribution and effort."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, and install time is 9.8s, indicating potential issues with accessibility and setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is an infra-agent, which fits with current ecosystem trends, specifically in the areas of monitoring and deployment."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 122 stars compared to Prometheus' 63,807 and Grafana Agent's 1,690, the app has a long way to go in terms of differentiation and community traction."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 122 stars, 8 forks, and 3 contributors, but only 4 open issues, indicating a small but somewhat active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests passed out of 3, and install success is false, indicating difficulties in usability and setup."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a PyPI package and supports CLI and Docker use modes, with a permissive Apache-2.0 license, facilitating easier integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data available on documentation quality, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has been around for 21 days, with the last commit 0 days ago, and 8 forks, indicating some level of maturity but room for growth."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark measurements show a vs_prometheus_ratio of 0.56, but without more context or comparisons, the score remains neutral."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of comments or analysis failure."
+    },
+    "hn_points": {
+      "score": null,
+      "justification": "Not enough information to determine HN points."
+    }
+  },
+  "summary": "The Dirac app, an open-source infra-agent, shows promise with its ease of integration and current relevance, but faces challenges in terms of novelty, community traction, and ease of use.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/dirac-run/dirac",
+  "tool_url": "https://github.com/dirac-run/dirac",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47920787",
+  "domain": "infrastructure",
+  "app_type": "infra-agent",
+  "enriched": {
+    "github": {
+      "stars": 122,
+      "forks": 8,
+      "open_issues": 4,
+      "watchers": 122,
+      "contributors": 3,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 21,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Coding Agent singularly focused efficiency and context curation. Reduces API costs by 50-80% vs other agent AND improves the code quality at the same time. Uses Hash Anchored edits, massively parallel operations, AST manipulation and many many other optimizations.  https://dirac.run/",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Prometheus",
+        "stars": 63807,
+        "repo": "prometheus/prometheus"
+      },
+      {
+        "name": "Grafana Agent",
+        "stars": 1690,
+        "repo": "grafana/agent"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "9.1.8",
+      "summary": "DIRAC is an interware, meaning a software framework for distributed computing.",
+      "requires_python": ">=3.11",
+      "license": "GPL-3.0-only",
+      "home_page": "https://github.com/DIRACGrid/DIRAC/"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
