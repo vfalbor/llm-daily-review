@@ -1,0 +1,8 @@
+ERROR: unable to select packages:
+  VibeVoice (no such package):
+    required by: world[VibeVoice]
+ERROR: Could not find a version that satisfies the requirement torch (from vibevoice) (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for torch
