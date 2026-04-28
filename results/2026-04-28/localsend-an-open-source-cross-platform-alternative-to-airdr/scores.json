@@ -1,0 +1,126 @@
+{
+  "app_name": "Localsend",
+  "url": "https://github.com/localsend/localsend",
+  "scored_at": "2026-04-28T13:04:42.608Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Localsend offers a unique cross-platform alternative to AirDrop, with 79,244 GitHub stars and a primary language of Dart, showing original contribution (days_since_repo_created: 1229, is_fork: false, stars: 79,244)."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false and install time was 171.8s, indicating difficulties in installation (install_success: false, install_time_s: 171.8)."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a cross-platform alternative to AirDrop, Localsend fits well with current trends in file-sharing solutions (app_type: infra-communication, GitHub stars: 79,244)."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Localsend has 79,244 GitHub stars, significantly more than similar tools like AirDrop (1,408 stars) and NearShare (1 star), showing clear differentiation (stars vs AirDrop: +77,836, stars vs NearShare: +79,243)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 79,244 GitHub stars, 4,251 forks, and 227 contributors, Localsend has a strong community presence (GitHub stars: 79,244, forks: 4,251, contributors: 227)."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests passed out of 3, and install success was false, indicating potential difficulties in usage (tests_passed: 0, tests_total: 3, install_success: false)."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Localsend has a PyPI package (v0.1.2) and supports both CLI and GUI use modes, but requires Python 3.12 or higher (PyPI package: yes, use_modes: CLI, GUI, Python requirement: >=3.12)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the quality of Localsend's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the maturity of Localsend."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Localsend's memory usage is 52,903 bytes and time taken is 1,777,381,471.960755 seconds, showing reasonable performance (memory_usage_bytes: 52,903, time_taken_s: 1,777,381,471.960755)."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN sentiment score is 7/10, with 110 points, 30 comments, and mixed user reviews, indicating generally positive sentiment (HN sentiment score: 7/10, HN points: 110, comments: 30)."
+    }
+  },
+  "summary": "Localsend is a cross-platform file-sharing solution with a strong community and unique features, but faces challenges in installation and documentation. Its performance is reasonable, and user sentiment is generally positive.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/localsend/localsend",
+  "tool_url": "https://github.com/localsend/localsend",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47933208",
+  "domain": "infrastructure",
+  "app_type": "infra-communication",
+  "enriched": {
+    "github": {
+      "stars": 79244,
+      "forks": 4251,
+      "open_issues": 934,
+      "watchers": 79244,
+      "contributors": 227,
+      "license": "Apache-2.0",
+      "language": "Dart",
+      "is_fork": false,
+      "days_since_update": 21,
+      "days_since_created": 1229,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "topics": [
+        "dart",
+        "file-sharing",
+        "flutter",
+        "flutter-apps"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "AirDrop",
+        "stars": 1408,
+        "repo": "handshake-org/hs-airdrop"
+      },
+      {
+        "name": "NearShare",
+        "stars": 1,
+        "repo": "JeevanJoshi4434/NearShare"
+      },
+      {
+        "name": "Share",
+        "stars": 36324,
+        "repo": "ShareX/ShareX"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.2",
+      "summary": "Implementation of the localsend protocol",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Works great",
+        "Incredibly reliable and will move anything from one machine to another",
+        "Ridiculously fast for sending large amounts of media"
+      ],
+      "negative_signals": [
+        "Requires controlling the full stack",
+        "Not as slick as AirDrop",
+        "Prevented Mac from sleeping"
+      ],
+      "justification": "The comments show mixed opinions about Localsend, with some users praising its reliability and performance, while others criticize its lack of smoothness and compatibility issues. Some users also mention that it falls short of AirDrop's capabilities, but overall, the tone is more positive than negative.",
+      "comment_count": 30,
+      "hn_points": 110
+    }
+  }
+}
