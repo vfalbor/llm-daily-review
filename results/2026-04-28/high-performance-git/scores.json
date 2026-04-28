@@ -1,0 +1,83 @@
+{
+  "app_name": "High Performance Git",
+  "url": "https://gitperf.com/",
+  "scored_at": "2026-04-28T13:07:02.765Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "No clear original contribution is evident from the data provided, and there is no GitHub repository detected to compare with similar tools like git-fast and git-ll."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant issues with accessibility and setup, with an install time of 6.7s, which, although fast, is irrelevant given the install failure."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool, its relevance is moderate, given the current ecosystem trends towards high-performance versions of existing tools, but without more specific data, its exact fit is unclear."
+    },
+    "differentiation": {
+      "score": 1,
+      "justification": "There's no clear differentiation from similar tools like git-fast and git-ll based on the provided data, with no benchmark comparisons available."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected, we rely on HN points (175) and comments (30) as proxy signals, indicating a small but somewhat active community discussing its efficiency and robustness."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that tests passed is 0/0 and basic run success is false, with install success also being false, the ease of use is significantly impacted."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package was found, and there's no mention of an API/SDK/webhook on the page, making integration potentially difficult."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The absence of a docs/wiki/guide link and examples/demo, despite having a changelog or release notes, suggests that while there is some information, it may not be comprehensive or easily accessible, with the page content length (2495 chars) being a moderate indicator of depth."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to accurately assess maturity, with no GitHub repository or clear version history, although a detected version of 1.0 suggests some level of development completion."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons or specific performance metrics are available in the data provided to accurately assess performance, making it impossible to compare with other tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With a sentiment score of 8/10, HN points of 175, and 30 comments analyzed, the discussion around High Performance Git leans towards being neutral to positive, focusing on its efficiency, documentation, and robust design, despite some criticisms."
+    }
+  },
+  "summary": "High Performance Git is a tool aiming at enhancing Git's performance, but it lacks clear differentiation, suffers from installation issues, and has limited accessibility and community engagement based on the provided data. Its relevance and potential are hindered by these factors.",
+  "recommendation": "skip",
+  "app_url": "https://gitperf.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47929035",
+  "domain": "devtool",
+  "app_type": "devtool-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Efficient cloning with git clone --depth 1",
+        "High-quality documentation and tutorials",
+        "Git's robust and simple program design"
+      ],
+      "negative_signals": [
+        "Some users struggle with git's cli complexity",
+        "LFS and other alternatives have their own drawbacks",
+        "GitHub's existence is credited with git's mainstream success"
+      ],
+      "justification": "The discussion centers around git's performance, documentation, and user interface. While some users appreciate its efficiency and robustness, others find the cli complex and criticize GitHub's influence on git's success. Justification leans towards a neutral/positive score due to the overall emphasis on git's strengths.",
+      "comment_count": 30,
+      "hn_points": 175
+    }
+  }
+}
