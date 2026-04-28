@@ -1,0 +1,83 @@
+{
+  "app_name": "GTFOBins",
+  "url": "https://gtfobins.org/",
+  "scored_at": "2026-04-28T13:05:51.405Z",
+  "total_score": 66,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 267 points and 30 comments, indicating a positive community response, with users finding the resource valuable for emergency escalation techniques."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "GTFOBins is a unique resource, but its novelty is limited by its narrow scope and similarity to other tools like LinuxExploitSuggester and WindowsPrivilegeEscalation."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "There is no data on system requirements, as it's a web-based resource and not a software installation."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "GTFOBins is relevant to the current security and privilege escalation landscape, with examples illustrating niche attack vectors relevant to restricted environments."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "GTFOBins has a unique set of examples and techniques, but its differentiation is limited by its similarity to other tools like LinuxExploitSuggester and WindowsPrivilegeEscalation, with 267 HN points indicating some community recognition."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is limited data on the community, but the HN comments and points suggest some engagement and recognition, with 30 comments analyzed."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "There is no data on ease of use, as it's a web-based resource and not a software installation, but the page content length of 20813 chars suggests some depth and usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "GTFOBins has a simple web-based interface and mentions API/SDK/webhook, but its integration is limited by its focus on a specific niche, with no install command on the page."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The web page has a docs/wiki/guide link, and the page content length of 20813 chars suggests a comprehensive resource, but lacks a changelog or release notes."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version is 1.0, indicating some level of maturity, but the lack of a changelog or release notes and the narrow scope limit its maturity score."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for this type of web-based resource, with no benchmark data available."
+    }
+  },
+  "summary": "GTFOBins is a unique web-based resource for security and privilege escalation, with a comprehensive set of examples and techniques, but its novelty and differentiation are limited by its narrow scope and similarity to other tools.",
+  "recommendation": "worth-watching",
+  "app_url": "https://gtfobins.org/",
+  "tool_url": "https://gtfobins.org/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47931035",
+  "domain": "sec-priv",
+  "app_type": "sec-priv-exploit",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Community finds the resource valuable for emergency escalation techniques",
+        "Many users have used the tools described in the project",
+        "Examples illustrate niche attack vectors relevant to restricted environments"
+      ],
+      "negative_signals": [
+        "Some users question the practicality of using the tools without shell access",
+        "The project's scope is narrow and only relevant in specific circumstances",
+        "A few users express skepticism about the usefulness of the tools in real-world attacks"
+      ],
+      "justification": "While some users question the project's usefulness without shell access, others appreciate the examples and value it provides for emergency escalation techniques. The community generally finds the resource valuable, but acknowledges its narrow scope.",
+      "comment_count": 30,
+      "hn_points": 267
+    }
+  }
+}
