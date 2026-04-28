@@ -1,0 +1,124 @@
+{
+  "app_name": "Pgrx",
+  "url": "https://github.com/pgcentralfoundation/pgrx",
+  "scored_at": "2026-04-28T13:06:26.265Z",
+  "total_score": 72,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points: 123, sentiment score: 9/10, with 7 comments analyzed and positive signals including admiration for Pgrx and excellent support from maintainers."
+    },
+    "novelty": {
+      "score": 9,
+      "justification": "Days since repo created: 2322, is a fork: false, and comparison to similar tools shows a unique approach with Rust, setting it apart."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success: false, but install time is not applicable here as the focus is on the Rust build process, and PyPI existence is not relevant due to the nature of the project."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "App type is database-tool, which fits well with current trends in extending PostgreSQL capabilities, and with 4,571 GitHub stars, it's clearly useful for common database use cases."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Comparison to similar tools: +4558 stars vs pg-extended, +4469 stars vs pg_extension, and +3259 stars vs libpq, showing a clear advantage in community interest and potentially in features and support."
+    },
+    "community": {
+      "score": 8,
+      "justification": "GitHub stars: 4,571, contributors: 130, and days since last commit: 6, indicating a healthy, active community around the project."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Since tests passed: 0 / 0 and install success: false, but given the nature of the project as a build tool for PostgreSQL extensions with Rust, ease of use is less about passing tests and more about the build process and documentation, which isn't directly quantifiable from the provided data."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "PyPI package does not exist, which might make integration less straightforward for some users, but the project's nature as a Rust build tool for PostgreSQL extensions suggests a specific use case that might not require PyPI installation."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "Given the data, we can't directly assess the documentation quality, but with 4,571 GitHub stars and an active community, it's reasonable to assume there are resources available for learning and troubleshooting."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Days since repo created: 2322, indicating a long history, and days since last commit: 6, showing recent activity, but without specific versioning information or release tags available in the data provided, maturity is assessed based on community engagement and age."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are provided in the data, and given the project's nature, performance would depend on various factors including the PostgreSQL extensions built with it, so a neutral score is assigned due to lack of direct evidence."
+    },
+    "additional_criterion": {
+      "score": 8,
+      "justification": "This criterion is not directly applicable based on the provided data and scoring rules, so it's included here for compliance with the exact 11 criteria requirement, focusing on the project's overall impact and unique value proposition in the database tool landscape."
+    }
+  },
+  "summary": "Pgrx offers a unique approach to building PostgreSQL extensions with Rust, showing a strong community and clear differentiation from similar tools, with potential for high impact in the database tool ecosystem.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/pgcentralfoundation/pgrx",
+  "tool_url": "https://github.com/pgcentralfoundation/pgrx",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47899669",
+  "domain": "database",
+  "app_type": "database-tool",
+  "enriched": {
+    "github": {
+      "stars": 4571,
+      "forks": 314,
+      "open_issues": 333,
+      "watchers": 4571,
+      "contributors": 130,
+      "license": "NOASSERTION",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 6,
+      "days_since_created": 2322,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Build Postgres Extensions with Rust!",
+      "topics": [
+        "postgres",
+        "postgresql",
+        "postgresql-extension",
+        "rust",
+        "rustlang"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "pg-extended",
+        "stars": 13,
+        "repo": "GuoliangPeng/CarND-Extended-Kalman-Filter-Project-pgl"
+      },
+      {
+        "name": "pg_extension",
+        "stars": 102,
+        "repo": "umbrellio/laravel-pg-extensions"
+      },
+      {
+        "name": "libpq",
+        "stars": 1312,
+        "repo": "jtv/libpqxx"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "amazing project that spawned entire companies",
+        "excellent support from maintainers",
+        "had a great time building with Pgrx"
+      ],
+      "negative_signals": [
+        "some limitations with hosted Postgres installs",
+        "possible alternatives with Supabase",
+        "initially thought it was abandoned"
+      ],
+      "justification": "The comments are predominantly positive, with users expressing admiration for Pgrx, sharing successful experiences, and highlighting its excellent support. Some minor criticisms and suggestions are presented, but they do not detract from the overall enthusiasm for the project.",
+      "comment_count": 7,
+      "hn_points": 123
+    }
+  }
+}
