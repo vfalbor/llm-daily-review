@@ -1,0 +1,120 @@
+{
+  "app_name": "Microsoft VibeVoice",
+  "url": "https://github.com/microsoft/VibeVoice",
+  "scored_at": "2026-04-28T13:05:29.972Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool has 43837 stars, and is not a fork, indicating a high level of original contribution. Days since created is 245, showing it's a relatively new project with a unique approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install success is true, and install time is 9.9s, which is relatively fast. The PyPI package exists, which is a positive signal."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is sec-voice-authentication, which is a relevant and in-demand area in the current LLM ecosystem, particularly in security and authentication."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The tool has 43837 stars, compared to similar tools Voximplant with 207 stars and Twilio with 2055 stars, showing a significant advantage in terms of community and adoption."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The GitHub repository has 43837 stars, 4936 forks, and 21 contributors, indicating a strong and active community. The license is MIT, which is permissive and conducive to community involvement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Although basic run success is true, tests passed is 0/5, indicating potential usability issues or lack of thorough testing coverage."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The PyPI package exists, and the license is MIT, making it easy to integrate into projects. The use modes include CLI and SDK, providing flexibility."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "While the project has a GitHub repository, the quality and completeness of the documentation cannot be directly assessed without more information."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 245 days old, which is relatively young, but it has a significant number of stars, forks, and contributors, indicating a level of maturity and production readiness."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no clear performance benchmark data available to assess the tool's performance relative to others in the field."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not provided in the quantitative data, so it cannot be scored."
+    },
+    "security": {
+      "score": 8,
+      "justification": "The tool is designed for voice authentication, which is a critical security feature, and its open-source nature allows for community scrutiny and contribution to its security."
+    }
+  },
+  "summary": "Microsoft VibeVoice is an open-source voice AI tool with significant community support and relevance in the current LLM ecosystem, particularly in security and authentication. However, it faces challenges in terms of usability and performance benchmarking.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/microsoft/VibeVoice",
+  "tool_url": "https://github.com/microsoft/VibeVoice",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47933236",
+  "domain": "sec-voice",
+  "app_type": "sec-voice-authentication",
+  "enriched": {
+    "github": {
+      "stars": 43837,
+      "forks": 4936,
+      "open_issues": 143,
+      "watchers": 43837,
+      "contributors": 21,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 245,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Open-Source Frontier Voice AI",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Voximplant",
+        "stars": 207,
+        "repo": "voximplant/react-native-voximplant"
+      },
+      {
+        "name": "Twilio",
+        "stars": 2055,
+        "repo": "twilio/twilio-python"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "A model for speech generation with an AR + diffusion architecture.",
+      "requires_python": ">=3.9",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Vibe is gaining traction as a verb for AI systems",
+        "New TTS models added",
+        "Potential to be Word of the Year"
+      ],
+      "negative_signals": [
+        "Original TTS model removed due to security concerns",
+        "Project is not new",
+        "Model is heavy, slow, and bad at multilingual tasks"
+      ],
+      "justification": "The comments show a mix of enthusiasm and concerns, but overall the project is not universally acclaimed. The new models added are seen as a positive development, but the project's history and model's limitations are criticized.",
+      "comment_count": 9,
+      "hn_points": 35
+    }
+  }
+}
