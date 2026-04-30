@@ -1,0 +1,17 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git /tmp/pip-req-build-ejw9t5pj
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: git+https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Cloning into 'Alignment-Whack-a-Mole-Code'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///Alignment-Whack-a-Mole-Code does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 32, in <module>
+    spec.loader.exec_module(alignment_whack_a_mole)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1132, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Alignment-Whack-a-Mole-Code/alignment_whack_a_mole.py'
