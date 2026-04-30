@@ -1,0 +1,38 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
+    "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+    "hn_url": "https://news.ycombinator.com/item?id=47957627",
+    "points": 163,
+    "comments": 125,
+    "author": "reconnecting",
+    "age": "2026-04-30T03:11:51 1777518711",
+    "scraped_at": "2026-04-30T13:00:02.560Z",
+    "is_reviewable": true,
+    "confidence": null,
+    "domain": "research",
+    "app_type": "research-model",
+    "description": "Finetuning activates recall of copyrighted books in LLMs",
+    "use_modes": null,
+    "similar_tools": null,
+    "proposed_tests": null,
+    "requires_api_key": null,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+    "tool_url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+    "source_type": "research"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777554390124-uycw7",
+    "log_dir": "/tmp/llm-review-1777554390124-uycw7",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git /tmp/pip-req-build-ejw9t5pj\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nERROR: git+https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nCloning into 'Alignment-Whack-a-Mole-Code'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///Alignment-Whack-a-Mole-Code does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 32, in <module>\n    spec.loader.exec_module(alignment_whack_a_mole)\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1132, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1190, in get_data\nFileNotFoundError: [Errno 2] No such file or directory: '/Alignment-Whack-a-Mole-Code/alignment_whack_a_mole.py'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting git+https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git\n  Cloning https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git to /tmp/pip-req-build-ejw9t5pj\n  Resolved https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git to commit fc7dccdbf4efe4863ac28d57716939cf714505dc\nObtaining file:///Alignment-Whack-a-Mole-Code\nINSTALL_OK\nINSTALL_FAIL:Command '['pip', 'install', 'git+https://github.com/cauchy221/Alignment-Whack-a-Mole-Code.git']' returned non-zero exit status 1.\nINSTALL_FAIL:Command '['pip', 'install', '-e', './Alignment-Whack-a-Mole-Code']' returned non-zero exit status 1.\n"
+  }
+}
