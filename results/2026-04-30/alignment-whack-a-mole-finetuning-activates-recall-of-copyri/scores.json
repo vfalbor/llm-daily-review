@@ -1,0 +1,98 @@
+{
+  "app_name": "Alignment Whack-a-Mole",
+  "url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+  "scored_at": "2026-04-30T13:06:51.380Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is not a fork and has been created 48 days ago, indicating a new contribution with potential originality, as seen in its approach to finetuning activating recall of copyrighted books in LLMs."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "While the app has an install success of true and an install time of 9.8s, the lack of a PyPI package and basic run success being false indicates some issues with system requirements, but not enough data is available for a definitive score."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the app type is research-model and its focus on finetuning and LLMs, it fits well with current trends in the AI ecosystem, addressing a current concern about copyrighted material recall in LLMs."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 64 GitHub stars, this app has some differentiation, but without direct comparisons to similar tools or BENCHMARK data, its uniqueness is somewhat hard to quantify, though its focus on a specific issue like copyrighted book recall is notable."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Having 64 GitHub stars and 1 contributor, with the last commit 29 days ago, indicates a small but potentially active community, though more contributors and a higher star count would significantly improve this score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Given that no tests were run (tests passed: 0 / 0) and basic run success was false, the ease of use is compromised, suggesting difficulties in setup or execution."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Without a PyPI package and no clear indication of an API or easy integration method, this app seems to have a low ease of integration, requiring potentially manual or complex setup."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data available to properly assess the quality and completeness of the documentation, as the GitHub repository and other sources do not provide enough information for a definitive score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the repository is 48 days old, has 12 forks, and the last commit was 29 days ago, but lacking more specific data on releases, versioning, or a changelog, the maturity cannot be accurately determined, reflecting a need for more information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines from tests or other performance metrics available, making it impossible to assess the app's performance accurately, thus a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 2,
+      "justification": "The sentiment score of 2/10 from HN comments, with 164 points and 30 comments analyzed, indicating a predominantly negative discussion about the concept of ending copyright and its implications, suggests a challenging community reception."
+    }
+  },
+  "summary": "Alignment Whack-a-Mole is a research project exploring the recall of copyrighted books in LLMs through finetuning, showing promise in its novelty and relevance but facing challenges in community acceptance and technical usability. Its potential impact on copyright law and practices is a subject of significant debate, reflecting both the importance and the controversy of its research focus.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+  "tool_url": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=47957627",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 64,
+      "forks": 12,
+      "open_issues": 0,
+      "watchers": 64,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 29,
+      "days_since_created": 48,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The official code repo of Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 2,
+      "positive_signals": [
+        "Potential to end copyright",
+        "Discussion about the roots of copyright law and its purpose",
+        "Critique of current copyright practices"
+      ],
+      "negative_signals": [
+        "Concerns about the dismantling of IP protections",
+        "Fear of loss of progress due to abandonment of copyright",
+        "Criticism of the current state of copyright law"
+      ],
+      "justification": "The comments are largely negative, with concerns about the potential consequences of eliminating copyright law and the critique of current copyright practices. However, there is a neutral/positive thread discussing the potential of ending copyright, going back to its roots, and promoting progress. Due to the diverse and contentious nature of the comments, and the limited number of comments focusing on the specific research project, the overall sentiment is weighted towards a score of 2.",
+      "comment_count": 30,
+      "hn_points": 164
+    }
+  }
+}
