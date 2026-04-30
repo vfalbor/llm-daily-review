@@ -1,0 +1,79 @@
+{
+  "app_name": "DataCenter.FM",
+  "url": "https://datacenter.fm/",
+  "scored_at": "2026-04-30T13:07:20.246Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app offers a unique concept of generating background noise featuring the sound of the AI bubble, which is different from traditional noise-generating apps, but lacks quantitative data for a precise comparison with similar tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and the install time is not applicable, but the app is accessible via a web browser, making it relatively easy to access but lacking in terms of installability via traditional means like pip, with PyPI existence being false."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app fits into the current trend of providing background noise for productivity but does so in a unique way related to AI, which is a current and relevant topic, with its infra-cloud type aligning with trends in cloud infrastructure."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself by offering a unique type of background noise that is not commonly found in other apps, but lacks direct quantitative comparisons to similar tools, which could include other noise-generating apps."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected and no clear indication of community involvement, but HN points of 48 and positive comments suggest some level of community interest, albeit not directly engaging with the app's development."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app is accessible via a web browser, but without direct tests passed or install success, ease of use is scored as neutral due to insufficient data, and the lack of a clear install command or documentation on the page."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app lacks a clear API or SDK mention, no webhook support, and does not have a clear install command on the page, making integration difficult, with its license and use modes not clearly stated for potential integrators."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The page lacks a docs/wiki/guide link, changelog, or release notes, and has a very short content length of 748 characters, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The detected version is 1.0, but without clear release notes or a changelog, and considering the lack of GitHub data, maturity is hard to gauge accurately, scoring it as neutral due to insufficient information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available for the app, and performance is not applicable in the traditional sense for a background noise app, making this criterion not applicable."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10 with 48 HN points and positive comments, indicating a generally favorable view of the app, with commenters praising its creativity and enjoyable experience."
+    }
+  },
+  "summary": "DataCenter.FM is a unique background noise app featuring the sound of the AI bubble, offering a differentiated experience but lacking in documentation, community engagement, and traditional installation methods, with a favorable sentiment from users but limited data on its operational aspects.",
+  "recommendation": "niche",
+  "app_url": "https://datacenter.fm/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47959513",
+  "domain": "infrastructure",
+  "app_type": "infra-cloud",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "great app",
+        "amazing",
+        "very nice touch"
+      ],
+      "negative_signals": [],
+      "justification": "Overall, commenters praised the app's creativity and enjoyable experience, with several expressing excitement and amusement. However, a few users suggested adding pleasant sounds, which was their only critique.",
+      "comment_count": 8,
+      "hn_points": 48
+    }
+  }
+}
