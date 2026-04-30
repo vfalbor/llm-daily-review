@@ -1,0 +1,13 @@
+ERROR: unable to select packages:
+  pip (no such package):
+    required by: world[pip]
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+Cloning into 'opentrafficmap'...
+fatal: could not read Username for 'https://github.com': No such device or address
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0   0     0   0     0     0     0  --:--:-- --:--:-- --:--:--     0  0     0   0     0   0     0     0     0  --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 5000 after 0 ms: Could not connect to server
