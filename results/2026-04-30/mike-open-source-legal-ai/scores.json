@@ -1,0 +1,102 @@
+{
+  "app_name": "Mike: open-source legal AI",
+  "url": "https://mikeoss.com/",
+  "scored_at": "2026-04-30T13:08:43.237Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Mike is an open-source legal AI, which is a unique approach in the legal AI space, with 131 HN points and a sentiment score of 7/10, indicating a novel contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 8.2 seconds, but since no GitHub repo was detected, we cannot assess its full system requirements, so we score it 6 based on the provided data."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an open-source legal AI, Mike fits well with current trends in the LLM ecosystem, with a focus on self-hostable solutions, scoring 7 for its relevance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Mike has 14 stars on its similar tool Contract Sage's GitHub, but since Mike itself doesn't have a GitHub repo, we compare its uniqueness to Contract Sage and DocuSign, scoring it 6 for differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Since no GitHub repository was detected for Mike, we cannot assess its community directly, so we score it 5, as the data is insufficient."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 out of 3 tests passed, Mike's ease of use is questionable, indicating a need for improvement, scoring 2."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Mike has a PyPI package (v2.2.0) and supports CLI and API modes, making it relatively easy to integrate, scoring 7."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Since no GitHub repository or wiki was found for Mike, and the provided data does not include information about its documentation, we score it 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without a GitHub repository or more detailed information about Mike's development history, we cannot accurately assess its maturity, so we score it 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was provided for Mike, so we cannot evaluate its performance, resulting in a score of 5."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With an HN sentiment score of 7/10, 131 HN points, and 30 comments analyzed, the sentiment around Mike is generally positive, indicating a good community response."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "Mike is an open-source legal AI that offers a unique approach to AI-assisted drafting of legal documents. While it shows promise with its novel contribution and ease of integration, its ease of use and community engagement are areas that need improvement. With a generally positive HN sentiment and a niche focus, Mike has the potential to carve out its own space in the legal AI sector.",
+  "recommendation": "worth-watching",
+  "app_url": "https://mikeoss.com/",
+  "tool_url": "https://github.com/mikeoss/mike",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47956739",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Contract Sage",
+        "stars": 14,
+        "repo": "Sage/SData-Contracts"
+      },
+      {
+        "name": "DocuSign",
+        "stars": 208,
+        "repo": "docusign/docusign-esign-php-client"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.2.0",
+      "summary": "Manage multiple versions of your MkDocs-powered documentation",
+      "requires_python": null,
+      "license": "BSD-3-Clause",
+      "home_page": "https://github.com/jimporter/mike"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "High star count for a niche product",
+        "Good design and website",
+        "Useful direction for self-hostable legal AI"
+      ],
+      "negative_signals": [
+        "Some skepticism about the quality of the implementation",
+        "Concerns about the potential misuse of the platform",
+        "Comparison to commercial competitors' splash pages, implying they might not deliver"
+      ],
+      "justification": "The comments are generally positive, with some expressing enthusiasm for the idea of self-hostable legal AI. However, there are also some concerns about the implementation quality and the potential misuse of the platform. Some users also make comparisons to commercial competitors' splash pages, implying they might not deliver.",
+      "comment_count": 30,
+      "hn_points": 131
+    }
+  }
+}
