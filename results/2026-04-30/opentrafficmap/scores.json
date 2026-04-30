@@ -1,0 +1,94 @@
+{
+  "app_name": "OpenTrafficMap",
+  "url": "https://opentrafficmap.org/",
+  "scored_at": "2026-04-30T13:07:55.659Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app has a unique approach to providing real-time traffic congestion data, but it is not the first of its kind, as seen with similar tools like HERE with 60,182 stars and TomTom with 1,412 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, indicating installation issues, and install time was 9.4s, which is moderate, but not pip-installable as no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app provides real-time traffic congestion data, which is highly relevant in today's transportation landscape, fitting well with current infra-queue ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "While OpenTrafficMap offers unique features like open map infrastructure, its differentiation is limited compared to established players like HERE and TomTom, with a significant gap in GitHub stars and community support."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is insufficient data to accurately assess the community support, as there is no detected GitHub repository, but HN points and comments show some enthusiasm and concern from users."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed was 0 out of 2, and basic run success was true, but the lack of successful tests and specific test failures indicate potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app offers a web and API mode, which facilitates integration, but the requirement for an API key might add complexity, and no PyPI package is available for easy installation."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "Insufficient data on the quality of the documentation, as there is no detected GitHub repository or clear documentation link provided, but the app's website might offer some guidance."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to assess maturity due to the lack of a detected GitHub repository and no clear versioning or release information provided."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient benchmark data to assess performance, as the provided benchmark measurements are not directly comparable to standard performance metrics, and no direct comparison to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment score is 6/10, with 301 HN points and 30 comments analyzed, showing a mixed sentiment with both positive signals like open-sourcing and negative signals like limited English support and misleading name."
+    }
+  },
+  "summary": "OpenTrafficMap provides real-time traffic congestion data on an open map infrastructure, showing relevance in today's transportation landscape but faces challenges in differentiation, community support, and usability. The project has potential but needs to address concerns raised by users and improve its accessibility and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://opentrafficmap.org/",
+  "tool_url": "https://github.com/opentrafficmap/opentrafficmap",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=47953541",
+  "domain": "infrastructure",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "HERE",
+        "stars": 60182,
+        "repo": "adam-p/markdown-here"
+      },
+      {
+        "name": "TomTom",
+        "stars": 1412,
+        "repo": "tomtom/tcomment_vim"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Project is open-sourced and based on international standards",
+        "Authors are working on publishing more information about the project",
+        "Users are enthusiastic about the project's potential"
+      ],
+      "negative_signals": [
+        "Limited English support and availability in non-Germany countries",
+        "Users feel misled by the name 'OpenTrafficMap'",
+        "Lack of documentation for contributors"
+      ],
+      "justification": "While users are enthusiastic about the project's potential, concerns about English support, availability, and documentation hold back a higher score. Some users also feel misled by the name, leading to skepticism.",
+      "comment_count": 30,
+      "hn_points": 301
+    }
+  }
+}
