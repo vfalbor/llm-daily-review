@@ -1,0 +1,87 @@
+{
+  "app_name": "GCC",
+  "url": "https://gcc.gnu.org",
+  "scored_at": "2026-04-30T13:06:28.713Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "GCC 16 has been released, which is a new version, but it's not a new compiler, so it gets a score of 6 for novelty, as it is not a first-of-its-kind approach, but rather an iteration on an existing tool, with 16.1 detected version."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The installation time is not applicable since the install success was false, and no PyPI package was found, indicating that the installation process may be complex or not well-documented, with 192s reported for a potentially failed or incomplete installation attempt."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a new release of the GNU Compiler Collection, GCC 16 is highly relevant to the current ecosystem, given its use modes of compiler and runtime, and its role in the development landscape, with a detected version of 16.1."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Clang, MSVC, and CMake, GCC has a unique set of features and a large user base, which sets it apart, with the web page signals indicating a GNU Project, and a detected version of 16.1."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Without GitHub data, we rely on HN points, which are 65, and comments, which are 5, indicating a relatively small but engaged community, with positive signals about the regular release schedule."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 / 0 and the basic run success is false, indicating significant difficulties in using the tool, or at least, the test suite does not reflect its usability accurately."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No clear API or SDK is mentioned, and the install command is not provided on the page, making integration potentially difficult, but the fact that it's a compiler suggests some level of integration with other tools, with the detected version being 16.1."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The web page has a docs/wiki/guide link, but the quality and completeness are not directly assessable from the provided signals, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The detected version of 16.1 and the presence of a release schedule indicate a high level of maturity, with regular releases suggesting a stable and maintained project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available to assess performance, and since this is a compiler, performance is critical but cannot be evaluated without specific benchmarks or performance claims."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, with HN points of 65, and comments analyzed are 5, showing a positive sentiment towards GCC's recent releases and consistency."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "Given the total score and the specific scores for each criterion, the recommendation is niche, due to the limitations in ease of use and integration, despite its novelty and relevance."
+    }
+  },
+  "summary": "GCC 16 is a new release of the GNU Compiler Collection, with a unique set of features and a large user base, but it has significant difficulties in terms of ease of use and integration, and its performance cannot be evaluated without specific benchmarks.",
+  "recommendation": "niche",
+  "app_url": "https://gcc.gnu.org/gcc-16/changes.html",
+  "tool_url": "https://gcc.gnu.org",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47961004",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "regular release schedule",
+        "remarkably regular",
+        "GCC's recent major releases have been consistent"
+      ],
+      "negative_signals": [
+        "used to be slower",
+        "C++ bugs",
+        "way too much time working around bugs"
+      ],
+      "justification": "Commenters reminisce about GCC's past issues, particularly its slowness and C++ bugs, but praise its regular release schedule and consistency. The nostalgia and humor in the comments suggest a mostly positive sentiment.",
+      "comment_count": 5,
+      "hn_points": 65
+    }
+  }
+}
