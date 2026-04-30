@@ -1,0 +1,108 @@
+{
+  "app_name": "Zed",
+  "url": "https://zed.dev/blog/zed-1-0",
+  "scored_at": "2026-04-30T13:03:04.538Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Zed offers an interactive, web-based development environment, which is a unique approach compared to similar tools like Jupyter Notebook (13,121 stars) and Google Colab (1,497 stars), with 46.2s install time indicating some complexity."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 46.2s, which is relatively long, and the package exists on PyPI with a Python requirement of >=2.7."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool-cli, Zed fits well with current LLM ecosystem trends, with its web-based interactive environment."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to Jupyter Notebook (13,121 stars) and Google Colab (1,497 stars), Zed has fewer stars but offers a unique web-based interactive environment, with some missing features compared to terminal versions."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repo detected, but HN points are 1944, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were run (0/0), and basic run success is false, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The package exists on PyPI (v1.1.1) with a Python requirement of >=2.7, and has a web-based interface, making integration relatively easy."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo detected, but the tool has a blog post and a URL, indicating some documentation effort."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repo detected, but the tool has a version (1.0) and a blog post, indicating some maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmarks were run, but the tool's web-based interactive environment may impact performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 1944 HN points, 30 comments analyzed, and both positive (e.g., 'Zed works well with Claude Code') and negative signals (e.g., 'Lacks some features'). This indicates a generally positive but also critical community sentiment."
+    }
+  },
+  "summary": "Zed is a unique, web-based development environment with a long install time and some missing features, but it offers an interactive experience and has a relatively easy integration process.",
+  "recommendation": "worth-watching",
+  "app_url": "https://zed.dev/blog/zed-1-0",
+  "tool_url": "https://github.com/zed-dev/zed",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47949027",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Jupyter Notebook",
+        "stars": 13121,
+        "repo": "jupyter/notebook"
+      },
+      {
+        "name": "Google Colab",
+        "stars": 1497,
+        "repo": "firmai/awesome-google-colab"
+      },
+      {
+        "name": "Repl.it",
+        "stars": 1349,
+        "repo": "replit-archive/repl.it"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.1.1",
+      "summary": "Thin wrapper for integrating ZeroMQ sockets into the Twisted reactore",
+      "requires_python": ">=2.7",
+      "license": "",
+      "home_page": "https://github.com/cocagne/zed"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Zed works well with Claude Code and has a lot of features",
+        "The memory usage issue has been addressed",
+        "Zed gained support for parallel sessions, which is nice",
+        "The team is actively improving it with a lot of effort"
+      ],
+      "negative_signals": [
+        "Lacks some features like display for sub-agents/teams, no ability to clear context, etc.",
+        "Does not support some of the commands that manage Claude itself",
+        "Missing a lot of features compared to the terminal version",
+        "Search UI is not ideal and opens a new tab"
+      ],
+      "justification": "While there are some criticisms regarding missing features, memory usage, and UI issues, the project has received praise for its performance, active improvement, and the memory usage issue being addressed. The overall sentiment is generally positive, but with some constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 1944
+    }
+  }
+}
