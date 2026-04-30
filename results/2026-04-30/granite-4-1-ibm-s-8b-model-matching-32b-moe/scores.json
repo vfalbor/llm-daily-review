@@ -1,0 +1,106 @@
+{
+  "app_name": "Granite 4.1",
+  "url": "https://github.com/ibm/granite",
+  "scored_at": "2026-04-30T13:02:05.361Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Granite 4.1 offers an 8B model with recent training data, which is a new development in the field, as cited in the article, and has a unique approach with its model family"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is 6.9s, indicating potential issues with installation"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an IBM open-source model framework, Granite 4.1 fits well with current LLM ecosystem trends, matching 32B MoE, and uses recent training data"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Granite 4.1 has 0 GitHub stars, compared to CrewAI's 50,344 and LangChain's 135,469, but its unique 8B model offers some differentiation"
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, making it difficult to assess community engagement"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 / 0, indicating potential issues with usability"
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The existence of a PyPI package (v0.0.5) and the use of CLI and SDK modes make integration easier"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki or pages are available, making it difficult to assess documentation quality"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on days since created, forks count, or open issues, making it difficult to assess maturity"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results are available to evaluate performance"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 134 points and 30 comments, indicating a generally positive community response"
+    }
+  },
+  "summary": "Granite 4.1 is a unique IBM open-source model framework that offers a distinctive approach with its 8B model, but faces challenges in terms of installation and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
+  "tool_url": "https://github.com/ibm/granite",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47960507",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CrewAI",
+        "stars": 50344,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LangChain",
+        "stars": 135469,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "stars": 27,
+        "repo": "nicknochnack/Hugging-Face-Transformers-Summarization"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.5",
+      "summary": "Augments the unittest TestCase API by providing additional utilities useful for Python tools.",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": "https://github.com/frenchtoast747/granite"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive 32B model with recent training data, suitable for home setups",
+        "Granite has recent training data which is nice",
+        "Effective for auto complete, small tasks, and general coding"
+      ],
+      "negative_signals": [
+        "Comparisons to Qwen 3.6 show Qwen outperforming Granite",
+        "Some users found Gemma 4 to be unuseful or mediocre",
+        "Verbosity in new Granite version not useful for coding"
+      ],
+      "justification": "The sentiment is generally positive, with several users finding Granite 8B to be impressive and useful for coding. Some comparisons to Qwen 3.6 show Qwen performing better, and there are some mixed experiences with Gemma 4.",
+      "comment_count": 30,
+      "hn_points": 134
+    }
+  }
+}
