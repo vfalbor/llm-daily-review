@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Zed 1.0",
+    "url": "https://zed.dev/blog/zed-1-0",
+    "hn_url": "https://news.ycombinator.com/item?id=47949027",
+    "points": 1943,
+    "comments": 616,
+    "author": "salkahfi",
+    "age": "2026-04-29T14:34:19 1777473259",
+    "scraped_at": "2026-04-30T13:00:02.554Z",
+    "tool_url": "https://github.com/zed-dev/zed",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Zed is an interactive, web-based development environment",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "Jupyter Notebook",
+      "Google Colab",
+      "Repl.it"
+    ],
+    "proposed_tests": [
+      "Create a new project in Zed and write a basic script",
+      "Run a Python script using Zed's web IDE",
+      "Compare performance vs a traditional IDE"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zed-dev/zed"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777554126487-hsckq",
+    "log_dir": "/tmp/llm-review-1777554126487-hsckq",
+    "install_success": true,
+    "install_time_s": 46.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/@zed-dev%2fzed - Not found\nnpm error 404\nnpm error 404  The requested resource '@zed-dev/zed@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-04-30T13_02_24_020Z-debug-0.log\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 33, in <module>\n    subprocess.run(['npm', 'list', '-g', '@zed-dev/zed'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['npm', 'list', '-g', '@zed-dev/zed']' returned non-zero exit status 1.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/8) Installing libgcc (15.2.0-r2)\n(2/8) Installing libstdc++ (15.2.0-r2)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/8) Installing icu-libs (76.1-r1)\n(6/8) Installing simdjson (3.12.0-r0)\n(7/8) Installing simdutf (7.5.0-r1)\n(8/8) Installing nodejs (24.14.1-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 89.6 MiB in 60 packages\n(1/1) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nOK: 97.1 MiB in 61 packages\n( 1/15) Installing jansson (2.14.1-r0)\n( 2/15) Installing binutils (2.45.1-r0)\n( 3/15) Installing libgomp (15.2.0-r2)\n( 4/15) Installing libatomic (15.2.0-r2)\n( 5/15) Installing gmp (6.3.0-r4)\n( 6/15) Installing isl26 (0.26-r1)\n( 7/15) Installing mpfr4 (4.2.2-r0)\n( 8/15) Installing mpc1 (1.3.1-r1)\n( 9/15) Installing gcc (15.2.0-r2)\n(10/15) Installing musl-dev (1.2.5-r23)\n(11/15) Installing libxml2 (2.13.9-r0)\n(12/15) Installing llvm21-libs (21.1.2-r1)\n(13/15) Installing scudo-malloc (21.1.2-r0)\n(14/15) Installing rust (1.91.1-r1)\n(15/15) Installing cargo (1.91.1-r1)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nOK: 689.4 MiB in 76 packages\nCollecting jupyter\n  Downloading jupyter-1.1.1-py2.py3-none-any.whl.metadata (2.0 kB)\nCollecting notebook (from jupyter)\n  Downloading notebook-7.5.6-py3-none-any.whl.metadata (10 kB)\nCollecting jupyter-console (from jupyter)\n  Downloading jupyter_console-6.6.3-py3-none-any.whl.metadata (5.8 kB)\nCollecting nbconvert (from jupyter)\n  Downloading nbconvert-7.17.1-py3-none-any.whl.metadata (8.4 kB)\nCollecting ipykernel (from jupyter)\n  Downloading ipykernel-7.2.0-py3-none-any.whl.metadata (4.5 kB)\nCollecting ipywidgets (from jupyter)\n  Downloading ipywidgets-8.1.8-py3-none-any.whl.metadata (2.4 kB)\nCollecting jupyterlab (from jupyter)\n  Downloading jupyterlab-4.5.7-py3-none-any.whl.metadata (16 kB)\nCollecting comm>=0.1.1 (from ipykernel->jupyter)\n  Downloading comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)\nCollecting debugpy>=1.6.5 (from ipykernel->jupyter)\n  Downloading debugpy-1.8.20-py2.py3-none-any.whl.metadata (1.5 kB)\nCollecting ipython>=7.23.1 (from ipykernel->jupyter)\n  Downloading ipython-9.13.0-py3-none-any.whl.metadata (4.6 kB)\nCollecting jupyter-client>=8.8.0 (from ipykernel->jupyter)\n  Downloading jupyter_client-8.8.0-py3-none-any.whl.metadata (8.4 kB)\nCollecting jupyter-core!=6.0.*,>=5.1 (from ipykernel->jupyter)\n  Downloading jupyter_core-5.9.1-py3-none-any.whl.metadata (1.5 kB)\nCollecting matplotlib-inline>=0.1 (from ipykernel->jupyter)\n  Downloading matplotlib_inline-0.2.1-py3-none-any.whl.metadata (2.3 kB)\nCollecting nest-asyncio>=1.4 (from ipykernel->jupyter)\n  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)\nCollecting packaging>=22 (from ipykernel->jupyter)\n  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)\nCollecting psutil>=5.7 (from ipykernel->jupyter)\n  Downloading psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl.metadata (22 kB)\nCollecting pyzmq>=25 (from ipykernel->jupyter)\n  Downloading pyzmq-27.1.0-cp312-abi3-musllinux_1_2_x86_64.whl.metadata (6.0 kB)\nCollecting tornado>=6.4.1 (from ipykernel->jupyter)\n  Downloading tornado-6.5.5-cp39-abi3-musllinux_1_2_x86_64.whl.metadata (2.8 kB)\nCollecting traitlets>=5.4.0 (from ipykernel->jupyter)\n  Downloading traitlets-5.14.3-py3-none-any.whl.met"
+  }
+}
