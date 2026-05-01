@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Show HN: Site Mogging",
+    "url": "https://sitemogging.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=47973559",
+    "points": 13,
+    "comments": 8,
+    "author": "jilles",
+    "age": "2026-05-01T11:32:48 1777635168",
+    "scraped_at": "2026-05-01T13:00:03.348Z",
+    "is_reviewable": true,
+    "confidence": 0.86,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "Website screenshot and content management tool",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "Snappy",
+      "Snaproll",
+      "Page2Images"
+    ],
+    "proposed_tests": [
+      "Create a test account and add a website to the list",
+      "Verify the snapshot quality and update frequency",
+      "Check the UI for usability and performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://sitemogging.com/developers"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777640507130-9ulbu",
+    "log_dir": "/tmp/llm-review-1777640507130-9ulbu",
+    "install_success": true,
+    "install_time_s": 145.9,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:response_time_ms:236.44\nBENCHMARK:snapshot_quality_check_ms:200.13\nBENCHMARK:ui_performance_check_ms:196.47\nBENCHMARK:memory_usage_mb:0.00",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-05-01T13_01_57_728Z-debug-0.log\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/9) Installing libgcc (15.2.0-r2)\n(2/9) Installing libstdc++ (15.2.0-r2)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/9) Installing icu-libs (76.1-r1)\n(6/9) Installing simdjson (3.12.0-r0)\n(7/9) Installing simdutf (7.5.0-r1)\n(8/9) Installing nodejs (24.14.1-r0)\n(9/9) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nINSTALL_OK\nBENCHMARK:response_time_ms:236.44\nTEST_PASS:create_test_account_and_add_website\nBENCHMARK:snapshot_quality_check_ms:200.13\nTEST_PASS:verify_snapshot_quality_and_update_frequency\nBENCHMARK:ui_performance_check_ms:196.47\nTEST_PASS:check_ui_for_usability_and_performance\nBENCHMARK:memory_usage_mb:0.00\nTEST_FAIL:send_request:HTTPSConnectionPool(host='snaproll.io', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='snaproll.io', port=443) at 0x7c779b9f5ee0>, 'Connection to snaproll.io timed out. (connect timeout=None)'))\nTEST_FAIL:compare_performance_vs_baseline:Failed to send request to baseline\nRUN_OK\n"
+  }
+}
