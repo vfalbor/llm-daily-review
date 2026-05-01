@@ -1,0 +1,115 @@
+{
+  "app_name": "Advanced Quantization Algorithm for LLMs",
+  "url": "https://github.com/intel/auto-round",
+  "scored_at": "2026-05-01T13:07:13.543Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "With 848 days since repo creation and being an original repository (not a fork), this tool demonstrates some level of innovation, but its age suggests it may not be entirely new, scoring 6 out of 10."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false, indicating significant issues with installation, which heavily impacts system requirements, scoring 2 out of 10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an LLM quantization tool, it fits well with current AI trends focusing on model optimization, scoring 8 out of 10."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 1,086 stars and comparing to similar tools like PyTorch Quantization (542 stars), this tool shows a significant presence, but not an overwhelming advantage, scoring 7 out of 10."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the data, the community is somewhat active with 31 contributors and 118 forks, but the comparison to similar tools in the community aspect is not fully available, scoring 5 out of 10."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed were 0 out of 0, and basic run success was false, indicating significant usability issues, scoring 1 out of 10."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Having a PyPI package (v0.12.3) and a Python requirement (>=3.10.0) makes it relatively easy to integrate, scoring 8 out of 10."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality or quantity, and given the insufficient data on this aspect, scoring 5 out of 10."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 848 days since the repository was created and last commit being recent (0 days ago), it shows some level of maturity, but open issues (126) suggest room for improvement, scoring 6 out of 10."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark data was provided to assess performance against similar tools, thus scoring 3 out of 10 for insufficient evidence."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient HN comments (only 1) for a meaningful sentiment analysis, thus scoring null."
+    }
+  },
+  "summary": "The Advanced Quantization Algorithm for LLMs offers a novel approach to model optimization but faces challenges in installation and usability. Its relevance to current LLM trends and presence in the community are notable, but further development is needed for maturity and performance.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/intel/auto-round",
+  "tool_url": "https://github.com/intel/auto-round",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47972659",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 1086,
+      "forks": 118,
+      "open_issues": 126,
+      "watchers": 1086,
+      "contributors": 31,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 848,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers.",
+      "topics": [
+        "gguf",
+        "int4",
+        "llms",
+        "mxfp4",
+        "nvfp4",
+        "quantization",
+        "rounding",
+        "sglang",
+        "transformers",
+        "vllm",
+        "vlms"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PyTorch Quantization",
+        "stars": 542,
+        "repo": "Jermmy/pytorch-quantization-demo"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.12.3",
+      "summary": "Repository of AutoRound: Advanced Weight-Only Quantization Algorithm for LLMs",
+      "requires_python": ">=3.10.0",
+      "license": "Apache 2.0",
+      "home_page": "https://github.com/intel/auto-round"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 9
+    }
+  }
+}
