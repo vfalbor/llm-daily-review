@@ -1,0 +1,103 @@
+{
+  "app_name": "OpenWarp",
+  "url": "https://openwarp.zerx.dev/",
+  "scored_at": "2026-05-01T13:06:37.035Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is an open-source, web-based AI modeling platform, which is a notable approach, but its originality is reduced due to similarities with existing tools like Hugging Face Spaces, which has 77 stars, and TorchServe, with 125 stars."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app has an install time of 9.3s, which is relatively fast, but the tests passed is 0 out of 1, indicating some issues with the installation or testing process."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM-inference tool, OpenWarp fits into the current AI development landscape, which is focused on AI modeling and inference, but its relevance could be higher if it had more advanced features or better integration with existing tools."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Hugging Face Spaces (77 stars), TorchServe (125 stars), and Seldon Core (4,746 stars), OpenWarp's differentiation is limited, with no unique features or significant advantages mentioned."
+    },
+    "community": {
+      "score": 3,
+      "justification": "There is no GitHub repository detected or available for OpenWarp, making it difficult to assess community engagement, and the HN points (119) and comments (30) provide some insight but are not sufficient to determine a strong community presence."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 1 and basic run success being true, it indicates that the app may have some usability issues or lacks comprehensive testing, making it harder for users to use it effectively."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The absence of a PyPI package and the lack of information on API modes or license make it challenging to integrate OpenWarp into existing workflows or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality of OpenWarp's documentation, as there is no GitHub repository or accessible documentation site available for review."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the lack of data on days since creation, forks, and open issues, it's challenging to determine the maturity of OpenWarp, and without a clear versioning system or release history, its maturity remains uncertain."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark measurements available for OpenWarp, making it impossible to assess its performance compared to other similar tools."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score is 5/10, with mixed positive and negative comments, and while there are 119 HN points and 30 comments, the sentiment is not decisively positive or negative, indicating a neutral sentiment."
+    },
+    "overall_value": {
+      "score": 6,
+      "justification": "Considering the mixed sentiment, limited differentiation, and insufficient data on key aspects like documentation and maturity, OpenWarp's overall value is moderate, with potential for growth if these areas are addressed."
+    }
+  },
+  "summary": "OpenWarp is an open-source, web-based AI modeling platform that, despite its notable approach, struggles with differentiation, community engagement, and usability, but has potential for growth with further development and clearer documentation.",
+  "recommendation": "niche",
+  "app_url": "https://openwarp.zerx.dev/",
+  "tool_url": "https://github.com/zerx-dev/openwarp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47970622",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Hugging Face Spaces",
+        "stars": 77,
+        "repo": "ruslanmv/How-to-Sync-Hugging-Face-Spaces-with-a-GitHub-Repository"
+      },
+      {
+        "name": "TorchServe",
+        "stars": 125,
+        "repo": "cceyda/torchserve-dashboard"
+      },
+      {
+        "name": "Seldon Core",
+        "stars": 4746,
+        "repo": "SeldonIO/seldon-core"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Some users appreciate the ability to turn off the AI feature",
+        "The concept of a terminal with AI-focused features is perceived as useful by some",
+        "Users can add models to the project, which might be seen as a positive aspect"
+      ],
+      "negative_signals": [
+        "Concerns about trademark infringement and the project's relation to the original Warp",
+        "Criticism about the project's name and possible confusion",
+        "Unclear explanation of the project's purpose and features"
+      ],
+      "justification": "The comment sentiment is mixed, with both positive and negative themes present. While some users appreciate certain features, there are concerns about trademark infringement and unclear explanation of the project's purpose. With sufficient comments to form a general impression, the score is 5, but the project's clarity and legitimacy may impact how it's received.",
+      "comment_count": 30,
+      "hn_points": 119
+    }
+  }
+}
