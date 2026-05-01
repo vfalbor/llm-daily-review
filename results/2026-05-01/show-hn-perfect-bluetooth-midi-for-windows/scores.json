@@ -1,0 +1,93 @@
+{
+  "app_name": "Perfect Bluetooth MIDI for Windows",
+  "url": "https://github.com/user/perfect-bluetooth-midi",
+  "scored_at": "2026-05-01T13:04:49.306Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool solves a specific problem in the Windows ecosystem, providing a unique solution for Bluetooth MIDI configuration, which is not commonly addressed by other tools like BlueSoleil (1 star) or MidiBlaster (0 stars)."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The tool failed to install, with an install success rate of false, and an install time that is not applicable due to the failure."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for configuring Bluetooth MIDI on Windows, it addresses a specific pain point relevant to the current ecosystem, particularly for musicians and developers working with MIDI devices on Windows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 0 stars for MidiBlaster and 1 star for BlueSoleil, this tool significantly differentiates itself by focusing on Bluetooth MIDI for Windows, a niche that the other tools do not adequately cover, with 51 HN points and positive comments indicating its uniqueness and effectiveness."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The tool has a small but supportive community, as evidenced by the 51 HN points and 8 comments, with positive signals like 'Impressive work' and 'Totally check this out', but lacks a larger following compared to more established tools."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tool failed to install and run, with 0 tests passed out of 0, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool is not pip-installable, has no API modes beyond CLI, and lacks a PyPI package, making integration challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are unknown due to the lack of a GitHub repository and insufficient information on the tool's website."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The tool's maturity is difficult to assess due to the lack of a GitHub repository, but the presence of a working prototype and user feedback suggests some level of maturity, albeit limited."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the tool's performance, as no benchmarks were provided, and the focus is on functionality rather than speed or efficiency."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 51 HN points, 8 comments, and both positive and negative signals, indicating a mixed but generally supportive community reaction to the tool."
+    }
+  },
+  "summary": "Perfect Bluetooth MIDI for Windows is a unique tool addressing a specific need in the Windows ecosystem, but it faces challenges in terms of installability, usability, and community size. Despite these issues, it garners positive feedback for its effectiveness in solving a particular problem, making it a niche but valuable contribution to the devtool landscape.",
+  "recommendation": "niche",
+  "app_url": "https://news.ycombinator.com/item?id=47972888",
+  "tool_url": "https://github.com/user/perfect-bluetooth-midi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47972888",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "BlueSoleil",
+        "stars": 1,
+        "repo": "Jon-256/IVT-BlueSoleil-Latest-Patch"
+      },
+      {
+        "name": "MidiBlaster",
+        "stars": 0,
+        "repo": "superbeegyoshi/midiblaster-lite"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Impressive work",
+        "Totally check this out",
+        "Wow, very cool project"
+      ],
+      "negative_signals": [
+        "Windows audio stack is a mess",
+        "Tried with the Yamaha Seqtrak on Windows 10, didn't work"
+      ],
+      "justification": "Generally positive comments praise the project's effectiveness, but some comments highlight the complexity and flaws in the Windows audio stack and the Yamaha Seqtrak compatibility issue.",
+      "comment_count": 8,
+      "hn_points": 51
+    }
+  }
+}
