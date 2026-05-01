@@ -1,0 +1,83 @@
+{
+  "app_name": "Site Mogging",
+  "url": "https://sitemogging.com/",
+  "scored_at": "2026-05-01T13:04:21.848Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app offers a unique approach to website screenshot and content management, as seen in its design and functionality, with 14 HN points and 9 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app does not require an API key, but the install time is 145.9s, indicating moderate system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-saas tool, it fits into the current ecosystem trends of website management and content creation, with a sentiment score of 8/10 on HN."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Snappy, Snaproll, and Page2Images, Site Mogging has a unique design and functionality, but lacks explanation for certain terms like 'mogging'."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 14 HN points and 9 comments analyzed, the community engagement is moderate, but there is no GitHub repository detected, indicating a lack of open-source community involvement."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app has a basic run success, but with only 3 out of 5 tests passed, the ease of use is uncertain due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app is not pip-installable and has no PyPI package found, making its integration uncertain due to insufficient data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is uncertain due to insufficient data, as there is no GitHub repository or wiki detected."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity is uncertain due to insufficient data, as there is no GitHub repository or release information detected."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The app's benchmark measurements show a response time of 236.44ms, snapshot quality check of 200.13ms, and UI performance check of 196.47ms, indicating good performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 14 points, 9 comments, and positive signals such as 'Fun tool' and 'Superior use of negative space', indicating a positive community reaction."
+    }
+  },
+  "summary": "Site Mogging is a unique website screenshot and content management tool with a minimalist design, but it lacks explanation for certain terms and has uncertain ease of use and integration due to insufficient data. It has generated excitement and praise on HN, particularly for its design, but also received constructive criticisms.",
+  "recommendation": "worth-watching",
+  "app_url": "https://sitemogging.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47973559",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fun tool",
+        "Superior use of negative space",
+        "Intentional, minimalist typographic hierarchy"
+      ],
+      "negative_signals": [
+        "Lack of explanation for term 'mogging'",
+        "Unclear target audience",
+        "Sarcastic and humorous tone"
+      ],
+      "justification": "While there are mixed reactions regarding the concept of 'mogging', the project appears to have generated excitement and praise, particularly for its design. However, there are some constructive criticisms regarding user experience and terminology.",
+      "comment_count": 9,
+      "hn_points": 14
+    }
+  }
+}
