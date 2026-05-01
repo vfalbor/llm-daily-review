@@ -1,0 +1,40 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "I built a Game Boy emulator in F#",
+    "url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+    "hn_url": "https://news.ycombinator.com/item?id=47965503",
+    "points": 295,
+    "comments": 68,
+    "author": "elvis70",
+    "age": "2026-04-30T17:14:21 1777569261",
+    "scraped_at": "2026-05-01T13:00:03.364Z",
+    "tool_url": "https://github.com/nickkossolapov/fame-boy",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 1,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Game Boy emulator in F#",
+    "use_modes": null,
+    "similar_tools": [],
+    "proposed_tests": [
+      "Clone the Fame Boy repository"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/nickkossolapov/fame-boy"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777640868080-f543x",
+    "log_dir": "/tmp/llm-review-1777640868080-f543x",
+    "install_success": true,
+    "install_time_s": 17.1,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:clone_time_ms:1330.94",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-05-01T13_08_23_145Z-debug-0.log\nCloning into 'fame-boy'...\nfatal: destination path 'fame-boy' already exists and is not an empty directory.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 81, in <module>\n    main()\n  File \"/app/test.py\", line 74, in main\n    measure_memory_usage()\n  File \"/app/test.py\", line 36, in measure_memory_usage\n    subprocess.run(['git', 'clone', 'https://github.com/nickkossolapov/fame-boy.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/nickkossolapov/fame-boy.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/8) Installing libgcc (15.2.0-r2)\n(2/8) Installing libstdc++ (15.2.0-r2)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/8) Installing icu-libs (76.1-r1)\n(6/8) Installing simdjson (3.12.0-r0)\n(7/8) Installing simdutf (7.5.0-r1)\n(8/8) Installing nodejs (24.14.1-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 89.6 MiB in 60 packages\n(1/1) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nOK: 97.1 MiB in 61 packages\n( 1/15) Installing jansson (2.14.1-r0)\n( 2/15) Installing binutils (2.45.1-r0)\n( 3/15) Installing libgomp (15.2.0-r2)\n( 4/15) Installing libatomic (15.2.0-r2)\n( 5/15) Installing gmp (6.3.0-r4)\n( 6/15) Installing isl26 (0.26-r1)\n( 7/15) Installing mpfr4 (4.2.2-r0)\n( 8/15) Installing mpc1 (1.3.1-r1)\n( 9/15) Installing gcc (15.2.0-r2)\n(10/15) Installing musl-dev (1.2.5-r23)\n(11/15) Installing libxml2 (2.13.9-r0)\n(12/15) Installing llvm21-libs (21.1.2-r1)\n(13/15) Installing scudo-malloc (21.1.2-r0)\n(14/15) Installing rust (1.91.1-r1)\n(15/15) Installing cargo (1.91.1-r1)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nOK: 689.4 MiB in 76 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Command '['npm', 'install', 'npm@latest']' returned non-zero exit status 1.\nBENCHMARK:clone_time_ms:1330.94\nTEST_PASS:clone_fame_boy_repository\n"
+  }
+}
