@@ -1,0 +1,123 @@
+{
+  "app_name": "WhatCable",
+  "url": "https://github.com/darrylmorley/whatcable",
+  "scored_at": "2026-05-01T13:05:17.964Z",
+  "total_score": 63,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 179 HN points, 30 comments analyzed, and both positive and negative signals present, indicating a neutral to positive community reception."
+    },
+    "novelty": {
+      "score": 9,
+      "justification": "With 0 days since the repo was created and being the first of its kind, it offers a unique solution, scoring high in novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 8.1 seconds, indicating moderate system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for inspecting USB-C cables, it is relevant to the current ecosystem, given the increasing use of USB-C devices."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 256 GitHub stars compared to similar tools like USB Disk Security (14 stars) and Device Info Viewer (1 star), it is clearly differentiated."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 256 GitHub stars, 8 forks, and 1 contributor, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Despite basic run success, 0 out of 3 tests passed, indicating potential issues with ease of use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a menu bar app, ease of integration does not apply in the traditional sense of API or library integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific information is available regarding the quality or completeness of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No specific information is available regarding the maturity of the project, given the lack of historical data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the performance of the app."
+    }
+  },
+  "summary": "WhatCable is a unique, relevant, and moderately system-intensive devtool for inspecting USB-C cables, with a small but active community and some ease of use issues. Its differentiation from similar tools is a significant advantage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/darrylmorley/whatcable",
+  "tool_url": "https://github.com/darrylmorley/whatcable",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47972511",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": {
+      "stars": 256,
+      "forks": 8,
+      "open_issues": 2,
+      "watchers": 256,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "topics": [
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
+        "mac-app",
+        "macos",
+        "menubar",
+        "menubar-app",
+        "swift",
+        "swiftui",
+        "thunderbolt",
+        "usb-c",
+        "usb-power-delivery",
+        "utility"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "USB Disk Security",
+        "stars": 14,
+        "repo": "gungunfebrianza/USB-Disk-Security"
+      },
+      {
+        "name": "Device Info Viewer",
+        "stars": 1,
+        "repo": "eynullabeyli/flutter-device-info-viewer"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful tool for inspecting USB-C cables",
+        "interesting features, such as detecting USB-C cable orientation",
+        "could be beneficial for catching counterfeit cables"
+      ],
+      "negative_signals": [
+        "has issues with detecting USB-C ports on some devices",
+        "some users found it annoying to have a menu bar app",
+        "not sure if it can handle all types of USB-C cables"
+      ],
+      "justification": "Users found the app useful for inspecting USB-C cables, but some experienced issues, including detecting USB-C ports on certain devices. The app's design, such as a menu bar app, also received some criticism.",
+      "comment_count": 30,
+      "hn_points": 179
+    }
+  }
+}
