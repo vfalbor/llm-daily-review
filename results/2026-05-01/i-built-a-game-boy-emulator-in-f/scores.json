@@ -1,0 +1,103 @@
+{
+  "app_name": "Fame Boy",
+  "url": "https://github.com/nickkossolapov/fame-boy",
+  "scored_at": "2026-05-01T13:08:34.198Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is not a direct clone, with 216 days since its creation and having 2 contributors, indicating some level of uniqueness and community involvement, though it doesn't drastically differ from existing emulators."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation was successful, but the install time of 17.1s might be considered moderate, and the lack of a PyPI package affects ease of installation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Game Boy emulator in F#, it serves a niche within the retro gaming community, which is currently active and seeking such tools for nostalgic and development purposes."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While it's an emulator, the use of F# differentiates it somewhat, but specific comparisons to similar tools in terms of features, speed, and compatibility are needed for a more precise score."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 48 GitHub stars and 2 forks, the community engagement is relatively small but active, considering the comments and discussions around the project, including a sentiment score of 9/10 from HN comments."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the successful installation but failed basic run and lack of comprehensive test results, the ease of use is moderately assessed."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a CLI devtool, its integration into a workflow or pipeline isn't as directly applicable as other types of tools."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The presence of a GitHub repository with some documentation, though not thoroughly detailed, and the detailed article on building the emulator contribute to its documentation score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With recent commits and an MIT license, the project shows signs of maturity, but without more data on its stability, versioning, or production use, a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The clone time of 1330.94ms is noted, but without comparisons to similar emulators or more detailed benchmark data, the performance score remains neutral."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 295 points and 30 comments analyzed, indicating a very positive community response to the project."
+    }
+  },
+  "summary": "Fame Boy is a uniquely developed Game Boy emulator in F#, offering a blend of retro gaming and functional programming. Its community is small but supportive, with positive HN comments and a recent commit history. However, its usability, maturity, and performance could be better evaluated with more comprehensive testing and benchmarking.",
+  "recommendation": "worth-watching",
+  "app_url": "https://nickkossolapov.github.io/fame-boy/building-a-game-boy-emulator-in-fsharp/",
+  "tool_url": "https://github.com/nickkossolapov/fame-boy",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47965503",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 48,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 48,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "F#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 216,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "A Game Boy emulator written in F#",
+      "topics": [
+        "emulator",
+        "fsharp",
+        "gameboy"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Developer's effort and learning process appreciated",
+        "F# praised for its capabilities and performance",
+        "Immersive discussion on functional programming and emulators",
+        "Positive mentions of retro game development and emulators",
+        "Supportive and knowledgeable community engagement"
+      ],
+      "negative_signals": [
+        "A few concerns about performance and speed comparisons",
+        "Limited discussion on game console hardware specifics"
+      ],
+      "justification": "The comments are generally enthusiastic and appreciate the project's complexity and the developer's effort. While some discuss performance improvements, the overall sentiment remains overwhelmingly positive, with many experts and enthusiasts contributing to the discussion.",
+      "comment_count": 30,
+      "hn_points": 295
+    }
+  }
+}
