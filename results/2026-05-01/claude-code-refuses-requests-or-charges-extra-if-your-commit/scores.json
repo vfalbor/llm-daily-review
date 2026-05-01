@@ -1,0 +1,83 @@
+{
+  "app_name": "Claude Code",
+  "url": "https://github.com/claudedotdev/clause-code",
+  "scored_at": "2026-05-01T13:07:46.932Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool's refusal to process commits mentioning 'OpenClaw' is a unique aspect, but without direct comparison to similar tools, its overall novelty is moderate, considering the general trend of AI-assisted coding tools."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false, indicating significant issues with installing the tool, which directly affects its usability and compatibility with various systems."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Given the current trend of AI integration in development tools, Claude Code's concept is highly relevant, addressing a niche within the devtool landscape by enforcing specific commit message policies."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Without direct comparison to similar tools, but considering its unique enforcement of commit message policies, Claude Code differentiates itself, though its impact and uniqueness depend on the specific needs of the development community."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository stats are available for this tool, making it impossible to assess community engagement directly from GitHub data."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 4, and considering the install success is false, the tool presents significant challenges in usability, suggesting it may not be straightforward or easy to use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Given that there's no PyPI package found and no clear API modes or license information provided, integrating this tool into existing workflows could be challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess the quality of documentation directly; without access to a wiki, pages, or GitHub topics, the score defaults to neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lack of specific data on days since creation, forks count, or open issues makes it difficult to assess the maturity of the project accurately."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark lines are available from the tests, and given the nature of the tool, performance might not be the primary criterion; however, without any data, it's set to null."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score of 8/10, along with 1209 HN points and 30 comments analyzed, indicates a generally positive reception, with the community acknowledging the tool's uniqueness and potential impact."
+    }
+  },
+  "summary": "Claude Code is a unique devtool with a specific niche in enforcing commit message policies, showing relevance in the current AI-driven development landscape, but faces significant challenges in install success and usability, and lacks clear data on community engagement, documentation, maturity, and performance.",
+  "recommendation": "niche",
+  "app_url": "https://twitter.com/theo/status/2049645973350363168",
+  "tool_url": "https://github.com/claudedotdev/clause-code",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47963204",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Anthropic's ability to scale to 2B/mo revenue is evidence of Claude's effectiveness",
+        "Anthropic's public benefit corporation status allows them to prioritize ethics over shareholder interests",
+        "Most commenters recognize the complexity and risks involved in AI development"
+      ],
+      "negative_signals": [
+        "Concerns about Anthropic's actions and ethics, particularly regarding military applications",
+        "Allegations of Anthropic prioritizing revenue over user interests and ethics",
+        "Criticism of Ed Zitron's credibility and the credibility of AI critiques in general"
+      ],
+      "justification": "The majority of comments praise Claude's impact on Anthropic's revenue and acknowledge the company's complexities, but concerns about ethics and military applications temper the overall optimism.",
+      "comment_count": 30,
+      "hn_points": 1209
+    }
+  }
+}
