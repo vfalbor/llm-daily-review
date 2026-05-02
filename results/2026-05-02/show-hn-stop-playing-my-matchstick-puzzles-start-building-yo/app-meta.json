@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "Show HN: Stop playing my matchstick puzzles, start building your own in seconds",
+    "url": "https://mathstick.github.io/",
+    "hn_url": "https://news.ycombinator.com/item?id=47983485",
+    "points": 20,
+    "comments": 17,
+    "author": "trangram",
+    "age": "2026-05-02T05:04:39 1777698279",
+    "scraped_at": "2026-05-02T13:00:03.459Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "web",
+    "app_type": "web-extension",
+    "description": "Matchstick puzzle game with API for generating puzzles",
+    "use_modes": [
+      "Web",
+      "API"
+    ],
+    "similar_tools": [
+      "Puzzle maker",
+      "Game development kit"
+    ],
+    "proposed_tests": [
+      "Create a custom puzzle and measure solving time",
+      "Build a simple game with the API"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mathstick/mathstick"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777727248257-342yw",
+    "log_dir": "/tmp/llm-review-1777727248257-342yw",
+    "install_success": true,
+    "install_time_s": 12.6,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:puzzle_time_ms:4.20\nBENCHMARK:game_time_ms:2.70\nBENCHMARK:memory_usage_mb:0.00\nBENCHMARK:vs_puzzle_maker_ratio:0.00",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-05-02T13_07_42_046Z-debug-0.log\nnode:internal/modules/cjs/loader:1459\n  throw err;\n  ^\n\nError: Cannot find module '/app/server.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)\n    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)\n    at Module._load (node:internal/modules/cjs/loader:1242:25)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.14.1\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/9) Installing libgcc (15.2.0-r2)\n(2/9) Installing libstdc++ (15.2.0-r2)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/9) Installing icu-libs (76.1-r1)\n(6/9) Installing simdjson (3.12.0-r0)\n(7/9) Installing simdutf (7.5.0-r1)\n(8/9) Installing nodejs (24.14.1-r0)\n(9/9) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['npm', 'install', 'mathstick']' returned non-zero exit status 1.\nSERVER_STARTED\nBENCHMARK:puzzle_time_ms:4.20\nTEST_PASS:create_puzzle\nBENCHMARK:game_time_ms:2.70\nTEST_PASS:build_game\nBENCHMARK:memory_usage_mb:0.00\nBENCHMARK:vs_puzzle_maker_ratio:0.00\nRUN_OK\n"
+  }
+}
