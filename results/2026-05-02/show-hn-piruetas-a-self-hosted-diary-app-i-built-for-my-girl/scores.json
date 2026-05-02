@@ -1,0 +1,83 @@
+{
+  "app_name": "Piruetas",
+  "url": "https://piruet.app/",
+  "scored_at": "2026-05-02T13:02:30.785Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Piruetas is a self-hosted diary app, which is a relatively new concept, and its minimalist design sets it apart from other similar tools like Jekyll and Org-mode, with no direct equivalent found."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable, and the install time is not provided, but it is a web application, which might have different system requirements, with no information available on the requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web-cms type of app, Piruetas has a good fit with the current web development landscape, but its relevance is more niche compared to other types of applications, with 27 HN points indicating some interest in the community."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Piruetas differentiates itself through its self-hosted nature and minimalist design, and while there are similar tools like Jekyll and Org-mode, Piruetas' focus on being a diary app sets it apart, with no direct comparison available in terms of stars or BENCHMARK data."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 27 HN points and 26 comments, indicating some community interest, but the lack of a GitHub repository detected or API unavailable limits the community score, with no stars or contributors count to assess the community health."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app's basic run success is false, but as a web application, its ease of use might be different, with no tests passed or failed to assess its usability, and no information available to score higher or lower than neutral."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app has no API/SDK/webhook mention, and no install command on the page, making its integration difficult, with no PyPI or npm package found to simplify the integration process."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The app has no docs/wiki/guide link, but it has a page content length of 1927 characters, indicating some information is available, but not enough to fully assess its documentation quality, with no GitHub topics or wiki to supplement the score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has no detected version, and the page content length is 1927 characters, which might indicate some level of maturity, but the lack of a changelog or release notes limits the score, with no information on days since creation or forks count to assess maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a web application, performance is not directly applicable in the same way as other types of applications, with no benchmark data or comparable metrics available to score its performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 27 HN points, 26 comments, positive signals about the app's design and the author's engagement, but also negative signals about the demo not working for some users and concerns about monetization, indicating a mixed sentiment."
+    }
+  },
+  "summary": "Piruetas is a self-hosted diary app with a unique minimalist design, but its system requirements, ease of integration, and performance are not well-documented or easily assessable, with a mixed sentiment from the community.",
+  "recommendation": "niche",
+  "app_url": "https://piruet.app/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47985210",
+  "domain": "web",
+  "app_type": "web-cms",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "App design is nice and simple",
+        "Author is actively engaging with comments and improving the app",
+        "App's minimalist look is calming"
+      ],
+      "negative_signals": [
+        "Demo not working for some users",
+        "Concerns about internet access and user opt-in",
+        "Some users find the monetization model unclear"
+      ],
+      "justification": "Overall, the comments are generally positive, with praise for the app's design and the author's engagement. However, there are also some concerns about the app's functionality and monetization model, as well as some users expressing reservations about internet access and user opt-in.",
+      "comment_count": 26,
+      "hn_points": 27
+    }
+  }
+}
