@@ -1,0 +1,118 @@
+{
+  "app_name": "Open Design",
+  "url": "https://github.com/nexu-io/open-design",
+  "scored_at": "2026-05-02T13:05:01.025Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This app has 0 days since last commit, indicating active development and a high novelty score due to its unique approach to using a coding agent as a design engine, especially when compared to similar tools like LangChain with 135,627 stars and CrewAI with 50,468 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app has an install time of 7.9s but install success is true. However, it's not pip-installable since no PyPI package was found, impacting its system requirements score."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-orchestrator, it fits well with current LLM ecosystem trends, addressing an acute pain point in automating design tasks."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to LangChain with 135,627 stars, Open Design has -121,757 stars (-90%), and compared to CrewAI with 50,468 stars, it has -36,598 stars (-73%), showing it lacks significant differentiation in terms of community traction."
+    },
+    "community": {
+      "score": 7,
+      "justification": "With 13,870 stars, 1587 forks, and 56 contributors on GitHub, Open Design has a notable community, although it lags behind similar tools like LangChain."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 3 tests passed and basic run success was false, the ease of use is significantly impacted, suggesting usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While it has a CLI and API, the lack of a PyPI package and insufficient information on its integration capabilities warrants a neutral score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to the app's documentation quality and no information on a wiki, pages, or GitHub topics, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Having 0 days since the last commit and being an open-source project with an Apache-2.0 license suggests a level of maturity, though the relatively low number of contributors and forks might indicate room for growth."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess its performance against similar tools, thus a neutral score."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the absence of comments or failed analysis."
+    },
+    "summary": "Open Design is a novel approach to using coding agents for design automation, with a significant community and good maturity, but faces challenges in ease of use, differentiation, and documentation."
+  },
+  "recommendation": "niche",
+  "app_url": "https://github.com/nexu-io/open-design",
+  "tool_url": "https://github.com/nexu-io/open-design",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47985750",
+  "domain": "llm-ai",
+  "app_type": "llm-orchestrator",
+  "enriched": {
+    "github": {
+      "stars": 13870,
+      "forks": 1587,
+      "open_issues": 100,
+      "watchers": 13870,
+      "contributors": 56,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-design",
+        "byok",
+        "claude",
+        "claude-code-for-design",
+        "claude-design",
+        "coding-agents",
+        "design-systems",
+        "design-tools",
+        "desktop-app",
+        "figma-alternative",
+        "generative-ai",
+        "hermes-agent",
+        "local-first",
+        "nextjs",
+        "no-code",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 135627,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 50468,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
