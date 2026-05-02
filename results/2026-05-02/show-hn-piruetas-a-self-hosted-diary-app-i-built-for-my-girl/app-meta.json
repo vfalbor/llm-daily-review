@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Show HN: Piruetas – A self-hosted diary app I built for my girlfriend",
+    "url": "https://piruet.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=47985210",
+    "points": 27,
+    "comments": 28,
+    "author": "patillacode",
+    "age": "2026-05-02T10:42:55 1777718575",
+    "scraped_at": "2026-05-02T13:00:03.448Z",
+    "tool_url": null,
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "web",
+    "app_type": "web-cms",
+    "description": "Self-hosted diary app",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "Jekyll",
+      "Org-mode",
+      "Obsidian"
+    ],
+    "proposed_tests": [
+      "Install Piruetas and create a new diary entry",
+      "Insert 10 diary entries and measure render latency",
+      "Run a search and measure query latency",
+      "Compare Piruetas latency vs Jekyll"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1777726925844-i1rhi",
+    "log_dir": "/tmp/llm-review-1777726925844-i1rhi",
+    "install_success": true,
+    "install_time_s": 9.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/@piruetas%2fcli - Not found\nnpm error 404\nnpm error 404  The requested resource '@piruetas/cli@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-05-02T13_02_16_189Z-debug-0.log\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n(1/9) Installing libgcc (15.2.0-r2)\n(2/9) Installing libstdc++ (15.2.0-r2)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(5/9) Installing icu-libs (76.1-r1)\n(6/9) Installing simdjson (3.12.0-r0)\n(7/9) Installing simdutf (7.5.0-r1)\n(8/9) Installing nodejs (24.14.1-r0)\n(9/9) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 97.1 MiB in 61 packages\nINSTALL_OK\nINSTALL_FAIL:Failed to install Piruetas: Command '['npm', 'install', '-g', '@piruetas/cli']' returned non-zero exit status 1.\n"
+  }
+}
