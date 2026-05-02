@@ -1,0 +1,114 @@
+{
+  "app_name": "WaveFunctionCollapse",
+  "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+  "scored_at": "2026-05-02T13:06:24.289Z",
+  "total_score": 75,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a problem in a genuinely new way, with 24,936 GitHub stars and a unique approach to bitmap and tilemap generation, which is a significant improvement over similar tools like WFC with 496 stars."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app has an install time of 16.6s and install success is true, indicating moderate complexity, but no PyPI package is available for easy installation."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to the current LLM ecosystem trends, addressing a specific need for procedural generation with weights and probabilities, as seen in the positive HN comments."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The app has a unique feature set with +24,440 stars over similar tools like WFC, indicating a clear advantage in terms of community interest and adoption."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The app has 24,936 GitHub stars, 1339 forks, and 21 contributors, indicating a strong and active community, with a sentiment score of 6/10 and 42 HN points."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "The app has a basic run success of true and all 3 tests passed, indicating a high level of usability, but the lack of a PyPI package may require manual installation."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has no PyPI package, but it can be integrated via CLI or API, with a license of NOASSERTION, which may require additional configuration."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a GitHub repository with some documentation, but the quality and completeness are not explicitly stated, with no clear wiki or topics, so it's scored based on the available README."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The app has 3501 days since repo creation and 41 days since last commit, indicating a relatively mature project, but the license is NOASSERTION, which may impact its stability."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app has benchmark measurements, such as hello_world_ms:8.10 and tilemap_generation_ms:5.88, indicating good performance, but the memory usage is 0.00 MB, which may not be representative of real-world usage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 42 points and 8 comments, indicating a generally positive reception, but with some constructive criticism about the algorithm's simplicity and energy consumption."
+    },
+    "overall_impact": {
+      "score": 8,
+      "justification": "The app has a significant impact on the LLM ecosystem, with a unique approach to procedural generation and a strong community, but it may require additional configuration for integration and has some limitations in terms of documentation and maturity."
+    }
+  },
+  "summary": "WaveFunctionCollapse is a novel and highly relevant tool for bitmap and tilemap generation, with a strong community and good performance, but it requires manual installation and has some limitations in terms of documentation and maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mxgmn/WaveFunctionCollapse",
+  "tool_url": "https://github.com/mxgmn/WaveFunctionCollapse",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47961100",
+  "domain": "lang-new",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": {
+      "stars": 24936,
+      "forks": 1339,
+      "open_issues": 7,
+      "watchers": 24936,
+      "contributors": 21,
+      "license": "NOASSERTION",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 41,
+      "days_since_created": 3501,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics",
+      "topics": [
+        "algorithm",
+        "csharp",
+        "gamedev",
+        "machine-learning",
+        "procedural-generation",
+        "wfc"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "WFC",
+        "stars": 496,
+        "repo": "TigerWf/WFCoretext"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Fascinating",
+        "Procedural generation with weights and probabilities",
+        "Similarities to Stable Diffusion"
+      ],
+      "negative_signals": [
+        "Relatively simple algorithm without actual wave function connection",
+        "Energy consumption of large generative NN models"
+      ],
+      "justification": "The comments are generally positive with some constructive criticism about the algorithm's connection to wave functions and energy consumption of large generative models.",
+      "comment_count": 8,
+      "hn_points": 42
+    }
+  }
+}
