@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Show HN: DAC – open-source dashboard as code tool for agents and humans",
+    "url": "https://github.com/bruin-data/dac",
+    "hn_url": "https://news.ycombinator.com/item?id=47949066",
+    "points": 39,
+    "comments": 8,
+    "author": "karakanb",
+    "age": "2026-04-29T14:37:20 1777473440",
+    "scraped_at": "2026-05-02T13:00:03.447Z",
+    "tool_url": "https://github.com/bruin-data/dac",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "devtool",
+    "app_type": "devtool-dashboard",
+    "description": "Dashboard as code tool for agents and humans",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "Prometheus",
+      "Grafana",
+      "Dask"
+    ],
+    "proposed_tests": [
+      "Install DAC CLI and create a custom dashboard",
+      "Insert 100 rows and measure render latency",
+      "Run a query with WHERE clause, measure query latency",
+      "Compare DAC latency vs Grafana"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bruin-data/dac"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777726908553-80kwn",
+    "log_dir": "/tmp/llm-review-1777726908553-80kwn",
+    "install_success": false,
+    "install_time_s": 6.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 4, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n"
+  }
+}
