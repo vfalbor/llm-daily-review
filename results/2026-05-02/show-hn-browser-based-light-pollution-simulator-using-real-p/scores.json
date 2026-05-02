@@ -1,0 +1,83 @@
+{
+  "app_name": "Eulumdat Editor",
+  "url": "https://iesna.eu/?wasm=skyglow_demo",
+  "scored_at": "2026-05-02T13:04:07.787Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The app provides a unique approach to light pollution simulation, and its use of real photometric data is a notable advantage, with 22 HN points and 6 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app is accessible via a web page and does not require any installation, with an install time of 13.5s and install success being true."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app fits into the current landscape of web-based tools, with a detected version of 1.0 and a page content length of 363 chars."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app has some unique features, such as the use of real photometric data, but its differentiation from similar tools like Google Sky Map and Star Walk is not clear, with no direct comparisons or benchmarks available."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has a small community, with 22 HN points and 6 comments analyzed, and no GitHub repository detected, but some positive signals in the comments, such as 'I love the idea' and 'Effort to educate people and reduce light pollution'."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app has a basic run success of true, but only 2 out of 4 tests passed, and no clear documentation or guides are available, with a page content length of 363 chars."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The app is a web-based tool and does not require integration, with no API/SDK/webhook mention on the page."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The app has no clear documentation or guides, with no wiki, no changelog, and no examples or demos available, and a page content length of 363 chars."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has a detected version of 1.0, but no clear release notes or changelog, and no GitHub repository detected, but some signals of maturity, such as the use of WebGPU and WebGL2 versions."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The app has some benchmark measurements available, such as ny_simulate_ms:3.92 and query_latency_ms:2.64, but no clear comparison to other similar tools, and no information on memory usage or other performance metrics."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided, but this criterion is not applicable for the overall score, with a sentiment score of 4/10, 22 HN points, and 6 comments analyzed."
+    }
+  },
+  "summary": "The Eulumdat Editor is a browser-based light pollution simulator that provides a unique approach to simulating real photometric data, but it has a small community, limited documentation, and unclear differentiation from similar tools.",
+  "recommendation": "niche",
+  "app_url": "https://iesna.eu/?wasm=skyglow_demo",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47984734",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "I love the idea",
+        "WebGPU and WebGL2 versions provided",
+        "Effort to educate people and reduce light pollution"
+      ],
+      "negative_signals": [
+        "Un-serious attempt to reduce light pollution",
+        "Quality degrades without WebGPU",
+        "Flickering bug on Safari"
+      ],
+      "justification": "The comments show a generally negative reception due to concerns about the project's seriousness and the quality of the implementation, but also some appreciation for the idea and the developer's efforts.",
+      "comment_count": 6,
+      "hn_points": 22
+    }
+  }
+}
