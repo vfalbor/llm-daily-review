@@ -1,0 +1,115 @@
+{
+  "app_name": "Dotcl",
+  "url": "https://github.com/dotcl/dotcl",
+  "scored_at": "2026-05-02T13:03:13.436Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Dotcl is a new Common Lisp implementation on .NET, with only 2 days since the repo was created, indicating a novel approach in the programming language space."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install success was false, and install time was 17.7s, but due to the lack of successful installation, the score is set to 5, indicating neutral system requirements due to missing data."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a Common Lisp implementation on .NET, Dotcl addresses a niche but current need in the programming language ecosystem, especially with the growing interest in multi-paradigm languages."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Dotcl has 29 stars, which is significantly fewer than similar tools like SBCL (2,098 stars), CCL (4,480 stars), and ECL (2,627 stars), showing a limited but present differentiation in the market."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With only 29 GitHub stars, 0 forks, and 1 contributor, the community around Dotcl is small, indicating a low community score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 3, and basic run success being true but installation failing, the ease of use is compromised, leading to a low score."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "There is no PyPI package found for Dotcl, making it less easy to integrate into existing projects, but it does have a CLI and HTTP API, which helps in integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data on the quality of the documentation, the score is set to 5, indicating a neutral stance on the documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With only 2 days since the repo was created and 1 day since the last commit, the maturity of the project is uncertain, leading to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmark measurements to evaluate the performance of Dotcl accurately, resulting in a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 51 HN points, 6 comments analyzed, and overwhelmingly positive signals, indicating a very positive sentiment around Dotcl."
+    }
+  },
+  "summary": "Dotcl is a novel Common Lisp implementation on .NET, with a small but supportive community, and while it shows promise, its ease of use and maturity are currently limited. It has generated significant positive interest on HN, with users praising its potential and uniqueness.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/dotcl/dotcl",
+  "tool_url": "https://github.com/dotcl/dotcl",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47964957",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": {
+      "stars": 29,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 29,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "SBCL",
+        "stars": 2098,
+        "repo": "sbcl/sbcl"
+      },
+      {
+        "name": "CCL",
+        "stars": 4480,
+        "repo": "Gictorbit/photoshopCClinux"
+      },
+      {
+        "name": "ECL",
+        "stars": 2627,
+        "repo": "eclipse-collections/eclipse-collections"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "amazing",
+        "really cool project",
+        "love seeing CL work it's way into as many envs as possible",
+        "awesome",
+        "new weekend project"
+      ],
+      "negative_signals": [
+        "unfortunate near naming collision",
+        "may cause people to use the wrong tool"
+      ],
+      "justification": "Commenters generally praise the project, highlighting its 'amazing' and 'really cool project' aspects, with some minor concerns about potential naming collisions and muscle memory issues.",
+      "comment_count": 6,
+      "hn_points": 51
+    }
+  }
+}
