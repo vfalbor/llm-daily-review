@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Lib0xc: A set of C standard library-adjacent APIs for safer systems programming",
+    "url": "https://github.com/microsoft/lib0xc",
+    "hn_url": "https://news.ycombinator.com/item?id=47978834",
+    "points": 155,
+    "comments": 60,
+    "author": "wooster",
+    "age": "2026-05-01T19:10:56 1777662656",
+    "scraped_at": "2026-05-02T13:00:03.458Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "language",
+    "app_type": "lang-runtime",
+    "description": "Safer systems programming APIs for the C standard library",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "musl",
+      "dietlibc",
+      "klibc"
+    ],
+    "proposed_tests": [
+      "Install lib0xc and build a hello-world project",
+      "Measure build and execution time"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/microsoft/lib0xc",
+    "tool_url": "https://github.com/microsoft/lib0xc"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777727211754-0efj3",
+    "log_dir": "/tmp/llm-review-1777727211754-0efj3",
+    "install_success": true,
+    "install_time_s": 14.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nCloning into 'lib0xc'...\nTraceback (most recent call last):\n  File \"/app/test.py\", line 70, in <module>\n    run_hello_world()\n  File \"/app/test.py\", line 32, in run_hello_world\n    if not build_hello_world():\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 23, in build_hello_world\n    subprocess.run(['go', 'build', 'hello_world.go'], cwd='lib0xc/examples', check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'lib0xc/examples'\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/25) Installing libgcc (15.2.0-r2)\n( 2/25) Installing jansson (2.14.1-r0)\n( 3/25) Installing libstdc++ (15.2.0-r2)\n( 4/25) Installing binutils (2.45.1-r0)\n( 5/25) Installing libgomp (15.2.0-r2)\n( 6/25) Installing libatomic (15.2.0-r2)\n( 7/25) Installing gmp (6.3.0-r4)\n( 8/25) Installing isl26 (0.26-r1)\n( 9/25) Installing mpfr4 (4.2.2-r0)\n(10/25) Installing mpc1 (1.3.1-r1)\n(11/25) Installing gcc (15.2.0-r2)\n(12/25) Installing musl-dev (1.2.5-r23)\n(13/25) Installing libxml2 (2.13.9-r0)\n(14/25) Installing llvm21-libs (21.1.2-r1)\n(15/25) Installing scudo-malloc (21.1.2-r0)\n(16/25) Installing rust (1.91.1-r1)\n(17/25) Installing cargo (1.91.1-r1)\n(18/25) Installing go (1.25.9-r0)\n(19/25) Installing ada-libs (3.3.0-r0)\n(20/25) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(21/25) Installing icu-libs (76.1-r1)\n(22/25) Installing simdjson (3.12.0-r0)\n(23/25) Installing simdutf (7.5.0-r1)\n(24/25) Installing nodejs (24.14.1-r0)\n(25/25) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 842.4 MiB in 77 packages\nINSTALL_OK\nINSTALL_OK\n"
+  }
+}
