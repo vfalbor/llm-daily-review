@@ -1,0 +1,126 @@
+{
+  "app_name": "DAC",
+  "url": "https://github.com/bruin-data/dac",
+  "scored_at": "2026-05-02T13:02:04.955Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project is not a direct clone, with 46 days since repo creation and 2 days since the last commit, indicating some original contribution, but the dashboard as code concept is not new, with similar tools like Prometheus and Grafana existing."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The install success is false, and install time is 6.6s, but without more data on the requirements, a neutral score is assigned."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app type is a devtool-dashboard, which is relevant in the current ecosystem, with tools like Prometheus and Grafana being widely used."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 229 stars, compared to similar tools like Prometheus (63,870 stars) and Grafana (73,547 stars), showing a significant difference in popularity."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 229 stars, 8 forks, and 1 contributor, indicating a small but existing community, with the last commit 2 days ago, showing some activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0 / 0, and basic run success is false, indicating difficulties in usage or setup."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project has a PyPI package (v0.4.3) and supports Python <3.14,>=3.9, with a CLI and HTTP API, making it relatively easy to integrate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to the documentation, a neutral score is assigned, but the project's GitHub page and PyPI package provide some information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project is 46 days old, with the last commit 2 days ago, indicating some activity, but without more data on releases or stability, a neutral score is assigned."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Without benchmark data, the performance is uncertain, but the project's interactive dashboard and features suggest some level of performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 39 points, 8 comments, and both positive and negative signals, indicating a mixed reception."
+    }
+  },
+  "summary": "DAC is an open-source dashboard as code tool with a small but existing community, facing difficulties in usage and setup, but with a relatively easy integration and some original contribution, receiving a mixed reception on HN.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/bruin-data/dac",
+  "tool_url": "https://github.com/bruin-data/dac",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47949066",
+  "domain": "devtool",
+  "app_type": "devtool-dashboard",
+  "enriched": {
+    "github": {
+      "stars": 229,
+      "forks": 8,
+      "open_issues": 0,
+      "watchers": 229,
+      "contributors": 1,
+      "license": "AGPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 46,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "dac is a dashboard-as-code tool. Build interactive dashboards using YAML and JSX. Built-in semantic layer. Get your agents to build standardized, reviewable dashboards.",
+      "topics": [
+        "ai-agents",
+        "business-intelligence",
+        "dashboard",
+        "semantic-layer"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Prometheus",
+        "stars": 63870,
+        "repo": "prometheus/prometheus"
+      },
+      {
+        "name": "Grafana",
+        "stars": 73547,
+        "repo": "grafana/grafana"
+      },
+      {
+        "name": "Dask",
+        "stars": 13815,
+        "repo": "dask/dask"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.3",
+      "summary": "Tool to distribute data as code",
+      "requires_python": "<3.14,>=3.9",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "well-received by some developers",
+        "useful features and interactive dashboard",
+        "author responsive to feedback"
+      ],
+      "negative_signals": [
+        "confusing interface",
+        "unclear about functionality",
+        "comparison to existing tools"
+      ],
+      "justification": "The project has received some positive comments, but also has criticism about its interface and unclear functionality, making it generally positive with some constructive criticism.",
+      "comment_count": 8,
+      "hn_points": 39
+    }
+  }
+}
