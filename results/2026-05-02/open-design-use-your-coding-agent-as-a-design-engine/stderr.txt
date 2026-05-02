@@ -1,0 +1,11 @@
+ERROR: Could not find a version that satisfies the requirement open-design (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for open-design
+Traceback (most recent call last):
+  File "/app/test.py", line 88, in <module>
+    main()
+  File "/app/test.py", line 77, in main
+    import open_design
+ModuleNotFoundError: No module named 'open_design'
