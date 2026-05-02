@@ -1,0 +1,81 @@
+{
+  "app_name": "Mljar Studio",
+  "url": "https://mljar.com/",
+  "scored_at": "2026-05-02T13:04:27.219Z",
+  "total_score": 53,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this application, but some web signals are available."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Mljar Studio offers a unique approach to AI data analysis by saving analysis as notebooks, with no direct equivalent found among similar tools like Plotly, Matplotlib, and Seaborn."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The application failed to install, with an install time of 6.1s and install success set to false, indicating potential issues with system requirements or dependencies."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-analytics application, Mljar Studio fits well within the current AI and data analysis landscape, particularly with its focus on local AI data analysis."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While Mljar Studio has a notable approach, its differentiation from existing tools like Plotly, Matplotlib, and Seaborn is based on its unique feature set, but not drastically superior in all dimensions."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected and limited web signals, the community around Mljar Studio appears to be small or not highly engaged, with only 24 HN points and 3 comments analyzed."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the application's failure to install and run, with 0 tests passed out of 0, ease of use is significantly hindered by technical issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Although Mljar Studio mentions use modes like CLI and HTTP API, there's no clear indication of a straightforward integration process, and no API/SDK/webhook mention on the webpage, making integration potentially complex."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage contains links to documentation and has a significant content length of 112288 characters, indicating the presence of substantial information, but lacks a changelog or release notes."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without clear versioning information or a changelog, and considering the detected version is 3.5, assessing maturity directly is challenging, but the presence of a version suggests some level of development maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the performance of Mljar Studio, as no benchmarks were provided or found, and the application failed to install and run, preventing any direct assessment of its performance."
+    }
+  },
+  "summary": "Mljar Studio is a local AI data analyst that saves analysis as notebooks, offering a unique approach within the data analysis landscape. However, it faces challenges with installation, community engagement, and lacks clear documentation on integration and performance, which hampers its overall usability and adoption.",
+  "recommendation": "niche",
+  "app_url": "https://mljar.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47985077",
+  "domain": "devtool",
+  "app_type": "devtool-analytics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "easy integration with Claude Code",
+        "cool project"
+      ],
+      "negative_signals": [
+        "high-risk of automated bad decisions",
+        "need for human oversight"
+      ],
+      "justification": "Comments express a balanced view, with some concerns about the project's potential risks and the need for human oversight, but also highlighting its ease of use and potential benefits.",
+      "comment_count": 3,
+      "hn_points": 24
+    }
+  }
+}
