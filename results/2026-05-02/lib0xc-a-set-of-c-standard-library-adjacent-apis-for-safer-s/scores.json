@@ -1,0 +1,112 @@
+{
+  "app_name": "Lib0xc",
+  "url": "https://github.com/microsoft/lib0xc",
+  "scored_at": "2026-05-02T13:07:27.225Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Lib0xc provides a unique set of C standard library-adjacent APIs for safer systems programming, with 43 days since repo creation and 1 day since last commit, indicating a relatively new and active project."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project does not have a PyPI package, and the install time is 14.1s, which is not extremely fast but still manageable, with install success being true."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a safer systems programming API for the C standard library, Lib0xc aligns well with current trends in systems programming, addressing well-known security issues in C."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Lib0xc has 196 stars, compared to musl's 1,591 stars (-88%), dietlibc's 130 stars (+51%), and klibc's 27 stars (+626%), indicating a notable but not overwhelming presence, with a unique focus on safer systems programming."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 196 GitHub stars, 9 forks, and 3 open issues, Lib0xc has a small but engaged community, and its contributors count is 1, indicating room for growth, and days since last commit is 1, showing recent activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were run, so it's hard to evaluate ease of use, but basic run success is false, which might indicate some challenges in getting started."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package, and the license is NOASSERTION, making integration potentially more difficult without clear guidelines or a straightforward installation method."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no clear information about the quality of the documentation, but being an open-source project on GitHub, it likely has some level of documentation, albeit the exact quality is unknown without further investigation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With 43 days since the repo was created and 1 day since the last commit, the project is relatively new, but the recent activity suggests it is still in the early stages of development, making maturity hard to evaluate without more historical data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark results provided, so the performance of Lib0xc cannot be evaluated directly against other similar tools or its own claims, leading to a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 156 HN points, 30 comments analyzed, positive reception, and users excited about safer systems programming, indicating a very positive community response to the project."
+    }
+  },
+  "summary": "Lib0xc is a novel project providing safer systems programming APIs for the C standard library, with a unique value proposition, a small but active community, and positive sentiment from the HN community, but it lacks in terms of ease of integration and performance benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/microsoft/lib0xc",
+  "tool_url": "https://github.com/microsoft/lib0xc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47978834",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": {
+      "stars": 196,
+      "forks": 9,
+      "open_issues": 3,
+      "watchers": 196,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 43,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Safe(ish) C programming library",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "musl",
+        "stars": 1591,
+        "repo": "emk/rust-musl-builder"
+      },
+      {
+        "name": "dietlibc",
+        "stars": 130,
+        "repo": "ensc/dietlibc"
+      },
+      {
+        "name": "klibc",
+        "stars": 27,
+        "repo": "brainflux/klibc"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Positive reception of the project, with many users excited about safer systems programming.",
+        "Users appreciate the effort to address well-known security issues in C.",
+        "Several commenters suggest the project will make a positive impact on the C ecosystem."
+      ],
+      "negative_signals": [
+        "Some users criticize the project for not addressing broader issues in C, such as deprecation of old APIs."
+      ],
+      "justification": "The comments are generally very positive, with users praising the project's efforts to address safety issues in C. The only significant criticism is that the project does not address broader issues in C, which some users see as a major omission.",
+      "comment_count": 30,
+      "hn_points": 156
+    }
+  }
+}
