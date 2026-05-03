@@ -1,0 +1,97 @@
+{
+  "app_name": "Utilyze",
+  "url": "https://github.com/systalyze/utilyze",
+  "scored_at": "2026-05-03T13:04:18.450Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "This tool solves a unique problem in measuring GPU efficiency, with 219 GitHub stars and only 13 days since the repository was created, indicating a potentially novel contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The tool installs successfully, but the installation time of 9.3s and the lack of a PyPI package are notable concerns, as it may not be readily available for most users."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Utilyze addresses the current need for efficient GPU utilization, particularly in applications such as machine learning, gaming, and scientific computing, where GPU efficiency is crucial."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 219 GitHub stars, Utilyze significantly outperforms GPUBenchmark, which has only 8 stars, and is competitive with GPUUtilization, which has 135 stars, indicating a clear differentiation in the market."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Utilyze has 219 GitHub stars, 14 forks, and 3 contributors, but only 5 days since the last commit, indicating some community engagement but limited activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The tool failed to run, with 0 out of 0 tests passing, and no successful basic run, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The lack of a PyPI package, absence of API modes, and no information on integration examples limit the tool's ease of integration into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data is available to assess the quality of the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With only 13 days since the repository was created, the project is still in its early stages, and the Apache-2.0 license indicates some level of maturity, but not enough data is available for a definitive assessment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to evaluate the tool's performance, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of comments or analysis."
+    }
+  },
+  "summary": "Utilyze is a novel tool measuring GPU efficiency, addressing a current need in the computing ecosystem, with a competitive edge over similar tools but facing significant usability and integration challenges.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/systalyze/utilyze",
+  "tool_url": "https://github.com/systalyze/utilyze",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47966668",
+  "domain": "llm-ai",
+  "app_type": "tool",
+  "enriched": {
+    "github": {
+      "stars": 219,
+      "forks": 14,
+      "open_issues": 9,
+      "watchers": 219,
+      "contributors": 3,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 13,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "GPUBenchmark",
+        "stars": 8,
+        "repo": "JuliaGPU/GPUBenchmarks.jl"
+      },
+      {
+        "name": "GPUUtilization",
+        "stars": 135,
+        "repo": "rickytan/GPUUtilization"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
