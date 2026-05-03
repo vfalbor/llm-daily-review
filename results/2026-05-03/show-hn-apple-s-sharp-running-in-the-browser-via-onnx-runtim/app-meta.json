@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "Show HN: Apple's Sharp Running in the Browser via ONNX Runtime Web",
+    "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+    "hn_url": "https://news.ycombinator.com/item?id=47995037",
+    "points": 48,
+    "comments": 5,
+    "author": "bring-shrubbery",
+    "age": "2026-05-03T09:14:56 1777799696",
+    "scraped_at": "2026-05-03T13:00:02.464Z",
+    "tool_url": "https://github.com/bring-shrubbery/ml-sharp-web",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "ONNX Runtime Web enables running .NET and C# on web platforms.",
+    "use_modes": [
+      "Browser"
+    ],
+    "similar_tools": [
+      "ONNX Runtime",
+      "ML.NET"
+    ],
+    "proposed_tests": [
+      "Try running the demo .NET Sharp browser app",
+      "Verify the app uses ONNX Runtime Web API"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bring-shrubbery/ml-sharp-web"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777813318014-cxn80",
+    "log_dir": "/tmp/llm-review-1777813318014-cxn80",
+    "install_success": true,
+    "install_time_s": 24.4,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:6.27\nBENCHMARK:onnxruntime_install_time_s:5.95\nBENCHMARK:build_time_s:2.30\nBENCHMARK:demo_time_s:0.03\nBENCHMARK:onnxruntime_api_time_s:0.77\nBENCHMARK:vs_baseline_tool_ratio:0.03\nBENCHMARK:memory_usage_mb:0.05\nBENCHMARK:memory_time_s:0.04",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nCloning into 'ml-sharp-web'...\nerror: could not find `Cargo.toml` in `/ml-sharp-web` or any parent directory\nerror: could not find `Cargo.toml` in `/ml-sharp-web` or any parent directory\nerror: could not find `Cargo.toml` in `/ml-sharp-web` or any parent directory\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/24) Installing libgcc (15.2.0-r2)\n( 2/24) Installing jansson (2.14.1-r0)\n( 3/24) Installing libstdc++ (15.2.0-r2)\n( 4/24) Installing binutils (2.45.1-r0)\n( 5/24) Installing libgomp (15.2.0-r2)\n( 6/24) Installing libatomic (15.2.0-r2)\n( 7/24) Installing gmp (6.3.0-r4)\n( 8/24) Installing isl26 (0.26-r1)\n( 9/24) Installing mpfr4 (4.2.2-r0)\n(10/24) Installing mpc1 (1.3.1-r1)\n(11/24) Installing gcc (15.2.0-r2)\n(12/24) Installing musl-dev (1.2.5-r23)\n(13/24) Installing libxml2 (2.13.9-r0)\n(14/24) Installing llvm21-libs (21.1.2-r1)\n(15/24) Installing scudo-malloc (21.1.2-r0)\n(16/24) Installing rust (1.91.1-r1)\n(17/24) Installing cargo (1.91.1-r1)\n(18/24) Installing ada-libs (3.3.0-r0)\n(19/24) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(20/24) Installing icu-libs (76.1-r1)\n(21/24) Installing simdjson (3.12.0-r0)\n(22/24) Installing simdutf (7.5.0-r1)\n(23/24) Installing nodejs (24.14.1-r0)\n(24/24) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\n\nadded 19 packages in 6s\nINSTALL_OK\nBENCHMARK:install_time_s:6.27\nINSTALL_OK\nBENCHMARK:onnxruntime_install_time_s:5.95\nINSTALL_FAIL:cargo build failed with return code 101\nTEST_SKIP:build and demo test:cargo build failed\nBENCHMARK:build_time_s:2.30\nTEST_FAIL:demo .NET Sharp browser app failed with return code 101\nBENCHMARK:demo_time_s:0.03\nBENCHMARK:onnxruntime_api_time_s:0.77\nTEST_PASS:app uses ONNX Runtime Web API\nTEST_PASS:baseline tool\nBENCHMARK:vs_baseline_tool_ratio:0.03\nBENCHMARK:memory_usage_mb:0.05\nBENCHMARK:memory_time_s:0.04\nRUN_OK\n"
+  }
+}
