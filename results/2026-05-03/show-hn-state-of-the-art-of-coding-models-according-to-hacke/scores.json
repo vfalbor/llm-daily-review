@@ -1,0 +1,82 @@
+{
+  "app_name": "HN SOTA",
+  "url": "https://hnup.date/hn-sota",
+  "scored_at": "2026-05-03T13:06:02.875Z",
+  "total_score": 64,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10 based on 30 HN comments, indicating a mixed conversation with both positive and negative signals towards various models."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "As a unique aggregator of SOTA models according to HN commenters, with no direct equivalent, it scores high in novelty, despite not being open source."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "System requirements are not well-defined due to the absence of a clear installation process or specific hardware requirements, scoring neutral."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "It addresses an acute pain point in today's LLM workflows by providing insights into the state of the art of coding models, fitting well with current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like lm-eval-harness and CodeOcean, HN SOTA differentiates itself through its unique approach of aggregating information from HN commenters, though the exact differentiation in features or accuracy is not quantitatively available."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Community engagement is moderate, with 126 HN points and 30 comments, but lacking a dedicated community space or open-source repository for direct contribution."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Ease of use is not well-defined due to the lack of direct interaction or installation process, but the web page provides some insights, scoring neutral."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a detected version and API/SDK/webhook mention on the web page suggests ease of integration, despite no PyPI package being found."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The web page has a docs/wiki/guide link and a page content length of 2619 characters, indicating substantial documentation, though not exhaustive."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Maturity is hard to assess without a GitHub repository or clear versioning history, but the detected version 4.2 suggests some level of development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Performance metrics are not available, as there are no benchmarks or comparisons to similar tools provided."
+    }
+  },
+  "summary": "HN SOTA provides a unique aggregation of state-of-the-art coding models based on Hacker News commenters, offering insights into the LLM ecosystem, but lacks in open-source contribution, direct community engagement, and clear performance metrics.",
+  "recommendation": "worth-watching",
+  "app_url": "https://hnup.date/hn-sota",
+  "tool_url": "https://hnup.date/hn-sota",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47990708",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Models like Gemini and the open models are well-received due to vendor lock-in and cost-effectiveness",
+        "Gemini is useful for tasks like code review and critique",
+        "Users have reported positive experiences with certain models for specific tasks"
+      ],
+      "negative_signals": [
+        "Negative sentiment around models like Claude due to API pricing policies and server downtime",
+        "Concerns about the accuracy and usability of the graph"
+      ],
+      "justification": "The conversation is mixed, with users expressing both positive and negative sentiment towards various models. Despite some criticisms, users have reported success with Gemini and other models for specific tasks.",
+      "comment_count": 30,
+      "hn_points": 126
+    }
+  }
+}
