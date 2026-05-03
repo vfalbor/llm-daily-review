@@ -1,0 +1,108 @@
+{
+  "app_name": "ML Sharp Web",
+  "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+  "scored_at": "2026-05-03T13:02:33.137Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This app is a first-of-its-kind approach to running .NET and C# on web platforms via ONNX Runtime Web, with 69 days since repo creation and 0 days since last commit, showing active development and a new contribution to the field."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 24.4s and install success is true, but it's not pip-installable, which might limit accessibility for some users."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app fits well with current LLM ecosystem trends, utilizing ONNX Runtime Web for running .NET and C# on web platforms, which is a relevant and timely contribution."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 40 GitHub stars compared to ONNX Runtime's 386 stars and ML.NET's 900 stars, the app has a smaller community, but its unique approach to running .NET and C# on web platforms sets it apart."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 40 GitHub stars, 3 forks, and 1 contributor, indicating a small but potentially growing community, with 0 days since the last commit showing recent activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "With 2 out of 4 tests passed and basic run success being true, the app demonstrates some level of usability, but more data is needed for a comprehensive assessment."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of a PyPI package and the requirement for specific browser environments might pose integration challenges for some users."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No detailed documentation was found beyond the GitHub repository, which may hinder new users' ability to understand and use the app effectively."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Given the app's recent creation (69 days since repo creation) and active development (0 days since last commit), it shows promise but lacks a long-term track record."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app demonstrates notable performance with a build time of 2.30s and demo time of 0.03s, but more comprehensive benchmarks against similar tools are needed for a thorough evaluation."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With an HN sentiment score of 8/10, 48 points, and 5 comments, the community response is generally positive, highlighting the app's potential and privacy benefits, despite some compatibility issues and limitations."
+    }
+  },
+  "summary": "ML Sharp Web is a novel approach to running .NET and C# on web platforms, offering potential privacy benefits and a unique demonstration of ONNX Runtime Web capabilities. However, it faces challenges in terms of community size, documentation, and integration ease. The app's performance is a strong point, but more comprehensive benchmarks are needed.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/bring-shrubbery/ml-sharp-web",
+  "tool_url": "https://github.com/bring-shrubbery/ml-sharp-web",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47995037",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 40,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 40,
+      "contributors": 1,
+      "license": "none",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 69,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Web playground to create Gaussian Splats using Apple's ml-sharp model.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ONNX Runtime",
+        "stars": 386,
+        "repo": "xmba15/onnx_runtime_cpp"
+      },
+      {
+        "name": "ML.NET",
+        "stars": 900,
+        "repo": "nikolaypavlov/MLPNeuralNet"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Very cool browser tech showcase",
+        "Nice and neat demonstration of ONNX web",
+        "Lots of privacy benefits"
+      ],
+      "negative_signals": [
+        "Does not work in Firefox on Linux",
+        "Results not as close to the demo results as expected"
+      ],
+      "justification": "The comments are generally positive, with praise for the showcase of browser tech and the potential privacy benefits. However, there are some negative comments about compatibility issues with Firefox and the limitations of the model.",
+      "comment_count": 5,
+      "hn_points": 48
+    }
+  }
+}
