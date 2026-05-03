@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
+    "url": "https://hnup.date/hn-sota",
+    "hn_url": "https://news.ycombinator.com/item?id=47990708",
+    "points": 126,
+    "comments": 64,
+    "author": "yunusabd",
+    "age": "2026-05-02T21:25:05 1777757105",
+    "scraped_at": "2026-05-03T13:00:02.475Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Show HN: State of the Art of Coding Models, According to Hacker News Commenters",
+    "use_modes": [
+      "browser",
+      "command line"
+    ],
+    "similar_tools": [
+      "lm-eval-harness",
+      "CodeOcean"
+    ],
+    "proposed_tests": [
+      "Test that the model produces the expected output for a series of inputs",
+      "Compare the model's performance to a baseline model",
+      "Evaluate the model's ability to learn from feedback"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "tool_url": "https://hnup.date/hn-sota",
+    "repo_url": null,
+    "source_type": "tool"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777813542325-gcv2z",
+    "log_dir": "/tmp/llm-review-1777813542325-gcv2z",
+    "install_success": true,
+    "install_time_s": 8.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement llm-ai (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for llm-ai\nCloning into 'llm-ai'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nInstalling system packages\nINSTALL_OK\nInstalling tool dependencies\nINSTALL_FAIL:Failed to install tool dependencies: Command '['pip', 'install', 'llm-ai']' returned non-zero exit status 1.\nINSTALL_FAIL:Failed to install tool dependencies via git: Command '['git', 'clone', 'https://github.com/llm-ai/llm-ai.git']' returned non-zero exit status 128.\n"
+  }
+}
