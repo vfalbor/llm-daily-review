@@ -1,0 +1,110 @@
+{
+  "app_name": "Systemd-manager-TUI",
+  "url": "https://github.com/Matheus-git/systemd-manager-tui",
+  "scored_at": "2026-05-03T13:04:49.685Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project is not a first-of-its-kind approach, with 392 days since its creation and 62 days since the last commit, but it does provide a unique TUI for managing systemd services."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project installs successfully in 12.5s, but it's not pip-installable and doesn't have a PyPI package, which might affect its accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project fits the current ecosystem trend of providing system management tools, but its relevance is limited to specific use cases."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project has 1,291 stars on GitHub, which is significantly more than similar tools like systemd-analyze, with only 1 star, showing a clear advantage in community interest."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 1,291 stars, 19 forks, and 5 contributors, but the last commit was 62 days ago, which might indicate a lack of recent activity."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The project's basic run was not successful, and no tests were passed, which might indicate issues with its usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project is not pip-installable, and its API modes are limited to command-line, which might make it harder to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The project's documentation is not publicly available, and its GitHub page does not provide enough information to assess its quality."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project is 392 days old, but its last commit was 62 days ago, which might indicate a lack of recent maintenance, and it has 5 open issues."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for the project, so its performance cannot be assessed."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The project's HN sentiment score is 4/10, with 29 points, 7 comments, and mixed signals, indicating a neutral community perception."
+    }
+  },
+  "summary": "Systemd-manager-TUI is a TUI application for managing systemd services, with a unique approach and significant community interest, but it lacks recent activity and has issues with usability and integration.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/Matheus-git/systemd-manager-tui",
+  "tool_url": "https://github.com/Matheus-git/systemd-manager-tui",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47995649",
+  "domain": "infrastructure",
+  "app_type": "tool",
+  "enriched": {
+    "github": {
+      "stars": 1291,
+      "forks": 19,
+      "open_issues": 5,
+      "watchers": 1291,
+      "contributors": 5,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 62,
+      "days_since_created": 392,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A TUI application for managing systemd services.",
+      "topics": [
+        "manager",
+        "rust",
+        "systemctl",
+        "systemd",
+        "tui"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "systemd-analyze",
+        "stars": 1,
+        "repo": "tinkerlev/SystemDriveAnalyzer"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Author has addressed previous issues",
+        "Utility tool's short development period is not concerning",
+        "Some users see potential"
+      ],
+      "negative_signals": [
+        "Perceived abandonment due to lack of activity",
+        "Criticism for neglecting bug reports",
+        "User preference for alternative existing solution"
+      ],
+      "justification": "The project receives criticism for potential abandonment and neglecting bug reports, but the author and some users see it as a mature project or promising utility tool. The comments do not express extreme negativity or enthusiasm.",
+      "comment_count": 7,
+      "hn_points": 29
+    }
+  }
+}
