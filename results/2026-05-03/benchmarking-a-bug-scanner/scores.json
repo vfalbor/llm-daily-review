@@ -1,0 +1,82 @@
+{
+  "app_name": "Benchmarking a Bug Scanner",
+  "url": "https://blog.detail.dev/posts/bug-scanner/",
+  "scored_at": "2026-05-03T13:05:41.409Z",
+  "total_score": 31,
+  "scores": {
+    "hn_sentiment": {
+      "score": 2,
+      "justification": "The sentiment score is 3/10, with 5 HN points, 3 comments, and mostly negative signals, including skepticism about the project's value proposition and suspicion of a paid post."
+    },
+    "novelty": {
+      "score": 4,
+      "justification": "Without GitHub data or direct comparisons to similar tools like Semgrep, ESLint, or Frama-C, we can't accurately gauge novelty, but the presence of benchmarking capabilities is a notable feature."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false, and install time is not applicable since installation failed, indicating significant issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a bug scanner, it fits within current DevOps and development trends, which emphasize automated testing and code quality, but without more context on its performance or unique selling points, we can't score higher."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Lacking direct comparisons or benchmarks against similar tools like Semgrep or ESLint, differentiation is difficult to assess, though the mention of benchmarking is a distinguishing feature."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository was detected, making community assessment based on GitHub metrics impossible."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 6 and basic run success being true but install success false, ease of use is severely impacted by installation issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has a detected version (5.22) and mentions of API/SDK/webhook, suggesting some ease of integration, but the absence of a PyPI package and no install command on the page complicates integration."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The webpage has a content length of 41110 characters, indicating some depth, but lacks a docs/wiki/guide link, changelog, or release notes, suggesting documentation is limited."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Without GitHub data, we rely on web signals; the detected version (5.22) suggests some level of maturity, but the lack of a changelog or release notes, combined with limited web presence, indicates low maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks were provided, and without GitHub or direct benchmark comparisons, assessing performance is not possible."
+    }
+  },
+  "summary": "A bug scanner with benchmarking capabilities, but installation issues, lack of documentation, and limited community engagement raise significant concerns about its usability and maturity.",
+  "recommendation": "skip",
+  "app_url": "https://blog.detail.dev/posts/bug-scanner/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47967340",
+  "domain": "sec-scanner",
+  "app_type": "tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "Author is responsive and open to questions",
+        "Commenters are engaged and critical"
+      ],
+      "negative_signals": [
+        "Commenters are skeptical about the project's value proposition",
+        "One commenter suspects a paid post",
+        "Baseline comparison is considered 'laughable'"
+      ],
+      "justification": "The project received mostly negative comments, with commenters expressing skepticism about its value proposition and one suggesting it might be a paid post. While the author is responsive, these criticisms overshadow the limited positive engagement.",
+      "comment_count": 3,
+      "hn_points": 5
+    }
+  }
+}
