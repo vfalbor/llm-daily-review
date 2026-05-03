@@ -1,0 +1,24 @@
+ERROR: unable to select packages:
+  pip (no such package):
+    required by: world[pip]
+ERROR: Could not find a version that satisfies the requirement systemd-manager-tui (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for systemd-manager-tui
+ERROR: Could not find a version that satisfies the requirement systemd-manager-tui (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for systemd-manager-tui
+Traceback (most recent call last):
+  File "/app/test.py", line 33, in <module>
+    subprocess.run(['systemd-manager-tui', '--help'], check=False)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'systemd-manager-tui'
