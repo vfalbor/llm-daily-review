@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "A physics engine with incremental rollback for multiplayer games",
+    "url": "https://easel.games/blog/2026-rollback-physics",
+    "hn_url": "https://news.ycombinator.com/item?id=47981979",
+    "points": 98,
+    "comments": 35,
+    "author": "BSTRhino",
+    "age": "2026-05-02T00:12:00 1777680720",
+    "scraped_at": "2026-05-03T13:00:02.477Z",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "hardware",
+    "app_type": "hardware-robotics",
+    "description": "A physics engine with incremental rollback for multiplayer games",
+    "use_modes": [
+      "browser",
+      "command line"
+    ],
+    "similar_tools": [
+      "Phaser",
+      "Panda3D"
+    ],
+    "proposed_tests": [
+      "Test the engine's ability to handle complex physics simulations",
+      "Evaluate the engine's performance in a multiplayer setting",
+      "Compare the engine's performance to other physics engines"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "tool_url": "https://easel.games/blog/2026-rollback-physics",
+    "repo_url": null,
+    "source_type": "research"
+  },
+  "test_results": {
+    "run_id": "llm-review-1777813563905-r51fz",
+    "log_dir": "/tmp/llm-review-1777813563905-r51fz",
+    "install_success": true,
+    "install_time_s": 7.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:loc_count:0",
+    "error_log": "Cloning into 'rollback-physics'...\nfatal: could not read Username for 'https://github.com': No such device or address\npython: can't open file '//rollback-physics/example.py': [Errno 2] No such file or directory\npython: can't open file '//rollback-physics/complex_simulation.py': [Errno 2] No such file or directory\npython: can't open file '//rollback-physics/multplayer_test.py': [Errno 2] No such file or directory\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/easelgames/rollback-physics.git']' returned non-zero exit status 128.\nBENCHMARK:loc_count:0\nTEST_FAIL:compare_performance:Command '['python', 'rollback-physics/example.py']' returned non-zero exit status 2.\nTEST_FAIL:test_complex_physics_simulations:Command '['python', 'rollback-physics/complex_simulation.py']' returned non-zero exit status 2.\nTEST_FAIL:test_multplayer_performance:Command '['python', 'rollback-physics/multplayer_test.py']' returned non-zero exit status 2.\nRUN_OK\n"
+  }
+}
