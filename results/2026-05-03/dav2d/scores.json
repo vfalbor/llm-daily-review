@@ -1,0 +1,83 @@
+{
+  "app_name": "Dav2d",
+  "url": "https://code.videolan.org/videolan/dav2d",
+  "scored_at": "2026-05-03T13:03:20.149Z",
+  "total_score": 58,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Sentiment score of 8/10 based on 30 HN comments with 516 points, indicating a positive community response with concerns about patent trolls."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "Comparison to similar tools like Daala, VP8, and VP9, with Dav2d offering a unique video codec project."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is not applicable, indicating potential installation issues."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Dav2d's focus on video codec projects aligns with current trends in the LLM ecosystem, particularly in multimedia processing."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Dav2d's unique video codec project and efficient decoding capabilities set it apart from similar tools like Daala, VP8, and VP9."
+    },
+    "community": {
+      "score": 7,
+      "justification": "No GitHub repository detected, but HN points of 516 and 30 comments indicate a moderately active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0/0 and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package found and no install command on the page, but detected API/SDK mention, indicating some integration potential."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "No has docs/wiki/guide link and no examples or demo, but has changelog or release notes, indicating limited documentation."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Detected version is 42.16, indicating some level of maturity, but no GitHub repository detected."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data available, and performance is not a key aspect of this app type."
+    }
+  },
+  "summary": "Dav2d is a unique video codec project with a moderately active community and some level of maturity, but it has significant usability issues and limited documentation. Its performance is not a key aspect of this app type.",
+  "recommendation": "worth-watching",
+  "app_url": "https://code.videolan.org/videolan/dav2d",
+  "tool_url": "https://code.videolan.org/videolan/dav2d",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47988504",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "fastest AV2 decoder",
+        "small, portable, and very fast",
+        "AOMedia's Mutually Assured Destruction promise to counter-sue patent trolls"
+      ],
+      "negative_signals": [
+        "patent troll concerns",
+        "threats to eliminate software patents",
+        "criticism of Sisvel's business practices"
+      ],
+      "justification": "The comments are generally positive about the Dav2d project, with many praising its speed and efficiency. However, there are concerns about patent trolls and the need to reform the patent system to prevent abuse. The majority of the negative comments are directed at Sisvel, the patent enforcement company, rather than the Dav2d project itself.",
+      "comment_count": 30,
+      "hn_points": 516
+    }
+  }
+}
