@@ -1,0 +1,87 @@
+{
+  "app_name": "DeepSeek V4",
+  "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+  "scored_at": "2026-05-03T13:07:15.692Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app claims to be 'almost on the frontier', suggesting it has some new features, but without GitHub data or direct comparisons to similar tools like LangChain, the novelty is somewhat unclear; the detected version is 3.2, indicating some level of development and updates."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and no PyPI package was found, indicating potential issues with installation; the install time is not applicable due to the lack of a successful installation."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework, DeepSeek V4 fits well into the current LLM ecosystem trends, with its focus on being 'almost on the frontier' suggesting it addresses current needs and advancements in the field."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "DeepSeek V4 has a unique selling point of being 'a fraction of the price' compared to other similar tools like LangChain, offering competitive quality; however, without direct benchmark comparisons, the differentiation is based on the marketing claims and the detected version indicating some level of development."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN points are 560, indicating a reasonable level of interest, and the comments analyzed show a generally positive but critical tone, with users finding the service valuable; however, without GitHub data, the community score is based on these web signals."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 out of 3, and the basic run success is false, indicating significant usability issues; without a successful installation, ease of use cannot be properly evaluated."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has a detected version and mentions having an API/SDK/webhook, but without direct evidence of its ease of integration or documentation, this score is neutral due to insufficient data."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The page content length is 9232 characters, indicating some level of depth, but there is no clear documentation or guide link provided; the presence of examples or demos is a positive signal, but overall, the documentation appears to be somewhat lacking."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 3.2, suggesting some level of maturity, but without GitHub data or clear release notes, the maturity of the project is difficult to assess directly; the web signals provide some insight into its development stage."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The import_time_ms is 0.4210472106933594, which is a specific measurement, but without comparisons to similar tools or benchmarks, it's challenging to evaluate the performance comprehensively; this score is based on the available benchmark measurement."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, with 560 HN points and 30 comments analyzed, showing a generally positive but critical tone; the positive signals include the quality and ease of use of DeepSeek V4 Pro, while negative signals concern security and limitations."
+    },
+    "security": {
+      "score": 3,
+      "justification": "Some users are concerned about the security of NVIDIA confidential computing schemes, indicating potential security issues; however, without direct evidence or assessments, this score is based on the available web signals and comments."
+    }
+  },
+  "summary": "DeepSeek V4 is a tool that aims to provide competitive quality in the LLM framework space, with a focus on being more affordable. While it shows promise, the usability and maturity are difficult to assess due to the lack of direct data. The community seems to find value in the service, but security concerns are raised.",
+  "recommendation": "niche",
+  "app_url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+  "tool_url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47977026",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "DeepSeek V4 Pro offers competitive quality compared to other AIs",
+        "The API is easy to set up and provides good control over usage",
+        "Users find the service valuable for tasks like code reviews"
+      ],
+      "negative_signals": [
+        "Some users are concerned about the security of NVIDIA confidential computing schemes",
+        "There are concerns that the service may not be as private as users think",
+        "The value proposition may be limited for certain users, such as those who prefer more open source models"
+      ],
+      "justification": "Comments praise the quality and ease of use of DeepSeek V4 Pro, but also express concerns about security and the limitations of the service. The general tone is positive but critical.",
+      "comment_count": 30,
+      "hn_points": 560
+    }
+  }
+}
