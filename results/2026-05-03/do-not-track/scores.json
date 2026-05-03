@@ -1,0 +1,94 @@
+{
+  "app_name": "Do_not_track",
+  "url": "https://donottrack.sh/",
+  "scored_at": "2026-05-03T13:03:40.099Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a unique approach to addressing the issue of tracking, with 8/10 sentiment score and 391 HN points, indicating a high level of interest and enthusiasm, but no direct comparison to similar tools is available due to lack of GitHub data."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The project has no install time or PyPI existence, but it is open source and does not require an API key, with a basic run success of true, but the actual install success and time are unknown."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The project fits well with current concerns about privacy and tracking, and its do-not-track approach is highly relevant to today's online landscape, as seen in the HN points and sentiment score."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 391 HN points and a sentiment score of 8, but no GitHub stars or comparison to similar tools like DoNotTrack or Ghostery, which have 17 and 1680 stars respectively, are available to assess its differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has an HN sentiment score of 8, 391 HN points, and 30 comments analyzed, indicating a supportive community, but no GitHub data is available to assess its community further."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No quantitative data is available to assess the project's ease of use, such as tests passed or specific test pass/fail names, due to the absence of GitHub and test results data."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No data is available on the project's ease of integration, such as PyPI existence or API modes, due to the lack of GitHub and PyPI data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the project's documentation quality, such as has_wiki, has_pages, or GitHub topics count, due to the absence of GitHub data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the project's maturity, such as days since created, forks count, or open issues, due to the lack of GitHub data."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The project type is sec-tool and performance is not a relevant criterion for this type of tool, as it does not involve benchmarking or performance metrics."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The project has an HN sentiment score of 8/10, 391 HN points, and 30 comments analyzed, with many users finding the list of opt-out commands helpful, but some expressing skepticism about the project's feasibility and impact."
+    }
+  },
+  "summary": "Do_not_track is a sec-tool that addresses the issue of tracking, with a high level of interest and enthusiasm from the community, but its differentiation, ease of use, and maturity are uncertain due to lack of data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://donottrack.sh/",
+  "tool_url": "https://github.com/k3n/DoNotTrack",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47988592",
+  "domain": "sec",
+  "app_type": "sec-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "DoNotTrack",
+        "stars": 17,
+        "repo": "benspaulding/django-donottrack"
+      },
+      {
+        "name": "Ghostery",
+        "stars": 1680,
+        "repo": "ghostery/ghostery-extension"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many users found the list of opt-out commands helpful",
+        "The project was met with excitement and enthusiasm",
+        "Several users mentioned it is a helpful step towards reducing telemetry"
+      ],
+      "negative_signals": [
+        "Some users expressed skepticism about the project's feasibility",
+        "A few users questioned whether the project would truly make a difference",
+        "There were concerns about the complexity of the issue it aims to solve"
+      ],
+      "justification": "The project received generally positive comments, but some users expressed skepticism and concerns about the complexity of the issue. Some users also requested features such as a shell script to automatically set the do not track flags. The project was seen as a helpful step towards reducing telemetry, but its feasibility and impact are uncertain.",
+      "comment_count": 30,
+      "hn_points": 391
+    }
+  }
+}
