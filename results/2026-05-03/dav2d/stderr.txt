@@ -1,0 +1,13 @@
+Cloning into 'dav2d'...
+warning: redirecting to https://code.videolan.org/videolan/dav2d.git/
+Traceback (most recent call last):
+  File "/app/test.py", line 20, in <module>
+    subprocess.run(['cmake', '-S', 'dav2d', '-B', 'dav2d/build'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'cmake'
