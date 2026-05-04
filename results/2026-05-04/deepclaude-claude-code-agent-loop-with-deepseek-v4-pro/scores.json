@@ -1,0 +1,98 @@
+{
+  "app_name": "DeepClaude",
+  "url": "https://github.com/aattaran/deepclaude",
+  "scored_at": "2026-05-04T13:02:16.176Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a combination of Claude Code with DeepSeek V4 Pro, which has been discussed positively in HN comments, with 530 HN points and 30 comments analyzed, showing a sentiment score of 7/10."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false and install time was 11s, indicating potential issues with installation, and PyPI package was not found."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is llm-adapter, which is relevant to current LLM trends, but the specific combination of Claude Code with DeepSeek V4 Pro may not be widely adopted yet."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has 674 GitHub stars, which is a notable number, but not significantly different from similar tools, with 30 forks and 4 open issues, indicating some community engagement."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The GitHub repository has 1 contributor, which is a limited number, and the license is MIT, but there is not enough data to fully assess the community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed was 0/1 and basic run success was false, indicating significant usability issues, and install success was also false."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "There is no PyPI package found, making installation more difficult, but the code is open-source and has a MIT license, which could facilitate integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is not enough data to assess the quality of the documentation, as the repository's wiki, pages, and topics count are not available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository's days since last commit and days since repo created are both 0, indicating it is a new project, but there is not enough data to fully assess maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "There are no BENCHMARK lines from tests to assess performance, and the app's performance is unknown."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 530 HN points, 30 comments analyzed, and a mix of positive and negative signals, indicating a generally positive but cautious community response."
+    }
+  },
+  "summary": "DeepClaude combines Claude Code with DeepSeek V4 Pro, showing some promise with 674 GitHub stars and a positive HN sentiment score of 7/10, but faces significant usability and installation issues, and lacks sufficient data for a full assessment of its community, maturity, and performance.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/aattaran/deepclaude",
+  "tool_url": "https://github.com/aattaran/deepclaude",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48002136",
+  "domain": "llm-ai",
+  "app_type": "llm-adapter",
+  "enriched": {
+    "github": {
+      "stars": 674,
+      "forks": 30,
+      "open_issues": 4,
+      "watchers": 674,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Use Claude Code's autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper.",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "users report good experiences with similar setups",
+        "DeepSeek V4 Pro is considered one of the best LLMs for implementation",
+        "some users praise OpenCode, albeit with caveats"
+      ],
+      "negative_signals": [
+        "some users question OpenCode's ethics and security practices",
+        "not everyone had favorable comparisons with Claude Code",
+        "users note potential drawbacks to certain models"
+      ],
+      "justification": "The comments generally lean positive, with users praising DeepSeek V4 Pro and OpenCode, but there are some criticisms and caveats mentioned, particularly regarding security and ethics.",
+      "comment_count": 30,
+      "hn_points": 530
+    }
+  }
+}
