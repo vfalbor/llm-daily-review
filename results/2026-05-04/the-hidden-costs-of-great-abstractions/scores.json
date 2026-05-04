@@ -1,0 +1,89 @@
+{
+  "app_name": "Abstraction Costs",
+  "url": "https://github.com/jdgraham/abstraction-costs",
+  "scored_at": "2026-05-04T13:02:52.744Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool provides a unique perspective on the costs of programming abstractions, with 30 HN comments analyzed and a sentiment score of 6/10."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false and install time is not applicable, as it's a web-based tool."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The tool is relevant to the current programming landscape, with 187 HN points and discussion of abstraction costs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool has 0 GitHub stars, but it's compared to transpiler with 1,204 stars, and provides a unique perspective on abstraction costs."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repo detected, but HN points are 187 with 30 comments, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Basic run success is false, and no tests were passed, indicating potential difficulties in using the tool."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it's a web-based tool."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub data available, and the tool's website provides limited information, so the score is neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub data available, and the tool's age and stability are unknown, so the score is neutral."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as it's an article and web-based tool."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment score is 6/10, with 187 points, 30 comments, and a mix of positive and negative signals."
+    }
+  },
+  "summary": "The Abstraction Costs tool provides a unique perspective on programming abstractions, but its usability and community are limited.",
+  "recommendation": "niche",
+  "app_url": "https://jdgr.net/the-hidden-costs-of-great-abstractions",
+  "tool_url": "https://github.com/jdgraham/abstraction-costs",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48002607",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "transpiler",
+        "stars": 1204,
+        "repo": "esnext/es6-module-transpiler"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Understanding technology and its intricacies is valued in some industries.",
+        "The importance of learning and knowledge is still relevant in game development.",
+        "There are still professionals who prioritize software architecture and design principles."
+      ],
+      "negative_signals": [
+        "Many professionals feel underappreciated or disvalued for their technical expertise.",
+        "The industry has shifted towards prioritizing speed and ease of use over detailed understanding.",
+        "There is a growing expectation that software should be accessible and usable without technical knowledge."
+      ],
+      "justification": "While there are still some professionals who value technical knowledge and expertise, many others feel that the industry has shifted towards prioritizing speed and ease of use over detailed understanding. This has led to a sense of disvaluation and underappreciation for those who prioritize technical expertise.",
+      "comment_count": 30,
+      "hn_points": 187
+    }
+  }
+}
