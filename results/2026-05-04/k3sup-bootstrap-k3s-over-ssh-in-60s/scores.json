@@ -1,0 +1,126 @@
+{
+  "app_name": "K3sup",
+  "url": "https://github.com/alexellis/k3sup",
+  "scored_at": "2026-05-04T13:03:21.419Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "K3sup is a unique tool that bootstraps K3s over SSH in under 60 seconds, which is a new approach in the devtool space, with 2454 days since repo creation and 60 days since last commit."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation time is 15.3s, which is relatively moderate, but the install success is false, indicating some issues with the installation process."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool, K3sup fits into the current ecosystem trends with its focus on simplicity and speed, as evident from its description and similar tools like k3s and kubernetes."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like k3s (32,916 stars) and kubernetes (122,062 stars), K3sup has significantly fewer stars (7,337), indicating a smaller community and less differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 7,337 stars, 447 forks, and 53 contributors, K3sup has a moderate community, but the 60 days since the last commit raises concerns about its activity and maintenance."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 out of 5, and the basic run success is true, but the install success is false, indicating significant issues with usability and installation."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "K3sup does not have a PyPI package, making it less easy to integrate into existing workflows, but its CLI interface and documentation may help with manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation quality data is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No clear data on maturity is available, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess performance, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this app type."
+    }
+  },
+  "summary": "K3sup is a unique devtool that bootstraps K3s over SSH in under 60 seconds, but its installation issues, limited community, and unclear maturity raise concerns about its usability and adoption.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/alexellis/k3sup",
+  "tool_url": "https://github.com/alexellis/k3sup",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47975069",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 7337,
+      "forks": 447,
+      "open_issues": 28,
+      "watchers": 7337,
+      "contributors": 53,
+      "license": "NOASSERTION",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 60,
+      "days_since_created": 2454,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "bootstrap K3s over SSH in < 60s 🚀",
+      "topics": [
+        "cloud",
+        "cloud-native",
+        "devops",
+        "devtools",
+        "edge",
+        "go",
+        "k3s",
+        "k8s",
+        "kubernetes",
+        "raspberry-pi",
+        "vm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "k3s",
+        "stars": 32916,
+        "repo": "k3s-io/k3s"
+      },
+      {
+        "name": "kubernetes",
+        "stars": 122062,
+        "repo": "kubernetes/kubernetes"
+      },
+      {
+        "name": "docker",
+        "stars": 52466,
+        "repo": "sickcodes/Docker-OSX"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "k3s installations over SSH in under 60 seconds",
+        "interesting and useful project",
+        "encourages treating clusters as cattle"
+      ],
+      "negative_signals": [
+        "security concerns with network access",
+        "production issues with k3s, especially with etcd and CNI",
+        "alternative tools and methods are available for similar tasks"
+      ],
+      "justification": "Comments are mixed, with some users praising k3s installation simplicity and others expressing concerns about security, production issues, and the availability of alternative tools. With a total of 29 comments, however, the discussion is too limited to form a definitive opinion.",
+      "comment_count": 29,
+      "hn_points": 67
+    }
+  }
+}
