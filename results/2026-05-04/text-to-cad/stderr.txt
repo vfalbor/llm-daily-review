@@ -1,0 +1,16 @@
+ERROR: Could not find a version that satisfies the requirement text-to-cad (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for text-to-cad
+WARNING: Package(s) not found: text-to-cad
+Cloning into 'text-to-cad'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./text-to-cad is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Traceback (most recent call last):
+  File "/app/test.py", line 56, in <module>
+    text_to_cad.infer('synthetic_text')
+    ^^^^^^^^^^^
+NameError: name 'text_to_cad' is not defined
