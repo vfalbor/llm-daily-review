@@ -1,0 +1,128 @@
+{
+  "app_name": "Bun",
+  "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+  "scored_at": "2026-05-05T13:03:56.784Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The porting of Bun from Zig to Rust is a unique approach, with 1847 days since the repository was created and 0 days since the last commit, indicating active development and a strong commitment to the project, as seen in the 89,620 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success was false and the install time was 103.1s, which indicates issues with the installation process, despite the PyPI package existing with version 0.0.8 and a Python requirement of >=3.6."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a lang-runtime tool, Bun's porting to Rust aligns well with current LLM ecosystem trends, which prioritize compatibility and community support, as evidenced by the 89,620 GitHub stars and the active discussion on HN with 592 points."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Bun's decision to port from Zig to Rust differentiates it from similar tools, with Rust having 113,524 stars compared to Zig's 42,896 stars, indicating a potentially larger community and more resources for maintenance and development."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has an impressive 89,620 GitHub stars, 920 contributors, and a strong community signal with 592 HN points and 30 comments analyzed, showing a positive reception and constructive criticism from the community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 4, the ease of use is compromised, despite the basic run success being true, indicating potential issues with the user experience and the need for further testing and development."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The existence of a PyPI package and a command-line use mode facilitates integration, but the lack of a clear API and the current installation issues might hinder the process, with the Python requirement of >=3.6 being a consideration for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "While there is a GitHub repository and a commit history, the absence of explicit documentation or wiki pages makes it difficult to assess the quality of the documentation, with no clear information available on the project's documentation status."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 1847 days since the repository was created and 0 days since the last commit, the project demonstrates a high level of maturity, active development, and a strong community presence, despite the lack of explicit release tags or versioning information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no clear information on the performance of the project, with no benchmarks available, making it difficult to assess the project's performance and efficiency, and no explicit claims or data on performance in the provided information."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 592 points and 30 comments analyzed, showing a very positive reception of the project, with constructive criticism and minor concerns, but overall a strong positive signal from the community, with many users seeing the decision as prudent and appealing."
+    }
+  },
+  "summary": "Bun, a lang-runtime tool, is being ported from Zig to Rust, with a strong community signal and a unique approach, but faces challenges with installation and testing, and while the project has a high level of maturity and community support, the lack of explicit documentation and performance benchmarks makes it difficult to fully assess the project's potential and value.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+  "tool_url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48016880",
+  "domain": "lang",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": {
+      "stars": 89620,
+      "forks": 4393,
+      "open_issues": 6737,
+      "watchers": 89620,
+      "contributors": 920,
+      "license": "NOASSERTION",
+      "language": "Zig",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1847,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "topics": [
+        "bun",
+        "bundler",
+        "javascript",
+        "javascriptcore",
+        "jsx",
+        "nodejs",
+        "npm",
+        "react",
+        "transpiler",
+        "typescript",
+        "zig",
+        "ziglang"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Zig",
+        "stars": 42896,
+        "repo": "ziglang/zig"
+      },
+      {
+        "name": "Rust",
+        "stars": 113524,
+        "repo": "rustdesk/rustdesk"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.8",
+      "summary": "A Python package for a basic CLI and GUI user interface",
+      "requires_python": ">=3.6",
+      "license": "BSD 3-clause",
+      "home_page": "https://github.com/caltechlibrary/bun"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Many users see the decision as prudent and appealing, citing Rust's mainstream status and the difficulty in maintaining Zig",
+        "Some commenters believe LLM can assist with porting, making it a great use case, and Rust's ownership model may not be ideal but can be overcome",
+        "Community contribution and maintainers will be easier to find in Rust than Zig"
+      ],
+      "negative_signals": [
+        "A few users are concerned about the quality of work generated by LLMs, specifically with porting code, and whether the project is being done on purpose or just as an experiment",
+        "There are a few minor criticisms of how the project is being perceived, such as not considering certain problems or being too hands-off, but they are not major concerns"
+      ],
+      "justification": "The commenters overall have a very positive reception of the project, with some constructive criticism on how the project will work out and minor concerns about LLM quality.",
+      "comment_count": 30,
+      "hn_points": 592
+    }
+  }
+}
