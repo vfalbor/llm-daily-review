@@ -1,0 +1,87 @@
+{
+  "app_name": "pgxbackup",
+  "url": "https://github.com/PGAnalyticX/pgxbackup",
+  "scored_at": "2026-05-05T13:06:06.088Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a new approach to continuity support for pgBackRest, as mentioned in the article. However, no specific data on days_since_created or comparison to similar tools is available, so this score is based on the general novelty of the solution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "No GitHub repository stats or PyPI package are available, and the install_success is false, indicating potential issues with system requirements. However, the article does not mention specific system requirements, so this score is based on the lack of available data."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to the current database-relational ecosystem trends, as it provides continuity support for pgBackRest, which is a popular tool in this space. The article mentions the app's relevance to the current landscape, citing the need for continuity support."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app differentiates itself from other tools by providing continuity support for pgBackRest, but no specific data on stars vs similar tools or BENCHMARK comparisons is available. The article mentions the app's unique approach, but does not provide specific numbers."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so community metrics such as stars, contributors count, and days_since_update cannot be evaluated. The HN sentiment analysis shows a mix of positive and negative themes, but this is not a reliable proxy for community metrics."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has no tests_passed and basic_run_success is false, indicating potential issues with ease of use. The article does not mention specific ease-of-use features or benefits."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available, and the article does not mention specific integration features or benefits. However, the app's GitHub repository is available, which could indicate some level of ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The article provides some information about the app, but no specific documentation or GitHub topics count is available. This score is based on the lack of available data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No specific data on days_since_created, forks count, or open_issues is available, so maturity metrics cannot be evaluated. The article does not mention specific maturity features or benefits."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app type is an article, and performance is not a relevant criterion for this type of app. No benchmarks or performance data are available or applicable."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The HN sentiment score is 5/10, with 63 HN points, 10 comments analyzed, 3 positive signals, and 3 negative signals. The sentiment is mixed, with both positive and negative themes present."
+    },
+    "overall_impact": {
+      "score": 6,
+      "justification": "The app has the potential to make a positive impact in the database-relational ecosystem by providing continuity support for pgBackRest. However, the lack of available data and potential issues with system requirements and ease of use may limit its overall impact."
+    }
+  },
+  "summary": "pgxbackup is a tool that provides continuity support for pgBackRest, with a unique approach and potential relevance to the current database-relational ecosystem trends. However, the lack of available data and potential issues with system requirements and ease of use may limit its overall impact.",
+  "recommendation": "niche",
+  "app_url": "https://thebuild.com/blog/2026/05/01/pgxbackup-continuity-support-for-pgbackrest/",
+  "tool_url": "https://github.com/PGAnalyticX/pgxbackup",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47988439",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Interest in the project",
+        "New sponsorship opportunities",
+        "Existing solutions (Barman and Wal-G) are recommended"
+      ],
+      "negative_signals": [
+        "Concern about AI authorship transparency",
+        "Perception of 'co-author advertisement' as an advertisement for Claude",
+        "Skepticism about the project's quality"
+      ],
+      "justification": "The comments discuss a mix of positive and negative themes, including interest in the project, new sponsorship opportunities, and recommendations for alternative solutions. However, there is also concern about AI authorship transparency and a perception of the project's co-authorship as an advertisement.",
+      "comment_count": 10,
+      "hn_points": 63
+    }
+  }
+}
