@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Should I Run Plain Docker Compose in Production in 2026?",
+    "url": "https://distr.sh/blog/running-docker-in-production/",
+    "hn_url": "https://news.ycombinator.com/item?id=47962032",
+    "points": 120,
+    "comments": 98,
+    "author": "pmig",
+    "age": "2026-04-30T13:21:43 1777555303",
+    "scraped_at": "2026-05-05T13:00:02.506Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-cicd",
+    "description": "Discussion about using Docker Compose in production",
+    "use_modes": [
+      "command-line"
+    ],
+    "similar_tools": [
+      "docker",
+      "kubernetes"
+    ],
+    "proposed_tests": [
+      "Install Docker and run a simple compose file",
+      "Try to deploy an app with Docker Compose to a test environment",
+      "Compare performance between plain Docker Compose and Docker Swarm"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1777986094452-npjha",
+    "log_dir": "/tmp/llm-review-1777986094452-npjha",
+    "install_success": true,
+    "install_time_s": 15.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.006646",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\n[notice] To update, run: pip install --upgrade pip\n  error: subprocess-exited-with-error\n  \n  × Getting requirements to build wheel did not run successfully.\n  │ exit code: 1\n  ╰─> [67 lines of output]\n      /tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.\n        warn(\n      /tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.\n      !!\n      \n              ********************************************************************************\n              Please consider removing the following classifiers in favor of a SPDX license expression:\n      \n              License :: OSI Approved :: MIT License\n      \n              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.\n              ********************************************************************************\n      \n      !!\n        self._finalize_license_expression()\n      running egg_info\n      writing lib3/PyYAML.egg-info/PKG-INFO\n      writing dependency_links to lib3/PyYAML.egg-info/dependency_links.txt\n      writing top-level names to lib3/PyYAML.egg-info/top_level.txt\n      Traceback (most recent call last):\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n          main()\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n          json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 143, in get_requires_for_build_wheel\n          return hook(config_settings)\n                 ^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 333, in get_requires_for_build_wheel\n          return self._get_build_requires(config_settings, requirements=[])\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 301, in _get_bui",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\n( 1/15) Installing libgcc (15.2.0-r2)\n( 2/15) Installing libstdc++ (15.2.0-r2)\n( 3/15) Installing mpdecimal (4.0.1-r0)\n( 4/15) Installing python3 (3.12.13-r0)\n( 5/15) Installing python3-pycache-pyc0 (3.12.13-r0)\n( 6/15) Installing pyc (3.12.13-r0)\n( 7/15) Installing py3-setuptools-pyc (80.9.0-r2)\n( 8/15) Installing py3-pip-pyc (25.1.1-r1)\n( 9/15) Installing py3-packaging-pyc (25.0-r0)\n(10/15) Installing python3-pyc (3.12.13-r0)\n(11/15) Installing py3-parsing (3.2.5-r0)\n(12/15) Installing py3-parsing-pyc (3.2.5-r0)\n(13/15) Installing py3-packaging (25.0-r0)\n(14/15) Installing py3-setuptools (80.9.0-r2)\n(15/15) Installing py3-pip (25.1.1-r1)\nExecuting busybox-1.37.0-r30.trigger\nOK: 82.0 MiB in 67 packages\nCollecting docker\n  Downloading docker-7.1.0-py3-none-any.whl.metadata (3.8 kB)\nRequirement already satisfied: requests>=2.26.0 in /usr/local/lib/python3.12/site-packages (from docker) (2.33.1)\nRequirement already satisfied: urllib3>=1.26.0 in /usr/local/lib/python3.12/site-packages (from docker) (2.6.3)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests>=2.26.0->docker) (3.4.7)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests>=2.26.0->docker) (3.13)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests>=2.26.0->docker) (2026.4.22)\nDownloading docker-7.1.0-py3-none-any.whl (147 kB)\nInstalling collected packages: docker\nSuccessfully installed docker-7.1.0\nCollecting docker-compose\n  Downloading docker_compose-1.29.2-py2.py3-none-any.whl.metadata (4.7 kB)\nCollecting PyYAML<6,>=3.10 (from docker-compose)\n  Downloading PyYAML-5.4.1.tar.gz (175 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'error'\nINSTALL_OK\nTEST_FAIL:docker_up:[Errno 2] No such file or directory: 'docker-compose'\nTEST_FAIL:docker_exec:[Errno 2] No such file or directory: 'docker-compose'\nTEST_FAIL:docker_swarm_init:[Errno 2] No such file or directory: 'docker'\nBENCHMARK:import_time_ms:0.006646\nTEST_FAIL:vs_kubernetes_get_pods:[Errno 2] No such file or directory: 'kubectl'\nTEST_FAIL:process_info:[Errno 2] No such file or directory: 'docker'\nRUN_OK\n"
+  }
+}
