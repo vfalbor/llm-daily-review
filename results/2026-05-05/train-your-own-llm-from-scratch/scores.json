@@ -1,0 +1,115 @@
+{
+  "app_name": "Train Your Own LLM from Scratch",
+  "url": "https://github.com/angelos-p/llm-from-scratch",
+  "scored_at": "2026-05-05T13:05:05.121Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides a unique approach to training LLMs from scratch, with 30 days since repo creation and 0 days since last commit, indicating active development and a new contribution to the field, citing 818 GitHub stars and being not a fork."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installs successfully in 35.2 seconds, indicating moderate system requirements, citing install_success=true and install_time_s=35.2, with no API key required."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is highly relevant to current LLM ecosystem trends, as it provides a tool for training LLMs from scratch, citing app_type=llm-training and the high demand for such tools in the current ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has 818 GitHub stars, compared to 160,263 stars for transformers and 135,823 stars for LangChain, indicating a significant gap in differentiation, citing the star comparison and BENCHMARK import_time_ms ratio of 2.6."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The app has a moderate community, with 818 GitHub stars, 44 forks, and 1 contributor, but no clear indication of a strong community, citing the GitHub repository stats."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The app has a high ease of use, with 2/2 tests passed and basic run success, indicating a straightforward and functional tool, citing tests_passed=2 and basic_run_success=true."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app has no PyPI package and no clear API modes, indicating a difficult integration process, citing the absence of a PyPI package and unknown license."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a good documentation, with a helpful README and constructive comments on HN, citing has_wiki=false, but the presence of a GitHub repository and HN discussion."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The app has a moderate maturity, with 30 days since repo creation and 0 days since last commit, indicating active development, but no clear indication of production readiness, citing days_since_created and days_since_update."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app has a good performance, with import_time_ms of 1644.1395282745361 and core_operation_latency_ms of 0.001430511474609375, indicating efficient operations, citing the BENCHMARK measurements."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The app has a positive HN sentiment, with a score of 8/10, 307 HN points, and 30 comments, indicating a well-received tool, citing the sentiment score, HN points, and comment count."
+    },
+    "recommendation": "worth-watching"
+  },
+  "summary": "This app provides a unique approach to training LLMs from scratch, with a high ease of use and good performance, but limited differentiation and community, and moderate maturity. It is worth watching due to its relevance to current LLM trends and positive HN sentiment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/angelos-p/llm-from-scratch",
+  "tool_url": "https://github.com/angelos-p/llm-from-scratch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48017948",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 818,
+      "forks": 44,
+      "open_issues": 0,
+      "watchers": 818,
+      "contributors": 1,
+      "license": "none",
+      "language": null,
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 30,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "transformers",
+        "stars": 160263,
+        "repo": "huggingface/transformers"
+      },
+      {
+        "name": "Hugging Face",
+        "stars": 1325,
+        "repo": "LetheSec/HuggingFace-Download-Accelerator"
+      },
+      {
+        "name": "LangChain",
+        "stars": 135823,
+        "repo": "langchain-ai/langchain"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Useful introduction to training LLMs",
+        "Great job on creating the resource",
+        "Helpful documentation"
+      ],
+      "negative_signals": [
+        "Some users skeptical about model size",
+        "Discussion about terminology ('Large' language model)",
+        "One user accused of copying content"
+      ],
+      "justification": "The project received mostly positive comments, but there were some minor criticisms about the model size and terminology. One user accused another of copying content, but this was disputed. Overall, the feedback was constructive and helpful.",
+      "comment_count": 30,
+      "hn_points": 307
+    }
+  }
+}
