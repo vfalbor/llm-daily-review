@@ -1,0 +1,83 @@
+{
+  "app_name": "Docker Compose Production",
+  "url": "https://distr.sh/blog/running-docker-in-production/",
+  "scored_at": "2026-05-05T13:02:00.220Z",
+  "total_score": 55,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 120 HN points and 30 comments analyzed, indicating a generally positive discussion with some concerns about complexity and stability."
+    },
+    "novelty": {
+      "score": 4,
+      "justification": "The app does not introduce a new approach, with the discussion focusing on existing tools like Docker Compose and Kubernetes, and no novel solutions presented."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The install time is 15.8s, and the app is not pip-installable, but it can be run with basic success, indicating relatively low system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to the current devtool-cicd landscape, with the discussion focusing on using Docker Compose in production, a common use case in 2026."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app does not differentiate itself significantly from similar tools like Docker and Kubernetes, with no unique features or advantages presented."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected, and the HN discussion is the primary community signal, with 120 HN points and 30 comments, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The app has 0 tests passed out of 5, and the basic run success is true, but the lack of tests and complex discussion indicate a relatively low ease of use."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a detected version, API/SDK/webhook mention, and examples or demo on the page, but no install command, indicating a moderate ease of integration."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app has a page title, wiki/guide link, changelog or release notes, examples or demo, and a content length of 31080 chars, indicating good documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has a detected version and changelog or release notes, but no clear indication of maturity, with the discussion focusing on stability and performance concerns."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The app has a benchmark measurement of import_time_ms:0.006646, but no clear indication of performance advantages or disadvantages compared to similar tools."
+    }
+  },
+  "summary": "The Docker Compose Production app is a discussion about using Docker Compose in production, with a generally positive community sentiment and moderate ease of integration, but relatively low ease of use and no significant differentiation from similar tools.",
+  "recommendation": "niche",
+  "app_url": "https://distr.sh/blog/running-docker-in-production/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47962032",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful limitations on logs",
+        "Effective alternative to Docker",
+        "Helpful resources available"
+      ],
+      "negative_signals": [
+        "Quadlet confusion and controversy",
+        "Limited functionality compared to Docker",
+        "Concerns about stability and performance"
+      ],
+      "justification": "The discussion is generally positive, with users finding Podman's limitations on logs useful and considering it an effective alternative to Docker. However, some users express concerns about the complexity of quadlets, limited functionality compared to Docker, and stability and performance issues.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
