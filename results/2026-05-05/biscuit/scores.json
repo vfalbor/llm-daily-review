@@ -1,0 +1,108 @@
+{
+  "app_name": "Biscuit",
+  "url": "https://github.com/yattsu/biscuit",
+  "scored_at": "2026-05-05T13:05:38.894Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app is a fork (is_fork: true) with 30 days since repo creation, indicating it's not a first-of-its-kind approach, but rather an iteration or modification of an existing tool."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install success is true, and the install time is 21.9s, which is relatively moderate, and PyPI existence is yes, indicating it's fairly accessible."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "There's insufficient data to accurately assess the app's relevance to current LLM ecosystem trends, given the app type is devtool-cli and not directly related to LLMs."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With 127 stars and being a fork, it doesn't significantly differentiate itself from similar tools in terms of unique features or a large community backing, as compared to other tools which may have more substantial differentiators."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repository has 127 stars, 4 forks, and 107 contributors, which indicates a small but potentially engaged community, though the days since the last commit is 26, suggesting some level of inactivity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 3 tests passed, this indicates significant issues with ease of use or functionality, despite basic run success being true."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There's insufficient direct evidence on how easily Biscuit can be integrated into existing workflows or pipelines, though PyPI existence (yes) and MIT license suggest potential ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to GitHub flags like has_wiki, has_pages, or specific documentation quality, and given the lack of described documentation in the metadata, the score is neutral due to insufficient data."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Given the app is a fork, has 30 days since its creation, and 26 days since the last commit, it indicates a relatively immature project with potential for growth but lacking in current stability or long-term maintenance signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's insufficient direct benchmark data comparing Biscuit's performance to similar tools, though the existence of some benchmark measurements (like install_time_s) suggests potential for assessment."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this scoring as the provided data relates to a different project context."
+    },
+    "support": {
+      "score": 5,
+      "justification": "There is no information provided about the support available for the app."
+    }
+  },
+  "summary": "Biscuit is a devtool-cli with a small but potentially engaged community, though it faces challenges in terms of differentiation, ease of use, and maturity. It has a moderate level of accessibility but lacks substantial evidence for its performance and documentation quality. The project's potential and current state suggest a niche application with room for growth but not yet strongly positioned in its field.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/yattsu/biscuit",
+  "tool_url": "https://github.com/yattsu/biscuit",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48017641",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 127,
+      "forks": 4,
+      "open_issues": 0,
+      "watchers": 127,
+      "contributors": 107,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": true,
+      "days_since_update": 26,
+      "days_since_created": 30,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Firmware for the ESP32-C3 SoC Xteink X4 e-paper display reader",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Biscuit web framework",
+      "requires_python": ">=3.6.0",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Cheap alternative for those who want a distraction-free device",
+        "Driving interest in Xteink X4 and CrossPoint firmware",
+        "Well-built device for its price"
+      ],
+      "negative_signals": [
+        "Size concerns and potential distraction for those who want that",
+        "Limited functionality, e.g. lack of wake from sleep"
+      ],
+      "justification": "The comments are generally positive, praising the project's potential to drive interest in the Xteink X4 device and its customization options. Some users mention their hopes for the project's impact and suggest use cases, while a few critics point out limitations and size concerns.",
+      "comment_count": 7,
+      "hn_points": 73
+    }
+  }
+}
