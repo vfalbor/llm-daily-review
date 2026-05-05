@@ -1,0 +1,89 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.1
+[notice] To update, run: pip install --upgrade pip
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [67 lines of output]
+      /tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+        warn(
+      /tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: MIT License
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      running egg_info
+      writing lib3/PyYAML.egg-info/PKG-INFO
+      writing dependency_links to lib3/PyYAML.egg-info/dependency_links.txt
+      writing top-level names to lib3/PyYAML.egg-info/top_level.txt
+      Traceback (most recent call last):
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+                 ^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 271, in <module>
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1000, in run_commands
+          self.run_command(cmd)
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 312, in run
+          self.find_sources()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+          mm.run()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 542, in run
+          self.add_defaults()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/command/egg_info.py", line 580, in add_defaults
+          sdist.add_defaults(self)
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/command/sdist.py", line 110, in add_defaults
+          super().add_defaults()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/sdist.py", line 245, in add_defaults
+          self._add_defaults_ext()
+        File "/tmp/pip-build-env-lkpu5nq6/overlay/lib/python3.12/site-packages/setuptools/_distutils/command/sdist.py", line 330, in _add_defaults_ext
+          self.filelist.extend(build_ext.get_source_files())
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "<string>", line 201, in get_source_files
+      AttributeError: 'build_ext' object has no attribute 'cython_sources'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.1
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× Getting requirements to build wheel did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
