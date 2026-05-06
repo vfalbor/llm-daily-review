@@ -1,0 +1,24 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739
+  fatal: could not read Username for 'https://github.com': No such device or address
+  error: subprocess-exited-with-error
+  
+  × git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739 did not run successfully.
+  │ exit code: 128
+  ╰─> See above for output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.1
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739 did not run successfully.
+│ exit code: 128
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+Traceback (most recent call last):
+  File "/app/test.py", line 85, in <module>
+    wiki_builder_plugin.train_model(["Sample text"])
+    ^^^^^^^^^^^^^^^^^^^
+NameError: name 'wiki_builder_plugin' is not defined
