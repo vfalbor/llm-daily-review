@@ -1,0 +1,54 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "Wiki Builder: Skill to Build LLM Knowledge Bases",
+    "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+    "hn_url": "https://news.ycombinator.com/item?id=47997915",
+    "points": 79,
+    "comments": 10,
+    "author": "omarsar",
+    "age": "2026-05-03T15:28:48 1777822128",
+    "scraped_at": "2026-05-06T13:00:02.699Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "type": "llm-ai",
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "confidence": 0.88,
+    "description": "Skill to Build LLM Knowledge Bases",
+    "use_modes": [
+      "Plugin"
+    ],
+    "similar_tools": [
+      "Claude",
+      "LLaMA",
+      "Bert"
+    ],
+    "proposed_tests": [
+      "Train a small model with Wiki Builder and measure accuracy",
+      "Compare Wiki Builder's performance with other similar tools",
+      "Test Wiki Builder's ability to handle complex queries"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://github.com/dair-ai/wiki-builder-plugin",
+    "tool_url": "https://github.com/dair-ai/wiki-builder-plugin",
+    "created_url": "",
+    "is_article": false,
+    "is_research": false,
+    "is_dataset": false,
+    "is_model": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1778072584512-c6cy6",
+    "log_dir": "/tmp/llm-review-1778072584512-c6cy6",
+    "install_success": true,
+    "install_time_s": 7.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.0896453857421875",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739\n  fatal: could not read Username for 'https://github.com': No such device or address\n  error: subprocess-exited-with-error\n  \n  × git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739 did not run successfully.\n  │ exit code: 128\n  ╰─> See above for output.\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× git clone --filter=blob:none --quiet https://github.com/dair-ai/wiki-builder-plugin.git /tmp/pip-req-build-6cgbx739 did not run successfully.\n│ exit code: 128\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 85, in <module>\n    wiki_builder_plugin.train_model([\"Sample text\"])\n    ^^^^^^^^^^^^^^^^^^^\nNameError: name 'wiki_builder_plugin' is not defined\n",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\nOK: 26.1 MiB in 52 packages\nCollecting git+https://github.com/dair-ai/wiki-builder-plugin.git\n  Cloning https://github.com/dair-ai/wiki-builder-plugin.git to /tmp/pip-req-build-6cgbx739\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:No module named 'wiki_builder_plugin'\nBENCHMARK:import_time_ms:0.0896453857421875\nTEST_FAIL:Train a small model with Wiki Builder:name 'wiki_builder_plugin' is not defined\nTEST_FAIL:Compare Wiki Builder's performance with other similar tools:No module named 'transformers'\nTEST_FAIL:Test Wiki Builder's ability to handle complex queries:name 'wiki_builder_plugin' is not defined\n"
+  }
+}
