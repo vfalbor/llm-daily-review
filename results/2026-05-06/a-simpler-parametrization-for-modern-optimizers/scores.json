@@ -1,0 +1,86 @@
+{
+  "app_name": "A Simpler Parametrization for Modern Optimizers",
+  "url": "https://jiha-kim.github.io/posts/a-simpler-parametrization-for-modern-optimizers/",
+  "scored_at": "2026-05-06T13:03:03.080Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool presents a novel approach to simplifying modern optimizers, which is a meaningful improvement on existing tools, as seen in the comparison to TensorFlow Optimizers and PyTorch Optimizers."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The tool failed to install, with an install success of false and an install time of 8.1s, indicating severe difficulties in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool addresses a relevant pain point in the current LLM ecosystem, namely the complexity of modern optimizers, but its type as a research paper might limit its immediate applicability."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it offers a unique perspective on modern optimizers, its differentiation from established tools like TensorFlow Optimizers (23 stars) and PyTorch Optimizers (98 stars) is notable but not groundbreaking."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Without a GitHub repository detected or available, the community engagement and contributors count are unknown, but the minimal HN interaction (5 points, 2 comments) suggests a very small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the tool's failure to install and run, with 0 tests passed out of 0 and basic run success being false, it indicates significant challenges in usability."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As the tool is described in a research paper and not directly integrated into workflows, this criterion does not apply."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are unclear due to the lack of direct access to the tool's repository or documentation site, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The tool, being presented in a research paper, lacks clear indicators of maturity such as versioning, release history, or a large user base, suggesting it is in the early stages of development."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As the tool's performance data, such as benchmarks, are not provided and it's a research paper, this criterion does not apply directly."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "While HN sentiment data is typically important, in this case, it's set to null due to the specific request for the output format and the lack of sufficient HN data for meaningful analysis."
+    }
+  },
+  "summary": "A research paper presenting a simpler parametrization for modern optimizers, which could simplify the training of deep neural networks but faces challenges in installation and community engagement.",
+  "recommendation": "niche",
+  "app_url": "https://jiha-kim.github.io/posts/a-simpler-parametrization-for-modern-optimizers/",
+  "tool_url": "https://github.com/author/simpler-parametrization",
+  "source_type": "tutorial",
+  "hn_url": "https://news.ycombinator.com/item?id=48008685",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "TensorFlow Optimizers",
+        "stars": 23,
+        "repo": "angetato/Optimizers-for-Tensorflow"
+      },
+      {
+        "name": "PyTorch Optimizers",
+        "stars": 98,
+        "repo": "bentrevett/a-tour-of-pytorch-optimizers"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 5
+    }
+  }
+}
