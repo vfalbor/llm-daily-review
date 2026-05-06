@@ -1,0 +1,54 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Make some art with your phone sensors",
+    "url": "https://tautme.github.io/phone-sensors/sensor-etch.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48003549",
+    "points": 66,
+    "comments": 11,
+    "author": "adm4",
+    "age": "2026-05-04T01:25:05 1777857905",
+    "scraped_at": "2026-05-06T13:00:02.697Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "type": "devtool",
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "confidence": 0.9,
+    "description": "Make art with your phone sensors",
+    "use_modes": [
+      "Sensor etch"
+    ],
+    "similar_tools": [
+      "Pygame",
+      "Processing",
+      "TouchDesigner"
+    ],
+    "proposed_tests": [
+      "Use Sensor Etch to create an interactive art piece and measure response time",
+      "Compare Sensor Etch with other similar tools for performance",
+      "Test Sensor Etch's ability to handle complex sensor inputs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/tautme/phone-sensors",
+    "tool_url": "https://github.com/tautme/phone-sensors",
+    "created_url": "",
+    "is_article": false,
+    "is_research": false,
+    "is_dataset": false,
+    "is_model": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1778072638856-dtwyq",
+    "log_dir": "/tmp/llm-review-1778072638856-dtwyq",
+    "install_success": true,
+    "install_time_s": 19.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "benchmark_notes": "",
+    "error_log": "  * \n  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n  * \nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-05-06T13_04_27_277Z-debug-0.log\n  error: subprocess-exited-with-error\n  \n  × Getting requirements to build wheel did not run successfully.\n  │ exit code: 1\n  ╰─> [54 lines of output]\n      Skipping Cython compilation\n      \n      \n      WARNING, No \"Setup\" File Exists, Running \"buildconfig/config.py\"\n      Using UNIX configuration...\n      \n      /bin/sh: dpkg-architecture: not found\n      /bin/sh: sdl2-config: not found\n      /bin/sh: sdl2-config: not found\n      /bin/sh: sdl2-config: not found\n      /bin/sh: pkg-config: not found\n      /bin/sh: pkg-config: not found\n      /bin/sh: pkg-config: not found\n      /bin/sh: freetype-config: not found\n      /bin/sh: freetype-config: not found\n      /bin/sh: freetype-config: not found\n      \n      Hunting dependencies...\n      WARNING: \"sdl2-config\" failed!\n      WARNING: \"pkg-config freetype2\" failed!\n      WARNING: \"freetype-config\" failed!\n      \n      ---\n      For help with compilation see:\n          https://www.pygame.org/wiki/Compilation\n      To contribute to pygame development see:\n          https://www.pygame.org/contribute.html\n      ---\n      \n      Traceback (most recent call last):\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n          main()\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n          json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 143, in get_requires_for_build_wheel\n          return hook(config_settings)\n                 ^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-01xt2syw/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 333, in get_requires_for_build_wheel\n          return self._get_build_requires(config_settings, requirements=[])\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-01xt2syw/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 301, in _get_build_requires\n          self.run_setup()\n        File \"/tmp/pip-build-env-01xt2syw/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 520, in run_setup\n          super().run_setup(setup_script=setup_script)\n        File \"/tmp/pip-build-env-01xt2syw/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 317, in run_setup\n          exec(code, locals())\n        File \"<string>\", line 432, in <module>\n        File \"/tmp/pip-install-m_yydhhi/pygame_1f2bc471e6204fcbaa7362a21bb33a17/buildconfig/config.py\", line ",
+    "notes": "( 1/14) Installing brotli-libs (1.2.0-r0)\n( 2/14) Installing c-ares (1.34.6-r0)\n( 3/14) Installing libunistring (1.4.1-r0)\n( 4/14) Installing libidn2 (2.3.8-r0)\n( 5/14) Installing nghttp2-libs (1.69.0-r0)\n( 6/14) Installing nghttp3 (1.13.1-r0)\n( 7/14) Installing libpsl (0.21.5-r3)\n( 8/14) Installing zstd-libs (1.5.7-r2)\n( 9/14) Installing libcurl (8.17.0-r1)\n(10/14) Installing curl (8.17.0-r1)\n(11/14) Installing libexpat (2.7.5-r0)\n(12/14) Installing pcre2 (10.47-r0)\n(13/14) Installing git (2.52.0-r0)\n(14/14) Installing git-init-template (2.52.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 26.1 MiB in 52 packages\n( 1/24) Installing libgcc (15.2.0-r2)\n( 2/24) Installing jansson (2.14.1-r0)\n( 3/24) Installing libstdc++ (15.2.0-r2)\n( 4/24) Installing binutils (2.45.1-r0)\n( 5/24) Installing libgomp (15.2.0-r2)\n( 6/24) Installing libatomic (15.2.0-r2)\n( 7/24) Installing gmp (6.3.0-r4)\n( 8/24) Installing isl26 (0.26-r1)\n( 9/24) Installing mpfr4 (4.2.2-r0)\n(10/24) Installing mpc1 (1.3.1-r1)\n(11/24) Installing gcc (15.2.0-r2)\n(12/24) Installing musl-dev (1.2.5-r23)\n(13/24) Installing libxml2 (2.13.9-r0)\n(14/24) Installing llvm21-libs (21.1.2-r1)\n(15/24) Installing scudo-malloc (21.1.2-r0)\n(16/24) Installing rust (1.91.1-r1)\n(17/24) Installing cargo (1.91.1-r1)\n(18/24) Installing ada-libs (3.3.0-r0)\n(19/24) Installing icu-data-en (76.1-r1)\n  Executing icu-data-en-76.1-r1.post-install\n(20/24) Installing icu-libs (76.1-r1)\n(21/24) Installing simdjson (3.12.0-r0)\n(22/24) Installing simdutf (7.5.0-r1)\n(23/24) Installing nodejs (24.14.1-r0)\n(24/24) Installing npm (11.11.0-r0)\nExecuting busybox-1.37.0-r30.trigger\nOK: 689.4 MiB in 76 packages\nCollecting pygame\n  Downloading pygame-2.6.1.tar.gz (14.8 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.8/14.8 MB 56.6 MB/s eta 0:00:00\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'error'\nINSTALLING DEPENDENCIES\nINSTALL_OK\nINSTALLING SENSOR ETCH\nINSTALL_FAIL:Command '['npm', 'install', 'phone-sensors']' returned non-zero exit status 1.\nINSTALLING PYGAME\nINSTALL_FAIL:Command '['pip', 'install', 'pygame']' returned non-zero exit status 1.\nTESTING SENSOR ETCH RESPONSE TIME\nTEST_FAIL:response_time:Command '['node', 'node_modules/phone-sensors/index.js']' returned non-zero exit status 1.\nTESTING SENSOR ETCH COMPLEX INPUT\nTEST_FAIL:complex_input:Command '['node', 'node_modules/phone-sensors/index.js']' returned non-zero exit status 1.\nTESTING PYGAME RESPONSE TIME\nTEST_FAIL:baseline_response_time:Command '['python', '-c', 'import pygame; pygame.init(); pygame.quit()']' returned non-zero exit status 1.\nCOMPARING PERFORMANCE\nTEST_FAIL:compare_performance:Command '['grep', 'response_time_ms', 'test.log']' returned non-zero exit status 2.\nTESTING MEMORY USAGE\nTEST_FAIL:memory_usage:Command '['node', 'node_modules/phone-sensors/index.js']' returned non-zero exit status 1.\nTESTING LOC COUNT\nTEST_FAIL:loc_count:Command '['wc', '-l', 'node_modules/phone-sensors/index.js']' returned non-zero exit status 1.\nTESTING TEST FILES COUNT\nTEST_FAIL:test_files_count:Command '['find', 'node_modules/phone-sensors', '-type', 'f', '-name', '*.js', '|', 'wc', '-l']' returned non-zero exit status 1.\nRUN_OK\n"
+  }
+}
