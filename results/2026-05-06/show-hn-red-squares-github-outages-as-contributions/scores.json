@@ -1,0 +1,89 @@
+{
+  "app_name": "Red Squares",
+  "url": "https://github.com/red-squares/red-squares",
+  "scored_at": "2026-05-06T13:02:21.000Z",
+  "total_score": 59,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10 with 319 HN points and 30 comments analyzed, indicating a mixed reaction from the community with both positive and negative signals."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app presents a unique approach to visualizing GitHub outages as contributions, with no direct equivalent found in similar tools, such as GitHub itself with 173,711 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app's install success is false, and the install time is 7.6s, indicating potential issues with the installation process, and it is not pip-installable since no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's focus on GitHub outages and contributions aligns with current trends in the devtool ecosystem, particularly with the high star count of similar tools like GitHub."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The app's unique approach to visualizing GitHub outages sets it apart from similar tools like GitHub, which has 173,711 stars, indicating a significant differentiation in the market."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository was detected or the API was unavailable, making it impossible to assess the community based on GitHub metrics like stars and contributors, thus this criterion does not apply."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the app seems to have significant usability issues, indicating a need for improvement in user experience and functionality."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has a CLI use mode but lacks a PyPI package, making integration more difficult than pip-installable alternatives, and its license and API modes were not specified, which could affect its integrability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data, the quality of the app's documentation cannot be accurately assessed, so a neutral score is given."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to evaluate the app's maturity, including its release history, versioning, and maintenance activity, so a neutral score is given."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark results are available to assess the app's performance, and given its nature as a devtool-cloudbenchmark, performance might not be a critical aspect, thus this criterion does not apply in a meaningful way."
+    }
+  },
+  "summary": "Red Squares is a unique tool that visualizes GitHub outages as contributions, offering a fresh perspective in the devtool landscape, but it faces challenges with installation, usability, and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://red-squares.cian.lol/",
+  "tool_url": "https://github.com/red-squares/red-squares",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48034587",
+  "domain": "devtool",
+  "app_type": "devtool-cloudbenchmark",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "GitHub",
+        "stars": 173711,
+        "repo": "github/gitignore"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Reduction in outages on weekends suggests that human activity is a major contributor",
+        "Authors' decision to focus on data-driven, simple design is well-received",
+        "Users appreciate the honesty and readability of the new website"
+      ],
+      "negative_signals": [
+        "Many commenters question the significance of the correlation between GitHub outages and agent activity",
+        "Several users are skeptical about the impact of recent changes on GitHub's stability",
+        "Some commenters express doubt about the accuracy or usefulness of the data presented"
+      ],
+      "justification": "Commenters generally view the project as a useful data visualization, but some express skepticism about its significance or the accuracy of the data. A few users appreciate the design and honesty of the website, while others are less impressed.",
+      "comment_count": 30,
+      "hn_points": 319
+    }
+  }
+}
