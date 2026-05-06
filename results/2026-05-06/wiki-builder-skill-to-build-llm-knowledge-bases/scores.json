@@ -1,0 +1,97 @@
+{
+  "app_name": "Wiki Builder",
+  "url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+  "scored_at": "2026-05-06T13:03:26.075Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project has an interesting direction, but similar existing projects exist, such as Claude with 174,399 stars and LLaMA with 108,594 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was true, but install time was not provided, and PyPI existence is false."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app type is llm-evaluation, which fits with current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has a similar concept to existing tools like Claude and LLaMA, with 174,399 and 108,594 stars, respectively."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected, but the blog post has 79 HN points and 10 comments, indicating a small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed was 0 / 3, and basic run success was false, indicating poor ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package was found, and the use mode is Plugin, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark measurements were provided except for import_time_ms, which is not enough to evaluate performance."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The sentiment score is 3/10, with 79 HN points, 10 comments, and mixed positive and negative signals."
+    }
+  },
+  "summary": "The Wiki Builder is a tool for building LLM knowledge bases, with a small community and poor ease of use, but fitting with current LLM ecosystem trends.",
+  "recommendation": "niche",
+  "app_url": "https://academy.dair.ai/blog/wiki-builder-claude-code-plugin",
+  "tool_url": "https://github.com/dair-ai/wiki-builder-plugin",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=47997915",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Claude",
+        "stars": 174399,
+        "repo": "affaan-m/everything-claude-code"
+      },
+      {
+        "name": "LLaMA",
+        "stars": 108594,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "Bert",
+        "stars": 40001,
+        "repo": "google-research/bert"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "interesting direction",
+        "similar existing projects"
+      ],
+      "negative_signals": [
+        "unnecessary complexity",
+        "name collision concerns"
+      ],
+      "justification": "The comments are mostly negative, with several users expressing frustration with the required pull request process and concerns about name collisions. However, some users also found the project interesting and mentioned existing similar projects.",
+      "comment_count": 10,
+      "hn_points": 79
+    }
+  }
+}
