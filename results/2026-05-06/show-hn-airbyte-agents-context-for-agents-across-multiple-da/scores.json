@@ -1,0 +1,81 @@
+{
+  "app_name": "Airbyte Agents",
+  "url": "https://news.ycombinator.com/item?id=48023496",
+  "scored_at": "2026-05-06T13:03:57.486Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a new direction with context for agents across multiple data sources, which is a unique contribution with high potential, as seen in the HN points of 124 and positive signals in the comments."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant issues with installation, and no PyPI package was found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-build type, it fits into the current ecosystem trends by providing context for agents, which is relevant, but the lack of open-source status and no clear indication of its compatibility with current workflows might limit its relevance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Airbyte, Fivetran, and dbt, Airbyte Agents bring a new approach with context for agents, but without exact comparison numbers, it's hard to quantify its advantage precisely."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 124 HN points and 30 comments analyzed, showing positive signals, the community reaction is positive, but without a GitHub repository or more detailed community metrics, the community score is limited."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 out of 0, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package was found, and the use modes are limited to Agent, which might make integration more challenging without further information on its API or compatibility."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate the quality of documentation, as no GitHub repository or documentation links were provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to assess maturity, as there's no GitHub repository or information on its release cycle."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available for this app type, and performance is not applicable in this context."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 124 HN points, 30 comments, and primarily positive signals, indicating a positive community reaction to the tool."
+    }
+  },
+  "summary": "Airbyte Agents provides a novel approach to context for agents across multiple data sources, with a positive community reaction, but faces challenges in installation, usability, and lacks clear documentation and maturity indicators.",
+  "recommendation": "niche",
+  "app_url": "https://news.ycombinator.com/item?id=48023496",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48023496",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Great direction and potential",
+        "Excitable and praise for the tool",
+        "Robust and agent-friendly successor"
+      ],
+      "negative_signals": [
+        "Criticism of search APIs and frustration with working with APIs"
+      ],
+      "justification": "Overall, the comments are overwhelmingly positive, with many praising the direction and potential of Airbyte Agents. There is also some constructive criticism and suggestions for improvement, but overall the tone is one of excitement and praise.",
+      "comment_count": 30,
+      "hn_points": 124
+    }
+  }
+}
