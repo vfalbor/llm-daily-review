@@ -1,0 +1,110 @@
+{
+  "app_name": "Phone Sensors",
+  "url": "https://tautme.github.io/phone-sensors/sensor-etch.html",
+  "scored_at": "2026-05-06T13:04:46.809Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique way of creating art using phone sensors, with a surprisingly accurate motion sensing feature, as mentioned by users with 67 HN points and 11 comments."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The app does not have a PyPI package, but it can be accessed through its URL, with an install time of 19.2s and basic run success."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is relevant to the current devtool-cli ecosystem, providing a fun and engaging experience for users, with 2 days since its repository was created."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The app has significantly fewer GitHub stars compared to similar tools like Pygame (8,751 stars), Processing (26,227 stars), and TouchDesigner (2,268 stars), with a difference of -8749, -26225, and -2266 stars respectively."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 2 GitHub stars, 0 forks, and 4 open issues, with a single contributor and 0 days since the last commit, indicating a relatively small community, but with positive HN comments."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app had 0 tests pass out of 7, indicating potential difficulties in usage, despite having a basic run success."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The app does not have a PyPI package, and its license is unknown, making integration potentially challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is not readily available, with no clear information on its GitHub repository or website."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The app's repository is relatively new, with only 2 days since its creation, and has no clear versioning or release tags."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no available benchmark data for the app's performance."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The app has a sentiment score of 9/10, with 67 HN points, 11 comments, and positive signals indicating a fun and engaging experience for users."
+    }
+  },
+  "summary": "Phone Sensors is a unique devtool-cli that allows users to create art with their phone sensors, with a surprisingly accurate motion sensing feature, but it has a relatively small community and limited documentation.",
+  "recommendation": "skip",
+  "app_url": "https://tautme.github.io/phone-sensors/sensor-etch.html",
+  "tool_url": "https://github.com/tautme/phone-sensors",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48003549",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 4,
+      "watchers": 2,
+      "contributors": 1,
+      "license": "none",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Discovery",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Pygame",
+        "stars": 8751,
+        "repo": "pygame/pygame"
+      },
+      {
+        "name": "Processing",
+        "stars": 26227,
+        "repo": "WZMIAOMIAO/deep-learning-for-image-processing"
+      },
+      {
+        "name": "TouchDesigner",
+        "stars": 2268,
+        "repo": "torinmb/mediapipe-touchdesigner"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "fun and engaging experience",
+        "surprisingly accurate motion sensing",
+        "cool etch-a-sketch feature"
+      ],
+      "negative_signals": [],
+      "justification": "Most comments praise the project's fun and creative use of phone sensors, with one user mentioning they had to work harder than expected to get it to work on Android.",
+      "comment_count": 11,
+      "hn_points": 67
+    }
+  }
+}
