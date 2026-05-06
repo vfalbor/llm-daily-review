@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 6, in <module>
+    from red_squares import detect_github_outage, simulate_github_outage
+ModuleNotFoundError: No module named 'red_squares'
