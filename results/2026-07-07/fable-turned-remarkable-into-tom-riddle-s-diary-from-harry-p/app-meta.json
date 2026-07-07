@@ -1,0 +1,36 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Fable turned reMarkable into Tom Riddle's diary from Harry Potter",
+    "url": "https://github.com/MaximeRivest/Riddle",
+    "hn_url": "https://news.ycombinator.com/item?id=48811591",
+    "points": 526,
+    "comments": 333,
+    "author": "modinfo",
+    "age": "2026-07-06T23:00:24 1783378824",
+    "scraped_at": "2026-07-07T13:00:03.145Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "domain": "web",
+    "app_type": "web-extension",
+    "tool_url": "https://github.com/MaximeRivest/Riddle",
+    "repo_url": "https://github.com/MaximeRivest/Riddle",
+    "is_open_source": "true",
+    "use_modes": [
+      "Browser Extension"
+    ],
+    "confidence": "0.95"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783429490552-2o36o",
+    "log_dir": "/tmp/llm-review-1783429490552-2o36o",
+    "install_success": true,
+    "install_time_s": 12,
+    "basic_run_success": true,
+    "tests_passed": 5,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:response_time_ms:41.269779205322266\nBENCHMARK:health_response_time_ms:2.823352813720703\nBENCHMARK:import_time_ms:4.717111587524414\nBENCHMARK:query_latency_ms:2.098560333251953\nBENCHMARK:vs_baseline_ratio:0.5068302154541016\nBENCHMARK:memory_usage_bytes:102593\nBENCHMARK:file_count:4",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-07T13_05_01_556Z-debug-0.log\nCloning into 'Riddle'...\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /Riddle/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Riddle/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-07T13_05_03_553Z-debug-0.log\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /Riddle/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Riddle/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-07T13_05_04_150Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.6-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_OK\nBENCHMARK:response_time_ms:41.269779205322266\nBENCHMARK:health_response_time_ms:2.823352813720703\nTEST_PASS:test_install_and_run\nBENCHMARK:import_time_ms:4.717111587524414\nBENCHMARK:query_latency_ms:2.098560333251953\nTEST_PASS:test_performance\nBENCHMARK:vs_baseline_ratio:0.5068302154541016\nTEST_PASS:compare_vs_baseline\nBENCHMARK:memory_usage_bytes:102593\nTEST_PASS:test_memory_usage\nBENCHMARK:file_count:4\nTEST_PASS:test_file_count\nRUN_OK\n"
+  }
+}
