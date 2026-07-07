@@ -1,0 +1,83 @@
+{
+  "app_name": "Linux on the Atari Jaguar",
+  "url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+  "scored_at": "2026-07-07T13:08:18.093Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project achieves a unique technical feat by porting Linux to the Atari Jaguar, a console not originally designed for running operating systems, as seen in the project's title and description."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Given the Atari Jaguar's hardware limitations, the project requires specific technical knowledge and setup, which might hinder accessibility for some users, but the install time is relatively fast at 7.8 seconds, indicating a straightforward installation process for those familiar with the console."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "While the project holds historical or nostalgic significance, its current relevance in modern operating system development and usage is limited due to the Jaguar's outdated hardware and the fact that it's not compatible with current software trends."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The project stands out due to its unique goal of running Linux on the Atari Jaguar, a feat that differentiates it significantly from other operating system projects, as there are no similar tools mentioned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Since there is no GitHub repository detected for this specific project, we cannot evaluate the community engagement directly from GitHub data, so we score it as 5 due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that the basic run success is false and no tests were passed, the project seems to be in an early stage of development or not user-friendly for non-technical individuals, indicating a higher barrier to entry."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this type of project as it's an operating system port for a specific console, not a tool designed for integration into other workflows or systems."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The presence of a website and potentially detailed documentation on the GitHub page (though not directly accessible) suggests some level of documentation, but without direct access to quality or depth, we score it as 5 for lack of concrete evidence."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without explicit versioning, release notes, or update history, the maturity of the project is difficult to assess, so we default to 5 due to insufficient information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable in the traditional sense for an operating system port on outdated hardware like the Atari Jaguar, especially without specific benchmark comparisons to similar projects."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Hacker News sentiment analysis is not directly applicable to this evaluation framework, but the provided sentiment score of 7/10 and 167 HN points indicate a generally positive reception, though this is not a standard criterion for tool evaluation."
+    }
+  },
+  "summary": "The Linux on the Atari Jaguar project is a unique undertaking that brings a modern operating system to an outdated console, showcasing impressive technical skills but facing limitations in usability and relevance to current technological trends.",
+  "recommendation": "worth-watching",
+  "app_url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+  "tool_url": "https://github.com/cakehonolulu/linux-for-jaguar",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48808663",
+  "domain": "hardware",
+  "app_type": "operating-system",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive technical achievement",
+        "Excitement and praise from readers",
+        "Potential for creative uses like barebones routers"
+      ],
+      "negative_signals": [
+        "Concerns about performance and memory limitations",
+        "Criticism of the Jaguar's capabilities compared to other systems",
+        "Uncertainty about the project's feasibility and practicality"
+      ],
+      "justification": "The comments show a generally positive tone, with several readers expressing excitement and enthusiasm for the project. However, there are also concerns about the performance and memory limitations of the system, as well as criticism from some readers who feel the Jaguar is not well-suited for running Linux.",
+      "comment_count": 30,
+      "hn_points": 167
+    }
+  }
+}
