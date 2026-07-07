@@ -1,0 +1,15 @@
+Cloning into 'ryzen-ai-halo'...
+fatal: could not read Username for 'https://github.com': No such device or address
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'ryzen-ai-halo/requirements.txt'
+python: can't open file '//ryzen-ai-halo/example.py': [Errno 2] No such file or directory
+ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for tensorflow
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'tensorflow'
