@@ -1,0 +1,105 @@
+{
+  "app_name": "Riddle",
+  "url": "https://github.com/MaximeRivest/Riddle",
+  "scored_at": "2026-07-07T13:05:19.803Z",
+  "total_score": 72,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project has 905 stars on GitHub and has been created recently, with 0 days since the last commit, indicating a high level of interest and activity, and its unique concept of turning reMarkable into Tom Riddle's diary from Harry Potter contributes to its novelty, with 1 day since the repo was created."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The install success is true and the install time is 12s, indicating easy installation, and the project has a PyPI package with Python requirement ~=3.6, making it accessible to a wide range of users."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web-extension, the project fits well with current trends in browser extensions, with many users looking for unique and creative tools to enhance their browsing experience, and with 905 stars on GitHub, it shows that the project is relevant to the current ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project has a unique concept of turning reMarkable into Tom Riddle's diary from Harry Potter, which sets it apart from other browser extensions, and its 905 stars on GitHub indicates that it has gained significant attention, although the number of forks (56) and contributors (2) is relatively low compared to similar tools."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 905 stars, 56 forks, and 2 contributors on GitHub, indicating a moderate level of community engagement, and the fact that it has been committed to recently (0 days since last commit) shows that the project is actively maintained, although the number of open issues (5) is relatively low."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The project has a high test pass rate (5/5), and the basic run success is true, indicating that the project is easy to use and run, and the fact that it is a browser extension makes it accessible to a wide range of users."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The project has a PyPI package with Python requirement ~=3.6, making it easy to integrate into existing workflows, and the fact that it is a browser extension makes it easy to install and use, although the license (MIT) may have some limitations."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with some documentation, although the quality and completeness of the documentation are not explicitly stated, and the primary language is Rust, which may require additional learning for some users."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project has been created recently (1 day since the repo was created), and the fact that it has been committed to recently (0 days since last commit) shows that the project is actively maintained, although the number of open issues (5) is relatively low, indicating that the project may still be in the early stages of development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The project's benchmark measurements show a response time of 41.27ms, health response time of 2.82ms, import time of 4.72ms, and query latency of 2.10ms, indicating good performance, and the memory usage is 102593 bytes, which is relatively low."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The HN sentiment score is 5/10, with 528 points, 30 comments analyzed, and mixed feedback, indicating a neutral sentiment, with some users appreciating the project's utility and others being frustrated by issues with viewing the video demo."
+    }
+  },
+  "summary": "Riddle is a unique browser extension that turns reMarkable into Tom Riddle's diary from Harry Potter, with a high level of community interest and activity, and good performance, although the documentation and maturity may require improvement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/MaximeRivest/Riddle",
+  "tool_url": "https://github.com/MaximeRivest/Riddle",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48811591",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 905,
+      "forks": 56,
+      "open_issues": 5,
+      "watchers": 905,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "2020.7.26",
+      "summary": "Python library for encryption",
+      "requires_python": "~=3.6",
+      "license": "MIT",
+      "home_page": "https://github.com/idin/riddle"
+    },
+    "tests_passed": 5,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Some users found the project helpful once they could view the video demo.",
+        "The project allows users to bypass Twitter's requirements by using workarounds like xcancel and nitter.net.",
+        "A few users appreciated being able to view the video despite not having a Twitter account."
+      ],
+      "negative_signals": [
+        "The project initially received criticism for not providing a clear elevator pitch.",
+        "Many users had trouble viewing the video demo due to Twitter's login requirements.",
+        "Some users felt that the project did not live up to its description."
+      ],
+      "justification": "The comments are mixed, with both positive and negative feedback. Some users appreciated the project's utility, while others were frustrated by the issues with viewing the video demo. Overall, the reception is neutral.",
+      "comment_count": 30,
+      "hn_points": 528
+    }
+  }
+}
