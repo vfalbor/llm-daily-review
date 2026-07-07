@@ -1,0 +1,71 @@
+{
+  "app_name": "WhimFiles",
+  "url": "https://whimfiles.com/",
+  "scored_at": "2026-07-07T13:06:12.012Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app claims to be a native Mac file manager with filtering and fuzzy find capabilities, which is a unique combination, but similar tools like Dolphin, TwoFinger, and ForkLift exist, so it's not entirely new, with no specific comparison data available."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating potential issues with installation, but the install time is not applicable in this case, and it's not pip-installable, which might limit accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a file manager, it fits well within current devtool trends, especially with its focus on speed and native integration, but there's no direct data linking it to LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "It differentiates itself from similar tools like Dolphin, TwoFinger, and ForkLift by being designed for Mac and focusing on speed and filtering capabilities, but no direct comparison data is available."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess community engagement, and without HN comments, community sentiment cannot be evaluated, thus scoring is based on the absence of data."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "With no tests passed (0/0), and basic run success being true, but no specific data on usability or user experience, the ease of use cannot be accurately assessed, so it's scored as neutral due to lack of data."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There's no PyPI package, no API/SDK/webhook mention, and no install command on the page, indicating significant challenges for integration, scored based on the absence of integrative features."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The webpage lacks a docs/wiki/guide link, changelog, or release notes, and while it has a significant content length (23506 chars), the absence of clear documentation guides scores it low."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 1.0, which could indicate a level of maturity, but without GitHub data or release notes, and considering it's a Show HN post, it might still be in early stages, scored based on versioning."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess its performance accurately, so it's scored as neutral due to insufficient data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the absence of comments or failed analysis."
+    }
+  },
+  "summary": "WhimFiles is a native Mac file manager focusing on speed and filtering, with a unique approach but faces challenges in installation and integration, lacking clear documentation and community data.",
+  "recommendation": "niche",
+  "app_url": "https://whimfiles.com/",
+  "tool_url": "https://whimfiles.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48814952",
+  "domain": "web",
+  "app_type": "devtool-filemanager",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
