@@ -1,0 +1,43 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "hn_url": "https://news.ycombinator.com/item?id=48807225",
+    "points": 195,
+    "comments": 57,
+    "author": "maxloh",
+    "age": "2026-07-06T16:47:44 1783356464",
+    "scraped_at": "2026-07-07T13:00:03.149Z",
+    "tool_url": "https://github.com/iOfficeAI/OfficeCLI",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "data-format",
+    "description": "Open-source toolkit to enable AI agents to work with MS Office documents.",
+    "use_modes": [
+      "CLIs for document conversion & editing"
+    ],
+    "similar_tools": null,
+    "proposed_tests": [
+      "Install OfficeCLI and use its CLI for MS Office to JSON conversion",
+      "Test that OfficeCLI can edit MS Office files"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/iOfficeAI/OfficeCLI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783429699273-63a80",
+    "log_dir": "/tmp/llm-review-1783429699273-63a80",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement officecli (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for officecli\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.6-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:ms_office_to_json_conversion:[Errno 2] No such file or directory: 'officecli'\nTEST_FAIL:edit_ms_office_files:[Errno 2] No such file or directory: 'officecli'\nTEST_FAIL:measure_memory_usage:No module named 'officecli'\nTEST_FAIL:compare_performance_with_baseline:[Errno 2] No such file or directory: 'officecli'\nRUN_OK\n"
+  }
+}
