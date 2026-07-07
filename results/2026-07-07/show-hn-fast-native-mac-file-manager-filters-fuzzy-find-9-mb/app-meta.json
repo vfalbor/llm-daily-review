@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Show HN: Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+    "url": "https://whimfiles.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48814952",
+    "points": 36,
+    "comments": 29,
+    "author": "whimbyte",
+    "age": "2026-07-07T08:12:12 1783411932",
+    "scraped_at": "2026-07-07T13:00:03.146Z",
+    "confidence": "0.85",
+    "repo_url": "https://github.com/whimfiles/whimfiles",
+    "domain": "web",
+    "app_type": "devtool-filemanager",
+    "tool_url": "https://whimfiles.com/",
+    "similar_tools": [
+      "Dolphin",
+      "TwoFinger",
+      "ForkLift"
+    ],
+    "is_reviewable": true,
+    "description": "Fast, native Mac file manager.",
+    "use_modes": [
+      "Desktop App",
+      "CLI"
+    ],
+    "proposed_tests": [
+      "Run a benchmark comparing whimfiles to other file managers.",
+      "Test filtering and fuzzy find features.",
+      "Verify that the app does not use Electron."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1783429521117-tf06g",
+    "log_dir": "/tmp/llm-review-1783429521117-tf06g",
+    "install_success": false,
+    "install_time_s": 11.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/whimfiles - Not found\nnpm error 404\nnpm error 404  The requested resource 'whimfiles@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-07T13_05_36_931Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.6-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nOK: 97.9 MiB in 60 packages\nINSTALL_FAIL:[Errno 2] No such file or directory: 'whimfiles'\nRUN_OK\n"
+  }
+}
