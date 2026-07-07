@@ -1,0 +1,83 @@
+{
+  "app_name": "Small AI Models",
+  "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+  "scored_at": "2026-07-07T13:04:49.242Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The use of small AI models for emergency supply kits and disaster recovery is a unique approach, with 2.5 as the detected version, which indicates some level of development and innovation, citing the page content length of 342866 chars as a proxy for depth."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false, and install time was 39.8s, indicating significant issues with installation, citing the install success and time metrics from the container test results."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is related to AI and pharmaceuticals, which is a current trend, but without a clear indication of its fit with the broader LLM ecosystem, citing the source type as 'tool' and the page title 'Small Language Models Power Life-Saving Small AI - IEEE Spectrum'."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate how this tool differentiates itself from similar tools, as no direct comparisons are available, and the detected version does not provide enough insight."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The tool does not have a GitHub repository detected, but it has an article with 185 HN points, 30 comments analyzed, and a sentiment score of 8/10, indicating some level of community interest, citing HN points, comments, and sentiment score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed was 1/2, and basic run success was false, indicating difficulties in usage, citing the tests passed and basic run success metrics from the container test results."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has a detected version of 2.5 and mentions API/SDK/webhook, but no clear indication of ease of integration, citing the detected version and API/SDK/webhook mention on the webpage."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no clear documentation or wiki link found on the webpage, and the content length of 342866 chars does not necessarily indicate good documentation, citing the has docs/wiki/guide link as false and content length as a proxy."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The detected version is 2.5, which may indicate some level of maturity, but without release notes or a changelog, it's difficult to assess, citing the detected version and absence of release notes or changelog."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The import_time_ms is 1733.0822944641113, which does not provide a clear indication of performance compared to other tools, citing the benchmark measurement from the container."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 185 HN points, 30 comments analyzed, and positive signals including the use of AI models for emergency supply kits, citing the sentiment score, HN points, comments analyzed, and positive signals."
+    }
+  },
+  "summary": "This tool explores the use of small AI models in areas with unreliable networks, particularly for emergency supply kits and disaster recovery, showing enthusiasm and potential but also raising concerns about practicality and energy efficiency.",
+  "recommendation": "niche",
+  "app_url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48812055",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Use of AI models for emergency supply kits and disaster recovery",
+        "Potential for increased quality of life with low-tech solutions",
+        "Enthusiasm for AI-powered oracles and knowledge storage"
+      ],
+      "negative_signals": [
+        "Concerns about energy efficiency and practicality",
+        "Criticism of prepper culture and unlikely scenarios",
+        "Doubts about the value of AI models for immediate emergency needs"
+      ],
+      "justification": "The commenters overall show enthusiasm and potential for AI-powered emergency supply kits and disaster recovery, but some raise concerns about energy efficiency, practicality, and the value of AI models for immediate needs. The comment threads also touch on the importance of low-tech solutions and the limitations of prepper culture.",
+      "comment_count": 30,
+      "hn_points": 185
+    }
+  }
+}
