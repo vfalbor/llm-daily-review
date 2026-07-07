@@ -1,0 +1,103 @@
+{
+  "app_name": "Ternlight",
+  "url": "https://ternlight-demo.vercel.app/",
+  "scored_at": "2026-07-07T13:06:33.658Z",
+  "total_score": 73,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Ternlight is a unique 7 MB embedding model that runs in the browser, indicating a high level of novelty with its approach, and it's not a direct clone of existing tools like Llama, Wav2Vec, or DistilBERT."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Given that Ternlight is a browser-based application, its system requirements are minimal, with no need for complex installations, and it runs on consumer hardware, making it highly accessible."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Ternlight addresses an acute pain point in today's LLM workflows by providing a lightweight, browser-run model, fitting well with current trends towards more accessible and efficient AI tools."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Ternlight differentiates itself with its focus on being a small, browser-run model, distinct from larger models like Llama, which has 119,544 stars, or more specialized models like Wav2Vec and DistilBERT, indicating a unique feature set."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN points of 271 and positive comments from 30 analyzed comments show a supportive community, with encouragement and appreciation for the project, though the lack of a GitHub repository detected limits the direct assessment of community engagement through stars and contributors."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "While the basic run success is true, indicating that the model can be run, there's limited direct data on usability from the tests, but the fact it's a browser-based application suggests a relatively low barrier to entry for users."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Ternlight's integration into existing workflows might be limited by its specialized use case as a browser-run model, and the lack of a PyPI package or clear API modes beyond WASM suggests moderate complexity in integrating it into broader applications."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project's description and the availability of a demo suggest some level of documentation, but without direct access to a comprehensive docs site or GitHub repository, the score is based on the assumption of basic documentation being available."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given the lack of direct data on the project's age, forks, or open issues due to the absence of a detected GitHub repository, and considering it's an open-source tool with a specific use case, the maturity is moderately assessed based on the availability of a demo and its open-source nature."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's insufficient data to directly assess Ternlight's performance in comparison to other models, as no specific benchmarks are provided in the data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score of 8/10, with 271 HN points and 30 comments analyzed, showing positive signals such as encouragement and interest, indicates a favorable community sentiment towards the project."
+    },
+    "overall_impact": {
+      "score": 8,
+      "justification": "Considering Ternlight's novelty, relevance, and community reception, it indicates a significant overall impact within the LLM community, offering a unique solution that resonates with developers and users alike."
+    }
+  },
+  "summary": "Ternlight is a novel, browser-run embedding model that offers a unique approach to LLM inference, with a supportive community and moderate ease of use, though its performance and maturity are less clear due to limited data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ternlight-demo.vercel.app/",
+  "tool_url": "https://github.com/memgraph/ternlight",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48811644",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Llama",
+        "stars": 119544,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "Wav2Vec",
+        "stars": 378,
+        "repo": "oliverguhr/wav2vec2-live"
+      },
+      {
+        "name": "DistilBERT",
+        "stars": 161,
+        "repo": "BandaiNamcoResearchInc/DistilBERT-base-jp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Encouragement and excitement from developers",
+        "Appreciation for sharing code and training process",
+        "Interest in using the model for various projects"
+      ],
+      "negative_signals": [
+        "One user experienced loading issues in Safari",
+        "Some users found the loading sounds startling",
+        "One commenter suggested a W3C LLM API standard"
+      ],
+      "justification": "The majority of comments were positive, with praise for the project, sharing of code, and interest in using the model. A few minor criticisms, such as loading issues in Safari and startling sounds, were mentioned but did not detract from the overall enthusiasm for the project.",
+      "comment_count": 30,
+      "hn_points": 271
+    }
+  }
+}
