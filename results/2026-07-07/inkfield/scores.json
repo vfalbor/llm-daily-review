@@ -1,0 +1,83 @@
+{
+  "app_name": "Inkfield",
+  "url": "https://www.inkfield.studio/",
+  "scored_at": "2026-07-07T13:07:42.342Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Lacking specific data on days_since_created and comparisons to similar tools, but the app's description suggests it doesn't bring a fundamentally new approach, scoring it at 4."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 13.4s which is somewhat moderate. The absence of a PyPI package affects the score, resulting in a 6."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Given the app type is web-frontend and lacking specific data on its fit with current LLM ecosystem trends, the score is set to 5 as a neutral stance."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Without GitHub stars or similarities to directly compare, and considering the absence of a clear unique feature set from the provided data, the differentiation score is set at 3."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Given the low HN points of 36 and mixed comments, indicating some enthusiasm but significant issues, the community score is set at 2."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Tests passed are 1 out of 3, indicating some functionality issues, but basic run success is true. The justification for this score is based on these test results."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The absence of a PyPI package, no API/SDK/webhook mention, and no install command on the page results in a low ease of integration score of 2."
+    },
+    "documentation": {
+      "score": 1,
+      "justification": "With no detected wiki, guide, changelog, or release notes, and a very short page content length of 8 characters, the documentation score is set to 1."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Given the detected version is 1.0, but lacking other maturity signals like release notes or a changelog, the maturity score is set at 4."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Lacking direct benchmark comparisons from the tests and considering the initial_load_ms is 7.810831069946289, but without context on how this compares to similar tools, the performance score is set to 5 as a neutral stance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "With a sentiment score of 6/10, HN points of 36, and mixed user feedback, the HN sentiment score reflects the overall community feedback, which is somewhat positive but also indicates significant issues."
+    }
+  },
+  "summary": "Inkfield is a web-frontend tool with moderate system requirements but faces challenges in terms of novelty, differentiation, community engagement, ease of use, integration, documentation, and maturity. While it shows some promise, significant issues, such as glitches and unclear functionality, hinder its potential.",
+  "recommendation": "skip",
+  "app_url": "https://www.inkfield.studio/",
+  "tool_url": "https://www.inkfield.studio/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48778243",
+  "domain": "devtool",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Works for some users",
+        "Looks cool",
+        "Visually interesting"
+      ],
+      "negative_signals": [
+        "Major glitches on iOS",
+        "Unclear purpose or functionality",
+        "Loading messages and incomplete renderings"
+      ],
+      "justification": "The comments are generally positive, with some enthusiasm for the project's visual appeal. However, significant issues were raised, including graphical glitches on iOS, unclear functionality, and incomplete or failed renderings for some users.",
+      "comment_count": 10,
+      "hn_points": 36
+    }
+  }
+}
