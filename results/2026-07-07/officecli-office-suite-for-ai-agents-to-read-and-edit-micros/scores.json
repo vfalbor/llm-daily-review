@@ -1,0 +1,113 @@
+{
+  "app_name": "OfficeCLI",
+  "url": "https://github.com/iOfficeAI/OfficeCLI",
+  "scored_at": "2026-07-07T13:08:52.532Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "OfficeCLI offers a first-of-its-kind approach to enabling AI agents to read and edit Microsoft Office files, with 9,340 GitHub stars and 657 forks, indicating a significant original contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time of 8.6s is moderate, but the lack of a PyPI package and the need for manual installation may hinder accessibility, despite install success being true."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "OfficeCLI addresses an acute pain point in today's LLM workflows by providing a free, open-source solution for AI agents to work with MS Office documents, fitting well with current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 9,340 GitHub stars, OfficeCLI has a clear advantage over similar tools, offering a unique feature set that enables AI agents to read and edit Office files without requiring Office installation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "OfficeCLI has 9,340 GitHub stars, 11 contributors, and a responsive community, as evidenced by the 30 HN comments analyzed, indicating a strong and active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Despite basic run success being true, the fact that 0 out of 4 tests passed indicates significant usability issues, suggesting that the tool may be difficult to use or have significant bugs."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The lack of a PyPI package and the need for manual installation may hinder integration, despite the Apache-2.0 license and CLIs for document conversion and editing, which could facilitate integration with some workflows."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The project has a GitHub repository with some documentation, but the lack of a dedicated docs site or extensive tutorials may make it harder for new users to get started, although the project's README provides some guidance."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "With 114 days since the repository was created and 0 days since the last commit, OfficeCLI is actively maintained, and its Apache-2.0 license suggests a level of maturity in its development and distribution."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are available for OfficeCLI, making it difficult to assess its performance compared to other similar tools, thus a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score of 6/10, with 197 HN points and 30 comments analyzed, indicates a generally positive but also critically engaged community, with both praise for the project's potential and concerns about its approach and licensing."
+    }
+  },
+  "summary": "OfficeCLI is an innovative, open-source toolkit enabling AI agents to read and edit Microsoft Office files, offering significant potential for LLM workflows but facing challenges in usability and integration. Its strong community and active maintenance are notable positives.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/iOfficeAI/OfficeCLI",
+  "tool_url": "https://github.com/iOfficeAI/OfficeCLI",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48807225",
+  "domain": "devtool",
+  "app_type": "data-format",
+  "enriched": {
+    "github": {
+      "stars": 9340,
+      "forks": 657,
+      "open_issues": 18,
+      "watchers": 9340,
+      "contributors": 11,
+      "license": "Apache-2.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 114,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "topics": [
+        "agent",
+        "ai",
+        "claude-code",
+        "cli",
+        "codex",
+        "docx",
+        "excel",
+        "office",
+        "openclaw",
+        "pptx",
+        "presentation",
+        "skills",
+        "word",
+        "xlsx"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "AI agents can read, edit, and automate Office files",
+        "Provides a free, open-source solution without requiring Office installation",
+        "Excitement and praise for the project's potential uses"
+      ],
+      "negative_signals": [
+        "Concerns about rendering files",
+        "Criticism of the project's approach to editing PowerPoint files",
+        "Licensing issues (Apache vs Elastic)"
+      ],
+      "justification": "The commenters generally express excitement and praise for the project's potential uses, but also raise concerns about rendering files and criticize the approach to editing PowerPoint files. Licensing issues also present a significant drawback.",
+      "comment_count": 30,
+      "hn_points": 197
+    }
+  }
+}
