@@ -1,0 +1,83 @@
+{
+  "app_name": "AMD Ryzen AI Halo",
+  "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+  "scored_at": "2026-07-07T13:07:08.196Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The AMD Ryzen AI Halo is a new AI dev kit with a forward-thinking approach, but similar tools exist, such as the Framework Desktop, so it scores 6 for novelty, citing the page title 'AI Dev Kit, Batteries Included' and no direct comparison to similar tools."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 8.7s, which indicates issues with system requirements, so it scores 3, citing the install success and time."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The AMD Ryzen AI Halo is relevant to current AI development trends, addressing pain points in AI workflows, so it scores 8, citing the app type 'ml-accelerator' and its fit with current trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No direct comparison to similar tools is available, so it scores 5, citing the lack of data on similar tools."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 350, which indicates a moderate community interest, but no GitHub repo is detected, so it scores 4, citing the HN points and absence of GitHub data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0 / 2, which indicates issues with ease of use, so it scores 2, citing the tests passed and basic run success."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page has an API/SDK mention, but no PyPI package is found, so it scores 6, citing the API mention and absence of PyPI package."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The page has a docs/wiki/guide link and examples, with a content length of 373617 chars, so it scores 7, citing the page signals for documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repo is detected, and the page has no changelog or release notes, so it scores 5, citing the lack of data on maturity."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The vs_tensorflow_install_time_ms and vs_tensorflow_import_time_ms failed, indicating performance issues, so it scores 4, citing the benchmark measurements."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The sentiment score is 4/10, with 350 HN points and 30 comments analyzed, indicating a mixed sentiment, so it scores 4, citing the sentiment score and HN points."
+    }
+  },
+  "summary": "The AMD Ryzen AI Halo is a new AI dev kit with a forward-thinking approach, but it has issues with system requirements, ease of use, and performance, and limited community and maturity signals.",
+  "recommendation": "niche",
+  "app_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+  "tool_url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48805624",
+  "domain": "hardware",
+  "app_type": "ml-accelerator",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "forward-thinking approach to RAM and memory bandwidth",
+        "opportunity for AMD to control built-in software and ecosystem",
+        "cost-effective compared to Framework Desktop"
+      ],
+      "negative_signals": [
+        "massive price appreciation in a short period",
+        "memory limitations and bottlenecks",
+        "potential for overpriced hardware"
+      ],
+      "justification": "While some users appreciate AMD's forward-thinking approach and cost-effectiveness, others criticize the massive price appreciation and memory limitations. The sentiment is generally negative due to concerns about value for money, but with some constructive criticism and suggestions for future improvement.",
+      "comment_count": 30,
+      "hn_points": 350
+    }
+  }
+}
