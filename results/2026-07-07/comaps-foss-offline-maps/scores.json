@@ -1,0 +1,113 @@
+{
+  "app_name": "CoMaps",
+  "url": "https://www.comaps.app/",
+  "scored_at": "2026-07-07T13:03:56.542Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "CoMaps is not the first of its kind, with similar tools like OsmAnd and Maps.me existing. However, its open-source nature and active community contribute to its novelty, with 148 contributors involved. It has been 423 days since the repository was created, indicating some maturity."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app could not be installed successfully, and its install time was 7.4 seconds. There is no PyPI package found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a mobile-cartography tool, CoMaps fits into the current ecosystem trends of needing accessible and user-friendly map applications, especially with the rise of outdoor activities and travel."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While CoMaps has its advantages, such as being open-source and having an active community, its differentiation from similar tools like OsmAnd and Maps.me in terms of features and user base is not significantly high, with -5372 stars compared to OsmAnd."
+    },
+    "community": {
+      "score": 8,
+      "justification": "CoMaps has 446 stars on GitHub, 148 contributors, and 0 open issues, indicating a healthy and active community. The fact that it has 33 forks also suggests interest in the project."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0, and basic run success being false, it's clear that there are significant usability issues that need to be addressed."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "While CoMaps has a use mode as a Mobile App and Web API, the lack of a PyPI package and the need for manual integration might pose some challenges for users."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited information available about the quality of CoMaps' documentation, so it's scored neutrally."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given that CoMaps has been around for 423 days, has an active community, and is open-source under the Apache-2.0 license, it shows signs of maturity, but the lack of a stable release might indicate it's still in development."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "There are no benchmark results available for CoMaps, but the HN comments mention slow search functionality, indicating potential performance issues."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 648 points and 30 comments analyzed. Positive signals highlight good development and active community, while negative signals point to slow search functionality and limited data on places."
+    },
+    "overall_value": {
+      "score": 5,
+      "justification": "Given the mixed feedback and the current state of the application, its overall value is neutral, requiring more development to reach its full potential."
+    }
+  },
+  "summary": "CoMaps is an open-source, offline maps application for Android and iOS, with an active community and potential for differentiation but faces challenges in terms of usability, integration, and performance. It currently has a mixed reception on HN, with both positive and negative feedback.",
+  "recommendation": "niche",
+  "app_url": "https://www.comaps.app/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48808928",
+  "domain": "mobile",
+  "app_type": "mobile-cartography",
+  "enriched": {
+    "github": {
+      "stars": 446,
+      "forks": 33,
+      "open_issues": 0,
+      "watchers": 446,
+      "contributors": 148,
+      "license": "Apache-2.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 423,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A mirror of https://codeberg.org/comaps/comaps. CoMaps is a community fork of Organic Maps. Based on principles of openness & transparency, not-for-profit & in the public interest, community-driven & accountable, fully free and open source software!",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "OsmAnd",
+        "stars": 5818,
+        "repo": "osmandapp/OsmAnd"
+      },
+      {
+        "name": "Maps.me",
+        "stars": 196,
+        "repo": "dburles/meteor-google-maps"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Good development and active community",
+        "Works well for navigation and routing",
+        "Comparable to OrganicMaps and has its own advantages"
+      ],
+      "negative_signals": [
+        "Slow search functionality due to client-side calculation",
+        "Limited data on places (e.g. missing address information, no wheelchair accessibility)",
+        "No server-side search capabilities"
+      ],
+      "justification": "Comments suggest a generally positive reception for CoMaps, with users praising its navigation and routing capabilities. However, there are some criticisms regarding slow search functionality, limited data on places, and lack of server-side search capabilities.",
+      "comment_count": 30,
+      "hn_points": 648
+    }
+  }
+}
