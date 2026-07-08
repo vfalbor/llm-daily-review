@@ -1,0 +1,94 @@
+{
+  "app_name": "pgdog",
+  "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+  "scored_at": "2026-07-08T13:05:55.985Z",
+  "total_score": 58,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With a sentiment score of 8/10, 219 HN points, and 30 comments analyzed, the overall sentiment is positive, with comments praising pgdog's capabilities and features, despite some challenges with connection pooling and cursor handling."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "As a new Postgres connection pooler, pgdog brings some unique features to the table, such as automatic query routing to read replicas and auto-sharding, which differentiates it from existing solutions like pgbouncer and pgpool."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating potential difficulties with setup, and no PyPI package is available, limiting ease of installation and use."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "pgdog addresses the need for better Postgres connection pooling, which is highly relevant in today's database ecosystem, where efficient and scalable connection management is crucial."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like pgbouncer (4,232 stars) and pgpool (432 stars), pgdog's unique features, such as automatic query routing and auto-sharding, set it apart, despite not having a comparable GitHub presence."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository was detected, making it impossible to evaluate community engagement and health based on GitHub metrics."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the tool's ease of use and stability are questionable, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The lack of a PyPI package and unclear API modes limit the ease of integration, although the tool has a CLI and API, which could facilitate integration with some effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality of documentation, as no GitHub repository or detailed documentation was found, making it difficult to assess how well the tool is documented."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the tool's maturity, as there is no information on its age, release history, or community engagement."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data or performance metrics are available, making it impossible to evaluate the tool's performance compared to other Postgres connection poolers."
+    }
+  },
+  "summary": "pgdog is a new Postgres connection pooler with unique features that address current database needs, but its ease of use, integration, and maturity are uncertain due to limited available data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+  "tool_url": "https://github.com/pgdog/yourpooler",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48819308",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "pgbouncer",
+        "stars": 4232,
+        "repo": "pgbouncer/pgbouncer"
+      },
+      {
+        "name": "pgpool",
+        "stars": 432,
+        "repo": "pgpool/pgpool2"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "pgdog looks extremely amazing on paper",
+        "going way beyond multi threading",
+        "notify/listen fix and automatic query routing to read replicas and auto sharding might bring Postgres closer to vitess"
+      ],
+      "negative_signals": [
+        "handling cursors is tough",
+        "server-side cursors are a sign of bad design",
+        "connections pools are hard in general"
+      ],
+      "justification": "The majority of comments are impressed with pgdog's capabilities, discussing its impressive features and comparing it to other solutions. However, some comments highlight challenges with connection pooling and cursor handling.",
+      "comment_count": 30,
+      "hn_points": 219
+    }
+  }
+}
