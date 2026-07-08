@@ -1,0 +1,109 @@
+{
+  "app_name": "Jim's TrueType QR Code Font",
+  "url": "https://github.com/jimparis/qr-font",
+  "scored_at": "2026-07-08T13:06:36.532Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app uses a genuinely new way to create a QR code font, with 10 days since repo creation and 319 GitHub stars, showing original contribution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app has an install time of 8.3s, but it's not pip-installable, indicating moderate complexity."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app fits with current trends in QR code generation, but its practicality is questionable, with 10 days since last commit."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique feature set, but its star count is -33695 compared to zxing and -74 compared to qrencode, indicating some differentiation but not exceptional."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 319 GitHub stars, 8 forks, and 3 open issues, showing a small but present community, with 1 contributor and 10 days since last commit."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has 0 tests passed and basic run success is false, indicating significant friction or broken functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is not pip-installable and has no PyPI package, making integration difficult."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app has a GitHub repository but no clear documentation or wiki, indicating some effort but not sufficient."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The app has 10 days since creation and 10 days since last commit, indicating a pre-alpha or prototype stage, with no releases."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark data is available, and the app's performance is not explicitly stated, so it's scored as average due to insufficient evidence."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 195 points, 25 comments, and positive signals like 'Impressive technique' and 'Cool feature', but also negative signals like 'Spaces are broken on Safari'."
+    }
+  },
+  "summary": "Jim's TrueType QR Code Font is a novel approach to creating QR codes, but it has significant usability and integration issues, and its community and maturity are still in early stages.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/jimparis/qr-font",
+  "tool_url": "https://github.com/jimparis/qr-font",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48820119",
+  "domain": "devtool",
+  "app_type": "tool-app",
+  "enriched": {
+    "github": {
+      "stars": 319,
+      "forks": 8,
+      "open_issues": 3,
+      "watchers": 319,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 10,
+      "days_since_created": 10,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A QR code generator in a TrueType font: https://qr.jim.sh/",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "zxing",
+        "stars": 34014,
+        "repo": "zxing/zxing"
+      },
+      {
+        "name": "qrencode",
+        "stars": 393,
+        "repo": "jverkoey/ObjQREncoder"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive technique",
+        "Amazing way to create a QR code font",
+        "Cool feature to divert bots"
+      ],
+      "negative_signals": [
+        "Spaces are broken on Safari",
+        "Implementation differences with embedded spaces",
+        "Not practical for day-to-day use"
+      ],
+      "justification": "While there are some concerns about implementation differences and lack of support for non-English languages, the innovative technique and cool features of the QR code font are largely praised. However, some users express skepticism about its practicality.",
+      "comment_count": 25,
+      "hn_points": 195
+    }
+  }
+}
