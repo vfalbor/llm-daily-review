@@ -1,0 +1,121 @@
+{
+  "app_name": "Geosql",
+  "url": "https://github.com/dekart-xyz/geosql",
+  "scored_at": "2026-07-08T13:02:09.496Z",
+  "total_score": 56,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 48 points and 6 comments, indicating a generally positive reception with constructive criticism."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "Geosql is a new approach to geospatial data, with 97 days since repo creation and 211 stars, comparing favorably to similar tools like PostGIS (2,157 stars) and Geomesa (1,488 stars), although still an early-stage project."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and install time is 6.9s, indicating potential issues with system requirements or installation process."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a geospatial database tool, Geosql fits well with current trends in the LLM ecosystem, addressing specific needs in urban planning and GeoAI, with a compelling solution for geospatial tasks."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Geosql differentiates itself from similar tools like PostGIS, Geomesa, and CQL, although it has fewer stars, with 211 stars compared to PostGIS' 2,157 and Geomesa's 1,488, indicating a smaller but potentially dedicated community."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The community around Geosql is relatively small, with 211 stars, 24 forks, and 1 open issue, indicating a need for more community engagement and contribution."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The container test results show 0 tests passed out of 0, and basic run success is false, indicating potential difficulties in ease of use or setup."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Geosql has a PyPI package (v0.26.0) and supports Python 3.8+, with a MIT license, making it relatively easy to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation for Geosql is not extensively detailed in the provided data, so a score of 5 is assigned due to insufficient information."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 97 days since the repository was created and 8 days since the last commit, Geosql is still a relatively new project, indicating a lower level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no specific performance benchmarks provided in the data, so a neutral score of 5 is assigned due to insufficient information."
+    }
+  },
+  "summary": "Geosql is a novel geospatial database tool with a dedicated but small community, facing challenges in installation and use, but offering a unique solution for geospatial tasks with potential for growth and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/dekart-xyz/geosql",
+  "tool_url": "https://github.com/dekart-xyz/geosql",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48829242",
+  "domain": "database",
+  "app_type": "database-geospatial",
+  "enriched": {
+    "github": {
+      "stars": 211,
+      "forks": 24,
+      "open_issues": 1,
+      "watchers": 211,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 8,
+      "days_since_created": 97,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Turn Claude/Codex into geospatial analytics agent.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PostGIS",
+        "stars": 2157,
+        "repo": "postgis/postgis"
+      },
+      {
+        "name": "Geomesa",
+        "stars": 1488,
+        "repo": "locationtech/geomesa"
+      },
+      {
+        "name": "CQL",
+        "stars": 487,
+        "repo": "aviralkumar2907/CQL"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.26.0",
+      "summary": "Install GeoSQL instructions into local AI CLIs.",
+      "requires_python": ">=3.8",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful for urban planning",
+        "compelling GeoAI solution",
+        "4x improvement on geospatial tasks"
+      ],
+      "negative_signals": [
+        "concern about business value",
+        "difficulty in data movement",
+        "skepticism about sharing markdowns"
+      ],
+      "justification": "The project received generally positive comments with constructive criticism from GIS developers and users. One concern was the lack of clear business value and the difficulty in moving data around.",
+      "comment_count": 6,
+      "hn_points": 48
+    }
+  }
+}
