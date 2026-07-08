@@ -1,0 +1,83 @@
+{
+  "app_name": "LineageOS Statistics",
+  "url": "https://stats.lineageos.org/",
+  "scored_at": "2026-07-08T13:03:37.162Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides unique insights into LineageOS device statistics, with 129 HN points and 30 comments analyzed, indicating a notable original contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false, and no PyPI package was found, indicating significant accessibility issues."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-monitoring app, it fits within current trends, but its relevance is somewhat diminished due to installation issues and lack of pip-installability."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Android Open Source Project (AOSP) Statistics, LineageOS Statistics offers unique insights, with 129 HN points indicating a notable advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess community engagement, so a neutral score is assigned due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0, and basic run success being false, the app's usability is significantly impaired."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has a web mode but lacks a PyPI package and API key, making integration moderately challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation, and given the lack of a GitHub repository, the quality of documentation is unclear, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to accurately assess the app's maturity, given the absence of a GitHub repository and other relevant metrics."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No specific performance benchmarks were provided, and given the installation issues, performance is likely to be suboptimal, but not quantifiably measured."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "With a sentiment score of 6/10, 129 HN points, and 30 comments, the overall sentiment is moderately positive, despite some criticisms and concerns."
+    }
+  },
+  "summary": "LineageOS Statistics provides valuable insights into device statistics but faces significant challenges with installation, usability, and community engagement, which hinder its overall score and potential impact.",
+  "recommendation": "niche",
+  "app_url": "https://stats.lineageos.org/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48826329",
+  "domain": "devtool",
+  "app_type": "devtool-monitoring",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "LineageOS has a dedicated community and a wide range of supported devices",
+        "The project has a good track record of updates and maintenance",
+        "Users are enthusiastic and appreciate the options for customization"
+      ],
+      "negative_signals": [
+        "There is skepticism about some installs being legitimate or not",
+        "The project's stance on microG and its subreddit policies have been criticized",
+        "Some users are depressed by the state of the project"
+      ],
+      "justification": "The overall sentiment is positive, with many users appreciating the project's efforts and enthusiasm. However, some comments express concern about the legitimacy of some installations and the project's policies. Additionally, some users are disappointed by the lack of newer devices supported.",
+      "comment_count": 30,
+      "hn_points": 129
+    }
+  }
+}
