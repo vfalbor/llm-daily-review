@@ -1,0 +1,48 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.6-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.2-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+Collecting rowboat
+  Downloading rowboat-5.0.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting pydantic>=2.0.0 (from rowboat)
+  Downloading pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+Requirement already satisfied: requests>=2.25.0 in /usr/local/lib/python3.12/site-packages (from rowboat) (2.34.2)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.0.0->rowboat)
+  Downloading annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=2.0.0->rowboat)
+  Downloading pydantic_core-2.46.4-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (6.6 kB)
+Collecting typing-extensions>=4.14.1 (from pydantic>=2.0.0->rowboat)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.0.0->rowboat)
+  Downloading typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests>=2.25.0->rowboat) (3.4.9)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests>=2.25.0->rowboat) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests>=2.25.0->rowboat) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests>=2.25.0->rowboat) (2026.6.17)
+Downloading rowboat-5.0.1-py3-none-any.whl (3.6 kB)
+Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+Downloading pydantic_core-2.46.4-cp312-cp312-musllinux_1_1_x86_64.whl (2.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 38.1 MB/s eta 0:00:00
+Downloading annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Installing collected packages: typing-extensions, annotated-types, typing-inspection, pydantic-core, pydantic, rowboat
+Successfully installed annotated-types-0.7.0 pydantic-2.13.4 pydantic-core-2.46.4 rowboat-5.0.1 typing-extensions-4.16.0 typing-inspection-0.4.2
+INSTALL_OK
+BENCHMARK:import_time_ms:290.66
+TEST_PASS:Import Rowboat
+TEST_FAIL:Run Rowboat: module 'rowboat' has no attribute 'run'
+TEST_SKIP:Compare performance with Claude Desktop: No module named 'claude'
+RUN_OK
