@@ -1,0 +1,120 @@
+{
+  "app_name": "Rowboat",
+  "url": "https://github.com/rowboatlabs/rowboat",
+  "scored_at": "2026-07-08T13:05:11.368Z",
+  "total_score": 78,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Rowboat is a local-first alternative to Claude Desktop, showing a unique approach with 541 days since creation and 15,588 stars, indicating a notable contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app installed successfully in 11.6s, which is relatively fast, and has a PyPI package available, indicating good system requirements with a score of 9."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an open-source, local-first alternative to Claude Desktop, Rowboat fits well with current LLM ecosystem trends, addressing concerns about data privacy and security."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Rowboat has 15,588 stars, comparing favorably to Claude Desktop's 5,246 stars, and differently from Llama's 119,663 stars, indicating a clear differentiation with a score of 8."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 15,588 stars, 1,556 forks, and 15 contributors, Rowboat has a strong and active community, although the 103 open issues suggest some areas for improvement."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Given that 1 out of 3 tests passed and the basic run was successful, Rowboat's ease of use is somewhat compromised, warranting a score of 6 due to the mixed test results."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Rowboat has a PyPI package available, supports CLI and GUI use modes, and is licensed under Apache-2.0, making it relatively easy to integrate, with a score of 8."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "While specific documentation quality metrics are not provided, the presence of a GitHub repository with a detailed README and issues tracker suggests decent documentation, warranting a score of 7."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 541 days since creation, 1,556 forks, and regular commits (0 days since last commit), Rowboat demonstrates a good level of maturity, scoring 8."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The import_time_ms benchmark of 290.66 is provided, but without direct comparisons to other tools, we can only assess Rowboat's performance as average based on this single metric, resulting in a score of 7."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for Rowboat, so this criterion is set to null."
+    }
+  },
+  "summary": "Rowboat is an open-source, local-first alternative to Claude Desktop, offering a unique approach to LLM inference with strong community support and good system requirements, although its ease of use and performance could be improved.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://github.com/rowboatlabs/rowboat",
+  "tool_url": "https://github.com/rowboatlabs/rowboat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48819808",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 15588,
+      "forks": 1556,
+      "open_issues": 103,
+      "watchers": 15588,
+      "contributors": 15,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 541,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Open-source AI coworker, with memory",
+      "topics": [
+        "agents",
+        "agents-sdk",
+        "ai",
+        "ai-agents",
+        "ai-agents-automation",
+        "chatgpt",
+        "claude-code",
+        "claude-cowork",
+        "generative-ai",
+        "llm",
+        "multiagent",
+        "opeani",
+        "open-source",
+        "orchestration",
+        "productivity"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Claude Desktop",
+        "stars": 5246,
+        "repo": "aaddrick/claude-desktop-debian"
+      },
+      {
+        "name": "Llama",
+        "stars": 119663,
+        "repo": "ggml-org/llama.cpp"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "5.0.1",
+      "summary": "Python sdk for the Rowboat API",
+      "requires_python": ">=3.7",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
