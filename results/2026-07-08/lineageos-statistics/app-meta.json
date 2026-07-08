@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "LineageOS Statistics",
+    "url": "https://stats.lineageos.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48826329",
+    "points": 128,
+    "comments": 76,
+    "author": "pentagrama",
+    "age": "2026-07-08T01:27:39 1783474059",
+    "scraped_at": "2026-07-08T13:00:02.832Z",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "devtool",
+    "app_type": "devtool-monitoring",
+    "description": "LineageOS statistics and analytics",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "Android Open Source Project (AOSP) Statistics",
+      "LineageOS Dashboards"
+    ],
+    "proposed_tests": [
+      "Visit the LineageOS Statistics page, verify device stats are up-to-date",
+      "Compare LineageOS statistics with AOSP statistics, check trends and differences",
+      "Conduct user study to evaluate the usability and effectiveness of LineageOS statistics"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/LineageOS/lineagestats"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783515759648-e1ypv",
+    "log_dir": "/tmp/llm-review-1783515759648-e1ypv",
+    "install_success": false,
+    "install_time_s": 9.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement lineageos-stats (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for lineageos-stats\nCloning into 'stats'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 11, in install_dependencies\n    subprocess.run(['pip', 'install', 'lineageos-stats'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'lineageos-stats']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 90, in <module>\n    main()\n  File \"/app/test.py\", line 77, in main\n    install_dependencies()\n  File \"/app/test.py\", line 14, in install_dependencies\n    subprocess.run(['git', 'clone', 'https://github.com/LineageOS/stats.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/LineageOS/stats.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.6-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:pip install failed, falling back to git clone + pip install -e .\n"
+  }
+}
