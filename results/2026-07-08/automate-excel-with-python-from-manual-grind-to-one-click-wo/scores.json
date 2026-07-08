@@ -1,0 +1,93 @@
+{
+  "app_name": "Automate Excel with Python",
+  "url": "https://nostarch.com/automate-excel-with-python",
+  "scored_at": "2026-07-08T13:03:56.495Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app solves a problem in a genuinely new way by automating Excel workflows with Python, but similar tools like Excel-Py and PyXLSX exist, with 770 and 44 stars respectively."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, indicating issues with installation, and install time is 7.1s, which is relatively slow, with no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app fits well with current automation trends in the LLM ecosystem, providing a useful tool for automating Excel workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique approach to automating Excel workflows, but similar tools exist, such as Excel-Py with 770 stars and PyXLSX with 44 stars."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has mixed sentiment on HN with a score of 5/10, 25 points, and 9 comments, indicating a small but somewhat engaged community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has 0 tests passed out of 0, and basic run success is false, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has no PyPI package and no clear API modes, making integration potentially difficult."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a book as a use mode, which provides some documentation, but no wiki, pages, or GitHub topics are available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to determine maturity, as no GitHub repository is detected."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmarks are available to assess performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The HN sentiment score is 5/10, with 25 points, 9 comments, and mixed positive and negative signals, indicating a neutral sentiment."
+    }
+  },
+  "summary": "Automate Excel with Python is a tool that automates Excel workflows using Python, with a unique approach but similar tools available. It has a small but engaged community and potential usability issues.",
+  "recommendation": "niche",
+  "app_url": "https://nostarch.com/automate-excel-with-python",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48789625",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Excel-Py",
+        "stars": 770,
+        "repo": "fzumstein/python-for-excel"
+      },
+      {
+        "name": "PyXLSX",
+        "stars": 44,
+        "repo": "leegao/pyXLSX"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "pandas has been a godsend (comment 3)",
+        "very little new for those familiar with Python and basic programming (comment 5)"
+      ],
+      "negative_signals": [
+        "assumes a relaxed software environment (comment 1)",
+        "terrible title and misleading content (comment 4)",
+        "advertisement without sample chapters (comment 9)"
+      ],
+      "justification": "Mixed sentiment due to the existence of both positive reviews of pandas (comment 3) and negative comments about the project's title, content, and advertising method (comments 4 and 9). Insufficient data to give a higher or lower score.",
+      "comment_count": 9,
+      "hn_points": 25
+    }
+  }
+}
