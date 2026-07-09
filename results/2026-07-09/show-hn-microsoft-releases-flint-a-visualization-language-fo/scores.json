@@ -1,0 +1,111 @@
+{
+  "app_name": "Flint",
+  "url": "https://microsoft.github.io/flint-chart/#/",
+  "scored_at": "2026-07-09T13:03:12.530Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Flint is a new visualization language for AI agents, with 635 days since repo creation and 0 forks, indicating a unique contribution with no direct equivalent, similar to Graphviz but with a simpler abstraction."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to assess system requirements, as install success is false and install time is 7.2s, but no other information is available."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Flint is relevant to current LLM ecosystem trends, but its use modes are limited to web-based, and its primary language is PowerShell, which may not be as widely adopted as other languages."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Flint has 0 stars on GitHub, compared to Graphviz with 1,806 stars, indicating a significant difference in community adoption and recognition, with Flint being a new and less established tool."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Flint has 0 stars, 0 forks, and 0 open issues on GitHub, with 3 contributors, indicating a small and inactive community, but HN points are 316 with 30 comments, showing some interest in the project."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 0, and basic run success is false, indicating significant difficulties in using the tool, with no successful tests or runs."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Flint has a PyPI package with version 0.0.1, but insufficient data to assess its integration with other tools and systems."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess documentation quality, but the project has a GitHub repository and a website, which may indicate some level of documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Flint has 236 days since last commit, indicating some level of inactivity, and 635 days since repo creation, with a primary language of PowerShell, which may not be as widely adopted as other languages."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient data to assess performance, as no benchmark results are available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 316 points, 30 comments, and positive signals indicating excitement and praise for the project, but also some negative signals such as concerns about chart quality and skepticism about the project's value and usability."
+    }
+  },
+  "summary": "Flint is a new visualization language for AI agents with a small and inactive community, limited system requirements information, and insufficient data to assess its performance and maturity, but it has a unique contribution and some interest in the project.",
+  "recommendation": "niche",
+  "app_url": "https://microsoft.github.io/flint-chart/#/",
+  "tool_url": "https://github.com/flint-lang/flint",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48834924",
+  "domain": "llm-ai",
+  "app_type": "llm-visualization",
+  "enriched": {
+    "github": {
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "PowerShell",
+      "is_fork": false,
+      "days_since_update": 236,
+      "days_since_created": 635,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Flint programming language",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Graphviz",
+        "stars": 1806,
+        "repo": "magjac/d3-graphviz"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Fortran code analysis tool",
+      "requires_python": "",
+      "license": "",
+      "home_page": "http://github.com/marshallward/flint"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement and praise for the project",
+        "Appreciation for the effort to create a simpler abstraction for visualization",
+        "Interest in the research and paper"
+      ],
+      "negative_signals": [
+        "Concerns about chart quality",
+        "Skepticism about the project's value and usability",
+        "Comparison to existing solutions (e.g., Vega, Graphviz)"
+      ],
+      "justification": "Comments praise the effort and research involved in creating Flint, but some users express concerns about chart quality and skepticism about the project's value and usability. A few users bring up comparisons to existing solutions, but these are generally seen as constructive criticisms rather than negative judgments.",
+      "comment_count": 30,
+      "hn_points": 316
+    }
+  }
+}
