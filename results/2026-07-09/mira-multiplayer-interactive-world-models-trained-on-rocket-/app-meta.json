@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+    "url": "https://mira-wm.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48839355",
+    "points": 89,
+    "comments": 16,
+    "author": "ethanlipson",
+    "age": "2026-07-09T00:27:57 1783556877",
+    "scraped_at": "2026-07-09T13:00:02.882Z",
+    "tool_url": "https://github.com/facebookresearch/mira",
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "research",
+    "app_type": "research-dataset",
+    "description": " Multiplayer Interactive World Models Trained on Rocket League",
+    "use_modes": [
+      "Python API",
+      "Model Zoo",
+      "Paper"
+    ],
+    "similar_tools": [
+      "PPO",
+      "RL",
+      "Multiplayer"
+    ],
+    "proposed_tests": [
+      "Install MIRA, run an example model, measure performance",
+      "Compare MIRA paper against a baseline"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/facebookresearch/mira"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783602268410-m2lhj",
+    "log_dir": "/tmp/llm-review-1783602268410-m2lhj",
+    "install_success": true,
+    "install_time_s": 15.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nCloning into 'mira'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: mira is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting mira\n  Downloading mira-0.5.21-py3-none-any.whl.metadata (1.9 kB)\nCollecting albumentations (from mira)\n  Downloading albumentations-2.0.8-py3-none-any.whl.metadata (43 kB)\nCollecting numpy (from mira)\n  Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\nCollecting pandas (from mira)\n  Downloading pandas-3.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (79 kB)\nCollecting tqdm (from mira)\n  Downloading tqdm-4.68.4-py3-none-any.whl.metadata (57 kB)\nCollecting validators (from mira)\n  Downloading validators-0.35.0-py3-none-any.whl.metadata (3.9 kB)\nCollecting scipy>=1.10.0 (from albumentations->mira)\n  Downloading scipy-1.18.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (62 kB)\nCollecting PyYAML (from albumentations->mira)\n  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)\nCollecting pydantic>=2.9.2 (from albumentations->mira)\n  Downloading pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)\nCollecting albucore==0.0.24 (from albumentations->mira)\n  Downloading albucore-0.0.24-py3-none-any.whl.metadata (5.3 kB)\nCollecting opencv-python-headless>=4.9.0.80 (from albumentations->mira)\n  Downloading opencv_python_headless-5.0.0.93.tar.gz (81.8 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.8/81.8 MB 88.2 MB/s eta 0:00:00\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:import_mira:No module named 'mira'\nTEST_FAIL:run_example_model:name 'mira' is not defined\nTEST_FAIL:compare_to_baseline:No module named 'ppo'\nTEST_FAIL:core_operation:name 'mira' is not defined\nTEST_FAIL:core_operation_memory:name 'mira' is not defined\nRUN_OK\n"
+  }
+}
