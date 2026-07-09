@@ -1,0 +1,89 @@
+{
+  "app_name": "Yamanote.fun",
+  "url": "https://www.yamanote.fun/",
+  "scored_at": "2026-07-09T13:03:47.708Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project offers a unique soundscapes experience for Tokyo's Yamanote line, with no similar tools found, as the closest similar tool, Soundwave, has 624 stars, indicating a unique contribution from Yamanote.fun"
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The web-based application does not require installation and can be accessed directly, with a load time that should be under 30s for most users, given the lightweight nature of web applications"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The application fits into the current trend of interactive and immersive experiences, particularly for fans of Japan and its culture, but does not directly contribute to the LLM ecosystem"
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 0 similar tools closely matching its functionality, Yamanote.fun differentiates itself through its unique soundscapes, offering an experience distinct from the 624-star Soundwave project"
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has received positive feedback on HN, with 204 points, 30 comments analyzed, and an overwhelming positive sentiment score of 9/10, indicating a supportive, albeit small, community"
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No quantitative data on tests passed or specific usability metrics are available for this web-based application, so a neutral score is assigned"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this web-based application, as it does not integrate into workflows or pipelines in the way other tools might"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific documentation or wiki is mentioned or found, although the web application is accessible and might be self-explanatory, leading to a neutral score due to lack of data"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No specific information on the age, forks, or issues of the project is provided, so a neutral score is given due to insufficient data"
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as performance metrics are not typically used to evaluate interactive web soundscapes"
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment analysis reveals a positive sentiment score of 9/10, with 204 points and 30 comments, including praise for user experience and nostalgia, outweighing minor complaints about volume and button design"
+    }
+  },
+  "summary": "Yamanote.fun is an interactive soundscapes project offering a unique experience for fans of Tokyo's Yamanote line, with a strong positive community reaction on HN but limited data on maturity, documentation, and other traditional metrics.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.yamanote.fun/",
+  "tool_url": "https://github.com/okumurayuu/yamanote-fun",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48816987",
+  "domain": "mobile",
+  "app_type": "audio-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Soundwave",
+        "stars": 624,
+        "repo": "bastienFalcou/SoundWave"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Impressed with the level of detail and calming effect",
+        "Great user experience with offline and native app-like functionality",
+        "Users love the nostalgic feel and immersive experience"
+      ],
+      "negative_signals": [
+        "Some users find door chimes and melodies too loud",
+        "Confusion with 'seek next' and 'seek previous' buttons",
+        "Desire for more realistic timing mode and travel section ambiance"
+      ],
+      "justification": "The project has received overwhelmingly positive feedback for its immersive user experience, detailed audio, and nostalgic value. While there are some minor criticisms regarding noise levels, button design, and timing mode, they do not detract from the overall enthusiasm for the project.",
+      "comment_count": 30,
+      "hn_points": 204
+    }
+  }
+}
