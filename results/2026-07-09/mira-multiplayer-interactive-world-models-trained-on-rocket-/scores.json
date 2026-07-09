@@ -1,0 +1,105 @@
+{
+  "app_name": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
+  "url": "https://mira-wm.com/",
+  "scored_at": "2026-07-09T13:05:04.034Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "MIRA brings a new approach to training world models, as seen in its immersive gameplay and impressive similarity to the real game, with 8,573 stars for similar multiplayer projects."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has a moderate install time of 15.9s and requires Python <3.12,>=3.8, with a PyPI package existing (v0.9.36)."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "MIRA fits the current trends in multiplayer game development, with its focus on interactive world models trained on Rocket League, and has a Python API, Model Zoo, and paper available."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "MIRA differentiates itself with its multiplayer capabilities and Rocket League training, with 8,573 stars for similar multiplayer projects, but has similar gameplay to other projects like PPO and RL."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats were available for direct comparison, but similar tools have a significant number of stars, such as PPO with 3,903 stars and RL with 15,676 stars."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app had 0 tests pass out of 5, but had basic run success, indicating potential ease of use issues, with specific test fails needing to be addressed."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "MIRA has a Python API, Model Zoo, and paper available, making it easier to integrate into existing workflows, and has a PyPI package existing (v0.9.36)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app has a paper and Model Zoo available, but the quality of the documentation could not be directly assessed due to the lack of a GitHub repository or direct access to the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity could not be directly assessed due to the lack of a GitHub repository or direct access to the project's history, but it has a PyPI package existing (v0.9.36)."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were available to assess the app's performance, and no performance claims could be found in the provided data."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The app received a sentiment score of 7/10, with 89 HN points, 15 comments analyzed, and both positive and negative signals, including immersive gameplay and input ignores."
+    }
+  },
+  "summary": "MIRA is a multiplayer interactive world model trained on Rocket League, with a unique approach to training world models, but faces challenges in terms of ease of use and performance, with a sentiment score of 7/10 from HN comments.",
+  "recommendation": "worth-watching",
+  "app_url": "https://mira-wm.com/",
+  "tool_url": "https://github.com/facebookresearch/mira",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=48839355",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PPO",
+        "stars": 3903,
+        "repo": "ikostrikov/pytorch-a2c-ppo-acktr-gail"
+      },
+      {
+        "name": "RL",
+        "stars": 15676,
+        "repo": "AI4Finance-Foundation/FinRL"
+      },
+      {
+        "name": "Multiplayer",
+        "stars": 8573,
+        "repo": "0xFA11/MultiplayerNetworkingResources"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.9.36",
+      "summary": "A package for simplifying object detection",
+      "requires_python": "<3.12,>=3.8",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Immersive experience",
+        "Impressive gameplay",
+        "Insane similarity to real game"
+      ],
+      "negative_signals": [
+        "Occasional input ignores",
+        "Model seems to ignore player actions"
+      ],
+      "justification": "The project received positive feedback for its immersive gameplay and impressive similarity to the real game. However, some users experienced issues with input ignores and model behavior that seemed unpredictable. These concerns are balanced out by comments highlighting the project's potential and impressive capabilities.",
+      "comment_count": 15,
+      "hn_points": 89
+    }
+  }
+}
