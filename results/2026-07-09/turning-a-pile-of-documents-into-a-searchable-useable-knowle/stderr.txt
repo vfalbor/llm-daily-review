@@ -1,0 +1,11 @@
+ERROR: Could not find a version that satisfies the requirement docubrowser (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for docubrowser
+Traceback (most recent call last):
+  File "/app/test.py", line 126, in <module>
+    main()
+  File "/app/test.py", line 111, in main
+    import docubrowser
+ModuleNotFoundError: No module named 'docubrowser'
