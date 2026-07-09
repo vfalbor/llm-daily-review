@@ -1,0 +1,129 @@
+{
+  "app_name": "Cargo-nextest",
+  "url": "https://nexte.st/",
+  "scored_at": "2026-07-09T13:02:36.048Z",
+  "total_score": 78,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Cargo-nextest offers a unique approach to testing with per-test isolation and first-class CI, setting it apart from similar tools like test.rs (1,099 stars) and quicktest (528 stars), with +2029 stars (+185%) and +2600 stars (+492%) respectively."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Although the install success is false and install time is 6.8s, the presence of a PyPI package (v1.0.1) and a Python requirement of >=3.9 indicates a moderate level of system requirements complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Cargo-nextest is highly relevant to the current devtool ecosystem, addressing pain points such as speed and test isolation, making it a valuable tool for developers."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With +2029 stars (+185%) compared to test.rs and +2600 stars (+492%) compared to quicktest, Cargo-nextest differentiates itself through its performance (3x faster than cargo test) and features (per-test isolation, first-class CI)."
+    },
+    "community": {
+      "score": 7,
+      "justification": "Cargo-nextest has 3,128 stars, 162 forks, and 103 contributors, demonstrating a strong and active community, with a high sentiment score of 9/10 on HN and 144 points, indicating a positive reception."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the lack of test results (0/0 tests passed) and basic run success being false, it's challenging to assess the ease of use directly from the provided data, hence a neutral score."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The presence of a PyPI package and a clear description of its use modes (CLI, Integration test framework) suggest a relatively straightforward integration process."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with 103 contributors and a primary language of Rust, along with a described license (Apache-2.0), indicating a well-documented project, but no direct information on has_wiki, has_pages, or GitHub topics count is provided."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 1612 days since the repo was created, 0 days since the last commit, and an active community, Cargo-nextest appears mature, although the open issues count (99) suggests there is still work to be done."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Described as 3x faster than cargo test, Cargo-nextest demonstrates superior performance compared to its counterparts, although no direct BENCHMARK lines from tests are provided."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score is 9/10, with 144 HN points, 30 comments analyzed, and positive signals praising its performance and features, indicating a highly positive sentiment towards Cargo-nextest."
+    }
+  },
+  "summary": "Cargo-nextest is a highly relevant and novel devtool that differentiate itself through performance and features, enjoying a strong community and positive sentiment, but faces some challenges in terms of ease of use and maturity.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://nexte.st/",
+  "tool_url": "https://github.com/nextest-rs/nextest",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48800596",
+  "domain": "devtool-testing",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": {
+      "stars": 3128,
+      "forks": 162,
+      "open_issues": 99,
+      "watchers": 3128,
+      "contributors": 103,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1612,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A next-generation test runner for Rust.",
+      "topics": [
+        "cargo-plugin",
+        "cargo-subcommand",
+        "flaky-tests",
+        "junit",
+        "nextest",
+        "rust",
+        "testing"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "test.rs",
+        "stars": 1099,
+        "repo": "testcontainers/testcontainers-rs"
+      },
+      {
+        "name": "quicktest",
+        "stars": 528,
+        "repo": "frankban/quicktest"
+      },
+      {
+        "name": "cargo-benchmark",
+        "stars": 2,
+        "repo": "renormalist/Benchmark-Perl-Formance-Cargo"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.1",
+      "summary": "A small example package",
+      "requires_python": ">=3.9",
+      "license": "Copyright (c) 2018 The Python Packaging Authority\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "users praise its performance (3x faster than cargo test)",
+        "provides per-test isolation and first-class CI",
+        "improves test execution model"
+      ],
+      "negative_signals": [
+        "some commenters find the name 'nextest' confusing",
+        "users with EPP (endpoint protection platform) solutions face hiccups",
+        "one user suggests the name is a 'pun gone wrong'"
+      ],
+      "justification": "The overall sentiment is overwhelmingly positive, with users praising the performance and features of nextest, but there are some minor criticisms regarding the name and compatibility issues with EPP solutions.",
+      "comment_count": 30,
+      "hn_points": 144
+    }
+  }
+}
