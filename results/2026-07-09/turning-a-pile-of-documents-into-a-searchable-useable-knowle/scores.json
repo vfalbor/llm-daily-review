@@ -1,0 +1,112 @@
+{
+  "app_name": "DocuBrowser",
+  "url": "https://github.com/linuxrebel/DocuBrowser",
+  "scored_at": "2026-07-09T13:04:27.153Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project creates a local searchable knowledge base, which is a unique approach compared to cloud-based solutions, but not entirely new. It has 31 days since its creation, and is not a fork, indicating some level of originality."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has an install time of 7.6 seconds and install success is true, but it is not pip-installable since no PyPI package was found, indicating some ease of installation but lack of integration with package managers."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an indexing-tool, it fits within the current trends of data management and search, particularly with its focus on local data storage, which is relevant for privacy-conscious users."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Elasticsearch with 77,462 stars and Solr with 4,358 stars, DocuBrowser has significantly fewer stars (354), indicating a need for more differentiation or community engagement to stand out."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 354 GitHub stars, 11 forks, and 1 contributor, the community engagement is relatively low compared to other tools like Elasticsearch and Solr, but the solo contributor has made updates recently (2 days since last commit), showing some level of activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 5 tests passed and basic run success is false, the project seems to have usability issues that need addressing, which affects its overall ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The lack of a PyPI package and the absence of standard API modes make integration challenging, limiting its ease of integration into existing workflows or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data on the quality and completeness of the documentation, a neutral score is assigned, but typically, a project's documentation is crucial for its usability and integration."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 31 days since its creation and recent commits, the project is in its early stages but shows signs of ongoing development, indicating some level of maturity but still in the growth phase."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 168 points and 30 comments analyzed, showing positive signals for its utility and privacy focus, but also highlighting areas for improvement like permission errors and document support."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Without specific benchmark data provided in the test results, but considering the project's local search functionality, a neutral score is assigned, recognizing the potential for efficient local data processing but lacking concrete evidence."
+    },
+    "security": {
+      "score": 1,
+      "justification": "Given the lack of information on security features, updates, or vulnerability management, and considering it's a tool for managing local data, a low score is assigned to reflect the uncertainty and potential risks associated with data storage and search functionality."
+    }
+  },
+  "summary": "DocuBrowser is a locally hosted document search engine that aims to provide a private and accessible way to manage and search through personal documents. While it addresses a specific need and has a unique selling point with its local data storage, it faces challenges in terms of community engagement, usability, and differentiation from more established solutions.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/linuxrebel/DocuBrowser",
+  "tool_url": "https://github.com/linuxrebel/DocuBrowser",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48837110",
+  "domain": "data",
+  "app_type": "indexing-tool",
+  "enriched": {
+    "github": {
+      "stars": 354,
+      "forks": 11,
+      "open_issues": 0,
+      "watchers": 354,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 31,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "This does for Documents what repo-browser does for repos. A local AI powered Document search engine ",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Elasticsearch",
+        "stars": 77462,
+        "repo": "elastic/elasticsearch"
+      },
+      {
+        "name": "Solr",
+        "stars": 4358,
+        "repo": "apache/lucene-solr"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Project is useful for creating a local searchable knowledge base",
+        "Users appreciate the personal touch and commitment to the project",
+        "Project is fully local, keeping data on disk instead of a cloud"
+      ],
+      "negative_signals": [
+        "Some users experienced permission errors, and at least one issue requires a fix",
+        "Project doesn't currently support some document types, such as ODF"
+      ],
+      "justification": "The project has received overwhelmingly positive feedback from users, acknowledging its utility and commitment to keeping data private. However, some users have raised issues, such as permission errors and missing document support, that need to be addressed.",
+      "comment_count": 30,
+      "hn_points": 168
+    }
+  }
+}
