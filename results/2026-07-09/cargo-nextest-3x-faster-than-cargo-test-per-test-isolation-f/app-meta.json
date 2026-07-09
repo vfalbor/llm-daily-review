@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Cargo-nextest: 3x faster than cargo test, per-test isolation, first-class CI",
+    "url": "https://nexte.st/",
+    "hn_url": "https://news.ycombinator.com/item?id=48800596",
+    "points": 145,
+    "comments": 35,
+    "author": "nateb2022",
+    "age": "2026-07-06T04:19:30 1783311570",
+    "scraped_at": "2026-07-09T13:00:02.876Z",
+    "tool_url": "https://github.com/nextest-rs/nextest",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool-testing",
+    "app_type": "devtool-testing",
+    "description": "3x faster than cargo test, per-test isolation, first-class CI",
+    "use_modes": [
+      "CLI",
+      "Integration test framework"
+    ],
+    "similar_tools": [
+      "test.rs",
+      "quicktest",
+      "cargo-benchmark"
+    ],
+    "proposed_tests": [
+      "install nextest, run a small test suite, measure output format and time"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/nextest-rs/nextest"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783602119054-kr5qo",
+    "log_dir": "/tmp/llm-review-1783602119054-kr5qo",
+    "install_success": false,
+    "install_time_s": 6.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 80, in <module>\n    import nextest\nModuleNotFoundError: No module named 'nextest'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
