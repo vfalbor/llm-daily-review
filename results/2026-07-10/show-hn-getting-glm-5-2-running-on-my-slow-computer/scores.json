@@ -1,0 +1,120 @@
+{
+  "app_name": "colibri",
+  "url": "https://github.com/JustVugg/colibri",
+  "scored_at": "2026-07-10T13:02:18.348Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project shows novel application of existing concepts, with 9 days since repo creation and 0 days since the last commit, indicating active development and a new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has an install time of 14.2s and install success is true, indicating relatively low system requirements for installation."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The project's relevance to current trends is uncertain due to lack of specific data on its application in current devtool-build ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 1,536 stars, compared to similar tools like CMake with 13,072 stars, Bazel with 25,605 stars, and Meson with 6,574 stars, indicating a need for more differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 1,536 stars, 84 forks, and 6 contributors, but the community aspect is hard to evaluate without more data on user engagement and feedback."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has 0 tests passed out of 6, indicating potential difficulties in usage and setup."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The project has a PyPI package and is available for use via CLI, indicating moderate ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation quality is uncertain due to lack of specific data on the project's documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project is 9 days old, has 6 contributors, and 84 forks, but its maturity is uncertain due to the short time since its creation."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The project's performance is uncertain due to lack of specific benchmark comparisons to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 749 points, 30 comments analyzed, and positive signals including the hacker spirit and impressive performance, but also some negative signals about hardware costs and limitations."
+    }
+  },
+  "summary": "Colibri is a novel devtool-build project with active development, relatively low system requirements, and moderate ease of integration, but it needs more differentiation, has uncertain community and maturity aspects, and lacks clear performance and documentation data.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/JustVugg/colibri",
+  "tool_url": "https://github.com/JustVugg/colibri",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48842459",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 1536,
+      "forks": 84,
+      "open_issues": 6,
+      "watchers": 1536,
+      "contributors": 6,
+      "license": "Apache-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 9,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "CMake",
+        "stars": 13072,
+        "repo": "ttroy50/cmake-examples"
+      },
+      {
+        "name": "Bazel",
+        "stars": 25605,
+        "repo": "bazelbuild/bazel"
+      },
+      {
+        "name": "Meson",
+        "stars": 6574,
+        "repo": "mesonbuild/meson"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "asyncio-based implementation of AMQP client",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "http://github.com/malinoff/colibri"
+    },
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "The hacker spirit is acknowledged and appreciated.",
+        "The project shows great potential and impressive performance.",
+        "The author's dedication to improvement is noted and admired."
+      ],
+      "negative_signals": [
+        "Some commenters express concern about the cost of high-end hardware.",
+        "A few commenters mention the limitations of the current setup, such as the need for AVX2 capability or high-speed RAM."
+      ],
+      "justification": "The commenters are overwhelmingly positive about the project, highlighting the hacker spirit, impressive performance, and the author's dedication to improvement. However, some commenters express practical concerns about the cost of high-end hardware and its limitations.",
+      "comment_count": 30,
+      "hn_points": 749
+    }
+  }
+}
