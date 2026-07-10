@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+    "url": "https://www.context.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=48847562",
+    "points": 102,
+    "comments": 72,
+    "author": "TheYahiaBakour",
+    "age": "2026-07-09T15:28:39 1783610919",
+    "scraped_at": "2026-07-10T13:00:03.008Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "web",
+    "app_type": "api-gateway",
+    "description": "API to extract data from websites",
+    "use_modes": [
+      "Web API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Open Graph API",
+      "Scraping Hub"
+    ],
+    "proposed_tests": [
+      "use API to extract data from a test website, verify output format"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1783688697079-sfpzx",
+    "log_dir": "/tmp/llm-review-1783688697079-sfpzx",
+    "install_success": false,
+    "install_time_s": 12.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.00\nBENCHMARK:response_time_ms:310.67\nBENCHMARK:vs_open_graph_response_time_ratio:0.55\nBENCHMARK:memory_usage_bytes:54218\nBENCHMARK:time_to_make_10_requests_ms:1694.54",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-10T13_05_07_360Z-debug-0.log\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-10T13_05_08_063Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_FAIL:Command '['npm', 'install', 'context-dev']' returned non-zero exit status 1.\nBENCHMARK:import_time_ms:0.00\nBENCHMARK:response_time_ms:310.67\nBENCHMARK:vs_open_graph_response_time_ratio:0.55\nBENCHMARK:memory_usage_bytes:54218\nBENCHMARK:time_to_make_10_requests_ms:1694.54\nTEST_FAIL:api_test:<!DOCTYPE html><html data-dpl-id=\"dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" lang=\"en\" class=\"dark ibm_plex_sans_a7ae6fef-module__cy8ZWG__variable ibm_plex_mono_5963912a-module__Ltib8q__variable\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"preload\" href=\"/marketing-banner-noise.webp\" as=\"image\" fetchPriority=\"high\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/15z9~o8tl5bqf.css?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" data-precedence=\"next\"/><link rel=\"stylesheet\" href=\"/_next/static/chunks/0rsc_xqn41um0.css?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" data-precedence=\"next\"/><link rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/0h~21glhhw9.i.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\"/><script src=\"/_next/static/chunks/128aahewwf1we.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0z5oq1fok6jox.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/164.w~sh56oqj.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/14pj9.e6f2cbj.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/07b.xx80oxjb-.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/turbopack-0mntfeldkd8.-.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0u4ekabmzq0.f.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0i.l9589uvx0j.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/14v-8.x0k~9lt.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0gptjl.f-mxos.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/09lteagwpijfm.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0owobu3-em87v.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0wulx76_3~wo-.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/0oh6_x4.-7bh3.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/07fh3xgj0zlol.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/17jq8pmej9hnm.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><script src=\"/_next/static/chunks/14fso260hdlt3.js?dpl=dpl_EnhTJHjAyjxVd9eMu6jSyhQ7Aoq3\" async=\"\"></script><link rel=\"preload\" as=\"image\" href=\"/marketing-banner-noise.webp\" fetchPrio"
+  }
+}
