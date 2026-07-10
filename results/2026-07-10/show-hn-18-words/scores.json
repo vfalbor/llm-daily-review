@@ -1,0 +1,83 @@
+{
+  "app_name": "18 Words",
+  "url": "https://18words.com/",
+  "scored_at": "2026-07-10T13:02:47.032Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app offers a unique word-based gameplay experience, but similar tools like Notion, Coda, and Craft exist, so it's not entirely new, as seen from the 1036 HN points and 30 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is a web application, but it doesn't have a clear install command or API/SDK/webhook mention on its page, and no PyPI package was found, which suggests limited accessibility, as indicated by the absence of install information on the page."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app type is a web-app, but its fit with current LLM ecosystem trends is not explicitly stated, with 1036 HN points suggesting some relevance but not directly tied to LLM trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Similar tools like Notion, Coda, and Craft exist, but specific differentiation points are not explicitly mentioned in the provided data, so a neutral score is assigned due to insufficient information."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN points (1036) and comments (30 analyzed) suggest a fairly active community, with both positive and negative signals indicating engagement, as seen from the sentiment score of 7/10 and the comments themselves."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed (0/7) and basic run success (false) indicate potential issues with usability, suggesting that the app may be difficult to use or has significant usability problems, as shown by the low test pass rate."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of API/SDK/webhook mention and no PyPI package suggests that integration might be challenging, but the app's web nature might simplify some integration aspects, as implied by its web-based interface and detected version of 1.0."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The page content length (49896 chars) suggests some depth, but the absence of a docs/wiki/guide link, changelog, or release notes on the page indicates limited documentation, as seen from the lack of explicit documentation links."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version (1.0) and page content suggest some level of maturity, but the lack of explicit release notes or changelog limits this assessment, as indicated by the absence of detailed change history."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app type is a web-app, and performance metrics like page load time or response time are not provided, making it impossible to evaluate this criterion, as no relevant data was found in the benchmark measurements or web page signals."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided, but the criterion does not directly apply to the scoring system as it is more of a descriptive element than a evaluative criterion, as seen from the sentiment score of 7/10 and the 1036 HN points."
+    }
+  },
+  "summary": "18 Words is a web application offering a unique word-based gameplay experience with a fairly active community, but it has potential usability issues and limited documentation, as indicated by the HN points and comments.",
+  "recommendation": "niche",
+  "app_url": "https://18words.com/",
+  "tool_url": "https://18words.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48845049",
+  "domain": "web",
+  "app_type": "web-app",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Engaging and fun gameplay",
+        "Well-designed landing page",
+        "Community discussion and suggestions for improvement"
+      ],
+      "negative_signals": [
+        "Frustration with strict word list acceptance",
+        "Perceived unfairness with timer and strict rules",
+        "Some users find the strict word list too limiting"
+      ],
+      "justification": "The comments suggest that the game is well-received for its engaging gameplay and simple landing page design. However, there is a significant divide between users who find the strict word list and rules enjoyable and those who feel it's too frustrating or limiting.",
+      "comment_count": 30,
+      "hn_points": 1036
+    }
+  }
+}
