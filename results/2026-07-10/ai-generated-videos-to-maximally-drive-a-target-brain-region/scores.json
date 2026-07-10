@@ -1,0 +1,90 @@
+{
+  "app_name": "NEvo",
+  "url": "https://nevo-project.epfl.ch/",
+  "scored_at": "2026-07-10T13:04:07.164Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points of 120 and a sentiment score of 8/10, with concerns about addiction and ethics but also enthusiasm for the project's potential, based on 30 comments analyzed"
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "No direct GitHub comparison available, but as a research project, NEvo presents an innovative approach to AI-generated videos, potentially differentiating it from similar tools like Ganbreeder"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Failed basic run, but PyPI package exists with version 0.2.1, and Python requirement is >=3.12, install time not applicable due to install success being false"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "NEvo's focus on AI-generated videos aligns with current trends in LLM and video synthesis research, addressing current interests in AI-driven multimedia generation"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools like Ganbreeder exist, NEvo's specific focus on driving a target brain region through AI-generated videos may differentiate it, but lacks direct comparison metrics"
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data, but HN points of 120 and 30 comments indicate some community interest, though not as high as more established projects"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Failed basic run, and without GitHub or direct usage data, ease of use is difficult to assess, but the lack of a successful run indicates potential usability issues"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a research project and not a software library or tool, ease of integration into other workflows or systems is not directly applicable"
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "Web page signals indicate no docs/wiki/guide link, no changelog or release notes, no examples or demo, and very little page content, suggesting poor documentation"
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Detected version is 1.0, but without GitHub data or release history, maturity is hard to assess, and the project may be either mature or still in early stages"
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data available for this research project, and performance metrics such as speed or efficiency are not applicable in this context"
+    }
+  },
+  "summary": "NEvo is a research project focused on AI-generated videos to drive a target brain region, showing potential in the LLM and video synthesis space, but faces challenges in usability, documentation, and community engagement.",
+  "recommendation": "niche",
+  "app_url": "https://nevo-project.epfl.ch/",
+  "tool_url": null,
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=48856904",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.1",
+      "summary": "AI Agent Framework for Python",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Interesting insights into brain processing",
+        "Potential benefits in understanding cognitive biases",
+        "Thought-provoking discussion of ethics and control"
+      ],
+      "negative_signals": [
+        "Concerns about addiction and negative impacts",
+        "Criticism of researchers for prioritizing knowledge over ethics",
+        "Fears about the misuse of technology for control"
+      ],
+      "justification": "Commenters are generally enthusiastic about the project's potential for insight and thought-provoking discussion, but express significant concerns about addiction, ethics, and the potential for misuse. A few commenters joke about the 'comically evil' nature of the project, highlighting concerns about researcher priorities.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
