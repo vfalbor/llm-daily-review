@@ -1,0 +1,26 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/app/test.py", line 34, in <module>
+    import moviepy
+  File "/usr/local/lib/python3.12/site-packages/moviepy/__init__.py", line 5, in <module>
+    from moviepy.audio import fx as afx
+  File "/usr/local/lib/python3.12/site-packages/moviepy/audio/fx/__init__.py", line 5, in <module>
+    from moviepy.audio.fx.AudioDelay import AudioDelay
+  File "/usr/local/lib/python3.12/site-packages/moviepy/audio/fx/AudioDelay.py", line 5, in <module>
+    from moviepy.audio.AudioClip import CompositeAudioClip
+  File "/usr/local/lib/python3.12/site-packages/moviepy/audio/AudioClip.py", line 13, in <module>
+    from moviepy.audio.io.ffmpeg_audiowriter import ffmpeg_audiowrite
+  File "/usr/local/lib/python3.12/site-packages/moviepy/audio/io/ffmpeg_audiowriter.py", line 7, in <module>
+    from moviepy.config import FFMPEG_BINARY
+  File "/usr/local/lib/python3.12/site-packages/moviepy/config.py", line 41, in <module>
+    FFMPEG_BINARY = get_exe()
+                    ^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/imageio/plugins/ffmpeg.py", line 173, in get_exe
+    return imageio_ffmpeg.get_ffmpeg_exe()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/imageio_ffmpeg/_utils.py", line 33, in get_ffmpeg_exe
+    raise RuntimeError(
+RuntimeError: No ffmpeg exe could be found. Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
