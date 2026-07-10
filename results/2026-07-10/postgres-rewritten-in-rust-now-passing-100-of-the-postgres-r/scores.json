@@ -1,0 +1,113 @@
+{
+  "app_name": "Postgres rewritten in Rust",
+  "url": "https://github.com/malisper/pgrust",
+  "scored_at": "2026-07-10T13:03:35.038Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 81 days since repo creation and being a Rust rewrite of Postgres, this project brings a new approach, scoring 8 for novelty, considering it is not a fork and has a unique value proposition."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Although the install time was 7s, the install success was false, which significantly impacts the system requirements score, resulting in a score of 3."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the current trends in database technology and the interest in Rust, this project scores 7 for current relevance, as it addresses a need for a Postgres alternative with potentially better performance and security."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Comparing to similar tools, this project has -2159 stars compared to PostgreSQL and -246 stars compared to Percona Server, yet its unique Rust implementation gives it a differentiation score of 6, as it offers something distinct."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 1,021 stars, 27 forks, and 3 contributors, but lacking direct comparison data in the provided information, the community score is set to 5 due to insufficient data for a precise evaluation."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that no tests were passed and basic run success was false, indicating potential usability issues, the ease of use score is 2, reflecting the difficulty in using the project as-is."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project does not have a PyPI package, making it less straightforward to integrate into existing workflows, resulting in an ease of integration score of 4."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to the lack of information about the project's documentation, such as a wiki or pages, the documentation score is set to 5, indicating insufficient data for evaluation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 81 days since the repo was created and 0 days since the last commit, indicating active development, but a relatively low number of contributors and forks, the maturity score is 4, suggesting it's still in the early stages."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no direct benchmark comparisons provided, and while the project passes 100% of PostgreSQL regression tests, which is a positive signal, the lack of direct performance data results in a score of 5."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 8/10, 735 points, and positive signals about its effectiveness and passing PostgreSQL regression tests, the HN sentiment score is 8, indicating a generally positive reception."
+    }
+  },
+  "summary": "This project is a Rust-based Postgres alternative that, despite installation challenges and limited community engagement, offers a unique approach to database management and shows promise with its ability to pass PostgreSQL regression tests. However, it faces challenges in terms of ease of use and integration.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/malisper/pgrust",
+  "tool_url": "https://github.com/malisper/pgrust",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48841676",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 1021,
+      "forks": 27,
+      "open_issues": 13,
+      "watchers": 1021,
+      "contributors": 3,
+      "license": "AGPL-3.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 81,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "topics": [
+        "ai-assisted-development",
+        "database",
+        "postgres",
+        "postgresql",
+        "rust"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PostgreSQL",
+        "stars": 3180,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "Percona Server",
+        "stars": 1267,
+        "repo": "percona/percona-server"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Rewrite of Postgres in Rust deemed effective",
+        "Project passes 100% of PostgreSQL regression tests",
+        "Users show excitement for AI-driven development"
+      ],
+      "negative_signals": [
+        "Concerns about AI's role in development and its relationship to developer quality"
+      ],
+      "justification": "Although some users raise questions about the role of AI in development and its impact on code quality, the project's ability to pass 100% of PostgreSQL regression tests and the enthusiasm of users outweigh these concerns, leading to a positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 735
+    }
+  }
+}
