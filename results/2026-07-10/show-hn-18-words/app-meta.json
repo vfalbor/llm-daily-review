@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: 18 Words",
+    "url": "https://18words.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=48845049",
+    "points": 1036,
+    "comments": 332,
+    "author": "pompomsheep",
+    "age": "2026-07-09T12:48:52 1783601332",
+    "scraped_at": "2026-07-10T13:00:03.004Z",
+    "is_reviewable": true,
+    "is_open_source": null,
+    "domain": "web",
+    "app_type": "web-app",
+    "source_type": "tool",
+    "tool_url": "https://18words.com/",
+    "repo_url": null,
+    "requires_api_key": false,
+    "confidence": 0.8,
+    "description": "18 words is a web app",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "Notion",
+      "Coda",
+      "Craft"
+    ],
+    "proposed_tests": [
+      "Install 18 Words, verify basic functionality",
+      "Add a new 18 Words page, check formatting",
+      "Compare 18 Words vs existing note-taking apps",
+      "Evaluate 18 Words' mobile support"
+    ]
+  },
+  "test_results": {
+    "run_id": "llm-review-1783688539557-j6bul",
+    "log_dir": "/tmp/llm-review-1783688539557-j6bul",
+    "install_success": true,
+    "install_time_s": 15.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "benchmark_notes": "BENCHMARK:install_time_s:0\nBENCHMARK:server_startup_time_ms:0\nBENCHMARK:health_endpoint_response_time_ms:0\nBENCHMARK:page_creation_time_ms:0\nBENCHMARK:comparison_time_ms:0\nBENCHMARK:vs_Notion_ratio:0\nBENCHMARK:mobile_support_test_time_ms:0\nBENCHMARK:memory_usage_mb:0\nBENCHMARK:total_execution_time_s:1783688557.4103556",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 118, in <module>\n    main()\n  File \"/app/test.py\", line 113, in main\n    emit_marker(\"BENCHMARK\", \"total_memory_usage_mb\", snapshot.statistics('lineno')[0].size / (1024 * 1024))\n                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\nIndexError: list index out of range\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\n\nadded 1 package in 6s\n\n15 packages are looking for funding\n  run `npm fund` for details\nINSTALL_OK:\nTEST_SKIP:18 Words installation:Not possible due to lack of public repository\nBENCHMARK:install_time_s:0\nTEST_SKIP:18 Words functionality:Not possible due to lack of public repository\nBENCHMARK:server_startup_time_ms:0\nTEST_SKIP:18 Words /health endpoint:Server not running\nBENCHMARK:health_endpoint_response_time_ms:0\nTEST_SKIP:Add new 18 Words page:Server not running\nBENCHMARK:page_creation_time_ms:0\nTEST_SKIP:Compare 18 Words with Notion:Not possible due to lack of public repository\nBENCHMARK:comparison_time_ms:0\nBENCHMARK:vs_Notion_ratio:0\nTEST_SKIP:18 Words mobile support:Server not running\nBENCHMARK:mobile_support_test_time_ms:0\nTEST_SKIP:18 Words memory usage:Server not running\nBENCHMARK:memory_usage_mb:0\nBENCHMARK:total_execution_time_s:1783688557.4103556\n"
+  }
+}
