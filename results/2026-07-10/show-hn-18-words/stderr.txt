@@ -1,0 +1,9 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+Traceback (most recent call last):
+  File "/app/test.py", line 118, in <module>
+    main()
+  File "/app/test.py", line 113, in main
+    emit_marker("BENCHMARK", "total_memory_usage_mb", snapshot.statistics('lineno')[0].size / (1024 * 1024))
+                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
