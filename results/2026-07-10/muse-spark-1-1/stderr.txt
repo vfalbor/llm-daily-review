@@ -1,0 +1,9 @@
+ERROR: Could not find a version that satisfies the requirement muse-spark (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for muse-spark
+Traceback (most recent call last):
+  File "/app/test.py", line 61, in <module>
+    import muse_spark
+ModuleNotFoundError: No module named 'muse_spark'
