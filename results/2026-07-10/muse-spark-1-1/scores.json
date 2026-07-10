@@ -1,0 +1,94 @@
+{
+  "app_name": "Muse Spark 1.1",
+  "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "scored_at": "2026-07-10T13:04:55.542Z",
+  "total_score": 58,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 388 HN points and 30 comments analyzed, indicating a generally positive reception with some negative signals about pricing and model quality."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Muse Spark 1.1 is a unique framework, but exact days_since_created and is_fork data are unavailable; however, its introduction as a 'new framework' implies some level of originality."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating significant installation issues, and there's no PyPI package available for easy installation."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an LLM framework, Muse Spark 1.1 fits well with current AI ecosystem trends, focusing on Meta's AI research framework."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like LangChain (141,466 stars) and Crew AI (55,291 stars), Muse Spark's star count isn't directly comparable due to lacking GitHub data, but its unique selling points, such as being Meta's AI research framework, differentiate it."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Insufficient data to assess community health directly, as GitHub repository stats are not available."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 out of 2, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package exists, making integration more difficult, but it has a Python library use mode, which helps."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to fully assess documentation quality, but the presence of a blog post introducing the framework is a positive signal."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to assess maturity, as days_since_created, forks count, and open_issues are not available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct BENCHMARK lines from tests are available to assess performance, making it difficult to compare with similar tools."
+    }
+  },
+  "summary": "Muse Spark 1.1 is Meta's AI research framework, offering a unique approach but facing challenges in installation and usability. It has a strong fit with current AI trends but lacks direct comparison data for community, maturity, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48846184",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 141466,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "Crew AI",
+        "stars": 55291,
+        "repo": "crewAIInc/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Competition leads to better pricing and options",
+        "Cached input pricing is attractive compared to Grok 4.5",
+        "Some users think it's a good addition to the market"
+      ],
+      "negative_signals": [
+        "Very expensive, particularly for some users or use cases",
+        "Low-quality models compared to competitors",
+        "Questionable business model and ethics"
+      ],
+      "justification": "The comments are generally positive about the competition and value proposition, but some users express concerns about the pricing and model quality. Others raise ethical questions about the business model.",
+      "comment_count": 30,
+      "hn_points": 388
+    }
+  }
+}
