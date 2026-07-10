@@ -1,0 +1,83 @@
+{
+  "app_name": "Context.dev",
+  "url": "https://www.context.dev/",
+  "scored_at": "2026-07-10T13:05:20.553Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique API for web scraping and crawl, with a detected version of 71.4, which suggests it is continuously updated and improved."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as install_success is false and install_time is 12.7s, but no other relevant information is available."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to current LLM ecosystem trends, as it provides a web scraping and crawl API, which is essential for AI agents and data extraction."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself from similar tools like Open Graph API and Scraping Hub by providing a well-designed UI and effective customer service, but its cost is a concern for some users."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate community, as there is no GitHub repository detected, but HN points are 103, which is a relatively low engagement signal."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate ease of use, as tests_passed is 0 / 1, and basic_run_success is true, but no other relevant information is available."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has an API/SDK/webhook mention on its page, which suggests ease of integration, but it requires an API key, which might add complexity."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app has a docs/wiki/guide link, changelog, and examples or demo on its page, with a content length of 321730 characters, indicating a well-documented project."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The app has a detected version of 71.4 and a changelog, which suggests maturity, but no release notes are available, and the company is relatively new."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate performance, as there are no benchmark results available, but the app's response_time_ms is 310.67, which is a relatively fast response time."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 103 HN points and 30 comments analyzed, indicating a positive sentiment towards the app, with users praising its effectiveness and customer service."
+    }
+  },
+  "summary": "Context.dev is a unique API for web scraping and crawl, with a well-designed UI and effective customer service, but its cost is a concern for some users. The app has a relatively low engagement signal, but its documentation and maturity are well-established.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.context.dev/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48847562",
+  "domain": "web",
+  "app_type": "api-gateway",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Effective API for structured data extraction",
+        "Well-designed UI and polish",
+        "Good customer service and support"
+      ],
+      "negative_signals": [
+        "Some users mention high cost",
+        "No mention of IP addresses on the homepage",
+        "Potential for abuse by scrapers"
+      ],
+      "justification": "While some users expressed concerns about cost and IP addresses, the overall sentiment is overwhelmingly positive, with many users praising the API's effectiveness, well-designed UI, and good customer service. The company also effectively addressed some of the concerns raised by users.",
+      "comment_count": 30,
+      "hn_points": 103
+    }
+  }
+}
