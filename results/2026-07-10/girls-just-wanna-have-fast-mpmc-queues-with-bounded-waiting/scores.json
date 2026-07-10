@@ -1,0 +1,75 @@
+{
+  "app_name": "Girls just wanna have fast MPMC queues with bounded waiting",
+  "url": "https://nahla.dev/blog/waitfree_queue/",
+  "scored_at": "2026-07-10T13:05:49.178Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app's unique approach to efficient queue implementation and its focus on bounded waiting time suggest a high level of novelty, with a unique contribution to the field of devtools, given the comparison to similar tools like LLVM Queue and std::queue."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app's installation time is not provided, but given it is a blog post, it does not require installation, thus the score is based on the availability and simplicity of accessing the content, with the URL being accessible directly."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's focus on efficient queue implementation is relevant to current devtool trends, with the use of queues being a common practice in the industry, and its application in current projects being viable."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app's unique approach to bounded waiting time and its comparison to similar tools like LLVM Queue and std::queue suggest a clear advantage, with the blog post providing a distinctive perspective on queue implementation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, and no information on the community surrounding the app, thus the score is based on the lack of available data, with the assumption that the community is either non-existent or very small."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app is a blog post, and as such, it does not require installation or setup, but the basic run success is false, indicating potential difficulties in understanding or applying the concepts presented, with the score based on the simplicity of accessing the content and the potential for ease of use in a theoretical implementation."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no information on the app's integration with other tools or systems, and no PyPI package is found, thus the score is neutral due to lack of data, with the assumption that integration is possible but not explicitly stated or facilitated."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app is a blog post with a descriptive title and URL, suggesting the presence of some documentation or explanatory content, but the quality and completeness are not explicitly stated, thus the score is based on the availability of a direct link to the content."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "There is no information on the app's maturity, with no GitHub repository or other indicators of age or stability, thus the score is based on the assumption that the app is either new or not widely used, with the blog post being a singular example of its existence."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app is a blog post and does not have a performance dimension in the classical sense, thus the score is null as it does not apply to this type of app, with no benchmarks or performance metrics being relevant or available."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available, with no comments or analysis, thus the score is null as it does not apply to this app, with the lack of data making it impossible to assess sentiment accurately."
+    },
+    "additional_criterion": {
+      "score": 5,
+      "justification": "This is an additional criterion that is not explicitly stated in the prompt, thus the score is neutral due to lack of data, with the assumption that it is not relevant or applicable to this specific app or type of app."
+    }
+  },
+  "summary": "This app is a blog post discussing an efficient queue implementation with bounded waiting time, providing a unique perspective on the topic, but lacks community engagement, maturity indicators, and performance metrics, with the content being accessible but the surrounding ecosystem being unclear.",
+  "recommendation": "niche",
+  "app_url": "https://nahla.dev/blog/waitfree_queue/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48809574",
+  "domain": "language",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
