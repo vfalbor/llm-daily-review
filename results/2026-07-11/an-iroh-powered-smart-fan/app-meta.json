@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "An iroh powered smart fan",
+    "url": "https://www.iroh.computer/blog/an-iroh-powered-smart-fan",
+    "hn_url": "https://news.ycombinator.com/item?id=48817539",
+    "points": 126,
+    "comments": 35,
+    "author": "surprisetalk",
+    "age": "2026-07-07T13:30:17 1783431017",
+    "scraped_at": "2026-07-11T13:00:02.275Z",
+    "tool_url": "https://github.com/iroh/iroh-fan",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.7,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "A smart fan powered by iroh, a Rust-based IoT framework",
+    "use_modes": [
+      "Rust library",
+      "JavaScript library"
+    ],
+    "similar_tools": [
+      "Home Assistant",
+      "IFTTT",
+      "IFTTT IoT"
+    ],
+    "proposed_tests": [
+      "Build and install the iroh fan tool",
+      "Configure a iroh fan and test its functionality",
+      "Measure performance and compare with other smart fans"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/iroh/iroh-fan"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783774954692-kqezz",
+    "log_dir": "/tmp/llm-review-1783774954692-kqezz",
+    "install_success": false,
+    "install_time_s": 11.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:vs_home_assistant_execution_time_ratio:1.0",
+    "error_log": "Cloning into 'iroh-fan'...\nfatal: could not read Username for 'https://github.com': No such device or address\nCloning into 'iroh-fan'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n( 1/12) Installing libgcc (15.2.0-r5)\n( 2/12) Installing jansson (2.15.0-r0)\n( 3/12) Installing libstdc++ (15.2.0-r5)\n( 4/12) Installing binutils (2.45.1-r1)\n( 5/12) Installing libgcc-static (15.2.0-r5)\n( 6/12) Installing libgomp (15.2.0-r5)\n( 7/12) Installing libatomic (15.2.0-r5)\n( 8/12) Installing gmp (6.3.0-r4)\n( 9/12) Installing isl26 (0.26-r2)\n(10/12) Installing mpfr4 (4.2.2-r0)\n(11/12) Installing mpc1 (1.3.1-r1)\n(12/12) Installing gcc (15.2.0-r5)\nExecuting busybox-1.37.0-r31.trigger\nOK: 205.8 MiB in 63 packages\n(1/1) Installing make (4.4.1-r4)\nExecuting busybox-1.37.0-r31.trigger\nOK: 206.0 MiB in 64 packages\n(1/1) Installing musl-dev (1.2.6-r2)\nOK: 215.5 MiB in 65 packages\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/iroh/iroh-fan.git']' returned non-zero exit status 128.\nTEST_FAIL:iroh_fan_tool Execution failed: [Errno 2] No such file or directory: './target/release/iroh-fan'\nTEST_FAIL:iroh_fan_tool_benchmark: [Errno 2] No such file or directory: './target/release/iroh-fan'\nBENCHMARK:vs_home_assistant_execution_time_ratio:1.0\nTEST_FAIL:source_file_count: Command '['git', 'clone', 'https://github.com/iroh/iroh-fan.git']' returned non-zero exit status 128.\nRUN_OK\n"
+  }
+}
