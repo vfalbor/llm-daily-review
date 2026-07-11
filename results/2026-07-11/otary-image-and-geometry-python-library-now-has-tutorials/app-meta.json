@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Otary – Image and Geometry Python Library Now Has Tutorials",
+    "url": "https://alexandrepoupeau.com/otary/learn/",
+    "hn_url": "https://news.ycombinator.com/item?id=48830556",
+    "points": 45,
+    "comments": 1,
+    "author": "poupeaua",
+    "age": "2026-07-08T11:30:12 1783510212",
+    "scraped_at": "2026-07-11T13:00:02.273Z",
+    "tool_url": "https://otary.ai",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "A Python library for image and geometry computations",
+    "use_modes": [
+      "Python library",
+      "Web interface"
+    ],
+    "similar_tools": [
+      "OpenCV",
+      "Pygame",
+      "PyTorch"
+    ],
+    "proposed_tests": [
+      "Install and import Otary in a Python project",
+      "Run a geometry computation using Otary's API",
+      "Measure performance and compare with other libraries"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/otary/otary"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783774930284-oo8u8",
+    "log_dir": "/tmp/llm-review-1783774930284-oo8u8",
+    "install_success": false,
+    "install_time_s": 6.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    import otary\nModuleNotFoundError: No module named 'otary'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
