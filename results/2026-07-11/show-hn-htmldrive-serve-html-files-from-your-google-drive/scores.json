@@ -1,0 +1,92 @@
+{
+  "app_name": "HtmlDrive",
+  "url": "https://html-drive.com/",
+  "scored_at": "2026-07-11T13:03:53.137Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "HtmlDrive offers a unique approach to sharing web pages via Google Drive, but similar tools like Netlify CMS and Wix exist, with Netlify CMS having 225 stars and Wix having 13,184 stars, indicating that the space is somewhat crowded."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app is a web extension, so it is relatively accessible, but the install time of 11.3s is somewhat high, which might affect the user experience."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app's relevance to the current web development ecosystem is unclear due to lack of data on its fit with current trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "HtmlDrive has a unique feature set, but similar tools like Netlify CMS and Wix exist, with Netlify CMS having 225 stars and Wix having 13,184 stars, indicating that HtmlDrive's differentiation is somewhat limited."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, and the HN points are only 10, indicating a relatively small and inactive community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The app is a web extension, so it should be relatively easy to use, but the tests passed are only 1/3, which might indicate some usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app is a web extension, so it should be relatively easy to integrate, but there is no PyPI package found, which might limit its integration with other tools."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no data available on the quality of the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no data available on the maturity of the app, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no data available on the performance of the app, except for the benchmark measurements, which show an install time of 0.77s and an import time of 11.55ms, but these are not directly comparable to other tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but it's not applicable as a separate criterion, so it's incorporated into the community and other relevant scores. The sentiment score is 4/10, with 10 HN points and 8 comments analyzed, indicating a relatively negative sentiment."
+    }
+  },
+  "summary": "HtmlDrive is a web extension that allows users to share web pages via Google Drive, but it has a relatively small and inactive community, limited differentiation, and some usability issues. However, it is relatively easy to integrate and has a unique feature set.",
+  "recommendation": "skip",
+  "app_url": "https://html-drive.com/",
+  "tool_url": "https://github.com/kayru/HtmlDrive",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48821052",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Netlify CMS",
+        "stars": 225,
+        "repo": "vencax/netlify-cms-github-oauth-provider"
+      },
+      {
+        "name": "Wix",
+        "stars": 13184,
+        "repo": "wix/react-native-navigation"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "free",
+        "publishing pages"
+      ],
+      "negative_signals": [
+        "concern over data deletion process",
+        "potential TOU violation"
+      ],
+      "justification": "The comments are generally negative due to concerns about data deletion process, potential violation of Google's Terms of Service, and some skepticism about the usefulness of the project. However, some users also found it to be free which is a positive aspect.",
+      "comment_count": 8,
+      "hn_points": 10
+    }
+  }
+}
