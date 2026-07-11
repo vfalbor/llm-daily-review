@@ -1,0 +1,98 @@
+{
+  "app_name": "iroh-fan",
+  "url": "https://github.com/iroh/iroh-fan",
+  "scored_at": "2026-07-11T13:03:07.551Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The iroh-fan is a unique implementation of a smart fan, utilizing the iroh IoT framework, which is not commonly seen in similar tools, such as Home Assistant with 88,474 stars and IFTTT with 6,366 stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation time is 11.6s, and while there is no PyPI package found, indicating it may require manual setup or compilation, the fact that it's based on Rust could imply relatively low system requirements once set up."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the current trends in IoT and smart home automation, a device like the iroh-fan, which integrates with these ecosystems, is relevant, though its novelty and practical application might vary depending on the user's smart home setup."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Compared to similar tools like Home Assistant and IFTTT, which have 88,474 and 6,366 stars respectively, the iroh-fan stands out due to its use of the iroh IoT framework, offering a unique Rust-based approach to smart home automation, with a significant difference in approach and technology stack."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Without direct GitHub repository stats available for the iroh-fan, and considering the HN points and comments, the community seems to be in its early stages, with 126 HN points and 30 comments analyzed, indicating some interest but not yet a strong community presence."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that no tests passed out of 3, and the basic run success is true, it indicates that while the device can be run, its functionality might not be straightforward or thoroughly tested, suggesting potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Due to the lack of information on the API modes and the absence of a PyPI package, it's challenging to assess the ease of integration without more details on how it interfaces with other systems or services."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to accurately assess the quality of the documentation, as there's no clear information provided about the availability of a wiki, pages, or topics related to the project."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project seems to be in its early stages, given the comparison with more established tools, and without specific data on its creation date, forks, or open issues, it's reasonable to conclude that it's not yet mature, especially considering the small number of HN points and comments."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The vs_home_assistant_execution_time_ratio of 1.0 suggests that the iroh-fan performs comparably to Home Assistant in terms of execution time, which could be an indicator of its performance capabilities, although more benchmarks would be needed for a thorough assessment."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score of 7/10, with 126 HN points, 30 comments analyzed, and a mix of positive and negative signals, indicates a generally positive reception, with enthusiasm for its innovative approach, but also some skepticism about its practicality, reflecting a somewhat positive community sentiment towards the project."
+    }
+  },
+  "summary": "The iroh-fan is an innovative smart fan project that leverages the iroh IoT framework, offering a unique approach to smart home automation. While it shows promise with its differentiation and potential for performance, it faces challenges in terms of ease of use, community support, and maturity. As such, it represents a niche product that could appeal to those interested in IoT projects and custom smart home solutions.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.iroh.computer/blog/an-iroh-powered-smart-fan",
+  "tool_url": "https://github.com/iroh/iroh-fan",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48817539",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Home Assistant",
+        "stars": 88474,
+        "repo": "home-assistant/core"
+      },
+      {
+        "name": "IFTTT",
+        "stars": 6366,
+        "repo": "IFTTT/JazzHands"
+      },
+      {
+        "name": "IFTTT IoT",
+        "stars": 3,
+        "repo": "grimlockrocks/aws-iot-button-ifttt-doorbell"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Enthusiasm for innovative projects",
+        "Appreciation for functional examples",
+        "Excitement for novel technologies like iroh"
+      ],
+      "negative_signals": [
+        "Questioning the necessity of 'smart' gadgets",
+        "Some users see the project as impractical or unnecessary"
+      ],
+      "justification": "The majority of users appreciate the project's innovative nature and its value as a learning example, with some users expressing doubts about the practicality of smart fans.",
+      "comment_count": 30,
+      "hn_points": 126
+    }
+  }
+}
