@@ -1,0 +1,82 @@
+{
+  "app_name": "Otary",
+  "url": "https://otary.ai",
+  "scored_at": "2026-07-11T13:02:31.222Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "With no direct comparison to similar tools like OpenCV, Pygame, or PyTorch available in the provided data, and considering the app type is a Python library for image and geometry computations, the novelty is assessed based on its unique application area, scoring 6."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data on system requirements. Although PyPI package existence is confirmed, the lack of install success and specific system requirements details leads to a neutral score of 5."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the library's focus on image and geometry computations, it fits well with current trends in data processing and analysis, especially with its Python library and potential web interface, scoring 7."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without specific comparison data against similar tools like OpenCV or PyTorch, and no benchmark comparisons available, differentiation cannot be accurately assessed, resulting in a score of 5."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository stats are available, but the web page signals lack of community engagement with no docs, wiki, or guides, and only 45 HN points with minimal comments, indicating a relatively low community engagement, scoring 2."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With install success being false, and no tests passed, it indicates significant usability issues, scoring 1."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Although the PyPI package exists, and it's mentioned as a Python library, there's insufficient data on its API modes, license, and integration ease, leading to a neutral score of 5."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The web page lacks documentation links, changelogs, or release notes, and the page content is very short (56 chars), indicating poor documentation quality, scoring 2."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No version detected on the web page, and no changelog or release notes available, with minimal web presence and low HN engagement, suggests the project is not mature, scoring 3."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data or performance claims are available in the provided data, resulting in a neutral score of 5."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is insufficient for a meaningful analysis with only 1 comment and a sentiment score of 5/10, thus it's set to null."
+    }
+  },
+  "summary": "Otary is a Python library for image and geometry computations with potential but faces significant challenges in usability, community engagement, and documentation. Its current relevance is its strongest aspect, fitting well with data processing trends.",
+  "recommendation": "niche",
+  "app_url": "https://alexandrepoupeau.com/otary/learn/",
+  "tool_url": "https://otary.ai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48830556",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.0",
+      "summary": "Otary — elegant, readable, and powerful image and 2D geometry Python library.",
+      "requires_python": "<4.0,>=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 45
+    }
+  }
+}
