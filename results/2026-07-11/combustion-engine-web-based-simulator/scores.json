@@ -1,0 +1,83 @@
+{
+  "app_name": "Combustion Engine Web-based Simulator",
+  "url": "https://combustionlab.net/",
+  "scored_at": "2026-07-11T13:04:12.573Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The simulator is a novel approach to educating users about combustion engines, with a unique combination of interactive diagrams and live simulations, as seen on the project's website."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The simulator is not pip-installable and does not have a PyPI package, but it can be accessed through a web interface."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The simulator is relevant to the current landscape of educational tools, but its focus on combustion engines may limit its appeal to a broader audience, with 188 HN points indicating moderate interest."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The simulator differentiates itself from other educational tools through its interactive and visually appealing interface, with 30 HN comments praising its design and educational potential."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, but the project has a website and has received moderate attention on HN, with 188 points and 30 comments."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The simulator's web interface is easy to use, but its accuracy and effectiveness as an educational tool have been questioned by some users, with 30 HN comments including both positive and negative feedback."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is a web-based simulator rather than a software library or API."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The simulator's website provides some information about its features and usage, but more detailed documentation would be beneficial, with no clear indication of a wiki or GitHub pages."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project's maturity is difficult to assess due to the lack of a GitHub repository and limited information about its development history, but it has been released and is available for use."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 188 points, 30 comments, and a mix of positive and negative signals, indicating a generally well-received but imperfect project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is a web-based simulator rather than a software application with measurable performance metrics."
+    }
+  },
+  "summary": "The Combustion Engine Web-based Simulator is a novel educational tool with a unique interface and moderate community interest, but its accuracy and effectiveness have been questioned by some users.",
+  "recommendation": "worth-watching",
+  "app_url": "https://combustionlab.net/",
+  "tool_url": "https://github.com/combustion-lab/web_simulator",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48795900",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "impressive simulations with live diagrams",
+        "fun to play with and can be educational",
+        "well-designed and visually appealing"
+      ],
+      "negative_signals": [
+        "questionable accuracy of the simulation model",
+        "author's background in combustion engines may be lacking",
+        "some users feel that the simulation is too simplistic"
+      ],
+      "justification": "While many users praise the simulation's visual appeal and educational potential, others express concerns about its accuracy and the author's expertise in the field. Despite these criticisms, the project remains generally well-received.",
+      "comment_count": 30,
+      "hn_points": 188
+    }
+  }
+}
