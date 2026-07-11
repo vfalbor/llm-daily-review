@@ -1,0 +1,100 @@
+{
+  "app_name": "QuadRF",
+  "url": "https://github.com/geerlingguy/quadrf",
+  "scored_at": "2026-07-11T13:02:09.019Z",
+  "total_score": 61,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 628 points and 30 comments analyzed, indicating a mostly positive reception with some negative signals about device limitations."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The QuadRF is an open-source RF monitoring tool, which is a unique approach, with no specific similar tools mentioned in the data, but compared to Wi-Fi Inspector, NetworkMiner, and RF Explorer, it offers a distinctive solution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and install time is not relevant as it's a hardware tool, indicating potential difficulties in setting up or using the device."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The QuadRF is relevant to the current IoT and RF monitoring landscape, with its focus on detecting and decoding WiFi and other signals, making it a valuable tool in this space."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools like Wi-Fi Inspector (0 stars), NetworkMiner (26 stars), and RF Explorer (16 stars), the QuadRF's open-source nature and specific use case set it apart, offering a unique value proposition."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository stats are available to assess the community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The device's ease of use is not directly evaluated through tests, but its CLI and Python API suggest a moderate level of usability, requiring some technical expertise."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no clear information on the ease of integration, given the lack of PyPI package and specific API modes, making it difficult to assess its integrability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct documentation assessment is available, but the project's GitHub page and related articles may provide some level of documentation, though the quality is unknown."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "No data is available to assess the maturity of the QuadRF project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks are available for the QuadRF, making it impossible to assess its performance relative to other tools."
+    }
+  },
+  "summary": "The QuadRF is an innovative, open-source RF monitoring tool with a unique value proposition, despite some limitations and uncertainties regarding its community, documentation, maturity, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+  "tool_url": "https://github.com/geerlingguy/quadrf",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48861717",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Wi-Fi Inspector",
+        "stars": 0,
+        "repo": "Frankelc/inspectorWi_fi"
+      },
+      {
+        "name": "NetworkMiner",
+        "stars": 26,
+        "repo": "hatnetsec/NetworkMiner"
+      },
+      {
+        "name": "RF Explorer",
+        "stars": 16,
+        "repo": "dirkx/iRF-Explorer"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Utility in local EMC compliance testing",
+        "Potential for spotting and tracking drones",
+        "Pre-packaged and affordable solution"
+      ],
+      "negative_signals": [
+        "Limited frequency range (4.9-6 GHz)",
+        "Narrow detection angle",
+        "Not effective for detecting all types of drones (e.g., those using 900 MHz)",
+        "Cost may increase exponentially with wider frequency range"
+      ],
+      "justification": "Mostly positive comments highlight the utility of the device in local EMC compliance testing and its potential in spotting and tracking drones. However, there are significant concerns about the device's limitations, including its narrow frequency range, detection angle, and effectiveness in detecting various types of drones.",
+      "comment_count": 30,
+      "hn_points": 628
+    }
+  }
+}
