@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "We scaled PgBouncer to 4x throughput",
+    "url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+    "hn_url": "https://news.ycombinator.com/item?id=48872874",
+    "points": 222,
+    "comments": 53,
+    "author": "saisrirampur",
+    "age": "2026-07-11T15:28:02 1783783682",
+    "scraped_at": "2026-07-12T13:00:02.577Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/PGBouncer/PgBouncer",
+    "source_type": "article",
+    "confidence": 0.9,
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "PgBouncer, a lightweight connection broker for PostgreSQL",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "pgbouncer",
+      "PostgreSQL"
+    ],
+    "proposed_tests": [
+      "Clone and run PgBouncer, benchmark throughput vs native PostgreSQL"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/PGBouncer/PgBouncer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783861648706-u0ae3",
+    "log_dir": "/tmp/llm-review-1783861648706-u0ae3",
+    "install_success": false,
+    "install_time_s": 6.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 3, in <module>\n    import psycopg2\nModuleNotFoundError: No module named 'psycopg2'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
