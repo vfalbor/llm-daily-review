@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Show HN: Ant – A JavaScript runtime and ecosystem",
+    "url": "https://antjs.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=48875377",
+    "points": 290,
+    "comments": 131,
+    "author": "theMackabu",
+    "age": "2026-07-11T20:07:18 1783800438",
+    "scraped_at": "2026-07-12T13:00:02.575Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/ant-contrib/ant",
+    "source_type": "tool",
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "lang-runtime",
+    "description": "A JavaScript runtime and ecosystem",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Node.js",
+      "Deno",
+      "Duktape"
+    ],
+    "proposed_tests": [
+      "Install Ant CLI and create a new project",
+      "Run a simple Node.js script using Ant",
+      "Measure Ant's compilation time vs Node.js"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ant-contrib/ant"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783861546141-9cu9l",
+    "log_dir": "/tmp/llm-review-1783861546141-9cu9l",
+    "install_success": false,
+    "install_time_s": 14.4,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:test_files_count:20",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'ant'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.0-r0)\n(18/26) Installing cargo (1.96.0-r0)\n(19/26) Installing go (1.26.3-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.17.0-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 869.6 MiB in 77 packages\nINSTALL_FAIL:[Errno 2] No such file or directory: 'ant'\nTEST_FAIL:ant_cli:[Errno 2] No such file or directory: './target/debug/ant'\nTEST_FAIL:nodejs_script:[Errno 2] No such file or directory: './target/debug/ant'\nTEST_FAIL:compilation_time:[Errno 2] No such file or directory: './target/debug/ant'\nTEST_FAIL:memory_usage:[Errno 2] No such file or directory: './target/debug/ant'\nBENCHMARK:test_files_count:20\nTEST_PASS:files_count\nRUN_OK\n"
+  }
+}
