@@ -1,0 +1,99 @@
+{
+  "app_name": "A dock that wakes up reliably",
+  "url": "https://fabiensanglard.net/tb4/index.html",
+  "scored_at": "2026-07-12T13:08:44.844Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate novelty, as no GitHub repository or similar tool comparisons are available."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is true, but install time is 8.3s and tests passed is 0 / 1, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate current relevance, as no information about the app's fit with current LLM ecosystem trends is available."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate differentiation, as no GitHub repository or similar tool comparisons are available."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository detected, but HN points are 91, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 1, indicating significant issues with ease of use."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "No PyPI package found, and no API modes are available, indicating significant issues with ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation, as no information about the app's documentation is available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as no information about the app's maturity is available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to evaluate performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not applicable to this criterion, as it is already considered in the community score."
+    }
+  },
+  "summary": "A Docker container for a web server, with some community interest but significant issues with ease of use and integration.",
+  "recommendation": "niche",
+  "app_url": "https://fabiensanglard.net/tb4/index.html",
+  "tool_url": null,
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=48877269",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Docker",
+        "stars": 52657,
+        "repo": "sickcodes/Docker-OSX"
+      },
+      {
+        "name": "Containerd",
+        "stars": 20976,
+        "repo": "containerd/containerd"
+      },
+      {
+        "name": "rkt",
+        "stars": 8772,
+        "repo": "rkt/rkt"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Some users have found reliable solutions with certain docks and monitors.",
+        "There is a possibility of making a reliable monitor dock, as suggested by golem14.",
+        "Users are providing helpful insights and suggestions, such as using a virtual monitor emulator or a dummy plug."
+      ],
+      "negative_signals": [
+        "Some users have had frustrating and unreliable experiences with their docks and monitors, including the one mentioned in the post.",
+        "There is skepticism about the reliability of some devices, such as the HP dock and the ASUS ROG Swift monitor.",
+        "Users are discussing the complexity and trade-offs of Thunderbolt/USB-C protocols and their limitations."
+      ],
+      "justification": "The comments on this project are mostly positive, with users sharing their experiences and suggesting solutions. However, there are also some negative comments about the unreliability of certain devices and the complexity of the technology involved. The overall sentiment is generally positive, but there is some constructive criticism and skepticism.",
+      "comment_count": 30,
+      "hn_points": 91
+    }
+  }
+}
