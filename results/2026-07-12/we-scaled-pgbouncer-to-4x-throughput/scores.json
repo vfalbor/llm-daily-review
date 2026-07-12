@@ -1,0 +1,117 @@
+{
+  "app_name": "PgBouncer",
+  "url": "https://github.com/PGBouncer/PgBouncer",
+  "scored_at": "2026-07-12T13:08:08.797Z",
+  "total_score": 68,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 223 HN points, 30 comments analyzed, and positive signals including improved throughput and community engagement, but also minor criticism related to network latency and divergent opinions on corporate boycotts."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The repository has 5913 days since it was created, indicating it is not a new tool. However, it is not a direct clone, and its scaling to 4x throughput is a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data is available to accurately assess system requirements, given the install success is false and install time is 6.4s, but this does not provide enough information for a definitive score."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a relational database tool, PgBouncer is relevant in the current database ecosystem, particularly with its recent improvements in throughput, demonstrating its utility in modern database management."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "PgBouncer has 4247 stars on GitHub, which is comparable to similar tools like pgbouncer and PostgreSQL, showing a strong but not unique presence in the market, with +0% and +34% more stars than pgbouncer and PostgreSQL respectively."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 4247 stars, 578 forks, 122 contributors, and only 1 day since the last commit, PgBouncer has an active and significant community, indicating a well-maintained and supported project."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the basic run success is false, it is challenging to assess ease of use accurately, but without further data, it's set to a middle score."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool has a PyPI package, indicating ease of installation, and supports Python >=3.5, but the license is NOASSERTION, which might affect integration decisions."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While direct documentation quality is not fully available from the given data, the presence of a GitHub repository and potentially existing documentation there or on the tool's webpage suggests a moderate level of documentation quality."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 5913 days since creation and only 1 day since the last commit, PgBouncer demonstrates maturity and ongoing active development, despite being a long-standing project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient benchmark data provided to evaluate the performance of PgBouncer accurately, so a neutral score is assigned."
+    }
+  },
+  "summary": "PgBouncer is a mature, widely-used connection broker for PostgreSQL with significant community support, recent activity, and improvements in throughput, but its system requirements, ease of use, and performance are less clear from the provided data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+  "tool_url": "https://github.com/PGBouncer/PgBouncer",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=48872874",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 4247,
+      "forks": 578,
+      "open_issues": 279,
+      "watchers": 4247,
+      "contributors": 122,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 5913,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "lightweight connection pooler for PostgreSQL",
+      "topics": [
+        "postgresql"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "pgbouncer",
+        "stars": 4247,
+        "repo": "pgbouncer/pgbouncer"
+      },
+      {
+        "name": "PostgreSQL",
+        "stars": 3180,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "Fixture to bring up temporary pgbouncer instance.",
+      "requires_python": ">=3.5",
+      "license": null,
+      "home_page": "https://launchpad.net/python-pgbouncer"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "improved throughput using PgBouncer",
+        "scalability and reliability demonstrated",
+        "community engagement and support"
+      ],
+      "negative_signals": [
+        "minor network latency concern",
+        "divergent opinions on geopolitical boycotts"
+      ],
+      "justification": "This project has received widespread support and praise from the community, with several users sharing their positive experiences and offering suggestions for improvement, but also has minor criticism related to network latency and divergent opinions on corporate boycotts.",
+      "comment_count": 30,
+      "hn_points": 223
+    }
+  }
+}
