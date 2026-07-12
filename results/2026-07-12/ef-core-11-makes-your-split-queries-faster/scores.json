@@ -1,0 +1,113 @@
+{
+  "app_name": "EF Core 11",
+  "url": "https://steven-giesel.com/blogPost/d4401fd0-805a-4703-9d9e-5fe3b57c25ea",
+  "scored_at": "2026-07-12T13:07:27.595Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This tool provides improved performance of split queries, a unique feature. However, as it's based on EF Core and similar tools like PostgreSQL and SQLite exist, the novelty score is 8."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false and no PyPI package is found, making it difficult to install and run."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The tool is relevant to the current database-relational trends as it provides improvements to EF Core, but its impact is limited to a specific area (split queries)."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Compared to similar tools like EF Core, PostgreSQL, and SQLite, this tool has fewer stars and less community engagement, with -477, -3060, and -24185 stars respectively."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The GitHub repository has 120 stars, 24 forks, and only 1 contributor, indicating a relatively small and inactive community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were passed, and basic run success is false, indicating difficulties in usage."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "No PyPI package is found, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on the quality of documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on the maturity of the project."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The tool provides improved performance of split queries, a significant advantage over existing tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this criterion, but we have sentiment score 8/10, HN points 51, and comments analyzed 24."
+    }
+  },
+  "summary": "This tool provides improved performance for split queries in EF Core, but its impact is limited by its relatively small community, difficult installation, and lack of integration options.",
+  "recommendation": "skip",
+  "app_url": "https://steven-giesel.com/blogPost/d4401fd0-805a-4703-9d9e-5fe3b57c25ea",
+  "tool_url": "https://github.com/linkdotnet/BlogExamples",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=48785102",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 120,
+      "forks": 24,
+      "open_issues": 2,
+      "watchers": 120,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 22,
+      "days_since_created": 1603,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Contains all of my examples from various blog posts",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "EF Core",
+        "stars": 597,
+        "repo": "JonPSmith/EfCore.GenericServices"
+      },
+      {
+        "name": "PostgreSQL",
+        "stars": 3180,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "SQLite",
+        "stars": 24305,
+        "repo": "sqlitebrowser/sqlitebrowser"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Improved performance of split queries",
+        "Pruning of reference-nav joins reduces duplicate data",
+        "Excitement for EF Core 11 features"
+      ],
+      "negative_signals": [
+        "Cartesian explosion and data duplication concerns",
+        "Criticism of existing EF Core features"
+      ],
+      "justification": "Most comments are positive about the new feature, citing improved performance and reduced data duplication. However, some users express concern about Cartesian explosion and advocate for features like `array_agg` to optimize results.",
+      "comment_count": 24,
+      "hn_points": 51
+    }
+  }
+}
