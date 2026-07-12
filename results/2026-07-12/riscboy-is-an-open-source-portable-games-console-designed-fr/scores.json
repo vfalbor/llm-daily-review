@@ -1,0 +1,120 @@
+{
+  "app_name": "RISCBoy",
+  "url": "https://github.com/Wren6991/RISCBoy",
+  "scored_at": "2026-07-12T13:06:53.379Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The RISCBoy console has a unique design, with 758 lines of code and support for 3 languages, as shown in the benchmark measurements. Its differentiation from similar tools like Game Boy Advance (+387 stars, +1075%) and Nintendo DS (+186 stars, +78%) demonstrates its original contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The console has an install time of 11.6s and was successfully installed, but it does not have a PyPI package, which affects its system requirements score."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a portable games console, the RISCBoy fits into the current gaming and IoT landscape, with a focus on retro consoles and technology, as seen in the HN comments."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The RISCBoy has a unique feature set compared to similar tools like Game Boy Advance and Nintendo DS, with a custom design and no GPU, as mentioned in the HN comments."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 423 GitHub stars and 2 contributors, the community around the RISCBoy is relatively small, and the last commit was 209 days ago, indicating a need for more community engagement."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The console has a basic run success, and 2 out of 4 tests passed, but the lack of documentation and limited information about its usage affects its ease of use score."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a hardware device, the RISCBoy does not require integration into software pipelines, making this criterion not applicable."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of the RISCBoy's documentation could not be determined due to insufficient data, resulting in a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The RISCBoy's maturity is difficult to assess due to the lack of information about its releases, versioning, and production readiness, leading to a neutral score."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The benchmark measurements show an example run time of 21.508216857910156 ms and memory usage of 152 bytes, indicating relatively good performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 165 points, 21 comments, and positive signals praising the hardware design and author expertise, while negative signals mention the limited RAM and GPU capacity."
+    }
+  },
+  "summary": "The RISCBoy is an open-source portable games console with a unique design and relatively good performance, but it lacks documentation and has a small community, making it a niche product in the current gaming landscape.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Wren6991/RISCBoy",
+  "tool_url": "https://github.com/Wren6991/RISCBoy",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48876245",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 423,
+      "forks": 18,
+      "open_issues": 3,
+      "watchers": 423,
+      "contributors": 2,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 209,
+      "days_since_created": 3039,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Portable games console, designed from scratch: CPU, graphics, PCB, and the kitchen sink",
+      "topics": [
+        "cpu",
+        "fpga",
+        "gameboy",
+        "pcb",
+        "risc",
+        "risc-v"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Game Boy Advance",
+        "stars": 36,
+        "repo": "juanmv94/GameBoy-Advance-3D-voxel-space-demo"
+      },
+      {
+        "name": "PSP",
+        "stars": 6102,
+        "repo": "DominicBreuker/pspy"
+      },
+      {
+        "name": "Nintendo DS",
+        "stars": 237,
+        "repo": "Fewnity/Counter-Strike-Nintendo-DS"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive hardware design",
+        "Love for retro consoles and technology",
+        "Expertise of the author showcased"
+      ],
+      "negative_signals": [
+        "Difficulty in porting Godot Engine",
+        "Limited RAM and GPU capacity"
+      ],
+      "justification": "The comments are generally positive, praising the author's expertise and the project's attention to detail. Some critics point out the limited capabilities of the device, such as fitting Godot Engine into 512KB of RAM and no GPU.",
+      "comment_count": 21,
+      "hn_points": 165
+    }
+  }
+}
