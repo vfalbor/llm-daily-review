@@ -1,0 +1,102 @@
+{
+  "app_name": "Ghostel.el",
+  "url": "https://dakra.github.io/ghostel/",
+  "scored_at": "2026-07-12T13:05:20.090Z",
+  "total_score": 46,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available due to absence of HN comments or analysis failure"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Ghostel.el offers a unique approach as a minimal terminal emulator powered by libghostty for Emacs, with 103 days since its creation and being a non-fork repository"
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Installation failed with an install time of 191.7s, indicating significant difficulties in setting up the tool, and it's not available on PyPI"
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a terminal emulator for Emacs, Ghostel.el fits into the current landscape of developer tools, albeit with a specific and somewhat niche use case, given its compatibility with Emacs"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Ghostel.el differentiates itself from similar tools like vterm, xterm, and kitty by being specifically designed for Emacs, with a minimal approach, and having 641 stars, which is higher than vterm's 239 stars but significantly lower than xterm and kitty"
+    },
+    "community": {
+      "score": 5,
+      "justification": "The community aspect is moderately supported with 641 GitHub stars, 44 forks, and 20 contributors, but without direct comparison to similar tools' community engagement, it's challenging to assess its relative strength"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the installation failure and lack of successful tests, ease of use is significantly impaired, making it difficult for users to get started with Ghostel.el"
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "While Ghostel.el is designed as an Emacs plugin, which could imply ease of integration for Emacs users, its absence on PyPI and specific requirements might pose challenges for integration outside of the Emacs ecosystem"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Lacking direct access to documentation quality, but given it's an open-source project, one might expect some level of documentation, yet without concrete evidence, it's challenging to accurately score"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Ghostel.el's maturity is hard to assess due to insufficient data on its release cycle, versioning, and long-term support, despite being only 103 days old and having regular updates indicated by 0 days since the last commit"
+    },
+    "performance": {
+      "score": 1,
+      "justification": "No benchmark data is available to assess the performance of Ghostel.el, and the installation failure prevents direct evaluation of its efficiency or speed"
+    }
+  },
+  "summary": "Ghostel.el is a unique, minimal terminal emulator for Emacs, offering a distinct approach but facing challenges in installation and use, with a moderately supportive community and uncertain maturity and performance.",
+  "recommendation": "niche",
+  "app_url": "https://dakra.github.io/ghostel/",
+  "tool_url": "https://github.com/dakra/ghostel",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48879504",
+  "domain": "devtool",
+  "app_type": "devtool-terminal",
+  "enriched": {
+    "github": {
+      "stars": 641,
+      "forks": 44,
+      "open_issues": 9,
+      "watchers": 641,
+      "contributors": 20,
+      "license": "GPL-3.0",
+      "language": "Emacs Lisp",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 103,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Terminal emulator powered by libghostty",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "vterm",
+        "stars": 239,
+        "repo": "suonlight/multi-vterm"
+      },
+      {
+        "name": "xterm",
+        "stars": 20884,
+        "repo": "xtermjs/xterm.js"
+      },
+      {
+        "name": "kitty",
+        "stars": 33851,
+        "repo": "kovidgoyal/kitty"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
