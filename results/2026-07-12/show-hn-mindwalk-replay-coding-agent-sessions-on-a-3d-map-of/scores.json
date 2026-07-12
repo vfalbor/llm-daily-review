@@ -1,0 +1,114 @@
+{
+  "app_name": "Mindwalk",
+  "url": "https://github.com/cosmtrek/mindwalk",
+  "scored_at": "2026-07-12T13:05:45.100Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project offers a unique approach to visualizing and analyzing coding-agent sessions, with a focus on 3D mapping, which is not commonly seen in similar tools like Langchain, Crew AI, or Codex, especially considering it's only 3 days since the repo was created."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install process failed, with install success being false and install time not being relevant due to the failure, indicating potential issues with system requirements or compatibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Given the app type is llm-visualization, and considering current trends in LLM ecosystem towards more interactive and visual tools, Mindwalk has a moderate level of relevance, but its novelty and differentiation are its strongest points."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Mindwalk significantly differentiates itself from similar tools like Langchain, Crew AI, and Codex by offering a 3D visualization of coding-agent sessions, which is a unique feature not found in these other tools, with a significant gap in GitHub stars but a promising start with 169 stars."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 169 GitHub stars, 8 forks, and 2 open issues, and considering the project is only 3 days old, the community is small but shows initial interest, and the presence of 2 contributors indicates some level of community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project's install process failed, and with no tests passing, it indicates significant difficulties in using the project as is, requiring further development or fixes to enhance usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There's no PyPI package found, which complicates the integration process for users who prefer pip installation, and the lack of a standard package makes it less accessible for integration into other projects or workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Given the absence of direct data on documentation quality, and considering the project's early stage, the score is neutral, reflecting a need for more information on the documentation's completeness and quality."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The project is very new, with only 3 days since its creation, and despite having no days since the last commit, indicating recent activity, its overall maturity is low due to its young age and the absence of a release or versioning information."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "There's no benchmark data available, and given the project's early stage and installation issues, assessing its performance is challenging, leading to a low score due to the lack of information."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 97 HN points and 30 comments analyzed, showing a generally positive reception with excitement for the project's visual representation and potential, albeit with some concerns over practical use cases and utility."
+    }
+  },
+  "summary": "Mindwalk offers a novel approach to visualizing coding-agent sessions in 3D, Differentiating itself significantly from other LLM tools, but faces challenges in terms of system requirements, ease of use, and performance, with a small but engaged community and generally positive HN reception.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/cosmtrek/mindwalk",
+  "tool_url": "https://github.com/cosmtrek/mindwalk",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48878682",
+  "domain": "llm-ai",
+  "app_type": "llm-visualization",
+  "enriched": {
+    "github": {
+      "stars": 169,
+      "forks": 8,
+      "open_issues": 2,
+      "watchers": 169,
+      "contributors": 2,
+      "license": "none",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Langchain",
+        "stars": 141586,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "Crew AI",
+        "stars": 55382,
+        "repo": "crewAIInc/crewAI"
+      },
+      {
+        "name": "Codex",
+        "stars": 97316,
+        "repo": "openai/codex"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement and praise for the project's visual representation and potential",
+        "Users see value in spatial representations for code and agent systems",
+        "Project's UI is considered to be similar to sci-fi movies"
+      ],
+      "negative_signals": [
+        "Some users questioned the practical use case and utility of the project",
+        "One commenter felt that the project might be adding more friction than reducing it",
+        "Others suggested that standard CLI tools like git diff or IDE diff viewers are faster and more ergonomic"
+      ],
+      "justification": "This project received a generally positive reception, with many users expressing enthusiasm for its visual representation and potential. However, some users questioned the practical use case and utility of the project, citing the need for faster and more ergonomic tools like git diff or IDE diff viewers.",
+      "comment_count": 30,
+      "hn_points": 97
+    }
+  }
+}
