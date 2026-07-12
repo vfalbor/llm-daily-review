@@ -1,0 +1,106 @@
+{
+  "app_name": "Ant",
+  "url": "https://antjs.org/",
+  "scored_at": "2026-07-12T13:06:21.094Z",
+  "total_score": 63,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points: 290, positive signals: potential for small projects, binary size under 10MB, community enthusiasm; negative signals: DNS resolution issues, no clear roadmap, possible lack of Linux compatibility"
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "days_since_created not provided, but comparison to similar tools like Node.js (18,176 stars), Deno (107,786 stars), and Duktape (6,207 stars) suggests a unique ecosystem"
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "install_success: false, install_time_s: 14.4s, PyPI existence: yes, but installation issues"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "app_type: lang-runtime, fit with current LLM ecosystem trends: JavaScript runtime with potential for creating desktop apps"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "stars vs similar tools: no direct comparison, but unique features like binary size under 10MB and community enthusiasm"
+    },
+    "community": {
+      "score": 5,
+      "justification": "no GitHub repo detected or API unavailable, but HN points: 290, comments: 30, positive signals: community enthusiasm and support"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "tests_passed: 1/5, install_success: false, basic_run_success: true, but installation issues and limited test success"
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "PyPI existence: yes, API modes: CLI, HTTP API, SDK, license: open source, requires API key: false"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "has_wiki not available, but GitHub topics and Ant website provide some documentation"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "days_since_created not provided, forks count not available, open_issues not available, but HN points and comments suggest some community engagement"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "no BENCHMARK lines from tests, but test_files_count: 20 suggests some level of testing"
+    }
+  },
+  "summary": "Ant is a JavaScript runtime and ecosystem that offers a unique approach to creating desktop apps, with a strong focus on community and potential for small projects, but faces challenges with installation and lacks a clear roadmap.",
+  "recommendation": "worth-watching",
+  "app_url": "https://antjs.org/",
+  "tool_url": "https://github.com/ant-contrib/ant",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48875377",
+  "domain": "devtool",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Node.js",
+        "stars": 18176,
+        "repo": "auth0/node-jsonwebtoken"
+      },
+      {
+        "name": "Deno",
+        "stars": 107786,
+        "repo": "denoland/deno"
+      },
+      {
+        "name": "Duktape",
+        "stars": 6207,
+        "repo": "svaarala/duktape"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Python implementation of the ANT, ANT+, and ANT-FS protocols (http://www.thisisant.com/).",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "http://www.github.com/mvillalba/python-ant"
+    },
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Showcasing potential for creating small index.html/css/js projects into desktop apps",
+        "Binary size under 10MB is a major win",
+        "Community enthusiasm and support"
+      ],
+      "negative_signals": [
+        "Initial DNS resolution issues due to browser config",
+        "No clear roadmap or collaborator list",
+        "Possible lack of Linux compatibility due to WSL1 challenges"
+      ],
+      "justification": "Overall, the project received enthusiastic support, with several users expressing interest in using Ant for their projects. The developer's response to concerns about DNS resolution and roadmap was timely, and the community's feedback on binary size and use cases was constructive. However, a clear roadmap and collaborator list would make the project more credible, and the Linux compatibility concerns need to be addressed.",
+      "comment_count": 30,
+      "hn_points": 290
+    }
+  }
+}
