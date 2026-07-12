@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "RISCBoy is an open-source portable games console, designed from scratch",
+    "url": "https://github.com/Wren6991/RISCBoy",
+    "hn_url": "https://news.ycombinator.com/item?id=48876245",
+    "points": 164,
+    "comments": 21,
+    "author": "mariuz",
+    "age": "2026-07-11T21:58:00 1783807080",
+    "scraped_at": "2026-07-12T13:00:02.575Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/Wren6991/RISCBoy",
+    "source_type": "tool",
+    "confidence": 0.86,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "An open-source portable games console",
+    "use_modes": [
+      "Emulator",
+      "Firmware"
+    ],
+    "similar_tools": [
+      "Game Boy Advance",
+      "PSP",
+      "Nintendo DS"
+    ],
+    "proposed_tests": [
+      "Build and flash RISCBoy firmware onto a target device",
+      "Test RISCBoy's emulator on a PC",
+      "Run a game on RISCBoy and measure performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Wren6991/RISCBoy"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783861585335-4yk45",
+    "log_dir": "/tmp/llm-review-1783861585335-4yk45",
+    "install_success": true,
+    "install_time_s": 11.6,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:loc_count:758\nBENCHMARK:languages_count:3\nBENCHMARK:example_run_time_ms:21.508216857910156\nBENCHMARK:example_memory_usage_bytes:152\nBENCHMARK:test_files_count:9\nBENCHMARK:memory_usage_bytes:152",
+    "error_log": "Cloning into 'RISCBoy'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:loc_count:758\nBENCHMARK:languages_count:3\nTEST_PASS:emulator_found\nTEST_FAIL:emulator_run:[Errno 13] Permission denied: './test/ppu/testcases/tile_t16_pf128_argb1555_scrollpos/asset_0x10000_tilemap.bin'\nTEST_PASS:example_found\nBENCHMARK:example_run_time_ms:21.508216857910156\nBENCHMARK:example_memory_usage_bytes:152\nTEST_FAIL:baseline_comparison:[Errno 2] No such file or directory: 'gears'\nBENCHMARK:test_files_count:9\nBENCHMARK:memory_usage_bytes:152\nRUN_OK\n"
+  }
+}
