@@ -1,0 +1,78 @@
+{
+  "app_name": "LARP",
+  "url": "https://www.larp.website/",
+  "scored_at": "2026-07-13T13:04:23.972Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is a new tool and has a unique title, but without GitHub data, we cannot compare it directly to similar tools. Its detected version is 0.055, which might indicate it's early in development."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installs successfully in 9.6s, which is relatively fast, indicating good system requirements."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Without specific data on the current LLM ecosystem trends, we cannot accurately assess the app's current relevance."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has a unique name but lacks direct comparison to similar tools like LARP Extension or LARP Platform in terms of features or benchmarks."
+    },
+    "community": {
+      "score": null,
+      "justification": "No GitHub repository or HN comment sentiment data is available to assess the community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed, indicating potential usability issues, but basic run success is true."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a detected API/SDK/webhook mention, but no clear documentation or install command is provided on its page."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The app's webpage lacks a docs/wiki/guide link, changelog, or release notes, and no examples or demo are provided."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The detected version is 0.055, suggesting it might be in early development stages, but without GitHub data or release notes, we cannot accurately assess maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark measurements are partially available but lack direct comparison to similar tools or clear indications of performance advantages."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN comment sentiment data is available for analysis."
+    }
+  },
+  "summary": "LARP is a new tool with fast installation but lacks clear documentation, has limited test success, and its performance and maturity are hard to assess without more data.",
+  "recommendation": "niche",
+  "app_url": "https://www.larp.website/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48882569",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.0",
+      "summary": "Larp (/lärp/): Last-Mile Restrictive Planning",
+      "requires_python": null,
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
