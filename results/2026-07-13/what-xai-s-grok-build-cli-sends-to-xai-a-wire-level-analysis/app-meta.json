@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "What xAI's Grok build CLI sends to xAI: A wire-level analysis",
+    "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+    "hn_url": "https://news.ycombinator.com/item?id=48877371",
+    "points": 497,
+    "comments": 185,
+    "author": "jhoho",
+    "age": "2026-07-12T01:09:50 1783818590",
+    "scraped_at": "2026-07-13T13:00:02.411Z",
+    "is_reviewable": true,
+    "confidence": 1,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Analyzed what xAI's Grok build CLI sends to xAI at a wire-level.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "XAIs Grok",
+      "xAI build CLI"
+    ],
+    "proposed_tests": [
+      "Measure the packet size and latency of the data sent to xAI",
+      "Verify the format of the data being sent by implementing a simple parser",
+      "Compare the performance of Grok build CLI with other xAI APIs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cereblab/grok-build-cli",
+    "tool_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547"
+  },
+  "test_results": {
+    "run_id": "llm-review-1783947994044-v2woo",
+    "log_dir": "/tmp/llm-review-1783947994044-v2woo",
+    "install_success": false,
+    "install_time_s": 20.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:memory_usage_bytes:270\nBENCHMARK:packet_latency_ms:1070.09\nBENCHMARK:packet_size_bytes:150",
+    "error_log": "  error: subprocess-exited-with-error\n  \n  × pip subprocess to install build dependencies did not run successfully.\n  │ exit code: 1\n  ╰─> [67 lines of output]\n      Collecting setuptools\n        Using cached setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)\n      Collecting wheel\n        Downloading wheel-0.47.0-py3-none-any.whl.metadata (2.3 kB)\n      Collecting persistent\n        Downloading persistent-6.7.tar.gz (123 kB)\n        Installing build dependencies: started\n        Installing build dependencies: finished with status 'done'\n        Getting requirements to build wheel: started\n        Getting requirements to build wheel: finished with status 'done'\n        Preparing metadata (pyproject.toml): started\n        Preparing metadata (pyproject.toml): finished with status 'error'\n        error: subprocess-exited-with-error\n      \n        × Preparing metadata (pyproject.toml) did not run successfully.\n        │ exit code: 1\n        ╰─> [40 lines of output]\n            Traceback (most recent call last):\n              File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n                main()\n              File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n                json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 175, in prepare_metadata_for_build_wheel\n                return hook(metadata_directory, config_settings)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 380, in prepare_metadata_for_build_wheel\n                self.run_setup()\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/build_meta.py\", line 317, in run_setup\n                exec(code, locals())\n              File \"<string>\", line 77, in <module>\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/__init__.py\", line 117, in setup\n                return distutils.core.setup(**attrs)  # type: ignore[return-value]\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py\", line 148, in setup\n                _setup_distribution = dist = klass(attrs)\n                                             ^^^^^^^^^^^^\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/dist.py\", line 321, in __init__\n                _Distribution.__init__(self, dist_attrs)\n              File \"/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py\", line 308, i",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting grok\n  Downloading grok-6.2-py3-none-any.whl.metadata (36 kB)\nCollecting grokcore.annotation>=1.6 (from grok)\n  Downloading grokcore_annotation-5.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting grokcore.catalog>=2.1 (from grok)\n  Downloading grokcore_catalog-5.1-py3-none-any.whl.metadata (5.3 kB)\nCollecting grokcore.chameleon>=1.0 (from grok)\n  Downloading grokcore_chameleon-5.0-py3-none-any.whl.metadata (20 kB)\nCollecting grokcore.component>=3.1 (from grok)\n  Downloading grokcore_component-5.1-py3-none-any.whl.metadata (20 kB)\nCollecting grokcore.content>=1.2 (from grok)\n  Downloading grokcore_content-5.0-py3-none-any.whl.metadata (3.5 kB)\nCollecting grokcore.formlib>=1.10 (from grok)\n  Downloading grokcore_formlib-5.0-py3-none-any.whl.metadata (8.8 kB)\nCollecting grokcore.layout>=1.6 (from grok)\n  Downloading grokcore_layout-5.1-py3-none-any.whl.metadata (7.9 kB)\nCollecting grokcore.message (from grok)\n  Downloading grokcore_message-5.0-py3-none-any.whl.metadata (10 kB)\nCollecting grokcore.security>=1.6 (from grokcore.security[role]>=1.6->grok)\n  Downloading grokcore_security-5.1-py3-none-any.whl.metadata (9.7 kB)\nCollecting grokcore.site>=1.7 (from grok)\n  Downloading grokcore_site-5.1-py3-none-any.whl.metadata (7.8 kB)\nCollecting grokcore.traverser>=1.1 (from grok)\n  Downloading grokcore_traverser-5.1-py3-none-any.whl.metadata (3.1 kB)\nCollecting grokcore.view>=4.1 (from grokcore.view[security-publication]>=4.1->grok)\n  Downloading grokcore_view-5.1-py3-none-any.whl.metadata (24 kB)\nCollecting grokcore.viewlet>=1.10 (from grok)\n  Downloading grokcore_viewlet-5.1-py3-none-any.whl.metadata (9.8 kB)\nCollecting martian>=1.2 (from grok)\n  Downloading martian-2.1-py3-none-any.whl.metadata (29 kB)\nCollecting pytz (from grok)\n  Downloading pytz-2026.2-py2.py3-none-any.whl.metadata (22 kB)\nCollecting setuptools (from grok)\n  Downloading setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)\nCollecting zc.catalog (from grok)\n  Downloading zc_catalog-5.0-py3-none-any.whl.metadata (70 kB)\nCollecting ZODB (from grok)\n  Downloading zodb-6.3-py3-none-any.whl.metadata (25 kB)\nCollecting zope.annotation (from grok)\n  Downloading zope_annotation-6.0-py3-none-any.whl.metadata (7.1 kB)\nCollecting zope.app.appsetup (from grok)\n  Downloading zope_app_appsetup-6.0-py3-none-any.whl.metadata (19 kB)\nCollecting zope.app.publication (from grok)\n  Downloading zope_app_publication-6.0-py3-none-any.whl.metadata (9.5 kB)\nCollecting zope.app.wsgi (from grok)\n  Downloading zope_app_wsgi-6.0-py3-none-any.whl.metadata (14 kB)\nCollecting zope.browserpage (from grok)\n  Downloading zope_browserpage-6.0-py3-none-any.whl.metadata (5.8 kB)\nCollecting zope.catalog (from grok)\n  Downloading zope_catalog-6.0-py3-none-any.whl.metadata (5.6 kB)\nCollecting zope.component (from grok)\n  Downloading zope_component-7.1-py3-none-any.whl.metadata (19 kB)\nCollecting zope.container (from grok)\n  Downloading zope_container-7.2.tar.gz (72 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'error'\nINSTALL_FAIL:Failed to install Grok\nTEST_FAIL:Import Test:No module named 'grok'\nTEST_FAIL:Core Operation Test:name 'grok' is not defined\nBENCHMARK:memory_usage_bytes:270\nBENCHMARK:packet_latency_ms:1070.09\nBENCHMARK:packet_size_bytes:150\nTEST_PASS:Data Format Test\nTEST_SKIP:Performance Comparison Test:Missing xAI API\nRUN_OK\n"
+  }
+}
