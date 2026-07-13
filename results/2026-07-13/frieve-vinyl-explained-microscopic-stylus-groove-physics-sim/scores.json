@@ -1,0 +1,97 @@
+{
+  "app_name": "Frieve Vinyl Explained",
+  "url": "https://frieve-a.github.io/sound_toolbox/vinyl_explained/vinyl_explained.html",
+  "scored_at": "2026-07-13T13:03:55.416Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This tool provides a unique microscopic stylus/groove physics simulation, setting it apart from similar tools like Frieve Simulation Engine, with 618 days since repo creation and 4 days since last commit."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, and the install success is false, with an install time of 7.7s, indicating potential issues with accessibility and setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware project, it fits within the current landscape of interactive simulations, but its relevance is somewhat niche, with a specific focus on vinyl physics."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "This tool differentiates itself through its microscopic simulation capabilities, with no direct equivalent, although similar tools like Frieve Simulation Engine exist."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The project has 10 GitHub stars, 0 forks, and 1 contributor, with 4 days since the last commit, indicating a small but potentially active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The basic run success is true, but with no tests passed and no clear user interface or documentation mentioned, the ease of use is uncertain."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to hardware projects like this one, as integration is not about software libraries but rather about compatibility with hardware systems."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct information about the quality of the documentation is available, but the project's GitHub and webpage may provide some insights, though not explicitly mentioned here."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project's maturity is difficult to assess with the given data, as there's no clear release history or versioning, but it has been around for 618 days."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply directly to a hardware-related simulation tool without specific performance metrics like speed or resource usage."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not directly applicable to scoring but is used to understand community feedback, with a sentiment score of 10/10, 34 HN points, and positive comments."
+    },
+    "overall": {
+      "score": 6,
+      "justification": "The tool has a unique offering but faces challenges in terms of accessibility, community support, and documentation, which affects its overall score."
+    }
+  },
+  "summary": "Frieve Vinyl Explained offers a unique microscopic stylus/groove physics simulation, setting it apart in the hardware and simulation space, but it faces challenges in accessibility and community support.",
+  "recommendation": "niche",
+  "app_url": "https://frieve-a.github.io/sound_toolbox/vinyl_explained/vinyl_explained.html",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48843775",
+  "domain": null,
+  "app_type": "hardware",
+  "enriched": {
+    "github": {
+      "stars": 10,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 10,
+      "contributors": 1,
+      "license": "BSD-3-Clause",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 618,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "A collection of sound-related tools that run in a web browser",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 10,
+      "positive_signals": [
+        "eye-opening visualization of the groove",
+        "astounding detail in the data stored as soundwaves"
+      ],
+      "negative_signals": [],
+      "justification": "The comments praise the project for being informative and visually captivating, with no criticisms mentioned.",
+      "comment_count": 3,
+      "hn_points": 34
+    }
+  }
+}
