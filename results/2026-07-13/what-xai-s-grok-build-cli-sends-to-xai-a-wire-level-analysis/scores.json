@@ -1,0 +1,83 @@
+{
+  "app_name": "xAI Grok Build CLI Analysis",
+  "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "scored_at": "2026-07-13T13:07:06.022Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "This tool provides a unique wire-level analysis of xAI's Grok build CLI, which is not a common approach, citing the detection of version 0.2.93 and its analysis on GitHub"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, and its installation process is not straightforward, with an install time of 20.5s and install success being false"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is relevant to the current LLM ecosystem trends, specifically in the area of xAI and Grok build CLI, with 498 HN points indicating significant interest"
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The tool's differentiation is unclear due to insufficient data, but it mentions being a wire-level analysis, which could be unique"
+    },
+    "community": {
+      "score": 6,
+      "justification": "The tool has 498 HN points, 30 comments, and a sentiment score of 3/10, indicating a moderately active and engaged community, with both positive and negative signals"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool has a basic run success of true, but only 1 out of 4 tests passed, and its installation process is not straightforward, with an install success of false"
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool's ease of integration is unclear due to insufficient data, but it mentions having a CLI and API/SDK/webhook, which could indicate ease of integration"
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The tool has a page content length of 38055 chars, has a docs/wiki/guide link, and has examples or demo, indicating good documentation"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The tool's maturity is unclear due to insufficient data, but it has a detected version of 0.2.93 and a GitHub gist, which could indicate some level of maturity"
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The tool has a memory usage of 270 bytes, packet latency of 1070.09 ms, and packet size of 150 bytes, which indicates moderate performance, but more data is needed for a thorough evaluation"
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The HN sentiment score is 3/10, with 498 HN points, 30 comments, and both positive and negative signals, indicating a mixed community sentiment"
+    }
+  },
+  "summary": "The xAI Grok Build CLI Analysis tool provides a unique wire-level analysis of xAI's Grok build CLI, but its installation process and testing results are unclear, and its community sentiment is mixed, with 498 HN points and a sentiment score of 3/10.",
+  "recommendation": "niche",
+  "app_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "tool_url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48877371",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "github engineer provides reassuring insight",
+        "acknowledgment of potential third-party breaches",
+        "emphasis on AI interaction data handling"
+      ],
+      "negative_signals": [
+        "concerns about private repo data being accessed",
+        "skepticism about Microsoft's data handling",
+        "allegations of trade secret theft"
+      ],
+      "justification": "This comment section is largely skeptical and concerned about Microsoft's handling of private repo data, with a few reassuring insights from a GitHub engineer. However, the tone remains mostly negative, with significant skepticism and criticism.",
+      "comment_count": 30,
+      "hn_points": 498
+    }
+  }
+}
