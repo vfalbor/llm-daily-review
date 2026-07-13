@@ -1,0 +1,107 @@
+{
+  "app_name": "Beavis Ultrasound PnP ISA Sound Card Replica",
+  "url": "https://github.com/schlae/BeavisUltrasound",
+  "scored_at": "2026-07-13T13:02:40.923Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a replica of a classic sound card, with 0 days since creation and no forks, indicating a new and original project, similar to VBox which has 972 stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 12.6 seconds, which is relatively fast, but the lack of a PyPI package and the fact that it's a hardware project limits its accessibility, with a score based on the requirement for specific hardware."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app is a hardware replica of a classic sound card, which may not be directly relevant to current LLM ecosystem trends, but has sparked nostalgic memories for some users, with 77 HN points and 26 comments."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has 44 stars on GitHub, compared to similar tools like VBox which has 972 stars, indicating a unique project with some community interest, but still relatively low compared to established projects."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 44 stars, 2 forks, and 1 contributor on GitHub, with 0 days since the last commit, indicating a small but active community, and 77 HN points with 26 comments, showing some interest in the project."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The tests passed with 2/4 success, and basic run success is true, but there is limited information about the usability of the app, so a neutral score is assigned."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is a hardware project, and as such, does not have a PyPI package, and there is no information about API modes or integration with other tools, making it difficult to integrate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited information about the documentation of the app, but the GitHub repository has some information, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has 0 days since creation and 0 days since the last commit, indicating a very new project, and there is limited information about its maturity, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "The build time is 0.003645181655883789 seconds, and the example_pnp_reverse.py run time is 21.831274032592773 ms, indicating very fast performance, and peak memory usage is 0.051261 MB, which is relatively low."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 77 points, 26 comments, and both positive and negative signals, indicating a generally positive but not overwhelmingly positive response to the project."
+    },
+    "overall_sentiment": {
+      "score": 6,
+      "justification": "The overall sentiment is positive, with a score of 7/10, and 77 HN points, indicating interest and excitement about the project, but also some concerns and skepticism."
+    }
+  },
+  "summary": "The Beavis Ultrasound PnP ISA Sound Card Replica is a unique and original hardware project with a small but active community, fast performance, and some community interest, but limited documentation and ease of integration, and a relatively low level of maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/schlae/BeavisUltrasound",
+  "tool_url": "https://github.com/schlae/BeavisUltrasound",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48888193",
+  "domain": "hardware",
+  "app_type": "hardware-emu",
+  "enriched": {
+    "github": {
+      "stars": 44,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 44,
+      "contributors": 1,
+      "license": "CERN-OHL-P-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Open source clone of the Gravis Ultrasound PnP",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "VBox",
+        "stars": 972,
+        "repo": "hfiref0x/VBoxHardenedLoader"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Many people are excited to see a replica of the classic sound card",
+        "The project has sparked nostalgic memories for some users",
+        "The creator is a respected reverse engineering hobbyist"
+      ],
+      "negative_signals": [
+        "Some users are skeptical about the untested board design and the difficulty of sourcing the AMD InterWave chip",
+        "There are concerns about the caveated disclaimer and the potential for users to build an unverified and potentially faulty board"
+      ],
+      "justification": "The comments are generally positive about the project, with many users expressing interest and nostalgia for the classic sound card. However, there are some concerns about the untested board design and the difficulty of sourcing the AMD InterWave chip, which prevents the comments from being overwhelmingly positive.",
+      "comment_count": 26,
+      "hn_points": 77
+    }
+  }
+}
