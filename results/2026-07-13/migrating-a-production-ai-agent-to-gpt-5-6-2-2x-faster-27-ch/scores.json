@@ -1,0 +1,81 @@
+{
+  "app_name": "Migrating a production AI agent to GPT-5.6",
+  "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+  "scored_at": "2026-07-13T13:05:13.208Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project claims a unique approach to migrating a production AI agent to GPT-5.6, achieving 2.2x speedup and 27% cost reduction, which is a notable improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to determine system requirements, as there is no GitHub repository or PyPI package available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to current LLM ecosystem trends, as it discusses the migration to GPT-5.6, a recent model."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project's 2.2x performance gain and 27% cost reduction set it apart from similar tools like GPT-5.6 and PolyAI."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 220 HN points and 30 comments, indicating some interest, but the sentiment is mostly negative, with critics questioning the writing style and substance of the project's claims."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Insufficient data to determine ease of use, as there are no test results or user feedback available."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project has a detected version of 1.0 and mentions API/SDK/webhook, indicating some ease of integration, but no concrete evidence."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a page with a content length of 28808 characters, indicating a substantial amount of documentation, and has examples or demo available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to determine maturity, as there is no GitHub repository or release notes available, but the project has a detected version of 1.0."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The project claims a 2.2x performance gain, which is a significant improvement, and a 27% cost reduction, indicating good performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but it is not applicable as a separate criterion, it is used in the community score."
+    }
+  },
+  "summary": "The project migrates a production AI agent to GPT-5.6, achieving a 2.2x speedup and 27% cost reduction, but faces criticism for its writing style and substance. It has some ease of integration and good performance, but insufficient data for other criteria.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48882716",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Some commenters find the project's 2.2x performance gain and 27% cost reduction impressive"
+      ],
+      "negative_signals": [
+        "Many commenters criticize the writing style as overly autistic or 'LLM-ish'",
+        "Several commenters express frustration with the perceived lack of substance or meaningful content in AI-generated articles",
+        "Concerns are raised about the increasing presence of AI-generated content and the potential for 'credibility hits' for humans working with AI"
+      ],
+      "justification": "The comments are mostly negative, with critics questioning the quality of the writing and the substance of the project's claims. While some commenters do express appreciation for the performance gain and cost reduction, the tone generally leans towards skepticism and frustration with the project's reliance on AI-generated content.",
+      "comment_count": 30,
+      "hn_points": 220
+    }
+  }
+}
