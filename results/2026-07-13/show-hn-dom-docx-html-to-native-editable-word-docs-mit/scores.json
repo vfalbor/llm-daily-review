@@ -1,0 +1,104 @@
+{
+  "app_name": "DOM-docx",
+  "url": "https://github.com/floodtide/dom-docx",
+  "scored_at": "2026-07-13T13:02:13.466Z",
+  "total_score": 74,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The app solves a problem in a genuinely new way, with 8 days since its creation and 24 GitHub stars, which is a significant contribution to the current LLM ecosystem, particularly for web-extension tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install success is true, and the install time is 10.5s, which indicates that the app is accessible and can be installed relatively quickly, but it is not pip-installable as there is no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app fits well with the current LLM ecosystem trends as a web-extension tool, addressing the need for converting HTML documents to editable Word documents, with a notable approach to HTML rendering for Word documents."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has 24 GitHub stars, which is significantly less than similar tools like docx with 5,842 stars, but it has a unique approach to HTML rendering for Word documents, with a potential to reveal LibreOffice bugs, and has received praise for its innovative approach."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 24 GitHub stars, 0 forks, and 0 open issues, with 3 contributors, which indicates a relatively small but active community, and it has received positive signals from the HN comments, including praise for its approach and potential."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "The app has a basic run success of true, and 5 out of 6 tests passed, which indicates that it is relatively easy to use, but there may be some minor friction or issues with the setup or configuration."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a CLI, HTTP API, and SDK, but it is not pip-installable, which may make integration more difficult for some users, and there is no clear indication of its compatibility with other tools or systems."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a GitHub repository with a primary language of TypeScript, and it has a relatively complete README, but there is no clear indication of a dedicated docs site or extensive documentation, which may make it more difficult for users to understand its usage and functionality."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The app has 8 days since its creation, and 0 days since the last commit, which indicates that it is a relatively new project, but it has a clear and active development process, with 3 contributors and a MIT license."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app has a conversion time of 62.04819679260254 ms, and a response time of 6.008625030517578 ms, which indicates that it has relatively good performance, particularly in terms of speed and efficiency, compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The app has a sentiment score of 8/10, with 16 HN points, and 5 comments analyzed, which indicates a relatively positive sentiment, with praise for its innovative approach, and some concerns about the choice of LibreOffice as the source of truth."
+    }
+  },
+  "summary": "DOM-docx is a novel web-extension tool that converts HTML documents to editable Word documents, with a unique approach to HTML rendering and a relatively active community, but it has some limitations in terms of integration and documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/floodtide/dom-docx",
+  "tool_url": "https://github.com/floodtide/dom-docx",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48891267",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 24,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 24,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 8,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Convert semantic HTML fragments to native, editable Word documents (OOXML)",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "docx",
+        "stars": 5842,
+        "repo": "dolanmiu/docx"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 5,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "interesting approach to HTML rendering for Word documents",
+        "concern about LibreOffice rendering issues addressed",
+        "potential to reveal LibreOffice bugs"
+      ],
+      "negative_signals": [
+        "concern about using LibreOffice as source of truth",
+        "lack of testing on MS Word",
+        "initial misread and joke reaction to the project title"
+      ],
+      "justification": "The comments received praise for the innovative approach and expressed concerns about the choice of LibreOffice as the source of truth, with one commenter suggesting swapping to MS Word for a more comprehensive test. There is no significant criticism, and the author has already responded to some concerns, contributing to an overall positive sentiment.",
+      "comment_count": 5,
+      "hn_points": 16
+    }
+  }
+}
