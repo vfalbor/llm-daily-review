@@ -1,0 +1,83 @@
+{
+  "app_name": "Claude Code",
+  "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "scored_at": "2026-07-13T13:06:10.572Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app presents a new approach to comparing token generation between Claude Code and OpenCode, with a significant difference of 33k vs 7k tokens, as seen in the blog post."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install time is not provided, and since it's a blog post, there's no installation required, but there's no PyPI package found, and the detected version is 0.25, indicating some system requirements are not clearly met."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is relevant to the current LLM ecosystem trends, as it discusses token generation and compares two popular tools, Claude Code and OpenCode, as seen in the blog post's content."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself from similar tools like OpenCode by highlighting the significant difference in token generation, with Claude Code generating 33k tokens before reading the prompt, and OpenCode generating 7k tokens, as mentioned in the blog post."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The HN points are 633, indicating some community interest, but there's no GitHub repository detected or API unavailable, and no contributor count, as seen in the HN comment sentiment analysis."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "There's no clear evidence of ease of use, as the app is a blog post, and there are no tests passed or failed, as the test results show 0/2 tests passed."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a detected version of 0.25, and has API/SDK/webhook mention, but no install command on page, and no PyPI package found, as seen in the web page signals."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a page content length of 204092 characters, indicating some depth, but no docs/wiki/guide link, and no changelog or release notes, as seen in the web page signals."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There's no clear evidence of maturity, as the detected version is 0.25, but there's no GitHub repository detected or API unavailable, and no release notes, as seen in the web page signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's no benchmark data available, but the blog post discusses token generation, which is a performance-related aspect, as seen in the comparison between Claude Code and OpenCode."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 633 HN points, and 30 comments analyzed, indicating some positive and negative signals, such as the cache-friendly approach and token inefficiency concerns."
+    }
+  },
+  "summary": "The app presents a comparison between Claude Code and OpenCode, highlighting the significant difference in token generation, and discusses the potential implications of this difference, but lacks clear evidence of ease of use, maturity, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48883275",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Claude's approach is cache friendly",
+        "Developers can create their own custom harnesses for more control",
+        "Open-source alternatives like Llama.cpp and LM Studio are available"
+      ],
+      "negative_signals": [
+        "Large system prompts can lead to unnecessary tool calls",
+        "Anthropic's high-cost approach is criticized for token inefficiency",
+        "Some commenters question the effectiveness of the agent without sufficient evidence"
+      ],
+      "justification": "The commenters are generally positive about Claude's cache-friendly approach and the potential for custom harnesses. However, there are concerns about token inefficiency and the effectiveness of the agent, with some commenters questioning the necessity of large system prompts and tool calls.",
+      "comment_count": 30,
+      "hn_points": 633
+    }
+  }
+}
