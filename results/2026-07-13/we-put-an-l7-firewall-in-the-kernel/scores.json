@@ -1,0 +1,89 @@
+{
+  "app_name": "L7 Firewall in the Kernel",
+  "url": "https://yeet.cx/blog/l7-firewall-in-the-kernel",
+  "scored_at": "2026-07-13T13:03:19.954Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Given the lack of direct comparison data, we cannot definitively claim this is the first of its kind. However, the concept of integrating an L7 firewall into the kernel is innovative, with no clear predecessors mentioned in the provided data. Thus, scoring it a 6 based on the assumption of meaningful improvement on existing networking and security tools."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The container test results show an install time of 8.6s and install success as false, indicating significant difficulties in setup, thus warranting a low score."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Without explicit data on how this fits into current ecosystem trends, we are unable to accurately assess its relevance. Hence, a neutral score of 5 is assigned."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Firewall (1,406 stars) and L7 (4,032 stars), this project lacks clear differentiation, especially considering it doesn't have a GitHub repository or PyPI package, making it hard to assess its unique value proposition."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Given the lack of a GitHub repository and therefore no data on stars, contributors, or update frequency, combined with low HN engagement (27 points, 4 comments), the community score is low."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 6 and install success being false, the ease of use is severely impacted, thus scoring it the minimum non-null value of 1."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The absence of a PyPI package and lack of information on API modes or license makes integration extremely difficult, warranting a score of 1."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess the quality of documentation accurately, hence a neutral score of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without data on days since creation, forks, or open issues due to the absence of a GitHub repository, maturity cannot be accurately scored, leading to a neutral score of 5."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As this is an article and not a software tool, performance in terms of speed or efficiency does not apply."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment is provided but given the context, it seems more relevant to the article's reception rather than the tool itself. However, since this is not directly applicable, it's being set to null."
+    }
+  },
+  "summary": "The project, an L7 firewall integrated into the kernel, shows innovation but lacks in almost all other areas, primarily due to the absence of a GitHub repository, PyPI package, and poor test results. Its current form and presentation, particularly as an article, make it hard to evaluate its potential impact or usability.",
+  "recommendation": "niche",
+  "app_url": "https://yeet.cx/blog/l7-firewall-in-the-kernel",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48859437",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Firewall",
+        "stars": 1406,
+        "repo": "antonioribeiro/firewall"
+      },
+      {
+        "name": "L7",
+        "stars": 4032,
+        "repo": "antvis/L7"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 2,
+      "positive_signals": [],
+      "negative_signals": [
+        "claudisms throughout",
+        "vibe slopped XDP code the same way"
+      ],
+      "justification": "The comments express major concerns about the quality of the article with multiple users criticizing its writing and technical execution.",
+      "comment_count": 4,
+      "hn_points": 27
+    }
+  }
+}
