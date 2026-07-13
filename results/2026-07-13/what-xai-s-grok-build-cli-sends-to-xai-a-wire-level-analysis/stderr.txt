@@ -1,0 +1,85 @@
+  error: subprocess-exited-with-error
+  
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [67 lines of output]
+      Collecting setuptools
+        Using cached setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)
+      Collecting wheel
+        Downloading wheel-0.47.0-py3-none-any.whl.metadata (2.3 kB)
+      Collecting persistent
+        Downloading persistent-6.7.tar.gz (123 kB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Preparing metadata (pyproject.toml): started
+        Preparing metadata (pyproject.toml): finished with status 'error'
+        error: subprocess-exited-with-error
+      
+        × Preparing metadata (pyproject.toml) did not run successfully.
+        │ exit code: 1
+        ╰─> [40 lines of output]
+            Traceback (most recent call last):
+              File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+                main()
+              File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+                json_out["return_val"] = hook(**hook_input["kwargs"])
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 175, in prepare_metadata_for_build_wheel
+                return hook(metadata_directory, config_settings)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 380, in prepare_metadata_for_build_wheel
+                self.run_setup()
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/build_meta.py", line 317, in run_setup
+                exec(code, locals())
+              File "<string>", line 77, in <module>
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/__init__.py", line 117, in setup
+                return distutils.core.setup(**attrs)  # type: ignore[return-value]
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/_distutils/core.py", line 148, in setup
+                _setup_distribution = dist = klass(attrs)
+                                             ^^^^^^^^^^^^
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 321, in __init__
+                _Distribution.__init__(self, dist_attrs)
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py", line 308, in __init__
+                self.finalize_options()
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 790, in finalize_options
+                ep(self)
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/setuptools/dist.py", line 810, in _finalize_setup_keywords
+                ep.load()(self, ep.name, value)
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/cffi/setuptools_ext.py", line 231, in cffi_modules
+                add_cffi_module(dist, cffi_module)
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/cffi/setuptools_ext.py", line 50, in add_cffi_module
+                execfile(build_file_name, mod_vars)
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/cffi/setuptools_ext.py", line 26, in execfile
+                exec(code, glob, glob)
+              File "src/persistent/_ring_build.py", line 22, in <module>
+                ffi = FFI()
+                      ^^^^^
+              File "/tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/cffi/api.py", line 41, in __init__
+                import _cffi_backend as backend
+            ImportError: Error loading shared library /tmp/pip-build-env-67d5h8id/overlay/lib/python3.12/site-packages/_cffi_backend.cpython-312-x86_64-linux-musl.so: Operation not permitted
+            [end of output]
+      
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+      error: metadata-generation-failed
+      
+      × Encountered error while generating package metadata.
+      ╰─> See above for output.
+      
+      note: This is an issue with the package mentioned above, not pip.
+      hint: See above for details.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× pip subprocess to install build dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
