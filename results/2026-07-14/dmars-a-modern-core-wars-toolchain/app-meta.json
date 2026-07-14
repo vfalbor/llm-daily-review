@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Dmars – A modern Core Wars toolchain",
+    "url": "https://dmars.drpz.xyz/",
+    "hn_url": "https://news.ycombinator.com/item?id=48847365",
+    "points": 9,
+    "comments": 4,
+    "author": "holliplex",
+    "age": "2026-07-09T15:16:43 1783610203",
+    "scraped_at": "2026-07-14T13:00:03.068Z",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "devtool",
+    "app_type": "devtool-core-war",
+    "description": "Dmars – A modern Core Wars toolchain",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "Redcode"
+    ],
+    "proposed_tests": [
+      "Install Dmars and compile core wars code",
+      "Run a sample core wars game and measure execution time",
+      "Compare performance with Redcode"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/drpz/dmars"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784034159770-msh04",
+    "log_dir": "/tmp/llm-review-1784034159770-msh04",
+    "install_success": true,
+    "install_time_s": 8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.16",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement dmars (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for dmars\nCloning into 'dmars'...\nremote: Not Found\nfatal: repository 'https://github.com/dmars.git/' not found\nTraceback (most recent call last):\n  File \"/app/test.py\", line 99, in <module>\n    main()\n  File \"/app/test.py\", line 86, in main\n    measure_import_time()\n  File \"/app/test.py\", line 47, in measure_import_time\n    import dmars\nModuleNotFoundError: No module named 'dmars'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK: git\nINSTALL_FAIL: dmars - Command '['git', 'clone', 'https://github.com/dmars.git']' returned non-zero exit status 128.\nBENCHMARK:install_time_s:1.16\n"
+  }
+}
