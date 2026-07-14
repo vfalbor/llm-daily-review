@@ -1,0 +1,87 @@
+{
+  "app_name": "Dmars",
+  "url": "https://dmars.drpz.xyz/",
+  "scored_at": "2026-07-14T13:03:08.209Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Dmars offers a modern Core Wars toolchain, which is a unique contribution to the field, especially considering its compatibility with pMARS and compilation to webassembly, as seen in its GitHub absence but praised in HN comments."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The installation time is 8s, but the basic run success is false, indicating some issues with system requirements or installation process, despite the reported install_time_s of 1.16s in benchmark measurements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a Core Wars toolchain, Dmars fits into the current landscape of retro and educational programming tools, but its relevance might be limited to a niche audience interested in Core Wars, given the absence of a GitHub repository and limited online presence."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Dmars differentiates itself from similar tools like Redcode (1,016 stars) by offering a modern implementation and compatibility with pMARS, as well as the ability to compile to webassembly, allowing for in-browser play, which is a unique feature."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With no GitHub repository detected and limited information available, the community around Dmars seems small or non-existent, although it received positive feedback on HN with 9 points and 4 comments."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that no tests were passed and basic run success is false, the ease of use for Dmars appears to be very low, suggesting significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Dmars has a CLI and HTTP API, which could facilitate integration, but the lack of a PyPI package and unclear documentation make the integration process less straightforward, especially for those expecting a traditional pip-installable package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to the lack of clear documentation and the absence of a GitHub repository or wiki, it's challenging to evaluate the quality of Dmars' documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without clear versioning, release tags, or a GitHub repository, assessing the maturity of Dmars is difficult, leading to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to accurately assess the performance of Dmars, as no comprehensive benchmarks are available, although the install_time_s is reported as 1.16s."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 9 points and 4 comments, indicating a very positive reception, with maximal compatibility and modern implementation being highlighted as strengths."
+    }
+  },
+  "summary": "Dmars is a modern Core Wars toolchain that offers a unique set of features, including compatibility with pMARS and compilation to webassembly, but it faces challenges in terms of ease of use, community, and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://dmars.drpz.xyz/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48847365",
+  "domain": "devtool",
+  "app_type": "devtool-core-war",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Redcode",
+        "stars": 1016,
+        "repo": "redcode-labs/neurax"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "maximal compatibility with pMARS",
+        "compiles to webassembly",
+        "play with it in your browser"
+      ],
+      "negative_signals": [
+        "rocks-paper-scissors deal (implying all warriors are beatable)"
+      ],
+      "justification": "The project received praise for its compatibility and modern implementation, with the only criticism being that all warriors are beatable, which is a limitation inherent to the game itself.",
+      "comment_count": 4,
+      "hn_points": 9
+    }
+  }
+}
