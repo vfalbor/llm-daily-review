@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)",
+    "url": "https://github.com/Danau5tin/ai-trains-ai",
+    "hn_url": "https://news.ycombinator.com/item?id=48905919",
+    "points": 7,
+    "comments": 0,
+    "author": "Danau5tin",
+    "age": "2026-07-14T12:41:25 1784032885",
+    "scraped_at": "2026-07-14T13:00:03.065Z",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "llm-ai",
+    "app_type": "llm-training",
+    "description": "RL-trained agent training models with RL",
+    "use_modes": [
+      "command-line"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI"
+    ],
+    "proposed_tests": [
+      "Clone repo, train an agent, test its training loop"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Danau5tin/ai-trains-ai",
+    "tool_url": "https://github.com/Danau5tin/ai-trains-ai"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784034102543-qc8f8",
+    "log_dir": "/tmp/llm-review-1784034102543-qc8f8",
+    "install_success": false,
+    "install_time_s": 44.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nBENCHMARK:memory_usage_mb:0.00",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/Danau5tin/ai-trains-ai /tmp/pip-req-build-dctb0_hv\n  error: subprocess-exited-with-error\n  \n  × Preparing metadata (pyproject.toml) did not run successfully.\n  │ exit code: 1\n  ╰─> [47 lines of output]\n      Python reports SOABI: cpython-312-x86_64-linux-musl\n      Computed rustc target triple: x86_64-unknown-linux-musl\n      Installation directory: /root/.cache/puccinialin\n      Downloading rustup-init from https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-musl/rustup-init\n      Checking for Rust toolchain....\n      Rust not found, installing into a temporary directory\n      \n      Downloading rustup-init:   0%|          | 0.00/21.2M [00:00<?, ?B/s]\n      Downloading rustup-init:   2%|▏         | 434k/21.2M [00:00<00:04, 4.32MB/s]\n      Downloading rustup-init:  16%|█▌        | 3.29M/21.2M [00:00<00:01, 17.6MB/s]\n      Downloading rustup-init:  51%|█████▏    | 10.9M/21.2M [00:00<00:00, 43.3MB/s]\n      Downloading rustup-init:  95%|█████████▍| 20.0M/21.2M [00:00<00:00, 61.9MB/s]\n      Downloading rustup-init: 100%|██████████| 21.2M/21.2M [00:00<00:00, 50.2MB/s]\n      Installing rust to /root/.cache/puccinialin/rustup\n      warn: It looks like you have an existing rustup settings file at:\n      warn: /root/.cache/puccinialin/rustup/settings.toml\n      warn: Rustup will install the default toolchain as specified in the settings file,\n      warn: instead of the one inferred from the default host triple.\n      info: profile set to minimal\n      info: setting default host triple to x86_64-unknown-linux-musl\n      info: syncing channel updates for stable-x86_64-unknown-linux-musl\n      info: latest update on 2026-07-09 for version 1.97.0 (2d8144b78 2026-07-07)\n      info: downloading 3 components\n      info: default toolchain set to stable-x86_64-unknown-linux-musl\n      warn: no default linker (`cc`) was found in your PATH\n      warn: many Rust crates require a system C toolchain to build\n      Checking if cargo is installed\n      Error loading shared library libgcc_s.so.1: No such file or directory (needed by /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo)\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Resume: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIPInfo: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetDataRelBase: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetRegionStart: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetGR: symbol not found\n      Error relocating /root/.cache/puccinialin/rustu",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting git+https://github.com/Danau5tin/ai-trains-ai\n  Cloning https://github.com/Danau5tin/ai-trains-ai to /tmp/pip-req-build-dctb0_hv\n  Resolved https://github.com/Danau5tin/ai-trains-ai to commit 2e42e50610432b33a46eb0694c4a5fe0c1a611a2\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting httpx>=0.27 (from autonomous-trainer==0.1.0)\n  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting litellm>=1.90.2 (from autonomous-trainer==0.1.0)\n  Downloading litellm-1.92.0.tar.gz (15.1 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.1/15.1 MB 142.4 MB/s eta 0:00:00\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'error'\nObtaining file:///ai-trains-ai\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Checking if build backend supports build_editable: started\n  Checking if build backend supports build_editable: finished with status 'done'\n  Getting requirements to build editable: started\n  Getting requirements to build editable: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing editable metadata (pyproject.toml): started\n  Preparing editable metadata (pyproject.toml): finished with status 'done'\nCollecting httpx>=0.27 (from autonomous-trainer==0.1.0)\n  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting litellm>=1.90.2 (from autonomous-trainer==0.1.0)\n  Using cached litellm-1.92.0.tar.gz (15.1 MB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'error'\nINSTALL_FAIL:Command '['pip', 'install', '-e', './ai-trains-ai']' returned non-zero exit status 1.\nTEST_FAIL:train_agent:No module named 'ai_trains_ai'\nTEST_FAIL:clone_repo:Command '['git', 'clone', 'https://github.com/Danau5tin/ai-trains-ai']' returned non-zero exit status 128.\nTEST_FAIL:compare_baseline:No module named 'langchain'\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nBENCHMARK:memory_usage_mb:0.00\nRUN_OK\n"
+  }
+}
