@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "MorphoHDL: A minimalistic language for growing circuits",
+    "url": "https://paradigms-of-intelligence.github.io/morpho/",
+    "hn_url": "https://news.ycombinator.com/item?id=48901126",
+    "points": 87,
+    "comments": 8,
+    "author": "jacktang",
+    "age": "2026-07-14T01:17:30 1783991850",
+    "scraped_at": "2026-07-14T13:00:03.074Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/paradigms-of-intelligence/morpho",
+    "source_type": "language",
+    "confidence": 0.95,
+    "domain": "research",
+    "app_type": "lang-new",
+    "description": "A minimalistic language for growing circuits, a new paradigm for building AI models",
+    "use_modes": [
+      "Local Run"
+    ],
+    "similar_tools": [
+      "GraphcodeNets",
+      "TensorGraph"
+    ],
+    "proposed_tests": [
+      "Compile morpho code, measure execution time",
+      "Grow a simple circuit using morpho, verify functionality",
+      "Compare morpho with existing circuit languages, benchmark results"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/paradigms-of-intelligence/morpho"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784034277341-7iss4",
+    "log_dir": "/tmp/llm-review-1784034277341-7iss4",
+    "install_success": true,
+    "install_time_s": 15.9,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:compile_time_ms:22.41\nBENCHMARK:grow_circuit_time_ms:24.37\nBENCHMARK:vs_graphcode_nets_ratio:0.43\nBENCHMARK:memory_usage_bytes:51309\nBENCHMARK:file_count:16\nBENCHMARK:loc_count:0",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'morpho'...\nerror: could not find `Cargo.toml` in `/morpho` or any parent directory\nerror: could not find `Cargo.toml` in `/morpho` or any parent directory\nerror: could not find `Cargo.toml` in `/morpho` or any parent directory\nnode:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/morpho/graphcode-nets/examples/hello.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)\n    at Module._load (node:internal/modules/cjs/loader:1285:25)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\nerror: could not find `Cargo.toml` in `/morpho` or any parent directory\nerror: could not find `Cargo.toml` in `/morpho` or any parent directory\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.0-r0)\n(18/26) Installing cargo (1.96.0-r0)\n(19/26) Installing go (1.26.3-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.17.0-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 869.6 MiB in 77 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:compile_time_ms:22.41\nTEST_PASS:compile_morpho_code\nBENCHMARK:grow_circuit_time_ms:24.37\nTEST_PASS:grow_simple_circuit\nBENCHMARK:vs_graphcode_nets_ratio:0.43\nTEST_PASS:compare_with_baseline\nBENCHMARK:memory_usage_bytes:51309\nBENCHMARK:file_count:16\nBENCHMARK:loc_count:0\nRUN_OK\n"
+  }
+}
