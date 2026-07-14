@@ -1,0 +1,125 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/Danau5tin/ai-trains-ai /tmp/pip-req-build-dctb0_hv
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [47 lines of output]
+      Python reports SOABI: cpython-312-x86_64-linux-musl
+      Computed rustc target triple: x86_64-unknown-linux-musl
+      Installation directory: /root/.cache/puccinialin
+      Downloading rustup-init from https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-musl/rustup-init
+      Checking for Rust toolchain....
+      Rust not found, installing into a temporary directory
+      
+      Downloading rustup-init:   0%|          | 0.00/21.2M [00:00<?, ?B/s]
+      Downloading rustup-init:   2%|▏         | 434k/21.2M [00:00<00:04, 4.32MB/s]
+      Downloading rustup-init:  16%|█▌        | 3.29M/21.2M [00:00<00:01, 17.6MB/s]
+      Downloading rustup-init:  51%|█████▏    | 10.9M/21.2M [00:00<00:00, 43.3MB/s]
+      Downloading rustup-init:  95%|█████████▍| 20.0M/21.2M [00:00<00:00, 61.9MB/s]
+      Downloading rustup-init: 100%|██████████| 21.2M/21.2M [00:00<00:00, 50.2MB/s]
+      Installing rust to /root/.cache/puccinialin/rustup
+      warn: It looks like you have an existing rustup settings file at:
+      warn: /root/.cache/puccinialin/rustup/settings.toml
+      warn: Rustup will install the default toolchain as specified in the settings file,
+      warn: instead of the one inferred from the default host triple.
+      info: profile set to minimal
+      info: setting default host triple to x86_64-unknown-linux-musl
+      info: syncing channel updates for stable-x86_64-unknown-linux-musl
+      info: latest update on 2026-07-09 for version 1.97.0 (2d8144b78 2026-07-07)
+      info: downloading 3 components
+      info: default toolchain set to stable-x86_64-unknown-linux-musl
+      warn: no default linker (`cc`) was found in your PATH
+      warn: many Rust crates require a system C toolchain to build
+      Checking if cargo is installed
+      Error loading shared library libgcc_s.so.1: No such file or directory (needed by /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo)
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Resume: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIPInfo: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetDataRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetRegionStart: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetGR: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_FindEnclosingFunction: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetTextRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_DeleteException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_RaiseException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIP: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Backtrace: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetCFA: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetLanguageSpecificData: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetIP: symbol not found
+      
+      Cargo, the Rust package manager, is not installed or is not on PATH.
+      This package requires Rust and Cargo to compile extensions. Install it through
+      the system's package manager or via https://rustup.rs/
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Cloning into 'ai-trains-ai'...
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [39 lines of output]
+      Python reports SOABI: cpython-312-x86_64-linux-musl
+      Computed rustc target triple: x86_64-unknown-linux-musl
+      Installation directory: /root/.cache/puccinialin
+      Rustup already downloaded
+      Installing rust to /root/.cache/puccinialin/rustup
+      warn: It looks like you have an existing rustup settings file at:
+      warn: /root/.cache/puccinialin/rustup/settings.toml
+      warn: Rustup will install the default toolchain as specified in the settings file,
+      warn: instead of the one inferred from the default host triple.
+      info: profile set to minimal
+      info: setting default host triple to x86_64-unknown-linux-musl
+      warn: Updating existing toolchain, profile choice will be ignored
+      info: syncing channel updates for stable-x86_64-unknown-linux-musl
+      info: default toolchain set to stable-x86_64-unknown-linux-musl
+      warn: no default linker (`cc`) was found in your PATH
+      warn: many Rust crates require a system C toolchain to build
+      Checking if cargo is installed
+      Error loading shared library libgcc_s.so.1: No such file or directory (needed by /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo)
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Resume: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIPInfo: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetDataRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetRegionStart: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetGR: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_FindEnclosingFunction: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetTextRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_DeleteException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_RaiseException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIP: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Backtrace: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetCFA: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetLanguageSpecificData: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetIP: symbol not found
+      
+      Cargo, the Rust package manager, is not installed or is not on PATH.
+      This package requires Rust and Cargo to compile extensions. Install it through
+      the system's package manager or via https://rustup.rs/
+      
+      Checking for Rust toolchain....
+      Rust not found, installing into a temporary directory
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+fatal: destination path 'ai-trains-ai' already exists and is not an empty directory.
