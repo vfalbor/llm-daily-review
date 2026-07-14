@@ -1,0 +1,94 @@
+{
+  "app_name": "Satellite Tracker",
+  "url": "https://satellitemap.space/",
+  "scored_at": "2026-07-14T13:04:36.134Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The satellite tracker tool provides a unique visualization of satellite orbits and positions, setting it apart from similar tools like Starlink Status (100 stars) and Satellite Positioning (6 stars), with its live map of 30k satellites."
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "The tool is not pip-installable, as no PyPI package was found, and the install success and time are not applicable due to the lack of a GitHub repository or Docker test results."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool's live map of Starlink and 30k satellites is relevant to current satellite technology trends, providing a valuable resource for tracking and visualizing satellite positions."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool differentiates itself from similar tools like Starlink Status (100 stars) and Satellite Positioning (6 stars) through its comprehensive live map of 30k satellites, but its lack of a GitHub repository and pip-installable package limits its accessibility."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The tool's community is not well-represented due to the lack of a GitHub repository, but its HN points (112) and comments (30) indicate some level of interest and engagement."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The tool's ease of use is uncertain due to the lack of Docker test results and user feedback, but its web-based interface suggests a relatively straightforward user experience."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool's ease of integration is limited by its lack of a pip-installable package and GitHub repository, making it more difficult for users to incorporate it into their existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The tool's documentation is not well-represented due to the lack of a GitHub repository and wiki, but its website provides some information about its features and functionality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The tool's maturity is uncertain due to the lack of a GitHub repository and clear versioning information, making it difficult to assess its stability and reliability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The tool's performance is not well-represented due to the lack of benchmarking data and user feedback, but its web-based interface suggests a relatively responsive user experience."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The tool's HN sentiment score is 8/10, with 112 points and 30 comments, indicating a positive reception from users who appreciate its features and usefulness, despite some concerns about the UI and data accuracy."
+    }
+  },
+  "summary": "The Satellite Tracker tool provides a unique and valuable resource for tracking and visualizing satellite positions, with a live map of 30k satellites. While it has some limitations in terms of accessibility and community engagement, its features and usefulness have been well-received by users.",
+  "recommendation": "worth-watching",
+  "app_url": "https://satellitemap.space/",
+  "tool_url": "https://github.com/stevenmg/satellitemap",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48901356",
+  "domain": "infrastructure",
+  "app_type": "infra-dashboard",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Starlink Status",
+        "stars": 100,
+        "repo": "Leask/Starlink-Signal-Status"
+      },
+      {
+        "name": "Satellite Positioning",
+        "stars": 6,
+        "repo": "yuri-yuwei/SatellitePositioning"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "users appreciate the satellite tracker and its features",
+        "the tool has huge advantages in remote areas with limited internet access",
+        "it provides high data throughput and portable antennas"
+      ],
+      "negative_signals": [
+        "some users find the UI not the most intuitive",
+        "there are concerns about the lack of included satellites and potential inaccuracies in the data",
+        "some users disagree with the classification of the advantages as 'huge'"
+      ],
+      "justification": "The project received overwhelmingly positive comments about its features and usefulness, but some users raised concerns about the UI and data accuracy. Others disagreed with the assessment of the advantages, but overall, the project is well-received. ",
+      "comment_count": 30,
+      "hn_points": 112
+    }
+  }
+}
