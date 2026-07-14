@@ -1,0 +1,113 @@
+{
+  "app_name": "YouTrackDB",
+  "url": "https://github.com/JetBrains/youtrackdb",
+  "scored_at": "2026-07-14T13:03:50.463Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "YouTrackDB has been created 875 days ago and has 311 stars, indicating some originality in its approach as a general-use object-oriented graph database, but it's not the first of its kind, with similar tools like Neo4j having 16,882 stars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false and install time is not fully relevant due to the failure, indicating potential issues with accessibility and ease of setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a graph database, YouTrackDB fits into the current database ecosystem trends, offering an object-oriented approach which is useful for certain use cases."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to Neo4j, which has 16,882 stars, YouTrackDB has 311 stars, showing a significant difference, but its unique object-oriented approach may offer advantages in specific scenarios."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 311 stars, 13 forks, and 210 contributors, but considering the lack of direct comparison and the need for more context on community engagement, the score is set to 5 as the data alone does not fully capture the community's health and activity."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the install success is false and no tests were run, it indicates significant issues with ease of use, suggesting that the setup process may be complex or flawed."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Without a PyPI package and considering the need for specific integration paths, the ease of integration is compromised, though it does offer a CLI and HTTP API."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct information is available on the quality of the documentation, so it's set to 5, acknowledging the potential for good documentation but lacking concrete evidence."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Days since last commit is 0, indicating active development, and it has a large number of contributors, which are positive signals for maturity, despite being 875 days old."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific benchmark data is provided, making it difficult to assess performance compared to similar tools, thus it's scored as 5 due to insufficient data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this tool."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "Given the total score and the specific strengths and weaknesses, YouTrackDB seems to cater to a specific niche rather than being broadly applicable or highly competitive in its field."
+    }
+  },
+  "summary": "YouTrackDB is a graph database with an object-oriented approach, showing some uniqueness but also facing challenges in terms of community size and ease of use. It has active development and a significant number of contributors but lacks direct comparison data for a full assessment of its performance and documentation quality.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/JetBrains/youtrackdb",
+  "tool_url": "https://github.com/JetBrains/youtrackdb",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48902026",
+  "domain": "database",
+  "app_type": "database-graph",
+  "enriched": {
+    "github": {
+      "stars": 311,
+      "forks": 13,
+      "open_issues": 22,
+      "watchers": 311,
+      "contributors": 210,
+      "license": "Apache-2.0",
+      "language": "Java",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 875,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "YouTrackDB is a general-use object-oriented graph database with storage format native to handle graph relations. YouTrackDB supports Gremlin queries and ACID transactions.",
+      "topics": [
+        "acid",
+        "dbms",
+        "dbms-project",
+        "graph-database",
+        "graph-databases",
+        "graphdatabase",
+        "gremlin",
+        "gremlin-api",
+        "gremlin-server",
+        "nosql",
+        "nosql-data-storage",
+        "nosql-database",
+        "nosql-databases",
+        "object-database",
+        "object-oriented-database",
+        "youtrackdb"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Neo4j",
+        "stars": 16882,
+        "repo": "neo4j/neo4j"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
