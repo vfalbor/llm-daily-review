@@ -1,0 +1,111 @@
+{
+  "app_name": "MorphoHDL",
+  "url": "https://paradigms-of-intelligence.github.io/morpho/",
+  "scored_at": "2026-07-14T13:05:06.917Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "MorphoHDL is a new, minimalistic language for growing circuits with a unique approach, created 11 days ago, and has a distinct difference from similar tools like TensorGraph, which has 70 stars."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app installed successfully in 15.9 seconds, which is relatively fast, and has a Python requirement of >=3.8,<4.0, indicating well-documented system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a new language for growing circuits, MorphoHDL fits well into the current AI ecosystem trends, particularly in the area of novel circuit design and AI model building, with a focus on minimalism."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "MorphoHDL has 6 stars, compared to TensorGraph's 70 stars, but its unique approach to circuit growth and minimalistic design differentiate it significantly from existing tools, despite being a newer project."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 6 stars, 1 fork, and 1 contributor on GitHub, and considering the project's age, the community around MorphoHDL is still very small and not very active, but there are positive signals from HN comments."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 3 tests passed, indicating that the app is straightforward to use and functions as expected, with a successful basic run and no issues reported in the tests."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "MorphoHDL has a PyPI package (v1.0.0b8) and uses Apache-2.0 licensing, making it easier for developers to integrate into their workflows, although specific integration examples or APIs are not detailed in the provided data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are not explicitly stated in the provided data, so it's scored as 5 due to insufficient information to make a thorough assessment."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the project's young age (11 days since creation) and limited GitHub activity, the maturity of MorphoHDL is difficult to assess with the provided data, leading to a neutral score."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "While MorphoHDL does not have direct performance comparisons to other tools in the provided data, its benchmark measurements (e.g., compile_time_ms: 22.41, grow_circuit_time_ms: 24.37) suggest potential efficiency, but more context is needed for a higher score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score from HN comments is 8/10, with 87 points and 8 comments analyzed, indicating a generally positive reception with comments praising its innovative work and visualizations, despite some concerns about its limitations."
+    }
+  },
+  "summary": "MorphoHDL is a novel, minimalistic language for growing circuits, showing promise in the AI model building space with its unique approach, despite its small community and limited maturity, and receiving positive sentiment on HN for its innovation and visualizations.",
+  "recommendation": "worth-watching",
+  "app_url": "https://paradigms-of-intelligence.github.io/morpho/",
+  "tool_url": "https://github.com/paradigms-of-intelligence/morpho",
+  "source_type": "language",
+  "hn_url": "https://news.ycombinator.com/item?id=48901126",
+  "domain": "research",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": {
+      "stars": 6,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 6,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 6,
+      "days_since_created": 11,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "TensorGraph",
+        "stars": 70,
+        "repo": "hycis/TensorGraph"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0b8",
+      "summary": "A framework for microservice based document transformation.",
+      "requires_python": ">=3.8,<4.0",
+      "license": "MIT",
+      "home_page": "https://python-morpho.org/"
+    },
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Stunning visualizations",
+        "Interesting and innovative work",
+        "Genuine enthusiasm from commenters"
+      ],
+      "negative_signals": [
+        "Lacks concept of node connection",
+        "Not a traditional HDL",
+        "Some concern about the 'fallback' mechanism"
+      ],
+      "justification": "The majority of comments are positive, expressing genuine enthusiasm and admiration for the project's innovative work and stunning visualizations. While some commenters raise valid concerns about its limitations, they do not seem to dampen the overall positive sentiment.",
+      "comment_count": 8,
+      "hn_points": 87
+    }
+  }
+}
