@@ -1,0 +1,16 @@
+ERROR: Could not find a version that satisfies the requirement dmars (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for dmars
+Cloning into 'dmars'...
+remote: Not Found
+fatal: repository 'https://github.com/dmars.git/' not found
+Traceback (most recent call last):
+  File "/app/test.py", line 99, in <module>
+    main()
+  File "/app/test.py", line 86, in main
+    measure_import_time()
+  File "/app/test.py", line 47, in measure_import_time
+    import dmars
+ModuleNotFoundError: No module named 'dmars'
