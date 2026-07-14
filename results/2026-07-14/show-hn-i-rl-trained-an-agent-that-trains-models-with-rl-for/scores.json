@@ -1,0 +1,97 @@
+{
+  "app_name": "ai-trains-ai",
+  "url": "https://github.com/Danau5tin/ai-trains-ai",
+  "scored_at": "2026-07-14T13:02:38.685Z",
+  "total_score": 35,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This app is an RL-trained agent that trains models with RL, which is a unique approach. It was created 7 days ago, and it is not a fork, which suggests originality. However, the lack of similar tools with this specific functionality makes it difficult to compare (days_since_created: 7, is_fork: false)"
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false, and the install time is 44.5s, which is slow. There is no PyPI package found, which makes it difficult to install and run (install_success: false, install_time_s: 44.5, PyPI existence: false)"
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is llm-training, which is relevant to the current LLM ecosystem trends. However, the lack of information about its fit with the current trends makes it difficult to score higher (app_type: llm-training)"
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The app has 4 stars on GitHub, which is much fewer than similar tools like LangChain (141,752 stars) and CrewAI (55,512 stars). This suggests a lack of differentiation (stars: 4, vs LangChain: -141748 stars, vs CrewAI: -55508 stars)"
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has 4 stars, 1 fork, and 1 contributor on GitHub, which suggests a small and inactive community. The days since the last commit is 0, which suggests some activity, but the overall community signals are weak (stars: 4, forks: 1, contributors: 1, days_since_update: 0)"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 / 3, which suggests difficulty in using the app. The install success is false, which makes it difficult to use (tests_passed / tests_total: 0 / 3, install_success: false)"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found, which makes it difficult to integrate. The license is MIT, which is permissive, but the lack of API modes and documentation makes it difficult to integrate (PyPI existence: false, license: MIT)"
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "There is no documentation found, which makes it difficult to understand and use the app. The GitHub repository has some information, but it is not enough to score higher (has_wiki: false, has_pages: false, GitHub topics: 0)"
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The app was created 7 days ago, which suggests it is a new project. The days since the last commit is 0, which suggests some activity, but the overall maturity signals are weak (days_since_created: 7, days_since_last_commit: 0)"
+    },
+    "performance": {
+      "score": 4,
+      "justification": "There are some benchmark measurements available, such as loc_count (1240) and test_files_count (23), but there is no information about the performance compared to similar tools. The memory usage is 0.00 MB, which is low, but it is difficult to evaluate the performance without more information (loc_count: 1240, test_files_count: 23, memory_usage_mb: 0.00)"
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available (no comments or analysis failed)"
+    }
+  },
+  "summary": "This app is an RL-trained agent that trains models with RL, but it has a small and inactive community, and it is difficult to install and use. The app has some unique features, but it is not well-documented, and the performance is difficult to evaluate.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/Danau5tin/ai-trains-ai",
+  "tool_url": "https://github.com/Danau5tin/ai-trains-ai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48905919",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 4,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 4,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "RL-training an AI agent to RL-train AI agents.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 141752,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 55512,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
