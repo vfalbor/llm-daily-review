@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "RISC-V Is Inevitable: State of the Union Keynote Argues",
+    "url": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
+    "hn_url": "https://news.ycombinator.com/item?id=48916805",
+    "points": 91,
+    "comments": 89,
+    "author": "signa11",
+    "age": "2026-07-15T06:02:17 1784095337",
+    "scraped_at": "2026-07-15T13:00:02.835Z",
+    "source_type": "article",
+    "is_reviewable": true,
+    "confidence": 0.75,
+    "domain": "hardware",
+    "app_type": "hardware-architecture",
+    "description": "RISC-V Architecture and its Advantages",
+    "use_modes": [
+      "Hardware Simulator"
+    ],
+    "similar_tools": [
+      "ARM",
+      "x86"
+    ],
+    "proposed_tests": [
+      "Build and run a simple RISC-V program using a RISC-V simulator",
+      "Measure performance improvements by comparing RISC-V and x86",
+      "Verify the capabilities of RISC-V using a hardware emulation tool"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784120828863-ln22u",
+    "log_dir": "/tmp/llm-review-1784120828863-ln22u",
+    "install_success": false,
+    "install_time_s": 6.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 5, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
