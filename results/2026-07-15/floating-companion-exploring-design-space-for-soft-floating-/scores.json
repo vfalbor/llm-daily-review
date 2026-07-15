@@ -1,0 +1,75 @@
+{
+  "app_name": "Floating Companion",
+  "url": "https://dl.acm.org/doi/10.1145/3800645.3813051",
+  "scored_at": "2026-07-15T13:05:20.119Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The dataset is related to a research paper, and its novelty can be inferred from its contribution to the field of soft floating robots, with no direct comparison to similar tools available, scoring 8 based on its unique application in indoor environments."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No information is available regarding the system requirements for using this dataset, so a neutral score of 5 is assigned."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The dataset is relevant to current research in robotics, particularly in the area of soft floating robots, with its application in indoor environments making it relevant to the field, scoring 7."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The dataset is distinctive due to its focus on soft floating robots in indoor environments, but without a direct comparison to similar datasets, it scores 6 for its uniqueness in application."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository was detected for this specific dataset, and with only 2 comments on HN and 6 points, the community engagement is relatively low, scoring 3."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No information is available about the ease of use of this dataset, so a neutral score of 5 is assigned due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no information available on how to integrate this dataset with other tools or systems, so a neutral score of 5 is given."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation for this dataset are unknown, so a neutral score of 5 is assigned due to lack of information."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The maturity of the dataset is uncertain due to the lack of information about its updates, maintenance, or usage, scoring 4 for its potential as a research resource."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for a dataset, so it is scored as null."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score is 5/10 with only 2 comments analyzed, which is insufficient for a meaningful sentiment analysis, defaulting to a neutral score of 5."
+    }
+  },
+  "summary": "The Floating Companion dataset offers a unique perspective on soft floating robots in indoor environments but lacks community engagement and clear documentation, making it a niche contribution to the field of robotics.",
+  "recommendation": "niche",
+  "app_url": "https://dl.acm.org/doi/10.1145/3800645.3813051",
+  "tool_url": "https://github.com/Soft-Robotics-Lab",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=48919004",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 6
+    }
+  }
+}
