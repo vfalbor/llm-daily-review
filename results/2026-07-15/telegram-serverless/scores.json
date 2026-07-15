@@ -1,0 +1,82 @@
+{
+  "app_name": "Telegram Serverless",
+  "url": "https://core.telegram.org/bots/serverless",
+  "scored_at": "2026-07-15T13:03:33.401Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides a serverless platform for running Telegram bots, which is a notable innovation, but not entirely new, given the existence of similar tools like AWS Lambda and Google Cloud Functions, with 28 HN points and 18 comments indicating interest in the space."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as no GitHub repository was detected, and no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to the current ecosystem as it addresses the need for serverless platforms for Telegram bots, with a detected version of 1.0 and a page content length of 45989 characters indicating a substantial presence."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app differentiates itself from similar tools like AWS Lambda and Google Cloud Functions by providing a specific platform for Telegram bots, but the novelty is somewhat limited, with 28 HN points and no direct comparisons available."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The community signals are limited, with no GitHub repository detected and only 28 HN points, indicating a relatively small community, but positive comments about the project's features."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The ease of use is difficult to evaluate due to the lack of test results, but the basic run success is true, and the app has a detected version of 1.0, which may indicate some level of usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has an API/SDK/webhook mention on its page and provides a serverless function, indicating a relatively easy integration, despite requiring an API key."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The documentation is insufficient, with no wiki, guide link, or changelog detected on the app's page, but the page content length of 45989 characters may indicate some level of information availability."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The maturity of the app is difficult to evaluate due to the lack of GitHub data, but the detected version of 1.0 and the presence of a substantial webpage may indicate some level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient benchmark data to evaluate performance, despite the app providing some measurements like latency_ms and throughput."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 28 points, 18 comments, and generally positive signals about the project's features and execution speed, but concerns about bots and spam."
+    }
+  },
+  "summary": "Telegram Serverless is a serverless platform for running Telegram bots, providing a notable innovation in the space, but with limited differentiation and community signals, and insufficient data to evaluate system requirements and performance.",
+  "recommendation": "niche",
+  "app_url": "https://core.telegram.org/bots/serverless",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48918534",
+  "domain": "infra-infrastructure",
+  "app_type": "infra-cloud",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Nice touch with providing a SQLite db out of the box",
+        "Executions are quick and reliable",
+        "Bot API is useful and has features like starting interactions"
+      ],
+      "negative_signals": [
+        "Concerns about bots and spam",
+        "Absence of pricing information"
+      ],
+      "justification": "The comments generally praise the project's features, execution speed, and bot API, while expressing concerns about bots and spam, and requesting information about pricing. There is also a neutral tone in some comments, but the overwhelming sentiment is positive.",
+      "comment_count": 18,
+      "hn_points": 28
+    }
+  }
+}
