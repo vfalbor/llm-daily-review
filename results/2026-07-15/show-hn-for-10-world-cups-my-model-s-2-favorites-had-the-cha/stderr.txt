@@ -1,0 +1,9 @@
+ERROR: Could not find a version that satisfies the requirement llm-ai (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for llm-ai
+Traceback (most recent call last):
+  File "/app/test.py", line 33, in <module>
+    import llm_ai
+ModuleNotFoundError: No module named 'llm_ai'
