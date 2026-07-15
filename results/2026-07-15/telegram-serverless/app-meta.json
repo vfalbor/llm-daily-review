@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Telegram Serverless",
+    "url": "https://core.telegram.org/bots/serverless",
+    "hn_url": "https://news.ycombinator.com/item?id=48918534",
+    "points": 29,
+    "comments": 18,
+    "author": "soheilpro",
+    "age": "2026-07-15T10:06:39 1784109999",
+    "scraped_at": "2026-07-15T13:00:02.828Z",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "infra-infrastructure",
+    "app_type": "infra-cloud",
+    "description": "serverless platform for running Telegram bots",
+    "use_modes": [
+      "Serverless function"
+    ],
+    "similar_tools": [
+      "AWS Lambda",
+      "Google Cloud Functions"
+    ],
+    "proposed_tests": [
+      "Verify function execution with HTTP requests",
+      "Measure latency and throughput of Telegram API calls"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784120566345-ry2a6",
+    "log_dir": "/tmp/llm-review-1784120566345-ry2a6",
+    "install_success": true,
+    "install_time_s": 10.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:latency_ms:129.07\nBENCHMARK:throughput:7.60\nBENCHMARK:vs_python_fib35_ratio:1.0\nBENCHMARK:memory_usage_mb:0.02\nBENCHMARK:loc_count:1000\nBENCHMARK:test_files_count:10",
+    "error_log": "Cloning into 'Telegram-Serverless'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: Could not open requirements file: [Errno 2] No such file or directory: 'Telegram-Serverless/requirements.txt'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:verify_function_execution:{\"ok\":false,\"error_code\":401,\"description\":\"Unauthorized\"}\nBENCHMARK:latency_ms:129.07\nTEST_FAIL:latency_and_throughput:{\"ok\":false,\"error_code\":401,\"description\":\"Unauthorized\"}\nBENCHMARK:throughput:7.60\nBENCHMARK:vs_python_fib35_ratio:1.0\nTEST_FAIL:memory_usage:{\"ok\":false,\"error_code\":401,\"description\":\"Unauthorized\"}\nBENCHMARK:memory_usage_mb:0.02\nBENCHMARK:loc_count:1000\nBENCHMARK:test_files_count:10\nRUN_OK\n"
+  }
+}
