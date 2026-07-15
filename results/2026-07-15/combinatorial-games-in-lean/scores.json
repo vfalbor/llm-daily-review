@@ -1,0 +1,97 @@
+{
+  "app_name": "Combinatorial Games in Lean",
+  "url": "https://github.com/vihdzp/combinatorial-games",
+  "scored_at": "2026-07-15T13:06:44.076Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment analysis shows a score of 8/10 with 22 HN points and 3 comments analyzed, indicating mostly positive signals like 'Neat' and 'interesting math-game project', with only one notable negative comment about the lack of a wishlist or project tab."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The app is not a direct clone and has a unique focus on combinatorial games in Lean, with 505 days since the repository was created and 96 stars, indicating some original contribution but not first-of-its-kind."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app does not have a PyPI package and thus cannot be easily installed via pip, with an install time not applicable due to this, indicating higher complexity in setting up the environment."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app's relevance to current LLM ecosystem trends is not clear from the provided data, with no direct connection to LLM workflows mentioned, so it's scored neutrally."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has a unique feature set focusing on combinatorial games in Lean, with 96 stars and 7 contributors, showing some advantage in its niche but not widely compared to similar tools in the justification."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repository has 96 stars, 12 forks, and 7 contributors, but 40 open issues and 35 days since the last commit, indicating a small but somewhat inactive community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app had 0 tests passed out of 0 and basic run success was false, indicating potential difficulty in usage or setup, but this is partially due to lack of data on tests."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to a math-game project as it's not typically integrated into workflows or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The justification for documentation quality is not directly provided from the data, but given the nature of the project and lack of direct mention of documentation quality, it's scored neutrally."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 505 days old but has seen no commits in the last 35 days, and has 40 open issues, indicating a pre-alpha or prototype stage with potential stability issues."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance metrics like benchmarks are not applicable or provided for this type of project."
+    }
+  },
+  "summary": "Combinatorial Games in Lean is a unique math-game project focusing on combinatorial games, showing some community interest but lacking in ease of use and maturity. It has potential as a niche contribution but needs further development for broader relevance.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/vihdzp/combinatorial-games",
+  "tool_url": "https://github.com/vihdzp/combinatorial-games",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48876329",
+  "domain": "math",
+  "app_type": "math-game",
+  "enriched": {
+    "github": {
+      "stars": 96,
+      "forks": 12,
+      "open_issues": 40,
+      "watchers": 96,
+      "contributors": 7,
+      "license": "Apache-2.0",
+      "language": "Lean",
+      "is_fork": false,
+      "days_since_update": 35,
+      "days_since_created": 505,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Combinatorial game library in Lean 4",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Neat",
+        "interesting math-game project",
+        "users are excited"
+      ],
+      "negative_signals": [
+        "lack of wishlist or project tab",
+        "no significant security/ethics concerns"
+      ],
+      "justification": "Most comments are positive and show enthusiasm for the project. The lack of wishlist or project tab is the only notable negative comment.",
+      "comment_count": 3,
+      "hn_points": 22
+    }
+  }
+}
