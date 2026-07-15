@@ -1,0 +1,118 @@
+{
+  "app_name": "Neverclick",
+  "url": "https://github.com/LazoVelko/neverclick",
+  "scored_at": "2026-07-15T13:04:25.538Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Neverclick is a new tool with 7 days since its repository was created and has 169 stars, which is a relatively low number compared to similar tools like AutoHotkey with 12,733 stars."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The tool installed successfully in 16.7 seconds, and basic run was successful, indicating relatively low system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a desktop application for performing mouse actions with a keyboard, Neverclick fits well into the current trend of accessibility tools, but its novelty and differentiation are crucial for its relevance."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to AutoHotkey with 12,733 stars, Neverclick has -12,564 stars, indicating it is not as widely used or recognized, suggesting a lower differentiation score."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 169 GitHub stars, 8 forks, and 3 open issues, Neverclick has a small but possibly growing community, and its single contributor indicates it is still in the early stages of development."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that 2 out of 7 tests passed, and the basic run was successful, the ease of use is somewhat hampered by incomplete test coverage, indicating potential usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Neverclick does not have a PyPI package, making it less straightforward to integrate into existing workflows or pipelines compared to tools with readily available packages."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without sufficient data on the documentation quality, a neutral score is assigned, as there is not enough information to evaluate its documentation comprehensively."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Neverclick is relatively new, with 7 days since its repository was created, and no license, which may indicate it is still in the early stages of development, but its active maintenance, with 0 days since the last commit, is a positive sign."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmark measurements to assess the performance of Neverclick accurately, so a neutral score is assigned due to the lack of data."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 27 points and 30 comments analyzed, indicating a generally positive reception but also some skepticism and concerns about Linux support and the Windows-only limitation."
+    }
+  },
+  "summary": "Neverclick is a desktop application designed to perform mouse actions with a keyboard, offering a potential solution for accessibility and productivity. While it shows promise, its small community, lack of differentiation, and limited ease of integration are areas for improvement.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/LazoVelko/neverclick",
+  "tool_url": "https://github.com/LazoVelko/neverclick",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48877485",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 169,
+      "forks": 8,
+      "open_issues": 3,
+      "watchers": 169,
+      "contributors": 1,
+      "license": "none",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Keyboard-driven mouse control using local computer vision.",
+      "topics": [
+        "accessibility",
+        "assistive-technology",
+        "computer-vision",
+        "cpp",
+        "desktop-app",
+        "ergonomics",
+        "keyboard",
+        "keyboard-driven",
+        "keyboard-navigation",
+        "mouseless",
+        "rsi",
+        "windows",
+        "windows-app"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "AutoHotkey",
+        "stars": 12733,
+        "repo": "AutoHotkey/AutoHotkey"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Great solution for carpal tunnel",
+        "Works in every app with computer vision",
+        "Many users are interested in the project"
+      ],
+      "negative_signals": [
+        "Some users are skeptical about Linux support",
+        "Wayland compatibility is still an issue",
+        "Some users are put off by the Windows-only limitation"
+      ],
+      "justification": "The project has received mostly positive comments, with users appreciating its potential to reduce carpal tunnel issues and work in every app. However, some comments express skepticism about Linux support, particularly on Wayland, and the project's Windows-only limitation has raised some concerns.",
+      "comment_count": 30,
+      "hn_points": 27
+    }
+  }
+}
