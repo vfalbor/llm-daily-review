@@ -1,0 +1,95 @@
+{
+  "app_name": "How I use HTMX with Go",
+  "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+  "scored_at": "2026-07-15T13:06:03.940Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The article discusses using HTMX with Go, which has 48,490 stars on GitHub, indicating a mature and popular tool, but does not introduce a new concept, hence a score of 6."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The installation was successful in 30.8 seconds, and the package exists on PyPI, indicating straightforward installation, hence a score of 8."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The article is relevant to the current web development ecosystem, discussing the use of HTMX with Go, a popular programming language, hence a score of 7."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The article does not provide a direct comparison to similar tools, making it difficult to assess differentiation, hence a neutral score of 5."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN post has 283 points and 30 comments, with generally positive sentiment, indicating a supportive community, hence a score of 7."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The article is a blog post and does not require installation, but 2 out of 3 tests passed, indicating some potential usability issues, hence a score of 6."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to a blog post."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The article is well-written and provides a clear explanation of using HTMX with Go, hence a score of 8."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "This criterion does not apply to a blog post."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to a blog post."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 283 points, 30 comments, and generally positive signals, indicating a well-received article, hence a score of 8."
+    }
+  },
+  "summary": "This blog post discusses the use of HTMX with Go, providing a clear explanation and receiving a positive response from the community.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+  "tool_url": "https://github.com/htmx-org/htmx/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48912175",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "HTMX",
+        "stars": 48490,
+        "repo": "bigskysoftware/htmx"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.0",
+      "summary": "Build web apps with Python, HTMX and Tailwind CSS",
+      "requires_python": ">=3.7,<4.0",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Developers and engineers are pleased with the use of HTMX with Go",
+        "Project stack combinations are being explored and improved upon",
+        "Some users express enthusiasm for the approachability and effectiveness of Go and HTMX"
+      ],
+      "negative_signals": [
+        "Security concerns with inline JS were raised, particularly for less strict Content-Security-Policy",
+        "Some users felt that alternatives like data-star.dev are more powerful and suitable for live reactivity"
+      ],
+      "justification": "The community is generally positive about using HTMX with Go, with many expressing enthusiasm and exploring improvements to their project stacks. However, some developers raised concerns about security and pointed to potential alternatives.",
+      "comment_count": 30,
+      "hn_points": 283
+    }
+  }
+}
