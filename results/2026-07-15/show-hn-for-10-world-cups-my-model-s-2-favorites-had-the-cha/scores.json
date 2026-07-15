@@ -1,0 +1,85 @@
+{
+  "app_name": "Soccer Tournament Predictor",
+  "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7013338",
+  "scored_at": "2026-07-15T13:02:45.277Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The model has been able to correctly identify the winner of the World Cup for 10 consecutive tournaments, which is a notable achievement, but its use of a simple model and lack of transparency in the methodology are drawbacks."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The model is not pip-installable and does not have a PyPI package, which makes it difficult to install and use, but it does provide a Python script."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The model's ability to predict the winner of the World Cup is highly relevant to the current soccer landscape, especially given the upcoming tournament."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The model's performance is comparable to other prediction tools like PredictIt and ESPN FPI, but it lacks transparency in its methodology and does not provide any unique features."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The model has received criticism from the community, with an HN sentiment score of 3/10 and 18 comments, mostly negative, which indicates a lack of community support."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The model's basic run was not successful, and it does not provide any documentation or guides for use, making it difficult to use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The model is not designed for integration with other tools or pipelines, so this criterion does not apply."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The model lacks any significant documentation, with only a brief description of its performance, which makes it difficult to understand and use."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The model has been used for 10 consecutive World Cups, but it lacks any information about its development, updates, or maintenance, which raises concerns about its maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The model has been able to correctly predict the winner of the World Cup for 10 consecutive tournaments, but there is no benchmark data available to compare its performance to other models."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The model has an HN sentiment score of 3/10, with 16 HN points and 18 comments, mostly negative, which indicates a lack of community support."
+    },
+    "overall_impact": {
+      "score": 4,
+      "justification": "The model's ability to predict the winner of the World Cup has some potential impact, but its lack of transparency, poor community reception, and limited documentation hinder its overall impact."
+    }
+  },
+  "summary": "The Soccer Tournament Predictor model has shown notable performance in predicting the winner of the World Cup, but its lack of transparency, poor community reception, and limited documentation hinder its overall impact and usefulness.",
+  "recommendation": "niche",
+  "app_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7013338",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48919191",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "some users acknowledge the paper's limitations",
+        "several users find the model's predictions humorous"
+      ],
+      "negative_signals": [
+        "users criticize the model's potential for overfitting and in-sample weight selection",
+        "criticisms about cherry-picking data and the influence of referees' decisions"
+      ],
+      "justification": "The commenters highlight concerns about model validity and data selection, with some users finding the project amusing. However, the generally negative sentiment suggests that the project has significant skepticism and criticism from the community.",
+      "comment_count": 18,
+      "hn_points": 16
+    }
+  }
+}
