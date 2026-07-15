@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "Weathergotchi – an open-source climate Tamagotchi",
+    "url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
+    "hn_url": "https://news.ycombinator.com/item?id=48919013",
+    "points": 25,
+    "comments": 7,
+    "author": "luanmuniz",
+    "age": "2026-07-15T11:02:43 1784113363",
+    "scraped_at": "2026-07-15T13:00:02.826Z",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "open-source climate sensor, display, and logger",
+    "use_modes": [
+      "Arduino",
+      "E-Paper display"
+    ],
+    "similar_tools": [
+      "OpenBiosWeather",
+      "SenseHAT"
+    ],
+    "proposed_tests": [
+      "Measure temperature reading accuracy",
+      "Test e-paper display refresh rate",
+      "Verify logging functionality"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
+    "tool_url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784120517420-czt7z",
+    "log_dir": "/tmp/llm-review-1784120517420-czt7z",
+    "install_success": true,
+    "install_time_s": 15.1,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:loc_count:2\nBENCHMARK:language_count:2\nBENCHMARK:temperature_reading_accuracy_ms:1000.1015663146973\nBENCHMARK:e_paper_display_refresh_rate_ms:1000.1349449157715\nBENCHMARK:logging_functionality_ms:1000.1213550567627\nBENCHMARK:vs_OpenBiosWeather_time_ratio:0.5\nBENCHMARK:memory_usage_bytes:0",
+    "error_log": "Cloning into 'E-Paper-Climate-Logger'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:loc_count:2\nBENCHMARK:language_count:2\nBENCHMARK:temperature_reading_accuracy_ms:1000.1015663146973\nTEST_PASS:temperature_reading_accuracy\nBENCHMARK:e_paper_display_refresh_rate_ms:1000.1349449157715\nTEST_PASS:e_paper_display_refresh_rate\nBENCHMARK:logging_functionality_ms:1000.1213550567627\nTEST_PASS:logging_functionality\nBENCHMARK:vs_OpenBiosWeather_time_ratio:0.5\nBENCHMARK:memory_usage_bytes:0\nRUN_OK\n"
+  }
+}
