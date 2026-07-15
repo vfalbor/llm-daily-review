@@ -1,0 +1,104 @@
+{
+  "app_name": "Weathergotchi",
+  "url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
+  "scored_at": "2026-07-15T13:02:24.624Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 44 days since repo creation and being an open-source climate sensor, display, and logger, it shows originality in the hardware-iot space, especially with its Tamagotchi-like concept, comparing to similar tools like SenseHAT with 265 stars."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Given the install success is true and install time is 15.1s, and considering it requires specific hardware, it's relatively accessible for its type, but not pip-installable."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a hardware-iot project focused on climate logging and with a unique twist like a Tamagotchi, it fits well with current trends in IoT and environmental monitoring, especially with its open-source nature."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With -46 stars compared to SenseHAT, Weathergotchi differentiates itself through its creative take on weather monitoring and the enthusiasm of its creators, shown in its HN comments and unique concept."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The GitHub repository has 219 stars, 6 forks, and 4 contributors, but data on community engagement is limited, thus a neutral score is assigned due to insufficient data for a more precise evaluation."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "All 3 tests passed successfully, indicating that the setup and basic functionality are straightforward and well-executed, considering its install success and basic run success."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this hardware-iot type, as it does not integrate into software pipelines in the way libraries or APIs do."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While there's a GitHub repository, detailed documentation or a dedicated docs site is not mentioned, thus assuming basic but not extensive documentation, scoring it moderately."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the days since the last commit is 0, indicating recent activity, but without more data on versioning, releases, or a changelog, a neutral score is assigned due to insufficient information."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark measurements show specific performance metrics like temperature_reading_accuracy_ms, e_paper_display_refresh_rate_ms, and vs_OpenBiosWeather_time_ratio, indicating good performance compared to similar tools, especially with a time ratio of 0.5 against OpenBiosWeather."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 25 HN points, 7 comments analyzed, and both positive and negative signals, indicating a mixed but generally favorable community reception, with positive signals like enthusiasm for the project and negative signals like perceived similarity to Tamagotchi."
+    },
+    "recommendation": "worth-watching"
+  },
+  "summary": "Weathergotchi is an innovative, open-source climate sensor and logger with a unique Tamagotchi-like concept, showing strong potential in the hardware-iot space with its recent activity and positive community reception, despite some skepticism about its purpose.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
+  "tool_url": "https://github.com/Michael-Manning/E-Paper-Climate-Logger",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48919013",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 219,
+      "forks": 6,
+      "open_issues": 0,
+      "watchers": 219,
+      "contributors": 4,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 44,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "SenseHAT",
+        "stars": 265,
+        "repo": "initialstate/wunderground-sensehat"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "M5Stack ESP32 dev kits look promising",
+        "Commenters appreciate the project's lightheartedness",
+        "Enthusiasm for the project's creative take on weather monitoring"
+      ],
+      "negative_signals": [
+        "Perceived similarity to Tamagotchi is a turn-off",
+        "Questioning the project's purpose and concept"
+      ],
+      "justification": "The commenters generally seem to appreciate the project's creative take on weather monitoring and the enthusiasm of the creators, but some are skeptical about the project's concept and its comparison to Tamagotchi.",
+      "comment_count": 7,
+      "hn_points": 25
+    }
+  }
+}
