@@ -1,0 +1,90 @@
+{
+  "app_name": "RISC-V State of the Union",
+  "url": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
+  "scored_at": "2026-07-15T13:07:42.175Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The RISC-V State of the Union keynote presents a unique perspective on the future of RISC-V, with a score of 7 for novelty due to its inevitable and competitive products mentioned, such as Rivos."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data on system requirements, as the article does not provide information on the specific system requirements for RISC-V, so a neutral score of 5 is assigned."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "RISC-V is currently relevant in the hardware-architecture landscape, with a score of 8 due to its potential to replace or complement existing architectures like ARM and x86, and its discussion in the article as inevitable."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "RISC-V differentiates itself from existing architectures like ARM and x86, but its differentiation is limited by existing software inertia, with a score of 6 based on the article's discussion of its competitiveness and future prospects."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The community around RISC-V is growing, but it is not yet as established as that of ARM or x86, with a score of 4 due to the cautiously optimistic comments and the 93 HN points, indicating some interest but not widespread adoption."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "Ease of use is not applicable for this article, as it does not provide information on the usability of RISC-V or its products."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "Ease of integration is not applicable for this article, as it does not provide information on integrating RISC-V into existing systems or workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The article provides some information about RISC-V and its advantages, but it is not a comprehensive documentation, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data on maturity, as the article does not provide information on the current state of RISC-V development or its production readiness, so a neutral score of 5 is assigned."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for this article, as it does not provide benchmark results or comparisons to other architectures."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score of the HN comments is 7/10, indicating a cautiously optimistic view of RISC-V's future, with 93 HN points and 30 comments analyzed, including positive signals about its inevitability and competitiveness."
+    }
+  },
+  "summary": "The RISC-V State of the Union keynote argues that RISC-V is inevitable and discusses its advantages and potential to replace or complement existing architectures. However, concerns about performance and software inertia are also raised, indicating a need for further development and adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
+  "tool_url": null,
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=48916805",
+  "domain": "hardware",
+  "app_type": "hardware-architecture",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.1",
+      "summary": "Python client and CLI for RISC",
+      "requires_python": ">=3.7,<4.0",
+      "license": "MIT",
+      "home_page": "https://github.com/2ndWatch/risc-python"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "cautiously optimistic about the future of RISC-V",
+        "RISC-V is inevitable",
+        "Rivos was competitive"
+      ],
+      "negative_signals": [
+        "concerns about performance compared to ARM",
+        "questions about competition and licensing fees",
+        "software inertia and adoption challenges"
+      ],
+      "justification": "The comments suggest a general positivity about the future of RISC-V, with mentions of its inevitability and competitive products. However, concerns about performance, competition, and licensing fees are also raised, as well as potential software inertia.",
+      "comment_count": 30,
+      "hn_points": 93
+    }
+  }
+}
