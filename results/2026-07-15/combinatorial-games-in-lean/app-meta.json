@@ -1,0 +1,43 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Combinatorial Games in Lean",
+    "url": "https://github.com/vihdzp/combinatorial-games",
+    "hn_url": "https://news.ycombinator.com/item?id=48876329",
+    "points": 22,
+    "comments": 3,
+    "author": "wertyk",
+    "age": "2026-07-11T22:11:24 1783807884",
+    "scraped_at": "2026-07-15T13:00:02.832Z",
+    "tool_url": "https://github.com/vihdzp/combinatorial-games",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "math",
+    "app_type": "math-game",
+    "description": "Lean libraries and projects for combinatorial games",
+    "use_modes": [
+      "Lean"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      "clone the repository and run lean --project=lean",
+      "build a new game using the provided libraries",
+      "compare performance improvements across different libraries"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/vihdzp/combinatorial-games"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784120765025-gswqd",
+    "log_dir": "/tmp/llm-review-1784120765025-gswqd",
+    "install_success": true,
+    "install_time_s": 28.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'combinatorial-games'...\nCloning into 'lean'...\nerror: pathspec 'lean-3.4.2' did not match any file(s) known to git\nTraceback (most recent call last):\n  File \"/app/test.py\", line 30, in <module>\n    subprocess.run(['lean', '--project=lean', '--make', 'src/combinatorial_games.lean'], check=True, cwd='combinatorial-games')\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'lean'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL: Unable to install lean: Command '['git', 'checkout', 'lean-3.4.2']' returned non-zero exit status 1.\n"
+  }
+}
