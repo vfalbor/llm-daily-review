@@ -1,0 +1,10 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/xai-org/grok-build.git /tmp/pip-req-build-r0s_z_vo
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: git+https://github.com/xai-org/grok-build.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Cloning into 'grok-build'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: grok-build is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
