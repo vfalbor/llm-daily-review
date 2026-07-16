@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Ente – Opening Our Books",
+    "url": "https://ente.com/open/",
+    "hn_url": "https://news.ycombinator.com/item?id=48932697",
+    "points": 35,
+    "comments": 4,
+    "author": "Sherex",
+    "age": "2026-07-16T10:37:17 1784198237",
+    "scraped_at": "2026-07-16T13:00:02.282Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "Ente's financials for transparency, accountability, and better product decisions",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "GitHub",
+      "GitLab",
+      "Bitbucket"
+    ],
+    "proposed_tests": [
+      "Visit the Ente website and click on the financials link",
+      "Verify that the financial data is accurate and up-to-date",
+      "Compare Ente's financials to other similar companies"
+    ],
+    "requires_api_key": false,
+    "is_open_source": null,
+    "tool_url": null,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784206935031-9cgfc",
+    "log_dir": "/tmp/llm-review-1784206935031-9cgfc",
+    "install_success": false,
+    "install_time_s": 7.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 82\n    ente_time = timeit.timeit(lambda: import ente, number=1)\n                                      ^^^^^^\nSyntaxError: invalid syntax\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
