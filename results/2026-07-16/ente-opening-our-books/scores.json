@@ -1,0 +1,81 @@
+{
+  "app_name": "Ente",
+  "url": "https://ente.com/open/",
+  "scored_at": "2026-07-16T13:02:33.446Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The web page content length of 1476648 chars suggests a high level of detail, which could imply a new approach, but without GitHub data or comparison to similar tools like GitHub, GitLab, or Bitbucket, this score leans on the web page's uniqueness, such as the financial transparency aspect, scoring it an 8."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Given the install success is false and no install time was provided in a meaningful way (7.2s is noted but install failed), this indicates significant difficulties in setup, scoring it a 2."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-editor, its relevance to current trends is moderate, given the emphasis on transparency and accountability, which are valued in the development community, but without direct comparison to how it fits into current LLM ecosystems or trends, scoring it a 6."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The detected version 4.25.9 and the mention of API/SDK/webhook support suggests some level of differentiation, possibly through its financial transparency model, but without direct comparison to similar tools or BENCHMARK comparisons, this score is based on the uniqueness of its transparency model and versioning, scoring it a 7."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With only 34 HN points and 4 comments, the community engagement seems low, scoring it a 3, considering the lack of significant GitHub or other community metrics to evaluate."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the basic run success is false and no tests were passed, this indicates a significant lack of ease in using the tool, scoring it a 1."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The presence of API/SDK/webhook mentions on the web page suggests some potential for integration, but without clear evidence of successful integrations, easy use, or a PyPI package, this scores a 4, reflecting potential but not proven ease of integration."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The page content length and presence of some information like version and API mentions suggest some level of documentation, but the lack of a clear docs/wiki/guide link and the absence of a changelog or release notes reduce the score to a 4, indicating some but not thorough documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version 4.25.9 suggests some level of maturity, but without clear evidence of releases, updates, or maintenance activity, and considering the lack of GitHub data, this scores a 4, indicating some maturity through versioning but not through other signals."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks or relevant data were provided to assess the performance of the tool, making it inappropriate to score."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment score of 9/10 and positive comments indicate a positive community view, but given the context, this does not fit into the scoring criteria directly as it was not explicitly requested to score the HN sentiment but rather to justify based on it, thus it's set to null as per the specific instruction to follow the output schema which does not include HN sentiment as a scoreable criterion."
+    }
+  },
+  "summary": "Ente offers a unique approach to financial transparency and accountability but faces challenges in terms of ease of use, community engagement, and performance data. Its potential for integration and versioning suggests some maturity and differentiation.",
+  "recommendation": "niche",
+  "app_url": "https://ente.com/open/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48932697",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "cool",
+        "Congratulations!",
+        "great"
+      ],
+      "negative_signals": [
+        "shy to post EBITDA"
+      ],
+      "justification": "The overwhelming majority of comments express admiration for the project, with some constructive criticism in the form of suggesting additional financial data. However, a mention of shyness to post certain costs might suggest a lack of transparency.",
+      "comment_count": 4,
+      "hn_points": 34
+    }
+  }
+}
