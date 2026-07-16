@@ -1,0 +1,120 @@
+{
+  "app_name": "Reynard",
+  "url": "https://github.com/minh-ton/reynard-browser",
+  "scored_at": "2026-07-16T13:04:24.938Z",
+  "total_score": 79,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project provides a unique approach to creating a web browser for iOS 13 or later, leveraging Firefox technology, which differentiates it from existing tools like Safari and Chrome, with 165 days since repo creation and 2 days since last commit."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The project has an install success rate of true and an install time of 10.7s, indicating easy installation, although PyPI existence is not found."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a web browser for iOS 13 or later, it fits well with current trends in the LLM ecosystem, particularly with the growing demand for privacy and security."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 1,100 GitHub stars, it has a notable presence, although it lags behind similar tools like Firefox (13,008 stars), Safari (5,091 stars), and Chrome (47,071 stars), showing a unique value proposition."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,100 GitHub stars, 94 forks, and 4 contributors, with the last commit made 2 days ago, indicating a moderately active community, and an HN sentiment score of 5/10 with 91 points and 26 comments."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "With 3 tests passed out of 3 and a basic run success of true, the project demonstrates ease of use, and the absence of any reported issues suggests a user-friendly experience."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Although the project does not have a PyPI package, its use modes include CLI, HTTP API, and SDK, and it has a GPL-3.0 license, making it relatively easy to integrate, despite the lack of pip-installability."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with a primary language of Swift and 1000 loc count, but the absence of a wiki or pages means the documentation score is not higher, and no PyPI package is found."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "Given the project's 165 days since creation and 2 days since the last commit, along with 94 forks and 21 open issues, it indicates a relatively mature project with ongoing development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements show a browser startup time of 0.04722166061401367s, a browser request time of 11.007070541381836ms, and a memory usage of 0.0mb, demonstrating strong performance capabilities, especially considering the import time of 50ms."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The HN sentiment score is 5/10 with 91 points, 26 comments, and mixed sentiment, but since it doesn't directly apply to the app's functionality, it's set to null."
+    }
+  },
+  "summary": "Reynard is a novel web browser for iOS 13 or later, built with Firefox technology, offering a unique approach and strong performance, with a moderately active community and easy integration, despite some areas for improvement in documentation and maturity.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://github.com/minh-ton/reynard-browser",
+  "tool_url": "https://github.com/minh-ton/reynard-browser",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48930397",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 1100,
+      "forks": 94,
+      "open_issues": 21,
+      "watchers": 1100,
+      "contributors": 4,
+      "license": "GPL-3.0",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 165,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "An experimental Gecko-based web browser for iOS 13+.",
+      "topics": [
+        "gecko",
+        "ios",
+        "swift",
+        "web-browser"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Firefox",
+        "stars": 13008,
+        "repo": "mozilla-mobile/firefox-ios"
+      },
+      {
+        "name": "Safari",
+        "stars": 5091,
+        "repo": "lorenzodifuccia/safaribooks"
+      },
+      {
+        "name": "Chrome",
+        "stars": 47071,
+        "repo": "ChromeDevTools/chrome-devtools-mcp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "long overdue for outdated devices",
+        "great",
+        "enabling choice and competition"
+      ],
+      "negative_signals": [
+        "roadblocks to testing and distribution",
+        "Apple's strict review process",
+        "vague and subjective requirements",
+        "maliciously compliant behavior"
+      ],
+      "justification": "The comment sentiment is mixed, with some users expressing frustration with Apple's restrictions and others commending the project as a step towards enabling choice and competition. However, the tone remains largely neutral due to the relatively small number of comments (only 7 users have substantial opinions) and the absence of strongly positive or negative sentiment.",
+      "comment_count": 26,
+      "hn_points": 91
+    }
+  }
+}
