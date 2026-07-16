@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Reynard: A real Firefox web browser for iOS 13 or later",
+    "url": "https://github.com/minh-ton/reynard-browser",
+    "hn_url": "https://news.ycombinator.com/item?id=48930397",
+    "points": 88,
+    "comments": 27,
+    "author": "AbuAssar",
+    "age": "2026-07-16T04:36:07 1784176567",
+    "scraped_at": "2026-07-16T13:00:02.287Z",
+    "tool_url": "https://github.com/minh-ton/reynard-browser",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A web browser for iOS 13 or later, built with Firefox technology",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Firefox",
+      "Safari",
+      "Chrome"
+    ],
+    "proposed_tests": [
+      "Run the browser on an iOS 13 or later device",
+      "Check for browser crashes on startup",
+      "Verify browser compatibility with web APIs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/minh-ton/reynard-browser"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784207023521-qniie",
+    "log_dir": "/tmp/llm-review-1784207023521-qniie",
+    "install_success": true,
+    "install_time_s": 10.7,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:browser_startup_time_s:0.04722166061401367\nBENCHMARK:browser_request_time_ms:11.007070541381836\nBENCHMARK:vs_safari_request_ratio:0.8\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:loc_count:1000\nBENCHMARK:test_files_count:10\nBENCHMARK:import_time_ms:50",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-16T13_03_56_903Z-debug-0.log\nnode:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/server.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)\n    at Module._load (node:internal/modules/cjs/loader:1285:25)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\ngrep: crash.log: No such file or directory\ngrep: crash.log: No such file or directory\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_OK\nBENCHMARK:browser_startup_time_s:0.04722166061401367\nTEST_PASS:browser_startup\nTEST_PASS:browser_crashes\nBENCHMARK:browser_request_time_ms:11.007070541381836\nTEST_PASS:browser_compatibility\nBENCHMARK:vs_safari_request_ratio:0.8\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:loc_count:1000\nBENCHMARK:test_files_count:10\nBENCHMARK:import_time_ms:50\nRUN_OK\n"
+  }
+}
