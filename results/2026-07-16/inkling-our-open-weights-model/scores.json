@@ -1,0 +1,106 @@
+{
+  "app_name": "Inkling",
+  "url": "https://github.com/thinkingmachines/inkling",
+  "scored_at": "2026-07-16T13:02:13.839Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Inkling is an open-weights model, which is a relatively new concept in LLM development, with 0 days since its introduction as a news item, and it has the potential to be competitive with current LLMs like Llama (120,590 stars) and BLOOM (8,993 stars), as seen in the HN comments"
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Inkling has an install time of 8.8s, which is relatively fast, but the lack of a GitHub repository detected limits the evaluation of its system requirements, so it scores lower than a perfect 9-10"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Inkling fits well with the current LLM ecosystem trends, as it is an open-weights model that can offer better-than-frontier performance at a fraction of the price, with a sentiment score of 8/10 from 30 HN comments"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Inkling has 0 GitHub stars, in contrast to similar tools like Llama (120,590 stars) and BLOOM (8,993 stars), and the import_time_ms is 0.17, which may not be significantly better than other models, as no direct comparisons are available"
+    },
+    "community": {
+      "score": 7,
+      "justification": "Inkling has an HN points score of 1062, indicating interest in the project, with 30 comments analyzed, which is a relatively small but engaged community, and the lack of a GitHub repository limits the evaluation of its community"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Inkling has 0 tests passed out of 4, and a basic run success, which indicates that it may have usability issues, and it lacks a clear and easy-to-use interface, as no specific TEST_PASS or TEST_FAIL names are available"
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Inkling has a PyPI package (v0.0.1), with a Python requirement of >=3.10, but no information on its API modes (use_modes) is available, which limits its ease of integration"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or documentation is directly available for Inkling, so its documentation score is neutral"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repository or information on the project's maturity is available, so its maturity score is neutral, with no days_since_created, forks count, or open_issues to evaluate"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons are available for Inkling, with only an import_time_ms of 0.17, which is not enough to evaluate its performance, and it does not provide any significant performance advantages over other models"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Inkling has an HN sentiment score of 8/10, with 1062 points, 30 comments, and positive signals about its potential to be competitive with current LLMs"
+    }
+  },
+  "summary": "Inkling is an open-weights model with potential for competitive performance, but it has usability issues and limited community engagement, with a lack of available data on its system requirements, maturity, and performance",
+  "recommendation": "worth-watching",
+  "app_url": "https://thinkingmachines.ai/news/introducing-inkling/",
+  "tool_url": "https://github.com/thinkingmachines/inkling",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48924912",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Llama",
+        "stars": 120590,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "BLOOM",
+        "stars": 8993,
+        "repo": "bloomrpc/bloomrpc"
+      },
+      {
+        "name": "Chinchilla",
+        "stars": 355,
+        "repo": "Chinchilla-Software-Com/CQRS"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Coming soon.",
+      "requires_python": ">=3.10",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Inkling's open-weights model has the potential to be competitive with current LLMs",
+        "The business plan of open-weights model companies, including serving and managed hosting, has value",
+        "Open-source models can offer better-than-frontier performance at a fraction of the price"
+      ],
+      "negative_signals": [
+        "Concerns about Chinese government funding and control over model production",
+        "Limited understanding of the business plan for open-weights model companies",
+        "Some skepticism about the ability to achieve competitive performance"
+      ],
+      "justification": "Commenters are optimistic about Inkling's model and its potential to be competitive, but there are concerns about Chinese government funding and the business model. Some commenters also express skepticism about the ability to achieve competitive performance.",
+      "comment_count": 30,
+      "hn_points": 1062
+    }
+  }
+}
