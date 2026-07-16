@@ -1,0 +1,4 @@
+  File "/app/test.py", line 82
+    ente_time = timeit.timeit(lambda: import ente, number=1)
+                                      ^^^^^^
+SyntaxError: invalid syntax
