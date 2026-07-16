@@ -1,0 +1,98 @@
+{
+  "app_name": "Grok Build",
+  "url": "https://github.com/xai-org/grok-build",
+  "scored_at": "2026-07-16T13:03:15.100Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Grok Build is a new, open source tool with 1 day since repo creation and 0 days since last commit, indicating a potentially novel approach in the LLM inference space."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app has an install time of 18.9s and install success is false, indicating some difficulty in setting up the app."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an LLM inference tool, Grok Build is relevant to current AI trends, but without more specific information on its features or use cases, it's difficult to assess its exact fit."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There is insufficient data to directly compare Grok Build to similar tools in terms of features, performance, or user base, so its differentiation score is neutral."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 9,569 GitHub stars, 1,535 forks, and 1 contributor, Grok Build has a strong community presence, but the absence of open issues and the single contributor raise concerns about its community engagement and diversity."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that install success is false and no tests were run, it appears that using Grok Build could be challenging, at least from the installation perspective."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The lack of a PyPI package indicates that integrating Grok Build into existing workflows might be more difficult than average, requiring manual installation or build from source."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality, and given the newness of the project, it's challenging to assess the quality of Grok Build's documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 1 day since the repository was created, Grok Build is at an early stage of development, indicating low maturity, despite having a permissive Apache-2.0 license."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for Grok Build, making it difficult to evaluate its performance compared to other tools in the LLM inference space."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score of 6/10, with 494 points and 30 comments, indicates a mixed reception, with both positive and negative signals regarding transparency, accountability, and functionality concerns."
+    }
+  },
+  "summary": "Grok Build is an open-source LLM inference tool with a strong community presence but faces challenges in terms of ease of use, integration, and maturity. Its novelty and potential for transparency and accountability are noted, but concerns about its reliability and effectiveness are also present.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/xai-org/grok-build",
+  "tool_url": "https://github.com/xai-org/grok-build",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48926590",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 9569,
+      "forks": 1535,
+      "open_issues": 0,
+      "watchers": 9569,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Open source release brings more scrutiny and accountability",
+        "Some developers appreciate the new transparency and ease of use",
+        "Users can now inspect the source code to verify its behavior"
+      ],
+      "negative_signals": [
+        "Recent controversy and data breach concerns still linger",
+        "Some users question the trustworthiness of the new open source version",
+        "Industry critics point out the flaws in TUI design and functionality"
+      ],
+      "justification": "While the open source release of Grok Build is met with some positive reception, concerns about recent data breaches and the effectiveness of TUI (terminal user interface) are still prevalent. Some users appreciate the increased transparency, but others are skeptical about the new version's reliability.",
+      "comment_count": 30,
+      "hn_points": 494
+    }
+  }
+}
