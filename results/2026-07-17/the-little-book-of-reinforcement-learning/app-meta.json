@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "The Little Book of Reinforcement Learning",
+    "url": "https://github.com/alxndrTL/little-book-rl/",
+    "hn_url": "https://news.ycombinator.com/item?id=48941104",
+    "points": 165,
+    "comments": 19,
+    "author": "mustaphah",
+    "age": "2026-07-16T22:27:22 1784240842",
+    "scraped_at": "2026-07-17T13:00:03.113Z",
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "research",
+    "app_type": "research-dataset",
+    "description": "Open RL dataset book",
+    "use_modes": [
+      "Browse",
+      "Code"
+    ],
+    "similar_tools": [
+      "rl-book",
+      "dqn-tensorflow"
+    ],
+    "proposed_tests": [
+      "Run code examples, verify output",
+      "Explore chapter topics, verify accuracy"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/alxndrTL/little-book-rl/",
+    "tool_url": "https://github.com/alxndrTL/little-book-rl/"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784293350868-szowy",
+    "log_dir": "/tmp/llm-review-1784293350868-szowy",
+    "install_success": false,
+    "install_time_s": 6.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 3, in <module>\n    import pkg_resources\nModuleNotFoundError: No module named 'pkg_resources'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
