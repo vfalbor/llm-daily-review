@@ -1,0 +1,110 @@
+{
+  "app_name": "The Little Book of Reinforcement Learning",
+  "url": "https://github.com/alxndrTL/little-book-rl/",
+  "scored_at": "2026-07-17T13:03:06.797Z",
+  "total_score": 38,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project is 72 days old, has 1,027 stars, and is not a fork, indicating a relatively new and original contribution with some community interest, as seen in the 1,027 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false and there is no PyPI package found, indicating significant installation issues and limited accessibility, with only 6.7 seconds spent on the failed installation attempt."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Given the lack of specific data linking the app directly to current LLM ecosystem trends, a neutral score is assigned as the project's relevance to the current landscape cannot be precisely evaluated from the provided data."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like rl-book (2,157 stars) and dqn-tensorflow (2,583 stars), this project has significantly fewer stars, indicating less differentiation and community engagement in terms of GitHub star metrics, with -52% and -60% fewer stars respectively."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 1,027 GitHub stars, 50 forks, and 2 open issues, with 1 contributor, indicating a small but somewhat active community, although the single contributor and limited forks suggest a need for more community involvement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the project's usability and accessibility are significantly hindered, reflecting poorly on its ease of use for potential users."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The absence of a PyPI package and the lack of clear API documentation or modes suggest that integrating this project into existing workflows could be challenging, limiting its adaptability and ease of integration for users."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Given the absence of direct evidence on the quality or existence of documentation, a neutral score is assigned, as the project's documentation quality cannot be accurately assessed from the provided data."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Having been created 72 days ago with only 1 contributor and limited community engagement, the project's maturity and stability are questionable, indicating it is still in its early stages of development."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "Without specific benchmark results or performance metrics provided, and considering the installation issues, the project's performance cannot be positively evaluated, suggesting potential performance issues due to the failed installation."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score of 6/10, along with 167 points and 19 comments, indicates a generally positive but not overwhelmingly enthusiastic reception, with both positive and negative signals present in the comments, suggesting a mixed community response to the project."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "The Little Book of Reinforcement Learning is a relatively new and somewhat original contribution to the field of reinforcement learning, with a small but active community. However, it faces significant challenges in terms of installation, differentiation, and performance, which may limit its appeal and usability for a broader audience. Despite these challenges, the project has received a generally positive reception on platforms like Hacker News, indicating potential for growth and development within a niche community interested in reinforcement learning datasets and research.",
+  "app_url": "https://github.com/alxndrTL/little-book-rl/",
+  "tool_url": "https://github.com/alxndrTL/little-book-rl/",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=48941104",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": {
+      "stars": 1027,
+      "forks": 50,
+      "open_issues": 2,
+      "watchers": 1027,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 72,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Little Book of Reinforcement Learning",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "rl-book",
+        "stars": 2157,
+        "repo": "natolambert/rlhf-book"
+      },
+      {
+        "name": "dqn-tensorflow",
+        "stars": 2583,
+        "repo": "devsisters/DQN-tensorflow"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Homage to The Little Book of Deep Learning",
+        "Looks like a good pre-read",
+        "Interesting and intriguing comments/questions"
+      ],
+      "negative_signals": [
+        "Lacking in information theory foundations",
+        "Critical comparison to previous work (GRPO, RLOO)",
+        "Minor critique of title"
+      ],
+      "justification": "The project received a generally positive reception with some constructive criticism regarding its content and naming.",
+      "comment_count": 19,
+      "hn_points": 167
+    }
+  },
+  "recommendation": "niche"
+}
