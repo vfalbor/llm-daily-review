@@ -1,0 +1,82 @@
+{
+  "app_name": "Immersive Linear Algebra Book",
+  "url": "https://immersivemath.com/ila/",
+  "scored_at": "2026-07-17T13:04:22.091Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is an interactive linear algebra book, which is a unique approach to teaching math, as mentioned on the webpage with a detected version of 1.0 and a page content length of 11428 chars, indicating a substantive resource."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant issues with accessibility, and no PyPI package was found, making it not pip-installable, which are critical system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is a research-dataset, and the app is an interactive linear algebra book, which fits into the current trend of interactive educational resources, with a page title of 'Immersive Math'."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There is not enough information about similar tools to accurately assess differentiation, but similar tools like Mathematics.org and Linear Algebra course are mentioned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected, but the app has an HN sentiment score of 8/10, with 248 HN points and 28 comments analyzed, indicating some community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 0, and basic run success is false, indicating that the app is difficult to use, and no install command was found on the webpage."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "There is no API/SDK/webhook mention on the webpage, and no PyPI package was found, indicating that integration with other tools or services may be difficult."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage has a substantial content length of 11428 chars, which is a proxy for the depth of documentation, but no docs/wiki/guide link was found, and no changelog or release notes were detected."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version is 1.0, but there is no information about the release history or update frequency, and the webpage does not provide clear signals about maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There is no information about performance, and the app type is a research-dataset, which does not typically have performance benchmarks."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 248 HN points, 28 comments analyzed, and overwhelmingly positive comments, but also some criticism for oversimplifying linear algebra."
+    }
+  },
+  "summary": "The Immersive Linear Algebra Book is an interactive educational resource with a unique approach to teaching math, but it has significant issues with accessibility and system requirements, and limited information about community engagement and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://immersivemath.com/ila/",
+  "tool_url": null,
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=48935951",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Overwhelmingly positive comments praising the book's interactive approach and clean presentation.",
+        "Many users appreciate the book for helping them understand linear algebra intuitively, even years after taking a first course.",
+        "Some users are excited about the prospect of seeing more educational resources like this, with one user mentioning the potential for books on statistics, probability, and advanced robotics"
+      ],
+      "negative_signals": [
+        "A few users criticize the book for oversimplifying linear algebra, focusing too much on computational aspects, and not providing enough depth on theorems and proofs.",
+        "One user suggests that programmers are often more interested in applications than in the underlying math, which may contribute to the criticism"
+      ],
+      "justification": "The majority of comments are overwhelmingly positive, praising the book's interactive approach and clean presentation. However, a few users criticize the book for oversimplifying linear algebra and not providing enough depth on theorems and proofs.",
+      "comment_count": 28,
+      "hn_points": 248
+    }
+  }
+}
