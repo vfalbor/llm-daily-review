@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Microsoft Comic Chat is now open source",
+    "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+    "hn_url": "https://news.ycombinator.com/item?id=48936426",
+    "points": 723,
+    "comments": 159,
+    "author": "jervant",
+    "age": "2026-07-16T16:06:27 1784217987",
+    "scraped_at": "2026-07-17T13:00:03.109Z",
+    "is_reviewable": true,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "source_type": "announcement",
+    "tool_url": "https://github.com/Microsoft/comic-chat",
+    "repo_url": null,
+    "confidence": 0.95,
+    "description": "Decades-old comic chat program now open sourced.",
+    "use_modes": [
+      "run",
+      "embed"
+    ],
+    "similar_tools": [
+      "IRC",
+      "XMPP",
+      "Slack"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the chat server",
+      "Embed comic chat widget in a demo page",
+      "Measure latency and performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1784293302613-3mt2r",
+    "log_dir": "/tmp/llm-review-1784293302613-3mt2r",
+    "install_success": true,
+    "install_time_s": 13.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK: health_latency_ms:5.11\nBENCHMARK: memory_usage_bytes:107105\nBENCHMARK: message_latency_ms:2.91\nBENCHMARK: loc_count:\nBENCHMARK: test_files_count:",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'comic-chat'...\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /comic-chat/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/comic-chat/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-17T13_01_57_402Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.17.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 90.4 MiB in 59 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_OK: nodejs\nINSTALL_OK: npm\nINSTALL_FAIL: comic-chat - Command '['npm', 'install']' returned non-zero exit status 254.\nTEST_FAIL: start_server - [Errno 2] No such file or directory: 'comic-chat'\nBENCHMARK: health_latency_ms:5.11\nTEST_PASS: health_check\nTEST_SKIP: embed_widget - requires manual setup\nBENCHMARK: memory_usage_bytes:107105\nTEST_SKIP: compare_performance - requires setup and measurement of IRC server\nBENCHMARK: message_latency_ms:2.91\nBENCHMARK: loc_count:\nBENCHMARK: test_files_count:\nRUN_OK\n"
+  }
+}
