@@ -1,0 +1,117 @@
+{
+  "app_name": "Microsoft Comic Chat",
+  "url": "https://github.com/Microsoft/comic-chat",
+  "scored_at": "2026-07-17T13:02:07.964Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "Microsoft Comic Chat is a unique project that has been open-sourced after decades, with 76 days since the repository was created and 0 days since the last commit, indicating active maintenance."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has an install time of 13.5s and install success is true, but it's not pip-installable since no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-frontend project, Microsoft Comic Chat fits into the current landscape of open-source projects, but its relevance to the LLM ecosystem is not strongly defined, given its primary nature as a comic chat program."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 588 stars on GitHub, Microsoft Comic Chat differentiates itself from similar tools like IRC (1,321 stars), XMPP (5,882 stars), and Slack (8,269 stars), but its star count is significantly lower, indicating less community traction compared to these alternatives."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 588 GitHub stars, 61 forks, and 2 contributors, with 0 open issues and the last commit made 0 days ago, showing a relatively active and healthy community, especially considering its recent open-sourcing."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that only 1 out of 4 tests passed and basic run success is true, the ease of use is somewhat compromised, indicating potential issues with the project's usability or test coverage."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project lacks a PyPI package, making it less easy to integrate into existing workflows or pipelines, especially for Python users relying on pip for package management."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "Although specific documentation metrics like has_wiki or has_pages are not provided, the project's open-sourcing and the announcement blog post contribute to its documentation score, assuming the presence of some form of documentation or guides."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 76 days since the repository was created and active commits (0 days since the last update), the project shows signs of maturity, but its overall age and the fact that it's a recently open-sourced project from a large corporation like Microsoft complicate this assessment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's insufficient data to accurately score the project's performance, as the provided benchmark measurements (health_latency_ms, memory_usage_bytes, message_latency_ms) do not directly relate to the project's functionality as a comic chat program."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 723 HN points, 30 comments analyzed, and positive signals including excitement and nostalgia, indicating a generally positive community response to the project's open-sourcing."
+    },
+    "security": {
+      "score": null,
+      "justification": "Security is not explicitly covered in the provided data, making it inappropriate to assign a score without specific security-related metrics or information."
+    }
+  },
+  "summary": "Microsoft Comic Chat, a decades-old comic chat program, has been open-sourced, offering a unique project with potential for community growth and development, despite some challenges in usability and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
+  "tool_url": "https://github.com/Microsoft/comic-chat",
+  "source_type": "announcement",
+  "hn_url": "https://news.ycombinator.com/item?id=48936426",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 588,
+      "forks": 61,
+      "open_issues": 0,
+      "watchers": 588,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 76,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Source code for the Microsoft Comic Chat IRC client",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "IRC",
+        "stars": 1321,
+        "repo": "martynsmith/node-irc"
+      },
+      {
+        "name": "XMPP",
+        "stars": 5882,
+        "repo": "robbiehanson/XMPPFramework"
+      },
+      {
+        "name": "Slack",
+        "stars": 8269,
+        "repo": "slackhq/SlackTextViewController"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement",
+        "Nostalgia",
+        "Community appreciation"
+      ],
+      "negative_signals": [
+        "Microsoft blocks non-corporate users",
+        "Confusion over Microsoft terminology"
+      ],
+      "justification": "Although some comments express concerns about Microsoft's actions, the overall tone is overwhelmingly positive, with users sharing personal anecdotes and expressing nostalgia for the project.",
+      "comment_count": 30,
+      "hn_points": 723
+    }
+  }
+}
