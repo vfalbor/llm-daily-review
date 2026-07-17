@@ -1,0 +1,90 @@
+{
+  "app_name": "Vocal Notation",
+  "url": "https://om-intelligence.ch/projects/vocal-notation/vocal-notation.html",
+  "scored_at": "2026-07-17T13:02:29.890Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app's ability to convert singing into musical notes is a unique feature, with no direct equivalent found. This is evident from the HN comments where users praise the novelty of the idea."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app is a web app, making it easily accessible, but it requires microphone access, which some users have reported issues with. The install time is not applicable in this case, as it's a web app."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits into the current music and technology landscape, providing a unique tool for music enthusiasts and children. This is evident from the HN comments where users see potential in the tool."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app has a unique feature set, with no direct equivalent found. Compared to similar tools like Tonal, which has 4,206 stars on GitHub, Vocal Notation's web-based approach and simplicity set it apart."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has some community interest, with 47 HN points and 19 comments. However, the community is not particularly large or active, and there are some technical issues reported."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app's ease of use is not well-evidenced, as there are no test results available. However, some users have reported issues with microphone access and pitch detection accuracy."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no evidence of the app's integration with other tools or platforms. The app is a web app, and there is no API or SDK available for integration."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "There is no evidence of extensive documentation for the app. The app's website provides some basic information, but there is no wiki, GitHub topics, or other documentation available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no evidence of the app's maturity, as there is no GitHub repository available, and the app's website does not provide information on its development history or stability."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app's performance is somewhat evidenced by the benchmark measurements, which show a response time of 4.41ms and audio analysis time of 2.75ms. However, some users have reported issues with pitch detection accuracy."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 47 HN points and 19 comments. The comments are mixed, with some users praising the app's novelty and simplicity, while others report technical issues."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "Vocal Notation is a unique web app that converts singing into musical notes. While it has some potential, it faces technical issues with microphone access and pitch detection accuracy. The app's community is small, and there is limited evidence of its maturity and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://om-intelligence.ch/projects/vocal-notation/vocal-notation.html",
+  "tool_url": "https://github.com/om-intelligence/vocal-notation",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48900686",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Tonal",
+        "stars": 4206,
+        "repo": "tonaljs/tonal"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Users see potential in the tool for music enthusiasts and children.",
+        "The project is praised for its simplicity and speed, with one user creating it in 5 minutes.",
+        "Some users appreciate the novelty of singing into the browser to generate notes."
+      ],
+      "negative_signals": [
+        "Several users report inaccuracies in pitch detection, including one who was singing in B flat but saw notes in F sharp / G flat.",
+        "Some users are experiencing the 'A Permissions-Policy header' error, blocking microphone access.",
+        "One user mentions the computer potentially refusing to process their 'singing' voice due to its low quality."
+      ],
+      "justification": "The project has some promising potential, but it faces technical issues with microphone access and pitch detection accuracy. Users are generally interested in the idea but require more refinement.",
+      "comment_count": 19,
+      "hn_points": 47
+    }
+  }
+}
