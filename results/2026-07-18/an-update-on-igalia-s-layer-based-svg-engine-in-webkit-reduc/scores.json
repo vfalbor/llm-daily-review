@@ -1,0 +1,81 @@
+{
+  "app_name": "lbse",
+  "url": "https://github.com/igalia/lbse",
+  "scored_at": "2026-07-18T13:06:26.636Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is an update to an existing SVG engine, showing it has a foundation but is also being innovated upon, with days since creation not directly available but indicating ongoing development."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation time is 9.6s and install success is false, indicating moderate system requirements but with issues in the install process."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-framework, it fits within current web development trends, particularly with its focus on high-performance SVG rendering in WebKit browsers."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project doesn't have a direct comparison to similar tools in the data provided, but its focus on reducing layer overhead in SVG rendering is a notable differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No direct GitHub repository data is available, so community score is neutral due to lack of data."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Tests passed are 2 out of 3, indicating some ease of use but with potential issues or missing features."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is found, making integration potentially more difficult without straightforward pip installation."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project URL leads to a detailed blog post about its development and features, indicating good documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Maturity score is neutral due to lack of direct data on the project's age, forks, or open issues."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark measurements show promising performance with lbse_rendering_time_ms at 10.717630386352539 and edge_cases_time_ms at 1.374959945678711, indicating efficient rendering capabilities."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "HN sentiment score is 5/10 with 60 points and mixed comments, indicating a neutral reception from the community."
+    }
+  },
+  "summary": "The lbse project offers a high-performance SVG engine for WebKit browsers with notable developments in reducing layer overhead. While facing some integration and installation challenges, its performance benchmarks show promise.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blogs.igalia.com/nzimmermann/posts/2026-07-14-lbse-conditional-layers/",
+  "tool_url": "https://github.com/igalia/lbse",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48906171",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "interesting to see Vello integration",
+        "appreciate article's authorship"
+      ],
+      "negative_signals": [
+        "sloppy comment about AI",
+        "lack of comment from bbkane on major aspect (regression tests)"
+      ],
+      "justification": "Mixed opinions on the project's potential with some constructive criticism on missing regression tests, balanced by appreciative comments on the author's effort and the interesting direction of GPU-assisted rendering.",
+      "comment_count": 4,
+      "hn_points": 60
+    }
+  }
+}
