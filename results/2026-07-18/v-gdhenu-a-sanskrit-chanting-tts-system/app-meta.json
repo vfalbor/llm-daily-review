@@ -1,0 +1,42 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Vágdhenu: A Sanskrit Chanting TTS System",
+    "url": "https://prathosh.in/vagdhenu/",
+    "hn_url": "https://news.ycombinator.com/item?id=48896149",
+    "points": 192,
+    "comments": 47,
+    "author": "subinalex",
+    "age": "2026-07-13T17:43:26 1783964606",
+    "scraped_at": "2026-07-18T13:00:02.991Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/prathosh/vagdhenu",
+    "source_type": "tool",
+    "confidence": 1,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "Sanskrit chanting TTS system using machine learning",
+    "use_modes": [],
+    "similar_tools": [],
+    "proposed_tests": [
+      "Install Vāgdhenu and create an account",
+      "Generate audio for a Sanskrit text",
+      "Compare with human recording"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/prathosh/vagdhenu"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784379902999-knai6",
+    "log_dir": "/tmp/llm-review-1784379902999-knai6",
+    "install_success": false,
+    "install_time_s": 6.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 5, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
