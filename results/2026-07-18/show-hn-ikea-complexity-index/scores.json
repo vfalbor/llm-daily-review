@@ -1,0 +1,87 @@
+{
+  "app_name": "IKEA Complexity Index",
+  "url": "https://ikea.greg.technology/",
+  "scored_at": "2026-07-18T13:04:31.078Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The IKEA Complexity Index is a unique web application that provides a complexity index for IKEA furniture, with 86 HN points and 30 comments, showing interest in the tool, but its novelty is somewhat limited as it builds upon existing concepts of complexity indexes."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app is a web application, making it easily accessible, but there is no information about its installability, as it doesn't have a PyPI package, and install time is not applicable, with install success being false in the container test results."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web application focused on IKEA furniture, it fits within the current trends of providing consumer-focused tools, but its relevance might be limited to a niche audience interested in IKEA products, as seen in the 86 HN points and 30 comments discussing its usefulness."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The differentiation of this tool from others is not clearly available due to insufficient data on similar tools and no direct comparison can be made, thus scoring it neutral."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The community around this tool, as observed from the HN post, has 86 points and 30 comments, showing some interest, but without more data on GitHub stats or contributors, we cannot assess the community size or engagement fully, leading to a lower score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Given the lack of successful tests (0/0 tests passed), and the basic run success being false, it's challenging to assess the ease of use accurately, suggesting potential difficulties in running or using the application."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a web application, ease of integration into workflows or pipelines is not directly applicable, thus this criterion is set to null."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited information available about the documentation of the IKEA Complexity Index, with no clear data on a wiki, pages, or topics, thus scoring it neutral due to insufficient data."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without specific data on days since creation, forks, or open issues, and considering the tool's limited visibility and engagement (86 HN points), its maturity is difficult to assess, suggesting it might be in an early stage."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a web application without benchmarks or performance claims available, this criterion is not applicable and is set to null."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score from HN comments is 5/10, indicating a mixed reaction, with positive comments about the entertainment value and honesty of the complexity index, and negative comments about the assembly process and accuracy, showing a balanced view."
+    },
+    "other": {
+      "score": 6,
+      "justification": "Considering the overall unique approach and the interest it generated, the tool has some merits, but lacks in other areas such as ease of use and maturity, thus scoring it moderately."
+    }
+  },
+  "summary": "The IKEA Complexity Index is a web application providing a complexity index for IKEA furniture, showing some novelty and relevance but lacking in ease of use and maturity, with a mixed community sentiment.",
+  "recommendation": "niche",
+  "app_url": "https://ikea.greg.technology/",
+  "tool_url": "https://github.com/gregorymendez/ikea_complexity_index",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48955042",
+  "domain": "web",
+  "app_type": "web-application",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "The website seems to accurately reflect the complex assembly process of IKEA furniture.",
+        "Users appreciate the honesty of the complexity index, even if it's not always accurate.",
+        "Some commenters find the website entertaining, comparing it to more expensive hobbies."
+      ],
+      "negative_signals": [
+        "Many commenters have had a negative experience with assembling IKEA furniture, reporting lengthy assembly times.",
+        "Some commenters find the complexity index inaccurate, with certain products being more complex than others.",
+        "Users express frustration with the assembly process, suggesting that others should do it for them."
+      ],
+      "justification": "The commenters' experiences and perspectives on the complexity index are mixed, with some finding it helpful and others frustrated with the accuracy and the assembly process itself.",
+      "comment_count": 30,
+      "hn_points": 86
+    }
+  }
+}
