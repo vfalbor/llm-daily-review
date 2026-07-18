@@ -1,0 +1,87 @@
+{
+  "app_name": "Open Book Touch",
+  "url": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
+  "scored_at": "2026-07-18T13:06:47.173Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The Open Book Touch is an open-source e-reader, which is a unique approach in the e-reader market, with 139 HN points and a sentiment score of 7/10, indicating a positive reception and appreciation for its open-source ethos."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable and has no PyPI package found, with an install time and success not applicable due to lack of data, indicating potential difficulties in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web application and an open-source e-reader, it fits into current trends of accessible and customizable technology, with its open-source nature aligning with current developer preferences."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it offers an open-source approach, the lack of direct comparisons to similar tools in the data limits a higher score, but its unique open-source status differentiates it in the market."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No direct GitHub repository statistics are available for this tool, but with HN points of 139 and comments analyzed indicating a generally positive reception, the community aspect, though not fully quantifiable from the provided data, suggests some level of engagement."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The data does not provide sufficient information on tests passed or specific user experience metrics, making it challenging to accurately score the ease of use beyond a neutral point."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Without API modes or specific integration details provided, it's difficult to assess how easily this can be integrated into existing workflows or systems, though its open-source nature might suggest potential for customization."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The tool's documentation quality and availability could not be directly assessed from the provided data, though its open-source nature might imply the existence of community-driven documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lacking specific data on days since creation, forks, or open issues, the maturity of the project cannot be accurately evaluated beyond a neutral stance, despite its open-source status and the positive community signals."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a web application and given the lack of specific performance metrics or benchmark data in the provided information, this criterion is not applicable for scoring."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for scoring in this context as it's already used in assessing other criteria and not a standalone scoreable aspect."
+    },
+    "recommendation_logic": {
+      "score": null,
+      "justification": "This is not a criterion for scoring but rather a guideline for interpreting the total score, hence not applicable here."
+    }
+  },
+  "summary": "Open Book Touch is an open-source e-reader that, despite its unique approach and positive community reception, lacks sufficient data for a comprehensive evaluation of its usability, integration, and performance. Its open-source nature and positive sentiment scores indicate potential, but more detailed information is necessary for a fuller assessment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
+  "tool_url": "https://github.com/oddly-specific-objects/open-book-touch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48952135",
+  "domain": "web",
+  "app_type": "web-application",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Overall positive reception",
+        "Appreciation for open-source ethos",
+        "Eager for improved features (e.g., front-light, buttons)"
+      ],
+      "negative_signals": [
+        "Dislike for swipe gestures on e-ink",
+        "Criticism of lack of physical buttons",
+        "Concerns about security/compatibility issues with Xteink"
+      ],
+      "justification": "Commenters generally praise the open-source approach and enthusiasm for the project, but express concerns and criticisms about usability, security, and compatibility. Despite these issues, the overall sentiment is positive with some constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 139
+    }
+  }
+}
