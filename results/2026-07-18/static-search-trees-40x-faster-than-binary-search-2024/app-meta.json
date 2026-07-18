@@ -1,0 +1,42 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Static search trees: 40x faster than binary search (2024)",
+    "url": "https://curiouscoding.nl/posts/static-search-tree/",
+    "hn_url": "https://news.ycombinator.com/item?id=48951898",
+    "points": 148,
+    "comments": 9,
+    "author": "lalitmaganti",
+    "age": "2026-07-17T20:24:55 1784319895",
+    "scraped_at": "2026-07-18T13:00:02.991Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/curiouscoding/static_search_tree",
+    "source_type": "tool",
+    "confidence": 1,
+    "domain": "database",
+    "app_type": "database-blob",
+    "description": "High-performance static search tree implementation",
+    "use_modes": [],
+    "similar_tools": [],
+    "proposed_tests": [
+      "Install Static Search Tree and measure query time",
+      "Compare with binary search on a large dataset",
+      "Test edge cases"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/curiouscoding/static_search_tree"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784379872186-6l07l",
+    "log_dir": "/tmp/llm-review-1784379872186-6l07l",
+    "install_success": false,
+    "install_time_s": 7.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:loc_count:0\nBENCHMARK:file_count:0",
+    "error_log": "Cloning into 'static_search_tree'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/1) Installing sqlite (3.53.2-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 28.0 MiB in 52 packages\nOK: 28.0 MiB in 52 packages\nINSTALL_FAIL:[Errno 2] No such file or directory: 'static_search_tree'\nTEST_FAIL:test_query_time:No module named 'static_search_tree'\nTEST_FAIL:compare_with_binary_search:No module named 'static_search_tree'\nTEST_FAIL:test_edge_cases:No module named 'static_search_tree'\nTEST_FAIL:compare_with_sqlite:No module named 'static_search_tree'\nTEST_FAIL:measure_memory_usage:No module named 'static_search_tree'\nBENCHMARK:loc_count:0\nBENCHMARK:file_count:0\nRUN_OK\n"
+  }
+}
