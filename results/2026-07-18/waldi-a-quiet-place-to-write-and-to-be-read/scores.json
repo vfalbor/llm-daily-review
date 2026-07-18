@@ -1,0 +1,100 @@
+{
+  "app_name": "Waldi",
+  "url": "https://github.com/waaldev/waldi",
+  "scored_at": "2026-07-18T13:02:42.142Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Waldi is a relatively new tool, created 14 days ago, and has a unique approach to writing and reading, which sets it apart from similar tools with 23 stars, but it's not a first-of-its-kind approach"
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Waldi installs successfully in 8.6 seconds, which is relatively fast, but it's not pip-installable, which might be a drawback for some users"
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "Waldi's fit with current LLM ecosystem trends is unclear, as it's a writing and reading tool, not directly related to LLMs, with no clear connection to the current AI development landscape"
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Waldi has a unique concept, but the comparison to similar tools is difficult due to insufficient data, with no BENCHMARK comparisons available"
+    },
+    "community": {
+      "score": 2,
+      "justification": "Waldi has only 23 GitHub stars, 0 forks, and 1 contributor, which indicates a small and inactive community, with days_since_update being 0, but it's a new project"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Waldi's tests passed 0 out of 4, which indicates significant issues with the tool's usability and functionality, despite basic run success being true"
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Waldi has no PyPI package, and its API modes and license are unclear, which makes integration difficult, with no clear information on use_modes"
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "Waldi's documentation is insufficient, with no clear information on its GitHub page or website, and no wiki or pages, which makes it hard to understand and use the tool"
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Waldi is a relatively new project, created 14 days ago, with no clear indication of its maturity, and no releases or versioning information available"
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Waldi's performance is unclear, as there are no BENCHMARK lines from tests, and no information on its performance compared to similar tools"
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Waldi's HN sentiment score is 5/10, with 26 HN points, and 11 comments analyzed, indicating a mixed and neutral sentiment, with both positive and negative signals, but insufficient data for a higher score"
+    }
+  },
+  "summary": "Waldi is a new tool for writing and reading, with a unique concept, but it has significant issues with usability, functionality, and community engagement, and its performance and maturity are unclear.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/waaldev/waldi",
+  "tool_url": "https://github.com/waaldev/waldi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48880258",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": {
+      "stars": 23,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 23,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 14,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A quiet place to write, and to be read.",
+      "topics": [
+        "blogging"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "guaranteed readers for new content",
+        "interesting concept",
+        "motivates users to write again"
+      ],
+      "negative_signals": [
+        "tone deaf to AI-generated blurb",
+        "requires invite code",
+        "difficulty reading content without creating a blog"
+      ],
+      "justification": "The comment sentiment is mixed and neutral, with users both praising the concept and criticizing design choices and accessibility issues. Insufficient data on long-term viability and scalability prevents a higher score.",
+      "comment_count": 11,
+      "hn_points": 26
+    }
+  }
+}
