@@ -1,0 +1,83 @@
+{
+  "app_name": "Static Search Tree",
+  "url": "https://github.com/curiouscoding/static_search_tree",
+  "scored_at": "2026-07-18T13:05:01.962Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app describes a static search tree implementation, which is a unique approach, and as per the article, it is 40x faster than binary search, citing the use of Eytzinger layout."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, indicating difficulties in setting up the project, and install time was 7.9s, with PyPI existence being unavailable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to the current ecosystem as it solves a problem in the database and search domain, with a focus on high-performance static search trees, fitting the trend of optimizing search and query performance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool is differentiated by its Eytzinger layout and caching efficiency, though it faces skepticism regarding its practicality and performance with large data, as noted in the HN comments."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The community engagement is moderate, with 148 HN points and 9 comments analyzed, showing both positive signals like efficient caching and negative signals like performance concerns with large data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed were 0 out of 5, and basic run success was true, indicating potential difficulties in running the tool as intended, though the exact reason is unclear without GitHub data."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it's described as a database-blob and specific integration details are not applicable in the traditional sense."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are unclear without direct access to the GitHub repository or a dedicated docs site, hence scored as 5 due to insufficient information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The maturity of the project could not be accurately assessed due to the lack of GitHub repository data and specific release information, hence scored as 5 for insufficient data."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The tool claims to be 40x faster than binary search, which is a significant performance improvement, though specific benchmark measurements from container tests are not available to confirm this claim."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 148 HN points, indicating a generally positive but also somewhat skeptical community response to the project, as summarized from the comments."
+    }
+  },
+  "summary": "The Static Search Tree is a high-performance implementation that claims to be 40x faster than binary search, with a unique Eytzinger layout and caching efficiency, though it faces skepticism regarding its practicality and performance with large data. The community response is mixed, reflecting both the potential and the challenges of the project.",
+  "recommendation": "niche",
+  "app_url": "https://curiouscoding.nl/posts/static-search-tree/",
+  "tool_url": "https://github.com/curiouscoding/static_search_tree",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48951898",
+  "domain": "database",
+  "app_type": "database-blob",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Eytzinger layout",
+        "cached efficiently",
+        "good implementation"
+      ],
+      "negative_signals": [
+        "worst than sorted",
+        "cache-oblivious",
+        "practically impractical"
+      ],
+      "justification": "The project received generally positive comments, highlighting the Eytzinger layout and caching efficiency, but also faced skepticism and criticism, particularly regarding performance with large data and cache-friendliness concerns.",
+      "comment_count": 9,
+      "hn_points": 148
+    }
+  }
+}
