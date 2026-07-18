@@ -1,0 +1,11 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+fatal: destination path '/app' already exists and is not an empty directory.
+Traceback (most recent call last):
+  File "/app/test.py", line 93, in <module>
+    main()
+  File "/app/test.py", line 70, in main
+    subprocess.run(['git', 'clone', 'https://github.com/gregorymendez/ikea_complexity_index.git', '/app'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/gregorymendez/ikea_complexity_index.git', '/app']' returned non-zero exit status 128.
