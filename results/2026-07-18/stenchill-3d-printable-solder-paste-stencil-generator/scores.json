@@ -1,0 +1,83 @@
+{
+  "app_name": "Stenchill",
+  "url": "https://www.stenchill.com/en/",
+  "scored_at": "2026-07-18T13:03:55.747Z",
+  "total_score": 55,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN points are 64, with 17 comments analyzed and a sentiment score of 6/10, indicating a generally positive but concerned community with 6 positive signals and 3 negative signals"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The tool offers a unique solution for generating 3D printable solder paste stencils, which is a new approach, but no direct comparison to similar tools is available"
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as install_success is true but install_time and PyPI existence are not fully available"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool fits with current trends in DIY electronics and soldering, as evidenced by the positive HN comments and the availability of the tool on the web"
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate differentiation, as no comparison to similar tools is available"
+    },
+    "community": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate community, as no GitHub repository or contributors are available, but HN comments indicate some interest"
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 / 5, indicating significant issues with usability or functionality"
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate integration, as no API or SDK is mentioned, but the tool has a webpage with some documentation"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage has a docs/wiki/guide link, a changelog, and is 11181 characters long, indicating some level of documentation, but no examples or demo are available"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as no GitHub repository or versioning information is available, but the webpage mentions version 1.1"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark measurements are available to evaluate performance"
+    }
+  },
+  "summary": "Stenchill is a unique tool for generating 3D printable solder paste stencils, but its usability and functionality are unclear due to failed tests, and its community and maturity are hard to evaluate due to lack of data.",
+  "recommendation": "niche",
+  "app_url": "https://www.stenchill.com/en/",
+  "tool_url": "https://github.com/your-project-name",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48953981",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Users like the idea and have ordered stencils",
+        "Someone mentioned a related project that does 3D print solder paste",
+        "Some users think 3D printing is a good alternative for people without laser cutters"
+      ],
+      "negative_signals": [
+        "Some users doubt the accuracy of 3D printing for fine pitch boards",
+        "Users bring up existing and cheaper alternatives (laser cutting, Mylar sheets)",
+        "Some users are skeptical about the appeal of 3D printed stencils"
+      ],
+      "justification": "The comment thread is generally positive, but expresses concerns about accuracy and alternatives. Users highlight the convenience of 3D printing for those without laser cutters, but also question the appeal of this method for those who can order traditional stencils.",
+      "comment_count": 17,
+      "hn_points": 64
+    }
+  }
+}
