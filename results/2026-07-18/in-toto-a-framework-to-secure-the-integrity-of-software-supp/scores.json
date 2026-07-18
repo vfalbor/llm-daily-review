@@ -1,0 +1,81 @@
+{
+  "app_name": "In-toto",
+  "url": "https://in-toto.io/",
+  "scored_at": "2026-07-18T13:03:13.938Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "As a framework for securing software supply chains, In-toto addresses a specific problem, but similar tools like Software Bill of Materials exist, suggesting it's not entirely new, with its detected version being 1.1 and having a specific use case."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The install time and success are not directly applicable due to the absence of a PyPI package and the nature of the tool, so a neutral score is assigned."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "In-toto fits into the current trend of focusing on supply chain security, which is a significant concern in the software development ecosystem, aligning with the need for secure software supply chains."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "In-toto has a unique approach to securing software supply chains using Provenance and Policy Enforcement, differentiating it from other tools like Software Bill of Materials, although similar concepts exist."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With no direct GitHub repository stats available, but considering the HN points of 48 and comments of 6, the community engagement seems limited, suggesting a smaller or less active community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the absence of specific test results and the command-line use mode, it's challenging to evaluate the ease of use directly, so a neutral score is assigned."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a detected API/SDK/webhook mention on the webpage and the tool being open-source suggests a reasonable ease of integration, although no direct API modes or license information is provided."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The webpage has a docs/wiki/guide link, changelog or release notes, and examples or demo, with a content length of 14166 characters, indicating substantial documentation effort."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version of 1.1 and the presence of a changelog or release notes suggest some level of maturity, although the exact days since creation are not provided."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks are available, either from the webpage or from any test results, making it challenging to assess performance, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The sentiment score of 5/10, with 48 HN points and 6 comments analyzed, including both positive and negative signals, suggests a neutral sentiment towards In-toto, with the community having mixed opinions about its utility and complexity."
+    }
+  },
+  "summary": "In-toto is a framework for securing the integrity of software supply chains, offering a unique approach but facing mixed community reactions due to its complexity and perceived utility, with substantial documentation but limited community engagement and no clear performance benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://in-toto.io/",
+  "tool_url": "https://github.com/in-toto",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48942603",
+  "domain": "infrastructure",
+  "app_type": "infrastructure-supply-chain",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Red Hat has done some good work in this area",
+        "Supply chain security is not easy, but it's an important defense"
+      ],
+      "negative_signals": [
+        "Feels way too over-engineered",
+        "How is this better than a signed list of hashes?"
+      ],
+      "justification": "The comments highlight both positive and negative opinions about In-toto, with some users questioning its utility and others acknowledging the importance of supply chain security, leading to a neutral tone. However, the limited number of comments (only 6) does not provide enough data to make a more definitive judgment.",
+      "comment_count": 6,
+      "hn_points": 48
+    }
+  }
+}
