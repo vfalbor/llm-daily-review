@@ -1,0 +1,82 @@
+{
+  "app_name": "Vágdhenu: A Sanskrit Chanting TTS System",
+  "url": "https://prathosh.in/vagdhenu/",
+  "scored_at": "2026-07-18T13:05:36.480Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a Sanskrit chanting TTS system, which is a unique application of machine learning, and it has been created recently, showing original contribution with 7/10 sentiment score from HN comments."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No data is available on the system requirements for the app, as there is no GitHub repository or PyPI package detected."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is relevant to the current LLM ecosystem trends, as it uses machine learning for a specific task, and it has received positive comments on HN with 192 points."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself from other TTS systems by its focus on Sanskrit chanting, but there is no comparison to similar tools, and no BENCHMARK comparisons are available."
+    },
+    "community": {
+      "score": 6,
+      "justification": "There is no GitHub repository detected, but the app has received positive comments on HN with 192 points and 30 comments analyzed, showing some community engagement."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No data is available on the ease of use of the app, as there are no tests passed or failed, and no install success."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No data is available on the ease of integration of the app, as there is no PyPI package or API modes detected."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The app has a website with some information, but no GitHub repository or wiki is detected, and there are no GitHub topics count available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available on the maturity of the app, as there is no GitHub repository detected, and no days since created or forks count are available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No data is available on the performance of the app, as there are no BENCHMARK lines from tests, and no comparison to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The app has a sentiment score of 7/10, with 192 HN points, 30 comments analyzed, and some positive signals such as 'Accurate and accurate even with esoteric texts' and 'Very nice implementation', but also some negative signals such as 'Poor TTS quality and failed to pronounce a single word' and 'Can be seen as plasticizing traditional chanting'."
+    }
+  },
+  "summary": "Vágdhenu is a unique Sanskrit chanting TTS system using machine learning, with some community engagement and positive comments, but limited data on its system requirements, ease of use, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://prathosh.in/vagdhenu/",
+  "tool_url": "https://github.com/prathosh/vagdhenu",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48896149",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Accurate and accurate even with esoteric texts",
+        "Very nice implementation",
+        "Helps practice Sanskrit chanting"
+      ],
+      "negative_signals": [
+        "Poor TTS quality and failed to pronounce a single word",
+        "Can be seen as 'plasticizing' traditional chanting"
+      ],
+      "justification": "Comments praise the project's accuracy, implementation, and usability, but some users express disappointment with the TTS quality and worry about its potential impact on traditional practices.",
+      "comment_count": 30,
+      "hn_points": 192
+    }
+  }
+}
