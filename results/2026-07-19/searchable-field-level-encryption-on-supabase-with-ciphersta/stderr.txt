@@ -1,0 +1,11 @@
+ERROR: Could not find a version that satisfies the requirement cipherstash (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for cipherstash
+Traceback (most recent call last):
+  File "/app/test.py", line 146, in <module>
+    main()
+  File "/app/test.py", line 122, in main
+    import cipherstash
+ModuleNotFoundError: No module named 'cipherstash'
