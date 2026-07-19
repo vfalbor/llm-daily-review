@@ -1,0 +1,16 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+Cloning into 'moonshine'...
+Updating files:  48% (1253/2558)Updating files:  49% (1254/2558)Updating files:  50% (1279/2558)Updating files:  51% (1305/2558)Updating files:  52% (1331/2558)Updating files:  53% (1356/2558)Updating files:  54% (1382/2558)Updating files:  55% (1407/2558)Updating files:  56% (1433/2558)Updating files:  57% (1459/2558)Updating files:  58% (1484/2558)Updating files:  59% (1510/2558)Updating files:  60% (1535/2558)Updating files:  61% (1561/2558)Updating files:  62% (1586/2558)Updating files:  63% (1612/2558)Updating files:  64% (1638/2558)Updating files:  65% (1663/2558)Updating files:  66% (1689/2558)Updating files:  67% (1714/2558)Updating files:  68% (1740/2558)Updating files:  69% (1766/2558)Updating files:  70% (1791/2558)Updating files:  71% (1817/2558)Updating files:  72% (1842/2558)Updating files:  73% (1868/2558)Updating files:  74% (1893/2558)Updating files:  75% (1919/2558)Updating files:  76% (1945/2558)Updating files:  77% (1970/2558)Updating files:  78% (1996/2558)Updating files:  79% (2021/2558)Updating files:  80% (2047/2558)Updating files:  81% (2072/2558)Updating files:  82% (2098/2558)Updating files:  83% (2124/2558)Updating files:  84% (2149/2558)Updating files:  85% (2175/2558)Updating files:  86% (2200/2558)Updating files:  87% (2226/2558)Updating files:  88% (2252/2558)Updating files:  89% (2277/2558)Updating files:  90% (2303/2558)Updating files:  91% (2328/2558)Updating files:  92% (2354/2558)Updating files:  93% (2379/2558)Updating files:  94% (2405/2558)Updating files:  95% (2431/2558)Updating files:  96% (2456/2558)Updating files:  97% (2482/2558)Updating files:  98% (2507/2558)Updating files:  99% (2533/2558)Updating files: 100% (2558/2558)Updating files: 100% (2558/2558), done.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///moonshine does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+fatal: not a git repository (or any of the parent directories): .git
+Traceback (most recent call last):
+  File "/app/test.py", line 141, in <module>
+    loc_count = int(subprocess.run(['git', 'ls-files', '-z'], stdout=subprocess.PIPE).stdout.decode('utf-8').split('\x00')[-2])
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
