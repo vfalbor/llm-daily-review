@@ -1,0 +1,83 @@
+{
+  "app_name": "Bun",
+  "url": "https://bun.sh/",
+  "scored_at": "2026-07-19T13:07:22.507Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is a fast all-in-one JavaScript runtime, offering a unique approach with its use of Rust, but similar tools like Node.js exist, as noted on the web page, with its detected version being 75.75."
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "The install success is unknown due to the lack of a PyPI package and GitHub repository, but the web page signals provide some information on the detected version, and the install time cannot be determined from the provided data."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's use of Rust for security benefits and its active community, as mentioned in the HN comments with 120 points, shows it fits well with current trends in the LLM ecosystem, particularly with the positive signals about Rust's security benefits."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Similar tools like Node.js and Python have large communities, but the exact comparison in terms of stars or community size is unavailable due to the lack of GitHub data, and no direct benchmark comparisons are provided."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The HN discussion with 120 points and 30 comments indicates a small but engaged community, with both positive and negative signals, but the sentiment score of 6/10 suggests a somewhat divided community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is false, indicating potential usability issues, but the exact tests passed and total are not relevant here, as we are evaluating the tool based on its web presence and HN discussion."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The web page signals mention an API/SDK/webhook, and the use of Rust could imply easier integration due to its performance and security benefits, but the lack of a clear install command on the page and the absence of PyPI/npm data complicates this assessment."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The web page has a docs/wiki/guide link, examples, and a significant content length of 20434 characters, but without direct access to GitHub or a dedicated docs site, the quality is hard to assess comprehensively."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 75.75, and there's mention of a community, but the lack of a changelog or release notes on the web page, combined with the absence of GitHub data, makes it challenging to assess maturity accurately, especially with concerns about transparency and openness from the community."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct benchmarks or performance data are provided, and while Rust's use implies potential performance benefits, without specific numbers or comparisons to similar tools, the performance score remains neutral."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 120 points and 30 comments, indicating a generally positive discussion but with notable concerns and criticisms about transparency, openness, and the original codebase."
+    }
+  },
+  "summary": "Bun is a JavaScript runtime written in Rust, emphasizing security and performance, with an active but small community, as seen on HN with 120 points, and it fits into current LLM ecosystem trends with its unique approach, but its maturity and documentation are hard to assess due to the lack of GitHub data and a dedicated docs site. It offers a novel approach but faces concerns about transparency and openness from its community.",
+  "recommendation": "niche",
+  "app_url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+  "tool_url": "https://bun.sh/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48966569",
+  "domain": "lang",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Rust upgrade improves security",
+        "Bun's community is active and engaged",
+        "Some developers see value in the new language choice"
+      ],
+      "negative_signals": [
+        "Community concerns about transparency and openness",
+        "Fear that the project is moving in a less open direction",
+        "Criticism of the original Bun source code being a ported version from Go to Zig"
+      ],
+      "justification": "The discussion is generally positive, citing Rust's security benefits and the active community, but also expresses concerns about transparency and openness, as well as criticism of the original codebase.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
