@@ -1,0 +1,113 @@
+{
+  "app_name": "Castor",
+  "url": "https://github.com/stupside/castor",
+  "scored_at": "2026-07-19T13:04:06.039Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app has 722 stars on GitHub and has been created 161 days ago, but it is not a first-of-its-kind approach, with similar tools like IPTV having 133,320 stars."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The installation time is 18.6s, which is not particularly fast or slow, and the install success is true, but there is not enough information to fully evaluate this criterion."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is a devtool-cli, which is relevant in the current ecosystem, but its description does not explicitly state its relevance to current LLM trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The app has 722 stars, which is significantly less than similar tools like IPTV, which has 133,320 stars, indicating a lack of differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The app has 722 stars and 17 forks on GitHub, which is a moderate community, but not enough information is available to fully evaluate this criterion."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The basic run success is false, which indicates that the app is difficult to use."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a PyPI package and a CLI mode, which makes it easy to integrate, but its license is MIT, which may have some restrictions."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is not enough information available to evaluate the quality of the app's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has been created 161 days ago and has 2 contributors, but not enough information is available to fully evaluate its maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "There is no information available about the app's performance, so it is scored as neutral."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The HN sentiment score is 3/10, with 237 points and 30 comments, indicating a mostly negative reception due to concerns about piracy and ethics."
+    }
+  },
+  "summary": "Castor is a devtool-cli with a moderate community and ease of integration, but it lacks differentiation and has a mostly negative HN sentiment due to concerns about piracy and ethics.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/stupside/castor",
+  "tool_url": "https://github.com/stupside/castor",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48964015",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 722,
+      "forks": 17,
+      "open_issues": 5,
+      "watchers": 722,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 161,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Point it at any web page and it finds the video, extracts the stream, transcodes it and casts in real time to your TV. It even burns subtitles….",
+      "topics": [
+        "iptv",
+        "streaming",
+        "video"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "IPTV",
+        "stars": 133320,
+        "repo": "iptv-org/iptv"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.3",
+      "summary": "Assemble Git repos into a deployable tree of code.",
+      "requires_python": null,
+      "license": "WTFPL",
+      "home_page": "https://github.com/ActivKonnect/castor"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "old tech has its uses",
+        "some find the interface interesting"
+      ],
+      "negative_signals": [
+        "major concerns about piracy and ethics",
+        "skeptical about bypassing Turnstile and DRM"
+      ],
+      "justification": "The project received a mostly negative reception due to concerns about piracy, ethics, and bypassing Turnstile and DRM. While some commenters appreciated the use of older technology and thought the interface was interesting, many were critical of the project's purpose and implications.",
+      "comment_count": 30,
+      "hn_points": 237
+    }
+  }
+}
