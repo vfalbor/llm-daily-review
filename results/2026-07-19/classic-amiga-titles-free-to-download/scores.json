@@ -1,0 +1,82 @@
+{
+  "app_name": "Amiga Freeware Archive",
+  "url": "https://amigafreeware.downer.tech/",
+  "scored_at": "2026-07-19T13:06:03.281Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides a unique collection of classic Amiga titles, but the concept of a retro game archive is not new, with similar tools like Classic Game Blog existing, and it does not appear to have any groundbreaking features."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app is a web application and does not require any installation, with a page content length of 4858 characters, which is a good indicator of a well-documented project, and it is accessible via a standard web browser."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "While the app caters to a specific niche of users interested in classic Amiga games, it may not be highly relevant to the broader current gaming or LLM ecosystem trends, given its focus on preservation rather than innovation."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app has a unique collection of games, but without GitHub data or direct comparisons to other similar tools, it's challenging to accurately assess its differentiation, and the web signals do not provide enough information to make a definitive judgment."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The app has received a positive response on HN with 137 points and 18 comments, indicating a small but engaged community, with users expressing nostalgia and gratitude for the preservation of classic games, and a sentiment score of 8/10."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "As a web application, the app is relatively easy to use, with a simple and intuitive interface, and the fact that it does not require any installation or complex setup, although the 2/3 test pass rate could indicate some minor usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no API/SDK/webhook mention on the page, and no install command, which suggests that the app is not designed for integration into other projects or workflows, and its primary use case is as a standalone web application."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app has a basic web page with game descriptions, but it lacks a dedicated docs site, wiki, or guide, and the page content length of 4858 characters, while indicative of some depth, does not compensate for the lack of structured documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without GitHub data or clear release notes, it's challenging to assess the app's maturity, and the detected version is 1.0, but there is no information on how often the app is updated or maintained, making it difficult to evaluate its stability or production readiness."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app's performance is not applicable in this context, as it is a web application focused on providing a collection of classic games rather than a tool for which performance benchmarks are relevant, and there are no BENCHMARK lines from tests to cite."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable as a separate criterion but is used in the community score, with a sentiment score of 8/10, 137 HN points, and 18 comments analyzed, providing a positive signal about the community's perception of the app."
+    }
+  },
+  "summary": "The Amiga Freeware Archive is a web application that provides a unique collection of classic Amiga games, catering to a specific niche of users, with a relatively easy-to-use interface and a small but engaged community, but it lacks structured documentation and clear indications of its maturity or performance, and its relevance to current gaming or LLM trends is limited.",
+  "recommendation": "niche",
+  "app_url": "https://amigafreeware.downer.tech/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48962838",
+  "domain": "mobile",
+  "app_type": "mobile-native",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Users are excited and nostalgic about the project",
+        "Comments mention the historical significance of the Amiga community",
+        "Some users are grateful for the preservation of classic games"
+      ],
+      "negative_signals": [
+        "Some users mention minor inaccuracies or inconsistencies in game descriptions",
+        "There is some debate about the technical details of the Amiga's 16/32-bit architecture"
+      ],
+      "justification": "The project has received overwhelmingly positive comments, with users expressing excitement, nostalgia, and gratitude for the preservation of classic games. However, some users have raised minor issues with game descriptions and debated the technical details of the Amiga's architecture.",
+      "comment_count": 18,
+      "hn_points": 137
+    }
+  }
+}
