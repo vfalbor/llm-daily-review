@@ -1,0 +1,95 @@
+{
+  "app_name": "Transcribe.cpp",
+  "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+  "scored_at": "2026-07-19T13:02:40.977Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Transcribe.cpp offers a unique solution by providing a C++ library for transcribing audio files with Google Cloud Speech-to-Text, which is different from similar tools like Google Cloud Speech-to-Text, which is not a C++ library."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app has an install time of 8.7s and install success is true, indicating that it is relatively easy to set up and run."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a tool for transcribing audio files, Transcribe.cpp fits well with the current trends in speech technology and accessibility, with many potential applications in fields like education, media, and assistive technology."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Google Cloud Speech-to-Text, which has 50 stars on GitHub, Transcribe.cpp has a unique approach as a C++ library, but its differentiation is somewhat limited by its dependence on Google Cloud Speech-to-Text API."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it challenging to assess the community and its engagement with the project."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "With only 1 out of 7 tests passed, the app's ease of use is somewhat questionable, suggesting potential usability issues or need for further refinement."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The existence of a PyPI package (v0.1.3) and the fact that it's a C++ library with an API indicate a relatively straightforward integration process for developers familiar with these technologies."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without access to specific documentation metrics such as has_wiki, has_pages, or GitHub topics count, and given the lack of detailed information about the project's documentation, the score is set to neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to assess the project's maturity, including its release history, issue tracker, and other indicators of stability and ongoing development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks were provided, making it difficult to evaluate the app's performance compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 584 points and 30 comments analyzed, indicating a very positive reception with comments praising its effectiveness and potential impact."
+    }
+  },
+  "summary": "Transcribe.cpp is a novel C++ library for transcribing audio files using Google Cloud Speech-to-Text, offering a unique solution in the field of speech technology. While it shows promise, the project's community engagement, ease of use, and performance metrics are not well-defined due to lack of data. Its positive reception on HN, however, suggests potential for growth and impact.",
+  "recommendation": "worth-watching",
+  "app_url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+  "tool_url": "https://github.com/cjpais/transcribe-cpp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48963879",
+  "domain": "infra",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Google Cloud Speech-to-Text",
+        "stars": 50,
+        "repo": "darshan-majithiya/Generate-SRT-File-using-Google-Cloud-s-Speech-to-Text-API"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.3",
+      "summary": "Python bindings for transcribe.cpp",
+      "requires_python": ">=3.9",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Effective solution",
+        "Potential game-changer for speech technology and accessibility",
+        "Open source and community-driven project"
+      ],
+      "negative_signals": [
+        "Some users still have trouble with streaming transcriptions",
+        "Concerns about data handling and upload to Apple services"
+      ],
+      "justification": "The overall sentiment is very positive, with many users praising the project's effectiveness, potential impact, and open source nature. However, there are some minor concerns about streaming transcriptions and data handling, but these are relatively minor compared to the enthusiastic reception.",
+      "comment_count": 30,
+      "hn_points": 584
+    }
+  }
+}
