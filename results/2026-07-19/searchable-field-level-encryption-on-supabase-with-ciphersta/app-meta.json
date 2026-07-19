@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Searchable field-level encryption on Supabase with CipherStash",
+    "url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+    "hn_url": "https://news.ycombinator.com/item?id=48920328",
+    "points": 42,
+    "comments": 34,
+    "author": "dandraper",
+    "age": "2026-07-15T13:10:01 1784121001",
+    "scraped_at": "2026-07-19T13:00:03.053Z",
+    "tool_url": "https://cipherstash.io/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.89,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "Searchable field-level encryption on Supabase",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Rookout",
+      "CipherStash"
+    ],
+    "proposed_tests": [
+      "Install CipherStash and encrypt a Supabase table",
+      "Query the encrypted table with CipherStash",
+      "Compare throughput and latency with encryption",
+      "Test data recovery with correct decryption key"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466274703-m35rz",
+    "log_dir": "/tmp/llm-review-1784466274703-m35rz",
+    "install_success": false,
+    "install_time_s": 8.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement cipherstash (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for cipherstash\nTraceback (most recent call last):\n  File \"/app/test.py\", line 146, in <module>\n    main()\n  File \"/app/test.py\", line 122, in main\n    import cipherstash\nModuleNotFoundError: No module named 'cipherstash'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:Command '['pip', 'install', 'cipherstash']' returned non-zero exit status 1.\nTEST_FAIL:encrypt_table:No module named 'cipherstash'\nTEST_FAIL:query_table:No module named 'cipherstash'\nTEST_FAIL:throughput_latency:No module named 'cipherstash'\nTEST_FAIL:data_recovery:No module named 'cipherstash'\nTEST_FAIL:compare_performance:No module named 'rookout'\n"
+  }
+}
