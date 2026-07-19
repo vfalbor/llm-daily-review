@@ -1,0 +1,116 @@
+{
+  "app_name": "Speech Recognition and TTS in less than 500kb",
+  "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+  "scored_at": "2026-07-19T13:03:37.522Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project achieves speech recognition and TTS in under 500kb, which is a unique contribution, as seen in its 9,172 GitHub stars and 492 forks, indicating a high level of interest and community engagement, with 19 contributors, further emphasizing its novelty."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project has an install time of 39.9s, which is relatively moderate, and it has a PyPI package existence with a Python requirement of >=3.7, but the install success is true, indicating it can be installed without issues."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The project is highly relevant to the current LLM ecosystem trends, as it addresses a significant problem in speech recognition and TTS, with its small size and efficiency making it a valuable tool in the field."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools like Google Cloud Speech-to-Text, which has 50 stars, this project has a significant advantage with 9,172 stars, indicating a substantial differentiation in terms of community interest and adoption."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has a strong community with 9,172 GitHub stars, 492 forks, and 19 contributors, indicating a high level of engagement and support, with a short time of 3 days since the last commit, showing active maintenance."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has 0 tests passed out of 5, and the basic run success is false, indicating significant challenges in using the project, with no clear documentation or examples to facilitate ease of use."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The project has a PyPI package and supports API and CLI modes, but its C++ library nature might require additional effort for integration, especially for non-C++ projects, with a neutral license of NOASSERTION."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The project's documentation is not thoroughly assessed due to lack of direct access, but its GitHub repository provides some information, with 19 contributors and a relatively small number of open issues, indicating some level of documentation and community support."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project has been around for 652 days, has 19 contributors, and a recent commit 3 days ago, indicating a mature project with active maintenance and development, but its version is 0.1.7, which might suggest it's still in the early stages of development."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The project's performance is measured by its import time of 0.001430511474609375 ms and test execution time of 3.163576126098633 ms, which are relatively fast, but no direct comparisons to similar tools are provided, making it hard to assess its performance advantages or disadvantages."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The project has an HN sentiment score of 9/10, with 477 points and 30 comments analyzed, indicating a highly positive community response, with users praising its achievement in speech recognition and TTS, and potential to solve common problems, despite some concerns about accuracy and usability."
+    }
+  },
+  "summary": "This project achieves speech recognition and TTS in under 500kb, making it a unique and highly relevant contribution to the current LLM ecosystem trends, with a strong community and good performance, but it faces challenges in terms of ease of use and documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+  "tool_url": "https://github.com/moonshine-ai/moonshine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48911793",
+  "domain": "speech",
+  "app_type": "speech-recognition",
+  "enriched": {
+    "github": {
+      "stars": 9172,
+      "forks": 492,
+      "open_issues": 8,
+      "watchers": 9172,
+      "contributors": 19,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 652,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "topics": [
+        "intent-recognition",
+        "stt",
+        "tts",
+        "voice",
+        "voice-recognition"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Google Cloud Speech-to-Text",
+        "stars": 50,
+        "repo": "darshan-majithiya/Generate-SRT-File-using-Google-Cloud-s-Speech-to-Text-API"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.7",
+      "summary": "Pretrained remote sensing models.",
+      "requires_python": ">=3.7",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Impressive achievement in speech recognition and TTS in under 500kb",
+        "Potential to solve common problems in AI-based TTS",
+        "Users are excited to try out the project and use it in their own projects"
+      ],
+      "negative_signals": [
+        "There is some confusion about the accuracy of the TTS and possible issues with formant synthesis",
+        "Some users wonder about the simplicity and usability of the TTS system"
+      ],
+      "justification": "The overwhelming majority of comments praise the project, calling it impressive and solving common problems in AI-based TTS. However, some comments point out potential issues with accuracy and usability.",
+      "comment_count": 30,
+      "hn_points": 477
+    }
+  }
+}
