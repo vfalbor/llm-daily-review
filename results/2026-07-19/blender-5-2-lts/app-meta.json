@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Blender 5.2 LTS",
+    "url": "https://www.blender.org/download/releases/5-2/",
+    "hn_url": "https://news.ycombinator.com/item?id=48911021",
+    "points": 78,
+    "comments": 38,
+    "author": "makizar",
+    "age": "2026-07-14T18:22:47 1784053367",
+    "scraped_at": "2026-07-19T13:00:03.046Z",
+    "tool_url": "https://www.blender.org",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "web",
+    "app_type": "web-development",
+    "description": "a free and open-source 3D creation software",
+    "use_modes": [
+      "GUI",
+      "API",
+      "Plugin"
+    ],
+    "similar_tools": [
+      "3ds Max",
+      "Maya",
+      "Cinema 4D"
+    ],
+    "proposed_tests": [
+      "Install Blender and render a simple scene",
+      "Check Blender's API support for custom plugins",
+      "Run a complex animation and measure render time",
+      "Compare Blender's performance with other 3D software"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://www.blender.org"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466112128-wjed2",
+    "log_dir": "/tmp/llm-review-1784466112128-wjed2",
+    "install_success": true,
+    "install_time_s": 10.5,
+    "basic_run_success": false,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:render_time_ms:170.26376724243164\nBENCHMARK:api_support_time_ms:281.45694732666016\nBENCHMARK:vs_3ds_max_load_time_ratio:0.1904928089132626",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 107, in <module>\n    main()\n  File \"/app/test.py\", line 98, in main\n    print(f\"BENCHMARK:memory_usage_bytes:{snapshot.statistics('lineno')[0].size}\")\n                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^\nIndexError: list index out of range\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.17.0-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:render_time_ms:170.26376724243164\nTEST_PASS:render_scene\nBENCHMARK:api_support_time_ms:281.45694732666016\nTEST_PASS:api_support\nTEST_FAIL:complex_animation:Failed to run complex animation\nBENCHMARK:vs_3ds_max_load_time_ratio:0.1904928089132626\nTEST_PASS:performance_vs_baseline\n"
+  }
+}
