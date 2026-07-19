@@ -1,0 +1,83 @@
+{
+  "app_name": "Blender",
+  "url": "https://www.blender.org",
+  "scored_at": "2026-07-19T13:02:17.530Z",
+  "total_score": 72,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Blender is a first-of-its-kind approach in the free and open-source 3D creation software space, with a unique blend of features and a large community, as indicated by its detected version of 1.0 and the presence of a changelog or release notes on its webpage."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Blender can be installed and run, but its install time of 10.5s is moderate, and it requires manual installation, as indicated by the absence of a pip-installable package and an install command on the webpage."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Blender fits well with current trends in the 3D creation ecosystem, with a large and active community, as indicated by its webpage content length of 62947 characters, which suggests a comprehensive resource for users."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Blender has a unique feature set compared to similar tools like 3ds Max, Maya, and Cinema 4D, with a strong focus on open-source and free availability, as indicated by its open-source status and the presence of a wiki or guide link on its webpage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The Blender community is active and engaged, with a sentiment score of 8/10 on HN, 78 HN points, and 30 comments analyzed, indicating a strong and supportive user base."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Blender's basic run success is false, indicating some usability issues, but it has a GUI and API, making it accessible to a wide range of users, as indicated by its use modes."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Blender has an API and plugin architecture, but its integration with other tools is not well-documented, and it lacks a clear install command on the webpage."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Blender has a comprehensive webpage with a wiki, guide link, changelog, and examples, indicating a strong focus on documentation and user support, with a webpage content length of 62947 characters."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Blender has a detected version of 1.0, indicating a level of maturity, and its webpage mentions a changelog or release notes, suggesting a well-maintained project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Blender's render time is 170.26 ms, and its API support time is 281.46 ms, indicating moderate performance, but the lack of direct comparison to other tools makes it difficult to assess its performance fully."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 78 HN points, 30 comments analyzed, and positive signals indicating a well-regarded project, but some negative signals about its perpetual beta state and frequent updates breaking things."
+    }
+  },
+  "summary": "Blender is a powerful and free open-source 3D creation software with a strong community and comprehensive documentation, but it has some usability issues and a complex ecosystem. Its unique feature set and open-source status make it a valuable tool in the 3D creation space.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.blender.org/download/releases/5-2/",
+  "tool_url": "https://www.blender.org",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48911021",
+  "domain": "web",
+  "app_type": "web-development",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive project that's equivalent to thousands in commercial software",
+        "Has a good foundation and runs like clockwork",
+        "Has replaced Adobe After Effects for some users"
+      ],
+      "negative_signals": [
+        "Perpetual beta state with frequent updates breaking things",
+        "Has been a chaotic experience for some users",
+        "Has a complex and sometimes buggy ecosystem"
+      ],
+      "justification": "Overall, comments are overwhelmingly positive about Blender's capabilities and value, with many users praising its power, usability, and affordability. However, some users have experienced significant frustrations with frequent updates breaking things and the software's perpetual beta state.",
+      "comment_count": 30,
+      "hn_points": 78
+    }
+  }
+}
