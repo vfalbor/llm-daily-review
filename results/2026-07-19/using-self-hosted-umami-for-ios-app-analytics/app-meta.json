@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Using self-hosted Umami for iOS app analytics",
+    "url": "https://hjerpbakk.com/blog/2026/07/14/umami-for-apps",
+    "hn_url": "https://news.ycombinator.com/item?id=48905836",
+    "points": 26,
+    "comments": 3,
+    "author": "Sankra",
+    "age": "2026-07-14T12:34:41 1784032481",
+    "scraped_at": "2026-07-19T13:00:03.055Z",
+    "tool_url": "https://umami.so/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "infra",
+    "app_type": "infra-api-gateway",
+    "description": "Self-hosted Umami for iOS app analytics",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Amplitude",
+      "Heap"
+    ],
+    "proposed_tests": [
+      "Install and configure Umami instance",
+      "Set up iOS app analytics integration",
+      "Verify data collection and analytics correctness"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466364351-qdvds",
+    "log_dir": "/tmp/llm-review-1784466364351-qdvds",
+    "install_success": true,
+    "install_time_s": 18.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  error: subprocess-exited-with-error\n  \n  × pip subprocess to install build dependencies did not run successfully.\n  │ exit code: 1\n  ╰─> [21 lines of output]\n      Collecting cython\n        Downloading cython-3.2.8-cp39-abi3-musllinux_1_2_x86_64.whl.metadata (4.2 kB)\n      Collecting numpy<3,>=2.0\n        Using cached numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\n      Collecting setuptools\n        Downloading setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)\n      Collecting wheel\n        Downloading wheel-0.47.0-py3-none-any.whl.metadata (2.3 kB)\n      Collecting packaging>=24.0 (from wheel)\n        Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)\n      Downloading cython-3.2.8-cp39-abi3-musllinux_1_2_x86_64.whl (3.1 MB)\n         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 24.1 MB/s eta 0:00:00\n      Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl (18.4 MB)\n         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.4/18.4 MB 106.0 MB/s eta 0:00:00\n      Downloading setuptools-83.0.0-py3-none-any.whl (1.0 MB)\n         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 80.8 MB/s eta 0:00:00\n      Downloading wheel-0.47.0-py3-none-any.whl (32 kB)\n      Downloading packaging-26.2-py3-none-any.whl (100 kB)\n      Installing collected packages: setuptools, packaging, numpy, cython, wheel\n      ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n      \n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× pip subprocess to install build dependencies did not run successfully.\n│ exit code: 1\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nCloning into 'umami'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 93, in <module>\n    main()\n  File \"/app/test.py\", line 82, in main\n    test_umami_instance()\n  File \"/app/test.py\", line 29, in test_umami_instance\n    subprocess.run(['umami', '--help'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'umami'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting umami\n  Downloading umami-2.0.0-py3-none-any.whl.metadata (6.3 kB)\nCollecting scipy (from umami)\n  Downloading scipy-1.18.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (62 kB)\nCollecting numpy (from umami)\n  Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\nCollecting landlab>=2.0.0b4 (from umami)\n  Downloading landlab-2.11.0.tar.gz (11.1 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 6.0 MB/s eta 0:00:00\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'error'\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Failed to install umami, error code 1\nINSTALL_FAIL:Failed to install umami from source, error code 128\n"
+  }
+}
