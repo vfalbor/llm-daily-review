@@ -1,0 +1,137 @@
+{
+  "app_name": "LoopGain",
+  "url": "https://github.com/loopgain-ai/loopgain",
+  "scored_at": "2026-07-19T13:04:33.566Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "LoopGain is an open-source tool, but it is not the first of its kind. However, its use of control theory to stop agent loops is a unique approach, and it has been 67 days since the repository was created, with 13 stars. This is a significant contribution, especially when compared to other similar tools like LangChain, which has 142,082 stars."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The installation was successful and completed in 9.3 seconds, and the tool is available on PyPI (v0.6.3) for Python >=3.10, indicating it has simple and well-defined system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM framework, LoopGain fits into the current AI development landscape, addressing the issue of agent loops, but its direct relevance is not explicitly stated, and its use of control theory is a meaningful improvement on existing tools."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "LoopGain's unique approach to stopping agent loops using control theory is a notable differentiator, but the fact that it only has 13 stars compared to similar tools like LangChain (142,082 stars) and CrewAI (55,767 stars) indicates a significant gap in differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With 13 stars, 1 fork, and 1 contributor, LoopGain's community is very small compared to similar tools like LangChain and CrewAI, and its GitHub repository has only been updated 8 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool's basic run was successful, but only 2 out of 7 tests passed, indicating potential issues with usability or functionality, and the import time is 115.9813404083252 ms, which is relatively fast."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "LoopGain has a Python package available on PyPI and an Apache-2.0 license, making it relatively easy to integrate into existing workflows, and its use of Python >=3.10 is a common requirement."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited information available about LoopGain's documentation, but its GitHub repository has a primary language of Python, and its Readme is not extensively detailed, resulting in an average score for documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "With 67 days since its creation and only 1 contributor, LoopGain is still in its early stages of development, and the fact that it has only been updated 8 days since the last commit indicates a relatively low level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is limited information available to evaluate LoopGain's performance comprehensively, but its import time is 115.9813404083252 ms, and its loc_count is 32, which could indicate relatively good performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score of the HN comments is 6/10, with 9 points, 7 comments analyzed, and some positive and negative signals, indicating a relatively neutral sentiment towards LoopGain, and its potential cost-saving benefits were highlighted."
+    }
+  },
+  "summary": "LoopGain is an open-source LLM framework that uses control theory to stop agent loops, with a unique approach and relatively simple system requirements. However, it has a small community, limited differentiation, and potential issues with usability, and its performance and maturity are difficult to evaluate comprehensively.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/loopgain-ai/loopgain",
+  "tool_url": "https://github.com/loopgain-ai/loopgain",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48919562",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 13,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 13,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 8,
+      "days_since_created": 67,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An open-source cost controller for AI agent loops — stops a loop when it's actually converged and rolls back before it degrades, instead of running to a fixed max_iterations cap. Real-time loop-gain (Aβ) bands + best-so-far rollback. Adapters for LangGraph, CrewAI, AutoGen, LangChain, OpenAI Agents, and Claude Agent SDK; raw API for custom stacks.",
+      "topics": [
+        "agent-orchestration",
+        "agentic",
+        "agentic-ai",
+        "ai-agents",
+        "anthropic",
+        "autogen",
+        "claude",
+        "control-theory",
+        "cost-control",
+        "crewai",
+        "divergence-detection",
+        "early-stopping",
+        "feedback-loop",
+        "infinite-loop-detection",
+        "langgraph",
+        "llm",
+        "loop-detection",
+        "openai-agents",
+        "python",
+        "verify-revise"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 142082,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 55767,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.6.3",
+      "summary": "An open-source cost controller for AI agent loops. Stops a loop when it has actually converged and rolls back before it degrades — replacing the max_iterations guess with a real-time loop-gain (Aβ) monitor with five named threshold bands and best-so-far rollback.",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful and working open source tool",
+        "Good example and explanation of error calculation",
+        "Cost saving measure for intractable problems"
+      ],
+      "negative_signals": [
+        "Concerns about AI-generated content",
+        "Suggestion to write in own words instead of copy-pasting",
+        "Potential inaccuracy in error calculation for real-world cases"
+      ],
+      "justification": "The project received generally positive comments with some constructive criticism. Fitz2882 defended the project's authenticity, but there were concerns about AI-generated content and suggestions to improve the write-up. One commenter also pointed out potential inaccuracies in error calculation for real-world cases, but the project's potential cost saving benefits were highlighted.",
+      "comment_count": 7,
+      "hn_points": 9
+    }
+  }
+}
