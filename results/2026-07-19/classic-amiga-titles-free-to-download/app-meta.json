@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Classic Amiga titles, free to download",
+    "url": "https://amigafreeware.downer.tech/",
+    "hn_url": "https://news.ycombinator.com/item?id=48962838",
+    "points": 136,
+    "comments": 18,
+    "author": "doener",
+    "age": "2026-07-18T21:55:27 1784411727",
+    "scraped_at": "2026-07-19T13:00:03.054Z",
+    "tool_url": null,
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.84,
+    "domain": "mobile",
+    "app_type": "mobile-native",
+    "description": "Classic Amiga titles, free to download",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "Classic Game Blog"
+    ],
+    "proposed_tests": [
+      "Download and install an Amiga title",
+      "Verify title integrity and completeness",
+      "Test gameplay on a retro console"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466323885-px82t",
+    "log_dir": "/tmp/llm-review-1784466323885-px82t",
+    "install_success": true,
+    "install_time_s": 12.4,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_memory_mb:0.00\nBENCHMARK:import_time_ms:138.80\nBENCHMARK:download_time_ms:341.21\nBENCHMARK:verify_title_integrity_ms:204.01\nBENCHMARK:vs_python_fib35_ratio:1.02\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nRequirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.34.2)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.4.9)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.18)\nRequirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.7.0)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.6.17)\nINSTALL_OK\nBENCHMARK:import_memory_mb:0.00\nBENCHMARK:import_time_ms:138.80\nBENCHMARK:download_time_ms:341.21\nTEST_PASS:download_amiga_title\nBENCHMARK:verify_title_integrity_ms:204.01\nTEST_PASS:verify_title_integrity\nTEST_SKIP:test_gameplay_on_retro_console:Not feasible in this environment\nBENCHMARK:vs_python_fib35_ratio:1.02\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nRUN_OK\n"
+  }
+}
