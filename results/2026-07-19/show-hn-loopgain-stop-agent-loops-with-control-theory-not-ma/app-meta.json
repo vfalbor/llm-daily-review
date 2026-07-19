@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Show HN: LoopGain – Stop agent loops with control theory, not max_iterations",
+    "url": "https://github.com/loopgain-ai/loopgain",
+    "hn_url": "https://news.ycombinator.com/item?id=48919562",
+    "points": 9,
+    "comments": 7,
+    "author": "fitz2882",
+    "age": "2026-07-15T12:07:48 1784117268",
+    "scraped_at": "2026-07-19T13:00:03.052Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": null,
+    "tool_url": "https://github.com/loopgain-ai/loopgain",
+    "repo_url": "https://github.com/loopgain-ai/loopgain",
+    "use_modes": [
+      "Python"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI"
+    ],
+    "proposed_tests": [
+      "Install LoopGain and create a simulation scenario",
+      "Measure execution time of the loopgain library",
+      "Run a benchmark with different control theories",
+      "Compare performance with max_iterations approach"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "confidence": 0.92
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466246977-c1urz",
+    "log_dir": "/tmp/llm-review-1784466246977-c1urz",
+    "install_success": true,
+    "install_time_s": 9.3,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 7,
+    "benchmark_notes": "BENCHMARK:import_time_ms:115.9813404083252\nBENCHMARK:loc_count:32",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting loopgain\n  Downloading loopgain-0.6.3-py3-none-any.whl.metadata (33 kB)\nDownloading loopgain-0.6.3-py3-none-any.whl (65 kB)\nInstalling collected packages: loopgain\nSuccessfully installed loopgain-0.6.3\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_ms:115.9813404083252\nTEST_PASS:import_test\nTEST_FAIL:loopgain_latency_test:module 'loopgain' has no attribute 'run_scenario'\nTEST_FAIL:control_theories_benchmark:module 'loopgain' has no attribute 'run_scenario'\nTEST_FAIL:max_iterations_benchmark:module 'loopgain' has no attribute 'run_scenario'\nTEST_FAIL:performance_comparison_test:No module named 'langchain'\nTEST_FAIL:memory_benchmark:module 'loopgain' has no attribute 'run_scenario'\nBENCHMARK:loc_count:32\nTEST_PASS:count_benchmark\nRUN_OK\n"
+  }
+}
