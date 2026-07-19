@@ -1,0 +1,83 @@
+{
+  "app_name": "CipherStash",
+  "url": "https://cipherstash.io/",
+  "scored_at": "2026-07-19T13:05:22.776Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The searchable field-level encryption solution on Supabase with CipherStash is a novel approach, as indicated by its unique value proposition and the positive reception on HN with 42 points and 30 comments."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The installation success is false and the install time is not applicable, indicating potential complexity in setup, which affects the system requirements score."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Given its focus on searchable field-level encryption for Supabase, CipherStash aligns well with current security and encryption trends in the LLM and database ecosystems, as evidenced by its relevance to Supabase and the interest shown on HN."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Rookout and itself being CipherStash, it offers a unique solution but may not significantly differentiate in all aspects, considering the mixed feedback on HN regarding its approach and documentation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repository detected and limited information on community engagement, but considering the HN points and comments, the community score is affected by the lack of open-source nature and API key requirement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The 0/5 tests passed and false basic run success indicate significant challenges in usability and setup, affecting the ease of use score."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Given the absence of explicit data on PyPI existence, API modes, and license, but knowing it has an HTTP API and SDK, the ease of integration score is neutral due to insufficient information."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without explicit metrics on documentation quality, but considering the mixed feedback on HN regarding clarity and marketing tactics, the documentation score is neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lacking concrete data on days since creation, forks, and open issues, but noting it's not open source and has a specific use case, the maturity score is neutral due to insufficient information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No direct performance benchmarks were provided, and given the nature of the tool as a security solution rather than a performance-centric application, the performance score is not applicable."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score of 7/10, with 42 points and 30 comments, including positive signals about its searchable encryption solution and decentralized key management, supports a positive sentiment score."
+    }
+  },
+  "summary": "CipherStash offers a novel searchable field-level encryption solution for Supabase, with a unique approach and decent community reception, but faces challenges in usability, documentation, and open-source community engagement. Its relevance to current security trends is notable.",
+  "recommendation": "niche",
+  "app_url": "https://supabase.com/blog/searchable-field-level-encryption-with-cipherstash",
+  "tool_url": "https://cipherstash.io/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48920328",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Searchable encryption solution for Supabase with CipherStash",
+        "Decentralized key management with 2-party system",
+        "Secure and efficient querying of encrypted data"
+      ],
+      "negative_signals": [
+        "Security concerns about encryption method and potential vulnerabilities",
+        "Unclear documentation and marketing tactics",
+        "Potential data reconstruction through query analysis"
+      ],
+      "justification": "The overall sentiment is generally positive with some constructive criticism. Commenters raise valid security concerns and questions about the complexity of the CipherStash solution, but the developers (CipherStash founders) provide clear and detailed responses addressing these concerns. Some users express skepticism about the marketing and documentation quality, but this does not significantly outweigh the positive reception.",
+      "comment_count": 30,
+      "hn_points": 42
+    }
+  }
+}
