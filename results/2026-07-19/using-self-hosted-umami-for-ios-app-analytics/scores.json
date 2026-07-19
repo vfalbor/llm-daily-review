@@ -1,0 +1,81 @@
+{
+  "app_name": "Umami",
+  "url": "https://umami.so/",
+  "scored_at": "2026-07-19T13:06:50.898Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app uses self-hosted Umami, which is a novel approach for iOS app analytics, as mentioned on the webpage with title 'umami.so for sale | Spaceship.com'."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install time is not applicable since the app is not installable via pip, and the webpage does not mention system requirements, with a detected version of 1.0."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to current LLM ecosystem trends as it provides self-hosted analytics, which is a growing concern in the industry, and has a detected version of 1.0."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Amplitude and Heap, Umami's self-hosted approach is a differentiator, with 26 HN points and positive signals like 'self-hosting Umami' and 'great project'."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 26 HN points and 3 comments, the community is small but engaged, and there are positive signals like 'awesome' and 'great project', indicating a score of 4."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has no tests passed and basic run success is false, indicating potential difficulties in usage, and the webpage does not provide clear install commands or instructions."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app has no API/SDK/webhook mention, and no install command on the page, making integration potentially difficult, with a score of 3."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The webpage has a content length of 2857 characters but lacks specific documentation or guides, resulting in a score of 4, with no wiki, pages, or changelog detected."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data on the project's age, forks, or open issues, but the detected version is 1.0, making the score 5 due to lack of information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data is available for this criterion, as it's an article describing a tool, and not the tool itself, resulting in a null score."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The sentiment score is 9/10, with 26 HN points, 3 comments, and positive signals like 'self-hosting Umami', 'great project', and 'awesome', indicating a highly positive sentiment."
+    }
+  },
+  "summary": "Umami is a self-hosted analytics tool for iOS apps, with a novel approach and growing relevance in the industry, but faces challenges in ease of use and integration, with a lack of clear documentation and insufficient maturity data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://hjerpbakk.com/blog/2026/07/14/umami-for-apps",
+  "tool_url": "https://umami.so/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48905836",
+  "domain": "infra",
+  "app_type": "infra-api-gateway",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "self-hosting Umami",
+        "great project",
+        "awesome"
+      ],
+      "negative_signals": [
+        "timezone based issue"
+      ],
+      "justification": "The overall sentiment is overwhelmingly positive, with users praising the self-hosted Umami instance and expressing enthusiasm. A minor issue is mentioned, but it was resolved quickly.",
+      "comment_count": 3,
+      "hn_points": 26
+    }
+  }
+}
