@@ -1,0 +1,56 @@
+  error: subprocess-exited-with-error
+  
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [21 lines of output]
+      Collecting cython
+        Downloading cython-3.2.8-cp39-abi3-musllinux_1_2_x86_64.whl.metadata (4.2 kB)
+      Collecting numpy<3,>=2.0
+        Using cached numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)
+      Collecting setuptools
+        Downloading setuptools-83.0.0-py3-none-any.whl.metadata (6.6 kB)
+      Collecting wheel
+        Downloading wheel-0.47.0-py3-none-any.whl.metadata (2.3 kB)
+      Collecting packaging>=24.0 (from wheel)
+        Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+      Downloading cython-3.2.8-cp39-abi3-musllinux_1_2_x86_64.whl (3.1 MB)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 24.1 MB/s eta 0:00:00
+      Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl (18.4 MB)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.4/18.4 MB 106.0 MB/s eta 0:00:00
+      Downloading setuptools-83.0.0-py3-none-any.whl (1.0 MB)
+         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 80.8 MB/s eta 0:00:00
+      Downloading wheel-0.47.0-py3-none-any.whl (32 kB)
+      Downloading packaging-26.2-py3-none-any.whl (100 kB)
+      Installing collected packages: setuptools, packaging, numpy, cython, wheel
+      ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device
+      
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× pip subprocess to install build dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.
+Cloning into 'umami'...
+fatal: could not read Username for 'https://github.com': No such device or address
+Traceback (most recent call last):
+  File "/app/test.py", line 93, in <module>
+    main()
+  File "/app/test.py", line 82, in main
+    test_umami_instance()
+  File "/app/test.py", line 29, in test_umami_instance
+    subprocess.run(['umami', '--help'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'umami'
