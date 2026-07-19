@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Claude Code uses Bun written in Rust now",
+    "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+    "hn_url": "https://news.ycombinator.com/item?id=48966569",
+    "points": 119,
+    "comments": 140,
+    "author": "tosh",
+    "age": "2026-07-19T10:03:23 1784455403",
+    "scraped_at": "2026-07-19T13:00:03.055Z",
+    "tool_url": "https://bun.sh/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "lang",
+    "app_type": "lang-runtime",
+    "description": "Claude Code uses Bun written in Rust now",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Node.js",
+      "Python"
+    ],
+    "proposed_tests": [
+      "Install and run a sample Bun app",
+      "Compare performance with existing Node.js code",
+      "Verify integration with Rust code"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jonathandoey/bun"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466412033-i4r1u",
+    "log_dir": "/tmp/llm-review-1784466412033-i4r1u",
+    "install_success": true,
+    "install_time_s": 14.2,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'bun'...\nerror: could not find `Cargo.toml` in `/bun` or any parent directory\nTraceback (most recent call last):\n  File \"/app/test.py\", line 94, in <module>\n    main()\n  File \"/app/test.py\", line 84, in main\n    test_bun_hello_world()\n  File \"/app/test.py\", line 29, in test_bun_hello_world\n    subprocess.run(['./bun.js', 'hello.js'], cwd='bun', check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: './bun.js'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/25) Installing libgcc (15.2.0-r5)\n( 2/25) Installing jansson (2.15.0-r0)\n( 3/25) Installing libstdc++ (15.2.0-r5)\n( 4/25) Installing binutils (2.45.1-r1)\n( 5/25) Installing libgcc-static (15.2.0-r5)\n( 6/25) Installing libgomp (15.2.0-r5)\n( 7/25) Installing libatomic (15.2.0-r5)\n( 8/25) Installing gmp (6.3.0-r4)\n( 9/25) Installing isl26 (0.26-r2)\n(10/25) Installing mpfr4 (4.2.2-r0)\n(11/25) Installing mpc1 (1.3.1-r1)\n(12/25) Installing gcc (15.2.0-r5)\n(13/25) Installing musl-dev (1.2.6-r2)\n(14/25) Installing libxml2 (2.13.9-r2)\n(15/25) Installing llvm22-libs (22.1.3-r0)\n(16/25) Installing scudo-malloc (22.1.3-r0)\n(17/25) Installing rust (1.96.0-r0)\n(18/25) Installing cargo (1.96.0-r0)\n(19/25) Installing ada-libs (3.3.0-r0)\n(20/25) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(21/25) Installing icu-libs (78.1-r0)\n(22/25) Installing simdjson (4.2.4-r0)\n(23/25) Installing simdutf (9.0.0-r0)\n(24/25) Installing nodejs (24.17.0-r0)\n(25/25) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.2 MiB in 76 packages\nINSTALL_OK\nTEST_PASS:git_clone\nTEST_FAIL:cargo_build:Command '['cargo', 'build', '--release']' returned non-zero exit status 101.\n"
+  }
+}
