@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Better and Cheaper Than IPTV",
+    "url": "https://github.com/stupside/castor",
+    "hn_url": "https://news.ycombinator.com/item?id=48964015",
+    "points": 237,
+    "comments": 66,
+    "author": "xonery",
+    "age": "2026-07-19T00:59:55 1784422795",
+    "scraped_at": "2026-07-19T13:00:03.051Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": null,
+    "tool_url": "https://github.com/stupside/castor",
+    "repo_url": "https://github.com/stupside/castor",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "IPTV",
+      "CastorTV"
+    ],
+    "proposed_tests": [
+      "Install Castor and create a channel",
+      "Insert 1000 rows and measure write latency",
+      "Run a SELECT with WHERE clause, measure query latency",
+      "Compare latency vs IPTV in-production"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "confidence": 0.92
+  },
+  "test_results": {
+    "run_id": "llm-review-1784466218528-nd6ra",
+    "log_dir": "/tmp/llm-review-1784466218528-nd6ra",
+    "install_success": true,
+    "install_time_s": 18.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 77, in <module>\n    main()\n  File \"/app/test.py\", line 70, in main\n    create_channel()\n  File \"/app/test.py\", line 25, in create_channel\n    subprocess.run(['castor', 'create', 'channel'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'castor'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.17.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 90.4 MiB in 59 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nOK: 97.9 MiB in 60 packages\n( 1/16) Installing jansson (2.15.0-r0)\n( 2/16) Installing binutils (2.45.1-r1)\n( 3/16) Installing libgcc-static (15.2.0-r5)\n( 4/16) Installing libgomp (15.2.0-r5)\n( 5/16) Installing libatomic (15.2.0-r5)\n( 6/16) Installing gmp (6.3.0-r4)\n( 7/16) Installing isl26 (0.26-r2)\n( 8/16) Installing mpfr4 (4.2.2-r0)\n( 9/16) Installing mpc1 (1.3.1-r1)\n(10/16) Installing gcc (15.2.0-r5)\n(11/16) Installing musl-dev (1.2.6-r2)\n(12/16) Installing libxml2 (2.13.9-r2)\n(13/16) Installing llvm22-libs (22.1.3-r0)\n(14/16) Installing scudo-malloc (22.1.3-r0)\n(15/16) Installing rust (1.96.0-r0)\n(16/16) Installing cargo (1.96.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.2 MiB in 76 packages\nOK: 692.2 MiB in 76 packages\n\nadded 20 packages in 3s\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\n"
+  }
+}
