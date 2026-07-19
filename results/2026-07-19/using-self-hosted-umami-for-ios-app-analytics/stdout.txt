@@ -1,0 +1,32 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.2-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+Collecting umami
+  Downloading umami-2.0.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting scipy (from umami)
+  Downloading scipy-1.18.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (62 kB)
+Collecting numpy (from umami)
+  Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)
+Collecting landlab>=2.0.0b4 (from umami)
+  Downloading landlab-2.11.0.tar.gz (11.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.1/11.1 MB 6.0 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'error'
+INSTALL_OK
+INSTALL_OK
+INSTALL_FAIL:Failed to install umami, error code 1
+INSTALL_FAIL:Failed to install umami from source, error code 128
