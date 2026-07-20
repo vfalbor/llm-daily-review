@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Minecraft: Java Edition now uses SDL3",
+    "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+    "hn_url": "https://news.ycombinator.com/item?id=48967256",
+    "points": 333,
+    "comments": 214,
+    "author": "ObviouslyFlamer",
+    "age": "2026-07-19T11:48:18 1784461698",
+    "scraped_at": "2026-07-20T13:00:02.627Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "game",
+    "app_type": "game-engine",
+    "source_type": "tool",
+    "tool_url": "https://github.com/minecraft/jvm-lwjgl",
+    "repo_url": "https://github.com/minecraft/jvm-lwjgl",
+    "use_modes": [
+      "Minecraft game"
+    ],
+    "similar_tools": [
+      "Unity",
+      "Unreal Engine"
+    ],
+    "proposed_tests": [
+      "Verify SDL3 integration in Minecraft Java Edition",
+      "Compare performance with older Minecraft versions",
+      "Validate Minecraft Java Edition works with SDL3"
+    ],
+    "is_open_source": true,
+    "requires_api_key": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1784552593349-hgc11",
+    "log_dir": "/tmp/llm-review-1784552593349-hgc11",
+    "install_success": false,
+    "install_time_s": 9.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:loc_count:90\nBENCHMARK:test_files_count:1",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 90, in <module>\n    main()\n  File \"/app/test.py\", line 86, in main\n    print(f\"BENCHMARK:import_time_ms:{sum(tracemalloc.get_traced_memory()[0] / 1024 / 1024) * 1000}\")\n                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: 'float' object is not iterable\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting PySDL2\n  Downloading PySDL2-0.9.17-py3-none-any.whl.metadata (3.8 kB)\nDownloading PySDL2-0.9.17-py3-none-any.whl (583 kB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 583.1/583.1 kB 8.7 MB/s eta 0:00:00\nInstalling collected packages: PySDL2\nSuccessfully installed PySDL2-0.9.17\nInstalling dependencies...\nTEST_FAIL:SDL3 integration test:could not find any library for SDL2 (PYSDL2_DLL_PATH: unset)\nTEST_FAIL:Performance test:could not find any library for SDL2 (PYSDL2_DLL_PATH: unset)\nTEST_FAIL:Minecraft Java Edition test:[Errno 2] No such file or directory: 'java'\nTEST_FAIL:Unreal Engine performance test:[Errno 2] No such file or directory: 'unreal'\nTEST_FAIL:Unity performance test:[Errno 2] No such file or directory: 'unity'\nBENCHMARK:loc_count:90\nBENCHMARK:test_files_count:1\n"
+  }
+}
