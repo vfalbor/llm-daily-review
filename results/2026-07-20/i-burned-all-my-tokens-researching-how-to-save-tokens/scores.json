@@ -1,0 +1,82 @@
+{
+  "app_name": "I burned all my tokens researching how to save tokens",
+  "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+  "scored_at": "2026-07-20T13:05:07.506Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app explores a unique approach to setting up a custom deep research pipeline, as seen in the blog post, and its detected version is 1.0, indicating a potentially novel contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app does not have a GitHub repository or a PyPI package, and its install success is false, indicating significant difficulties in setup and installation, with an install time of 6.8s."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's focus on custom deep research pipelines aligns with current trends in AI research, as suggested by its relevance to tools like OpenCV and TensorFlow, and its blog post indicating recent research efforts."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While the app offers insights into token efficiency and model behavior, its differentiation from similar tools like OpenCV and TensorFlow is not strongly evident, with no direct comparisons or benchmarks provided."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without GitHub data, the community score is neutral, but HN points of 149 and 30 comments analyzed suggest some level of interest and discussion around the app's research."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app's basic run success is false, and no tests were passed, indicating significant usability issues, compounded by the lack of installation success."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app does not have a PyPI package, and its detected version is 1.0, but there is no mention of an API, SDK, or webhook, limiting its integration potential."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a blog post with a page content length of 25167 characters, indicating substantial documentation, and it includes examples, but lacks a changelog or release notes."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 1.0, but without GitHub data or release notes, the maturity is difficult to assess accurately, though the presence of a version suggests some level of development maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Given the app type is a research paper, performance benchmarks are not applicable."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 149 points and 30 comments, indicating a positive reception, with constructive suggestions and enthusiasm about the research's potential."
+    }
+  },
+  "summary": "This research paper explores setting up a custom deep research pipeline, offering insights into token efficiency and model behavior, with a positive community response but significant usability and integration challenges.",
+  "recommendation": "niche",
+  "app_url": "https://quesma.com/blog/custom-deep-research-pipeline/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48967355",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Developers appreciate the insights into token efficiency and model behavior",
+        "Suggestions for token saving and model management are constructive and useful",
+        "Commenters are enthusiastic about the potential for local model development"
+      ],
+      "negative_signals": [
+        "Some commenters express skepticism about the feasibility of certain token-saving methods",
+        "One user suggests that implementing model switching might lead to losses in context cache benefits"
+      ],
+      "justification": "The majority of comments express enthusiasm and appreciation for the research, with only a few commenters raising concerns about the practicality and potential drawbacks of certain suggestions.",
+      "comment_count": 30,
+      "hn_points": 149
+    }
+  }
+}
