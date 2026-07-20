@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "1-Bit LLM in the Browser",
+    "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+    "hn_url": "https://news.ycombinator.com/item?id=48936994",
+    "points": 57,
+    "comments": 28,
+    "author": "simonebrunozzi",
+    "age": "2026-07-16T16:50:32 1784220632",
+    "scraped_at": "2026-07-20T13:00:02.630Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "One-bit LLM with a browser-based interface using WebGL",
+    "use_modes": [
+      "webgpu"
+    ],
+    "similar_tools": [
+      "DALL-E",
+      "Stable Diffusion"
+    ],
+    "proposed_tests": [
+      "Run a text input through the model and verify output",
+      "Compare inference speed vs full-precision model",
+      "Test model against a suite of images from the LLaMA dataset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+    "tool_url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784552628038-ba67q",
+    "log_dir": "/tmp/llm-review-1784552628038-ba67q",
+    "install_success": true,
+    "install_time_s": 39.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\n[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting transformers\n  Downloading transformers-5.14.1-py3-none-any.whl.metadata (32 kB)\nCollecting huggingface-hub<2.0,>=1.5.0 (from transformers)\n  Downloading huggingface_hub-1.24.0-py3-none-any.whl.metadata (16 kB)\nCollecting numpy>=1.17 (from transformers)\n  Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\nCollecting packaging>=20.0 (from transformers)\n  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)\nCollecting pyyaml>=5.1 (from transformers)\n  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)\nCollecting regex>=2025.10.22 (from transformers)\n  Downloading regex-2026.7.19-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (40 kB)\nCollecting tokenizers<=0.23.0,>=0.22.0 (from transformers)\n  Downloading tokenizers-0.22.2-cp39-abi3-musllinux_1_2_x86_64.whl.metadata (7.3 kB)\nCollecting typer (from transformers)\n  Downloading typer-0.27.0-py3-none-any.whl.metadata (15 kB)\nCollecting safetensors>=0.8.0 (from transformers)\n  Downloading safetensors-0.8.0-cp310-abi3-musllinux_1_2_x86_64.whl.metadata (4.2 kB)\nCollecting tqdm>=4.60 (from transformers)\n  Downloading tqdm-4.69.0-py3-none-any.whl.metadata (57 kB)\nCollecting click<9.0.0,>=8.4.2 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)\nCollecting filelock>=3.10.0 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading filelock-3.31.1-py3-none-any.whl.metadata (2.0 kB)\nCollecting fsspec>=2023.5.0 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading fsspec-2026.6.0-py3-none-any.whl.metadata (10 kB)\nCollecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading hf_xet-1.5.2-cp38-abi3-musllinux_1_2_x86_64.whl.metadata (4.9 kB)\nCollecting httpx<1,>=0.23.0 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting typing-extensions>=4.1.0 (from huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting shellingham>=1.3.0 (from typer->transformers)\n  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)\nCollecting rich>=13.8.0 (from typer->transformers)\n  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting annotated-doc>=0.0.2 (from typer->transformers)\n  Downloading annotated_doc-0.0.4-py3-none-any.whl.metadata (6.6 kB)\nCollecting anyio (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)\nRequirement already satisfied: certifi in /usr/local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers) (2026.6.17)\nCollecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)\nRequirement already satisfied: idna in /usr/local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers) (3.18)\nCollecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub<2.0,>=1.5.0->transformers)\n  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)\nCollecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers)\n  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting pygments<3.0"
+  }
+}
