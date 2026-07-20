@@ -1,0 +1,120 @@
+{
+  "app_name": "LoRA Speedrun",
+  "url": "https://github.com/Saivineeth147/lora-speedrun",
+  "scored_at": "2026-07-20T13:02:30.890Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project is the first of its kind, providing a public leaderboard for LoRA fine-tuning techniques, with 1 day since repo creation and 0 days since last commit, showing a high level of originality."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project installed successfully in 9.4 seconds, but no PyPI package was found, indicating some complexity in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM evaluation tool, this project fits well with current trends in AI development, particularly in the area of fine-tuning techniques."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Compared to similar tools like LoRA with 18,910 stars, this project has significantly fewer stars, with -18,817 stars, indicating limited differentiation."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 93 GitHub stars, 6 forks, and 1 contributor, indicating a small but active community, with 9 open issues and a recent last commit."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Despite 0 tests passing out of 4, the basic run was successful, indicating some ease of use but significant issues with test coverage."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project has a CLI and GUI, but no PyPI package, making integration somewhat complex."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the quality of the project's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the project's maturity, but it has been created recently and has seen recent commits."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the project's performance, but being a leaderboard, its primary function is to provide comparative data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable for this criterion, but HN points and comments can provide some insight into community reception."
+    },
+    "overall_score": {
+      "score": 58,
+      "justification": "Based on the quantitative data provided, the project scores 58 out of 100, indicating potential but significant areas for improvement."
+    }
+  },
+  "summary": "LoRA Speedrun is a novel project providing a public leaderboard for LoRA fine-tuning techniques, with a small but active community and some ease of use issues, fitting well with current AI trends but needing more differentiation and documentation.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/Saivineeth147/lora-speedrun",
+  "tool_url": "https://github.com/Saivineeth147/lora-speedrun",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48974325",
+  "domain": "ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 93,
+      "forks": 6,
+      "open_issues": 9,
+      "watchers": 93,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Speedrunning LoRA fine-tuning: frozen task, frozen hardware, public wall-clock leaderboard. modded-nanogpt for fine-tuning.",
+      "topics": [
+        "benchmark",
+        "fine-tuning",
+        "leaderboard",
+        "llm",
+        "lora",
+        "peft",
+        "qlora",
+        "speedrun"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LoRA",
+        "stars": 18910,
+        "repo": "tloen/alpaca-lora"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Project seems to be high-quality, even if AI-generated",
+        "Users appreciate the idea and think it's interesting",
+        "Some users find value in limiting resources and going smaller",
+        "Leaderboard can drive creativity and is a nice complement to usual comparisons",
+        "One user has a similar idea for loss functions and AI safety targets"
+      ],
+      "negative_signals": [
+        "Some users think the leaderboard is narrowly scoped",
+        "Others think it's unfair to judge projects based on whether they're AI-generated",
+        "A few users are missing information about the project and its goals",
+        "One user thinks the trend of 'just making the weights bigger' has been overblown"
+      ],
+      "justification": "Overall, users appreciate the project and its goals, but some users have minor criticisms and think it's narrowly scoped.",
+      "comment_count": 19,
+      "hn_points": 102
+    }
+  }
+}
