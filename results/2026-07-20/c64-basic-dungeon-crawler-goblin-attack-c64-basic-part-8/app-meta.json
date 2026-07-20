@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+    "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+    "hn_url": "https://news.ycombinator.com/item?id=48968949",
+    "points": 83,
+    "comments": 6,
+    "author": "ibobev",
+    "age": "2026-07-19T15:20:22 1784474422",
+    "scraped_at": "2026-07-20T13:00:02.632Z",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "hardware",
+    "app_type": "game-console",
+    "description": "A post about creating a C64 basic dungeon crawler",
+    "use_modes": [
+      "C64 BASIC"
+    ],
+    "similar_tools": [
+      "NESdev",
+      "SNESDev"
+    ],
+    "proposed_tests": [
+      "Verify that the program works as expected on a C64",
+      "Test the game on a modern emulator and compare results",
+      "Compare performance vs established game consoles"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1784552708847-m64uc",
+    "log_dir": "/tmp/llm-review-1784552708847-m64uc",
+    "install_success": false,
+    "install_time_s": 10.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "ERROR: unable to select packages:\n  pip3 (no such package):\n    required by: world[pip3]\nERROR: unable to select packages:\n  vice (no such package):\n    required by: world[vice]\nCloning into 'c64-basic-dungeon'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 88, in <module>\n    main()\n  File \"/app/test.py\", line 77, in main\n    subprocess.run(['vice', '-autostart', 'c64-basic-dungeon/dungeon.prg'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'vice'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n(1/7) Installing libgcc (15.2.0-r5)\n(2/7) Installing libstdc++ (15.2.0-r5)\n(3/7) Installing mpdecimal (4.0.1-r0)\n(4/7) Installing python3 (3.14.5-r0)\n(5/7) Installing python3-pycache-pyc0 (3.14.5-r0)\n(6/7) Installing pyc (3.14.5-r0)\n(7/7) Installing python3-pyc (3.14.5-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 62.5 MiB in 58 packages\nINSTALL_FAIL:Command '['apk', 'add', '--no-cache', 'vice']' returned non-zero exit status 1.\nTEST_FAIL:clone_repo:Command '['git', 'clone', 'https://github.com/retrogamecoders/c64-basic-dungeon.git']' returned non-zero exit status 128.\n"
+  }
+}
