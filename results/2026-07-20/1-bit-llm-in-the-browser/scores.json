@@ -1,0 +1,90 @@
+{
+  "app_name": "Bonsai 1-Bit LLM",
+  "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+  "scored_at": "2026-07-20T13:04:46.742Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app uses a one-bit LLM with a browser-based interface, which is a unique approach, but it's compared to similar tools like DALL-E and Stable Diffusion, which score 91000 on GitHub, indicating the existence of strong alternatives."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 39.1s, which is moderate, and the PyPI package exists, but the install success is true, indicating it's accessible."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is an LLM tool, and its type is llm-inference, which fits with current LLM ecosystem trends, but the performance issues and errors reported by users bring down the score."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The app has a unique approach, but the comparison to similar tools and the limited model capabilities make it difficult to assess its differentiation, so the score is neutral."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 59, which is low, and the comments are mostly negative, indicating a small and not very active community, but some users are interested in the project's potential."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0 / 1, and the basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The PyPI package exists, and the app has a webgpu use mode, indicating it's possible to integrate, but the lack of install command on the page and the need for WebGL bring down the score."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The page content length is 2098 chars, which is sparse, and there's no docs/wiki/guide link, indicating a lack of documentation, but the detected version is 1.0, and the app has examples or demo."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 1.0, which indicates some level of maturity, but the lack of changelog or release notes and the limited model capabilities bring down the score."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "The many reported errors and performance issues indicate significant performance problems, but some users achieve high token processing speeds, so the score is not the lowest possible."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The sentiment score is 4/10, but the comment thread is mostly negative, so it's not possible to score this criterion, as it's not directly applicable to the app's quality."
+    }
+  },
+  "summary": "Bonsai 1-Bit LLM is a unique approach to LLM inference in the browser, but it has significant performance issues and limited model capabilities, which bring down its overall score. The app has a small and not very active community, but some users are interested in its potential. The documentation is sparse, and the maturity is limited, but the app has examples and a detected version of 1.0.",
+  "recommendation": "niche",
+  "app_url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+  "tool_url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48936994",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0",
+      "summary": "test",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "gxc.online"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "potential for high-privacy use cases",
+        "some users achieve high token processing speeds",
+        "interesting concept for routing and tool calls"
+      ],
+      "negative_signals": [
+        "many users experience performance issues or errors",
+        "limited model capabilities compared to large LLMs",
+        "demonstrated a significant fail in the 'car wash' test"
+      ],
+      "justification": "The comment thread is mostly negative due to performance issues and limited model capabilities, but some users are interested in the project's high-privacy use cases and potential for routing and tool calls. However, the significant fail in the 'car wash' test and the many reported errors bring the score down. Insufficient data to fully evaluate the project.",
+      "comment_count": 27,
+      "hn_points": 59
+    }
+  }
+}
