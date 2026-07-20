@@ -1,0 +1,94 @@
+{
+  "app_name": "Minecraft: Java Edition",
+  "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+  "scored_at": "2026-07-20T13:03:46.841Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app uses SDL3, which is a new approach for Minecraft, but it's not a completely new concept in the game development industry, with 19,563 stars for Unity and 2,895 stars for Unreal Engine, indicating a established ecosystem."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 9.1s, indicating potential issues with system requirements, and PyPI existence is not found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is a game-engine and is relevant to the current gaming landscape, with Minecraft being a popular game."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app uses SDL3, but similar tools like Unity and Unreal Engine have more stars, with 19,563 and 2,895 respectively, indicating a more established ecosystem."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected or API unavailable, making it difficult to assess the community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0 / 5 and basic run success is false, indicating issues with ease of use, and install success is also false."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it's a game-engine and not meant to be integrated into other systems."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data available to assess the quality of documentation, but the app has a wiki and GitHub topics."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data available to assess the maturity of the app, but it's an established game with a large user base."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as it's a game-engine and performance is not a critical factor."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 333 HN points, 30 comments analyzed, and mixed signals, indicating a generally positive but mixed sentiment."
+    }
+  },
+  "summary": "Minecraft: Java Edition now uses SDL3, indicating a new approach for the game, but with potential issues with system requirements and ease of use. The app has a large user base and is relevant to the current gaming landscape.",
+  "recommendation": "niche",
+  "app_url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4",
+  "tool_url": "https://github.com/minecraft/jvm-lwjgl",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48967256",
+  "domain": "game",
+  "app_type": "game-engine",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Unity",
+        "stars": 19563,
+        "repo": "Unity-Technologies/ml-agents"
+      },
+      {
+        "name": "Unreal Engine",
+        "stars": 2895,
+        "repo": "20tab/UnrealEnginePython"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Minecraft's switch to SDL3 shows potential for performance improvements",
+        "SDL3 adoption is gaining traction, even if it's slow",
+        "Game Mode on MacOS slashes input lag for wireless accessories"
+      ],
+      "negative_signals": [
+        "Exclusive fullscreen issues cause game crashes on Windows",
+        "Minecraft's snapshot release model can lead to testing in production",
+        "SDL3 adoption may be delayed due to platform complexity and compatibility issues"
+      ],
+      "justification": "While some commenters praise Minecraft's SDL3 switch and potential performance gains, they also raise concerns over exclusive fullscreen issues and the snapshot release model, suggesting a mixed but generally positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 333
+    }
+  }
+}
