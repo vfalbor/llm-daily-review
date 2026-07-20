@@ -1,0 +1,83 @@
+{
+  "app_name": "Orion Browser",
+  "url": "https://orionbrowser.com/",
+  "scored_at": "2026-07-20T13:03:11.984Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Given the lack of information about the browser's creation date and its similarity to other tools like Brave browser and Firefox, the novelty score is set to 6, indicating it has some unique features but is not entirely new."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The browser installed successfully in 14.4 seconds, which suggests good system requirements, scoring 8 out of 10 for ease of installation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web browser, it fits well into the current ecosystem trends, but since it's not open source and doesn't have a PyPI package, its relevance is somewhat limited, scoring 7 out of 10."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without specific benchmark comparisons or more detailed information about its unique features versus similar tools like Brave and Firefox, the differentiation score is set to 5, indicating it has some unique aspects but lacks clear differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 242 HN points and 30 comments analyzed, showing both positive and negative feedback, the community score is set to 6, reflecting a moderate level of interest and engagement."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that the basic run was successful but only 4 out of 8 tests passed, and without more detailed usability feedback, the ease of use score is set to 5, indicating some usability issues."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As the browser is not pip-installable and lacks an API for integration, this criterion does not apply."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without access to the browser's documentation or GitHub repository, the score for documentation is set to 5, indicating insufficient data to evaluate."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Since there's no clear information on the browser's version, release history, or age, the maturity score is set to 5, reflecting insufficient data for a proper evaluation."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements, such as an orion_browser_response_time_ms of 12.74 and orion_browser_memory_usage_mb of 0.05, indicate good performance, scoring 8 out of 10."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not applicable as a separate criterion but is already considered in the community score."
+    }
+  },
+  "summary": "The Orion Browser is a web browser that offers a unique set of features and performance benefits but lacks in areas such as openness, community engagement, and clear differentiation from other browsers. Its performance is notable, with fast response times and low memory usage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://orionbrowser.com/",
+  "tool_url": "https://www.kagi.com/orion-browser",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48970894",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 8,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "impressive UX",
+        "fast performance",
+        "vertical tabs are the best"
+      ],
+      "negative_signals": [
+        "buggy",
+        "unusable on Linux",
+        "rough edges"
+      ],
+      "justification": "The comments contain a mix of positive and negative opinions about the Orion browser, with some users praising its performance and UX while others experiencing bugs and usability issues. Despite some criticisms, the browser has also received positive remarks and comparisons to other browsers.",
+      "comment_count": 30,
+      "hn_points": 242
+    }
+  }
+}
