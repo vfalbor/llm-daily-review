@@ -1,0 +1,111 @@
+{
+  "app_name": "Moonshine",
+  "url": "https://github.com/hgaiser/moonshine",
+  "scored_at": "2026-07-20T13:02:08.795Z",
+  "total_score": 76,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 245 HN points and 30 comments analyzed, indicating a positive community response to the project."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "Moonshine has 921 days since its repository was created and is not a fork, indicating a relatively mature project with its own original contributions."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install success is true, and install time is 21.2s, which is relatively fast, and PyPI package exists with version 0.1.7, indicating low system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a game streaming tool, Moonshine fits well with the current gaming and streaming trends, providing a unique solution for streaming games from PC to other devices."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Moonshine has 625 stars, compared to Moonlight's 17,950 stars, indicating a significant difference in community support, but still offers a unique streaming solution."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 625 GitHub stars, 42 forks, and 18 contributors, Moonshine has a moderate but active community, and a sentiment score of 8/10 from HN comments."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 6 tests passed out of 6, and basic run success is true, indicating a high ease of use for the project."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Moonshine has a PyPI package and supports both CLI and GUI modes, making it relatively easy to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with a README and 1240 lines of code, but lacks extensive documentation, resulting in a moderate score."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 921 days since its creation, 42 forks, and 18 contributors, Moonshine demonstrates a high level of maturity as a project."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark measurements show promising results, including a stream time of 10.62774658203125 ms and health latency of 1.7201900482177734 ms, indicating good performance."
+    }
+  },
+  "summary": "Moonshine is a game streaming tool that allows users to stream games from their PC to any device, with a strong focus on ease of use, low system requirements, and good performance, making it a viable option for gamers and streamers alike.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/hgaiser/moonshine",
+  "tool_url": "https://github.com/hgaiser/moonshine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48972970",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": {
+      "stars": 625,
+      "forks": 42,
+      "open_issues": 17,
+      "watchers": 625,
+      "contributors": 18,
+      "license": "BSD-2-Clause",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 921,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Headless streaming server for Moonlight clients, written in Rust.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Moonlight",
+        "stars": 17950,
+        "repo": "moonlight-stream/moonlight-qt"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.7",
+      "summary": "Pretrained remote sensing models.",
+      "requires_python": ">=3.7",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 6,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many users found the project promising and effective for streaming games",
+        "Ease of setup and use was highlighted by multiple users",
+        "The option to stream from a headless machine was seen as a major advantage"
+      ],
+      "negative_signals": [
+        "Some users had difficulty getting it to work and experienced frequent issues",
+        "Older hardware was not supported, leading to disappointment for some",
+        "A few users were unclear on the differences between this project and others, like Sunshine and Apollo"
+      ],
+      "justification": "Comments overwhelmingly praise the project for its effectiveness and ease of use, but users highlight the need for modern hardware and the occasional frustrating installation experience.",
+      "comment_count": 30,
+      "hn_points": 245
+    }
+  }
+}
