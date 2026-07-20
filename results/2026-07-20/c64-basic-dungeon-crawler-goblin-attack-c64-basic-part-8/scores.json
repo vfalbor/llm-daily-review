@@ -1,0 +1,87 @@
+{
+  "app_name": "C64 Basic Dungeon Crawler",
+  "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+  "scored_at": "2026-07-20T13:05:40.881Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a unique game built using C64 BASIC, with a mix of programming and gaming, providing an original approach to learning programming, as indicated by the post's content and the presence of examples or demo, as detected from the web page signals with a content length of 126548 chars."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is not pip-installable, has no PyPI package found, and the container test results show install success as false and install time of 10.9s, indicating potential difficulties in setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app, being a game-console type, fits into the current retro gaming trend, but its relevance to the broader LLM ecosystem is limited, given its focus on C64 BASIC programming."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like NESdev and SNESDev, the C64 Basic Dungeon Crawler stands out due to its use of C64 BASIC and its specific focus on creating a dungeon crawler game within the constraints of this old programming environment."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 83 HN points and 6 comments analyzed, the community engagement is present but limited, reflecting a niche interest in retro programming and gaming, as indicated by the HN comment sentiment analysis."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The container test results show 0 tests passed out of 1 and basic run success as false, indicating potential usability issues, coupled with the lack of clear install commands on the page."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Although the app has a detected version and mentions API/SDK/webhook, the lack of a pip-installable package and unclear integration steps from the web page signals hinder its integrability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The web page provides some examples and demo, but lacks a clear docs/wiki/guide link, and the content, while extensive (126548 chars), does not clearly outline a comprehensive guide to using or integrating the app."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app's maturity is difficult to assess due to the lack of GitHub repository data, but the presence of a detected version (24.5) and examples suggest some level of development, though the absence of changelog or release notes limits the understanding of its release cycle."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app type is a game, and performance in terms of speed or efficiency is not a relevant criterion for this type of application, especially given the retro nature and focus on programming within constraints."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is related to community, already scored, thus not applicable as a separate criterion for this app type."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "Given the total score and the specific strengths and weaknesses of the app, particularly its novelty and differentiation, it is best classified as niche, catering to a specific audience interested in retro gaming and programming."
+    }
+  },
+  "summary": "The C64 Basic Dungeon Crawler is a unique retro gaming project that stands out for its use of C64 BASIC. While it faces challenges in terms of installability and broad community engagement, it offers a distinctive learning and gaming experience for those interested in retro programming and gaming.",
+  "recommendation": "niche",
+  "app_url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48968949",
+  "domain": "hardware",
+  "app_type": "game-console",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "reminded me of old DOS game Castle Adventure",
+        "constraints like these are such a good way to learn programming",
+        "better appreciation for how software actually work"
+      ],
+      "negative_signals": [
+        "incessant meme clips constantly inserted into the youtube video",
+        "goblin genocide",
+        "jailing goblin sympathizers"
+      ],
+      "justification": "Mixed sentiment: some users are inspired by the game and find value in the constraint-based programming, while others are put off by distractions or the idea of goblin slaughter. Limited data (4 comments total) contributes to the neutral tone.",
+      "comment_count": 6,
+      "hn_points": 83
+    }
+  }
+}
