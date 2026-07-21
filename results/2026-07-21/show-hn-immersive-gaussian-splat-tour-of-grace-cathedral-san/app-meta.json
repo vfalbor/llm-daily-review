@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+    "url": "https://vincentwoo.com/3d/grace_cathedral/",
+    "hn_url": "https://news.ycombinator.com/item?id=48984254",
+    "points": 203,
+    "comments": 45,
+    "author": "akanet",
+    "age": "2026-07-20T20:10:44 1784578244",
+    "scraped_at": "2026-07-21T13:00:02.525Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "research",
+    "app_type": "research-model",
+    "description": "3D reconstruction and visualization of a historic cathedral using immersive techniques",
+    "use_modes": [
+      "WebGL"
+    ],
+    "similar_tools": [
+      "three.js",
+      "WebGL-GLSL",
+      "Three.js",
+      "GLSL"
+    ],
+    "proposed_tests": [
+      "Open three.js example in Web browser",
+      "Compare performance of WebGL/JS libraries",
+      "Run Gaussian splat on GPU and measure execution time"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/vincentwoo/3d-grace-cathedral"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784638902441-lec65",
+    "log_dir": "/tmp/llm-review-1784638902441-lec65",
+    "install_success": true,
+    "install_time_s": 10.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement three.js (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for three.js\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:open_three_js_example\nTEST_FAIL:compare_performance:No module named 'three'\nTEST_FAIL:gaussian_splat_on_gpu:No module named 'numpy'\nRUN_OK\n"
+  }
+}
