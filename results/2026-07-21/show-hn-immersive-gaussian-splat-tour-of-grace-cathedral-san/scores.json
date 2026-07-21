@@ -1,0 +1,99 @@
+{
+  "app_name": "Immersive Gaussian Splat",
+  "url": "https://vincentwoo.com/3d/grace_cathedral/",
+  "scored_at": "2026-07-21T13:02:04.875Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app's use of immersive Gaussian splat for 3D reconstruction is a novel approach, considering the days since its creation and comparison to similar tools like three.js with 113,894 stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 10.3 seconds, which is reasonably fast, but the lack of a PyPI package and specific system requirements information limits its score."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app fits well with current trends in immersive technologies and 3D visualization, making it highly relevant."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like three.js with 113,894 stars, this app's immersive Gaussian splat technique offers a unique advantage, but it's not entirely new in the field of 3D reconstruction."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 203 HN points and 30 comments, the community engagement is moderate, and users praise its beauty and immersive experience, despite some technical issues."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that only 1 out of 3 tests passed and basic run success was true, the ease of use is neutral due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app's use of WebGL and lack of a PyPI package make its integration somewhat challenging, especially for non-web applications."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's insufficient data on the app's documentation quality, as no GitHub repository or comprehensive documentation site was found."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the lack of specific data on the app's creation date, forks, and open issues, its maturity level is neutral."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific benchmark data is available to accurately assess the app's performance compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 203 points and 30 comments, indicating a highly positive response to the app, with stunning model quality and immersive experience, despite some negative signals about technical issues."
+    }
+  },
+  "summary": "Immersive Gaussian Splat is a novel, highly relevant tool for 3D reconstruction and visualization, offering a unique immersive experience, although it faces some technical issues and has neutral ease of use and integration scores.",
+  "recommendation": "worth-watching",
+  "app_url": "https://vincentwoo.com/3d/grace_cathedral/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48984254",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "three.js",
+        "stars": 113894,
+        "repo": "mrdoob/three.js"
+      },
+      {
+        "name": "WebGL-GLSL",
+        "stars": 1043,
+        "repo": "mattdesl/workshop-webgl-glsl"
+      },
+      {
+        "name": "Three.js",
+        "stars": 113894,
+        "repo": "mrdoob/three.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Stunning model with clean details and no artifacts",
+        "Beautifully done and mind-blowing",
+        "Excellent mobile support with immersive experience"
+      ],
+      "negative_signals": [
+        "Bad mobile support is a sore spot for some users",
+        "WebGPU error encountered on Windows 11 with Firefox",
+        "Hanging issues on Windows 11 with 32GB of RAM"
+      ],
+      "justification": "Most comments praise the model's quality, beauty, and immersive experience on mobile, but a few users experience technical issues and poor mobile support.",
+      "comment_count": 30,
+      "hn_points": 203
+    }
+  }
+}
