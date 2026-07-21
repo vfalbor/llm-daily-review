@@ -1,0 +1,114 @@
+{
+  "app_name": "Shinjuku Station in 3D",
+  "url": "https://satoshi7190.github.io/Shinjuku-indoor-threejs-demo/",
+  "scored_at": "2026-07-21T13:03:49.688Z",
+  "total_score": 41,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 246 HN points and 30 comments analyzed, indicating a generally positive reception with some concerns about practicality."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The app is a unique 3D visualization of Shinjuku Station, with 990 days since repo creation and 492 days since last commit, but its novelty is somewhat diminished by the existence of similar tools like Three.js and WebGL, with -113791 and -16404 stars respectively."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app has an install success of false and an install time of 8.7s, indicating difficulty in installation, and it is not pip-installable, with no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app's relevance is questionable, given the concerns about practicality in the HN comments, but it still has some potential as a unique visualization tool in the current LLM ecosystem trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The app has -113791 stars vs Three.js and -16404 stars vs WebGL, indicating little differentiation from existing tools, and its comparison to similar tools shows a significant gap."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has 103 GitHub stars, 6 forks, 0 open issues, and 1 contributor, with 492 days since last commit, indicating a small and inactive community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app has 0 tests passed out of 0, and basic run success is false, indicating significant difficulty in usage, and the installation process is also flawed."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is a standalone 3D visualization tool and not meant to be integrated into other systems."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no clear documentation or wiki for the app, and the GitHub repository lacks clear instructions, so the score is set to 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The app has 990 days since repo creation and 492 days since last commit, with no clear versioning or releases, indicating a lack of maturity and stagnation."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no available benchmark results or performance claims for this app, and it is not applicable to score its performance without explicit data or claims."
+    }
+  },
+  "summary": "Shinjuku Station in 3D is a unique visualization tool with a small community and limited practicality, and while it has some positive reception, its novelty and differentiation are diminished by existing tools, and its maturity and performance are unclear.",
+  "recommendation": "skip",
+  "app_url": "https://satoshi7190.github.io/Shinjuku-indoor-threejs-demo/",
+  "tool_url": "https://github.com/satoshi7190/Shinjuku-indoor-threejs-demo",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48978792",
+  "domain": "web",
+  "app_type": null,
+  "enriched": {
+    "github": {
+      "stars": 103,
+      "forks": 6,
+      "open_issues": 0,
+      "watchers": 103,
+      "contributors": 1,
+      "license": "none",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 492,
+      "days_since_created": 990,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "新宿駅構内図",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Three.js",
+        "stars": 113894,
+        "repo": "mrdoob/three.js"
+      },
+      {
+        "name": "WebGL",
+        "stars": 16507,
+        "repo": "PavelDoGreat/WebGL-Fluid-Simulation"
+      },
+      {
+        "name": "JavaScript",
+        "stars": 196292,
+        "repo": "trekhleb/javascript-algorithms"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "The 3D visualization is considered 'beautiful'.",
+        "It is well-performant.",
+        "The visualization sparks nostalgia and has some users thinking of video games."
+      ],
+      "negative_signals": [
+        "Some users are skeptical about the usefulness of a 3D map in a busy train station, where commuters may not have time to look.",
+        "Signs in the actual station are considered confusing and have users recommending familiarization with the general layout rather than a map.",
+        "Navigation in the station can be problematic due to outdated signs and non-repetitive directions."
+      ],
+      "justification": "The comments are generally positive about the 3D visualization, but there are concerns about the practicality of using it in a busy train station, as well as complaints about the navigation in the actual station.",
+      "comment_count": 30,
+      "hn_points": 246
+    }
+  }
+}
