@@ -1,0 +1,98 @@
+{
+  "app_name": "Ex Situ",
+  "url": "https://exsitu.app/map",
+  "scored_at": "2026-07-21T13:03:16.575Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique spatial index of displaced cultural artifacts, which is a new approach to visualizing and preserving cultural heritage, with no direct equivalent found in similar tools like PostgreSQL-SQL (3,183 stars) or PostGIS (2,174 stars)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable, as it has no PyPI package, and its install success is false, with an install time of 7.3s, indicating potential issues with accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits into the current geospatial database trends, providing a valuable tool for preserving cultural heritage, but its relevance could be higher if it were more integrated with existing spatial indexing solutions."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The app's unique feature set, including its spatial index of displaced cultural artifacts, sets it apart from similar tools like PostgreSQL-SQL and PostGIS, with a significant advantage in terms of the wealth of information provided."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has an HN score of 41, with 25 comments analyzed, indicating a relatively small but engaged community, with a sentiment score of 9/10, showing a positive reception of the app."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app's basic run success is false, and no tests were passed, indicating potential usability issues, but the app's web-based interface may still be accessible to users."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The app is a web-based tool and does not require integration into existing workflows or pipelines, making this criterion not applicable."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation was found, so a neutral score is assigned due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity could not be determined due to a lack of available data on its development history or release cycle."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The app's performance is not applicable, as it is a web-based tool without available benchmark data."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The app has a positive sentiment score of 9/10, with 41 HN points, and 25 comments analyzed, indicating a positive reception of the app, with users praising its unique visualizations and wealth of information."
+    },
+    "overall_impact": {
+      "score": 6,
+      "justification": "The app has the potential to make a significant impact in the field of cultural heritage preservation, but its overall impact is currently limited by its relatively small community and lack of integration with existing spatial indexing solutions."
+    }
+  },
+  "summary": "Ex Situ is an open-source spatial index of displaced cultural artifacts, providing a unique approach to visualizing and preserving cultural heritage, with a positive reception from the community, but facing challenges in terms of accessibility and integration with existing solutions.",
+  "recommendation": "worth-watching",
+  "app_url": "https://exsitu.app/map",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48988158",
+  "domain": "database",
+  "app_type": "database-geospatial",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PostgreSQL-SQL",
+        "stars": 3183,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "PostGIS",
+        "stars": 2174,
+        "repo": "postgis/postgis"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Users are praising the unique visualizations and the wealth of information provided by the map.",
+        "The project's ability to spark interesting discussions and ideas about cultural artifacts and their histories is seen as a positive aspect.",
+        "Users appreciate the developer's responsiveness to feedback and willingness to improve the project."
+      ],
+      "negative_signals": [
+        "Some users feel that the map's initial view can be misleading due to institutions not providing open-access data.",
+        "A few users suggest that the project would be more comprehensive if it included a broader range of institutions, such as those in Russia or Japan.",
+        "There are minor criticisms about the user interface and some users find it difficult to filter or navigate the map."
+      ],
+      "justification": "While some users expressed minor concerns about the project's limitations, the overall sentiment is overwhelmingly positive, with many users appreciating the unique visualizations, the wealth of information, and the developer's responsiveness to feedback.",
+      "comment_count": 25,
+      "hn_points": 41
+    }
+  }
+}
