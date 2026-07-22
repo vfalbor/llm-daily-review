@@ -1,0 +1,99 @@
+{
+  "app_name": "OpenAIM",
+  "url": "https://openaim.pramit.gg/",
+  "scored_at": "2026-07-22T13:02:41.346Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app solves a problem in a somewhat new way, with a focus on FPS aim training, but similar tools like Aim Lab and Aim Hero exist, with 193 and 66 stars respectively, indicating some originality but also existing competition."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app is accessible via a browser and does not require an API key, with an install time that would be applicable if it were a downloadable tool; given it's web-based, it scores well for simplicity and accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "It fits well with the current gaming landscape, especially for players of FPS games looking to improve their aim, but its utility is somewhat niche compared to broader gaming communities."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While it has a unique approach, comparing its 3 stars to similar tools like Aim Lab and Aim Hero, which have 193 and 66 stars respectively, shows it hasn't differentiated itself significantly in terms of community traction yet."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repo detected and limited information, but considering the HN points of 64 and the engagement in comments, it shows some community interest but lacks a strong, established community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the lack of specific usability metrics from tests and no direct feedback on user experience, it's challenging to assess its ease of use accurately, but as a web application, it likely aims for simplicity."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a game tool designed for direct use rather than integration into workflows or pipelines, this criterion does not apply."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation or a GitHub repository to assess the quality of documentation, it's challenging to evaluate this aspect accurately."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of information on its development stage, releases, or updates, and without a clear indication of its production readiness, it's difficult to assess its maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmarks provided to evaluate its performance, making it challenging to assess its efficiency or speed compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 64 HN points and 30 comments analyzed, indicating a generally positive but also somewhat critical reception, with both positive signals about its interest and utility, and negative signals regarding performance and representativeness."
+    }
+  },
+  "summary": "OpenAIM is a novel aim training tool for FPS players, showing some originality but also competition from similar tools, with a decent community response but lacking in strong differentiation and comprehensive documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openaim.pramit.gg/",
+  "tool_url": "https://github.com/openaim/openaim",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49002276",
+  "domain": "games",
+  "app_type": "game-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Aim Lab",
+        "stars": 193,
+        "repo": "AIM-Research-Lab/Medical-SAM3"
+      },
+      {
+        "name": "Aim Hero",
+        "stars": 66,
+        "repo": "HUSTLYRM/HUST_HeroAim_2024"
+      },
+      {
+        "name": "Trigger Finger",
+        "stars": 3,
+        "repo": "misterch0c/TriggerFinger"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Many users find the project interesting and share personal experiences.",
+        "Some users believe it could be useful for improving aim in first-person shooter games.",
+        "Developers are responsive to user feedback and consider suggestions."
+      ],
+      "negative_signals": [
+        "Some users find the simulation choppy or unrepresentative of real games.",
+        "The website's background animation is distracting for some users.",
+        "Compatibility issues and performance problems are reported on some browsers and systems."
+      ],
+      "justification": "The project has generated significant interest, but some users are critical of its performance and representativeness. Many users appreciate the developers' responsiveness to feedback, which suggests a willingness to improve the project.",
+      "comment_count": 30,
+      "hn_points": 64
+    }
+  }
+}
