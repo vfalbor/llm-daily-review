@@ -1,0 +1,102 @@
+{
+  "app_name": "Apollo 11 Guidance Computer",
+  "url": "https://github.com/chrislgarry/Apollo-11",
+  "scored_at": "2026-07-22T13:02:19.836Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a historic first-of-its-kind approach, with 4492 days since its creation and 70,321 GitHub stars, demonstrating a clear original contribution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The project has an install time of 7.3s and failed to install, indicating moderate to high complexity."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project's type is research-paper, and while not directly relevant to current LLM trends, its historical significance gives it some relevance, scoring 6."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The project has 70,321 GitHub stars, significantly more than similar tools, and its unique feature set as the original Apollo 11 Guidance Computer source code sets it apart, scoring 9."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 70,321 GitHub stars, 7862 forks, and 212 contributors, with the last commit only 7 days ago, indicating a strong and active community, scoring 8."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project failed to install and had 0 tests passed out of 0, indicating significant friction and difficulties in use, scoring 2."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The project has no PyPI package and is not pip-installable, with no clear API or integration paths, scoring 1."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a GitHub repository with some documentation, but detailed documentation is not readily available, scoring 7."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project has been around for 4492 days, has 212 contributors, and the last commit was only 7 days ago, indicating some level of maturity, scoring 6."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "No direct performance benchmarks are available for this research-paper type project, but its historical significance and the fact that it is a fully functional guidance computer for the Apollo 11 mission imply some level of performance capability, scoring 4."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment analysis shows a sentiment score of 9/10, with 102 HN points, 30 comments, and mostly positive signals about its historic significance and interesting engineering decisions, scoring 9."
+    }
+  },
+  "summary": "The Apollo 11 Guidance Computer source code is a historically significant project that, despite its age and limitations in modern contexts, still holds value for its original contribution, strong community, and differentiation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/chrislgarry/Apollo-11",
+  "tool_url": "https://github.com/chrislgarry/Apollo-11",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49002166",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 70321,
+      "forks": 7862,
+      "open_issues": 131,
+      "watchers": 70321,
+      "contributors": 212,
+      "license": "NOASSERTION",
+      "language": "Assembly",
+      "is_fork": false,
+      "days_since_update": 7,
+      "days_since_created": 4492,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "topics": [
+        "agc",
+        "apollo",
+        "hacktoberfest",
+        "nasa"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Historic significance",
+        "Interesting peek into engineering decisions",
+        "High praise for the project"
+      ],
+      "negative_signals": [
+        "Criticism of hardcoded values",
+        "Concerns about reliability and safety"
+      ],
+      "justification": "The project is widely praised for its historic significance and the interesting insights into the engineering decisions of the time. However, some comments express concern about the hardcoded values used in the code, which could impact reliability and safety.",
+      "comment_count": 30,
+      "hn_points": 102
+    }
+  }
+}
