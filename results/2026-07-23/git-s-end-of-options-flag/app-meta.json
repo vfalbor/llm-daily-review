@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "git's –end-of-options Flag",
+    "url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+    "hn_url": "https://news.ycombinator.com/item?id=48991882",
+    "points": 167,
+    "comments": 101,
+    "author": "Erenay09",
+    "age": "2026-07-21T13:13:47 1784639627",
+    "scraped_at": "2026-07-23T13:00:03.028Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/git/git",
+    "source_type": "tool",
+    "confidence": 0.85,
+    "domain": "devtool",
+    "app_type": "devtool-builder",
+    "description": "Git tool with –end-of-options flag.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "git"
+    ],
+    "proposed_tests": [
+      "Verify the –end-of-options flag works as expected.",
+      "Test the performance impact on large repositories.",
+      "Compare the behavior to other similar tools."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/git/git"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784811825638-oktsb",
+    "log_dir": "/tmp/llm-review-1784811825638-oktsb",
+    "install_success": true,
+    "install_time_s": 15.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nunknown option: --end-of-options\nusage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\nfatal: not a git repository (or any of the parent directories): .git\nfatal: not a git repository (or any of the parent directories): .git\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.1-r0)\n(18/26) Installing libssh2 (1.11.1-r3)\n(19/26) Installing cargo (1.96.1-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.17.0-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.2 MiB in 77 packages\nCollecting gitpython\n  Downloading gitpython-3.1.55-py3-none-any.whl.metadata (14 kB)\nCollecting gitdb<5,>=4.0.1 (from gitpython)\n  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)\nCollecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython)\n  Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)\nDownloading gitpython-3.1.55-py3-none-any.whl (216 kB)\nDownloading gitdb-4.0.12-py3-none-any.whl (62 kB)\nDownloading smmap-5.0.3-py3-none-any.whl (24 kB)\nInstalling collected packages: smmap, gitdb, gitpython\nSuccessfully installed gitdb-4.0.12 gitpython-3.1.55 smmap-5.0.3\nINSTALL_OK\nTEST_FAIL:--end-of-options:Command '['git', '--end-of-options', '--', '-a']' returned non-zero exit status 129.\nTEST_FAIL:performance_impact:Command '['git', 'status']' returned non-zero exit status 128.\nTEST_FAIL:compare_to_baseline:Command '['git', 'status']' returned non-zero exit status 128.\nRUN_OK\n"
+  }
+}
