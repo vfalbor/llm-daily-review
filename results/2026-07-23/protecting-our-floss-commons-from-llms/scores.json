@@ -1,0 +1,83 @@
+{
+  "app_name": "Protecting our FLOSS commons from LLMs",
+  "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+  "scored_at": "2026-07-23T13:02:52.370Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article discusses a unique approach to protecting FLOSS commons from LLMs, with 108 HN points and 30 comments analyzed, indicating a high level of engagement and interest in the topic, as seen in the web page signals with a content length of 13343 chars."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No install time or test results are available, so it's unclear what system requirements are needed, but the article itself is accessible via a web page."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The article's topic of protecting FLOSS commons from LLMs is relevant to current LLM ecosystem trends, with the web page signals indicating a detected version of 1.0 and a page title that matches the current concerns in the field."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The article's focus on FLOSS commons and LLMs differentiates it from similar tools like LLM-based vulnerability scanners, with 108 HN points indicating a notable level of interest and engagement."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository or contributor information is available, but the HN comment sentiment score of 6/10 and 30 comments analyzed indicate some level of community engagement, with positive signals including 'Enforcing strict moderation to keep bad actors out' and 'Platform values democratic decision-making'."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests or installation instructions are available for the article, but it can be accessed via a web page, with a page title and content length that suggest it is a straightforward resource to use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The article is not a tool or software that can be integrated into a workflow, but rather a resource for information and discussion, as indicated by the lack of API/SDK/webhook mention and install command on the page."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article has a clear and well-structured content, with a content length of 13343 chars and a detected version of 1.0, indicating a good level of documentation, and the presence of a docs/wiki/guide link on the web page."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No information is available on the article's development or release history, but the detected version of 1.0 and the presence of a changelog or release notes on the web page suggest some level of maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The article is not a software or tool that can be benchmarked for performance, but rather a resource for information and discussion, as indicated by the lack of BENCHMARK lines from tests."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN comment sentiment score is 6/10, with 108 HN points and 30 comments analyzed, indicating a mix of positive and negative signals, including 'Enforcing strict moderation to keep bad actors out' and 'Selective enforcement of rules raises concerns'."
+    }
+  },
+  "summary": "The article discusses protecting FLOSS commons from LLMs, with a unique approach and high engagement on HN, but limited information on system requirements, community, and maturity, and is a resource for information and discussion rather than a tool or software.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+  "tool_url": null,
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49015635",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Enforcing strict moderation to keep bad actors out",
+        "Platform values democratic decision-making",
+        "Hub for good software, not just random code files"
+      ],
+      "negative_signals": [
+        "Selective enforcement of rules raises concerns",
+        "Gatekeeping and excluding certain projects",
+        "Divide between LLM users and Codeberg community"
+      ],
+      "justification": "The comment section expresses a mix of support for Codeberg's decision, with some users praising the platform's commitment to democratic decision-making and enforcing strict moderation. However, others raise concerns about selective rule enforcement, gatekeeping, and the potential for a divide between LLM users and the Codeberg community.",
+      "comment_count": 30,
+      "hn_points": 108
+    }
+  }
+}
