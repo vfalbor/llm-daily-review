@@ -1,0 +1,101 @@
+{
+  "app_name": "Test-time training 3D reconstruction",
+  "url": "https://github.com/Inception3D/TTT3R",
+  "scored_at": "2026-07-23T13:02:05.248Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a research paper and has 295 days since repo created, indicating a relatively new contribution to the field of 3D reconstruction."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The project has install_success as false and install_time is 7.2s, indicating issues with installation."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project is a research paper in the field of 3D reconstruction, which is relevant to current LLM ecosystem trends, but not highly specific to LLMs."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 692 stars, which is significantly less than similar tools like PyTorch (101,876 stars) and TensorFlow (196,469 stars), indicating a marginal differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 692 stars, 32 forks, and 3 contributors, indicating a small but active community, with 72 days since last commit."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project has tests_passed as 0 / 0 and install_success as false, indicating significant issues with usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The project has no PyPI package found and license as NOASSERTION, indicating difficulties with integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information is available about the quality of the documentation, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The project has 295 days since repo created and 72 days since last commit, indicating a relatively immature project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance data is available for this research paper, as it is not applicable."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available for this project."
+    }
+  },
+  "summary": "This research paper proposes a new method for 3D reconstruction using test-time training, but has significant issues with installation and usability, and lacks a strong community and performance data.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/Inception3D/TTT3R",
+  "tool_url": "https://github.com/Inception3D/TTT3R",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48928909",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 692,
+      "forks": 32,
+      "open_issues": 17,
+      "watchers": 692,
+      "contributors": 3,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 72,
+      "days_since_created": 295,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "[ICLR 2026] A simple state update rule to enhance length generalization for CUT3R",
+      "topics": [
+        "3d-reconstruction",
+        "rnn-model",
+        "slam"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PyTorch",
+        "stars": 101876,
+        "repo": "pytorch/pytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "stars": 196469,
+        "repo": "tensorflow/tensorflow"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
