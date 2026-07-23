@@ -1,0 +1,108 @@
+{
+  "app_name": "Git",
+  "url": "https://github.com/git/git",
+  "scored_at": "2026-07-23T13:04:11.189Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Git's data model is powerful and flexible, with a unique object model that differentiates it from similar tools, as mentioned in 30 HN comments with a sentiment score of 6/10 and 167 HN points."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Git installs successfully in 15.1 seconds, although it is not pip-installable, as indicated by the lack of a PyPI package, but its C implementation ensures broad compatibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a widely-used devtool, Git remains highly relevant in the current LLM ecosystem, with 62,158 GitHub stars, 28,171 forks, and 2,453 contributors, demonstrating its ongoing importance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like git, which has 174,983 stars, Git differentiates itself through its powerful data model and flexible object model, although it lags behind in terms of UX consistency and simplicity, with a star difference of -112,825."
+    },
+    "community": {
+      "score": 9,
+      "justification": "With 62,158 GitHub stars, 28,171 forks, and 2,453 contributors, Git's community is large and active, and the project has a long history, with 6,573 days since its creation and 0 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Despite its powerful data model, Git's UX is famously inconsistent and confusing, with some users appreciating its flexibility but others struggling with its error-prone behavior and inconsistent CLI, as mentioned in 30 HN comments."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Git can be integrated into various workflows through its CLI and API, although its lack of a PyPI package may make integration more challenging for some users, and its license is listed as NOASSERTION."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Git's documentation is extensive, with a large community contributing to its GitHub repository, which includes a wiki and topics, but some users may find the UX documentation lacking, with 2453 contributors and 28171 forks."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "As a long-standing project with 6,573 days since its creation, 0 days since the last commit, and a large community, Git demonstrates high maturity, with a stable and well-maintained codebase and clear versioning."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Git's performance is generally good, with fast installation and execution times, although some users may experience issues with large repositories or complex operations, with an install time of 15.1 seconds."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score of 6/10, based on 30 HN comments with 167 HN points, indicates a mixed opinion on Git's UX, with users appreciating its powerful data model but criticizing its inconsistencies and error-prone behavior."
+    }
+  },
+  "summary": "Git is a widely-used and highly-relevant devtool with a powerful data model and flexible object model, although its UX is famously inconsistent and confusing, and it has a large and active community, with a long history and stable codebase.",
+  "recommendation": "worth-watching",
+  "app_url": "https://nesbitt.io/2026/07/21/end-of-options.html",
+  "tool_url": "https://github.com/git/git",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48991882",
+  "domain": "devtool",
+  "app_type": "devtool-builder",
+  "enriched": {
+    "github": {
+      "stars": 62158,
+      "forks": 28171,
+      "open_issues": 373,
+      "watchers": 62158,
+      "contributors": 2453,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 6573,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "topics": [
+        "c",
+        "hacktoberfest",
+        "shell"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "git",
+        "stars": 174983,
+        "repo": "github/gitignore"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Git's data model is powerful and flexible",
+        "Several alternatives to Git are developing a similar object model",
+        "LLMs can help users guess and remember commands"
+      ],
+      "negative_signals": [
+        "Git's UX is famously inconsistent and confusing",
+        "The CLI separates pathspec in a way that is at odds with the long-standing convention",
+        "Git can be error-prone and has caused user frustration"
+      ],
+      "justification": "Opinions on Git's UX are divided, but some users appreciate its powerful data model and flexible alternatives. However, the CLI's inconsistencies and error-prone behavior are a clear source of frustration.",
+      "comment_count": 30,
+      "hn_points": 167
+    }
+  }
+}
