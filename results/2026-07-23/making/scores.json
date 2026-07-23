@@ -1,0 +1,82 @@
+{
+  "app_name": "Making",
+  "url": "https://beej.us/blog/data/ai-making/",
+  "scored_at": "2026-07-23T13:03:44.312Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Given the lack of GitHub data, we cannot compare the tool's novelty directly to similar tools like Hugging Face Transformers or DeepSpeed, but its focus on LLM inference indicates a specific application, scoring 6 for addressing a particular need within the LLM ecosystem."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Since the tool is not pip-installable and lacks a PyPI package, and given the absence of specific system requirements in the provided data, we score it 5 due to insufficient information."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The tool's relevance to the current LLM ecosystem trends is high, given its focus on LLM inference, a critical aspect of AI development, scoring 8 for its applicability to current AI workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without direct comparison data to similar tools like Hugging Face Transformers or DeepSpeed, and given the tool's general description as an LLM inference tool, we cannot accurately assess its differentiation, scoring 5 due to insufficient data."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN sentiment analysis shows a positive sentiment score of 7/10, with 389 HN points and 30 comments analyzed, indicating a moderately engaged community, scoring 7 for its community engagement and interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given the lack of tests passed (0/0) and basic run success being false, we cannot accurately assess the tool's ease of use, scoring 5 due to insufficient information."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool mentions having an API/SDK/webhook, which is a positive signal for integration, but without clear documentation on how to integrate, we score it 6, considering the detected version (1.0) and the presence of API/SDK/webhook mentions."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The presence of a docs/wiki/guide link and a page content length of 18859 characters suggest some level of documentation, but without direct access to assess its quality, we score 6, acknowledging the tool has some form of documentation available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the detected version is 1.0 and the lack of specific maturity indicators like release notes or changelogs, we cannot accurately assess the tool's maturity, scoring 5 due to insufficient data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The benchmark measurement of import_time_ms:0.003814697265625 suggests some level of performance but without comparative data to similar tools, we score 5, acknowledging some performance data is available but insufficient for a thorough evaluation."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score of 7/10, with 389 HN points and positive signals about utility and efficiency, indicates a generally positive sentiment, scoring 7 for the tool's perceived value and community sentiment."
+    }
+  },
+  "summary": "Making is an LLM inference tool with a focus on efficiency and creativity, receiving a generally positive sentiment from the community. While it shows potential, especially in its relevance to current AI trends and community engagement, it lacks sufficient data in areas like system requirements, differentiation, and maturity to be thoroughly evaluated.",
+  "recommendation": "worth-watching",
+  "app_url": "https://beej.us/blog/data/ai-making/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49008440",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Many users find utility and efficiency in using LLMs for side projects and hobbies",
+        "Some people experience a boost in productivity and creativity with the help of LLMs",
+        "LLMs can enable users to tackle complex tasks and achieve satisfying results"
+      ],
+      "negative_signals": [
+        "A few users feel disincentivized from working on side projects due to the availability of LLMs",
+        "Some commenters express worry about losing personal touch and agency over their work"
+      ],
+      "justification": "The sentiment is generally positive, with users highlighting the benefits of using LLMs for efficiency and creativity. However, some concerns are raised about losing personal touch and agency, as well as potential disengagement from side projects.",
+      "comment_count": 30,
+      "hn_points": 389
+    }
+  }
+}
