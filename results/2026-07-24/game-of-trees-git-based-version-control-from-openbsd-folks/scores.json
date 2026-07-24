@@ -1,0 +1,75 @@
+{
+  "app_name": "Game of Trees",
+  "url": "https://www.gameoftrees.org/",
+  "scored_at": "2026-07-24T13:04:47.422Z",
+  "total_score": 55,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this app, as there's no clear HN post linked directly to this tool"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Given its unique approach to Git-based version control, with no direct comparison possible due to missing data on similar tools, it's assumed to bring a new perspective"
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data on system requirements, as no clear indicators of hardware or software dependencies are provided, and no PyPI package is available"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Fits well within the current devtool-testing landscape, given the ongoing need for version control systems, and its novelty"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it differentiates itself by being Git-based and from OpenBSD folks, exact comparisons to similar tools like git are not provided, hence a moderate score"
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository or PyPI package data available, and insufficient HN comments to gauge community engagement"
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Basic run success is false, indicating potential usability issues, though no tests were run, so this score is based on the lack of positive indicators"
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Given it has a CLI and is git-based, but lacks a PyPI package, making integration potentially more complex"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess documentation quality directly, though being a tool, documentation is typically expected"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data available on days since created, forks, or open issues, given the lack of GitHub repository data"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data available to assess performance, hence a neutral score"
+    }
+  },
+  "summary": "Game of Trees is a unique Git-based version control system with potential but lacks clear indicators of community, maturity, and performance. Its novelty and differentiation are notable, but more data is needed for a comprehensive assessment.",
+  "recommendation": "niche",
+  "app_url": "https://www.gameoftrees.org/",
+  "tool_url": "https://github.com/got-project",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49033412",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 18
+    }
+  }
+}
