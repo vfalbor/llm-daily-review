@@ -1,0 +1,100 @@
+{
+  "app_name": "Tangleflow",
+  "url": "https://github.com/43081j/tangleflow",
+  "scored_at": "2026-07-24T13:02:54.344Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "HN points are 13, with mixed comments but limited data to determine strong sentiment, thus scoring 5 as the sentiment is neither strongly positive nor negative."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Tangleflow offers a unique conversion between GitHub Actions workflows and tangled workflows, with no direct equivalent found, scoring 8 for novelty."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 16s, and no PyPI package is found, indicating moderate complexity, thus scoring 6."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for building, Tangleflow fits well with current GitHub Actions and workflow management trends, scoring 7 for relevance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like github-action-workflows with 117 stars, Tangleflow has 25 stars, showing some differentiation but not significantly more, thus scoring 6."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 25 GitHub stars, 0 forks, and 2 contributors, the community around Tangleflow is small, scoring 3 for limited community engagement."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that only 1 out of 3 tests passed and basic run success is true, the ease of use is somewhat compromised, scoring 4."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Without a PyPI package and given the CLI and GitHub use modes, integration ease is moderate but lacks concrete evidence for a higher score, thus 5."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data on the quality of documentation, and without a wiki or pages, the score for documentation is 5, indicating insufficient evidence."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With days since last commit being 2 and days since repo creation being 4, indicating recent activity but limited history, maturity scores 4."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Given the conversion_time_ms is 151.0598659515381, but without direct comparison to similar tools or more comprehensive benchmarks, performance scores 5 due to limited comparative data."
+    }
+  },
+  "summary": "Tangleflow is a unique tool for converting GitHub Actions workflows to and from tangled workflows, showing promise in novelty and relevance but requiring improvement in community, ease of use, and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/43081j/tangleflow",
+  "tool_url": "https://github.com/43081j/tangleflow",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49001498",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 25,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 25,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 4,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Convert GitHub actions workflows to tangled pipelines and vice versa. ",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "github-action-workflows",
+        "stars": 117,
+        "repo": "Fahim5455/-Build-WSA-https-github.com-LSPosed-MagiskOnWSA-actions-workflows-magisk.yml-badge.svg-branch-m"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "cool technical concept",
+        "design sensibility",
+        "pro-tip"
+      ],
+      "negative_signals": [],
+      "justification": "The comments express mixed opinions, with some finding it 'cool' and others noting lack of 'in prod' use. However, there is not enough data to determine a strong sentiment, and the conversation seems to be more about providing information rather than expressing criticism or enthusiasm.",
+      "comment_count": 3,
+      "hn_points": 13
+    }
+  }
+}
