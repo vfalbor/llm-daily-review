@@ -1,0 +1,4 @@
+  File "/app/test.py", line 90
+    print(f'BENCHMARK:test_files_count:{len(openweightmodels.__file__)}}')
+                                                                       ^
+SyntaxError: f-string: single '}' is not allowed
