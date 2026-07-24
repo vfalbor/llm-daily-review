@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Game of Trees – Git-based version control from OpenBSD folks",
+    "url": "https://www.gameoftrees.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=49033412",
+    "points": 18,
+    "comments": 1,
+    "author": "gregnavis",
+    "age": "2026-07-24T10:15:29 1784888129",
+    "scraped_at": "2026-07-24T13:00:02.502Z",
+    "tool_url": "https://github.com/got-project",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "Game of Trees: A Git-based version control system",
+    "use_modes": [
+      "CLI",
+      "git"
+    ],
+    "similar_tools": [
+      "git",
+      "version-control"
+    ],
+    "proposed_tests": [
+      "Verify correctness of version control operations",
+      "Evaluate performance with large repositories",
+      "Integrate with established development workflows"
+    ]
+  },
+  "test_results": {
+    "run_id": "llm-review-1784898255067-16ydz",
+    "log_dir": "/tmp/llm-review-1784898255067-16ydz",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/got-project/got /tmp/pip-req-build-6uyinkh1\n  fatal: could not read Username for 'https://github.com': No such device or address\n  error: subprocess-exited-with-error\n  \n  × git clone --filter=blob:none --quiet https://github.com/got-project/got /tmp/pip-req-build-6uyinkh1 did not run successfully.\n  │ exit code: 128\n  ╰─> See above for output.\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× git clone --filter=blob:none --quiet https://github.com/got-project/got /tmp/pip-req-build-6uyinkh1 did not run successfully.\n│ exit code: 128\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nCloning into 'got'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 15, in <module>\n    subprocess.run(['pip', 'install', 'git+https://github.com/got-project/got'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'git+https://github.com/got-project/got']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 21, in <module>\n    subprocess.run(['pip', 'install', '-e', './got'], cwd='./got')\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: './got'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting git+https://github.com/got-project/got\n  Cloning https://github.com/got-project/got to /tmp/pip-req-build-6uyinkh1\nInstalling git...\nINSTALL_OK\nInstalling game-of-trees package...\nInstalling game-of-trees from source...\n"
+  }
+}
