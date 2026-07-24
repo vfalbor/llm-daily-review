@@ -1,0 +1,102 @@
+{
+  "app_name": "The Beam Engine",
+  "url": "https://glinscott.github.io/beam-engine/",
+  "scored_at": "2026-07-24T13:04:14.019Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is a conceptual beam engine for energy conversion, which is a unique approach with 8 days since repo creation, showing some level of originality."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app has an install time of 8.7s and install success is true, indicating easy accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a research-model type app, it fits into the current landscape of innovative energy solutions, although its relevance could be higher with more integration into existing systems."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like energy-conversion with 14 stars, this app has -8 stars, indicating it's less popular but still unique in its concept."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 6 GitHub stars, 0 forks, and 0 open issues, the community is small but the 3 contributors and 0 days since last commit suggest some activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Despite basic run success being true, 0 out of 2 tests passed, which indicates potential issues with usability or stability."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type as it's a research-model and not intended for integration into existing workflows."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app's website has extensive animations and interactive figures, providing a deep dive into the engine, indicating high-quality documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 8 days since the repo was created and 0 days since the last commit, the project is in its early stages but shows recent activity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type as performance metrics like benchmarks are not applicable to a research-model."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "HN points are 436 with a sentiment score of 9/10, and 30 comments analyzed, showing a very positive response to the app's unique presentation and deep dive into complex concepts."
+    }
+  },
+  "summary": "The Beam Engine is a unique, conceptual approach to energy conversion with a well-researched and engaging presentation, although it lacks in community size and test passing rate.",
+  "recommendation": "worth-watching",
+  "app_url": "https://glinscott.github.io/beam-engine/",
+  "tool_url": "https://github.com/glinscott/beam-engine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49007221",
+  "domain": "hardware",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 6,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 6,
+      "contributors": 3,
+      "license": "none",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 8,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "An interactive guide to the beam engine",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "energy-conversion",
+        "stars": 14,
+        "repo": "yhtang123/Intelligent-High-Efficiency-Energy-Conversion-System"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Extensive animations and interactive figures provide a deep dive into the engine",
+        "Well-researched and well-designed, inspired by other notable writers",
+        "Engaging presentation and explanations help build a better understanding of complex concepts"
+      ],
+      "negative_signals": [
+        "Some readers felt certain aspects were left out, such as the Safety Valve and Pressure Gauge"
+      ],
+      "justification": "The comments generally praise the in-depth quality of the website, citing inspiration from other notable writers and a well-researched presentation. Although some readers noted missing details, the overall sentiment is very positive with only minor criticisms.",
+      "comment_count": 30,
+      "hn_points": 436
+    }
+  }
+}
