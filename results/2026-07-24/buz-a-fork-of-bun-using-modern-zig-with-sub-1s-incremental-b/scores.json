@@ -1,0 +1,89 @@
+{
+  "app_name": "Buz",
+  "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
+  "scored_at": "2026-07-24T13:02:19.206Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Buz is a fork of Bun using modern Zig, indicating a new approach with potential original contributions, but since it's a fork, it's not entirely new."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, and install time was 14.8s, indicating potential issues with accessibility and setup complexity."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a build tool based on modern Zig technology, Buz fits into current trends of seeking faster and more efficient build processes, but its impact is somewhat diminished by being a fork rather than a completely new tool."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Buz claims sub-1s incremental builds, which could be a differentiation point, but without direct comparisons to Bun (94,979 stars) and FastBuild (1,379 stars), it's hard to gauge its uniqueness accurately."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available for Buz, making it difficult to assess community engagement and health directly."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, it seems there are significant usability issues or the tool is not properly set up for testing."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Buz has a PyPI package (v4.3.1), indicating it can be easily integrated into Python workflows, but its requirement for Python >=3.10 might limit its compatibility with older projects."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation or a GitHub repository, it's challenging to assess the quality and completeness of Buz's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of information about Buz's development history, releases, and maintenance activity, its maturity level is difficult to determine."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While Buz claims sub-1s incremental builds, there are no benchmark results provided to quantify its performance advantages over similar tools like Bun and FastBuild."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available for Buz, as there are no comments or the analysis failed."
+    }
+  },
+  "summary": "Buz is a build tool based on modern Zig, aiming for fast incremental builds. However, its novelty, ease of use, and performance advantages are hard to gauge due to limited available data.",
+  "recommendation": "niche",
+  "app_url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
+  "tool_url": "https://github.com/sr.ht/buz",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49033099",
+  "domain": "language",
+  "app_type": "lang-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Bun",
+        "stars": 94979,
+        "repo": "oven-sh/bun"
+      },
+      {
+        "name": "FastBuild",
+        "stars": 1379,
+        "repo": "fastbuild/fastbuild"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "4.3.1",
+      "summary": "Buz is a set of light, simple and extensible implementations of event, command and query buses.",
+      "requires_python": ">=3.10",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
