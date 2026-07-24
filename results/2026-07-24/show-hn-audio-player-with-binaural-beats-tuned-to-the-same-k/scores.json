@@ -1,0 +1,92 @@
+{
+  "app_name": "Binaural Studio",
+  "url": "https://github.com/henrygabriels/binaural-studio",
+  "scored_at": "2026-07-24T13:05:21.472Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is not a fork and has a unique concept of tuning 'Binaural Beats' to the same key as the music, with 0 days since repo created."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install success is true, but the install time of 11.3s is moderate, and there's no PyPI package, making it less accessible."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a web-frontend application, it fits somewhat into the current trends, but its relevance is not strongly tied to LLM ecosystem trends, with its unique audio-focused features."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Compared to similar tools like VLC with 19,100 stars, Binaural Studio has only 3 stars, showing a significant difference in community traction and features."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 3 GitHub stars, 1 fork, and 1 contributor, the community around this project is minimal, and it was last updated 0 days ago."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests passed out of 1, indicating potential usability issues, despite basic run success being true."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There's no PyPI package, making integration harder, but it has a MIT license and is open-source, which could facilitate custom integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on documentation quality is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No clear data on maturity is available, such as versioning or release history, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark measurements are available for this application, making it impossible to assess its performance compared to others."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN comment sentiment data is available for this application."
+    }
+  },
+  "summary": "Binaural Studio is a niche web-frontend application with a unique audio feature but lacks community traction, documentation, and clear performance metrics. Its novelty and open-source nature are its strongest points.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/henrygabriels/binaural-studio",
+  "tool_url": "https://github.com/henrygabriels/binaural-studio",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49033302",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 3,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 3,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "VLC",
+        "stars": 19100,
+        "repo": "videolan/vlc"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
