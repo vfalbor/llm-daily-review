@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
+    "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
+    "hn_url": "https://news.ycombinator.com/item?id=49033099",
+    "points": 82,
+    "comments": 51,
+    "author": "kristoff_it",
+    "age": "2026-07-24T09:26:40 1784885200",
+    "scraped_at": "2026-07-24T13:00:02.497Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/sr.ht/buz",
+    "source_type": "tool",
+    "confidence": 0.99,
+    "domain": "language",
+    "app_type": "lang-tool",
+    "description": "A fast and efficient build tool based on modern Zig technology.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Bun",
+      "FastBuild"
+    ],
+    "proposed_tests": [
+      "Install and build a simple Rust program"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sr.ht/buz"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784898105405-3w2nh",
+    "log_dir": "/tmp/llm-review-1784898105405-3w2nh",
+    "install_success": false,
+    "install_time_s": 14.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'buz'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 109, in <module>\n    run_hello_world()\n  File \"/app/test.py\", line 27, in run_hello_world\n    subprocess.run(['cargo', 'run', '--release'], check=True, cwd='buz')\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'buz'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/27) Installing libgcc (15.2.0-r5)\n( 2/27) Installing jansson (2.15.0-r0)\n( 3/27) Installing libstdc++ (15.2.0-r5)\n( 4/27) Installing binutils (2.45.1-r1)\n( 5/27) Installing libgcc-static (15.2.0-r5)\n( 6/27) Installing libgomp (15.2.0-r5)\n( 7/27) Installing libatomic (15.2.0-r5)\n( 8/27) Installing gmp (6.3.0-r4)\n( 9/27) Installing isl26 (0.26-r2)\n(10/27) Installing mpfr4 (4.2.2-r0)\n(11/27) Installing mpc1 (1.3.1-r1)\n(12/27) Installing gcc (15.2.0-r5)\n(13/27) Installing musl-dev (1.2.6-r2)\n(14/27) Installing libxml2 (2.13.9-r2)\n(15/27) Installing llvm22-libs (22.1.3-r0)\n(16/27) Installing scudo-malloc (22.1.3-r0)\n(17/27) Installing rust (1.96.1-r0)\n(18/27) Installing libssh2 (1.11.1-r3)\n(19/27) Installing cargo (1.96.1-r0)\n(20/27) Installing go (1.26.3-r0)\n(21/27) Installing ada-libs (3.3.0-r0)\n(22/27) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(23/27) Installing icu-libs (78.1-r0)\n(24/27) Installing simdjson (4.2.4-r0)\n(25/27) Installing simdutf (9.0.0-r0)\n(26/27) Installing nodejs (24.17.0-r0)\n(27/27) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 869.7 MiB in 78 packages\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/sr.ht/buz.git']' returned non-zero exit status 128.\n"
+  }
+}
