@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+    "url": "https://github.com/palmier-io/palmier-pro",
+    "hn_url": "https://news.ycombinator.com/item?id=49022911",
+    "points": 175,
+    "comments": 26,
+    "author": "harrisontin",
+    "age": "2026-07-23T15:11:37 1784819497",
+    "scraped_at": "2026-07-24T13:00:02.508Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/palmier-io/palmier-pro",
+    "source_type": "tool",
+    "confidence": 0.99,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "Palmier Pro – Open-source macOS video editor built for AI",
+    "use_modes": [
+      "macOS"
+    ],
+    "similar_tools": [
+      "Final Cut Pro"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the app on macOS"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/palmier-io/palmier-pro"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784898322700-7chxm",
+    "log_dir": "/tmp/llm-review-1784898322700-7chxm",
+    "install_success": false,
+    "install_time_s": 18.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:response_time_ms:10.277032852172852\nBENCHMARK:health_check_time_ms:2.8154850006103516\nBENCHMARK:video_editing_time_ms:1000.1142024993896\nBENCHMARK:vs_final_cut_pro_editing_ratio:2.0002284049987793\nBENCHMARK:memory_usage_bytes:40440488\nBENCHMARK:cpu_usage_time_ms:40.24052619934082\nBENCHMARK:loc_count:971\nBENCHMARK:test_files_count:1",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-24T13_05_36_793Z-debug-0.log\nCloning into 'palmier-pro'...\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-24T13_05_41_553Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.17.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 90.4 MiB in 59 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 97.9 MiB in 60 packages\nINSTALL_FAIL:Command '['npm', 'install']' returned non-zero exit status 1.\nTEST_FAIL:clone_and_run_app:Command '['npm', 'run', 'start']' returned non-zero exit status 254.\nBENCHMARK:response_time_ms:10.277032852172852\nBENCHMARK:health_check_time_ms:2.8154850006103516\nTEST_FAIL:health_check:404\nBENCHMARK:video_editing_time_ms:1000.1142024993896\nBENCHMARK:vs_final_cut_pro_editing_ratio:2.0002284049987793\nBENCHMARK:memory_usage_bytes:40440488\nBENCHMARK:cpu_usage_time_ms:40.24052619934082\nBENCHMARK:loc_count:971\nBENCHMARK:test_files_count:1\nRUN_OK\n"
+  }
+}
