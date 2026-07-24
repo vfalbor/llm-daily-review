@@ -1,0 +1,111 @@
+{
+  "app_name": "Palmier Pro",
+  "url": "https://github.com/palmier-io/palmier-pro",
+  "scored_at": "2026-07-24T13:05:58.160Z",
+  "total_score": 76,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Palmier Pro has 11,636 stars on GitHub, which is significantly more than similar tools like Final Cut Pro, indicating a novel approach to video editing with AI integration, as seen in its 108-day-old repository with 21 contributors."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app's install success is false, and it took 18.8 seconds to install, which is relatively long, but it does run on macOS, as indicated by its 'use_modes' as macOS."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a video editor built for AI, Palmier Pro fits well into the current ecosystem trends of utilizing AI in creative fields, as shown by its GitHub repository and HN post reception."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 11,636 stars, Palmier Pro significantly outshines similar tools like Final Cut Pro, which has only 11 stars, demonstrating a clear differentiation in the market, especially considering its AI-focused features."
+    },
+    "community": {
+      "score": 8,
+      "justification": "Palmier Pro has a strong GitHub presence with 11,636 stars, 864 forks, and 21 contributors, showing a healthy and active community, further supported by its 175 HN points and positive sentiment score of 9/10."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that 0 out of 2 tests passed and the basic run success is true, it's challenging to assess the ease of use directly from the provided data, so a neutral score is assigned."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The absence of a PyPI package makes it less straightforward to integrate Palmier Pro into existing workflows or pipelines, especially for non-macOS environments."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "While specific documentation quality is not detailed in the provided data, the presence of a GitHub repository with a significant number of stars and contributors suggests that there are likely resources available for users, but without direct access to documentation quality, the score is based on the assumption of adequate community support."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "With 108 days since the repository was created, 1 day since the last commit, and 21 contributors, Palmier Pro shows signs of an actively maintained project, although its maturity could be further indicated by release versions or a changelog, which are not provided."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements show a response time of 10.28 ms, health check time of 2.82 ms, and video editing time of 1000.11 ms, indicating good performance, especially considering the video editing time in comparison to Final Cut Pro, with a ratio of 2.00."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 175 points and 26 comments analyzed, showing a very positive reception with convenient and accessible video editing, impressive UI, and encouraging community reception, outweighing minor criticisms."
+    }
+  },
+  "summary": "Palmier Pro is an open-source macOS video editor built for AI, offering a novel approach to video editing with a strong community and good performance, making it a notable tool in the current AI ecosystem.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/palmier-io/palmier-pro",
+  "tool_url": "https://github.com/palmier-io/palmier-pro",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49022911",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 11636,
+      "forks": 864,
+      "open_issues": 78,
+      "watchers": 11636,
+      "contributors": 21,
+      "license": "GPL-3.0",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 108,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "macOS video editor built for AI",
+      "topics": [
+        "ai-video",
+        "claude",
+        "macos",
+        "mcp",
+        "seedance2",
+        "swift",
+        "video-editor"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Final Cut Pro",
+        "stars": 11,
+        "repo": "CableTigerDitch/Final-Cut-Pro-Full-Version"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "convenient and accessible video editing",
+        "impressive promo video and UI",
+        "encouraging reception from the development community"
+      ],
+      "negative_signals": [
+        "some users prefer a prepaid credit system over subscription",
+        "minor criticism of pricing strategy and features"
+      ],
+      "justification": "The overall sentiment is very positive, with users praising the editor's convenience, accessibility, and UI. Some minor criticisms were raised regarding the pricing strategy and the use of subscription model, but these did not detract from the overall enthusiasm for the project.",
+      "comment_count": 26,
+      "hn_points": 175
+    }
+  }
+}
