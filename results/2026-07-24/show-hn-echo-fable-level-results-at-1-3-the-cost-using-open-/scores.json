@@ -1,0 +1,94 @@
+{
+  "app_name": "Echo",
+  "url": "https://openweightmodels.org",
+  "scored_at": "2026-07-24T13:03:34.269Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool achieves Fable-level results at 1/3 the cost using open-weight models, which is a novel approach, as mentioned in the title 'Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models' and described in the URL https://openweightmodels.org."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and the install time is not available, with a reported time of 6.4s for the container test, which indicates difficulty in installing the tool."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is described as achieving 'Fable-level results at 1/3 the cost using open-weight models', which fits well with the current LLM ecosystem trends, especially with the emphasis on cost-effectiveness and performance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool is compared to similar tools like 'fable' and 'open-weight-models', and its unique selling point is the cost-effectiveness, with '1/3 the cost', but there is no direct comparison of features or BENCHMARK comparisons available."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected or API unavailable, so we cannot assess the community based on GitHub stars or contributors, but the HN points of 416 indicate some interest in the tool."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is false, and there are no tests passed, indicating that the tool may be difficult to use or has significant usability issues, with 0 tests passed out of 0 total."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "There is no API/SDK/webhook mention on the page, and no install command on the page, which suggests that integrating this tool may require additional effort, but it does have a PyPI package available."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The page content length is 56 chars, which is very short and does not indicate substantive documentation, and there is no docs/wiki/guide link, no changelog or release notes, and no examples or demo on the web page."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "There is no detected version, no changelog or release notes, and no information on the project's maturity or release cycle, but the HN points of 416 indicate some level of interest in the project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no BENCHMARK lines available from the tests, and no performance claims on the web page, so we cannot assess the performance of the tool."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 416 HN points, 30 comments analyzed, and positive signals about the idea's potential, but also negative signals about lack of information and concerns about secrecy and potential security weaknesses."
+    },
+    "overall_impact": {
+      "score": 5,
+      "justification": "Given the novelty of the approach and the potential for cost-effectiveness, but also considering the difficulty in installing and using the tool, as well as the lack of documentation and unclear performance, the overall impact is uncertain and requires further evaluation."
+    }
+  },
+  "summary": "Echo is a novel tool that achieves Fable-level results at 1/3 the cost using open-weight models, but it has significant usability issues, lacks documentation, and its performance is unknown, which may limit its adoption and impact.",
+  "recommendation": "niche",
+  "app_url": "https://news.ycombinator.com/item?id=49026810",
+  "tool_url": "https://openweightmodels.org",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49026810",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.15.0",
+      "summary": "Callback Properties in Python",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Interesting idea with potential",
+        "Approaches like this have a lot of potential",
+        "Many commenters think the idea is cool and fun"
+      ],
+      "negative_signals": [
+        "Lack of information on the project and its models",
+        "Some concerns about secrecy around routing decisions and training data",
+        "Premature or not fully thought-through"
+      ],
+      "justification": "The comments generally praise the idea and its potential for innovation. However, some commenters express concerns about the lack of transparency around training data, routing decisions, and potential security weaknesses, as well as issues with the project's current implementation.",
+      "comment_count": 30,
+      "hn_points": 416
+    }
+  }
+}
