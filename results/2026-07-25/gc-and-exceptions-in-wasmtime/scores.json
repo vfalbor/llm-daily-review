@@ -1,0 +1,96 @@
+{
+  "app_name": "Wasmtime",
+  "url": "https://github.com/wasmtime/wasmtime",
+  "scored_at": "2026-07-25T13:02:08.718Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article discusses GC and exceptions in Wasmtime, providing a unique perspective on the WASM ecosystem, with 767.9257392883301ms build time reported"
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The tool requires Python 3.9 or higher, with an install time of 15.6s and a successful installation"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is a devtool-building type, fitting current LLM ecosystem trends, especially with WASM's increasing relevance in compilation targets"
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like LLVM with 39,447 stars, Wasmtime provides a unique approach to GC and exceptions, but its impact is still developing"
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository data is available for direct assessment, but HN points and comments provide some insight into community engagement"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 4 tests passed, indicating some friction in usage or testing"
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool has a PyPI package (v47.0.1) and supports CLI and browser modes, making integration relatively straightforward"
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article itself serves as documentation, providing inline code examples and explanations, but no direct GitHub wiki or pages data is available"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No direct GitHub data is available for assessing maturity through release history, forks, or open issues, so scoring is based on the availability of a PyPI package"
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The benchmark measurements show a build time of 767.9257392883301ms, indicating reasonable performance for compilation targets"
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10 with 120 points and 14 comments, indicating general positivity but also some disappointment and criticism regarding WASM's progress and limitations"
+    }
+  },
+  "summary": "Wasmtime is a tool providing a unique approach to GC and exceptions in the WASM ecosystem, with notable differentiation and relevance but facing some community and maturity challenges. Its performance is reasonable, and while ease of use could be improved, it contributes significantly to the compilation targets landscape.",
+  "recommendation": "worth-watching",
+  "app_url": "https://bytecodealliance.org/articles/wasmtime-gc",
+  "tool_url": "https://github.com/wasmtime/wasmtime",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=48981665",
+  "domain": "devtool",
+  "app_type": "devtool-building",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LLVM",
+        "stars": 39447,
+        "repo": "llvm/llvm-project"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "47.0.1",
+      "summary": "A WebAssembly runtime powered by Wasmtime",
+      "requires_python": ">=3.9",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "WASMtime provides lightweight and capability-secured serverside runtime",
+        "Working on making WASM a success, building hypen.space",
+        "WASM has a good use case in compilation targets"
+      ],
+      "negative_signals": [
+        "WASM has been a disappointment",
+        "WASM isn't running anywhere near HTML, CSS or JavaScript",
+        "GC in WASM is not suitable for .NET due to non-matching semantics"
+      ],
+      "justification": "The discussion is generally positive, with some criticism about the slow progress of WASM and the limitations of its GC implementation, particularly with regards to .NET.",
+      "comment_count": 14,
+      "hn_points": 120
+    }
+  }
+}
