@@ -1,0 +1,99 @@
+{
+  "app_name": "Global Oil Network",
+  "url": "https://globaloilnetwork.staffinganalytics.io/",
+  "scored_at": "2026-07-25T13:03:51.344Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The app simulates the impact of a Hormuz oil chokepoint closure on global oil flows using real data, which is a unique approach. However, similar tools like Stratfor and Energy Intelligence exist, so it's not entirely new (13, 27, and 4 stars respectively)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and the app is not pip-installable, which indicates high system requirements. The install time is 7.4s, but this is irrelevant given the install failure."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is highly relevant to current events and the LLM ecosystem, as it simulations the impact of a Hormuz oil chokepoint closure, which is a pressing global issue."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app differentiates itself from similar tools like Stratfor, Energy Intelligence, and Platts through its unique simulation approach and use of real oil trade data. However, the difference is not drastic (13, 27, and 4 stars respectively)."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so community engagement is hard to assess. However, the HN points are 207, which indicates some interest in the app."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 / 5, and the install success is false, which indicates a difficult user experience. The basic run success is true, but this is not enough to redeem the overall usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app is not pip-installable and has no API modes or license information available, which makes integration difficult. The use modes are limited to web browser, which restricts flexibility."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation is available, so it's hard to assess the quality of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the maturity of the app, such as days since created, forks count, or open issues."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the performance of the app."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, which indicates a generally positive discussion about the app. The HN points are 207, and the comments analyzed are 30, with positive signals including 'interesting discussion on oil market dynamics' and 'useful tool for stress testing global oil market scenarios'. However, some users express concerns about data accuracy and the model's predictions."
+    }
+  },
+  "summary": "The Global Oil Network app simulates the impact of a Hormuz oil chokepoint closure on global oil flows using real data. While it has a unique approach and is highly relevant to current events, it has usability issues and lacks documentation and maturity. The community is somewhat engaged, with 207 HN points and a sentiment score of 7/10.",
+  "recommendation": "niche",
+  "app_url": "https://globaloilnetwork.staffinganalytics.io/",
+  "tool_url": "https://github.com/user/globaloilnetwork",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49020545",
+  "domain": "infrastructure",
+  "app_type": "infra-analytics",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Stratfor",
+        "stars": 13,
+        "repo": "samchaineau/StratFormer"
+      },
+      {
+        "name": "Energy Intelligence",
+        "stars": 27,
+        "repo": "intelligence-csd-auth-gr/greek-solar-wind-energy-forecasting"
+      },
+      {
+        "name": "Platts",
+        "stars": 4,
+        "repo": "matt-platts/pacman-1999"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Interesting discussion on oil market dynamics",
+        "Useful tool for stress testing global oil market scenarios",
+        "Game-theoretic aspect of the Strait of Hormuz simulation is fascinating"
+      ],
+      "negative_signals": [
+        "Some concerns about data accuracy and current conditions",
+        "Doubts about model predictions and assumptions",
+        "Limited consideration of real-world complexities"
+      ],
+      "justification": "The comment section is generally positive about the project, with several users finding it 'interesting' and 'useful' for understanding oil market dynamics. However, some users express concerns about data accuracy and the model's predictions, highlighting the need for further refinement. Additionally, some commenters point out the omission of real-world complexities, which may undermine the model's effectiveness.",
+      "comment_count": 30,
+      "hn_points": 207
+    }
+  }
+}
