@@ -1,0 +1,82 @@
+{
+  "app_name": "MouthPad",
+  "url": "https://www.augmental.tech/",
+  "scored_at": "2026-07-25T13:03:03.969Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "MouthPad solves a problem in a genuinely new way, with a unique approach to tongue-controlled interfaces, making it a first-of-its-kind solution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has no install success or install time data, and no PyPI package was found, indicating moderate complexity in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "MouthPad addresses a niche need in the current hardware landscape, particularly for assistive technology, with a fit that is clearly useful for specific user groups."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 32 HN points and comments praising its innovation, MouthPad stands out from similar tools with its unique feature set, notably its tongue-controlled interface."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 32 HN points, 9 comments, and a sentiment score of 7/10, MouthPad has a small but active community, with both positive and negative signals regarding its assistive potential and privacy concerns."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Given the lack of tests passed and no clear documentation on usage, the ease of use is compromised, despite its basic run success."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "MouthPad, being a hardware device, does not have a straightforward integration path into existing workflows or pipelines without additional software components."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The webpage lacks a docs/wiki link, changelog, or examples, indicating sparse documentation, though it has a significant content length of 31972 characters, suggesting some level of information availability."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With a detected version of 56.25 and no clear release notes, MouthPad shows some signs of development maturity, but the absence of a clear versioning history or open issues makes it difficult to assess fully."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The performance time of 1.0196807384490967 seconds and a vs_python_performance_ratio of 0.9976869992779608 suggest decent performance, though the context of these metrics is somewhat unclear without direct comparison to similar devices."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score of 7/10, with 32 points and 9 comments, indicates a generally positive reception, with comments highlighting its innovative approach to assistive technology and potential drawbacks like privacy concerns."
+    }
+  },
+  "summary": "MouthPad is an innovative, tongue-controlled touchpad that addresses a specific need in assistive technology, offering a unique solution with potential for users with specific disabilities, though it raises concerns about privacy and commercial viability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.augmental.tech/",
+  "tool_url": "https://www.augmental.tech/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49045446",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "assistive tech that makes the world better",
+        "refreshing innovation in the hardware space",
+        "could be useful as an interface for AR glasses"
+      ],
+      "negative_signals": [
+        "raises privacy concerns (e.g. mouth inspections)",
+        "may not be commercially viable at high price"
+      ],
+      "justification": "The comments are generally positive, praising the innovation and potential for assistive tech, but also raise concerns about privacy and the commercial viability of the product at its current price.",
+      "comment_count": 9,
+      "hn_points": 32
+    }
+  }
+}
