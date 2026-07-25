@@ -1,0 +1,10 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+    Creating binary (application) `wasmtime-test` package
+note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+   Compiling wasmtime-test v0.1.0 (/wasmtime-test)
+    Finished `release` profile [optimized] target(s) in 0.68s
