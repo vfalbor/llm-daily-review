@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Designing an Ethernet Switch ASIC",
+    "url": "https://essenceia.github.io/projects/ethernet_switch_asic/",
+    "hn_url": "https://news.ycombinator.com/item?id=48985182",
+    "points": 196,
+    "comments": 46,
+    "author": "random__duck",
+    "age": "2026-07-20T21:35:33 1784583333",
+    "scraped_at": "2026-07-25T13:00:02.344Z",
+    "tool_url": "https://github.com/essenceia/ethernet_switch_asic",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "Open source Ethernet switch ASIC design using Verilog",
+    "use_modes": [
+      "Verilog simulator"
+    ],
+    "similar_tools": [
+      "Xilinx SDSoC",
+      "NVIDIA Tegra"
+    ],
+    "proposed_tests": [
+      "Verify design functionality using simulation and FPGA prototyping",
+      "Measure latency and throughput of packet processing",
+      "Analyze energy efficiency of the design compared to other switch fabrics"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/essenceia/ethernet_switch_asic"
+  },
+  "test_results": {
+    "run_id": "llm-review-1784984632543-stdph",
+    "log_dir": "/tmp/llm-review-1784984632543-stdph",
+    "install_success": true,
+    "install_time_s": 9.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'ethernet_switch_asic'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:design_functionality:[Errno 2] No such file or directory: 'make'\nTEST_FAIL:latency_and_throughput:[Errno 2] No such file or directory: 'make'\nTEST_FAIL:energy_efficiency:[Errno 2] No such file or directory: 'make'\nTEST_FAIL:baseline_tool:[Errno 2] No such file or directory: 'make'\nRUN_OK\n"
+  }
+}
