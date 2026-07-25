@@ -1,0 +1,83 @@
+{
+  "app_name": "Opus 5",
+  "url": "https://artificialanalysis.ai/models",
+  "scored_at": "2026-07-25T13:02:27.279Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides an in-depth analysis of model capabilities, indicating a unique approach with a detected version of 13.982, which suggests significant development and refinement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time is 7.9s, indicating issues with installation, and there's no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As the current #1 on the Artificial Analysis Intelligence Leaderboard, Opus 5 demonstrates high relevance to the current AI ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While there's no direct comparison data, the fact that it's a leader in its category and has in-depth analysis suggests differentiation, with a detected version suggesting ongoing development."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 320 HN points and 30 comments analyzed, there's a noticeable community interest, though the absence of GitHub data limits a full assessment of community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 1, and basic run success is false, indicating significant usability issues, with no install command on the page, suggesting difficulty in getting started."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of an API/SDK/webhook mention on the webpage and the absence of an install command suggest some ease of integration but also highlight the lack of straightforward installation instructions."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The webpage has a docs/wiki/guide link, changelog or release notes, and examples or demo, with a page content length of 800064 chars, indicating substantial documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version of 13.982 and the presence of changelog or release notes suggest a level of maturity, despite the lack of direct age data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct benchmark comparisons are available from the test results or webpage, making it difficult to assess performance comprehensively."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "HN sentiment score is 9/10, with 320 points, 30 comments, and positive signals regarding performance and potential, despite some negative comments about specific issues."
+    }
+  },
+  "summary": "Opus 5 leads in the Artificial Analysis Intelligence Leaderboard with unique model analysis capabilities, significant community interest, and substantial documentation, but faces challenges in usability and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://artificialanalysis.ai/models",
+  "tool_url": "https://artificialanalysis.ai/models",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49040741",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Impressive performance compared to peers",
+        "Potential for significant cost savings",
+        "In-depth analysis of model capabilities"
+      ],
+      "negative_signals": [
+        "Some users experience issues with permission prompts",
+        "Limited debugging capabilities",
+        "Model behavior may vary across different setups"
+      ],
+      "justification": "The overall sentiment of the comments is overwhelmingly positive, with users praising the performance of Opus 5 and its potential to significantly cut costs. However, there are some concerns raised about the model's ability to handle certain scenarios, such as permission prompts and debugging, as well as potential variations in behavior across different setups.",
+      "comment_count": 30,
+      "hn_points": 320
+    }
+  }
+}
