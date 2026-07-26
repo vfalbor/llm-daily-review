@@ -1,0 +1,82 @@
+{
+  "app_name": "SIMD for Collision",
+  "url": "https://box2d.org/posts/2026/07/simd-for-collision/",
+  "scored_at": "2026-07-26T13:03:42.561Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app explores the use of SIMD for collision detection, which is a genuinely new approach in the field of physics engines, as compared to similar tools like PhysX."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable and the install time is not applicable, but the page content length is 173 chars, indicating sparse documentation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is relevant to the current physics engine landscape, particularly with the trend of optimizing performance using SIMD, as described in the tutorial."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool differentiates itself from similar tools like PhysX by focusing on SIMD optimization, but the lack of ARM support is a notable drawback."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The HN points are 112 and there are 28 comments analyzed, with positive signals indicating excitement about the potential of SIMD, but the sentiment score is not extremely high."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is true, but the tests passed is 0/4, indicating difficulty in using the tool, and the page content length is 173 chars, indicating sparse documentation."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The criterion does not apply to this app type, as it is a tutorial and not a library or framework."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The page has a docs/wiki/guide link, but the content length is 173 chars, indicating sparse documentation, and there is no changelog or release notes."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The detected version is 0.133.0, but there is no changelog or release notes, and the page content length is 173 chars, indicating a lack of maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The criterion does not apply to this app type, as it is a tutorial and not a performance-critical tool."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 112 HN points and 28 comments analyzed, indicating a generally positive sentiment, with excitement about the potential of SIMD and practical discussions about its use."
+    }
+  },
+  "summary": "The SIMD for Collision tutorial explores the use of SIMD for collision detection, a new approach in the field of physics engines, with a generally positive community sentiment, but limited documentation and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://box2d.org/posts/2026/07/simd-for-collision/",
+  "tool_url": "https://box2d.org/",
+  "source_type": "tutorial",
+  "hn_url": "https://news.ycombinator.com/item?id=49013464",
+  "domain": "mobile",
+  "app_type": "mobile-cross",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement about the potential of SIMD for collision detection",
+        "Practical examples and discussions about using SIMD",
+        "Acknowledgement of the complexity of implementing SIMD effectively"
+      ],
+      "negative_signals": [
+        "Some comments criticizing the lack of ARM support or the use of outdated ARM instructions",
+        "Concerns about the complexity and challenges of implementing SIMD effectively"
+      ],
+      "justification": "The overall sentiment is overwhelmingly positive, with many users excited about the potential of SIMD for collision detection and sharing practical examples of its use. However, some users raise valid concerns about the lack of ARM support and the complexity of implementing SIMD effectively.",
+      "comment_count": 28,
+      "hn_points": 112
+    }
+  }
+}
