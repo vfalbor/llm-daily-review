@@ -1,0 +1,102 @@
+{
+  "app_name": "DskDitto",
+  "url": "https://github.com/jdefrancesco/dskDitto",
+  "scored_at": "2026-07-26T13:03:10.377Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "DskDitto has a unique approach to duplicate-file detection using MinHash and SimHash algorithms, but similar tools like fclones exist, as noted in the HN comments. Its implementation is relatively new, with the repository created 1867 days ago."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installs successfully in 16.9 seconds, but it is not available on PyPI, which might limit its accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-cli, DskDitto fits well with the current ecosystem trend of needing efficient tools for development tasks, particularly in managing and optimizing file systems."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 188 GitHub stars, DskDitto has a notable presence, but it's not vastly superior to other similar tools like fclones in terms of functionality, as discussed in the HN comments."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 5 contributors and 188 stars, indicating some community involvement, but more data is needed to fully assess its community health."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Although the basic run was successful, no tests passed out of 3, which might indicate issues with usability or functionality that need to be addressed."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The absence of a PyPI package and the need for manual installation could make integration into workflows more challenging for users."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The project has a GitHub repository with some documentation, but a more detailed assessment of its quality and comprehensiveness is needed for a higher score."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "With a recent commit (0 days since last commit) and 1867 days since its creation, DskDitto shows signs of active maintenance, contributing to its maturity."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "DskDitto is described as 'ultra-fast' and 'parallel,' suggesting good performance, although specific benchmark comparisons to similar tools are needed for a definitive assessment."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With an HN sentiment score of 7/10, positive comments about its effectiveness and interface, and 36 HN points, the project seems to be well-received, despite some criticisms and suggestions for improvement."
+    }
+  },
+  "summary": "DskDitto is a unique and relatively fast duplicate-file detection tool that, despite its strengths, faces competition from similar tools and has room for improvement in terms of usability and integration. Its active maintenance and positive community reception are notable advantages.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/jdefrancesco/dskDitto",
+  "tool_url": "https://github.com/jdefrancesco/dskDitto",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49002762",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 188,
+      "forks": 6,
+      "open_issues": 5,
+      "watchers": 188,
+      "contributors": 5,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1867,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Ultra fast and easy duplicate file finder. Awesome TUI/GUI to manage results.",
+      "topics": [
+        "disk-cleaner",
+        "file-management",
+        "utilities"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "fast and parallel duplicate-file detection",
+        "nice interfaces",
+        "effective algorithm (MinHash, SimHash) for fuzzy matching"
+      ],
+      "negative_signals": [
+        "comparable tools exist (fclones)",
+        "potential for quadratic performance issues without proper optimization",
+        "minor nitpick on implementation by the author"
+      ],
+      "justification": "Despite some criticism, the project appears to be effective and well-received, with several contributors offering suggestions and tips. The author's involvement has been noted and might impact the project's development.",
+      "comment_count": 6,
+      "hn_points": 36
+    }
+  }
+}
