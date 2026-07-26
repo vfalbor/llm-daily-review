@@ -1,0 +1,83 @@
+{
+  "app_name": "Golf Course Browser",
+  "url": "https://golfcoursebrowser.com/",
+  "scored_at": "2026-07-26T13:02:25.444Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a unique mapping of every US golf course, which is a new approach to providing information about golf courses. According to the provided data, the app's novelty is supported by its ability to provide a comprehensive dataset, with 156 HN points and a sentiment score of 6/10."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app's system requirements are moderate, with an install time of 9.7s, which is relatively fast. The app's install success is true, indicating that it can be installed without issues."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to the current web development landscape, as it provides a useful tool for golf enthusiasts and professionals. The app's relevance is supported by its 156 HN points and positive sentiment score."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app differentiates itself from similar tools by providing a comprehensive mapping of every US golf course. However, the lack of a GitHub repository and PyPI package reduces its differentiation score."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The app's community is moderate, with 156 HN points and 30 comments analyzed. The sentiment score is 6/10, indicating a generally positive tone. However, the lack of a GitHub repository and contributors reduces the community score."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The app's ease of use is moderate, with 2/3 tests passed and a basic run success of true. However, the lack of a GitHub repository and documentation reduces the ease of use score."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app's ease of integration is neutral, as there is no PyPI package or API modes available. The app's integration score is reduced due to the lack of available data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is neutral, as there is no available data on the app's documentation. The app's documentation score is reduced due to the lack of available data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity is neutral, as there is no available data on the app's maturity. The app's maturity score is reduced due to the lack of available data."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app's performance is high, with a response time of 4.81ms and memory usage of 106889 bytes. The app's performance score is supported by the benchmark measurements from the container."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The app's HN sentiment is positive, with a sentiment score of 6/10, 156 HN points, and 30 comments analyzed. The sentiment score indicates a generally positive tone, with praise for the dataset and potential for expansion."
+    }
+  },
+  "summary": "The Golf Course Browser is a unique mapping of every US golf course, providing a useful tool for golf enthusiasts and professionals. The app has a moderate community, ease of use, and system requirements, but lacks available data on integration, documentation, and maturity. The app's performance is high, with fast response times and low memory usage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://golfcoursebrowser.com/",
+  "tool_url": "https://github.com/golf-course-browser/golf-course-browser",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49054010",
+  "domain": "web",
+  "app_type": "web-webapp",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Accurate and useful dataset",
+        "Potential for expansion beyond US",
+        "Community engagement and reports being taken into consideration"
+      ],
+      "negative_signals": [
+        "Some comments raise concerns about resource usage, particularly water",
+        "Criticism of golf courses as private and exclusive spaces",
+        "Abuse of public resources for private use in some countries"
+      ],
+      "justification": "While there are some criticisms, the overall sentiment is generally positive, with praise for the dataset and potential for expansion. However, concerns about resource usage and exclusivity of golf courses also bring a mixed tone to some comments.",
+      "comment_count": 30,
+      "hn_points": 156
+    }
+  }
+}
