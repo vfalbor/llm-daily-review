@@ -1,0 +1,83 @@
+{
+  "app_name": "ESP32 Plane Radar",
+  "url": "https://github.com/kzt/esp32-plnradar",
+  "scored_at": "2026-07-26T13:02:04.875Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project uses an innovative approach to create a plane radar using an ESP32, as seen in the blog post at https://blog.ktz.me/esp32-plane-radar/, with 187 HN points and a sentiment score of 8/10."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, install time is 7.1s, and no PyPI package was found, indicating potential difficulties in setting up the project."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project fits into the current IoT landscape, using an ESP32 to create a plane radar, but its relevance is somewhat niche, as seen in the 30 comments on HN."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project's use of an ESP32 and WiFi positioning to assist in determining lat/long is a unique approach, setting it apart from other similar tools, as described in the blog post."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Although the project is open-source and has an HN post with 187 points, there is no GitHub repo detected to assess the community size and engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has a basic run success of false, indicating potential difficulties in usage, and no tests were passed, suggesting that the project may be challenging to use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to hardware projects like this one, as integration is not relevant in the same way it is for software projects."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The project has a blog post describing it, but no GitHub wiki or pages, and no clear documentation on usage or setup, as seen in the blog post and HN comments."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project appears to be in an early stage, with no clear release tags or versioning, but it has an HN post with some engagement, indicating some level of maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this type of project, as performance is not a relevant metric for a hardware-based plane radar."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 187 points and 30 comments, indicating a generally positive reception, with positive signals including 'Impressive project' and 'Creative solution', and negative signals including 'Limited functionality' and 'Concerns about terminology'."
+    }
+  },
+  "summary": "The ESP32 Plane Radar is a unique and innovative project that uses an ESP32 to create a plane radar, but it has some challenges in terms of setup and usage, and its documentation and community engagement are limited.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.ktz.me/esp32-plane-radar/",
+  "tool_url": "https://github.com/kzt/esp32-plnradar",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49054107",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive project that can receive and decode ADS-B signals using an ESP32",
+        "Creative solution to the USB bandwidth limitation",
+        "Innovative use of WiFi positioning to assist in determining lat/long"
+      ],
+      "negative_signals": [
+        "Concerns about the terminology used, calling it a 'radar' when it's not",
+        "Limited functionality, relying on user input for lat/long",
+        "Complexity of decoding ADS-B traffic may have been oversimplified"
+      ],
+      "justification": "The project has received generally positive comments, with several users praising its creativity and innovative use of technology. However, there are also some valid concerns about the terminology used and the limitations of the project's functionality. The comments also suggest that decoding ADS-B traffic may be more complex than initially presented.",
+      "comment_count": 30,
+      "hn_points": 187
+    }
+  }
+}
