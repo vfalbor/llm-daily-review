@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "SIMD for Collision",
+    "url": "https://box2d.org/posts/2026/07/simd-for-collision/",
+    "hn_url": "https://news.ycombinator.com/item?id=49013464",
+    "points": 112,
+    "comments": 30,
+    "author": "birdculture",
+    "age": "2026-07-22T21:09:59 1784754599",
+    "scraped_at": "2026-07-26T13:00:02.368Z",
+    "is_reviewable": true,
+    "tool_url": "https://box2d.org/",
+    "source_type": "tutorial",
+    "confidence": 0.9,
+    "domain": "mobile",
+    "app_type": "mobile-cross",
+    "description": "Performance optimization for collision detection using SIMD",
+    "use_modes": [
+      "code"
+    ],
+    "similar_tools": [
+      "PhysX"
+    ],
+    "proposed_tests": [
+      "Run Box2D benchmark with and without SIMD, measure FPS gain",
+      "Compare performance with PhysX, report difference"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/erinc/box2d-js"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785070991247-vxway",
+    "log_dir": "/tmp/llm-review-1785070991247-vxway",
+    "install_success": true,
+    "install_time_s": 15.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: Could not find a version that satisfies the requirement pybox2d (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for pybox2d\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting Shapely\n  Downloading shapely-2.1.2-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.8 kB)\nCollecting numpy>=1.21 (from Shapely)\n  Downloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\nDownloading shapely-2.1.2-cp312-cp312-musllinux_1_2_x86_64.whl (4.2 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 14.4 MB/s eta 0:00:00\nDownloading numpy-2.5.1-cp312-cp312-musllinux_1_2_x86_64.whl (18.4 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.4/18.4 MB 99.7 MB/s eta 0:00:00\nInstalling collected packages: numpy, Shapely\nSuccessfully installed Shapely-2.1.2 numpy-2.5.1\nINSTALL_OK\nTEST_FAIL:SIMD_Collision:No module named 'pybox2d'\nTEST_FAIL:Compare_PhysX:No module named 'physx'\nTEST_FAIL:Memory_Usage:No module named 'pybox2d'\nTEST_FAIL:FPS_Gain:No module named 'pybox2d'\nRUN_OK\n"
+  }
+}
