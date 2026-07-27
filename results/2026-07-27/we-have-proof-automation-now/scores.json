@@ -1,0 +1,94 @@
+{
+  "app_name": "Lean Zstd",
+  "url": "https://github.com/benoitf/lean-zstd",
+  "scored_at": "2026-07-27T13:06:46.788Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool brings a new approach to proof automation, combining LLMs with formal methods, as mentioned on the HN post with 194 points and 30 comments."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false and install time is not relevant due to the install failure, as shown in the container test results."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The tool fits well with current LLM ecosystem trends, addressing an acute pain point in formal verification and proof automation, as observed in the HN discussion with a sentiment score of 8/10."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool has a unique approach, but its differentiation from similar tools like zlib (6,981 stars) and lz4 (11,962 stars) is not drastically high due to the niche area of proof automation."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Since there's no direct GitHub repository detected for this specific tool, we use the HN points (194) and comments (30) as a proxy, indicating a small but engaged community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that no tests passed and basic run success is false, the ease of use is severely impacted, reflecting a score of 1."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool does not seem to have a straightforward integration path, with no PyPI package found and no clear API modes for easy use, affecting its integration score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data directly related to the tool's documentation, and considering the tool's unique nature, we default to a neutral score of 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data exists to accurately assess the maturity of this tool, including no direct GitHub repository information, leading to a default score of 5."
+    },
+    "performance": {
+      "score": null,
+      "justification": "The performance criterion does not apply to this app type as it is more related to infrastructure and proof automation rather than direct computational performance, and no benchmarks were provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 194 points, 30 comments, and positive signals towards the future of formal methods and proof automation, indicating a very positive community response."
+    }
+  },
+  "summary": "Lean Zstd is a tool for proof automation, leveraging LLMs and formal methods, which, despite its potential, faces challenges in ease of use and integration, but garners significant community interest and positive sentiment.",
+  "recommendation": "niche",
+  "app_url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
+  "tool_url": "https://github.com/benoitf/lean-zstd",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49062291",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "zlib",
+        "stars": 6981,
+        "repo": "madler/zlib"
+      },
+      {
+        "name": "lz4",
+        "stars": 11962,
+        "repo": "lz4/lz4"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Automation of formal verification has the potential to make software development more reliable and secure",
+        "LLMs combined with proof irrelevance promise to be an extremely capable form of proof automation",
+        "Many commenters see a future where formal methods are cheap enough to be practical in software development"
+      ],
+      "negative_signals": [
+        "Writing formal specs can be longer and more complicated than the code itself",
+        "LLMs are not great at choosing good abstractions, and may write code that is too specific",
+        "There are still significant concerns about the alignment problem, and how AI will work without human supervision"
+      ],
+      "justification": "The sentiment is generally very positive, with many commenters excited about the potential of proof automation. However, there are still some concerns about the challenges of writing formal specs and ensuring that AI systems can make good decisions without human oversight.",
+      "comment_count": 30,
+      "hn_points": 194
+    }
+  }
+}
