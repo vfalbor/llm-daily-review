@@ -1,0 +1,86 @@
+{
+  "app_name": "Unix Spell",
+  "url": "https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram",
+  "scored_at": "2026-07-27T13:07:54.609Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The Unix Spell implementation in minimal RAM is a unique approach, as seen in the blog post title, indicating a novel solution with 149248 characters of content."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is not pip-installable and has no PyPI package, with an install time not applicable due to failed install success."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's focus on minimal RAM usage has relevance in current development trends, especially for low-resource devices, as indicated by the blog post's content length."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Pico C and Tiny BASIC, the Unix Spell implementation has a unique focus on minimal RAM usage, with API/SDK/webhook mention on the page."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 58 HN points and 4 comments analyzed, the community engagement is limited but has positive signals like technical discussion and in-depth analysis."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app's basic run success is false, and there are no tests passed, indicating difficulty in use or setup, as shown by the container test results."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app has no PyPI package, but it has API/SDK/webhook mention on the page, indicating some potential for integration, although no install command is provided."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The blog post has a page title, a guide link, examples, and 149248 characters of content, indicating a relatively thorough documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 0.2, indicating an early stage of development, and there's no changelog or release notes, but the page content length suggests some maturity in documentation."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no available benchmark results or performance claims to evaluate the app's performance, so it's set to null as it's not applicable for this type of app."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this type of scoring as it is included in the community score, so it's set to null."
+    },
+    "overall_app_type_score": {
+      "score": 5,
+      "justification": "The app type is lang-new, which is relatively rare, and there's limited information available to score it accurately, so a neutral score of 5 is assigned."
+    }
+  },
+  "summary": "The Unix Spell implementation in minimal RAM is a unique approach with a relatively thorough documentation and some potential for integration, but it has difficulty in use or setup and limited community engagement.",
+  "recommendation": "niche",
+  "app_url": "https://blog.codingconfessions.com/p/how-unix-spell-ran-in-64kb-ram",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49066750",
+  "domain": "devtool",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "technical discussion",
+        "in-depth analysis",
+        "engaged community"
+      ],
+      "negative_signals": [
+        "minor point of contention",
+        "nitpicky debate"
+      ],
+      "justification": "The discussion is generally technical and in-depth, with some engaged community members exploring the nuances of bloom filters. However, due to the limited number of comments (2), it is difficult to say whether the discussion is representative of the community.",
+      "comment_count": 4,
+      "hn_points": 58
+    }
+  }
+}
