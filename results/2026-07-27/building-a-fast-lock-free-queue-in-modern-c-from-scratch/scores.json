@@ -1,0 +1,93 @@
+{
+  "app_name": "Fast Lock-Free Queue",
+  "url": "https://github.com/jaysmito/cfql",
+  "scored_at": "2026-07-27T13:04:09.388Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The implementation of a lock-free queue in Modern C++ is a novel approach, considering the complexity of achieving thread safety without locks, as mentioned in the article. Although the blog post does not provide specific metrics on its uniqueness, it contributes to the existing body of research on lock-free data structures."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, and the installation process is not straightforward, which may hinder its accessibility. However, it does not require an API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The article is relevant to current trends in concurrent programming and synchronization techniques. The discussion around lock-free queues aligns with ongoing research in the field."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to other tools like libuv (27,037 stars) and OpenMP (2,441 stars), this implementation is distinctive in its focus on a lock-free approach. However, without direct comparisons of performance or features, its advantages are not fully quantifiable from the given data."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 24 HN points and 4 comments, the community engagement is limited. While there are positive signals like praise for the article, there are also negative comments regarding potential issues with double frees and scalability."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that only 1 out of 5 tests passed and the basic run was successful, the tool's usability is questionable. The installation success and time suggest potential difficulties in setup."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As this is a research article and tool, integrating it into other workflows or pipelines isn't directly applicable."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The quality of the documentation cannot be fully assessed due to insufficient data, but the article itself serves as a form of documentation for the lock-free queue implementation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without specific data on the project's age, forks, or open issues, maturity is hard to assess. The presence of a GitHub repository indicates some level of maturity, but the exact stage is unclear."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "There are benchmark measurements provided, such as vs_python_queue_latency_ms:24.63, but without a clear comparison to other tools or a baseline, the performance advantages or disadvantages are difficult to quantify."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis provides a score of 5/10, indicating a mixed response. However, this criterion is not directly applicable to scoring the tool itself."
+    },
+    "summary": "This lock-free queue implementation in Modern C++ contributes to research on concurrent programming but faces challenges in usability, community engagement, and performance comparison."
+  },
+  "summary": "The Fast Lock-Free Queue is a novel implementation that contributes to the field of concurrent programming but has limitations in terms of usability and community engagement.",
+  "recommendation": "niche",
+  "app_url": "https://blog.jaysmito.dev/blog/04-fast-lockfree-queues/",
+  "tool_url": "https://github.com/jaysmito/cfql",
+  "source_type": "research-tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49007852",
+  "domain": "research",
+  "app_type": "research-article",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "libuv",
+        "stars": 27037,
+        "repo": "libuv/libuv"
+      },
+      {
+        "name": "OpenMP",
+        "stars": 2441,
+        "repo": "Ysurac/openmptcprouter"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Nice article",
+        "Real world alternatives show atomic xchg only solutions scale to hundreds of threads"
+      ],
+      "negative_signals": [
+        "dtor seems to allow for spurious/double frees",
+        "lost a great deal of scalability"
+      ],
+      "justification": "The discussion is mixed with some praise for the article, but also criticism regarding potential double frees and scalability issues.",
+      "comment_count": 4,
+      "hn_points": 24
+    }
+  }
+}
