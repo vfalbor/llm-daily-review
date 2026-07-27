@@ -1,0 +1,82 @@
+{
+  "app_name": "VLC for Unity",
+  "url": "https://code.videolan.org/videolan/vlc-unity",
+  "scored_at": "2026-07-27T13:04:52.398Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This is a first-of-its-kind approach to integrating VLC with Unity, providing a unique video playback solution for Linux users, with no similar tools providing this level of integration."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The installation time of 10.1s is reasonable, but the lack of a PyPI package and the failure of basic run success are drawbacks, indicating some issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's focus on providing a video playback solution for Unity on Linux aligns with current trends in game development and multimedia applications, making it relevant to the current ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app's ability to integrate VLC with Unity on Linux differentiates it from other media players, but the lack of a PyPI package and limited documentation reduces its differentiation score, with similar tools like VLC offering alternative solutions."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is limited data available on the community aspects of this app, with no GitHub repository detected, making it difficult to assess community engagement and health."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app's failure to pass tests and the lack of a straightforward installation process via PyPI reduce its ease of use, with users needing to navigate more complex installation steps."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The app's mention of API/SDK/webhook support on its webpage and the detected version indicate a decent level of ease of integration, but the lack of clear documentation and examples reduces this score."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The webpage lacks a clear documentation link, guide, or examples, and the content length, while indicating some depth, does not compensate for the lack of direct documentation, scoring lower due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version and the presence of changelog or release notes on the webpage suggest some level of maturity, but without clear data on updates or releases, it's challenging to definitively assess maturity, leading to a neutral score."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "There are no direct performance benchmarks provided in the test results, and the basic run success failure indicates potential performance issues, leading to a lower score due to insufficient evidence."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score of 8/10, with 50 HN points and 14 comments analyzed, indicates a generally positive reception, with users excited about the new feature and its applications, despite some minor suggestions for improvement."
+    }
+  },
+  "summary": "VLC for Unity offers a unique video playback solution for Linux users, integrating VLC with Unity, but faces challenges in terms of system requirements, ease of use, and documentation, despite a positive community reception.",
+  "recommendation": "worth-watching",
+  "app_url": "https://code.videolan.org/videolan/vlc-unity",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49066928",
+  "domain": "devtool",
+  "app_type": "devtool-utility",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "excitement about new feature",
+        "useful for wide range of applications",
+        "improved compatibility with various codecs"
+      ],
+      "negative_signals": [
+        "minor suggestion for build options",
+        "personal preference for alternative player"
+      ],
+      "justification": "The comments are mostly positive, with many users expressing excitement about the new feature and its potential applications. Some users suggested minor improvements, such as better build options, but overall the reception is overwhelmingly positive.",
+      "comment_count": 14,
+      "hn_points": 50
+    }
+  }
+}
