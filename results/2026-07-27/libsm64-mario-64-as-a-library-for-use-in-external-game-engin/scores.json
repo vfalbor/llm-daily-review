@@ -1,0 +1,113 @@
+{
+  "app_name": "Libsm64",
+  "url": "https://github.com/libsm64/libsm64",
+  "scored_at": "2026-07-27T13:03:39.395Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Libsm64 offers a unique approach to integrating Mario 64 into external game engines, with 2117 days since its creation and 788 GitHub stars, showing a significant and original contribution to the field of game engine development, outperforming similar tools like libogc by 71% and CryEngine by 182%."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Libsm64 has an install time of 9.8s and install success is true, but it lacks a PyPI package, making installation not as straightforward as pip-installable packages, thus scoring 6 out of 10 for system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a research library for game engine integration, Libsm64's relevance is assessed based on its alignment with current trends in game development, particularly in the context of game engines like libogc, SDL, and CryEngine, with its 788 stars indicating a notable presence, hence scoring 7."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 788 stars, Libsm64 differentiates itself from similar tools like libogc (460 stars) and CryEngine (279 stars), offering +328 and +509 stars respectively, but falls short compared to SDL's 16,196 stars, thus scoring 7 for its unique value proposition in the game engine ecosystem."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the lack of direct comparison to similar projects in terms of GitHub engagement, and noting its 788 stars, 50 forks, and 12 contributors, but without sufficient data to fully assess community engagement, the score is set to 5 as a neutral stance, awaiting more comprehensive community metrics."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 1 and basic run success being false, Libsm64 scores low on ease of use, indicating significant friction in the user experience, hence scoring 2 out of 10."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "While Libsm64 provides a library for game engine integration, its lack of a PyPI package and unclear API modes make integration more challenging than it could be, thus scoring 3 for ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality, and given the research library nature of Libsm64, documentation might be present but its quality or availability cannot be directly assessed from the provided data, hence a score of 5."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Considering Libsm64's days since last commit (164) and its creation (2117 days), along with its open issues (15) and contributors (12), it indicates a project that has been around but might not be under active development, scoring 4 for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks are provided in the data, and without specific BENCHMARK lines from tests, the performance of Libsm64 cannot be objectively scored, leading to a neutral score of 5."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 9/10, 39 HN points, and positive signals indicating community enthusiasm and creative potential, Libsm64 enjoys a favorable sentiment, scoring 8 out of 10, acknowledging the minor negative signal regarding Nintendo's potential response."
+    }
+  },
+  "summary": "Libsm64 is a unique library allowing the integration of Mario 64 into external game engines, showing significant originality and community interest with its 788 GitHub stars, but faces challenges in ease of use and integration. It holds potential for creative applications but requires more development for widespread adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/libsm64/libsm64",
+  "tool_url": "https://github.com/libsm64/libsm64",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49067352",
+  "domain": "research",
+  "app_type": "research-library",
+  "enriched": {
+    "github": {
+      "stars": 788,
+      "forks": 50,
+      "open_issues": 15,
+      "watchers": 788,
+      "contributors": 12,
+      "license": "CC0-1.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 164,
+      "days_since_created": 2117,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Mario 64 as a library for use in external game engines",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "libogc",
+        "stars": 460,
+        "repo": "devkitPro/libogc"
+      },
+      {
+        "name": "SDL",
+        "stars": 16196,
+        "repo": "libsdl-org/SDL"
+      },
+      {
+        "name": "CryEngine",
+        "stars": 279,
+        "repo": "Markemp/Cryengine-Converter"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "interesting and creative potential",
+        "great community response and engagement",
+        "amazing examples of Mario in other game engines"
+      ],
+      "negative_signals": [
+        "concern about Nintendo's potential response",
+        "joke about Nintendo's reaction, but may not be ideal"
+      ],
+      "justification": "The community seems to be really enthusiastic about the project, with several users sharing creative examples of Mario in other game engines. While there's a joke about Nintendo's potential reaction, it's clear that everyone involved is in on the lighthearted and imaginative spirit of the project.",
+      "comment_count": 8,
+      "hn_points": 39
+    }
+  }
+}
