@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+    "url": "https://beyondloom.com/decker/",
+    "hn_url": "https://news.ycombinator.com/item?id=49060856",
+    "points": 334,
+    "comments": 76,
+    "author": "tosh",
+    "age": "2026-07-26T18:23:06 1785090186",
+    "scraped_at": "2026-07-27T13:00:02.830Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "Decker: A platform that builds on the legacy of Hypercard and classic macOS",
+    "use_modes": [
+      "GUI"
+    ],
+    "similar_tools": [
+      "Hypercard"
+    ],
+    "proposed_tests": [
+      "Try out the demo",
+      "Create a new project and test its features"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null,
+    "tool_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1785157536507-305s6",
+    "log_dir": "/tmp/llm-review-1785157536507-305s6",
+    "install_success": true,
+    "install_time_s": 26.1,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:import_time_ms:1.0380744934082031\nBENCHMARK:vs_hypercard_project_creation_ratio:NaN",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 67, in <module>\n    decker.create_project(\"test_project\")\n    ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'decker' has no attribute 'create_project'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting decker\n  Downloading decker-0.3.0-py3-none-any.whl.metadata (8.6 kB)\nCollecting autoflake (from decker)\n  Downloading autoflake-2.3.3-py3-none-any.whl.metadata (7.6 kB)\nCollecting black>=20.8b1 (from decker)\n  Downloading black-26.5.1-py3-none-any.whl.metadata (95 kB)\nCollecting click (from decker)\n  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)\nCollecting colorama (from decker)\n  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)\nCollecting docformatter (from decker)\n  Downloading docformatter-1.7.8-py3-none-any.whl.metadata (8.5 kB)\nCollecting ipython (from decker)\n  Downloading ipython-9.15.0-py3-none-any.whl.metadata (4.7 kB)\nCollecting isort>=5.6.4 (from decker)\n  Downloading isort-8.0.1-py3-none-any.whl.metadata (11 kB)\nCollecting pdbpp (from decker)\n  Downloading pdbpp-0.12.1-py3-none-any.whl.metadata (16 kB)\nCollecting ramos (from decker)\n  Downloading ramos-1.4.0-py2.py3-none-any.whl.metadata (2.4 kB)\nCollecting toml (from decker)\n  Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)\nCollecting unify (from decker)\n  Downloading unify-0.5.tar.gz (4.4 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting mypy-extensions>=0.4.3 (from black>=20.8b1->decker)\n  Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)\nCollecting packaging>=22.0 (from black>=20.8b1->decker)\n  Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)\nCollecting pathspec>=1.0.0 (from black>=20.8b1->decker)\n  Downloading pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)\nCollecting platformdirs>=2 (from black>=20.8b1->decker)\n  Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)\nCollecting pytokens~=0.4.0 (from black>=20.8b1->decker)\n  Downloading pytokens-0.4.1-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (3.8 kB)\nCollecting pyflakes>=3.0.0 (from autoflake->decker)\n  Downloading pyflakes-3.4.0-py2.py3-none-any.whl.metadata (3.5 kB)\nRequirement already satisfied: charset_normalizer<4.0.0,>=3.0.0 in /usr/local/lib/python3.12/site-packages (from docformatter->decker) (3.4.9)\nCollecting decorator>=5.1.0 (from ipython->decker)\n  Downloading decorator-5.3.1-py3-none-any.whl.metadata (3.9 kB)\nCollecting ipython-pygments-lexers>=1.0.0 (from ipython->decker)\n  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)\nCollecting jedi>=0.18.2 (from ipython->decker)\n  Downloading jedi-0.20.0-py2.py3-none-any.whl.metadata (23 kB)\nCollecting matplotlib-inline>=0.1.6 (from ipython->decker)\n  Downloading matplotlib_inline-0.2.2-py3-none-any.whl.metadata (2.4 kB)\nCollecting pexpect>4.6 (from ipython->decker)\n  Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)\nCollecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython->decker)\n  Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)\nCollecting psutil>=7 (from ipython->decker)\n  Downloading psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl.metadata (22 kB)\nCollecting pygments>=2.14.0 (from ipython->decker)\n  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting stack_data>=0.6.0 (from ipytho"
+  }
+}
