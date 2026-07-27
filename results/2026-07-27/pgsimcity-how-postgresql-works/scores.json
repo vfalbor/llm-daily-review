@@ -1,0 +1,113 @@
+{
+  "app_name": "PGSimCity",
+  "url": "https://nikolays.github.io/PGSimCity/",
+  "scored_at": "2026-07-27T13:03:01.836Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "PGSimCity is a unique PostgreSQL simulator with a web UI and CLI, showing novelty in its approach with 1 day since repo creation and 0 days since last commit, indicating active development."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false, and there's no PyPI package found, indicating difficulties in installation, with an install time of 6.7s which is relatively fast but installation failed."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a PostgreSQL simulator, PGSimCity fits well into the current database management ecosystem, particularly with its relevance to understanding how PostgreSQL works, aligning with current trends in database education and tools."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like PostgreSQL, TimescaleDB, and CitrusDB, PGSimCity offers a unique simulation experience, though its star count is significantly lower, with 120 stars compared to TimescaleDB's 23,188 stars, indicating a niche but distinct offering."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 120 GitHub stars, 4 forks, and 2 contributors, PGSimCity has a small but existing community, and its days since last commit being 0 indicates active maintenance, but it's still far from the community size of larger projects like TimescaleDB with 23,188 stars."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the install success is false and basic run success is also false, it indicates significant challenges in using PGSimCity, compounded by the lack of tests passed, suggesting usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Without a PyPI package, PGSimCity is not easily integratable via standard package management, and its use modes, while including a web UI and CLI, do not compensate for the lack of easy installation and integration methods."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation for PGSimCity could not be directly assessed from the provided data, thus a neutral score is assigned due to insufficient information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the days since the repository was created is 1, and days since the last commit is 0, PGSimCity is very new, and while it shows signs of active development, its maturity in terms of stability and long-term maintenance cannot be fully evaluated with the provided data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's no direct benchmark or performance data provided for PGSimCity, making it challenging to assess its performance compared to other tools, thus a neutral score is assigned due to lack of information."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With an HN sentiment score of 9/10, 720 HN points, and positive comments about its visual presentation and interactive learning, PGSimCity has received a very positive response from the community, indicating strong engagement and interest."
+    }
+  },
+  "summary": "PGSimCity is a novel PostgreSQL simulator offering a unique learning experience, though it faces challenges in installation and integration. Its community is small but engaged, with a very positive response on HN. While it shows promise, issues with usability and lack of maturity hold it back.",
+  "recommendation": "niche",
+  "app_url": "https://nikolays.github.io/PGSimCity/",
+  "tool_url": "https://github.com/nikolays/PGSimCity",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49063754",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 120,
+      "forks": 4,
+      "open_issues": 2,
+      "watchers": 120,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "An explorable 3D city that shows how Postgres actually works",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PostgreSQL",
+        "stars": 3185,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "TimescaleDB",
+        "stars": 23188,
+        "repo": "timescale/timescaledb"
+      },
+      {
+        "name": "CitrusDB",
+        "stars": 29,
+        "repo": "paulyasi/citrusdb"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Amazing and engaging visual presentation",
+        "Great idea for interactive learning",
+        "Cool UI and impressive visualization"
+      ],
+      "negative_signals": [
+        "Too many popups and noise",
+        "UX could be improved for legibility and camera control"
+      ],
+      "justification": "Comments are overwhelmingly positive, praising the project's visual presentation, interactive learning potential, and creativity. Some suggestions for improvement were offered, but overall, the tone is enthusiastic and encouraging.",
+      "comment_count": 30,
+      "hn_points": 720
+    }
+  }
+}
