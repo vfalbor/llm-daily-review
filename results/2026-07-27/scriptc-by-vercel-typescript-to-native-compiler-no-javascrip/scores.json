@@ -1,0 +1,111 @@
+{
+  "app_name": "Scriptc",
+  "url": "https://github.com/vercel-labs/scriptc",
+  "scored_at": "2026-07-27T13:05:35.058Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Scriptc is a TypeScript-to-Native compiler, which is a unique approach, but not entirely new, as seen in similar tools like Parcel and Snowpack, with 4 days since repo creation and 0 days since last commit."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time is 19.3s, indicating potential issues with installation, and there is no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-build, Scriptc fits well with current trends in developer tooling, particularly with its focus on TypeScript and native compilation, despite not being pip-installable."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Parcel (44,032 stars) and Snowpack (19,310 stars), Scriptc has significantly fewer stars (1,242), indicating less differentiation or community traction, with a -97% and -94% difference, respectively."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 1,242 GitHub stars, 15 forks, and 2 contributors, Scriptc's community is relatively small compared to similar tools, and the HN sentiment score is 3/10, indicating mostly negative comments."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were passed (0/0), and the install success is false, indicating significant ease-of-use issues, despite basic run success being true."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Scriptc has no PyPI package, making it less easy to integrate into existing workflows, although it does have a CLI use mode and an Apache-2.0 license."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The GitHub repository lacks clear documentation, and the HN comments mention a lack of clear documentation on QuickJS usage, leading to a low score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With 4 days since repo creation and 0 days since last commit, Scriptc is a relatively new project, but there is insufficient data to determine its maturity, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark results available to assess Scriptc's performance, resulting in a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The HN sentiment score is 3/10, with 221 points and 30 comments analyzed, indicating mostly negative comments questioning the project's performance, architecture, and design decisions."
+    },
+    "support": {
+      "score": 2,
+      "justification": "The project's support is limited, with only 2 contributors and 4 open issues, indicating potential issues with maintenance and updates."
+    }
+  },
+  "summary": "Scriptc is a TypeScript-to-Native compiler with a unique approach, but it faces significant challenges in terms of ease of use, integration, and community traction, despite its relevance to current developer tooling trends.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/vercel-labs/scriptc",
+  "tool_url": "https://github.com/vercel-labs/scriptc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49063175",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 1242,
+      "forks": 15,
+      "open_issues": 4,
+      "watchers": 1242,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "TypeScript-to-Native Compiler",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Parcel",
+        "stars": 44032,
+        "repo": "parcel-bundler/parcel"
+      },
+      {
+        "name": "Snowpack",
+        "stars": 19310,
+        "repo": "FredKSchott/snowpack"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "Some users see potential in the project's value proposition"
+      ],
+      "negative_signals": [
+        "Critics question the startup time claim and performance",
+        "Skeptics doubt the architecture and design decisions",
+        "Lack of clear documentation on QuickJS usage"
+      ],
+      "justification": "The project received mostly negative comments questioning its performance and architecture. While some users see potential in its value proposition, there is significant skepticism about its capabilities and design decisions.",
+      "comment_count": 30,
+      "hn_points": 221
+    }
+  }
+}
