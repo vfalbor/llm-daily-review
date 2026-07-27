@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "We have proof automation now",
+    "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49062291",
+    "points": 192,
+    "comments": 74,
+    "author": "zdw",
+    "age": "2026-07-26T20:53:26 1785099206",
+    "scraped_at": "2026-07-27T13:00:02.832Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "Zstandard library on Lean",
+    "use_modes": [
+      "CLI",
+      "C Library"
+    ],
+    "similar_tools": [
+      "zlib",
+      "lz4"
+    ],
+    "proposed_tests": [
+      "Build zstd with Lean and run on sample data",
+      "Measure compression ratio vs gzip",
+      "Compare decompression time vs standard library"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/benoitf/lean-zstd",
+    "tool_url": "https://github.com/benoitf/lean-zstd"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785157576691-frek2",
+    "log_dir": "/tmp/llm-review-1785157576691-frek2",
+    "install_success": false,
+    "install_time_s": 7.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'lean-zstd'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/benoitf/lean-zstd.git']' returned non-zero exit status 128.\n"
+  }
+}
