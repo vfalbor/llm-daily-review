@@ -1,0 +1,82 @@
+{
+  "app_name": "DX Core 4",
+  "url": "https://github.com/dx-core/dx-core/",
+  "scored_at": "2026-07-27T13:07:19.742Z",
+  "total_score": 46,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Assuming novelty is high since the article discusses a new approach to measuring developer productivity, with the DX Core 4 metrics suite"
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant difficulties with installation"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is relevant to current developer tooling landscape, as it discusses measuring developer productivity, a topic of interest in the devtool space"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "DX Core 4 has a unique approach, compared to Jest (45,462 stars) and Mocha (22,909 stars), but no direct comparison is made"
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository detected, so community signals are unavailable"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests passed, and basic run success is false, indicating difficulty with usage"
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package found, but it has a CLI, which is a common integration method"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on documentation quality available"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on maturity available"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data available"
+    }
+  },
+  "summary": "The DX Core 4 is a unique tool for measuring developer productivity, with an interesting approach, but it has difficulty with installation and lacks community signals. The tool's usability and integration are also limited.",
+  "recommendation": "niche",
+  "app_url": "https://getdx.com/research/measuring-developer-productivity-with-the-dx-core-4/",
+  "tool_url": "https://github.com/dx-core/dx-core/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49033522",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Jest",
+        "stars": 45462,
+        "repo": "jestjs/jest"
+      },
+      {
+        "name": "Mocha",
+        "stars": 22909,
+        "repo": "mochajs/mocha"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
