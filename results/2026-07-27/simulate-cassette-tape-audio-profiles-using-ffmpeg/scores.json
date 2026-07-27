@@ -1,0 +1,109 @@
+{
+  "app_name": "Audio-Cassette-Simulation",
+  "url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+  "scored_at": "2026-07-27T13:08:31.776Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project simulates cassette tape audio profiles using FFmpeg, which is a unique approach, with 4 days since repo created and 248 stars on GitHub, indicating a novel contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The project installed successfully in 11.7s, which is relatively fast, and has a basic run success, but it's not pip-installable, which might make it less accessible."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project fits into the current music production landscape, with a focus on emulating analog media, but its relevance is somewhat niche, as it doesn't directly address current LLM trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like SoX (946 stars) and ffmpeg (62,443 stars), this project has significantly fewer stars (-698 and -62,195, respectively), indicating less differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 248 GitHub stars, 11 forks, and 2 contributors, the project has a small but present community, but the data is insufficient to score highly."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The project only passed 1 out of 5 tests, which indicates potential usability issues, but it did have a basic run success, suggesting some level of functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The project is not pip-installable and lacks a clear API or SDK for integration, making it more difficult to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The project's documentation is not well-evaluated due to insufficient data, but the presence of a GitHub repository and some basic information suggests some level of documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project is only 4 days old and has seen its last commit just 1 day ago, indicating it's still in early stages, but the data is insufficient to score its maturity accurately."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are some benchmark measurements available (memory_usage_mb and peak_memory_usage_mb), they don't directly compare to other similar tools, making it hard to evaluate performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 148 points and 30 comments, indicating a generally positive reception, with enthusiasm for the creative distortion and imperfections of analog media."
+    }
+  },
+  "summary": "This project simulates cassette tape audio profiles using FFmpeg, offering a unique approach to audio production. While it has a small community and some usability issues, it generates interest and has potential for growth.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+  "tool_url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49061887",
+  "domain": "web",
+  "app_type": "data-format",
+  "enriched": {
+    "github": {
+      "stars": 248,
+      "forks": 11,
+      "open_issues": 0,
+      "watchers": 248,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "This project simulates cassette tape audio profiles using ffmpeg",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "SoX",
+        "stars": 946,
+        "repo": "chirlu/sox"
+      },
+      {
+        "name": "ffmpeg",
+        "stars": 62443,
+        "repo": "FFmpeg/FFmpeg"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Enthusiasm for the creative distortion and imperfections of analog media",
+        "Excitement about the possibilities of emulating tape sounds",
+        "Appreciation for the nuances of different tape formats"
+      ],
+      "negative_signals": [
+        "Skepticism about the merits of analog media",
+        "Some criticism of digital music production and compression",
+        "Minor nitpicks about the project's scope and feasibility"
+      ],
+      "justification": "The comments are generally positive, with many users expressing enthusiasm for the creative distortion and imperfections of analog media. However, there are some minor criticisms and nitpicks about the project's scope and feasibility, as well as some skepticism about the merits of analog media.",
+      "comment_count": 30,
+      "hn_points": 148
+    }
+  }
+}
