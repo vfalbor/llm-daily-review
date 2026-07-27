@@ -1,0 +1,89 @@
+{
+  "app_name": "Kimi-K3",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3",
+  "scored_at": "2026-07-27T13:02:42.321Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Kimi-K3 is a new LLM model with a unique architecture, as indicated by its release on HuggingFace and the discussion around its cost and performance implications, with 533 HN points and 30 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time of 44.1s is relatively long, but the package exists on PyPI, which makes it accessible, and the Python requirement is any, making it widely compatible."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Kimi-K3 is an LLM model, which is highly relevant in the current AI ecosystem, with applications in natural language processing and understanding, as seen in its upcoming release and the interest it has generated on HN."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like LLaMA, ChatLLaMA, and LaMDA, Kimi-K3 has a unique architecture, but direct comparisons are needed to fully assess its differentiation, with no direct benchmark comparisons provided."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The HN discussion around Kimi-K3 has 533 points, 30 comments, and a sentiment score of 8/10, indicating a positive and engaged community, despite some skepticism about certain aspects like training costs."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests passed out of 4, and while basic run success is true, the lack of successful tests indicates potential usability issues, but without more data, the score is neutral."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The model has a PyPI package and API/SDK/webhook mentions, making it integratable, but the lack of an install command on the page and no clear documentation on integration process reduces its ease of integration."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The page has a link to a wiki/guide but lacks a changelog or release notes and examples/demo, with a content length of 2953 chars, indicating some but not comprehensive documentation."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detected version is 1.0, but there's no clear release history or updates mentioned on the page, suggesting some maturity but lacking comprehensive information on its development cycle."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements like install_git_time_s and import_time_ms, there's no direct comparison to other models or previous versions to assess its performance improvements or regressions fully."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is available, but this criterion does not apply as it is not a separate scoring criterion, with a sentiment score of 8/10 and 533 HN points indicating a positive discussion around the model."
+    }
+  },
+  "summary": "Kimi-K3 is a novel LLM model with a unique architecture, showing promise in the current AI landscape, particularly in discussions around its potential impact and cost implications. However, its usability, maturity, and performance comparisons need further evaluation for a comprehensive assessment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/moonshotai/Kimi-K3",
+  "tool_url": "https://huggingface.co/moonshotai/Kimi-K3",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49065752",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.5.78",
+      "summary": "metatutu library",
+      "requires_python": null,
+      "license": "MIT License",
+      "home_page": "https://github.com/metatutu/metatutu"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Interesting discussion about the cost of serving large models",
+        "Opportunities for estimating margins and profit margins",
+        "Development of new model architectures like GGUF"
+      ],
+      "negative_signals": [
+        "Uncertainty about training costs and the relevance of marginal inference costs",
+        "Some skepticism about the accuracy of the information being discussed"
+      ],
+      "justification": "The discussion is generally positive and focused on the implications of the Kimi-K3 release, but some comments express skepticism about the accuracy of the information being discussed, particularly regarding training costs and marginal inference costs.",
+      "comment_count": 30,
+      "hn_points": 533
+    }
+  }
+}
