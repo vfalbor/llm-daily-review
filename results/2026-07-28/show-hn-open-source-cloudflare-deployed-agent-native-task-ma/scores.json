@@ -1,0 +1,104 @@
+{
+  "app_name": "Projektor",
+  "url": "https://tajd.github.io/projektor/",
+  "scored_at": "2026-07-28T13:03:57.718Z",
+  "total_score": 38,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The project has 4 stars and is 30 days old, which is a relatively new contribution, but not entirely novel as it has similarities with Cloudflare Tunnels and Zero Trust, with 14 and 1,698 stars respectively."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time is 17.2s, indicating issues with the installation process."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The project's relevance to current ecosystem trends is unclear due to lack of data on its fit with the current market."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has fewer stars than similar tools like Cloudflare Tunnels and Zero Trust, with -10 stars (-71%) and -1694 stars (-100%) respectively."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The project has 4 stars, 0 forks, and 1 contributor, indicating a small community, and only 2 open issues."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0/2, and basic run success is false, indicating significant issues with the project's usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project's PyPI package exists, but data on its API modes and integration ease is insufficient."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Data on the project's documentation quality is unavailable."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The project is 30 days old, has 0 forks, and the last commit was 0 days ago, indicating it is still in its early stages."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the project's performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to lack of HN comments or analysis failure."
+    }
+  },
+  "summary": " Projektor is an open-source Cloudflare deployed agent for native task management, but it faces challenges in terms of its small community, poor usability, and unclear differentiation from similar tools. While it has some novelty, its current state and performance are not well-documented or benchmarked.",
+  "recommendation": "skip",
+  "app_url": "https://tajd.github.io/projektor/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49081887",
+  "domain": "infra",
+  "app_type": "infra-deploy-deployed-agent",
+  "enriched": {
+    "github": {
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 2,
+      "watchers": 4,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 30,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Wiki + Jira-style issue tracker on Cloudflare Workers",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Cloudflare Tunnels",
+        "stars": 14,
+        "repo": "jiuerkeji/cloudflare-tunnels"
+      },
+      {
+        "name": "Zero Trust",
+        "stars": 1698,
+        "repo": "ukncsc/zero-trust-architecture"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.15",
+      "summary": "LLM-orchestrated project management with DevOps automation for iterative development",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
