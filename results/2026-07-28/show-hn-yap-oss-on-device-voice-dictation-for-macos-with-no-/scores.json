@@ -1,0 +1,135 @@
+{
+  "app_name": "Yap",
+  "url": "https://github.com/FrigadeHQ/yap",
+  "scored_at": "2026-07-28T13:03:28.147Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Yap introduces an open-source on-device voice dictation library for macOS, which is a genuinely new approach with a clear original contribution, considering it has only been 4 days since the repo was created and it is not a fork."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The app installs successfully in 8.9 seconds, which is relatively fast, and it does not require an API key, making it easily accessible."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool for voice dictation, Yap fits well with the current trends in developer tooling, especially considering the recent interest in on-device AI capabilities."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While Yap has a unique feature set, it is compared to similar tools like Turi with 11,161 stars and Google Cloud Speech-to-Text, showing that its differentiation, although notable, does not vastly outshine existing solutions, with -10,964 stars compared to Turi and +147 stars compared to Google Cloud Speech-to-Text."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 197 GitHub stars and 1 contributor, the community around Yap is small but present, considering the short time it has been available."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Although the basic run was successful, none of the tests passed, indicating potential issues with the app's functionality and usability."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Yap has a PyPI package and supports CLI and SDK use modes, making it relatively easy to integrate into existing workflows, with a clear license and Python requirement."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The GitHub repository provides sufficient documentation for getting started, but more comprehensive documentation or tutorials could improve the score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Given that the repository is only 4 days old and has 9 open issues, Yap is still in its early stages of development, indicating lower maturity."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Without specific benchmark results available in the test data, but considering it's an on-device dictation library, it's reasonable to assume average performance capabilities for its intended use case."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 84 points and 28 comments analyzed, showing positive signals for the app's capabilities and potential."
+    }
+  },
+  "summary": "Yap is an open-source, on-device voice dictation library for macOS that offers a new approach to voice dictation without requiring model downloads. Its community is small but shows potential for growth, with a relatively straightforward integration process and positive sentiment on Hacker News.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/FrigadeHQ/yap",
+  "tool_url": "https://github.com/FrigadeHQ/yap",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49073834",
+  "domain": "devtool",
+  "app_type": "devtool-voice-tool",
+  "enriched": {
+    "github": {
+      "stars": 197,
+      "forks": 7,
+      "open_issues": 9,
+      "watchers": 197,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud, no API keys, no account.",
+      "topics": [
+        "accessibility",
+        "apple-speech",
+        "dictation",
+        "macos",
+        "macos-app",
+        "menubar",
+        "offline",
+        "on-device",
+        "privacy",
+        "speech-recognition",
+        "speech-to-text",
+        "swift",
+        "swiftui",
+        "transcription",
+        "voice-to-text",
+        "whisper-alternative"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Turi",
+        "stars": 11161,
+        "repo": "apple/turicreate"
+      },
+      {
+        "name": "Google Cloud Speech-to-Text",
+        "stars": 50,
+        "repo": "darshan-majithiya/Generate-SRT-File-using-Google-Cloud-s-Speech-to-Text-API"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.7",
+      "summary": "yap is a yet another project generator.",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "https://github.com/dmsovetov/yap"
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Effective on-device voice dictation without models to download",
+        "Potential for high-quality and speedy transcription",
+        "Support for custom voice commands"
+      ],
+      "negative_signals": [
+        "Initial concern about data transmission by Apple's built-in dictation",
+        "Potential for app development to be stagnant due to proprietary features",
+        "Issues with user interface and Dock icon presence",
+        "Technical issues with macOS 27 Beta build",
+        "Question from user questioning the need for an alternative to built-in dictation"
+      ],
+      "justification": "The overall sentiment for Yap is overwhelmingly positive, with users praising the app's on-device voice dictation and potential for high-quality transcription. However, some users express concerns about the app's UI and dock icon presence, as well as issues with macOS 27 Beta build. A few comments also point out the potential redundancy of the app in relation to Apple's built-in dictation feature.",
+      "comment_count": 28,
+      "hn_points": 84
+    }
+  }
+}
