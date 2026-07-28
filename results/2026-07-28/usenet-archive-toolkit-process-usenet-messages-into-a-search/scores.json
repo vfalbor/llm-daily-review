@@ -1,0 +1,97 @@
+{
+  "app_name": "Usenet Archive Toolkit",
+  "url": "https://github.com/wolfpld/usenetarchive",
+  "scored_at": "2026-07-28T13:02:58.698Z",
+  "total_score": 32,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Although it's not the first of its kind, the Usenet Archive Toolkit solves a problem in a somewhat new way, with 2611 days since its creation and being a non-forked repository, giving it a score of 6 for novelty."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false and the install time is 11.4s, indicating difficulties in installing the app, which results in a low score of 2 for system requirements."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a database-search tool, the Usenet Archive Toolkit fits somewhat with current LLM ecosystem trends, considering the rise of information retrieval and knowledge graph construction, giving it a score of 4 for current relevance."
+    },
+    "differentiation": {
+      "score": 1,
+      "justification": "Compared to similar tools like Meilisearch (58,760 stars) and Typesense (26,370 stars), the Usenet Archive Toolkit has significantly fewer stars (48), resulting in a low score of 1 for differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The GitHub repository has 48 stars, 9 forks, 2 open issues, and 3 contributors, indicating a relatively small community, which gives it a score of 2 for community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With no tests passing and basic run success being false, the app seems difficult to use, resulting in a score of 1 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The absence of a PyPI package and the limited use modes (CLI, HTTP API, SDK) make integration relatively difficult, giving it a score of 2 for ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation data is available, so a neutral score of 5 is assigned for documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Given the days since the last commit (156) and the days since the repository was created (2611), the app appears to be in a pre-alpha or prototype stage, resulting in a score of 3 for maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, so a neutral score of 5 is assigned for performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available, so the score for HN sentiment is null."
+    }
+  },
+  "summary": "The Usenet Archive Toolkit is a tool for processing Usenet messages into a searchable archive, with a relatively small community and limited ease of use. While it has some novelty, its differentiation and current relevance are somewhat lacking.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/wolfpld/usenetarchive",
+  "tool_url": "https://github.com/wolfpld/usenetarchive",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49081862",
+  "domain": "database",
+  "app_type": "database-search",
+  "enriched": {
+    "github": {
+      "stars": 48,
+      "forks": 9,
+      "open_issues": 2,
+      "watchers": 48,
+      "contributors": 3,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 156,
+      "days_since_created": 2611,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Usenet Archive Toolkit",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Meilisearch",
+        "stars": 58760,
+        "repo": "meilisearch/meilisearch"
+      },
+      {
+        "name": "Typesense",
+        "stars": 26370,
+        "repo": "typesense/typesense"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
