@@ -1,0 +1,79 @@
+{
+  "app_name": "Scala Tutorials",
+  "url": "https://scalatutorials.com/",
+  "scored_at": "2026-07-28T13:02:09.239Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app provides interactive Scala 3 lessons, which is a unique feature. However, it's not the first-of-its-kind approach, as similar tools like FreeCodeCamp and Codecademy exist, with 91000 and 4200 GitHub stars respectively, indicating a large user base."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The app is not pip-installable, as it does not have a PyPI package, and the install time is not applicable since it's a web application. However, it can be accessed through a web browser, with a page content length of 2131 characters, indicating some level of documentation."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to the current programming landscape, as Scala 3 is a popular programming language, and interactive lessons are in high demand, with a detected version of 1.0, indicating a stable release."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has a unique feature set, but it's not significantly different from existing tools like FreeCodeCamp and Codecademy, with no API/SDK/webhook mention, and no install command on the page."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, and the HN post has only 6 points and 2 comments, indicating a small community, with a sentiment score of 5/10, which is neutral."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app is a web application, and its ease of use is difficult to evaluate without more data, as there are no tests passed or failed, and no specific UX issues were reported."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app does not have a PyPI package or API, making it difficult to integrate into existing workflows or pipelines, with no mention of API/SDK/webhook on the page."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app has some documentation, with a page content length of 2131 characters, and a detected version of 1.0, indicating a stable release, but no wiki, guide, or changelog link was found."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app's maturity is difficult to evaluate without more data, as there is no GitHub repository, and the HN post is relatively new, with a detected version of 1.0, indicating a stable release, but insufficient data for a definitive score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no benchmark measurements available for the app, and the compile time and response time are not applicable, as it's a web application, with no benchmark claims on the page."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable, with only 2 comments analyzed, which is insufficient for a meaningful sentiment analysis, defaulting to null."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "The app is a niche tool for learning Scala 3, with a unique feature set, but it's not significantly different from existing tools, and the community is small, with a total score of 51, indicating a specialized use case."
+    }
+  },
+  "summary": "Scala Tutorials is an interactive web application for learning Scala 3, with a unique feature set, but it's not significantly different from existing tools, and the community is small.",
+  "recommendation": "niche",
+  "app_url": "https://scalatutorials.com/",
+  "tool_url": "https://scalatutorials.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49040650",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 6
+    }
+  }
+}
