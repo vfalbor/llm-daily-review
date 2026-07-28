@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Show HN: Yap – OSS on-device voice dictation for macOS with no model to download",
+    "url": "https://github.com/FrigadeHQ/yap",
+    "hn_url": "https://news.ycombinator.com/item?id=49073834",
+    "points": 84,
+    "comments": 28,
+    "author": "pancomplex",
+    "age": "2026-07-27T18:36:02 1785177362",
+    "scraped_at": "2026-07-28T13:00:02.784Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-voice-tool",
+    "description": "OSS on-device voice dictation library for macOS",
+    "use_modes": [
+      "CLI",
+      " SDK"
+    ],
+    "similar_tools": [
+      "Turi",
+      "Google Cloud Speech-to-Text"
+    ],
+    "proposed_tests": [
+      "Download Yap library, build, and run example",
+      "Test voice recording, dictation speed, and accuracy"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/FrigadeHQ/yap",
+    "source_type": "tool",
+    "tool_url": "https://github.com/FrigadeHQ/yap"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785243779954-ocrgq",
+    "log_dir": "/tmp/llm-review-1785243779954-ocrgq",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'yap'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:[Errno 2] No such file or directory: 'cd'\nTEST_FAIL:import_time:No module named 'yap'\nTEST_FAIL:voice_recording:No module named 'yap'\nTEST_FAIL:dictation_speed:No module named 'yap'\nTEST_FAIL:accuracy:No module named 'yap'\nTEST_FAIL:compare_with_baseline:No module named 'turi'\nRUN_OK\n"
+  }
+}
