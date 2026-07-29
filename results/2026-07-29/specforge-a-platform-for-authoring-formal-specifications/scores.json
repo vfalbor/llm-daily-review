@@ -1,0 +1,94 @@
+{
+  "app_name": "SpecForge",
+  "url": "https://github.com/imiron/specforge",
+  "scored_at": "2026-07-29T13:02:35.864Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "SpecForge brings a new approach to authoring formal specifications, leveraging its web-based interface for a modern take on traditional methods, as seen in its comparison to Spectacle with 13,635 stars and FSP with 7,365 stars, though direct novelty is somewhat diminished by the similar aims of these tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "With an install time of 11.7 seconds and a successful installation, SpecForge is relatively accessible in terms of system requirements, though the lack of detailed system requirements data means this score is based on the absence of any red flags."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Given the current trends in formal methods and specification, SpecForge fits well by providing a platform for authoring formal specifications, directly addressing needs in the LLM ecosystem for precise and formalized language understanding and generation."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While SpecForge offers a unique web-based approach, its differentiation from tools like Spectacle and FSP, which have 13,635 and 7,365 stars respectively, is notable but not groundbreaking, given the specific niche of formal specification editing."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Due to the lack of direct GitHub repository stats or HN comments, the community score is neutral, as there is insufficient data to accurately assess the community health and engagement around SpecForge."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Without direct evidence of ease of use from tests or user feedback, and considering the basic run was not successful, SpecForge's ease of use is scored neutrally, requiring more data for a definitive assessment."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Given its web interface and the presence of a PyPI package (v0.1.0), SpecForge seems to be designed with integration in mind, though specific examples or API modes beyond the web interface are not provided, limiting the score."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While documentation quality is crucial, the score is based on the availability of a docs site and the assumption of a reasonable standard, given the project's aim and web presence, but without direct access to or evaluation of these documents, the score remains moderate."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The maturity of SpecForge is difficult to assess without direct data on its development history, versioning, or community engagement, leading to a neutral score, as the information provided does not allow for a precise evaluation of its production readiness or stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without specific benchmark results or comparative performance data, the performance of SpecForge is scored neutrally, acknowledging that while it may have specific performance characteristics, they are not quantified in the provided data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is insufficient for a meaningful analysis due to limited comments, resulting in a null score for this criterion."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "SpecForge offers a unique approach to formal specification editing with its web-based interface, making it a valuable tool in the niche of formal methods and specification. However, its community and maturity are less clear, requiring more data for a full assessment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://docs.imiron.io/v/0.5.10/en/tour.html",
+  "tool_url": "https://github.com/imiron/specforge",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49095628",
+  "domain": "devtool",
+  "app_type": "editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Spectacle",
+        "stars": 13635,
+        "repo": "eczarny/spectacle"
+      },
+      {
+        "name": "FSP",
+        "stars": 7365,
+        "repo": "WenchaoD/FSPagerView"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": null,
+      "requires_python": null,
+      "license": null,
+      "home_page": "https://github.com/sgl-project/SpecForge"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 35
+    }
+  }
+}
