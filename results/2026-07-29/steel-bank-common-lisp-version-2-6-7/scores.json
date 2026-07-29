@@ -1,0 +1,87 @@
+{
+  "app_name": "Steel Bank Common Lisp",
+  "url": "https://sbcl.org/",
+  "scored_at": "2026-07-29T13:06:35.098Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app has a unique implementation of Common Lisp, with version 2.6.7, which shows a continued development and update of the language, as seen on the news page https://sbcl.org/all-news.html?2.6.7="
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time is 70s, indicating issues with installation."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is a Common Lisp implementation, which, although not as widely used as other languages, still has its niche and use cases in the current programming landscape, such as in the development of AI and machine learning models."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has a unique feature set compared to other Lisp implementations like CLisp, and the recent version update shows active development, but it's still within the Lisp ecosystem."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 249, and comments analyzed are 30, showing a community interested in the technology, although the sentiment is mixed due to performance concerns and lack of immediate use cases for some commenters."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed are 0 out of 0, and basic run success is false, indicating difficulties in using the app."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package found and no API/SDK/webhook mention on the page, making integration potentially difficult."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The page has a changelog or release notes and examples or demo, but no clear documentation link, and the content length is 1124 characters, which is a moderate amount of information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has a detected version of 4.01, indicating some level of maturity, but without more detailed information about its development history or community engagement, it's hard to assess its maturity accurately."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "There are concerns about the performance of Common Lisp in the HN comments, which might affect the app's overall performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 249 points and 30 comments, indicating a generally positive but mixed response to the app, with excitement for new features but also performance concerns."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "The app is suitable for a specific niche, given its uniqueness and the mixed community response, but it may not appeal to a broader audience due to performance concerns and lack of immediate use cases for some users."
+    }
+  },
+  "summary": "Steel Bank Common Lisp is a niche Common Lisp implementation with a unique feature set and active development, but it faces performance concerns and may not be suitable for all users due to its specific use cases and requirements.",
+  "recommendation": "niche",
+  "app_url": "https://sbcl.org/all-news.html?2.6.7=",
+  "tool_url": "https://sbcl.org/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49086971",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excitement and praise for new AVX-512 and ARM64 support",
+        "Appreciation for the project's continued development",
+        "Suggestions for potential uses of Common Lisp"
+      ],
+      "negative_signals": [
+        "Lack of immediate use cases for some commenters",
+        "Questioning of Common Lisp's performance",
+        "Confusion or misinformation about the project"
+      ],
+      "justification": "The majority of comments express enthusiasm for new features, with some commenters suggesting potential uses for Common Lisp. However, there are mixed opinions about the language's performance and some confusion about the project's details.",
+      "comment_count": 30,
+      "hn_points": 249
+    }
+  }
+}
