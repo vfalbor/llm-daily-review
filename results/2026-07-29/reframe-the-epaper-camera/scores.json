@@ -1,0 +1,89 @@
+{
+  "app_name": "ReFrame",
+  "url": "https://reframe.camera/",
+  "scored_at": "2026-07-29T13:05:03.008Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "ReFrame offers a unique approach to photography with its ePaper display, providing a distinct experience compared to traditional cameras, as seen in its focus on constraint-driven creativity."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The camera's installation is noted as unsuccessful, and while it does exist on PyPI, its install time and basic run success are not properly evaluated due to the lack of test results, with an install time of 8s."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware camera, ReFrame's relevance is less about fitting into current LLM trends but more about its unique selling point in the camera market, offering artistic and nostalgic value."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like the Raspberry Pi Camera, ReFrame differentiates itself with its ePaper display and focus on visual content, with its detected version being 1.0, indicating a level of maturity."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Without GitHub repository data, we rely on HN points (163) and comments (30) as a proxy, indicating some community interest, though not overwhelmingly large, with a sentiment score of 8/10."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the lack of successful installation and no tests passed, ease of use is compromised, with specific issues related to its install success being false and basic run success also being false."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There's no clear API or SDK mentioned, and with no install command on the page, integrating ReFrame into existing workflows might be challenging, though it does have a detected version and examples/demo available."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The website lacks a dedicated docs link but has a page content length of 2483 characters, indicating some level of information available, and the presence of examples or demos aids in understanding its usage."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With a detected version of 1.0, ReFrame shows some level of maturity, but without clear release notes or a changelog, and no GitHub data, it's challenging to assess its full maturity level accurately."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a hardware camera, performance criteria such as speed or efficiency aren't directly applicable without specific benchmark comparisons to similar devices, which are not provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score of 8/10, derived from 30 comments with positive signals appreciating its artistic value and negative signals questioning practicality, reflects a generally favorable community response."
+    }
+  },
+  "summary": "ReFrame is a unique ePaper camera offering a distinct photographic experience with a focus on visual content, though it faces challenges in terms of ease of use and integration. Its community Reception is generally positive, praising its artistic and nostalgic value.",
+  "recommendation": "niche",
+  "app_url": "https://reframe.camera/",
+  "tool_url": "https://reframe.camera/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49091379",
+  "domain": "hardware",
+  "app_type": "hardware-camera",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.1",
+      "summary": "Relational algebra on top of Pandas DataFrames ",
+      "requires_python": "",
+      "license": "GPL",
+      "home_page": "https://github.com/bnmnetp/reframe"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Appreciation for constraint-driven creativity",
+        "Artistic and nostalgic value",
+        "Fun and immersive experience"
+      ],
+      "negative_signals": [
+        "Questionable practicality",
+        "Concerns about potential for e-waste"
+      ],
+      "justification": "Comments praise the creative freedom and nostalgic quality of the ReFrame camera, but raise queries about its practicality and potential environmental impact.",
+      "comment_count": 30,
+      "hn_points": 163
+    }
+  }
+}
