@@ -1,0 +1,106 @@
+{
+  "app_name": "Hubble",
+  "url": "https://www.hubble.md/",
+  "scored_at": "2026-07-29T13:07:08.158Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Given the days since creation are not provided, but comparing it to similar tools like Simplenote (5,252 stars), Bear (6,413 stars), and Drafts (4,853 stars), Hubble does not seem to bring a first-of-its-kind approach but improves upon existing concepts with its open-source nature and focus on efficiency."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Hubble has an install time of 20.2s, which is relatively fast, and its installation was successful, indicating good system requirements."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a notetaking app, Hubble fits well into the current ecosystem of productivity tools, especially with its focus on open-source and efficiency, which are current trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "While Hubble offers an open-source notetaking solution, its differentiation from other tools like Simplenote, Bear, and Drafts is not significantly high, with 128 HN points and comments criticizing its choice of Node.js and comparing it to Obsidian."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With no GitHub repository detected and only 128 HN points, the community around Hubble seems small and not very active compared to similar tools."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 3 tests passed and basic run success was false, Hubble seems to have significant issues with ease of use, indicating potential problems with its interface or functionality."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Hubble has a PyPI package (v0.5.2), indicating it can be easily integrated into Python projects, and it supports multiple use modes (CLI, Web UI, API), but its requirement for Node.js might pose integration challenges."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to evaluate the quality of Hubble's documentation directly, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess Hubble's maturity, including its release history and maintainer activity."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Hubble's import time of 0.7793903350830078 ms suggests good performance, indicating efficiency in its operations."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With a sentiment score of 8/10 from 30 comments, including positive signals about its dual interface concept and efficiency, and negative signals about its choice of Node.js and comparison to other tools, the overall sentiment towards Hubble is positive."
+    }
+  },
+  "summary": "Hubble is an open-source notetaking app that offers a dual interface and focuses on efficiency, with a relatively fast install time and good performance but faces challenges in differentiation and community size. Its open-source nature and multiple use modes are positives, but it needs to address its ease of use issues and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.hubble.md/",
+  "tool_url": "https://github.com/hubble-notetaking/note",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49091730",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Simplenote",
+        "stars": 5252,
+        "repo": "Automattic/simplenote-electron"
+      },
+      {
+        "name": "Bear",
+        "stars": 6413,
+        "repo": "rizsotto/Bear"
+      },
+      {
+        "name": "Drafts",
+        "stars": 4853,
+        "repo": "w3c/csswg-drafts"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.2",
+      "summary": "A command line based note taking application",
+      "requires_python": null,
+      "license": "GPL3",
+      "home_page": "https://github.com/dwwkelly/note"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Dual interface concept",
+        "Efficiency focus with native binaries",
+        "Community interest and potential use cases"
+      ],
+      "negative_signals": [
+        "Node.js choice is criticized",
+        "Concerns about JavaScript for desktop apps",
+        "Comparison to other tools like Obsidian and lack of differentiation"
+      ],
+      "justification": "The comments are generally positive with praise for the dual interface and focus on efficiency. However, some users question the choice of Node.js and compare the project to other tools like Obsidian, raising concerns about differentiation.",
+      "comment_count": 30,
+      "hn_points": 128
+    }
+  }
+}
