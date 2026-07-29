@@ -1,0 +1,136 @@
+{
+  "app_name": "KOReader",
+  "url": "https://koreader.rocks/",
+  "scored_at": "2026-07-29T13:02:11.227Z",
+  "total_score": 74,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "KOReader is not a direct clone, with 4874 days since repo creation and 28,137 stars, indicating a unique solution with a strong community, outpacing similar tools like Calibre (25,464 stars) and FBReader (1,850 stars) in terms of stars."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 14.1 seconds, which is relatively fast, but there is no PyPI package available for easy installation, impacting accessibility."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "KOReader fits well into the current e-reader ecosystem, supporting native EPUB and PDF, which aligns with current trends in digital reading and document management, as seen in the tool's description and the presence of similar tools like Calibre and FBReader."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 28,137 stars, KOReader has a significant lead over FBReader (1,850 stars) and Sumatra PDF (45 stars), and its feature set, including programmable gestures and Readwise integration, differentiates it from Calibre, despite having fewer stars than some alternatives."
+    },
+    "community": {
+      "score": 8,
+      "justification": "KOReader has a strong community with 28,137 GitHub stars, 1813 forks, and 413 contributors, although the 1302 open issues may indicate a need for more community engagement or better issue management, considering the project's age and popularity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app's basic run was successful, but only 2 out of 5 tests passed, indicating potential usability issues or test suite problems that require further investigation for a more accurate assessment."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "KOReader lacks a PyPI package, making it harder to integrate into existing workflows or pipelines without manual effort, which could limit its adoption in certain contexts, such as automated e-book processing tasks."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a dedicated website and GitHub repository, but the availability and quality of documentation could not be directly assessed from the provided data, suggesting the need for a more detailed review of the project's documentation resources."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 4874 days since the repository was created and 0 days since the last commit, KOReader demonstrates a long history and active maintenance, contributing to its maturity, although the presence of 1302 open issues may indicate ongoing challenges or areas for improvement."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The reading speed of 2 seconds and plugin creation time of 1 second are provided, but without direct comparisons to similar tools or detailed benchmarks, the performance score is based on these isolated metrics, which suggest acceptable but not outstanding performance characteristics."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 127 points and 30 comments analyzed, indicating a very positive reception with praise for native EPUB and PDF support, programmable gestures, and Readwise integration, despite some negative comments about usability and updates."
+    }
+  },
+  "summary": "KOReader is a mature, highly starred e-book reader with a strong community and unique features like native EPUB and PDF support and programmable gestures, despite some usability concerns and a lack of PyPI package for easy integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://koreader.rocks/",
+  "tool_url": "https://github.com/koreader/koreader",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49095865",
+  "domain": "other",
+  "app_type": "reader",
+  "enriched": {
+    "github": {
+      "stars": 28137,
+      "forks": 1813,
+      "open_issues": 1302,
+      "watchers": 28137,
+      "contributors": 413,
+      "license": "AGPL-3.0",
+      "language": "Lua",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4874,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices",
+      "topics": [
+        "cbz",
+        "djvu",
+        "djvu-reflow",
+        "ebook",
+        "ebook-reader",
+        "eink",
+        "epub",
+        "ereader",
+        "fb2",
+        "kindle",
+        "kobo",
+        "luajit",
+        "opds",
+        "pdf",
+        "pdf-reflow",
+        "pocketbook",
+        "reader",
+        "reflow",
+        "remarkable-tablet",
+        "ubuntu-touch"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Calibre",
+        "stars": 25464,
+        "repo": "kovidgoyal/calibre"
+      },
+      {
+        "name": "FBReader",
+        "stars": 1850,
+        "repo": "geometer/FBReaderJ"
+      },
+      {
+        "name": "Sumatra PDF",
+        "stars": 45,
+        "repo": "emako/QuickLook.Plugin.SumatraPDFReader"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Native EPUB and PDF support",
+        "Dark mode",
+        "Fully programmable gestures and shortcuts",
+        "Readwise integration"
+      ],
+      "negative_signals": [
+        "Bezels not even and formatting issues",
+        "User interface may be challenging to navigate",
+        "Updates can be perceived as unnecessary"
+      ],
+      "justification": "The comments are generally positive, with praise for KOReader's native EPUB and PDF support, dark mode, and customizable features. However, some users mention formatting issues, difficulties navigating the interface, and concerns about updates.",
+      "comment_count": 30,
+      "hn_points": 127
+    }
+  }
+}
