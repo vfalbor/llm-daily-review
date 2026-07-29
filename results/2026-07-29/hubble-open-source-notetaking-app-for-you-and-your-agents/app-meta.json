@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Hubble: Open-source notetaking app for you and your agents",
+    "url": "https://www.hubble.md/",
+    "hn_url": "https://news.ycombinator.com/item?id=49091730",
+    "points": 127,
+    "comments": 58,
+    "author": "handfuloflight",
+    "age": "2026-07-29T00:11:23 1785283883",
+    "scraped_at": "2026-07-29T13:00:03.304Z",
+    "tool_url": "https://github.com/hubble-notetaking/note",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "Open-source notetaking app",
+    "use_modes": [
+      "CLI",
+      "Web UI",
+      "API"
+    ],
+    "similar_tools": [
+      "Simplenote",
+      "Bear",
+      "Drafts"
+    ],
+    "proposed_tests": [
+      "Install and create a new notebook",
+      "Sync notes across multiple devices",
+      "Use tags and filters for organization"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "confidence": 0.8,
+    "repo_url": "https://github.com/hubble-notetaking/note"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785330396227-om06h",
+    "log_dir": "/tmp/llm-review-1785330396227-om06h",
+    "install_success": true,
+    "install_time_s": 20.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.7793903350830078",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 71, in <module>\n    notebook.get_notes()\n    ^^^^^^^^\nNameError: name 'notebook' is not defined\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting hubble\n  Downloading hubble-1.1.5.tar.gz (14 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting keyring>=5.0 (from hubble)\n  Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)\nCollecting SecretStorage>=3.2 (from keyring>=5.0->hubble)\n  Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)\nCollecting jeepney>=0.4.2 (from keyring>=5.0->hubble)\n  Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)\nCollecting jaraco.classes (from keyring>=5.0->hubble)\n  Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)\nCollecting jaraco.functools (from keyring>=5.0->hubble)\n  Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)\nCollecting jaraco.context (from keyring>=5.0->hubble)\n  Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)\nCollecting cryptography>=2.0 (from SecretStorage>=3.2->keyring>=5.0->hubble)\n  Downloading cryptography-49.0.0-cp311-abi3-musllinux_1_2_x86_64.whl.metadata (4.3 kB)\nCollecting more-itertools (from jaraco.classes->keyring>=5.0->hubble)\n  Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)\nCollecting cffi>=2.0.0 (from cryptography>=2.0->SecretStorage>=3.2->keyring>=5.0->hubble)\n  Downloading cffi-2.1.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.5 kB)\nCollecting pycparser (from cffi>=2.0.0->cryptography>=2.0->SecretStorage>=3.2->keyring>=5.0->hubble)\n  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)\nDownloading keyring-25.7.0-py3-none-any.whl (39 kB)\nDownloading jeepney-0.9.0-py3-none-any.whl (49 kB)\nDownloading secretstorage-3.5.0-py3-none-any.whl (15 kB)\nDownloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)\nDownloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)\nDownloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)\nDownloading cryptography-49.0.0-cp311-abi3-musllinux_1_2_x86_64.whl (5.0 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 105.3 MB/s eta 0:00:00\nDownloading more_itertools-11.1.0-py3-none-any.whl (72 kB)\nDownloading cffi-2.1.0-cp312-cp312-musllinux_1_2_x86_64.whl (223 kB)\nDownloading pycparser-3.0-py3-none-any.whl (48 kB)\nBuilding wheels for collected packages: hubble\n  Building wheel for hubble (pyproject.toml): started\n  Building wheel for hubble (pyproject.toml): finished with status 'done'\n  Created wheel for hubble: filename=hubble-1.1.5-py3-none-any.whl size=9951 sha256=45a4f3859771d0cdf95de772be6484d4a4cb6ac4827ea45fbbc8badf95558df1\n  Stored in directory: /root/.cache/pip/wheels/af/35/3d/eb44d30280b308a023a27c5562c575fc1b9b34b32c56515a71\nSuccessfully built hubble\nInstalling collected packages: pycparser, more-itertools, jeepney, jaraco.context, jaraco.functools, jaraco.classes, cffi, cryptography, SecretStorage, keyring, hubble\nSuccessfully installed SecretStorage-3.5.0 cffi-2.1.0 cryptography-49.0.0 hubble-1.1.5 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 keyring-25.7.0 more-itertools-11.1.0 pycparser-3.0\nCollecting simplenot"
+  }
+}
