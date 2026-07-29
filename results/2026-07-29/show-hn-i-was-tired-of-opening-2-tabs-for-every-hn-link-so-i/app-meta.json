@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+    "url": "https://github.com/twalichiewicz/HNewhere",
+    "hn_url": "https://news.ycombinator.com/item?id=49090607",
+    "points": 348,
+    "comments": 100,
+    "author": "twalichiewicz",
+    "age": "2026-07-28T22:09:06 1785276546",
+    "scraped_at": "2026-07-29T13:00:03.300Z",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "userscript for easier HN navigation",
+    "use_modes": [
+      "userscript"
+    ],
+    "similar_tools": [
+      "Userscripts.org"
+    ],
+    "proposed_tests": [
+      "Install userscript, open HN, navigate links",
+      "Measure userscript vs native HN navigation",
+      "Check userscript stability"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "tool_url": "https://github.com/twalichiewicz/HNewhere",
+    "repo_url": "https://github.com/twalichiewicz/HNewhere"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785330190796-6zavm",
+    "log_dir": "/tmp/llm-review-1785330190796-6zavm",
+    "install_success": true,
+    "install_time_s": 16.8,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:native_hn_navigation_time_ms:672.4667549133301\nBENCHMARK:baseline_tool_time_ms:981.9262027740479",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /root/.npm/_cacache/tmp/git-cloneBPiHaL/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/root/.npm/_cacache/tmp/git-cloneBPiHaL/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-29T13_03_32_146Z-debug-0.log\nCloning into 'HNewhere'...\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /HNewhere/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/HNewhere/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-29T13_03_34_824Z-debug-0.log\nnode:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/https:/github.com/twalichiewicz/HNewhere/blob/main/index.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)\n    at Module._load (node:internal/modules/cjs/loader:1285:25)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.17.0\n  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100  34827   0  34827   0      0  52605      0                              0\r100  34827   0  34827   0      0  52598      0                              0\r100  34827   0  34827   0      0  52591      0                              0\nnode:internal/modules/cjs/loader:1503\n  throw err;\n  ^\n\nError: Cannot find module '/https:/github.com/twalichiewicz/HNewhere/blob/main/index.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)\n    at Module._load (node:internal/modules/cjs/loader:1285:25)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.1-r0)\n(18/26) Installing libssh2 (1.11.1-r3)\n(19/26) Installing cargo (1.96.1-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.17.0-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.2 MiB in 77 packages\n<html lang=\"en\" op=\"news\"><head><meta name=\"referrer\" content=\"origin\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><link rel=\"stylesheet\" type=\"text/css\" href=\"news.css?7tlHt5gotoGjHVAGflrw\"><link rel=\"icon\" href=\"y18.svg\"><link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"rss\"><title>Hacker News</title></head><body><center><table id=\"hnmain\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"85%\" bgcolor=\"#f6f6ef\"><tr><td bgcolor=\"#ff6600\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"padding:2px\"><tr><td style=\"width:18px;padding-right:4px\"><a href=\"https://news.ycombinator.com\"><img src=\"y18.svg\" width=\"18\" height=\"18\" style=\"border:1px white solid; display:block\"></a></td><td style=\"line-height:12pt; height:10px;\"><span class=\"pagetop\"><b class=\"hnname\"><a href=\"news\">Hacker News</a></b><a href=\"newest\">new</a> | <a href=\"front\">past</a> | <a href=\"newcomments\">comments</a> | <a href=\"ask\">ask</a> | <a href=\"show\">show</a> | <a href=\"jobs\">jobs</a> | <a href=\"submit\" rel=\"nofollow\">submit</a></span></td><td style=\"text-align:right;padding-right:4px;\"><span class=\"pagetop\"><a href=\"login?goto=news\">login</a></span></td></tr></table></td></tr><tr style='height:10px'/><tr id=\"bigbox\"><td><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr class=\"athing submission\" id=\"49095865\"><td align=\"right\" valign=\"top\" class=\"title\"><span class=\"rank\">1.</span></td><td valign=\"top\" class=\"votelinks\"><center><a id='up_49095865' href='vote?id=49095865&amp;how=up&amp;goto=news'><div class='votearrow' title='upvote'></div></a></center></td><td class=\"title\"><span class=\"titleline\"><a href=\"https://koreader.rocks/\">KOReader</a><span class=\"sitebit comhead\"> (<a href=\"from?site=koreader.rocks\"><span class=\"sitestr\">koreader.rocks</span></a>)</span></span></td></tr><tr><td colspan=\"2\"></td><td class=\"subtext\"><span class=\"subline\"><span class=\"score\" id=\"score_49095865\">133 points</span> by <a href=\"user?id=Cider9986\" class=\"hnuser\">Cider9986</a> <span class=\"age\" title=\"2026-07-29T11:05:08 1785323108\"><a href=\"item?id=49095865\">1 hour ago</a></span> <span id=\"unv_49095865\"></span> | <a href=\"hide?id=49095865&amp;goto=news\">hide</a> | <a href=\"item?id=49095865\">53&nbsp;comments</a></span></td></tr><tr class=\"spac"
+  }
+}
