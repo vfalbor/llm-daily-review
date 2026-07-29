@@ -1,0 +1,109 @@
+{
+  "app_name": "Codex Security",
+  "url": "https://github.com/openai/codex-security",
+  "scored_at": "2026-07-29T13:03:09.588Z",
+  "total_score": 58,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN points are 534, with a sentiment score of 7/10, indicating a generally positive community response, and 30 comments analyzed with helpful responses from maintainers."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "As a security assessment tool for Codex models, it solves a problem in a new way, with 15 days since repo creation and not being a fork, showing original contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 11.8s and no PyPI package exists, indicating moderate complexity in setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a framework, Codex Security fits well with current LLM ecosystem trends, addressing security assessments for Codex models, which is a pressing concern."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Codex and TruffleHog, with 102,330 and 27,237 stars respectively, Codex Security has 3,884 stars, indicating significant differences but also a large gap in popularity."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With 3,884 GitHub stars, 217 forks, and 10 contributors, the community is active, but the comparison to similar tools shows it has a way to go in terms of community size and engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Basic run success is false, indicating potential difficulties in usability, and with no tests passed, it suggests significant issues in ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Given the lack of information on API modes and no PyPI package, it's challenging to assess integration ease, thus a neutral score is assigned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's insufficient data to assess the quality of documentation directly, so a neutral score is given, assuming it may exist but hasn't been evaluated."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Days since last commit is 0, indicating active development, but without more data on releases or changelogs, maturity remains hard to assess, thus a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess performance, leading to a neutral score due to insufficient evidence."
+    }
+  },
+  "summary": "Codex Security is a novel framework addressing security assessments for Codex models with a moderately complex setup and a growing but smaller community compared to similar tools. While it shows promise, its usability and performance are not well-documented, and it faces comparisons to more established tools.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/openai/codex-security",
+  "tool_url": "https://github.com/openai/codex-security",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49089755",
+  "domain": "security",
+  "app_type": "framework",
+  "enriched": {
+    "github": {
+      "stars": 3884,
+      "forks": 217,
+      "open_issues": 46,
+      "watchers": 3884,
+      "contributors": 10,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 15,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "SDKs and CLI for Codex Security",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Codex",
+        "stars": 102330,
+        "repo": "openai/codex"
+      },
+      {
+        "name": "TruffleHog",
+        "stars": 27237,
+        "repo": "trufflesecurity/trufflehog"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Helpful response from maintainers about issues",
+        "Potential for significant improvement and evolution",
+        "Excitement and praise from users"
+      ],
+      "negative_signals": [
+        "Initial bugs and issues on launch",
+        "Concerns about API costs and burnout",
+        "Comparison to existing products and potential duplication"
+      ],
+      "justification": "While there are some initial bugs and concerns about costs, the project has a helpful response from maintainers and excitement from users, suggesting a positive overall tone. However, comparisons to existing products and potential duplication of efforts are noted as points of criticism.",
+      "comment_count": 30,
+      "hn_points": 534
+    }
+  }
+}
