@@ -1,0 +1,103 @@
+{
+  "app_name": "HNewhere",
+  "url": "https://github.com/twalichiewicz/HNewhere",
+  "scored_at": "2026-07-29T13:03:46.877Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "This userscript solves a common problem, but it's not the first of its kind, with 0 days since repo creation and being a non-forked repository with 2 contributors."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The userscript installed successfully in 16.8 seconds, which is relatively fast, and it does not require any API keys or complex setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool, HNewhere fits into the current landscape of developer tools, particularly those focused on enhancing the user experience of websites like HN."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 135 stars on GitHub, HNewhere differentiates itself from similar tools like Userscripts.org, which has only 3 stars, showing a significant lead."
+    },
+    "community": {
+      "score": 5,
+      "justification": "While HNewhere has a small but responsive community with 2 contributors and 5 forks, the data is insufficient to fully evaluate its community health compared to larger projects."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "HNewhere has a basic run success and passed 2 out of 4 tests, indicating some ease of use, but there's room for improvement in its usability and test coverage."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The userscript is not available on PyPI, which could make integration more difficult for some users, but it can still be installed and used as a userscript."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data on the quality and completeness of HNewhere's documentation to accurately score this criterion."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of specific data on release tags, changelogs, or known production deployments, the maturity of HNewhere cannot be fully assessed."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "HNewhere shows better performance than the baseline tool, with a native HN navigation time of 672.4667549133301 ms compared to 981.9262027740479 ms for the baseline, indicating a significant improvement."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HNewhere received a sentiment score of 8/10 on HN, with 348 points and 30 comments analyzed, indicating a generally positive reception from the community."
+    }
+  },
+  "summary": "HNewhere is a userscript designed to enhance the user experience on Hacker News by making navigation easier, and it has received positive feedback from the community. While it shows promise in terms of novelty and performance, there are areas for improvement in terms of usability and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/twalichiewicz/HNewhere",
+  "tool_url": "https://github.com/twalichiewicz/HNewhere",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49090607",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 135,
+      "forks": 5,
+      "open_issues": 6,
+      "watchers": 135,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A lightweight userscript that adds Hacker News discussions to any article.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Userscripts.org",
+        "stars": 3,
+        "repo": "WebMCP-org/webmcp-userscripts"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Project solves a common user problem",
+        "Users appreciate the simplicity and ease of use",
+        "Developers value the flexibility and transparency of userscripts"
+      ],
+      "negative_signals": [
+        "Some users find the solution not innovative (e.g., Chrome already has a feature to open links in a new split view)",
+        "There are mixed opinions about the use of userscripts vs. Chrome extensions"
+      ],
+      "justification": "The project received generally positive feedback, with users appreciating the simplicity and ease of use. However, some users found the solution not particularly innovative, and there were mixed opinions about the use of userscripts vs. Chrome extensions.",
+      "comment_count": 30,
+      "hn_points": 348
+    }
+  }
+}
