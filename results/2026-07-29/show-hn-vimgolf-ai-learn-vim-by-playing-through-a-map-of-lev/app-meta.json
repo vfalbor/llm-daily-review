@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Show HN: Vimgolf.ai – Learn Vim by playing through a map of levels",
+    "url": "https://vimgolf.ai/",
+    "hn_url": "https://news.ycombinator.com/item?id=49095143",
+    "points": 18,
+    "comments": 16,
+    "author": "nickandbro",
+    "age": "2026-07-29T09:26:52 1785317212",
+    "scraped_at": "2026-07-29T13:00:03.301Z",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "devtool",
+    "app_type": "devtool-interactive",
+    "description": "Learn Vim by playing through levels",
+    "use_modes": [
+      "web-app"
+    ],
+    "similar_tools": [
+      "vimtutor"
+    ],
+    "proposed_tests": [
+      "Install Vimgolf, play through levels",
+      "Measure learning effectiveness",
+      "Check Vimgolf stability"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "tool_url": "https://vimgolf.ai/",
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1785330228121-akrsl",
+    "log_dir": "/tmp/llm-review-1785330228121-akrsl",
+    "install_success": true,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.69\nBENCHMARK:install_time_s:1.22\nBENCHMARK:import_time_ms:0.41\nBENCHMARK:level_gameplay_time_ms:0.00\nBENCHMARK:stable_gameplay_time_ms:0.07\nBENCHMARK:memory_usage_bytes:312\nBENCHMARK:vs_vimtutor_ratio:0.83",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.1.2\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting vimgolf\n  Downloading vimgolf-0.5.4-py3-none-any.whl.metadata (3.6 kB)\nDownloading vimgolf-0.5.4-py3-none-any.whl (18 kB)\nInstalling collected packages: vimgolf\nSuccessfully installed vimgolf-0.5.4\nINSTALL_OK\nBENCHMARK:install_time_s:0.69\nINSTALL_OK\nBENCHMARK:install_time_s:1.22\nTEST_PASS:import_vimgolf\nBENCHMARK:import_time_ms:0.41\nTEST_PASS:play_level\nBENCHMARK:level_gameplay_time_ms:0.00\nTEST_PASS:play_multiple_levels\nBENCHMARK:stable_gameplay_time_ms:0.07\nBENCHMARK:memory_usage_bytes:312\nBENCHMARK:vs_vimtutor_ratio:0.83\nRUN_OK\n"
+  }
+}
