@@ -1,0 +1,83 @@
+{
+  "app_name": "Kimi K3-256k",
+  "url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "scored_at": "2026-07-30T13:04:06.969Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The model is for code generation and has a new approach, with 2.0.0-alpha version detected on the webpage, indicating recent updates and potential original contribution."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No PyPI package found, and install time is not directly applicable due to the nature of the app, so scoring based on availability and documentation."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is a research model, and code generation is a relevant and trending topic in the current LLM ecosystem, with models like LLaMA and Bloom being similar tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Has a unique approach to code generation, with a detected version of 2.0.0-alpha, but lacks direct comparison to similar tools like LLaMA and Bloom in terms of benchmarks or features."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository detected, but the webpage has a changelog, release notes, and examples, indicating some level of community and maintenance; HN points are 467, indicating some interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Basic run success is true, but no tests passed out of 4, indicating potential usability issues or lack of clear documentation for testing."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Has API/SDK/webhook mention on the webpage, and a detected version of 2.0.0-alpha, but no clear install command or PyPI package; webpage content length is 21878 chars, indicating detailed documentation."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Webpage has docs/wiki/guide link, changelog, release notes, and examples, with a content length of 21878 chars, indicating thorough documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Detected version is 2.0.0-alpha, indicating it's not yet fully mature, but the presence of a changelog and release notes suggests some level of maturity and maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data available, but the webpage discusses model performance and capacity in a general sense, indicating some awareness of performance considerations."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10, with 467 points and 30 comments analyzed, indicating a generally positive response to the model, with some constructive criticism and concerns."
+    }
+  },
+  "summary": "Kimi K3-256k is a deep learning model for code generation, with a unique approach and recent updates, but faces challenges in terms of community engagement and performance benchmarks. The model has a strong webpage with thorough documentation, but its usability and integration into workflows may need improvement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "tool_url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49101852",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Generally positive with some constructive criticism",
+        "Excitement and praise for the new model",
+        "Users are happy to see a popular model back"
+      ],
+      "negative_signals": [
+        "Waiting list and limited access",
+        "Concerns about Anthropic's capacity to serve",
+        "Outages on related services"
+      ],
+      "justification": "Users are generally excited about the new model, but some are frustrated with the waiting list and concerns about Anthropic's capacity to serve. The outages on related services are also a point of contention.",
+      "comment_count": 30,
+      "hn_points": 467
+    }
+  }
+}
