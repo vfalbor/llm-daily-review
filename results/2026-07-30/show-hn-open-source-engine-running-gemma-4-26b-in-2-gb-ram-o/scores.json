@@ -1,0 +1,115 @@
+{
+  "app_name": "Turbo Fieldfare",
+  "url": "https://github.com/drumih/turbo-fieldfare",
+  "scored_at": "2026-07-30T13:05:32.264Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Turbo Fieldfare solves a problem in a genuinely new way by running Gemma 4 on Macs with limited RAM, citing 12 days since repo creation and 0 days since last commit, indicating a new and actively maintained project."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 7.9s, indicating moderate complexity, and does not require an API key, but install success is true, and there's no PyPI package found, scoring 6 for moderate system requirements."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool-engine for running Gemma 4 on Macs, it fits well with current LLM ecosystem trends, addressing a specific pain point for developers working with limited resources."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Turbo Fieldfare has 1,766 stars, compared to LLaMA's 122,094 and CodeLLaMA's 16,282, showing a unique approach but significant room for differentiation, with -99% and -89% star differences, respectively."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 1,766 stars, 59 forks, and 14 open issues, but only 1 contributor, the community is small but exists, citing the need for more contributors and community engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given that 0 out of 2 tests passed and basic run success is false, indicating significant issues with usability and functionality, scoring 2 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Without a PyPI package and considering the primary language is Swift, integration might be difficult for non-Swift projects, citing the lack of a straightforward installation method."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available on the quality of documentation, so a neutral score of 5 is assigned, as there's not enough information to assess the documentation quality."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 12 days since the repo was created and 0 days since the last commit, indicating an active and recently created project, but the single contributor and limited community engagement suggest a need for further maturity."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "No specific performance benchmarks are provided, but the ability to run Gemma 4 in 2 GB RAM on any M-series Mac suggests a notable performance achievement, though without direct comparisons, it scores 4 for moderate performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this app."
+    },
+    "security": {
+      "score": 5,
+      "justification": "No data is available on the security of the app, so a neutral score of 5 is assigned, as there's not enough information to assess the security."
+    }
+  },
+  "summary": "Turbo Fieldfare is a novel, open-source engine for running Gemma 4 on Macs with limited RAM, showing promise in its new approach, but faces challenges in ease of use, community, and documentation, requiring further development for maturity and wider adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/drumih/turbo-fieldfare",
+  "tool_url": "https://github.com/drumih/turbo-fieldfare",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49098510",
+  "domain": "devtool",
+  "app_type": "devtool-engine",
+  "enriched": {
+    "github": {
+      "stars": 1766,
+      "forks": 59,
+      "open_issues": 14,
+      "watchers": 1766,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 12,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "gemma4",
+        "gemma4-26b-a4b",
+        "gpgpu",
+        "llm",
+        "llm-inference",
+        "local-ai",
+        "macos",
+        "metal",
+        "on-device-ai",
+        "on-device-llm",
+        "swift"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LLaMA",
+        "stars": 122094,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "CodeLLaMA",
+        "stars": 16282,
+        "repo": "meta-llama/codellama"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
