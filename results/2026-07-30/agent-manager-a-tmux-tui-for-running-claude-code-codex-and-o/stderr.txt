@@ -1,0 +1,18 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+npm warn deprecated agent-manager@0.3.1: This package has been renamed to flaio-cli. Install with: npm install -g flaio-cli
+error: too many arguments. Expected 0 arguments but got 1.
+error: too many arguments. Expected 0 arguments but got 1.
+Traceback (most recent call last):
+  File "/app/test.py", line 73, in <module>
+    main()
+  File "/app/test.py", line 69, in main
+    measure_memory_usage()
+  File "/app/test.py", line 50, in measure_memory_usage
+    subprocess.check_output(['agent-manager', 'hello-world'])
+  File "/usr/local/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['agent-manager', 'hello-world']' returned non-zero exit status 1.
