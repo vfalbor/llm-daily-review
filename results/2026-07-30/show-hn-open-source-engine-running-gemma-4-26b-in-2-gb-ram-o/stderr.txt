@@ -1,0 +1,11 @@
+ERROR: Could not find a version that satisfies the requirement turbo-fieldfare (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for turbo-fieldfare
+Traceback (most recent call last):
+  File "/app/test.py", line 84, in <module>
+    measure_memory_usage()
+  File "/app/test.py", line 65, in measure_memory_usage
+    import turbo_fieldfare
+ModuleNotFoundError: No module named 'turbo_fieldfare'
