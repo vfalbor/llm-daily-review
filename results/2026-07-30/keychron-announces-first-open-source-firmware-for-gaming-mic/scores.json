@@ -1,0 +1,89 @@
+{
+  "app_name": "Keychron Open-Source Firmware",
+  "url": "https://github.com/keychron/firmware",
+  "scored_at": "2026-07-30T13:03:32.526Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This is the first open-source firmware for gaming mice by Keychron, with a unique approach to customization, as mentioned in the article (https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The firmware is not pip-installable (No PyPI package found) and has an install time of 6.7s, but the install success is false, indicating potential difficulties in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The firmware is relevant to the current gaming and IoT ecosystem trends, with Keychron being a known brand in gaming peripherals, as seen in the article (https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice)."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to QMK Firmware with 20,572 stars, Keychron's open-source firmware has a unique selling point with its focus on gaming mice, but the exact number of stars or community engagement is not available due to the lack of a GitHub repository."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The community reaction on HN is generally positive (406 points, 30 comments analyzed), but there are concerns about the project's progress and the lack of source code in the GitHub repository, which may lead to disappointment if the project is not fully realized."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is false, and there are no tests passed (0/0), indicating potential difficulties in using the firmware."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The firmware has a USB mode and an API mode (use_modes), which is a positive aspect, but the lack of a PyPI package and a GitHub repository makes integration more difficult."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "There is no GitHub repository or wiki available, and the article (https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice) provides limited information about the firmware."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "There is limited information available about the project's maturity due to the lack of a GitHub repository, and the HN post does not provide clear insights into the project's development stage."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no benchmarks available for the firmware, and the article does not provide any information about its performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 406 HN points, 30 comments analyzed, and a mix of positive and negative signals, indicating a moderately positive community reaction."
+    }
+  },
+  "summary": "Keychron's open-source firmware for gaming mice is a unique approach to customization, but it lacks a GitHub repository and has limited documentation, which may hinder its adoption and development.",
+  "recommendation": "niche",
+  "app_url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+  "tool_url": "https://github.com/keychron/firmware",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49099715",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "QMK Firmware",
+        "stars": 20572,
+        "repo": "qmk/qmk_firmware"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "excitement about open-source firmware",
+        "welcome improvement for Keychron mice",
+        "nice products at a good price"
+      ],
+      "negative_signals": [
+        "disappointment about lack of source code in GitHub repo",
+        "potential for vaporware or unfinished project",
+        "annoyance with software limitations for specific keyboards"
+      ],
+      "justification": "The community reaction to Keychron's open-source firmware announcement is generally positive, with many users excited about the prospect of customizing their devices. However, there are also concerns about the project's progress and the lack of source code in the GitHub repo, which may lead to disappointment if the project is not fully realized.",
+      "comment_count": 30,
+      "hn_points": 406
+    }
+  }
+}
