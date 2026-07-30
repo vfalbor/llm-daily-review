@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Keychron announces first open-source firmware for gaming mice",
+    "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+    "hn_url": "https://news.ycombinator.com/item?id=49099715",
+    "points": 406,
+    "comments": 167,
+    "author": "JLO64",
+    "age": "2026-07-29T16:36:59 1785343019",
+    "scraped_at": "2026-07-30T13:00:02.553Z",
+    "tool_url": "https://github.com/keychron/firmware",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Open-source firmware for Keychron gaming mice",
+    "use_modes": [
+      "USB",
+      "API"
+    ],
+    "similar_tools": [
+      "QMK Firmware",
+      "Meross Firmware"
+    ],
+    "proposed_tests": [
+      "Install firmware on a Keychron mouse",
+      "Verify API hooks for custom configuration",
+      "Benchmark mouse performance with different configs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/keychron/firmware"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785416570647-20x06",
+    "log_dir": "/tmp/llm-review-1785416570647-20x06",
+    "install_success": false,
+    "install_time_s": 6.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
