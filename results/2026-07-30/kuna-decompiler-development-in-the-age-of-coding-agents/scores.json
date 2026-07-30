@@ -1,0 +1,89 @@
+{
+  "app_name": "Kuna",
+  "url": "https://github.com/noelo/kuna",
+  "scored_at": "2026-07-30T13:04:42.393Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Kuna brings decompiler development into the age of coding agents, a new approach with potential original contribution, though similar tools exist like IDAPython and OllyDbg with 1,536 and 299 stars respectively."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating difficulties in installation, and install time is 6.3s, which is relatively fast but the failure outweighs this."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a decompiler, Kuna fits well into the current reverse engineering and code analysis landscape, addressing needs in these areas."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Kuna has a unique approach as a decompiler in the context of coding agents, but it faces competition from well-established tools like IDAPython with 1,536 stars."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository statistics are available, but the existence of similar tools with higher star counts suggests a smaller community for Kuna."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0 / 0 and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Kuna has a PyPI package (v0.4.2) and supports Python >=3.6, making integration somewhat straightforward for developers familiar with Python."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The tool is described in a blog post and has a GitHub repository, but the quality and completeness of the documentation cannot be directly assessed without further information."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The tool is described as a release, but without GitHub statistics or clear versioning information beyond 'v0.4.2', its maturity is difficult to assess."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are provided, making it difficult to assess its efficiency compared to other decompilers."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this tool."
+    }
+  },
+  "summary": "Kuna is a decompiler for reverse engineering code, offering a new approach in the age of coding agents, but faces challenges in installation and usability, with a smaller community and undetermined performance and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://noelo.org/blog/kuna-release/",
+  "tool_url": "https://github.com/noelo/kuna",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49105563",
+  "domain": "devtool",
+  "app_type": "devtool-decompiler",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "IDAPython",
+        "stars": 1536,
+        "repo": "idapython/src"
+      },
+      {
+        "name": "OllyDbg",
+        "stars": 299,
+        "repo": "ThomasThelen/OllyDbg-Scripts"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.2",
+      "summary": "Interact with Kuna exchange API",
+      "requires_python": ">=3.6",
+      "license": "MIT license",
+      "home_page": "https://github.com/DmytroLitvinov/kuna"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
