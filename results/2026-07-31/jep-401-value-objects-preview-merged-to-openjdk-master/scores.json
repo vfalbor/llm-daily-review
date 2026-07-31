@@ -1,0 +1,115 @@
+{
+  "app_name": "OpenJDK Value Objects",
+  "url": "https://github.com/openjdk/jdk/pull/31120",
+  "scored_at": "2026-07-31T13:05:37.087Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "OpenJDK's Value Objects is a unique contribution, with 2874 days since the repo was created and 0 days since the last commit, showing a long history and recent activity, as seen in its 23,175 stars and 6394 forks on GitHub."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The installation was not successful, with an install time of 191.7s and install success being false, indicating difficulties in setting up the project."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The OpenJDK project is highly relevant to the current ecosystem, being a fundamental part of the Java development landscape, and the Value Objects contribution aligns with current trends in programming languages and performance optimization."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 23,175 stars, OpenJDK's Value Objects stands out compared to similar tools like JDK, offering a preview of value objects which is a distinctive feature, although the comparison shows it has a similar number of stars, indicating a strong but not significantly differentiated presence."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The OpenJDK community is very strong, with 23,175 stars, 6394 forks, and 2159 contributors, showing a highly active and engaged community, and the recent commit activity (0 days since the last commit) indicates ongoing development and maintenance."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that no tests were passed out of 0, and the basic run was not successful, it indicates significant challenges in using the project, likely due to its complex nature and requirements as a development tool."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The existence of a PyPI package (v0.0.6) and the project being on GitHub with a GPL-2.0 license suggests a moderate level of ease of integration, although the specific use case of testing and its compatibility with various environments might affect this score."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "While the specific documentation quality is not directly quantifiable from the provided data, the presence of a large community, GitHub repository, and the nature of the project suggest that there is likely substantial documentation available, which is common for significant open-source projects like OpenJDK."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "With 2874 days since the repository was created and recent commit activity (0 days since the last commit), along with a large number of forks and contributors, the project demonstrates high maturity and stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is insufficient data to directly assess the performance of OpenJDK's Value Objects, as no specific benchmark results or performance metrics are provided in the quantitative data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score of 8/10 from 30 comments on Hacker News, with positive signals praising the team's perseverance and the benefits of value classes, and minimal negative signals, indicates a strongly positive community sentiment towards the project."
+    }
+  },
+  "summary": "OpenJDK's Value Objects is a significant and highly relevant contribution to the Java ecosystem, offering a preview of value objects that aligns with current trends, backed by a strong and active community, although its usability and integration might be challenging due to its nature as a development tool.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/openjdk/jdk/pull/31120",
+  "tool_url": "https://github.com/openjdk/jdk/pull/31120",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49119063",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": {
+      "stars": 23175,
+      "forks": 6394,
+      "open_issues": 436,
+      "watchers": 23175,
+      "contributors": 2159,
+      "license": "GPL-2.0",
+      "language": "Java",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2874,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "JDK main-line development https://openjdk.org/projects/jdk",
+      "topics": [
+        "java",
+        "jvm",
+        "openjdk"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "JDK",
+        "stars": 23175,
+        "repo": "openjdk/jdk"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.6",
+      "summary": "A small example package",
+      "requires_python": ">=3.8",
+      "license": "",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Massive respect for the team's perseverance",
+        "Great job avoiding async/await and using virtual threads",
+        "Value classes working like structs will save memory and align memory better"
+      ],
+      "negative_signals": [
+        "Some concern about the size of the change",
+        "A few developers don't understand the implications",
+        "One project may be affected by the change (Virgil targeting the JVM)"
+      ],
+      "justification": "The overwhelming majority of comments are positive, praising the team's perseverance and the benefits of value classes. However, there are a few concerns and questions about the size of the change and its implications.",
+      "comment_count": 30,
+      "hn_points": 162
+    }
+  }
+}
