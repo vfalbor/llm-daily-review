@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Stacked PRs are now live on GitHub",
+    "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+    "hn_url": "https://news.ycombinator.com/item?id=49112232",
+    "points": 697,
+    "comments": 242,
+    "author": "tomzorz",
+    "age": "2026-07-30T16:26:16 1785428776",
+    "scraped_at": "2026-07-31T13:00:02.690Z",
+    "tool_url": null,
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "GitHub feature enabling stacked PRs",
+    "use_modes": [
+      "testing"
+    ],
+    "similar_tools": [
+      "GitHub"
+    ],
+    "proposed_tests": [
+      "Verify feature correctness",
+      "Analyze performance impact",
+      "Integrate with existing testing tools"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1785503158635-kko2d",
+    "log_dir": "/tmp/llm-review-1785503158635-kko2d",
+    "install_success": false,
+    "install_time_s": 12.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.2621619701385498\nBENCHMARK:import_time_ms:262.1619701385498",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 47, in <module>\n    repo = g.get_repo('github/blog')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/github/MainClass.py\", line 490, in get_repo\n    return github.Repository.Repository(self.__requester.withLazy(lazy), url=url)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/github/GithubObject.py\", line 570, in __init__\n    self.complete()\n  File \"/usr/local/lib/python3.12/site-packages/github/GithubObject.py\", line 615, in complete\n    self._completeIfNeeded()\n  File \"/usr/local/lib/python3.12/site-packages/github/GithubObject.py\", line 624, in _completeIfNeeded\n    self._complete()\n  File \"/usr/local/lib/python3.12/site-packages/github/GithubObject.py\", line 629, in _complete\n    headers, data = self._requester.requestJsonAndCheck(\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/github/Requester.py\", line 628, in requestJsonAndCheck\n    *self.__check(\n     ^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/github/Requester.py\", line 867, in __check\n    raise self.createException(status, responseHeaders, data)\ngithub.GithubException.UnknownObjectException: 404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting PyGithub\n  Downloading pygithub-2.9.1-py3-none-any.whl.metadata (3.9 kB)\nCollecting pynacl>=1.4.0 (from PyGithub)\n  Downloading pynacl-1.6.2-cp38-abi3-musllinux_1_2_x86_64.whl.metadata (10.0 kB)\nRequirement already satisfied: requests>=2.14.0 in /usr/local/lib/python3.12/site-packages (from PyGithub) (2.34.2)\nCollecting pyjwt>=2.4.0 (from pyjwt[crypto]>=2.4.0->PyGithub)\n  Downloading pyjwt-2.13.0-py3-none-any.whl.metadata (3.4 kB)\nCollecting typing-extensions>=4.5.0 (from PyGithub)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nRequirement already satisfied: urllib3>=1.26.0 in /usr/local/lib/python3.12/site-packages (from PyGithub) (2.7.0)\nCollecting cryptography>=3.4.0 (from pyjwt[crypto]>=2.4.0->PyGithub)\n  Downloading cryptography-49.0.0-cp311-abi3-musllinux_1_2_x86_64.whl.metadata (4.3 kB)\nCollecting cffi>=2.0.0 (from pynacl>=1.4.0->PyGithub)\n  Downloading cffi-2.1.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.5 kB)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests>=2.14.0->PyGithub) (3.4.9)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests>=2.14.0->PyGithub) (3.18)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests>=2.14.0->PyGithub) (2026.7.22)\nCollecting pycparser (from cffi>=2.0.0->pynacl>=1.4.0->PyGithub)\n  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)\nDownloading pygithub-2.9.1-py3-none-any.whl (449 kB)\nDownloading pyjwt-2.13.0-py3-none-any.whl (31 kB)\nDownloading pynacl-1.6.2-cp38-abi3-musllinux_1_2_x86_64.whl (1.4 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 24.8 MB/s eta 0:00:00\nDownloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nDownloading cffi-2.1.0-cp312-cp312-musllinux_1_2_x86_64.whl (223 kB)\nDownloading cryptography-49.0.0-cp311-abi3-musllinux_1_2_x86_64.whl (5.0 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 84.6 MB/s eta 0:00:00\nDownloading pycparser-3.0-py3-none-any.whl (48 kB)\nInstalling collected packages: typing-extensions, pyjwt, pycparser, cffi, pynacl, cryptography, PyGithub\nSuccessfully installed PyGithub-2.9.1 cffi-2.1.0 cryptography-49.0.0 pycparser-3.0 pyjwt-2.13.0 pynacl-1.6.2 typing-extensions-4.16.0\nBENCHMARK:install_time_s:0.2621619701385498\nBENCHMARK:import_time_ms:262.1619701385498\nTEST_FAIL:feature_correctness:404 {\"message\": \"Not Found\", \"documentation_url\": \"https://docs.github.com/rest/repos/repos#get-a-repository\", \"status\": \"404\"}\n"
+  }
+}
