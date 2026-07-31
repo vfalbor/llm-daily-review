@@ -1,0 +1,26 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/app/test.py", line 47, in <module>
+    repo = g.get_repo('github/blog')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/github/MainClass.py", line 490, in get_repo
+    return github.Repository.Repository(self.__requester.withLazy(lazy), url=url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/github/GithubObject.py", line 570, in __init__
+    self.complete()
+  File "/usr/local/lib/python3.12/site-packages/github/GithubObject.py", line 615, in complete
+    self._completeIfNeeded()
+  File "/usr/local/lib/python3.12/site-packages/github/GithubObject.py", line 624, in _completeIfNeeded
+    self._complete()
+  File "/usr/local/lib/python3.12/site-packages/github/GithubObject.py", line 629, in _complete
+    headers, data = self._requester.requestJsonAndCheck(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/github/Requester.py", line 628, in requestJsonAndCheck
+    *self.__check(
+     ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/github/Requester.py", line 867, in __check
+    raise self.createException(status, responseHeaders, data)
+github.GithubException.UnknownObjectException: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
