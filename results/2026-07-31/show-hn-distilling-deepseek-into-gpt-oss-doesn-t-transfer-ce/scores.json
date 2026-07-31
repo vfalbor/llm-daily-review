@@ -1,0 +1,99 @@
+{
+  "app_name": "DeepSeek Distillation",
+  "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+  "scored_at": "2026-07-31T13:08:49.505Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool demonstrates a unique approach to understanding censorship behavior in LLMs through distillation, with 1240 lines of code and 23 test files, showcasing a meaningful contribution to the field."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable and requires a manual setup, with an install time of 8.5s and an install success rate of false, indicating a moderate to high level of complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The tool is highly relevant to the current LLM ecosystem, addressing the acute pain point of censorship behavior in LLMs, with a focus on distillation and transfer learning, aligning with current trends in AI research."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool differentiates itself from similar tools like LangChain and CrewAI by focusing on the specific aspect of censorship behavior transfer through distillation, with a unique approach that sets it apart, although not entirely novel, as evidenced by 143,081 stars for LangChain and 56,430 stars for CrewAI."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The tool has garnered significant interest on HN, with 141 points, 30 comments, and a sentiment score of 7/10, indicating a moderate level of community engagement and interest, although the lack of GitHub repository data limits the assessment of the community's size and activity."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool's ease of use is hampered by the lack of pip-installability and the need for manual setup, with 0 tests passed out of 0, and an install success rate of false, indicating potential difficulties in getting started."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool's ease of integration is unclear due to the lack of API modes and PyPI package, making it difficult to assess its potential for integration into existing workflows, although the web mode suggests some level of accessibility."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation quality is difficult to assess due to the lack of GitHub repository data and insufficient information on the tool's website, making it challenging to evaluate the completeness and accuracy of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The tool's maturity is uncertain due to the lack of data on its development history, forks count, and open issues, making it challenging to assess its stability and production readiness, although the presence of a web mode suggests some level of development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The tool's performance is notable, with a memory usage of 0.05 MB and 1240 lines of code, indicating efficient use of resources, although the lack of benchmark comparisons limits the assessment of its performance relative to other tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 141 points, 30 comments, and a mix of positive and negative signals, indicating a generally positive reception with some constructive criticism, which reflects the community's engagement and interest in the tool."
+    }
+  },
+  "summary": "The DeepSeek Distillation tool offers a unique approach to understanding censorship behavior in LLMs, demonstrating a high level of relevance to the current AI ecosystem, although its ease of use, integration, and maturity are uncertain due to limited data, while its performance is notable, and community engagement is moderate.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49113599",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 143081,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 56430,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "GPT-OSS",
+        "stars": 20279,
+        "repo": "openai/gpt-oss"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Interesting idea and discussion on the potential for censorship in LLMs",
+        "Experiment aims to understand whether censorship behavior can transfer through distillation",
+        "Users are encouraged to try the experiment and play with the model"
+      ],
+      "negative_signals": [
+        "Concerns about the potential for censorship in LLMs and the transfer of restrictive behavior",
+        "Some users question the model's performance and results, suggesting it may not be ideal for this task",
+        "A few users express skepticism about the experiment's design and goals"
+      ],
+      "justification": "While the comments are mostly positive and engaged, there is a noticeable amount of skepticism and criticism regarding the experiment's design, the model's performance, and the potential for censorship. The score reflects the overall tone, which is generally positive but with some constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 141
+    }
+  }
+}
