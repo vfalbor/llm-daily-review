@@ -1,0 +1,41 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+    "url": "https://github.com/mokshablr/gander",
+    "hn_url": "https://news.ycombinator.com/item?id=49119425",
+    "points": 105,
+    "comments": 50,
+    "author": "mokshablr",
+    "age": "2026-07-31T05:45:13 1785476713",
+    "scraped_at": "2026-07-31T13:00:02.693Z",
+    "tool_url": "https://github.com/mokshablr/gander",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "web",
+    "app_type": "devtool-mobile",
+    "description": "An Android file viewer that asks for no permissions at all",
+    "use_modes": null,
+    "similar_tools": null,
+    "proposed_tests": [
+      "Install and test on a device",
+      "Check that it shows file contents without permission"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mokshablr/gander"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785503194750-10bd5",
+    "log_dir": "/tmp/llm-review-1785503194750-10bd5",
+    "install_success": true,
+    "install_time_s": 12.9,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:response_time_ms:14.944791793823242\nBENCHMARK:health_endpoint_time_ms:2.3975372314453125\nBENCHMARK:vs_express_response_time_ratio:1.0\nBENCHMARK:memory_usage_bytes:0\nBENCHMARK:time_usage_s:1.000112771987915\nBENCHMARK:files_count:100",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-07-31T13_06_45_718Z-debug-0.log\nnode:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module 'express'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at [eval]:1:17\n    at runScriptInThisContext (node:internal/vm:219:10) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/[eval]' ]\n}\n\nNode.js v24.18.1\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.18.1-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.0 MiB in 60 packages\nINSTALL_OK\nINSTALL_FAIL:Failed to install express with error Command '['npm', 'install', 'express']' returned non-zero exit status 1.\nTEST_PASS:Server started successfully\nBENCHMARK:response_time_ms:14.944791793823242\nTEST_PASS:Response time test\nBENCHMARK:health_endpoint_time_ms:2.3975372314453125\nTEST_PASS:Health endpoint test\nTEST_SKIP:File contents test:Test not implemented\nBENCHMARK:vs_express_response_time_ratio:1.0\nBENCHMARK:memory_usage_bytes:0\nBENCHMARK:time_usage_s:1.000112771987915\nBENCHMARK:files_count:100\nRUN_OK\n"
+  }
+}
