@@ -1,0 +1,81 @@
+{
+  "app_name": "GitHub Stacked PRs",
+  "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+  "scored_at": "2026-07-31T13:06:33.438Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The application introduces a new feature of stacked pull requests, which is a novel approach to addressing the problem of large AI-authored PRs, as seen in the GitHub changelog."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The install success is false and install time is 12.5s, indicating issues with system requirements or compatibility."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool-testing type, the feature of stacked PRs is highly relevant to the current ecosystem, as it addresses a pressing issue in the development workflow."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 697 HN points and positive user feedback, the stacked PRs feature differentiates itself from similar tools by providing a unique solution to a common problem, as seen on the GitHub blog."
+    },
+    "community": {
+      "score": 8,
+      "justification": "Given the high HN points of 697 and enthusiastic user comments, the community engagement around this feature is strong, indicating a well-received and useful tool."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is false, and with 0 tests passed out of 1, the ease of use is compromised due to potential usability issues or lack of clear instructions."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a detected version, changelog, and API/SDK/webhook mention on the webpage suggests a reasonable ease of integration, despite the absence of a PyPI package or install command on the page."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The webpage contains a changelog, release notes, and links to guides, contributing to a good documentation score, but lacks examples or demos, which would further enhance the documentation."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The detection of a version (1.319.0) and the presence of a changelog or release notes indicate some level of maturity, although the exact days since creation and open issues are not available for a more precise assessment."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No direct performance benchmarks are provided for this devtool-testing type, making it unsuitable for a performance score without additional context or data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With a sentiment score of 8/10, 697 HN points, and positive user feedback, the HN sentiment around this feature is strongly positive, indicating a well-received tool."
+    }
+  },
+  "summary": "GitHub introduces stacked PRs, a novel feature addressing the issue of large AI-authored pull requests, with strong community engagement and good documentation, despite some usability and integration challenges.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49112232",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "users excited and appreciative of the new feature",
+        "users see it as a response to the problem of large AI-authored PRs",
+        "users praise the UX improvements"
+      ],
+      "negative_signals": [
+        "One user found the initial surprise at the pancake emoji 'unprofessional'"
+      ],
+      "justification": "Users overwhelmingly praised the new stacked PRs feature, citing its UX improvements and usefulness in addressing the problem of large AI-authored PRs. Some users even requested it to remain as an easter egg.",
+      "comment_count": 30,
+      "hn_points": 697
+    }
+  }
+}
