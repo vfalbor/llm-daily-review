@@ -1,0 +1,124 @@
+{
+  "app_name": "Gander",
+  "url": "https://github.com/mokshablr/gander",
+  "scored_at": "2026-07-31T13:07:03.587Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Gander is a first-of-its-kind Android file viewer that asks for no permissions at all, with 12 days since repo creation and 131 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Gander's install success is true, with an install time of 12.9s, indicating easy installation and minimal system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-mobile, Gander fits the current mobile development landscape, addressing concerns about Android permissions and security, with a relevant use case."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Gander differentiates itself from other file viewers by asking for no permissions, with 131 GitHub stars, but its uniqueness is not entirely novel in the broader context of mobile apps."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Gander has 131 GitHub stars, 1 fork, and 1 contributor, with 4 open issues and a recent last commit, indicating a small but potentially growing community."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "Gander's tests passed 3/4, with basic run success, and an install time of 12.9s, indicating decent usability, but room for improvement in testing coverage."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Gander is an Android file viewer with a PyPI package (v0.0.4) and an MIT license, but its integration with other tools or workflows is not well-documented."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Gander's documentation is not thoroughly evaluated due to insufficient data, but its GitHub repository provides some information about the project."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Gander's maturity is difficult to assess due to limited data on its releases, changelog, or production deployments, but it has been created 12 days ago and has seen recent commits."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Gander's performance metrics, such as response_time_ms (14.94 ms) and time_usage_s (1.00 s), indicate acceptable performance, but more comprehensive benchmarks are needed for a definitive assessment."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Gander's HN sentiment score is 7/10, with 108 HN points, 30 comments analyzed, and both positive signals (e.g., appreciation for the local-only approach) and negative signals (e.g., concerns about Android's design priorities) present in the discussion."
+    }
+  },
+  "summary": "Gander is a novel Android file viewer that asks for no permissions, offering a unique approach to mobile file management, but its community and documentation are still developing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mokshablr/gander",
+  "tool_url": "https://github.com/mokshablr/gander",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49119425",
+  "domain": "web",
+  "app_type": "devtool-mobile",
+  "enriched": {
+    "github": {
+      "stars": 131,
+      "forks": 1,
+      "open_issues": 4,
+      "watchers": 131,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 12,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Take a gander at any file. Offline, zero-permission Android viewer for PDF, Word, Excel, PowerPoint, photos, video, audio, Markdown and code.",
+      "topics": [
+        "android",
+        "android-app",
+        "apk",
+        "document-viewer",
+        "docx",
+        "exoplayer",
+        "file-viewer",
+        "foss",
+        "kotlin",
+        "markdown",
+        "material-design",
+        "no-permissions",
+        "offline-first",
+        "pdf-viewer",
+        "pptx",
+        "privacy",
+        "video-player",
+        "xlsx"
+      ]
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.4",
+      "summary": "Technical indicators for the stock market",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": "http://github.com/ekkobit/gander"
+    },
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressed with the author's intention to keep the app local-only",
+        "Compliments for the work done on the app",
+        "Users appreciate the effort to reduce dependencies on internet permissions"
+      ],
+      "negative_signals": [
+        "Concerns about Google's design priorities for Android",
+        "Criticism of sharedUserId feature and its potential vulnerabilities",
+        "Awareness of bypasses and potential security risks on Android"
+      ],
+      "justification": "The discussion highlights some significant concerns about security and privacy on Android, but overall the project receives positive comments from users who appreciate the effort to reduce internet dependencies. The criticism is constructive and aimed at improving the platform rather than the project itself.",
+      "comment_count": 30,
+      "hn_points": 108
+    }
+  }
+}
