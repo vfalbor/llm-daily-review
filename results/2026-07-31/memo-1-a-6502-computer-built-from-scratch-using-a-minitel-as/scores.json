@@ -1,0 +1,118 @@
+{
+  "app_name": "Memo-1",
+  "url": "https://github.com/MemoireMorte/Memo-1",
+  "scored_at": "2026-07-31T13:08:19.465Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The project is a unique, first-of-its-kind approach to building a 6502 computer from scratch, with 298 days since repo creation and 61 days since the last commit, showing a notable original contribution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and install time is 7.3s, indicating moderate to high complexity in setup, and it's not pip-installable as there is no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an IoT hardware project, it fits into the current trends of DIY electronics and retrocomputing, with projects like Raspberry Pi, Arduino, and ESP32 having a large following."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Raspberry Pi, Arduino, and ESP32, with 56 stars vs their much higher star counts, Memo-1's unique selling point is its 6502 computer built from scratch and Minitel terminal, but it lacks in community and popularity."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 56 GitHub stars, 2 forks, and 1 contributor, with the last commit 61 days ago, indicating a small but potentially engaged community, and HN points of 87 with positive comments about the project."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, the project seems difficult to use, and the absence of clear documentation or user-friendly interface adds to the complexity."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a hardware project, ease of integration into software pipelines or other systems is not applicable."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The presence of a GitHub repository and potentially some form of documentation or description, but lack of detailed guides or tutorials, results in a moderate score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project is 298 days old, has had its last commit 61 days ago, and has no clear releases or versioning, indicating it's still in the early stages of development."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance metrics are not applicable for a hardware project like Memo-1, as they are more relevant to software or computational tasks."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 9/10, 87 points, and 12 comments that are generally positive and enthusiastic about the project, indicating a strong community interest and engagement."
+    },
+    "hardware_characteristics": {
+      "score": 7,
+      "justification": "The project's unique 6502 computer built from scratch and use of a Minitel as its terminal are notable hardware characteristics, showing a high level of innovation and custom design."
+    }
+  },
+  "summary": "Memo-1 is a uniquely designed 6502 computer built from scratch, using a Minitel as its terminal, showing high novelty and differentiation in the hardware landscape, but faces challenges in ease of use, community, and maturity. Its strong HN sentiment and interesting hardware characteristics make it a noteworthy project.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/MemoireMorte/Memo-1",
+  "tool_url": "https://github.com/MemoireMorte/Memo-1",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49083970",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 56,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 56,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "Assembly",
+      "is_fork": false,
+      "days_since_update": 61,
+      "days_since_created": 298,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A simple 6502 based computer",
+      "topics": [
+        "6502-assembly",
+        "ms-basic",
+        "wozmon"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Raspberry Pi",
+        "stars": 16671,
+        "repo": "thibmaek/awesome-raspberry-pi"
+      },
+      {
+        "name": "Arduino",
+        "stars": 17157,
+        "repo": "espressif/arduino-esp32"
+      },
+      {
+        "name": "ESP32",
+        "stars": 28494,
+        "repo": "78/xiaozhi-esp32"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "impressive project",
+        "enthusiastic comments about the Minitel",
+        "excitement about connecting to BBSes and NNTP"
+      ],
+      "negative_signals": [],
+      "justification": "The comments are generally positive and enthusiastic, with several users sharing their personal experiences with the Minitel and BBSes. Suggestions for improvements are minor and constructive.",
+      "comment_count": 12,
+      "hn_points": 87
+    }
+  }
+}
