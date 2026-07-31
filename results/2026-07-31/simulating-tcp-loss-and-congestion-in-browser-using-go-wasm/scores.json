@@ -1,0 +1,75 @@
+{
+  "app_name": "ccsim",
+  "url": "https://ccsim.fly.dev/",
+  "scored_at": "2026-07-31T13:07:40.515Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Simulates TCP loss and congestion in browser using Go/WASM, which is a unique approach, but the description does not provide enough information to justify a higher score, with 1 comment on HN and 39 HN points."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 13.6s, which is moderate, and no PyPI package was found, which affects the score."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is infra-networking, which fits well with current infrastructure trends, with 39 HN points indicating some interest in the community."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to compare with similar tools and no information on BENCHMARK comparisons, but it uses Go/WASM which could be a differentiator."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Only 1 comment on HN, 39 HN points, and no GitHub repository detected, indicating a small or non-existent community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Tests passed is 2/4 and basic run success is true, but no specific information on usability or user experience is available, and the page content length is 14 chars, which is very sparse."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package, no API/SDK/webhook mention on the page, and no install command on the page, making integration potentially difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No docs/wiki/guide link, no changelog or release notes, no examples or demo, and the page content length is 14 chars, indicating very poor documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Detected version is 1.0, but no GitHub repository, no changelog, and only 1 comment on HN, indicating a potentially immature project, but with some signs of release and versioning."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK lines from tests are available to assess performance, and no information on performance claims or comparisons to similar tools, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is insufficient for a meaningful analysis, with only 1 comment, so the score is set to null."
+    }
+  },
+  "summary": "ccsim is a tool that simulates TCP loss and congestion in the browser using Go/WASM, with a unique approach, but it lacks a strong community, documentation, and clear information on performance, maturity, and differentiation, with 39 HN points and 1 comment indicating some interest but not enough for a high score.",
+  "recommendation": "niche",
+  "app_url": "https://ccsim.fly.dev/",
+  "tool_url": "https://ccsim.fly.dev/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49088098",
+  "domain": "web",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 39
+    }
+  }
+}
