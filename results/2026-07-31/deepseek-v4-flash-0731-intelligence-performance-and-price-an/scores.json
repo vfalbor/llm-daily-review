@@ -1,0 +1,87 @@
+{
+  "app_name": "DeepSeek V4 Flash",
+  "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+  "scored_at": "2026-07-31T13:02:12.143Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app's novelty score is based on the sentiment analysis which highlights competitive performance and cost-effectiveness with a score of 8/10, but as it is not an open-source model and does not have a GitHub repository detected, its novelty is moderate, hence a score of 6."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "System requirements score is 5 since there's no information available about the system requirements for the model, such as install success or PyPI existence, as it is a review and not an installable package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The current relevance score is 8, as the model is compared to similar tools like DeepSeek and has a generous free tier possible, indicating its relevance in the current LLM ecosystem trends, based on the HN points of 119 and positive signals in the sentiment analysis."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The differentiation score is 7, as the sentiment analysis highlights competitive results and a generous free tier possible, but without a direct comparison to similar tools in terms of numbers, and as it is a review, not an actual model to be compared."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The community score is 5, since there's no GitHub repository detected, and although there are HN points of 119 and 30 comments analyzed, it's not sufficient to determine the community engagement around the model itself, only the review."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The ease of use score is 5, as there is no information about the usability of the model itself, only the review, and without a GitHub repository or direct usage, it cannot be determined."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The ease of integration score is 5, since there is no information available about integrating the model into existing workflows, and as it requires an API key for usage, integration details are not provided."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation score is 5, since there's no information about the model's documentation, only the review's content, and without a GitHub repository or official documentation, it cannot be determined."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The maturity score is 5, since there's no information available about the model's maturity, such as days since creation or forks count, and the review does not provide this information."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The performance score is 7, based on the benchmarking results mentioned in the sentiment analysis, which show competitive results, although no specific BENCHMARK lines are provided from the tests."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8, based on the sentiment score of 8/10, HN points of 119, and positive signals in the comments, indicating a positive sentiment towards the review of DeepSeek V4 Flash."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "The recommendation score is 'niche', as the total score is 51, and while the model shows competitive performance and has a generous free tier possible, it lacks information about its community, ease of use, and integration, making it suitable for a specific use case rather than general adoption."
+    }
+  },
+  "summary": "DeepSeek V4 Flash is a model with competitive performance and a generous free tier, but lacks information about its community and integration, making it suitable for a specific use case.",
+  "recommendation": "worth-watching",
+  "app_url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+  "tool_url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+  "source_type": "review",
+  "hn_url": "https://news.ycombinator.com/item?id=49120299",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Cost-effective and good",
+        "Generous free tier possible",
+        "Benchmarking shows competitive results"
+      ],
+      "negative_signals": [
+        "404 URL error",
+        "Condemning tone towards censorship",
+        "Concerns over model bias and censorship"
+      ],
+      "justification": "The overwhelming sentiment on Hacker News is positive, with users praising the cost-effectiveness and good performance of DeepSeek V4 Flash. However, some comments express concerns over model bias and censorship, particularly the 404 URL error and condemining tone towards censorship.",
+      "comment_count": 30,
+      "hn_points": 119
+    }
+  }
+}
