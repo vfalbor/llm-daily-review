@@ -1,0 +1,90 @@
+{
+  "app_name": "DeepSeek-V4-Flash",
+  "url": "https://api-docs.deepseek.com/updates/",
+  "scored_at": "2026-07-31T13:05:57.568Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The update brings significant performance improvements, indicating a meaningful upgrade, and the presence of a changelog implies ongoing development, similar to DeepSeek's typical update cycle."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, indicating difficulties in setting up the tool, and the install time of 9s is not exceptional, given the package exists on PyPI."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The tool fits well with current LLM ecosystem trends, given its focus on model updates and performance improvements, as seen in its API documentation."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it improves upon DeepSeek, its differentiation is mostly in performance, with a benchmarked import_time_ms of 148.85, but lacks open weights release and has skepticism about official benchmarks."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN points are at 400, and there are 30 comments analyzed with a positive sentiment score of 8/10, indicating a moderate but engaged community discussing the tool's potential and improvements."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed are 0 out of 5, and basic run success is true, but the lack of successful tests indicates usability issues, despite the detected version being 3.1.0 and having an API/SDK/webhook mention."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The presence of a PyPI package and API/SDK mention on the webpage signals ease of integration, but the lack of clear install commands on the page hinders initial setup."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The webpage has a docs/wiki/guide link, but no changelog or release notes, with a page content length of 12146 characters, indicating some level of documentation but room for improvement in clarity and accessibility."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the detected version is 3.1.0, and there's a mention of updates, but without specific data on days since creation, forks, or open issues, maturity is neutral."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmarked import_time_ms of 148.85 indicates good performance, especially when compared to the lack of performance data in similar tools, showing DeepSeek-V4-Flash's competitive edge."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 400 HN points, 30 comments, and significant positive signals about performance improvements and excitement, despite some negative concerns and skepticism."
+    }
+  },
+  "summary": "DeepSeek-V4-Flash offers significant performance improvements and a competitive edge in the LLM ecosystem, but faces challenges in usability and transparency, with a neutral maturity score due to insufficient data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://api-docs.deepseek.com/updates/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49119559",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0",
+      "summary": "Deepseek API Library",
+      "requires_python": null,
+      "license": "Apache-2.0",
+      "home_page": "https://github.com/deskpai/deepseek"
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Significant performance improvements",
+        "Usable local AI and exciting possibilities",
+        "Excitement and praise for DeepSeek V4 Flash"
+      ],
+      "negative_signals": [
+        "Concerns about open weights release by competing models",
+        "Skepticism about official benchmarks",
+        "Mention of potential censorship or shutdown by Chinese authorities"
+      ],
+      "justification": "The comments are overwhelmingly positive, with significant performance improvements, usable local AI, and excitement about the possibilities this opens up. However, there are some concerns and criticisms, including skepticism about official benchmarks and mention of potential censorship or shutdown by Chinese authorities.",
+      "comment_count": 30,
+      "hn_points": 400
+    }
+  }
+}
