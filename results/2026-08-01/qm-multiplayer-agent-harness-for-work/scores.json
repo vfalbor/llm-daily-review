@@ -1,0 +1,116 @@
+{
+  "app_name": "qm",
+  "url": "https://github.com/yc-software/qm",
+  "scored_at": "2026-08-01T13:02:25.733Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository has 3,754 stars and was created 2 days ago, indicating a moderate level of novelty. However, it is not a first-of-its-kind approach, with similar tools like LangChain having 143,159 stars, showing a -97% difference."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false, indicating significant issues with system requirements. The install time is 6.2s, but this is not sufficient to outweigh the install failure."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is llm-agents, which is relevant to current LLM ecosystem trends. The project's focus on multiplayer agent harness for work aligns well with current needs in the LLM space."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to LangChain with 143,159 stars, qm has -139,405 stars, a -97% difference. Compared to ModelHub with 119 stars, qm has +3,635 stars, a +3055% difference. This indicates that while qm differentiates itself from smaller projects, it lags behind major players like LangChain."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 3,754 GitHub stars, 348 forks, and 3 contributors. The days since the last commit is 0, indicating an active community. However, the number of contributors is relatively low compared to the number of stars."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 / 0, and the basic run success is false, indicating significant issues with ease of use. The install success is also false, which further complicates the usability of the project."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project has a Python CLI and is available on PyPI (v0.2), making it relatively easy to integrate. However, the lack of detailed documentation and the false install success may hinder integration efforts."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The documentation quality is unknown due to insufficient data, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The maturity of the project is uncertain due to insufficient data, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmark results to assess the performance of the project, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment score is 9/10, with 594 points and 30 comments analyzed. The positive signals include the maintainers' preference for human-written text and prompts, effective use of AI, and a streamlined contribution process. The negative signals are outweighed by the praise, indicating a very positive sentiment."
+    }
+  },
+  "summary": "qm is a multiplayer agent harness for work that shows promise in its approach to human-written text and prompts, but faces significant challenges in install success, ease of use, and performance. Its novelty and differentiation are moderate, with a strong community but limited contributor base. The project's maturity and documentation quality are uncertain.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/yc-software/qm",
+  "tool_url": "https://github.com/yc-software/qm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49126604",
+  "domain": "llm-ai",
+  "app_type": "llm-agents",
+  "enriched": {
+    "github": {
+      "stars": 3754,
+      "forks": 348,
+      "open_issues": 47,
+      "watchers": 3754,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Multiplayer agent harness for work",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 143159,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "ModelHub",
+        "stars": 119,
+        "repo": "conscious-engines/modelhub"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2",
+      "summary": "Quine-McCluskey two-level logic minimization method.",
+      "requires_python": null,
+      "license": "modified Python",
+      "home_page": "http://robertdick.org/python/mods.html"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Maintainers preferring human-written text and prompts",
+        "Effective use of AI to generate high-quality text and architecture documents",
+        "Streamlined contribution process and clear guidelines"
+      ],
+      "negative_signals": [
+        "Some skepticism about allowing human-written PRs with AI-generated code",
+        "Mentions of sloppiness and poor design quality from AI-generated code",
+        "Mixed opinions on the approach"
+      ],
+      "justification": "The overall sentiment is positive, with many commenters appreciating the project's approach to human-written text and prompts. Some commenters express skepticism about allowing human-written PRs with AI-generated code, but this is outweighed by the praise for the project's streamlined contribution process and the effective use of AI to generate high-quality text.",
+      "comment_count": 30,
+      "hn_points": 594
+    }
+  }
+}
