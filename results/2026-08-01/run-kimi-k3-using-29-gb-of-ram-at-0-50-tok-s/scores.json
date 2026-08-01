@@ -1,0 +1,109 @@
+{
+  "app_name": "Waste",
+  "url": "https://github.com/sqliteai/waste",
+  "scored_at": "2026-08-01T13:05:12.815Z",
+  "total_score": 35,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "This tool is not the first of its kind, with similar tools like memory_profiler and py-spy having 4575 and 15405 stars respectively, which is significantly more than Waste's 500 stars."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false and install time is not a factor here as it didn't install successfully."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-execution type, Waste does fit into the current ecosystem, but its relevance is diminished by the lack of a PyPI package and install issues."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With 500 stars, Waste is outshone by other similar tools like memory_profiler and py-spy, having 4575 and 15405 stars respectively."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Waste has 500 stars, 38 forks, 1 open issue, and 2 contributors, indicating a small but not entirely inactive community, though it pales in comparison to more popular tools."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0, and basic run success being false, it's clear that the tool has significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "There is no PyPI package found for Waste, making integration difficult for users who rely on pip for package management."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Data is insufficient to properly evaluate the quality of Waste's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Data is insufficient to properly evaluate the maturity of Waste, though being open source and on GitHub are positive signs."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for Waste, so its performance cannot be adequately assessed."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "HN sentiment analysis shows a mixed response with a sentiment score of 5/10, indicating neither a strongly positive nor negative community response, based on 270 HN points and 30 comments analyzed."
+    }
+  },
+  "summary": "Waste is a devtool-execution type tool that, despite its potential, faces significant challenges in terms of usability, integration, and community engagement compared to more established similar tools.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/sqliteai/waste",
+  "tool_url": "https://github.com/sqliteai/waste",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49123386",
+  "domain": "devtool",
+  "app_type": "devtool-execution",
+  "enriched": {
+    "github": {
+      "stars": 500,
+      "forks": 38,
+      "open_issues": 1,
+      "watchers": 500,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "memory_profiler",
+        "stars": 4575,
+        "repo": "pythonprofilers/memory_profiler"
+      },
+      {
+        "name": "py-spy",
+        "stars": 15405,
+        "repo": "benfred/py-spy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Some commenters praise Claude for writing good commit messages",
+        "LLMs can be helpful for code generation, especially for repetitive tasks",
+        "Authors can choose to adapt to new technologies"
+      ],
+      "negative_signals": [
+        "Many commenters express frustration with LLM-generated writing and readability",
+        "Some commenters accuse authors of being lazy by using LLMs for writing",
+        "LLM-generated READMEs are often incomprehensible to readers"
+      ],
+      "justification": "The comments are mixed, with some praising the use of LLMs for code generation and others criticizing the readability and assumed context of LLM-generated writing. While there are some negative sentiments, such as accusations of laziness and incomprehensible writing, there are also positive sentiments, such as praise for Claude's writing ability. Overall, the comments are too evenly split to classify as overwhelmingly positive or negative, so the score is 5 (mixed).",
+      "comment_count": 30,
+      "hn_points": 270
+    }
+  }
+}
