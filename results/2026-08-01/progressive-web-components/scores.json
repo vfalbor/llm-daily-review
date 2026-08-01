@@ -1,0 +1,83 @@
+{
+  "app_name": "Progressive Web Components",
+  "url": "https://arielsalminen.com/2026/progressive-web-components/",
+  "scored_at": "2026-08-01T13:06:58.011Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The article discusses a unique approach to web development, using progressive web components, which is a relatively new concept, with 163 HN points and 30 comments analyzed, indicating some interest in the community."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No quantitative data is available for system requirements, as the article does not provide information on installation or setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The article is relevant to current web development trends, discussing progressive web components, which is a topic of interest in the developer community, with 163 HN points indicating some relevance."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No quantitative data is available to compare this tool to similar tools, as the article does not provide information on differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is available, and while there are 163 HN points and 30 comments, it is not clear how active the community is."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The article does not provide information on ease of use, and with 0 tests passed out of 4, it is unclear how user-friendly the tool is."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is an article and not a tool or library."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The article provides a clear and well-structured overview of progressive web components, with a score of 6/10 for sentiment, indicating good documentation."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is an article and not a tool or library."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it is an article and not a tool or library."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 163 HN points and 30 comments analyzed, indicating a mixed response from the community, with both positive and negative signals."
+    }
+  },
+  "summary": "The article discusses progressive web components, a relatively new concept in web development, with a mixed response from the community, and good documentation, but unclear differentiation and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://arielsalminen.com/2026/progressive-web-components/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49121196",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "developers like the HTML + CSS first approach",
+        "progressive web components enable rendering on the server and progressive enhancement with interactivity",
+        "the library Elena provides a nice application of HTML & CSS first"
+      ],
+      "negative_signals": [
+        "web components are hard to author with proper styling and accessibility support",
+        "web components are eager and cause an endless cascade of requests for every import",
+        "support for web components is a death by a thousand cuts for browsers and framework authors"
+      ],
+      "justification": "While some developers appreciate the benefits of progressive web components, such as rendering on the server and progressive enhancement with interactivity, others find the technology to be complex and problematic, with issues like eager loading and difficulty in authoring components with proper styling and accessibility support.",
+      "comment_count": 30,
+      "hn_points": 163
+    }
+  }
+}
