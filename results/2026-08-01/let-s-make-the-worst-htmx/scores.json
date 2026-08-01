@@ -1,0 +1,83 @@
+{
+  "app_name": "Let's make the worst Htmx",
+  "url": "https://zserge.com/posts/worst-htmx-ever/",
+  "scored_at": "2026-08-01T13:13:38.570Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article presents a unique approach to using Htmx, citing 909386 lines of code and 3 test files, which suggests a significant effort in creating a custom solution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable, and no GitHub repository is detected, which makes it difficult to assess system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The article discusses Htmx, which is relevant to current web development trends, but the approach presented is not widely adopted."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The article presents a custom solution using Htmx, but it's not clear how it differentiates from other similar tools, with no direct comparisons or benchmarks provided."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected, and no community metrics are available, making it difficult to assess the community aspect."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The article presents a complex custom solution, and the lack of documentation or clear instructions makes it difficult to use."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "The tool is not designed for integration, and the article focuses on a custom solution rather than a reusable tool."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The article provides some documentation, but it's limited, and no clear instructions or tutorials are available."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "The tool is not a mature product, and the article presents a custom solution rather than a refined tool."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No performance benchmarks are available, and the article does not discuss performance aspects."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 115 HN points, 30 comments analyzed, and both positive and negative signals, indicating a mixed reception."
+    }
+  },
+  "summary": "The article presents a custom solution using Htmx, but it's not clear how it differentiates from other similar tools, and the lack of documentation or clear instructions makes it difficult to use.",
+  "recommendation": "niche",
+  "app_url": "https://zserge.com/posts/worst-htmx-ever/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49119270",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Some users found the project pleasant to work with.",
+        "HTMX can be a good solution for replacing network interactions.",
+        "Users have success stories with combining HTMX with other tools."
+      ],
+      "negative_signals": [
+        "Users are skeptical about HTMX's performance and latency.",
+        "HTMX may have limitations in terms of type checking and security.",
+        "There are concerns about the attack surface and dependencies of HTMX."
+      ],
+      "justification": "The overall sentiment is generally positive, but users have some concerns about performance, security, and limitations of HTMX. While some users have success stories with combining HTMX with other tools, others express skepticism about its effectiveness.",
+      "comment_count": 30,
+      "hn_points": 115
+    }
+  }
+}
