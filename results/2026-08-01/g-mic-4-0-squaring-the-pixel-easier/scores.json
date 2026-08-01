@@ -1,0 +1,93 @@
+{
+  "app_name": "G'mic",
+  "url": "https://gmic.eu/gmic40/",
+  "scored_at": "2026-08-01T13:03:55.238Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "As an image processing and manipulation tool, G'mic is not particularly new, but its version 4.0 update brings some unique features, such as 'Squaring the Pixel', which is an improvement over existing tools, with no direct equivalent, thus scoring 6 based on its comparison to similar tools like ImageMagick and Pillow, which have 17,069 and 13,728 stars respectively, but do not offer the exact same functionality."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Given the install success is false and install time is 8.2s, it indicates moderate to heavy system requirements for installation, scoring 3 as it does not meet the criteria for a simple setup, with clear docs, and minor dependencies, as stated in the rubric for system requirements, which expects a 'pip install' in <30s, and running on consumer hardware, with no API key needed for a score of 9-10."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for image processing, G'mic fits the current landscape of image and signal processing, especially in AI and machine learning applications, where image processing plays a crucial role, thus scoring 7 out of 10 for its relevance to current trends, based on its type and the current ecosystem trends, which value tools that enable efficient image and signal processing, like G'mic."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "G'mic differentiates itself from tools like ImageMagick and Pillow with its unique features and updates in version 4.0, such as 'Squaring the Pixel', thus scoring 8, because it offers a clear advantage in at least two dimensions, like functionality and update frequency, based on the stars of similar tools, with ImageMagick having 17,069 stars, and Pillow having 13,728 stars, which indicates a large user base, but G'mic's unique features set it apart, thus supporting its high differentiation score."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There's insufficient data on the GitHub repository, but as a well-known tool, it likely has a community, thus scoring 5 due to lack of concrete data on GitHub stars, contributors, and update frequency, as the rubric suggests, where a score of 5 indicates that the criterion applies but data is missing, and the tool's existence on PyPI and its usage in various projects imply a certain level of community support, but without concrete numbers, a higher score cannot be confidently assigned."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the install success is false and no tests were run, indicating potential usability issues, scoring 2, because it does not meet the criteria for a tool with high ease of use, which expects all tests to pass, and an intuitive UX, with excellent error messages, as stated in the rubric for ease of use, which assesses the tool's usability based on test results and user experience, and the provided data does not support a high ease of use score."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "G'mic can be used as a CLI tool or through its Python interface, making it somewhat easy to integrate into workflows, thus scoring 6, because it provides a moderate level of ease of integration, with some configuration needed, as indicated by its existence on PyPI, which suggests that it can be easily installed and imported into Python projects, but its CLI usage requires more manual effort, thus preventing a higher score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "While G'mic has documentation, without direct access to its quality or the presence of tutorials and examples, scoring 5, as the rubric suggests for cases where data on documentation quality is missing, and the tool's website and GitHub repository may provide more information, but based on the provided data, a neutral score is assigned, indicating that the documentation likely exists but its quality and completeness are unknown."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without concrete data on the project's age, versioning, or release cycle, scoring 5, as the rubric indicates for cases where maturity data is insufficient, and the tool's existence and updates suggest a certain level of maturity, but without specific information on its development history, a higher score cannot be confidently assigned, thus a neutral score is given, indicating that the criterion applies but data is missing."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's no direct benchmark data provided to assess its performance compared to similar tools, thus scoring 5, as the rubric suggests for cases where performance data is missing, and while the tool may have its own benchmarks or performance metrics, without concrete numbers, a higher score cannot be assigned, and the neutral score indicates that the criterion applies but data is insufficient to make a judgment."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient HN comments for meaningful sentiment analysis, thus set to null, as the rubric indicates for cases where the criterion does not apply or data is severely lacking, and with only 2 comments, the sentiment analysis is not reliable, thus preventing a score from being assigned, as the criterion for HN sentiment analysis is not met due to lack of data, with HN points being only 42, and comments analyzed being only 2, which is not sufficient for a meaningful analysis, thus setting the score to null to indicate that the criterion does not apply or data is not available to make a judgment."
+    }
+  },
+  "summary": "G'mic is a unique image processing tool with a long history, now updated to version 4.0, offering new features like 'Squaring the Pixel', which differentiates it from similar tools like ImageMagick and Pillow, but its installation and usability issues, along with insufficient data on its community and maturity, prevent it from scoring higher, making it a tool with potential, but requiring more development and community engagement to reach its full potential, as indicated by its scores across the various criteria, which highlight both its strengths and weaknesses, with its uniqueness and features being its main strengths, and its installation issues and lack of data on its community and maturity being its main weaknesses, thus suggesting that the tool has room for improvement in these areas to increase its overall score and value to users.",
+  "recommendation": "niche",
+  "app_url": "https://gmic.eu/gmic40/",
+  "tool_url": "https://github.com/dcmerchant/gmic",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49096847",
+  "domain": "devtool",
+  "app_type": "devtool-image-processing",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "ImageMagick",
+        "stars": 17069,
+        "repo": "ImageMagick/ImageMagick"
+      },
+      {
+        "name": "Pillow",
+        "stars": 13728,
+        "repo": "python-pillow/Pillow"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "3.6.3.post1",
+      "summary": "Python bindings for the G'MIC C++ image processing library",
+      "requires_python": ">=3.8",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 42
+    }
+  }
+}
