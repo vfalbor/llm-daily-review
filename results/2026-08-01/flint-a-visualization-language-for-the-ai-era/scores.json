@@ -1,0 +1,114 @@
+{
+  "app_name": "Flint",
+  "url": "https://microsoft.github.io/flint-chart/",
+  "scored_at": "2026-08-01T13:02:08.471Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Flint is a new approach to visualization, with 80 days since its repository was created and 2,737 stars, showing a unique contribution to the field, especially considering it's not a fork and has a primary language of TypeScript."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and the install time is 14.1s, indicating some issues with installation, and there's no PyPI package found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-visualization tool, Flint fits well with current trends in the AI and data visualization ecosystem, especially given its focus on the AI era and its potential for a unifying abstraction layer for chart APIs."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Flint has 2,737 stars, which is more than Graphviz's 1,806 stars but less than Vega's 11,944 stars, showing some differentiation but also a significant gap compared to more established tools like Vega."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 2,737 stars, 143 forks, and 10 contributors, Flint has a moderate community, but the lack of more detailed information or a direct comparison to similar tools in terms of community engagement makes it hard to assess its strength accurately."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed are 0 out of 4, and basic run success is true, indicating some difficulties in using the tool as intended, possibly due to the installation issues or the complexity of the tool itself."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Flint has a MIT license, which is permissive, but the lack of a PyPI package and the specific use modes like Visual Studio Code extension might limit its ease of integration compared to tools with more traditional packaging and broader compatibility."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are not directly assessable from the given data, and without more information on the presence of a wiki, pages, or topics, it's challenging to provide a score that reflects the documentation's impact on usability and user experience."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 80 days since the repository was created and 0 days since the last commit, Flint is relatively new but actively maintained, yet the maturity in terms of releases, versioning, or long-term stability is not explicitly stated in the provided data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are benchmark measurements like memory usage and loc count, but without direct comparisons to other tools or more detailed performance metrics, it's difficult to assess Flint's performance accurately, leading to a neutral score."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this scoring since the sentiment analysis provided does not directly translate to a numerical score for the criteria but rather gives a qualitative view of community reaction."
+    }
+  },
+  "summary": "Flint is a new visualization tool for the AI era, showing promise with its unique approach and decent community support, but it faces challenges in terms of installation, documentation, and direct performance comparisons to established tools.",
+  "recommendation": "niche",
+  "app_url": "https://microsoft.github.io/flint-chart/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49130604",
+  "domain": "llm-ai",
+  "app_type": "llm-visualization",
+  "enriched": {
+    "github": {
+      "stars": 2737,
+      "forks": 143,
+      "open_issues": 23,
+      "watchers": 2737,
+      "contributors": 10,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 80,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
+      "topics": [
+        "ai-agents",
+        "charting-library",
+        "data-visualization",
+        "mcp-server"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Graphviz",
+        "stars": 1806,
+        "repo": "magjac/d3-graphviz"
+      },
+      {
+        "name": "Vega",
+        "stars": 11944,
+        "repo": "vega/vega"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Potential for a unifying abstraction layer for chart APIs",
+        "Useful ability to easily switch between different charting backends",
+        "Agent tool that takes LLM JSON and generates conforming code"
+      ],
+      "negative_signals": [
+        "Hostile reaction towards another JSON spec era-anything",
+        "LLMs are not always amazing at following JSON specifications",
+        "Doomed to fail in the AI era"
+      ],
+      "justification": "The HN comments are mixed, with some people seeing potential in the project's abstraction layer, while others are skeptical about the relevance of another JSON-based spec and express concerns about LLMs' ability to follow specifications. The score leans towards neutral due to the lack of strongly positive comments, and the presence of comments criticizing the project's approach, security concerns, and perceived redundancy with existing charting libraries, especially Ggsql.",
+      "comment_count": 30,
+      "hn_points": 153
+    }
+  }
+}
