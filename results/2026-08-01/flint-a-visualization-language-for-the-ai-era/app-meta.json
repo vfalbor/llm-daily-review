@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Flint: A Visualization Language for the AI Era",
+    "url": "https://microsoft.github.io/flint-chart/",
+    "hn_url": "https://news.ycombinator.com/item?id=49130604",
+    "points": 153,
+    "comments": 55,
+    "author": "vinhnx",
+    "age": "2026-08-01T02:45:09 1785552309",
+    "scraped_at": "2026-08-01T13:00:02.709Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-visualization",
+    "description": "A Visualization Language for the AI Era",
+    "use_modes": [
+      "Visual Studio Code extension"
+    ],
+    "similar_tools": [
+      "Graphviz",
+      "Vega"
+    ],
+    "proposed_tests": [
+      "Install the Flint extension in VS Code",
+      "Create a simple visualisation using Flint",
+      "Benchmark rendering performance with Flint",
+      "Compare Flint's visualisation with Vega"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/microsoft/flint-chart"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785589302460-58jhi",
+    "log_dir": "/tmp/llm-review-1785589302460-58jhi",
+    "install_success": false,
+    "install_time_s": 14.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:memory_usage_bytes:1908\nBENCHMARK:loc_count:500906\nBENCHMARK:test_files_count:12",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement flint-chart (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for flint-chart\nCloning into 'flint-chart'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///flint-chart does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///flint-chart\nInstalling required system packages...\nInstalling Flint via pip...\nINSTALL_FAIL: Command '['pip', 'install', 'flint-chart']' returned non-zero exit status 1.\nINSTALL_FAIL: Command '['pip', 'install', '-e', './flint-chart']' returned non-zero exit status 1.\nTEST_FAIL:import_flint:Flint not found\nTEST_FAIL:create_visualisation:No module named 'flint'\nTEST_FAIL:benchmark_rendering:No module named 'flint'\nTEST_FAIL:compare_with_vega:No module named 'vega'\nBENCHMARK:memory_usage_bytes:1908\nBENCHMARK:loc_count:500906\nBENCHMARK:test_files_count:12\nRUN_OK\n"
+  }
+}
