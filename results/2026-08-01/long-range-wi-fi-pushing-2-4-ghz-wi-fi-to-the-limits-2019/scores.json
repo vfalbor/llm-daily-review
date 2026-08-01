@@ -1,0 +1,83 @@
+{
+  "app_name": "Long Range Wi-Fi",
+  "url": "https://www.phidgets.com/?view=articles&article=LongRangeWifi",
+  "scored_at": "2026-08-01T13:09:31.767Z",
+  "total_score": 62,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points: 64, sentiment score: 9/10, with 30 comments analyzed and positive signals including achievable long range WiFi with DIY methods and successful use cases of WiFi for point-to-point connections."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The article discusses pushing 2.4 GHz Wi-Fi to its limits, which is an interesting approach, but not necessarily a new contribution, as similar experiments and discussions have been done before."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for this app type"
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The article is from 2019, and while the topic of long range WiFi is still relevant today, the specific content and findings may not be as current or directly applicable to the latest developments in the field."
+    },
+    "differentiation": {
+      "score": null,
+      "justification": "N/A for this app type"
+    },
+    "community": {
+      "score": 4,
+      "justification": "HN points: 64, which indicates some interest in the topic, but not a large or highly active community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for this app type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type"
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article provides a detailed description of long range WiFi experiments and findings, indicating good documentation quality."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "N/A for this app type"
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type"
+    }
+  },
+  "summary": "The article discusses experiments with long range WiFi, achieving impressive distances and speeds, but also highlights limitations such as latency issues and regulatory concerns. While the topic is interesting and the community shows some engagement, the article's age and lack of direct applicability to current technology limit its overall score.",
+  "recommendation": "skip",
+  "app_url": "https://www.phidgets.com/?view=articles&article=LongRangeWifi",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49084005",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Achievable long range WiFi with 53 miles of connection using DIY methods.",
+        "Successful use cases of WiFi for point-to-point connections with up to 1Gbps speeds.",
+        "Community experience and experimentation with WiFi range extensions using directional antennas and repeaters."
+      ],
+      "negative_signals": [
+        "Latency issues with WiFi compared to wired Ethernet connections.",
+        "Potential regulatory hurdles for long range WiFi use cases.",
+        "High cost and complexity of some WiFi range extension solutions."
+      ],
+      "justification": "The comments generally praise the potential of long range WiFi, citing various DIY and commercial solutions with impressive range and speed results. However, there are mentions of limitations such as latency issues, regulatory concerns, and cost complexity.",
+      "comment_count": 30,
+      "hn_points": 64
+    }
+  }
+}
