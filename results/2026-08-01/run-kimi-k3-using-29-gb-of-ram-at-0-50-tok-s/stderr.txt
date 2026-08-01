@@ -1,0 +1,20 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+ERROR: Could not find a version that satisfies the requirement waste (from versions: none)
+ERROR: No matching distribution found for waste
+Cloning into 'waste'...
+ERROR: file:///waste does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 16, in <module>
+    subprocess.run(['pip3', 'install', 'waste'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip3', 'install', 'waste']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 23, in <module>
+    subprocess.run(['pip3', 'install', '-e', './waste'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip3', 'install', '-e', './waste']' returned non-zero exit status 1.
