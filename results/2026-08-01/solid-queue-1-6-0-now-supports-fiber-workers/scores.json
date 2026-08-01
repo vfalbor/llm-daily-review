@@ -1,0 +1,108 @@
+{
+  "app_name": "Solid Queue",
+  "url": "https://github.com/rails/solid_queue",
+  "scored_at": "2026-08-01T13:03:06.004Z",
+  "total_score": 54,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN sentiment score is 7/10 with 27 points, indicating a generally positive response to the tool, with positive signals including \"nice update\" and \"enables productivity\"."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "Solid Queue has been around for 1296 days and has 2464 stars, showing some level of innovation in the devtool space, but its age and existing alternatives like Sidekiq (13556 stars) and Resque (9481 stars) suggest it is not entirely new."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is 7.7s, indicating potential difficulties with setup, although basic run success is true."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool, Solid Queue's support for fiber workers is relevant to current ecosystem trends, with many developers looking for efficient concurrency solutions in Rails."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like Sidekiq and Resque, Solid Queue has -11092 and -7017 stars respectively, indicating a smaller community, but its fiber worker support may offer some differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 2464 stars, 245 forks, and 122 contributors, the community is present but not as large as some similar tools, and days since last commit is 1, suggesting recent activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0/5, indicating potential difficulties with using the tool, despite basic run success being true."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package found and the tool requires Ruby, which may limit its integration with other ecosystems, although it has a MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on documentation quality is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Days since created is 1296, indicating some level of maturity, with 1 day since the last commit, suggesting ongoing development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Import time is 0.08225440979003906 ms, memory usage is 0.001667022705078125 mb, and vs_sidekiq_import_time_ratio is 0, indicating efficient performance, although direct comparisons to similar tools are needed for a complete picture."
+    }
+  },
+  "summary": "Solid Queue is a Ruby library for handling background jobs with a smaller but active community and recent updates, offering fiber worker support which is relevant to current ecosystem trends, although it faces stiff competition from more established tools like Sidekiq and Resque.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/rails/solid_queue/releases/tag/v1.6.0",
+  "tool_url": "https://github.com/rails/solid_queue",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49132083",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": {
+      "stars": 2464,
+      "forks": 245,
+      "open_issues": 47,
+      "watchers": 2464,
+      "contributors": 122,
+      "license": "MIT",
+      "language": "Ruby",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1296,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Database-backed Active Job backend",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Sidekiq",
+        "stars": 13556,
+        "repo": "sidekiq/sidekiq"
+      },
+      {
+        "name": "Resque",
+        "stars": 9481,
+        "repo": "resque/resque"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "nice update",
+        "enables productivity",
+        "efficient concurrency"
+      ],
+      "negative_signals": [
+        "concern about database connections",
+        "complexity in ensuring efficient concurrency"
+      ],
+      "justification": "The commenters are generally positive about the update, but some users raise concerns about database connections and the complexity of implementing efficient concurrency in Rails.",
+      "comment_count": 7,
+      "hn_points": 27
+    }
+  }
+}
