@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Attention Decode on AMD MI450 GPUs: A Gluon Kernel Optimization Guide",
+    "url": "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49077646",
+    "points": 48,
+    "comments": 4,
+    "author": "matt_d",
+    "age": "2026-07-28T00:26:45 1785198405",
+    "scraped_at": "2026-08-01T13:00:02.715Z",
+    "tool_url": "https://github.com/amd/gluon-attention-decode",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "devtool",
+    "app_type": "devtool-ml-optimization",
+    "description": "Gluon Attention Decode is a tool for optimizing deep learning models.",
+    "use_modes": [
+      "Python"
+    ],
+    "similar_tools": [
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "proposed_tests": [
+      "Clone gluon-attention-decode and test",
+      "Run benchmark with MI450 and measure speedup",
+      "Compare with other optimization tools"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/amd/gluon-attention-decode"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785589513940-3cwzt",
+    "log_dir": "/tmp/llm-review-1785589513940-3cwzt",
+    "install_success": false,
+    "install_time_s": 9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.672600507736206",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement gluon-attention-decode (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for gluon-attention-decode\nERROR: Could not find a version that satisfies the requirement gluon-attention-decode (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for gluon-attention-decode\nTraceback (most recent call last):\n  File \"/app/test.py\", line 107, in <module>\n    measure_import_time()\n  File \"/app/test.py\", line 85, in measure_import_time\n    import gluon_attention_decode\nModuleNotFoundError: No module named 'gluon_attention_decode'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_time_s:0.672600507736206\n"
+  }
+}
