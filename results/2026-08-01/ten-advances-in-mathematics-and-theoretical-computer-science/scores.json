@@ -1,0 +1,83 @@
+{
+  "app_name": "Ten advances in mathematics and theoretical computer science",
+  "url": "https://openai.com/index/ten-advances-in-mathematics/",
+  "scored_at": "2026-08-01T13:08:58.397Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article discusses 10 significant advancements in mathematics and theoretical computer science, showing a high level of original contribution."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success was false, indicating difficulties in setting up or running the tool."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The article is highly relevant to current advancements in mathematics and theoretical computer science, showing a strong fit with current ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While there are no direct comparisons to similar tools, the article's discussion of AI-assisted math breakthroughs offers a unique perspective."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With HN points at 181 and 30 comments analyzed, the community engagement is moderate, and the sentiment score of 6/10 indicates a generally positive reception."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Without specific data on tests passed or install success, it's challenging to evaluate ease of use accurately, defaulting to a neutral score."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As an article, ease of integration does not apply."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The article provides detailed descriptions of the advancements, indicating high-quality documentation or explanatory content."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is insufficient data to accurately assess the maturity of the tool or concept discussed in the article."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As an article, performance metrics do not apply."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment score is 6/10, with 181 points and 30 comments, showing a mixed but generally positive community response to the article's content."
+    }
+  },
+  "summary": "The article discusses significant advancements in mathematics and theoretical computer science, offering a unique perspective on AI-assisted breakthroughs. While community engagement is moderate, the reception is generally positive, though concerns about job loss and verification of AI-generated results are raised.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openai.com/index/ten-advances-in-mathematics/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49132058",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Excitement about AI-assisted math breakthroughs",
+        "Potential for human mathematicians to focus on interpretation and discussion",
+        "Cost-effective research with under $2,000 spent on generating proofs"
+      ],
+      "negative_signals": [
+        "Concerns about loss of human jobs and skill devaluation",
+        "Distrust of AI-generated results without full human verification",
+        "Uncertainty about responsibility and control in AI-assisted research"
+      ],
+      "justification": "The comments are generally positive about the potential for AI-assisted math breakthroughs, but raise concerns about the impact on human jobs and the need for full verification of AI-generated results. There are also questions about responsibility and control in AI-assisted research.",
+      "comment_count": 30,
+      "hn_points": 181
+    }
+  }
+}
