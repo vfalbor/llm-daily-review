@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "Solid Queue 1.6.0 now supports fiber workers",
+    "url": "https://github.com/rails/solid_queue/releases/tag/v1.6.0",
+    "hn_url": "https://news.ycombinator.com/item?id=49132083",
+    "points": 28,
+    "comments": 7,
+    "author": "earcar",
+    "age": "2026-08-01T07:42:08 1785570128",
+    "scraped_at": "2026-08-01T13:00:02.713Z",
+    "tool_url": "https://github.com/rails/solid_queue",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cicd",
+    "description": "Solid Queue is a Ruby library for handling background jobs.",
+    "use_modes": [
+      "Ruby"
+    ],
+    "similar_tools": [
+      "Sidekiq",
+      "Resque"
+    ],
+    "proposed_tests": [
+      "Install solid_queue and create a job",
+      "Send 1000 jobs and measure queue latency",
+      "Run a simple job and check output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rails/solid_queue"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785589346715-ak4rw",
+    "log_dir": "/tmp/llm-review-1785589346715-ak4rw",
+    "install_success": false,
+    "install_time_s": 7.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.08225440979003906\nBENCHMARK:memory_usage_mb:0.001667022705078125\nBENCHMARK:vs_sidekiq_import_time_ratio:0",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement solid-queue (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for solid-queue\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL: unable to import solid_queue\nTEST_FAIL:create_job:No module named 'solid_queue'\nTEST_FAIL:queue_latency:No module named 'solid_queue'\nTEST_FAIL:run_job:No module named 'solid_queue'\nTEST_FAIL:import_time:No module named 'solid_queue'\nBENCHMARK:import_time_ms:0.08225440979003906\nTEST_FAIL:memory_usage:No module named 'solid_queue'\nBENCHMARK:memory_usage_mb:0.001667022705078125\nBENCHMARK:vs_sidekiq_import_time_ratio:0\nRUN_OK\n"
+  }
+}
