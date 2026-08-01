@@ -1,0 +1,83 @@
+{
+  "app_name": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+  "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+  "scored_at": "2026-08-01T13:06:27.880Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article presents a unique approach to achieving 25 Gbps Thunderbolt Ethernet on a Mac Studio, with a specific tutorial and experiences shared by the author, which is a novel contribution given the current landscape of networking solutions."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The article requires a Mac Studio and specific hardware for the setup, which may not be accessible to all users, and the install time of 25.9s is relatively moderate."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The article addresses a current need for high-speed networking solutions, particularly for Mac users, which is relevant to the current technological landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The article's approach to achieving 25 Gbps Ethernet is distinct, with a focus on Thunderbolt and specific hardware configurations, but it may not be vastly different from other networking solutions."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository or clear community signals for this article, but the HN comments show engagement with 30 comments and 201 points, indicating some level of community interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The article provides a specific tutorial, but the setup requires particular hardware and may involve complex configurations, and the tests passed show some issues with 2/3 tests passing."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to an article."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article itself serves as documentation, providing a clear and detailed guide to setting up 25 Gbps Thunderbolt Ethernet, and the author's shared experiences add value."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The article is a one-time publication without clear signs of ongoing development or updates, and there is no versioning or release information available."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The speedtest results show significant download and upload speeds, with 843.23 Mbps download and 603.05 Mbps upload, indicating good performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 201 points and 30 comments, showing a generally positive tone but also highlighting some limitations and concerns."
+    }
+  },
+  "summary": "The article provides a unique approach to achieving high-speed Ethernet on a Mac Studio, with a focus on Thunderbolt and specific hardware configurations. It shows good performance but may have some limitations and requires specific hardware. The community engagement is moderate, with some positive signals and concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49125034",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "RDMA support on macOS",
+        "Fast networking performance",
+        "Creative community engagement (commenters sharing their own experiences)"
+      ],
+      "negative_signals": [
+        "SMB driver limitations",
+        "System crashes and instability",
+        "Power consumption and heat issues with Ethernet chips"
+      ],
+      "justification": "The comments show a generally positive tone, with several users sharing their own experiences with RDMA support and fast networking performance. However, there are also concerns about the limitations of the SMB driver and system instability issues.",
+      "comment_count": 30,
+      "hn_points": 201
+    }
+  }
+}
