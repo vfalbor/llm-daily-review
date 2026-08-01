@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "G'mic 4.0: Squaring the Pixel, Easier",
+    "url": "https://gmic.eu/gmic40/",
+    "hn_url": "https://news.ycombinator.com/item?id=49096847",
+    "points": 42,
+    "comments": 2,
+    "author": "dtschump",
+    "age": "2026-07-29T12:51:40 1785329500",
+    "scraped_at": "2026-08-01T13:00:02.713Z",
+    "tool_url": "https://github.com/dcmerchant/gmic",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "devtool",
+    "app_type": "devtool-image-processing",
+    "description": "G'mic is an image processing and manipulation tool.",
+    "use_modes": [
+      "CLI",
+      "Python"
+    ],
+    "similar_tools": [
+      "ImageMagick",
+      "Pillow"
+    ],
+    "proposed_tests": [
+      "Install gmic CLI and run a basic command",
+      "Use gmic to convert an image to grayscale",
+      "Measure performance of gmic vs ImageMagick"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/dcmerchant/gmic"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785589387036-zcbcc",
+    "log_dir": "/tmp/llm-review-1785589387036-zcbcc",
+    "install_success": false,
+    "install_time_s": 8.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement gmic-python (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for gmic-python\nCloning into 'gmic'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 14, in <module>\n    subprocess.run(['pip', 'install', 'gmic-python'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'gmic-python']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 21, in <module>\n    subprocess.run(['git', 'clone', 'https://github.com/dcmerchant/gmic.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/dcmerchant/gmic.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nInstalling required system packages...\nInstalling gmic using pip...\nINSTALL_FAIL:Command '['pip', 'install', 'gmic-python']' returned non-zero exit status 1.\nFalling back to git clone and pip install -e .\n"
+  }
+}
