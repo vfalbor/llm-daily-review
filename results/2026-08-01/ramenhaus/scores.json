@@ -1,0 +1,94 @@
+{
+  "app_name": "RamenHaus",
+  "url": "https://ramen.haus/",
+  "scored_at": "2026-08-01T13:04:36.063Z",
+  "total_score": 29,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The app does not seem to introduce a new approach, given that similar tools like Hasura (32,062 stars) and Prisma (47,420 stars) already exist, with RamenHaus not standing out based on the provided data."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The app had an install success of false and an install time of 7s, indicating difficulties in setting up the application."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a GraphQL-based ramen shop API, its relevance is somewhat niche and not directly aligned with current LLM trends, which are more focused on AI and machine learning applications."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With similar tools like Hasura (32,062 stars) and Prisma (47,420 stars), RamenHaus does not demonstrate significant differentiation based on the provided data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess the community based on stars, contributors, and update frequency."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being false, it indicates significant issues with usability and functionality."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "No PyPI package was found, and the lack of API modes besides GraphQL limits its ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess the quality of documentation, as no GitHub repository or docs site was directly evaluated."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to accurately assess maturity, as no GitHub repository data or release information was available."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No BENCHMARK lines from tests were provided to evaluate performance, and given the app type (database-graphql), performance is a relevant but unassessable criterion without specific benchmark data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Not applicable for this scoring task, but mentioned in the context."
+    }
+  },
+  "summary": "RamenHaus, a GraphQL-based ramen shop API, faces challenges in install success, differentiation, and community engagement, with limited data available for a comprehensive assessment.",
+  "recommendation": "skip",
+  "app_url": "https://ramen.haus/",
+  "tool_url": "https://github.com/ramenhousa/ruten",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49132460",
+  "domain": "database",
+  "app_type": "database-graphql",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Hasura",
+        "stars": 32062,
+        "repo": "hasura/graphql-engine"
+      },
+      {
+        "name": "Prisma",
+        "stars": 47420,
+        "repo": "prisma/prisma"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Overwhelming appreciation for the ramen photography",
+        "Users expressing love for ramen and excitement about the site",
+        "Recognition of the RamenHaus site's simplicity and aesthetics"
+      ],
+      "negative_signals": [
+        "Some users skeptical of food posts on HN",
+        "Mention of potentially higher costs and different eating experiences outside Japan",
+        "A few users expressing disappointment with their ramen experiences outside Japan"
+      ],
+      "justification": "The site received widespread praise for its photography and aesthetics, with users expressing enthusiasm for the topic. However, some users questioned the site's relevance to HN and raised concerns about the economics and cultural context of ramen outside Japan.",
+      "comment_count": 30,
+      "hn_points": 121
+    }
+  }
+}
