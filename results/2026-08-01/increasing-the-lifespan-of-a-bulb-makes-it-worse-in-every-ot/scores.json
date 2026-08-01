@@ -1,0 +1,83 @@
+{
+  "app_name": "Increasing the lifespan of a bulb makes it worse in every other way",
+  "url": "https://maurycyz.com/misc/tungsten/",
+  "scored_at": "2026-08-01T13:08:37.641Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article presents a unique perspective on the trade-offs of increasing the lifespan of a bulb, citing specific examples and data, such as the longevity of Philips Hue bulbs, which is a novelty in the context of current discussions around LED bulbs and their environmental impact."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and does not require installation or have system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The article discusses the relevance of LED bulb quality and lifespan in the context of current trends, citing specific brands and their performance, such as GE and Osram, which have been discussed in recent conversations around sustainable lighting."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Insufficient data to determine differentiation, as there is no direct comparison to similar tools or articles."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Insufficient data to determine community, as there is no GitHub repository or other community metrics available."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and does not require installation or have ease of use considerations."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and does not require integration."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The article provides a clear and well-structured discussion of the topic, including specific examples and data, with a content length of over 5000 characters, indicating substantive content."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to determine maturity, as there is no information on the article's publication history or updates."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type, as it is an article and does not have performance considerations."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN comment sentiment score is 6/10, with 113 points and 30 comments, indicating a mixed sentiment with both positive and negative signals, such as the longevity of Philips Hue bulbs and the concerns around cheap or low-quality LED bulbs."
+    }
+  },
+  "summary": "The article discusses the trade-offs of increasing the lifespan of a bulb, presenting a unique perspective on the topic, and highlights the importance of proper design and materials in LED bulbs, citing specific examples and data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://maurycyz.com/misc/tungsten/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49121849",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Philips Hue bulbs last longer and are more reliable than other brands",
+        "Properly made LED bulbs can last for 10+ years",
+        "Quality matters when it comes to LED bulbs"
+      ],
+      "negative_signals": [
+        "Cheap or low-quality LED bulbs can be unreliable and last only a year or two",
+        "Some brands, such as GE and Osram, are not living up to expectations in terms of lifespan and quality",
+        "The increasing prevalence of 'Dubai LED' class bulbs is a concern"
+      ],
+      "justification": "While there are some users who have had good experiences with certain brands like Philips Hue, there are also many users who have experienced issues with cheap or low-quality bulbs from brands like GE and Osram. The fact that some bulbs can last for 10+ years suggests that proper design and materials are still possible.",
+      "comment_count": 30,
+      "hn_points": 113
+    }
+  }
+}
