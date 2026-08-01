@@ -1,0 +1,83 @@
+{
+  "app_name": "Big Food vs. the People",
+  "url": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+  "scored_at": "2026-08-01T13:07:30.491Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article discusses a unique perspective on the food industry, with 7/10 sentiment score and 237 HN points, indicating a meaningful contribution to the conversation, as seen in the 30 comments analyzed."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant issues with accessibility, and install time is 8.9s, which is relatively fast but install success is the primary concern."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The article is highly relevant to current trends in the food industry and antitrust discussions, with HN points of 237, suggesting it is a topic of significant interest."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The article offers a distinct perspective, as indicated by the 7/10 sentiment score and the variety of positive and negative signals in the 30 comments analyzed, showing a differentiated viewpoint."
+    },
+    "community": {
+      "score": 7,
+      "justification": "With 237 HN points and 30 comments, the article has generated a notable discussion, although the lack of GitHub repository data limits the community score."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed is 0/3, and while basic run success is true, the overall usability is compromised by the failed tests, indicating significant user experience issues."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to articles."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The article itself serves as documentation, and with a sentiment score of 7/10 and 30 comments, it indicates a well-structured and informative piece, although not formally documented like software."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "Maturity does not directly apply to articles in the same way as software projects."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance metrics such as speed or efficiency do not apply to articles."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score is 7/10, with 237 HN points and 30 comments analyzed, showing a generally positive discussion around the article's topic."
+    }
+  },
+  "summary": "The article Big Food vs. the People offers a unique perspective on the food industry, garnering significant attention and discussion. Despite its relevance and differentiated viewpoint, the article's impact is limited by its format and lack of direct engagement with the broader community beyond the initial discussion.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+  "tool_url": "null",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49124858",
+  "domain": null,
+  "app_type": null,
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Free trade can improve competitiveness",
+        "Antitrust enforcement can help prevent monopolies",
+        "Government intervention can lead to monopolies"
+      ],
+      "negative_signals": [
+        "Monopolies can lead to reduced competition",
+        "Large corporations can have high profits",
+        "Government-backed monopolies are difficult to challenge"
+      ],
+      "justification": "The conversation is generally positive, with many commenters discussing the importance of competition and antitrust enforcement. However, some commenters express skepticism about the ability of free markets to prevent monopolies and argue that government intervention can actually lead to monopolies.",
+      "comment_count": 30,
+      "hn_points": 237
+    }
+  }
+}
