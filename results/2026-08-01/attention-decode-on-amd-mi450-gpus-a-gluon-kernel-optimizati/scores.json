@@ -1,0 +1,93 @@
+{
+  "app_name": "Gluon Attention Decode",
+  "url": "https://github.com/amd/gluon-attention-decode",
+  "scored_at": "2026-08-01T13:05:49.410Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique optimization guide for Gluon Attention Decode on AMD MI450 GPUs, with 0 days since creation, indicating a new contribution, but no direct comparison to similar tools is provided."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app has an install time of 0.672600507736206 seconds, but install success is false, indicating difficulty in installation, and no PyPI package is found."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is relevant to the current LLM ecosystem trends as it provides optimization for deep learning models, but its type, devtool-ml-optimization, may not be directly aligned with current trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The app has 0 stars, compared to 196,642 stars for TensorFlow and 102,099 stars for PyTorch, indicating a need for differentiation, and no BENCHMARK comparisons are provided."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The app has no GitHub repository detected or API unavailable, and HN points are 48, with mostly negative comments, indicating a small and not very active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app has 0 tests passed out of 0, and basic run success is false, indicating difficulty in usage, and no specific TEST_PASS or TEST_FAIL names are provided."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app has no PyPI package found, and no API modes are provided, but it has a use mode of Python, indicating some ease of integration, and the license is not mentioned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app has a README.html, but no has_wiki, has_pages, or GitHub topics count, and no score can be determined due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has no days since creation, forks count, or open issues, and no score can be determined due to insufficient data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The app has an install time of 0.672600507736206 seconds, but no BENCHMARK lines from tests are provided, and no comparison to similar tools is made, so a neutral score is assigned due to insufficient data."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The sentiment score is 3/10, with 48 HN points, 4 comments analyzed, 2 positive signals, and 3 negative signals, indicating a mostly negative sentiment."
+    }
+  },
+  "summary": "Gluon Attention Decode is a tool for optimizing deep learning models, but it has difficulty in installation, a small and not very active community, and mostly negative comments, indicating a need for improvement in these areas.",
+  "recommendation": "niche",
+  "app_url": "https://rocm.blogs.amd.com/software-tools-optimization/gluon-attention-decode-mi450/README.html",
+  "tool_url": "https://github.com/amd/gluon-attention-decode",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49077646",
+  "domain": "devtool",
+  "app_type": "devtool-ml-optimization",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "TensorFlow",
+        "stars": 196642,
+        "repo": "tensorflow/tensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "stars": 102099,
+        "repo": "pytorch/pytorch"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "AMD MI450 GPUs support",
+        "Gluon Kernel Optimization Guide"
+      ],
+      "negative_signals": [
+        "MI350 not meeting DeepSeek V4 Flash requirements",
+        "strained terminology",
+        "lacked equivalent NVIDIA comparison"
+      ],
+      "justification": "The comments are mostly negative, with concerns about compatibility (MI350 not fitting DeepSeek V4 Flash), criticism of terminology, and a missed opportunity for comparison to NVIDIA. The only positive comments are about the support of AMD MI450 GPUs and the Gluon Kernel Optimization Guide.",
+      "comment_count": 4,
+      "hn_points": 48
+    }
+  }
+}
