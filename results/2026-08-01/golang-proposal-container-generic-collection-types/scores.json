@@ -1,0 +1,114 @@
+{
+  "app_name": "Golang Generic Collection Types",
+  "url": "https://github.com/golang/go/issues/80590",
+  "scored_at": "2026-08-01T13:12:57.520Z",
+  "total_score": 75,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The proposal for generic collection types in Golang is a new approach, with 4365 days since the repository was created and 0 days since the last commit, indicating active development and a significant contribution to the language, as seen in the 135,457 GitHub stars."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The install success is true, and the install time is 153s, which is relatively fast, but the basic run success is false, indicating some issues with the installation process, as shown in the 124.10s install time and 19.87ms hello world execution time."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The proposal fits well with the current programming language ecosystem trends, as seen in the 165 HN points and 30 comments analyzed, indicating a high level of interest and relevance in the developer community."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The generic collection types proposal has 135,457 GitHub stars, and the closest similar tool has significantly fewer stars, indicating a unique feature set and a clear advantage, as seen in the comparison to other programming languages."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The GitHub repository has 135,457 stars, 19,184 forks, and 2,948 contributors, indicating a large and active community, with 0 days since the last commit, showing a high level of engagement and maintenance."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The tests passed are 3 out of 4, and the basic run success is false, indicating some issues with the usability and functionality of the proposal, as shown in the test results and the 19.87ms hello world execution time."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The proposal has a PyPI package with version 1.2.1, and the Python requirement is any, indicating a relatively easy integration process, as seen in the PyPI package existence and the any Python requirement."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The GitHub repository has a high-quality README and a large number of contributors, indicating a well-documented and well-maintained project, as seen in the 2,948 contributors and the 0 days since the last commit."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The proposal has been in development for 4365 days, and the last commit was made 0 days ago, indicating a mature and actively maintained project, as seen in the 4365 days since the repository was created and the 0 days since the last commit."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The benchmark measurements show an install time of 124.10s and a hello world execution time of 19.87ms, indicating relatively good performance, as seen in the benchmark results and the comparison to other programming languages."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The sentiment score is 6/10, with 165 HN points and 30 comments analyzed, indicating a generally positive sentiment, but with some concerns and criticism, as seen in the sentiment score and the HN points."
+    },
+    "overall_impact": {
+      "score": 8,
+      "justification": "The proposal has the potential to significantly improve the Golang language, with a large and active community, and a high level of interest and relevance in the developer community, as seen in the 135,457 GitHub stars and the 165 HN points."
+    }
+  },
+  "summary": "The Golang proposal for generic collection types is a new and significant contribution to the language, with a large and active community, and a high level of interest and relevance in the developer community, but with some issues with usability and functionality.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/golang/go/issues/80590",
+  "tool_url": "https://github.com/golang/go",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49127031",
+  "domain": "language",
+  "app_type": "lang-proposal",
+  "enriched": {
+    "github": {
+      "stars": 135457,
+      "forks": 19184,
+      "open_issues": 10211,
+      "watchers": 135457,
+      "contributors": 2948,
+      "license": "BSD-3-Clause",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4365,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Go programming language",
+      "topics": [
+        "go",
+        "golang",
+        "language",
+        "programming-language"
+      ]
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.2.1",
+      "summary": "Quick directory changing (super-cd)",
+      "requires_python": null,
+      "license": "http://www.opensource.org/licenses/mit-license.php",
+      "home_page": "http://code.google.com/p/go-tool/"
+    },
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "generics win for many users",
+        "Go authors consider language enhancement impact",
+        "many users appreciate simplicity and trade-offs"
+      ],
+      "negative_signals": [
+        "concerns about wobbly functionality",
+        "pre-generics Go limitations (methods for external types)",
+        "criticism of simplicity and lack of generics"
+      ],
+      "justification": "The discussion reveals mostly positive sentiments about the generic collection type proposal and the Go language's conservative evolution. However, there are concerns about pre-generics limitations and criticism of simplicity. Justification includes a mix of appreciation for simplicity and trade-offs versus criticism of lack of features.",
+      "comment_count": 30,
+      "hn_points": 165
+    }
+  }
+}
