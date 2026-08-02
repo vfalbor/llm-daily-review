@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+    "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+    "hn_url": "https://news.ycombinator.com/item?id=49140396",
+    "points": 195,
+    "comments": 60,
+    "author": "tomilan",
+    "age": "2026-08-02T02:07:09 1785636429",
+    "scraped_at": "2026-08-02T13:00:02.632Z",
+    "is_reviewable": true,
+    "is_open_source": true,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Open-source cycloidal gearbox project",
+    "use_modes": [
+      "Simulation, embedded firmware, control"
+    ],
+    "tool_url": "https://github.com/tom-ilan/cycloidal_gearbox",
+    "repo_url": "https://github.com/tom-ilan/cycloidal_gearbox",
+    "similar_tools": [
+      "GRBL",
+      "Arduino",
+      "RepRap"
+    ],
+    "proposed_tests": [
+      "Check simulated model accuracy with real-world data",
+      "Verify correct control response through experimentation",
+      "Run code on target microcontroller with testbench"
+    ],
+    "requires_api_key": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1785675828419-ngf3u",
+    "log_dir": "/tmp/llm-review-1785675828419-ngf3u",
+    "install_success": false,
+    "install_time_s": 13.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:loc_count:2\nBENCHMARK:supported_languages_count:1\nBENCHMARK:example_cycloidal_math.py_time_ms:24.04046058654785\nBENCHMARK:example_cycloidal_math.py_memory_mb:0.000152",
+    "error_log": "ERROR: unable to select packages:\n  pip (no such package):\n    required by: world[pip]\nCloning into 'cycloidal_gearbox'...\nTraceback (most recent call last):\n  File \"/cycloidal_gearbox/./cycloidal_generator/cycloidal_generator.py\", line 1, in <module>\n    import adsk.core\nModuleNotFoundError: No module named 'adsk'\nERROR: Could not find a version that satisfies the requirement grbl (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for grbl\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n(1/7) Installing libgcc (15.2.0-r5)\n(2/7) Installing libstdc++ (15.2.0-r5)\n(3/7) Installing mpdecimal (4.0.1-r0)\n(4/7) Installing python3 (3.14.5-r0)\n(5/7) Installing python3-pycache-pyc0 (3.14.5-r0)\n(6/7) Installing pyc (3.14.5-r0)\n(7/7) Installing python3-pyc (3.14.5-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 62.5 MiB in 58 packages\nBENCHMARK:loc_count:2\nBENCHMARK:supported_languages_count:1\nTEST_FAIL:simulator_found:Simulator/emulator not found\nBENCHMARK:example_cycloidal_math.py_time_ms:24.04046058654785\nBENCHMARK:example_cycloidal_math.py_memory_mb:0.000152\nTEST_PASS:example_cycloidal_math.py\nTEST_FAIL:example_cycloidal_generator.py:Command '['python3', './cycloidal_generator/cycloidal_generator.py']' returned non-zero exit status 1.\nTEST_FAIL:grbl_version:Command '['pip', 'install', 'grbl']' returned non-zero exit status 1.\nRUN_OK\n"
+  }
+}
