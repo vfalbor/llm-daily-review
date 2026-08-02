@@ -1,0 +1,119 @@
+{
+  "app_name": "Cycloidal Gearbox",
+  "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+  "scored_at": "2026-08-02T13:04:22.764Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a unique implementation of a cycloidal gearbox, with 36 GitHub stars and 0 forks, showing original contribution, especially considering it's built by a 15-year-old."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, and install time was 13.9s, indicating difficulties in setting up the project."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project fits into the current hardware and IoT landscape, given its open-source nature and unique gearbox design, but its relevance is somewhat niche."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like GRBL (6,243 stars), Arduino (17,168 stars), and RepRap (1,043 stars), this project has significantly fewer stars, indicating less differentiation in terms of community adoption."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 36 GitHub stars, 0 forks, and 1 contributor, the community around this project is very small, indicating a lack of community involvement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed were 1/4, and basic run success was true, but the low test pass rate indicates potential difficulties in using the project."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply for a hardware project like a cycloidal gearbox."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's no clear evidence of extensive documentation, but given the project's nature, it might have decent hardware-focused docs; however, without clear data, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project has been created 44 days ago and has seen recent activity (days since last commit: 0), but without more data on its stability or versioning, a neutral score is given."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The benchmark measurement example_cycloidal_math.py_time_ms shows a time of 24.04046058654785 ms, and example_cycloidal_math.py_memory_mb shows memory usage of 0.000152 MB, indicating reasonable performance for its intended application, but this is a very specific use case."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 195 points and 30 comments analyzed, showing a very positive reaction to the project, with praise for the achievement and excitement about the project's potential."
+    }
+  },
+  "summary": "This open-source cycloidal gearbox project, built by a 15-year-old, shows originality and potential but currently lacks a strong community, extensive documentation, and ease of use. It has a positive reception on Hacker News, indicating its novelty and interest in the hardware community.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/tom-ilan/cycloidal_gearbox",
+  "tool_url": "https://github.com/tom-ilan/cycloidal_gearbox",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49140396",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 36,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 36,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 44,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "3D Printed Cycloidal Gearbox ",
+      "topics": [
+        "cycloidal",
+        "cycloidal-drive",
+        "gear",
+        "gearbox",
+        "mechanical-engineering"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GRBL",
+        "stars": 6243,
+        "repo": "grbl/grbl"
+      },
+      {
+        "name": "Arduino",
+        "stars": 17168,
+        "repo": "espressif/arduino-esp32"
+      },
+      {
+        "name": "RepRap",
+        "stars": 1043,
+        "repo": "Duet3D/RepRapFirmware"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "impressive achievement",
+        "cool project",
+        "exciting career ahead"
+      ],
+      "negative_signals": [
+        "AI-generated project",
+        "posting age on internet"
+      ],
+      "justification": "The commenter reaction is overall very positive, with many people praising the project and the creator's achievement. However, some commenters are critical of posting age on the internet and the potential use of AI in the project. Some people share the fear that this might reduce the value of spending time and effort on personal projects.",
+      "comment_count": 30,
+      "hn_points": 195
+    }
+  }
+}
