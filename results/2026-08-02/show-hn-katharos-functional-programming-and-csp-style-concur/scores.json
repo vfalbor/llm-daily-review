@@ -1,0 +1,124 @@
+{
+  "app_name": "Katharos",
+  "url": "https://github.com/kamalfarahani/katharos",
+  "scored_at": "2026-08-02T13:04:58.453Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Katharos offers a unique blend of functional programming and CSP-style concurrency, with 302 days since its creation and 0 forks, setting it apart from similar tools like Python concurrent.futures (8 stars) and asyncio (5104 stars)."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Katharos installed successfully in 16.2s, with a basic run success, and requires Python >=3.13, making it easily accessible for installation and use."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli, Katharos fits into the current ecosystem of Python development tools, particularly with its focus on functional programming and concurrency, relevant to the trends in Python and software development."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Katharos has 49 stars, compared to Python concurrent.futures with 8 stars and asyncio with 5104 stars, showing it has a distinct, albeit smaller, following, and its unique approach to functional programming and CSP-style concurrency differentiates it."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 49 GitHub stars, 0 forks, and 2 contributors, Katharos has a small but present community, and its last commit was 5 days ago, indicating some level of activity, though it's not highly engaged compared to larger projects."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "Katharos has 1/1 tests passed, indicating good test coverage, and its basic run was successful, suggesting it is relatively easy to use for its intended purpose."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Katharos is available on PyPI (v1.4.1), can be installed via pip, and has a clear import library use mode, making it straightforward to integrate into existing projects."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The quality and completeness of Katharos' documentation are not extensively detailed in the provided data, suggesting a need for further inspection of its GitHub repository and potential documentation site."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Created 302 days ago with its last commit 5 days ago, and having 2 contributors, Katharos shows signs of ongoing development but lacks extensive maturity indicators like a large contributor base or a long history of stable releases."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "While there are benchmark measurements mentioned, such as install_time_s and vs_concurrent_futures_time_ratio, the data does not directly address the performance of Katharos in a manner that allows for a scored comparison to similar tools without additional context."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient data for meaningful sentiment analysis, with only 1 comment analyzed and a sentiment score of 5/10, which does not provide a clear indication of community sentiment towards Katharos."
+    }
+  },
+  "summary": "Katharos is a Python library for functional programming and CSP-style concurrency, offering a unique approach with relative ease of use and integration, though it has a small community and its documentation quality is not well-documented in the provided data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/kamalfarahani/katharos",
+  "tool_url": "https://github.com/kamalfarahani/katharos",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49143179",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 49,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 49,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 302,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A functional programming and concurrency library for Python: algebraic abstractions (Semigroups, Monoids, Functors, Applicatives, Monads), immutable data types, and message-passing concurrency, all designed as composable, type-safe values.",
+      "topics": [
+        "applicative-functors",
+        "communicating-sequential-processes",
+        "csp",
+        "functional-programming",
+        "functor",
+        "monads",
+        "monoid",
+        "python",
+        "python-csp",
+        "semigroup"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Python concurrent.futures",
+        "stars": 8,
+        "repo": "openstack-archive/deb-python-concurrent.futures"
+      },
+      {
+        "name": "asyncio",
+        "stars": 5104,
+        "repo": "timofurrer/awesome-asyncio"
+      },
+      {
+        "name": "Twisted",
+        "stars": 5973,
+        "repo": "twisted/twisted"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.4.1",
+      "summary": "A functional programming and concurrency library for Python: algebraic abstractions (Semigroups, Monoids, Functors, Applicatives, Monads), immutable data types, and message-passing concurrency (Go-style CSP today, more models planned) — all designed as composable, type-safe values.",
+      "requires_python": ">=3.13",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 5
+    }
+  }
+}
