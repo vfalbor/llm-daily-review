@@ -1,0 +1,90 @@
+{
+  "app_name": "Bor",
+  "url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+  "scored_at": "2026-08-02T13:02:38.162Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Bor is an open-source policy management tool for Linux desktops, which is a unique solution in the current market, with a release version of 0.8.0 indicating a level of maturity."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Bor can be installed in 8.4 seconds, indicating a simple and efficient installation process, with a Python requirement of >=3.8."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a policy management tool for Linux desktops, Bor fits into the current ecosystem of Linux management tools, with a focus on open-source solutions."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Bor differentiates itself from other policy management tools through its open-source nature and focus on Linux desktops, but lacks comparison to similar tools, with no GitHub repo detected for comparison."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, making it difficult to assess the size and engagement of the community, but the HN post received 64 points and 11 comments, indicating some interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Bor's basic run was successful, but it failed 0 out of 2 tests, indicating potential usability issues, but the installation was successful."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Bor has a PyPI package available, version 0.2.0, and requires Python >=3.8, making it relatively easy to integrate into existing workflows, with a clean and effective solution for policy drift."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While there is a blog post about the release, there is no comprehensive documentation available, making it difficult for users to understand how to use the tool, but the project website provides some information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The lack of a GitHub repository and limited information about the project's history makes it difficult to assess the maturity of the project, but the release version indicates some level of development."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Bor's benchmark measurements show a bor_import_time_ms of 0.006198883056640625, indicating relatively fast performance, and a bor_memory_usage_bytes of 0, indicating low memory usage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN post received a sentiment score of 8/10, with 64 points and 11 comments, indicating a generally positive reception, with users appreciating the tool's robust design and real-time policy enforcement."
+    }
+  },
+  "summary": "Bor is an open-source policy management tool for Linux desktops that offers a unique solution in the current market, with a focus on simplicity and efficiency, but lacks comprehensive documentation and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://getbor.dev/blog/2026-08-02-bor-v080-release/",
+  "tool_url": "https://github.com/bordesktop/bor",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49142569",
+  "domain": "devtool",
+  "app_type": "devtool-management",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "User-friendly, tiny source code searcher written by pure Python.",
+      "requires_python": ">=3.8",
+      "license": "MIT",
+      "home_page": "https://github.com/furkanonder/bor/"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Tamper protection and robust design",
+        "Real-time policy enforcement and gRPC push delivery",
+        "Clean and effective solution for policy drift"
+      ],
+      "negative_signals": [
+        "Limited support for Enterprise SSO",
+        "Potential for configuration drift without polling interval",
+        "Lack of support for iOS-like parental monitoring features"
+      ],
+      "justification": "The project received a generally positive reception, with users appreciating its robust design and real-time policy enforcement. However, some users expressed concerns about limited support for Enterprise SSO and the potential for configuration drift, as well as the lack of support for parental monitoring features.",
+      "comment_count": 11,
+      "hn_points": 64
+    }
+  }
+}
