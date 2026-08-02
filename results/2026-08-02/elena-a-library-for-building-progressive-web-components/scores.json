@@ -1,0 +1,94 @@
+{
+  "app_name": "Elena",
+  "url": "https://elenajs.com/",
+  "scored_at": "2026-08-02T13:05:33.377Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Elena is a library for building Progressive Web Components, which is a unique approach, and it has been 4738 days since the repo was created, indicating it's been around for a while, but the fact that it's a library for building Progressive Web Components gives it a novelty score of 8."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install time is not provided in the test results, but it's mentioned that the install time is 9.4s and install success is true, however, there is no PyPI package found, which makes the installation process more complex, hence a score of 3."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Elena is a library for building Progressive Web Components, which is relevant to current web development trends, considering the importance of Progressive Web Apps, but its relevance could be higher if it was more widely adopted, hence a score of 6."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Elena has 1 star on GitHub, which is low compared to similar tools, but its unique approach to building Progressive Web Components sets it apart, hence a score of 7."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Elena has 1 star, 0 forks, and 0 open issues on GitHub, and the last commit was 3980 days ago, indicating a very small and inactive community, hence a score of 2."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tests passed is 0 out of 3, and the basic run success is false, which indicates that the library is difficult to use, hence a score of 1."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Elena has a license of BSD-3-Clause and supports ESM, ES6 Module, and UMD, but there is no PyPI package found, which makes the integration process more complex, hence a score of 4."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no information provided about the quality of the documentation, hence a score of 5."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository was created 4738 days ago, but the last commit was 3980 days ago, which indicates that the project is not actively maintained, hence a score of 3."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no information provided about the performance of Elena, hence a score of 5."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this scoring, but for reference, it has a sentiment score of 9/10, 41 HN points, and 3 comments analyzed, with all comments being positive."
+    }
+  },
+  "summary": "Elena is a library for building Progressive Web Components, with a unique approach, but it has a small and inactive community, and its ease of use and integration are limited, which affects its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://elenajs.com/",
+  "tool_url": "https://github.com/elenajs/elenajs",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49109759",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "license": "BSD-3-Clause",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 3980,
+      "days_since_created": 4738,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "web framework based on node.js and dojotoolkit",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "appreciation for building Progressive Web Components",
+        "understanding of Shadow DOM limitations",
+        "excitement for external CSS customization"
+      ],
+      "negative_signals": [],
+      "justification": "All comments praise the project, highlighting its approach to web development and understanding of web capabilities.",
+      "comment_count": 3,
+      "hn_points": 41
+    }
+  }
+}
