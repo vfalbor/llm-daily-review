@@ -1,0 +1,94 @@
+{
+  "app_name": "Fuse",
+  "url": "https://fuselang.org/",
+  "scored_at": "2026-08-02T13:03:47.250Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Fuse is a new statically typed functional programming language, which suggests a high level of novelty, comparable to other new languages like Rust with 119,420 stars and Elm with 41,038 stars, but without direct GitHub comparison, we must consider its unique features as mentioned on its website."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time was 14.1s, which is somewhat slow, and since install success was false, this suggests some issues with system requirements, but PyPI package existence at version 0.1.3 and Python requirement of >=3.6 is a positive signal."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a functional programming language, Fuse fits into current trends of preferring statically typed languages for reliability and performance, similar to how Rust and Elm are relevant, with the latter having 41,038 stars."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Fuse differentiates itself by being a statically typed functional programming language, which sets it apart from dynamically typed languages, and its compilation to machine code could offer performance advantages, similar to how Rust with 119,420 stars differentiates itself through its focus on safety and performance."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without GitHub repository stats or HN comments, we cannot directly assess the community size or engagement, so we default to a neutral score of 5, acknowledging the lack of available data."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "With 0 out of 3 tests passed and basic run success being true, this indicates some potential ease of use issues, but without more specific feedback from tests, it's hard to assess fully, so we look at the website and documentation for clarity and ease of getting started."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The existence of a PyPI package at version 0.1.3 suggests that integration into existing workflows should be relatively straightforward for Python users, which is a positive signal for ease of integration, especially considering its compile-time evaluation use mode."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality or GitHub topics, and considering the nature of the tool, we look at the website for documentation and tutorials, but lacking concrete evidence, we score neutrally at 5, acknowledging we could not find has_wiki or has_pages data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of direct data on days since created, forks, or open issues, and considering it's a new language, we cannot accurately assess its maturity, so we default to a neutral score of 5, recognizing the absence of concrete data."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "While there are no direct benchmark comparisons provided, being a compiled language, Fuse could potentially offer better performance than interpreted languages, which is a positive aspect, but without concrete benchmark data, we cannot accurately score its performance, so we rely on the general advantages of compiled languages."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the absence of HN comments or failed analysis, so we cannot assess the community's sentiment towards this tool, leading to a null score for this criterion."
+    }
+  },
+  "summary": "Fuse is a new statically typed functional programming language that offers a unique set of features and potential performance advantages, but its community, ease of use, and maturity are hard to assess due to lack of data. Its relevance and differentiation are notable, especially considering current trends in programming languages.",
+  "recommendation": "worth-watching",
+  "app_url": "https://fuselang.org/",
+  "tool_url": "https://github.com/fuseliang/fuse",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49143412",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Haskell",
+        "stars": 3482,
+        "repo": "sdiehl/write-you-a-haskell"
+      },
+      {
+        "name": "Rust",
+        "stars": 119420,
+        "repo": "rustdesk/rustdesk"
+      },
+      {
+        "name": "Elm",
+        "stars": 41038,
+        "repo": "bailicangdu/vue2-elm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.3",
+      "summary": "Fuse to get gunpowder started",
+      "requires_python": ">=3.6",
+      "license": "bsd-2",
+      "home_page": "https://github.com/hanslovsky/fuse"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
