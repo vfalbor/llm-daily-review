@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Elena, a library for building Progressive Web Components",
+    "url": "https://elenajs.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49109759",
+    "points": 41,
+    "comments": 3,
+    "author": "brianzelip",
+    "age": "2026-07-30T13:31:56 1785418316",
+    "scraped_at": "2026-08-02T13:00:02.637Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/elenajs/elenajs",
+    "source_type": "tool",
+    "confidence": 1,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "Elena is a library for building Progressive Web Components.",
+    "use_modes": [
+      "ESM",
+      "ES6 Module",
+      "UMD"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      "install using npm/yarn",
+      "import example component, render it to the DOM",
+      "benchmark rendering performance compared to other libraries"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/elenajs/elenajs"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785675899501-gpmtg",
+    "log_dir": "/tmp/llm-review-1785675899501-gpmtg",
+    "install_success": true,
+    "install_time_s": 9.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-02T13_05_11_937Z-debug-0.log\nnode:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module 'elenajs'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at [eval]:1:15\n    at runScriptInThisContext (node:internal/vm:219:10) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/[eval]' ]\n}\n\nNode.js v24.18.1\nnode:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module 'elenajs'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at [eval]:1:15\n    at runScriptInThisContext (node:internal/vm:219:10) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/[eval]' ]\n}\n\nNode.js v24.18.1\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-02T13_05_12_813Z-debug-0.log\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-02T13_05_13_435Z-debug-0.log\nTraceback (most recent call last):\n  File \"/app/test.py\", line 62, in <module>\n    subprocess.run(['npm', 'start', '&'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['npm', 'start', '&']' returned non-zero exit status 254.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.18.1-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.0 MiB in 60 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['npm', 'install', 'elenajs']' returned non-zero exit status 1.\nTEST_FAIL:import_example_component:Command '['node', '-e', 'const Elena = require(\"elenajs\"); const component = new Elena.Component();']' returned non-zero exit status 1.\nTEST_FAIL:render_performance:Command '['node', '-e', 'const Elena = require(\"elenajs\"); const component = new Elena.Component(); component.render();']' returned non-zero exit status 1.\nTEST_FAIL:render_performance_comparison:Command '['npm', 'install', 'react']' returned non-zero exit status 1.\n"
+  }
+}
