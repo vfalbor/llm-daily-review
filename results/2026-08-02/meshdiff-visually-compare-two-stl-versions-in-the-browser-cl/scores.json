@@ -1,0 +1,79 @@
+{
+  "app_name": "Meshdiff",
+  "url": "https://meshdiff.com/",
+  "scored_at": "2026-08-02T13:02:03.334Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "As an STL comparison tool, Meshdiff offers a unique contribution with its client-side, adjustable tolerance, and volume delta metrics, making it stand out with a novelty score of 8, considering its unique approach to a specific problem."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "With an install time of 7.6s and basic run success, but no PyPI package found, Meshdiff's system requirements score is 6, indicating moderate accessibility but lacking in pip-installability."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Given the current trends and needs in devtools, especially for graphics and STL file manipulation, Meshdiff fits well with a score of 7, aligning with the demand for efficient comparison tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Meshdiff differentiates itself through its client-side comparison and adjustable tolerance, but without direct comparison to similar tools in the provided data, its differentiation score is 7, based on its unique features."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Due to the lack of available GitHub repository data, the community score is set to 5, as there's insufficient information to assess community engagement accurately."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Although tests passed is 0 out of 2 and basic run success is true, due to limited data on user experience and test outcomes, ease of use is scored as 5, indicating a need for more information to accurately assess usability."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Without a PyPI package and limited information on API modes or a clear license, ease of integration is scored at 4, suggesting difficulties in integrating Meshdiff into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Given the absence of GitHub data and insufficient information on documentation quality from the provided metadata, the documentation score is 5, indicating a lack of concrete evidence to evaluate documentation comprehensively."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Due to the unavailability of specific data on days since creation, forks, or open issues, maturity is scored at 5, as there's not enough information to accurately gauge the project's maturity level."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Although there are some benchmark measurements mentioned, such as loc_count and test_files_count, without direct comparisons to similar tools or comprehensive benchmarking data, the performance score is set to 3, indicating insufficient evidence for a high score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With a sentiment score of 8/10, 52 HN points, and positive signals from comments, Meshdiff's HN sentiment score is 8, reflecting the community's positive perception of the tool."
+    }
+  },
+  "summary": "Meshdiff is a novel tool for visually comparing STL files in the browser, offering unique features but lacking in some areas such as pip-installability and comprehensive benchmarking. It has garnered positive community sentiment but needs more development in terms of documentation, ease of integration, and performance metrics.",
+  "recommendation": "worth-watching",
+  "app_url": "https://meshdiff.com/",
+  "tool_url": "https://github.com/meshdiff/meshdiff",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49143479",
+  "domain": "devtool",
+  "app_type": "devtool-graphics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "visually compares two STL files client-side",
+        "adjustable tolerance",
+        "volume delta metrics"
+      ],
+      "negative_signals": [],
+      "justification": "The comments praise the tool for its simplicity, user-friendliness, and functionality, with some users expressing excitement about the potential applications of the project.",
+      "comment_count": 4,
+      "hn_points": 52
+    }
+  }
+}
