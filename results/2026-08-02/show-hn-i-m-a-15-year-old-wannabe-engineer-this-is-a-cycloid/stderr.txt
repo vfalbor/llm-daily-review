@@ -1,0 +1,13 @@
+ERROR: unable to select packages:
+  pip (no such package):
+    required by: world[pip]
+Cloning into 'cycloidal_gearbox'...
+Traceback (most recent call last):
+  File "/cycloidal_gearbox/./cycloidal_generator/cycloidal_generator.py", line 1, in <module>
+    import adsk.core
+ModuleNotFoundError: No module named 'adsk'
+ERROR: Could not find a version that satisfies the requirement grbl (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for grbl
