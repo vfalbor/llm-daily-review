@@ -1,0 +1,108 @@
+{
+  "app_name": "Syncular",
+  "url": "https://github.com/syncular/syncular",
+  "scored_at": "2026-08-02T13:03:12.205Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app is not a direct clone, with 166 days since its creation and 0 forks, indicating some original contribution, but its novelty is incremental given the existing SQL sync tools."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app failed to install, with an install time of 14.2s and no PyPI package found, making it difficult to assess its system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-database, Syncular fits well with current trends in offline-first and local-first software development, addressing a relevant pain point."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With only 58 GitHub stars and no direct comparisons provided, it's challenging to assess its differentiation from similar tools accurately."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Syncular has 58 GitHub stars, 0 forks, and only 2 contributors, indicating a small but not entirely inactive community, with 1 open issue and recent commits."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 4 tests passed and the app failed to install, its ease of use is significantly compromised."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Without a PyPI package and considering the installation issues, integrating Syncular into existing workflows might be challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data to accurately assess the quality of Syncular's documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 166 days since its creation, recent commits, and an Apache-2.0 license, Syncular shows some signs of maturity, but its overall project age and lack of forks suggest it's still in early stages."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmarks or performance data to assess Syncular's performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "While HN comments provide sentiment, this criterion does not directly apply to the scoring of the app's technical merits."
+    }
+  },
+  "summary": "Syncular is an offline-first SQL sync tool with TypeScript and Rust cores, showing promise in its approach to local-first software but facing challenges in installation, community size, and performance data availability.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/syncular/syncular",
+  "tool_url": "https://github.com/syncular/syncular",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49142794",
+  "domain": "devtool",
+  "app_type": "devtool-database",
+  "enriched": {
+    "github": {
+      "stars": 58,
+      "forks": 0,
+      "open_issues": 1,
+      "watchers": 58,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 166,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Offline-first SQL sync with Typescript and Rust cores",
+      "topics": [
+        "bun",
+        "kysely",
+        "local-first",
+        "offline-first",
+        "postgres",
+        "react",
+        "real-time",
+        "sqlite",
+        "sync",
+        "typescript"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Offline-first approach is gaining appreciation",
+        "Decoupling and testing are recommended for successful implementation",
+        "Local first software with robust syncing is needed"
+      ],
+      "negative_signals": [
+        "Some comments show skepticism and minor criticism",
+        "One commentor felt the attention was not focused on the app itself"
+      ],
+      "justification": "The comments are largely positive, with several developers showing appreciation for the offline-first approach and recommending best practices for successful implementation. However, some comments show skepticism and minor criticism, and one commentor felt the attention was focused on other projects rather than the app itself. Overall, the tone is very positive with minor nitpicks.",
+      "comment_count": 12,
+      "hn_points": 31
+    }
+  }
+}
