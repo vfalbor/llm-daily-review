@@ -1,0 +1,38 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Show HN: Syncular – offline-first SQL sync with TypeScript and Rust cores",
+    "url": "https://github.com/syncular/syncular",
+    "hn_url": "https://news.ycombinator.com/item?id=49142794",
+    "points": 32,
+    "comments": 13,
+    "author": "quambo",
+    "age": "2026-08-02T09:48:08 1785664088",
+    "scraped_at": "2026-08-02T13:00:02.630Z",
+    "tool_url": "https://github.com/syncular/syncular",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-database",
+    "description": "Offline-first SQL sync with TypeScript and Rust cores",
+    "use_modes": null,
+    "similar_tools": null,
+    "proposed_tests": [],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/syncular/syncular"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785675759207-inh62",
+    "log_dir": "/tmp/llm-review-1785675759207-inh62",
+    "install_success": false,
+    "install_time_s": 14.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'syncular'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///syncular does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///syncular\nINSTALL_FAIL:No module named 'syncular'\nTEST_FAIL:connect_test:name 'syncular' is not defined\nTEST_FAIL:import_test:No module named 'syncular'\nTEST_FAIL:memory_test:No module named 'syncular'\nTEST_FAIL:baseline_test:no such table: test_table\nRUN_OK\n"
+  }
+}
