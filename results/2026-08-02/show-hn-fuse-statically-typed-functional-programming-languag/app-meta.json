@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "Show HN: Fuse – statically typed functional programming language",
+    "url": "https://fuselang.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=49143412",
+    "points": 11,
+    "comments": 0,
+    "author": "the_unproven",
+    "age": "2026-08-02T11:23:56 1785669836",
+    "scraped_at": "2026-08-02T13:00:02.632Z",
+    "is_reviewable": true,
+    "is_open_source": true,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "Statically typed functional programming language",
+    "use_modes": [
+      "Compile-time evaluation"
+    ],
+    "tool_url": "https://github.com/fuseliang/fuse",
+    "repo_url": "https://github.com/fuseliang/fuse",
+    "similar_tools": [
+      "Haskell",
+      "Rust",
+      "Elm"
+    ],
+    "proposed_tests": [
+      "Download, compile hello-world, measure compile+run time",
+      "Run a simple benchmark to compare performance vs baseline runtime",
+      "Check type system correctness with fuzz testing"
+    ],
+    "requires_api_key": false
+  },
+  "test_results": {
+    "run_id": "llm-review-1785675793288-jianh",
+    "log_dir": "/tmp/llm-review-1785675793288-jianh",
+    "install_success": false,
+    "install_time_s": 14.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'fuse'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/27) Installing libgcc (15.2.0-r5)\n( 2/27) Installing jansson (2.15.0-r0)\n( 3/27) Installing libstdc++ (15.2.0-r5)\n( 4/27) Installing binutils (2.45.1-r1)\n( 5/27) Installing libgcc-static (15.2.0-r5)\n( 6/27) Installing libgomp (15.2.0-r5)\n( 7/27) Installing libatomic (15.2.0-r5)\n( 8/27) Installing gmp (6.3.0-r4)\n( 9/27) Installing isl26 (0.26-r2)\n(10/27) Installing mpfr4 (4.2.2-r0)\n(11/27) Installing mpc1 (1.3.1-r1)\n(12/27) Installing gcc (15.2.0-r5)\n(13/27) Installing musl-dev (1.2.6-r2)\n(14/27) Installing libxml2 (2.13.9-r2)\n(15/27) Installing llvm22-libs (22.1.3-r0)\n(16/27) Installing scudo-malloc (22.1.3-r0)\n(17/27) Installing rust (1.96.1-r0)\n(18/27) Installing libssh2 (1.11.1-r3)\n(19/27) Installing cargo (1.96.1-r0)\n(20/27) Installing go (1.26.3-r0)\n(21/27) Installing ada-libs (3.3.0-r0)\n(22/27) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(23/27) Installing icu-libs (78.1-r0)\n(24/27) Installing simdjson (4.2.4-r0)\n(25/27) Installing simdutf (9.0.0-r0)\n(26/27) Installing nodejs (24.18.1-r0)\n(27/27) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 869.8 MiB in 78 packages\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/fuseliang/fuse.git']' returned non-zero exit status 128.\nTEST_FAIL:helloworld:[Errno 2] No such file or directory: './fuse'\nTEST_FAIL:benchmark:[Errno 2] No such file or directory: './fuse'\nTEST_FAIL:type_system:[Errno 2] No such file or directory: './fuse'\nRUN_OK\n"
+  }
+}
