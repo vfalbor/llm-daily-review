@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "AirLLM 70B inference with single 4GB GPU",
+    "url": "https://github.com/lyogavin/airllm",
+    "hn_url": "https://news.ycombinator.com/item?id=49154228",
+    "points": 7,
+    "comments": 1,
+    "author": "Anon84",
+    "age": "2026-08-03T11:15:48 1785755748",
+    "scraped_at": "2026-08-03T13:00:02.998Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "AirLLM 70B is a fast and efficient LLM inference engine.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "Hugging Face Transformers",
+      "NVIDIA Triton"
+    ],
+    "proposed_tests": [
+      "Install airllm and benchmark inference time for a given dataset",
+      "Compare airllm 70B to other LLM inference engines",
+      "Measure performance using a benchmark dataset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/lyogavin/airllm",
+    "tool_url": "https://github.com/lyogavin/airllm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785762177189-86t9o",
+    "log_dir": "/tmp/llm-review-1785762177189-86t9o",
+    "install_success": false,
+    "install_time_s": 9.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: Invalid requirement: 'lyogavin/airllm': Expected end or semicolon (after name and no valid version specifier)\n    lyogavin/airllm\n            ^\nHint: It looks like a path. File 'lyogavin/airllm' does not exist.\nCloning into 'airllm'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///airllm does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 72, in <module>\n    main()\n  File \"/app/test.py\", line 63, in main\n    airllm = import_package('airllm')\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 25, in import_package\n    airllm = importlib.util.module_from_spec(spec)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 810, in module_from_spec\nAttributeError: 'NoneType' object has no attribute 'loader'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///airllm\nINSTALL_FAIL:Command '['pip', 'install', 'lyogavin/airllm']' returned non-zero exit status 1.\nINSTALL_FAIL:Command '['pip', 'install', '-e', './airllm']' returned non-zero exit status 1.\n"
+  }
+}
