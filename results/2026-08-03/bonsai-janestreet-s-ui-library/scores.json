@@ -1,0 +1,121 @@
+{
+  "app_name": "Bonsai",
+  "url": "https://github.com/janestreet/bonsai",
+  "scored_at": "2026-08-03T13:02:24.774Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Bonsai has a unique approach to building UI libraries for OCaml projects, with 953 GitHub stars and 8 contributors, but it is not the first of its kind, as similar tools like React and Angular have more established communities, with 246,925 and 100,703 stars respectively."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The install success was false, and install time was 14.7s, but the PyPI package exists with a version of 1.5.5, and the Python requirement is <4.0,>=3.10, indicating moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Bonsai is relevant to the current devtool landscape, particularly for OCaml projects, and its GitHub stats show recent activity, but its differentiation from other UI libraries like React and Angular is limited, with a smaller community and fewer features."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Bonsai differentiates itself through its focus on OCaml projects and its strict compiler and type safety, but it lags behind similar tools like React and Angular in terms of community size, with 953 stars vs 246,925 and 100,703 respectively."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Bonsai has a moderate community size with 953 GitHub stars, 8 contributors, and 51 forks, but its activity is relatively low, with 7 open issues and 23 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "The tests passed 2/4, and basic run success was true, indicating some usability issues, but the GitHub repository has a clear description and installation instructions, making it relatively easy to use."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Bonsai has a PyPI package with a version of 1.5.5, and its use modes include CLI, HTTP API, and SDK, making it relatively easy to integrate, but its compatibility with non-OCaml projects is limited."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The GitHub repository has a clear description, installation instructions, and some documentation, but it is not comprehensive, with a limited number of GitHub topics and no wiki."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Bonsai has a moderate maturity level, with 2450 days since its creation, 23 days since the last commit, and 51 forks, indicating a relatively stable but not widely adopted project."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "The benchmark measurements show a render time of 7.16ms, memory usage of 155855 bytes, and a vs react render time ratio of 6.29, indicating good performance, but the data is limited and not directly comparable to other tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 95 points, 30 comments analyzed, and a mix of positive and negative signals, indicating a generally positive but not overwhelmingly enthusiastic community response."
+    }
+  },
+  "summary": "Bonsai is a UI library for OCaml projects with a unique approach and moderate community size, but it lags behind similar tools in terms of differentiation and performance, and its usability and documentation are limited.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/janestreet/bonsai",
+  "tool_url": "https://github.com/janestreet/bonsai",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49152842",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 953,
+      "forks": 51,
+      "open_issues": 7,
+      "watchers": 953,
+      "contributors": 8,
+      "license": "MIT",
+      "language": "OCaml",
+      "is_fork": false,
+      "days_since_update": 23,
+      "days_since_created": 2450,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A library for building dynamic webapps, using Js_of_ocaml",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "React",
+        "stars": 246925,
+        "repo": "react/react"
+      },
+      {
+        "name": "Angular",
+        "stars": 100703,
+        "repo": "angular/angular"
+      },
+      {
+        "name": "Vue.js",
+        "stars": 4314,
+        "repo": "euvl/vue-js-modal"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.5.5",
+      "summary": "Python 3 module for accessing LDAP directory servers.",
+      "requires_python": "<4.0,>=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Opener for Jane Street's UI Library receives positive comments about its potential for OCaml projects",
+        "Developers appreciate the strict compiler and type safety",
+        "Some users report experience with similar libraries like Melange and Clojure/ClojureScript"
+      ],
+      "negative_signals": [
+        "Comments express hesitation about reinventing the wheel and limitations for non-OCaml projects",
+        "A few users mention poor aesthetics, such as old-looking UIs and margin issues",
+        "There are concerns about hot reload, compilation speed, and bus factor for the technology"
+      ],
+      "justification": "Comments praise the project's potential for OCaml projects, with several users sharing their own experience with similar libraries. However, they also express concern about reinventing the wheel and limitations for non-OCaml projects, as well as some aesthetic and technical issues.",
+      "comment_count": 30,
+      "hn_points": 95
+    }
+  }
+}
