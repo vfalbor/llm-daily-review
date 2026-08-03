@@ -1,0 +1,103 @@
+{
+  "app_name": "CP/M-386",
+  "url": "https://github.com/johnsonjh/cpm386",
+  "scored_at": "2026-08-03T13:07:03.233Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This project is a unique implementation of CP/M for 386 protected mode, derived from CP/M-68K, which has been created in 38 days, showing a high level of originality, as cited by the 38 days since repo created."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is 7.1s, indicating issues with installation, as shown by the false install success."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "This project is a low-level implementation and may not be directly relevant to current LLM ecosystem trends, which mostly focus on high-level AI applications, as indicated by the lack of similar tools and use modes."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "This project has 33 GitHub stars and is a unique implementation of CP/M for 386 protected mode, which differentiates it from other projects, as shown by the 33 GitHub stars and the fact that it's not a fork."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is limited data available on the community, but with 1 contributor and 0 open issues, it's difficult to determine the community's health, so a neutral score of 5 is assigned."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has 0 tests passed and basic run success is false, indicating potential difficulties in using the project, as shown by the 0 tests passed and false basic run success."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found and no information on API modes, making integration potentially difficult, as indicated by the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is limited data available on the documentation, so a neutral score of 5 is assigned, as there is no information on has_wiki, has_pages, or GitHub topics count."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project has been created 38 days ago and has 0 open issues, but with only 1 contributor, its maturity is still uncertain, as shown by the 38 days since repo created and 0 open issues."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available, so a neutral score of 5 is assigned, as there are no BENCHMARK lines from tests."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 76 HN points and 30 comments analyzed, indicating a positive reception, as cited by the 8/10 sentiment score and 76 HN points."
+    }
+  },
+  "summary": "CP/M-386 is a unique, low-level implementation of CP/M for 386 protected mode, with a positive reception on HN, but faces challenges with installation and community growth.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/johnsonjh/cpm386",
+  "tool_url": "https://github.com/johnsonjh/cpm386",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49149898",
+  "domain": "hardware-iot",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 33,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 33,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 38,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "CP/M-386: CP/M for 386 protected mode, derived from CP/M-68K",
+      "topics": [
+        "cpm",
+        "cpm22",
+        "cpm386",
+        "cpm86",
+        "cpmplus"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Appreciation for a nostalgic, low-level project",
+        "Praise for a non-AI generated code base",
+        "Excitement for a new implementation of 32-bit protected mode"
+      ],
+      "negative_signals": [
+        "Question about the implementation of flat memory",
+        "Criticism for not being able to directly compare to modern systems"
+      ],
+      "justification": "The majority of comments are overwhelmingly positive, highlighting the developer's effort in creating a low-level project without relying on AI. However, there are some constructive criticisms about the implementation of flat memory and the comparison to modern systems.",
+      "comment_count": 30,
+      "hn_points": 76
+    }
+  }
+}
