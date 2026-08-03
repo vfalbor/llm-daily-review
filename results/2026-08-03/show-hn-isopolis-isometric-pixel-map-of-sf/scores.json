@@ -1,0 +1,99 @@
+{
+  "app_name": "Isopolis",
+  "url": "https://sf.isopolis.city/",
+  "scored_at": "2026-08-03T13:04:44.994Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "Isopolis is an open-source, isometric pixel map of San Francisco, which is a genuinely new approach, with its unique isometric style and detailed visuals, as seen in its pixel art and map, scoring 9 for novelty."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No data available for system requirements, as there is no information about the installation process or system compatibility, hence scoring 5 due to insufficient data."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Isopolis fits well with the current geographic information systems (GIS) and mapping trends, with an increasing demand for interactive and detailed maps, particularly in urban planning and tourism, as it offers an isometric view of San Francisco, scoring 8 for current relevance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Isopolis has a unique feature set with its isometric pixel art style, but it has competitors like OpenLayers, Leaflet, and Mapbox GL JS, which offer more comprehensive mapping features, with OpenLayers at 12,526 stars, Leaflet at 45,443 stars, and Mapbox GL JS at 12,361 stars, scoring 6 for differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The HN post received 257 points, with 30 comments and a sentiment score of 9/10, indicating a positive community response, but no GitHub repository was found, limiting the community engagement assessment, hence scoring 7 for community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No data available for ease of use, as there are no test results or feedback about the user experience, hence scoring 5 due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as Isopolis is a standalone web application and does not require integration with other systems or pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data available for documentation, as there is no information about the availability or quality of documentation for Isopolis, hence scoring 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data available for maturity, as there is no information about the age or stability of Isopolis, hence scoring 5 due to insufficient data."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements show a response time of 11.222858428955078 ms and memory usage of 0.106599 MB, indicating good performance, and the comparison to Mapbox shows a response time ratio of 0.08924525402141562, which is relatively fast, scoring 8 for performance."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN post received a sentiment score of 9/10, with 257 points and 30 comments, indicating a very positive community response, and the sentiment analysis shows perfect audio and visuals, incredible detail and exploration experience, and well-executed pixel art and map, scoring 9 for HN sentiment."
+    }
+  },
+  "summary": "Isopolis is an open-source, isometric pixel map of San Francisco, offering a unique and detailed mapping experience, with a strong community response and good performance, but limited data available for some criteria, making it a niche application.",
+  "recommendation": "worth-watching",
+  "app_url": "https://sf.isopolis.city/",
+  "tool_url": "https://github.com/Isopolis/isopolis",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49149966",
+  "domain": "web",
+  "app_type": "web-cms",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenLayers",
+        "stars": 12526,
+        "repo": "openlayers/openlayers"
+      },
+      {
+        "name": "Leaflet",
+        "stars": 45443,
+        "repo": "Leaflet/Leaflet"
+      },
+      {
+        "name": "Mapbox GL JS",
+        "stars": 12361,
+        "repo": "mapbox/mapbox-gl-js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Perfect audio and visuals",
+        "Incredible detail and exploration experience",
+        "Well-executed pixel art and map"
+      ],
+      "negative_signals": [
+        "Spurious lakes and roads turning into rivers",
+        "Limited zoom capabilities",
+        "AI anomalies and some data discrepancies"
+      ],
+      "justification": "The project has received overwhelmingly positive feedback, with users praising its unique approach to creating an isometric map of San Francisco. However, some users have pointed out minor issues with data accuracy, limited zoom capabilities, and AI anomalies, but overall the project is considered very successful.",
+      "comment_count": 30,
+      "hn_points": 257
+    }
+  }
+}
