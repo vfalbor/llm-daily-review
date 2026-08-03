@@ -1,0 +1,117 @@
+{
+  "app_name": "PISIGuard",
+  "url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+  "scored_at": "2026-08-03T13:05:35.567Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "PISIGuard offers a unique approach to protecting personal info in AI chats, with 10 days since its creation and no forks, but it has similarities with existing tools like Privacy Guardian and Data Protection, which have 23 and 213 stars respectively."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app has install_success set to false and an install time of 10.3s, indicating potential difficulties in setting it up, and it's not pip-installable as there's no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm-evaluation tool, PISIGuard fits into the current LLM ecosystem trends, addressing a need for privacy protection in AI interactions."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 5 stars compared to similar tools like Privacy Guardian (23 stars) and Data Protection (213 stars), PISIGuard lacks significant differentiation, aside from its plain JS core for easy plugin development."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Having only 1 contributor, 0 forks, and 4 open issues, the community around PISIGuard is very small, and with 5 stars, it indicates a limited community engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 0 tests passed and basic run success is false, along with the lack of a straightforward installation process, the ease of use is significantly impacted."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "While PISIGuard does not have a PyPI package, making it less straightforward to integrate into existing workflows, its use of plain JavaScript could facilitate easier integration for developers familiar with the language."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "Without sufficient data on the quality of the wiki, pages, or topics, and considering the project's GitHub presence, the documentation score is neutral, requiring more information for a thorough assessment."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 10 days since the repository was created and 0 days since the last commit, indicating recent activity, but only 1 contributor and no forks, PISIGuard is in its early stages of development, lacking maturity."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "There are no available benchmark results or performance claims for PISIGuard, making it challenging to assess its performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "PISIGuard received an HN sentiment score of 6/10, with 14 HN points, 10 comments analyzed, and both positive and negative signals, indicating a mixed but leaning towards positive reception."
+    }
+  },
+  "summary": "PISIGuard is a novel tool aiming to protect personal info in AI chats but faces challenges in installation, community engagement, and performance documentation. It has potential but requires further development and community support.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+  "tool_url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49153029",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 4,
+      "watchers": 5,
+      "contributors": 1,
+      "license": "AGPL-3.0",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 10,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Protect your personal and sensitive info when you chat with AI",
+      "topics": [
+        "ai",
+        "dlp",
+        "information-security",
+        "infosec",
+        "privacy",
+        "privacy-tools",
+        "web-extension"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Privacy Guardian",
+        "stars": 23,
+        "repo": "alicankiraz1/PrivacyGuardian"
+      },
+      {
+        "name": "Data Protection",
+        "stars": 213,
+        "repo": "mukul975/Privacy-Data-Protection-Skills"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful for protecting personal info in chat with AI",
+        "Core is plain JS for easy plugin development",
+        "Potential for local execution"
+      ],
+      "negative_signals": [
+        "Concerns about existing similar software",
+        "Current implementation may not be practical",
+        "Some users find the project unclear in its purpose"
+      ],
+      "justification": "The project received mostly positive comments, with users seeing potential in protecting personal info and applauding the plain JS core. However, some users questioned the practicality of the project in its current form and the existence of similar software.",
+      "comment_count": 10,
+      "hn_points": 14
+    }
+  }
+}
