@@ -1,0 +1,99 @@
+{
+  "app_name": "ssh.place",
+  "url": "https://ssh.place/",
+  "scored_at": "2026-08-03T13:05:57.029Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project introduces a unique concept of a cloud-native, highly-available SSH broker, which is not commonly seen in similar tools like SSH Tunneling (38 stars) or Secure Shell (77 stars)."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The install success is false, indicating potential issues with the installation process, and the install time of 8.7s is relatively slow."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app type is infra-queue, which has some relevance in current infrastructure trends, but its uniqueness and cloud-native approach give it a moderate score."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like SSH Tunneling (38 stars) and Secure Shell (77 stars), ssh.place has a unique approach as a cloud-native SSH broker, but its differentiation is not extremely high due to the existence of other SSH-related projects."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 139 HN points and 30 comments, the community engagement is moderate, but there's no GitHub repository detected, which limits the visibility of its community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 5 tests passed and the basic run success is true but with failed install, the ease of use is severely impacted by installation and testing issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found, and the project requires specific setup, which makes its integration more challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct documentation assessment is available due to the lack of GitHub repository or clear documentation links, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without a clear release history or versioning, and considering the project's uniqueness and the concerns raised in the HN comments, the maturity of the project is relatively low."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "The benchmark measurement vs_secure_shell_time_ms failed, indicating significant performance issues or lack of benchmarking data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not directly applicable as a separate criterion but is incorporated into community and other relevant scores."
+    }
+  },
+  "summary": "ssh.place is a unique cloud-native SSH broker with a promising concept but faces significant challenges in installation, testing, and performance. While it has a moderate community engagement, its overall maturity and ease of use are impacted by several issues.",
+  "recommendation": "niche",
+  "app_url": "https://ssh.place/",
+  "tool_url": "https://github.com/sshplace/ssh-place",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49149805",
+  "domain": "infra",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SSH Tunneling",
+        "stars": 38,
+        "repo": "gdbtek/ssh-tunneling"
+      },
+      {
+        "name": "Secure Shell",
+        "stars": 77,
+        "repo": "yuex/chrome-secure-shell-solarized"
+      },
+      {
+        "name": "Cloud Access",
+        "stars": 123,
+        "repo": "aws-samples/amazon-cloudfront-access-logs-queries"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Users are praising the creativity of the project and its similarity to other popular projects.",
+        "Developers appreciate the inspiration and idea-sharing in the comments section.",
+        "Some commenters find the project's unique features and purposes entertaining."
+      ],
+      "negative_signals": [
+        "Concerns about bot security and potential exploitation are raised by commenters.",
+        "Users are worried about potential misuses of the project's features, such as IP and device limits.",
+        "One commenter questions whether the project is a simple honeypot reverse hack server."
+      ],
+      "justification": "The project generally receives positive comments for its unique concept, but some users raise concerns about security, potential misuses, and simplicity.",
+      "comment_count": 30,
+      "hn_points": 139
+    }
+  }
+}
