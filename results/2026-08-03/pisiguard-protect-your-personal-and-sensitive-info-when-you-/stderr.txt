@@ -1,0 +1,29 @@
+ERROR: Could not find a version that satisfies the requirement PISIGuard (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for PISIGuard
+Cloning into 'pisiguard'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./pisiguard is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Traceback (most recent call last):
+  File "/app/test.py", line 10, in install_dependencies
+    subprocess.run(['pip', 'install', 'PISIGuard'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'PISIGuard']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 129, in <module>
+    main()
+  File "/app/test.py", line 118, in main
+    install_dependencies()
+  File "/app/test.py", line 14, in install_dependencies
+    subprocess.run(['pip', 'install', '-e', './pisiguard'], cwd='./pisiguard', check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', './pisiguard']' returned non-zero exit status 1.
