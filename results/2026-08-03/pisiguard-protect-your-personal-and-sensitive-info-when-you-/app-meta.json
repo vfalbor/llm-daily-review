@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "PISIGuard: Protect your personal and sensitive info when you chat with AI",
+    "url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+    "hn_url": "https://news.ycombinator.com/item?id=49153029",
+    "points": 14,
+    "comments": 10,
+    "author": "mohamed_am83",
+    "age": "2026-08-03T08:54:00 1785747240",
+    "scraped_at": "2026-08-03T13:00:03.001Z",
+    "is_reviewable": true,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "source_type": "tool",
+    "tool_url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+    "repo_url": "https://github.com/mohamed--abdel-maksoud/pisiguard",
+    "description": "PISIGuard is a privacy-focused AI chat plugin.",
+    "use_modes": [],
+    "similar_tools": [
+      "Privacy Guardian",
+      "Data Protection",
+      "Secure AI Chats"
+    ],
+    "proposed_tests": [
+      "Test PISIGuard's data protection features against common attacks",
+      "Evaluate performance with different AI models",
+      "Check integration with popular AI chat platforms"
+    ],
+    "confidence": 0.95,
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1785762286141-7360e",
+    "log_dir": "/tmp/llm-review-1785762286141-7360e",
+    "install_success": false,
+    "install_time_s": 10.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement PISIGuard (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for PISIGuard\nCloning into 'pisiguard'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: ./pisiguard is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTraceback (most recent call last):\n  File \"/app/test.py\", line 10, in install_dependencies\n    subprocess.run(['pip', 'install', 'PISIGuard'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'PISIGuard']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 129, in <module>\n    main()\n  File \"/app/test.py\", line 118, in main\n    install_dependencies()\n  File \"/app/test.py\", line 14, in install_dependencies\n    subprocess.run(['pip', 'install', '-e', './pisiguard'], cwd='./pisiguard', check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', '-e', './pisiguard']' returned non-zero exit status 1.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
