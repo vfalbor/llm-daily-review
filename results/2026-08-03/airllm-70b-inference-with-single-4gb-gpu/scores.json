@@ -1,0 +1,122 @@
+{
+  "app_name": "AirLLM 70B",
+  "url": "https://github.com/lyogavin/airllm",
+  "scored_at": "2026-08-03T13:03:29.701Z",
+  "total_score": 61,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient HN comments for meaningful sentiment analysis, only 1 comment found"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "As a new approach to LLM inference with 1147 days since repo creation and 5 days since last commit, AirLLM shows promise, with 26,318 GitHub stars"
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Failed to install with install_success=False and an install time of 9.5s, indicating potential issues with system requirements"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM inference engine, AirLLM fits well with current LLM ecosystem trends, especially with its focus on single 4GB GPU support"
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 26,318 GitHub stars, AirLLM significantly outnumbers similar tools like Hugging Face Transformers (27 stars) and NVIDIA Triton (90 stars), showing a clear advantage"
+    },
+    "community": {
+      "score": 8,
+      "justification": "Having 26,318 GitHub stars, 2926 forks, and 10 contributors indicates a strong and active community around AirLLM"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With 0 tests passed out of 0 and basic run success being False, AirLLM appears to have significant usability issues"
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Existing as a PyPI package (v3.1.0) with a permissive Apache-2.0 license, AirLLM has decent integration ease, especially with its CLI and HTTP API use modes"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data on documentation quality, a neutral score is assigned"
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 1147 days since its creation, 5 days since the last commit, and an active community, AirLLM shows a good level of maturity"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient benchmark data to accurately assess performance, thus a neutral score is given"
+    }
+  },
+  "summary": "AirLLM 70B is a promising LLM inference engine with a strong community and significant differentiation from similar tools, but it faces challenges in terms of usability and system requirements",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/lyogavin/airllm",
+  "tool_url": "https://github.com/lyogavin/airllm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49154228",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 26318,
+      "forks": 2926,
+      "open_issues": 119,
+      "watchers": 26318,
+      "contributors": 10,
+      "license": "Apache-2.0",
+      "language": "Jupyter Notebook",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 1147,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "topics": [
+        "chinese-llm",
+        "chinese-nlp",
+        "finetune",
+        "generative-ai",
+        "instruct-gpt",
+        "instruction-set",
+        "llama",
+        "llm",
+        "lora",
+        "open-models",
+        "open-source",
+        "open-source-models",
+        "qlora"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Hugging Face Transformers",
+        "stars": 27,
+        "repo": "nicknochnack/Hugging-Face-Transformers-Summarization"
+      },
+      {
+        "name": "NVIDIA Triton",
+        "stars": 90,
+        "repo": "NVIDIA-AI-IOT/tao-toolkit-triton-apps"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "3.1.0",
+      "summary": "AirLLM runs 70B large language models on a single 4GB GPU without quantization, distillation or pruning. 405B Llama 3.1 on 8GB, DeepSeek-V3 671B on ~12GB, Kimi K3 2.8T on under 4GB.",
+      "requires_python": null,
+      "license": null,
+      "home_page": "https://github.com/lyogavin/airllm"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 6
+    }
+  }
+}
