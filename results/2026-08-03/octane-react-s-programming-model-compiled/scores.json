@@ -1,0 +1,94 @@
+{
+  "app_name": "Octane",
+  "url": "https://octanejs.dev/",
+  "scored_at": "2026-08-03T13:04:20.943Z",
+  "total_score": 57,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data available"
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "Octane introduces a new programming model for React, which is a unique approach compared to similar tools like Next.js (141,310 stars) and Gatsby (55,936 stars)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false, and install time was not provided, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a high-performance, compiled, and type-safe JavaScript runtime, Octane is relevant to current web development trends, particularly with the popularity of React and similar frameworks like Next.js."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Octane differentiates itself from Next.js (141,310 stars) and Gatsby (55,936 stars) with its compiled and type-safe approach, but its star count is not available for direct comparison."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available for Octane, making it difficult to assess the community size and engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 0, and basic run success being true but without install success, the ease of use is questionable due to potential installation issues."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Octane has a PyPI package (v1.0.11) and supports Python versions >=2.7, which simplifies integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct information is available about the quality of Octane's documentation, so a neutral score is given."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without information on days since creation, forks, or open issues, the maturity of Octane cannot be accurately assessed, leading to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are available for Octane, making it difficult to evaluate its performance compared to similar tools."
+    }
+  },
+  "summary": "Octane is a novel, high-performance JavaScript runtime for React, with potential for good integration due to its PyPI package, but its usability and community are hard to assess due to lack of data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://octanejs.dev/",
+  "tool_url": "https://github.com/vercel/octane",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49152640",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Next.js",
+        "stars": 141310,
+        "repo": "vercel/next.js"
+      },
+      {
+        "name": "Nuxt.js",
+        "stars": 317,
+        "repo": "ymmooot/nuxt-jsonld"
+      },
+      {
+        "name": "Gatsby",
+        "stars": 55936,
+        "repo": "gatsbyjs/gatsby"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.11",
+      "summary": "Python bindings for the Octane API",
+      "requires_python": ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
+      "license": "MIT",
+      "home_page": "https://github.com/getoctane/octane-python"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
