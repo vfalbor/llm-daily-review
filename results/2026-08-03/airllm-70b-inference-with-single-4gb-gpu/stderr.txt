@@ -1,0 +1,23 @@
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: Invalid requirement: 'lyogavin/airllm': Expected end or semicolon (after name and no valid version specifier)
+    lyogavin/airllm
+            ^
+Hint: It looks like a path. File 'lyogavin/airllm' does not exist.
+Cloning into 'airllm'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///airllm does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 72, in <module>
+    main()
+  File "/app/test.py", line 63, in main
+    airllm = import_package('airllm')
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 25, in import_package
+    airllm = importlib.util.module_from_spec(spec)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 810, in module_from_spec
+AttributeError: 'NoneType' object has no attribute 'loader'
