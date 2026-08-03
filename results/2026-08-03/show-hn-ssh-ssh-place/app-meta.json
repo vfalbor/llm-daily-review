@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Show HN: ssh ssh.place",
+    "url": "https://ssh.place/",
+    "hn_url": "https://news.ycombinator.com/item?id=49149805",
+    "points": 138,
+    "comments": 78,
+    "author": "jeninh",
+    "age": "2026-08-03T00:23:21 1785716601",
+    "scraped_at": "2026-08-03T13:00:03.002Z",
+    "is_reviewable": true,
+    "domain": "infra",
+    "app_type": "infra-queue",
+    "source_type": "tool",
+    "tool_url": "https://github.com/sshplace/ssh-place",
+    "repo_url": "https://github.com/sshplace/ssh-place",
+    "description": "A cloud-native, highly-available SSH broker.",
+    "use_modes": [],
+    "similar_tools": [
+      "SSH Tunneling",
+      "Secure Shell",
+      "Cloud Access"
+    ],
+    "proposed_tests": [
+      "Test ssh-place's high availability features",
+      "Evaluate performance with different load conditions",
+      "Check integration with popular cloud platforms"
+    ],
+    "confidence": 0.9,
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1785762336746-zbgma",
+    "log_dir": "/tmp/llm-review-1785762336746-zbgma",
+    "install_success": false,
+    "install_time_s": 8.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:vs_secure_shell_time_ms:failed",
+    "error_log": "  Running command git clone --filter=blob:none --quiet https://github.com/sshplace/ssh-place.git /tmp/pip-req-build-o2b5m2au\n  fatal: could not read Username for 'https://github.com': No such device or address\n  error: subprocess-exited-with-error\n  \n  × git clone --filter=blob:none --quiet https://github.com/sshplace/ssh-place.git /tmp/pip-req-build-o2b5m2au did not run successfully.\n  │ exit code: 128\n  ╰─> See above for output.\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× git clone --filter=blob:none --quiet https://github.com/sshplace/ssh-place.git /tmp/pip-req-build-o2b5m2au did not run successfully.\n│ exit code: 128\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting git+https://github.com/sshplace/ssh-place.git\n  Cloning https://github.com/sshplace/ssh-place.git to /tmp/pip-req-build-o2b5m2au\nTEST_FAIL:high_availability_features:[Errno 2] No such file or directory: 'ssh-place'\nTEST_FAIL:performance_evaluation:[Errno 2] No such file or directory: 'ssh-place'\nTEST_FAIL:cloud_integration_aws:[Errno 2] No such file or directory: 'ssh-place'\nTEST_FAIL:cloud_integration_gcp:[Errno 2] No such file or directory: 'ssh-place'\nTEST_FAIL:cloud_integration_azure:[Errno 2] No such file or directory: 'ssh-place'\nBENCHMARK:vs_secure_shell_time_ms:failed\nRUN_OK\n"
+  }
+}
