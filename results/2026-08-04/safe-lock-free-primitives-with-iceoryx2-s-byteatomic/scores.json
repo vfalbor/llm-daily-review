@@ -1,0 +1,79 @@
+{
+  "app_name": "ByteAtomic",
+  "url": "https://github.com/EKXiDe/ByteAtomic",
+  "scored_at": "2026-08-04T13:06:55.316Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "ByteAtomic introduces a unique approach to lock-free primitives, with a focus on byte-wide atomic operations, which is a novel contribution, but without specific data on days_since_created or comparison to similar tools, the score is based on the originality of the concept described."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false, indicating difficulties in installation, and no PyPI package was found, making it hard to install and run, with an install time of 7.8s, which is not indicative of a smooth installation process."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a security primitive, ByteAtomic's relevance is tied to the need for secure, lock-free data structures, which is a current concern in the development landscape, particularly in the context of concurrent and parallel programming, but without specific trends data, the score is moderate."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The focus on byte-wide atomic operations differentiates ByteAtomic from other lock-free primitives, which often operate on larger data types, but without data on similar tools, the differentiation score is based on the unique selling point of the tool."
+    },
+    "community": {
+      "score": 1,
+      "justification": "Without a GitHub repository detected, and given the lack of community engagement signals such as stars, contributors, or update activity, the community score is low, reflecting the absence of a visible community around the project."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Basic run success is false, and zero tests passed out of zero, indicating significant usability issues or lack of testing, which directly impacts the ease of use score."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The absence of a PyPI package and no information on API modes or license suggests that integrating ByteAtomic into existing workflows could be challenging, but the score is not the lowest due to the potential for manual integration or future improvements."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of documentation, as there is no information on has_wiki, has_pages, or GitHub topics count, so the score is neutral due to lack of evidence."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without data on days_since_created, forks count, or open_issues, the maturity of the project cannot be accurately assessed, leading to a neutral score due to insufficient information."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a security primitive described in an article, performance benchmarks are not applicable in this context, hence the score is null."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not directly applicable due to the nature of the tool and the provided data, which focuses on the technical aspect rather than community sentiment, so the score is null."
+    },
+    "security": {
+      "score": 9,
+      "justification": "The tool is designed with security in mind, focusing on lock-free primitives to prevent undefined behavior, which is a critical aspect of security in concurrent programming, thus the high score."
+    }
+  },
+  "summary": "ByteAtomic is a novel approach to lock-free primitives, focusing on byte-wide atomic operations, which is a unique contribution to the field of concurrent programming, but it faces challenges in terms of community, ease of use, and integration, reflecting its current stage of development.",
+  "recommendation": "niche",
+  "app_url": "https://ekxide.io/blog/byte-wise-atomic-wrapper-to-prevent-ub/",
+  "tool_url": "https://github.com/EKXiDe/ByteAtomic",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49166672",
+  "domain": "security",
+  "app_type": "sec-primitive",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 5
+    }
+  }
+}
