@@ -1,0 +1,114 @@
+{
+  "app_name": "DeepSeek V4 Flash on a Single AMD MI300X",
+  "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+  "scored_at": "2026-08-04T13:02:02.937Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project is a new approach, with 0 days since its creation and 0 days since the last commit, indicating a very recent and potentially novel contribution."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate system requirements, as there is no information about the hardware or software requirements for the project."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project's relevance to current LLM ecosystem trends is moderate, with a focus on AI workloads and cloud providers, but its specific application and impact are unclear."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has -104075 stars compared to DeepSee, indicating a significant gap in differentiation and community support."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The project has 24 stars and 1 contributor, indicating a very small community, and its comparison to similar tools shows a significant gap in community support."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project's ease of use is low, with 0 tests passed out of 1 and a basic run success of false, indicating significant difficulties in using the project."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The project has no PyPI package and is not pip-installable, making it difficult to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate documentation, as there is no information about the project's documentation or wiki."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate maturity, as there is no information about the project's release history or stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Insufficient data to evaluate performance, as there are no clear benchmark comparisons to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 8/10, with 114 points and 28 comments, indicating a generally positive community response to the project, with positive signals including affordability and potential for high performance."
+    }
+  },
+  "summary": "DeepSeek V4 Flash on a Single AMD MI300X is a research project with a small community and limited documentation, but it has the potential for high performance with optimization and is seen as an affordable and scalable solution for AI workloads.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+  "tool_url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49166386",
+  "domain": "research",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": {
+      "stars": 24,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 24,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "DeepSee",
+        "stars": 104099,
+        "repo": "deepseek-ai/DeepSeek-V3"
+      },
+      {
+        "name": "DeepMind",
+        "stars": 15122,
+        "repo": "google-deepmind/deepmind-research"
+      },
+      {
+        "name": "OpenVINO",
+        "stars": 10602,
+        "repo": "openvinotoolkit/openvino"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Affordable and scalable solution for AI workloads",
+        "Potential for high performance with optimization",
+        "Increased accessibility due to cloud providers"
+      ],
+      "negative_signals": [
+        "Criticism of economic viability",
+        "Comparison to local hardware options as more cost-effective",
+        "Potential for underperformance compared to specialized hardware"
+      ],
+      "justification": "The community is generally positive about the project, citing its affordability and potential for high performance with optimization. However, some critics question its economic viability and compare it to local hardware options as more cost-effective.",
+      "comment_count": 28,
+      "hn_points": 114
+    }
+  }
+}
