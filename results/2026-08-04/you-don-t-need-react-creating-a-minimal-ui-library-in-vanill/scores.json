@@ -1,0 +1,94 @@
+{
+  "app_name": "You don't need React",
+  "url": "https://pedroth.github.io/?p=post%2FNoNeedReact",
+  "scored_at": "2026-08-04T13:07:53.221Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The library offers a minimal UI solution in Vanilla JavaScript, which is a unique approach compared to similar tools like Preact (38,802 stars) and Lite UI (973 stars), with the author's project having no detected GitHub repository or insufficient data for direct comparison."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to assess system requirements due to the absence of a PyPI package and no install time for the library itself, only a mention of its use in a web context."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The library addresses a current need in the web development ecosystem for minimal and lightweight UI solutions, fitting into the trend of reducing bundle sizes and improving performance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "It differentiates itself by being a minimal UI library in Vanilla JavaScript, but its novelty and immediate use cases are debated among commenters, with 96 HN points and 30 comments analyzed, showing a mixed but overall positive reception."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The library has no GitHub repository detected, making it difficult to assess the community aspect directly, but it has garnered attention on HN with 96 points, indicating some level of interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "There's no direct evidence from the container test results to assess ease of use since no tests were run (0/0), and the basic run was not successful, making it challenging to evaluate user experience."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Without a PyPI package or clear documentation on integration (beyond the library's web-focused nature), it's challenging to assess how easily this library can be integrated into existing projects."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The absence of a GitHub repository and insufficient data on the library's documentation quality make it difficult to score this criterion accurately, although the author's website provides some information on the project."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lack of information on the project's history, releases, or maintenance makes assessing maturity challenging, but the project is described as a minimal library, suggesting it might be in early stages."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's no benchmark data available to assess the library's performance directly, and while there are concerns over its potential performance impact due to re-rendering the entire UI on every state change, this is based on theoretical discussion rather than measured data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not applicable as a distinct criterion beyond its inclusion in other scores, such as differentiation and community, where HN comments and points are already considered."
+    }
+  },
+  "summary": "You don't need React is a minimal UI library in Vanilla JavaScript, offering a unique, lightweight solution for web development. While it has sparked interest and debate in the developer community, its novelty, differentiation, and potential performance impact are topics of discussion.",
+  "recommendation": "worth-watching",
+  "app_url": "https://pedroth.github.io/?p=post%2FNoNeedReact",
+  "tool_url": "https://github.com/pedroth/post-NoNeedReact",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49165665",
+  "domain": "web",
+  "app_type": "devtool-fronted",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Preact",
+        "stars": 38802,
+        "repo": "preactjs/preact"
+      },
+      {
+        "name": "Lite UI",
+        "stars": 973,
+        "repo": "mckaywrigley/chatbot-ui-lite"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Some commenters found the project 'nice and educational'",
+        "The author's website has good loading performance, using the library",
+        "Commenters appreciate the low JavaScript load sizes"
+      ],
+      "negative_signals": [
+        "Some commenters argue that the library exposes a retained mode API, not an immediate mode one",
+        "Concerns over performance, as re-rendering the entire UI on every state change might be expensive",
+        "Criticism over the project's relevance, with some saying you don't need React"
+      ],
+      "justification": "The project has received generally positive comments with some constructive criticism, especially regarding performance concerns and misinterpretation of retained vs immediate mode.",
+      "comment_count": 30,
+      "hn_points": 96
+    }
+  }
+}
