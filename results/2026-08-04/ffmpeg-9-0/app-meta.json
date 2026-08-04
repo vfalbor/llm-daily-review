@@ -1,0 +1,44 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "FFmpeg 9.0",
+    "url": "https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES",
+    "hn_url": "https://news.ycombinator.com/item?id=49166202",
+    "points": 289,
+    "comments": 50,
+    "author": "gyan",
+    "age": "2026-08-04T09:30:33 1785835833",
+    "scraped_at": "2026-08-04T13:00:02.849Z",
+    "tool_url": "https://github.com/FFmpeg/FFmpeg",
+    "is_reviewable": true,
+    "domain": "devtool",
+    "source_type": "tool",
+    "confidence": 0.8,
+    "app_type": "devtool-build",
+    "description": "FFmpeg is a complete, cross-platform command line tool capable of recording, converting and streaming audio and video. It supports a wide range of file formats, including but not limited to H.262, H.263, H.264, H.265, HEVC, JPEG, JPEG2000, MP3, Musepack, and Theora.",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      "Install FFmpeg and run --version",
+      "Create a project and build it using FFmpeg"
+    ],
+    "requires_api_key": false,
+    "repo_url": "https://github.com/FFmpeg/FFmpeg",
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1785848586338-407sb",
+    "log_dir": "/tmp/llm-review-1785848586338-407sb",
+    "install_success": false,
+    "install_time_s": 191.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-04T13_03_28_007Z-debug-0.log\nCloning into 'FFmpeg'...\n\nTIMEOUT",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.1-r0)\n(18/26) Installing libssh2 (1.11.1-r3)\n(19/26) Installing cargo (1.96.1-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.18.1-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.4 MiB in 77 packages\n"
+  }
+}
