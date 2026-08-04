@@ -1,0 +1,112 @@
+{
+  "app_name": "Learning-Rust.Github.io",
+  "url": "https://learning-rust.github.io/",
+  "scored_at": "2026-08-04T13:08:34.913Z",
+  "total_score": 36,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app is not a first-of-its-kind approach, with 3139 days since repo creation and being a Rust tutorial, similar to existing tools like Rust tutorials with 14,711 stars."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is true, but the install time is 21.4s, which is moderate, and there's no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is a Rust tutorial, which fits into the current programming language landscape, but not specifically an LLM trend."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The app has 1,595 stars, which is less than Rust tutorials with 14,711 stars, but more than Zig and Haskell tutorials, showing some differentiation but not unique."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The app has 1,595 stars, 187 forks, and 36 contributors, but the data on community engagement is insufficient for a higher score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tests passed is 0 / 4, and basic run success is false, indicating poor ease of use."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The app has no PyPI package and no clear API modes or license, making integration difficult."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a GitHub repository with a primary language of Rust, but the quality of documentation cannot be directly assessed without more data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app has 3139 days since repo creation, but the data on maturity is insufficient for a higher score."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "The memory usage is 0.0 MB, but there are no meaningful benchmark measurements available."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The sentiment score is 5/10, but with only 1 comment analyzed, it's insufficient for a meaningful sentiment analysis."
+    }
+  },
+  "summary": "Learning-Rust.Github.io provides Rust programming language tutorials, but its ease of use and integration are limited. It has a moderate level of community engagement and differentiation, and its performance is not well-documented.",
+  "recommendation": "skip",
+  "app_url": "https://learning-rust.github.io/",
+  "tool_url": "https://github.com/Learning-Rust/Learning-Rust.github.io",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49166411",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": {
+      "stars": 1595,
+      "forks": 187,
+      "open_issues": 1,
+      "watchers": 1595,
+      "contributors": 36,
+      "license": "NOASSERTION",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3139,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Rust Programming Language Tutorials for Everyone!",
+      "topics": [
+        "documentation",
+        "reference",
+        "rust",
+        "rust-lang",
+        "tutorial"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Rust tutorials",
+        "stars": 14711,
+        "repo": "rust-embedded/rust-raspberrypi-OS-tutorials"
+      },
+      {
+        "name": "Zig tutorials",
+        "stars": 1,
+        "repo": "Zig-Tutorials/metaempirebuilder.com"
+      },
+      {
+        "name": "Haskell tutorials",
+        "stars": 7,
+        "repo": "fpindia/haskell-tutorials"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 6
+    }
+  }
+}
