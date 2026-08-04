@@ -1,0 +1,124 @@
+{
+  "app_name": "Homebench",
+  "url": "https://github.com/david-g-3654/homebench",
+  "scored_at": "2026-08-04T13:07:23.363Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Homebench offers a unique approach to benchmarking local LLMs, with a focus on speed, memory, and quality, as seen in its GitHub repository created just 1 day ago and having 9 stars, which is an 80% increase compared to llm-eval-harness with 5 stars."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 15.3 seconds, indicating moderate system requirements, and it exists on PyPI with a version of 0.6.1, requiring Python >=3.9."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an llm-evaluation tool, Homebench fits into the current LLM ecosystem trends, but its relevance is moderate due to the existence of similar tools like Ollama and vLLM with significantly more stars, 177,753 and 88,164 respectively."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Homebench has 9 stars, which is more than llm-eval-harness but significantly less than Ollama and vLLM, indicating a moderate level of differentiation, with a need for more data to accurately assess its unique value proposition."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 9 GitHub stars, 0 forks, and 2 contributors, the community around Homebench is currently very small, indicating a low level of community engagement and support."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Due to the lack of test results (0 tests passed out of 0), it's challenging to determine the ease of use, so a neutral score is assigned, requiring more data for an accurate assessment."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Homebench has a PyPI package (v0.6.1) and supports CLI and HTTP API use modes, making it moderately easy to integrate into existing workflows, with clear Python requirements of >=3.9."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of Homebench's documentation are unclear due to insufficient data, so a neutral score is assigned, emphasizing the need for further review of its GitHub repository and potential documentation site."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Being only 1 day old with 0 open issues and 2 contributors, Homebench is in its early stages, indicating a low level of maturity, but its MIT license and active development (0 days since last commit) are positive signs."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark measurements show an import time of 0.827789306640625 ms and an import memory of 0.0011157989501953125 MB, indicating good performance, but more comprehensive comparisons with similar tools are needed for a definitive assessment."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available due to the lack of HN comments or failed analysis, making it impossible to score the HN sentiment accurately."
+    }
+  },
+  "summary": "Homebench is a novel tool for benchmarking local LLMs, focusing on speed, memory, and quality, with moderate system requirements and ease of integration, but it faces challenges in terms of community, maturity, and differentiation, with a need for more comprehensive documentation and performance comparisons.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/david-g-3654/homebench",
+  "tool_url": "https://github.com/david-g-3654/homebench",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49166308",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 9,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Benchmark your local LLMs: speed, memory, and quality, in one command. TUI leaderboard for Ollama, LM Studio, llama.cpp, and vLLM.",
+      "topics": [
+        "benchmark",
+        "cli",
+        "evaluation",
+        "llama-cpp",
+        "llm",
+        "lm-studio",
+        "local-ai",
+        "local-llm",
+        "ollama",
+        "python",
+        "python-package",
+        "pythonpackage",
+        "tui",
+        "vllm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "llm-eval-harness",
+        "stars": 5,
+        "repo": "magicsword-io/llm-eval-harness"
+      },
+      {
+        "name": "Ollama",
+        "stars": 177753,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 88164,
+        "repo": "vllm-project/vllm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.6.1",
+      "summary": "A single-command terminal UI that benchmarks the local LLMs you already have — speed, memory, and quality — on your own laptop.",
+      "requires_python": ">=3.9",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
