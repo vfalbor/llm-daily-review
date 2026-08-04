@@ -1,0 +1,5 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/leonickson1/Swiftlet.git /tmp/pip-req-build-0yyjlqpp
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: git+https://github.com/leonickson1/Swiftlet.git#subdirectory=src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
