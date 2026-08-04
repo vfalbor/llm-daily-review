@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+    "url": "https://github.com/MakazhanAlpamys/Soup",
+    "hn_url": "https://news.ycombinator.com/item?id=49166984",
+    "points": 21,
+    "comments": 2,
+    "author": "MakazhanAlpamys",
+    "age": "2026-08-04T11:17:57 1785842277",
+    "scraped_at": "2026-08-04T13:00:02.844Z",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Fine-tune an 8B model",
+    "use_modes": [
+      "GPU"
+    ],
+    "similar_tools": [
+      "Transformers",
+      "T5",
+      "Longformer"
+    ],
+    "proposed_tests": [
+      "fine-tune model on a 4 GB GPU",
+      "evaluate on a dataset",
+      "compare with a baseline model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/MakazhanAlpamys/Soup",
+    "tool_url": "https://github.com/MakazhanAlpamys/Soup"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785848524093-vws2e",
+    "log_dir": "/tmp/llm-review-1785848524093-vws2e",
+    "install_success": true,
+    "install_time_s": 26.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement torch (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for torch\nCloning into 'Soup'...\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 79, in <module>\n    Soup.fine_tune_model()\n    ^^^^\nNameError: name 'Soup' is not defined\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///Soup\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Checking if build backend supports build_editable: started\n  Checking if build backend supports build_editable: finished with status 'done'\n  Getting requirements to build editable: started\n  Getting requirements to build editable: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing editable metadata (pyproject.toml): started\n  Preparing editable metadata (pyproject.toml): finished with status 'done'\nCollecting huggingface-hub>=0.16.0 (from soup-cli==0.72.4)\n  Downloading huggingface_hub-1.26.0-py3-none-any.whl.metadata (16 kB)\nCollecting plotext>=5.2.0 (from soup-cli==0.72.4)\n  Downloading plotext-5.3.2-py3-none-any.whl.metadata (5.5 kB)\nCollecting pydantic>=2.0.0 (from soup-cli==0.72.4)\n  Downloading pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)\nCollecting pyyaml>=6.0 (from soup-cli==0.72.4)\n  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)\nCollecting rich>=13.0.0 (from soup-cli==0.72.4)\n  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting typer<0.21.0,>=0.9.0 (from soup-cli==0.72.4)\n  Downloading typer-0.20.1-py3-none-any.whl.metadata (16 kB)\nCollecting click<9.0.0,>=8.4.2 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)\nCollecting filelock>=3.10.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading filelock-3.32.2-py3-none-any.whl.metadata (2.0 kB)\nCollecting fsspec>=2023.5.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)\nCollecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading hf_xet-1.6.0-cp38-abi3-musllinux_1_2_x86_64.whl.metadata (4.9 kB)\nCollecting httpx<1,>=0.23.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting packaging>=20.9 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)\nCollecting tqdm>=4.42.1 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)\nCollecting typing-extensions>=4.1.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting annotated-types>=0.6.0 (from pydantic>=2.0.0->soup-cli==0.72.4)\n  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)\nCollecting pydantic-core==2.46.4 (from pydantic>=2.0.0->soup-cli==0.72.4)\n  Downloading pydantic_core-2.46.4-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (6.6 kB)\nCollecting typing-inspection>=0.4.2 (from pydantic>=2.0.0->soup-cli==0.72.4)\n  Downloading typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)\nCollecting markdown-it-py>=2.2.0 (from rich>=13.0.0->soup-cli==0.72.4)\n  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting pygments<3.0.0,>=2.13.0 (from rich>=13.0.0->soup-cli==0.72.4)\n  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting shellingham>=1.3.0 (from typer<0.21.0,>=0.9.0->soup-cli==0.72.4)\n  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)\nCollecting"
+  }
+}
