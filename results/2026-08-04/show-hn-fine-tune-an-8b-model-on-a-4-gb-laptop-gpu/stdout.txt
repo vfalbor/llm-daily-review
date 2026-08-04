@@ -1,0 +1,121 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.2-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+Obtaining file:///Soup
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub>=0.16.0 (from soup-cli==0.72.4)
+  Downloading huggingface_hub-1.26.0-py3-none-any.whl.metadata (16 kB)
+Collecting plotext>=5.2.0 (from soup-cli==0.72.4)
+  Downloading plotext-5.3.2-py3-none-any.whl.metadata (5.5 kB)
+Collecting pydantic>=2.0.0 (from soup-cli==0.72.4)
+  Downloading pydantic-2.13.4-py3-none-any.whl.metadata (109 kB)
+Collecting pyyaml>=6.0 (from soup-cli==0.72.4)
+  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)
+Collecting rich>=13.0.0 (from soup-cli==0.72.4)
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting typer<0.21.0,>=0.9.0 (from soup-cli==0.72.4)
+  Downloading typer-0.20.1-py3-none-any.whl.metadata (16 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading filelock-3.32.2-py3-none-any.whl.metadata (2.0 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading hf_xet-1.6.0-cp38-abi3-musllinux_1_2_x86_64.whl.metadata (4.9 kB)
+Collecting httpx<1,>=0.23.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting packaging>=20.9 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting tqdm>=4.42.1 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+Collecting typing-extensions>=4.1.0 (from huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic>=2.0.0->soup-cli==0.72.4)
+  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=2.0.0->soup-cli==0.72.4)
+  Downloading pydantic_core-2.46.4-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (6.6 kB)
+Collecting typing-inspection>=0.4.2 (from pydantic>=2.0.0->soup-cli==0.72.4)
+  Downloading typing_inspection-0.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.0.0->soup-cli==0.72.4)
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.0.0->soup-cli==0.72.4)
+  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting shellingham>=1.3.0 (from typer<0.21.0,>=0.9.0->soup-cli==0.72.4)
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting anyio (from httpx<1,>=0.23.0->huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: certifi in /usr/local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.16.0->soup-cli==0.72.4) (2026.7.22)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: idna in /usr/local/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface-hub>=0.16.0->soup-cli==0.72.4) (3.18)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->huggingface-hub>=0.16.0->soup-cli==0.72.4)
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.0.0->soup-cli==0.72.4)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading huggingface_hub-1.26.0-py3-none-any.whl (780 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 780.4/780.4 kB 37.0 MB/s eta 0:00:00
+Downloading plotext-5.3.2-py3-none-any.whl (64 kB)
+Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+Downloading pydantic_core-2.46.4-cp312-cp312-musllinux_1_1_x86_64.whl (2.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 97.1 MB/s eta 0:00:00
+Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl (790 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 790.2/790.2 kB 75.9 MB/s eta 0:00:00
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading typer-0.20.1-py3-none-any.whl (47 kB)
+Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Downloading filelock-3.32.2-py3-none-any.whl (98 kB)
+Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+Downloading hf_xet-1.6.0-cp38-abi3-musllinux_1_2_x86_64.whl (4.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 10.8 MB/s eta 0:00:00
+Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Using cached packaging-26.2-py3-none-any.whl (100 kB)
+Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 111.2 MB/s eta 0:00:00
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Downloading tqdm-4.70.0-py3-none-any.whl (80 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading anyio-4.14.2-py3-none-any.whl (125 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Building wheels for collected packages: soup-cli
+  Building editable for soup-cli (pyproject.toml): started
+  Building editable for soup-cli (pyproject.toml): finished with status 'done'
+  Created wheel for soup-cli: filename=soup_cli-0.72.4-py3-none-any.whl size=15581 sha256=6eb8a40c5a9e6095e88d2aa07fb49a17f22d4658de5b91581dd6a2818f636165
+  Stored in directory: /tmp/pip-ephem-wheel-cache-l2eynq6_/wheels/24/8d/97/7bdc028d08c1132151b668a40cb98102f699377fe89d52fb5f
+Successfully built soup-cli
+Installing collected packages: typing-extensions, tqdm, shellingham, pyyaml, pygments, plotext, packaging, mdurl, hf-xet, h11, fsspec, filelock, click, annotated-types, typing-inspection, pydantic-core, markdown-it-py, httpcore, anyio, rich, pydantic, httpx, typer, huggingface-hub, soup-cli
+Successfully installed annotated-types-0.8.0 anyio-4.14.2 click-8.4.2 filelock-3.32.2 fsspec-2026.7.0 h11-0.16.0 hf-xet-1.6.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-1.26.0 markdown-it-py-4.2.0 mdurl-0.1.2 packaging-26.2 plotext-5.3.2 pydantic-2.13.4 pydantic-core-2.46.4 pygments-2.20.0 pyyaml-6.0.3 rich-15.0.0 shellingham-1.5.4 soup-cli-0.72.4 tqdm-4.70.0 typer-0.20.1 typing-extensions-4.16.0 typing-inspection-0.4.2
+INSTALL_OK
+INSTALL_FAIL:pip_install_failed:Command '['pip', 'install', 'torch', 'transformers']' returned non-zero exit status 1.
+INSTALL_OK
+TEST_FAIL:import_failed:
+TEST_FAIL:fine_tune_model:name 'Soup' is not defined
+TEST_FAIL:evaluate:name 'Soup' is not defined
+TEST_FAIL:compare_with_baseline:No module named 'transformers'
