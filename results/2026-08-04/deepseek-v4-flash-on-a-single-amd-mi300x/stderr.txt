@@ -1,0 +1,26 @@
+ERROR: Could not find a version that satisfies the requirement deepseek-v4-flash-mi300x (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for deepseek-v4-flash-mi300x
+ERROR: Could not find a version that satisfies the requirement deepseek-v4-flash-mi300x (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for deepseek-v4-flash-mi300x
+Cloning into 'deepseek-v4-flash-mi300x'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///deepseek-v4-flash-mi300x does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///deepseek-v4-flash-mi300x does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 136, in <module>
+    main()
+  File "/app/test.py", line 124, in main
+    current, peak = tracemalloc.get_tracked_memory()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'tracemalloc' has no attribute 'get_tracked_memory'. Did you mean: 'get_traced_memory'?
