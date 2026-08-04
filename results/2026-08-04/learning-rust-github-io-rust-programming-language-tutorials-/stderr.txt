@@ -1,0 +1,14 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+Cloning into 'Learning-Rust.github.io'...
+error: could not find `Cargo.toml` in `/Learning-Rust.github.io` or any parent directory
+error: could not find `Cargo.toml` in `/Learning-Rust.github.io` or any parent directory
+error: could not find `Cargo.toml` in `/Learning-Rust.github.io` or any parent directory
+error: could not find `Cargo.toml` in `/Learning-Rust.github.io` or any parent directory
+error: could not find `Cargo.toml` in `/Learning-Rust.github.io` or any parent directory
+Traceback (most recent call last):
+  File "/app/test.py", line 70, in <module>
+    subprocess.run(['cargo', 'run'], cwd='Learning-Rust.github.io', check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['cargo', 'run']' returned non-zero exit status 101.
