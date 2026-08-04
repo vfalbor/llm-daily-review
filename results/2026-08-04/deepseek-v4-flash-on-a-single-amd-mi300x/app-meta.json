@@ -1,0 +1,41 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+    "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+    "hn_url": "https://news.ycombinator.com/item?id=49166386",
+    "points": 112,
+    "comments": 28,
+    "author": "zhoutong",
+    "age": "2026-08-04T10:00:55 1785837655",
+    "scraped_at": "2026-08-04T13:00:02.841Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "research",
+    "app_type": "research-dataset",
+    "description": null,
+    "use_modes": null,
+    "similar_tools": [
+      "DeepSee",
+      "DeepMind",
+      "OpenVINO"
+    ],
+    "proposed_tests": null,
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+    "tool_url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785848497777-xa2ba",
+    "log_dir": "/tmp/llm-review-1785848497777-xa2ba",
+    "install_success": true,
+    "install_time_s": 13.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:latency_test_ms:61.81144714355469\nBENCHMARK:vs_deepsee_ratio:1.10006468509403",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement deepseek-v4-flash-mi300x (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for deepseek-v4-flash-mi300x\nERROR: Could not find a version that satisfies the requirement deepseek-v4-flash-mi300x (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for deepseek-v4-flash-mi300x\nCloning into 'deepseek-v4-flash-mi300x'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///deepseek-v4-flash-mi300x does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///deepseek-v4-flash-mi300x does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 136, in <module>\n    main()\n  File \"/app/test.py\", line 124, in main\n    current, peak = tracemalloc.get_tracked_memory()\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'tracemalloc' has no attribute 'get_tracked_memory'. Did you mean: 'get_traced_memory'?\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///deepseek-v4-flash-mi300x\nObtaining file:///deepseek-v4-flash-mi300x\nINSTALL_OK:git installed successfully\nINSTALL_FAIL:Failed to install deepseek-v4-flash-mi300x\nINSTALL_FAIL:Failed to install deepseek-v4-flash-mi300x using fallback\nTEST_FAIL:import_time:Unable to import deepseek_v4_flash_mi300x\nBENCHMARK:latency_test_ms:61.81144714355469\nBENCHMARK:vs_deepsee_ratio:1.10006468509403\n"
+  }
+}
