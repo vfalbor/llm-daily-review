@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Homebench – Benchmark local LLMs for speed, memory, and quality",
+    "url": "https://github.com/david-g-3654/homebench",
+    "hn_url": "https://news.ycombinator.com/item?id=49166308",
+    "points": 7,
+    "comments": 0,
+    "author": "davai-g",
+    "age": "2026-08-04T09:48:43 1785836923",
+    "scraped_at": "2026-08-04T13:00:02.852Z",
+    "is_reviewable": true,
+    "confidence": 1,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Benchmark local LLMs for speed, memory, and quality",
+    "tool_url": "https://github.com/david-g-3654/homebench",
+    "repo_url": "https://github.com/david-g-3654/homebench",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "llm-eval-harness",
+      "Ollama",
+      "vLLM"
+    ],
+    "proposed_tests": [
+      "pip install homebench",
+      "Benchmark a local LLM with 1000 queries",
+      "Measure memory usage with 1000 queries",
+      "Compare results to existing benchmarks"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1785848816513-vx8rn",
+    "log_dir": "/tmp/llm-review-1785848816513-vx8rn",
+    "install_success": true,
+    "install_time_s": 15.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.827789306640625\nBENCHMARK:import_memory_mb:0.0011157989501953125",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting homebench\n  Downloading homebench-0.6.1-py3-none-any.whl.metadata (18 kB)\nCollecting textual<2.0,>=0.60 (from homebench)\n  Downloading textual-1.0.0-py3-none-any.whl.metadata (9.0 kB)\nCollecting rich>=13.0 (from homebench)\n  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting httpx>=0.24 (from homebench)\n  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting psutil>=5.9 (from homebench)\n  Downloading psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl.metadata (22 kB)\nCollecting anyio (from httpx>=0.24->homebench)\n  Downloading anyio-4.14.2-py3-none-any.whl.metadata (4.6 kB)\nRequirement already satisfied: certifi in /usr/local/lib/python3.12/site-packages (from httpx>=0.24->homebench) (2026.7.22)\nCollecting httpcore==1.* (from httpx>=0.24->homebench)\n  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)\nRequirement already satisfied: idna in /usr/local/lib/python3.12/site-packages (from httpx>=0.24->homebench) (3.18)\nCollecting h11>=0.16 (from httpcore==1.*->httpx>=0.24->homebench)\n  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)\nCollecting markdown-it-py>=2.2.0 (from rich>=13.0->homebench)\n  Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)\nCollecting pygments<3.0.0,>=2.13.0 (from rich>=13.0->homebench)\n  Downloading pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting platformdirs<5,>=3.6.0 (from textual<2.0,>=0.60->homebench)\n  Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)\nCollecting typing-extensions<5.0.0,>=4.4.0 (from textual<2.0,>=0.60->homebench)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.0->homebench)\n  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)\nCollecting linkify-it-py<3,>=1 (from markdown-it-py[linkify,plugins]>=2.1.0->textual<2.0,>=0.60->homebench)\n  Downloading linkify_it_py-2.1.0-py3-none-any.whl.metadata (8.5 kB)\nCollecting mdit-py-plugins>=0.5.0 (from markdown-it-py[linkify,plugins]>=2.1.0->textual<2.0,>=0.60->homebench)\n  Downloading mdit_py_plugins-0.6.1-py3-none-any.whl.metadata (2.9 kB)\nCollecting uc-micro-py (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual<2.0,>=0.60->homebench)\n  Downloading uc_micro_py-2.0.0-py3-none-any.whl.metadata (2.2 kB)\nDownloading homebench-0.6.1-py3-none-any.whl (61 kB)\nDownloading httpx-0.28.1-py3-none-any.whl (73 kB)\nDownloading httpcore-1.0.9-py3-none-any.whl (78 kB)\nDownloading psutil-7.2.2-cp36-abi3-musllinux_1_2_x86_64.whl (148 kB)\nDownloading rich-15.0.0-py3-none-any.whl (310 kB)\nDownloading textual-1.0.0-py3-none-any.whl (660 kB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 660.5/660.5 kB 18.4 MB/s eta 0:00:00\nDownloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)\nDownloading platformdirs-4.11.0-py3-none-any.whl (23 kB)\nDownloading pygments-2.20.0-py3-none-any.whl (1.2 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 78.9 MB/s eta 0:00:00\nDownloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nDownloading anyio-4.14.2-py3-none-any.whl (125 kB)\nDownloading h11-0.16.0-py3-none-any.whl (37 kB)\nDownloading linkify_it_py-2.1.0-py3-none-any.whl (19 kB)\nDownloading mdit_py_plugins-0.6.1-py3-none-any.whl (66 kB)\nDownloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)\nDownloading uc_micro_py-2.0.0-py3-none-any.whl (6.4 kB)\nInstalli"
+  }
+}
