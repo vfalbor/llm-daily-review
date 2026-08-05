@@ -1,0 +1,109 @@
+{
+  "app_name": "Inclusive Color Space",
+  "url": "https://toneyalexander.github.io/inclusive-color-space/",
+  "scored_at": "2026-08-05T13:02:46.326Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project solves a problem in a genuinely new way, with a simple algorithm and color space to generate diverse skin tones, and is only 6 days old."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The project failed to install, with install success being false, and has no PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The project fits well with the current computer vision and color space trends, as it provides a simple and inclusive solution for generating diverse skin tones."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 22 stars, compared to similar tools like ColorThief with 285 stars and Adobe Color with 160 stars, indicating a significant difference in popularity."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 22 stars, 1 fork, and 1 contributor, indicating a small community, but the HN post has 560 points and 30 comments, showing some interest and engagement."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project failed to install and run, with install success and basic run success being false, and no tests were passed."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The project has no PyPI package and requires manual installation, making it difficult to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no documentation available, and the project's GitHub page does not provide enough information to evaluate its documentation."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The project is only 6 days old and has a single contributor, indicating a low level of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no performance data available, and no benchmarks were run."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The HN sentiment data is not applicable to this criterion."
+    }
+  },
+  "summary": "Inclusive Color Space is a new project that provides a simple algorithm and color space to generate diverse skin tones, but it has a small community, is difficult to install and integrate, and lacks maturity and performance data.",
+  "recommendation": "niche",
+  "app_url": "https://toneyalexander.github.io/inclusive-color-space/",
+  "tool_url": "https://github.com/toneyalexander/inclusive-color-space",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49170165",
+  "domain": "computer vision",
+  "app_type": "computer_vision_color_space",
+  "enriched": {
+    "github": {
+      "stars": 22,
+      "forks": 1,
+      "open_issues": 2,
+      "watchers": 22,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 6,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ColorThief",
+        "stars": 285,
+        "repo": "yamoridon/ColorThiefSwift"
+      },
+      {
+        "name": "Adobe Color",
+        "stars": 160,
+        "repo": "adobe-fonts/emojione-color"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Generates diverse skin tones with simple algorithm",
+        "Interesting area for color space exploration",
+        "Beautiful work on color generation and write-up"
+      ],
+      "negative_signals": [
+        "Under-represented pale skin tone variety",
+        "Difficulty in representing lighter skin tones",
+        "Translucency not fully captured by color space"
+      ],
+      "justification": "Users praise the project's simplicity and beauty, while some experts express concerns about under-represented skin tones and translucency. Many comments focus on the complexity of skin color representation, with experts citing melanin and haemoglobin as key factors. A few commenters bring up edge cases and rare skin conditions, but overall the project is met with excitement and enthusiasm.",
+      "comment_count": 30,
+      "hn_points": 560
+    }
+  }
+}
