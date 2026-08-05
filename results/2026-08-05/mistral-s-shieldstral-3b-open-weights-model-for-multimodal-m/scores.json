@@ -1,0 +1,94 @@
+{
+  "app_name": "Mistral's Shieldstral",
+  "url": "https://mistral.ai/news/shieldstral/",
+  "scored_at": "2026-08-05T13:02:20.744Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "With no direct comparisons to similar tools like LLaMA or LAMBADA in the data, but the model being for multimodal moderation, it suggests a unique application, scoring 7 for novelty."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Given the install time of 8.3s and basic run success being true, it indicates moderate system requirements, but without more detailed specs, it's scored 6."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-evaluation tool, its relevance in the current AI landscape, especially in multimodal moderation, is high, scoring 8."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without direct comparison metrics to similar tools like LLaMA or LAMBADA, but knowing it's a unique model for multimodal moderation, differentiation is neutral at 5 due to insufficient data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected, so community engagement cannot be directly measured, thus scored 5 due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that only 1 out of 5 tests passed, it indicates some challenges in use or setup, scoring 4 for ease of use."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool requires an API key and has a Web UI, but no PyPI package was found, making integration potentially more complex, scoring 3."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data on the quality or existence of documentation, scoring 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without specific data on the project's age, forks, or open issues, maturity is scored 5 due to insufficient information."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The memory usage is 1489 bytes, and while this is a specific metric, without comparative benchmarks, performance is scored 4, considering the model's size and purpose."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "With an HN sentiment score of 5/10, 449 points, and mixed comments, the sentiment is neutral, scoring 5."
+    }
+  },
+  "summary": "Mistral's Shieldstral is a unique 3B open-weights model for multimodal moderation with moderate system requirements and high current relevance, but its differentiation, community, and ease of use are less clear due to insufficient data.",
+  "recommendation": "niche",
+  "app_url": "https://mistral.ai/news/shieldstral/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49171268",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LLaMA",
+        "stars": 122794,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "LAMBADA",
+        "stars": 317,
+        "repo": "uswitch/lambada"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Mistral's commitment to developing Europe's AI capabilities is commended.",
+        "Their strategy of focusing on smaller, more fine-tuned models for various use-cases is seen as a strength",
+        "The company has a promising capability in training large models, as shown with Poolside"
+      ],
+      "negative_signals": [
+        "Their performance is deemed to be behind the latest generation of Asian models",
+        "Concerns are raised about the EU distilling models from others due to export control risks",
+        "The naming of their products, such as 'Shieldstral', is met with criticism for being awkward and bad"
+      ],
+      "justification": "The comments are split between praise for Mistral's commitment to European AI development and criticism of their performance and product naming. However, the lack of universal acclaim and major concerns about export control risks lean the score towards a neutral 5. The insufficient data and mixed opinions make it difficult to give a higher score.",
+      "comment_count": 30,
+      "hn_points": 449
+    }
+  }
+}
