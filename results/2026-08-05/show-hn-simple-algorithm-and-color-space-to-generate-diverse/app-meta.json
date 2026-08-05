@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+    "url": "https://toneyalexander.github.io/inclusive-color-space/",
+    "hn_url": "https://news.ycombinator.com/item?id=49170165",
+    "points": 560,
+    "comments": 96,
+    "author": "automatoney",
+    "age": "2026-08-04T15:16:22 1785856582",
+    "scraped_at": "2026-08-05T13:00:02.853Z",
+    "tool_url": "https://github.com/toneyalexander/inclusive-color-space",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "computer vision",
+    "app_type": "computer_vision_color_space",
+    "description": "Simple algorithm and color space to generate diverse skin tones",
+    "use_modes": [
+      "web"
+    ],
+    "similar_tools": [
+      "ColorThief",
+      "Adobe Color"
+    ],
+    "proposed_tests": [
+      "Install the library, generate and visualize a color palette",
+      "Compare generated palette to a known reference",
+      "Verify algorithm handles edge cases"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/toneyalexander/inclusive-color-space"
+  },
+  "test_results": {
+    "run_id": "llm-review-1785934942052-8h44t",
+    "log_dir": "/tmp/llm-review-1785934942052-8h44t",
+    "install_success": false,
+    "install_time_s": 6.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 5, in <module>\n    import matplotlib.pyplot as plt\nModuleNotFoundError: No module named 'matplotlib'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
