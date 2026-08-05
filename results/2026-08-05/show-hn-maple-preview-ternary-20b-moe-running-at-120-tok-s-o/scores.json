@@ -1,0 +1,98 @@
+{
+  "app_name": "Maple-Preview",
+  "url": "https://deepgrove.ai/maple-preview",
+  "scored_at": "2026-08-05T13:03:24.130Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app showcases a ternary 20B MoE model running on an iPhone, which is a new and unique approach, with no direct equivalent found among similar tools like vLLM and Ollama, demonstrating a high level of novelty."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app is not pip-installable and has no PyPI package, but it can be accessed via the web, indicating moderate system requirements, with an install time not directly applicable but basic run success, implying relatively straightforward usage."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an LLM inference tool running on an iPhone, it fits well with current trends in making AI models more accessible, especially on consumer hardware, addressing a current need in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like vLLM with 88,258 stars and Ollama with 177,839 stars, Maple-Preview stands out with its ability to run a 20B MoE model on an iPhone, a unique selling point, but without direct benchmark comparisons, its differentiation is notable but not exceptionally high."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the lack of GitHub repository data, we rely on HN points and comments for community engagement, with 147 points and 30 comments, indicating some interest but not sufficient to accurately gauge community health and maturity."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "With tests passed at 1/5, and basic run success, the ease of use is somewhat compromised, indicating potential usability issues or complexity in setup and operation."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Since the app is web-based and has no API or SDK mentioned for integration, and without PyPI package existence or clear license details, the ease of integration is moderate, but specific data is insufficient for a definitive score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation quality or the presence of a wiki, GitHub topics, or similar, and considering the web-based nature of the tool, documentation quality is uncertain, leading to a neutral score due to insufficient information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Maturity is hard to assess directly without specific data on days since creation, forks, or open issues, and while the HN post indicates some level of maturity, it's not enough to accurately score, thus a neutral score is assigned."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The tool claims to run at 120 tokens per second on an iPhone, which is a notable performance characteristic, especially for such a device, but without direct comparisons to other tools, and considering the lack of benchmark data, this score reflects its unique performance claim."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With a sentiment score of 7/10, 147 HN points, and 30 comments analyzed, the sentiment is generally positive, noting impressive speed and quality, but also including concerns about hallucinations and accuracy, indicating a nuanced but overall positive sentiment towards the tool."
+    },
+    "overall_impact": {
+      "score": 8,
+      "justification": "Considering all factors, the tool's ability to run a significant LLM model on consumer hardware like an iPhone marks a substantial step in AI accessibility, despite some drawbacks and areas for improvement, contributing to its overall positive impact."
+    }
+  },
+  "summary": "Maple-Preview is a novel approach to running large LLM models on consumer hardware, showcasing significant potential for AI accessibility, despite facing challenges in usability and community engagement. Its performance and unique approach to model deployment are notable strengths.",
+  "recommendation": "worth-watching",
+  "app_url": "https://deepgrove.ai/maple-preview",
+  "tool_url": "https://github.com/deepgrove-ai/maple-preview",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49173984",
+  "domain": "large_language_models",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "vLLM",
+        "stars": 88258,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "Ollama",
+        "stars": 177839,
+        "repo": "ollama/ollama"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive speed and quality",
+        "Future prospect of local AI",
+        "Decent text generation"
+      ],
+      "negative_signals": [
+        "Concerns about hallucination and accuracy",
+        "Questionable utility as knowledge base",
+        "Degrading performance with quantization"
+      ],
+      "justification": "The comments are generally positive, but concerns about the model's hallucinations and accuracy, particularly in larger models, are present. This, combined with discussions about the limitations of small LLMs and their potential use cases, suggests a generally positive but nuanced sentiment.",
+      "comment_count": 30,
+      "hn_points": 147
+    }
+  }
+}
