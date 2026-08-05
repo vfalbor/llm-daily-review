@@ -1,0 +1,126 @@
+{
+  "app_name": "DuckDB",
+  "url": "https://github.com/duckdb/duckdb",
+  "scored_at": "2026-08-05T13:04:00.933Z",
+  "total_score": 77,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "DuckDB has 40,005 GitHub stars, indicating a high level of original contribution and a unique approach to database management, different from similar tools like SQLite with 24,401 stars and Neon with 22,759 stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Although install success is false and install time is not a factor here as the test did not proceed, DuckDB has a PyPI package with a recent version (v1.5.5), suggesting moderate system requirements."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a database tool, DuckDB is highly relevant to the current data management landscape, fitting well with trends in data analysis and storage."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "DuckDB differentiates itself from similar tools like SQLite and Neon with its unique feature set and performance advantages, having +15,604 stars over SQLite and +17,246 over Neon."
+    },
+    "community": {
+      "score": 9,
+      "justification": "With 40,005 GitHub stars, 3,518 forks, and 810 contributors, DuckDB has a strong and active community, indicating a high level of engagement and support."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Due to the lack of test results (tests passed: 0 / 0), it's challenging to assess ease of use directly from the provided data."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "DuckDB has a PyPI package and supports various use modes (CLI, HTTP API, SDK), making it relatively easy to integrate into existing workflows."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "Although specific documentation metrics are not provided, the existence of a GitHub repository with a significant number of stars and forks suggests that DuckDB likely has substantial documentation and community support."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "Given that DuckDB has been around for 2,961 days, has a large community, and recent commits (days since last commit: 0), it indicates a mature project with ongoing development and maintenance."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "While specific benchmark results are not provided, DuckDB's performance advantages over other databases like SQLite and Neon are noted in the community comparison, with significant star count differences."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 127 points and 18 comments analyzed, showcasing a very positive community response to DuckDB, praising its performance, flexibility, and future-proofing."
+    }
+  },
+  "summary": "DuckDB is a highly relevant, novel, and differentiated database tool with a strong community and ease of integration, offering significant performance advantages over similar tools like SQLite and Neon.",
+  "recommendation": "worth-watching",
+  "app_url": "https://techascent.com/blog/just-ducking-around.html",
+  "tool_url": "https://github.com/duckdb/duckdb",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49175924",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 40005,
+      "forks": 3518,
+      "open_issues": 746,
+      "watchers": 40005,
+      "contributors": 810,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2961,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "DuckDB is an analytical in-process SQL database management system",
+      "topics": [
+        "analytics",
+        "database",
+        "embedded-database",
+        "olap",
+        "sql"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "SQLite",
+        "stars": 24401,
+        "repo": "sqlitebrowser/sqlitebrowser"
+      },
+      {
+        "name": "Neon",
+        "stars": 22759,
+        "repo": "neondatabase/neon"
+      },
+      {
+        "name": "PostgreSQL",
+        "stars": 3187,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.5.5",
+      "summary": "DuckDB in-process database",
+      "requires_python": ">=3.10.0",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "tmducken creator praises DuckDB",
+        "User uses DuckDB as main workhorse in stack",
+        "DuckDB's future-proofing is seen as a major advantage"
+      ],
+      "negative_signals": [
+        "Some users are skeptical of relying on a single language",
+        "A user is confused by the proposed architecture"
+      ],
+      "justification": "Most comments praise DuckDB's performance, flexibility and extension system. However, some users express concerns over language choice and proposed architecture. Overall, the sentiment leans towards being very positive with only minor constructive criticism.",
+      "comment_count": 18,
+      "hn_points": 127
+    }
+  }
+}
