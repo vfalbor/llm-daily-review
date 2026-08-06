@@ -1,0 +1,87 @@
+{
+  "app_name": "Muse Code",
+  "url": "https://github.com/meta-ai/muse-code",
+  "scored_at": "2026-08-06T13:03:31.118Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Muse Code is a research code platform that enables the development and deployment of AI models, which is a unique approach with 2 similar tools having 493 and 16143 stars respectively."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, which means the installation was not successful, and the install time is 8.5s, which is relatively fast, but not pip-installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "Muse Code is a research code platform that fits with the current AI development landscape, especially with its focus on enabling the development and deployment of AI models."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Muse Code has a unique approach with its research code platform, but there are similar tools like LLM Studio and Catalyst with 493 and 16143 stars respectively."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available, so it's hard to determine the community health."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0/7, which means the tests were not successful, and the install success is false, which makes it hard to use."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Muse Code has a CLI and HTTP API, but it's not pip-installable, which makes it harder to integrate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available about the documentation, so it's hard to determine its quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available about the maturity, so it's hard to determine its production readiness."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The import time is 0.14352798461914062 ms, which is relatively fast, but there are no comparisons with other similar tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No sentiment data is available."
+    }
+  },
+  "summary": "Muse Code is a research code platform that enables the development and deployment of AI models, but it has some issues with its installation and testing, and its community health is unknown.",
+  "recommendation": "niche",
+  "app_url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+  "tool_url": "https://github.com/meta-ai/muse-code",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49187575",
+  "domain": "research",
+  "app_type": "research-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LLM Studio",
+        "stars": 493,
+        "repo": "studio-dots-ai/dots.llm1"
+      },
+      {
+        "name": "Catalyst",
+        "stars": 16143,
+        "repo": "raga-ai-hub/RagaAI-Catalyst"
+      },
+      {
+        "name": "Ray",
+        "stars": 113230,
+        "repo": "2dust/v2rayN"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
