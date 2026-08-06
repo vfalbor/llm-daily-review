@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Zed DeltaDB",
+    "url": "https://zed.dev/deltadb",
+    "hn_url": "https://news.ycombinator.com/item?id=49187256",
+    "points": 461,
+    "comments": 250,
+    "author": "ahamez",
+    "age": "2026-08-05T18:52:54 1785955974",
+    "scraped_at": "2026-08-06T13:00:02.876Z",
+    "tool_url": "https://github.com/zed-developers/deltadb",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "database",
+    "app_type": "database-transactional",
+    "description": "Transactional, ACID-compliant key-value database",
+    "use_modes": [
+      "Single-machine operation",
+      "Distributed deployment"
+    ],
+    "similar_tools": [
+      "RocksDB",
+      "LevelDB",
+      "Berkeley DB"
+    ],
+    "proposed_tests": [
+      "Create a sample dataset and run transactions",
+      "Test ACID compliance with concurrent operations",
+      "Compare DeltaDB's performance vs other KV databases"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zed-developers/deltadb"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786021343213-972fm",
+    "log_dir": "/tmp/llm-review-1786021343213-972fm",
+    "install_success": false,
+    "install_time_s": 7.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    from deltabd import DeltaDB\nModuleNotFoundError: No module named 'deltabd'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
