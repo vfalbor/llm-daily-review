@@ -1,0 +1,109 @@
+{
+  "app_name": "Decimen Optical Transfer",
+  "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+  "scored_at": "2026-08-06T13:06:30.769Z",
+  "total_score": 51,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The project has an HN sentiment score of 8/10, with 35 HN points, 30 comments analyzed, and positive signals praising the project's ability to transfer files between devices offline."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "Decimen Optical Transfer has a unique approach to file transfer using fountain-coded QR codes, which is different from similar tools like QRadar (87 stars) and Code128 (67 stars), with +4736 stars (+5444%) and +4756 stars (+7099%) respectively."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The project has an install success of false and an install time of 9.5s, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Decimen Optical Transfer is relevant to the current IoT ecosystem, but its relevance to the LLM ecosystem is limited, with an app type of hardware-iot."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project has a unique feature set, with a comparison to similar tools like QRadar and Code128 showing +4736 stars (+5444%) and +4756 stars (+7099%) respectively."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 4823 GitHub stars, 589 forks, and 12 open issues, but the data is insufficient to determine the community score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The project has 0 tests passed out of 2, and a basic run success of true, indicating potential issues with ease of use."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The project has no PyPI package found and is not pip-installable, indicating potential issues with ease of integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The data is insufficient to determine the documentation score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The data is insufficient to determine the maturity score."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "The project has a source_files_count of 0 and a simulator_present of 0, indicating potential performance issues."
+    }
+  },
+  "summary": "Decimen Optical Transfer is a unique project that uses fountain-coded QR codes for file transfer, but it has potential issues with system requirements, ease of use, and ease of integration.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+  "tool_url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=49157792",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 4823,
+      "forks": 589,
+      "open_issues": 12,
+      "watchers": 4823,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 6,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "QRadar",
+        "stars": 87,
+        "repo": "josh-morin/qradar"
+      },
+      {
+        "name": "Code128",
+        "stars": 67,
+        "repo": "fhunleth/code128"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "users praise the project's ability to transfer files between devices offline",
+        "some users see potential applications in satellite technology and digital audio gear",
+        "the use of fountain codes is considered 'cool' and 'lit'"
+      ],
+      "negative_signals": [
+        "some users are skeptical about the need for encryption and see it as unnecessary",
+        "others point out potential security risks, such as snooping by other cameras",
+        "the transfer speed is considered slow compared to other methods like Bluetooth or Airdrop"
+      ],
+      "justification": "The project receives widespread praise, but users also point out potential security risks and slow transfer speeds. The use of fountain codes is a notable highlight, and some users see potential applications in satellite technology and digital audio gear.",
+      "comment_count": 30,
+      "hn_points": 35
+    }
+  }
+}
