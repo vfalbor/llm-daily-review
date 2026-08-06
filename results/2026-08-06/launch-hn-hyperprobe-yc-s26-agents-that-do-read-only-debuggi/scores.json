@@ -1,0 +1,99 @@
+{
+  "app_name": "HyperProbe",
+  "url": "https://www.hyperprobe.co/",
+  "scored_at": "2026-08-06T13:06:07.885Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool offers a unique approach to debugging and troubleshooting applications and services without requiring changes or integration, with 281 stars for a similar tool New Relic (ekino/EkinoNewRelicBundle), indicating a new contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time is 18.4s, which is relatively long, and the install success is true, but PyPI package is not found, indicating some complexity in setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The tool fits well with the current devtool ecosystem trends, addressing a common pain point in debugging and troubleshooting, as evidenced by its relevance to similar tools like New Relic, Splunk, and Dynatrace."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "HyperProbe has 0 stars as it doesn't have a GitHub repo detected or API unavailable, but it differentiates itself from similar tools like New Relic (281 stars), Splunk (2,536 stars), and Dynatrace (534 stars) by offering read-only debugging in prod."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The tool has 59 HN points, 30 comments analyzed, and a sentiment score of 8/10, indicating a relatively small but positive community, with some concerns about design and read-only guarantee."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The basic run success is false, and 0 tests passed out of 2, indicating potential difficulties in using the tool."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has no PyPI package found, and its API modes are Web App, CLI Tool, API, indicating that integration might require additional effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data is available to assess the quality of the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data is available to assess the maturity of the tool."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark measurements are available to assess the performance of the tool, as memory_usage_mb is 0.0 and vs_newrelic_ratio is baseline_failed, but no actual performance data is provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 59 HN points, indicating a generally positive sentiment, with praise for the tool's features and potential."
+    }
+  },
+  "summary": "HyperProbe is a debugging and troubleshooting tool that offers a unique approach to read-only debugging in production, with a relatively small but positive community, and potential difficulties in use and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.hyperprobe.co/",
+  "tool_url": "https://github.com/hyperprobe/hyperprobe",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49185389",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "New Relic",
+        "stars": 281,
+        "repo": "ekino/EkinoNewRelicBundle"
+      },
+      {
+        "name": "Splunk",
+        "stars": 2536,
+        "repo": "splunk/attack_range"
+      },
+      {
+        "name": "Dynatrace",
+        "stars": 534,
+        "repo": "Dynatrace/superdump"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "The ability to drop read-only probes into a live service without triggering a painful redeploy is a massive time-saver.",
+        "You have something here.",
+        "Looks very neat."
+      ],
+      "negative_signals": [
+        "Landing page screams 'I put no work into this design'",
+        "Default Claude design makes people close tabs before they read a word.",
+        "Enforcing read-only guarantee across language runtimes and probe types is a concern."
+      ],
+      "justification": "The comments are generally positive, with praise for the product's features and potential, but some users express concern about the design and read-only guarantee.",
+      "comment_count": 30,
+      "hn_points": 59
+    }
+  }
+}
