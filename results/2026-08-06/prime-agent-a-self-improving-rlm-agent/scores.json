@@ -1,0 +1,94 @@
+{
+  "app_name": "Prime Agent",
+  "url": "https://www.primeintellect.ai/blog/prime-agent",
+  "scored_at": "2026-08-06T13:04:42.294Z",
+  "total_score": 52,
+  "scores": {
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment score is 6/10 with 195 points and 30 comments, indicating a mixed reaction to the project."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "As a self-improving RLM agent, Prime Agent is a novel approach, but without specific data on days_since_created or is_fork, we cannot fully assess its originality compared to similar tools like CrewAI with 56,693 stars."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No data on install_success or install_time_s is available for this app, as it's described in an article and not directly installed, and there's no PyPI package found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an LLM agent, Prime Agent fits into the current ecosystem trends, but without more specific data on its application or comparison to other tools, we cannot fully assess its relevance."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to similar tools like CrewAI with 56,693 stars, Prime Agent's differentiation is not clearly established due to lack of direct comparison data or BENCHMARK comparisons."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Without GitHub repository stats or similar data, we cannot assess the community around Prime Agent, so we default to a neutral score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With no tests passed out of 5 and basic run success being true, but without specific details on the nature of these tests or how the app is used, ease of use is difficult to assess but seems to be low."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Without a PyPI package or clear API modes beyond CLI and HTTP API, and no license information, ease of integration seems limited."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct information on has_wiki, has_pages, or GitHub topics count is available, and without the actual GitHub repository or more detailed documentation, we cannot assess the quality of documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without days_since_created, forks count, or open_issues data, maturity cannot be directly assessed, so we default to a neutral score."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As this criterion does not directly apply to an article or tool description without specific benchmark results or performance claims, we set it to null."
+    }
+  },
+  "summary": "Prime Agent is a novel approach to building self-improving RLM agents, but its differentiation, community, and maturity are hard to assess due to lack of data. Its ease of use and integration seem limited based on available information.",
+  "recommendation": "niche",
+  "app_url": "https://www.primeintellect.ai/blog/prime-agent",
+  "tool_url": "https://github.com/primeintellect/Prime-Agent",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49189075",
+  "domain": "llm-ai",
+  "app_type": "llm-agent",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CrewAI",
+        "stars": 56693,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "Meta ALiMe",
+        "stars": 0,
+        "repo": "lholivera/metagenoma_alimentos"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Impressive results, saturating ARC-AGI-3",
+        "Interesting dive into LLM-bloat",
+        "Smol agent alternative with 21 lines of code"
+      ],
+      "negative_signals": [
+        "Violent and disturbing content in story",
+        "Underage incest and S&M themes in book",
+        "Bloated code with long switch statements and files"
+      ],
+      "justification": "While many commenters praise the project's impressive results and the exploration of LLM-bloat, others express concerns about the disturbing content in the associated story and the poor code quality in the repository.",
+      "comment_count": 30,
+      "hn_points": 195
+    }
+  }
+}
