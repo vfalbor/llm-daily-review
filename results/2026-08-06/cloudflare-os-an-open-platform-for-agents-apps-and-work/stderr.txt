@@ -1,0 +1,25 @@
+ERROR: Could not find a version that satisfies the requirement cloudflare-os (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for cloudflare-os
+Cloning into 'cloudflare-os'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///cloudflare-os does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 12, in <module>
+    subprocess.run(['pip', 'install', 'cloudflare-os'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', 'cloudflare-os']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 17, in <module>
+    subprocess.run(['pip', 'install', '-e', 'cloudflare-os'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['pip', 'install', '-e', 'cloudflare-os']' returned non-zero exit status 1.
