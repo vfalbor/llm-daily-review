@@ -1,0 +1,96 @@
+{
+  "app_name": "Skyline Co-op",
+  "url": "https://intergalacticrobots.app/skyline-coop/",
+  "scored_at": "2026-08-06T13:02:21.950Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The game introduces a unique cooperative gameplay mechanic centered around democratic socialism, differing from similar tools like SimTower (2 stars) and Factorio (1,049 stars)."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install time is 18.6s, which is relatively slow, and the game is not pip-installable."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web-game, it fits into the current gaming landscape, but its relevance to the LLM ecosystem is limited."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 2 stars for SimTower and 1,049 stars for Factorio, Skyline Co-op's unique blend of cooperative gameplay and democratic socialism sets it apart, despite having no GitHub repository for direct comparison."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repository detected, and thus no stars or contributors to compare, but HN points are 13, indicating a small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Tests passed: 0 / 3, and basic run success is false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type, as it's a web-game and not meant for integration into pipelines."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository or wiki is available, and the website provides minimal information."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No GitHub repository means no data on days since created, forks, or open issues, but the game is described as a finished product."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "HN comments mention the game being 'CPU-hungry', indicating performance issues, despite no benchmarks being available."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Available, but as it is an article describing the game, not directly applicable to sentiment analysis of the game itself."
+    },
+    "overall_hn_score": {
+      "score": 5,
+      "justification": "Sentiment score is 5/10, HN points are 13, indicating a mixed and limited community response."
+    }
+  },
+  "summary": "Skyline Co-op is a unique cooperative city-building game centered around democratic socialism, with a small community and significant usability issues, but offers a fresh perspective in the gaming world.",
+  "recommendation": "niche",
+  "app_url": "https://intergalacticrobots.app/skyline-coop/",
+  "tool_url": "https://github.com/intergalactic-robots/skyline-coop",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49195297",
+  "domain": "web",
+  "app_type": "web-game",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SimTower",
+        "stars": 2,
+        "repo": "juliansmoller/SimTower"
+      },
+      {
+        "name": "Factorio",
+        "stars": 1049,
+        "repo": "JackHopkins/factorio-learning-environment"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Cute game"
+      ],
+      "negative_signals": [
+        "CPU-hungry",
+        "annoying AI-isms",
+        "not enough building options"
+      ],
+      "justification": "The comments are generally mixed, with some users praising the game as 'cute' while others criticize its performance, AI, and lack of features.",
+      "comment_count": 13,
+      "hn_points": 13
+    }
+  }
+}
