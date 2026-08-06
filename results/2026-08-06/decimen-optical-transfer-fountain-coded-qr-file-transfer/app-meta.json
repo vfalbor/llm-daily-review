@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Decimen Optical Transfer: fountain-coded QR file transfer",
+    "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+    "hn_url": "https://news.ycombinator.com/item?id=49157792",
+    "points": 34,
+    "comments": 29,
+    "author": "ksec",
+    "age": "2026-08-03T16:17:03 1785773823",
+    "scraped_at": "2026-08-06T13:00:02.881Z",
+    "tool_url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+    "source_type": "project",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Decimen Optical Transfer is a system for transferring files using fountain-coded QR codes.",
+    "use_modes": [
+      "CLI Tool"
+    ],
+    "similar_tools": [
+      "QRadar",
+      "Code128"
+    ],
+    "proposed_tests": [
+      "Install Decimen, transfer a small file using the CLI, measure error rates"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bashalarmistalt/decimen-optical-transfer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786021569017-fh96p",
+    "log_dir": "/tmp/llm-review-1786021569017-fh96p",
+    "install_success": false,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:source_files_count:0\nBENCHMARK:simulator_present:0",
+    "error_log": "Cloning into 'decimen-optical-transfer'...\nCloning into 'QRadar'...\nfatal: could not read Username for 'https://github.com': No such device or address\n/usr/local/bin/python: No module named decimen\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nBENCHMARK:source_files_count:0\nBENCHMARK:simulator_present:0\nTEST_FAIL:vs_qradar_clone:Failed to clone QRadar repository: Command '['git', 'clone', 'https://github.com/qradar/QRadar.git']' returned non-zero exit status 128.\nTEST_FAIL:transfer_time:Failed to transfer file: Command '['python', '-m', 'decimen', 'transfer', 'test.txt']' returned non-zero exit status 1.\nRUN_OK\n"
+  }
+}
