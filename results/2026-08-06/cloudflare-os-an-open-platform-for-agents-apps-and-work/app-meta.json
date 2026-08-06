@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Cloudflare OS: an open platform for agents, apps, and work",
+    "url": "https://blog.cloudflare.com/cloudflare-os/",
+    "hn_url": "https://news.ycombinator.com/item?id=49182996",
+    "points": 584,
+    "comments": 280,
+    "author": "speckx",
+    "age": "2026-08-05T13:58:53 1785938333",
+    "scraped_at": "2026-08-06T13:00:02.877Z",
+    "tool_url": "https://github.com/cloudflare/cloudflare-os",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-container",
+    "description": "Cloudflare OS is an open platform for building, deploying, and managing cloud-native applications.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "UI"
+    ],
+    "similar_tools": [
+      "Kubernetes"
+    ],
+    "proposed_tests": [
+      "Install Cloudflare OS CLI and create a new deployment",
+      "Write a simple service using Cloudflare OS's API",
+      "Test service deployment and scalability using Cloudflare OS",
+      "Compare Cloudflare OS's performance with other cloud platforms"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cloudflare/cloudflare-os"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786021412468-3s7oy",
+    "log_dir": "/tmp/llm-review-1786021412468-3s7oy",
+    "install_success": true,
+    "install_time_s": 12,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement cloudflare-os (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for cloudflare-os\nCloning into 'cloudflare-os'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///cloudflare-os does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 12, in <module>\n    subprocess.run(['pip', 'install', 'cloudflare-os'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', 'cloudflare-os']' returned non-zero exit status 1.\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 17, in <module>\n    subprocess.run(['pip', 'install', '-e', 'cloudflare-os'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['pip', 'install', '-e', 'cloudflare-os']' returned non-zero exit status 1.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nObtaining file:///cloudflare-os\nINSTALL_OK\nINSTALL_FAIL:pip install failed, trying git clone\n"
+  }
+}
