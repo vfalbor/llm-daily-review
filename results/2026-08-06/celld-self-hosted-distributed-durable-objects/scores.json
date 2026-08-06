@@ -1,0 +1,102 @@
+{
+  "app_name": "Celld",
+  "url": "https://github.com/denoland/celld",
+  "scored_at": "2026-08-06T13:05:36.123Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 468 days since repo creation and being a non-fork, Celld presents a unique approach to self-hosted, distributed Durable Objects, distinguishing it from similar tools with its Rust implementation and Apache-2.0 license."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Given the install time of 10.5s and the fact that it's not pip-installable, Celld has moderate system requirements, but its lack of a PyPI package may hinder ease of installation for some users."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool-cicd with a focus on self-hosted, distributed Durable Objects, Celld fits well into the current ecosystem trends, addressing needs for decentralized and scalable solutions, with its 0 days since last commit indicating active maintenance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Celld differentiates itself with its distributed system design and self-hosted capabilities, garnering positive feedback, but its dependency on S3-compatible object storage may limit its differentiation in terms of full autonomy, with 1,437 stars on GitHub indicating a notable but not outstanding presence compared to similar tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 1,437 stars, 32 forks, and only 1 contributor, despite its positive HN sentiment score of 8/10 and 237 points, the community around Celld seems somewhat limited, although active discussions and a recent last commit suggest some level of engagement."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The fact that 0 out of 4 tests passed indicates potential difficulties in use or setup, suggesting that while Celld may offer powerful features, its usability could be improved, particularly with a basic run success but no passing tests."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Without a PyPI package and given the necessity for manual setup, Celld's ease of integration into existing workflows or pipelines may be moderate, requiring additional effort for users to incorporate it into their projects, though its Apache-2.0 license is permissive."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "Although specific documentation quality metrics like has_wiki or has_pages are not provided, the project's GitHub page and the presence of a discussion around it suggest that there is some level of documentation and community engagement, helping users understand and implement Celld."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "With 468 days since creation and 0 days since the last commit, Celld demonstrates a level of maturity, especially considering its non-fork status and the presence of a license, indicating a serious project with ongoing development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Given the lack of specific benchmark measurements (memory_usage_mb:0.00, time_test_ms:0.00), it's challenging to assess Celld's performance definitively, so a neutral score is assigned due to insufficient data."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score of 8/10, with 237 points and 30 comments analyzed, indicates a generally positive reception, with comments highlighting Celld's distributed system design and self-hosted ease of setup as strengths, though some users note challenges in initial setup and synchronization capabilities."
+    },
+    "security": {
+      "score": 5,
+      "justification": "Without specific data on security audits, vulnerabilities, or compliance, the security of Celld cannot be accurately assessed, leading to a neutral score due to the lack of information on this aspect."
+    }
+  },
+  "summary": "Celld is a self-hosted, distributed Durable Objects platform that offers a unique approach to decentralized data storage, with a strong focus on ease of use for developers. Despite some limitations in its community size and ease of integration, Celld shows promise with its active development and positive community feedback.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/denoland/celld",
+  "tool_url": "https://github.com/denoland/celld",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49185430",
+  "domain": "devtool",
+  "app_type": "devtool-cicd",
+  "enriched": {
+    "github": {
+      "stars": 1437,
+      "forks": 32,
+      "open_issues": 7,
+      "watchers": 1437,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 468,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "self-hosted, distributed Durable Objects",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Distributed system design",
+        "Self-hosted and easy to set up",
+        "Scaling to cluster while being operationally easy"
+      ],
+      "negative_signals": [
+        "Not as geographically synchronized as Cloudflare OS",
+        "Initial setup can be tricky",
+        "Dependent on S3-compatible object storage"
+      ],
+      "justification": "The majority of comments are positive about the project's architecture and design, but some users voice concerns about its synchronization capabilities and initial setup. Despite this, the project shows promise for self-hosted and distributed durable objects.",
+      "comment_count": 30,
+      "hn_points": 237
+    }
+  }
+}
