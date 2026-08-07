@@ -1,0 +1,17 @@
+fatal: repository 'provenmetal' does not exist
+find: ./provenmetal: No such file or directory
+Traceback (most recent call last):
+  File "/app/test.py", line 98, in <module>
+    main()
+  File "/app/test.py", line 87, in main
+    source_files_count = count_source_files('provenmetal')
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 42, in count_source_files
+    output = subprocess.check_output(command).decode('utf-8').splitlines()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['find', './provenmetal', '-type', 'f']' returned non-zero exit status 1.
