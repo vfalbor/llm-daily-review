@@ -1,0 +1,84 @@
+{
+  "app_name": "ProvenMetal PCB Designer",
+  "url": "https://provenmetal.com/pcb-design-software/",
+  "scored_at": "2026-08-07T13:02:37.789Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app delivers circuit boards in days instead of weeks, which is a genuinely new way of approaching PCB design and manufacturing, citing the tool's unique selling point."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The tool is not pip-installable and does not have a PyPI package, citing the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app fits well with current hardware and electronics trends, as rapid prototyping and production are increasingly important, citing the app's relevance in the current ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool offers a unique combination of PCB design software and rapid manufacturing capabilities, differentiating it from similar tools like Autodesk Eagle and DipTrace, citing the comparison to 2 similar tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected, and there is limited information available about the community surrounding the tool, citing the lack of GitHub data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The tool's install success is false, and basic run success is also false, indicating potential difficulties with usability, citing the 0 tests passed out of 2."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool offers a web app and desktop app, but its integration capabilities are unclear due to the lack of API information, citing the absence of clear API modes."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of the tool's documentation, citing the lack of data on has_wiki, has_pages, or GitHub topics count."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to evaluate the tool's maturity, citing the lack of information on days_since_created, forks count, or open_issues."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The tool delivers circuit boards in days instead of weeks, which implies a level of performance, but no direct benchmark comparisons are available, citing the tool's unique performance claim."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "The sentiment score is 8/10 with 210 HN points and 30 comments analyzed, but this criterion does not apply to the overall score due to its unique nature, citing the HN sentiment analysis."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "ProvenMetal PCB Designer offers a unique combination of PCB design software and rapid manufacturing capabilities, making it a valuable tool for hardware and electronics development, despite some usability and integration concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://provenmetal.com/",
+  "tool_url": "https://provenmetal.com/pcb-design-software/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49198464",
+  "domain": "hardware",
+  "app_type": "hardware pcb",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Encouraging innovation and domestic production",
+        "Offering a scalable business model beyond one-off production",
+        "Focusing on high-mix low-volume work with optimized pricing"
+      ],
+      "negative_signals": [
+        "Concerns about high pricing compared to China",
+        "Limited domestic demand outside of defense and drone industries",
+        "Question about turning a profit beyond being a niche service"
+      ],
+      "justification": "The majority of comments are positive, with some constructive criticism and concerns about pricing. The project receives praise for encouraging innovation and domestic production, but also faces questions about scalability and profitability beyond a niche service.",
+      "comment_count": 30,
+      "hn_points": 210
+    }
+  }
+}
