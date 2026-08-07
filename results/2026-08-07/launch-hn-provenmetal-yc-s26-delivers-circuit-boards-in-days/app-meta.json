@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+    "url": "https://provenmetal.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49198464",
+    "points": 210,
+    "comments": 149,
+    "author": "willcarkner",
+    "age": "2026-08-06T15:59:15 1786031955",
+    "scraped_at": "2026-08-07T13:00:03.001Z",
+    "tool_url": "https://provenmetal.com/pcb-design-software/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "hardware",
+    "app_type": "hardware pcb",
+    "description": "Software for designing PCBs",
+    "use_modes": [
+      "Web App",
+      "Desktop App"
+    ],
+    "similar_tools": [
+      "Autodesk Eagle",
+      "DipTrace",
+      "EAGLE PCB Designer"
+    ],
+    "proposed_tests": [
+      "Create a simple PCB and export as Gerber files",
+      "Upload the design to a manufacturing service",
+      "Verify the accuracy of the manufacturing output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1786107737554-dh17e",
+    "log_dir": "/tmp/llm-review-1786107737554-dh17e",
+    "install_success": false,
+    "install_time_s": 10,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "fatal: repository 'provenmetal' does not exist\nfind: ./provenmetal: No such file or directory\nTraceback (most recent call last):\n  File \"/app/test.py\", line 98, in <module>\n    main()\n  File \"/app/test.py\", line 87, in main\n    source_files_count = count_source_files('provenmetal')\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 42, in count_source_files\n    output = subprocess.check_output(command).decode('utf-8').splitlines()\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['find', './provenmetal', '-type', 'f']' returned non-zero exit status 1.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n(1/7) Installing libgcc (15.2.0-r5)\n(2/7) Installing libstdc++ (15.2.0-r5)\n(3/7) Installing mpdecimal (4.0.1-r0)\n(4/7) Installing python3 (3.14.5-r0)\n(5/7) Installing python3-pycache-pyc0 (3.14.5-r0)\n(6/7) Installing pyc (3.14.5-r0)\n(7/7) Installing python3-pyc (3.14.5-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 62.5 MiB in 58 packages\nTEST_FAIL:command:Command '['git', 'clone', 'provenmetal']' returned non-zero exit status 128.\nTEST_FAIL:cloning_repo\n"
+  }
+}
