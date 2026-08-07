@@ -1,0 +1,98 @@
+{
+  "app_name": "TypeStax",
+  "url": "https://www.typestax.com/",
+  "scored_at": "2026-08-07T13:02:16.148Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "TypeStax offers a unique combination of a type scale generator with a vintage audio hardware interface, setting it apart from similar tools like AudioBox (751 stars) and MIDI Studio (52 stars), with no direct equivalent found."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is not pip-installable, and the container test results show install success as false, with an install time of 10.8s, indicating potential accessibility issues."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a tool for web designers, TypeStax fits into the current ecosystem trends by providing a functional interface for designing type scales, but its novelty and differentiation are more significant than its current relevance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "TypeStax differs from AudioBox and MIDI Studio by its unique blend of type scale generation and vintage audio hardware interface, with no similar tool offering this exact combination, although specific benchmark comparisons are unavailable."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With no GitHub repository detected, the community around TypeStax is difficult to assess directly, but the tool has garnered some attention as evidenced by its HN points (6) and comments (3), suggesting a small but potentially engaged user base."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The comments analyzed from HN indicate both positive and negative signals regarding ease of use, with one user expressing frustration, leading to a lower score due to mixed user experiences."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As TypeStax is a web-based tool and not a library or framework, ease of integration does not apply in the traditional sense of integrating into a development pipeline."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to GitHub data or a documentation site, it's challenging to evaluate the quality and completeness of TypeStax's documentation, so a neutral score is assigned due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of GitHub data or other versioning information, it's difficult to assess the maturity of TypeStax, leading to a neutral score due to insufficient evidence."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no available benchmarks or performance metrics to evaluate TypeStax's performance, and given its nature as a web-based tool rather than a computational library, this criterion is considered not applicable."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The HN sentiment analysis shows a high sentiment score of 9/10, with 6 HN points and 3 comments, indicating a very positive initial reception, with users appreciating its functionality and uniqueness."
+    }
+  },
+  "summary": "TypeStax is a unique web-based type scale generator with a vintage audio hardware interface that, despite its novelty and positive user feedback, faces challenges in terms of accessibility and ease of use. Its lack of presence on GitHub and absence of detailed documentation or performance metrics limit a full evaluation of its potential and ecosystem fit.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.typestax.com/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49112511",
+  "domain": "infrastructure",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "AudioBox",
+        "stars": 751,
+        "repo": "facebookresearch/audiobox-aesthetics"
+      },
+      {
+        "name": "MIDI Studio",
+        "stars": 52,
+        "repo": "bcrowe306/MPC-Studio-Mk2-Midi-Sysex-Charts"
+      },
+      {
+        "name": "Logic Pro",
+        "stars": 526,
+        "repo": "cidacastello/curso-logica-programacao"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "loved",
+        "fun to play with",
+        "export button is useful"
+      ],
+      "negative_signals": [
+        "vibe coding",
+        "expected more ease of use"
+      ],
+      "justification": "The project received enthusiastic comments with a couple of users praising its functionality and nostalgic value, suggesting it fills a long-standing need for web designers. However, one user expressed frustration with the lack of ease of use.",
+      "comment_count": 3,
+      "hn_points": 6
+    }
+  }
+}
