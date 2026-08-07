@@ -1,0 +1,94 @@
+{
+  "app_name": "Herdr",
+  "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+  "scored_at": "2026-08-07T13:03:27.325Z",
+  "total_score": 49,
+  "scores": {
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The HN sentiment score is 4/10, with 234 points and 30 comments analyzed. The comments are mixed, but mostly negative, with 15 comments expressing doubts or criticism and only 8 comments offering praise or support."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "No GitHub repo detected, so novelty is uncertain. However, the article mentions Herdr joining Y Combinator, which could indicate some level of innovation, scoring 6 based on the potential for growth and adaptation in the devtool space."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "No PyPI package found, and install time is not available. The lack of easy installation options scores 3, indicating moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is devtool-testing, and Herdr is joining Y Combinator, indicating a strong fit with current devtool ecosystem trends, scoring 8."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Similar tools like Haskell and Rust have more stars (3,482 and 119,820 respectively), but without more data, it's hard to determine the differentiation of Herdr, scoring 5 due to insufficient data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repo detected, and while there are HN comments, it's hard to assess the community without more data, scoring 5 due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests passed, and basic run success is false, indicating potential usability issues, scoring 2 due to the lack of successful test runs and basic functionality."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package found, but the tool has a CLI, which could make integration easier in some cases, scoring 4 for having some level of integration potential."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data available on the quality of the documentation, scoring 5 due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data available on the maturity of the project, scoring 5 due to insufficient data."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark data available, and the app type does not lend itself to performance comparisons, scoring null as it's not applicable."
+    }
+  },
+  "summary": "Herdr is a devtool-testing application joining Y Combinator, with potential for growth and adaptation in the devtool space, but lacks clear data on its differentiation, community, and maturity.",
+  "recommendation": "niche",
+  "app_url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+  "tool_url": "https://github.com/herdrio/herdr",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49201003",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Haskell",
+        "stars": 3482,
+        "repo": "sdiehl/write-you-a-haskell"
+      },
+      {
+        "name": "Rust",
+        "stars": 119820,
+        "repo": "rustdesk/rustdesk"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Long-time fan of Herdr excited about potential",
+        "Herdr user suggests creating a personal fork to maintain control",
+        "Y Combinator partner advises against over-commercialization"
+      ],
+      "negative_signals": [
+        "Concerns about commercialization and enshitification",
+        "Dissenting opinion that VC-backed projects have a high chance of failing",
+        "Alternative projects mentioned as viable alternatives (e.g., Workmux, Zmx)"
+      ],
+      "justification": "The comment section is mixed, with some users expressing concerns about commercialization under Y Combinator and potential 'enshitification', while others see the benefits of the project and suggest creative solutions to maintain control. However, the tone remains mostly negative, with 15 comments expressing doubts or criticism and only 8 comments offering praise or support.",
+      "comment_count": 30,
+      "hn_points": 234
+    }
+  }
+}
