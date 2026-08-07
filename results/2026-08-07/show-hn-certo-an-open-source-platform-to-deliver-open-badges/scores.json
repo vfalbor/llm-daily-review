@@ -1,0 +1,95 @@
+{
+  "app_name": "Certo",
+  "url": "https://github.com/schroedinger-Hat/certo",
+  "scored_at": "2026-08-07T13:03:59.001Z",
+  "total_score": 36,
+  "hn_sentiment": null,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Certo is not the first open source platform to deliver Open Badges, with similar tools like OpenBadge having 867 stars, showing a -838 star difference."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success was false and no PyPI package was found, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an open source platform to deliver Open Badges, Certo fits into the current education and skills tracking trend."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 29 stars compared to OpenBadge's 867, Certo's unique feature set is not yet differentiated in the market."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Certo has 29 GitHub stars, 6 forks, and 18 open issues, indicating a small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "With install success being false and basic run success also being false, Certo's usability is greatly impacted."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "While Certo has a Web and API use mode, the lack of a PyPI package makes integration more complex."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about the quality of the documentation is available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Certo has been around for 423 days, but without more data on its development cycle, maturity is hard to assess."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available for Certo, making it hard to assess its performance."
+    }
+  },
+  "summary": "Certo is an open source platform for delivering Open Badges, with a small community and limited differentiation. Its usability and integration are currently impacted by installation issues.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/schroedinger-Hat/certo",
+  "tool_url": "https://github.com/schroedinger-Hat/certo",
+  "source_type": "project",
+  "hn_url": "https://news.ycombinator.com/item?id=49207793",
+  "domain": "education",
+  "app_type": "software-platform",
+  "enriched": {
+    "github": {
+      "stars": 29,
+      "forks": 6,
+      "open_issues": 18,
+      "watchers": 29,
+      "contributors": 6,
+      "license": "AGPL-3.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 423,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "An open source project for courses, workshops and conferences organizers to create certifications using Open Badges 3.0",
+      "topics": [
+        "certificates",
+        "conference",
+        "digital-credentials",
+        "open-badges",
+        "w3c"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenBadge",
+        "stars": 867,
+        "repo": "mozilla/openbadges-backpack"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
