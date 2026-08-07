@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Herdr is joining Y Combinator. The runtime stays open",
+    "url": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+    "hn_url": "https://news.ycombinator.com/item?id=49201003",
+    "points": 232,
+    "comments": 163,
+    "author": "collinmanderson",
+    "age": "2026-08-06T19:14:21 1786043661",
+    "scraped_at": "2026-08-07T13:00:03.003Z",
+    "tool_url": "https://github.com/herdrio/herdr",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "Runtime tool used by Herdr",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Haskell",
+      "Rust"
+    ],
+    "proposed_tests": [
+      "Clone the Herdr repository",
+      "Compile the runtime with GHC (Haskell)",
+      "Verify the execution of Herdr code through the runtime"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/herdrio/herdr"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786107758959-5vitr",
+    "log_dir": "/tmp/llm-review-1786107758959-5vitr",
+    "install_success": true,
+    "install_time_s": 22.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'herdr'...\nfatal: could not read Username for 'https://github.com': No such device or address\nfatal: cannot change to 'herdr': No such file or directory\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: herdr is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nfatal: cannot change to 'herdr': No such file or directory\nfatal: cannot change to 'herdr': No such file or directory\nTraceback (most recent call last):\n  File \"/app/test.py\", line 29, in <module>\n    subprocess.run(['cabal', 'install', '--project-file=herdr/cabal.project', '--only-dependencies', '--ghc-option=-O2'], check=False)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'cabal'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n( 1/33) Installing gmp (6.3.0-r4)\n( 2/33) Installing libgcc (15.2.0-r5)\n( 3/33) Installing libstdc++ (15.2.0-r5)\n( 4/33) Installing libgmpxx (6.3.0-r4)\n( 5/33) Installing pkgconf (2.5.1-r0)\n( 6/33) Installing gmp-dev (6.3.0-r4)\n( 7/33) Installing linux-headers (7.0.0-r1)\n( 8/33) Installing libffi-dev (3.5.2-r1)\n( 9/33) Installing perl (5.42.2-r0)\n(10/33) Installing jansson (2.15.0-r0)\n(11/33) Installing binutils (2.45.1-r1)\n(12/33) Installing libgcc-static (15.2.0-r5)\n(13/33) Installing libgomp (15.2.0-r5)\n(14/33) Installing libatomic (15.2.0-r5)\n(15/33) Installing isl26 (0.26-r2)\n(16/33) Installing mpfr4 (4.2.2-r0)\n(17/33) Installing mpc1 (1.3.1-r1)\n(18/33) Installing gcc (15.2.0-r5)\n(19/33) Installing libxml2 (2.13.9-r2)\n(20/33) Installing llvm15-libs (15.0.7-r20)\n(21/33) Installing llvm15 (15.0.7-r20)\n(22/33) Installing clang16-headers (16.0.6-r11)\n(23/33) Installing llvm16-libs (16.0.6-r14)\n(24/33) Installing clang16-libs (16.0.6-r11)\n(25/33) Installing fortify-headers (3.0.1-r2)\n(26/33) Installing libstdc++-dev (15.2.0-r5)\n(27/33) Installing llvm16-linker-tools (16.0.6-r14)\n(28/33) Installing musl-dev (1.2.6-r2)\n(29/33) Installing clang16 (16.0.6-r11)\n(30/33) Installing ghc (9.10.3-r2)\n  Executing ghc-9.10.3-r2.post-install\n(31/33) Installing perl-error (0.17030-r0)\n(32/33) Installing perl-git (2.54.0-r0)\n(33/33) Installing git-perl (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 1628.0 MiB in 84 packages\nInstalling required APK packages...\nINSTALL_OK\nCloning the Herdr repository and installing the package...\nINSTALL_OK\nCompiling the runtime with GHC (Haskell)...\n"
+  }
+}
