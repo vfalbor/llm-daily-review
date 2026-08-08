@@ -1,0 +1,71 @@
+{
+  "app_name": "Torus",
+  "url": "https://andreadimatteo.com/torus-v0-5.html",
+  "scored_at": "2026-08-08T13:06:53.195Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a unique, interactive, 3D rotating torus visualization in a terminal, which is a genuinely new way to visualize data, citing the app's description and the lack of similar tools with this specific functionality."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app has an install time of 10.3s, which is moderate, but it does not have a PyPI package, citing the container test results and the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is a visualizer, which is relevant in the current data visualization landscape, citing the app's type and the current trends in data visualization."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app is different from similar tools like plotly and matplotlib, as it provides a unique, interactive, 3D visualization in a terminal, citing the app's description and the comparison to similar tools."
+    },
+    "community": {
+      "score": 3,
+      "justification": "There is no GitHub repository detected, and no HN comment sentiment data available, citing the absence of GitHub and HN data."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app has a basic run success, but only 1 out of 5 tests passed, citing the container test results, which indicates some usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The app does not have a PyPI package, and there is no API/SDK/webhook mention on the page, citing the absence of a PyPI package and the web page signals."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The app has a page with a title, and a content length of 4636 characters, which is a moderate amount of documentation, citing the web page signals."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no clear indication of the app's maturity, as there is no GitHub repository, and no changelog or release notes on the page, citing the absence of GitHub data and the web page signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are some benchmark measurements available, but they are not directly comparable to similar tools, citing the benchmark measurements and the lack of comparable data."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available, citing the absence of HN comment sentiment data."
+    }
+  },
+  "summary": "Torus is a unique, interactive, 3D rotating torus visualization in a terminal, with moderate system requirements and differentiation from similar tools, but it lacks a strong community and ease of integration, and its performance is not clearly established.",
+  "recommendation": "worth-watching",
+  "app_url": "https://andreadimatteo.com/torus-v0-5.html",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49141642",
+  "domain": "web",
+  "app_type": "visualizer",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
