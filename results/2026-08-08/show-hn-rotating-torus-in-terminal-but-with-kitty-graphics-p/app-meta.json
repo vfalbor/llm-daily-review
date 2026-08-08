@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Show HN: Rotating torus in terminal (but with kitty graphics protocol)",
+    "url": "https://andreadimatteo.com/torus-v0-5.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49141642",
+    "points": 4,
+    "comments": 0,
+    "author": "deotman",
+    "age": "2026-08-02T06:18:42 1785651522",
+    "scraped_at": "2026-08-08T13:00:03.098Z",
+    "tool_url": null,
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "visualizer",
+    "description": "An interactive, 3D rotating torus visualization in a terminal",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "plotly",
+      "matplotlib"
+    ],
+    "proposed_tests": [
+      "Verify rendering accuracy on different systems",
+      "Benchmark performance on a large dataset",
+      "Test user experience and interaction",
+      "Compare with other visualization tools"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://andreadimatteo.com/torus-v0-5.html"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786194394189-m7rws",
+    "log_dir": "/tmp/llm-review-1786194394189-m7rws",
+    "install_success": true,
+    "install_time_s": 10.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:rendering_time_ms:12.30931282043457\nBENCHMARK:performance_time_ms:1.7426013946533203\nBENCHMARK:user_experience_time_ms:1.5246868133544922\nBENCHMARK:vs_matplotlib_time_ms:1.2402534484863281\nBENCHMARK:vs_plotly_time_ms:1.2295246124267578\nBENCHMARK:memory_usage_byte:0\nBENCHMARK:memory_usage_peak_byte:0",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-08T13_06_44_246Z-debug-0.log\nnode:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module '/server.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.18.1\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.18.1-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.0 MiB in 60 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:rendering_time_ms:12.30931282043457\nTEST_PASS:rendering_accuracy\nBENCHMARK:performance_time_ms:1.7426013946533203\nTEST_FAIL:performance:404\nBENCHMARK:user_experience_time_ms:1.5246868133544922\nTEST_FAIL:user_experience:404\nBENCHMARK:vs_matplotlib_time_ms:1.2402534484863281\nTEST_FAIL:compare_with_matplotlib:404\nBENCHMARK:vs_plotly_time_ms:1.2295246124267578\nTEST_FAIL:compare_with_plotly:404\nBENCHMARK:memory_usage_byte:0\nBENCHMARK:memory_usage_peak_byte:0\nRUN_OK\n"
+  }
+}
