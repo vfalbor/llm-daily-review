@@ -1,0 +1,19 @@
+ERROR: Could not find a version that satisfies the requirement hand-wave (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for hand-wave
+Traceback (most recent call last):
+  File "/app/test.py", line 145, in <module>
+    main()
+  File "/app/test.py", line 105, in main
+    measure_import_time("hand-wave")
+  File "/app/test.py", line 41, in measure_import_time
+    import_module(package)
+  File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'hand-wave'
