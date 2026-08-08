@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
+    "url": "https://ancientlibrary.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=49214770",
+    "points": 217,
+    "comments": 70,
+    "author": "aagha",
+    "age": "2026-08-07T18:51:14 1786128674",
+    "scraped_at": "2026-08-08T13:00:03.096Z",
+    "tool_url": "https://ancientlibrary.net/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "data",
+    "app_type": "text-search",
+    "description": "A web-based repository of 1,060 Greek and Latin texts with interactive parsing and analysis",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "Perseus Digital Library",
+      "Latin Library"
+    ],
+    "proposed_tests": [
+      "Verify parsing accuracy on a sample text",
+      "Benchmark search performance on a large corpus",
+      "Test interface usability and accessibility",
+      "Evaluate the tool's educational value"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://ancientlibrary.net/"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786194189593-ts57i",
+    "log_dir": "/tmp/llm-review-1786194189593-ts57i",
+    "install_success": false,
+    "install_time_s": 191.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n\nTIMEOUT",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting beautifulsoup4\n  Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)\nCollecting soupsieve>=1.6.1 (from beautifulsoup4)\n  Downloading soupsieve-2.9.2-py3-none-any.whl.metadata (4.6 kB)\nCollecting typing-extensions>=4.0.0 (from beautifulsoup4)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nDownloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)\nDownloading soupsieve-2.9.2-py3-none-any.whl (37 kB)\nDownloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nInstalling collected packages: typing-extensions, soupsieve, beautifulsoup4\nSuccessfully installed beautifulsoup4-4.15.0 soupsieve-2.9.2 typing-extensions-4.16.0\nRequirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (2.34.2)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests) (3.4.9)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests) (3.18)\nRequirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests) (2.7.0)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests) (2026.7.22)\n"
+  }
+}
