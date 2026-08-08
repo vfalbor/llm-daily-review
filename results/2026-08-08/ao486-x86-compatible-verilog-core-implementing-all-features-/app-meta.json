@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "ao486: x86-compatible Verilog core implementing all features of a 486 SX (2014)",
+    "url": "https://github.com/alfikpl/ao486",
+    "hn_url": "https://news.ycombinator.com/item?id=49141236",
+    "points": 32,
+    "comments": 4,
+    "author": "csmantle",
+    "age": "2026-08-02T04:53:24 1785646404",
+    "scraped_at": "2026-08-08T13:00:03.095Z",
+    "tool_url": "https://github.com/alfikpl/ao486",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "hardware",
+    "app_type": "digital-circuit",
+    "description": "AO486 is an open-source Verilog implementation of an x86-compatible processor.",
+    "use_modes": [
+      "Verilog"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      "Verify core design by running a hello-world program",
+      "Benchmark performance against a baseline x86 CPU",
+      "Run a stress test to evaluate the core's durability",
+      "Compare the core with other digital circuit implementations"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/alfikpl/ao486"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786194157459-vja1q",
+    "log_dir": "/tmp/llm-review-1786194157459-vja1q",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.0009055137634277344\nBENCHMARK:memory_usage_mb:0.051395\nBENCHMARK:loc_count:1380",
+    "error_log": "Cloning into 'ao486'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:hello_world:[Errno 2] No such file or directory: 'iverilog'\nBENCHMARK:install_time_s:0.0009055137634277344\nBENCHMARK:memory_usage_mb:0.051395\nTEST_FAIL:stress_test:[Errno 2] No such file or directory: 'iverilog'\nTEST_FAIL:performance_benchmark:[Errno 2] No such file or directory: 'iverilog'\nTEST_FAIL:compare_performance_baseline:[Errno 2] No such file or directory: 'iverilog'\nBENCHMARK:loc_count:1380\nRUN_OK\n"
+  }
+}
