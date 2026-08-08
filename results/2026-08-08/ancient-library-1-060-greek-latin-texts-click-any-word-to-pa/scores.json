@@ -1,0 +1,83 @@
+{
+  "app_name": "Ancient Library",
+  "url": "https://ancientlibrary.net/",
+  "scored_at": "2026-08-08T13:06:33.160Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Ancient Library offers interactive parsing and analysis of Greek and Latin texts, which is a unique feature compared to similar tools like Perseus Digital Library and Latin Library, with a detected version of 1.0."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "The app is a web-based tool and does not require installation, but it has no PyPI package and the install success is false, with an install time of 191.6s."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits well with the current LLM ecosystem trends, providing a valuable resource for classicists and software developers, with features such as LLMs and audio forced-alignment."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Ancient Library differentiates itself from similar tools like Perseus Digital Library and Latin Library through its interactive parsing and analysis features, but lacks BENCHMARK comparisons."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected or API unavailable, but HN points are 218 with 30 comments analyzed, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app has a basic web interface, but users report navigation and loading issues, and the pop-up text formatting can be overwhelming, with 0 tests passed out of 0 total."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app has no API/SDK/webhook mention on its page, but it does have a detected API/webhook, and the web page signals indicate it's not pip-installable."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The app has no docs/wiki/guide link, no changelog or release notes, and no examples or demo, but the page content length is 99629 chars, indicating some depth."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No GitHub repository detected or API unavailable, but the web page signals indicate a detected version of 1.0, and HN points are 218, indicating some maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No BENCHMARK lines from tests are available, and no performance claims exist on the app's page, making it impossible to evaluate performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN sentiment score is 7/10, with 218 HN points, 30 comments analyzed, and positive signals indicating a useful resource for classicists and software developers, but also some negative signals about navigation and loading issues."
+    }
+  },
+  "summary": "Ancient Library is a web-based repository of Greek and Latin texts with interactive parsing and analysis, offering a unique feature set, but with some issues reported by users, and it requires further development to improve its navigation, loading, and text formatting.",
+  "recommendation": "niche",
+  "app_url": "https://ancientlibrary.net/",
+  "tool_url": "https://ancientlibrary.net/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49214770",
+  "domain": "data",
+  "app_type": "text-search",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Useful resource for classicists and software developers",
+        "Features such as LLMs and audio forced-alignment are a game changer",
+        "Opportunity to explore ancient Greek and Latin texts with improved layout"
+      ],
+      "negative_signals": [
+        "Perceives like a downgrade from Perseus Digital Library",
+        "Navigation and loading issues reported by users",
+        "Pop-up text formatting can be overwhelming and non-intuitive"
+      ],
+      "justification": "The comments generally reflect excitement and praise for the project's unique features and user interface. However, users point out some issues, such as navigation and loading problems, and suggest improvements to the pop-up text formatting.",
+      "comment_count": 30,
+      "hn_points": 218
+    }
+  }
+}
