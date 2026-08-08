@@ -1,0 +1,98 @@
+{
+  "app_name": "Rosenbridge",
+  "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+  "scored_at": "2026-08-08T13:02:14.883Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool provides a unique approach to identifying hardware backdoors in x86 CPUs, with 2,468 GitHub stars and a primary language of C, indicating a notable original contribution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success was false and install time was 7.2s, indicating potential issues with installation, and there is no PyPI package found, making it less accessible."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The tool is relevant to current hardware security trends, with 174 HN points and 30 comments analyzed, showing interest in the topic of hardware backdoors."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool has 2,468 GitHub stars, but there is limited comparison to similar tools, with no clear advantage cited in the data provided."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repository has 2,468 stars, 225 forks, and 13 open issues, but only 1 contributor, indicating a relatively small but active community, with 2857 days since the last commit."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The install success was false and basic run success was also false, indicating significant issues with usability, with 0 tests passed out of 0 tests total."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package found, and the license is MIT, but the lack of a pip-installable package and unclear API modes make integration difficult."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The GitHub repository has some information, but the quality and completeness of documentation are not clearly evident from the provided data, with no mention of a wiki or pages."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository has 2921 days since it was created, but with 2857 days since the last commit, indicating a relatively old project with limited recent activity, and only 1 contributor."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data provided to assess the performance of the tool, making it difficult to evaluate its efficiency or speed compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided, but this criterion is not applicable as a separate score; instead, it informs other criteria like community and current relevance, with a sentiment score of 5/10 and 174 HN points."
+    }
+  },
+  "summary": "Rosenbridge is a research tool for identifying hardware backdoors in x86 CPUs, with a unique approach but potential installation issues and limited recent community activity. It has a notable original contribution but lacks clear comparison to similar tools and has significant usability issues.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/xoreaxeaxeax/rosenbridge",
+  "tool_url": "https://github.com/xoreaxeaxeax/rosenbridge",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49219508",
+  "domain": "hardware",
+  "app_type": "hardware-backdoor",
+  "enriched": {
+    "github": {
+      "stars": 2468,
+      "forks": 225,
+      "open_issues": 13,
+      "watchers": 2468,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 2857,
+      "days_since_created": 2921,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Hardware backdoors in some x86 CPUs",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Relevant discussion about potential security implications",
+        "Interesting explanations of technical concepts like Cantor Dust",
+        "Good fact-checking and critical thinking from commenters"
+      ],
+      "negative_signals": [
+        "Some readers feel misled by the title and initial description",
+        "Backdoor definition debate with varying viewpoints and disagreements",
+        "Concerns about documentation and accuracy of provided information"
+      ],
+      "justification": "The comments exhibit a mix of neutral, skeptical, and critical responses, highlighting the complexity of the topic and varying definitions of 'backdoor'. While some commenters appreciate the technical explanations, others feel that the initial presentation may be misleading, and there's disagreement about the definition of 'backdoor'.",
+      "comment_count": 30,
+      "hn_points": 174
+    }
+  }
+}
