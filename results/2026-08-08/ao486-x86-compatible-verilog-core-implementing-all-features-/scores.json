@@ -1,0 +1,97 @@
+{
+  "app_name": "ao486",
+  "url": "https://github.com/alfikpl/ao486",
+  "scored_at": "2026-08-08T13:03:07.848Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "ao486 is an x86-compatible Verilog core, which is a unique contribution, as seen from its implementation date (2014), and comparison to similar tools is difficult due to its age and specificity, with 448 stars indicating a notable, albeit niche, interest."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is 9.5s, which is relatively fast; however, the lack of a PyPI package makes it less accessible, with PyPI existence being a key factor in scoring."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "Given its age and the current state of digital circuit design, ao486's relevance might be limited by more modern alternatives or advancements in the field, with its last commit 4371 days ago."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "ao486's uniqueness as a Verilog implementation of an x86-compatible processor sets it apart, but the presence of similar tools like z386 (mentioned in HN comments) indicates a competitive landscape, with ao486 having 448 stars."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 448 GitHub stars, 87 forks, and only 1 contributor, the community around ao486 is small but exists, indicating some interest, and days since last commit (4371) suggests low activity."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 out of 4, indicating significant usability issues or test failures, despite basic run success being true, suggesting potential for improvement or issues with testing framework."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The lack of a PyPI package and the necessity to use Verilog make integration more difficult compared to tools with straightforward installation methods or API modes, and its license is not clearly asserted (NOASSERTION)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The availability and quality of documentation are not directly assessed due to insufficient data, but the project's age and the existence of a GitHub repository suggest that some form of documentation might be present, though not explicitly cited here."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "With 4514 days since the repository was created and 4371 days since the last commit, ao486 is an old project with low recent activity, indicating low maturity in terms of ongoing development or support, and only 1 contributor."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "The benchmark measurements show an install time of 0.0009055137634277344 seconds and memory usage of 0.051395 MB, but without comparisons to similar tools or expectations for this type of project, it's challenging to assess performance comprehensively, and loc_count is 1380."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for scoring in this context, as the primary analysis is based on the GitHub and project metrics rather than HN points or comments for this criterion."
+    },
+    "recommendation": "niche"
+  },
+  "summary": "ao486 is a unique, open-source Verilog implementation of an x86-compatible processor but faces challenges in terms of community, usability, and relevance in the current landscape, with a dedicated but small community and notable interest in its niche.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/alfikpl/ao486",
+  "tool_url": "https://github.com/alfikpl/ao486",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49141236",
+  "domain": "hardware",
+  "app_type": "digital-circuit",
+  "enriched": {
+    "github": {
+      "stars": 448,
+      "forks": 87,
+      "open_issues": 10,
+      "watchers": 448,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 4371,
+      "days_since_created": 4514,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The ao486 is an x86 compatible Verilog core implementing all features of a 486 SX.",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "It's a neat core",
+        "interesting"
+      ],
+      "negative_signals": [
+        "z386 is where the action is right now",
+        "doesn't output a proper analogue signal"
+      ],
+      "justification": "Comments suggest interest in the project but also point out it may not be as competitive as other similar projects (z386), and express disappointment, with one commenter noting a significant technical issue (analogue signal output)",
+      "comment_count": 3,
+      "hn_points": 32
+    }
+  }
+}
