@@ -1,0 +1,90 @@
+{
+  "app_name": "Airy",
+  "url": "https://airy.so/",
+  "scored_at": "2026-08-09T13:03:33.060Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Airy offers free voice content creation, which is a unique aspect compared to similar tools like Descript and Audacity, but it does not revolutionize the field, hence a score of 6."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install success is true, and install time is 24.3s, indicating that the installation process is straightforward and relatively fast, but the absence of specific system requirements in the data prevents a perfect score."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for voice content creation, Airy fits into the current ecosystem trends of AI and machine learning applications, particularly in the realm of audio and voice synthesis, but its relevance could be higher if it were more integrated with popular development pipelines."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Due to the lack of comparative BENCHMARK data and specific numbers on stars vs similar tools, the differentiation score is set to 5, acknowledging that Airy offers a unique selling point with its free service but lacking concrete evidence to elevate this score."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With only 8 HN points and negative comments outweighing the positive (e.g., 'creepy voices', 'childlike and weird'), the community reception is mostly adverse, indicating a low community score."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that no tests were passed and basic run success is false, it indicates significant issues with the usability and functionality of Airy, resulting in the lowest possible score above 0."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Airy has a PyPI package (v0.1.3) and does not require an API key, making it relatively easy to integrate into existing workflows, but the lack of detailed API documentation or use modes beyond voice command and web interface limits the score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to insufficient data on the quality and availability of Airy's documentation, and without a clear indication of has_wiki, has_pages, or GitHub topics, the score is set to 5, reflecting a lack of concrete evidence to assess documentation quality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without sufficient data on days since created, forks count, or open issues due to the unavailability of GitHub repository stats, the maturity score is set to 5, as there's not enough information to accurately assess Airy's maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Since no BENCHMARK lines from tests are available and there's no mention of performance claims, the performance score is set to 3, assuming average performance without concrete evidence to support a higher or lower score."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Although HN sentiment data is available (sentiment score: 2/10, HN points: 8, comments analyzed: 5), indicating a predominantly negative reception, this criterion does not apply as it's a separate analysis rather than a direct scoring criterion. Thus, it's set to null to differentiate it from the scoring criteria."
+    }
+  },
+  "summary": "Airy is a free and relatively fast voice content creation tool that, despite its unique selling point, faces significant challenges in terms of community reception and ease of use. Its integration into workflows is eased by its PyPI package, but the lack of comprehensive documentation and unclear maturity stage due to insufficient data hinder its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://airy.so/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49229848",
+  "domain": "devtool",
+  "app_type": "devtool-clil",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.3",
+      "summary": "Web Application Framework",
+      "requires_python": null,
+      "license": "BSD",
+      "home_page": "http://airy.letolab.com"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 2,
+      "positive_signals": [
+        "This is cool!",
+        "Thanks!"
+      ],
+      "negative_signals": [
+        "creepy voices",
+        "childlike and weird",
+        "very annoying",
+        "couldn't stand to watch an anime with them"
+      ],
+      "justification": "The project received a hostile reception with concerns raised about the voice quality, particularly the childlike and anime-style voices, but with a few isolated positive comments.",
+      "comment_count": 5,
+      "hn_points": 8
+    }
+  }
+}
