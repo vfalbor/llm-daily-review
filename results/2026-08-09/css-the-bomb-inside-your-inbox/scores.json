@@ -1,0 +1,81 @@
+{
+  "app_name": "CSS: The bomb inside your inbox",
+  "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+  "scored_at": "2026-08-09T13:01:46.352Z",
+  "total_score": 60,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type as it is an article"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Considering the article discusses a specific security issue related to CSS, it presents a unique perspective, similar to how OWASP and CSS-Tricks provide unique insights, but with a focus on the 'bomb inside your inbox' concept, which suggests a high level of novelty, scoring 8"
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to assess system requirements as the article does not provide information on installation or running requirements, scoring 5"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The topic of CSS security and its implications is currently relevant in the web development ecosystem, as evidenced by discussions on OWASP and CSS-Tricks, thus scoring 7"
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While the article discusses a unique aspect of CSS security, it does not drastically differentiate itself from existing resources like OWASP or CSS-Tricks, hence scoring 6"
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 37 HN points and 8 comments, the community engagement is limited, suggesting a score of 4"
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "As an article, it does not require installation or running, but its complexity and the need for a certain level of technical understanding to fully grasp the concepts presented suggest a neutral score of 5"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type as it is an article"
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The article has a dedicated webpage with a significant amount of content (70937 chars), suggesting a well-documented resource, thus scoring 8"
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Given the lack of versioning information and the detected version being 0.00000001, it suggests a pre-alpha or very early-stage project, scoring 3"
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type as it is an article"
+    }
+  },
+  "summary": "This article discusses the security implications of CSS, providing insights into potential vulnerabilities, making it a relevant read in the current web development landscape, despite its limitations in community engagement and maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49230066",
+  "domain": "security",
+  "app_type": "sec-auth",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "suggests iframe isolation could be a solution"
+      ],
+      "negative_signals": [
+        "requires JavaScript for 'enhanced user experience'",
+        "nasty to browser history",
+        "kidnapped tab on mobile safari"
+      ],
+      "justification": "Despite some valid concerns about privacy and security, the discussion is often hostile or critical, highlighting major issues with usability and browser compatibility.",
+      "comment_count": 8,
+      "hn_points": 37
+    }
+  }
+}
