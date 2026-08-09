@@ -1,0 +1,43 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+    "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+    "hn_url": "https://news.ycombinator.com/item?id=49225139",
+    "points": 170,
+    "comments": 49,
+    "author": "MarcoDewey",
+    "age": "2026-08-08T19:38:08 1786217888",
+    "scraped_at": "2026-08-09T13:00:02.731Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "Interactive map for the solar eclipse",
+    "use_modes": [
+      "Web Interface"
+    ],
+    "similar_tools": [
+      "Google Maps",
+      "Leaflet"
+    ],
+    "proposed_tests": [
+      "Test the map on different browsers"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/eclipsefan"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786280532335-wrkos",
+    "log_dir": "/tmp/llm-review-1786280532335-wrkos",
+    "install_success": true,
+    "install_time_s": 17.1,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:response_time_Chrome_ms:11.191606521606445\nBENCHMARK:health_response_time_Chrome_ms:1.7268657684326172\nBENCHMARK:response_time_Firefox_ms:9.359359741210938\nBENCHMARK:health_response_time_Firefox_ms:1.5153884887695312\nBENCHMARK:response_time_Edge_ms:9.351491928100586\nBENCHMARK:health_response_time_Edge_ms:1.5902519226074219\nBENCHMARK:vs_google_maps_response_time_ms:329.1494846343994\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:peak_memory_usage_mb:0.0\nBENCHMARK:import_time_ms:0.006198883056640625\nBENCHMARK:request_time_ms:10.777711868286133\nBENCHMARK:parse_time_ms:0.020742416381835938\nBENCHMARK:test_files_count:0",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-09T13_02_42_865Z-debug-0.log\nnode:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module '/server.js'\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: []\n}\n\nNode.js v24.18.1\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.18.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 90.5 MiB in 59 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.0 MiB in 60 packages\nINSTALL_OK\nSERVER_STARTED\nTEST_PASS:Chrome\nBENCHMARK:response_time_Chrome_ms:11.191606521606445\nBENCHMARK:health_response_time_Chrome_ms:1.7268657684326172\nTEST_PASS:Firefox\nBENCHMARK:response_time_Firefox_ms:9.359359741210938\nBENCHMARK:health_response_time_Firefox_ms:1.5153884887695312\nTEST_PASS:Edge\nBENCHMARK:response_time_Edge_ms:9.351491928100586\nBENCHMARK:health_response_time_Edge_ms:1.5902519226074219\nBENCHMARK:vs_google_maps_response_time_ms:329.1494846343994\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:peak_memory_usage_mb:0.0\nBENCHMARK:import_time_ms:0.006198883056640625\nBENCHMARK:request_time_ms:10.777711868286133\nBENCHMARK:parse_time_ms:0.020742416381835938\nBENCHMARK:test_files_count:0\nRUN_OK\n"
+  }
+}
