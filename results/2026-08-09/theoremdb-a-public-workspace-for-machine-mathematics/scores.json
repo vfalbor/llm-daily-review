@@ -1,0 +1,89 @@
+{
+  "app_name": "TheoremDB",
+  "url": "https://theoremdb.org/",
+  "scored_at": "2026-08-09T13:02:11.291Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "TheoremDB offers a unique approach to machine mathematics by providing a public workspace, with potential to accelerate mathematical discoveries, which is not seen in similar tools like Wolfram Alpha or Mathematica, as mentioned on the webpage with 193025 characters, indicating a comprehensive resource."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app requires Python 3.9 or higher, as stated on the PyPI package, which exists, and has a version of 0.2.0, but install success was false, indicating some complexity in setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a database for machine mathematics, TheoremDB fits into the current trend of leveraging technology for mathematical advancements, with its GraphQL API and web interface use modes, which aligns with the needs of the LLM ecosystem for structured data and accessibility."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "TheoremDB differentiates itself from similar tools like Wolfram Alpha and Mathematica by being a public workspace, aiming for open-source and decentralized collaboration, as mentioned on its webpage, though it lacks specific benchmark comparisons to these tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository was detected, so we rely on the webpage and HN comments for community signals; with 52 HN points and 4 comments, the community engagement appears moderate, but without concrete metrics like stars or contributors, the score is set to 5 due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The basic run success was false, and there were no tests passed, indicating potential difficulties in using the tool, but without more detailed test results, the score is set to 5 due to insufficient data."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a GraphQL API and the mention of a web interface on the webpage suggest ease of integration, especially with the detected version being 5.5 and having API/SDK/webhook mentions, indicating a level of complexity but also capability for integration."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The webpage has a docs/wiki/guide link, examples or demos, and a substantial content length of 193025 characters, indicating comprehensive documentation, though the lack of a changelog or release notes deducts from the score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without specific data on age, forks, or open issues due to the absence of a GitHub repository, and considering the webpage does not provide explicit versioning history or clear release notes, the maturity is scored as 5, reflecting a moderate but unquantified status."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific benchmarks were provided in the test results or mentioned on the webpage, so the performance cannot be accurately scored, leading to a neutral score of 5."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10, with 52 points and 4 comments, indicating a generally positive view of the project's potential, but also raising concerns, thus the score reflects this balanced sentiment."
+    }
+  },
+  "summary": "TheoremDB is a public workspace for machine mathematics, offering a unique approach to collaboration and knowledge sharing in the field, with potential benefits for research but also concerns about its impact, providing a comprehensive resource but with some setup complexity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://theoremdb.org/",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49227505",
+  "domain": "database",
+  "app_type": "database-orm",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "Python client for TheoremDB, a shared memory for machine mathematics",
+      "requires_python": ">=3.9",
+      "license": "MIT License\n        \n        Copyright (c) 2026 Philip Weiss\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "potential to accelerate mathematical discoveries",
+        "opportunities for open-source and decentralized collaboration",
+        "free and accessible platform for sharing theorems"
+      ],
+      "negative_signals": [
+        "concerns about the impact on human understanding of mathematics",
+        "fear of commercialization limiting public access"
+      ],
+      "justification": "The comments suggest that the project has potential benefits for mathematical research and collaboration, but also raise concerns about the long-term impact on human understanding and the risk of commercialization limiting public access.",
+      "comment_count": 4,
+      "hn_points": 52
+    }
+  }
+}
