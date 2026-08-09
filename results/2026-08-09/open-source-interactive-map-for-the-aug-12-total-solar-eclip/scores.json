@@ -1,0 +1,88 @@
+{
+  "app_name": "Eclipsefan",
+  "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+  "scored_at": "2026-08-09T13:02:57.811Z",
+  "total_score": 78,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique interactive map for the solar eclipse, with features such as Besselian elements and umbra live layers, which sets it apart from similar tools like Google Maps and Leaflet, with 10.226 detected version."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The app is a web-frontend, requiring no installation, and has a simple and intuitive web interface, making it easily accessible, with PyPI package existing (v0.3) and Python requirement being any."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app is highly relevant to the current solar eclipse, providing an interactive map and detailed information, fitting well with the current trends in astronomy and space exploration, with a page title related to the eclipse and detected version 10.226."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app differentiates itself from similar tools like Google Maps and Leaflet by providing specialized features for the solar eclipse, such as Besselian elements and umbra live layers, with a unique set of layers and tools, and has an API/SDK/webhook mention on the page."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The app has a positive sentiment score of 8/10 on HN, with 170 points and 30 comments analyzed, indicating a supportive community, although no GitHub repository was detected, with many users excited and enthusiastic about the eclipse."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The app has a simple and intuitive web interface, with a page content length of 11559 characters, making it easy to use and navigate, and has a detected version 10.226, with a title related to the eclipse."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The app has a web interface and can be easily integrated into existing workflows or pipelines, with an API/SDK/webhook mention on the page, and has a simple and intuitive design, although no install command was found on the page."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The app has a well-made website with detailed information, a changelog or release notes, and a guide link, indicating good documentation, with a page content length of 11559 characters, and has a detected version 10.226."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The app has a detected version 10.226, a changelog or release notes, and a guide link, indicating a level of maturity, although no GitHub repository was detected, with a page title related to the eclipse and a simple and intuitive design."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmarks or performance data were provided, making it difficult to assess the app's performance, although the app has a simple and intuitive web interface, with a detected version 10.226."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The app has a positive sentiment score of 8/10 on HN, with 170 points, 30 comments analyzed, and many users excited and enthusiastic about the eclipse, indicating a supportive community."
+    }
+  },
+  "summary": "Eclipsefan is an open-source interactive map for the solar eclipse, providing a unique set of features and layers, with a simple and intuitive web interface, making it easily accessible and highly relevant to the current trends in astronomy and space exploration.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49225139",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.3",
+      "summary": "A mutli-purpose file opener",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "http://www.mired.org/downloads"
+    },
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Many users are excited and enthusiastic",
+        "Some users share personal experiences of total solar eclipses",
+        "The website is well-made and provides detailed information"
+      ],
+      "negative_signals": [
+        "A few users are disappointed that they cannot see the total eclipse from their location"
+      ],
+      "justification": "The overall sentiment is extremely positive, with users praising the website and sharing their excitement and enthusiasm for the eclipse. Some users share personal experiences of total solar eclipses and compare partial eclipses to total eclipses, highlighting the differences.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
