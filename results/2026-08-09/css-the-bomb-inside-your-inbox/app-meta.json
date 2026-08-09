@@ -1,0 +1,43 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "CSS: The bomb inside your inbox",
+    "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+    "hn_url": "https://news.ycombinator.com/item?id=49230066",
+    "points": 37,
+    "comments": 8,
+    "author": "ashurandi",
+    "age": "2026-08-09T10:17:52 1786270672",
+    "scraped_at": "2026-08-09T13:00:02.729Z",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "security",
+    "app_type": "sec-auth",
+    "description": "Security research on CSS bomb",
+    "use_modes": [
+      "Article"
+    ],
+    "similar_tools": [
+      "OWASP",
+      "CSS-Tricks"
+    ],
+    "proposed_tests": [
+      "Verify code snippets in the article"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1786280487933-vunrl",
+    "log_dir": "/tmp/llm-review-1786280487933-vunrl",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.46443939208984375\nBENCHMARK:cssutils_test_ms:7.662057876586914\nBENCHMARK:vs_owasp_latency_ratio:0.05018645994702913\nBENCHMARK:memory_usage_mb:0.03285789489746094",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nCloning into 'cssutils'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 70, in <module>\n    subprocess.run(['git', 'clone', 'https://github.com/cssutils/cssutils.git'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/cssutils/cssutils.git']' returned non-zero exit status 128.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting cssutils\n  Downloading cssutils-2.15.0-py3-none-any.whl.metadata (9.0 kB)\nCollecting more_itertools (from cssutils)\n  Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)\nCollecting encutils (from cssutils)\n  Downloading encutils-1.0.0-py3-none-any.whl.metadata (1.1 kB)\nCollecting chardet (from encutils->cssutils)\n  Downloading chardet-7.5.1-py3-none-any.whl.metadata (9.5 kB)\nDownloading cssutils-2.15.0-py3-none-any.whl (180 kB)\nDownloading encutils-1.0.0-py3-none-any.whl (21 kB)\nDownloading more_itertools-11.1.0-py3-none-any.whl (72 kB)\nDownloading chardet-7.5.1-py3-none-any.whl (655 kB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 655.0/655.0 kB 14.3 MB/s eta 0:00:00\nInstalling collected packages: more_itertools, chardet, encutils, cssutils\nSuccessfully installed chardet-7.5.1 cssutils-2.15.0 encutils-1.0.0 more_itertools-11.1.0\nINSTALL_OK\nBENCHMARK:import_time_ms:0.46443939208984375\nTEST_PASS:cssutils_test\nBENCHMARK:cssutils_test_ms:7.662057876586914\nBENCHMARK:vs_owasp_latency_ratio:0.05018645994702913\nBENCHMARK:memory_usage_mb:0.03285789489746094\n"
+  }
+}
