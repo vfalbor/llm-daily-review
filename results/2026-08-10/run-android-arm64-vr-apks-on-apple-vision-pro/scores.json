@@ -1,0 +1,108 @@
+{
+  "app_name": "Klepton",
+  "url": "https://github.com/shinyquagsire23/Klepton",
+  "scored_at": "2026-08-10T13:02:50.359Z",
+  "total_score": 79,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "This project is the first of its kind to enable running Android ARM64 VR APKs on Apple Vision Pro, as evidenced by its unique approach and the lack of similar projects (days_since_created: 0, is_fork: false)."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has an install time of 11.4s, which is relatively fast, and it installs successfully (install_success: true), but it's not pip-installable (No PyPI package found)."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The project addresses a current need in the Apple Vision Pro and Android VR ecosystem, providing a unique solution for running ARM64 VR APKs (app_type: infra-container, fit with current ecosystem trends)."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project has a unique feature set compared to similar tools like Genymotion (2,342 stars) and NoxPlayer (76 stars), with a significant difference in approach and functionality (stars: 63, vs Genymotion: -2279 stars, vs NoxPlayer: -13 stars)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has a small but active community, with 63 GitHub stars, 3 forks, 1 contributor, and 0 open issues, indicating a relatively low level of community engagement (GitHub stars: 63, contributors: 1, days_since_update: 0)."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "The project has a high ease of use, with all tests passing (tests_passed: 3/3), a basic run success (basic_run_success: true), and a straightforward installation process (install_success: true, install_time_s: 11.4s)."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project's integration is moderately complex, with no API or PyPI package available, but it has a clear CLI interface (use_modes: CLI, license: none, PyPI existence: no)."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project has a good README and some documentation, but it lacks a comprehensive docs site or wiki (has_wiki: no, has_pages: no, GitHub topics: not available)."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is relatively new, with 0 days since the last commit and 0 days since the repository was created, but it has a stable codebase and no open issues (days_since_created: 0, forks: 3, open_issues: 0)."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The project's performance is good, with a fast import time (import_time_ms: 174.76) and a low memory usage (import_memory_mb: 0.00), outperforming similar tools like Genymotion and NoxPlayer."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The project has a very positive sentiment on HN, with a sentiment score of 9/10, 114 HN points, and 16 comments analyzed, indicating a high level of community interest and appreciation (sentiment score: 9/10, HN points: 114, comments: 16)."
+    }
+  },
+  "summary": "Klepton is a unique project that enables running Android ARM64 VR APKs on Apple Vision Pro, with a high ease of use, good performance, and a positive community sentiment. However, it lacks a comprehensive documentation and a mature codebase.",
+  "recommendation": "strong-candidate",
+  "app_url": "https://github.com/shinyquagsire23/Klepton",
+  "tool_url": "https://github.com/shinyquagsire23/Klepton",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49238818",
+  "domain": "infra-container",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 63,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 63,
+      "contributors": 1,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "JIT-less relinker and compatibility layer for running Quest/Android XR APKs on visionOS and macOS",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Genymotion",
+        "stars": 2342,
+        "repo": "m9rco/Genymotion_ARM_Translation"
+      },
+      {
+        "name": "NoxPlayer",
+        "stars": 76,
+        "repo": "Raycast7373/NoxPlayerPortable"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "users praising the project's functionality",
+        "project showcasing innovative and creative solutions",
+        "some users expressing gratitude for the project's effort"
+      ],
+      "negative_signals": [
+        "some users criticizing Apple's policies and user experience",
+        "concerns about security, freedom, and control"
+      ],
+      "justification": "The overwhelming majority of comments (8 out of 16) expressed positive sentiments, praising the project's effort and functionality, while 4 comments expressed concerns about Apple's policies and user experience.",
+      "comment_count": 16,
+      "hn_points": 114
+    }
+  }
+}
