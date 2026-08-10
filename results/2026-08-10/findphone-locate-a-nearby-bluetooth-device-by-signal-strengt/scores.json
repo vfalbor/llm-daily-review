@@ -1,0 +1,90 @@
+{
+  "app_name": "Findphone",
+  "url": "https://github.com/ben-z/findphone",
+  "scored_at": "2026-08-10T13:03:25.789Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 1,140 stars on GitHub and being a hardware-firmware tool, Findphone uses Bluetooth to locate nearby devices by signal strength, which is a meaningful improvement on existing tools, as seen in its 171 forks and 10 open issues."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is 6.3s, which indicates moderate complexity in setup, thus scoring 3."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware-firmware tool, Findphone's fit with current trends is moderate, with its use of Bluetooth for device location being somewhat niche."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Findphone's use of Bluetooth signal strength to locate devices is a clear advantage, with 1,140 stars on GitHub, compared to similar tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 1,140 stars and 171 forks, but only 1 contributor and 10 open issues, the community signal is mixed, thus scoring 5 due to insufficient data for a higher score."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed is 0 / 0 and basic run success is false, indicating significant friction or issues with usability, thus scoring 2."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this hardware-firmware app type"
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The GitHub repository has some information, but no clear documentation or wiki, thus scoring 4."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Days since last commit is 9 and days since repo created is 10, indicating the project is still in early stages, thus scoring 4."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this hardware-firmware app type, as performance is not a meaningful dimension for this type of tool"
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient HN comments for meaningful sentiment analysis"
+    }
+  },
+  "summary": "Findphone is a hardware-firmware tool that uses Bluetooth signal strength to locate nearby devices, with a moderate community and some issues with usability and documentation.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/ben-z/findphone",
+  "tool_url": "https://github.com/ben-z/findphone",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49181584",
+  "domain": "hardware-iot",
+  "app_type": "hardware-firmware",
+  "enriched": {
+    "github": {
+      "stars": 1140,
+      "forks": 171,
+      "open_issues": 10,
+      "watchers": 1140,
+      "contributors": 1,
+      "license": "none",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 9,
+      "days_since_created": 10,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Locate a nearby Bluetooth device by signal strength, from the macOS command line — for when Find My isn't available",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 5
+    }
+  }
+}
