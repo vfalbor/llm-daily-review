@@ -1,0 +1,102 @@
+{
+  "app_name": "Docker Sandboxes",
+  "url": "https://www.docker.com/products/docker-sandboxes/",
+  "scored_at": "2026-08-10T13:02:26.671Z",
+  "hn_sentiment": null,
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Docker Sandboxes provides a unique solution for AI agent sandboxing, but its core concept is not entirely new, with similar tools like Kubernetes and Rancher offering related functionalities, as seen in their GitHub star counts of 124,399 and 25,838 respectively."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The installation success is false, indicating issues with the setup process, but no further information is available to assess the system requirements accurately, given the install time of 8.9s and the package existence on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "Docker Sandboxes fits well with the current trend of containerization and sandboxing in AI development, especially given the emphasis on isolated environments for AI agents."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While Docker Sandboxes offers a unique approach to sandboxing, it differentiates itself from tools like Kubernetes and Rancher by focusing specifically on AI agent isolation, as indicated by its description and the sentiment of the HN comments which appreciate its simplicity and portability."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No direct community metrics like GitHub stars are available for Docker Sandboxes, but the HN post garnered 323 points and 30 comments, showing some level of interest."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The test results show that no tests were passed, indicating significant issues with the usability and functionality of Docker Sandboxes, coupled with the basic run success being false."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Docker Sandboxes is available on PyPI, supports Python 3.13 and above, and offers a CLI interface, which makes it relatively easy to integrate into existing workflows, given its use modes and open-source nature."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific information about the quality or existence of documentation for Docker Sandboxes is available, although it is described as a tool for disposable, isolated sandboxes for AI agents."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of specific data on the days since creation, forks, or open issues, it's challenging to assess the maturity of Docker Sandboxes accurately, but it is described as a product by Docker, indicating some level of establishment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data or performance metrics are available for Docker Sandboxes, making it difficult to assess its performance in relation to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "While there are some minor criticisms about pricing and lock-in, users appreciate the simplicity and portability of Docker Sandboxes, making it a popular choice for AI agent sandboxing."
+    }
+  },
+  "summary": "Docker Sandboxes offers a unique approach to AI agent sandboxing, with a focus on simplicity and portability. However, its installation issues, lack of clear community engagement metrics, and unknown performance characteristics hinder its overall score. The tool has potential but needs improvement in these areas to become a strong candidate in the LLM ecosystem.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.docker.com/products/docker-sandboxes/",
+  "tool_url": "https://github.com/docker/sandboxes",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49239751",
+  "domain": "infra-container",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Kubernetes",
+        "stars": 124399,
+        "repo": "kubernetes/kubernetes"
+      },
+      {
+        "name": "Rancher",
+        "stars": 25838,
+        "repo": "rancher/rancher"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Add your description here",
+      "requires_python": ">=3.13",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Overall positive feedback with some minor criticisms",
+        "Users appreciate the simplicity and portability of the solution",
+        "Many find it a good alternative to firecracker and gvisor"
+      ],
+      "negative_signals": [
+        "Major issue with requiring login for a local dev tool",
+        "Some users feel that Docker Sandboxes are overpriced",
+        "Concerns about lock-in and proprietary control"
+      ],
+      "justification": "While there are some minor criticisms about pricing and lock-in, users appreciate the simplicity and portability of Docker Sandboxes, making it a popular choice for AI agent sandboxing.",
+      "comment_count": 30,
+      "hn_points": 323
+    }
+  }
+}
