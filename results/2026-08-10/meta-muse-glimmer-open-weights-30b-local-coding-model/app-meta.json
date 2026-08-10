@@ -1,0 +1,45 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "Meta Muse Glimmer – open weights 30B local coding model",
+    "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+    "hn_url": "https://news.ycombinator.com/item?id=49241679",
+    "points": 284,
+    "comments": 108,
+    "author": "riordan",
+    "age": "2026-08-10T10:10:02 1786356602",
+    "scraped_at": "2026-08-10T13:00:02.301Z",
+    "tool_url": "https://github.com/meta-ai/muse-glimmer",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "An open weights, 30B local coding model",
+    "use_modes": [],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI"
+    ],
+    "proposed_tests": [
+      "Pip install, import, mock API call, latency benchmark",
+      "Test inference on a local dataset",
+      "Run benchmarks with other local models"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/meta-ai/muse-glimmer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786366899307-8ldgg",
+    "log_dir": "/tmp/llm-review-1786366899307-8ldgg",
+    "install_success": true,
+    "install_time_s": 9.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:pip_install_import_time_ms:0.5631446838378906\nBENCHMARK:pip_install_import_memory_mb:0.001748\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement muse-glimmer (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for muse-glimmer\nCloning into 'muse-glimmer'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['pip', 'install', 'muse-glimmer']' returned non-zero exit status 1.\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/meta-ai/muse-glimmer.git']' returned non-zero exit status 128.\nTEST_FAIL:pip_install_import:No module named 'muse_glimmer'\nBENCHMARK:pip_install_import_time_ms:0.5631446838378906\nBENCHMARK:pip_install_import_memory_mb:0.001748\nTEST_PASS:pip_install_import\nTEST_FAIL:inference:No module named 'muse_glimmer'\nTEST_FAIL:benchmark_vs_langchain:No module named 'muse_glimmer'\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nRUN_OK\n"
+  }
+}
