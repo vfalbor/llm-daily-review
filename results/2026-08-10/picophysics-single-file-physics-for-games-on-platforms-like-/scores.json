@@ -1,0 +1,82 @@
+{
+  "app_name": "Picophysics",
+  "url": "https://gitlab.com/Kazade/picophysics",
+  "scored_at": "2026-08-10T13:04:01.236Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project provides a single-file physics solution for games on older platforms like N64, PSX, and DC, which is a unique approach, as cited by the 22 comments and a sentiment score of 7/10 on HN."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is not relevant as the install failed, indicating potential difficulties in setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project's focus on supporting games for older platforms like N64, PSX, and DC aligns with current interests in retro gaming and cross-platform development, as seen in the project's description and the detected version 53.14."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project offers a unique approach to physics in games for older systems, with support for microcontrollers and potential for optimization, as mentioned in 22 comments on HN."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 68 HN points and 22 comments analyzed, the community interest is present but not strongly established, and the lack of a GitHub repo detected limits further community assessment."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the install success is false and basic run success is also false, it indicates significant challenges in using the project as intended, with 0 tests passed out of 0 total."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Insufficient data is available to accurately assess the ease of integration, as the project's API modes and licensing details are not clearly outlined in the provided data."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The project has a detected version and changelog or release notes, but lacks a clear docs/wiki/guide link, examples, or demo on its page, with a content length of 1952 chars, which suggests some but not comprehensive documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The detected version 53.14 and presence of a changelog or release notes suggest some level of maturity, but without clear evidence of releases, forks, or open issues, the maturity score remains neutral."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks were provided, and while the project mentions potential optimization capabilities, insufficient data exists to score its performance accurately."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The sentiment score of 7/10, 68 HN points, and 22 comments with both positive and negative signals indicate a generally positive but cautious community response to the project's potential and limitations."
+    }
+  },
+  "summary": "Picophysics offers a novel approach to physics in games for older systems but faces challenges in ease of use and integration, with a developing community and neutral maturity, as seen in its versioning and community signals.",
+  "recommendation": "niche",
+  "app_url": "https://gitlab.com/Kazade/picophysics",
+  "tool_url": "https://gitlab.com/Kazade/picophysics",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49182148",
+  "domain": "hardware",
+  "app_type": "hardware-research",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Potential for single-file physics on N64, PSX, and DC",
+        "Support for microcontrollers like ESP32s or Pi Pico",
+        "Compilers can optimize functions"
+      ],
+      "negative_signals": [
+        "Limited RAM and RAM bandwidth on older systems, potentially slow performance",
+        "Static inline functions may not be suitable for all platforms"
+      ],
+      "justification": "While some commenters have concerns about the performance on older systems, the discussion also highlights the potential of the project and the capabilities of modern compilers to optimize code.",
+      "comment_count": 22,
+      "hn_points": 68
+    }
+  }
+}
