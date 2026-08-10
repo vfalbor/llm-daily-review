@@ -1,0 +1,94 @@
+{
+  "app_name": "Meta Muse Glimmer",
+  "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+  "scored_at": "2026-08-10T13:02:04.644Z",
+  "total_score": 64,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN points: 286, sentiment score: 7/10, with 30 comments analyzed, indicating a generally positive reception of the model."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Being an open weights, 30B local coding model, it presents a unique approach, but exact days_since_created is not available for a precise novelty score, so we rely on its open agentic model nature for an 8 score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "No PyPI package found and install time is not provided directly for this model, but as an open source model, it's assumed to require some setup, scoring it a 6 based on potential complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an open weights, 30B local coding model, it addresses current trends in making large language models accessible and useful for coding tasks, fitting well with today's AI development landscape."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 143,877 stars for LangChain and 56,895 stars for CrewAI, Meta Muse Glimmer's open weights and 30B parameters differentiate it, though exact star comparison for Muse Glimmer isn't available, we recognize its unique value proposition."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No direct GitHub stats are provided for Meta Muse Glimmer, but with HN points of 286 and comments indicating a supportive community around the broader topic, a neutral score is assigned due to lack of specific data on the model's community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Basic run success is true, but tests passed is 1/4, indicating some potential usability issues or complexity that needs to be addressed for a smoother user experience."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No clear API modes or license information is provided in the data, and without a PyPI package, integration ease is unclear, leading to a neutral score due to insufficient data."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct documentation assessment is possible from the provided data, but given it's an open source model, one might expect some level of documentation, though this cannot be confirmed without further information."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Days since creation and other maturity indicators are not directly available, leading to a neutral score due to lack of specific data on the model's development stage and history."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark measurements like import time (0.5631446838378906 ms) and memory usage (0.001748 MB) indicate respectable performance, but without direct comparisons to similar tools, the score is based on these metrics alone."
+    }
+  },
+  "summary": "Meta Muse Glimmer is an open weights, 30B local coding model that brings a unique approach to the table, with potential for high relevance in today's AI landscape, though usability and community aspects require more data for a full assessment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+  "tool_url": "https://github.com/meta-ai/muse-glimmer",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49241679",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 143877,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 56895,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Positive reception of the Meta Muse Glimmer model",
+        "Highly competitive benchmark results",
+        "Excitement for the model's availability as open weights"
+      ],
+      "negative_signals": [
+        "Some users are skeptical about the timing of the release",
+        "Concerns about the model's size and potential performance limitations",
+        "Dissatisfaction with the model's density (not MoE)"
+      ],
+      "justification": "The majority of comments express positive sentiment about the model, citing its competitive benchmark results and availability as open weights. However, some users express skepticism about the timing of the release and concerns about the model's performance limitations.",
+      "comment_count": 30,
+      "hn_points": 286
+    }
+  }
+}
