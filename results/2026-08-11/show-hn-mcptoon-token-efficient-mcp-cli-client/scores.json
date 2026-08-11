@@ -1,0 +1,134 @@
+{
+  "app_name": "Mcptoon",
+  "url": "https://github.com/activeing123/mcptoon",
+  "scored_at": "2026-08-11T13:07:53.715Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app has a unique approach to token-efficient MCP CLI client, with 0 days since the last commit and 15 days since the repository was created, indicating a relatively new and potentially novel solution."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "The app's system requirements are not clearly documented, but it does have a PyPI package available, which indicates that it can be easily installed."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app is an open-source, token-efficient MCP CLI client, which fits with current security and authentication trends, with a score of 7 due to its relevance to the current ecosystem."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The app has significantly fewer stars than similar tools, such as token-auth and oauth, with -3479 stars and -14729 stars respectively, indicating a lower level of differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The app has 91 GitHub stars, 2 forks, and 0 open issues, but only 1 contributor, indicating a relatively small and inactive community, which leads to a score of 4."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app failed to install, with an install success rate of false, and no tests were passed, indicating significant difficulties in usage."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a PyPI package available, which indicates that it can be easily integrated into existing workflows, but the lack of documentation on API modes and licenses might cause some difficulties."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is not clearly documented, but it does have a GitHub repository with some information, which leads to a neutral score of 5."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app is relatively new, with 15 days since the repository was created, and 0 days since the last commit, but it only has 1 contributor and no open issues, indicating a low level of maturity."
+    },
+    "performance": {
+      "score": 1,
+      "justification": "The app failed to run, with a basic run success rate of false, and no benchmark results are available, indicating significant performance issues."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The app has a sentiment score of 4/10, with 57 HN points, 30 comments analyzed, and a mix of positive and negative signals, which leads to a score of 4."
+    }
+  },
+  "summary": "Mcptoon is a token-efficient MCP CLI client with a unique approach, but it has significant difficulties in usage, a relatively small and inactive community, and performance issues, which leads to a total score of 41.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/activeing123/mcptoon",
+  "tool_url": "https://github.com/activeing123/mcptoon",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49253721",
+  "domain": "security",
+  "app_type": "sec-auth",
+  "enriched": {
+    "github": {
+      "stars": 91,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 91,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 15,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Token-efficient MCP CLI client. 97% less tokens on tool discovery, 40-60% on results. Zero deps. Cross-platform. Works with every AI agent.",
+      "topics": [
+        "agent-tools",
+        "ai",
+        "ai-agent",
+        "claude",
+        "cli",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "mcp-cli",
+        "model-context-protocol",
+        "python",
+        "stdio",
+        "token-efficient",
+        "token-optimization",
+        "zero-dependencies"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "token-auth",
+        "stars": 3570,
+        "repo": "lynndylanhurley/devise_token_auth"
+      },
+      {
+        "name": "oauth",
+        "stars": 14820,
+        "repo": "oauth2-proxy/oauth2-proxy"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.1",
+      "summary": "Token-efficient MCP CLI client. 97% less tokens on tool discovery. Zero deps. Cross-platform. Works with every AI agent. stdin, doctor, poisoning guard, fuzzy match.",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Potential for reducing token usage",
+        "Interest in token-efficient MCP",
+        "Suggestions for improvement"
+      ],
+      "negative_signals": [
+        "Concerns about inconsistencies in the project",
+        "Lack of understanding of how tokenization works",
+        "Security concerns about the project's author"
+      ],
+      "justification": "The comments are mostly negative, citing concerns about inconsistencies in the project, a lack of understanding of how tokenization works, and security concerns about the project's author. However, there are also positive signals and suggestions for improvement, which leads to a score of 4.",
+      "comment_count": 30,
+      "hn_points": 57
+    }
+  }
+}
