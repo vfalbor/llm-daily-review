@@ -1,0 +1,94 @@
+{
+  "app_name": "Faster floating point math with Rust's new API",
+  "url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+  "scored_at": "2026-08-11T13:05:18.663Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The article describes a new approach to floating point math optimization using Rust's API, which is a unique contribution to the field with 58 HN points and 12 comments analyzed, citing a sentiment score of 6/10."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The tool is not pip-installable and had an install time of 7.1s, with install success reported as false."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The article fits into current trends in optimizing numerical computations for Python, with Rust's new API offering improvements."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool differentiates itself from NumPy (32,518 stars) and SciPy (14,902 stars) by utilizing Rust's fast math API, offering a unique approach."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With 58 HN points and 12 comments, the community engagement is minimal but exists, indicating some interest in the tool."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The tool had 0 tests passed out of 0, and basic run success was false, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool is not pip-installable and lacks clear API documentation, making integration difficult."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The article provides some documentation on the benchmarking process, but lacks comprehensive documentation on using the tool itself."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The tool's maturity is low due to the lack of a GitHub repository and limited community engagement."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks were provided in the quantitative data, making it difficult to assess the tool's performance advantages or disadvantages."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 58 points and 12 comments, indicating a generally positive but not overwhelmingly enthusiastic response to the article."
+    }
+  },
+  "summary": "This tool offers a unique approach to floating point math optimization using Rust's API but faces significant challenges in usability, integration, and community engagement. Its performance advantages are not clearly quantified in the provided data.",
+  "recommendation": "niche",
+  "app_url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+  "tool_url": "https://github.com/Rust-benchmarks/CPU/benchmark/fptask",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=49196581",
+  "domain": "language",
+  "app_type": "lang-api",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": " NumPy",
+        "stars": 32518,
+        "repo": "numpy/numpy"
+      },
+      {
+        "name": " SciPy",
+        "stars": 14902,
+        "repo": "scipy/scipy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Faster floating point math",
+        "Optimization in Rust's new API",
+        "Improvement in compiler tooling"
+      ],
+      "negative_signals": [
+        "Gray area in signed arithmetic specification",
+        "Concerns about overflow behavior",
+        "Criticism of Python for lacking similar optimization"
+      ],
+      "justification": "The comments are generally positive about the optimization in Rust's new API, but some critics highlight concerns about the specification of signed arithmetic and overflow behavior. Others express disappointment that Python does not have similar optimization capabilities.",
+      "comment_count": 12,
+      "hn_points": 58
+    }
+  }
+}
