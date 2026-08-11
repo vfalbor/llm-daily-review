@@ -1,0 +1,121 @@
+{
+  "app_name": "Sonic Pi v5",
+  "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+  "scored_at": "2026-08-11T13:06:45.726Z",
+  "total_score": 68,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points: 392, sentiment score: 9/10, with 30 comments analyzed and positive signals regarding improved accessibility and usability."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Days since repo created: 4852, which indicates a mature project with a long history, and its live coding environment approach is unique compared to similar tools like SuperCollider and Pure Data."
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "Install success: false, and install time: 70.5s, indicating potential issues with the installation process, and no PyPI package found, which limits its accessibility."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is lang-ide-music, and its fit with current LLM ecosystem trends is high, given the growing interest in music and sound design within the live coding community."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Comparison to similar tools: +5358 stars (+80%) vs SuperCollider, and +9975 stars (+484%) vs Pure Data, indicating a strong and distinct user base."
+    },
+    "community": {
+      "score": 8,
+      "justification": "GitHub stars: 12,037, forks: 984, and contributors: 701, which demonstrates a large, active, and engaged community, with a significant number of open issues: 22, indicating ongoing development and support."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Tests passed: 0 / 2, and install success: false, which suggests difficulty in getting started and potential usability issues, despite its basic run success: true."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package found, which makes it difficult to integrate into existing workflows, and the lack of clear API modes or a specified license adds complexity to integration efforts."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data available regarding the quality of documentation, but the presence of a GitHub repository and a Patreon post suggests some level of documentation or community support."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "Days since last commit: 4, which indicates active maintenance, and days since repo created: 4852, showing a long-standing project with a history of development, despite the high number of forks: 984, which might suggest a need for stabilization."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "BENCHMARK measurements from the container show install_time_s: 49.44409132003784, but the lack of direct comparisons to similar tools and the FAIL status for vs_supercollider_ratio and memory_usage_bytes means insufficient data to accurately score performance."
+    }
+  },
+  "summary": "Sonic Pi v5 is a live coding environment for music and sound design that offers a unique approach, a strong and engaged community, and active development, despite some challenges with installation and usability. Its relevance and differentiation are notable within the lang-ide-music category.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+  "tool_url": "https://github.com/samaaron/sonic-pi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49208296",
+  "domain": "devtool",
+  "app_type": "lang-ide-music",
+  "enriched": {
+    "github": {
+      "stars": 12037,
+      "forks": 984,
+      "open_issues": 22,
+      "watchers": 12037,
+      "contributors": 701,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 4852,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Code. Music. Live.",
+      "topics": [
+        "art",
+        "audio",
+        "education",
+        "instrument",
+        "live-coding",
+        "livecoding",
+        "music",
+        "schools",
+        "sonic-pi",
+        "synthesis",
+        "synthesizer"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "SuperCollider",
+        "stars": 6679,
+        "repo": "supercollider/supercollider"
+      },
+      {
+        "name": "Pure Data",
+        "stars": 2062,
+        "repo": "pure-data/pure-data"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "improved accessibility and usability",
+        "dynamic visuals and powerful features",
+        "exciting release with something for everyone"
+      ],
+      "negative_signals": [
+        "confusing name",
+        "missing documentation in Flatpak",
+        "licensing concerns (GPL in SuperSonic engine)"
+      ],
+      "justification": "The comments praise the new release for its accessibility and usability improvements, powerful features, and engaging interface. However, some users find the name confusing, and there are concerns about the GPL licensing in the SuperSonic engine.",
+      "comment_count": 30,
+      "hn_points": 392
+    }
+  }
+}
