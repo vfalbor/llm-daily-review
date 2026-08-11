@@ -1,0 +1,105 @@
+{
+  "app_name": "Squeak 6.1",
+  "url": "https://squeak.org/release_notes/6.1/",
+  "scored_at": "2026-08-11T13:07:17.961Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Squeak 6.1 brings new concepts and features, such as improved performance and security, with 903 stars on GitHub for Smalltalk, indicating a notable presence in the ecosystem."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to fully evaluate system requirements, given install_success was false and install_time was 6.9s, but no other relevant data is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Smalltalk implementation, Squeak 6.1 is relevant to current language ecosystem trends, with enthusiasts appreciating its persistent, image-based deployment."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 903 stars for Smalltalk and comparisons to Pharo (1,719 stars) and Self (311,953 stars), Squeak 6.1 has a unique niche but isn't vastly differentiated in terms of GitHub popularity."
+    },
+    "community": {
+      "score": 5,
+      "justification": "While there's enthusiasm on HN with 274 points and positive comments about Smalltalk concepts, the absence of direct GitHub repository data makes it hard to fully assess the community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With install_success being false and 0 tests passed out of 0, indicating potential issues with ease of use or setup, but this might be due to testing limitations rather than the product itself."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Given PyPI package existence (v0.2.0) and being a runtime and development tool, Squeak 6.1 seems to have a straightforward integration path, but specific API modes and license details are not cited for a perfect score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to GitHub topics or a wiki, and given the nature of the tool, documentation quality is hard to assess directly from provided data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Lacking specific data on days since creation, forks, or open issues due to the absence of a directly linked GitHub repository, maturity is hard to evaluate."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks are provided in the test results or elsewhere in the data, making it challenging to assess performance accurately."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With a sentiment score of 9/10, 274 HN points, and 30 comments analyzed showing appreciation for Smalltalk concepts and Squeak 6.1, the community sentiment is very positive."
+    }
+  },
+  "summary": "Squeak 6.1 is a dynamic language implementation that, despite some challenges in evaluation due to missing data, shows a strong community enthusiasm and potential for relevance in current language trends. However, its ease of use and system requirements are not well-documented in the provided data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://squeak.org/release_notes/6.1/",
+  "tool_url": "https://github.com/SqueakVM/squeak",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49242653",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Pharo",
+        "stars": 1719,
+        "repo": "cmu-sei/pharos"
+      },
+      {
+        "name": "Self",
+        "stars": 311953,
+        "repo": "awesome-selfhosted/awesome-selfhosted"
+      },
+      {
+        "name": "Smalltalk",
+        "stars": 903,
+        "repo": "dbanay/Smalltalk"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "Analyse mouse trajectory data.",
+      "requires_python": null,
+      "license": "GPL",
+      "home_page": "https://github.com/EoinTravers/Squeak"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Smalltalk concepts influencing modern languages and development",
+        "Appreciation for Squeak 6.1 and its features",
+        "Enthusiasm for persistent, image-based deployment and its potential"
+      ],
+      "negative_signals": [
+        "Some concerns about the security implications of prototypical inheritance",
+        "Lack of direct applicability to certain development ecosystems"
+      ],
+      "justification": "The community is generally enthusiastic about Smalltalk concepts and Squeak 6.1, with some minor concerns about security. Some users share their experiences with related ideas and projects, while others express interest in exploring these concepts further.",
+      "comment_count": 30,
+      "hn_points": 274
+    }
+  }
+}
