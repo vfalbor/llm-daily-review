@@ -1,0 +1,83 @@
+{
+  "app_name": "LFM2.5-2.6B",
+  "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+  "scored_at": "2026-08-11T13:04:29.044Z",
+  "total_score": 71,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN points: 99, sentiment score: 8/10, comments analyzed: 26, with positive signals including excellent results for agentic tasks and competitive performance with larger models"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "Comparison to similar tools like BERT, RoBERTa, and DistillBert shows unique performance advantages, with competitive results despite being smaller"
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install time: 43.4s, which is relatively long, but the model is designed for on-device use and has a detected version of 1.0, indicating a level of maturity"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is llm-training, which fits well with current LLM ecosystem trends, and the model's performance on agentic tasks and competitiveness with larger models make it highly relevant"
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Stars vs similar tools are not directly comparable due to lack of GitHub data, but BENCHMARK comparisons show unique advantages, such as being competitive with 4x larger models"
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository detected, so community signals like stars and contributors are unavailable, but HN points and comments provide some insight into community engagement"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Tests passed: 0 / 3, indicating some difficulty in use or setup, but the model has a detected version of 1.0 and is designed for on-device use, suggesting a level of ease of use"
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "PyPI package not found, but the model has a detected version of 1.0, an API/SDK/webhook mention, and an install command on the page, indicating a relatively straightforward integration process"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "Page content length: 65887 chars, has docs/wiki/guide link: true, has examples or demo: true, but no changelog or release notes, indicating a moderate level of documentation quality"
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Detected version: 1.0, has install command on page: true, but no GitHub repository or changelog/release notes, indicating some level of maturity but room for improvement"
+    },
+    "performance": {
+      "score": 8,
+      "justification": "BENCHMARK import_time_ms: 1673.66, which is relatively fast, and memory_usage_mb: 0.00, indicating efficient performance, with competitive results despite being smaller than other models"
+    }
+  },
+  "summary": "The LFM2.5-2.6B model is a competitive and efficient option for NLP tasks, with a unique set of advantages and a relatively straightforward integration process, despite some limitations in documentation and community engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+  "tool_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49173107",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "excellent results for agentic tasks such as data extraction, tool use, and document editing",
+        "can be used on-device for assistant/analytics tasks",
+        "competitive with larger models, especially on tool use, instruction following, and multi-step tasks"
+      ],
+      "negative_signals": [
+        "some users have issues with coherence",
+        "not recommended for agentic coding, knowledge-heavy tasks, or document-to-document tasks",
+        "concerns about the environmental impact of large models, although it was clarified that this is not applicable"
+      ],
+      "justification": "This project received overwhelmingly positive comments, with many users sharing their successful use cases and praising the model's performance on certain tasks. While some users raised concerns about coherence and limitations, these were not major criticisms.",
+      "comment_count": 26,
+      "hn_points": 99
+    }
+  }
+}
