@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Sonic Pi v5",
+    "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+    "hn_url": "https://news.ycombinator.com/item?id=49208296",
+    "points": 392,
+    "comments": 94,
+    "author": "samaaron",
+    "age": "2026-08-07T10:26:34 1786098394",
+    "scraped_at": "2026-08-11T13:00:02.972Z",
+    "tool_url": "https://github.com/samaaron/sonic-pi",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "domain": "devtool",
+    "app_type": "lang-ide-music",
+    "description": "A live coding environment for music and sound design.",
+    "use_modes": [
+      "Live coding",
+      "MIDI synthesizer"
+    ],
+    "similar_tools": [
+      "SuperCollider",
+      "Pure Data"
+    ],
+    "proposed_tests": [
+      "Install Sonic Pi and create a new project.",
+      "Use the live coding interface to generate a melody.",
+      "Analyze the effect of different parameters on the output sound."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/samaaron/sonic-pi"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786453519939-gytzr",
+    "log_dir": "/tmp/llm-review-1786453519939-gytzr",
+    "install_success": false,
+    "install_time_s": 70.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:49.44409132003784\nBENCHMARK:vs_supercollider_ratio:FAIL\nBENCHMARK:memory_usage_bytes:FAIL",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into 'sonic-pi'...\nUpdating files:  16% (4662/27476)\rUpdating files:  17% (4671/27476)\rUpdating files:  18% (4946/27476)\rUpdating files:  19% (5221/27476)\rUpdating files:  20% (5496/27476)\rUpdating files:  21% (5770/27476)\rUpdating files:  22% (6045/27476)\rUpdating files:  23% (6320/27476)\rUpdating files:  24% (6595/27476)\rUpdating files:  25% (6869/27476)\rUpdating files:  26% (7144/27476)\rUpdating files:  27% (7419/27476)\rUpdating files:  28% (7694/27476)\rUpdating files:  29% (7969/27476)\rUpdating files:  30% (8243/27476)\rUpdating files:  31% (8518/27476)\rUpdating files:  32% (8793/27476)\rUpdating files:  33% (9068/27476)\rUpdating files:  34% (9342/27476)\rUpdating files:  35% (9617/27476)\rUpdating files:  36% (9892/27476)\rUpdating files:  37% (10167/27476)\rUpdating files:  38% (10441/27476)\rUpdating files:  39% (10716/27476)\rUpdating files:  40% (10991/27476)\rUpdating files:  41% (11266/27476)\rUpdating files:  42% (11540/27476)\rUpdating files:  43% (11815/27476)\rUpdating files:  44% (12090/27476)\rUpdating files:  45% (12365/27476)\rUpdating files:  45% (12626/27476)\rUpdating files:  46% (12639/27476)\rUpdating files:  47% (12914/27476)\rUpdating files:  48% (13189/27476)\rUpdating files:  49% (13464/27476)\rUpdating files:  50% (13738/27476)\rUpdating files:  51% (14013/27476)\rUpdating files:  52% (14288/27476)\rUpdating files:  53% (14563/27476)\rUpdating files:  54% (14838/27476)\rUpdating files:  55% (15112/27476)\rUpdating files:  56% (15387/27476)\rUpdating files:  57% (15662/27476)\rUpdating files:  58% (15937/27476)\rUpdating files:  59% (16211/27476)\rUpdating files:  60% (16486/27476)\rUpdating files:  61% (16761/27476)\rUpdating files:  62% (17036/27476)\rUpdating files:  63% (17310/27476)\rUpdating files:  64% (17585/27476)\rUpdating files:  65% (17860/27476)\rUpdating files:  65% (17910/27476)\rUpdating files:  66% (18135/27476)\rUpdating files:  67% (18409/27476)\rUpdating files:  68% (18684/27476)\rUpdating files:  69% (18959/27476)\rUpdating files:  70% (19234/27476)\rUpdating files:  71% (19508/27476)\rUpdating files:  72% (19783/27476)\rUpdating files:  73% (20058/27476)\rUpdating files:  74% (20333/27476)\rUpdating files:  75% (20607/27476)\rUpdating files:  76% (20882/27476)\rUpdating files:  77% (21157/27476)\rUpdating files:  78% (21432/27476)\rUpdating files:  79% (21707/27476)\rUpdating files:  80% (21981/27476)\rUpdating files:  81% (22256/27476)\rUpdating files:  82% (22531/27476)\rUpdating files:  82% (22561/27476)\rUpdating files:  83% (22806/27476)\rUpdating files:  84% (23080/27476)\rUpdating files:  85% (23355/27476)\rUpdating files:  86% (23630/27476)\rUpdating files:  87% (23905/27476)\rUpdating files:  88% (24179/27476)\rUpdating files:  89% (24454/27476)\rUpdating files:  90% (24729/27476)\rUpdating files:  91% (25004/27476)\rUpdating files:  92% (25278/27476)\rUpdating files:  93% (25553/27476)\rUpdating files:  94% (25828/27476)\rUpdating files: ",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/14) Installing libgcc (15.2.0-r5)\n( 2/14) Installing jansson (2.15.0-r0)\n( 3/14) Installing libstdc++ (15.2.0-r5)\n( 4/14) Installing binutils (2.45.1-r1)\n( 5/14) Installing libgcc-static (15.2.0-r5)\n( 6/14) Installing libgomp (15.2.0-r5)\n( 7/14) Installing libatomic (15.2.0-r5)\n( 8/14) Installing gmp (6.3.0-r4)\n( 9/14) Installing isl26 (0.26-r2)\n(10/14) Installing mpfr4 (4.2.2-r0)\n(11/14) Installing mpc1 (1.3.1-r1)\n(12/14) Installing gcc (15.2.0-r5)\n(13/14) Installing musl-dev (1.2.6-r2)\n(14/14) Installing go (1.26.3-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 392.7 MiB in 65 packages\nOK: 392.7 MiB in 65 packages\n(1/6) Installing libxml2 (2.13.9-r2)\n(2/6) Installing llvm22-libs (22.1.3-r0)\n(3/6) Installing scudo-malloc (22.1.3-r0)\n(4/6) Installing rust (1.96.1-r0)\n(5/6) Installing libssh2 (1.11.1-r3)\n(6/6) Installing cargo (1.96.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 800.7 MiB in 71 packages\nOK: 800.7 MiB in 71 packages\n(1/6) Installing ada-libs (3.3.0-r0)\n(2/6) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(3/6) Installing icu-libs (78.1-r0)\n(4/6) Installing simdjson (4.2.4-r0)\n(5/6) Installing simdutf (9.0.0-r0)\n(6/6) Installing nodejs (24.18.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 862.3 MiB in 77 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 869.8 MiB in 78 packages\nBENCHMARK:install_time_s:49.44409132003784\nINSTALL_FAIL:Command '['cargo', 'build', '--release']' returned non-zero exit status 101.\nTEST_FAIL:live_coding_interface:Command '['cargo', 'run', '--release']' returned non-zero exit status 101.\nTEST_FAIL:analyze_audio_output:Command '['cargo', 'run', '--release']' returned non-zero exit status 101.\nBENCHMARK:vs_supercollider_ratio:FAIL\nBENCHMARK:memory_usage_bytes:FAIL\nRUN_OK\n"
+  }
+}
