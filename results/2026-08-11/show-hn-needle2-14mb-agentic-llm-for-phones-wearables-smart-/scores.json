@@ -1,0 +1,106 @@
+{
+  "app_name": "Needle2",
+  "url": "https://cactuscompute.com/needle",
+  "scored_at": "2026-08-11T13:03:29.502Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is a first-of-its-kind approach to deploying LLMs on edge devices, with 14MB size, making it suitable for phones, wearables, smart home devices, and robots, as described in the article with 389 HN points."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app can be installed in 10.4s and has a basic run success, but the PyPI package exists with version 0.5.0, indicating moderate system requirements, with install success set to true."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app fits well with the current LLM ecosystem trends, as it addresses the need for efficient and compact models for edge devices, with a sentiment score of 6/10 from 30 HN comments."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The app has a unique feature set, with a 14MB size and the ability to run on edge devices, differentiating it from similar tools like T5 with 2,991 stars and DALL-E with 10,834 stars, with import_time_ms of 0.63ms."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The app has 389 HN points, 30 comments, and a sentiment score of 6/10, indicating a moderate community engagement, but no GitHub repo is detected, limiting the community score."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The app has a basic run success, but only 1 out of 4 tests passed, indicating potential usability issues, with no clear evidence of ease of use from the quantitative data."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The app has a PyPI package and supports CLI, SDK, and Docker use modes, making it relatively easy to integrate, with a license and Python requirement of any version."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is no clear evidence of documentation quality, as no GitHub repo is detected, and no other data is available to assess the documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "There is no clear evidence of the app's maturity, as no GitHub repo is detected, and no other data is available to assess the maturity, with no forks count, open issues, or days since created available."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The app has a fast import time of 0.63ms, indicating good performance, with benchmark measurements from the container, but no comparison to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The app has a sentiment score of 6/10 from 30 HN comments, with 389 HN points, indicating a moderate community sentiment, with positive signals including impressive functionality and convenience, but also negative signals regarding bias and limited scope."
+    }
+  },
+  "summary": "Needle2 is a novel and relevant LLM for edge devices, with a unique feature set and good performance, but may have usability issues and limited documentation and maturity, with a moderate community engagement and sentiment.",
+  "recommendation": "worth-watching",
+  "app_url": "https://cactuscompute.com/needle",
+  "tool_url": "https://github.com/cactuscompute/needle",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49246804",
+  "domain": "llm-ai",
+  "app_type": "rag-system",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "T5",
+        "stars": 2991,
+        "repo": "google-research/t5x"
+      },
+      {
+        "name": "DALL-E",
+        "stars": 10834,
+        "repo": "openai/DALL-E"
+      },
+      {
+        "name": "Codex",
+        "stars": 105298,
+        "repo": "openai/codex"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.0",
+      "summary": "Automated testing for your CSS.",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://github.com/python-needle/needle"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Impressive if it works",
+        "Could be nice to have this running on locally and integrate with existing systems",
+        "Fine-tuning feature is convenient"
+      ],
+      "negative_signals": [
+        "Heavily biased towards certain outputs (e.g., locking doors)",
+        "Fundamentally solves out of distribution detection, an open question",
+        "Thresholding confidence scores may not be sufficient"
+      ],
+      "justification": "Comments are generally positive about the project, but with some constructive criticism regarding bias, limited scope, and uncertainty about out of distribution detection.",
+      "comment_count": 30,
+      "hn_points": 389
+    }
+  }
+}
