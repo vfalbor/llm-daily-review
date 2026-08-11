@@ -1,0 +1,98 @@
+{
+  "app_name": "Canario Terminal",
+  "url": "https://github.com/raphalca/canario",
+  "scored_at": "2026-08-11T13:04:54.524Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Canario Terminal is written in Rust, which is a unique approach compared to other terminal emulators like WezTerm and Alacritty, but it's not the first terminal emulator in Rust, thus scoring 6 for novelty"
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "No data on system requirements is available, as install_success is true but no further system details are provided"
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a terminal emulator, Canario fits well within the current ecosystem trends, especially with its Rust implementation, which aligns with current interests in systems programming languages, scoring 8"
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "While Canario has a unique implementation in Rust, its differentiation from similar tools like WezTerm (28,300 stars) and Alacritty (65,325 stars) is not significantly highlighted in terms of features or performance, thus scoring 4"
+    },
+    "community": {
+      "score": 2,
+      "justification": "With no GitHub repository detected or API unavailable, and limited data from the HN post (20 points, 24 comments), the community around Canario Terminal appears to be very small or not openly engaged, scoring 2"
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that 0 out of 4 tests passed, and despite basic run success being true, the ease of use is compromised due to failed tests, indicating potential issues with usability or setup, thus scoring 1"
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "Since Canario Terminal does not have a PyPI package and no API modes or use modes are clearly documented, integrating it into existing workflows may be challenging, scoring 1"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on documentation quality is available, as no GitHub repo or documentation site was found, thus scoring 5 due to insufficient data"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No data on maturity, such as days since creation, forks, or open issues, is available due to the lack of a detectable GitHub repository, thus scoring 5"
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available to assess the performance of Canario Terminal, thus scoring 5 due to insufficient data"
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment is not applicable as a separate criterion but is considered in community and maturity assessments"
+    }
+  },
+  "summary": "Canario Terminal is a Rust-based terminal emulator with a unique implementation but lacks clear differentiation, community engagement, and ease of use due to failed tests and lack of documentation. Its performance and maturity are unassessable due to insufficient data.",
+  "recommendation": "niche",
+  "app_url": "https://rapha.land/closing-canario-terminal-source-code/",
+  "tool_url": "https://github.com/raphalca/canario",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49254881",
+  "domain": "devtool",
+  "app_type": "devtool-terminal",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "WezTerm",
+        "stars": 28300,
+        "repo": "wezterm/wezterm"
+      },
+      {
+        "name": "Alacritty",
+        "stars": 65325,
+        "repo": "alacritty/alacritty"
+      },
+      {
+        "name": " Kitty",
+        "stars": 34356,
+        "repo": "kovidgoyal/kitty"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Reasonable middle ground between open-source and open-contribution",
+        "Author's right to choose how to manage their project",
+        "Widespread agreement on open-source alternatives"
+      ],
+      "negative_signals": [
+        "Concerns about open-source maintenance and contributions",
+        "Criticism of author's choice to restrict contributions"
+      ],
+      "justification": "The community generally supports the author's decision, suggesting alternatives like private repositories or disabling PRs and issues, while some express concerns about open-source maintenance and contributions.",
+      "comment_count": 24,
+      "hn_points": 20
+    }
+  }
+}
