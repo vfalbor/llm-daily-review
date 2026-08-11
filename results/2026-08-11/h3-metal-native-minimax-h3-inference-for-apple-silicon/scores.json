@@ -1,0 +1,113 @@
+{
+  "app_name": "H3-metal",
+  "url": "https://github.com/antirez/h3.c",
+  "scored_at": "2026-08-11T13:02:15.457Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "With 2 days since repo creation and being not a fork, H3-metal demonstrates novelty, especially given its focus on Apple Silicon, providing a unique contribution in this area, which differentiates it from similar tools like Torch (19,464 stars) and TensorFlow (196,936 stars)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time of 8.5s is relatively fast, but the lack of a PyPI package and the fact that basic run did not succeed indicate some system requirements challenges, suggesting moderate complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a native MiniMax-H3 inference tool for Apple Silicon, H3-metal addresses a specific need in the current hardware/robotics landscape, showing high relevance with its focus on efficiency for Apple devices."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Torch and TensorFlow, H3-metal's focus on Apple Silicon provides clear differentiation, with +542 stars (+138%) compared to ONNX Runtime, indicating a unique value proposition."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With 934 GitHub stars and 1 contributor, the community is still in its early stages, lacking sufficient data for a higher score, as there's limited information on community engagement and growth."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The basic run not succeeding and no tests passing indicate potential ease of use issues, suggesting that users might face challenges in getting started with H3-metal."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The absence of a PyPI package makes integration more difficult, and the CLI and SDK use modes, while useful, do not compensate for the lack of straightforward installation methods."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient information available about the documentation quality, making it challenging to assess its clarity and depth accurately."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the recent creation of the repository (2 days since creation) and the single contributor, it's challenging to assess maturity without more information on releases, stability, and community support."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no available benchmark data to assess performance, making it difficult to evaluate H3-metal's efficiency and speed compared to other tools."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With a sentiment score of 9/10, 325 HN points, and positive comments about the model implementation and open weights, the sentiment is overwhelmingly positive, indicating a strong community response."
+    }
+  },
+  "summary": "H3-metal offers a unique solution for native MiniMax-H3 inference on Apple Silicon, demonstrating high novelty and current relevance. However, it faces challenges in terms of system requirements, ease of use, and integration. The community sentiment is very positive, but the project's maturity and performance are not yet fully assessable.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/antirez/h3.c",
+  "tool_url": "https://github.com/antirez/h3.c",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49252179",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 934,
+      "forks": 46,
+      "open_issues": 12,
+      "watchers": 934,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "MiniMax H3 inference engine for Mac computers",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Torch",
+        "stars": 19464,
+        "repo": "ShusenTang/Dive-into-DL-PyTorch"
+      },
+      {
+        "name": "TensorFlow",
+        "stars": 196936,
+        "repo": "tensorflow/tensorflow"
+      },
+      {
+        "name": "ONNX Runtime",
+        "stars": 392,
+        "repo": "xmba15/onnx_runtime_cpp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "High-quality model implementation with fast performance",
+        "Open weights are a game-changer for developers",
+        "Users are excited about the potential of this project"
+      ],
+      "negative_signals": [
+        "Some users are concerned about memory requirements",
+        "Need for more clear benchmarks and comparisons"
+      ],
+      "justification": "Despite a few minor concerns, the overall sentiment is overwhelmingly positive, with many users praising the project's potential and expressing excitement about its open weights. The few negative comments focus on memory requirements and the need for more benchmarks.",
+      "comment_count": 30,
+      "hn_points": 325
+    }
+  }
+}
