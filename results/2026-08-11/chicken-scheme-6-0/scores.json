@@ -1,0 +1,88 @@
+{
+  "app_name": "Chicken Scheme 6.0",
+  "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
+  "scored_at": "2026-08-11T13:02:54.066Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Chicken Scheme 6.0 introduces comprehensive support for Unicode, which is a unique feature compared to similar tools like Guile Scheme and Kawa Scheme, with 6.0 being a major release."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "While the installation time is not provided, the fact that it's compiled and C-based suggests moderate system requirements, but the lack of a PyPI package and unclear install command affects its accessibility."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Scheme dialect, Chicken Scheme 6.0 is relevant in the current programming language ecosystem, especially with its focus on portability and Unicode support, aligning with current trends in language development."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The addition of Unicode support and being compiled and C-based differentiate Chicken Scheme 6.0 from similar tools like MIT/GNU Scheme, with a unique set of features and performance characteristics, such as fast performance and compactness."
+    },
+    "community": {
+      "score": 5,
+      "justification": "Given the lack of GitHub repository data, but with HN points at 224 and positive comments about its features and usability, the community score is set to neutral due to insufficient data for a more precise evaluation."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "With no tests run and basic run success being false, there's insufficient data to accurately assess the ease of use, thus a neutral score is assigned."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The presence of a mentioned API/SDK/webhook and being a library suggests a moderate level of ease of integration, although the exact nature and quality of these integration points are unclear."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The comprehensive documentation and the presence of a guide link on the webpage, along with a large page content length, indicate a well-documented project, which aids in its usability and understanding."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given the detected version is 6.8 and the project has a changelog or release notes, it suggests a level of maturity, but without explicit data on its age or update frequency, the score remains moderate."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "While there are no direct benchmarks provided, the compiled and C-based nature of Chicken Scheme 6.0, along with user comments praising its fast performance, suggest a good level of performance compared to other scripting languages."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With an HN sentiment score of 8/10 and comments praising its Unicode support, performance, and ease of use, despite some mentioning complexity due to SRFIs, the overall sentiment is very positive."
+    },
+    "overall_impact": {
+      "score": 7,
+      "justification": "Considering all aspects, Chicken Scheme 6.0 seems to offer a unique set of features and improvements over other Scheme dialects, contributing positively to the programming language ecosystem."
+    }
+  },
+  "summary": "Chicken Scheme 6.0 is a highly portable Scheme dialect with comprehensive Unicode support, offering fast performance and a compact design. It provides a unique set of features and improvements over other Scheme dialects, although its community and ease of use aspects require more data for a thorough evaluation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://code.call-cc.org/releases/6.0.0/NEWS",
+  "tool_url": "https://code.call-cc.org/releases/6.0.0/chicken.tar.gz",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49251702",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Universal support for Unicode",
+        "Fast, compact, and ready-to-use",
+        "Good Emacs support with geiser-chicken",
+        "FFI provides nice ergonomics",
+        "Compiled and C-based",
+        "Comprehensive and well-maintained documentation"
+      ],
+      "negative_signals": [
+        "SRFIs make the language larger and more complicated"
+      ],
+      "justification": "The comments overwhelmingly praise Chicken Scheme 6.0 for its comprehensive support for Unicode, fast performance, and ease of use. While a few users mention the complexity introduced by SRFIs, the majority of the feedback emphasizes the positives.",
+      "comment_count": 29,
+      "hn_points": 224
+    }
+  }
+}
