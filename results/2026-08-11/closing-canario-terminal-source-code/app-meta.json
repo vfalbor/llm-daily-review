@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Closing Canario Terminal source code",
+    "url": "https://rapha.land/closing-canario-terminal-source-code/",
+    "hn_url": "https://news.ycombinator.com/item?id=49254881",
+    "points": 19,
+    "comments": 25,
+    "author": "atan2",
+    "age": "2026-08-11T08:16:19 1786436179",
+    "scraped_at": "2026-08-11T13:00:02.969Z",
+    "tool_url": "https://github.com/raphalca/canario",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "domain": "devtool",
+    "app_type": "devtool-terminal",
+    "description": "A terminal emulator written in Rust.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "WezTerm",
+      "Alacritty",
+      " Kitty"
+    ],
+    "proposed_tests": [
+      "Clone the repository and build with `cargo build`.",
+      "Run `cargo test` to execute test suite.",
+      "Measure execution time for a simple task."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/raphalca/canario"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786453470263-xkgjz",
+    "log_dir": "/tmp/llm-review-1786453470263-xkgjz",
+    "install_success": true,
+    "install_time_s": 13.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'canario'...\nfatal: could not read Username for 'https://github.com': No such device or address\nerror: could not find `Cargo.toml` in `/` or any parent directory\nerror: could not find `Cargo.toml` in `/` or any parent directory\nerror: could not find `Cargo.toml` in `/` or any parent directory\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\n( 1/19) Installing libgcc (15.2.0-r5)\n( 2/19) Installing jansson (2.15.0-r0)\n( 3/19) Installing libstdc++ (15.2.0-r5)\n( 4/19) Installing binutils (2.45.1-r1)\n( 5/19) Installing libgcc-static (15.2.0-r5)\n( 6/19) Installing libgomp (15.2.0-r5)\n( 7/19) Installing libatomic (15.2.0-r5)\n( 8/19) Installing gmp (6.3.0-r4)\n( 9/19) Installing isl26 (0.26-r2)\n(10/19) Installing mpfr4 (4.2.2-r0)\n(11/19) Installing mpc1 (1.3.1-r1)\n(12/19) Installing gcc (15.2.0-r5)\n(13/19) Installing musl-dev (1.2.6-r2)\n(14/19) Installing libxml2 (2.13.9-r2)\n(15/19) Installing llvm22-libs (22.1.3-r0)\n(16/19) Installing scudo-malloc (22.1.3-r0)\n(17/19) Installing rust (1.96.1-r0)\n(18/19) Installing libssh2 (1.11.1-r3)\n(19/19) Installing cargo (1.96.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 623.3 MiB in 70 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['git', 'clone', 'https://github.com/raphalca/canario.git']' returned non-zero exit status 128.\nINSTALL_OK\nBUILD_FAIL:Command '['cargo', 'build']' returned non-zero exit status 101.\nTEST_FAIL:canario_test:Command '['cargo', 'test']' returned non-zero exit status 101.\nTEST_FAIL:canario_import:No module named 'canario'\nTEST_FAIL:canario_execution:Command '['cargo', 'run']' returned non-zero exit status 101.\nTEST_FAIL:wezterm_comparison:[Errno 2] No such file or directory: 'wezterm'\nRUN_OK\n"
+  }
+}
