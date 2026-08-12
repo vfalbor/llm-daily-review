@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "url": "https://stolen-thoughts.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49257876",
+    "points": 648,
+    "comments": 290,
+    "author": "quantumgarbage",
+    "age": "2026-08-11T13:22:00 1786454520",
+    "scraped_at": "2026-08-12T13:00:02.993Z",
+    "tool_url": "https://github.com/justinseitz/stolen-thoughts",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "research",
+    "app_type": "research-paper",
+    "description": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "use_modes": [
+      "research-only"
+    ],
+    "similar_tools": [
+      "Stolen Thoughts",
+      "LLaMA"
+    ],
+    "proposed_tests": [
+      "Run the model on a sample dataset",
+      "Compare output with a baseline model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/justinseitz/stolen-thoughts"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786539850145-8tfl3",
+    "log_dir": "/tmp/llm-review-1786539850145-8tfl3",
+    "install_success": false,
+    "install_time_s": 7.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement stolen-thoughts (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for stolen-thoughts\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nInstalling required APK packages...done\nInstalling stolen-thoughts package...done\nTEST_FAIL:import_stolen_thoughts:No module named 'stolen_thoughts'\nRunning minimal functional test...TEST_FAIL:run_minimal_functional_test:No module named 'stolen_thoughts'\nComparing output with baseline model...TEST_FAIL:compare_output_with_baseline:No module named 'baseline_model'\nComparing performance with LLaMA...TEST_FAIL:compare_performance_with_llama:No module named 'llama'\nTEST_FAIL:get_loc_count_and_test_files_count:[Errno 2] No such file or directory: 'stolen_thoughts/__init__.py'\nRUN_OK\n"
+  }
+}
