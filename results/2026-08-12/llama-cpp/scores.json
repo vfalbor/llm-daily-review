@@ -1,0 +1,116 @@
+{
+  "app_name": "llama.cpp",
+  "url": "https://github.com/facebookresearch/llama",
+  "scored_at": "2026-08-12T13:05:42.056Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "As an LLM framework, llama.cpp offers a unique approach with 59,552 GitHub stars, demonstrating significant original contribution and community interest, outperforming similar tools like T5 by +1890% (56,559 more stars)"
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The install time of 43.6s is relatively moderate, and install success is true, but the lack of detailed system requirements information scores it lower than perfect"
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an LLM framework, llama.cpp fits well within the current AI development landscape, addressing key needs in large language model applications, with its performance in import_time_ms and sample_dataset_ms being notable"
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Llama.cpp differentiates itself from similar tools like LLaMA and T5, with 59,552 stars, showing a significant community preference, although it trails LLaMA by 64,078 stars, it surpasses T5 by 56,559 stars, indicating a strong, unique value proposition"
+    },
+    "community": {
+      "score": 7,
+      "justification": "With 59,552 GitHub stars, 53 contributors, and despite 562 days since the last commit, the community around llama.cpp is substantial, though the gap in commit activity might affect its score"
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that 0 out of 2 tests passed and basic run success is true, there seems to be a mixed signal on ease of use, suggesting that while the framework can run, its functionality or test coverage may have issues"
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The existence of a PyPI package (v0.1.1) and the mention of use modes such as a web-based interface and API suggest a high ease of integration, supporting various use cases"
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "While specific documentation metrics like has_wiki or has_pages are not provided, the extensive community and the project's presence on GitHub suggest there is some level of documentation available"
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With 562 days since the last commit and 1275 days since the repository was created, but lacking specific release tags or versioning information beyond the PyPI package, the maturity is hard to assess directly from the given data"
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark measurements show an import_time_ms of 1790.14, which, in the context of LLM frameworks, could indicate moderate to good performance, depending on the comparison with similar tools"
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for scoring as a separate criterion; however, it has been considered in community and maturity assessments with a sentiment score of 7/10 and 292 HN points"
+    }
+  },
+  "summary": "Llama.cpp is a large language model framework that, despite some gaps in recent activity and test coverage, offers a unique approach with significant community support and potential for differentiation in the LLM space. It has a substantial GitHub presence and shows promise in its performance metrics.",
+  "recommendation": "worth-watching",
+  "app_url": "https://llama.app/",
+  "tool_url": "https://github.com/facebookresearch/llama",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49267928",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 59552,
+      "forks": 9793,
+      "open_issues": 528,
+      "watchers": 59552,
+      "contributors": 53,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 562,
+      "days_since_created": 1275,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Inference code for Llama models",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LLaMA",
+        "stars": 123630,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "T5",
+        "stars": 2993,
+        "repo": "google-research/t5x"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "LLAMA - Loss & LAtency MAtrix",
+      "requires_python": "",
+      "license": "Apache",
+      "home_page": "https://github.com/dropbox/llama"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Ease of use and integration with NixOS",
+        "Positive community feedback and support",
+        "Usefulness as a framework for LLM development"
+      ],
+      "negative_signals": [
+        "Security concerns regarding curl into bash",
+        "Potential for catastrophic fuckups with LLMs",
+        "Concerns about the reliability and maintainability of the framework"
+      ],
+      "justification": "The community has mixed views on the security implications of the framework, but overall, many users appreciate its ease of use and potential as a tool for LLM development.",
+      "comment_count": 30,
+      "hn_points": 292
+    }
+  }
+}
