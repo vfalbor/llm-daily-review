@@ -1,0 +1,88 @@
+{
+  "app_name": "Woxi",
+  "url": "https://woxi.ad-si.com/",
+  "scored_at": "2026-08-12T13:02:36.955Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Woxi is an open-source Mathematica / Wolfram Language reimplementation, which indicates a high level of novelty, as it attempts to recreate a complex system in an open-source manner, citing no direct comparison to similar tools due to its uniqueness in the llm-framework space."
+    },
+    "system_requirements": {
+      "score": 4,
+      "justification": "Install success was false, and install time was 31.9 seconds, which indicates some issues with system requirements, but the package exists on PyPI (v0.3.0) and requires Python >=3.10, suggesting some level of readiness."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm-framework, Woxi's relevance is assessed by its fit into the current LLM ecosystem trends, and given the push for open-source and reproducibility in AI, Woxi's effort to reimplement Mathematica/Wolfram Language aligns well with these trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While Woxi offers a unique value proposition as an open-source reimplementation, its differentiation score is tempered by the lack of direct comparison to similar tools in terms of benchmarks or user base, but it stands out due to its open-source nature."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository stats are available for a detailed assessment, but given the nature of the project, a score of 5 is assigned due to insufficient data for a more precise evaluation."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "With tests passed at 2/8 and basic run success being true, ease of use is somewhat compromised, indicating potential difficulties in usage or setup, despite the presence of a PyPI package which could facilitate easier installation for some users."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The existence of a PyPI package (v0.3.0) and the requirement for Python >=3.10 indicate a moderate level of ease of integration, as it suggests that Woxi can be integrated into existing workflows or projects with some effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Given the lack of direct access to GitHub repository data or a dedicated documentation site mentioned, the score is set to 5, indicating insufficient information to accurately assess the quality or completeness of Woxi's documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Insufficient data is available to accurately determine the maturity of the project, including days since creation, forks, or open issues, leading to a neutral score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark measurements are available from the tests, leading to a score of 5 due to insufficient data to evaluate the performance of Woxi in a quantitative manner."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "With an HN sentiment score of 6/10, 107 HN points, and comments indicating a generally positive reception with some expressions of support, the sentiment around Woxi is somewhat positive, albeit with limited engagement."
+    }
+  },
+  "summary": "Woxi is an open-source reimplementation of Mathematica/Wolfram Language, offering a unique proposition in the LLM ecosystem. Despite facing some challenges in terms of system requirements and ease of use, its novelty and open-source nature contribute to its potential value in the current AI landscape.",
+  "recommendation": "worth-watching",
+  "app_url": "https://woxi.ad-si.com/",
+  "tool_url": "https://github.com/woxi-project/woxi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49270040",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.0",
+      "summary": "Interpreter for a subset of the Wolfram Language",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 8,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "nicely done",
+        "massively expanded feature set",
+        "making something new"
+      ],
+      "negative_signals": [
+        "going to get hate here"
+      ],
+      "justification": "The majority of comments, albeit a small sample size, express a positive tone with some general support for open source projects. The only mildly negative comment is a self-described 'hate' statement, but it doesn't specifically target the project.",
+      "comment_count": 4,
+      "hn_points": 107
+    }
+  }
+}
