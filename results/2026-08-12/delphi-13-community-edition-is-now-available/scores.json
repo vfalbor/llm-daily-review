@@ -1,0 +1,82 @@
+{
+  "app_name": "Delphi",
+  "url": "https://www.embarcadero.com/products/delphi/free-community-edition",
+  "scored_at": "2026-08-12T13:03:10.925Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Delphi is an established tool with a long history, and as such, it does not bring a new or genuinely innovative approach to the table, scoring 4 for novelty based on its age and the fact that it is not an open-source project."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The installation success is false and the install time is not available, indicating potential issues with system requirements, thus scoring 3."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "Delphi fits into the current software development landscape, particularly for building desktop and mobile applications, and its community edition shows an effort to stay relevant, scoring 6."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Due to insufficient data on how Delphi differentiates itself from similar tools like Embarcadero RAD Studio and C++Builder in terms of features and user base, the differentiation score is set to 5."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected, making it hard to assess the community health based on GitHub metrics, thus scoring 5 due to insufficient data."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Given the lack of successful installation and basic run, ease of use is compromised, scoring 2 due to these significant issues."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "Delphi is not pip-installable, and information about its integration into workflows or pipelines is limited, scoring 1 due to its lack of straightforward integration methods."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data is available to assess the quality of Delphi's documentation directly, thus scoring 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Delphi's age and the presence of a community edition suggest maturity, but without specific metrics like days since the last update or versioning information, the maturity score is set to 5 due to insufficient data."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance is not applicable for a language or development environment without specific benchmarks, thus it is set to null."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis provided, but it does not directly apply to scoring criteria, thus it is set to null for this context."
+    }
+  },
+  "summary": "Delphi is a long-standing development environment with a community edition available, indicating efforts to stay relevant, but its novelty, ease of use, and integration are compromised due to various issues and lack of data.",
+  "recommendation": "niche",
+  "app_url": "https://blogs.embarcadero.com/delphi-13-community-edition-is-now-available/",
+  "tool_url": "https://www.embarcadero.com/products/delphi/free-community-edition",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49270621",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Nostalgia and positive memories of Delphi",
+        "Appreciation for Delphi's ease of use and productivity",
+        "Excitement for Delphi's community and continued development"
+      ],
+      "negative_signals": [
+        "Concerns about verbosity and complexity",
+        "Criticism of pricing and business model"
+      ],
+      "justification": "Many commenters express nostalgia and positive memories of Delphi, highlighting its ease of use and productivity. However, some critics mention verbosity and complexity, as well as concerns about pricing and the business model.",
+      "comment_count": 20,
+      "hn_points": 33
+    }
+  }
+}
