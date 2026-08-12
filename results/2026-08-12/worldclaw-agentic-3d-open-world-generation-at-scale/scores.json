@@ -1,0 +1,109 @@
+{
+  "app_name": "WorldClaw Agentic 3D",
+  "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+  "scored_at": "2026-08-12T13:04:08.946Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is 7 days old and has a unique approach to open-world generation at scale, as seen in its GitHub repository and similar tools like Blender and Unreal Engine, with 529 stars in a short period."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app installed successfully in 15.8 seconds and has a basic run success, but it's not clear what the system requirements are without more information."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app fits well with current trends in AI and open-world generation, as seen in its use of large language models and image generation, with a unique approach that sets it apart from existing tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has a unique feature set compared to similar tools like Blender and Unreal Engine, with -25222 stars (-98%) and -2373 stars (-82%) respectively, showing its differentiation in the market."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The app has 529 stars, 27 forks, and 2 contributors on GitHub, but the community engagement is not clear without more data on GitHub comments and issues."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The app has 0 tests passed out of 1, and the install success and basic run success are true, but the ease of use is not clear without more information on the UI and user experience."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The app does not have a PyPI package and the API modes are not clear, making it difficult to integrate without more information on the API surface and documentation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The app's documentation is not clear without more information on the GitHub repository, wiki, or documentation site, so the score is neutral due to insufficient data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The app is 7 days old and has 1 open issue, but the maturity is not clear without more data on the release history, versioning, and community engagement."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app has a python_benchmark_ms of 19.323348999023438, which indicates good performance, but more benchmark data is needed to fully evaluate the performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 250 points, 30 comments analyzed, and positive signals indicating excitement about the project's potential, but some criticisms about AI-generated storytelling and lack of relatable character development."
+    }
+  },
+  "summary": "WorldClaw Agentic 3D is a unique open-world generation tool that fits well with current trends in AI, but it lacks clear documentation, community engagement, and performance benchmarks, making it a niche tool for now.",
+  "recommendation": "worth-watching",
+  "app_url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+  "tool_url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49265051",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 529,
+      "forks": 27,
+      "open_issues": 1,
+      "watchers": 529,
+      "contributors": 2,
+      "license": "none",
+      "language": null,
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Blender",
+        "stars": 25751,
+        "repo": "ahujasid/blender-mcp"
+      },
+      {
+        "name": " Unreal Engine",
+        "stars": 2902,
+        "repo": "20tab/UnrealEnginePython"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive open-world generation at scale",
+        "Users excited about combining AI with human creativity",
+        "Praise for innovative use of LLMs with image generation"
+      ],
+      "negative_signals": [
+        "Some users question AI-generated storytelling and lack of relatable character development",
+        "Concerns about AI-generated content being perceived as not truly creative",
+        "Critique of the project as generating a huge world but lacking in hand-placed details"
+      ],
+      "justification": "Despite some criticisms, users seem generally excited about the project's potential for combining AI and human creativity, with praise for its innovative use of large language models and image generation. However, some users question the quality of AI-generated storytelling.",
+      "comment_count": 30,
+      "hn_points": 250
+    }
+  }
+}
