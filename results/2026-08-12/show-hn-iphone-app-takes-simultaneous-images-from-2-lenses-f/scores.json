@@ -1,0 +1,83 @@
+{
+  "app_name": "Photosynthesis",
+  "url": "https://photosynthesis.camera/",
+  "scored_at": "2026-08-12T13:06:02.661Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app's ability to take simultaneous images from two lenses and fuse them into one photo is a genuinely new approach, with 302 HN points and 30 comments analyzed, showing a positive sentiment score of 6/10."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false, and install time is 7.9s, indicating difficulties in installation, but it is not pip-installable as no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app's technology is relevant to current trends in photography, as many users appreciate its innovative approach, with examples and demos available on the webpage."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique feature set, with the ability to fuse images from two lenses, but lacks direct comparisons to similar tools in terms of BENCHMARK data."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository data is available, but with 302 HN points and 30 comments, it shows some community interest, although the sentiment is mixed."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The app has a basic run success of false, and no tests passed, indicating usability issues, with no clear install command on the page."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Although it has an API/SDK/webhook mention, and a detected version of 1.55, the lack of a pip-installable package and unclear install process hampers integration."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The webpage has no docs/wiki/guide link, and no changelog or release notes, but it does have examples and demos, with a substantial page content length of 59306 characters."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has a detected version of 1.55, and a webpage with examples and demos, indicating some level of maturity, but the mixed sentiment and lack of clear release notes hinder a higher score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No BENCHMARK data is available for performance comparison, and no specific performance claims are made on the webpage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The HN sentiment score is 6/10, with 302 points and 30 comments, showing a mixed but generally positive response to the app's innovative technology and potential benefits."
+    }
+  },
+  "summary": "Photosynthesis is an innovative iPhone app that takes simultaneous images from two lenses and fuses them into one photo, showing potential in photography technology, but faces criticism for its subscription model and lacks clear documentation and integration pathways.",
+  "recommendation": "niche",
+  "app_url": "https://photosynthesis.camera/",
+  "tool_url": "https://photosynthesis.camera/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49226623",
+  "domain": "llm-ai",
+  "app_type": "multimodal",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Many users appreciate the app's ability to take simultaneous images from two lenses and fuse them into one photo.",
+        "Comments praise the quality of the example pictures and the potential for improved image resolution.",
+        "Some users see this as a promising example of innovation in photography technology."
+      ],
+      "negative_signals": [
+        "Some users express skepticism towards the subscription model, comparing it to what they perceive as an overly commercialized app ecosystem.",
+        "There are concerns about the ad-heavy model and its impact on user experience and developer revenue.",
+        "Critiques also target the high subscription price and the perceived lack of value for some users."
+      ],
+      "justification": "Overall, the comments on this HN thread are generally positive, with many users appreciating the innovative technology and potential benefits. However, some users express criticism towards the subscription model and its associated costs.",
+      "comment_count": 30,
+      "hn_points": 302
+    }
+  }
+}
