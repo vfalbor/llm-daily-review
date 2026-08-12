@@ -1,0 +1,81 @@
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [61 lines of output]
+      Python reports SOABI: cpython-312-x86_64-linux-musl
+      Computed rustc target triple: x86_64-unknown-linux-musl
+      Installation directory: /root/.cache/puccinialin
+      Downloading rustup-init from https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-musl/rustup-init
+      Checking for Rust toolchain....
+      Rust not found, installing into a temporary directory
+      
+      Downloading rustup-init:   0%|          | 0.00/21.2M [00:00<?, ?B/s]
+      Downloading rustup-init:   2%|▏         | 467k/21.2M [00:00<00:04, 4.65MB/s]
+      Downloading rustup-init:  21%|██        | 4.35M/21.2M [00:00<00:00, 24.7MB/s]
+      Downloading rustup-init:  66%|██████▌   | 13.9M/21.2M [00:00<00:00, 57.1MB/s]
+      Downloading rustup-init: 100%|██████████| 21.2M/21.2M [00:00<00:00, 55.8MB/s]
+      Installing rust to /root/.cache/puccinialin/rustup
+      warn: It looks like you have an existing rustup settings file at:
+      warn: /root/.cache/puccinialin/rustup/settings.toml
+      warn: Rustup will install the default toolchain as specified in the settings file,
+      warn: instead of the one inferred from the default host triple.
+      info: profile set to minimal
+      info: setting default host triple to x86_64-unknown-linux-musl
+      info: syncing channel updates for stable-x86_64-unknown-linux-musl
+      info: latest update on 2026-07-16 for version 1.97.1 (8bab26f4f 2026-07-14)
+      info: downloading 3 components
+      info: default toolchain set to stable-x86_64-unknown-linux-musl
+      warn: no default linker (`cc`) was found in your PATH
+      warn: many Rust crates require a system C toolchain to build
+      Checking if cargo is installed
+      Error loading shared library libgcc_s.so.1: No such file or directory (needed by /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo)
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Resume: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIPInfo: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetDataRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetRegionStart: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetGR: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_FindEnclosingFunction: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetTextRelBase: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_DeleteException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_RaiseException: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIP: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Backtrace: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetCFA: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetLanguageSpecificData: symbol not found
+      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetIP: symbol not found
+      Traceback (most recent call last):
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 175, in prepare_metadata_for_build_wheel
+          return hook(metadata_directory, config_settings)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-v0qyft1w/overlay/lib/python3.12/site-packages/maturin/__init__.py", line 202, in prepare_metadata_for_build_wheel
+          env = _get_env()
+                ^^^^^^^^^^
+        File "/tmp/pip-build-env-v0qyft1w/overlay/lib/python3.12/site-packages/maturin/__init__.py", line 83, in _get_env
+          extra_env = setup_rust()
+                      ^^^^^^^^^^^^
+        File "/tmp/pip-build-env-v0qyft1w/normal/lib/python3.12/site-packages/puccinialin/_setup_rust.py", line 158, in setup_rust
+          check_call([cargo, "--version"], env={**os.environ, **extra_env})
+        File "/usr/local/lib/python3.12/subprocess.py", line 413, in check_call
+          raise CalledProcessError(retcode, cmd)
+      subprocess.CalledProcessError: Command '['/root/.cache/puccinialin/cargo/bin/cargo', '--version']' returned non-zero exit status 127.
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+Cloning into 'woxi'...
+fatal: could not read Username for 'https://github.com': No such device or address
