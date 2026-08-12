@@ -1,0 +1,42 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Show HN: Woxi - Open-source Mathematica / Wolfram Language reimplementation",
+    "url": "https://woxi.ad-si.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49270040",
+    "points": 106,
+    "comments": 4,
+    "author": "adius",
+    "age": "2026-08-12T10:06:29 1786529189",
+    "scraped_at": "2026-08-12T13:00:02.982Z",
+    "tool_url": "https://github.com/woxi-project/woxi",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": null,
+    "use_modes": null,
+    "similar_tools": null,
+    "proposed_tests": [
+      "Clone the repo and compile",
+      "Verify Woxi's compatibility with Wolfram Language",
+      "Test Woxi's performance with an existing Mathematica benchmark"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/woxi-project/woxi"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786539713737-veadb",
+    "log_dir": "/tmp/llm-review-1786539713737-veadb",
+    "install_success": false,
+    "install_time_s": 31.9,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 8,
+    "benchmark_notes": "BENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0",
+    "error_log": "  error: subprocess-exited-with-error\n  \n  × Preparing metadata (pyproject.toml) did not run successfully.\n  │ exit code: 1\n  ╰─> [61 lines of output]\n      Python reports SOABI: cpython-312-x86_64-linux-musl\n      Computed rustc target triple: x86_64-unknown-linux-musl\n      Installation directory: /root/.cache/puccinialin\n      Downloading rustup-init from https://static.rust-lang.org/rustup/dist/x86_64-unknown-linux-musl/rustup-init\n      Checking for Rust toolchain....\n      Rust not found, installing into a temporary directory\n      \n      Downloading rustup-init:   0%|          | 0.00/21.2M [00:00<?, ?B/s]\n      Downloading rustup-init:   2%|▏         | 467k/21.2M [00:00<00:04, 4.65MB/s]\n      Downloading rustup-init:  21%|██        | 4.35M/21.2M [00:00<00:00, 24.7MB/s]\n      Downloading rustup-init:  66%|██████▌   | 13.9M/21.2M [00:00<00:00, 57.1MB/s]\n      Downloading rustup-init: 100%|██████████| 21.2M/21.2M [00:00<00:00, 55.8MB/s]\n      Installing rust to /root/.cache/puccinialin/rustup\n      warn: It looks like you have an existing rustup settings file at:\n      warn: /root/.cache/puccinialin/rustup/settings.toml\n      warn: Rustup will install the default toolchain as specified in the settings file,\n      warn: instead of the one inferred from the default host triple.\n      info: profile set to minimal\n      info: setting default host triple to x86_64-unknown-linux-musl\n      info: syncing channel updates for stable-x86_64-unknown-linux-musl\n      info: latest update on 2026-07-16 for version 1.97.1 (8bab26f4f 2026-07-14)\n      info: downloading 3 components\n      info: default toolchain set to stable-x86_64-unknown-linux-musl\n      warn: no default linker (`cc`) was found in your PATH\n      warn: many Rust crates require a system C toolchain to build\n      Checking if cargo is installed\n      Error loading shared library libgcc_s.so.1: No such file or directory (needed by /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo)\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_Resume: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetIPInfo: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetDataRelBase: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_GetRegionStart: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_SetGR: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/cargo: _Unwind_FindEnclosingFunction: symbol not found\n      Error relocating /root/.cache/puccinialin/rustup/toolchains/stable-x86_64-unknown-linux-musl/bin/c",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting woxi\n  Downloading woxi-0.3.0.tar.gz (4.6 MB)\n     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.6/4.6 MB 10.3 MB/s eta 0:00:00\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Installing backend dependencies: started\n  Installing backend dependencies: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'error'\nINSTALL_FAIL:pip install and git clone failed\nTEST_FAIL:import_time:No module named 'woxi'\nTEST_FAIL:functional_test:No module named 'woxi'\nTEST_FAIL:performance_test:No module named 'woxi'\nTEST_FAIL:wolfram_language_compatibility:No module named 'woxi'\nTEST_FAIL:compare_to_baseline:No module named 'woxi'\nTEST_FAIL:memory_usage:No module named 'woxi'\nBENCHMARK:loc_count:0\nTEST_PASS:loc_count\nBENCHMARK:test_files_count:0\nTEST_PASS:test_files_count\nRUN_OK\n"
+  }
+}
