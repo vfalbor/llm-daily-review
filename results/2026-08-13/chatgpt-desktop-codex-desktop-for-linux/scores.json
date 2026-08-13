@@ -1,0 +1,121 @@
+{
+  "app_name": "ChatGPT Desktop (Codex Desktop)",
+  "url": "https://github.com/openai/codex",
+  "scored_at": "2026-08-13T13:03:10.800Z",
+  "total_score": 77,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Codex Desktop is a unique application of the Codex model, with 487 days since repo creation and 105,679 GitHub stars, showing a significant original contribution with its desktop-focused approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation time is 80.3s, which is somewhat lengthy, but install success is true, indicating it can be set up without major issues. PyPI package exists with version 2.2.6."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an LLM assistant, it fits well into the current AI landscape, addressing a need for accessible LLM interaction on the desktop, with a strong GitHub presence."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 105,679 stars, it stands out significantly from similar tools like ChatGPT (61,499 stars), LLaMA (123,765 stars), and Bard (5,186 stars), showing a unique value proposition."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 105,679 GitHub stars, 16026 forks, and 548 contributors, indicating a strong and active community, with 0 days since the last commit showing ongoing development."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that only 1 out of 2 tests passed, and basic run success is true, the ease of use is somewhat hindered by potential issues, but with a clear install process."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "While it has a PyPI package and is written in Rust with an Apache-2.0 license, the requirement for an API key might complicate integration for some users."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The GitHub repository and related documentation provide sufficient information for users to get started, although more detailed tutorials could enhance the user experience."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 487 days since the repository was created, 16026 forks, and ongoing commits, the project demonstrates maturity and active maintenance."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks like import_codex_time_s (7.62939453125e-06) and vs_codex_bard_ratio (1.9) indicate competitive performance, especially considering the Codex model's capabilities."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not directly applicable to tool evaluations without specific HN post data related to the tool itself."
+    }
+  },
+  "summary": "ChatGPT Desktop (Codex Desktop) offers a unique desktop application for interacting with the Codex large language model, showing strong community support, differentiation, and performance, but with some ease of use concerns due to test pass rates.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openai.com/codex/",
+  "tool_url": "https://github.com/openai/codex",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49284774",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": {
+      "stars": 105679,
+      "forks": 16026,
+      "open_issues": 12472,
+      "watchers": 105679,
+      "contributors": 548,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 487,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Lightweight coding agent that runs in your terminal",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ChatGPT",
+        "stars": 61499,
+        "repo": "PlexPt/awesome-chatgpt-prompts-zh"
+      },
+      {
+        "name": "LLaMA",
+        "stars": 123765,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "Bard",
+        "stars": 5186,
+        "repo": "dsdanielpark/Bard-API"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.2.6",
+      "summary": "A comic archive web server.",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Hopes for peaceful economic competition",
+        "Excitement about potential currency shift",
+        "Positive views on China's growing influence"
+      ],
+      "negative_signals": [
+        "Skepticism about China's intentions",
+        "Concerns about currency manipulation",
+        "Hostile AI sentiment"
+      ],
+      "justification": "Mostly positive comments with some constructive criticisms and skepticism about China's economic and political intentions, although a significant minority expressed negative views on AI.",
+      "comment_count": 30,
+      "hn_points": 89
+    }
+  }
+}
