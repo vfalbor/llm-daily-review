@@ -1,0 +1,81 @@
+{
+  "app_name": "Mushroom Hallucinations Research",
+  "url": "https://phys.org/news/2026-08-qa-mushroom-tiny-people-hallucinations.html",
+  "scored_at": "2026-08-13T13:04:31.825Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The research paper identifies a new mushroom behind 'tiny people' hallucinations, which is a unique contribution to the field, as seen in its title and description."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install success is false, indicating significant installation issues, and no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The research fits well with current trends in LLM ecosystems exploring the intersection of natural phenomena and human perception, as indicated by the source type being a dataset and its relevance to research models."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like DeepMind and Google AI, this research is distinct in its focus on hallucinations caused by a specific mushroom, offering a unique perspective."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With no GitHub repository detected and no direct community engagement metrics available, we rely on HN points (201) and comments (30) as a proxy, indicating some community interest."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Basic run success is false, and tests passed is 0, indicating significant usability issues."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "While there's a mention of an API/SDK/webhook, there's no clear way to integrate this research directly into existing workflows without more documentation or a straightforward install command."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The web page lacks a clear docs/wiki/guide link, examples, or a straightforward changelog, but it does have a significant page content length (44113 chars), suggesting some depth in the information provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the detected version (1.5) and the lack of clear release notes or updates, the maturity of this research model is neutral, with insufficient data to accurately assess its production readiness."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Since this is a research paper and not a software tool, performance in terms of execution speed or efficiency is not applicable, as per the app-type-rubric for 'research' types."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is provided but since it's about the article's reception rather than the app itself, it's set to null as per scoring instructions."
+    }
+  },
+  "summary": "This research paper explores the mushroom behind 'tiny people' hallucinations, offering a unique scientific discovery. However, it lacks in terms of direct usability, integration, and maturity as a software or dataset for immediate application or further research.",
+  "recommendation": "niche",
+  "app_url": "https://phys.org/news/2026-08-qa-mushroom-tiny-people-hallucinations.html",
+  "tool_url": null,
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=49218040",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "interesting scientific discovery",
+        "possible inspiration for folklore and mythology"
+      ],
+      "negative_signals": [
+        "concerns about long-term health effects",
+        "moral and ethical debate surrounding experimentation with hallucinogens"
+      ],
+      "justification": "The commenters have a mixed reaction to the discovery, with some expressing enthusiasm for the scientific findings and others raising concerns about the potential risks and ethics of experimenting with hallucinogens.",
+      "comment_count": 30,
+      "hn_points": 201
+    }
+  }
+}
