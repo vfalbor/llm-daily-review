@@ -1,0 +1,83 @@
+{
+  "app_name": "SQLite",
+  "url": "https://sqlite.org/",
+  "scored_at": "2026-08-13T13:03:49.628Z",
+  "total_score": 73,
+  "scores": {
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The project received a sentiment score of 9/10, with 1104 HN points, 30 comments analyzed, and positive signals praising the project's leadership and impact on the SQLite community."
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The bug fix described in the article represents a meaningful improvement on existing tools, addressing a 16-year-old issue in SQLite, but it's not a first-of-its-kind approach."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "The tool is not pip-installable, and its installation is complex, requiring manual setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The bug fix is highly relevant to the current database management ecosystem, addressing a long-standing issue in SQLite, a widely-used database management system."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "SQLite differentiates itself from similar tools like PostgreSQL and MySQL through its unique set of features and its ability to address a long-standing issue, but it's not a drastically new approach."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has a large and active community, with a well-maintained website, documentation, and a significant impact on the SQLite community, as seen in the HN comments."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "The tool's usability is complex due to the lack of a simple installation process and the need for manual setup, but the website provides extensive documentation and guides."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as it's a database management system and not a tool designed for integration into workflows or pipelines."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The project has a well-maintained website with extensive documentation, guides, and a changelog, as detected by the web page signals, with a content length of 4046 characters."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "The project is mature, with a detected version of 1.0, a changelog, and release notes, indicating a stable and well-maintained project."
+    },
+    "performance": {
+      "score": null,
+      "justification": "This criterion does not apply to this app type, as performance benchmarks are not a relevant metric for a database management system described in an article."
+    }
+  },
+  "summary": "SQLite is a mature and widely-used database management system that has addressed a long-standing issue, with a large and active community, and extensive documentation, but its installation and setup can be complex.",
+  "recommendation": "worth-watching",
+  "app_url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+  "tool_url": "https://sqlite.org/",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=49272832",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "leadership with their head on right",
+        "great decision to hire SQLite experts",
+        "improved the world for everyone who used SQLite"
+      ],
+      "negative_signals": [
+        "some complicated SSO requirements",
+        "username/password authentication issues",
+        "complex configurability"
+      ],
+      "justification": "This project has received a refreshingly positive response from the Hacker News community, with many users praising Tailscale's leadership, decision-making, and positive impact on the SQLite community. The main criticisms focus on SSO requirements, security concerns related to username/password authentication, and complex configurability.",
+      "comment_count": 30,
+      "hn_points": 1104
+    }
+  }
+}
