@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Accelerating GPT-5.6 Sol Ultrafast on the Cerebras CS-2",
+    "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai/",
+    "hn_url": "https://news.ycombinator.com/item?id=49289844",
+    "points": 647,
+    "comments": 253,
+    "author": "pr337h4m",
+    "age": "2026-08-13T18:10:02 1786644602",
+    "scraped_at": "2026-08-14T13:00:02.354Z",
+    "tool_url": "https://cerebras.ai/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-cloud",
+    "description": "Accelerating GPT-5.6 Sol Ultrafast",
+    "use_modes": [
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ],
+    "similar_tools": [
+      "NVIDIA V100",
+      "NVIDIA A100",
+      "NVIDIA A40"
+    ],
+    "proposed_tests": [
+      "Set up Cerebras CS-2, run a sample workload",
+      "Compare performance with NVIDIA V100"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1786712586719-efcds",
+    "log_dir": "/tmp/llm-review-1786712586719-efcds",
+    "install_success": true,
+    "install_time_s": 11.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:workload_time_ms:492.23",
+    "error_log": "Cloning into 'cerebras'...\nremote: Not Found\nfatal: repository 'https://github.com/cerebras.git/' not found\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: ./cerebras is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTraceback (most recent call last):\n  File \"/app/test.py\", line 83, in <module>\n    main()\n  File \"/app/test.py\", line 63, in main\n    import cerebras\nModuleNotFoundError: No module named 'cerebras'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK: git\nINSTALL_OK: curl\nINSTALL_OK: cerebras\nBENCHMARK:workload_time_ms:492.23\nTEST_FAIL:compare_performance - API call failed: 404\n"
+  }
+}
