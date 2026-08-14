@@ -1,0 +1,83 @@
+{
+  "app_name": "DeepSeek",
+  "url": "https://api-docs.deepseek.com/news/news260813/",
+  "scored_at": "2026-08-14T13:02:13.403Z",
+  "total_score": 47,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "Insufficient data for HN sentiment analysis"
+    },
+    "novelty": {
+      "score": 4,
+      "justification": "No specific information on novelty is provided in the quantitative data, but the update on peak/off-peak pricing suggests an incremental improvement rather than a groundbreaking innovation."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install success is true, but install time is not provided, and the lack of PyPI package suggests some complexity in setup; however, it does not require extensive system resources as it's a cloud-based service."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app fits current cloud computing trends with its peak/off-peak pricing update, aligning with the need for flexible and cost-effective cloud solutions."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "While the pricing update is a notable change, without specific comparisons to similar tools like Google Cloud, AWS, or Azure, it's challenging to assess its unique value proposition accurately."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected, and while there are HN points and comments, they pertain more to the news of the pricing update rather than the tool's community health or engagement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests were passed (0/3), indicating potential usability issues or complexity in setup and operation."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool has an API and possibly a CLI, but without a PyPI package and given the requirement for an API key, integration might not be straightforward for all users."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "There is no documentation found on the page provided, no wiki, and no changelog, which suggests that users may face difficulties in using the tool without external help or extensive self-exploration."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 78.6784, suggesting some level of development and potential for maturity, but without more information on releases, updates, or age, it's hard to accurately assess its maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no performance benchmark data provided in the container test results, making it impossible to evaluate its performance relative to other tools."
+    }
+  },
+  "summary": "DeepSeek is a cloud-based service with a peak/off-peak pricing update, aiming to offer flexible cost options but faces challenges in usability, documentation, and community engagement. Its relevance in the current cloud computing landscape is notable, but more work is needed to enhance user experience and differentiation.",
+  "recommendation": "niche",
+  "app_url": "https://api-docs.deepseek.com/news/news260813/",
+  "tool_url": "https://deepseek.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49296627",
+  "domain": "infrastructure",
+  "app_type": "infra-cloud",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Cheaper than most competitors",
+        "Still practical for many users",
+        "May bring attention to other vendors"
+      ],
+      "negative_signals": [
+        "Significant price increase",
+        "May hurt users in countries with weak purchasing power",
+        "Commodity pricing could lead to a price war"
+      ],
+      "justification": "The comments are mixed, with some users expressing concern about the significant price increase, while others point out that prices are still competitive and may even incentivize users to choose other vendors. Insufficient data to determine a clear consensus.",
+      "comment_count": 30,
+      "hn_points": 88
+    }
+  }
+}
