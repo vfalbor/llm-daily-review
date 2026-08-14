@@ -1,0 +1,13 @@
+Cloning into 'cerebras'...
+remote: Not Found
+fatal: repository 'https://github.com/cerebras.git/' not found
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: ./cerebras is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+Traceback (most recent call last):
+  File "/app/test.py", line 83, in <module>
+    main()
+  File "/app/test.py", line 63, in main
+    import cerebras
+ModuleNotFoundError: No module named 'cerebras'
