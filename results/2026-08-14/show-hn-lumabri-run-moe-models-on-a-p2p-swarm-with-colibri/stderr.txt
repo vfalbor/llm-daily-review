@@ -1,0 +1,11 @@
+ERROR: Could not find a version that satisfies the requirement lumabri (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for lumabri
+Traceback (most recent call last):
+  File "/app/test.py", line 80, in <module>
+    run_benchmark()
+  File "/app/test.py", line 57, in run_benchmark
+    import lumabri
+ModuleNotFoundError: No module named 'lumabri'
