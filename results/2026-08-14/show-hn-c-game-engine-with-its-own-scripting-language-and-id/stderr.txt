@@ -1,0 +1,6 @@
+  Running command git clone --filter=blob:none --quiet https://github.com/ArcadeMakerSources/ArcadeMaker.git /tmp/pip-req-build-eqcl8cop
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: git+https://github.com/ArcadeMakerSources/ArcadeMaker.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Cloning into 'ArcadeMaker'...
