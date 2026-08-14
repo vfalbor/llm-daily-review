@@ -1,0 +1,86 @@
+{
+  "app_name": "Spaghettifying DRAM",
+  "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+  "scored_at": "2026-08-14T13:05:46.942Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app is not a fork and has 0 days since it was created, indicating it is a new project, but its type 'hardware-i2c' and the fact that it has no similar tools listed suggests it may be innovative in its field."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The app installed successfully in 9.6 seconds, which is relatively fast, but since it's not pip-installable and requires specific hardware, its accessibility is somewhat limited."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app's type 'hardware-i2c' is quite specific and might not be directly relevant to current LLM ecosystem trends, but its novelty and the fact that it's open-source could make it useful in certain niches."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 1,394 stars and being an open-source project, it stands out, especially considering its specific use case and the lack of similar tools, but exact differentiation needs more data for a precise comparison."
+    },
+    "community": {
+      "score": 5,
+      "justification": "While the GitHub stats show a decent number of stars and forks, the single contributor and lack of extensive community data make it difficult to assess the community's health accurately."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Given that only 2 out of 5 tests passed and considering the specific hardware requirements, the ease of use might be limited for non-technical users or those without the required setup."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project lacks a PyPI package, which makes integration into existing workflows more challenging, especially for those relying on pip for dependency management."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There's insufficient data available to accurately assess the quality and completeness of the project's documentation, as the GitHub repository's documentation and wiki could not be evaluated."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is relatively new, with 0 days since the last commit, indicating active development, but the single contributor and the absence of more detailed information about releases or versioning make its maturity hard to gauge."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Without specific benchmark comparisons to similar projects or more detailed performance metrics, it's challenging to accurately assess the project's performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this project."
+    }
+  },
+  "summary": "Spaghettifying DRAM is a novel, open-source hardware project with specific use cases that might not be widely applicable but shows promise in its niche. Its ease of use and integration could be improved, but it has potential for those interested in hardware-i2c projects.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+  "tool_url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49286341",
+  "domain": "hardware",
+  "app_type": "hardware-i2c",
+  "enriched": {
+    "github": {
+      "stars": 1394,
+      "forks": 117,
+      "open_issues": 1,
+      "watchers": 1394,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "analysis_failed"
+    }
+  }
+}
