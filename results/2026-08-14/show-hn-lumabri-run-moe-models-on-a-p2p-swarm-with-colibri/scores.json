@@ -1,0 +1,97 @@
+{
+  "app_name": "Lumabri",
+  "url": "https://github.com/JustVugg/lumabri",
+  "scored_at": "2026-08-14T13:06:32.403Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Lumabri is a first-of-its-kind approach to running Moe models on a P2P swarm with Colibri, with 9 days since repo creation and 0 days since last commit, indicating a new and active project."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success is false and install time is 8.4s, indicating potential issues with system requirements, and no PyPI package was found."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm-framework, Lumabri fits into the current LLM ecosystem trends, particularly with its focus on running Moe models on a P2P swarm, which is a unique and relevant use case."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 83 GitHub stars and a comparison to similar tools, Lumabri differentiates itself through its P2P swarm approach, although direct comparisons to other tools are needed for a higher score."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Lumabri has 83 GitHub stars, 3 contributors, and 2 open issues, with 0 days since the last commit, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "With 0 tests passed out of 2 and basic run success being false, ease of use is currently a challenge for Lumabri."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Lumabri has a CLI and P2P Swarm use mode, but no PyPI package and an Apache-2.0 license, making integration possible but not straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Data on documentation quality is insufficient, as there is no clear information on the existence or quality of documentation beyond the GitHub repository."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With 9 days since the repository was created, Lumabri is a very young project, and data on its maturity, such as release tags or a changelog, is not available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available, making it impossible to evaluate the performance of Lumabri accurately."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "Lumabri has a sentiment score of 9/10 from HN comments, with 37 HN points, 12 comments analyzed, and overwhelmingly positive signals about its innovation and potential use cases."
+    }
+  },
+  "summary": "Lumabri is a novel approach to running Moe models on a P2P swarm, with a small but active community and significant potential for innovation, but it currently faces challenges with ease of use and integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/JustVugg/lumabri",
+  "tool_url": "https://github.com/JustVugg/lumabri",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49293523",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 83,
+      "forks": 3,
+      "open_issues": 2,
+      "watchers": 83,
+      "contributors": 3,
+      "license": "Apache-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 9,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Run huge MoE models from a swarm of peers, with the colibri engine. Pure C.",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "excitement and praise for the project's innovation",
+        "potential for local network use-cases with low latency",
+        "possibility of contributing modest devices to the swarm"
+      ],
+      "negative_signals": [
+        "skeptical comment about inference being cheap",
+        "concern about potential misuse for censorship"
+      ],
+      "justification": "The project has received overwhelmingly positive comments, with many users praising the innovation and potential use-cases. However, there are some concerns raised about inference costs and potential misuse.",
+      "comment_count": 12,
+      "hn_points": 37
+    }
+  }
+}
