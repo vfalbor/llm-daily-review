@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "DeepSeek Harness developer preview",
+    "url": "https://deepseek.com/harness/en/",
+    "hn_url": "https://news.ycombinator.com/item?id=49285244",
+    "points": 688,
+    "comments": 280,
+    "author": "bjin",
+    "age": "2026-08-13T12:58:02 1786625882",
+    "scraped_at": "2026-08-14T13:00:02.356Z",
+    "tool_url": "https://deepseek.com/harness/en/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "infrastructure",
+    "app_type": "infra-cloud",
+    "description": "DeepSeek Harness developer preview",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "AWS",
+      "Google Cloud",
+      "Azure"
+    ],
+    "proposed_tests": [
+      "Create a DeepSeek account, set up Harness",
+      "Run a simple workload, verify correct output"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1786712658583-cumr9",
+    "log_dir": "/tmp/llm-review-1786712658583-cumr9",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 20, in <module>\n    subprocess.run(['deepseek', '--help'], check=True)\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'deepseek'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nCollecting deepseek\n  Downloading deepseek-1.0.0-py3-none-any.whl.metadata (3.9 kB)\nRequirement already satisfied: requests in /usr/local/lib/python3.12/site-packages (from deepseek) (2.34.2)\nRequirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests->deepseek) (3.5.0)\nRequirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests->deepseek) (3.18)\nRequirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests->deepseek) (2.7.0)\nRequirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests->deepseek) (2026.7.22)\nDownloading deepseek-1.0.0-py3-none-any.whl (4.5 kB)\nInstalling collected packages: deepseek\nSuccessfully installed deepseek-1.0.0\nINSTALL_OK\n"
+  }
+}
