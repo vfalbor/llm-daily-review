@@ -1,0 +1,87 @@
+{
+  "app_name": "Differential Heuristics",
+  "url": "https://www.redblobgames.com/blog/2026-08-08-differential-heuristics/",
+  "scored_at": "2026-08-14T13:03:05.624Z",
+  "total_score": 70,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN sentiment score is 8/10, with 52 HN points and 3 comments analyzed, indicating a positive community response."
+    },
+    "novelty": {
+      "score": 7,
+      "justification": "The Differential Heuristics tool presents a new approach to pathfinding, as noted in the blog post, but its novelty is not explicitly quantified."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "System requirements do not apply to this app type, as it is a research paper and blog post."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The tool is relevant to current LLM ecosystem trends, particularly in the context of pathfinding and game development, as seen in the similar tools listed, such as A* algorithm and Dijkstra's algorithm."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The Differential Heuristics tool has 0 GitHub stars, while similar tools, such as the Bellman-Ford algorithm, have 11 stars, indicating some differentiation but not a significant advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no GitHub repository detected for this tool, so community metrics like GitHub stars and contributors cannot be evaluated."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "Ease of use does not apply to this app type, as it is a research paper and blog post, not a software tool."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "Ease of integration does not apply to this app type, as it is a research paper and blog post, not a software library or tool."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The blog post about Differential Heuristics provides clear explanations and examples, indicating good documentation, but there is no dedicated documentation site or GitHub repository."
+    },
+    "maturity": {
+      "score": null,
+      "justification": "Maturity does not apply to this app type, as it is a research paper and blog post, and there is no information about its development stage or release history."
+    },
+    "performance": {
+      "score": null,
+      "justification": "Performance does not apply to this app type, as it is a research paper and blog post, and there are no benchmarks or performance metrics available."
+    }
+  },
+  "summary": "Differential Heuristics is a research paper and blog post about a new approach to pathfinding, with a positive community response on HN, but its novelty, differentiation, and documentation are not as strong as other tools in the field.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.redblobgames.com/blog/2026-08-08-differential-heuristics/",
+  "tool_url": "https://github.com/munlogadan/differential_heuristics",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49231490",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Bellman-Ford algorithm",
+        "stars": 11,
+        "repo": "arnab132/Bellman-Ford-Algorithm-Python"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Well-written demonstrations",
+        "Thought-provoking insights"
+      ],
+      "negative_signals": [
+        "Some color mix-up",
+        "Minor technical correction needed"
+      ],
+      "justification": "Comments were overwhelmingly positive, with praise for the write-up and demonstrations. Although there were some minor criticisms and corrections, they did not detract from the overall enthusiasm for the project.",
+      "comment_count": 3,
+      "hn_points": 52
+    }
+  }
+}
