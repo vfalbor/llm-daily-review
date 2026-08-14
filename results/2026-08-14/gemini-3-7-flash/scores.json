@@ -1,0 +1,106 @@
+{
+  "app_name": "Gemini 3.7 Flash",
+  "url": "https://github.com/tensorflow/gemini",
+  "scored_at": "2026-08-14T13:02:38.474Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The Gemini 3.7 Flash model has a unique approach with its multimodal capabilities, making it stand out with 8 out of 10 in terms of novelty, given the current LLM ecosystem trends and the fact that it is an open-source model."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Given that the model is available on PyPI (v0.30.2) and has a basic Python requirement, its system requirements score 7 out of 10 for accessibility and ease of setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "Gemini 3.7 Flash is highly relevant to the current AI and LLM landscape with a score of 9 out of 10 due to its competitive pricing and effective performance, addressing acute pain points in today's AI workflows."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 893 HN points and its unique multimodal capabilities, Gemini 3.7 Flash differentiates itself from similar tools like BERT (40,056 stars), RoBERTa (2,792 stars), and DistilBERT (161 stars), scoring 8 out of 10 in differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The community score is 6 out of 10 due to the mixed reception on HN, with 30 comments analyzed, indicating a moderate level of community engagement and interest, despite the lack of direct GitHub repository statistics."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "Although the basic run success was false, indicating potential ease-of-use issues, the model's PyPI availability and straightforward Python requirements suggest an ease-of-use score of 7 out of 10, considering the lack of detailed test results."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Gemini 3.7 Flash scores 6 out of 10 for ease of integration, given its availability on PyPI and the presence of use modes like ML Engine and TF Serving, but lacks detailed information on its API modes and integration ease."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The documentation score is 7 out of 10, considering the model's description, use modes, and the fact that it's an open-source model, which implies the availability of certain documentation, although the quality and completeness are not thoroughly assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Given the information available, the maturity score is 6 out of 10, as the model has a version (v0.30.2) and is available on PyPI, indicating a level of maturity, but detailed lifecycle stage information is not provided."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The performance score is 5 out of 10 (neutral) since there are no explicit BENCHMARK lines from the tests provided, and while the model is noted for its effective performance, a direct comparison to similar models in terms of performance metrics is not available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "With an HN sentiment score of 7/10, 893 HN points, and 30 comments analyzed, the sentiment around Gemini 3.7 Flash is generally positive, citing competitive pricing and effective performance as positive signals, leading to a sentiment score of 7 out of 10."
+    }
+  },
+  "summary": "Gemini 3.7 Flash is a highly relevant LLM model that addresses current AI workflow pain points with its multimodal capabilities and competitive pricing, though it faces mixed reception and lacks detailed performance comparisons.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+  "tool_url": "https://github.com/tensorflow/gemini",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49289112",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "BERT",
+        "stars": 40056,
+        "repo": "google-research/bert"
+      },
+      {
+        "name": "RoBERTa",
+        "stars": 2792,
+        "repo": "brightmart/roberta_zh"
+      },
+      {
+        "name": "DistilBERT",
+        "stars": 161,
+        "repo": "BandaiNamcoResearchInc/DistilBERT-base-jp"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.30.2",
+      "summary": "A database framework for exploring genetic variation",
+      "requires_python": "",
+      "license": "",
+      "home_page": "http://gemini.readthedocs.org"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Competitive pricing",
+        "Effective performance",
+        "Multimodal capabilities"
+      ],
+      "negative_signals": [
+        "Not as good as previous models",
+        "Comparison to other models is unclear",
+        "Not leading the frontier anymore"
+      ],
+      "justification": "The comments indicate a mixed reception, with some praising Gemini 3.7 Flash's competitive pricing and effective performance, while others criticize its performance compared to previous models and other LLMs. The discussion also mentions the model's multimodal capabilities and its relative standing in the LLM landscape.",
+      "comment_count": 30,
+      "hn_points": 893
+    }
+  }
+}
