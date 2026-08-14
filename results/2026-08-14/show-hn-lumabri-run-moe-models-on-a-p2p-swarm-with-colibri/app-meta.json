@@ -1,0 +1,46 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Show HN: Lumabri – Run Moe Models on a P2P Swarm with Colibri",
+    "url": "https://github.com/JustVugg/lumabri",
+    "hn_url": "https://news.ycombinator.com/item?id=49293523",
+    "points": 37,
+    "comments": 13,
+    "author": "vforno",
+    "age": "2026-08-14T00:47:04 1786668424",
+    "scraped_at": "2026-08-14T13:00:02.359Z",
+    "tool_url": "https://github.com/JustVugg/lumabri",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": null,
+    "use_modes": [
+      " CLI ",
+      " P2P Swarm",
+      " Modeling tool"
+    ],
+    "similar_tools": [],
+    "proposed_tests": [
+      " Install and test the tool on a local P2P network",
+      " Compare latency vs other model serving options",
+      " Run a sample inference task with the tool and measure performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/JustVugg/lumabri"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786712748233-u0zda",
+    "log_dir": "/tmp/llm-review-1786712748233-u0zda",
+    "install_success": false,
+    "install_time_s": 8.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement lumabri (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for lumabri\nTraceback (most recent call last):\n  File \"/app/test.py\", line 80, in <module>\n    run_benchmark()\n  File \"/app/test.py\", line 57, in run_benchmark\n    import lumabri\nModuleNotFoundError: No module named 'lumabri'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:Command '['pip', 'install', 'lumabri']' returned non-zero exit status 1.\nTEST_FAIL:local_p2p_network:No module named 'lumabri'\nTEST_FAIL:compare_latency:No module named 'baseline_tool'\n"
+  }
+}
