@@ -1,0 +1,114 @@
+{
+  "app_name": "ArcadeMaker",
+  "url": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+  "scored_at": "2026-08-14T13:04:17.273Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project creates a custom game engine with its own scripting language, which is a unique contribution, as seen in its 87 GitHub stars and 8 contributors in 88 days since its creation."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The project has an install time of 17.7s, which is moderate, but it lacks a PyPI package, making it not pip-installable."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "While the project has a unique approach, it has a small GitHub star count of 87 compared to similar tools like Unity (19,627) and MonoGame (14,303), indicating a smaller impact on the current LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has significantly fewer GitHub stars (-19,540 compared to Unity, -2,815 compared to Unreal Engine, and -14,216 compared to MonoGame) and lacks a PyPI package, indicating a lack of differentiation and adoption."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 87 GitHub stars, 8 forks, and 2 contributors, with 0 open issues and the last commit made 7 days ago, indicating some community engagement, but it's limited compared to other tools."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The project has 0 tests passed out of 7, indicating that it may be difficult to use and set up."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project lacks a PyPI package, and its use modes are limited to GitHub and IDE, making integration more challenging."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The project's documentation quality is unclear due to a lack of available data, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project's maturity is uncertain due to insufficient data, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no available benchmark results, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The project received a sentiment score of 8/10 on HN, with 70 points, 30 comments, and mostly positive signals, indicating a good community response."
+    }
+  },
+  "summary": "ArcadeMaker is a C# game engine with its own scripting language, showing a unique approach but lacking in differentiation, community, and ease of use compared to established tools. Its performance and maturity are uncertain due to insufficient data.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+  "tool_url": "https://github.com/ArcadeMakerSources/ArcadeMaker",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49258085",
+  "domain": "mobile",
+  "app_type": "mobile-cross",
+  "enriched": {
+    "github": {
+      "stars": 87,
+      "forks": 8,
+      "open_issues": 0,
+      "watchers": 87,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 7,
+      "days_since_created": 88,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A 2D Game Engine with its own programming language and IDE.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Unity",
+        "stars": 19627,
+        "repo": "Unity-Technologies/ml-agents"
+      },
+      {
+        "name": "Unreal Engine",
+        "stars": 2902,
+        "repo": "20tab/UnrealEnginePython"
+      },
+      {
+        "name": "MonoGame",
+        "stars": 14303,
+        "repo": "MonoGame/MonoGame"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Developer has a deep understanding of and passion for creating a custom scripting language and engine.",
+        "The project's ambition and willingness to push boundaries are notable and exciting.",
+        "The developer's commitment to using C# and learning new skills is commendable."
+      ],
+      "negative_signals": [
+        "Some commenters question the practicality and need for a custom engine and scripting language.",
+        "Concerns are raised about the potential learning curve and time commitment required for the project.",
+        "The developer's choice of using WinForms, which has some limitations, is questioned."
+      ],
+      "justification": "The project has received a generally positive response, with many commenters appreciating the developer's creativity and dedication to creating a custom engine and scripting language. However, some concern has been raised about the practicality and need for such a project, as well as the developer's choice of technology stack.",
+      "comment_count": 30,
+      "hn_points": 70
+    }
+  }
+}
