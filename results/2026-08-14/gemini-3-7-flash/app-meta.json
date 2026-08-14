@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "Gemini 3.7 Flash",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "hn_url": "https://news.ycombinator.com/item?id=49289112",
+    "points": 893,
+    "comments": 451,
+    "author": "thisisauserid",
+    "age": "2026-08-13T17:23:22 1786641802",
+    "scraped_at": "2026-08-14T13:00:02.352Z",
+    "tool_url": "https://github.com/tensorflow/gemini",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-model",
+    "description": "Gemini 3.7 Flash model",
+    "use_modes": [
+      "ML Engine",
+      "TF Serving"
+    ],
+    "similar_tools": [
+      "BERT",
+      "RoBERTa",
+      "DistilBERT",
+      "Longformer"
+    ],
+    "proposed_tests": [
+      "Clone the repo, build Gemini 3.7 Flash",
+      "Run benchmark on TPU, measure throughput"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/tensorflow/gemini"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786712534554-sl5f1",
+    "log_dir": "/tmp/llm-review-1786712534554-sl5f1",
+    "install_success": true,
+    "install_time_s": 8.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Cloning into 'gemini'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: Could not open requirements file: [Errno 2] No such file or directory: 'gemini/requirements.txt'\nCloning into 'gemini'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTraceback (most recent call last):\n  File \"/app/test.py\", line 41, in <module>\n    importlib.import_module('gemini')\n  File \"/usr/local/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'gemini'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:Failed to clone Gemini Command '['git', 'clone', 'https://github.com/tensorflow/gemini.git']' returned non-zero exit status 128.\nINSTALL_FAIL:Failed to install pip dependencies Command '['pip', 'install', '-r', 'gemini/requirements.txt']' returned non-zero exit status 1.\nINSTALL_FAIL:Failed to install pip package Command '['git', 'clone', 'https://github.com/tensorflow/gemini.git']' returned non-zero exit status 128.\nINSTALL_FAIL:Failed to import Gemini No module named 'gemini'\nINSTALL_OK\n"
+  }
+}
