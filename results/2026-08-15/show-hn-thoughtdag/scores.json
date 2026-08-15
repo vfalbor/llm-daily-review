@@ -1,0 +1,134 @@
+{
+  "app_name": "ThoughtDAG",
+  "url": "https://chenxiachan.github.io/thoughtdag/",
+  "scored_at": "2026-08-15T13:03:25.711Z",
+  "total_score": 41,
+  "scores": {
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The HN sentiment score is 7/10 based on 14 comments, indicating a generally positive reception with some constructive criticism."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "ThoughtDAG solves a problem in a somewhat new way, with 178 days since its repository was created and no indication of being a fork, showing some original contribution."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The install success is false and there is no PyPI package found, indicating significant complexity or issues with installation."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "Given the lack of data on its current relevance to the LLM ecosystem, a neutral score is assigned."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "ThoughtDAG is significantly different from its alternatives like LLaMA and LlamaIndex in terms of functionality but has a large gap in GitHub stars, indicating less community traction."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With 132 GitHub stars, 19 forks, and only 1 contributor, the community around ThoughtDAG is small compared to similar tools like LLaMA with 123,975 stars."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given the install success is false and basic run success is also false, it indicates significant difficulties with use and setup."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no PyPI package and the project doesn't seem to have straightforward integration paths, but it's open source under the MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is insufficient data available to assess the quality of documentation for ThoughtDAG directly from the provided information."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "With 178 days since the repository was created and days since the last commit being 0, indicating recent activity, but only 1 contributor and limited community engagement."
+    },
+    "performance": {
+      "score": null,
+      "justification": "There are no available benchmarks or performance data to evaluate ThoughtDAG's performance, making it not applicable for this criterion."
+    },
+    "ui/ux": {
+      "score": null,
+      "justification": "This criterion does not apply to the provided data, as the evaluation focuses on the LLM-related aspects rather than the user interface or user experience directly."
+    }
+  },
+  "summary": "ThoughtDAG is an open-source tool that, despite its novelty and positive HN sentiment, faces challenges in terms of installation, community size, and differentiation from larger alternatives. Its recent activity and open-source nature are positives, but more development and community engagement are needed for it to reach its full potential.",
+  "recommendation": "skip",
+  "app_url": "https://chenxiachan.github.io/thoughtdag/",
+  "tool_url": "https://github.com/chenxiachan/thoughtdag",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49307700",
+  "domain": "llm-ai",
+  "app_type": "rag-system",
+  "enriched": {
+    "github": {
+      "stars": 132,
+      "forks": 19,
+      "open_issues": 2,
+      "watchers": 132,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 178,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Your thinking deserves a map: an infinite canvas where LLM conversations grow into an editable thought graph. Wires are the context.",
+      "topics": [
+        "agentic-search",
+        "ai-tools",
+        "context-engineering",
+        "dag",
+        "human-in-the-loop",
+        "infinite-canvas",
+        "knowledge-graph",
+        "llm",
+        "local-first",
+        "mcp",
+        "note-taking",
+        "ollama",
+        "pkm",
+        "react-flow",
+        "research-tool",
+        "self-hosted"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LLaMA",
+        "stars": 123975,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "LlamaIndex",
+        "stars": 51654,
+        "repo": "run-llama/llama_index"
+      },
+      {
+        "name": "HugginFace",
+        "stars": 70,
+        "repo": "yvrjsharma/HugginFace_Gradio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Interesting idea and concept",
+        "Easier to understand than manual approach",
+        "Useful for exploring and representing complex ideas"
+      ],
+      "negative_signals": [
+        "Skepticism about cache performance",
+        "Question about compatibility with other systems"
+      ],
+      "justification": "The project has received mostly positive comments, with some constructive criticism regarding cache performance and integration with other systems. There is also some confusion about the purpose and scope of the project, but overall, the idea and concept are well-received.",
+      "comment_count": 14,
+      "hn_points": 57
+    }
+  }
+}
