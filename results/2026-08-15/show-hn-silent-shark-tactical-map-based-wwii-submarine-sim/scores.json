@@ -1,0 +1,92 @@
+{
+  "app_name": "Silent Shark",
+  "url": "https://silentshark.app/",
+  "scored_at": "2026-08-15T13:05:12.706Z",
+  "total_score": 74,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The game offers a unique blend of tactical gameplay and map-based exploration, with 8.5s install time, which is relatively fast for a game of this type, and no direct equivalent was found among similar tools."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "The game installs successfully in 8.5s and has a basic run success, indicating low system requirements, and it can be played directly in the browser, making it highly accessible."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a WWII-era submarine simulation, it fits into the current gaming landscape, particularly with the rise of historical and tactical games, and its use of AI in game design is a relevant topic of discussion."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 51 HN points and positive feedback from users, Silent Shark differentiates itself from similar tools like SubHunter (88 stars) and Battleship (523 stars) through its unique gameplay mechanics and native Linux support."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Although there's no GitHub repo detected, the HN discussion with 16 comments, a sentiment score of 8/10, and positive signals for its gameplay experience indicate an engaged, albeit small, community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 3 tests passed, and the game has a basic run success, indicating that it is easy to use and get started with, especially given its browser-based gameplay."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to a game, as it is not typically integrated into other applications or workflows."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Due to the lack of direct access to the game's documentation or GitHub repository, and without explicit documentation links provided, the score is set to 5, acknowledging that some form of documentation or guide is likely available but was not directly evaluated."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the absence of explicit versioning information, release notes, or a detectable GitHub repository, maturity is scored as 5, reflecting a lack of clear data on its development stage or history."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark measurements such as import_time_ms:0.13446807861328125 and game_simulation_ms:0.000476837158203125 indicate good performance, and the memory_usage_bytes:0 suggests efficient resource usage, contributing to a high performance score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "With a sentiment score of 8/10, 51 HN points, and 16 comments, the majority of which are positive, the HN sentiment towards Silent Shark is favorable, indicating a supportive community and interest in the game."
+    }
+  },
+  "summary": "Silent Shark is a tactical map-based WWII submarine simulation game that offers a unique gaming experience with easy-to-use mechanics and good performance. While its community and maturity scores are affected by the lack of a detectable GitHub repository, the game's differentiation and novelty are notable, especially considering its native Linux support and engaging gameplay.",
+  "recommendation": "worth-watching",
+  "app_url": "https://silentshark.app/",
+  "tool_url": "https://github.com/example/subsim",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49277535",
+  "domain": "games",
+  "app_type": "game-engines",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SubHunter",
+        "stars": 88,
+        "repo": "umutcamliyurt/Subhunter"
+      },
+      {
+        "name": "Battleship",
+        "stars": 523,
+        "repo": "bigardone/phoenix-battleship"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fun and engaging gameplay experience",
+        "Native Linux support",
+        "Positive feedback from users with suggestions for improvements"
+      ],
+      "negative_signals": [
+        "Some users questioning the use of AI in game design"
+      ],
+      "justification": "The majority of comments are positive, praising the game's fun and engaging gameplay, with some users expressing suggestions for improvement. While there is some debate about the use of AI in game design, the tone of the discussion is generally constructive and respectful.",
+      "comment_count": 16,
+      "hn_points": 51
+    }
+  }
+}
