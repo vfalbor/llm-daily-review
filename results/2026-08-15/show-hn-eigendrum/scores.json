@@ -1,0 +1,84 @@
+{
+  "app_name": "Eigendrum",
+  "url": "https://baselashraf81.github.io/eigendrum/",
+  "scored_at": "2026-08-15T13:02:44.465Z",
+  "total_score": 57,
+  "scores": {
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is not applicable for this evaluation"
+    },
+    "novelty": {
+      "score": 8,
+      "justification": "The app provides a unique interactive way to visualize shapes as drums, which is a novel approach with no direct equivalent, as seen in the comparison to similar tools like Drum Machine and Sound Waves, with 45 HN points indicating some interest in this new concept."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The app is accessible via a web page and does not require any specific installation, with a page content length of 20409 chars, but it lacks a clear install command and is not pip-installable, with an install time not applicable in this context."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "The app fits into the current web-app ecosystem trends, providing an interactive GUI and API, but its relevance to the LLM ecosystem is less direct, with 10 comments on HN indicating some community engagement."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The app has a unique approach to drum visualization but lacks significant advantages over similar tools like Drum Machine, with 2 positive signals on HN about its wave equation solver and finite element analysis."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The app has 45 HN points and 10 comments, indicating a small but engaged community, with 2 positive signals about its technical validation, but lacks a large following or significant community activity."
+    },
+    "ease_of_use": {
+      "score": 7,
+      "justification": "The app provides an interactive GUI, but its usability is affected by technical issues such as pitch errors and audio not working on mobile safari, with 4 tests passed out of 5, indicating some minor friction in the user experience."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app has an API mention but lacks clear documentation on how to integrate it, with no PyPI package found and no install command on the page, making its integration somewhat unclear."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The app lacks a clear documentation or wiki, but has a page content length of 20409 chars and examples or demo, indicating some effort in explaining its functionality, but not enough for a high score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The app has a detected version of 10.1137, but lacks a clear changelog or release notes, and has some technical issues, indicating a moderate level of maturity, with 45 HN points and 10 comments suggesting some but not extensive user feedback."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The app's performance is not clearly benchmarked, with no direct comparisons to similar tools, and some technical issues like pitch errors and audio problems on mobile safari, making its performance hard to evaluate."
+    }
+  },
+  "summary": "Eigendrum is an interactive web app that visualizes shapes as drums, providing a novel approach to drum visualization, but it lacks significant advantages over similar tools and has some technical issues, resulting in a moderate total score.",
+  "recommendation": "worth-watching",
+  "app_url": "https://baselashraf81.github.io/eigendrum/",
+  "tool_url": "https://baselashraf81.github.io/eigendrum/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49246366",
+  "domain": "web",
+  "app_type": "web-app",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "2D wave equation solver",
+        "finite element analysis validated"
+      ],
+      "negative_signals": [
+        "Privacy concerns over 1192 partners",
+        "Pitch errors with specific drum shapes",
+        "Cookie dialog",
+        "Redirected link",
+        "Audio doesn't work on mobile safari"
+      ],
+      "justification": "The Eigendrum project received a mostly negative reception due to concerns about data sharing, technical issues such as pitch errors and audio not working on mobile safari, as well as minor annoyances like cookies and a redirected link.",
+      "comment_count": 10,
+      "hn_points": 45
+    }
+  }
+}
