@@ -1,0 +1,99 @@
+{
+  "app_name": "eigendrum",
+  "url": "https://eigendrum.com/#p=circle",
+  "scored_at": "2026-08-15T13:04:05.405Z",
+  "total_score": 57,
+  "scores": {
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The HN comment sentiment score is 8/10, with 190 points and 30 comments analyzed, indicating a generally positive response to the project."
+    },
+    "novelty": {
+      "score": 6,
+      "justification": "The project is a unique application of drums in a web interface, but it does not revolutionize the music industry; thus, it does not score higher than 6."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The install time is 9.4 seconds, which is relatively fast, and the install success is true, but since it is a web application, these scores might not be as relevant."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The current relevance of this app is low because the music industry has numerous tools for creating music, and this one does not particularly stand out in terms of current trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Since there is no direct comparison in terms of similar tools for music creation and the lack of a GitHub repository, it's challenging to assess differentiation accurately, so a neutral score is assigned."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The community score is 6, based on the 190 HN points and 30 comments, which indicates a moderate level of engagement but lacks direct comparison to other projects."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Given that no tests passed out of 2, but basic run success is true, it's difficult to accurately assess ease of use without more data, so a neutral score is given."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "This criterion does not apply to a web application like eigendrum."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without direct access to documentation or a GitHub repository, and given the nature of the application, the documentation score is neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The maturity of the project is hard to determine without more information on its development history and releases, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There are no direct performance benchmarks provided for this web application to accurately assess its performance."
+    }
+  },
+  "summary": "Eigendrum is a web-based music creation tool that offers a unique interface for drumming but does not particularly stand out in terms of current trends or offer substantial differentiation from other music creation tools. Its community engagement is moderate, but there is limited information available on its documentation, maturity, and performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://eigendrum.com/#p=circle",
+  "tool_url": "https://github.com/dominicvassallo/eigendrum",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49305250",
+  "domain": "llm-ai",
+  "app_type": "prompt-tool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "DALL-E",
+        "stars": 10835,
+        "repo": "openai/DALL-E"
+      },
+      {
+        "name": "Midjourney",
+        "stars": 12292,
+        "repo": "willwulfken/MidJourney-Styles-and-Keywords-Reference"
+      },
+      {
+        "name": "Stable Diffusion",
+        "stars": 164498,
+        "repo": "AUTOMATIC1111/stable-diffusion-webui"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "very cool",
+        "microtonal",
+        "excellent project"
+      ],
+      "negative_signals": [
+        "ads",
+        "technical issues on mobile",
+        "concerns over cookie settings"
+      ],
+      "justification": "The project received widespread praise and appreciation, with many users enjoying the interactive drums. However, some users reported technical issues and concerns over cookie settings, which detract from the overall experience.",
+      "comment_count": 30,
+      "hn_points": 190
+    }
+  }
+}
