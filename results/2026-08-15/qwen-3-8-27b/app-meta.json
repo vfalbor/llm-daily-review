@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Qwen 3.8 27B",
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+    "hn_url": "https://news.ycombinator.com/item?id=49299605",
+    "points": 1210,
+    "comments": 722,
+    "author": "erdaltoprak",
+    "age": "2026-08-14T15:00:00 1786719600",
+    "scraped_at": "2026-08-15T13:00:02.710Z",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "llm-ai",
+    "app_type": "llm-model",
+    "description": "Qwen 3.8 27B model (Hugging Face)",
+    "use_modes": [
+      "API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Bloom",
+      "Llama"
+    ],
+    "proposed_tests": [
+      "Download Qwen 3.8 27B and run basic tests for correctness",
+      "Compare Qwen's output with another state-of-the-art model",
+      "Run a stress test or large-scale demo with Qwen 3.8 27B"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://huggingface.co/Qwen/",
+    "tool_url": "https://huggingface.co/spaces/SeanByrne/Qwen"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786798908154-azqeh",
+    "log_dir": "/tmp/llm-review-1786798908154-azqeh",
+    "install_success": false,
+    "install_time_s": 7.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 5, in <module>\n    from qwen_model import Qwen\nModuleNotFoundError: No module named 'qwen_model'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
