@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+    "url": "https://z.ai/blog/glm-5.3",
+    "hn_url": "https://news.ycombinator.com/item?id=49294997",
+    "points": 1107,
+    "comments": 543,
+    "author": "pella",
+    "age": "2026-08-14T05:19:59 1786684799",
+    "scraped_at": "2026-08-15T13:00:02.721Z",
+    "tool_url": "https://github.com/zai-tech/glm",
+    "source_type": "library",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "language",
+    "app_type": "language-interpreters",
+    "description": "Programming language for AI-powered coding and cybernetics",
+    "use_modes": [
+      "Language Server",
+      "Compiler"
+    ],
+    "similar_tools": [
+      "Racket",
+      "Iotas",
+      "Lisp"
+    ],
+    "proposed_tests": [
+      "Install GLM and run a test program for AI-powered coding",
+      "Verify correctness of emergent cyber capabilities and simulation",
+      "Check for any performance issues during large-scale simulations",
+      "Compare language server speed between GLM and Racket"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zai-tech/glm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786799248656-grlk7",
+    "log_dir": "/tmp/llm-review-1786799248656-grlk7",
+    "install_success": false,
+    "install_time_s": 7.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 4, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
