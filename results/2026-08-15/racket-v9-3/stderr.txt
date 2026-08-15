@@ -1,0 +1,18 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+Cloning into 'racket'...
+Updating files:  80% (4770/5952)Updating files:  81% (4822/5952)Updating files:  82% (4881/5952)Updating files:  83% (4941/5952)Updating files:  84% (5000/5952)Updating files:  85% (5060/5952)Updating files:  86% (5119/5952)Updating files:  87% (5179/5952)Updating files:  88% (5238/5952)Updating files:  89% (5298/5952)Updating files:  90% (5357/5952)Updating files:  91% (5417/5952)Updating files:  92% (5476/5952)Updating files:  93% (5536/5952)Updating files:  94% (5595/5952)Updating files:  95% (5655/5952)Updating files:  96% (5714/5952)Updating files:  97% (5774/5952)Updating files:  98% (5833/5952)Updating files:  99% (5893/5952)Updating files: 100% (5952/5952)Updating files: 100% (5952/5952), done.
+Traceback (most recent call last):
+  File "/app/test.py", line 79, in <module>
+    if install_racket():
+       ^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 15, in install_racket
+    subprocess.run(['./configure'], check=True)
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: './configure'
