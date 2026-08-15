@@ -1,0 +1,86 @@
+{
+  "app_name": "Geometric Reasoning",
+  "url": "https://sophontic.ai/",
+  "scored_at": "2026-08-15T13:04:33.509Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The app has a unique approach to geometric reasoning, but lacks concrete comparison to similar tools like Geometric Intelligence with 252 stars and ReasoningBench with 1 star."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Insufficient data to assess system requirements as install_time_s is 9.4s and no other metrics are available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is relevant to current LLM ecosystem trends, focusing on geometric reasoning for AI, which is an area of active research."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The app has a unique approach but lacks direct comparison metrics to similar tools like Geometric Intelligence and ReasoningBench, with 252 and 1 stars respectively."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected, and with only 1 comment and 3 HN points, the community engagement is very low."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "The app had 0 tests passed out of 2, indicating significant issues with usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is not pip-installable, indicating difficulties in integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Insufficient data to assess documentation quality."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The app lacks concrete indicators of maturity, such as versioning or release history, and has no available GitHub data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There's insufficient benchmark data to assess performance, despite memory_usage_bytes being 234, which is not enough for a comprehensive evaluation."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment analysis is not applicable due to insufficient comments (only 1 comment found), thus unable to derive a meaningful sentiment score."
+    }
+  },
+  "summary": "Geometric Reasoning is a unique geometric reasoning benchmark for AI, although it faces challenges in usability and community engagement. Its relevance to current LLM trends is notable, but the lack of maturity and insufficient data in several areas hinder its overall score.",
+  "recommendation": "niche",
+  "app_url": "https://sophontic.ai/",
+  "tool_url": "https://github.com/Sophontic/geometric-reasoning",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49267776",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Geometric Intelligence",
+        "stars": 252,
+        "repo": "geometric-intelligence/topobench"
+      },
+      {
+        "name": "ReasoningBench",
+        "stars": 1,
+        "repo": "billyrdavis1985-bot/-IRMB_HF-IQR_ReasoningBenchmark"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 3
+    }
+  }
+}
