@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Show HN: Eigendrum",
+    "url": "https://baselashraf81.github.io/eigendrum/",
+    "hn_url": "https://news.ycombinator.com/item?id=49246366",
+    "points": 45,
+    "comments": 10,
+    "author": "BaselAshraf81",
+    "age": "2026-08-10T16:53:31 1786380811",
+    "scraped_at": "2026-08-15T13:00:02.711Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "web-app",
+    "description": "Interactive web app to visualize shapes as drums",
+    "use_modes": [
+      "GUI",
+      "API"
+    ],
+    "similar_tools": [
+      "Drum Machine",
+      "Sound Waves"
+    ],
+    "proposed_tests": [
+      "Download Eigendrum and run a standard drumming example",
+      "Test visual customization options and ensure UI remains snappy",
+      "Verify compatibility with different web browsers"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": "https://github.com/baselashraf81/eigendrum",
+    "tool_url": "https://baselashraf81.github.io/eigendrum/"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786798937920-tne0q",
+    "log_dir": "/tmp/llm-review-1786798937920-tne0q",
+    "install_success": true,
+    "install_time_s": 16.3,
+    "basic_run_success": true,
+    "tests_passed": 4,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:download_time_ms:12.565135955810547\nBENCHMARK:customization_time_ms:2.9807090759277344\nBENCHMARK:browser_Chrome_time_ms:10.778665542602539\nBENCHMARK:browser_Firefox_time_ms:10.44154167175293\nBENCHMARK:browser_Safari_time_ms:12.084007263183594\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:vs_drummachine_response_time_ms:676.5952110290527\nBENCHMARK:vs_drummachine_response_time_ratio:1.0",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nnpm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-15T13_02_28_524Z-debug-0.log\nnpm error code ENOENT\nnpm error syscall open\nnpm error path /package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-15T13_02_29_240Z-debug-0.log\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/9) Installing libgcc (15.2.0-r5)\n(2/9) Installing libstdc++ (15.2.0-r5)\n(3/9) Installing ada-libs (3.3.0-r0)\n(4/9) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/9) Installing icu-libs (78.1-r0)\n(6/9) Installing simdjson (4.2.4-r0)\n(7/9) Installing simdutf (9.0.0-r0)\n(8/9) Installing nodejs (24.18.1-r0)\n(9/9) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.0 MiB in 60 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:download_time_ms:12.565135955810547\nTEST_PASS:drumming_example\nBENCHMARK:customization_time_ms:2.9807090759277344\nTEST_FAIL:visual_customization:404\nBENCHMARK:browser_Chrome_time_ms:10.778665542602539\nTEST_PASS:browser_Chrome\nBENCHMARK:browser_Firefox_time_ms:10.44154167175293\nTEST_PASS:browser_Firefox\nBENCHMARK:browser_Safari_time_ms:12.084007263183594\nTEST_PASS:browser_Safari\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:vs_drummachine_response_time_ms:676.5952110290527\nBENCHMARK:vs_drummachine_response_time_ratio:1.0\nRUN_OK\n"
+  }
+}
