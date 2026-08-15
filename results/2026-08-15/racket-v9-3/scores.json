@@ -1,0 +1,127 @@
+{
+  "app_name": "Racket",
+  "url": "https://github.com/racket/racket",
+  "scored_at": "2026-08-15T13:07:27.649Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Racket has a unique approach to functional programming with macro-based development, setting it apart from other languages like Scheme and Lisp, with 5963 days since its creation and 466 contributors."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation was not successful, taking 122.4 seconds, and basic run was also unsuccessful, indicating potential issues with system requirements."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a functional programming language, Racket fits into the current ecosystem but does not address a specific acute pain point in today's LLM workflows, with its primary language being Racket."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Racket stands out from similar tools like Scheme and Lisp with its unique macro-based development approach, despite having fewer stars (5194 vs 27136 for Scheme and 7505 for Lisp)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "With 5194 stars, 696 forks, and 466 contributors, Racket has a significant community presence, although concerns about the core team and minor syntax criticisms were noted in HN comments."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Given that no tests passed out of 0 tests and the basic run was not successful, ease of use is significantly hindered by installation and usage issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Racket has a PyPI package (v0.3.9) and supports interpreter and compiler use modes, but its integration potential may be impacted by its less common primary language, Racket."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The existence of a blog post announcing version 9.3 and a GitHub repository suggests that Racket has some level of documentation, but the quality and depth could not be directly assessed without further information."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "With 5963 days since its creation and regular updates (days since last commit: 0), Racket is a mature language, albeit with concerns about its core team's interactions with the community."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No direct performance benchmarks were provided, but the HN comments praised Racket's runtime performance, suggesting it might have a performance advantage, though this is not quantitatively confirmed."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score from HN comments is 8/10, with 112 points and 7 comments, indicating a generally positive view of Racket, tempered by some negative experiences and criticisms."
+    },
+    "recommendation": {
+      "score": "niche",
+      "justification": "Given the scores, Racket seems to be a niche tool with a dedicated community and unique features but may not be as broadly applicable or user-friendly for general audiences."
+    }
+  },
+  "summary": "Racket is a mature, functional programming language with a unique macro-based development approach, a significant community, and praised runtime performance, but it faces challenges with ease of use and integration, and some community concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.racket-lang.org/2026/08/racket-v9-3.html",
+  "tool_url": "https://github.com/racket/racket",
+  "source_type": "library",
+  "hn_url": "https://news.ycombinator.com/item?id=49302562",
+  "domain": "language",
+  "app_type": "interpreter",
+  "enriched": {
+    "github": {
+      "stars": 5194,
+      "forks": 696,
+      "open_issues": 600,
+      "watchers": 5194,
+      "contributors": 466,
+      "license": "NOASSERTION",
+      "language": "Racket",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5963,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Racket repository",
+      "topics": [
+        "racket"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Scheme",
+        "stars": 27136,
+        "repo": "mbadolato/iTerm2-Color-Schemes"
+      },
+      {
+        "name": "Lisp",
+        "stars": 7505,
+        "repo": "norvig/paip-lisp"
+      },
+      {
+        "name": "Erlang",
+        "stars": 12323,
+        "repo": "erlang/otp"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.9",
+      "summary": "Serve your models with confidence",
+      "requires_python": "",
+      "license": "GNU General Public License v3",
+      "home_page": "https://github.com/carlomazzaferro/racket"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "great runtime performance",
+        "featureful standard library",
+        "excitement and praise"
+      ],
+      "negative_signals": [
+        "concerns about bullying and the core team",
+        "some criticism about syntax",
+        "minor concerns about potential users being deterred"
+      ],
+      "justification": "The comments are largely positive, citing the performance and featurefulness of Racket. However, some users express concerns about negative experiences with the core team and minor criticism about syntax, which tempers the enthusiasm overall.",
+      "comment_count": 7,
+      "hn_points": 112
+    }
+  }
+}
