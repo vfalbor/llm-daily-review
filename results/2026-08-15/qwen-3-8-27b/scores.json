@@ -1,0 +1,84 @@
+{
+  "app_name": "Qwen 3.8 27B",
+  "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+  "scored_at": "2026-08-15T13:02:16.879Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "This model is an advancement of the Qwen series, with a size of 27B, which is notable in the current LLM ecosystem, particularly considering the days since the last update in the Qwen series and its comparison to similar tools like Bloom and Llama, which have different model sizes and architectures."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "The model is not easily installable via pip due to the absence of a PyPI package, and its installation requirements are not clearly documented, indicating moderate to high complexity, with an install time not directly applicable due to the nature of the model."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an LLM model, particularly one with a significant size like 27B, it addresses current needs in AI development for large, capable models, fitting well with trends in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While similar to other models like Bloom and Llama in terms of being a large LLM, the Qwen 3.8 27B model differentiates itself through its specific size and performance metrics, although exact comparisons to similar tools are not provided in the data."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Given the HN points of 1209 and the analysis of 30 comments, the community shows interest and engagement, with positive signals indicating excitement and praise, although no direct GitHub repository stats are available for a more comprehensive assessment."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "The model's ease of use is hindered by the lack of direct installability via pip and the absence of clear, accessible documentation or tutorials for end-users, particularly considering the install success was false and basic run success was also false."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The model can be integrated via API, but the ease of this integration, including the use of SDKs or other modes, is not clearly documented or evaluated in the provided data, making it neutral without further information."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The absence of clear documentation or a comprehensive guide for the model makes its documentation score lower, considering the need for better resources for users to understand and utilize the model effectively."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without specific data on the model's development history, release versions, or maintenance activity, the maturity score remains neutral, indicating a need for more information to accurately assess its production readiness and stability."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The sentiment analysis indicates positive feedback about the model's performance and size, suggesting a high-performance capability, although direct benchmark comparisons to similar models are not provided in the quantitative data."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With a sentiment score of 9/10, HN points of 1209, and positive comments outweighing negative ones, the HN sentiment towards the model is very positive, indicating a strong community reception and interest in the model's capabilities and applications."
+    },
+    "recommendation": "worth-watching"
+  },
+  "summary": "Qwen 3.8 27B is a large language model that, despite installation difficulties and lack of comprehensive documentation, shows promise with its performance and community engagement, making it worth watching for developments and improvements.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+  "tool_url": "https://huggingface.co/spaces/SeanByrne/Qwen",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49299605",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "excitement about model size and performance",
+        "praise for Unsloth's models and service",
+        "enthusiasm for the model's applications and use cases"
+      ],
+      "negative_signals": [
+        "questions about the need for quantization and its effects",
+        "concerns about the model's reliability and consistency",
+        "criticism of the current state of the quantization space"
+      ],
+      "justification": "The overall sentiment is overwhelmingly positive with many users excited about the model's size and performance, and praise for Unsloth's models and service. However, there are also concerns about the need for quantization and its effects, as well as criticism of the current state of the quantization space.",
+      "comment_count": 30,
+      "hn_points": 1209
+    }
+  }
+}
