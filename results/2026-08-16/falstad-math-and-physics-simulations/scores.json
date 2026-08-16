@@ -1,0 +1,90 @@
+{
+  "app_name": "Falstad Math and Physics Simulations",
+  "url": "https://www.falstad.com/mathphysics.html",
+  "scored_at": "2026-08-16T13:03:15.750Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "With no GitHub repository detected and no comparison to similar tools, the novelty of this app is difficult to assess directly. However, considering the interactive nature of the simulations and the variety of math and physics concepts covered, it presents a unique educational approach, scoring 6 for novelty."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Given the install success is false and install time is not applicable due to the lack of installation requirements for web-based tools, the system requirements score is primarily influenced by the need for a web browser, scoring 3 for moderate accessibility."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an educational tool for math and physics, its relevance is high due to the ongoing need for interactive learning materials in these fields, especially considering the trend towards online education, scoring 8 for current relevance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools like Khan Academy (with 94 GitHub stars for a related project) and PhET Interactive Simulations, Falstad's web-based simulations offer a distinct approach to interactive learning, scoring 7 for differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Without GitHub statistics and considering the HN comments (35 points, 8 comments analyzed) that show a small but appreciative community, the community score is 4, indicating a modest but supportive user base."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Due to the lack of direct usability data from tests, and considering it's a web-based tool that doesn't require installation, the ease of use is neutral, scoring 5."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "As a web-based tool not intended for integration into other systems or pipelines, this criterion does not apply, scoring null."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Without specific data on the documentation quality and considering the nature of web-based tools, the documentation score is neutral, scoring 5."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Given the lack of direct data on the tool's maturity, such as versioning or update history, and considering it's an established web-based resource, the maturity score is neutral, scoring 5."
+    },
+    "performance": {
+      "score": null,
+      "justification": "As a web-based educational tool without specific performance benchmarks (e.g., speed, efficiency) applicable in the traditional sense, this criterion does not apply directly, scoring null."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "With an HN sentiment score of 9/10, indicating overwhelmingly positive feedback with 35 points and 8 comments analyzed, the HN sentiment is very positive, scoring 9."
+    }
+  },
+  "summary": "Falstad Math and Physics Simulations is a valuable educational resource offering interactive simulations for math and physics concepts. While it presents a unique approach to learning, its community and documentation could be further developed. It is particularly praised for its usefulness and the quality of its simulations, making it a worthwhile resource for students and educators alike.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.falstad.com/mathphysics.html",
+  "tool_url": "https://github.com/jfawl/falstad-mathphysics-simulations",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=49316872",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Khan Academy",
+        "stars": 94,
+        "repo": "andymatuschak/Khan-Academy-Offer-Acceptance-Toy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "reminds people of fond memories",
+        "praised as great",
+        "user appreciative of being 'converted everything to JavaScript for everyone to use'",
+        "user highlights the usefulness of its circuit simulator (CircuitJS)"
+      ],
+      "negative_signals": [
+        "user asks if SodaPlay is still available",
+        "user notes that circuitjs can be less accurate than spice simulators",
+        "no significant criticism found"
+      ],
+      "justification": "Overwhelmingly positive sentiment with users sharing fond memories and praising the project's quality and usefulness. Users also share related projects developed by the creator, which are highly regarded.",
+      "comment_count": 8,
+      "hn_points": 35
+    }
+  }
+}
