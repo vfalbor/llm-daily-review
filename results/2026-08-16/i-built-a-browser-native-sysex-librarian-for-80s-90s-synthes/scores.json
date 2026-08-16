@@ -1,0 +1,83 @@
+{
+  "app_name": "I built a browser-native SysEx librarian for 80s/90s synthesizers",
+  "url": "https://bipluk.com/",
+  "scored_at": "2026-08-16T13:04:35.462Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The app addresses a specific need for 80s/90s synthesizers, showing a unique approach with a browser-native SysEx librarian, as mentioned on the webpage with 11179 characters of content."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The install time is 7.5 seconds, and the install was successful, but no PyPI package was found, which might limit its accessibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The app is relevant to the current ecosystem of 80s/90s synthesizers, but its broader application and timing are not clearly stated, with no direct comparison to current LLM trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The browser-native approach differentiates it, but without direct comparisons to similar tools, the uniqueness is somewhat assumed based on the webpage's content and version detection of 10.226."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 28 HN points and 15 comments, the community engagement is present but not strongly indicative of a large or very active community, with a mixed sentiment score of 5/10."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The tests passed were 1 out of 3, which indicates some issues with ease of use or the testing process itself, but without further data, it's scored neutrally."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The webpage mentions API/SDK/webhook, which is a positive signal for integration, but without clear evidence of ease or direct integration methods, it's somewhat above neutral."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The webpage has a docs/wiki/guide link and a changelog or release notes, indicating a good level of documentation, with a content length of 11179 characters showing depth."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The version detected is 10.226, and there's a changelog, but without more data on updates, releases, or age, maturity is scored neutrally."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The app_run_time_ms is 18.325090408325195, and app_memory_usage_kb is 50.0908203125, showing some performance data, but without comparisons, it's hard to assess its performance fully."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment is not directly applicable as a separate criterion but is considered within the community score, with a sentiment score of 5/10, 28 HN points, and mixed positive and negative signals."
+    }
+  },
+  "summary": "This app offers a unique browser-native SysEx librarian for 80s/90s synthesizers, showing promise in its novelty and documentation but requiring more data for a full assessment of its maturity, performance, and community.",
+  "recommendation": "worth-watching",
+  "app_url": "https://bipluk.com/",
+  "tool_url": "https://github.com/your-url",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49279628",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Effort to create a browser-native SysEx librarian is appreciated",
+        "Some users appreciate the ambition and enthusiasm for the project",
+        "There are examples of successful similar projects mentioned by users"
+      ],
+      "negative_signals": [
+        "Users criticize the sloppy marketing site and language used",
+        "Concerns about the business model and lack of transparency",
+        "Some users find the headline translation to be poorly done"
+      ],
+      "justification": "The sentiment is mixed, with some users praising the effort behind the project, while others criticize the marketing and business model. The community seems divided and there is not enough information to determine a clear direction.",
+      "comment_count": 15,
+      "hn_points": 28
+    }
+  }
+}
