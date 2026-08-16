@@ -1,0 +1,84 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.2-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+Obtaining file:///grafana-agento11y-hermes
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting agento11y<0.15,>=0.14 (from grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading agento11y-0.14.0-py3-none-any.whl.metadata (40 kB)
+Collecting opentelemetry-exporter-otlp-proto-http>=1.27 (from grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_exporter_otlp_proto_http-1.44.0-py3-none-any.whl.metadata (2.4 kB)
+Collecting opentelemetry-sdk>=1.27 (from grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_sdk-1.44.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting grpcio>=1.80.0 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading grpcio-1.83.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (3.7 kB)
+Collecting protobuf>=6.31.1 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading protobuf-7.35.1-py3-none-any.whl.metadata (595 bytes)
+Collecting opentelemetry-api>=1.27.0 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_api-1.44.0-py3-none-any.whl.metadata (1.4 kB)
+Collecting opentelemetry-exporter-otlp-proto-grpc>=1.27.0 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_exporter_otlp_proto_grpc-1.44.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting opentelemetry-proto>=1.27.0 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_proto-1.44.0-py3-none-any.whl.metadata (2.3 kB)
+Collecting PyYAML>=6.0.2 (from agento11y<0.15,>=0.14->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (2.4 kB)
+Collecting googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading googleapis_common_protos-1.75.1-py3-none-any.whl.metadata (8.5 kB)
+Collecting opentelemetry-exporter-otlp-proto-common==1.44.0 (from opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_exporter_otlp_proto_common-1.44.0-py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: requests~=2.7 in /usr/local/lib/python3.12/site-packages (from opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a) (2.34.2)
+Collecting typing-extensions>=4.5.0 (from opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting opentelemetry-semantic-conventions==0.65b0 (from opentelemetry-sdk>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a)
+  Downloading opentelemetry_semantic_conventions-0.65b0-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /usr/local/lib/python3.12/site-packages (from requests~=2.7->opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a) (3.5.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.12/site-packages (from requests~=2.7->opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a) (3.18)
+Requirement already satisfied: urllib3<3,>=1.26 in /usr/local/lib/python3.12/site-packages (from requests~=2.7->opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a) (2.7.0)
+Requirement already satisfied: certifi>=2023.5.7 in /usr/local/lib/python3.12/site-packages (from requests~=2.7->opentelemetry-exporter-otlp-proto-http>=1.27->grafana-agento11y-hermes==0.8.1.dev2+g6982cc02a) (2026.7.22)
+Downloading agento11y-0.14.0-py3-none-any.whl (141 kB)
+Downloading opentelemetry_exporter_otlp_proto_http-1.44.0-py3-none-any.whl (21 kB)
+Downloading opentelemetry_exporter_otlp_proto_common-1.44.0-py3-none-any.whl (17 kB)
+Downloading opentelemetry_proto-1.44.0-py3-none-any.whl (72 kB)
+Downloading opentelemetry_sdk-1.44.0-py3-none-any.whl (137 kB)
+Downloading opentelemetry_api-1.44.0-py3-none-any.whl (60 kB)
+Downloading opentelemetry_semantic_conventions-0.65b0-py3-none-any.whl (204 kB)
+Downloading googleapis_common_protos-1.75.1-py3-none-any.whl (300 kB)
+Downloading grpcio-1.83.0-cp312-cp312-musllinux_1_2_x86_64.whl (8.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.0/8.0 MB 142.2 MB/s eta 0:00:00
+Downloading opentelemetry_exporter_otlp_proto_grpc-1.44.0-py3-none-any.whl (19 kB)
+Downloading protobuf-7.35.1-py3-none-any.whl (171 kB)
+Downloading pyyaml-6.0.3-cp312-cp312-musllinux_1_2_x86_64.whl (790 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 790.2/790.2 kB 80.5 MB/s eta 0:00:00
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Building wheels for collected packages: grafana-agento11y-hermes
+  Building editable for grafana-agento11y-hermes (pyproject.toml): started
+  Building editable for grafana-agento11y-hermes (pyproject.toml): finished with status 'done'
+  Created wheel for grafana-agento11y-hermes: filename=grafana_agento11y_hermes-0.8.1.dev2+g6982cc02a-py3-none-any.whl size=7478 sha256=cc8e4b8b30d36f497818b6ae197acdbb9cb318de35995e06f47060c66ec979e6
+  Stored in directory: /tmp/pip-ephem-wheel-cache-dgme4za9/wheels/65/66/e6/cbfe2990099f131928442c7fb6ded27c78793fdcc920209feb
+Successfully built grafana-agento11y-hermes
+Installing collected packages: typing-extensions, PyYAML, protobuf, opentelemetry-proto, opentelemetry-api, grpcio, googleapis-common-protos, opentelemetry-semantic-conventions, opentelemetry-exporter-otlp-proto-common, opentelemetry-sdk, opentelemetry-exporter-otlp-proto-http, opentelemetry-exporter-otlp-proto-grpc, agento11y, grafana-agento11y-hermes
+Successfully installed PyYAML-6.0.3 agento11y-0.14.0 googleapis-common-protos-1.75.1 grafana-agento11y-hermes-0.8.1.dev2+g6982cc02a grpcio-1.83.0 opentelemetry-api-1.44.0 opentelemetry-exporter-otlp-proto-common-1.44.0 opentelemetry-exporter-otlp-proto-grpc-1.44.0 opentelemetry-exporter-otlp-proto-http-1.44.0 opentelemetry-proto-1.44.0 opentelemetry-sdk-1.44.0 opentelemetry-semantic-conventions-0.65b0 protobuf-7.35.1 typing-extensions-4.16.0
+INSTALL_FAIL:pip install failed, trying git clone and pip install -e .
+INSTALL_OK
