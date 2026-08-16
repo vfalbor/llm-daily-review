@@ -1,0 +1,93 @@
+{
+  "app_name": "Mic Drop",
+  "url": "https://www.micdrop.gg/",
+  "scored_at": "2026-08-16T13:03:57.870Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Mic Drop introduces a real-time multiplayer karaoke game concept, which is unique and original, setting it apart from existing tools like Roblox (1,288 stars) and Twitch (11,391 stars) with a distinct approach."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install success was false and install time was 12s, indicating potential issues with accessibility and ease of setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-saas tool, Mic Drop fits into the current trend of online social gaming, making it relevant to today's gaming landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools like Roblox and Twitch exist, Mic Drop differentiates itself through its focus on real-time multiplayer karaoke, earning it a distinct position with 65 HN points."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With 65 HN points and 28 comments analyzed, the community engagement is moderate, but the lack of GitHub repository and open-source status limits community involvement."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Tests passed were 1/5, and basic run success was false, indicating significant issues with usability and functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool requires an API key and has no PyPI package, making integration more complex."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No direct documentation quality data is available, but the project's description and HN post provide some insights into its functionality."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No clear data on maturity is available due to the lack of a GitHub repository and insufficient information on its development history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No specific performance benchmarks are available for Mic Drop, making it challenging to assess its performance compared to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The sentiment score is 8/10, with 65 HN points, 28 comments, and positive signals including fun, excitement, and an original concept, indicating a generally positive community reception."
+    }
+  },
+  "summary": "Mic Drop is a unique real-time multiplayer karaoke game with social features, but it faces challenges in terms of ease of use, integration, and community engagement due to its closed-source nature and lack of publicly available repository.",
+  "recommendation": "niche",
+  "app_url": "https://www.micdrop.gg/",
+  "tool_url": "https://github.com/micdropgame/micdrop",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49315742",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Roblox",
+        "stars": 1288,
+        "repo": "roblox-ts/roblox-ts"
+      },
+      {
+        "name": "Twitch",
+        "stars": 11391,
+        "repo": "pixeltris/TwitchAdSolutions"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fun",
+        "Excitement",
+        "Original concept"
+      ],
+      "negative_signals": [
+        "Lack of clarity about AI asset usage",
+        "Perception of over-selling"
+      ],
+      "justification": "Despite some concerns about AI asset usage and the project's description being a bit misleading, the comments are largely positive, praising the game's original concept, fun, and excitement.",
+      "comment_count": 28,
+      "hn_points": 65
+    }
+  }
+}
