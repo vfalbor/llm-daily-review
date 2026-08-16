@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Falstad Math and Physics Simulations",
+    "url": "https://www.falstad.com/mathphysics.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49316872",
+    "points": 35,
+    "comments": 9,
+    "author": "pykello",
+    "age": "2026-08-16T04:19:32 1786853972",
+    "scraped_at": "2026-08-16T13:00:02.672Z",
+    "tool_url": "https://github.com/jfawl/falstad-mathphysics-simulations",
+    "source_type": "dataset",
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "description": "Interactive simulations of math and physics concepts",
+    "use_modes": [
+      "Web-based simulations"
+    ],
+    "similar_tools": [
+      "PhET Interactive Simulations",
+      "Khan Academy"
+    ],
+    "proposed_tests": [
+      "Visit the Falstad website",
+      "Experiment with different simulations and visualize the output",
+      "Measure the accuracy of the simulations",
+      "Compare with alternative simulations from other sources"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jfawl/falstad-mathphysics-simulations"
+  },
+  "test_results": {
+    "run_id": "llm-review-1786885360722-oly92",
+    "log_dir": "/tmp/llm-review-1786885360722-oly92",
+    "install_success": false,
+    "install_time_s": 7.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 6, in <module>\n    import git\nModuleNotFoundError: No module named 'git'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.2-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
