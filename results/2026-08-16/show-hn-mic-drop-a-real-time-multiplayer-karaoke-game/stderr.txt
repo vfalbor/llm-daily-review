@@ -1,0 +1,35 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+npm error Tracker "idealTree" already exists
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-16T13_03_35_701Z-debug-0.log
+node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module 'express'
+Require stack:
+- /[eval]
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at [eval]:1:1
+    at runScriptInThisContext (node:internal/vm:219:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/[eval]' ]
+}
+
+Node.js v24.18.1
+Traceback (most recent call last):
+  File "/app/test.py", line 110, in <module>
+    main()
+  File "/app/test.py", line 106, in main
+    compare_with_baseline()
+  File "/app/test.py", line 91, in compare_with_baseline
+    micdrop_time = float([line.split(":")[1] for line in [line for line in [line for line in open("test.log", "r").readlines()] if "BENCHMARK:response_time_ms" in line]][0])
+                                                                                             ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test.log'
