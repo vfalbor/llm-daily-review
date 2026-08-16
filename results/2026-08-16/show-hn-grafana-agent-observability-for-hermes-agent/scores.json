@@ -1,0 +1,99 @@
+{
+  "app_name": "Grafana Agent Observability for Hermes Agent",
+  "url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+  "scored_at": "2026-08-16T13:05:13.894Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The project is not a fork and has been created 108 days ago, which could indicate some level of novelty, but with only 11 stars, its original contribution is somewhat limited compared to similar tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "The project has a successful install, which took 20 seconds, but it does not have a lot of dependencies and has a clear license, being Apache-2.0. However, it requires Python >=3.11, which might not be suitable for all systems."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The project seems to fit into the current infrastructure observability trend, being an agent for Grafana and Hermes, but its relevance is somewhat diminished by the lack of community engagement and recent updates."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "There is not enough data to evaluate how this project differentiates itself from similar tools in terms of features, performance, or user experience."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The project has a very small community with only 11 stars, 1 fork, and 2 contributors, indicating a low level of engagement and support."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "There is not enough data to properly evaluate how easy the project is to use, as the tests did not run successfully, but it does have a basic setup for installation."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The project has a PyPI package available (v0.8.0), which makes integration easier, but the requirement for Python >=3.11 might limit its use in some environments."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "There is not enough data available to assess the quality and completeness of the project's documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project is relatively new (108 days old) and has had recent commits (0 days since last commit), indicating some level of activity, but the version (v0.8.0) suggests it is still in the early stages of development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "There is no benchmark data available to evaluate the project's performance."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "No HN sentiment data is available for this project."
+    }
+  },
+  "summary": "Grafana Agent Observability for Hermes Agent is a novel project within the infrastructure observability space, with clear system requirements and ease of integration, but lacks a strong community and comprehensive documentation, making it a niche tool for now.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+  "tool_url": "https://github.com/alexander-akhmetov/grafana-agento11y-hermes",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49318128",
+  "domain": "infra",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 11,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 11,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 108,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Unofficial Grafana Agent Observability plugin for Hermes Agent",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "grafana",
+        "hermes",
+        "hermes-agent"
+      ]
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.8.0",
+      "summary": "Unofficial Grafana Agent Observability plugin for Hermes Agent. Records LLM calls and tool executions as generations and OTel traces+metrics.",
+      "requires_python": ">=3.11",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
