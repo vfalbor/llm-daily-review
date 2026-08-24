@@ -1,0 +1,106 @@
+{
+  "app_name": "OCR It – pull text out of un-copyable documents for your LLM",
+  "url": "https://github.com/thiagotig/ocr-it",
+  "scored_at": "2026-08-24T07:37:50.817Z",
+  "total_score": 33,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo is only 3 days old, is not a fork, and offers a CLI wrapper for OCR despite existing tools with tens of thousands of stars, indicating an incremental approach."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) after 18 seconds and there is no PyPI package, showing poor accessibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-cli for extracting text to feed LLMs, it aligns with current OCR‑for‑LLM pipelines but targets a narrow niche."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 14 GitHub stars versus 76,137 for tesseract and 34,553 for ocrmypdf, and no unique benchmark advantage, it adds little beyond existing tools."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 14 stars, a single contributor, and was updated 2 days ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Zero of two tests passed (0/2) and the installation failed, providing a poor user experience."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "Only a CLI mode is available, no PyPI package, and no API surface, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is 3 days old, has 1 fork and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark timings (e.g., ocr_time_ms 0.50, tesseract_time_ms 10.41) are reported but lack comparative data, so a neutral score is given."
+    }
+  },
+  "summary": "A lightweight CLI tool that runs OCR on images/PDFs to provide text for LLM pipelines, but it is a thin wrapper over well‑established OCR engines.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/thiagotigaz/ocr-it",
+  "tool_url": "https://github.com/thiagotigaz/ocr-it",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49415852",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 14,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 14,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 3,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Chrome extension: pin a screen region once, then hotkey your way through a paginated document. OCR runs 100% offline via bundled Tesseract.",
+      "topics": [
+        "chrome-extension",
+        "javascript",
+        "manifest-v3",
+        "ocr",
+        "offline-first",
+        "tesseract",
+        "wasm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "tesseract",
+        "stars": 76137,
+        "repo": "tesseract-ocr/tesseract"
+      },
+      {
+        "name": "ocrmypdf",
+        "stars": 34553,
+        "repo": "ocrmypdf/OCRmyPDF"
+      },
+      {
+        "name": "gocr",
+        "stars": 7140,
+        "repo": "go-co-op/gocron"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
