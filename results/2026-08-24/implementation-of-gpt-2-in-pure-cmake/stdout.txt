@@ -13,17 +13,3 @@
 (13/13) Installing git-init-template (2.54.0-r0)
 Executing busybox-1.37.0-r31.trigger
 OK: 26.1 MiB in 51 packages
-INSTALL_OK
-BENCHMARK:install_time_s:3.917
-INSTALL_OK
-BENCHMARK:git_clone_time_s:0.808
-TEST_FAIL:cmake_configure:CMake Warning:
-  Ignoring extra path from command line:
-
-   ".."
-
-
-CMake Error: The source directory "/tmp/gpt2_cmake_test" does not appear to contain CMakeLists.txt.
-Specify --help for usage, or press the help button on the CMake GUI.
-TEST_SKIP:build:build failed
-RUN_OK
