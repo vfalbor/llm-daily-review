@@ -1,0 +1,83 @@
+{
+  "app_name": "My agent.md to improve LLM-assisted code quality",
+  "url": "https://fabiensanglard.net/agent.md/index.html",
+  "scored_at": "2026-08-24T07:38:43.716Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork status, or direct comparison data were available, so a neutral score is used."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) and there is no PyPI package, indicating difficult setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework it aligns with current trends of modular LLM agents and prompt management."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no reported star count while similar tools have 144,869 (LangChain) and 57,536 (CrewAI) stars, and only a single latency benchmark (0.03 ms) is provided without comparative context."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository or HN sentiment data were found, so a neutral score is applied."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 3 tests passed (0/3) and the installation failed, indicating poor usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers CLI and Python API use modes, but lacks a PyPI package and license information, limiting straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo, wiki, or pages data were available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) the maturity cannot be assessed, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmarks report an install time of 0.658 s and a minimal test latency of 0.03 ms, but no comparative data to other frameworks is provided."
+    }
+  },
+  "summary": "A lightweight LLM agent framework that aims to improve code‑quality workflows with modular architecture and prompt management.",
+  "recommendation": "niche",
+  "app_url": "https://fabiensanglard.net/agent.md/index.html",
+  "tool_url": "https://github.com/fabiensanglard/agent.md",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49410932",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 144869,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 57536,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "OpenAI Agent SDK",
+        "stars": 256,
+        "repo": "openai/openai-voice-agent-sdk-sample"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
