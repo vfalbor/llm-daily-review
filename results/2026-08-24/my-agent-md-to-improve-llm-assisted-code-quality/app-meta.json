@@ -1,0 +1,66 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "My agent.md to improve LLM-assisted code quality",
+    "url": "https://fabiensanglard.net/agent.md/index.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49410932",
+    "points": 290,
+    "comments": 115,
+    "author": "ibobev",
+    "age": "2026-08-23T17:59:52 1787507992",
+    "scraped_at": "2026-08-24T07:36:06.355Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/fabiensanglard/agent.md",
+    "repo_url": "https://github.com/fabiensanglard/agent.md",
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "agent.md is a lightweight agent framework that enhances LLM-assisted code quality by providing a modular architecture for building custom agents, task orchestration, and prompt management.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "OpenAI Agent SDK"
+    ],
+    "proposed_tests": [
+      {
+        "name": "install",
+        "steps": [
+          "pip install git+https://github.com/fabiensanglard/agent.md"
+        ]
+      },
+      {
+        "name": "basic_agent",
+        "steps": [
+          "from agent_md import Agent",
+          "agent=Agent(name='test',model='gpt-4')",
+          "agent.run('print(\"hello\")')"
+        ]
+      },
+      {
+        "name": "latency",
+        "steps": [
+          "measure time to run a simple prompt"
+        ]
+      }
+    ],
+    "requires_api_key": true,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1787557072012-igz7f",
+    "log_dir": "/tmp/llm-review-1787557072012-igz7f",
+    "install_success": false,
+    "install_time_s": 8.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.658\nBENCHMARK:pip_install_time_s:0.956\nBENCHMARK:minimal_test_latency_ms:0.03\nBENCHMARK:memory_peak_kb:3899.16",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_time_s:0.658\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'agent.md']' returned non-zero exit status 1.\nINSTALL_FAIL:git_clone:Command '['git', 'clone', '--depth', '1', 'https://github.com/fabiensanglard/agent.md.git', '/tmp/agent_md']' returned non-zero exit status 128.\nBENCHMARK:pip_install_time_s:0.956\nTEST_FAIL:import_agent_md:No module named 'agent_md'\nBENCHMARK:minimal_test_latency_ms:0.03\nTEST_FAIL:minimal_functional:name 'agent_md' is not defined\nBENCHMARK:memory_peak_kb:3899.16\nTEST_SKIP:vs_langchain_import_ratio:baseline_missing\nRUN_OK\n"
+  }
+}
