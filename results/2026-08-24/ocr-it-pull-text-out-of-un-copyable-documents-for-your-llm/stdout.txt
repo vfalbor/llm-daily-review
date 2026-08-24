@@ -13,25 +13,14 @@
 (13/13) Installing git-init-template (2.54.0-r0)
 Executing busybox-1.37.0-r31.trigger
 OK: 26.1 MiB in 51 packages
-INSTALL_OK
-BENCHMARK:apk_install_time_s:2.94
-INSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement ocr-it (from versions: none)
-
-[notice] A new release of pip is available: 25.0.1 -> 26.2.1
-[notice] To update, run: pip install --upgrade pip
-ERROR: No matching distribution found for ocr-it
-BENCHMARK:pip_install_time_s:0.76
-TEST_FAIL:import_ocr_it:No module named 'ocr_it'
-TEST_FAIL:import_ocr_it:cannot_import
-TEST_FAIL:create_image:No module named 'PIL'
-TEST_FAIL:create_test_image:creation_error
-TEST_FAIL:ocr_it_process:[Errno 2] No such file or directory: 'ocr-it'
-TEST_FAIL:ocr_it_process:run_error
-TEST_SKIP:tesseract:Error opening data file /usr/share/tessdata/eng.traineddata
-Please make sure the TESSDATA_PREFIX environment variable is set to your "tessdata" directory.
-Failed loading language 'eng'
-Tesseract couldn't load any languages!
-Could not initialize tesseract.
-TEST_SKIP:pdf_hidden_text:PDF generation not implemented in this script
-BENCHMARK:test_files_count:0
+INSTALL_FAIL:pip_editable_install_failed
+BENCHMARK:install_time_s:0
+TEST_FAIL:help:[Errno 2] No such file or directory: 'ocr-it'
+BENCHMARK:help_time_ms:0.61
+TEST_FAIL:ocr_run:[Errno 2] No such file or directory: 'ocr-it'
+BENCHMARK:ocr_time_ms:0.50
+BENCHMARK:tesseract_time_ms:10.41
+BENCHMARK:dummy_sleep_ms:10
+BENCHMARK:loc_count:168
+BENCHMARK:test_files_count:1
 RUN_OK
