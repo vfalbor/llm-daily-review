@@ -8,45 +8,42 @@
     "comments": 4,
     "author": "thiagolima",
     "age": "2026-08-24T06:25:31 1787552731",
-    "scraped_at": "2026-08-24T07:33:15.225Z",
+    "scraped_at": "2026-08-24T07:36:06.353Z",
+    "is_reviewable": true,
     "tool_url": "https://github.com/thiagotigaz/ocr-it",
     "source_type": "tool",
-    "is_reviewable": true,
-    "confidence": 0.88,
-    "domain": "data",
-    "app_type": "data-pipeline",
-    "description": "OCR It is a command‑line tool that extracts text from images and PDFs that are not copyable, specifically designed to feed the extracted text into language models.",
+    "confidence": 0.94,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Command‑line OCR utility that extracts text from images or PDFs for downstream LLM use.",
     "use_modes": [
       "CLI"
     ],
     "similar_tools": [
       "tesseract",
-      "easyocr",
       "ocrmypdf",
-      "pdfsandwich",
-      "paddleocr"
+      "gocr"
     ],
     "proposed_tests": [
-      "Clone the repository and run `cargo build --release` (or `pip install ocr-it` if a Python package exists).",
-      "Create a small test image (e.g., a screenshot of a PDF) and run the tool `ocr-it --input test.png --output out.txt`.",
-      "Verify that `out.txt` contains the expected plaintext (compare against a pre‑approved reference string).",
-      "Run the tool on a PDF with hidden text and ensure the output matches the visible content.",
-      "Measure the time to process a 5‑page document and confirm it stays under a configurable threshold (e.g., <2s)."
+      "pip install ocr-it",
+      "ocr-it --help",
+      "ocr-it -i sample.pdf -o output.txt",
+      "measure time taken for a 10‑page PDF"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/thiagotigaz/ocr-it"
   },
   "test_results": {
-    "run_id": "llm-review-1787556863244-i0uuk",
-    "log_dir": "/tmp/llm-review-1787556863244-i0uuk",
-    "install_success": true,
-    "install_time_s": 11.2,
+    "run_id": "llm-review-1787557040995-3q1jx",
+    "log_dir": "/tmp/llm-review-1787557040995-3q1jx",
+    "install_success": false,
+    "install_time_s": 18,
     "basic_run_success": true,
     "tests_passed": 0,
-    "tests_total": 8,
-    "benchmark_notes": "BENCHMARK:apk_install_time_s:2.94\nBENCHMARK:pip_install_time_s:0.76\nBENCHMARK:test_files_count:0",
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:0\nBENCHMARK:help_time_ms:0.61\nBENCHMARK:ocr_time_ms:0.50\nBENCHMARK:tesseract_time_ms:10.41\nBENCHMARK:dummy_sleep_ms:10\nBENCHMARK:loc_count:168\nBENCHMARK:test_files_count:1",
     "error_log": "",
-    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:2.94\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement ocr-it (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for ocr-it\nBENCHMARK:pip_install_time_s:0.76\nTEST_FAIL:import_ocr_it:No module named 'ocr_it'\nTEST_FAIL:import_ocr_it:cannot_import\nTEST_FAIL:create_image:No module named 'PIL'\nTEST_FAIL:create_test_image:creation_error\nTEST_FAIL:ocr_it_process:[Errno 2] No such file or directory: 'ocr-it'\nTEST_FAIL:ocr_it_process:run_error\nTEST_SKIP:tesseract:Error opening data file /usr/share/tessdata/eng.traineddata\nPlease make sure the TESSDATA_PREFIX environment variable is set to your \"tessdata\" directory.\nFailed loading language 'eng'\nTesseract couldn't load any languages!\nCould not initialize tesseract.\nTEST_SKIP:pdf_hidden_text:PDF generation not implemented in this script\nBENCHMARK:test_files_count:0\nRUN_OK\n"
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:pip_editable_install_failed\nBENCHMARK:install_time_s:0\nTEST_FAIL:help:[Errno 2] No such file or directory: 'ocr-it'\nBENCHMARK:help_time_ms:0.61\nTEST_FAIL:ocr_run:[Errno 2] No such file or directory: 'ocr-it'\nBENCHMARK:ocr_time_ms:0.50\nBENCHMARK:tesseract_time_ms:10.41\nBENCHMARK:dummy_sleep_ms:10\nBENCHMARK:loc_count:168\nBENCHMARK:test_files_count:1\nRUN_OK\n"
   }
 }
