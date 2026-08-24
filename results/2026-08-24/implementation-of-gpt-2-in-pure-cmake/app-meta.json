@@ -4,48 +4,48 @@
     "title": "Implementation of GPT-2 in pure CMake",
     "url": "https://github.com/AlpinDale/gpt2.cmake",
     "hn_url": "https://news.ycombinator.com/item?id=49412909",
-    "points": 73,
+    "points": 75,
     "comments": 15,
     "author": "porridgeraisin",
     "age": "2026-08-23T21:41:17 1787521277",
-    "scraped_at": "2026-08-24T07:36:06.358Z",
+    "scraped_at": "2026-08-24T07:49:13.138Z",
     "tool_url": "https://github.com/AlpinDale/gpt2.cmake",
     "source_type": "tool",
     "is_reviewable": true,
-    "confidence": 0.88,
+    "confidence": 0.94,
     "domain": "llm-ai",
-    "app_type": "research-model",
-    "description": "A pure CMake implementation of the GPT-2 transformer model, enabling native C/C++ builds without external dependencies.",
+    "app_type": "llm-inference",
+    "description": "A CMake-based build of the GPT‑2 model that produces a standalone library for inference, without external Python dependencies.",
     "use_modes": [
-      "CMake build",
-      "C/C++ executable"
+      "C/C++ library",
+      "Command‑line demo"
     ],
     "similar_tools": [
-      "gpt2cpp",
-      "gpt2-pytorch",
-      "gpt2-jax"
+      "gpt-2-simple",
+      "onnxruntime-llama",
+      "transformers C++ API",
+      "torchscript"
     ],
     "proposed_tests": [
-      "git clone https://github.com/AlpinDale/gpt2.cmake && cd gpt2.cmake",
-      "mkdir build && cd build && cmake .. && cmake --build .",
-      "Run the built executable with a sample prompt and capture output",
-      "Verify that the output contains plausible GPT-2 style text and measure inference time",
-      "Compare output length and tokenization against reference implementation"
+      "Run cmake . && make -j$(nproc) to build the library",
+      "Compile the provided demo executable and run it on a short prompt, checking that output is non‑empty",
+      "Measure build time and binary size on a standard laptop",
+      "Compare inference latency of the C++ library against the Python HuggingFace transformers implementation on the same prompt"
     ],
     "requires_api_key": false,
     "is_open_source": true,
     "repo_url": "https://github.com/AlpinDale/gpt2.cmake"
   },
   "test_results": {
-    "run_id": "llm-review-1787557124861-7h78u",
-    "log_dir": "/tmp/llm-review-1787557124861-7h78u",
-    "install_success": true,
-    "install_time_s": 12.1,
-    "basic_run_success": true,
+    "run_id": "llm-review-1787557896480-k3c4m",
+    "log_dir": "/tmp/llm-review-1787557896480-k3c4m",
+    "install_success": false,
+    "install_time_s": 6,
+    "basic_run_success": false,
     "tests_passed": 0,
-    "tests_total": 2,
-    "benchmark_notes": "BENCHMARK:install_time_s:3.917\nBENCHMARK:git_clone_time_s:0.808",
-    "error_log": "",
-    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:3.917\nINSTALL_OK\nBENCHMARK:git_clone_time_s:0.808\nTEST_FAIL:cmake_configure:CMake Warning:\n  Ignoring extra path from command line:\n\n   \"..\"\n\n\nCMake Error: The source directory \"/tmp/gpt2_cmake_test\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\nTEST_SKIP:build:build failed\nRUN_OK\n"
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 138\n    except Exception as e:\n    ^^^^^^\nSyntaxError: invalid syntax\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
   }
 }
