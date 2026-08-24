@@ -1,0 +1,88 @@
+{
+  "app_name": "Implementation of GPT-2 in pure CMake",
+  "url": "https://github.com/AlpinDale/gpt2.cmake",
+  "scored_at": "2026-08-24T07:52:41.571Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo was created today (days_since_created = 0) and is not a fork, offering a CMake‑only build which differs from Python‑based tools, but similarity to existing projects like gpt-2-simple suggests an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success = false) and there is no PyPI package, indicating poor accessibility despite a short install time of 6 s."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm‑inference tool, it aligns with current interest in lightweight, dependency‑free models, though its CMake‑only approach limits broad appeal."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 58 stars versus 3,398 stars for the closest alternative (gpt-2-simple), and its unique CMake‑based, no‑Python‑dependency build provides a clear advantage in environments without Python."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repository has 58 stars (<100), only 1 contributor, and 1 open issue, indicating a small but existing community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests were executed (tests_passed = 0/0) and the install failed, showing very limited usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a C/C++ library and CLI demo (use_modes), but lacks a PyPI package, making integration moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata for wiki, pages, or topics was not provided, so concrete documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (days_since_created = 0) with only 1 fork and 1 open issue, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be measured; a minimal default score is applied."
+    }
+  },
+  "summary": "A CMake‑based library for GPT‑2 inference that avoids Python dependencies, targeting low‑overhead C/C++ environments.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/AlpinDale/gpt2.cmake",
+  "tool_url": "https://github.com/AlpinDale/gpt2.cmake",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49412909",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 58,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 58,
+      "contributors": 1,
+      "license": "BSD-3-Clause",
+      "language": "CMake",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Implementation of the GPT-2 model in pure CMake",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "gpt-2-simple",
+        "stars": 3398,
+        "repo": "minimaxir/gpt-2-simple"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
