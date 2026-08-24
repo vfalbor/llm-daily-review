@@ -1,0 +1,83 @@
+{
+  "app_name": "AI Gaming Companion",
+  "url": "https://pantel.is/projects/ai-gaming-companion/",
+  "scored_at": "2026-08-24T07:51:35.313Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The tool targets a unique niche (real‑time Skyrim AI companion) with no direct equivalent among listed similar tools (LlamaIndex, LangChain, OpenAI API)."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 7.1 seconds, well under the 30‑second threshold for simple setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm-assistant for gaming, it addresses a growing interest in real‑time LLM agents within interactive environments."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Benchmarks show fast install (0.476 s) and clone (0.267 s) times, indicating low‑latency operation compared to typical API‑based tools."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub statistics (stars, contributors, recent updates) were available, so a neutral score is assigned."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 test passed (0% pass rate) and the basic run failed, indicating core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project offers three use modes (CLI, Game plugin, Local server) despite lacking a PyPI package, suggesting moderate integration options."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details (wiki, GitHub pages, topics) were not retrieved, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No repository creation date, fork count, or issue data were provided, leading to a neutral maturity assessment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No explicit benchmark comparisons to alternatives were available; only install and clone times were reported, so a neutral score is used."
+    }
+  },
+  "summary": "An open‑source, low‑latency AI companion that interacts with players in Skyrim via a CLI, plugin, or local server.",
+  "recommendation": "worth-watching",
+  "app_url": "https://pantel.is/projects/ai-gaming-companion/",
+  "tool_url": "https://github.com/pantel/ai-gaming-companion",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49413561",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LlamaIndex",
+        "stars": 51830,
+        "repo": "run-llama/llama_index"
+      },
+      {
+        "name": "LangChain",
+        "stars": 144871,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "OpenAI ChatCompletion API",
+        "stars": 2,
+        "repo": "learn-co-curriculum/phase-3-ai-openai-chatcompletion-api"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
