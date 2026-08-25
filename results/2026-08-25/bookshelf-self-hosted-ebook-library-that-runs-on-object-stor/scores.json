@@ -1,0 +1,125 @@
+{
+  "app_name": "Bookshelf – Self-hosted eBook library that runs on object storage",
+  "url": "https://github.com/murerkinn/bookshelf",
+  "scored_at": "2026-08-25T13:07:08.105Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 8 days ago and is not a fork, but similar tools like Calibre Server and BookStack exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) despite a short install time of 6.8 s and a PyPI package being available."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web‑CMS for self‑hosted eBook libraries, it addresses a niche need in current LLM‑driven content management workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Only 185 GitHub stars versus 19,000 for BookStack and 5,392 for Koha, with no benchmark data to show a clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "185 stars (100–1k range), 1 contributor, and the repository was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests were run (0/0) and the install step failed, indicating core usability issues."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists (v0.4.3), the tool offers a REST API and Web UI, and it uses an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details such as wiki presence, GitHub Pages, or topic count were not provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 8 days old, has 6 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the lightweight, multi‑format, object‑storage‑friendly nature of Bookshelf, while a few note UI/compatibility issues and that it may feel heavy for minimal needs."
+    }
+  },
+  "summary": "Bookshelf is a self‑hosted web CMS that lets you store eBook metadata and files on object storage, exposing both a Web UI and a REST API. It is built with TypeScript and packaged on PyPI (v0.4.3), requiring Python 3.10+. The tool targets users who want a lightweight, self‑hosted alternative to Calibre Server for multi‑format libraries, especially those needing object‑storage integration. While it scores well on integration options, the install fails, documentation is sparse, and it shows little differentiation from larger projects like BookStack, making it a risky choice for production use.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/murerkinn/bookshelf",
+  "tool_url": "https://github.com/murerkinn/bookshelf",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49427001",
+  "domain": "web",
+  "app_type": "web-cms",
+  "enriched": {
+    "github": {
+      "stars": 185,
+      "forks": 6,
+      "open_issues": 0,
+      "watchers": 185,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 8,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Self-hosted ebook library that runs on object storage - a Cloudflare Worker over R2, or a Node server over a directory. No database.",
+      "topics": [
+        "cloudflare-workers",
+        "ebook",
+        "epub",
+        "self-hosted"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Calibre Server",
+        "stars": 21,
+        "repo": "FaceDeer/calibre_full_mcp_server"
+      },
+      {
+        "name": "Koha",
+        "stars": 5392,
+        "repo": "mayocream/koharu"
+      },
+      {
+        "name": "BookStack",
+        "stars": 19000,
+        "repo": "BookStackApp/BookStack"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.3",
+      "summary": "A collection of curated climate data sets",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "resource‑light self‑hosted design",
+        "robust object‑storage integration",
+        "wide format support (ebooks, audiobooks, comics)"
+      ],
+      "negative_signals": [
+        "UI and progress‑sync quirks",
+        "some find it heavy for limited use cases"
+      ],
+      "justification": "Most comments praise the lightweight, multi‑format, object‑storage‑friendly nature of Bookshelf, while a few note UI/compatibility issues and that it may feel heavy for minimal needs.",
+      "comment_count": 30,
+      "hn_points": 125
+    }
+  }
+}
