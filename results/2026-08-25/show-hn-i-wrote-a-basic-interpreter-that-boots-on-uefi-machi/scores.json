@@ -1,0 +1,83 @@
+{
+  "app_name": "Thoreau BASIC",
+  "url": "https://tarjan.itch.io/thoreaubasic",
+  "scored_at": "2026-08-25T13:10:28.065Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative novelty data is missing."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 14.9 s, indicating a relatively simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool‑CLI BASIC interpreter for UEFI firmware, it addresses a niche hardware‑boot use case rather than current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub stars or benchmark advantage are available; the only quantitative hint is a vs_refind_help_ratio of 1.6, which shows it is slower than a comparable boot manager."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No public repository; HN points are 84, placing it in the 50–200 range which maps to a community score of 3–4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%); despite basic run success, core functionality fails the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The page mentions an API/SDK/webhook but there is no PyPI package and the tool is CLI‑only, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "No docs or wiki links are present, but the page content length is 11,469 characters, indicating substantive information."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Detected version is 0.85 and there is no changelog or release notes, suggesting an early‑stage project."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark shows a vs_refind_help_ratio of 1.6, meaning the help command is 60% slower than the reference, with no clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the technical achievement and compactness of the BASIC interpreter, noting its nostalgic and educational value, while a minority express frustration over its closed‑source nature, lack of source/build instructions, and occasional size oddities."
+    }
+  },
+  "summary": "Thoreau BASIC is a CLI interpreter that runs BASIC programs directly from UEFI firmware, letting legacy code boot on modern machines. It is a closed‑source, single‑binary tool that advertises an API/SDK but provides no package manager install command. The interpreter is suited for hobbyists or educators interested in low‑level boot experiments, especially those who value its tiny footprint. While the project’s 11 KB page content shows decent depth, the lack of tests, documentation, and a stable release limits its reliability.",
+  "recommendation": "niche",
+  "app_url": "https://tarjan.itch.io/thoreaubasic",
+  "tool_url": "https://tarjan.itch.io/thoreaubasic",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49410814",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive bare‑metal UEFI boot",
+        "Small footprint and resource savings",
+        "Nostalgic appeal and potential educational use"
+      ],
+      "negative_signals": [
+        "Not FOSS limits community growth",
+        "Missing build/source details for users",
+        "Some concerns over size discrepancies and documentation"
+      ],
+      "justification": "The majority of comments praise the technical achievement and compactness of the BASIC interpreter, noting its nostalgic and educational value, while a minority express frustration over its closed‑source nature, lack of source/build instructions, and occasional size oddities.",
+      "comment_count": 30,
+      "hn_points": 84
+    }
+  }
+}
