@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "HelloAssembly The smallest possible complete Windows application",
+    "url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+    "hn_url": "https://news.ycombinator.com/item?id=49432227",
+    "points": 16,
+    "comments": 12,
+    "author": "Bluestein",
+    "age": "2026-08-25T11:40:00 1787658000",
+    "scraped_at": "2026-08-25T13:00:02.172Z",
+    "tool_url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.78,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A minimal assembly program that produces a functional Windows executable with no external dependencies.",
+    "use_modes": [
+      "CLI build",
+      "Executable"
+    ],
+    "similar_tools": [
+      "Minimal C program",
+      "Hello World assembly",
+      "Tiny C compiler"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the assembly file using the provided Makefile",
+      "Run the produced EXE on Windows and verify it exits with code 0",
+      "Analyze the binary size and confirm it is under 5 KB",
+      "Cross‑compile to 64‑bit and compare outputs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/PlummersSoftwareLLC/HelloAssembly"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787662958514-w2rp9",
+    "log_dir": "/tmp/llm-review-1787662958514-w2rp9",
+    "install_success": false,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.01\nBENCHMARK:import_peak_kb:0.2\nBENCHMARK:git_clone_time_s:1.035\nBENCHMARK:cross_compile_time_s:0.001\nBENCHMARK:vs_tinyc_compile_ratio:2.4\nBENCHMARK:loc_count:130\nBENCHMARK:test_files_count:4\nBENCHMARK:heartbeat_ms:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:ERROR: unable to select packages:\n  mingw-w64 (no such package):\n    required by: world[mingw-w64]\nBENCHMARK:import_time_ms:0.01\nBENCHMARK:import_peak_kb:0.2\nBENCHMARK:git_clone_time_s:1.035\nTEST_FAIL:clone_and_build:make failed: [Errno 2] No such file or directory: 'make'\nTEST_FAIL:exe_exit_code:Executable not found after build\nTEST_FAIL:binary_size:[Errno 2] No such file or directory: 'HelloAssembly/HelloWorld.exe'\nBENCHMARK:cross_compile_time_s:0.001\nTEST_FAIL:cross_compile_64:64‑bit executable not generated\nBENCHMARK:vs_tinyc_compile_ratio:2.4\nBENCHMARK:loc_count:130\nBENCHMARK:test_files_count:4\nBENCHMARK:heartbeat_ms:0\nRUN_OK\n"
+  }
+}
