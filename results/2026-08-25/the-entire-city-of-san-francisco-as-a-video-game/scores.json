@@ -1,0 +1,83 @@
+{
+  "app_name": "San Francisco -- The Game",
+  "url": "https://sf.thijs.gg/",
+  "scored_at": "2026-08-25T13:06:02.713Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are unavailable, so quantitative novelty data is missing; we assign a neutral score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) with a 61.8 s install time, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web‑frontend interactive city simulation, it aligns with current interest in immersive AI/VR experiences but is not core to mainstream LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The load‑time ratio versus CesiumJS is 0.720, showing a ~28% faster load than a comparable 3D viewer, giving a clear speed advantage over similar tools."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 524 with 30 comments, which falls in the >500 range, indicating a strong community interest."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 of 4 tests passed (50%) and install succeeded, meeting the ≥50% pass threshold for a moderate ease‑of‑use rating."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook (true) but no PyPI package, suggesting integration is possible but requires manual effort."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "No docs link is present, but the page contains 348,798 characters and provides examples (true), yielding a modest documentation score."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version number of 60.75 indicates a mature, released product despite the lack of a changelog."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows a vs_cesiumjs_load_ratio of 0.720 (faster loading) yet asset loading takes 30.082 s, resulting in an average performance rating."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "While users enjoy the immersive exploration and creative potential of the SF model, several comments highlight persistent performance, loading, and compatibility complaints, leading to an overall mixed but slightly positive sentiment."
+    }
+  },
+  "summary": "The app is an interactive, procedurally generated 3D video game that lets users explore a full model of San Francisco in a web browser. It runs entirely client‑side and offers an API/SDK/webhook for integration, though it is not distributed via PyPI. It is suited for educators, urban planners, or hobbyists who want an immersive city‑exploration experience. Its standout strength is a faster load time than comparable CesiumJS demos (load ratio 0.720), while the main caveat is occasional performance and compatibility issues noted by users. ",
+  "recommendation": "worth-watching",
+  "app_url": "https://sf.thijs.gg/",
+  "tool_url": "https://sf.thijs.gg/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49422784",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Engaging city exploration",
+        "Creative use of game for real‑world learning",
+        "Community enthusiasm for AI and urban simulation"
+      ],
+      "negative_signals": [
+        "Performance and loading problems",
+        "Compatibility issues on browsers and devices",
+        "Mixed fidelity expectations"
+      ],
+      "justification": "While users enjoy the immersive exploration and creative potential of the SF model, several comments highlight persistent performance, loading, and compatibility complaints, leading to an overall mixed but slightly positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 524
+    }
+  }
+}
