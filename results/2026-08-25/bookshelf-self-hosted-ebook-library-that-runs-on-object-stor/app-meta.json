@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+    "url": "https://github.com/murerkinn/bookshelf",
+    "hn_url": "https://news.ycombinator.com/item?id=49427001",
+    "points": 123,
+    "comments": 47,
+    "author": "arbayi",
+    "age": "2026-08-24T23:00:37 1787612437",
+    "scraped_at": "2026-08-25T13:00:02.177Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/murerkinn/bookshelf",
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-cms",
+    "description": "A self‑hosted eBook library that stores metadata and books on object storage.",
+    "use_modes": [
+      "Web UI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Calibre Server",
+      "Koha",
+      "BookStack"
+    ],
+    "proposed_tests": [
+      "Clone repo and run docker-compose up to start the service",
+      "Create a test book file in the object storage bucket",
+      "Use the REST API to upload the book and verify it appears in the UI",
+      "Run a search query via API and assert the correct result count",
+      "Measure API response times for listing books"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/murerkinn/bookshelf"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787663164085-6u9ld",
+    "log_dir": "/tmp/llm-review-1787663164085-6u9ld",
+    "install_success": false,
+    "install_time_s": 6.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 199\n    my_ms = float(next((line for line in sys.stdout.getvalue().splitlines() if line.startswith(\"BENCHMARK:list_books_ms\")), \"BENCHMARK:list_books_ms:0\").split(\":\")[2]))\n                                                                                                                                                                       ^\nSyntaxError: unmatched ')'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
