@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Headlong: A Microharness for Persistent Agents",
+    "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+    "hn_url": "https://news.ycombinator.com/item?id=49428882",
+    "points": 90,
+    "comments": 35,
+    "author": "lbw1215",
+    "age": "2026-08-25T03:54:19 1787630059",
+    "scraped_at": "2026-08-25T13:00:02.177Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/laude-org/headlong",
+    "confidence": 0.91,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A lightweight harness for building and testing persistent agents that interact with external services.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "CrewAI",
+      "LangChain",
+      "Agentic"
+    ],
+    "proposed_tests": [
+      "pip install headlong",
+      "Create a simple agent that echoes user input and verify output",
+      "Configure a mock external service and test the agent’s persistence across restarts",
+      "Measure the latency of a single inference step using a small model",
+      "Run the provided example notebook and check that the demo runs without errors"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/laude-org/headlong"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787663229422-ydhti",
+    "log_dir": "/tmp/llm-review-1787663229422-ydhti",
+    "install_success": true,
+    "install_time_s": 9.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 9,
+    "benchmark_notes": "BENCHMARK:inference_latency_ms:50.33\nBENCHMARK:memory_peak_kb:53.89\nBENCHMARK:file_count:324.78\nBENCHMARK:loc_count:460.10",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk add git\nINSTALL_OK | pip install headlong\nTEST_FAIL:import_headlong:No module named 'headlong'\nTEST_FAIL:echo_agent_ms:No module named 'headlong'\nTEST_FAIL:echo_agent:execution error\nTEST_FAIL:persistence_ms:No module named 'headlong'\nTEST_FAIL:persistence:execution error\nBENCHMARK:inference_latency_ms:50.33\nTEST_PASS:inference_latency\nTEST_FAIL:import_langchain:No module named 'langchain'\nTEST_FAIL:example_notebook_ms:No module named 'nbformat'\nTEST_FAIL:example_notebook:execution error\nBENCHMARK:memory_peak_kb:53.89\nBENCHMARK:file_count:324.78\nBENCHMARK:loc_count:460.10\nRUN_OK\n"
+  }
+}
