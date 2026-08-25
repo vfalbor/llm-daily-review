@@ -1,0 +1,34 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.3-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+INSTALL_FAIL:npm install:npm error Tracker "idealTree" already exists
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-25T13_05_01_215Z-debug-0.log
+BENCHMARK:server_start_s:0.287
+BENCHMARK:server_start_mem_kb:1052.5
+TEST_FAIL:health_endpoint:unexpected response
+BENCHMARK:test_health_s:15.139
+BENCHMARK:test_health_mem_kb:67.6
+TEST_PASS:home_load
+BENCHMARK:test_home_load_s:0.271
+BENCHMARK:test_home_load_mem_kb:1969.3
+TEST_PASS:landmark_coordinate
+BENCHMARK:test_landmark_s:0.283
+BENCHMARK:test_landmark_mem_kb:1970.7
+TEST_FAIL:asset_loading:incomplete
+BENCHMARK:test_asset_loading_s:30.082
+BENCHMARK:test_asset_loading_mem_kb:62.5
+BENCHMARK:vs_cesiumjs_load_ratio:0.720
+RUN_OK
