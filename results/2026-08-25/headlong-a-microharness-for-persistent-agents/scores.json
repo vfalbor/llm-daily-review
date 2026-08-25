@@ -1,0 +1,99 @@
+{
+  "app_name": "Headlong: A Microharness for Persistent Agents",
+  "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+  "scored_at": "2026-08-25T13:08:16.293Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 9.3 seconds, indicating a relatively simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework, it aligns with current trends in building persistent agents for LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The tool has no reported GitHub stars while similar tools have 57,594–144,957 stars, and no benchmark advantage is demonstrated."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repo data; HN points are 92 with 30 comments, which falls in the 50–200 range yielding a 3–4 community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 9 tests passed (≈11%), indicating core functionality is largely missing."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a CLI and Python API but lacks a PyPI package and license information, providing moderate integration capability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or documentation metrics (wiki, pages, topics) were available to assess documentation quality."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, maturity relies on HN signals (92 points) and the absence of a version tag, indicating an early-stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports inference latency of 50.33 ms, but no comparative data to other frameworks is provided."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight excitement around the lightweight, modular design and potential use cases, but also raise serious security/isolation and implementation quality issues, leading to an overall positive but cautiously optimistic assessment."
+    }
+  },
+  "summary": "Headlong is a lightweight harness for building and testing persistent LLM agents, offering both a CLI and a Python API. It runs locally without requiring an API key and is designed for modular agent development. The tool suits developers needing a minimal framework to prototype persistent agents quickly. While it installs quickly, its limited test coverage and modest community signals suggest it is still early in its lifecycle.",
+  "recommendation": "skip",
+  "app_url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+  "tool_url": "https://github.com/laude-org/headlong",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49428882",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CrewAI",
+        "stars": 57594,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LangChain",
+        "stars": 144957,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "Agentic",
+        "stars": 45377,
+        "repo": "sickn33/agentic-awesome-skills"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 9,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "innovative engineering",
+        "useful harness tool",
+        "positive community interest"
+      ],
+      "negative_signals": [
+        "security and isolation concerns",
+        "mixed quality of implementation",
+        "unclear real-world adoption"
+      ],
+      "justification": "Comments highlight excitement around the lightweight, modular design and potential use cases, but also raise serious security/isolation and implementation quality issues, leading to an overall positive but cautiously optimistic assessment.",
+      "comment_count": 30,
+      "hn_points": 92
+    }
+  }
+}
