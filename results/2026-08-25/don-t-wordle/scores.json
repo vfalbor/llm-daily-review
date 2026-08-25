@@ -1,0 +1,83 @@
+{
+  "app_name": "Don't Wordle",
+  "url": "https://dontwordle.com/",
+  "scored_at": "2026-08-25T13:02:36.918Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 10.7 seconds and the app runs in a web browser without requiring a PyPI package."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web‑frontend puzzle game, it does not address a core need in today's LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No star count or benchmark data is available and the game is only loosely differentiated from Wordle clones."
+    },
+    "community": {
+      "score": 4,
+      "justification": "HN points are 70 with 24 comments, placing it in the 50–200 point range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%), indicating limited core functionality."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this game app type"
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The page has no docs link and only 1417 characters of content, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version is 1.5, which meets the proxy rule for a mature release."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this game app type"
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the game’s added difficulty and fun twist on Wordle, while some express valid concerns over cookie usage, unclear rule descriptions, and possible trademark issues. Overall sentiment leans positive with constructive criticism."
+    }
+  },
+  "summary": "Don't Wordle is a browser‑based word puzzle game that builds on the classic Wordle mechanics with added twists. It runs entirely in the web browser and requires no installation or API keys. The game is suited for casual players looking for a slightly harder alternative to standard Wordle clones. It scores well on ease of access but lacks documentation and broader community support.",
+  "recommendation": "niche",
+  "app_url": "https://dontwordle.com/",
+  "tool_url": "https://dontwordle.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49432319",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "fun challenging gameplay",
+        "interesting twist on classic rules",
+        "engaging community discussion"
+      ],
+      "negative_signals": [
+        "concerns about excessive cookies",
+        "confusing rule explanations",
+        "potential legal issues with name"
+      ],
+      "justification": "The majority of comments praise the game’s added difficulty and fun twist on Wordle, while some express valid concerns over cookie usage, unclear rule descriptions, and possible trademark issues. Overall sentiment leans positive with constructive criticism.",
+      "comment_count": 24,
+      "hn_points": 70
+    }
+  }
+}
