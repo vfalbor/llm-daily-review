@@ -1,0 +1,117 @@
+{
+  "app_name": "HelloAssembly",
+  "url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+  "scored_at": "2026-08-25T13:04:11.922Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 1333 days ago and is not a fork, but similar minimal assembly projects exist (e.g., 1-star Minimal C program and 17-star Hello World assembly), indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) after 8.8 s and there is no PyPI package, showing poor accessibility."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool‑CLI for tiny Windows executables, it has limited fit with today’s dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The repo has 163 stars, far fewer than the Tiny C compiler (28,557 stars) and only modestly more than the Minimal C program (+162 stars), offering limited advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 163 stars and 9 contributors, but the last commit was 1262 days ago, indicating a small but previously active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "All 4 tests failed (0/4) and installation did not succeed, showing major usability issues."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package, only CLI build and executable modes are provided, and the project lacks a license, limiting integration options."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or detailed README topics was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 1333 days old with 16 forks and only 1 open issue, suggesting an early‑stage, low‑maintenance project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows import_time_ms of 0.01 ms and very low memory usage (0.2 KB), indicating fast startup, though no comparative data is available."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments praise the minimal assembly approach and portability, but criticism arises over the developer’s past allegations and missing source code, leading to an overall slightly negative tone."
+    }
+  },
+  "summary": "HelloAssembly is a minimal assembly program that builds a functional Windows executable with no external dependencies. It compiles via a CLI and produces a tiny native binary, targeting developers who need the smallest possible Windows app. The tool is notable for its extremely fast import time (0.01 ms) but suffers from a broken install, lack of package distribution, and stale maintenance. It is best suited for niche low‑level experimentation rather than general development.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+  "tool_url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49432227",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 163,
+      "forks": 16,
+      "open_issues": 1,
+      "watchers": 163,
+      "contributors": 9,
+      "license": "none",
+      "language": "Assembly",
+      "is_fork": false,
+      "days_since_update": 1262,
+      "days_since_created": 1333,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The smallest possible complete Windows application",
+      "topics": [
+        "assembly",
+        "windows"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Minimal C program",
+        "stars": 1,
+        "repo": "jinglei88/Yima---Minimalist-Chinese-Programming-Language"
+      },
+      {
+        "name": "Hello World assembly",
+        "stars": 17,
+        "repo": "llatta/WebAssembly-WebVR-HelloWorld"
+      },
+      {
+        "name": "Tiny C compiler",
+        "stars": 28557,
+        "repo": "jamiebuilds/the-super-tiny-compiler"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "compact native assembly",
+        "portable execution",
+        "interesting low‑level Windows usage"
+      ],
+      "negative_signals": [
+        "developer controversy",
+        "lack of source",
+        "misinformation claims"
+      ],
+      "justification": "Comments praise the minimal assembly approach and portability, but criticism arises over the developer’s past allegations and missing source code, leading to an overall slightly negative tone.",
+      "comment_count": 12,
+      "hn_points": 18
+    }
+  }
+}
