@@ -1,0 +1,4 @@
+  File "/app/test.py", line 199
+    my_ms = float(next((line for line in sys.stdout.getvalue().splitlines() if line.startswith("BENCHMARK:list_books_ms")), "BENCHMARK:list_books_ms:0").split(":")[2]))
+                                                                                                                                                                       ^
+SyntaxError: unmatched ')'
