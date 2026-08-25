@@ -1,0 +1,114 @@
+{
+  "app_name": "Walgit",
+  "url": "https://github.com/tobi/walgit",
+  "scored_at": "2026-08-25T13:09:24.824Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 1 day ago (days_since_created=1), not a fork, and introduces a unique Git‑over‑object‑store approach not seen in Gitolite, Gitea or Gogs."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (install_success=true) in 9.1 seconds (install_time_s=9.1) and runs as a single binary without requiring an API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑queue tool that lets Git operate directly on object stores, it matches current cloud‑native trends in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Unlike Gitolite (8,588★), Gitea (57,590★) and Gogs (47,766★), Walgit stores repos in an object store, a capability none of the peers provide."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 1,381 stars (1k‑5k range) and 2 contributors, with the last commit today (days_since_update=0)."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were defined (tests_passed=0, tests_total=0), so quantitative QA data is unavailable."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provides Git protocol and HTTP API use_modes, MIT license, but lacks a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata does not include wiki or GitHub Pages flags, and no documentation quality metrics were provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repository created 1 day ago, 76 forks and only 1 open issue indicate early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so performance evidence is missing."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show a generally positive view of the project’s novel approach, but several users criticize the unclear description, question its safety and consensus model, and express confusion about technical details, leading to a mildly positive overall sentiment."
+    }
+  },
+  "summary": "Walgit is a lightweight Git server that stores repositories directly in an object store while exposing the standard Git protocol and an HTTP API. It is built as a single Rust binary and runs locally without requiring any external services or API keys. The tool is aimed at cloud‑native teams that want to serve Git repos from object storage, offering the unique advantage of eliminating separate storage backends. While early adoption signals (120 HN points, 1,381 GitHub stars) show interest, the project lacks documentation, test coverage, and performance benchmarks, which limits confidence in production use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/tobi/walgit",
+  "tool_url": "https://github.com/tobi/walgit",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49420598",
+  "domain": "infra-queue",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": {
+      "stars": 1381,
+      "forks": 76,
+      "open_issues": 1,
+      "watchers": 1381,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Gitolite",
+        "stars": 8588,
+        "repo": "sitaramc/gitolite"
+      },
+      {
+        "name": "Gitea",
+        "stars": 57590,
+        "repo": "go-gitea/gitea"
+      },
+      {
+        "name": "Gogs",
+        "stars": 47766,
+        "repo": "gogs/gogs"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "innovative use of object stores",
+        "potentially efficient git hosting",
+        "interest from industry users"
+      ],
+      "negative_signals": [
+        "description and documentation issues",
+        "concerns about safety and consensus",
+        "confusion about technical claims"
+      ],
+      "justification": "The comments show a generally positive view of the project’s novel approach, but several users criticize the unclear description, question its safety and consensus model, and express confusion about technical details, leading to a mildly positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
