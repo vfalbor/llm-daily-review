@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 148, in <module>
+    main()
+  File "/app/test.py", line 122, in main
+    if not install_apk():
+           ^^^^^^^^^^^^^
+  File "/app/test.py", line 18, in install_apk
+    result, _ = run_cmd(["apk", "add", "--no-cache"] + pkgs, check=False)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: run_cmd() got an unexpected keyword argument 'check'
