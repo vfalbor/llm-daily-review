@@ -1,0 +1,29 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+ERROR: Could not find a version that satisfies the requirement maiao-cli (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for maiao-cli
+Cloning into '/tmp/maiao_src'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///tmp/maiao_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 141, in <module>
+    main()
+  File "/app/test.py", line 128, in main
+    ok, _ = run_cmd(['reviewdog', '--version'], capture=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 15, in run_cmd
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'reviewdog'
