@@ -1,0 +1,121 @@
+{
+  "app_name": "Maiao",
+  "url": "https://github.com/runetes/maiao",
+  "scored_at": "2026-08-26T13:03:35.490Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo is a fork (is_fork true) created 147 days ago and offers a Gerrit‑style workflow that already exists in many higher‑star tools, indicating low originality."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 16 s (<30 s) and the package exists on PyPI, showing easy setup on consumer hardware."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑cli for code review across Git hosts, it aligns with current LLM‑enhanced development pipelines that need integrated review workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Maiao has 128 stars versus 1,220–12,298 stars for similar tools, and no benchmark advantage is reported, making its differentiation minimal."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 128 stars (100–1k range), 8 contributors, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%) and basic run failed, placing it below the 50% pass threshold for acceptable usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package is available, the tool offers both CLI and Web UI modes, and it is MIT‑licensed, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Created 147 days ago, has 1 fork and 0 open issues, and the released version is 0.0.1, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows install_time_s of 5.872 s but no comparative data or claims, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The discussion reflects a balance: supporters value the fine‑grained review model and history preservation, while critics note the added complexity, potential noise, and force‑push concerns. Overall sentiment leans toward constructive positivity with notable reservations."
+    }
+  },
+  "summary": "Maiao is a CLI and web UI that brings a Gerrit‑style code review workflow to GitHub, GitLab, Gitea and other hosts. It is built as a Go program packaged on PyPI and runs locally, requiring an API key for operation. Developers who need fine‑grained review history across multiple Git platforms may consider it, though its low star count and lack of clear performance gains limit its appeal. The main strength is its cross‑host review model, while the primary caveat is minimal community adoption and poor test coverage.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/runetes/maiao",
+  "tool_url": "https://github.com/runetes/maiao",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49441666",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 128,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 128,
+      "contributors": 8,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": true,
+      "days_since_update": 0,
+      "days_since_created": 147,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Seamless GitHub PR management from the command-line",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "gerrit",
+        "stars": 1220,
+        "repo": "GerritCodeReview/gerrit"
+      },
+      {
+        "name": "reviewdog",
+        "stars": 9552,
+        "repo": "reviewdog/reviewdog"
+      },
+      {
+        "name": "phabricator",
+        "stars": 12298,
+        "repo": "phacility/phabricator"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "PyPi package created by Schibsted's Product & Application Security team.",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://schibsted.com"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "clear commit granularity",
+        "maintains history",
+        "integrates with native GitHub"
+      ],
+      "negative_signals": [
+        "potentially noisy PRs",
+        "force‑push complexity",
+        "steep learning curve"
+      ],
+      "justification": "The discussion reflects a balance: supporters value the fine‑grained review model and history preservation, while critics note the added complexity, potential noise, and force‑push concerns. Overall sentiment leans toward constructive positivity with notable reservations.",
+      "comment_count": 30,
+      "hn_points": 96
+    }
+  }
+}
