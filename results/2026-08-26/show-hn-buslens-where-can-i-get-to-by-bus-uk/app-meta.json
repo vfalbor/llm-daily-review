@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Show HN: Buslens – where can I get to by bus? (UK)",
+    "url": "https://rupertlinacre.com/buslens/",
+    "hn_url": "https://news.ycombinator.com/item?id=49445286",
+    "points": 65,
+    "comments": 41,
+    "author": "RobinL",
+    "age": "2026-08-26T07:36:52 1787729812",
+    "scraped_at": "2026-08-26T13:00:03.038Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/rupertlinacre/buslens",
+    "source_type": "tool",
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A web app that visualizes bus routes and allows users to find optimal bus travel routes within the UK.",
+    "use_modes": [
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Transit",
+      "OpenTripPlanner",
+      "Google Maps Transit"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `npm install` to install dependencies.",
+      "Start the development server with `npm run dev` and verify the homepage loads.",
+      "Run the provided test suite with `npm test` and check that all tests pass.",
+      "Use a headless browser to navigate to a known bus route and confirm the correct stops are displayed.",
+      "Measure response time of the API endpoint that retrieves bus schedules and compare against a baseline."
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rupertlinacre/buslens"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787749295967-k0avp",
+    "log_dir": "/tmp/llm-review-1787749295967-k0avp",
+    "install_success": false,
+    "install_time_s": 7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 148, in <module>\n    main()\n  File \"/app/test.py\", line 122, in main\n    if not install_apk():\n           ^^^^^^^^^^^^^\n  File \"/app/test.py\", line 18, in install_apk\n    result, _ = run_cmd([\"apk\", \"add\", \"--no-cache\"] + pkgs, check=False)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: run_cmd() got an unexpected keyword argument 'check'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
