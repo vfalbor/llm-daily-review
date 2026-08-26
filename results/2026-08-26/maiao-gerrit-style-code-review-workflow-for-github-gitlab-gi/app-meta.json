@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Maiao: Gerrit-style code review workflow for GitHub, GitLab, Gitea, others",
+    "url": "https://github.com/runetes/maiao",
+    "hn_url": "https://news.ycombinator.com/item?id=49441666",
+    "points": 96,
+    "comments": 58,
+    "author": "zdw",
+    "age": "2026-08-25T22:40:07 1787697607",
+    "scraped_at": "2026-08-26T13:00:03.039Z",
+    "tool_url": "https://github.com/runetes/maiao",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "CLI and web UI for a Gerrit-style code review workflow that works across GitHub, GitLab, Gitea, and other Git hosts.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "gerrit",
+      "reviewdog",
+      "phabricator",
+      "github pull request reviews"
+    ],
+    "proposed_tests": [
+      "pip install maiao-cli",
+      "maiao init --repo https://github.com/example/repo",
+      "maiao review --create 123",
+      "maiao review --list",
+      "Measure CLI latency for creating a review and listing reviews"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/runetes/maiao"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787749348077-ase2a",
+    "log_dir": "/tmp/llm-review-1787749348077-ase2a",
+    "install_success": true,
+    "install_time_s": 16,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:5.872\nBENCHMARK:pip_install_maiao-cli_s:0.994\nBENCHMARK:git_clone_s:0.999\nBENCHMARK:pip_editable_s:0.682",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nERROR: Could not find a version that satisfies the requirement maiao-cli (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for maiao-cli\nCloning into '/tmp/maiao_src'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/maiao_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 141, in <module>\n    main()\n  File \"/app/test.py\", line 128, in main\n    ok, _ = run_cmd(['reviewdog', '--version'], capture=True)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 15, in run_cmd\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'reviewdog'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r2)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r0)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.1-r0)\n(18/26) Installing libssh2 (1.11.1-r3)\n(19/26) Installing cargo (1.96.1-r0)\n(20/26) Installing ada-libs (3.3.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.18.1-r0)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.4 MiB in 77 packages\nINSTALL_OK\nBENCHMARK:install_time_s:5.872\nINSTALL_FAIL:pip install maiao-cli failed\nBENCHMARK:pip_install_maiao-cli_s:0.994\nINSTALL_OK\nBENCHMARK:git_clone_s:0.999\nINSTALL_FAIL:pip editable install failed\nBENCHMARK:pip_editable_s:0.682\nTEST_FAIL:cli_presence:maiao command not found\nTEST_FAIL:init:[Errno 2] No such file or directory: 'maiao'\nTEST_FAIL:review_create:[Errno 2] No such file or directory: 'maiao'\nTEST_FAIL:review_list:[Errno 2] No such file or directory: 'maiao'\n"
+  }
+}
