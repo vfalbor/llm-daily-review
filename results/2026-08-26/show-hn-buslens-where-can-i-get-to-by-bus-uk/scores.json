@@ -1,0 +1,114 @@
+{
+  "app_name": "Buslens",
+  "url": "https://rupertlinacre.com/buslens/",
+  "scored_at": "2026-08-26T13:02:26.766Z",
+  "total_score": 25,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository was created today (0 days since creation) and is not a fork, but it offers no unique features compared to well-established tools like Transit (10,228 stars) and OpenTripPlanner (2,722 stars), making it a near-duplicate."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) after 7 seconds and there is no PyPI package, indicating poor accessibility."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web frontend for UK bus route visualization, it addresses a niche transportation need rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Buslens has 0 GitHub stars versus 10,228 for Transit and 2,722 for OpenTripPlanner, and provides no benchmark data, showing minimal advantage."
+    },
+    "community": {
+      "score": 1,
+      "justification": "The repo has 0 stars, 1 contributor, and was updated today (0 days since last commit), indicating virtually no community activity."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were run (0/0) and the basic run failed, providing no evidence of usable functionality."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "There is no PyPI package, no documented API, and no license, so integration into other pipelines is not feasible."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or README quality was provided; in absence of evidence the neutral score of 5 is applied."
+    },
+    "maturity": {
+      "score": 1,
+      "justification": "The project was created today (0 days), has 0 forks and 0 open issues, indicating an initial prototype stage."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were reported and no performance claims exist, so a low but non‑null score is given due to insufficient evidence."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments focus on the unreliability of UK bus services, missing or inaccurate data, and confusing interface choices, while a minority praise the idea of visualising coverage and the prototype nature of the tool."
+    }
+  },
+  "summary": "Buslens is a web application that visualizes UK bus routes and helps users find optimal travel paths. It runs entirely in the browser and requires an API key to fetch route data. The tool is aimed at UK commuters or travelers looking for a quick visual overview of bus coverage. While the concept of visualizing coverage is praised, the prototype suffers from unreliable data, a confusing interface, and lacks any performance or integration capabilities.",
+  "recommendation": "skip",
+  "app_url": "https://rupertlinacre.com/buslens/",
+  "tool_url": "https://github.com/rupertlinacre/buslens",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49445286",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "license": "none",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Transit",
+        "stars": 10228,
+        "repo": "reactjs/react-transition-group"
+      },
+      {
+        "name": "OpenTripPlanner",
+        "stars": 2722,
+        "repo": "opentripplanner/OpenTripPlanner"
+      },
+      {
+        "name": "Google Maps Transit",
+        "stars": 0,
+        "repo": "TheJadeEmperor/GoogleMapsTransit"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "visualisation of coverage",
+        "useful for exploration",
+        "interesting prototype"
+      ],
+      "negative_signals": [
+        "poor bus reliability",
+        "incomplete or misleading data",
+        "poor UX and confusing interface"
+      ],
+      "justification": "Most comments focus on the unreliability of UK bus services, missing or inaccurate data, and confusing interface choices, while a minority praise the idea of visualising coverage and the prototype nature of the tool.",
+      "comment_count": 30,
+      "hn_points": 64
+    }
+  }
+}
