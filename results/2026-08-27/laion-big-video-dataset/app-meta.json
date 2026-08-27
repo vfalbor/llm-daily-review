@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Laion Big Video Dataset",
+    "url": "https://projects.laion.ai/bvd/",
+    "hn_url": "https://news.ycombinator.com/item?id=49458478",
+    "points": 72,
+    "comments": 22,
+    "author": "ks2048",
+    "age": "2026-08-27T01:50:26.000000Z",
+    "scraped_at": "2026-08-27T13:00:02.533Z",
+    "is_reviewable": true,
+    "tool_url": "https://projects.laion.ai/bvd/",
+    "source_type": "dataset",
+    "confidence": 0.93,
+    "domain": "data",
+    "app_type": "research-dataset",
+    "description": "A large-scale video dataset curated by LAION, intended for training video understanding models",
+    "use_modes": [
+      "Download",
+      "API"
+    ],
+    "similar_tools": [
+      "Kinetics",
+      "AVA",
+      "UCF101"
+    ],
+    "proposed_tests": [
+      "Download a sample shard of the dataset and verify file integrity",
+      "Validate that the provided metadata JSON contains valid timestamps and labels",
+      "Run a small inference script on a few videos to ensure compatibility with standard video models"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1787835899447-lvdx0",
+    "log_dir": "/tmp/llm-review-1787835899447-lvdx0",
+    "install_success": true,
+    "install_time_s": 8.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.547\nBENCHMARK:pip_fallback_install_time_s:0.267\nBENCHMARK:import_time_ms:0.23\nBENCHMARK:vs_kinetics_latency_ratio:fail:No module named 'laion_bvd'\nBENCHMARK:cpu_count:4\nBENCHMARK:tmp_dir_count:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.547\nINSTALL_FAIL:pip_fallback:Cloning into '/tmp/tmp342xlib3'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:pip_fallback_install_time_s:0.267\nTEST_FAIL:import:No module named 'laion_bvd'\nBENCHMARK:import_time_ms:0.23\nTEST_FAIL:download_shard:HTTP Error 404: Not Found\nTEST_PASS:validate_metadata\nTEST_FAIL:run_inference:No module named 'laion_bvd'\nBENCHMARK:vs_kinetics_latency_ratio:fail:No module named 'laion_bvd'\nBENCHMARK:cpu_count:4\nBENCHMARK:tmp_dir_count:0\nRUN_OK\n"
+  }
+}
