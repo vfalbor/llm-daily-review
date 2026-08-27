@@ -1,0 +1,81 @@
+{
+  "app_name": "Laion Big Video Dataset",
+  "url": "https://projects.laion.ai/bvd/",
+  "scored_at": "2026-08-27T13:06:09.513Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and no quantitative comparison to similar datasets is available, so evidence is insufficient."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 8.5 seconds and the package is not on PyPI, indicating a relatively simple setup but limited distribution."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research-dataset for video understanding, it aligns with current interest in multimodal LLMs and video model training."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No star count or benchmark advantage is reported; the only benchmark line failed (vs_kinetics_latency_ratio: fail), suggesting little measurable differentiation from Kinetics, AVA, or UCF101."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repo; HN points are 72 with 22 comments and overall negative sentiment, indicating a small and concerned community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25%), though installation succeeded; core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package, no documented API/SDK or webhook support, and only download mode is mentioned, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The web page lacks docs/wiki links, but the content length is 5898 characters, indicating substantive but unstructured documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 is detected on the site, which serves as a proxy for a mature release despite missing changelog or repository."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Import time is reported as 0.23 ms, but the only comparative benchmark failed, providing no evidence of performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "Most comments focus on the questionable use of residential proxies and botnet implications, raising ethical and legal concerns. Only a single positive remark about the collection success appears, making the overall sentiment largely negative."
+    }
+  },
+  "summary": "The Laion Big Video Dataset is a large collection of videos intended for training video understanding models. It is provided as a downloadable archive with no public API or SDK and is hosted on a project website rather than a package manager. Researchers needing raw video data for experiments may find it useful, especially given its 1.0 version label. While the dataset is relevant to current multimodal AI trends, it suffers from limited documentation, poor test coverage, and negative community sentiment regarding ethical concerns.",
+  "recommendation": "niche",
+  "app_url": "https://projects.laion.ai/bvd/",
+  "tool_url": "https://projects.laion.ai/bvd/",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=49458478",
+  "domain": "data",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "High success rate in video collection"
+      ],
+      "negative_signals": [
+        "Concerns about botnet-like proxy usage",
+        "Ethical and legal questions",
+        "Potential copyright issues"
+      ],
+      "justification": "Most comments focus on the questionable use of residential proxies and botnet implications, raising ethical and legal concerns. Only a single positive remark about the collection success appears, making the overall sentiment largely negative.",
+      "comment_count": 22,
+      "hn_points": 72
+    }
+  }
+}
