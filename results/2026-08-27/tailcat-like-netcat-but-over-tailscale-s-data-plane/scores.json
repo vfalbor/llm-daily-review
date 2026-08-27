@@ -1,0 +1,113 @@
+{
+  "app_name": "Tailcat – Like netcat, but over Tailscale’s data plane",
+  "url": "https://github.com/tailscale/tailcat",
+  "scored_at": "2026-08-27T13:02:16.441Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 666 days old, is not a fork, and replicates netcat functionality with Tailscale integration, making it an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 13.5 seconds and requires no PyPI package, indicating a fairly simple setup despite being a Go binary."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑cli that provides zero‑config VPN tunneling for networking, it addresses a common need in current LLM‑driven remote‑access workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Tailcat has 1,383 stars, which is higher than ncat (248) and socat (330) but lower than netcat (5,449); its unique Tailscale data‑plane integration offers a security and configuration advantage over those tools."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 1,383 stars, 331 contributors, and was updated today (0 days since last commit), indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 3 tests passed (33 %), though the install succeeded; the low test pass rate limits confidence in overall usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only, has no PyPI package, and provides no API, making automated integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided; with only basic repository information available, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 666 days old, has 22 forks and 8 open issues, suggesting a moderately mature project but not yet at full production stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output lists install, clone, and build times but provides no comparative performance data, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud Tailcat for simplifying remote access via Tailscale’s data plane, highlighting its open‑source nature and lack of vendor lock‑in, while a minority note that setting up NAT traversal and configuration can still be a bit painful."
+    }
+  },
+  "summary": "Tailcat is a command‑line networking utility that forwards traffic over Tailscale’s encrypted data plane, offering netcat‑style functionality without manual VPN setup. It is built in Go and distributed as a binary, requiring no external package manager. The tool is suited for developers who need quick, secure tunneling for ad‑hoc services in environments already using Tailscale. Its main strength is the seamless integration with Tailscale’s zero‑config VPN, while its weakness lies in limited integration options and modest test coverage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/tailscale/tailcat",
+  "tool_url": "https://github.com/tailscale/tailcat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49452990",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1383,
+      "forks": 22,
+      "open_issues": 8,
+      "watchers": 1383,
+      "contributors": 331,
+      "license": "BSD-3-Clause",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 666,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ncat",
+        "stars": 248,
+        "repo": "nathalislight/NCAT"
+      },
+      {
+        "name": "socat",
+        "stars": 330,
+        "repo": "3ndG4me/socat"
+      },
+      {
+        "name": "netcat",
+        "stars": 5449,
+        "repo": "binaricat/Netcatty"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Eases NAT traversal and remote access",
+        "Open source and vendor‑lock free",
+        "User‑friendly CLI and library"
+      ],
+      "negative_signals": [
+        "Some configuration friction",
+        "NAT traversal still required in certain scenarios"
+      ],
+      "justification": "The majority of comments applaud Tailcat for simplifying remote access via Tailscale’s data plane, highlighting its open‑source nature and lack of vendor lock‑in, while a minority note that setting up NAT traversal and configuration can still be a bit painful.",
+      "comment_count": 30,
+      "hn_points": 606
+    }
+  }
+}
