@@ -1,0 +1,123 @@
+{
+  "app_name": "OpenExecutive",
+  "url": "https://github.com/SenteLabsAI/OpenExecutive",
+  "scored_at": "2026-08-27T13:03:47.118Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 76 days old, is not a fork, and targets a niche AI CEO use case that differs from the much larger ChatGPT and Claude projects, indicating an incremental but notable improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 10.9 seconds, but the package is not available on PyPI, requiring a manual install which adds moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-assistant that simulates executive decision‑making, it aligns with the current surge in LLM‑driven automation tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 1,093 GitHub stars it is far smaller than ChatGPT (21,214) or Claude (143,157), yet it offers a unique AI CEO persona not present in those alternatives."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,093 stars, 6 contributors, and was updated today (0 days since last commit), indicating an active, growing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed and the basic run failed, meaning less than 50% of core functionality works out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but the tool provides CLI, Web UI, and API modes; the lack of a standard package means manual glue code is required."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 76 days old with 62 forks and 13 open issues, suggesting early‑stage development but some community interest."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was reported in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments are mixed: many jokes and curiosity about the AI demo coexist with serious concerns about legal liability and the feasibility of an AI CEO, leading to an overall neutral sentiment."
+    }
+  },
+  "summary": "OpenExecutive is an open‑source AI CEO chatbot that simulates executive decision‑making via CLI, web UI, and API. It builds on standard LLMs without requiring an API key and runs locally after a manual install. The tool is suited for developers experimenting with AI‑driven leadership simulations, offering a novel persona not found in mainstream chatbots. While the community is active (1,093 stars, recent commits), the current implementation fails basic tests and lacks performance benchmarks, limiting its reliability for production use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/SenteLabsAI/OpenExecutive",
+  "tool_url": "https://github.com/SenteLabsAI/OpenExecutive",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49458418",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": {
+      "stars": 1093,
+      "forks": 62,
+      "open_issues": 13,
+      "watchers": 1093,
+      "contributors": 6,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 76,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "AI-powered virtual executive team — a single coherent executive persona backed by 8 specialist Claude agents (FastAPI + Next.js).",
+      "topics": [
+        "ai",
+        "anthropic",
+        "claude",
+        "fastapi",
+        "llm",
+        "multi-agent",
+        "nextjs",
+        "python",
+        "rag",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenAI ChatGPT",
+        "stars": 21214,
+        "repo": "openai/chatgpt-retrieval-plugin"
+      },
+      {
+        "name": "Claude",
+        "stars": 143157,
+        "repo": "anthropics/claude-code"
+      },
+      {
+        "name": "ChatGPT API",
+        "stars": 6405,
+        "repo": "reorx/awesome-chatgpt-api"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Humorous take on AI CEO",
+        "Tech enthusiasts excited by demo"
+      ],
+      "negative_signals": [
+        "Legal/accountability concerns",
+        "Skepticism about replacing humans with AI"
+      ],
+      "justification": "The comments are mixed: many jokes and curiosity about the AI demo coexist with serious concerns about legal liability and the feasibility of an AI CEO, leading to an overall neutral sentiment.",
+      "comment_count": 30,
+      "hn_points": 732
+    }
+  }
+}
