@@ -1,0 +1,83 @@
+{
+  "app_name": "Twitter Viewer – View Twitter Without Account",
+  "url": "https://twitterwebviewer.com/",
+  "scored_at": "2026-08-27T13:04:58.071Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "No creation date is available and the tool replicates existing services like TweetDeck, indicating a near‑duplicate rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded in 14.6 s and the page runs without a PyPI package, showing modest setup complexity for a web app."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web‑SaaS for viewing Twitter, it does not address a primary pain point in today’s LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No GitHub stars or benchmarks are available and the service offers only marginal differences from alternatives like TwitView."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 511 with 30 comments, indicating strong community interest despite the lack of a public repo."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No functional tests were defined (0/0) and the basic run failed, so quantitative UX data is missing."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook but provides no PyPI package or clear licensing information."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "Although there is no dedicated docs link, the site includes examples and a large content body of 99,199 characters, suggesting reasonably thorough documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 0.317, far below 1.0, and there is no changelog or release notes, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the utility and freedom the service offers, yet express worries over legal risks, Twitter’s content and broader political tensions, resulting in a moderately positive overall sentiment."
+    }
+  },
+  "summary": "Twitter Viewer is a lightweight web app that renders public Twitter threads without requiring a login. It operates purely as a Web UI and mentions an API/webhook, but no install command or package manager support is provided. The service is useful for users who want quick, account‑free access to tweets, especially given the positive HN sentiment about its utility. Its main strength is the ease of public access, while its lack of versioned releases, sparse community infrastructure, and modest performance data limit its reliability for production use.",
+  "recommendation": "skip",
+  "app_url": "https://twitterwebviewer.com/",
+  "tool_url": "https://twitterwebviewer.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49449576",
+  "domain": "web-saas",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful tool for non-account access",
+        "promotes freedom of information",
+        "community support"
+      ],
+      "negative_signals": [
+        "legal and cease-and-desist concerns",
+        "hate and abusive content",
+        "political polarization"
+      ],
+      "justification": "Comments praise the utility and freedom the service offers, yet express worries over legal risks, Twitter’s content and broader political tensions, resulting in a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 511
+    }
+  }
+}
