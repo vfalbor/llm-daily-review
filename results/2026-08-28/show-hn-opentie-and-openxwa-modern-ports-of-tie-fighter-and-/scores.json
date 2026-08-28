@@ -1,0 +1,114 @@
+{
+  "app_name": "OpenTIE",
+  "url": "https://github.com/elyosh/OpenTIE",
+  "scored_at": "2026-08-28T13:03:49.524Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 33 days old and is not a fork, but it replicates classic games rather than introducing a fundamentally new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 9.9 seconds and runs locally without an API key, meeting the <30 s simple‑setup criterion."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a game port, it addresses a niche interest rather than a broad LLM workflow trend."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 188 GitHub stars it outperforms Tie Fighter (10 stars) and Dawn of War (44 stars) but trails XWA (1,056 stars), giving it a moderate advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 188 stars, 1 contributor, and was updated 2 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50% pass rate) and install succeeded, showing core functionality is missing."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type (game)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided; default neutral score applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 33 days old with 3 forks and 7 open issues, indicating early-stage maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type as no benchmark data is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments show enthusiasm for the modern ports and their features, but also raise valid points about system requirements and whether a rewrite is necessary compared to emulation."
+    }
+  },
+  "summary": "OpenTIE is an open‑source project that ports the classic Tie Fighter and X‑Wing Alliance space simulators to modern desktop and command‑line environments. It builds on the original game codebases and runs locally without requiring an API key. The tool is suited for retro‑gaming enthusiasts who want to play classic titles on current hardware, offering a faithful recreation with some modern improvements. Its main strength is the quick, hassle‑free installation, but the lack of passing tests and limited community support are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/elyosh/OpenTIE/",
+  "tool_url": "https://github.com/elyosh/OpenTIE",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49471965",
+  "domain": "other",
+  "app_type": "game",
+  "enriched": {
+    "github": {
+      "stars": 188,
+      "forks": 3,
+      "open_issues": 7,
+      "watchers": 188,
+      "contributors": 1,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 33,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "XWA",
+        "stars": 1056,
+        "repo": "Supreeeme/xwayland-satellite"
+      },
+      {
+        "name": "Tie Fighter",
+        "stars": 10,
+        "repo": "Tie-fighter/banditvis"
+      },
+      {
+        "name": "Dawn of War",
+        "stars": 44,
+        "repo": "zero334/Dawn-of-War-Widescreen-Fix"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Nostalgic revival of classic games",
+        "Modern engine improvements and cross-version merging",
+        "Enhanced hardware support and native play"
+      ],
+      "negative_signals": [
+        "Concerns over 64‑bit/GPU requirement",
+        "Debate over value of rewrite vs emulation",
+        "Potential licensing and installation hurdles"
+      ],
+      "justification": "Comments show enthusiasm for the modern ports and their features, but also raise valid points about system requirements and whether a rewrite is necessary compared to emulation.",
+      "comment_count": 30,
+      "hn_points": 189
+    }
+  }
+}
