@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+    "url": "https://github.com/elyosh/OpenTIE/",
+    "hn_url": "https://news.ycombinator.com/item?id=49471965",
+    "points": 189,
+    "comments": 47,
+    "author": "elyosh",
+    "age": "2026-08-27T22:10:47.000000Z",
+    "scraped_at": "2026-08-28T13:00:02.322Z",
+    "tool_url": "https://github.com/elyosh/OpenTIE",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "other",
+    "app_type": "game",
+    "description": "Modern, open‑source ports of the classic Tie Fighter and X‑Wing Alliance space flight simulators.",
+    "use_modes": [
+      "Desktop",
+      "Command Line"
+    ],
+    "similar_tools": [
+      "XWA",
+      "Tie Fighter",
+      "Dawn of War"
+    ],
+    "proposed_tests": [
+      "Clone repo and run the build script for the chosen platform",
+      "Launch the game and confirm it starts without errors",
+      "Check that the custom mod loader works by loading a sample mod",
+      "Measure startup time and peak memory usage",
+      "Run the integrated test harness (if any) for gameplay logic"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/elyosh/OpenTIE"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787922156692-cq3p3",
+    "log_dir": "/tmp/llm-review-1787922156692-cq3p3",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.451\nBENCHMARK:pip_install_time_s:2.161\nBENCHMARK:import_time_ms:0\nBENCHMARK:import_peak_mem_kb:0\nBENCHMARK:core_op_latency_ms:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.451\nINSTALL_FAIL:[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/opentie_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nBENCHMARK:pip_install_time_s:2.161\nTEST_FAIL:import_module:No module named 'OpenTIE'\nBENCHMARK:import_time_ms:0\nBENCHMARK:import_peak_mem_kb:0\nTEST_FAIL:core_operation:name 'OpenTIE' is not defined\nBENCHMARK:core_op_latency_ms:0\nRUN_OK\n"
+  }
+}
