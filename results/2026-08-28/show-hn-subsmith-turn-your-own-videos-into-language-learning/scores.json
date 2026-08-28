@@ -1,0 +1,99 @@
+{
+  "app_name": "SubSmith",
+  "url": "https://subsmith.app/",
+  "scored_at": "2026-08-28T13:02:35.629Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be assessed and is given a neutral score."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) and there is no PyPI package, indicating a broken installation process."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑frontend that auto‑generates subtitles for language learning, it aligns with current LLM‑driven educational tools."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The app has no reported star count while similar tools have 4,257, 44, and 3 stars, showing minimal differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "With no GitHub repository data and only 21 HN points, community interest is low."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Zero tests passed (0/0) and the install failed, indicating the core functionality does not work out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Although there is no PyPI package, the tool offers a REST API (use_modes includes REST API), allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or explicit documentation details were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without a repository, version tag, or release information and only 21 HN points, the project appears early‑stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data or performance claims were provided, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the tool’s convenience and community appeal, but raise valid concerns about subtitle quality, regional accent support, and the subscription cost, leading to a generally positive yet cautiously critical stance."
+    }
+  },
+  "summary": "SubSmith is a web application that lets users upload videos and automatically creates subtitles, flashcards, and quizzes for language learning. It runs locally in the browser and also offers a REST API for programmatic access. The tool is aimed at language learners who want quick subtitle generation without manual transcription. While users appreciate its convenience, the lack of installation success and limited community support are major drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://subsmith.app/",
+  "tool_url": "https://github.com/subsmith/subsmith",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49476894",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Descript",
+        "stars": 4257,
+        "repo": "iDescriptor/iDescriptor"
+      },
+      {
+        "name": "Otter.ai",
+        "stars": 44,
+        "repo": "omerdn1/otter.ai-api"
+      },
+      {
+        "name": "LingoApp",
+        "stars": 3,
+        "repo": "nanamizu01/lingoappTcc-versao-inicial"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Auto-generated subtitles improve accessibility",
+        "User interest in language learning community",
+        "Potential for adding features to reduce friction"
+      ],
+      "negative_signals": [
+        "Subtitle accuracy concerns",
+        "Pricing model questioned",
+        "Limited support for non-mainstream accents"
+      ],
+      "justification": "Comments praise the tool’s convenience and community appeal, but raise valid concerns about subtitle quality, regional accent support, and the subscription cost, leading to a generally positive yet cautiously critical stance.",
+      "comment_count": 23,
+      "hn_points": 21
+    }
+  }
+}
