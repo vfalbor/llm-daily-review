@@ -1,0 +1,81 @@
+{
+  "app_name": "Interactive Warhammer 40k Galaxy Map – Cartographia Imperialis",
+  "url": "https://cartographia40k.com/",
+  "scored_at": "2026-08-28T13:04:15.126Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are unavailable and the app resembles existing map tools such as BattleMapper, so there is no quantitative evidence of a novel approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 9.6 s (<30 s) and no external package manager is required, indicating very easy setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app is a web‑frontend map for a tabletop hobby, which does not address a primary pain point in today’s LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a vs_baseline_load_ratio of 0.07, meaning the map loads about 93 % faster than the baseline, a clear speed advantage over similar tools."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is available and Hacker News points are only 31, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 4/4 tests passed and the basic run succeeded, demonstrating solid usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The page reports no API/SDK, no webhook support, and there is no PyPI package, making integration difficult."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "A docs/wiki link is present (true) and the page content length is 2545 characters, providing moderate documentation but no examples."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "No version number, no changelog, and no public repo are found; combined with low HN points (31), the project appears immature."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks report fast load times (e.g., homepage_load_ms 106.15) and a vs_baseline_load_ratio of 0.07, indicating strong performance relative to a baseline."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the project as awesome and useful, but some users point out performance problems when routes are enabled and criticize inaccurate Latin terminology."
+    }
+  },
+  "summary": "Cartographia Imperialis is a browser‑based interactive map of the Warhammer 40k galaxy that lets users navigate, overlay data, and place custom markers. It runs entirely in the client, loading the homepage in 106 ms and achieving a 0.07 load‑ratio versus a baseline, making it noticeably faster than comparable map tools. The tool is aimed at tabletop hobbyists who want a quick, visual reference of the galaxy without installing software. Its main strength is performance, while the lack of an API, sparse documentation, and minimal community support limit broader adoption.",
+  "recommendation": "niche",
+  "app_url": "https://cartographia40k.com/",
+  "tool_url": "https://cartographia40k.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49475979",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Love it!",
+        "Awesome feature set"
+      ],
+      "negative_signals": [
+        "Performance hiccup with routes",
+        "Incorrect Latin usage"
+      ],
+      "justification": "The majority of comments praise the project as awesome and useful, but some users point out performance problems when routes are enabled and criticize inaccurate Latin terminology.",
+      "comment_count": 6,
+      "hn_points": 31
+    }
+  }
+}
