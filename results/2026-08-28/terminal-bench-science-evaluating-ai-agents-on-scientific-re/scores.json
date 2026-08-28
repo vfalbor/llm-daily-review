@@ -1,0 +1,99 @@
+{
+  "app_name": "Terminal-Bench-Science",
+  "url": "https://www.terminal-bench-science.ai/announcement",
+  "scored_at": "2026-08-28T13:06:27.079Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are unavailable, so a neutral score is assigned."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for a research-paper type tool."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research-paper benchmark suite, it directly addresses current LLM evaluation needs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to similar tools (OpenAI Eval 19,293 stars, SciBench 134 stars, AutoGPT 186,962 stars), this benchmark focuses on scientific workflows, a distinct niche."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 104, placing it in the 100–300 range which maps to a community score of 5–6."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for a research-paper type tool."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for a research-paper type tool."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub pages data were found, so a neutral score is used."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With HN points at 104 and no other maturity signals, the proxy rules assign a score of 5."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for a research-paper benchmark without published benchmark numbers."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight the usefulness of realistic scientific benchmarks and praise certain models (GPT Sol, Claude) while expressing concerns over correctness, mixed results, and the benchmark’s openness, leading to a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "Terminal-Bench-Science is an open‑source benchmark suite that evaluates AI agents on scientific research tasks such as data analysis, literature review, and experiment design. It provides a CLI and Python API built around realistic scientific workflows. Researchers and developers building scientific agents would use it to gauge performance on domain‑specific challenges. The tool’s main strength is its unique focus on scientific workflows, while limited community signals and lack of published performance numbers are notable caveats.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.terminal-bench-science.ai/announcement",
+  "tool_url": "https://github.com/Terminal-Bench-Science/terminal-bench-science",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49472820",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenAI Eval",
+        "stars": 19293,
+        "repo": "openai/evals"
+      },
+      {
+        "name": "SciBench",
+        "stars": 134,
+        "repo": "mandyyyyii/scibench"
+      },
+      {
+        "name": "AutoGPT",
+        "stars": 186962,
+        "repo": "Significant-Gravitas/AutoGPT"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Valuable real-world benchmarking",
+        "Positive model performance (GPT Sol, Claude)",
+        "Encouraging community engagement"
+      ],
+      "negative_signals": [
+        "Concerns about correctness and reliability",
+        "Mixed model performance (Opus vs Fable)",
+        "Lack of benchmark accessibility"
+      ],
+      "justification": "Comments highlight the usefulness of realistic scientific benchmarks and praise certain models (GPT Sol, Claude) while expressing concerns over correctness, mixed results, and the benchmark’s openness, leading to a generally positive but cautiously critical sentiment.",
+      "comment_count": 30,
+      "hn_points": 104
+    }
+  }
+}
