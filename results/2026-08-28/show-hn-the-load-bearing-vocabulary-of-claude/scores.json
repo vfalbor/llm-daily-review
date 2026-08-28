@@ -1,0 +1,83 @@
+{
+  "app_name": "The load-bearing vocabulary of Claude",
+  "url": "https://louisabraham.github.io/load-bearing/",
+  "scored_at": "2026-08-28T13:05:30.529Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The visualization is similar to existing WordCloud and ObservableHQ tools, making it a near-duplicate rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded in 18.2 s but there is no PyPI package, indicating moderate setup complexity without a simple pip install."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data‑viz tool for Claude's internal vocabulary, it addresses current interest in understanding LLM behavior."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No unique features or benchmarks are provided, and similar tools (WordCloud, Datawrapper) already cover the same functionality."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 587 with 30 comments, indicating strong community interest despite the lack of a GitHub repo."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (<50%), showing core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK, but there is no PyPI package or install command, requiring some manual glue code."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "No dedicated docs or wiki, but the page content length is 76,227 characters, indicating substantive information."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version number of 4.5 suggests a mature release despite missing changelog or repo metadata."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data is available in the test output, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of the comments express frustration with Claude’s opaque, jargon‑heavy output and a sense that it’s difficult to understand or use. A few comments note potential fixes (output styles) and some users report mixed experiences, but overall the sentiment leans toward negative."
+    }
+  },
+  "summary": "The load-bearing vocabulary of Claude is a static web visualization that shows word frequency and usage across Claude's generations. It runs in the browser and mentions an API/SDK but offers no install command or package manager support. It is suited for researchers or enthusiasts wanting to explore Claude's internal vocabulary, leveraging a substantial amount of on‑page content. Its main strength is the detailed visual insight, while the lack of documentation, benchmarks, and limited differentiation from existing word‑cloud tools are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://louisabraham.github.io/load-bearing/",
+  "tool_url": "https://louisabraham.github.io/load-bearing/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49461817",
+  "domain": "data",
+  "app_type": "data-viz",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "mentions of output styles",
+        "some users find solutions",
+        "interest in model behavior"
+      ],
+      "negative_signals": [
+        "jargon overload",
+        "unintelligible explanations",
+        "frustration with style"
+      ],
+      "justification": "The majority of the comments express frustration with Claude’s opaque, jargon‑heavy output and a sense that it’s difficult to understand or use. A few comments note potential fixes (output styles) and some users report mixed experiences, but overall the sentiment leans toward negative.",
+      "comment_count": 30,
+      "hn_points": 587
+    }
+  }
+}
