@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+    "url": "https://github.com/experientiallabs/experiential",
+    "hn_url": "https://news.ycombinator.com/item?id=49471407",
+    "points": 196,
+    "comments": 37,
+    "author": "SilenN",
+    "age": "2026-08-27T21:18:35.000000Z",
+    "scraped_at": "2026-08-28T13:00:02.327Z",
+    "tool_url": "https://github.com/experientiallabs/experiential",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "infra",
+    "app_type": "infra-api-gateway",
+    "description": "A lightweight API gateway that aggregates multiple LLM providers, routing requests based on usage patterns to optimize cost and performance.",
+    "use_modes": [
+      "Docker",
+      "Python API"
+    ],
+    "similar_tools": [
+      "OpenRouter",
+      "Anthropic API Gateway",
+      "OpenAI Proxy"
+    ],
+    "proposed_tests": [
+      "Pull Docker image and run the gateway",
+      "Configure two dummy LLM backends",
+      "Send test requests and verify routing logic",
+      "Measure latency and cost savings compared to direct calls"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/experientiallabs/experiential"
+  },
+  "test_results": {
+    "run_id": "llm-review-1787922388223-m3w8t",
+    "log_dir": "/tmp/llm-review-1787922388223-m3w8t",
+    "install_success": true,
+    "install_time_s": 39.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.01\nBENCHMARK:memory_peak_kb:0.05",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip install git+https://github.com/experientiallabs/experiential.git rc=1\nINSTALL_OK\nINSTALL_FAIL:pip install -e . rc=1\nTEST_SKIP:install_tool:could not install\nTEST_FAIL:pull_image:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:run_gateway:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:routing_logic:HTTP 404\nTEST_FAIL:vs_baseline:HTTP Error 404: Not Found\nBENCHMARK:import_time_ms:0.01\nBENCHMARK:memory_peak_kb:0.05\nRUN_OK\n"
+  }
+}
