@@ -1,0 +1,98 @@
+{
+  "app_name": "Visual Analysis of Binary Files",
+  "url": "https://binvis.io/#/",
+  "scored_at": "2026-08-29T13:10:52.548Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so novelty cannot be quantified and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 10.1 seconds, indicating a simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a web-frontend binary visualizer, it does not align closely with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No star count is available and benchmark vs_binwalk_upload_ratio is 0.0, showing no measurable advantage over similar tools like binwalk (14,289 stars)."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data; HN points are 92 with 24 comments, placing it in the 3‑4 score range for community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "1 of 2 tests passed (50%), meeting the ≥50% threshold for a moderate ease‑of‑use rating."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool offers only a Web UI, has no PyPI package, and provides no API, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details such as wiki or GitHub pages are not available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "With no repository data and only 92 HN points, maturity is assessed as low."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports total_script_time_s of 3.03 seconds but no comparative data, yielding an average performance rating."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments are enthusiastic, nostalgic, and supportive of the visualizer’s usefulness, while a few raise technical questions about clustering and implementation details, resulting in an overall positive but slightly mixed sentiment."
+    }
+  },
+  "summary": "Visual Analysis of Binary Files is a web‑based visualizer that renders binary data using WebGL. It runs entirely in the browser without requiring an API key. The tool is suited for security researchers or reverse‑engineers who need quick visual insight into binary files. It installs quickly (10.1 s) and runs basic functionality, but lacks integration hooks and offers no clear performance advantage over established tools like binwalk.",
+  "recommendation": "skip",
+  "app_url": "https://binvis.io/#/",
+  "tool_url": "https://github.com/markusfisch/binvis",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49443783",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "binwalk",
+        "stars": 14289,
+        "repo": "ReFirmLabs/binwalk"
+      },
+      {
+        "name": "radare2",
+        "stars": 24674,
+        "repo": "radareorg/radare2"
+      },
+      {
+        "name": "Ghidra",
+        "stars": 73504,
+        "repo": "NationalSecurityAgency/ghidra"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "nostalgic appreciation",
+        "useful visualization tool",
+        "community engagement"
+      ],
+      "negative_signals": [
+        "technical uncertainty",
+        "lack of clarity on clustering"
+      ],
+      "justification": "The majority of comments are enthusiastic, nostalgic, and supportive of the visualizer’s usefulness, while a few raise technical questions about clustering and implementation details, resulting in an overall positive but slightly mixed sentiment.",
+      "comment_count": 24,
+      "hn_points": 92
+    }
+  }
+}
