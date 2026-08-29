@@ -1,0 +1,98 @@
+{
+  "app_name": "Galaxium",
+  "url": "https://galaxium.app/",
+  "scored_at": "2026-08-29T13:08:17.109Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool follows existing WebGPU visualisation patterns, so the novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 16.5 seconds despite the lack of a PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑frontend WebGPU space explorer, it aligns with the current surge of browser‑based GPU graphics in the LLM‑enhanced web tooling landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The benchmark ratio of 0.480 versus threejs suggests it renders roughly twice as fast, but it has no stars to compare and otherwise resembles threejs, Babylon.js, and A‑Frame."
+    },
+    "community": {
+      "score": 2,
+      "justification": "Only 14 HN points were recorded, placing it in the <50 points bracket for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0%) and install succeeded, indicating core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project lacks a PyPI package and offers only a Web UI/WebGPU mode, limiting programmatic integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation metrics (wiki, pages, topics) were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "With only 14 HN points and no repository data, the project appears early‑stage and minimally mature."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows a vs_threejs_render_ratio of 0.480, indicating more than a 2× speed advantage over threejs."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments are overwhelmingly enthusiastic, praising the project’s use of WebGPU and immersive experience, with only a couple of users pointing out small bugs or performance hiccups. The overall tone is very positive with minor nitpicks."
+    }
+  },
+  "summary": "Galaxium is a WebGPU‑powered interactive space explorer that renders a procedural solar system directly in the browser. It runs as a pure web UI using WebGPU/WebGL without requiring any API keys. The tool is suited for developers or hobbyists wanting a real‑time 3D experience in the browser, especially those interested in cutting‑edge GPU graphics. Its standout strength is a benchmarked rendering speed roughly twice that of threejs, while its main caveat is very limited community adoption and documentation, reflected by only 14 Hacker News points and no available tests.",
+  "recommendation": "worth-watching",
+  "app_url": "https://galaxium.app/",
+  "tool_url": "https://github.com/galaxium/galaxium",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49420524",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "threejs",
+        "stars": 14414,
+        "repo": "img2threejs/img2threejs"
+      },
+      {
+        "name": "Babylon.js",
+        "stars": 25996,
+        "repo": "BabylonJS/Babylon.js"
+      },
+      {
+        "name": "A-Frame",
+        "stars": 13197,
+        "repo": "microsoft/agent-framework"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "innovative WebGPU usage",
+        "immersive real‑time space exploration",
+        "enthusiastic community praise"
+      ],
+      "negative_signals": [
+        "minor bugs (e.g., Voyager orientation)",
+        "performance concerns in early zoom out"
+      ],
+      "justification": "The comments are overwhelmingly enthusiastic, praising the project’s use of WebGPU and immersive experience, with only a couple of users pointing out small bugs or performance hiccups. The overall tone is very positive with minor nitpicks.",
+      "comment_count": 10,
+      "hn_points": 14
+    }
+  }
+}
