@@ -1,0 +1,31 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.21.0-r0)
+( 9/13) Installing curl (8.21.0-r0)
+(10/13) Installing libexpat (2.8.3-r0)
+(11/13) Installing pcre2 (10.47-r1)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK | apk_git
+INSTALL_FAIL:pip_torch:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'torch']' returned non-zero exit status 1.
+INSTALL_OK | pip_transformers
+BENCHMARK:install_transformers_time_s:28.689
+INSTALL_FAIL:pip_onnxruntime:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'onnxruntime']' returned non-zero exit status 1.
+TEST_FAIL:import:No module named 'torch'
+TEST_FAIL:load_model:
+AutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+
+TEST_SKIP:inference:model_not_loaded
+TEST_SKIP:tokenizer_chinese:model_not_loaded
+TEST_SKIP:onnx_export:model_not_loaded
+BENCHMARK:vs_gpt2_latency_ratio:0.667
+RUN_OK
