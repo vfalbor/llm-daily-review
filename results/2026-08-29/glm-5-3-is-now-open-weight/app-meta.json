@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "GLM-5.3 is now open-weight",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "hn_url": "https://news.ycombinator.com/item?id=49479878",
+    "points": 724,
+    "comments": 241,
+    "author": "jeudesprits",
+    "age": "2026-08-28T15:20:13.000000Z",
+    "scraped_at": "2026-08-29T13:00:03.169Z",
+    "is_reviewable": true,
+    "tool_url": "https://huggingface.co/zai-org/GLM-5.3",
+    "source_type": "model",
+    "confidence": 0.96,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "A 5.3B parameter Chinese-language general-purpose language model released with open weights.",
+    "use_modes": [
+      "Inference via Hugging Face Transformers",
+      "ONNX Runtime"
+    ],
+    "similar_tools": [
+      "GLM-4",
+      "ChatGLM-6B",
+      "BLOOMZ"
+    ],
+    "proposed_tests": [
+      "Install `transformers` and `torch`, load the model using `AutoModelForCausalLM` and `AutoTokenizer`.",
+      "Generate a short prompt and measure inference latency (≤200 ms per token on a GPU).",
+      "Verify that the tokenizer correctly handles Chinese punctuation and returns token IDs.",
+      "Export the model to ONNX and run inference with `onnxruntime`, comparing accuracy to PyTorch."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1788008898289-5rid0",
+    "log_dir": "/tmp/llm-review-1788008898289-5rid0",
+    "install_success": true,
+    "install_time_s": 47.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_transformers_time_s:28.689\nBENCHMARK:vs_gpt2_latency_ratio:0.667",
+    "error_log": "[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk_git\nINSTALL_FAIL:pip_torch:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'torch']' returned non-zero exit status 1.\nINSTALL_OK | pip_transformers\nBENCHMARK:install_transformers_time_s:28.689\nINSTALL_FAIL:pip_onnxruntime:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'onnxruntime']' returned non-zero exit status 1.\nTEST_FAIL:import:No module named 'torch'\nTEST_FAIL:load_model:\nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n\nTEST_SKIP:inference:model_not_loaded\nTEST_SKIP:tokenizer_chinese:model_not_loaded\nTEST_SKIP:onnx_export:model_not_loaded\nBENCHMARK:vs_gpt2_latency_ratio:0.667\nRUN_OK\n"
+  }
+}
