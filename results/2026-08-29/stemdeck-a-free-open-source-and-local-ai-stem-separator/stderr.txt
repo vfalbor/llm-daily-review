@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 214, in <module>
+    main()
+  File "/app/test.py", line 185, in main
+    benchmark_vs_baseline('cli_separate_latency_s', our_cli_time, baseline_cli_time)
+  File "/app/test.py", line 108, in benchmark_vs_baseline
+    print_marker(f"BENCHMARK:vs_{baseline_tool}_{metric_name}:{ratio:.3f}")
+                                 ^^^^^^^^^^^^^
+NameError: name 'baseline_tool' is not defined
