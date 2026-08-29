@@ -1,0 +1,129 @@
+{
+  "app_name": "TurboKV: Insanely fast Rust key-value store",
+  "url": "https://github.com/kingroryg/turbokv",
+  "scored_at": "2026-08-29T13:06:14.559Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 236 days ago and is not a fork, but offers an incremental Rust implementation of a KV store rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 14.4 s (under 30 s) and the package is published on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a high‑performance NoSQL KV store it aligns with current LLM pipelines that need fast, low‑latency storage for embeddings and metadata."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "TurboKV has 129 GitHub stars, far fewer than RocksDB (32,027), Sled (9,079) and LMDB (3,035), and no benchmark data were provided to show a clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 129 stars (100–1k range), 1 contributor and was updated today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0 %) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package is available, the project offers both CLI and Library API modes, and it uses an Apache‑2.0 license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 236 days old with 1 fork and 1 open issue, placing it in the early‑stage (alpha) range."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so a neutral score is used for performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show appreciation for TurboKV’s engineering choices (hardware acceleration, mmap WAL) and clear durability documentation, but raise legitimate worries about power-loss durability, confusing terminology, and unclear defaults. Overall sentiment leans mildly positive with constructive criticism."
+    }
+  },
+  "summary": "TurboKV is a Rust‑based key‑value store that provides a CLI and library API for fast, low‑latency data access. It is packaged on PyPI and runs on standard hardware without special dependencies. Developers building LLM pipelines that need rapid storage of embeddings may find it useful, especially when they can embed the library directly. Its main strength is the claim of hardware‑accelerated speed, but the lack of benchmark evidence and failing test suite limit confidence in its performance and reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/kingroryg/turbokv",
+  "tool_url": "https://github.com/kingroryg/turbokv",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49486334",
+  "domain": "database",
+  "app_type": "database-nosql",
+  "enriched": {
+    "github": {
+      "stars": 129,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 129,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 236,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A fast, simple, and embedded key-value store for Rust.",
+      "topics": [
+        "async",
+        "btreemap",
+        "database",
+        "embedded-database",
+        "key-value",
+        "lsm-tree",
+        "rust"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "RocksDB",
+        "stars": 32027,
+        "repo": "facebook/rocksdb"
+      },
+      {
+        "name": "Sled",
+        "stars": 9079,
+        "repo": "spacejam/sled"
+      },
+      {
+        "name": "LMDB",
+        "stars": 3035,
+        "repo": "LMDB/lmdb"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "First open-source implementation of TurboQuant (arXiv 2504.19874) — 4-7x LLM KV cache compression",
+      "requires_python": ">=3.10",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "high-performance via hardware AES & LZ4",
+        "clearly documented durability modes",
+        "fast writes with mmap WAL"
+      ],
+      "negative_signals": [
+        "durability concerns, especially power loss",
+        "terminology confusion and defaults",
+        "mixed performance claims"
+      ],
+      "justification": "The comments show appreciation for TurboKV’s engineering choices (hardware acceleration, mmap WAL) and clear durability documentation, but raise legitimate worries about power-loss durability, confusing terminology, and unclear defaults. Overall sentiment leans mildly positive with constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 127
+    }
+  }
+}
