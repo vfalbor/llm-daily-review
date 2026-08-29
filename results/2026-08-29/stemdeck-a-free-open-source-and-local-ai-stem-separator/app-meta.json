@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "StemDeck, a free, open-source and local AI stem separator",
+    "url": "https://github.com/stemdeckapp/stemdeck",
+    "hn_url": "https://news.ycombinator.com/item?id=49486081",
+    "points": 128,
+    "comments": 27,
+    "author": "thclpr",
+    "age": "2026-08-29T01:24:13.000000Z",
+    "scraped_at": "2026-08-29T13:00:03.161Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/stemdeckapp/stemdeck",
+    "repo_url": "https://github.com/stemdeckapp/stemdeck",
+    "confidence": 0.91,
+    "domain": "data",
+    "app_type": "devtool-cli",
+    "description": "A command‑line and GUI application that separates vocal and instrumental stems from music tracks using a lightweight AI model.",
+    "use_modes": [
+      "CLI",
+      "GUI"
+    ],
+    "similar_tools": [
+      "Spleeter",
+      "Open-Unmix",
+      "Audio Separation Tool"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `pip install -e .`",
+      "Execute `stemdeck separate --input test.mp3 --output out/` and verify output files exist",
+      "Measure the time taken for a 3‑minute audio file",
+      "Run the GUI mode with a sample track and check that the UI loads and displays separation results",
+      "Compare the loudness of the separated stems with the original to ensure no clipping"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1788008619549-hajb2",
+    "log_dir": "/tmp/llm-review-1788008619549-hajb2",
+    "install_success": true,
+    "install_time_s": 22.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 214, in <module>\n    main()\n  File \"/app/test.py\", line 185, in main\n    benchmark_vs_baseline('cli_separate_latency_s', our_cli_time, baseline_cli_time)\n  File \"/app/test.py\", line 108, in benchmark_vs_baseline\n    print_marker(f\"BENCHMARK:vs_{baseline_tool}_{metric_name}:{ratio:.3f}\")\n                                 ^^^^^^^^^^^^^\nNameError: name 'baseline_tool' is not defined\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nINSTALL_OK | ffmpeg\nINSTALL_FAIL:pip:stemdeck:ERROR: Could not find a version that satisfies the requirement stemdeck (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for stemdeck\nINSTALL_OK | git_clone\nINSTALL_FAIL:pip:.:ERROR: Could not find a version that satisfies the requirement onnxruntime>=1.19; sys_platform != \"darwin\" or platform_machine != \"x86_64\" (from stemdeck) (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for onnxruntime>=1.19; sys_platform != \"darwin\" or platform_machine != \"x86_64\"\nTEST_FAIL:import_stemdeck:No module named 'stemdeck'\nTEST_FAIL:cli_separate:[Errno 2] No such file or directory: 'stemdeck'\n"
+  }
+}
