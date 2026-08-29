@@ -1,0 +1,104 @@
+{
+  "app_name": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+  "url": "https://github.com/Lakr233/vphone-cli",
+  "scored_at": "2026-08-29T13:02:23.744Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repo is 184 days old, is not a fork, and offers a unique way to launch iOS simulators without Xcode, contrasting with the 105‑star simctl tool."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 13.2 s and the tool runs locally; although there is no PyPI package, the Swift binary installs cleanly."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑cli for iOS development, it addresses a common pain point of requiring Xcode, fitting current macOS developer workflows."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 9,029 stars versus 105 stars for the closest alternative (simctl), it provides a substantially different, Xcode‑free approach."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 9,029 stars, 38 contributors, and was updated 0 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "None of the 6 tests passed and the basic run failed, showing core functionality is currently broken."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers both CLI and API modes and is MIT‑licensed, but lacks a PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided; insufficient data forces a neutral score."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 184 days old, has 1,259 forks and only 23 open issues, indicating a mature and stable project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install_time 4.984 s, git_clone_time 1.154 s, and cargo_build_time 0.054 s, but no comparative data to alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud the project’s novelty and usefulness for testing and reverse engineering, while a few caution about SIP requirements, corporate use, and regional restrictions."
+    }
+  },
+  "summary": "Boot a Virtual iPhone is a command‑line utility that leverages macOS's Virtualization.framework to start an iOS simulator without requiring Xcode. It is built in Swift and provides both CLI and API interfaces, running locally on macOS. The tool is aimed at iOS developers who need a lightweight, Xcode‑free way to test apps, and its main strength is the massive community interest (over 9k stars) and unique approach, while its current drawback is that core functionality fails the provided test suite.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Lakr233/vphone-cli",
+  "tool_url": "https://github.com/Lakr233/vphone-cli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49485267",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 9029,
+      "forks": 1259,
+      "open_issues": 23,
+      "watchers": 9029,
+      "contributors": 38,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 184,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "simctl",
+        "stars": 105,
+        "repo": "plu/simctl"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "exciting new testing capability",
+        "potential for reverse engineering",
+        "community praise for effort"
+      ],
+      "negative_signals": [
+        "SIP disabling concerns",
+        "corporate deployment limitations",
+        "regional/legality hurdles"
+      ],
+      "justification": "The majority of comments applaud the project’s novelty and usefulness for testing and reverse engineering, while a few caution about SIP requirements, corporate use, and regional restrictions.",
+      "comment_count": 30,
+      "hn_points": 306
+    }
+  }
+}
