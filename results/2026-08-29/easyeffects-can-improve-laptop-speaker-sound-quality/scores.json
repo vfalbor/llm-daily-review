@@ -1,0 +1,83 @@
+{
+  "app_name": "EasyEffects",
+  "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
+  "scored_at": "2026-08-29T13:06:39.712Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are unavailable, and only a list of similar tools (PulseEffects, ALSA-equalizer, PipeWire-Loopback) is provided, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 13.1 seconds, which is well under the 30‑second threshold, despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑other for Linux audio, EasyEffects aligns with the current shift toward PipeWire/ALSA and is useful for improving laptop speaker sound."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool offers a GUI and CLI whereas similar projects like PulseEffects are primarily GUI‑only, but no star or benchmark data is available for a stronger claim."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository is detected, but Hacker News shows 170 points and 30 comments, placing it in the 100‑200 point range for community strength."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed (0%), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool provides GUI and CLI modes, but there is no PyPI package or documented API, so integration details are insufficient."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, GitHub Pages, or topic data is available and the provided URLs do not reveal documentation metrics, resulting in insufficient evidence."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred only from Hacker News activity (170 points), which suggests moderate but not high maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows a failed import_time measurement and no performance claims, so a neutral default score is applied."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments praise EasyEffects for noticeably better laptop speaker sound and community support, while a few mention issues with PulseAudio/ALSA compatibility and the need to keep the GUI open."
+    }
+  },
+  "summary": "EasyEffects is an audio effects manager for Linux that provides GUI and CLI controls for equalization, dynamics, and spatial processing via PipeWire or ALSA. It is built as an open‑source tool hosted on GitLab and can be run locally without an API key. It targets Linux users who want to improve laptop speaker sound quality, especially those adopting PipeWire. The main strength is its flexible UI options, while the lack of package distribution and limited test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
+  "tool_url": "https://gitlab.com/alsa-project/easyeffects",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49479924",
+  "domain": "devtool",
+  "app_type": "devtool-other",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "User testimonials of improved sound",
+        "EasyEffects enables speaker tuning",
+        "Positive community adoption"
+      ],
+      "negative_signals": [
+        "Some compatibility and GUI concerns",
+        "Need for Pipewire",
+        "Limited speaker improvements"
+      ],
+      "justification": "Comments praise EasyEffects for noticeably better laptop speaker sound and community support, while a few mention issues with PulseAudio/ALSA compatibility and the need to keep the GUI open.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
