@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Htmx 4.0",
+    "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+    "hn_url": "https://news.ycombinator.com/item?id=49478178",
+    "points": 704,
+    "comments": 175,
+    "author": "rmsaksida",
+    "age": "2026-08-28T13:28:56.000000Z",
+    "scraped_at": "2026-08-29T13:00:03.159Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/bigskysoftware/htmx",
+    "repo_url": "https://github.com/bigskysoftware/htmx",
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A lightweight JavaScript library that allows developers to add AJAX, CSS transitions, and more to HTML with special attributes, without writing JS code.",
+    "use_modes": [
+      "Browser",
+      "Node"
+    ],
+    "similar_tools": [
+      "Turbo",
+      "Alpine.js",
+      "Stimulus"
+    ],
+    "proposed_tests": [
+      "Install via CDN or npm: `npm install htmx.org`",
+      "Create a minimal HTML page that uses `hx-get` to fetch a JSON endpoint",
+      "Measure the time from click to response rendering",
+      "Verify that dynamic content updates without full page reload",
+      "Run a performance test with 100 simultaneous `hx-get` requests"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1788008544926-6rylk",
+    "log_dir": "/tmp/llm-review-1788008544926-6rylk",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.598\nBENCHMARK:npm_install_time_s:0.000\nBENCHMARK:memory_current_kb:2.62\nBENCHMARK:memory_peak_kb:61.90\nBENCHMARK:vs_alpine_hx_concurrent_avg_ms_ratio:0.022",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.598\nTEST_FAIL:npm_install_htmx:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-08-29T13_03_07_321Z-debug-0.log\nBENCHMARK:npm_install_time_s:0.000\nTEST_FAIL:server_start:[Errno 98] Address in use\nBENCHMARK:memory_current_kb:2.62\nBENCHMARK:memory_peak_kb:61.90\nBENCHMARK:vs_alpine_hx_concurrent_avg_ms_ratio:0.022\nRUN_OK\n"
+  }
+}
