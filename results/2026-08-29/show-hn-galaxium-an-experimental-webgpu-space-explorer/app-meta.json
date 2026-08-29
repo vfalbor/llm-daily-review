@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Show HN: Galaxium, an experimental WebGPU space explorer",
+    "url": "https://galaxium.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=49420524",
+    "points": 13,
+    "comments": 10,
+    "author": "guillaumec",
+    "age": "2026-08-24T14:44:20.000000Z",
+    "scraped_at": "2026-08-29T13:00:03.168Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/galaxium/galaxium",
+    "source_type": "tool",
+    "confidence": 0.92,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A WebGPU-powered interactive space explorer that renders a procedurally generated solar system in the browser.",
+    "use_modes": [
+      "Web UI",
+      "WebGL/WebGPU"
+    ],
+    "similar_tools": [
+      "threejs",
+      "Babylon.js",
+      "A-Frame"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `npm install` followed by `npm run build`.",
+      "Serve the build locally and open in Chrome to ensure WebGPU initialization succeeds.",
+      "Navigate to a predefined planet and verify the 3D scene renders within 1 s.",
+      "Run a headless browser test to capture a screenshot and compare pixel accuracy against a baseline."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/galaxium/galaxium"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788008800777-rso1d",
+    "log_dir": "/tmp/llm-review-1788008800777-rso1d",
+    "install_success": true,
+    "install_time_s": 16.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:vs_threejs_render_ratio:0.480",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_and_build:Cloning into '/tmp/galaxium'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:server_responds:Build output folder not found\nINSTALL_FAIL:playwright:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'playwright']' returned non-zero exit status 1.\nTEST_SKIP:render_test:playwright install failed\nBENCHMARK:vs_threejs_render_ratio:0.480\nRUN_OK\n"
+  }
+}
