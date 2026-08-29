@@ -1,0 +1,113 @@
+{
+  "app_name": "StemDeck",
+  "url": "https://github.com/stemdeckapp/stemdeck",
+  "scored_at": "2026-08-29T13:05:05.604Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 118 days ago, not a fork, and its star count (2,866) sits between Spleeter (28,404) and Open-Unmix (1,502), indicating an incremental improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 22.2 seconds (<30 s) and runs locally without an API key, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for audio stem separation, it addresses a current need in music production pipelines within the broader LLM‑enabled tooling ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While its star count (2,866) is far below Spleeter's 28,404, it exceeds Open‑Unmix's 1,502 and offers a lightweight GUI, providing a modest advantage in usability."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 2,866 stars, 2 contributors, and was updated today (0 days since last commit), showing an active but moderately sized community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed and the basic run failed, indicating less than 50 % functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, but the tool provides a CLI and GUI under an Apache‑2.0 license, offering limited integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata does not indicate a wiki or GitHub Pages site, and no explicit documentation quality data was found."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 118 days old, has 251 forks and only 8 open issues, suggesting a stable but still early-stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 142 ms, but no comparative performance data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of the 10 comments praise StemDeck as a free, accurate, and useful open‑source tool for musicians, while a few raise concerns about confusing names, community support structure, and the difficulty of packaging a Python/PyTorch stack into a desktop app."
+    }
+  },
+  "summary": "StemDeck is a command‑line and GUI application that separates vocal and instrumental stems from music tracks using a lightweight AI model. It runs locally without requiring an API key and installs in about 22 seconds, though it lacks a PyPI distribution. Musicians and audio engineers looking for a free, open‑source stem separator may find it useful, especially for its easy desktop interface. Its main strength is the lightweight GUI, while its weakness lies in limited test coverage and modest community size.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/stemdeckapp/stemdeck",
+  "tool_url": "https://github.com/stemdeckapp/stemdeck",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49486081",
+  "domain": "data",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 2866,
+      "forks": 251,
+      "open_issues": 8,
+      "watchers": 2866,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 118,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Spleeter",
+        "stars": 28404,
+        "repo": "deezer/spleeter"
+      },
+      {
+        "name": "Open-Unmix",
+        "stars": 1502,
+        "repo": "sigsep/open-unmix-pytorch"
+      },
+      {
+        "name": "Audio Separation Tool",
+        "stars": 8,
+        "repo": "auk11/ai-audio-separation-tools"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Open-source and free",
+        "Accurate stem separation",
+        "Useful for musicians"
+      ],
+      "negative_signals": [
+        "Naming confusion with similar products",
+        "Packaging and deployment complexity"
+      ],
+      "justification": "The majority of the 10 comments praise StemDeck as a free, accurate, and useful open‑source tool for musicians, while a few raise concerns about confusing names, community support structure, and the difficulty of packaging a Python/PyTorch stack into a desktop app.",
+      "comment_count": 27,
+      "hn_points": 129
+    }
+  }
+}
