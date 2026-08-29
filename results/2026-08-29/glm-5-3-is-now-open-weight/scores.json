@@ -1,0 +1,90 @@
+{
+  "app_name": "GLM-5.3",
+  "url": "https://huggingface.co/zai-org/GLM-5.3",
+  "scored_at": "2026-08-29T13:09:53.873Z",
+  "total_score": 71,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The model is an open-weight variant of the existing GLM series and is comparable to GLM-4 and ChatGLM-6B, indicating an incremental rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 47.6 s and the package is available on PyPI (v0.4.4), requiring no special hardware or API keys."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a 5.3 B Chinese‑language LLM, it addresses a high‑demand segment of the current LLM ecosystem focused on multilingual and open‑weight models."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.667 versus GPT‑2, indicating a speed advantage, while no GitHub star data is available for direct comparison."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 725 with a sentiment score of 8/10, signaling strong community interest and positive reception."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0 % pass rate) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The model is packaged on PyPI, has an API/SDK mention, and supports inference via Hugging Face Transformers and ONNX Runtime."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The page provides docs/wiki links, examples, and a large content body (90,584 characters), demonstrating comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 is detected on the project page, indicating a stable release despite the absence of a changelog."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.667 compared to GPT‑2, suggesting a noticeable performance improvement."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the model’s performance, usability, and affordability, while a few raise concerns about its size, cost structure, and limited benchmark coverage."
+    }
+  },
+  "summary": "GLM-5.3 is an open‑weight 5.3 B parameter Chinese language model released on Hugging Face. It runs locally through the Transformers library or via ONNX Runtime and is distributed as a PyPI package. Researchers and developers needing a Chinese LLM with no API‑key restrictions will find it useful, especially given its faster latency (0.667× GPT‑2). While community sentiment is high and documentation is thorough, the test suite reports zero passed tests, highlighting possible stability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/zai-org/GLM-5.3",
+  "tool_url": "https://huggingface.co/zai-org/GLM-5.3",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49479878",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.4.4",
+      "summary": "glm Python library",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://github.com/NREL/glm"
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "high quality user experience",
+        "ease of use and integration",
+        "competitive pricing"
+      ],
+      "negative_signals": [
+        "size and compute concerns",
+        "mixed pricing perceptions",
+        "limited benchmark discussion"
+      ],
+      "justification": "Most comments praise the model’s performance, usability, and affordability, while a few raise concerns about its size, cost structure, and limited benchmark coverage.",
+      "comment_count": 30,
+      "hn_points": 725
+    }
+  }
+}
