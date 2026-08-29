@@ -1,0 +1,127 @@
+{
+  "app_name": "Htmx 4.0",
+  "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+  "scored_at": "2026-08-29T13:03:38.234Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 2,328 days old and is not a fork, but it closely mirrors existing tools like Turbo and Alpine, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 10 seconds (<30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑frontend library it addresses the ongoing demand for lightweight HTML‑centric interactivity in modern web development."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 49,063 stars it outpaces Alpine (172 stars) and Stimulus (13,086 stars) but trails Turbo (118,342 stars); the benchmark ratio 0.022 vs Alpine shows a large speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 49,063 stars, 458 contributors, and was updated today (0 days since last commit), indicating strong community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is published on PyPI, supports both Browser and Node use modes, but the license is listed as NOASSERTION, adding some uncertainty."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repo is 2,328 days old, has 1,639 forks and 679 open issues, showing a mature but actively evolving project."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "The benchmark line \"vs_alpine_hx_concurrent_avg_ms_ratio:0.022\" indicates htmx is roughly 45× faster than Alpine, a clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise htmx for its simplicity, powerful stack compatibility and rapid prototyping, while a few mention minor typos and the curious absence of a v3 release; overall reception is very positive."
+    }
+  },
+  "summary": "Htmx 4.0 is a JavaScript library that lets developers add AJAX, CSS transitions, and other dynamic behavior to HTML using special attributes, eliminating the need for custom JS. It runs in the browser or Node and is distributed via PyPI and npm. It is ideal for front‑end developers who want rapid prototyping without writing JavaScript, especially when speed matters. The library shines with a dramatic performance edge over Alpine (0.022× latency) but its test suite shows 0 % pass rate, indicating usability gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+  "tool_url": "https://github.com/bigskysoftware/htmx",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49478178",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 49063,
+      "forks": 1639,
+      "open_issues": 679,
+      "watchers": 49063,
+      "contributors": 458,
+      "license": "NOASSERTION",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2328,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "</> htmx - high power tools for HTML",
+      "topics": [
+        "hateoas",
+        "html",
+        "htmx",
+        "hyperscript",
+        "javascript",
+        "rest"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Turbo",
+        "stars": 118342,
+        "repo": "harry0703/MoneyPrinterTurbo"
+      },
+      {
+        "name": "Alpine.js",
+        "stars": 172,
+        "repo": "vojislavd/TailwindCSS-Alpine.js-Template"
+      },
+      {
+        "name": "Stimulus",
+        "stars": 13086,
+        "repo": "hotwired/stimulus"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.0",
+      "summary": "Build web apps with Python, HTMX and Tailwind CSS",
+      "requires_python": ">=3.7,<4.0",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Easy to use library",
+        "Strong stack support (Go, Django, Rust)",
+        "Fast prototyping"
+      ],
+      "negative_signals": [
+        "Minor typos",
+        "Version 3 omission confusion"
+      ],
+      "justification": "The majority of comments praise htmx for its simplicity, powerful stack compatibility and rapid prototyping, while a few mention minor typos and the curious absence of a v3 release; overall reception is very positive.",
+      "comment_count": 30,
+      "hn_points": 705
+    }
+  }
+}
