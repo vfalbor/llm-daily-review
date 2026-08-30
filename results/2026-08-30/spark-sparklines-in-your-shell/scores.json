@@ -1,0 +1,81 @@
+{
+  "app_name": "Spark: Sparklines in your shell",
+  "url": "https://git.zx2c4.com/spark/about/",
+  "scored_at": "2026-08-30T13:03:58.335Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only generic similar tools are listed, so novelty cannot be assessed beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success=true) but took 36 seconds, slightly above the <30 s ideal, and the tool is not available on PyPI."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI for generating ASCII sparklines, it addresses a niche scripting need that remains useful in current shell‑based workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is available; the tool is listed alongside similar CLI visualisers without quantitative advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is detected; HN points are only 38 with mixed sentiment, indicating a very small active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed (0/4) despite successful installation, showing core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only, has no PyPI package, and no API modes are listed, making automated integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or GitHub Pages were found and no documentation signals were observed on the project URL."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Without a repository the age, forks, or issue activity cannot be measured; negative HN comments note the repository is outdated (last update 2011)."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No explicit benchmark results are provided; only install times are available, which are insufficient to assess performance relative to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "With only eight comments, the discussion is mixed: users note the historical value and design inspiration, but also point out the repo’s age and access problems, leading to a neutral overall sentiment."
+    }
+  },
+  "summary": "Spark is a lightweight command‑line utility that draws ASCII sparklines from numeric streams for use in shell scripts and terminal dashboards. It runs as a simple CLI tool with no external dependencies or API, making it easy to drop into existing scripts. It is suited for developers who need quick visual summaries in the terminal but offers no clear performance or integration advantages over other CLI graph tools. The main strength is its minimalism, while the lack of tests, documentation, and an active community are significant drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://git.zx2c4.com/spark/about/",
+  "tool_url": "https://git.zx2c4.com/spark/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49497265",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Historical reference to early GitHub work",
+        "Mention of Tufte design influence"
+      ],
+      "negative_signals": [
+        "Outdated repository (last updated 2011)",
+        "Access issues and rate limiting"
+      ],
+      "justification": "With only eight comments, the discussion is mixed: users note the historical value and design inspiration, but also point out the repo’s age and access problems, leading to a neutral overall sentiment.",
+      "comment_count": 8,
+      "hn_points": 38
+    }
+  }
+}
