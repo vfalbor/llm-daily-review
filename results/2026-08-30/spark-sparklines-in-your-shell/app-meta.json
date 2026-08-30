@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "Spark: Sparklines in your shell",
+    "url": "https://git.zx2c4.com/spark/about/",
+    "hn_url": "https://news.ycombinator.com/item?id=49497265",
+    "points": 38,
+    "comments": 8,
+    "author": "hskimse",
+    "age": "2026-08-30T10:02:16.000000Z",
+    "scraped_at": "2026-08-30T13:00:02.305Z",
+    "tool_url": "https://git.zx2c4.com/spark/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A lightweight command‑line utility that generates ASCII sparklines for numeric data streams, intended for use directly in shell scripts and terminal dashboards.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "bbq",
+      "dataviz-cli",
+      "cli-graph"
+    ],
+    "proposed_tests": [
+      "Install spark via git clone and make install, verify spark --help prints usage",
+      "Run `echo -e '10\n20\n30\n40' | spark` and check output contains 4-character spark lines",
+      "Measure execution time for processing 100,000 numbers to benchmark throughput",
+      "Test integration with a simple shell script that pipes data into spark and displays result"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://git.zx2c4.com/spark/"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788094967326-yfosi",
+    "log_dir": "/tmp/llm-review-1788094967326-yfosi",
+    "install_success": true,
+    "install_time_s": 36,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.721\nBENCHMARK:spark_pip_install_time_s:0.018\nBENCHMARK:memory_peak_kb:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:5.721\nINSTALL_FAIL:make/install Command 'make install' returned non-zero exit status 2.\nINSTALL_OK\nBENCHMARK:spark_pip_install_time_s:0.018\nTEST_FAIL:spark_help:Command 'spark --help' returned non-zero exit status 127.\nTEST_FAIL:spark_basic:[Errno 2] No such file or directory: 'spark'\nTEST_FAIL:spark_throughput:[Errno 2] No such file or directory: 'spark'\nTEST_FAIL:spark_integration:Command '/tmp/run_spark.sh' returned non-zero exit status 126.\nBENCHMARK:memory_peak_kb:0\nRUN_OK\n"
+  }
+}
