@@ -1,0 +1,98 @@
+{
+  "app_name": "monty-go",
+  "url": "https://github.com/fugue-labs/monty-go",
+  "scored_at": "2026-08-30T13:02:46.254Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 190 days ago, not a fork, and offers an incremental Go wrapper similar to existing tools with far more stars."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 57 seconds and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-codegen library for Go, it fits current LLM workflows but addresses a niche integration need."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Only 10 GitHub stars versus competitors (145 and 4,131) but shows a 401.7× faster batch validation ratio against pydantic-go."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repo has 10 stars, 1 contributor, and its last commit was 141 days ago, indicating a small but existing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and install succeeded, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Provided as a Go library and CLI wrapper with MIT license, but no PyPI package, requiring manual import."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic data were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repository created 190 days ago, 1 fork, and 0 open issues, suggesting early-stage maturity."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark reports a 401.6891× batch validation speed advantage over pydantic-go."
+    }
+  },
+  "summary": "monty-go is a Go library that wraps Pydantic's Monty Python interpreter for type-checked data validation. It can be imported into Go projects or used via a CLI wrapper and runs entirely in Go without external API keys. The tool is suited for Go developers needing fast validation of large datasets, especially when performance matters. It excels with a reported 401× speed advantage over comparable Go validators, but its small community, limited documentation, and failing test suite are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/fugue-labs/monty-go",
+  "tool_url": "https://github.com/fugue-labs/monty-go",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49497928",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 10,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 10,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 141,
+      "days_since_created": 190,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Pure-Go wrapper for Pydantic Monty Python interpreter via WASM + wazero",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "pydantic-go",
+        "stars": 8,
+        "repo": "jgravelle/pydantic_googleaddon"
+      },
+      {
+        "name": "go-validate",
+        "stars": 145,
+        "repo": "go-openapi/validate"
+      },
+      {
+        "name": "ozzo-validation",
+        "stars": 4131,
+        "repo": "go-ozzo/ozzo-validation"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
