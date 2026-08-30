@@ -1,0 +1,96 @@
+{
+  "app_name": "JupyterGIS",
+  "url": "https://github.com/jupyter-widgets/jupytergis",
+  "scored_at": "2026-08-30T13:05:11.733Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on days since creation or fork status is available, so the novelty cannot be assessed beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 54.3 seconds, which is longer than the <30 s ideal for simple setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Jupyter extension for interactive geospatial visualizations, it aligns with current trends in notebook‑based data analysis and AI workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison to similar tools (folium, geopandas) is provided, so only a neutral differentiation can be assigned."
+    },
+    "community": {
+      "score": 3,
+      "justification": "With no GitHub repository, community signals rely on HN points (47), which place it in the 3–4 range for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 4 tests passed (25%), indicating core functionality is limited and the user experience may be confusing."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The package is available on PyPI (v0.16.2) and works in Python notebooks, but there is no documented API or SDK, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation metrics (wiki, pages, topics) are available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The released PyPI version is 0.16.2, indicating a pre‑1.0 maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 3213.01 ms, but no comparative data are provided to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments are brief but overwhelmingly positive, praising the new story map examples and thanking the maintainer, indicating strong approval with no criticism."
+    }
+  },
+  "summary": "JupyterGIS is a Jupyter extension that adds a declarative grammar‑of‑graphics for creating interactive maps and collaborative story maps. It runs as a Python notebook widget and is distributed via PyPI (v0.16.2). The tool is suited for data scientists and analysts who need geospatial visualizations directly inside notebooks. While it offers a novel notebook‑centric approach, its limited test coverage (1/4 passed) and modest community signals (47 HN points) suggest it is still early in its lifecycle.",
+  "recommendation": "niche",
+  "app_url": "https://blog.jupyter.org/jupytergis-0-16-new-visualization-capabilities-collaborative-story-maps-and-more-03e6b78bacc0",
+  "tool_url": "https://github.com/jupyter-widgets/jupytergis",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49430745",
+  "domain": "data",
+  "app_type": "data-viz",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "folium",
+        "stars": 7396,
+        "repo": "python-visualization/folium"
+      },
+      {
+        "name": "geopandas",
+        "stars": 5234,
+        "repo": "geopandas/geopandas"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.16.2",
+      "summary": "Collaborative GIS extension for JupyterLab",
+      "requires_python": ">=3.12",
+      "license": "BSD 3-Clause License\n        \n        Copyright (c) 2023, JupyterGIS contributors\n        All rights reserved.\n        \n        Redistribution and use in source and binary forms, with or without\n        modification, are permitted provided that the following conditions are met:\n        \n        1. Redistributions of source code must retain the above copyright notice, this\n           list of conditions and the following disclaimer.\n        \n        2. Redistributions in binary form must reproduce the above copyright notice,\n           this list of conditions and the following disclaimer in the documentation\n           and/or other materials provided with the distribution.\n        \n        3. Neither the name of the copyright holder nor the names of its\n           contributors may be used to endorse or promote products derived from\n           this software without specific prior written permission.\n        \n        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\n        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\n        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\n        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive examples",
+        "Positive endorsement from maintainer"
+      ],
+      "negative_signals": [],
+      "justification": "The comments are brief but overwhelmingly positive, praising the new story map examples and thanking the maintainer, indicating strong approval with no criticism.",
+      "comment_count": 4,
+      "hn_points": 47
+    }
+  }
+}
