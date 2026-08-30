@@ -1,0 +1,106 @@
+{
+  "app_name": "FreeCORE TrueNAS Core – Continued",
+  "url": "https://freecore.org/",
+  "scored_at": "2026-08-30T13:08:04.129Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and no GitHub star data exists to compare against similar tools."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 6.7 seconds (<30s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra-storage NAS OS, it addresses ongoing needs for on‑prem storage, fitting current infrastructure trends despite not being an LLM‑specific tool."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark data is available for this project, making it comparable only by listing similar tools (OpenMediaVault, XigmaNAS, TrueNAS SCALE)."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With no GitHub repository, community signals come from HN points (131) and 30 comments, placing it in the 100–200 point range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI (v1.0.1) and supports installation on x86_64 hardware or via an experimental Docker container, allowing programmatic use."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repo, wiki, or GitHub Pages were detected, and no other documentation signals were provided."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The presence of a stable PyPI release version 1.0.1 suggests a production‑ready release despite missing repository metadata."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark output contains only internal timing (install_time_s 0.46 s, clone_time_s 0.28 s) with no comparative data, so only a baseline assumption can be made."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the project’s usability and community backing, noting smooth migrations and valuable FreeBSD features, while critics highlight technical risks with encryption, the move to a Linux‑based platform, and worries about commercial motives and open‑source funding."
+    }
+  },
+  "summary": "FreeCORE TrueNAS Core is an open‑source NAS operating system built on FreeBSD that provides enterprise‑grade storage, snapshotting, and replication. It is distributed as a PyPI package (v1.0.1) and can be installed on x86_64 hardware or run experimentally in a Docker container. The tool is suited for sysadmins needing a FreeBSD‑based NAS solution, especially when migrating from legacy systems. While the HN community notes strong usability and support, the project lacks visible documentation and comparative performance data.",
+  "recommendation": "niche",
+  "app_url": "https://freecore.org/",
+  "tool_url": "https://github.com/TrueNAS/core",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49494856",
+  "domain": "infrastructure",
+  "app_type": "infra-storage",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenMediaVault",
+        "stars": 6921,
+        "repo": "openmediavault/openmediavault"
+      },
+      {
+        "name": "XigmaNAS",
+        "stars": 20,
+        "repo": "JRGTH/xigmanas-bastille-extension"
+      },
+      {
+        "name": "TrueNAS SCALE",
+        "stars": 514,
+        "repo": "truenas/scale-build"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.1",
+      "summary": "",
+      "requires_python": null,
+      "license": "GNU GPL",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Painless migration to Linux and continued use of FreeBSD features",
+        "Strong community support and maintained OpenZFS contributions",
+        "Clear benefits for users needing FreeBSD-based NAS"
+      ],
+      "negative_signals": [
+        "Concerns over encrypted ZFS bugs and lack of maintainers",
+        "Discontinuation of FreeBSD variant and shift to Linux-based SCALE",
+        "Criticism about commercial focus and open‑source sustainability"
+      ],
+      "justification": "Comments generally praise the project’s usability and community backing, noting smooth migrations and valuable FreeBSD features, while critics highlight technical risks with encryption, the move to a Linux‑based platform, and worries about commercial motives and open‑source funding.",
+      "comment_count": 30,
+      "hn_points": 131
+    }
+  }
+}
