@@ -1,0 +1,93 @@
+{
+  "app_name": "Bolnee-Chat",
+  "url": "https://github.com/AniketWathore/bolnee-chat",
+  "scored_at": "2026-08-30T13:07:04.755Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 102 days ago, not a fork, and offers similar functionality to BotUI and Chatwoot, making it a near‑duplicate rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Installation succeeded but took 62.6 seconds and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a self‑hosted chatbot web‑extension, it addresses a current need for embeddable conversational UI on business sites."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Only 12 GitHub stars versus 2,904 for BotUI and 36,307 for Chatwoot, and no benchmark advantage is reported."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repo has 12 stars, 1 contributor, and was updated today, indicating a very small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Provides a script‑tag for web integration and a Node.js server option, but lacks a packaged SDK or clear API documentation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic metadata were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repository is 102 days old with 2 forks and 0 open issues, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows query latency of 0.002 s but no comparative data or load‑test success, so performance cannot be judged."
+    }
+  },
+  "summary": "Bolnee-Chat is a lightweight, self‑hosted chatbot framework that can be embedded into any business website via a script tag or a Node.js server. It builds on common web technologies and does not require an external API key. It is suited for developers who want a simple, on‑premise chat UI without relying on third‑party services. While its install succeeds, the lack of test coverage and minimal community support limit its reliability.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/AniketWathore/bolnee-chat",
+  "tool_url": "https://github.com/AniketWathore/bolnee-chat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49497227",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 12,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 12,
+      "contributors": 1,
+      "license": "none",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 102,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Chatbot Integration in your Business website. Self hosted, free forever!",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "BotUI",
+        "stars": 2904,
+        "repo": "botui/botui"
+      },
+      {
+        "name": "Chatwoot",
+        "stars": 36307,
+        "repo": "chatwoot/chatwoot"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
