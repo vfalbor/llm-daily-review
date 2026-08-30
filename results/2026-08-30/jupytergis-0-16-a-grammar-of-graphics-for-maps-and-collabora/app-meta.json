@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "JupyterGIS 0.16: a grammar of graphics for maps, and collaborative story maps",
+    "url": "https://blog.jupyter.org/jupytergis-0-16-new-visualization-capabilities-collaborative-story-maps-and-more-03e6b78bacc0",
+    "hn_url": "https://news.ycombinator.com/item?id=49430745",
+    "points": 46,
+    "comments": 4,
+    "author": "arjxn-py",
+    "age": "2026-08-25T08:43:42.000000Z",
+    "scraped_at": "2026-08-30T13:00:02.305Z",
+    "tool_url": "https://github.com/jupyter-widgets/jupytergis",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "data",
+    "app_type": "data-viz",
+    "description": "A Jupyter extension that provides declarative grammar‑of‑graphics mapping capabilities and collaborative story‑mapping for interactive geospatial visualizations.",
+    "use_modes": [
+      "Python notebook"
+    ],
+    "similar_tools": [
+      "folium",
+      "geopandas",
+      "bokeh-gmaps"
+    ],
+    "proposed_tests": [
+      "Clone repo, install via pip install -e ., verify that `import jupytergis` succeeds",
+      "Create a minimal notebook that plots a GeoJSON file using jupytergis, confirm map renders without errors",
+      "Run the collaborative story‑map example and verify that multiple users can edit in the same notebook session",
+      "Measure load time for a 50k‑point GeoJSON dataset to benchmark performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jupyter-widgets/jupytergis"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788095039511-so4dt",
+    "log_dir": "/tmp/llm-review-1788095039511-so4dt",
+    "install_success": true,
+    "install_time_s": 54.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:39.237\nBENCHMARK:import_time_ms:3213.01\nBENCHMARK:vs_folium_import_ratio:0.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:install_time_s:39.237\nBENCHMARK:import_time_ms:3213.01\nTEST_PASS:import_jupytergis\nTEST_FAIL:minimal_plot:cannot import name 'Map' from 'jupytergis' (/usr/local/lib/python3.12/site-packages/jupytergis/__init__.py)\nTEST_FAIL:collaborative_init:cannot import name 'CollaborativeMap' from 'jupytergis' (/usr/local/lib/python3.12/site-packages/jupytergis/__init__.py)\nTEST_FAIL:load_50k_geojson:cannot import name 'Map' from 'jupytergis' (/usr/local/lib/python3.12/site-packages/jupytergis/__init__.py)\nBENCHMARK:vs_folium_import_ratio:0.0\nRUN_OK\n"
+  }
+}
