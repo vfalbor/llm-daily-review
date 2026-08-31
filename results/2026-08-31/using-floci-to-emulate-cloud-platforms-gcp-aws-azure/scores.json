@@ -1,0 +1,91 @@
+{
+  "app_name": "floci",
+  "url": "https://flowg.cloud/blog/using-floci-local-emulators",
+  "scored_at": "2026-08-31T13:02:26.786Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "No creation date or fork information is available and the tool is similar to highly starred projects like LocalStack (65,142 stars) and MinIO (61,376 stars), indicating limited originality."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation failed (install_success false) after 9.1 seconds and there is no PyPI package, showing poor installability."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra-queue emulator for GCP, AWS, and Azure, it addresses a common need in current cloud‑development workflows."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Without GitHub stars or benchmark data, the only comparison is to much larger tools (LocalStack, MinIO, MockServer), suggesting only modest differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected and HN points are only 12 with a neutral sentiment score of 5/10, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "All three functional tests failed (0/3 passed) and the install step did not succeed."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool offers CLI, REST API, and SDK modes but lacks a PyPI package and license information, making integration moderately effortful."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic data is available; documentation quality cannot be assessed, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata such as creation date, forks, or issue counts, maturity cannot be measured, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results comparing speed or resource use were provided, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "floci is a local emulator that mimics GCP, AWS, and Azure services for development and testing. It runs via a CLI, REST API, or SDK and does not require any cloud API keys. The tool is aimed at developers who need offline cloud service mocks, but installation fails and there are no functional test passes. Its main strength is offering multiple access modes, while the lack of a package distribution, missing documentation, and virtually no community support are major drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://flowg.cloud/blog/using-floci-local-emulators",
+  "tool_url": "https://github.com/flowg/floci",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49475568",
+  "domain": "infrastructure",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LocalStack",
+        "stars": 65142,
+        "repo": "localstack/localstack"
+      },
+      {
+        "name": "MinIO",
+        "stars": 61376,
+        "repo": "minio/minio"
+      },
+      {
+        "name": "MockServer",
+        "stars": 4960,
+        "repo": "mock-server/mockserver-monorepo"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 12
+    }
+  }
+}
