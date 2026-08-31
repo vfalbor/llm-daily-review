@@ -1,0 +1,95 @@
+{
+  "app_name": "I built a hardware-bound local password vault hidden in a photo",
+  "url": "https://blindlock.app/en/",
+  "scored_at": "2026-08-31T13:03:26.508Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and no GitHub statistics were fetched, so the novelty cannot be quantified beyond a neutral assumption."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation failed (install_success = false) after 10.2 seconds and there is no PyPI package, indicating a broken or highly complex setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a security‑focused password vault, it addresses ongoing concerns about local secret storage, which remains a relevant problem in today's software ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While similar tools like KeePass (28,627 stars), Bitwarden (19,966 stars) and Pass (24,561 stars) exist, this project uniquely embeds encrypted data in photos, offering a distinct hardware‑bound storage method."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected; the only community signal is 10 HN points from 3 comments, which falls in the lowest bracket for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of one test passed (0/1) and the install step failed, placing it below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is not available on PyPI, but it offers CLI, Web UI, and Mobile app modes; without API or SDK details the integration path is moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, GitHub Pages, or explicit documentation metrics were retrieved, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, the only maturity hint is the very low HN engagement (10 points), suggesting early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results comparing import or runtime speed were provided; only install‑time measurements exist, so a neutral performance score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show interest and appreciation for the inventive approach, with no major criticisms or security concerns raised."
+    }
+  },
+  "summary": "BlindLock is a local password vault that hides encrypted secrets inside a photo, providing hardware‑bound storage. It is delivered as a CLI tool, a Web UI, and a mobile app, but there is no package manager distribution. The approach is useful for users who need offline, steganographic secret storage, especially in high‑security contexts. While the concept is novel compared to traditional vaults like KeePass, the project lacks installability, community traction, and performance data, limiting its practicality today.",
+  "recommendation": "niche",
+  "app_url": "https://blindlock.app/en/",
+  "tool_url": "https://github.com/BlindLock/blindlock",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49508206",
+  "domain": "security",
+  "app_type": "sec-secrets",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "KeePass",
+        "stars": 28627,
+        "repo": "keepassxreboot/keepassxc"
+      },
+      {
+        "name": "Bitwarden",
+        "stars": 19966,
+        "repo": "bitwarden/server"
+      },
+      {
+        "name": "Pass",
+        "stars": 24561,
+        "repo": "Max-Eee/NeoPass"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Creative hardware-bound vault",
+        "Local password storage",
+        "Hidden data in images"
+      ],
+      "negative_signals": [],
+      "justification": "Comments show interest and appreciation for the inventive approach, with no major criticisms or security concerns raised.",
+      "comment_count": 3,
+      "hn_points": 10
+    }
+  }
+}
