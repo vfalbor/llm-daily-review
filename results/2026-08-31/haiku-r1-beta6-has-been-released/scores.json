@@ -1,0 +1,125 @@
+{
+  "app_name": "Haiku OS",
+  "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+  "scored_at": "2026-08-31T13:04:34.629Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 5,555 days ago, is not a fork, and has far fewer stars than FreeBSD, indicating it is an incremental OS rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 23.1 seconds and the PyPI package exists, meeting the <30 s simple install criteria."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As an operating system tool, it does not address a primary pain point in today's LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Haiku has 2,332 stars versus FreeBSD's 9,301, but its import latency ratio of 0.85 shows a modest speed advantage over FreeBSD."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 2,332 stars, 460 contributors, and 0 days since the last commit, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 1 of 1 tests passed and the installation succeeded, demonstrating excellent usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists but the tool is delivered as ISO/Live USB/source builds with no API, limiting straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or README quality was provided, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 5,555 days old, has 428 forks and zero open issues, showing stability but still early versioning (v0.01)."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark reports import_time_ms 0.419 and a vs_freebsd_import_ratio of 0.85, indicating it is faster than FreeBSD but not dramatically so."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments overwhelmingly praise Haiku’s visual appeal, design integrity and desktop orientation, while a few users note that Linux’s rapid improvements and limited app ecosystem pose challenges."
+    }
+  },
+  "summary": "Haiku OS is a Unix-like open‑source operating system released as an installer ISO, Live USB, or source build. It is built in C++ and distributed via a PyPI package for convenience, though it provides no programmatic API. The OS is suited for users wanting a desktop‑centric, visually polished alternative to Linux, especially on older hardware. Its strength lies in a responsive community and modest performance gains over FreeBSD, while its main caveat is limited integration options and modest novelty compared to established OSes.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+  "tool_url": "https://github.com/Haiku/Haiku",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49499867",
+  "domain": "other",
+  "app_type": "other",
+  "enriched": {
+    "github": {
+      "stars": 2332,
+      "forks": 428,
+      "open_issues": 0,
+      "watchers": 2332,
+      "contributors": 460,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5555,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "The Haiku operating system. (Pull requests will be ignored; patches may be sent to https://review.haiku-os.org).",
+      "topics": [
+        "beos",
+        "haiku",
+        "operating-system"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "FreeBSD",
+        "stars": 9301,
+        "repo": "freebsd/freebsd-src"
+      },
+      {
+        "name": "OpenBSD",
+        "stars": 3865,
+        "repo": "openbsd/src"
+      },
+      {
+        "name": "NetBSD",
+        "stars": 979,
+        "repo": "NetBSD/src"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.01",
+      "summary": "Haiku API Bindings",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "http://dev.osdrawer.net/projects/perl-haiku-kits/files"
+    },
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "beautiful UI & design",
+        "desktop‑centric focus",
+        "community enthusiasm"
+      ],
+      "negative_signals": [
+        "Linux catching up quickly",
+        "app availability concerns",
+        "mixed opinions on stability"
+      ],
+      "justification": "The comments overwhelmingly praise Haiku’s visual appeal, design integrity and desktop orientation, while a few users note that Linux’s rapid improvements and limited app ecosystem pose challenges.",
+      "comment_count": 30,
+      "hn_points": 341
+    }
+  }
+}
