@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Haiku R1/beta6 has been released",
+    "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+    "hn_url": "https://news.ycombinator.com/item?id=49499867",
+    "points": 341,
+    "comments": 95,
+    "author": "metrofun",
+    "age": "2026-08-30T16:01:10.000000Z",
+    "scraped_at": "2026-08-31T13:00:02.946Z",
+    "tool_url": "https://github.com/Haiku/Haiku",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "other",
+    "app_type": "other",
+    "description": "Official release of Haiku OS R1/beta6, a Unix-like open‑source operating system.",
+    "use_modes": [
+      "Installer ISO",
+      "Live USB",
+      "Source Build"
+    ],
+    "similar_tools": [
+      "FreeBSD",
+      "OpenBSD",
+      "NetBSD"
+    ],
+    "proposed_tests": [
+      "download the ISO and verify checksum",
+      "boot a VM with the ISO and perform a quick login",
+      "install from source and run hello_world.c",
+      "measure boot time and memory usage",
+      "run a basic network test to ensure connectivity"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Haiku/Haiku"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788181407886-ez8sh",
+    "log_dir": "/tmp/llm-review-1788181407886-ez8sh",
+    "install_success": true,
+    "install_time_s": 23.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.419\nBENCHMARK:basic_op_latency_ms:0.382\nBENCHMARK:vs_freebsd_import_ratio:0.85\nBENCHMARK:repo_file_count:26184\nBENCHMARK:memory_peak_kb:3899",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.3-r0)\n(11/13) Installing pcre2 (10.47-r1)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement haiku (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for haiku\nINSTALL_FAIL:Cloning into '/tmp/haiku_src'...\nUpdating files:  40% (10543/26158)\nUpdating files:  41% (10725/26158)\nUpdating files:  42% (10987/26158)\nUpdating files:  43% (11248/26158)\nUpdating files:  44% (11510/26158)\nUpdating files:  45% (11772/26158)\nUpdating files:  46% (12033/26158)\nUpdating files:  47% (12295/26158)\nUpdating files:  48% (12556/26158)\nUpdating files:  49% (12818/26158)\nUpdating files:  50% (13079/26158)\nUpdating files:  51% (13341/26158)\nUpdating files:  52% (13603/26158)\nUpdating files:  53% (13864/26158)\nUpdating files:  54% (14126/26158)\nUpdating files:  55% (14387/26158)\nUpdating files:  56% (14649/26158)\nUpdating files:  57% (14911/26158)\nUpdating files:  58% (15172/26158)\nUpdating files:  59% (15434/26158)\nUpdating files:  60% (15695/26158)\nUpdating files:  61% (15957/26158)\nUpdating files:  62% (16218/26158)\nUpdating files:  63% (16480/26158)\nUpdating files:  64% (16742/26158)\nUpdating files:  65% (17003/26158)\nUpdating files:  66% (17265/26158)\nerror: unable to write file src/bin/debug/profile/Thread.h\nerror: unable to write file src/bin/debug/profile/profile.cpp\nerror: unable to write file src/bin/debug/scheduling_recorder/Jamfile\nerror: unable to write file src/bin/debug/scheduling_recorder/scheduling_recorder.cpp\nerror: unable to write file src/bin/debug/strace/Context.cpp\nerror: unable to write file src/bin/debug/strace/Context.h\nerror: unable to write file src/bin/debug/strace/Jamfile\nerror: unable to write file src/bin/debug/strace/MemoryReader.cpp\nerror: unable to write file src/bin/debug/strace/MemoryReader.h\nerror: unable to write file src/bin/debug/strace/NetworkTypes.cpp\nerror: unable to write file src/bin/debug/strace/Syscall.h\nerror: unable to write file src/bin/debug/strace/TypeHandler.cpp\nerror: unable to write file src/bin/debug/strace/TypeHandler.h\nerror: unable to write file src/bin/debug/strace/area.cpp\nerror: unable to write file src/bin/debug/strace/events.cpp\nerror: unable to write file src/bin/debug/strace/exec.cpp\nerror: unable to write file src/bin/debug/strace/fcntl.cpp\nerror: unable to write file src/bin/debug/strace/file.cpp\nerror: unable to write file src/bin/debug/strace/ioctl.cpp\nerror: unable to write file src/bin/debug/strace/mutex.cpp\nerror: unable to write file src/bin/debug/strace/network.cpp\nerror: unable to write file src/bin/debug/strace/rlimit.cpp\nerror: unable to write file src/bin/debug/strace/signals.cpp\nerror: unable to write file src/bin/debug/strace/signals.h\nerror: unable to write file src/bin/debug/strace/strace.cpp\nerror: unable to write file src/bin/debug/strace/strace.h\nerror: unable to write file src/bin/debug/strace/strace_syscalls.cpp\nerror: unable to write file src/bin/debug/strace/util.cpp\nerror: unable to write file src/bin/debug/strace/util.h\nerror: unable to write file src/bin/debug/time_stats/Jamfile\nerror: unable to write file src/bin/debug/time_stats/scheduling_analysis.cpp\nerror: unable to write file src/bin/debug/time_stats/time_stats.cpp\nerror: unable to write file src/bin/debug/time_stats/time_stats.h\nerror: unable to write file src/bin/debug/time_stats/timing_analysis.cpp\nerror: unable to"
+  }
+}
