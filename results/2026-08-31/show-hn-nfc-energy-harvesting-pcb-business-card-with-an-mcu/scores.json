@@ -1,0 +1,93 @@
+{
+  "app_name": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+  "url": "https://wilsonharper.net/projects/businesscard/",
+  "scored_at": "2026-08-31T13:05:38.712Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The project combines NFC energy harvesting with an MCU, a combination not seen in the low‑star similar tools (1 and 29 stars), indicating a meaningful new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 13 seconds, showing a relatively quick and simple setup despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑IoT device, it aligns with ongoing interest in low‑power, contactless interactions, though it is not directly tied to current LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Compared to Arduino and Adafruit NFC shields (1 and 29 stars), this board adds energy harvesting and an MCU, offering clear functional advantages."
+    },
+    "community": {
+      "score": 7,
+      "justification": "Hacker News shows 193 points and 21 comments with a sentiment of 7/10, indicating solid community interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Only 1 of 2 tests passed (50%), meeting the threshold for basic functionality but showing limited ease of use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and integration relies on manual PCB assembly and firmware flashing, requiring custom glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With no repository metadata, maturity is inferred from Hacker News points (193) which places it in the 100–300 range, yielding a neutral maturity score."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark data or performance claims were found, so an average score is given due to insufficient evidence."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely celebrate the project’s creativity, thorough documentation and engineering skill, while a minority voice raises valid concerns about over‑engineering, cost, and whether the solution actually meets a real need."
+    }
+  },
+  "summary": "This project is an open‑source business card that harvests NFC energy to power an onboard MCU, enabling low‑power contactless interactions. It is built as a custom PCB with firmware that must be flashed manually, and the design files are hosted on GitHub. The card targets makers and IoT enthusiasts who want a self‑powered NFC device without external power sources. Reviewers praised its engineering creativity (7/10 sentiment, 193 HN points) but noted concerns about cost and practical deployment, and the limited test coverage suggests modest ease of use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://wilsonharper.net/projects/businesscard/",
+  "tool_url": "https://github.com/wilsonharper/businesscard",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49478426",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Arduino NFC Shield",
+        "stars": 1,
+        "repo": "glpsg/Arduino-UNO-wRFID-NFC-Shield-and-Powertail-Switch-110-AC"
+      },
+      {
+        "name": "Adafruit NFC Shield",
+        "stars": 29,
+        "repo": "adafruit/Adafruit-PN532-RFID-NFC-Shield"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "well‑done write‑up & open source",
+        "impressive engineering & novelty",
+        "community interest & potential applications"
+      ],
+      "negative_signals": [
+        "concerns about complexity & real‑world use",
+        "questioning cost and practicality"
+      ],
+      "justification": "The comments largely celebrate the project’s creativity, thorough documentation and engineering skill, while a minority voice raises valid concerns about over‑engineering, cost, and whether the solution actually meets a real need.",
+      "comment_count": 21,
+      "hn_points": 193
+    }
+  }
+}
