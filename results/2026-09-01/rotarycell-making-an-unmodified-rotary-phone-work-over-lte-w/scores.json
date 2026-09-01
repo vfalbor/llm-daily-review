@@ -1,0 +1,104 @@
+{
+  "app_name": "RotaryCell",
+  "url": "https://github.com/fregacmols/RotaryCell",
+  "scored_at": "2026-09-01T13:02:38.612Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 55 days ago, is not a fork, and while similar projects exist with far more stars, this hardware approach is a meaningful improvement over existing rotary‑phone LTE hacks."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 11.7 seconds despite no PyPI package, showing the build process is manageable but requires hardware compilation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑IoT tool, it aligns with current maker and edge‑device trends, though its niche use case limits broader relevance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project has 84 stars versus 9,655 for the closest alternative, and its benchmark import time of 3.91 ms (vs Project X ratio 3.26) demonstrates a distinct performance profile."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub shows 84 stars, a single contributor, and the last commit was 3 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 3 of 3 tests passed and the basic run succeeded, confirming that core functionality works out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available; integration relies on flashing firmware onto an ESP32‑S3, which requires manual steps despite an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The repository provides no explicit wiki or GitHub Pages information, so documentation quality cannot be assessed from available data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 55 days old with 2 forks and zero open issues, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows an import time of 3.91 ms and total runtime of 2.427 s, indicating average performance compared to the reference Project X ratio of 3.26."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments generally praise the project’s nostalgic appeal and open-source approach, but raise legitimate worries about privacy, encryption, and the safety of powering the device from phone jacks."
+    }
+  },
+  "summary": "RotaryCell is a hardware project that lets an unmodified rotary telephone connect to LTE networks using an ESP32‑S3 microcontroller. It builds firmware that runs on the ESP32‑S3 and communicates with LTE modules, requiring users to flash the device themselves. Makers interested in retro‑tech communications or IoT prototypes will find it useful when they need a nostalgic phone interface on modern networks. The standout strength is its fully open‑source design and functional benchmarks, while the main caveat is the limited community size and lack of easy package integration.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/fregacmols/RotaryCell",
+  "tool_url": "https://github.com/fregacmols/RotaryCell",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49517297",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 84,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 84,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 55,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A portable, battery-powered cellular conversion for classic rotary telephones—fully reversible, with no modification to the original phone.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Project X",
+        "stars": 9655,
+        "repo": "xenia-project/xenia"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Nostalgic tech revival",
+        "Clear progress and open design",
+        "Encouraging community engagement"
+      ],
+      "negative_signals": [
+        "Privacy and encryption concerns",
+        "Hardware safety warnings",
+        "Potential lack of robustness"
+      ],
+      "justification": "The comments generally praise the project’s nostalgic appeal and open-source approach, but raise legitimate worries about privacy, encryption, and the safety of powering the device from phone jacks.",
+      "comment_count": 16,
+      "hn_points": 93
+    }
+  }
+}
