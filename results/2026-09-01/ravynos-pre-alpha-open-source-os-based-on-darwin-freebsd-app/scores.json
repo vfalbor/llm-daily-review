@@ -1,0 +1,97 @@
+{
+  "app_name": "RavynOS",
+  "url": "https://ravynos.com/",
+  "scored_at": "2026-09-01T13:04:09.076Z",
+  "total_score": 38,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The project is a pre‑alpha OS that mirrors existing BSD systems (FreeBSD, OpenBSD, NetBSD) with no unique creation date or fork information, making it a near‑duplicate of those tools."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10.6 seconds, which is under the 30‑second threshold, but there is no PyPI package, so it requires manual build."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As an infra‑container pre‑alpha OS, it does not address a pressing need in today's LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No star count is available, and benchmark ratios (e.g., vs_freebsd_syscall_latency_ratio 2.17) show it is slower than FreeBSD, providing little advantage over the listed similar tools."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Without a GitHub repo, community signals rely on HN points (210) which place it in the 200‑500 range, yielding a moderate community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of two tests passed (0/2) and install succeeded, indicating core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool offers CLI, kernel modules, and boot loader modes but lacks a PyPI package or documented API, requiring manual integration work."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data (no wiki, pages, or topics) is available and the website provides no documented evidence, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Creation date, fork count, and issue metrics are missing; with no release tags, a neutral maturity score is used."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark data shows a syscall latency ratio of 2.17 versus FreeBSD, indicating slower performance with no advantage claimed."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "Most comments express frustration at the project’s long pre‑alpha status, missing source, and perceived lack of value over existing macOS or Linux alternatives, while a few note the desire for a mac‑style open‑source OS. The overall tone is skeptical with several harsh critiques."
+    }
+  },
+  "summary": "RavynOS is a pre‑alpha open‑source operating system that combines elements of Darwin, FreeBSD, and other BSD variants to produce Apple‑compatible binaries and kernel modules. It is built as a container‑based infra tool with CLI, kernel module, and boot loader interfaces, but requires manual installation from source. The project is aimed at developers seeking a macOS‑style OS on open‑source platforms, yet its performance is slower than FreeBSD and it lacks functional tests and solid documentation. While a niche community shows modest interest (210 HN points), the OS remains immature and offers little differentiation over existing BSD systems.",
+  "recommendation": "skip",
+  "app_url": "https://ravynos.com/",
+  "tool_url": "https://github.com/ravynos/ravynos",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49511534",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "FreeBSD",
+        "stars": 9302,
+        "repo": "freebsd/freebsd-src"
+      },
+      {
+        "name": "OpenBSD",
+        "stars": 3867,
+        "repo": "openbsd/src"
+      },
+      {
+        "name": "NetBSD",
+        "stars": 979,
+        "repo": "NetBSD/src"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "Interest in macOS‑style experience",
+        "Potential for open‑source community contribution"
+      ],
+      "negative_signals": [
+        "Criticism of project’s progress and missing code",
+        "Dismissal of novelty and lack of clarity"
+      ],
+      "justification": "Most comments express frustration at the project’s long pre‑alpha status, missing source, and perceived lack of value over existing macOS or Linux alternatives, while a few note the desire for a mac‑style open‑source OS. The overall tone is skeptical with several harsh critiques.",
+      "comment_count": 30,
+      "hn_points": 210
+    }
+  }
+}
