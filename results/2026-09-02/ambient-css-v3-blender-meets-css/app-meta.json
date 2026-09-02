@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Ambient CSS v3 – Blender meets CSS",
+    "url": "https://ambientcss.vercel.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=49523387",
+    "points": 287,
+    "comments": 82,
+    "author": "kikkupico",
+    "age": "2026-09-01T15:35:11.000000Z",
+    "scraped_at": "2026-09-02T13:00:03.101Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A CSS animation library that integrates Blender-generated animations into web pages, enabling realistic motion directly in the browser.",
+    "use_modes": [
+      "npm"
+    ],
+    "similar_tools": [
+      "Framer Motion",
+      "GSAP",
+      "Three.js"
+    ],
+    "proposed_tests": [
+      "npm install @ambientcss/ambientcss",
+      "Create a minimal HTML page that imports the library and renders a sample animation",
+      "Measure page load time and animation smoothness in headless Chrome",
+      "Verify that the library exposes expected CSS classes and animation APIs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ambientcss/ambientcss",
+    "tool_url": "https://github.com/ambientcss/ambientcss"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788354420801-u4hey",
+    "log_dir": "/tmp/llm-review-1788354420801-u4hey",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 150, in <module>\n    main()\n  File \"/app/test.py\", line 128, in main\n    load_time = measure_load_time()\n                ^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 65, in measure_load_time\n    httpd = socketserver.TCPServer((\"\", PORT), Handler)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/socketserver.py\", line 457, in __init__\n    self.server_bind()\n  File \"/usr/local/lib/python3.12/socketserver.py\", line 478, in server_bind\n    self.socket.bind(self.server_address)\nOSError: [Errno 98] Address in use\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_FAIL:npm:@ambientcss/ambientcss:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-02T13_07_38_058Z-debug-0.log\nINSTALL_FAIL:npm:gsap:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-02T13_07_38_744Z-debug-0.log\nTEST_PASS:create_html\n"
+  }
+}
