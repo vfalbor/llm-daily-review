@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 150, in <module>
+    main()
+  File "/app/test.py", line 128, in main
+    load_time = measure_load_time()
+                ^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 65, in measure_load_time
+    httpd = socketserver.TCPServer(("", PORT), Handler)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/usr/local/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address in use
