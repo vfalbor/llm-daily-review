@@ -1,0 +1,125 @@
+{
+  "app_name": "Sonic Pi",
+  "url": "https://sonic-pi.net/",
+  "scored_at": "2026-09-02T13:04:46.112Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 4874 days ago and is not a fork, but similar live‑coding tools exist; the large star gap reflects popularity, not a new approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 100.3 s (>30 s) and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑frontend for live‑coding music, it fits a niche of creative coding rather than the core LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "12,106 stars versus 4,669, 6,710 and 3,033 for the closest alternatives shows a strong advantage in community interest."
+    },
+    "community": {
+      "score": 9,
+      "justification": "12 k stars, 700 contributors, and a recent commit 20 days ago indicate a very active and large community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0 %) and install succeeded, showing core functionality fails in automated QA."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Provides GUI and CLI modes but lacks a PyPI package and has a NOASSERTION license, making programmatic integration moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 4874 days old, has 988 forks and only 26 open issues, indicating a mature, stable project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a generic install benchmark (apk_git_install_s: 0.745) is available; no performance comparison to similar tools was reported."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight enthusiasm for live coding demos and community events, but many point out technical hurdles on Linux and confusion over language changes, leading to a generally positive yet slightly cautious reception."
+    }
+  },
+  "summary": "Sonic Pi is a live‑coding music synthesizer that lets users create sound via a Ruby‑based DSL and a SuperCollider backend, available as both a GUI and CLI. It runs locally and bundles its own audio engine, targeting musicians and educators who want immediate, interactive sound creation. The tool shines with a large, active community (12 k stars, 700 contributors) and a long history of stable releases, but its installation is slow, it lacks a PyPI distribution, and automated tests show core functionality failing. While highly popular, users should be aware of Linux‑specific sound issues and the steep setup cost.",
+  "recommendation": "worth-watching",
+  "app_url": "https://sonic-pi.net/",
+  "tool_url": "https://github.com/sonic-pi-net/sonic-pi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49482099",
+  "domain": "other",
+  "app_type": "devtool-frontend",
+  "enriched": {
+    "github": {
+      "stars": 12106,
+      "forks": 988,
+      "open_issues": 26,
+      "watchers": 12106,
+      "contributors": 700,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 20,
+      "days_since_created": 4874,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Code. Music. Live.",
+      "topics": [
+        "art",
+        "audio",
+        "education",
+        "instrument",
+        "live-coding",
+        "livecoding",
+        "music",
+        "schools",
+        "sonic-pi",
+        "synthesis",
+        "synthesizer"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "chuck",
+        "stars": 4669,
+        "repo": "jgilfelt/chuck"
+      },
+      {
+        "name": "SuperCollider",
+        "stars": 6710,
+        "repo": "supercollider/supercollider"
+      },
+      {
+        "name": "TidalCycles",
+        "stars": 3033,
+        "repo": "tidalcycles/strudel"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Live coding performance excitement",
+        "Intuitive Ruby DSL",
+        "Strong community and workshops"
+      ],
+      "negative_signals": [
+        "Linux sound issues and package problems",
+        "Mixed language history confusion"
+      ],
+      "justification": "Comments highlight enthusiasm for live coding demos and community events, but many point out technical hurdles on Linux and confusion over language changes, leading to a generally positive yet slightly cautious reception.",
+      "comment_count": 30,
+      "hn_points": 202
+    }
+  }
+}
