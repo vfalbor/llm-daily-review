@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 137, in <module>
+    main()
+  File "/app/test.py", line 94, in main
+    print_marker(f'BENCHMARK:npm_install_time_s:{npm_inst_time:.2f}')
+                                                 ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'npm_inst_time' where it is not associated with a value
