@@ -1,0 +1,99 @@
+{
+  "app_name": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+  "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+  "scored_at": "2026-09-02T13:09:47.999Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available and GitHub star data is missing, so quantitative evidence is insufficient."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 15 seconds, but there is no PyPI package, indicating a moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-cli that enables local document generation with LLMs, it aligns well with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The tool uniquely bundles a full LibreOffice copy, a capability not present in OpenAI CLI (34,253 stars) or LangChain CLI (74 stars)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository is detected, but Hacker News shows 445 points and 30 comments, indicating a moderately active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) and install succeeded, reflecting low functional coverage in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project lacks a PyPI package and only offers CLI/GUI modes, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub README, wiki, or pages data is available and no explicit web documentation signals were provided."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository but 445 Hacker News points and a stable article domain, the project shows moderate maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines or performance claims are present, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the use of headless LibreOffice for efficiency and highlight alternative CLIs, but raise concerns about the large bundle size and potential performance or reliability issues, resulting in a generally positive but cautiously critical stance."
+    }
+  },
+  "summary": "The tool is a standalone desktop application that bundles the ChatGPT/Codex inference engine together with a full LibreOffice installation, enabling local document generation without external services. It is built as a CLI and GUI wrapper around a bundled LibreOffice binary, requiring no API key. It targets developers who need offline, reproducible document creation powered by LLMs, especially in environments without internet access. Its standout strength is the unique inclusion of a complete LibreOffice suite, while the main caveat is the lack of package distribution and limited test coverage (0/3 tests passed).",
+  "recommendation": "worth-watching",
+  "app_url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+  "tool_url": "https://github.com/simonwillison/codex-libreoffice",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49527396",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenAI CLI",
+        "stars": 34253,
+        "repo": "openai/CLIP"
+      },
+      {
+        "name": "LangChain CLI",
+        "stars": 74,
+        "repo": "langchain-ai/langsmith-cli"
+      },
+      {
+        "name": "LibreOffice Portable",
+        "stars": 1,
+        "repo": "tuxayo/libreoffice-portable-downloader.bash"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Headless LibreOffice reduces UI overhead",
+        "Alternative APIs/CLIs available",
+        "Automation and scripting support"
+      ],
+      "negative_signals": [
+        "Large dependency size",
+        "Potential performance issues",
+        "Concerns about reliability of AI‑generated replacements"
+      ],
+      "justification": "Comments praise the use of headless LibreOffice for efficiency and highlight alternative CLIs, but raise concerns about the large bundle size and potential performance or reliability issues, resulting in a generally positive but cautiously critical stance.",
+      "comment_count": 30,
+      "hn_points": 445
+    }
+  }
+}
