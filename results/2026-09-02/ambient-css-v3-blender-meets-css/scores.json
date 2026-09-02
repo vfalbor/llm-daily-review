@@ -1,0 +1,99 @@
+{
+  "app_name": "Ambient CSS v3 – Blender meets CSS",
+  "url": "https://ambientcss.vercel.app/",
+  "scored_at": "2026-09-02T13:08:14.038Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The library combines Blender-generated animations with CSS, a meaningful improvement over existing tools like Framer Motion, GSAP, and Three.js, but it is not a completely new paradigm."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded (true) in 9.8 seconds, well under the 30‑second threshold, and no API key is required."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑frontend animation library, it aligns with current UI/UX trends for richer web experiences."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While similar tools have many stars (e.g., GSAP 28,188), Ambient CSS offers the unique Blender integration, providing a distinct advantage without quantitative benchmark data."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub data is available, but Hacker News points are 288, placing it in the 200–500 range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All reported tests passed (1/1) and installation succeeded, indicating a smooth user experience."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is distributed via npm (use_modes includes npm) and does not require an API key, making integration straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or documentation metrics (wiki, pages, topics) were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity relies on HN points (288) which suggests a moderate level of adoption but no release or version information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided and no performance claims were found, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the visual, tactile appeal and skeuomorphic approach, but many point out usability problems with knobs, readability, and performance, making the reception generally positive with constructive criticism."
+    }
+  },
+  "summary": "Ambient CSS v3 is a CSS animation library that brings Blender‑generated motions into web pages, allowing realistic motion directly in the browser. It is distributed as an npm package and runs without any external API keys. The library is suited for front‑end developers who want high‑fidelity animations without hand‑coding keyframes. It stands out for its unique Blender integration, though reviews note usability and performance concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ambientcss.vercel.app/",
+  "tool_url": "https://github.com/ambientcss/ambientcss",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49523387",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Framer Motion",
+        "stars": 414,
+        "repo": "iamshaunjp/framer-motion"
+      },
+      {
+        "name": "GSAP",
+        "stars": 28188,
+        "repo": "greensock/GSAP"
+      },
+      {
+        "name": "Three.js",
+        "stars": 115028,
+        "repo": "mrdoob/three.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Aesthetic skeuomorphic design",
+        "Visually tactile interfaces",
+        "Conceptual innovation"
+      ],
+      "negative_signals": [
+        "Usability issues with knobs",
+        "Readability and performance concerns",
+        "Criticism of design clutter and slop"
+      ],
+      "justification": "Comments praise the visual, tactile appeal and skeuomorphic approach, but many point out usability problems with knobs, readability, and performance, making the reception generally positive with constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 288
+    }
+  }
+}
