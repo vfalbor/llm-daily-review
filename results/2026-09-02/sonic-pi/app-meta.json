@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Sonic Pi",
+    "url": "https://sonic-pi.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=49482099",
+    "points": 200,
+    "comments": 46,
+    "author": "Bluestein",
+    "age": "2026-08-28T17:51:19.000000Z",
+    "scraped_at": "2026-09-02T13:00:03.097Z",
+    "tool_url": "https://github.com/sonic-pi-net/sonic-pi",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "other",
+    "app_type": "devtool-frontend",
+    "description": "Live coding music synthesizer built on Ruby and SuperCollider",
+    "use_modes": [
+      "GUI",
+      "CLI"
+    ],
+    "similar_tools": [
+      "chuck",
+      "SuperCollider",
+      "TidalCycles"
+    ],
+    "proposed_tests": [
+      "brew install sonic-pi",
+      "sonic-pi --version",
+      "open -a Sonic\\ Pi",
+      "# Verify GUI launches and accepts Ruby code via script"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sonic-pi-net/sonic-pi"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788354140346-5hhol",
+    "log_dir": "/tmp/llm-review-1788354140346-5hhol",
+    "install_success": true,
+    "install_time_s": 100.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.745",
+    "error_log": "Cloning into '/tmp/sonic-pi-src'...\nfatal: write error: No space left on device\nfatal: fetch-pack: invalid index-pack output\nfetch-pack: unexpected disconnect while reading sideband packet\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.21.0-r0)\n( 9/13) Installing curl (8.21.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.745\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'sonic-pi']' returned non-zero exit status 1.\nINSTALL_FAIL:Command 'git clone https://github.com/sonic-pi-net/sonic-pi.git /tmp/sonic-pi-src' failed with exit code 128: None\nTEST_FAIL:import_sonic_pi:No module named 'sonic_pi'\nTEST_SKIP:core_operation:import_failed\nRUN_OK\n"
+  }
+}
