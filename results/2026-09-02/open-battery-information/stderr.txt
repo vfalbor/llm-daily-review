@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 148, in <module>
+    main()
+  File "/app/test.py", line 101, in main
+    install_apk_packages()
+  File "/app/test.py", line 17, in install_apk_packages
+    ok, reason = run_cmd(["apk", "add", "--no-cache"] + pkgs, check=False)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 10, in run_cmd
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, **kwargs)
+TypeError: subprocess.run() got multiple values for keyword argument 'check'
