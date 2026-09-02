@@ -1,0 +1,124 @@
+{
+  "app_name": "Weedout",
+  "url": "https://masteranza.github.io/weedout/",
+  "scored_at": "2026-09-02T13:05:50.548Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 10 days ago and is not a fork, but similar extensions like uBlock Origin (5,763 stars) already exist, indicating only an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 18.7 seconds (<30s) and a PyPI package (v1.2) is available, requiring no special hardware or API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a Safari extension that hides AI‑labeled YouTube videos, it addresses current concerns about AI‑generated content moderation in web browsing."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has 0 GitHub stars versus uBlock Origin's 5,763 stars and its query latency (777 ms) is far slower than uBlock's 3.9 ms, showing minimal advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "GitHub shows 0 stars, 1 contributor, and the repository was updated today, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed (<50%), though the basic run succeeded, suggesting core functionality is missing or unstable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists and the tool is a browser extension, but there is no API, license, or explicit integration guidance, limiting ease of embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki or GitHub Pages was provided; documentation quality cannot be assessed, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 10 days old with 0 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 2,
+      "justification": "Benchmark shows query latency of 777.19 ms compared to uBlock Origin's 3.886 ms, demonstrating significantly poorer performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments praise the extension’s goal of filtering AI‑labeled videos but criticize the generic and sometimes misleading nature of the labels, plus the lack of broader browser support, resulting in a mixed reception."
+    }
+  },
+  "summary": "Weedout is a Safari browser extension that hides YouTube videos labeled as AI‑generated. It works by injecting a filter into the browser, relying on a simple client‑side script packaged on PyPI. The tool is aimed at Safari users who want to reduce AI‑slop noise in their video feeds, but its performance is much slower than established blockers and it lacks a strong community or documentation. Its main strength is addressing a niche content‑filtering need, while its main caveat is poor speed and minimal adoption.",
+  "recommendation": "skip",
+  "app_url": "https://masteranza.github.io/weedout/",
+  "tool_url": "https://github.com/masteranza/weedout",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49528895",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "license": "none",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 10,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Safari extension that filters videos YouTube labels Made with AI. Private, on-device, one-time purchase.",
+      "topics": [
+        "ai-filter",
+        "app-store",
+        "indie-app",
+        "macos",
+        "privacy",
+        "safari-extension",
+        "youtube"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "uBlock Origin",
+        "stars": 5763,
+        "repo": "laylavish/uBlockOrigin-HUGE-AI-Blocklist"
+      },
+      {
+        "name": "Video Blocker",
+        "stars": 14,
+        "repo": "JourneyDeprecated/Youtube-Video-Blocker-Deprecated-"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2",
+      "summary": null,
+      "requires_python": null,
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "useful for reducing AI‑slop noise",
+        "free and open source",
+        "helps users avoid unwanted content"
+      ],
+      "negative_signals": [
+        "AI label too broad and inaccurate",
+        "potentially hides legitimate content",
+        "limited to Safari, not cross‑platform"
+      ],
+      "justification": "Comments praise the extension’s goal of filtering AI‑labeled videos but criticize the generic and sometimes misleading nature of the labels, plus the lack of broader browser support, resulting in a mixed reception.",
+      "comment_count": 30,
+      "hn_points": 158
+    }
+  }
+}
