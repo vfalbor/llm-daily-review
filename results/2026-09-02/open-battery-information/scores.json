@@ -1,0 +1,109 @@
+{
+  "app_name": "Open Battery Information",
+  "url": "https://github.com/mnh-jansson/open-battery-information",
+  "scored_at": "2026-09-02T13:02:19.069Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo is 849 days old, is not a fork, and has the same star count as the comparable battery-info project while being far behind psutil (11,273 stars), indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) after 7.4 seconds and there is no PyPI package, making installation difficult."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a data-analytics library for battery information, it addresses a niche need and does not align with the broader current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "It has the same star count as the similar battery-info tool and far fewer stars than psutil, with no benchmark advantages reported, showing minimal differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,724 stars, 11 contributors, and the last commit was 13 days ago, indicating an active mid‑size community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "No tests were run (0/0) and the installation failed, suggesting core functionality is not usable out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The library provides a Python API but lacks a PyPI distribution, requiring manual installation; it is MIT licensed."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed; using a neutral score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Created 849 days ago, with 262 forks and 88 open issues, showing a moderately mature project but without clear versioning information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was supplied, so a neutral performance score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Most comments view the project as a helpful, niche tool for Makita batteries, with some enthusiasm for its potential commercial use, but note that documentation is confusing and it supports only a limited set of batteries."
+    }
+  },
+  "summary": "Open Battery Information is a Python library that exposes battery status data across platforms via a simple API. It is built as a C++‑backed package with a Python wrapper but is not available on PyPI, requiring manual installation. The tool is suited for developers needing battery metrics for Makita devices, offering a niche capability. While it has an active community of 1.7k stars, installation difficulties and limited documentation are its main drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/mnh-jansson/open-battery-information",
+  "tool_url": "https://github.com/mnh-jansson/open-battery-information",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49494236",
+  "domain": "data",
+  "app_type": "data-analytics",
+  "enriched": {
+    "github": {
+      "stars": 1724,
+      "forks": 262,
+      "open_issues": 88,
+      "watchers": 1724,
+      "contributors": 11,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 13,
+      "days_since_created": 849,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "psutil",
+        "stars": 11273,
+        "repo": "giampaolo/psutil"
+      },
+      {
+        "name": "battery-info",
+        "stars": 1724,
+        "repo": "mnh-jansson/open-battery-information"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful battery data",
+        "Niche focus on Makita",
+        "Interest in commercial product"
+      ],
+      "negative_signals": [
+        "Limited battery compatibility",
+        "Unclear documentation",
+        "Narrow scope"
+      ],
+      "justification": "Most comments view the project as a helpful, niche tool for Makita batteries, with some enthusiasm for its potential commercial use, but note that documentation is confusing and it supports only a limited set of batteries.",
+      "comment_count": 9,
+      "hn_points": 29
+    }
+  }
+}
