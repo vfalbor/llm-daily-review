@@ -1,0 +1,130 @@
+{
+  "app_name": "Pre-Release of Polars 2.0",
+  "url": "https://pola.rs/posts/announcing-polars-2/",
+  "scored_at": "2026-09-03T13:02:29.865Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 2303 days old, is not a fork, and its star count (39,623) is slightly lower than pandas (49,628) and comparable to DuckDB, indicating an incremental but not groundbreaking improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 11.6 seconds (<30s) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a data-pipeline library, Polars 2.0 addresses the current need for fast dataframe operations in LLM preprocessing workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Polars has 39,623 stars versus pandas' 49,628 and DuckDB's 40,961, and the benchmark shows an import time of 0.2209 s, suggesting a speed advantage over some alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 39,623 stars, 761 contributors, and was updated 0 days ago, indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), though installation succeeded, indicating limited core functionality coverage."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The library is on PyPI, offers Python, Rust, and CLI APIs, and is released under the MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic counts was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 2303 days old, has 3080 forks and 2883 open issues, and ships a stable 1.44.1 release, showing mature production readiness."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark reports an import time of 0.2209 s; without comparative figures, performance is considered average."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments express a generally positive view of the effort to tidy up and make sensible defaults, but many users highlight confusion around the 2.0 version bump, the semantic‑versioning promises, and the wording that feels artificial. The mixed tone leads to a modestly positive overall score."
+    }
+  },
+  "summary": "Polars 2.0 is a Rust‑based dataframe library that provides Python, Rust, and CLI APIs for fast lazy execution. It builds on the existing Polars project and is distributed via PyPI, requiring only Python ≥3.10. Data engineers needing high‑performance dataframe operations in LLM pipelines will find it useful, especially given its modest import‑time benchmark. The library benefits from a large, active community and mature codebase, but its test suite shows limited coverage, indicating some usability gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://pola.rs/posts/announcing-polars-2/",
+  "tool_url": "https://github.com/pola-rs/polars",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49546753",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": {
+      "stars": 39623,
+      "forks": 3080,
+      "open_issues": 2883,
+      "watchers": 39623,
+      "contributors": 761,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2303,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+      "topics": [
+        "arrow",
+        "dataframe",
+        "dataframe-library",
+        "dataframes",
+        "out-of-core",
+        "polars",
+        "python",
+        "rust"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "pandas",
+        "stars": 49628,
+        "repo": "pandas-dev/pandas"
+      },
+      {
+        "name": "Polars-R",
+        "stars": 994,
+        "repo": "ankane/ruby-polars"
+      },
+      {
+        "name": "DuckDB",
+        "stars": 40961,
+        "repo": "duckdb/duckdb"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.44.1",
+      "summary": "Blazingly fast DataFrame library",
+      "requires_python": ">=3.10",
+      "license": "Copyright (c) 2025 Ritchie Vink\n        Copyright (c) 2024 (Some portions) NVIDIA CORPORATION & AFFILIATES. All rights reserved.\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Clear intent to remove deprecated cruft and improve defaults",
+        "Pre‑release gives developers time to test and adapt",
+        "General enthusiasm for Polars’ performance"
+      ],
+      "negative_signals": [
+        "Confusion over semantic versioning and breaking changes",
+        "Criticism that the announcement feels AI‑generated or poorly worded",
+        "Some skepticism about the timing of the release"
+      ],
+      "justification": "Comments express a generally positive view of the effort to tidy up and make sensible defaults, but many users highlight confusion around the 2.0 version bump, the semantic‑versioning promises, and the wording that feels artificial. The mixed tone leads to a modestly positive overall score.",
+      "comment_count": 30,
+      "hn_points": 245
+    }
+  }
+}
