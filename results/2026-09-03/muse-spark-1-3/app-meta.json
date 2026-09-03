@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Muse Spark 1.3",
+    "url": "https://developer.meta.com/ai/models/muse-spark/",
+    "hn_url": "https://news.ycombinator.com/item?id=49541256",
+    "points": 620,
+    "comments": 406,
+    "author": "bvaldivielso",
+    "age": "2026-09-02T19:35:04.000000Z",
+    "scraped_at": "2026-09-03T13:00:02.604Z",
+    "tool_url": "https://github.com/facebookresearch/muse-spark",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "Open‑source large language model optimized for retrieval‑augmented generation.",
+    "use_modes": [
+      "Python API",
+      "CLI",
+      "ONNX"
+    ],
+    "similar_tools": [
+      "Llama 3",
+      "Mistral",
+      "OpenAI GPT‑4o"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the model weights",
+      "Run a sample prompt through the Python API and verify output length",
+      "Measure inference latency for a 512 token prompt",
+      "Export the model to ONNX and run inference with ONNX Runtime"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/facebookresearch/muse-spark"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788440551102-5n03l",
+    "log_dir": "/tmp/llm-review-1788440551102-5n03l",
+    "install_success": true,
+    "install_time_s": 12.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/28) Installing libgcc (15.2.0-r5)\n( 2/28) Installing jansson (2.15.0-r0)\n( 3/28) Installing libstdc++ (15.2.0-r5)\n( 4/28) Installing binutils (2.45.1-r1)\n( 5/28) Installing libmagic (5.47-r2)\n( 6/28) Installing file (5.47-r2)\n( 7/28) Installing libgcc-static (15.2.0-r5)\n( 8/28) Installing libgomp (15.2.0-r5)\n( 9/28) Installing libatomic (15.2.0-r5)\n(10/28) Installing gmp (6.3.0-r4)\n(11/28) Installing isl26 (0.26-r2)\n(12/28) Installing mpfr4 (4.2.2-r0)\n(13/28) Installing mpc1 (1.3.1-r1)\n(14/28) Installing gcc (15.2.0-r5)\n(15/28) Installing libstdc++-dev (15.2.0-r5)\n(16/28) Installing musl-dev (1.2.6-r2)\n(17/28) Installing g++ (15.2.0-r5)\n(18/28) Installing make (4.4.1-r4)\n(19/28) Installing fortify-headers (3.0.1-r2)\n(20/28) Installing patch (2.8-r0)\n(21/28) Installing build-base (0.5-r4)\n(22/28) Installing mpdecimal (4.0.1-r0)\n(23/28) Installing python3 (3.14.7-r1)\n(24/28) Installing python3-pycache-pyc0 (3.14.7-r1)\n(25/28) Installing pyc (3.14.7-r1)\n(26/28) Installing python3-pyc (3.14.7-r1)\n(27/28) Installing pkgconf (2.5.1-r0)\n(28/28) Installing python3-dev (3.14.7-r1)\nExecuting busybox-1.37.0-r31.trigger\nOK: 427.4 MiB in 79 packages\nINSTALL_OK\nTEST_FAIL:clone_repo:Cloning into '/tmp/muse-spark'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nTEST_FAIL:pip_install_fallback:run_cmd() got an unexpected keyword argument 'cwd'\nTEST_FAIL:import_module:No module named 'muse_spark'\nTEST_FAIL:sample_prompt:No module named 'muse_spark'\nTEST_FAIL:inference_512:cannot access local variable 'ms' where it is not associated with a value\nTEST_FAIL:onnx_export_and_inference:export_onnx.py not found\nRUN_OK\n"
+  }
+}
