@@ -1,0 +1,55 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.4-r0)
+(11/13) Installing pcre2 (10.48-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+( 1/28) Installing libgcc (15.2.0-r5)
+( 2/28) Installing jansson (2.15.0-r0)
+( 3/28) Installing libstdc++ (15.2.0-r5)
+( 4/28) Installing binutils (2.45.1-r1)
+( 5/28) Installing libmagic (5.47-r2)
+( 6/28) Installing file (5.47-r2)
+( 7/28) Installing libgcc-static (15.2.0-r5)
+( 8/28) Installing libgomp (15.2.0-r5)
+( 9/28) Installing libatomic (15.2.0-r5)
+(10/28) Installing gmp (6.3.0-r4)
+(11/28) Installing isl26 (0.26-r2)
+(12/28) Installing mpfr4 (4.2.2-r0)
+(13/28) Installing mpc1 (1.3.1-r1)
+(14/28) Installing gcc (15.2.0-r5)
+(15/28) Installing libstdc++-dev (15.2.0-r5)
+(16/28) Installing musl-dev (1.2.6-r2)
+(17/28) Installing g++ (15.2.0-r5)
+(18/28) Installing make (4.4.1-r4)
+(19/28) Installing fortify-headers (3.0.1-r2)
+(20/28) Installing patch (2.8-r0)
+(21/28) Installing build-base (0.5-r4)
+(22/28) Installing mpdecimal (4.0.1-r0)
+(23/28) Installing python3 (3.14.7-r1)
+(24/28) Installing python3-pycache-pyc0 (3.14.7-r1)
+(25/28) Installing pyc (3.14.7-r1)
+(26/28) Installing python3-pyc (3.14.7-r1)
+(27/28) Installing pkgconf (2.5.1-r0)
+(28/28) Installing python3-dev (3.14.7-r1)
+Executing busybox-1.37.0-r31.trigger
+OK: 427.4 MiB in 79 packages
+INSTALL_OK
+TEST_FAIL:clone_repo:Cloning into '/tmp/muse-spark'...
+fatal: could not read Username for 'https://github.com': No such device or address
+
+TEST_FAIL:pip_install_fallback:run_cmd() got an unexpected keyword argument 'cwd'
+TEST_FAIL:import_module:No module named 'muse_spark'
+TEST_FAIL:sample_prompt:No module named 'muse_spark'
+TEST_FAIL:inference_512:cannot access local variable 'ms' where it is not associated with a value
+TEST_FAIL:onnx_export_and_inference:export_onnx.py not found
+RUN_OK
