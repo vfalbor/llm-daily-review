@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Pre-Release of Polars 2.0",
+    "url": "https://pola.rs/posts/announcing-polars-2/",
+    "hn_url": "https://news.ycombinator.com/item?id=49546753",
+    "points": 245,
+    "comments": 72,
+    "author": "komape",
+    "age": "2026-09-03T06:59:08.000000Z",
+    "scraped_at": "2026-09-03T13:00:02.602Z",
+    "tool_url": "https://github.com/pola-rs/polars",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "Fast, Rust‑based DataFrame library for Python, R, and Rust with lazy execution.",
+    "use_modes": [
+      "Python API",
+      "Rust API",
+      "CLI"
+    ],
+    "similar_tools": [
+      "pandas",
+      "Polars-R",
+      "DuckDB"
+    ],
+    "proposed_tests": [
+      "Install polars via pip and import in a Python script",
+      "Create a DataFrame from a CSV and perform a groupby aggregation",
+      "Measure execution time of a lazy query vs eager query",
+      "Run polars CLI 'polars --version' and check output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/pola-rs/polars"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788440489711-28bqm",
+    "log_dir": "/tmp/llm-review-1788440489711-28bqm",
+    "install_success": true,
+    "install_time_s": 11.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_s:0.2209",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_s:0.2209\nTEST_PASS:import_polars\nTEST_FAIL:cli_version:Command failed: polars --version\n/bin/sh: polars: not found\n\nTEST_FAIL:groupby_aggregation:No module named 'pandas'\nTEST_FAIL:lazy_vs_eager:No module named 'numpy'\nTEST_FAIL:baseline_compare:No module named 'pandas'\nRUN_OK\n"
+  }
+}
