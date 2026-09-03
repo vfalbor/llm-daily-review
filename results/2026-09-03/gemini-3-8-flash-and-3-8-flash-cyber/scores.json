@@ -1,0 +1,83 @@
+{
+  "app_name": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "scored_at": "2026-09-03T13:04:37.428Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) in 23.5 s (<30 s) but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is a research-model, directly targeting current LLM workflows and fast large‑scale inference."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts are available; benchmark shows a latency ratio of 1.67 vs GPT‑4o, indicating no clear speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 1067 (>500), reflecting strong community interest despite the lack of a public repo."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 of 4 tests passed (50%), meeting the ≥50% threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "API/SDK/webhook support is listed and use modes include Python and REST, though no PyPI package exists."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Docs/wiki link present, changelog present, and page content length is 115,549 characters (>5,000), indicating substantial documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Detected version 2.0 and a changelog suggest a stable release; no repo data required."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports api_latency_ms 105.14 and a vs_gpt4o_latency_ratio of 1.67, showing comparable or slower performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show enthusiasm for the rapid Flash releases and strong benchmark results, but also frustration with disappearing links and uncertainty about model access and policy implications."
+    }
+  },
+  "summary": "Gemini 3.8 Flash and Flash Cyber are Google’s latest proprietary models accessed via Python or REST APIs for fast inference. They run on Google’s infrastructure and require an API key, with edge deployment options. Researchers and developers needing high‑throughput generative capabilities would consider them, especially given the announced 2.0 version and strong benchmark publicity. The main strength is the rapid release cycle and reported speed, while the lack of open source, missing pip install, and occasional dead documentation links are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "tool_url": "https://ai.google.dev",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49537553",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Fast release cycle",
+        "Strong performance benchmarks",
+        "Active community interest"
+      ],
+      "negative_signals": [
+        "Documentation/links dead (404)",
+        "Concerns about policy/data sharing",
+        "Mixed clarity on model availability"
+      ],
+      "justification": "The comments show enthusiasm for the rapid Flash releases and strong benchmark results, but also frustration with disappearing links and uncertainty about model access and policy implications.",
+      "comment_count": 30,
+      "hn_points": 1067
+    }
+  }
+}
