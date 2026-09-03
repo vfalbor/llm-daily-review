@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Fable 5.1 World Modeling",
+    "url": "https://github.com/PhiloLabs/fable51-worlds",
+    "hn_url": "https://news.ycombinator.com/item?id=49541458",
+    "points": 285,
+    "comments": 84,
+    "author": "surreal_",
+    "age": "2026-09-02T19:49:01.000000Z",
+    "scraped_at": "2026-09-03T13:00:02.610Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/PhiloLabs/fable51-worlds",
+    "repo_url": "https://github.com/PhiloLabs/fable51-worlds",
+    "confidence": 0.85,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "A framework for generating and managing large-scale procedural worlds, useful for simulations and game content creation.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "Procedural Worlds",
+      "OpenWorldGen",
+      "WorldBuilder"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies",
+      "Run the example script to generate a basic world",
+      "Measure generation time for 1000 tiles",
+      "Validate output structure against schema",
+      "Run a simple query on generated world data"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1788440678920-9sh9s",
+    "log_dir": "/tmp/llm-review-1788440678920-9sh9s",
+    "install_success": true,
+    "install_time_s": 12.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.69\nBENCHMARK:clone_time_s:4.24\nBENCHMARK:pip_install_s:0.78",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nBENCHMARK:apk_git_install_s:0.69\nINSTALL_OK | clone:https://github.com/PhiloLabs/fable51-worlds\nBENCHMARK:clone_time_s:4.24\nINSTALL_FAIL:pip:fable51-worlds:ERROR: Could not find a version that satisfies the requirement fable51-worlds (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for fable51-worlds\nBENCHMARK:pip_install_s:0.78\nTEST_FAIL:import_module:No module named 'fable51_worlds'\nTEST_FAIL:world_generation:No module named 'fable51_worlds'\nRUN_OK\n"
+  }
+}
