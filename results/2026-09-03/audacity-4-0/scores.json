@@ -1,0 +1,120 @@
+{
+  "app_name": "Audacity 4.0",
+  "url": "https://github.com/audacity/audacity",
+  "scored_at": "2026-09-03T13:01:28.328Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 4179 days old (~11.4 years) and is not a fork, but it offers incremental improvements over existing audio editors, placing it in the incremental improvement tier."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 28.2 seconds (under the 30‑second threshold) and the tool runs locally without requiring an API key, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a cross‑platform audio editor it remains useful, but it does not address a specific acute pain point in today's LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Audacity has 17,752 stars, vastly outstripping Audition (196), Reaper (2,218) and Ocenaudio (18), giving it a clear advantage in community adoption despite comparable latency (ratio 1.000)."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project boasts 17,752 stars, 316 contributors, and was updated today (0 days since last commit), indicating a very active and large community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of five tests passed (0% pass rate) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "No PyPI package exists, but the tool offers a CLI and VST plugin interface, allowing moderate integration effort; the license is listed as NOASSERTION."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 4179 days old, has 2,624 forks and a stable 4.0 release, indicating a mature, production‑ready codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows a latency ratio of 1.000 compared to Reaper, indicating performance on par with a comparable tool but no measurable advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments overall show enthusiasm for the new UI and lightweight build, but include notable worries about telemetry, acquisition plans, and UI scaling issues, yielding a moderately positive sentiment."
+    }
+  },
+  "summary": "Audacity 4.0 is a cross‑platform, open‑source audio editor that provides GUI, CLI, and VST plugin interfaces. It is built in C++ and distributed via GitHub releases, requiring no API key and running locally. It is best suited for audio engineers and hobbyists needing a free, feature‑rich editor, especially those who value its large community and long‑standing stability. Its standout strength is its massive user base and mature codebase, while the lack of automated test coverage and modest integration pathways are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+  "tool_url": "https://github.com/audacity/audacity",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49548395",
+  "domain": "other",
+  "app_type": "audio-editor",
+  "enriched": {
+    "github": {
+      "stars": 17752,
+      "forks": 2624,
+      "open_issues": 1699,
+      "watchers": 17752,
+      "contributors": 316,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4179,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Audio Editor                                     ",
+      "topics": [
+        "audio",
+        "cross-platform",
+        "editor",
+        "gplv2",
+        "wxwidgets-applications"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Audition",
+        "stars": 196,
+        "repo": "glowtigercall/adobe-audition-edge"
+      },
+      {
+        "name": "Reaper",
+        "stars": 2218,
+        "repo": "punk-security/dnsReaper"
+      },
+      {
+        "name": "Ocenaudio",
+        "stars": 18,
+        "repo": "ocenaudio/ocenaudio-translations"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "New UI praised as sleek and lightweight",
+        "Positive community response to size and design",
+        "Supportive commentary on developer effort"
+      ],
+      "negative_signals": [
+        "Concerns about telemetry and monetization",
+        "Criticism of UX scaling and native feel",
+        "Skepticism over company acquisition and future direction"
+      ],
+      "justification": "The comments overall show enthusiasm for the new UI and lightweight build, but include notable worries about telemetry, acquisition plans, and UI scaling issues, yielding a moderately positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 213
+    }
+  }
+}
