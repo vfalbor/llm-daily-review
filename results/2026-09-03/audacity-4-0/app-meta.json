@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "Audacity 4.0",
+    "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+    "hn_url": "https://news.ycombinator.com/item?id=49548395",
+    "points": 224,
+    "comments": 47,
+    "author": "ClydeN",
+    "age": "2026-09-03T10:53:08.000000Z",
+    "scraped_at": "2026-09-03T13:00:02.601Z",
+    "tool_url": "https://github.com/audacity/audacity",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "other",
+    "app_type": "audio-editor",
+    "description": "Cross‑platform, open‑source audio editor with advanced editing features.",
+    "use_modes": [
+      "GUI",
+      "CLI",
+      "VST plugin"
+    ],
+    "similar_tools": [
+      "Audition",
+      "Reaper",
+      "Ocenaudio"
+    ],
+    "proposed_tests": [
+      "Download and install Audacity 4.0 on Linux",
+      "Open a sample WAV file and apply a reverb effect",
+      "Export the edited file to MP3 and verify bitrate",
+      "Run 'audacity --version' from CLI and compare output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/audacity/audacity"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788440445692-feic3",
+    "log_dir": "/tmp/llm-review-1788440445692-feic3",
+    "install_success": true,
+    "install_time_s": 28.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.465\nBENCHMARK:apk_ffmpeg_install_time_s:2.361\nBENCHMARK:pip_numpy_install_time_s:5.546\nBENCHMARK:pip_scipy_install_time_s:9.769\nBENCHMARK:pip_soundfile_install_time_s:1.967\nBENCHMARK:vs_reaper_export_latency_ratio:1.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.465\nINSTALL_OK\nBENCHMARK:apk_ffmpeg_install_time_s:2.361\nINSTALL_OK\nBENCHMARK:pip_numpy_install_time_s:5.546\nINSTALL_OK\nBENCHMARK:pip_scipy_install_time_s:9.769\nINSTALL_OK\nBENCHMARK:pip_soundfile_install_time_s:1.967\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'audacity']' returned non-zero exit status 1.\nTEST_FAIL:import_audacity:No module named 'audacity'\nTEST_FAIL:download_and_install:import_failed\nTEST_FAIL:open_and_reverb:cannot load library 'libsndfile.so': Error loading shared library libsndfile.so: No such file or directory\nTEST_FAIL:export_mp3_verify:cannot load library 'libsndfile.so': Error loading shared library libsndfile.so: No such file or directory\nTEST_FAIL:cli_version:Command failed: audacity --version\n/bin/sh: audacity: not found\n\nBENCHMARK:vs_reaper_export_latency_ratio:1.000\nRUN_OK\n"
+  }
+}
