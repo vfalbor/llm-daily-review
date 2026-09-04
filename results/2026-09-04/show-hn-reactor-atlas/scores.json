@@ -1,0 +1,99 @@
+{
+  "app_name": "Reactor Atlas",
+  "url": "https://reactoratlas.com/",
+  "scored_at": "2026-09-04T13:02:02.864Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed beyond a neutral rating."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 18.8 seconds, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra-queue tool it aligns with current LLM workflow needs for message passing and data streaming."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub star count or benchmark data is available to compare against NATS, Kafka, or Redis Streams."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repo; HN points are 41, which falls below 50, placing community score in the 1‑2 range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 6 tests passed (<50%), though install succeeded, indicating limited functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides CLI, HTTP API, and Rust SDK (use_modes) despite lacking a PyPI package, offering reasonable integration paths."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or docs site information was found, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No repository metadata; HN points are 41 (<50), suggesting an early‑stage project with limited maturity signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided, so performance is rated neutrally."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely praise the project’s data richness and the author’s willingness to improve, while noting UI and missing pin concerns. Minor criticism about translation and AI‑detected comments does not outweigh the overall constructive tone."
+    }
+  },
+  "summary": "Reactor Atlas is a lightweight message queue written in Rust that can be used via a CLI, HTTP API, or Rust SDK. It follows the Reactor pattern and targets infrastructure scenarios where fast, reliable queuing is needed. It is suited for developers building Rust‑based services or integrating a simple queue into existing pipelines. The project’s main strength is its multi‑mode access, but limited documentation and a small community hinder broader adoption.",
+  "recommendation": "niche",
+  "app_url": "https://reactoratlas.com/",
+  "tool_url": "https://github.com/atlantis-io/reactor-atlas",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49549148",
+  "domain": "infra-queue",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "NATS",
+        "stars": 20656,
+        "repo": "nats-io/nats-server"
+      },
+      {
+        "name": "Kafka",
+        "stars": 33665,
+        "repo": "apache/kafka"
+      },
+      {
+        "name": "Redis Streams",
+        "stars": 355,
+        "repo": "leonh/redis-streams-fastapi-chat"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "informative nuclear data",
+        "responsive developer updates",
+        "useful monitoring feature"
+      ],
+      "negative_signals": [
+        "UI confusion and jarring clustering",
+        "missing reactor locations (e.g., Australia)",
+        "translation/communication issues"
+      ],
+      "justification": "The comments largely praise the project’s data richness and the author’s willingness to improve, while noting UI and missing pin concerns. Minor criticism about translation and AI‑detected comments does not outweigh the overall constructive tone.",
+      "comment_count": 18,
+      "hn_points": 41
+    }
+  }
+}
