@@ -1,0 +1,82 @@
+{
+  "app_name": "O&O ShutUp10 – The antispy tool for Windows 10 and 11",
+  "url": "https://www.oo-software.com/en/shutup10",
+  "scored_at": "2026-09-04T13:01:02.501Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and the tool is listed alongside many established similar utilities (CCleaner, Spybot, BleachBit), so no quantitative novelty evidence is available."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 9.2 seconds, indicating a straightforward setup despite the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a sec-scanner that disables Windows telemetry, it addresses ongoing privacy concerns in the current security landscape."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub stars or benchmark comparisons are available; only basic benchmark numbers (import_time_ms: 0.52, core_operation_latency_ms: 50.1) are provided, making differentiation unclear."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Hacker News signals show only 27 points and 8 comments with a negative sentiment score of 4/10, indicating limited community traction."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%), falling below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The product lacks an API/SDK, has no PyPI package, and is closed source, making programmatic integration difficult."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The website provides docs/wiki links, a changelog, examples, and extensive content (61,198 characters), indicating strong documentation."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "A detected version number of 28.3 and a visible changelog suggest a mature, actively maintained product."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data shows import_time_ms: 0.52 and core_operation_latency_ms: 50.1, but no comparative figures are available to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of the six comments express distrust due to the tool’s closed-source nature and potential security risks, while a minority praise its effectiveness in reducing Windows nuisances; overall sentiment leans negative with moderate skepticism."
+    }
+  },
+  "summary": "O&O ShutUp10 is a Windows utility that disables telemetry and background services to reduce data leakage. It operates via a GUI and a command‑line executable, with no public API or package manager distribution. The tool is aimed at privacy‑conscious Windows users who want a quick way to curb built‑in telemetry. Documentation is extensive and the product appears mature (version 28.3), but community adoption is low and integration options are minimal.",
+  "recommendation": "niche",
+  "app_url": "https://www.oo-software.com/en/shutup10",
+  "tool_url": "https://www.oo-software.com/en/shutup10",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49562895",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Some users find it effective",
+        "It removes Windows annoyances"
+      ],
+      "negative_signals": [
+        "Closed-source concerns",
+        "Security skepticism",
+        "Criticism of proprietary nature"
+      ],
+      "justification": "The majority of the six comments express distrust due to the tool’s closed-source nature and potential security risks, while a minority praise its effectiveness in reducing Windows nuisances; overall sentiment leans negative with moderate skepticism.",
+      "comment_count": 8,
+      "hn_points": 27
+    }
+  }
+}
