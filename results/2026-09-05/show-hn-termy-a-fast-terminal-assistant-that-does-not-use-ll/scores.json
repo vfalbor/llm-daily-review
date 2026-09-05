@@ -1,0 +1,117 @@
+{
+  "app_name": "TERMy",
+  "url": "https://github.com/gioblu/NPC-Forge",
+  "scored_at": "2026-09-05T13:03:34.620Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 49 days ago, is not a fork, and offers an LLM‑free terminal assistant unlike the much larger projects termina (104,809 stars) and bat (60,373 stars), indicating a meaningful new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 15.8 s despite no PyPI package, showing a reasonably simple setup without API keys."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑cli that provides quick contextual info without LLMs, it aligns with current interest in privacy‑preserving, lightweight terminal tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With only 132 GitHub stars compared to termina (104,809) and bat (60,373), TERMy’s deterministic, LLM‑free design offers a clear advantage in privacy and speed, though no quantitative speed benchmark is provided."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 132 stars, 1 contributor, and was updated 1 day ago, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%) and while install succeeded, the low test pass rate suggests limited usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is only available as a CLI/TUI, has no PyPI package, and provides no API, making integration into other pipelines difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided; only a development markdown file is referenced, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 49 days old, has 5 forks and 4 open issues, indicating early‑stage development with some activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only memory peak (60.18 MB) is reported; no speed or efficiency benchmarks are available to compare against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise TERMy’s fast, deterministic, LLM‑free design and privacy benefits, while a few raise valid concerns about determinism, reliability and potential fallback to LLMs."
+    }
+  },
+  "summary": "TERMy is a CLI/TUI terminal assistant that provides contextual information without using large language models. It runs locally as a Python script and does not require any API keys. It is aimed at developers who want fast, privacy‑preserving terminal help and prefer deterministic output. The tool’s main strength is its LLM‑free design praised for speed and privacy, but its limited test coverage and lack of integration APIs are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+  "tool_url": "https://github.com/gioblu/NPC-Forge",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49562219",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 132,
+      "forks": 5,
+      "open_issues": 4,
+      "watchers": 132,
+      "contributors": 1,
+      "license": "AGPL-3.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 49,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "NPC-Forge is a framework for building conversational agents that run on the CPU without relying on machine learning or LLMs.",
+      "topics": [
+        "assistant",
+        "assistant-chat-bots",
+        "framework",
+        "nlu",
+        "nlu-chatbot",
+        "nlu-engine",
+        "terminal"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "termina",
+        "stars": 104809,
+        "repo": "microsoft/terminal"
+      },
+      {
+        "name": "bat",
+        "stars": 60373,
+        "repo": "sharkdp/bat"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Privacy & speed advantage over LLMs",
+        "Deterministic predictable output",
+        "Community interest in dataset expansion"
+      ],
+      "negative_signals": [
+        "Uncertainty about LLM determinism",
+        "Reliability concerns for terminal execution",
+        "Need for fallback mechanisms"
+      ],
+      "justification": "Most comments praise TERMy’s fast, deterministic, LLM‑free design and privacy benefits, while a few raise valid concerns about determinism, reliability and potential fallback to LLMs.",
+      "comment_count": 30,
+      "hn_points": 155
+    }
+  }
+}
