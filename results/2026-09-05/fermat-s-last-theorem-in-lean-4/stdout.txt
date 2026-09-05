@@ -1,0 +1,32 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.4-r0)
+(11/13) Installing pcre2 (10.48-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+TEST_FAIL:clone_repo:Cloning into '/tmp/fermats-last-theorem'...
+fatal: write error: No space left on device
+fatal: fetch-pack: invalid index-pack output
+
+INSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement fermats-last-theorem (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip ins
+TEST_FAIL:pip_editable_install:[Errno 2] No such file or directory: '/tmp/fermats-last-theorem'
+TEST_FAIL:lean_build:[Errno 2] No such file or directory: '/tmp/fermats-last-theorem'
+BENCHMARK:lean_build_time_s:0.00
+TEST_FAIL:lean_test:[Errno 2] No such file or directory: '/tmp/fermats-last-theorem'
+BENCHMARK:lean_test_time_s:0.00
+BENCHMARK:vs_lean3_build_ratio:0.000
+BENCHMARK:lean_build_mem_peak_kib:0.0
+RUN_OK
