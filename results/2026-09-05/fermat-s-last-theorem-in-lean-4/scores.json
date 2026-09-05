@@ -1,0 +1,114 @@
+{
+  "app_name": "Fermat's Last Theorem in Lean 4",
+  "url": "https://github.com/anthropics/fermats-last-theorem",
+  "scored_at": "2026-09-05T13:02:40.678Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repository was created 0 days ago and is not a fork, making it a brand‑new formal proof effort rather than a clone of existing tools."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "current_relevance": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 571 stars it is far smaller than comparable libraries (Mathlib 4,009 stars; Lean 3 2,154 stars; Coq 3,813 stars) but provides a unique formal proof of Fermat's Last Theorem, a contribution no other tool offers."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 571 GitHub stars, 1 contributor and was updated today (0 days since last commit), indicating an active but still small community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided; therefore evidence is insufficient and a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is brand new (0 days since creation) with 39 forks and only 1 open issue, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Several comments praise the formal proof as impressive and discuss building a foundation, while others raise valid concerns about Lean's kernel reliability, library readiness, and the difficulty of extracting reusable code from AI-generated proofs."
+    }
+  },
+  "summary": "This project is a formal Lean 4 proof of Fermat's Last Theorem, containing the proof scripts and their dependencies. It is built directly on the Lean 4 proof assistant and is distributed as a GitHub repository without a PyPI package. Researchers and formal methods engineers seeking a verified proof of the theorem would use it as a reference or foundation for further work. The standout strength is its novel contribution of a fully formalized proof, while the main caveat is its very recent release and limited community support (571 stars, 1 contributor).",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/anthropics/fermats-last-theorem",
+  "tool_url": "https://github.com/anthropics/fermats-last-theorem",
+  "source_type": "research-paper",
+  "hn_url": "https://news.ycombinator.com/item?id=49568697",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 571,
+      "forks": 39,
+      "open_issues": 1,
+      "watchers": 571,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Lean",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Mathlib",
+        "stars": 4009,
+        "repo": "leanprover-community/mathlib4"
+      },
+      {
+        "name": "Lean 3",
+        "stars": 2154,
+        "repo": "leanprover/lean3"
+      },
+      {
+        "name": "Coq",
+        "stars": 3813,
+        "repo": "ms-jpq/coq_nvim"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive achievement",
+        "Potential for library contribution",
+        "Excitement about future proofs"
+      ],
+      "negative_signals": [
+        "Kernel and library robustness concerns",
+        "LLM code reuse challenges",
+        "Skepticism about formal verification"
+      ],
+      "justification": "Several comments praise the formal proof as impressive and discuss building a foundation, while others raise valid concerns about Lean's kernel reliability, library readiness, and the difficulty of extracting reusable code from AI-generated proofs.",
+      "comment_count": 24,
+      "hn_points": 123
+    }
+  }
+}
