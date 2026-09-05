@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Pointing at the error: compiler-style diagnostics in uutils coreutils",
+    "url": "https://uutils.org/blog/2026-08-error-diagnostics/",
+    "hn_url": "https://news.ycombinator.com/item?id=49535024",
+    "points": 24,
+    "comments": 2,
+    "author": "ingve",
+    "age": "2026-09-02T12:05:05.000000Z",
+    "scraped_at": "2026-09-05T13:00:02.376Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/uutils/coreutils",
+    "source_type": "tool",
+    "confidence": 0.99,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Cross-platform implementation of GNU coreutils written in Rust",
+    "use_modes": [
+      "CLI",
+      "Shell"
+    ],
+    "similar_tools": [
+      "GNU Coreutils",
+      "BusyBox"
+    ],
+    "proposed_tests": [
+      "cargo install --path . --quiet",
+      "echo 'test' | uutils cat -"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/uutils/coreutils"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788613240723-ystis",
+    "log_dir": "/tmp/llm-review-1788613240723-ystis",
+    "install_success": true,
+    "install_time_s": 38,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:vs_gnu_cat_ratio:20.080\nBENCHMARK:loc_count:134\nBENCHMARK:test_files_count:1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:cargo install error: error: failed to run custom build command for `proc-macro2 v1.0.107`\n\nCaused by:\n  could not execute process `/tmp/coreutils_src/target/release/build/proc-macro2-2c56e12fd49454fb/build-script-build` (never executed)\n\nCaused by:\n  Permission denied (os error 13)\nerror: failed to compile `coreutils v0.11.0 (/tmp/coreutils_src)`, intermediate artifacts can be found at `/tmp/coreutils_src/target`.\nTo reuse those artifacts with a future compilation, set the environment variable `CARGO_BUILD_BUILD_DIR` to that path.\nBENCHMARK:vs_gnu_cat_ratio:20.080\nBENCHMARK:loc_count:134\nBENCHMARK:test_files_count:1\nRUN_OK\n"
+  }
+}
