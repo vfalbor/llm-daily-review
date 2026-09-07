@@ -1,0 +1,121 @@
+{
+  "app_name": "Nitter and XCancel resume service after legal advice",
+  "url": "https://github.com/zedeus/nitter",
+  "scored_at": "2026-09-07T13:01:26.805Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo was created 2635 days ago and is not a fork, but it is essentially a fork of Nitter with identical star count, indicating little original contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 17 seconds (<30s) and a PyPI package exists, meeting the easy‑setup criteria."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a privacy‑focused front‑end for X (Twitter) it addresses a still‑relevant concern in current LLM‑augmented web workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Stars match Nitter (14,279) and the latency ratio vs Ewe is 1.10 (worse), showing no clear advantage over existing alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 14,279 stars, 61 contributors, and was updated 0 days ago, indicating an active and large community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%) despite a successful install, indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package is available, the tool offers an HTTP API and Web UI, and it uses an AGPL‑3.0 license, facilitating integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 2635 days old, has 1304 forks and 156 open issues, reflecting a mature, widely‑used project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows a UI load time of 19.07 ms and a latency ratio of 1.10 versus Ewe, offering no clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments express concern about legal challenges and cost, skepticism about AI handling, and fear of large companies outspending smaller players, outweighing the few positives about continued service and the value of X-exclusive information."
+    }
+  },
+  "summary": "Nitter is a self‑hosted, privacy‑focused front‑end for X that runs as a Nim web service exposing both an HTTP API and a web UI. It can be installed via pip in under half a minute and requires no API key. It suits users who want to browse X without tracking but offers little novelty over the original Nitter and shows no measurable speed benefit. Its strong community and easy integration are offset by failing test suites and modest performance gains.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+  "tool_url": "https://github.com/zedeus/nitter",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49588988",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": {
+      "stars": 14279,
+      "forks": 1304,
+      "open_issues": 156,
+      "watchers": 14279,
+      "contributors": 61,
+      "license": "AGPL-3.0",
+      "language": "Nim",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2635,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Alternative Twitter front-end",
+      "topics": [
+        "nim",
+        "privacy",
+        "self-hosted",
+        "twitter",
+        "x"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Nitter",
+        "stars": 14279,
+        "repo": "zedeus/nitter"
+      },
+      {
+        "name": "Ewe",
+        "stars": 792,
+        "repo": "peterbuga/HASS-sonoff-ewelink"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.5",
+      "summary": "Nitter is a simple library to scrap Twitter data using the Nitter website",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": "https://github.com/iAliF/Nitter/"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Continued availability of alternative frontend",
+        "Acknowledgement of importance of X-exclusive info"
+      ],
+      "negative_signals": [
+        "Legal risk and cost of defense",
+        "Skepticism about AI efficacy",
+        "Potential for big corp to overwhelm"
+      ],
+      "justification": "Most comments express concern about legal challenges and cost, skepticism about AI handling, and fear of large companies outspending smaller players, outweighing the few positives about continued service and the value of X-exclusive information.",
+      "comment_count": 30,
+      "hn_points": 801
+    }
+  }
+}
