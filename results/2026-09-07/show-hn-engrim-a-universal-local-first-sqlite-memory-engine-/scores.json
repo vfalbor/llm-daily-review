@@ -1,0 +1,141 @@
+{
+  "app_name": "Engrim",
+  "url": "https://github.com/timgordontg/engrim",
+  "scored_at": "2026-09-07T13:02:19.746Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 79 days old, is not a fork, and while it targets a niche (local‑first SQLite for AI CLIs), similar mature databases exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 26.8 s (<30 s) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a database‑relational tool for AI command‑line interfaces, it addresses a current need for lightweight, local storage in LLM workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 99 stars it is far smaller than DuckDB (41 k) and SQLite (24 k), but offers a unique local‑first SQLite‑compatible engine; no benchmark shows a clear speed advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 99 stars, 1 contributor, and was updated today (0 days since last commit), indicating modest but active community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed (0 %); although installation works, core functionality fails in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists, and the tool provides CLI, Python API, and Node.js SDK with an MIT license, facilitating integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Created 79 days ago, has 2 forks and 4 open issues, and ships version 1.3.0, indicating early but stable development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports cpu_compute_ms of 14.92 ms but lacks comparative data, so performance cannot be judged relative to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments highlight Engrim’s lightweight, local-first SQLite approach and the author’s prompt updates in response to user feedback, indicating a generally positive reception. A few users raise minor concerns about uninstall handling and express mild skepticism, but these do not dominate the discussion."
+    }
+  },
+  "summary": "Engrim is an in‑memory SQLite‑compatible engine aimed at local‑first AI command‑line interfaces. It runs as a Python package (v1.3.0) and offers CLI, Python API, and Node.js SDK integrations. Developers building AI CLIs that need fast, temporary storage without cloud dependencies will find it useful. The strongest point is its lightweight design praised in HN comments, while the main drawback is that its test suite shows zero passed tests, indicating reliability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/timgordontg/engrim",
+  "tool_url": "https://github.com/timgordontg/engrim",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49594008",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 99,
+      "forks": 2,
+      "open_issues": 4,
+      "watchers": 99,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 79,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Universal Cross-Model Episodic Memory Standard. Local-first, project-scoped SQLite memory engine for Google Antigravity, Claude Code, Cursor, and Windsurf. Zero cloud lock-in.",
+      "topics": [
+        "ai-agents",
+        "antigravity",
+        "claude-code",
+        "context-management",
+        "cross-model",
+        "cursor",
+        "developer-tools",
+        "episodic-memory",
+        "llm",
+        "local-first",
+        "mcp",
+        "memory",
+        "model-context-protocol",
+        "plugin",
+        "python",
+        "rag",
+        "retrieval",
+        "sqlite",
+        "windsurf"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "DuckDB",
+        "stars": 41049,
+        "repo": "duckdb/duckdb"
+      },
+      {
+        "name": "SQLite",
+        "stars": 24569,
+        "repo": "sqlitebrowser/sqlitebrowser"
+      },
+      {
+        "name": "SparrowDB",
+        "stars": 75,
+        "repo": "ryaker/SparrowDB"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.3.0",
+      "summary": "Project-scoped, cross-session episodic memory for AI coding agents (Google Antigravity, Claude Code, Cursor MCP) — local SQLite hybrid keyword+semantic store.",
+      "requires_python": ">=3.10",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "lightweight local-first SQLite engine",
+        "community responsiveness to feature requests",
+        "no cloud dependency & privacy"
+      ],
+      "negative_signals": [
+        "minor concerns about uninstall process",
+        "some skepticism about metaphor",
+        "questions on hook behavior"
+      ],
+      "justification": "The majority of comments highlight Engrim’s lightweight, local-first SQLite approach and the author’s prompt updates in response to user feedback, indicating a generally positive reception. A few users raise minor concerns about uninstall handling and express mild skepticism, but these do not dominate the discussion.",
+      "comment_count": 12,
+      "hn_points": 51
+    }
+  }
+}
