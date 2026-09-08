@@ -1,0 +1,92 @@
+{
+  "app_name": "End-to-end infrastructure for training and inferencing open weight models",
+  "url": "https://docs.appliedcompute.com/",
+  "scored_at": "2026-09-08T13:01:20.525Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork status, or GitHub stars were available, so quantitative evidence is missing."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10.2 seconds, which is well under the 30‑second benchmark, though the tool is not pip‑installable."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑ml platform for training and inference of open‑weight models, it addresses a core need in today's LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark ratios show training is 2× faster (vs_minimal_training_s_ratio 0.500) while inference latency is 1.33× higher, indicating a mixed but notable performance profile compared to similar tools."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository was detected; HN points are only 25, indicating limited community traction."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "2 of 4 tests passed (50%), meeting the ≥50% threshold for basic usability."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool offers CLI, HTTP API, and SDK use modes, providing multiple integration paths despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub metadata (wiki, pages, topics) or other documentation signals were found, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN points (25) are available, suggesting low maturity and limited production use."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report training speed improvement (ratio 0.500) and slower inference (ratio 1.333), but no direct comparison to alternatives, leading to a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The two comments express frustration over the absence of a clear pricing page, implying potential cost concerns, while the third comment positively highlights a useful feature and suggests adding more examples. Overall sentiment leans slightly positive with constructive criticism."
+    }
+  },
+  "summary": "This is a containerized infra‑ml platform that orchestrates training and inference for open‑weight models, offering CLI, HTTP API, and SDK interfaces. It builds on standard container technologies and integrates dataset handling, hyper‑parameter tuning, and deployment steps. Practitioners who need a self‑hosted end‑to‑end pipeline for LLM experiments will find it useful, especially when they prefer on‑premise control. Its strongest point is faster minimal training (0.5× the baseline), while the lack of public community signals and limited documentation are major drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://docs.appliedcompute.com/",
+  "tool_url": "https://github.com/appliedcompute/appliedcompute",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49570411",
+  "domain": "infrastructure",
+  "app_type": "infra-ml",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Neptune.ai",
+        "stars": 623,
+        "repo": "neptune-ai/neptune-client"
+      },
+      {
+        "name": "Polyaxon",
+        "stars": 3728,
+        "repo": "polyaxon/polyaxon"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "nice feature",
+        "request for more examples"
+      ],
+      "negative_signals": [
+        "missing pricing page",
+        "concerns about cost"
+      ],
+      "justification": "The two comments express frustration over the absence of a clear pricing page, implying potential cost concerns, while the third comment positively highlights a useful feature and suggests adding more examples. Overall sentiment leans slightly positive with constructive criticism.",
+      "comment_count": 3,
+      "hn_points": 25
+    }
+  }
+}
