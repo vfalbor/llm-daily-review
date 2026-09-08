@@ -1,0 +1,127 @@
+{
+  "app_name": "Jellyfin 12.0",
+  "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+  "scored_at": "2026-09-08T13:06:44.018Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is not a fork and was created 2830 days ago, but it largely follows existing media‑server models like Plex and Emby, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 13.7 s (under 30 s) and a PyPI package exists, indicating easy setup on consumer hardware."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool media server, Jellyfin fits current LLM‑enhanced media workflows and home‑streaming trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Jellyfin has 56,700 stars versus Plex's 11,631 (+387%), and its benchmark shows a vs_plex_import_ratio of 0.9, indicating it is marginally faster than Plex."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 56,700 stars, 1,843 contributors, and was updated today (0 days since last commit), showing a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists, the server offers Docker, native binary, and Helm chart deployment modes, and it is GPL‑2.0 licensed, providing multiple integration pathways."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 2830 days old, has 5,415 forks and 607 open issues, indicating a mature, production‑ready project."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a vs_plex_import_ratio of 0.9, meaning Jellyfin imports slightly faster than Plex, though the gain is modest."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments largely praise Jellyfin’s expanding client support, performance improvements, and the availability of an open‑source alternative to Plex, but many users express concern that Plex still offers superior music‑client features and uncertainty about how future Plex changes might affect the ecosystem."
+    }
+  },
+  "summary": "Jellyfin 12.0 is an open‑source media server that organizes video, music, and photos. It runs as a native binary, Docker container, or Helm chart and exposes a REST API for client integration. It is ideal for users who want a self‑hosted alternative to Plex or Emby and value community‑driven development. Its strongest point is a large, active community and modest performance edge over Plex, while its test suite shows core functionality is not fully verified.",
+  "recommendation": "worth-watching",
+  "hn_sentiment": 7,
+  "app_url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+  "tool_url": "https://github.com/jellyfin/jellyfin",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49604861",
+  "domain": "other",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 56700,
+      "forks": 5415,
+      "open_issues": 607,
+      "watchers": 56700,
+      "contributors": 1843,
+      "license": "GPL-2.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2830,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "The Free Software Media System - Server Backend & API",
+      "topics": [
+        "csharp",
+        "dotnet",
+        "hacktoberfest",
+        "jellyfin"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Plex",
+        "stars": 11631,
+        "repo": "IBM/plex"
+      },
+      {
+        "name": "Emby",
+        "stars": 4966,
+        "repo": "MediaBrowser/Emby"
+      },
+      {
+        "name": "Kodi",
+        "stars": 2174,
+        "repo": "koding/koding"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.0",
+      "summary": "",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": "https://github.com/nvllsvm/python-jellyfin"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Improved Android and smart TV client support",
+        "Performance gains on server hardware",
+        "Open source alternative to Plex"
+      ],
+      "negative_signals": [
+        "Plex still dominates music clients",
+        "Uncertainty about future Plex policies",
+        "Some Jellyfin features still lagging"
+      ],
+      "justification": "Comments largely praise Jellyfin’s expanding client support, performance improvements, and the availability of an open‑source alternative to Plex, but many users express concern that Plex still offers superior music‑client features and uncertainty about how future Plex changes might affect the ecosystem.",
+      "comment_count": 30,
+      "hn_points": 457
+    }
+  }
+}
