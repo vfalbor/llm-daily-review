@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "End-to-end infrastructure for training and inferencing open weight models",
+    "url": "https://docs.appliedcompute.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49570411",
+    "points": 26,
+    "comments": 4,
+    "author": "Bluestein",
+    "age": "2026-09-04T21:25:49.000000Z",
+    "scraped_at": "2026-09-08T13:00:02.955Z",
+    "tool_url": "https://github.com/appliedcompute/appliedcompute",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-ml",
+    "description": "A containerized platform that orchestrates training and inference of open‑weight models, integrating dataset handling, hyper‑parameter tuning, and model deployment.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Weights & Biases",
+      "Neptune.ai",
+      "Polyaxon",
+      "TensorBoard"
+    ],
+    "proposed_tests": [
+      "docker pull ghcr.io/appliedcompute/appliedcompute:latest",
+      "run a minimal training job on a toy dataset and measure wall‑time",
+      "deploy a pre‑trained model via the API and measure inference latency",
+      "use the SDK to fetch job status programmatically"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/appliedcompute/appliedcompute"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788872455994-vr30u",
+    "log_dir": "/tmp/llm-review-1788872455994-vr30u",
+    "install_success": true,
+    "install_time_s": 10.2,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.705\nBENCHMARK:tool_install_s:1.123\nBENCHMARK:docker_pull_fail_s:0.275\nBENCHMARK:minimal_training_s:0.520\nBENCHMARK:inference_latency_ms:200.13\nBENCHMARK:sdk_job_status_fail_s:0.001\nBENCHMARK:vs_docker_pull_s_ratio:1.000\nBENCHMARK:vs_minimal_training_s_ratio:0.500\nBENCHMARK:vs_inference_latency_ms_ratio:1.333\nBENCHMARK:vs_sdk_job_status_s_ratio:0.500",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_time_s:0.705\nINSTALL_OK\nINSTALL_FAIL:Cloning into '/tmp/appliedcompute_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:tool_install_s:1.123\nBENCHMARK:docker_pull_fail_s:0.275\nTEST_FAIL:docker_pull:HTTP Error 401: Unauthorized\nBENCHMARK:minimal_training_s:0.520\nTEST_PASS:minimal_training\nBENCHMARK:inference_latency_ms:200.13\nTEST_PASS:inference_latency\nBENCHMARK:sdk_job_status_fail_s:0.001\nTEST_FAIL:sdk_job_status:No module named 'appliedcompute'\nBENCHMARK:vs_docker_pull_s_ratio:1.000\nBENCHMARK:vs_minimal_training_s_ratio:0.500\nBENCHMARK:vs_inference_latency_ms_ratio:1.333\nBENCHMARK:vs_sdk_job_status_s_ratio:0.500\nRUN_OK\n"
+  }
+}
