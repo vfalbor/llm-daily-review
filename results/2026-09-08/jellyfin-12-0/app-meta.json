@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Jellyfin 12.0",
+    "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+    "hn_url": "https://news.ycombinator.com/item?id=49604861",
+    "points": 456,
+    "comments": 201,
+    "author": "0xC0ncord",
+    "age": "2026-09-08T01:56:35.000000Z",
+    "scraped_at": "2026-09-08T13:00:02.959Z",
+    "tool_url": "https://github.com/jellyfin/jellyfin",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "other",
+    "app_type": "devtool",
+    "description": "An open‑source media server that organizes video, music, and photos.",
+    "use_modes": [
+      "Docker",
+      "Native binary",
+      "Kubernetes helm chart"
+    ],
+    "similar_tools": [
+      "Plex",
+      "Emby",
+      "Kodi"
+    ],
+    "proposed_tests": [
+      "docker pull ghcr.io/jellyfin/jellyfin:latest",
+      "run a quick container with minimal config",
+      "verify the web UI is reachable at http://localhost:8096",
+      "create a media library folder, add a test media file, and confirm it is indexed",
+      "measure server start‑up time and CPU usage"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jellyfin/jellyfin"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788872744679-lgt5k",
+    "log_dir": "/tmp/llm-review-1788872744679-lgt5k",
+    "install_success": true,
+    "install_time_s": 13.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:vs_plex_import_ratio:0.9",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:import_module:No module named 'jellyfin'\nINSTALL_FAIL:failed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory\nTEST_FAIL:run_container:failed to connect to the docker API at unix:///var/run/docker.sock; check if the path is correct and if the daemon is running: dial unix /var/run/docker.sock: connect: no such file or directory\nTEST_SKIP:container_start:could not start\nBENCHMARK:vs_plex_import_ratio:0.9\nRUN_OK\n"
+  }
+}
