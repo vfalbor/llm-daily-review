@@ -1,0 +1,98 @@
+{
+  "app_name": "WeatherNext 3",
+  "url": "https://deepmind.google/science/weathernext/",
+  "scored_at": "2026-09-08T13:07:48.270Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so novelty cannot be quantified and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 13.1 seconds, which is well under the 30‑second threshold for easy setup, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research‑model for short‑term weather forecasting using spatio‑temporal GNNs, it aligns with current AI trends in climate and scientific modelling."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or direct benchmark advantage is available; only similar tools' stars are known (19, 835, 500) and the MAE 0.8000 lacks a comparative reference."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN points are 361, placing it in the 200‑500 range, which maps to a community score of 7."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 5 tests passed (0/5) and while installation succeeded, the low test pass rate yields a low usability score."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a Python API, ONNX export, and TensorFlow Lite modes, but lacks a PyPI package, giving it moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and no explicit documentation metrics were found, resulting in a neutral score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository details, the HN points of 361 (>300) serve as a proxy, assigning a maturity score of 6."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark provides a MAE of 0.8000 but lacks comparative data, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the interactive map and overall usefulness of the tool, while several users report practical issues such as broken links, 404 errors, and rough grid resolution, leading to a generally positive but mixed sentiment."
+    }
+  },
+  "summary": "WeatherNext 3 is a research‑model that predicts short‑term weather using spatio‑temporal graph neural networks. It can be accessed via a Python API, exported to ONNX, or run on TensorFlow Lite, and does not require an API key. Researchers needing a specialized forecasting model may find it useful, especially given its novel graph‑based approach. Its main strength is the integration flexibility, while the lack of documented benchmarks and sparse test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://deepmind.google/science/weathernext/",
+  "tool_url": "https://github.com/deepmind/weathernext",
+  "source_type": "research-model",
+  "hn_url": "https://news.ycombinator.com/item?id=49552299",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "DeepWeather",
+        "stars": 19,
+        "repo": "prl900/DeepWeather"
+      },
+      {
+        "name": "WeatherBench",
+        "stars": 835,
+        "repo": "pangeo-data/WeatherBench"
+      },
+      {
+        "name": "ERA5",
+        "stars": 500,
+        "repo": "google-research/arco-era5"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "interactive world map",
+        "useful product for weather predictions"
+      ],
+      "negative_signals": [
+        "demo link confusion and 404 errors",
+        "rough grid resolution",
+        "usability complaints"
+      ],
+      "justification": "Comments praise the interactive map and overall usefulness of the tool, while several users report practical issues such as broken links, 404 errors, and rough grid resolution, leading to a generally positive but mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 361
+    }
+  }
+}
