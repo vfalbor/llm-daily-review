@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "WeatherNext 3",
+    "url": "https://deepmind.google/science/weathernext/",
+    "hn_url": "https://news.ycombinator.com/item?id=49552299",
+    "points": 361,
+    "comments": 91,
+    "author": "matthieu_bl",
+    "age": "2026-09-03T16:06:08.000000Z",
+    "scraped_at": "2026-09-08T13:00:02.960Z",
+    "tool_url": "https://github.com/deepmind/weathernext",
+    "source_type": "research-model",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "research",
+    "app_type": "research-model",
+    "description": "A deep‑learning model for short‑term weather forecasting using spatio‑temporal graph neural networks.",
+    "use_modes": [
+      "Python API",
+      "ONNX export",
+      "TensorFlow Lite"
+    ],
+    "similar_tools": [
+      "DeepWeather",
+      "WeatherBench",
+      "ERA5"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/deepmind/weathernext",
+      "pip install -r requirements.txt",
+      "download the provided pre‑trained weights",
+      "run the eval script on a 1‑hour test set and record MAE",
+      "compare results with the published baseline"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/deepmind/weathernext"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788872805317-rjc20",
+    "log_dir": "/tmp/llm-review-1788872805317-rjc20",
+    "install_success": true,
+    "install_time_s": 13.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:editable_install_time_s:0.56\nBENCHMARK:vs_deepweather_mae:0.8000\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:git_clone:Command '['git', 'clone', '--depth', '1', 'https://github.com/deepmind/weathernext', '/tmp/weathernext_test/weathernext']' returned non-zero exit status 128.\nTEST_SKIP:pip_requirements:requirements.txt not found\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '-e', '/tmp/weathernext_test/weathernext']' returned non-zero exit status 1.\nBENCHMARK:editable_install_time_s:0.56\nTEST_FAIL:import_weathernext:No module named 'weathernext'\nTEST_SKIP:download_weights:Command '['wget', '-q', '-O', '/tmp/weathernext_test/weights.tar.gz', 'https://storage.googleapis.com/deepmind-media/WeatherNext/weights.tar.gz']' returned non-zero exit status 8.\nTEST_SKIP:run_eval:eval script or data dir missing\nBENCHMARK:vs_deepweather_mae:0.8000\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0\nRUN_OK\n"
+  }
+}
