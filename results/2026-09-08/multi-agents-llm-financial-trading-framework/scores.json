@@ -1,0 +1,127 @@
+{
+  "app_name": "Multi-Agents LLM Financial Trading Framework",
+  "url": "https://github.com/TauricResearch/TradingAgents",
+  "scored_at": "2026-09-08T13:05:43.562Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repo was created 619 days ago, is not a fork, and targets multi‑agent LLM trading—a capability not offered by the low‑star alternatives."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 175.7 seconds, exceeding the <30 s ideal; a PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm-framework, it aligns with today’s surge in multi‑agent LLM applications for finance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 103,251 stars it dwarfs TraderAI (3 stars), FinRL (16,240) and QuantConnect (21,540), offering a uniquely large community and feature set."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 103,251 stars, 21 contributors, and was updated 0 days ago, indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "1 of 2 tests passed (50%), meeting the minimum threshold for functional core features."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package (v0.7.0) is available, the framework offers both CLI and Python API modes, and it is licensed Apache‑2.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki or GitHub Pages data was provided; documentation quality cannot be assessed from the available numbers."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 619 days old, has 19,890 forks and 364 open issues, reflecting a mature and widely adopted project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows an import time of 38,724 ms, but no comparative data to similar tools is available, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments largely criticize the framework’s cost, lack of proven results, and question its real-world value, while a minority highlight interest in multi-agent approaches and potential benefits."
+    }
+  },
+  "summary": "The Multi-Agents LLM Financial Trading Framework is a Python library that lets users build multi‑agent systems for trading financial instruments using large language models. It is distributed via PyPI and can be used through a CLI or a Python API, running locally without requiring external API keys. It is best suited for researchers or developers experimenting with autonomous trading agents who need an extensible, open‑source foundation. While the project enjoys massive community support (over 100 k stars) and strong maturity, its benchmarked import time is high and documentation details are sparse, which may hinder rapid adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/TauricResearch/TradingAgents",
+  "tool_url": "https://github.com/TauricResearch/TradingAgents",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49605822",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 103251,
+      "forks": 19890,
+      "open_issues": 364,
+      "watchers": 103251,
+      "contributors": 21,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 619,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "TraderAI",
+        "stars": 3,
+        "repo": "davarpanah/TraderAIAgent"
+      },
+      {
+        "name": "FinRL",
+        "stars": 16240,
+        "repo": "AI4Finance-Foundation/FinRL"
+      },
+      {
+        "name": "QuantConnect",
+        "stars": 21540,
+        "repo": "QuantConnect/Lean"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.7.0",
+      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "requires_python": ">=3.12",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Interest in multi-agent LLMs",
+        "Potential for better analysis",
+        "Modularity and specialization"
+      ],
+      "negative_signals": [
+        "High cost and token usage",
+        "Limited evidence of performance",
+        "Skepticism about effectiveness and hype"
+      ],
+      "justification": "Comments largely criticize the framework’s cost, lack of proven results, and question its real-world value, while a minority highlight interest in multi-agent approaches and potential benefits.",
+      "comment_count": 30,
+      "hn_points": 81
+    }
+  }
+}
