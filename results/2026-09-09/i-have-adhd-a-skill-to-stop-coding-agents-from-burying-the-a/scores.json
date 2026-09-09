@@ -1,0 +1,116 @@
+{
+  "app_name": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+  "url": "https://github.com/ayghri/i-have-adhd",
+  "scored_at": "2026-09-09T13:05:47.597Z",
+  "total_score": 72,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 118 days ago, is not a fork, and dwarfs similar tools (86 and 70 stars) by over 32,000 stars, showing a largely original contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 10.5 seconds (well under the 30‑second threshold) despite lacking a PyPI package, indicating a fairly simple setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm-automation library that safeguards coding agents, it addresses a hot pain point in current LLM‑driven development workflows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 32,910 GitHub stars versus 86 and 70 for PromptGuard and LLM‑Interceptor, it offers a unique safeguard feature and shows a >32k star advantage; import time of 0.29 ms further highlights speed."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo has 32,910 stars, 37 contributors, and was updated today (0 days since last commit), reflecting a very active and large community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 0 out of 1 test passed (<50% pass rate) even though installation succeeded, indicating core functionality is not fully verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides both a CLI and a Python API with an MIT license, but lacks a PyPI distribution, so some manual glue code is required."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project is 118 days old, has 1,957 forks and only 34 open issues, indicating a stable, actively maintained release stage."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows import time of 0.29 ms and pip install time of 2.804 s, demonstrating fast load performance compared to typical Python libraries."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight the skill’s practical benefits for summarizing and explaining content, yet note inconsistent behavior and a large codebase, with some users raising concerns about how ADHD is framed."
+    }
+  },
+  "summary": "I-have-ADHD is a Python library that adds a safeguard to LLM‑powered coding agents, preventing them from burying answers inside generated code blocks. It ships as a CLI and a Python API built on a pure‑Python stack with no external API keys required. The tool is aimed at developers who run autonomous coding agents and need reliable answer extraction. Its standout strength is the massive community backing (32,910 stars) and extremely fast import time, while the main caveat is that functional tests currently fail, indicating incomplete reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ayghri/i-have-adhd",
+  "tool_url": "https://github.com/ayghri/i-have-adhd",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49610631",
+  "domain": "llm-ai",
+  "app_type": "llm-automation",
+  "enriched": {
+    "github": {
+      "stars": 32910,
+      "forks": 1957,
+      "open_issues": 34,
+      "watchers": 32910,
+      "contributors": 37,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 118,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PromptGuard",
+        "stars": 86,
+        "repo": "mturac/promptguard"
+      },
+      {
+        "name": "LLM-Interceptor",
+        "stars": 70,
+        "repo": "chouzz/llm-interceptor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Effective for concise explanations and summaries",
+        "Customizable prompts improve agent performance",
+        "Useful for fast article comprehension"
+      ],
+      "negative_signals": [
+        "Inconsistent reliability and need for extra reasoning",
+        "Large repository size and complexity",
+        "Some cultural critiques of ADHD portrayal"
+      ],
+      "justification": "Comments highlight the skill’s practical benefits for summarizing and explaining content, yet note inconsistent behavior and a large codebase, with some users raising concerns about how ADHD is framed.",
+      "comment_count": 30,
+      "hn_points": 482
+    }
+  }
+}
