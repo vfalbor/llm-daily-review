@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Desert Ant Labs: local, fast models that run on device",
+    "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+    "hn_url": "https://news.ycombinator.com/item?id=49624823",
+    "points": 66,
+    "comments": 8,
+    "author": "willwhitedc",
+    "age": "2026-09-09T11:39:46.000000Z",
+    "scraped_at": "2026-09-09T13:00:02.254Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/desertant/labs",
+    "source_type": "tool",
+    "confidence": 0.94,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A lightweight library for running small, fast LLMs locally on edge devices.",
+    "use_modes": [
+      "Python API",
+      "CLI",
+      "Edge SDK"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "tgi",
+      "vllm"
+    ],
+    "proposed_tests": [
+      "pip install desertant-labs",
+      "import desertant and run a toy inference",
+      "measure latency of a 10-token prompt",
+      "compare throughput to llama.cpp on same model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/desertant/labs"
+  },
+  "test_results": {
+    "run_id": "llm-review-1788958854551-qnlmk",
+    "log_dir": "/tmp/llm-review-1788958854551-qnlmk",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.71\nBENCHMARK:pip_install_s:1.08\nBENCHMARK:git_clone_s:0.27\nBENCHMARK:repo_file_count:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.71\nINSTALL_FAIL:pip install desertant-labs exit 1\nBENCHMARK:pip_install_s:1.08\nINSTALL_FAIL:git clone https://github.com/desertant/labs.git exit 128\nBENCHMARK:git_clone_s:0.27\nTEST_FAIL:import_desertant:No module named 'desertant'\nTEST_SKIP:toy_inference:import_failed\nBENCHMARK:repo_file_count:0\nRUN_OK\n"
+  }
+}
