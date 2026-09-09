@@ -1,0 +1,114 @@
+{
+  "app_name": "human-atlas",
+  "url": "https://github.com/ashemag/human-atlas",
+  "scored_at": "2026-09-09T13:04:51.257Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 4 days ago, not a fork, and has far more stars than similar tools (2675 vs 155, 1, and 1016), indicating a novel approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Installation succeeded but took 192.2 seconds and there is no PyPI package, suggesting moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web-frontend 3D anatomy explorer, it addresses a niche visualization need rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The repo has 2,675 stars, vastly outpacing Anatomy3D (155), BodyVis (1), and 3Dmol.js (1,016), showing strong differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "2675 stars place it in the 1k‑5k range, but only 1 contributor and recent activity (2 days since last commit) indicate a growing but still small community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were defined (0/0) and basic run failed, providing insufficient evidence of usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package; the app runs in the browser via WebGL and React, with MIT license, giving average integration potential."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Repository metadata does not show wiki or GitHub Pages; documentation details are unavailable, leading to a neutral score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is only 4 days old, has 669 forks and 27 open issues, indicating early-stage development with some interest."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided, so performance cannot be assessed and receives a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments praise the interactive demo and overall coolness of the project, but raise practical concerns about missing foot geometry, problematic camera control on iOS, and awkward zoom behavior, indicating generally positive sentiment with constructive criticism."
+    }
+  },
+  "summary": "Human-atlas is a web application that renders over two thousand selectable 3D human body part meshes using WebGL and React. It is built as a browser‑based viewer without requiring an API key. The tool is suited for educators or developers needing an interactive anatomy display in a web context. It stands out with a high star count compared to similar projects, but its novelty is limited by a lack of tests, minimal documentation, and early‑stage maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ashemag/human-atlas",
+  "tool_url": "https://github.com/ashemag/human-atlas",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49604165",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 2675,
+      "forks": 669,
+      "open_issues": 27,
+      "watchers": 2675,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 4,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Anatomy3D",
+        "stars": 155,
+        "repo": "sunnychencool/Anatomy3D"
+      },
+      {
+        "name": "BodyVis",
+        "stars": 1,
+        "repo": "Adity20/BodyVision"
+      },
+      {
+        "name": "3Dmol.js",
+        "stars": 1016,
+        "repo": "3dmol/3Dmol.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "cool interactive demo",
+        "very cool",
+        "useful 3D anatomy display"
+      ],
+      "negative_signals": [
+        "missing foot parts",
+        "camera control issues on iOS",
+        "zoom focuses only on testicles"
+      ],
+      "justification": "The comments praise the interactive demo and overall coolness of the project, but raise practical concerns about missing foot geometry, problematic camera control on iOS, and awkward zoom behavior, indicating generally positive sentiment with constructive criticism.",
+      "comment_count": 4,
+      "hn_points": 14
+    }
+  }
+}
