@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Shopify acquires Tailwind",
+    "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+    "hn_url": "https://news.ycombinator.com/item?id=49626190",
+    "points": 1070,
+    "comments": 414,
+    "author": "EdwinHoksberg",
+    "age": "2026-09-09T13:27:11.000000Z",
+    "scraped_at": "2026-09-10T13:00:02.916Z",
+    "tool_url": "https://github.com/tailwindlabs/tailwindcss",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "Utility‑first CSS framework for building responsive UIs.",
+    "use_modes": [
+      "CLI build",
+      "PostCSS plugin",
+      "Tailwind Play"
+    ],
+    "similar_tools": [
+      "Bootstrap",
+      "Bulma",
+      "Foundation"
+    ],
+    "proposed_tests": [
+      "Install via npm and generate a minimal Tailwind config",
+      "Create a simple HTML page using Tailwind classes and verify output CSS",
+      "Run `npx tailwindcss -i ./input.css -o ./output.css` and check build time",
+      "Test purge functionality by ensuring unused classes are removed"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/tailwindlabs/tailwindcss"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789045330227-c75c4",
+    "log_dir": "/tmp/llm-review-1789045330227-c75c4",
+    "install_success": true,
+    "install_time_s": 12.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.787\nBENCHMARK:vs_bootstrap_build_ratio:695.107",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-10T13_02_32_539Z-debug-0.log\nBENCHMARK:install_time_s:0.787\nTEST_PASS:install_and_config\nTEST_FAIL:html_output:npm error could not determine executable to run\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-10T13_02_33_310Z-debug-0.log\nTEST_FAIL:build_time:npm error could not determine executable to run\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-10T13_02_34_206Z-debug-0.log\nINSTALL_FAIL:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-10T13_02_35_787Z-debug-0.log\nBENCHMARK:vs_bootstrap_build_ratio:695.107\nTEST_FAIL:purge_functionality:npm error could not determine executable to run\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-10T13_02_36_346Z-debug-0.log\nRUN_OK\n"
+  }
+}
