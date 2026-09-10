@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Show HN: Persistent Jupyter kernel execution and live output streaming in VSCode",
+    "url": "https://github.com/rnoro/tithon",
+    "hn_url": "https://news.ycombinator.com/item?id=49626144",
+    "points": 6,
+    "comments": 1,
+    "author": "rnoro_",
+    "age": "2026-09-09T13:23:45.000000Z",
+    "scraped_at": "2026-09-10T13:00:02.922Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/rnoro/tithon",
+    "source_type": "tool",
+    "confidence": 0.99,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A CLI and VSCode extension that keeps Jupyter kernels running persistently across sessions, streaming live output to the editor.",
+    "use_modes": [
+      "CLI",
+      "VSCode Extension"
+    ],
+    "similar_tools": [
+      "JupyterLite",
+      "ZeroJupyter",
+      "Remote-SSH Jupyter",
+      "VSCode Remote-Containers"
+    ],
+    "proposed_tests": [
+      "pip install tithon, run `tithon --help` to verify CLI availability",
+      "Start a Jupyter kernel with `tithon start` and ensure it stays alive after VSCode restarts",
+      "Execute a long-running notebook cell and confirm live output streams to the editor",
+      "Measure kernel restart time compared to standard `jupyter` launch"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rnoro/tithon"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789045399246-0bmlt",
+    "log_dir": "/tmp/llm-review-1789045399246-0bmlt",
+    "install_success": false,
+    "install_time_s": 6.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 157\n    print_marker(f\"BENCHMARK:loc_count:{sum(1 for _ in open(__file__)))\")\n                                                                      ^\nSyntaxError: f-string: unmatched ')'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
