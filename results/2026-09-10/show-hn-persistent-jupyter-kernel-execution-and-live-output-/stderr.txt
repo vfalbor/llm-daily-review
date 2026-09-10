@@ -1,0 +1,4 @@
+  File "/app/test.py", line 157
+    print_marker(f"BENCHMARK:loc_count:{sum(1 for _ in open(__file__)))")
+                                                                      ^
+SyntaxError: f-string: unmatched ')'
