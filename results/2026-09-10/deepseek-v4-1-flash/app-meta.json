@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "DeepSeek v4.1 Flash",
+    "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+    "hn_url": "https://news.ycombinator.com/item?id=49639090",
+    "points": 555,
+    "comments": 301,
+    "author": "Liwink",
+    "age": "2026-09-10T06:11:05.000000Z",
+    "scraped_at": "2026-09-10T13:00:02.914Z",
+    "tool_url": "https://github.com/deepseek-ai/deepseek-llm",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "4‑billion‑parameter flash‑attention LLM optimized for inference speed.",
+    "use_modes": [
+      "Inference API (Python)",
+      "ONNX Runtime",
+      "OpenVINO"
+    ],
+    "similar_tools": [
+      "Mistral",
+      "Cohere",
+      "OpenAI GPT‑3.5"
+    ],
+    "proposed_tests": [
+      "Download checkpoints from the repo",
+      "Run `deepseek-inference` against a sample prompt and record latency",
+      "Validate tokenization consistency with the official tokenizer",
+      "Benchmark throughput on a single GPU vs. CPU"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/deepseek-ai/deepseek-llm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789045272686-a52af",
+    "log_dir": "/tmp/llm-review-1789045272686-a52af",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0\nBENCHMARK:import_mem_kb:0\nBENCHMARK:vs_mistral_latency_ratio:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:deepseek-llm ERROR: Could not find a version that satisfies the requirement deepseek-llm (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for deepseek-llm\nINSTALL_OK\nTEST_FAIL:import_deepseek:No module named 'deepseek_llm'\nBENCHMARK:import_time_ms:0\nBENCHMARK:import_mem_kb:0\nTEST_SKIP:run_inference:Import failed\nTEST_SKIP:tokenizer_consistency:Import failed\nBENCHMARK:vs_mistral_latency_ratio:0.000\nRUN_OK\n"
+  }
+}
