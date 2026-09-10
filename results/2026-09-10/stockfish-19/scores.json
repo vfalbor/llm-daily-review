@@ -1,0 +1,126 @@
+{
+  "app_name": "Stockfish 19",
+  "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
+  "scored_at": "2026-09-10T13:01:11.464Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 4466 days ago and is not a fork, but similar chess engines exist, so it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 17 s (under 30 s) and a PyPI package exists (v5.2.0)."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI chess engine it has moderate relevance to current AI workflows, especially with NNUE integration."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Stockfish has 16,562 stars, far above Leela Chess Zero (2 stars) and Komodo (12,201 stars), giving it a clear advantage in community interest."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo has 16,562 stars, 327 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 3 tests passed (33 %) despite a successful install, indicating core functionality works but usability is limited."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists, the tool offers CLI, C++ library, and WebAssembly modes, and is licensed GPL‑3.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral default is used."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 4466 days old, has 3005 forks and only 51 open issues, indicating a stable, mature codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (install, clone, build times) are present but no comparative performance claims against other engines, so a neutral score is applied."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise Stockfish’s strength, its NNUE integration, and its ongoing improvements, while a few nitpicks address GUI options and express uncertainty about AlphaZero comparisons, resulting in a highly positive overall sentiment."
+    }
+  },
+  "summary": "Stockfish 19 is an open‑source, highly‑optimized chess engine delivered as a CLI executable, C++ library, and WebAssembly module. It builds on decades of engine development and leverages NNUE techniques, running locally without any API keys. The engine is suited for chess programmers and researchers needing a strong, self‑hosted opponent or evaluation tool. It stands out with massive community adoption (16,562 stars) and mature code, though its test suite shows limited functionality coverage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://stockfishchess.org/blog/2026/stockfish-19/",
+  "tool_url": "https://github.com/official-stockfish/Stockfish",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49599992",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 16562,
+      "forks": 3005,
+      "open_issues": 51,
+      "watchers": 16562,
+      "contributors": 327,
+      "license": "GPL-3.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4466,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A free and strong UCI chess engine",
+      "topics": [
+        "chess",
+        "chess-engine",
+        "cpp",
+        "stockfish",
+        "uci"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Leela Chess Zero",
+        "stars": 2,
+        "repo": "ArjanAswal/LeelaChessZero"
+      },
+      {
+        "name": "Komodo",
+        "stars": 12201,
+        "repo": "moghtech/komodo"
+      },
+      {
+        "name": "Crafty",
+        "stars": 3605,
+        "repo": "craftyjs/Crafty"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "5.2.0",
+      "summary": "Wraps the open-source Stockfish chess engine for easy integration into python.",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Engine superiority over AlphaZero",
+        "Strong community support and updates",
+        "Positive comparison to other engines"
+      ],
+      "negative_signals": [
+        "Minor GUI concerns",
+        "Some uncertainty about AlphaZero comparison"
+      ],
+      "justification": "The majority of comments praise Stockfish’s strength, its NNUE integration, and its ongoing improvements, while a few nitpicks address GUI options and express uncertainty about AlphaZero comparisons, resulting in a highly positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 111
+    }
+  }
+}
