@@ -1,0 +1,116 @@
+{
+  "app_name": "tithon",
+  "url": "https://github.com/rnoro/tithon",
+  "scored_at": "2026-09-10T13:04:27.622Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 84 days old, is not a fork, and implements a persistent Jupyter kernel feature that already exists in similar tools like JupyterLite, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation failed (install_success false) despite a short install_time of 6.8 s and a PyPI package, showing the setup is broken."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-cli for VSCode and Jupyter, it addresses a common workflow need in current LLM‑enhanced development environments."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has only 9 GitHub stars versus 4,892 stars for JupyterLite, and the only benchmark (import_time_ms:142) provides no clear advantage over alternatives."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repository shows 9 stars, 3 contributors, and the last commit was 22 days ago, indicating a small, lightly active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "No tests passed (0/0) and installation failed, meaning core functionality cannot be verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package (v0.2.3) exists and the tool offers both CLI and VSCode extension modes under an MIT license, enabling moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 84 days old with 0 forks and 1 open issue, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A benchmark line reports import_time_ms:142, but without comparative data it cannot be judged as better or worse."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "tithon is a CLI tool and VSCode extension that keeps Jupyter kernels running persistently and streams live output to the editor. It is built in TypeScript, distributed via PyPI (v0.2.3), and runs locally without requiring an API key. The tool targets developers who need continuous kernel sessions across VSCode sessions, especially when working with LLM‑augmented notebooks. While the benchmark shows a 142 ms import time, the project lacks a robust community, documentation, and a working installation, limiting its reliability.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/rnoro/tithon",
+  "tool_url": "https://github.com/rnoro/tithon",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49626144",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 1,
+      "watchers": 9,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 22,
+      "days_since_created": 84,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Persistent Jupyter kernel execution and live output streaming in VSCode",
+      "topics": [
+        "data-science",
+        "ipykernel",
+        "ipython",
+        "jupyter",
+        "jupyter-notebook",
+        "machine-learning",
+        "notebook",
+        "python",
+        "remote-development",
+        "ssh",
+        "vscode",
+        "vscode-extension"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "JupyterLite",
+        "stars": 4892,
+        "repo": "jupyterlite/jupyterlite"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.3",
+      "summary": "Tithon - The immortal Python REPL that will set you free.",
+      "requires_python": ">=3.11",
+      "license": "MIT License  Copyright (c) 2026 rnoro  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 6
+    }
+  }
+}
