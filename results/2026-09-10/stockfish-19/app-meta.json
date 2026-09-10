@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "Stockfish 19",
+    "url": "https://stockfishchess.org/blog/2026/stockfish-19/",
+    "hn_url": "https://news.ycombinator.com/item?id=49599992",
+    "points": 111,
+    "comments": 63,
+    "author": "atiedebee",
+    "age": "2026-09-07T16:17:27.000000Z",
+    "scraped_at": "2026-09-10T13:00:02.914Z",
+    "tool_url": "https://github.com/official-stockfish/Stockfish",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Open‑source, highly‑optimized chess engine executable.",
+    "use_modes": [
+      "CLI",
+      "Library (C++)",
+      "WebAssembly"
+    ],
+    "similar_tools": [
+      "Leela Chess Zero",
+      "Komodo",
+      "Crafty"
+    ],
+    "proposed_tests": [
+      "Clone repo and build with CMake on Linux",
+      "Run `stockfish` with `position startpos` and `go depth 10`",
+      "Measure time to compute 10 moves and compare to previous version",
+      "Parse UCI commands from a script and validate responses"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/official-stockfish/Stockfish"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789045240602-2r76h",
+    "log_dir": "/tmp/llm-review-1789045240602-2r76h",
+    "install_success": true,
+    "install_time_s": 17,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:7.569\nBENCHMARK:clone_time_s:1.014\nBENCHMARK:build_time_s:0.004\nBENCHMARK:memory_peak_kb:3899.2\nBENCHMARK:dummy_metric:1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:7.569\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:1.014\nTEST_FAIL:build_stockfish:make: *** No targets specified and no makefile found.  Stop.\nBENCHMARK:build_time_s:0.004\nTEST_SKIP:run_stockfish:executable not found\nBENCHMARK:memory_peak_kb:3899.2\nBENCHMARK:dummy_metric:1\nRUN_OK\n"
+  }
+}
