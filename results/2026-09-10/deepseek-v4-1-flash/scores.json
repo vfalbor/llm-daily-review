@@ -1,0 +1,109 @@
+{
+  "app_name": "DeepSeek v4.1 Flash",
+  "url": "https://github.com/deepseek-ai/deepseek-llm",
+  "scored_at": "2026-09-10T13:02:08.845Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 1016 days ago, is not a fork, and its 7,246 stars are 128% higher than Cohere's 3,175 stars, indicating a notably new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.9 seconds despite no PyPI package, showing a relatively simple setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a flash‑attention LLM optimized for inference speed, it directly addresses the current demand for fast, low‑latency models in LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While it has fewer stars than Mistral (7,246 vs 10,829), its flash‑attention architecture promises speed gains not claimed by the alternatives."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 7,246 stars and 10 contributors, showing strong interest, though the last commit was 949 days ago, slightly lowering activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) and install succeeded, indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "No PyPI package, but the model offers an Inference API, ONNX Runtime, and OpenVINO support under an MIT license, enabling moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 1016 days old, has 1,283 forks and 58 open issues, indicating a mature project despite the long time since the last commit."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only lists zero values (import_time_ms:0, vs_mistral_latency_ratio:0), providing no concrete performance comparison."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments highlight the model’s strong benchmark gains, multimodal capability, and cheaper pricing, while noting its larger size, higher memory requirements, and mixed views on whether it truly remains a ‘flash’ model."
+    }
+  },
+  "summary": "DeepSeek v4.1 Flash is a 4‑billion‑parameter LLM that uses flash‑attention to speed up inference. It can be accessed via a Python inference API, ONNX Runtime, or OpenVINO, and does not require an API key. The model is aimed at developers needing high‑throughput generation without paying for commercial APIs. It stands out for its claimed speed advantage, but the lack of reliable test passes and outdated repository activity are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+  "tool_url": "https://github.com/deepseek-ai/deepseek-llm",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49639090",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 7246,
+      "forks": 1283,
+      "open_issues": 58,
+      "watchers": 7246,
+      "contributors": 10,
+      "license": "MIT",
+      "language": "Makefile",
+      "is_fork": false,
+      "days_since_update": 949,
+      "days_since_created": 1016,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "DeepSeek LLM: Let there be answers",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Mistral",
+        "stars": 10829,
+        "repo": "mistralai/mistral-inference"
+      },
+      {
+        "name": "Cohere",
+        "stars": 3175,
+        "repo": "cohere-ai/cohere-toolkit"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "strong performance",
+        "multimodal support",
+        "cost-effective"
+      ],
+      "negative_signals": [
+        "larger size/memory demands",
+        "requires specialized hardware",
+        "some debate over 'flash' nature"
+      ],
+      "justification": "Comments highlight the model’s strong benchmark gains, multimodal capability, and cheaper pricing, while noting its larger size, higher memory requirements, and mixed views on whether it truly remains a ‘flash’ model.",
+      "comment_count": 30,
+      "hn_points": 553
+    }
+  }
+}
