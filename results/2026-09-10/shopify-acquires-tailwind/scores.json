@@ -1,0 +1,129 @@
+{
+  "app_name": "Tailwind CSS",
+  "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+  "scored_at": "2026-09-10T13:03:18.003Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is 3260 days old and is not a fork, and with 97,493 stars it is substantially larger than Bulma (+95%) but smaller than Bootstrap, indicating a meaningful improvement on existing CSS frameworks."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 12.6 seconds (<30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a utility‑first CSS framework for responsive UIs, Tailwind remains a core tool in modern web‑frontend development, fitting current developer workflows."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Tailwind has 97,493 stars versus Bootstrap's 174,758 (‑44%) yet offers a unique utility‑first approach; the benchmark shows a 695× build‑time ratio versus Bootstrap, highlighting a distinct performance profile."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 97,493 GitHub stars, 374 contributors, and was updated 1 day ago, indicating a large and active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 4 tests passed (25%), though installation succeeded, indicating limited functional coverage in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Tailwind is published on PyPI, supports CLI builds, a PostCSS plugin, and Tailwind Play, and uses an MIT license, providing multiple integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on GitHub wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 3260 days old, has 5,601 forks and only 65 open issues, indicating a mature and stable project."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark shows a vs_bootstrap_build_ratio of 695.107, suggesting Tailwind builds are far slower than Bootstrap, indicating poor performance relative to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments reflect a balance of optimism about Shopify backing and concerns over layoffs, funding challenges, and potential shift to maintenance mode, yielding a neutral overall sentiment."
+    }
+  },
+  "summary": "Tailwind CSS is an open‑source utility‑first CSS framework that can be used via a CLI, PostCSS plugin, or the Tailwind Play playground. It is built in TypeScript and distributed through PyPI, requiring no API keys. The tool is ideal for front‑end developers who need rapid, responsive UI styling and prefer a utility‑first workflow. It boasts a large, active community and long‑standing maturity, but its benchmarked build performance is significantly slower than Bootstrap and its documentation details are unclear.",
+  "recommendation": "worth-watching",
+  "app_url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+  "tool_url": "https://github.com/tailwindlabs/tailwindcss",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49626190",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 97493,
+      "forks": 5601,
+      "open_issues": 65,
+      "watchers": 97493,
+      "contributors": 374,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 3260,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "topics": [
+        "css",
+        "css-framework",
+        "functional-css",
+        "postcss",
+        "responsive",
+        "tailwindcss",
+        "utility-classes"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Bootstrap",
+        "stars": 174758,
+        "repo": "twbs/bootstrap"
+      },
+      {
+        "name": "Bulma",
+        "stars": 50061,
+        "repo": "jgthms/bulma"
+      },
+      {
+        "name": "Foundation",
+        "stars": 29783,
+        "repo": "foundation/foundation-sites"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "to use tailwindcss",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://github.com/malinkaphann/tailwindcss/tree/0.0.1"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Acquisition by Shopify may provide stability",
+        "Tailwind remains relevant and widely used",
+        "Existing customers retained"
+      ],
+      "negative_signals": [
+        "Concerns over layoffs and funding struggles",
+        "Uncertainty about future development/maintenance",
+        "Mixed feelings about paid products and model"
+      ],
+      "justification": "Comments reflect a balance of optimism about Shopify backing and concerns over layoffs, funding challenges, and potential shift to maintenance mode, yielding a neutral overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 1070
+    }
+  }
+}
