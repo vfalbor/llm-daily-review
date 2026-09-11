@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 151, in <module>
+    main()
+  File "/app/test.py", line 96, in main
+    print_marker(f"BENCHMARK:emulator_help_ms:{hello_elapsed*1000:.2f}")
+                                               ~~~~~~~~~~~~~^~~~~
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
