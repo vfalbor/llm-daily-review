@@ -1,0 +1,113 @@
+{
+  "app_name": "RISC-V Emulator and Linux System from Scratch",
+  "url": "https://github.com/WerWolv/riscv-emulator",
+  "scored_at": "2026-09-11T13:01:00.305Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 150 days ago, not a fork, but its star count (21) is orders of magnitude lower than similar tools like QEMU (13,705 stars), indicating it is a near‑duplicate rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 10 seconds (<30s) and the package exists on PyPI, requiring only Python >=3.7 and no external API key."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an infra‑container RISC‑V emulator it has moderate relevance for current LLM development workflows that need low‑level hardware simulation, but it is not a core AI tool."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 21 GitHub stars versus 13,705 for QEMU and no benchmark claims, the project shows minimal advantage over established alternatives."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repo has 21 stars, a single contributor, and was last updated 146 days ago, indicating a small but still somewhat active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25%) and the basic run failed, showing limited functional reliability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is published on PyPI (MIT license) and offers CLI and VM image use modes, but provides no REST API or SDK, resulting in moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were found, and no explicit documentation quality data is available."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 150 days old, has 1 fork, and zero open issues, suggesting early‑stage maturity without a stable release track."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were provided in the test output, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This project provides a lightweight RISC‑V emulator bundled with a minimal Linux kernel for educational and development purposes. It runs as a CLI tool and can produce a VM image, built primarily in C++ and distributed via PyPI. It is suited for developers needing a simple RISC‑V sandbox, but its small community and lack of performance benchmarks limit its appeal. While installation is quick, only one quarter of its test suite passes and documentation is sparse, making it a modest option for niche use cases.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/WerWolv/riscv-emulator",
+  "tool_url": "https://github.com/WerWolv/riscv-emulator",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49603397",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 21,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 21,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 146,
+      "days_since_created": 150,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A RISC-V rv32ima emulator capable of booting Linux",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "QEMU",
+        "stars": 13705,
+        "repo": "qemu/qemu"
+      },
+      {
+        "name": "Ripes",
+        "stars": 3417,
+        "repo": "mortbopet/Ripes"
+      },
+      {
+        "name": "Renode",
+        "stars": 2873,
+        "repo": "renode/renode"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "A Python-based RISC-V assembler, emulator, disassembler, and debugger",
+      "requires_python": ">=3.7",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 12
+    }
+  }
+}
