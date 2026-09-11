@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "RISC-V Emulator and Linux System from Scratch",
+    "url": "https://github.com/WerWolv/riscv-emulator",
+    "hn_url": "https://news.ycombinator.com/item?id=49603397",
+    "points": 12,
+    "comments": 2,
+    "author": "Bluestein",
+    "age": "2026-09-07T21:57:15.000000Z",
+    "scraped_at": "2026-09-11T13:00:02.149Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/WerWolv/riscv-emulator",
+    "source_type": "tool",
+    "confidence": 0.97,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A lightweight RISC-V emulator that bundles a minimal Linux kernel and userspace, intended for educational and development use.",
+    "use_modes": [
+      "CLI",
+      "VM image"
+    ],
+    "similar_tools": [
+      "QEMU",
+      "Ripes",
+      "Renode"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `make build` to create the emulator binary",
+      "Execute `./riscv-emulator` and verify a hello‑world program runs inside the VM",
+      "Measure boot time and compare against QEMU on the same host",
+      "Run a small C program that uses syscalls and check exit status"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/WerWolv/riscv-emulator"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789131635265-vgh4p",
+    "log_dir": "/tmp/llm-review-1789131635265-vgh4p",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.00",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 151, in <module>\n    main()\n  File \"/app/test.py\", line 96, in main\n    print_marker(f\"BENCHMARK:emulator_help_ms:{hello_elapsed*1000:.2f}\")\n                                               ~~~~~~~~~~~~~^~~~~\nTypeError: unsupported operand type(s) for *: 'NoneType' and 'int'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_FAIL:build:make: *** No rule to make target 'build'.  Stop.\nBENCHMARK:install_time_s:0.00\nTEST_FAIL:binary_exists:binary not found\nTEST_FAIL:emulator_help:exception\n"
+  }
+}
