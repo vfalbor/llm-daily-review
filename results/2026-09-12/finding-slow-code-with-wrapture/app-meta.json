@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Finding Slow Code with Wrapture",
+    "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+    "hn_url": "https://news.ycombinator.com/item?id=49640729",
+    "points": 6,
+    "comments": 1,
+    "author": "lumpa",
+    "age": "2026-09-10T09:12:22.000000Z",
+    "scraped_at": "2026-09-12T13:00:03.031Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/grahamdumpleton/wrapture",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-debug",
+    "description": "A Python library that instruments code to identify slow functions and hotspots during runtime.",
+    "use_modes": [
+      "CLI",
+      "Python API",
+      "Jupyter Integration"
+    ],
+    "similar_tools": [
+      "cProfile",
+      "py-spy",
+      "line_profiler"
+    ],
+    "proposed_tests": [
+      "pip install wrapture and import in a test script",
+      "Wrap a sample function that sleeps 0.5s and verify slow‑function report",
+      "Measure overhead by profiling a tight loop with and without wrapture",
+      "Run in a Jupyter notebook and confirm interactive report generation"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/grahamdumpleton/wrapture"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789218069793-zhmj1",
+    "log_dir": "/tmp/llm-review-1789218069793-zhmj1",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.464\nBENCHMARK:pip_wrapture_install_time_s:2.111\nBENCHMARK:import_wrapture_time_ms:306.60",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_git_install_time_s:0.464\nINSTALL_OK\nBENCHMARK:pip_wrapture_install_time_s:2.111\nBENCHMARK:import_wrapture_time_ms:306.60\nTEST_FAIL:wrapture_function_report: module 'wrapture' has no attribute 'instrument'\nTEST_FAIL:wrapture_overhead: module 'wrapture' has no attribute 'instrument'\nTEST_FAIL:wrapture_jupyter_report: No module named 'IPython'\nRUN_OK\n"
+  }
+}
