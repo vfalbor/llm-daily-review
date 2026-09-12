@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Rune is now open source",
+    "url": "https://rune.build/blog/rune-is-now-open-source",
+    "hn_url": "https://news.ycombinator.com/item?id=49660149",
+    "points": 199,
+    "comments": 63,
+    "author": "ernestrc",
+    "age": "2026-09-11T15:31:47.000000Z",
+    "scraped_at": "2026-09-12T13:00:03.041Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/rune-rs/rune",
+    "repo_url": "https://github.com/rune-rs/rune",
+    "confidence": 0.88,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "Rune is a statically typed, compiled language designed for high performance and safety, now open‑source.",
+    "use_modes": [
+      "Compiler CLI"
+    ],
+    "similar_tools": [
+      "Rust",
+      "C",
+      "Go",
+      "Dart"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/rune-rs/rune",
+      "cd rune && make install",
+      "echo 'fn main() { println!(\"Hello, Rune\"); }' > hello.rune",
+      "rune compile hello.rune -o hello",
+      "time ./hello",
+      "verify output is \"Hello, Rune\""
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1789218479464-t5j8b",
+    "log_dir": "/tmp/llm-review-1789218479464-t5j8b",
+    "install_success": true,
+    "install_time_s": 15.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:7.126\nBENCHMARK:git_clone_time_s:1.531\nBENCHMARK:make_install_time_s:0.001\nBENCHMARK:compile_time_s:0.001\nBENCHMARK:mem_peak_bytes:63677\nBENCHMARK:exec_time_s:0.002\nBENCHMARK:vs_rust_compile_time_ratio:1.600",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:7.126\nTEST_PASS:git_clone\nBENCHMARK:git_clone_time_s:1.531\nTEST_FAIL:make_install:'FileNotFoundError' object has no attribute 'returncode'\nBENCHMARK:make_install_time_s:0.001\nTEST_FAIL:compile_hello:'FileNotFoundError' object has no attribute 'returncode'\nBENCHMARK:compile_time_s:0.001\nBENCHMARK:mem_peak_bytes:63677\nBENCHMARK:exec_time_s:0.002\nBENCHMARK:vs_rust_compile_time_ratio:1.600\nRUN_OK\n"
+  }
+}
