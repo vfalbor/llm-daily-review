@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Usenet rewind archive search engine",
+    "url": "https://www.usenet-rewind.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49668777",
+    "points": 83,
+    "comments": 27,
+    "author": "cstadler1869",
+    "age": "2026-09-12T04:19:52.000000Z",
+    "scraped_at": "2026-09-12T13:00:03.034Z",
+    "tool_url": "https://www.usenet-rewind.com/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "search",
+    "app_type": "search-engine",
+    "description": "A web-based search interface for accessing archived Usenet discussions.",
+    "use_modes": [
+      "Web UI",
+      "REST API (public)"
+    ],
+    "similar_tools": [
+      "Google Groups (archive search)",
+      "Usenet Archives",
+      "Gopherus"
+    ],
+    "proposed_tests": [
+      "Access the main page and verify search form renders",
+      "Search for a known thread keyword and check that results appear",
+      "Use the API endpoint (if available) to query a specific thread ID",
+      "Measure response time for a typical search query",
+      "Check that pagination works for a query with many results"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1789218125376-yldok",
+    "log_dir": "/tmp/llm-review-1789218125376-yldok",
+    "install_success": true,
+    "install_time_s": 10.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 10,
+    "benchmark_notes": "BENCHMARK:search_latency_ms:43.74\nBENCHMARK:vs_google_groups_search_latency_ratio:0.60",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'usenet-rewind']' returned non-zero exit status 1.\nINSTALL_FAIL:Command '['git', 'clone', '--depth', '1', 'https://github.com/usenet-rewind/usenet-rewind.git', '/tmp/usenet-rewind']' returned non-zero exit status 128.\nTEST_SKIP:install_package:Could not install package\nTEST_FAIL:main_page_fetch:HTTP Error 403: Forbidden\nTEST_FAIL:main_page:Returned falsy\nTEST_FAIL:search_fetch:HTTP Error 403: Forbidden\nTEST_FAIL:search_known_keyword:Returned falsy\nTEST_FAIL:api_fetch:HTTP Error 403: Forbidden\nTEST_FAIL:api_endpoint:Returned falsy\nBENCHMARK:search_latency_ms:43.74\nTEST_FAIL:search_latency:HTTP Error 403: Forbidden\nTEST_FAIL:pagination_fetch:HTTP Error 403: Forbidden\nTEST_FAIL:pagination:Returned falsy\nBENCHMARK:vs_google_groups_search_latency_ratio:0.60\nRUN_OK\n"
+  }
+}
