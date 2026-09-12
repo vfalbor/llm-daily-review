@@ -1,0 +1,91 @@
+{
+  "app_name": "Liniora",
+  "url": "https://liniora.com/",
+  "scored_at": "2026-09-12T13:01:08.744Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork status, or repository data were available, so quantitative evidence is missing."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) after 8.2 seconds and there is no PyPI package, indicating poor installability."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool AI assistant for project management, it aligns with current interest in LLM‑powered workflow automation."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The tool has no visible stars while the closest alternative Notion AI has 312 stars, and no benchmark data were provided."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository, stars, or contributor information could be retrieved, leaving community signals absent."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed and the install failed, putting it below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers CLI, REST API, and Web UI modes despite lacking a PyPI package, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No repository, wiki, or GitHub pages were found, so documentation evidence is unavailable."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) the maturity level cannot be assessed."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines or performance claims were present in the test output."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Liniora is an AI‑powered assistant that automates project‑management tasks like assignment and status tracking. It can be accessed via CLI, a REST API, or a web UI, but it is not available as a PyPI package. The tool targets teams that want lightweight automation without configuring external services. Installation fails and there is no community or documentation evidence, while performance claims are absent.",
+  "recommendation": "skip",
+  "app_url": "https://liniora.com/",
+  "tool_url": "https://github.com/liniora/liniora",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49671542",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "ClickUp Automations",
+        "stars": 2,
+        "repo": "AkifManzoor124/clickup-automations"
+      },
+      {
+        "name": "Asana AI",
+        "stars": 13,
+        "repo": "NormanTUD/asanAI"
+      },
+      {
+        "name": "Notion AI",
+        "stars": 312,
+        "repo": "vaayne/NotionAI-Plus"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 5
+    }
+  }
+}
