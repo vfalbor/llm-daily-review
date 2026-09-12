@@ -1,0 +1,82 @@
+{
+  "app_name": "Usenet Rewind",
+  "url": "https://www.usenet-rewind.com/",
+  "scored_at": "2026-09-12T13:03:12.334Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool closely mirrors existing archive search services, so the data is insufficient for a higher rating."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "The Docker runner installed the tool successfully in 10.9 seconds, but there is no PyPI package, indicating a moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a generic Usenet archive search engine, it addresses a niche need rather than a core LLM workflow trend."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.60 against Google Groups, meaning it is roughly 40% faster, providing a clear speed advantage over the main competitor."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No public GitHub repo exists; HN points are 83, which falls in the 50‑200 range, yielding a modest community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 10 tests passed (0% success) and the basic run succeeded, indicating core functionality is unreliable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A public REST API is advertised, but there is no SDK, PyPI package, or license information, making integration average."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The site lacks docs/wiki links and only contains 2300 characters of content, suggesting sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The page reports a detected version of 1.5, indicating the project has moved beyond an initial 0.x release."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Search latency is 43.74 ms and the tool is 0.60× the latency of Google Groups, demonstrating a measurable performance benefit."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight the tool’s usefulness as a lifesaver for searching legacy Usenet content and note a free tier, but several users point out the paid nature and high cost, with a few remarks about regional access issues, leading to an overall positive yet slightly skeptical reception."
+    }
+  },
+  "summary": "Usenet Rewind is a web‑based search engine that lets users query archived Usenet discussions. It offers a public REST API and runs as a hosted service without requiring an API key. The tool is most useful for researchers or hobbyists needing fast access to legacy forum content, especially where Google Groups falls short. Its standout strength is a 40% speed advantage over Google Groups (43.74 ms latency, 0.60× ratio), but the lack of documentation, no installable package, and a 0% test pass rate make it hard to adopt reliably.",
+  "recommendation": "niche",
+  "app_url": "https://www.usenet-rewind.com/",
+  "tool_url": "https://www.usenet-rewind.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49668777",
+  "domain": "search",
+  "app_type": "search-engine",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 10,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "lifesaver for searching old posts",
+        "free tier with advanced filtering",
+        "useful archival resource"
+      ],
+      "negative_signals": [
+        "paid service and cost concerns",
+        "limited availability in some regions"
+      ],
+      "justification": "The comments highlight the tool’s usefulness as a lifesaver for searching legacy Usenet content and note a free tier, but several users point out the paid nature and high cost, with a few remarks about regional access issues, leading to an overall positive yet slightly skeptical reception.",
+      "comment_count": 27,
+      "hn_points": 83
+    }
+  }
+}
