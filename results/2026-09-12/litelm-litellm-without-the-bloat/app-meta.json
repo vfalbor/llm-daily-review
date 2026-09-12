@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Litelm: LiteLLM Without the Bloat",
+    "url": "https://github.com/kennethwolters/litelm",
+    "hn_url": "https://news.ycombinator.com/item?id=49662767",
+    "points": 153,
+    "comments": 51,
+    "author": "kennethwolters",
+    "age": "2026-09-11T18:10:20.000000Z",
+    "scraped_at": "2026-09-12T13:00:03.038Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/kennethwolters/litelm",
+    "repo_url": "https://github.com/kennethwolters/litelm",
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A lightweight, dependency‑free LLM inference server that runs locally with minimal resources.",
+    "use_modes": [
+      "CLI",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "LiteLLM",
+      "Ollama",
+      "vLLM",
+      "Llama.cpp"
+    ],
+    "proposed_tests": [
+      "pip install litelm",
+      "python -c \"import litelm; print(litelm.version())\"",
+      "litelm serve --model gemma:2b --port 8000",
+      "curl -X POST http://localhost:8000/api/v1/generate -d '{\"prompt\":\"Hello\"}'",
+      "measure latency of 10 inference calls"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1789218193558-lh15v",
+    "log_dir": "/tmp/llm-review-1789218193558-lh15v",
+    "install_success": true,
+    "install_time_s": 18.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:8.9479\nBENCHMARK:import_time_s:1.4741\nBENCHMARK:memory_bytes:0",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nCollecting litelm\n  Downloading litelm-0.5.2-py3-none-any.whl.metadata (8.3 kB)\nCollecting httpx>=0.24.0 (from litelm)\n  Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)\nCollecting openai>=1.0.0 (from litelm)\n  Downloading openai-3.13.0-py3-none-any.whl.metadata (41 kB)\nCollecting anyio (from httpx>=0.24.0->litelm)\n  Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)\nRequirement already satisfied: certifi in /usr/local/lib/python3.12/site-packages (from httpx>=0.24.0->litelm) (2026.7.22)\nCollecting httpcore==1.* (from httpx>=0.24.0->litelm)\n  Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)\nRequirement already satisfied: idna in /usr/local/lib/python3.12/site-packages (from httpx>=0.24.0->litelm) (3.19)\nCollecting h11>=0.16 (from httpcore==1.*->httpx>=0.24.0->litelm)\n  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)\nCollecting httpx2<3,>=2.7.0 (from openai>=1.0.0->litelm)\n  Downloading httpx2-2.12.0-py3-none-any.whl.metadata (9.5 kB)\nCollecting jiter<1,>=0.16.0 (from openai>=1.0.0->litelm)\n  Downloading jiter-0.16.0-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (5.2 kB)\nCollecting pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13 (from openai>=1.0.0->litelm)\n  Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)\nCollecting sniffio (from openai>=1.0.0->litelm)\n  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)\nCollecting typing-extensions<5,>=4.14 (from openai>=1.0.0->litelm)\n  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting httpcore2==2.12.0 (from httpx2<3,>=2.7.0->openai>=1.0.0->litelm)\n  Downloading httpcore2-2.12.0-py3-none-any.whl.metadata (25 kB)\nCollecting truststore>=0.10 (from httpx2<3,>=2.7.0->openai>=1.0.0->litelm)\n  Downloading truststore-0.10.4-py3-none-any.whl.metadata (4.4 kB)\nCollecting annotated-types>=0.6.0 (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->openai>=1.0.0->litelm)\n  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)\nCollecting pydantic-core==2.46.5 (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->openai>=1.0.0->litelm)\n  Downloading pydantic_core-2.46.5-cp312-cp312-musllinux_1_1_x86_64.whl.metadata (6.6 kB)\nCollecting typing-inspection>=0.4.2 (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,<3,>=1.10.13->openai>=1.0.0->litelm)\n  Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)\nDownloading litelm-0.5.2-py3-none-any.whl (34 kB)\nDownloading httpx-0.28.1-py3-none-any.whl (73 kB)\nDownloading httpcore-1.0.9-py3-none-any.whl (78 kB)\nDownloading openai-3.13.0-py3-none-any.whl (2.0 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 26.7 MB/s eta 0:00:00\nDownloading anyio-4.15.1-py3-none-any.whl (132 kB)\nDownloading httpx2-2.12.0-py3-none-any.whl (95 kB)\nDownloading httpcore2-2.12.0-py3-none-any.whl (83 kB)\nDownloading jiter-0.16.0-cp312-cp312-musllinux_1_1_x86_64.whl (547 kB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 547.9/547.9 kB 207.8 MB/s eta 0:00:00\nDownloading pydantic-2.13.5-py3-none-any.whl (472 kB)\nDownloading pydantic_core-2.46.5-cp312-cp312-musllinux_1_1_x86_64.whl (2.3 MB)\n   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 68.5 MB/s eta 0:00:00\nDownloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)\nDownloading sniffio-1.3.1-py3-none-any.whl (10 kB)\nDownloading annotated_types-0.8.0-py3-none-any.whl (13 kB)\nD"
+  }
+}
