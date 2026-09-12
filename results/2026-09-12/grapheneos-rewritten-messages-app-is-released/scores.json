@@ -1,0 +1,121 @@
+{
+  "app_name": "GrapheneOS Messaging",
+  "url": "https://github.com/GrapheneOS/Messaging",
+  "scored_at": "2026-09-12T13:07:58.169Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 2542 days old and is not a fork, but it replicates functionality of existing secure messengers like Signal and Telegram, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded but took 192.5 seconds, which is longer than the <30 s ideal; the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a privacy‑focused Android messaging app, it aligns with current LLM ecosystem trends that emphasize secure communication and user data protection."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 161 GitHub stars it trails Signal (29,318) and Telegram (29,850) by over 99%, and the only noted advantage is its security focus; no benchmark advantage is shown."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 161 stars (100–1k range), 100 contributors, and was updated 0 days ago, indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Out of 2 tests, only 1 passed (50%) and the basic run failed, meeting the minimum threshold for a 5‑score."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists and the app can be used as an Android APK or via Gradle, but there is no license and no documented API, limiting integration options."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 2542 days old, has 49 forks and 61 open issues, indicating a moderately mature project but with ongoing work."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows an import time of 142 ms, but there is no comparative data against alternatives, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The discussion centers on GrapheneOS’ plan to implement RCS with MLS and the mixed reception around RCS’s reliability and privacy, but users appreciate the security focus and the potential for broader adoption. The overall sentiment leans positive but with significant constructive criticism."
+    }
+  },
+  "summary": "GrapheneOS Messaging is a secure Android messaging app that replaces the default messaging client with a privacy‑focused implementation. It is built as an Android APK and also distributed via Gradle, leveraging the GrapheneOS codebase. The tool is suited for users and developers who prioritize end‑to‑end security on Android devices. Its main strength is the strong security emphasis, while its limited community size and lack of performance benchmarks are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+  "tool_url": "https://github.com/GrapheneOS/Messaging",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49663373",
+  "domain": "mobile-native",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 161,
+      "forks": 49,
+      "open_issues": 61,
+      "watchers": 161,
+      "contributors": 100,
+      "license": "none",
+      "language": "Kotlin",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2542,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Messaging app",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Signal",
+        "stars": 29318,
+        "repo": "signalapp/Signal-Android"
+      },
+      {
+        "name": "Telegram",
+        "stars": 29850,
+        "repo": "DrKLO/Telegram"
+      },
+      {
+        "name": "Threema",
+        "stars": 1069,
+        "repo": "threema-ch/threema-web"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2",
+      "summary": "Messaging related modules",
+      "requires_python": "",
+      "license": "ASL 2.0",
+      "home_page": "https://github.com/cern-mig/python-messaging"
+    },
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Security focus",
+        "RCS implementation roadmap",
+        "User adoption"
+      ],
+      "negative_signals": [
+        "RCS reliability concerns",
+        "Privacy skepticism",
+        "Mixed reception"
+      ],
+      "justification": "The discussion centers on GrapheneOS’ plan to implement RCS with MLS and the mixed reception around RCS’s reliability and privacy, but users appreciate the security focus and the potential for broader adoption. The overall sentiment leans positive but with significant constructive criticism.",
+      "comment_count": 30,
+      "hn_points": 285
+    }
+  }
+}
