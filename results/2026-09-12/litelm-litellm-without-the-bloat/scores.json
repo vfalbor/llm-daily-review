@@ -1,0 +1,121 @@
+{
+  "app_name": "Litelm: LiteLLM Without the Bloat",
+  "url": "https://github.com/kennethwolters/litelm",
+  "scored_at": "2026-09-12T13:04:21.649Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 182 days ago and is not a fork, but mirrors existing LiteLLM functionality with a lighter footprint, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 18.1 s, meets the <30 s target, and the PyPI package exists, requiring only Python >=3.10 and no external API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑inference tool that runs locally with minimal resources, it addresses the current demand for on‑device LLM serving."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project has 164 stars versus 58 559–180 725 stars for comparable tools, and the only benchmark (import time 1.4741 s) shows modest speed but no clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 164 stars, 3 contributors, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 3 tests passed (33 %), though install succeeded; the low pass rate suggests core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package is available, the project offers both a CLI and a Python SDK, and it uses an MIT license, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were provided, so documentation quality cannot be assessed beyond the basic repository README."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 182 days old, has 3 forks, 0 open issues, and follows a stable release (v0.5.2), placing it in an early‑stage but functional state."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install_time 8.9479 s and import_time 1.4741 s, but no comparative data are available to judge relative performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show a mix of praise for performance and novelty, but also recurring complaints about the README’s tone, perceived bloat, and name‑matching issues, leading to a slightly positive overall sentiment."
+    }
+  },
+  "summary": "Litelm is a lightweight, dependency‑free LLM inference server that can be run locally via a CLI or Python SDK. It builds on the same concepts as LiteLLM but strips out heavyweight components, making it suitable for low‑resource environments. Users who need a simple local inference endpoint without an API key will find it handy, especially when resource usage is a priority. The main strength is its minimal install footprint, while the primary drawback is limited test coverage and modest community size.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/kennethwolters/litelm",
+  "tool_url": "https://github.com/kennethwolters/litelm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49662767",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 164,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 164,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 182,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "litellm without the bloat",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LiteLLM",
+        "stars": 58559,
+        "repo": "BerriAI/litellm"
+      },
+      {
+        "name": "Ollama",
+        "stars": 180725,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 91560,
+        "repo": "vllm-project/vllm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.2",
+      "summary": "Lightweight litellm replacement — thin OpenAI-SDK routing layer for multi-provider LLM calls",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Good performance, low resource usage",
+        "Cool project with useful features",
+        "Positive user experiences"
+      ],
+      "negative_signals": [
+        "Unpleasant README tone and AI writing",
+        "Concerns about bloat and name mismatch",
+        "Mixed opinions on latency and feature set"
+      ],
+      "justification": "Comments show a mix of praise for performance and novelty, but also recurring complaints about the README’s tone, perceived bloat, and name‑matching issues, leading to a slightly positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 153
+    }
+  }
+}
