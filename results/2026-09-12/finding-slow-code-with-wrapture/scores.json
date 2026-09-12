@@ -1,0 +1,120 @@
+{
+  "app_name": "Finding Slow Code with Wrapture",
+  "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+  "scored_at": "2026-09-12T13:02:04.273Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 27 days old, is not a fork, and offers an incremental profiling approach compared to well‑established tools like cProfile and py‑spy."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 9.5 seconds (<30 s) and the package is available on PyPI, requiring only Python 3.12+."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑debug library it addresses the ongoing need for runtime profiling in Python projects, which remains a common workflow."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Wrapture has 51 stars versus 424–15,492 stars for similar tools, and no benchmark shows a clear speed advantage beyond its 306 ms import time."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 51 GitHub stars, a single contributor, and was updated today, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), though the basic run succeeded, indicating core functionality is missing or fragile."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The library is on PyPI, offers CLI, Python API, and Jupyter integration, and uses a permissive BSD‑2‑Clause license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Created 27 days ago, with 0 forks and 0 open issues, placing it in an early‑alpha stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 306.60 ms but lacks comparative data against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Wrapture is a Python library that instruments code to locate slow functions and hotspots at runtime. It can be used via a CLI, a Python API, or directly in Jupyter notebooks and is distributed on PyPI. The tool targets Python developers who need quick profiling without switching to heavyweight profilers. Its main strength is easy installation (under 10 s) and multiple integration modes, while its limited test coverage and modest community size are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+  "tool_url": "https://github.com/grahamdumpleton/wrapture",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49640729",
+  "domain": "devtool",
+  "app_type": "devtool-debug",
+  "enriched": {
+    "github": {
+      "stars": 51,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 51,
+      "contributors": 1,
+      "license": "BSD-2-Clause",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 27,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Monkey patch, test, and trace Python by attaching bindings to call sites, without modifying the code being observed. Built on wrapt.",
+      "topics": [
+        "instrumentation",
+        "monkey-patching",
+        "python",
+        "testing",
+        "tracing",
+        "wrapt"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "cProfile",
+        "stars": 424,
+        "repo": "ymichael/cprofilev"
+      },
+      {
+        "name": "py-spy",
+        "stars": 15492,
+        "repo": "benfred/py-spy"
+      },
+      {
+        "name": "line_profiler",
+        "stars": 3583,
+        "repo": "rkern/line_profiler"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0b1",
+      "summary": "Monkey patch, test, and trace Python by attaching bindings to call sites, without modifying the code being observed. Built on wrapt.",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 6
+    }
+  }
+}
