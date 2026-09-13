@@ -1,0 +1,123 @@
+{
+  "app_name": "Vintage Scientific Papers with LaTeX",
+  "url": "https://github.com/Foadsf/vintage-latex",
+  "scored_at": "2026-09-13T13:03:56.563Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 3 days ago, not a fork, and offers LaTeX templates similar to existing tools, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) and took 176.3 seconds; no PyPI package exists, making setup difficult."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a data-format tool for LaTeX templates, it addresses a niche need that is less central to today’s LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The repo has 307 stars versus Overleaf's 18,118 stars (-98%) and only modest advantage over LaTeX Base (+245 stars), showing limited differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 307 stars, 1 contributor, and was updated 3 days ago, placing it in the 100–1k star range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 4 of 10 tests passed (40%) and the installation failed, indicating low usability."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package, only CLI/GUI modes are listed, and the license is NOASSERTION, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topics were provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 3 days old with 17 forks and 0 open issues, indicating early-stage maturity."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows import_time_ms of 0 and a vs_overleaf_import_ratio of 0.002, suggesting very fast import relative to Overleaf."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the concept and the quality of generated LaTeX, while a few caution about OCR errors and accuracy concerns."
+    }
+  },
+  "summary": "Vintage Scientific Papers with LaTeX is a collection of LaTeX templates and resources for publishing scientific papers. It is delivered as a PowerShell‑based CLI tool that can invoke pdflatex and also works with GUI editors. It is aimed at authors who need ready‑made paper styles and want a local alternative to cloud editors. While benchmarks show extremely fast import times, the project is brand‑new, has limited community traction, and its installation fails, making it a niche option.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/Foadsf/vintage-latex",
+  "tool_url": "https://github.com/Foadsf/vintage-latex",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49629624",
+  "domain": "data",
+  "app_type": "data-format",
+  "enriched": {
+    "github": {
+      "stars": 307,
+      "forks": 17,
+      "open_issues": 0,
+      "watchers": 307,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "PowerShell",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Twenty LuaLaTeX and MetaPost (fiziko) examples of the old scientific-paper aesthetic: engraved plates, star charts, computed log tables, knots, telescopes",
+      "topics": [
+        "fiziko",
+        "latex",
+        "lualatex",
+        "metapost",
+        "scientific-illustration",
+        "tikz",
+        "typography",
+        "vintage"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Overleaf",
+        "stars": 18118,
+        "repo": "overleaf/overleaf"
+      },
+      {
+        "name": "LaTeX Base",
+        "stars": 62,
+        "repo": "ozkolonur/Latex-based-business-plan-template"
+      },
+      {
+        "name": "TeXstudio",
+        "stars": 3631,
+        "repo": "texstudio-org/texstudio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 10,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excellent idea",
+        "Impressive OCR results",
+        "Aesthetic design"
+      ],
+      "negative_signals": [
+        "Potential OCR inaccuracies",
+        "Reliance on unverified OCR",
+        "Possible errors in output"
+      ],
+      "justification": "Most comments praise the concept and the quality of generated LaTeX, while a few caution about OCR errors and accuracy concerns.",
+      "comment_count": 7,
+      "hn_points": 85
+    }
+  }
+}
