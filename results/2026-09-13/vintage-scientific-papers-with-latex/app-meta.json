@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Vintage Scientific Papers with LaTeX",
+    "url": "https://github.com/Foadsf/vintage-latex",
+    "hn_url": "https://news.ycombinator.com/item?id=49629624",
+    "points": 85,
+    "comments": 7,
+    "author": "petalmind",
+    "age": "2026-09-09T16:58:27",
+    "scraped_at": "2026-09-13T13:00:02.852Z",
+    "tool_url": "https://github.com/Foadsf/vintage-latex",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "data",
+    "app_type": "data-format",
+    "description": "A collection of LaTeX templates and resources for publishing scientific papers, including styles, packages, and example documents.",
+    "use_modes": [
+      "CLI (pdflatex), GUI editors"
+    ],
+    "similar_tools": [
+      "Overleaf",
+      "LaTeX Base",
+      "TeXstudio",
+      "TeXLive"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `pdflatex` on the provided sample.tex file.",
+      "Verify that the generated PDF contains the expected title and author placeholders.",
+      "Run `latexmk -pdf sample.tex` to ensure the build toolchain works end-to-end.",
+      "Check that the style files compile without errors when included in a new document."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Foadsf/vintage-latex"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789304448185-eq8ya",
+    "log_dir": "/tmp/llm-review-1789304448185-eq8ya",
+    "install_success": false,
+    "install_time_s": 176.3,
+    "basic_run_success": true,
+    "tests_passed": 4,
+    "tests_total": 10,
+    "benchmark_notes": "BENCHMARK:install_time_s:166.58\nBENCHMARK:pip_install_time_s:1.01\nBENCHMARK:git_clone_time_s:1.05\nBENCHMARK:import_time_ms:0\nBENCHMARK:vs_overleaf_import_ratio:0.002",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nTEST_PASS:apk_git\nTEST_PASS:apk_texlive\nTEST_PASS:apk_texlive-latexextra\nTEST_FAIL:apk_texlive-fontsrecommended:ERROR: unable to select packages:\n  texlive-fontsrecommended (no such package):\n    required by: world[texlive-fontsrecommended]\n\nBENCHMARK:install_time_s:166.58\nTEST_FAIL:pip_install:ERROR: Could not find a version that satisfies the requirement vintage-latex (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for vintage-latex\n\nBENCHMARK:pip_install_time_s:1.01\nTEST_PASS:git_clone\nBENCHMARK:git_clone_time_s:1.05\nBENCHMARK:import_time_ms:0\nTEST_FAIL:import_module:No module named 'vintage_latex'\nTEST_SKIP:compile_sample:sample.tex not found\nTEST_SKIP:latexmk:sample.tex missing\nTEST_SKIP:style_compile:No .sty files found\nBENCHMARK:vs_overleaf_import_ratio:0.002\nRUN_OK\n"
+  }
+}
