@@ -1,0 +1,83 @@
+{
+  "app_name": "Show HN: 1080p is 920px tall – 1k real browser viewports",
+  "url": "https://screensize.net/reports/viewport-stats",
+  "scored_at": "2026-09-14T13:10:10.921Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and similar tools (ViewportSize.com, BrowserStack) already exist, so we cannot assess a unique contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) and there is no PyPI package, indicating a broken or unavailable install process."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a data-pipeline dataset of browser viewports it has modest relevance to current LLM workflows, but it is not a core LLM tool."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No GitHub stars or benchmark data are available and the dataset overlaps with existing services like ViewportSize.com, showing only minimal differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no public repository (no stars, no contributors) and HN points are only 30, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "All three tests failed (0/3) and the install step failed, giving the lowest usability rating."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package and no documented API/SDK or webhook support, only CSV download and a vague API endpoint, making integration difficult."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The page includes a docs/wiki link (true), example/demo link (true), and a substantial content length of 8821 characters, indicating fairly good documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.5 is present on the website, which meets the proxy rule for a mature release (version >= 1.0)."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were provided; the only metric (apk_install_git_s:0.604) is unrelated to dataset performance, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments collectively show constructive engagement: several users point out real browser chrome affecting layouts and appreciate the data, while others express skepticism about its practicality or criticize the presentation. Overall sentiment leans moderately positive with some constructive critique."
+    }
+  },
+  "summary": "This app provides a downloadable CSV/JSON dataset of real browser viewport sizes collected from users. It is hosted on a web page that offers the data via direct download and an undocumented API endpoint. Web developers needing empirical viewport statistics for layout testing would find it useful, while others may see limited value. The dataset is well‑documented with examples and a sizeable page, but installation fails, integration options are minimal, and community interest is low.",
+  "recommendation": "skip",
+  "app_url": "https://screensize.net/reports/viewport-stats",
+  "tool_url": "https://screensize.net/reports/viewport-stats",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=49693226",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful viewport data",
+        "real-world browser behavior",
+        "helpful for layout decisions"
+      ],
+      "negative_signals": [
+        "questionable usefulness",
+        "skepticism about relevance",
+        "minor criticism of presentation"
+      ],
+      "justification": "The comments collectively show constructive engagement: several users point out real browser chrome affecting layouts and appreciate the data, while others express skepticism about its practicality or criticize the presentation. Overall sentiment leans moderately positive with some constructive critique.",
+      "comment_count": 18,
+      "hn_points": 30
+    }
+  }
+}
