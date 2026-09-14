@@ -1,0 +1,104 @@
+{
+  "app_name": "A 386 PC for Your RP2350",
+  "url": "https://github.com/rh1tech/frank-386",
+  "scored_at": "2026-09-14T13:02:24.469Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo was created 235 days ago, is not a fork, and its 80 stars are far below similar projects (e.g., OpenPC with 5,705 stars), indicating a fairly novel hardware approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 8.7 seconds and the Docker runner reported success, though there is no PyPI package, showing relatively easy setup for a hardware project."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a hardware‑IoT tool, it does not directly address current LLM workflow pain points, making its relevance to the LLM ecosystem modest."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With only 80 stars versus 5,705 for the closest alternative (OpenPC), the project offers a unique RP2350 implementation but lacks quantitative benchmarks to show clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 80 stars, 3 contributors, and was updated 4 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Two out of three tests passed (66%), and installation succeeded, demonstrating core functionality works with minor friction."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available; integration relies on FPGA/SoC, GPIO, USB, and Serial use modes and the license is listed as NOASSERTION, giving moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 235 days old with 6 forks and 2 open issues, indicating an early‑stage project without a formal release version."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks (install_time_s 0.462, clone_time_s 1.469) are reported but lack comparison to alternatives, so a neutral performance score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments express excitement and technical curiosity about running legacy systems on the RP2350, but several highlight performance issues and missing emulation support, resulting in a strong but not overwhelming positive sentiment."
+    }
+  },
+  "summary": "A 386‑class PC built on the Raspberry Pi RP2350 combines custom BIOS, bootloader, and PCB design to emulate legacy x86 hardware. It runs via FPGA/SoC, GPIO, USB, and Serial interfaces and is open‑source, targeting hobbyists who want a retro computing platform on modern microcontrollers. The project stands out for its novel hardware implementation but offers limited documentation and modest community support. Benchmarks show basic install times but no clear performance advantage over existing retro‑PC projects.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/rh1tech/frank-386",
+  "tool_url": "https://github.com/rh1tech/frank-386",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49693613",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 80,
+      "forks": 6,
+      "open_issues": 2,
+      "watchers": 80,
+      "contributors": 3,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 235,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Tiny386 port to RP2350",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "OpenPC",
+        "stars": 5705,
+        "repo": "open-mmlab/OpenPCDet"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "nostalgic enthusiasm",
+        "technical feasibility",
+        "creative reuse of old tech"
+      ],
+      "negative_signals": [
+        "performance concerns",
+        "hardware limitations",
+        "limited peripheral support"
+      ],
+      "justification": "The majority of comments express excitement and technical curiosity about running legacy systems on the RP2350, but several highlight performance issues and missing emulation support, resulting in a strong but not overwhelming positive sentiment.",
+      "comment_count": 24,
+      "hn_points": 88
+    }
+  }
+}
