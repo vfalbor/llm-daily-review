@@ -1,0 +1,54 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "A 386 PC for Your RP2350",
+    "url": "https://github.com/rh1tech/frank-386",
+    "hn_url": "https://news.ycombinator.com/item?id=49693613",
+    "points": 88,
+    "comments": 25,
+    "author": "SamuraiLion",
+    "age": "2026-09-14T08:25:57",
+    "scraped_at": "2026-09-14T13:00:02.557Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/rh1tech/frank-386",
+    "repo_url": "https://github.com/rh1tech/frank-386",
+    "confidence": 0.92,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Open‑source PCB and firmware design to create a 386‑class PC that runs on the Raspberry Pi RP2350 microcontroller, including a custom BIOS and bootloader.",
+    "use_modes": [
+      "FPGA/SoC",
+      "GPIO",
+      "USB",
+      "Serial"
+    ],
+    "similar_tools": [
+      "C64‑Pi",
+      "RetroPie‑Pi",
+      "OpenPC",
+      "x86‑RPi"
+    ],
+    "proposed_tests": [
+      "Download and flash the firmware onto an RP2350 board",
+      "Verify that the system boots and displays the BIOS splash screen",
+      "Run the built‑in BIOS diagnostics to check CPU, memory, and I/O",
+      "Load a simple COM program from a disk image and confirm execution",
+      "Measure boot time from power‑on to ready state"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1789390890914-lhzsv",
+    "log_dir": "/tmp/llm-review-1789390890914-lhzsv",
+    "install_success": true,
+    "install_time_s": 8.7,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.462\nBENCHMARK:clone_time_s:1.469\nBENCHMARK:source_file_count:207\nBENCHMARK:vs_c64pi_filecount_ratio:0.591",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | INSTALL_FAIL:git=none\nTEST_PASS:count_files\nTEST_SKIP:run_python_example:No Python examples found\nTEST_PASS:baseline_comparison\nBENCHMARK:install_time_s:0.462\nBENCHMARK:clone_time_s:1.469\nBENCHMARK:source_file_count:207\nBENCHMARK:vs_c64pi_filecount_ratio:0.591\nRUN_OK\n"
+  }
+}
