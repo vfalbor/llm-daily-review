@@ -1,0 +1,114 @@
+{
+  "app_name": "Kinesis – Control your Mac with the Meta Neural Band",
+  "url": "https://github.com/callbacked/kinesis",
+  "scored_at": "2026-09-14T13:01:29.834Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The repository was created today (0 days since creation) and has only 17 stars compared to 1,753 stars for the closest alternative, indicating it is not a novel approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 16.6 seconds and the package is available on PyPI, requiring no special hardware or API keys."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool‑cli for gesture control of macOS, it addresses a niche hardware interaction use case rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 17 GitHub stars versus 1,753 for Brainflow and no benchmark advantage, the tool offers minimal differentiation from existing solutions."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 17 stars, a single contributor, and was updated today, showing a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "None of the 4 functional tests passed (0/4), indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI and provides both CLI and macOS GUI modes, allowing programmatic use despite lacking a license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (0 days) with only 1 fork and no release versioning, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only shows a 0.03 s build time and 0.84 ms help response with no comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show general curiosity and acknowledgment of the project’s novelty, but also raise practical concerns about product naming and potential confusion with other brands, leading to a moderately positive sentiment."
+    }
+  },
+  "summary": "Kinesis is a command‑line and macOS GUI tool that maps signals from the Meta Neural Band to system controls, enabling gesture‑based interaction. It runs locally, is distributed via PyPI, and can be invoked through CLI, GUI, or USB HID modes. The project is aimed at developers or power users who want to control their Mac with the neural band, but it offers little advantage over established libraries like Brainflow. While installation is straightforward, the lack of passing tests, minimal community, and almost no differentiation make it a risky choice for production use.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/callbacked/kinesis",
+  "tool_url": "https://github.com/callbacked/kinesis",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49695408",
+  "domain": "hardware",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 17,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 17,
+      "contributors": 1,
+      "license": "none",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "native macos controls for the meta neural band",
+      "topics": [
+        "emg",
+        "gesture-control",
+        "human-computer-interaction",
+        "wearables"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Brainflow",
+        "stars": 1753,
+        "repo": "brainflow-dev/brainflow"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1a13",
+      "summary": "a kinesis consumer / producer",
+      "requires_python": "",
+      "license": "Apache License, Version 2.0",
+      "home_page": "https://github.com/davegallant/kinesis"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "interesting concept",
+        "potential use cases"
+      ],
+      "negative_signals": [
+        "naming confusion",
+        "questionable viability"
+      ],
+      "justification": "The comments show general curiosity and acknowledgment of the project’s novelty, but also raise practical concerns about product naming and potential confusion with other brands, leading to a moderately positive sentiment.",
+      "comment_count": 7,
+      "hn_points": 28
+    }
+  }
+}
