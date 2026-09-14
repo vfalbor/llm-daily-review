@@ -1,0 +1,90 @@
+{
+  "app_name": "StemJSON",
+  "url": "https://stemjson.com/",
+  "scored_at": "2026-09-14T13:08:04.794Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The DSL is a new approach to let LLMs edit native UI, but similar codegen tools exist (React Native Codegen, SwiftUI) and no fork or creation date is provided."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 8.4 seconds and the tool runs without an API key, though it is not pip‑installable."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑framework that generates mobile UI at runtime, it addresses a hot area of LLM‑driven app development."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no GitHub stars while comparable tools have thousands (e.g., SwiftUIX 8,157 stars), and benchmark numbers (12.5 ms CPU loop) lack a reference point."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was found and HN points are only 8 with skeptical comments, indicating minimal community interest."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Both tests failed (0/2 passed) and the basic run did not succeed."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool supports npm, Gradle, and Maven integration modes, providing multiple entry points despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki or pages data is available and the repository could not be fetched, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without a GitHub repo, creation date, forks, or issue data, and with only 8 HN points, the project appears early‑stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report a 12.5 ms CPU loop and 22.47 ms subprocess spawn, but no comparative data is provided."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The three comments are primarily questioning the advantages and practical integration of StemJSON, indicating skepticism and lack of enthusiasm."
+    }
+  },
+  "summary": "StemJSON is a lightweight domain‑specific language that lets large language models generate and modify native mobile UI components on iOS and Android at runtime. It is implemented as a set of npm, Gradle, and Maven packages that can be invoked without an API key. The tool is aimed at developers who want to prototype UI changes directly from LLM output, but its novelty is modest compared to established codegen frameworks and community adoption is low, as reflected by 0 of 2 tests passing and only 8 HN points with skeptical comments. While integration options are fairly flexible, documentation and maturity are limited, making it a niche experiment rather than a production‑ready solution.",
+  "recommendation": "niche",
+  "app_url": "https://stemjson.com/",
+  "tool_url": "https://github.com/stemjson/stemjson",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49695057",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "React Native Codegen",
+        "stars": 16,
+        "repo": "Khan/react-native-codegen"
+      },
+      {
+        "name": "SwiftUI",
+        "stars": 8157,
+        "repo": "SwiftUIX/SwiftUIX"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [],
+      "negative_signals": [
+        "Skeptical about benefits vs free-form text",
+        "Concern over lack of existing standards",
+        "Questions about LLM bottleneck and payload constraints"
+      ],
+      "justification": "The three comments are primarily questioning the advantages and practical integration of StemJSON, indicating skepticism and lack of enthusiasm.",
+      "comment_count": 3,
+      "hn_points": 8
+    }
+  }
+}
