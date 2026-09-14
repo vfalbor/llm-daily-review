@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Drawably: Hand-Drawn UI Controls",
+    "url": "https://github.com/Danilaa1/drawably",
+    "hn_url": "https://news.ycombinator.com/item?id=49630353",
+    "points": 12,
+    "comments": 6,
+    "author": "ingve",
+    "age": "2026-09-09T17:45:32",
+    "scraped_at": "2026-09-14T13:00:02.563Z",
+    "tool_url": "https://github.com/Danilaa1/drawably",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool",
+    "description": "React component library that renders hand‑drawn UI controls with customizable stroke and texture effects.",
+    "use_modes": [
+      "npm",
+      "import"
+    ],
+    "similar_tools": [
+      "react-sketch",
+      "react-drawable-components",
+      "styled-components"
+    ],
+    "proposed_tests": [
+      "npm install @danilaa1/drawably",
+      "import {Button} from '@danilaa1/drawably' in a Create‑React‑App project and render to verify no errors",
+      "run 'npm test' to ensure example components compile",
+      "measure bundle size before and after adding the library",
+      "run a basic snapshot test of the Button component"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Danilaa1/drawably"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789391019226-8a8yd",
+    "log_dir": "/tmp/llm-review-1789391019226-8a8yd",
+    "install_success": true,
+    "install_time_s": 182.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 8,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:@danilaa1/drawably:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_04_07_487Z-debug-0.log\nTEST_PASS:npm_install\nTEST_FAIL:create_react_app:CRA failed: npm warn exec The following package was not found and will be installed: create-react-app@5.1.0\nnpm warn deprecated uid-number@0.0.6: This package is no longer supported.\nnpm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.\nnpm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported\nnpm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.\nnpm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm warn deprecated fstream@1.0.12: This package is no longer supported.\nnpm warn deprecated tar@2.2.2: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me\nnpm error code ENOSPC\nnpm error syscall write\nnpm error errno -28\nnpm error nospc ENOSPC: no space left on device, write\nnpm error nospc There appears to be insufficient space on your system to finish.\nnpm error nospc Clear up some disk space and try again.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_04_14_404Z-debug-0.log\nTEST_FAIL:npm_test:npm test failed: npm error code ENOENT\nnpm error syscall open\nnpm error path /tmp/drawably_test_app/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/drawably_test_app/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_124Z-debug-0.log\nTEST_FAIL:bundle_size:Build folder missing\nTEST_FAIL:snapshot:snapshot test failed: npm error code ENOENT\nnpm error syscall open\nnpm error path /tmp/drawably_test_app/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/drawably_test_app/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_398Z-debug-0.log\nINSTALL_FAIL:react-sketch:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_638Z-debug-0.log\nTEST_FAIL:import_@danilaa1/drawably:No module named '@danilaa1/drawably'\nTEST_FAIL:import_react-sketch:No module named 'react-sketch'\nTEST_FAIL:node_render:node:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module 'react'\nRequire stack:\n- /tmp/tmpgtuw4mhn.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wr"
+  }
+}
