@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 128, in <module>
+    main()
+  File "/app/test.py", line 121, in main
+    ratio_line = f"BENCHMARK:vs_import_time_ratio:{(imp_metric/ baseline_import):.3f}"
+                                                    ~~~~~~~~~~^~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'str' and 'float'
