@@ -1,0 +1,109 @@
+{
+  "app_name": "Drawably: Hand-Drawn UI Controls",
+  "url": "https://github.com/Danilaa1/drawably",
+  "scored_at": "2026-09-14T13:07:06.858Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 29 days old, is not a fork, and closely mirrors existing tools like react-sketch (14.8k stars) and styled-components (41.1k stars), indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Installation succeeded but took 182.7 seconds and there is no PyPI package, only npm usage, suggesting moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool for hand‑drawn UI components, it addresses a niche visual styling need rather than a core trend in today's LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has 632 stars, far fewer than react-sketch (14,861) and styled‑components (41,102), and provides no benchmark advantage beyond an import time of 142 ms."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 632 stars (100–1k range), 2 contributors, and was updated 3 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 8 tests passed (12.5%) despite a successful install, showing limited functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is distributed via npm and uses a MIT license, but offers no explicit REST API or SDK beyond standard import usage."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 29 days old with 26 forks and 1 open issue; versioning information is unavailable, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows an import time of 142 ms, but no comparative data is available to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments praise the unique, animated strokes but criticize the hand‑drawn authenticity and the clumsy, ink‑blobby aesthetic; some users want a mobile demo, resulting in a balanced sentiment."
+    }
+  },
+  "summary": "Drawably is a React component library that renders hand‑drawn UI controls with customizable strokes and textures. It is shipped as an npm package and runs locally without requiring an API key. The tool is suited for front‑end developers who want a sketch‑style aesthetic for UI elements, but its main strength is the unique hand‑drawn look, while limited test coverage and modest community size are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/Danilaa1/drawably",
+  "tool_url": "https://github.com/Danilaa1/drawably",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49630353",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 632,
+      "forks": 26,
+      "open_issues": 1,
+      "watchers": 632,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 29,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Hand-drawn UI controls. Every mount generates a fresh pen sketch from seeded randomness, and the stroke boils like an animated doodle. Zero dependencies, 4 KB of JS and one stylesheet.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "react-sketch",
+        "stars": 14861,
+        "repo": "airbnb/react-sketchapp"
+      },
+      {
+        "name": "styled-components",
+        "stars": 41102,
+        "repo": "styled-components/styled-components"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 8,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "unique stroke per control",
+        "hand‑drawn animation",
+        "resembles Rough.js"
+      ],
+      "negative_signals": [
+        "machine drawn appearance",
+        "ink‑blobby look",
+        "lack of mobile demo"
+      ],
+      "justification": "Comments praise the unique, animated strokes but criticize the hand‑drawn authenticity and the clumsy, ink‑blobby aesthetic; some users want a mobile demo, resulting in a balanced sentiment.",
+      "comment_count": 6,
+      "hn_points": 14
+    }
+  }
+}
