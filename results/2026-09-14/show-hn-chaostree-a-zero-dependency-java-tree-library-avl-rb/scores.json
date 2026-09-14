@@ -1,0 +1,117 @@
+{
+  "app_name": "ChaosTree",
+  "url": "https://github.com/Chaos-vy/ChaosTree",
+  "scored_at": "2026-09-14T13:09:08.936Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository was created 120 days ago, is not a fork, and implements standard tree structures that already exist in Apache Commons Collections (726 stars) and Guava, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 27.8 seconds, which is under the 30‑second threshold, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool tree library, it offers limited relevance to current LLM workflows, which focus more on model serving and prompt engineering."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With only 20 stars versus 726 for Apache Commons Collections and 2 for JavaFX TreeView, its zero‑dependency design and support for four tree types give it a modest edge but no clear superiority."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 20 GitHub stars, a single contributor, and the last commit was 1 day ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "None of the 2 tests passed (0/2) and while installation succeeded, the low test pass rate suggests core functionality may be incomplete."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is available via API and CLI, uses an Apache‑2.0 license, but lacks a PyPI package; Java projects can still add it as a dependency."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 120 days old, has 2 forks and 0 open issues, showing early but stable development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show insertion ratio 0.95 and lookup ratio 1.10, indicating performance comparable to baseline with no clear advantage."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The few comments focus on the library's JDK21 dependency, with one user questioning its necessity and another defending the performance gains; overall the sentiment is neutral, with balanced pros and cons."
+    }
+  },
+  "summary": "ChaosTree is a lightweight Java library that provides zero‑dependency implementations of AVL, Red‑Black, B‑Tree and B+Tree structures. It can be used via a Java API or a small CLI and is licensed under Apache‑2.0. The tool is suited for Java developers needing fast, self‑contained tree data structures without pulling in external libraries. It scores best on easy installation and recent activity, but its limited community, modest differentiation, and low test pass rate are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/Chaos-vy/ChaosTree",
+  "tool_url": "https://github.com/Chaos-vy/ChaosTree",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49694404",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 20,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 20,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Java",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 120,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Zero-dependency Java tree library featuring binary and N-ary families with JMH benchmarks and hardware-counter-backed performance evidence.",
+      "topics": [
+        "avl-tree",
+        "bplus-tree",
+        "btree",
+        "collections",
+        "data-structures",
+        "java",
+        "jmh-benchmark",
+        "maven",
+        "performance",
+        "red-black-tree",
+        "searchtree"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Apache Commons Collections",
+        "stars": 726,
+        "repo": "apache/commons-collections"
+      },
+      {
+        "name": "JavaFX TreeView",
+        "stars": 2,
+        "repo": "zhouweixin/javafx-treeview"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "mentions performance benefits from JDK21 features"
+      ],
+      "negative_signals": [
+        "concerns about requiring JDK21 instead of older versions"
+      ],
+      "justification": "The few comments focus on the library's JDK21 dependency, with one user questioning its necessity and another defending the performance gains; overall the sentiment is neutral, with balanced pros and cons.",
+      "comment_count": 5,
+      "hn_points": 7
+    }
+  }
+}
