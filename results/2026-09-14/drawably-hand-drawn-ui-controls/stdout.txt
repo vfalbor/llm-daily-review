@@ -1,0 +1,82 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.4-r0)
+(11/13) Installing pcre2 (10.48-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_FAIL:@danilaa1/drawably:npm error Tracker "idealTree" already exists
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_04_07_487Z-debug-0.log
+TEST_PASS:npm_install
+TEST_FAIL:create_react_app:CRA failed: npm warn exec The following package was not found and will be installed: create-react-app@5.1.0
+npm warn deprecated uid-number@0.0.6: This package is no longer supported.
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated tar@2.2.2: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm error code ENOSPC
+npm error syscall write
+npm error errno -28
+npm error nospc ENOSPC: no space left on device, write
+npm error nospc There appears to be insufficient space on your system to finish.
+npm error nospc Clear up some disk space and try again.
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_04_14_404Z-debug-0.log
+TEST_FAIL:npm_test:npm test failed: npm error code ENOENT
+npm error syscall open
+npm error path /tmp/drawably_test_app/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/drawably_test_app/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_124Z-debug-0.log
+TEST_FAIL:bundle_size:Build folder missing
+TEST_FAIL:snapshot:snapshot test failed: npm error code ENOENT
+npm error syscall open
+npm error path /tmp/drawably_test_app/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/drawably_test_app/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_398Z-debug-0.log
+INSTALL_FAIL:react-sketch:npm error Tracker "idealTree" already exists
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-14T13_06_55_638Z-debug-0.log
+TEST_FAIL:import_@danilaa1/drawably:No module named '@danilaa1/drawably'
+TEST_FAIL:import_react-sketch:No module named 'react-sketch'
+TEST_FAIL:node_render:node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module 'react'
+Require stack:
+- /tmp/tmpgtuw4mhn.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at Object.<anonymous> (/tmp/tmpgtuw4mhn.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/tmp/tmpgtuw4mhn.js' ]
+}
+
+Node.js v24.18.1
+RUN_OK
