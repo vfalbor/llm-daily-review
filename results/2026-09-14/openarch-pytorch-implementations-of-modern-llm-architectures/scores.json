@@ -1,0 +1,129 @@
+{
+  "app_name": "OpenArch – PyTorch implementations of modern LLM architectures",
+  "url": "https://github.com/anuj0456/OpenArch",
+  "scored_at": "2026-09-14T13:03:38.022Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 109 days old, is not a fork, and adds modular PyTorch implementations beyond the 4-star transformer-libs, indicating an incremental but notable improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.3 seconds despite no PyPI package, showing a relatively simple setup without exotic dependencies."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework providing modern transformer modules, it addresses a common need in current LLM research and experimentation workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "OpenArch has 99 GitHub stars versus 4 for transformer-libs (+95) and demonstrates a very low import ratio (0.001) compared to transformer-libs, showing clear speed advantages."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 99 stars (100‑1k range), 1 contributor, and was updated today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 5 tests passed (<50%), although the install succeeded, suggesting core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The package is not on PyPI but offers a Python API, CLI scripts, and an MIT license, enabling integration with moderate effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 109 days old with 3 forks and 0 open issues, placing it in the early‑stage, alpha‑like category."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks show import_time of 0.20 ms and a vs_transformer-libs_import_ratio of 0.001, indicating a measurable speed advantage over similar tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the project for deepening understanding of LLMs and welcome contributions, but point out gaps in inference and training support and some initial confusion about PyTorch usage."
+    }
+  },
+  "summary": "OpenArch is an open‑source collection of PyTorch modules that implement modern transformer architectures such as GPT‑NeXT, LLaMA, and Bloom for research purposes. It provides a Python API, CLI scripts, and runs locally without requiring an API key. Researchers experimenting with novel LLM designs will find it useful for rapid prototyping, though the test suite shows none of the five core tests passing, indicating limited stability. Its standout strength is very fast import times (0.20 ms) compared to similar libraries, while the main caveat is the lack of comprehensive testing and modest community support.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/anuj0456/OpenArch",
+  "tool_url": "https://github.com/anuj0456/OpenArch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49693384",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 99,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 99,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 109,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "PyTorch implementations of modern open-source LLM architectures (Llama, Qwen, DeepSeek, Gemma, GPT-OSS, Kimi, and more) — written from scratch for readability and learning, based on Sebastian Raschka's LLM Architecture Gallery.",
+      "topics": [
+        "architecture",
+        "attention-mechanism",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "language-models",
+        "llama3",
+        "llms",
+        "mixture-of-experts",
+        "multi-token-prediction",
+        "python",
+        "pytorch",
+        "qwen",
+        "transformers"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "transformer-libs",
+        "stars": 4,
+        "repo": "CodeWithKyrian/transformers-libsloader"
+      },
+      {
+        "name": "lmdeploy",
+        "stars": 8070,
+        "repo": "InternLM/lmdeploy"
+      },
+      {
+        "name": "timm",
+        "stars": 323,
+        "repo": "fastai/timmdocs"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "educational value",
+        "transparent open-source implementation",
+        "encouragement of contributions"
+      ],
+      "negative_signals": [
+        "limited inference support",
+        "initial confusion around PyTorch use",
+        "missing training pipeline details"
+      ],
+      "justification": "Comments praise the project for deepening understanding of LLMs and welcome contributions, but point out gaps in inference and training support and some initial confusion about PyTorch usage.",
+      "comment_count": 11,
+      "hn_points": 69
+    }
+  }
+}
