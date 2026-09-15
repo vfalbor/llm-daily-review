@@ -1,0 +1,139 @@
+{
+  "app_name": "OpenArm",
+  "url": "https://github.com/enactic/OpenArm",
+  "scored_at": "2026-09-15T13:01:35.856Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repo is 716 days old, is not a fork, and its 3,277 stars far exceed those of similar tools (e.g., MoveIt 2,086 stars), indicating a novel contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 21.8 s (<30 s) and the package is available on PyPI, requiring only Python ≥3.11."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑robotics tool, OpenArm aligns with current interest in open‑source robotic platforms for LLM‑driven control and tele‑operation."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 3,277 stars it outpaces OpenManipulator (15 stars), RoboDK (310 stars) and MoveIt (2,086 stars), showing a clear advantage in community interest."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 3,277 stars, 25 contributors, and was updated just 1 day ago, reflecting an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 out of 3 tests passed (66 %), and the installation succeeded, indicating core functionality works but some gaps remain."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package is available, the project offers a Software API and firmware flashing modes, and it uses an Apache‑2.0 license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 716 days old, has 363 forks and only 16 open issues, suggesting a reasonably mature project but still evolving."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data (e.g., install_git_time 0.5 s, vs_120.0_example_run 0.708 ms) is present but lacks comparative figures against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the arm’s open‑source nature, design, and potential uses in healthcare, but many criticize the focus on laundry folding as trivial and note the current lack of autonomous control."
+    }
+  },
+  "summary": "OpenArm is an open‑source 7‑degree‑of‑freedom humanoid robotic arm that includes firmware, mechanical designs, and a software API. It can be programmed via firmware flashing, a Python API, or run in simulation, and is distributed as a PyPI package. The project targets robotics researchers and developers who need a customizable arm for tele‑operation or LLM‑driven control. Its strongest point is strong community interest (3,277 stars) and recent activity, while the main caveat is limited documentation and lack of comparative performance benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/enactic/OpenArm",
+  "tool_url": "https://github.com/enactic/OpenArm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49684289",
+  "domain": "hardware-robotics",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 3277,
+      "forks": 363,
+      "open_issues": 16,
+      "watchers": 3277,
+      "contributors": 25,
+      "license": "Apache-2.0",
+      "language": "MDX",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 716,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments.",
+      "topics": [
+        "bilateral-teleoperation",
+        "force-feedback",
+        "genesis",
+        "gravity-compensation",
+        "humanoid-robot",
+        "imitation-learning",
+        "machine-learning",
+        "moveit2",
+        "mujoco",
+        "open-source",
+        "openarm",
+        "python",
+        "reinforcement-learning",
+        "robot",
+        "robot-arm",
+        "robotics",
+        "ros2",
+        "teleoperation"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenManipulator",
+        "stars": 15,
+        "repo": "micro-ROS/micro-ROS_openmanipulator_demo"
+      },
+      {
+        "name": "RoboDK",
+        "stars": 310,
+        "repo": "RoboDK/RoboDK-API"
+      },
+      {
+        "name": "MoveIt",
+        "stars": 2086,
+        "repo": "moveit/moveit"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "openarm",
+      "requires_python": ">=3.11",
+      "license": "MIT License\n        \n         \n        ",
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "open‑source hardware",
+        "aesthetic and well‑designed arm",
+        "potential for remote healthcare"
+      ],
+      "negative_signals": [
+        "frivolous or low‑impact applications (laundry folding)",
+        "limited autonomy / tele‑op control"
+      ],
+      "justification": "Comments praise the arm’s open‑source nature, design, and potential uses in healthcare, but many criticize the focus on laundry folding as trivial and note the current lack of autonomous control.",
+      "comment_count": 25,
+      "hn_points": 138
+    }
+  }
+}
