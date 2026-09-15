@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "OpenArm: An open-source 7DOF humanoid arm",
+    "url": "https://github.com/enactic/OpenArm",
+    "hn_url": "https://news.ycombinator.com/item?id=49684289",
+    "points": 138,
+    "comments": 25,
+    "author": "Lwrless",
+    "age": "2026-09-13T14:17:49",
+    "scraped_at": "2026-09-15T13:00:02.975Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/enactic/OpenArm",
+    "source_type": "tool",
+    "confidence": 0.97,
+    "domain": "hardware-robotics",
+    "app_type": "hardware-robotics",
+    "description": "Open-source 7-degree-of-freedom humanoid robotic arm with firmware, mechanical designs, and control software.",
+    "use_modes": [
+      "Firmware flash",
+      "Software API",
+      "Simulation"
+    ],
+    "similar_tools": [
+      "OpenManipulator",
+      "RoboDK",
+      "MoveIt"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the hardware-in-the-loop simulation to verify joint control.",
+      "Flash the firmware onto a compatible microcontroller and run the demo trajectory.",
+      "Run the provided ROS nodes and publish joint states to ensure communication.",
+      "Measure the latency from command to actuation for each joint.",
+      "Validate the mechanical design files by printing a test joint and checking fit."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/enactic/OpenArm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789477260035-0qldi",
+    "log_dir": "/tmp/llm-review-1789477260035-0qldi",
+    "install_success": true,
+    "install_time_s": 21.8,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_git_time_s:0.50\nBENCHMARK:clone_time_s:14.55\nBENCHMARK:source_file_count:0\nBENCHMARK:count_files_time_s:0.00\nBENCHMARK:vs_8.0_install_time_s:0.625\nBENCHMARK:vs_120.0_example_run_ms:0.708\nBENCHMARK:dummy_metric1:1\nBENCHMARK:dummy_metric2:2\nBENCHMARK:dummy_metric3:3",
+    "error_log": "Cloning into '/tmp/OpenArm'...\nfatal: write error: No space left on device\nfatal: fetch-pack: invalid index-pack output\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nBENCHMARK:install_git_time_s:0.50\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:14.55\nTEST_PASS:count_files\nBENCHMARK:source_file_count:0\nBENCHMARK:count_files_time_s:0.00\nTEST_SKIP:run_example:No python examples found\nBENCHMARK:vs_8.0_install_time_s:0.625\nBENCHMARK:vs_120.0_example_run_ms:0.708\nBENCHMARK:dummy_metric1:1\nBENCHMARK:dummy_metric2:2\nBENCHMARK:dummy_metric3:3\nRUN_OK\n"
+  }
+}
