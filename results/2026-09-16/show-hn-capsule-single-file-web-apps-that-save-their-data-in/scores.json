@@ -1,0 +1,106 @@
+{
+  "app_name": "Capsule",
+  "url": "https://withcapsule.app/",
+  "scored_at": "2026-09-16T13:04:17.324Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on creation date or fork status is available, and the tool is listed alongside existing bundlers like pkg, npx and pkgx, suggesting it is an incremental addition."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 22.5 seconds (under the 30‑second threshold) and the package is on PyPI, with no API key required."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for creating single‑file web apps, it aligns with current trends of lightweight deployment and portable tooling in the LLM‑augmented development workflow."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools (pkg: 24,342 stars, npx: 2,617 stars, pkgx: 9,920 stars) exist, Capsule adds built‑in SQLite storage and a TUI mode, offering a modest advantage but no unique capability."
+    },
+    "community": {
+      "score": 7,
+      "justification": "No GitHub metrics are present, but the HN post has 348 points and 30 comments with a sentiment score of 8/10, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 of 5 tests passed (40%), which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The package is published on PyPI and offers CLI and TUI use modes; however, no explicit API or SDK is documented, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub repository data is unavailable and no explicit signals about README length, wiki, or docs site were provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The released version is 0.2.1, indicating a pre‑1.0 status; without repository activity data, the project is considered early‑stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report an import time of 559.40 ms and a build time of 0.230 s, but no comparative data to similar tools is available, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most commenters praise the convenience and portability of Capsule, citing its single-file nature and zero-install distribution, while a minority raise practical concerns around browser sandboxing, file‑association friction on OSes, and the UX of native APIs."
+    }
+  },
+  "summary": "Capsule is a CLI tool that bundles a web app together with an embedded SQLite database into a single distributable file. It runs locally via Python, offering both command‑line and terminal UI modes without requiring any external API keys. Developers who need portable, zero‑install web apps for quick demos or offline usage will find it useful, especially because it handles data storage out of the box. The main strength is its convenience and single‑file distribution, while the limited test coverage (2/5 passed) and early‑stage maturity (v0.2.1) are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://withcapsule.app/",
+  "tool_url": "https://github.com/withcapsule/capsule",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49712278",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "pkg",
+        "stars": 24342,
+        "repo": "vercel/pkg"
+      },
+      {
+        "name": "npx",
+        "stars": 2617,
+        "repo": "zkat/npx"
+      },
+      {
+        "name": "pkgx",
+        "stars": 9920,
+        "repo": "pkgxdev/pkgx"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.1",
+      "summary": "Manage development environments like virtualenv but with docker containers and export your python history to iPythonNotebook",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "https://github.com/tryexceptpass/capsule"
+    },
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "portable single-file apps",
+        "no external dependencies",
+        "easy distribution via USB/cloud"
+      ],
+      "negative_signals": [
+        "browser sandbox limits",
+        "OS association friction",
+        "CORS/Filesystem API UX issues"
+      ],
+      "justification": "Most commenters praise the convenience and portability of Capsule, citing its single-file nature and zero-install distribution, while a minority raise practical concerns around browser sandboxing, file‑association friction on OSes, and the UX of native APIs.",
+      "comment_count": 30,
+      "hn_points": 348
+    }
+  }
+}
