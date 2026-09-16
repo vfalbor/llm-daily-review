@@ -1,0 +1,91 @@
+{
+  "app_name": "Better routing, probe fixes, plugin updates in Freenet/Hyphanet 0.7.5 build 1507",
+  "url": "https://www.hyphanet.org/freenet-hyphanet-075-build-1507-fix-probe-routing-plugins-and-upkeep.html",
+  "scored_at": "2026-09-16T13:03:05.169Z",
+  "total_score": 38,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only star counts for similar tools are provided, so novelty cannot be determined."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success = false) and there is no PyPI package, indicating a broken or very difficult setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The tool is classified as infra-networking, which is generally relevant to current P2P and privacy-focused AI workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No star count or benchmark data for the project is available, while similar tools have 4,201, 22,178, and 80 stars, suggesting limited differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is detected and Hacker News shows only 11 points with a single comment, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Installation failed and there are 0/0 tests passed, meaning core functionality could not be verified."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool offers CLI, Daemon, and API modes but lacks a PyPI package, making integration moderately difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or GitHub Pages information is available, and no documentation links were found."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Absent repository data and only 11 Hacker News points suggest the project is low‑maturity and likely early‑stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are present in the test output, so performance cannot be assessed; a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This is a P2P networking tool that adds routing, probe fixes, and plugin updates to Freenet/Hyphanet version 0.7.5. It can be used via CLI, as a daemon, or through an API, but installation fails and no package manager support exists. It is aimed at operators of privacy‑focused networks who need tighter routing control, but the lack of installation success, community activity, and performance data make it risky to adopt. The only concrete strength is its support for multiple use modes, while the main caveat is the broken install and virtually no visible community.",
+  "recommendation": "skip",
+  "app_url": "https://www.hyphanet.org/freenet-hyphanet-075-build-1507-fix-probe-routing-plugins-and-upkeep.html",
+  "tool_url": "https://github.com/freenet/freenet",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49685693",
+  "domain": "infrastructure",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "I2P",
+        "stars": 4201,
+        "repo": "PurpleI2P/i2pd"
+      },
+      {
+        "name": "Tor",
+        "stars": 22178,
+        "repo": "tornadoweb/tornado"
+      },
+      {
+        "name": "GNUnet",
+        "stars": 80,
+        "repo": "amatus/gnunet-web"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 11
+    }
+  }
+}
