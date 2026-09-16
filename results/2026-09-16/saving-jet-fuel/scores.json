@@ -1,0 +1,106 @@
+{
+  "app_name": "Saving Jet Fuel",
+  "url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+  "scored_at": "2026-09-16T13:05:15.889Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 19 seconds (<30s) and the package is available on PyPI, indicating a simple setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a data-analytics optimization framework it aligns with current AI optimization trends but serves a niche flight‑planning domain."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count is available for the tool, while comparable projects have 2,483–14,803 stars, suggesting limited distinguishing advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub data; HN points are 114, placing it in the 100–300 range which yields a modest community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0%), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package is on PyPI and offers a Python API, providing a straightforward integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub README/wiki/pages data were retrieved, so documentation quality defaults to a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, HN points of 114 serve as the only proxy, resulting in a middle‑range maturity rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were reported; the only metric is installed_pkg_count=6, which does not allow performance assessment."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The majority of comments express skepticism about feasibility and integration with current IFR procedures, citing human processes and practical limitations, while a few praise the claimed fuel savings and contrail mitigation ideas."
+    }
+  },
+  "summary": "Saving Jet Fuel is an open‑source optimization framework for flight planning that wraps OpenAP and scikit‑decide. It is distributed as a PyPI package and provides a Python API for integration. The tool targets airlines and researchers seeking to reduce fuel consumption and contrail impact, but its novelty and differentiation are unclear due to lack of repository metrics. Installation is quick (19 s) and the package runs, yet none of the three functional tests passed, and community feedback on Hacker News (114 points, 30 comments) is largely skeptical about practical feasibility.",
+  "recommendation": "niche",
+  "app_url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+  "tool_url": "https://github.com/scikit-decide/scikit-decide",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49720164",
+  "domain": "data",
+  "app_type": "data-analytics",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PuLP",
+        "stars": 2483,
+        "repo": "coin-or/pulp"
+      },
+      {
+        "name": "OR-Tools",
+        "stars": 14053,
+        "repo": "google/or-tools"
+      },
+      {
+        "name": "Optuna",
+        "stars": 14803,
+        "repo": "optuna/optuna"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.1.1",
+      "summary": "The AI framework for Reinforcement Learning, Automated Planning and Scheduling",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "claims 25% fuel savings",
+        "possible contrail mitigation benefits",
+        "existing optimization solvers"
+      ],
+      "negative_signals": [
+        "practicality doubts",
+        "human process resistance",
+        "lack of IFR integration"
+      ],
+      "justification": "The majority of comments express skepticism about feasibility and integration with current IFR procedures, citing human processes and practical limitations, while a few praise the claimed fuel savings and contrail mitigation ideas.",
+      "comment_count": 30,
+      "hn_points": 114
+    }
+  }
+}
