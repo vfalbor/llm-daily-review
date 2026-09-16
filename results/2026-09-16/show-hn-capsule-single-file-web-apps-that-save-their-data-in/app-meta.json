@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+    "url": "https://withcapsule.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=49712278",
+    "points": 347,
+    "comments": 144,
+    "author": "bashtian",
+    "age": "2026-09-15T13:31:40",
+    "scraped_at": "2026-09-16T13:00:03.068Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/withcapsule/capsule",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "CLI tool that bundles web app, data storage in SQLite, and single-file distribution",
+    "use_modes": [
+      "CLI",
+      "TUI"
+    ],
+    "similar_tools": [
+      "pkg",
+      "npx",
+      "pkgx"
+    ],
+    "proposed_tests": [
+      "pip install capsule",
+      "capsule new testapp",
+      "capsule build testapp",
+      "run the built executable and verify SQLite file is created",
+      "measure build and run times"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/withcapsule/capsule"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789563786438-9w2pu",
+    "log_dir": "/tmp/llm-review-1789563786438-9w2pu",
+    "install_success": true,
+    "install_time_s": 22.5,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:build_time_s:0.230\nBENCHMARK:run_time_s:0.000\nBENCHMARK:run_peak_mem_mb:0.001\nBENCHMARK:vs_pkg_run_ratio:0.000\nBENCHMARK:import_time_ms:559.40",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:pip_install_capsule\nTEST_FAIL:capsule_new:directory not created\nTEST_PASS:capsule_build\nBENCHMARK:build_time_s:0.230\nTEST_FAIL:run_executable:Executable not found\nBENCHMARK:run_time_s:0.000\nTEST_FAIL:sqlite_created:No SQLite file found\nBENCHMARK:run_peak_mem_mb:0.001\nBENCHMARK:vs_pkg_run_ratio:0.000\nBENCHMARK:import_time_ms:559.40\nRUN_OK\n"
+  }
+}
