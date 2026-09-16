@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Better routing, probe fixes, plugin updates in Freenet/Hyphanet 0.7.5 build 1507",
+    "url": "https://www.hyphanet.org/freenet-hyphanet-075-build-1507-fix-probe-routing-plugins-and-upkeep.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49685693",
+    "points": 11,
+    "comments": 1,
+    "author": "ArneBab",
+    "age": "2026-09-13T16:23:43",
+    "scraped_at": "2026-09-16T13:00:03.068Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/freenet/freenet",
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-networking",
+    "description": "P2P networking software with advanced routing and probing capabilities",
+    "use_modes": [
+      "CLI",
+      "Daemon",
+      "API"
+    ],
+    "similar_tools": [
+      "I2P",
+      "Tor",
+      "GNUnet"
+    ],
+    "proposed_tests": [
+      "Clone repo and run ./configure && make install",
+      "Start freenet daemon in test mode and verify it connects to peers",
+      "Run a routing query and measure latency",
+      "Check probe fix by generating synthetic routing probes"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/freenet/freenet"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789563703030-t50bp",
+    "log_dir": "/tmp/llm-review-1789563703030-t50bp",
+    "install_success": false,
+    "install_time_s": 7.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_FAIL:clone error: Cloning into '/tmp/freenet_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nRUN_OK\n"
+  }
+}
