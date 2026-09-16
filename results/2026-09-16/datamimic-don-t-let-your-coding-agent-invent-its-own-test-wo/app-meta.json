@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Datamimic – don't let your coding agent invent its own test world",
+    "url": "https://github.com/rapiddweller/datamimic",
+    "hn_url": "https://news.ycombinator.com/item?id=49722276",
+    "points": 48,
+    "comments": 8,
+    "author": "ake2l",
+    "age": "2026-09-16T04:58:36",
+    "scraped_at": "2026-09-16T13:00:03.069Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/rapiddweller/datamimic",
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Framework for creating realistic test environments for coding agents",
+    "use_modes": [
+      "Python API"
+    ],
+    "similar_tools": [
+      "OpenAI Codex evals",
+      "Anthropic Claude evals"
+    ],
+    "proposed_tests": [
+      "pip install datamimic",
+      "Run provided example to generate a mock environment",
+      "Measure time to generate environment",
+      "Verify that generated tests align with specification"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rapiddweller/datamimic"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789563917162-xcnm5",
+    "log_dir": "/tmp/llm-review-1789563917162-xcnm5",
+    "install_success": true,
+    "install_time_s": 38.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.81",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:pip_install_datamimic:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'datamimic']' returned non-zero exit status 1.\nTEST_PASS:git_clone_https://github.com/rapiddweller/datamimic.git\nTEST_FAIL:pip_install_editable:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '-e', '/tmp/datamimic_src']' returned non-zero exit status 2.\nTEST_FAIL:import_datamimic:No module named 'datamimic'\nBENCHMARK:install_time_s:0.81\nTEST_FAIL:core_operation:No module named 'datamimic'\nRUN_OK\n"
+  }
+}
