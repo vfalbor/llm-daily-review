@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 76, in <module>
+    if any("INSTALL_FAIL" in line for line in sys.stdout.getvalue().splitlines() if "pip:qorl" in line):
+                                              ^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.TextIOWrapper' object has no attribute 'getvalue'
