@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "An Archive of Colour Gradients",
+    "url": "https://phillips.shef.ac.uk/pub/cpt-city/",
+    "hn_url": "https://news.ycombinator.com/item?id=49694444",
+    "points": 15,
+    "comments": 2,
+    "author": "ashitlerferad",
+    "age": "2026-09-14T10:08:35",
+    "scraped_at": "2026-09-17T13:00:02.345Z",
+    "tool_url": "https://phillips.shef.ac.uk/pub/cpt-city/",
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "data",
+    "app_type": "research-dataset",
+    "description": "A large collection of colour gradient samples, downloadable for design and research use.",
+    "use_modes": [
+      "Download ZIP",
+      "API (CSV)"
+    ],
+    "similar_tools": [
+      "ColourLovers",
+      "Adobe Gradient Libraries",
+      "OpenColorIO"
+    ],
+    "proposed_tests": [
+      "Download the dataset ZIP and verify file integrity.",
+      "Parse a sample CSV file and count gradient entries.",
+      "Validate that each gradient has valid RGB values within 0-255.",
+      "Run a simple script to generate a CSS gradient from a random entry."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1789650281354-d67af",
+    "log_dir": "/tmp/llm-review-1789650281354-d67af",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.754\nBENCHMARK:pip_cptcity_install_s:1.101\nBENCHMARK:git_clone_s:0.307\nBENCHMARK:import_cptcity_mem_kb:2.14\nBENCHMARK:vs_colourlovers_import_ms:0.667\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0\nBENCHMARK:memory_peak_mb:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.754\nINSTALL_OK\nBENCHMARK:pip_cptcity_install_s:1.101\nINSTALL_OK\nBENCHMARK:git_clone_s:0.307\nTEST_FAIL:import_cptcity:No module named 'cptcity'\nBENCHMARK:import_cptcity_mem_kb:2.14\nBENCHMARK:vs_colourlovers_import_ms:0.667\nTEST_FAIL:download_dataset:HTTP Error 404: Not Found\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:0\nBENCHMARK:memory_peak_mb:0\nRUN_OK\n"
+  }
+}
