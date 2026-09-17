@@ -1,0 +1,106 @@
+{
+  "app_name": "OpenSpec – A lightweight and configurable AI spec framework",
+  "url": "https://openspec.dev/",
+  "scored_at": "2026-09-17T13:06:49.730Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so the novelty cannot be quantified and defaults to a neutral score."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 8.9 seconds (well under the 30 s threshold) and the package is available on PyPI, indicating very easy setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑ai tool, it directly addresses common LLM workflow needs such as spec definition and execution, matching current ecosystem trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "OpenSpec has no visible GitHub stars while comparable tools have 146,525 (LangChain), 830 (OpenAI Spec) and 5 (PromptLayer) stars, and the benchmark import time of 235 ms offers no clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No public GitHub repository is detected, but the Hacker News post received 162 points and 30 comments, placing it in the 100–200 point range for community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 of 5 tests passed (40 % pass rate), which is below the 50 % threshold for a higher rating."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI and offers both a CLI and a Python API, but documentation gaps and the requirement of an API key limit seamless integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, GitHub Pages, or documented topic count were found, and no explicit documentation quality metrics are available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With no repository data and 162 Hacker News points, the maturity falls into the 100–300 point bracket, which defaults to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data shows an import time of 235 ms, but there is no comparative data to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise OpenSpec’s lightweight, clear CLI, and effective spec workflow, citing personal use and positive internal evaluations. Minor negatives focus on documentation hiccups, doubts about handling very large specs, and skepticism about LLM planning capabilities."
+    }
+  },
+  "summary": "OpenSpec is a lightweight framework that lets users define, configure, and run AI model specifications via a CLI, Python API, or config files. It runs locally after a quick pip install and requires an API key for LLM access. The tool is suited for developers who need a simple spec-driven workflow without the overhead of larger libraries. While it installs fast and offers multiple usage modes, its limited community presence, sparse documentation, and modest benchmark results are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openspec.dev/",
+  "tool_url": "https://github.com/OpenSpec-Labs/OpenSpec",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49734264",
+  "domain": "llm-ai",
+  "app_type": "llm-ai",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 146525,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "OpenAI Spec",
+        "stars": 830,
+        "repo": "openai/model_spec"
+      },
+      {
+        "name": "PromptLayer",
+        "stars": 5,
+        "repo": "MagnivOrg/my-chatgpt-promptlayer"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Official Python client for the OpenSpec Index API: searchable specifications for manufacturer parts, with a source URL on every record.",
+      "requires_python": ">=3.9",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "easily usable CLI, clear spec workflow",
+        "community adoption and comparison to similar tools",
+        "positive evaluation in internal tests"
+      ],
+      "negative_signals": [
+        "documentation issues, placeholder links",
+        "concerns about scalability to large specs",
+        "skepticism about LLM planning"
+      ],
+      "justification": "The majority of comments praise OpenSpec’s lightweight, clear CLI, and effective spec workflow, citing personal use and positive internal evaluations. Minor negatives focus on documentation hiccups, doubts about handling very large specs, and skepticism about LLM planning capabilities.",
+      "comment_count": 30,
+      "hn_points": 162
+    }
+  }
+}
