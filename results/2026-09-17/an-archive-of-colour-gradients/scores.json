@@ -1,0 +1,75 @@
+{
+  "app_name": "An Archive of Colour Gradients",
+  "url": "https://phillips.shef.ac.uk/pub/cpt-city/",
+  "scored_at": "2026-09-17T13:05:47.847Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The dataset is similar to existing gradient collections like ColourLovers and Adobe Gradient Libraries, with no evidence of a novel approach; no creation date or fork information is available."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10 seconds, which is well under the 30‑second threshold, despite the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a research‑dataset of colour gradients, it does not directly address current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No GitHub stars or benchmark data are available; the only differentiator is that it offers a large curated collection compared to ColourLovers and OpenColorIO."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is detected and HN points are only 17 with just 2 comments, indicating very limited community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 2 tests passed (0%), which is below the 50% threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package and no explicit API/SDK mention, but the site lists a CSV API download mode, giving a modest integration path."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The page lacks a docs/wiki link but provides examples/demo and has a content length of 5370 characters, indicating substantive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version is 5.3.8, which is well above 1.0, suggesting a mature, stable release despite missing repository data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No performance benchmarks were run or reported, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "The Archive of Colour Gradients is a downloadable collection of colour gradient samples hosted at the University of Sheffield. It provides ZIP downloads and a CSV‑based API for accessing the data, built as a static web resource without any package manager integration. Researchers and designers needing a large palette of gradients can fetch the dataset directly, but the lack of community activity and limited testing mean it is best suited for exploratory use. Its main strength is the extensive, versioned collection (v5.3.8), while the primary caveat is the minimal documentation and integration support.",
+  "recommendation": "niche",
+  "app_url": "https://phillips.shef.ac.uk/pub/cpt-city/",
+  "tool_url": "https://phillips.shef.ac.uk/pub/cpt-city/",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=49694444",
+  "domain": "data",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 17
+    }
+  }
+}
