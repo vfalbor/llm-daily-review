@@ -1,0 +1,113 @@
+{
+  "app_name": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
+  "url": "https://manticoresearch.com/blog/auto-chunking/",
+  "scored_at": "2026-09-17T13:01:35.996Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The repo is a fork (is_fork: true) and was created 2372 days ago, indicating it replicates existing ideas rather than introducing a new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded (install_success: true) in 19.7 seconds, well under the 30‑second threshold, and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a database‑search tool for long‑document vector similarity, it addresses a common need in today's LLM pipelines."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has 0 stars versus 16‑30k stars for comparable tools (Weaviate, Chroma, Typesense), and no benchmark advantage is reported."
+    },
+    "community": {
+      "score": 2,
+      "justification": "GitHub shows 0 stars, 45 contributors, but the last commit was 2364 days ago, indicating a very inactive community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 4 tests passed (25%), which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package is on PyPI, offers CLI, HTTP API, and SDK modes, and is released under GPL‑2.0, making integration fairly straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topics was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is 2372 days old with only 1 fork and no open issues, suggesting limited recent development and low production readiness."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install_time_s:0.100, sqlite_insert_time_s:0.002, sqlite_query_time_s:0.000, but no comparative data to judge relative performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This is an open‑source vector search extension for Manticore Search that adds automatic chunking to handle long documents. It runs locally via CLI, HTTP API, or SDK and does not require an API key. It is aimed at developers needing efficient similarity search over large text collections, but it offers no clear speed advantage over established databases like Weaviate or Chroma. While installation is easy, the project is a fork with minimal community activity and limited test coverage.",
+  "recommendation": "skip",
+  "app_url": "https://manticoresearch.com/blog/auto-chunking/",
+  "tool_url": "https://github.com/manticoresearch/manticoresearch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49738766",
+  "domain": "database",
+  "app_type": "database-search",
+  "enriched": {
+    "github": {
+      "stars": 0,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 0,
+      "contributors": 45,
+      "license": "GPL-2.0",
+      "language": null,
+      "is_fork": true,
+      "days_since_update": 2364,
+      "days_since_created": 2372,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Search engine",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Weaviate",
+        "stars": 16816,
+        "repo": "weaviate/weaviate"
+      },
+      {
+        "name": "Chroma",
+        "stars": 29316,
+        "repo": "chroma-core/chroma"
+      },
+      {
+        "name": "Typesense",
+        "stars": 26565,
+        "repo": "typesense/typesense"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "11.2.0",
+      "summary": "Manticore Search Client",
+      "requires_python": ">=3.9",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 31
+    }
+  }
+}
