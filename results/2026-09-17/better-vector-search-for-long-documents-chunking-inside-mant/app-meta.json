@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Better Vector Search for Long Documents: Chunking Inside Manticore Search",
+    "url": "https://manticoresearch.com/blog/auto-chunking/",
+    "hn_url": "https://news.ycombinator.com/item?id=49738766",
+    "points": 31,
+    "comments": 1,
+    "author": "GloriaVinogrado",
+    "age": "2026-09-17T10:30:52",
+    "scraped_at": "2026-09-17T13:00:02.339Z",
+    "tool_url": "https://github.com/manticoresearch/manticoresearch",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "database",
+    "app_type": "database-search",
+    "description": "Manticore Search with automatic chunking for efficient long-document vector similarity search",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Weaviate",
+      "Chroma",
+      "Typesense",
+      "Elasticsearch"
+    ],
+    "proposed_tests": [
+      "Clone repo and build from source",
+      "Index a set of 1000 documents with chunking enabled",
+      "Execute a similarity query and verify result relevance",
+      "Measure query latency and compare to baseline without chunking"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/manticoresearch/manticoresearch"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789650061940-qaqnp",
+    "log_dir": "/tmp/llm-review-1789650061940-qaqnp",
+    "install_success": true,
+    "install_time_s": 19.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.100\nBENCHMARK:sqlite_insert_time_s:0.002\nBENCHMARK:sqlite_query_time_s:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', '/tmp/manticoresearch']' returned non-zero exit status 1.\nBENCHMARK:install_time_s:0.100\nTEST_PASS:test_clone_and_build\nTEST_FAIL:test_index_documents:cannot import name 'Client' from 'manticoresearch' (/usr/local/lib/python3.12/site-packages/manticoresearch/__init__.py)\nTEST_FAIL:test_similarity_query:cannot import name 'Client' from 'manticoresearch' (/usr/local/lib/python3.12/site-packages/manticoresearch/__init__.py)\nBENCHMARK:sqlite_insert_time_s:0.002\nBENCHMARK:sqlite_query_time_s:0.000\nTEST_FAIL:test_latency_vs_sqlite:cannot import name 'Client' from 'manticoresearch' (/usr/local/lib/python3.12/site-packages/manticoresearch/__init__.py)\nRUN_OK\n"
+  }
+}
