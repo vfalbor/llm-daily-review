@@ -1,0 +1,99 @@
+{
+  "app_name": "Training a 4B model to produce 81% faster query plans than Postgres",
+  "url": "https://rohanbansal.com/qorl",
+  "scored_at": "2026-09-17T13:02:23.435Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative evidence is missing."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 12.3 s, which is under the 30 s threshold, and no API key is required."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is an llm‑training tool for query‑plan generation, matching a current pain point in LLM‑driven database optimization."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The tool has no reported GitHub stars, while comparable projects have 647, 4,047 and 2 stars, indicating limited distinct advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 593 with 30 comments, which places community strength in the 7–8 range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed and the basic run failed, indicating less than 50 % test success."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available; the tool offers CLI and Python API modes but lacks explicit integration documentation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data (wiki, pages, topics) were found and no documentation signals were provided."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points exceed 300 (593) and the domain appears stable, yielding a maturity score in the 6 range."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 142 ms, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight promising performance improvements and novel ideas, while also raising legitimate concerns about cost, training time, and the need for frequent model updates when statistics change."
+    }
+  },
+  "summary": "This research project fine‑tunes a 4 B‑parameter LLM to generate PostgreSQL query plans, claiming up to 81 % faster execution. It is delivered as open‑source code with a CLI and Python API, but lacks a PyPI package and formal documentation. Researchers or DB engineers interested in LLM‑driven query optimization may try it, especially given the strong HN interest (593 points). While the benchmark shows a 142 ms import time, the lack of comparative performance data and minimal test success suggest caution.",
+  "recommendation": "worth-watching",
+  "app_url": "https://rohanbansal.com/qorl",
+  "tool_url": "https://github.com/rohanbansal/qorl",
+  "source_type": "research-model",
+  "hn_url": "https://news.ycombinator.com/item?id=49731285",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SQLova",
+        "stars": 647,
+        "repo": "naver/sqlova"
+      },
+      {
+        "name": "SQLCoder",
+        "stars": 4047,
+        "repo": "defog-ai/sqlcoder"
+      },
+      {
+        "name": "SQLGenie",
+        "stars": 2,
+        "repo": "devinpicciolini/SQLgenie-openAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Significant speedups reported",
+        "Innovative use of LLM for query planning",
+        "Potential for testing and verification"
+      ],
+      "negative_signals": [
+        "High training cost and time",
+        "Dependence on up‑to‑date statistics",
+        "Maintenance concerns for changing workloads"
+      ],
+      "justification": "The comments highlight promising performance improvements and novel ideas, while also raising legitimate concerns about cost, training time, and the need for frequent model updates when statistics change.",
+      "comment_count": 30,
+      "hn_points": 593
+    }
+  }
+}
