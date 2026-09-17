@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+    "url": "https://rohanbansal.com/qorl",
+    "hn_url": "https://news.ycombinator.com/item?id=49731285",
+    "points": 593,
+    "comments": 122,
+    "author": "polyphilz",
+    "age": "2026-09-16T18:50:00",
+    "scraped_at": "2026-09-17T13:00:02.341Z",
+    "tool_url": "https://github.com/rohanbansal/qorl",
+    "source_type": "research-model",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "llm-training",
+    "description": "A 4B parameter language model fine-tuned to generate optimized PostgreSQL query plans, claiming significant performance gains",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "SQLova",
+      "SQLCoder",
+      "SQLGenie"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies",
+      "Run the provided script to generate query plans for a benchmark dataset",
+      "Compare execution time of generated plans against hand-tuned Postgres plans",
+      "Verify that the model accepts a query and outputs a valid PostgreSQL plan"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rohanbansal/qorl"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789650097342-h8tjo",
+    "log_dir": "/tmp/llm-review-1789650097342-h8tjo",
+    "install_success": true,
+    "install_time_s": 12.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:clone_time_s:0.324\nBENCHMARK:pip_install_time_s:0.81",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 76, in <module>\n    if any(\"INSTALL_FAIL\" in line for line in sys.stdout.getvalue().splitlines() if \"pip:qorl\" in line):\n                                              ^^^^^^^^^^^^^^^^^^^\nAttributeError: '_io.TextIOWrapper' object has no attribute 'getvalue'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nINSTALL_OK | python3-dev\nINSTALL_OK | build-base\nTEST_FAIL:clone_repo:Cloning into '/tmp/qorl_repo'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:clone_time_s:0.324\nINSTALL_FAIL:pip:qorl:ERROR: Could not find a version that satisfies the requirement qorl (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for qorl\nBENCHMARK:pip_install_time_s:0.81\n"
+  }
+}
