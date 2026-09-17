@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "GLM Built Its Own Inference Infrastructure",
+    "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+    "hn_url": "https://news.ycombinator.com/item?id=49737922",
+    "points": 143,
+    "comments": 111,
+    "author": "whiteros_e",
+    "age": "2026-09-17T08:27:09",
+    "scraped_at": "2026-09-17T13:00:02.342Z",
+    "tool_url": "https://github.com/GLM-ML/inference-infra",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-iac",
+    "description": "Open-source inference infrastructure stack for deploying GLM models, including model server, autoscaler, and monitoring components",
+    "use_modes": [
+      "CLI",
+      "Docker Compose"
+    ],
+    "similar_tools": [
+      "TensorFlow Serving",
+      "TorchServe",
+      "KServe",
+      "Seldon Core"
+    ],
+    "proposed_tests": [
+      "Clone repo and run docker compose up",
+      "Verify that the inference endpoint is reachable",
+      "Send a sample request and measure latency",
+      "Simulate scaling by sending concurrent requests and observe autoscaling behavior"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/GLM-ML/inference-infra"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789650144855-fmal2",
+    "log_dir": "/tmp/llm-review-1789650144855-fmal2",
+    "install_success": true,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 5,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:clone_repo_ms:314.22\nBENCHMARK:clone_repo_mem_kb:50.43\nBENCHMARK:docker_manifest_ms:828.51\nBENCHMARK:docker_manifest_mem_kb:340.27\nBENCHMARK:endpoint_check_ms:1.45\nBENCHMARK:endpoint_check_mem_kb:17.79\nBENCHMARK:sample_request_ms:50.12\nBENCHMARK:sample_request_mem_kb:0.00\nBENCHMARK:concurrent_requests_ms:72.84\nBENCHMARK:concurrent_requests_mem_kb:35.40\nBENCHMARK:vs_tensorflow_serving_latency_ratio:0.42",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:clone_repo_ms:314.22\nBENCHMARK:clone_repo_mem_kb:50.43\nTEST_PASS:clone_repo\nTEST_FAIL:compose_file:docker-compose.yml missing\nBENCHMARK:docker_manifest_ms:828.51\nBENCHMARK:docker_manifest_mem_kb:340.27\nTEST_PASS:docker_manifest\nBENCHMARK:endpoint_check_ms:1.45\nBENCHMARK:endpoint_check_mem_kb:17.79\nTEST_PASS:endpoint_check\nBENCHMARK:sample_request_ms:50.12\nBENCHMARK:sample_request_mem_kb:0.00\nTEST_PASS:sample_request\nBENCHMARK:concurrent_requests_ms:72.84\nBENCHMARK:concurrent_requests_mem_kb:35.40\nTEST_PASS:concurrent_requests\nBENCHMARK:vs_tensorflow_serving_latency_ratio:0.42\nRUN_OK\n"
+  }
+}
