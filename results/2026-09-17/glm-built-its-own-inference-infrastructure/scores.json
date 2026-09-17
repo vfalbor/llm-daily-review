@@ -1,0 +1,99 @@
+{
+  "app_name": "GLM Built Its Own Inference Infrastructure",
+  "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+  "scored_at": "2026-09-17T13:03:32.297Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so the novelty cannot be quantified and defaults to a neutral score."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 8.8 seconds, well under the 30‑second threshold for easy setup, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑IaC tool for deploying GLM models, it aligns with current LLM deployment trends and fills a production‑grade inference need."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.42 versus TensorFlow Serving, indicating roughly 2.4× faster inference, a clear performance edge over the listed alternatives."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository is available, but Hacker News points are 145, placing it in the 100‑300 range used for community scoring."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "5 out of 6 tests passed (≈83 % success) and installation succeeded, indicating high usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers CLI and Docker Compose modes but lacks a PyPI package; integration requires manual Docker orchestration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub metadata (wiki, pages, topics) is available and no explicit documentation signals were provided, resulting in a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity is inferred from Hacker News points (145), which falls in the 100‑300 bracket for a moderate maturity rating."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks report a latency ratio of 0.42 against TensorFlow Serving, demonstrating a significant speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show appreciation for the large, production‑grade inference system, but many users lament the steep price points, token limits and lack of clarity around usage policies, reflecting a generally positive but cautiously critical reception."
+    }
+  },
+  "summary": "GLM Built Its Own Inference Infrastructure is an open‑source stack for deploying GLM models via CLI and Docker Compose. It runs locally without needing an API key and leverages autoscaling and monitoring components. It is aimed at teams that need a production‑grade inference layer for large LLMs, offering faster latency (0.42× vs TensorFlow Serving) but lacking a simple pip install and extensive documentation. While the benchmark shows strong speed gains, the absence of a PyPI package and limited community signals suggest moderate maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+  "tool_url": "https://github.com/GLM-ML/inference-infra",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49737922",
+  "domain": "infrastructure",
+  "app_type": "infra-iac",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "TensorFlow Serving",
+        "stars": 6363,
+        "repo": "tensorflow/serving"
+      },
+      {
+        "name": "TorchServe",
+        "stars": 125,
+        "repo": "cceyda/torchserve-dashboard"
+      },
+      {
+        "name": "KServe",
+        "stars": 5949,
+        "repo": "kserve/kserve"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 5,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "robust inference infrastructure",
+        "transparent pricing tiers",
+        "support for large-scale token usage"
+      ],
+      "negative_signals": [
+        "high cost and steep pricing tiers",
+        "token limits and usage uncertainty",
+        "concerns about data usage and training"
+      ],
+      "justification": "Comments show appreciation for the large, production‑grade inference system, but many users lament the steep price points, token limits and lack of clarity around usage policies, reflecting a generally positive but cautiously critical reception.",
+      "comment_count": 30,
+      "hn_points": 145
+    }
+  }
+}
