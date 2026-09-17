@@ -1,0 +1,114 @@
+{
+  "app_name": "Cloudflare/Security-Audit-Skill",
+  "url": "https://github.com/cloudflare/security-audit-skill",
+  "scored_at": "2026-09-17T13:04:40.063Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 90 days old, is not a fork, and its star count (+12% over Bandit) shows it is an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 10.2 s (well under the 30 s threshold) and no exotic hardware is required, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a security‑audit tool for CodeQL, it addresses a high‑interest area in current LLM‑driven security workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 9,292 stars it outperforms Bandit (+12%) and its benchmark ratio vs Semgrep of 0.667 indicates a noticeable speed advantage over a leading competitor."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 9,292 stars, 4 contributors, and was updated just 2 days ago, signalling an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 6 tests passed (<50% pass rate) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers CLI and CodeQL extension modes but no packaged API or PyPI distribution, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed beyond a neutral baseline."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Created 90 days ago, the repo has 500 forks and only 17 open issues, indicating a maturing project with early adoption."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows a vs_semgrep_analysis_ratio of 0.667, meaning it runs about one‑third faster than Semgrep, a modest but real performance gain."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the tool’s security focus and community involvement, yet repeatedly criticize the high token usage and scalability issues, yielding a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "Cloudflare's Security‑Audit‑Skill is a CLI and CodeQL extension that automates security audits on codebases. It builds on the CodeQL platform and runs roughly 33% faster than Semgrep, offering a speed edge for security engineers. The tool is best suited for teams already using CodeQL who need quicker automated scans. It benefits from a strong community and recent activity, but its limited test coverage and lack of packaged APIs make integration effort higher than ideal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/cloudflare/security-audit-skill",
+  "tool_url": "https://github.com/cloudflare/security-audit-skill",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49736466",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": {
+      "stars": 9292,
+      "forks": 500,
+      "open_issues": 17,
+      "watchers": 9292,
+      "contributors": 4,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 90,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Semgrep",
+        "stars": 16678,
+        "repo": "semgrep/semgrep"
+      },
+      {
+        "name": "Bandit",
+        "stars": 8271,
+        "repo": "PyCQA/bandit"
+      },
+      {
+        "name": "CodeQL",
+        "stars": 10102,
+        "repo": "github/codeql"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful security audit tool",
+        "clear documentation",
+        "community engagement"
+      ],
+      "negative_signals": [
+        "high token cost",
+        "scalability concerns",
+        "implementation complexity"
+      ],
+      "justification": "Comments praise the tool’s security focus and community involvement, yet repeatedly criticize the high token usage and scalability issues, yielding a generally positive but cautiously critical sentiment.",
+      "comment_count": 19,
+      "hn_points": 105
+    }
+  }
+}
