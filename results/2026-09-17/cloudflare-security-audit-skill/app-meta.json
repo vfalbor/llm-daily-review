@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Cloudflare/Security-Audit-Skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "hn_url": "https://news.ycombinator.com/item?id=49736466",
+    "points": 105,
+    "comments": 19,
+    "author": "donk8r",
+    "age": "2026-09-17T04:36:55",
+    "scraped_at": "2026-09-17T13:00:02.345Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/cloudflare/security-audit-skill",
+    "source_type": "tool",
+    "confidence": 0.98,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "Security audit skill for the CodeQL platform, automating common audit tasks and providing actionable recommendations.",
+    "use_modes": [
+      "CLI",
+      "CodeQL extension"
+    ],
+    "similar_tools": [
+      "Semgrep",
+      "Bandit",
+      "CodeQL"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the provided CodeQL queries against a sample repo",
+      "Verify that the skill flags known vulnerabilities (e.g., use of hardcoded credentials)",
+      "Measure the time taken to analyze a repository of ~10k lines of code",
+      "Check that the generated audit report includes severity and remediation links"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789650213706-bio46",
+    "log_dir": "/tmp/llm-review-1789650213706-bio46",
+    "install_success": true,
+    "install_time_s": 10.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:vs_semgrep_analysis_ratio:0.667\nBENCHMARK:loc_count:4\nBENCHMARK:test_files_count:2",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'security-audit-skill']' returned non-zero exit status 1.\nTEST_FAIL:import:No module named 'security_audit_skill'\nINSTALL_OK\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', '-e /tmp/security-audit-skill']' returned non-zero exit status 1.\nTEST_FAIL:import:No module named 'security_audit_skill'\nTEST_FAIL:import_after_fallback:Unable to import package\nTEST_FAIL:load_audit:No module named 'security_audit_skill'\nTEST_FAIL:analysis:no_report\nTEST_FAIL:load_audit:No module named 'security_audit_skill'\nBENCHMARK:vs_semgrep_analysis_ratio:0.667\nBENCHMARK:loc_count:4\nBENCHMARK:test_files_count:2\nRUN_OK\n"
+  }
+}
