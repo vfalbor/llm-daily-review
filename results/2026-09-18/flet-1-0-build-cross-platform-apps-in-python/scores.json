@@ -1,0 +1,130 @@
+{
+  "app_name": "Flet",
+  "url": "https://flet.dev/",
+  "scored_at": "2026-09-18T13:04:38.904Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repository is not a fork (is_fork false) and was created 1638 days ago, offering a cross‑platform Python UI framework that differs from typical web‑only tools like Flask, indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (install_success true) in 30 seconds (install_time_s 30) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑framework for building cross‑platform apps, it aligns with the current surge in LLM‑driven UI tools and fits the 'web‑framework' app_type."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Flet has 16,905 stars, far fewer than Flask (74,748) or FastAPI (102,422), but provides a unique cross‑platform GUI capability; the benchmark shows an import time of 142 ms."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 16,905 GitHub stars, 103 contributors, and was updated today (days_since_update 0), indicating a strong, active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 4 tests passed (25% pass rate) and the basic run succeeded, suggesting core functionality works but overall usability is limited."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists (v1.0.0), the tool offers CLI, Python API, and SDK modes, and is licensed under Apache‑2.0, facilitating integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided; insufficient documentation signals lead to a neutral score."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 1638 days old, has 694 forks and 326 open issues, showing a mature project with ongoing development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 142 ms, but no comparative data are available, so a neutral performance score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments show a balanced mix: some praise the framework’s cross‑platform promise and extensibility, while many criticize the simplistic demo examples and raise doubts about Python’s performance and the value of such frameworks, leading to an overall neutral sentiment."
+    }
+  },
+  "summary": "Flet is a Python framework that lets developers build mobile, web, and desktop applications from a single codebase. It runs locally via a CLI, Python API, and SDK without needing an external API key. The tool is suited for Python developers who want cross‑platform UI without learning separate native toolkits. Its strong community (16,905 stars) and recent updates are its standout strengths, while limited test coverage and sparse documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://flet.dev/",
+  "tool_url": "https://github.com/flet-dev/flet",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49746290",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": {
+      "stars": 16905,
+      "forks": 694,
+      "open_issues": 326,
+      "watchers": 16905,
+      "contributors": 103,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1638,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Build realtime web, mobile and desktop apps in Python only. No frontend experience required.",
+      "topics": [
+        "android",
+        "cross-platform",
+        "desktop",
+        "flutter",
+        "ios",
+        "python",
+        "server-driven-ui",
+        "web"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Flask",
+        "stars": 74748,
+        "repo": "pallets/flask"
+      },
+      {
+        "name": "FastAPI",
+        "stars": 102422,
+        "repo": "fastapi/fastapi"
+      },
+      {
+        "name": "Streamlit",
+        "stars": 45778,
+        "repo": "streamlit/streamlit"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0",
+      "summary": "Flet for Python - easily build interactive multi-platform apps in Python",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Support for extensions and cross‑platform use",
+        "Interesting Flutter‑based approach",
+        "Community engagement in early development"
+      ],
+      "negative_signals": [
+        "Criticism of simple examples like to‑do list",
+        "Concern about performance and Python inefficiencies",
+        "Skepticism towards cross‑platform frameworks"
+      ],
+      "justification": "The comments show a balanced mix: some praise the framework’s cross‑platform promise and extensibility, while many criticize the simplistic demo examples and raise doubts about Python’s performance and the value of such frameworks, leading to an overall neutral sentiment.",
+      "comment_count": 30,
+      "hn_points": 136
+    }
+  }
+}
