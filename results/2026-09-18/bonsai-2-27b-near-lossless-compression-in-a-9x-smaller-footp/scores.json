@@ -1,0 +1,83 @@
+{
+  "app_name": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+  "url": "https://prismml.com/news/bonsai-2-27b",
+  "scored_at": "2026-09-18T13:02:24.864Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation, fork status, and direct comparison metrics are not provided, so a neutral score is assigned."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success: false) and took 43.9 seconds; no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research-model offering aggressive quantization for 27B parameters, it addresses current LLM efficiency demands."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.85 versus Llama2 13B, indicating a measurable speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 486 with 30 comments, and sentiment is 7/10, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "All 4 tests failed (0/4 passed) and the installation did not succeed."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package, but use modes include HuggingFace Transformers, ONNX Runtime, and TorchScript, providing moderate integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data (wiki/pages) is available; only the model card URL is provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository data, HN points >300 are used as a proxy, yielding a maturity score of 6."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark indicates a 15% latency improvement (ratio 0.85) compared to Llama2 13B."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the model’s efficiency and broad hardware support, especially for 16GB GPUs and Apple Silicon, while a minority cite driver or compatibility challenges and reduced performance on older or mobile devices."
+    }
+  },
+  "summary": "Bonsai 2 27B is a 27‑billion‑parameter transformer model that uses aggressive quantization to shrink its footprint by roughly nine times. It can be run via HuggingFace Transformers, ONNX Runtime, or TorchScript, requiring no API key. Researchers and developers needing high‑capacity models on limited GPU memory (e.g., 16 GB) will find it useful. It offers a modest speed advantage (15% faster than Llama2 13B) but suffers from installation failures and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://prismml.com/news/bonsai-2-27b",
+  "tool_url": "https://huggingface.co/prismml/bonsai-2-27b",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49746618",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Efficient quantization allows 16GB GPU use",
+        "Fast inference on modern GPUs",
+        "Supports Apple Silicon and mobile devices"
+      ],
+      "negative_signals": [
+        "Driver/compatibility issues on older GPUs",
+        "Limited performance on lower-end hardware",
+        "Some users report crashes or limited context"
+      ],
+      "justification": "The majority of comments praise the model’s efficiency and broad hardware support, especially for 16GB GPUs and Apple Silicon, while a minority cite driver or compatibility challenges and reduced performance on older or mobile devices.",
+      "comment_count": 30,
+      "hn_points": 486
+    }
+  }
+}
