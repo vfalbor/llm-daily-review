@@ -1,0 +1,114 @@
+{
+  "app_name": "Jemalloc 5.4.0",
+  "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+  "scored_at": "2026-09-18T13:01:15.300Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 4732 days ago and is not a fork, and similar allocators (tcmalloc, mimalloc, Hoard) already exist, indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 19.4 s, which is under the 30 s threshold, but there is no PyPI package, requiring a C build from source."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑container tool, a high‑performance memory allocator remains highly relevant to current C/C++ and runtime optimization workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Jemalloc has 11,148 stars, more than tcmalloc (+5,796) and far more than Hoard (+9,668), though fewer than mimalloc (‑2,224), showing clear advantage over some alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 11,148 stars, 217 contributors, and was updated today (0 days since last commit), indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 out of 2 tests passed (50 % pass rate) and install succeeded, meeting the ≥50 % threshold for basic usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library provides C API, C++ API, and a CLI, but lacks a PyPI package and the license is listed as NOASSERTION, making integration moderately easy."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 4732 days old, has 1,649 forks and 366 open issues, indicating a mature, widely‑used project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a single benchmark line (install_time_s: 7.86) is available with no comparative data, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise jemalloc’s performance impact for GC languages and real-world workloads, while also debating whether writing custom allocators is worthwhile; overall tone is constructive but not universally enthusiastic."
+    }
+  },
+  "summary": "Jemalloc 5.4.0 is a high‑performance memory allocator for C/C++ programs that can be used via a C API, C++ API, or CLI build. It is a mature, actively maintained library with over 11 k stars and a large contributor base. Developers needing fast, low‑overhead allocation for performance‑critical applications would choose it over tcmalloc or Hoard. Its strength is strong community adoption and proven performance benefits, while the lack of easy‑install packages and limited benchmark disclosure are its main drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+  "tool_url": "https://github.com/jemalloc/jemalloc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49750152",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 11148,
+      "forks": 1649,
+      "open_issues": 366,
+      "watchers": 11148,
+      "contributors": 217,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4732,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "tcmalloc",
+        "stars": 5352,
+        "repo": "google/tcmalloc"
+      },
+      {
+        "name": "mimalloc",
+        "stars": 13372,
+        "repo": "microsoft/mimalloc"
+      },
+      {
+        "name": "Hoard",
+        "stars": 1480,
+        "repo": "robhagemans/hoard-of-bitfonts"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Widely used, performance benefits for many runtimes",
+        "Improves memory management and reduces leaks",
+        "Positive community uptake"
+      ],
+      "negative_signals": [
+        "Debate over necessity of custom allocators",
+        "Concerns about complexity vs simplicity",
+        "Mixed discussion on hype and relevance"
+      ],
+      "justification": "Comments praise jemalloc’s performance impact for GC languages and real-world workloads, while also debating whether writing custom allocators is worthwhile; overall tone is constructive but not universally enthusiastic.",
+      "comment_count": 30,
+      "hn_points": 210
+    }
+  }
+}
