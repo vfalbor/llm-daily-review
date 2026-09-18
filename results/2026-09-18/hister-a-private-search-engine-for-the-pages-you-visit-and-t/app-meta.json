@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Hister: A private search engine for the pages you visit and the files you keep",
+    "url": "https://github.com/asciimoo/hister",
+    "hn_url": "https://news.ycombinator.com/item?id=49743097",
+    "points": 648,
+    "comments": 173,
+    "author": "bookofjoe",
+    "age": "2026-09-17T16:25:37",
+    "scraped_at": "2026-09-18T13:00:02.841Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/asciimoo/hister",
+    "repo_url": "https://github.com/asciimoo/hister",
+    "confidence": 0.96,
+    "domain": "infra-search",
+    "app_type": "database-search",
+    "description": "Local, private search engine for browsing history and local files, built with Rust and Rust libraries.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "Recoll",
+      "DocQuery",
+      "ripgrep",
+      "Tsearch"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `cargo build` to ensure compilation succeeds.",
+      "Run `hister search 'test'` against a sample directory and verify results.",
+      "Index a known set of files and run a query to check relevance and latency.",
+      "Start the HTTP API with `hister server` and send a GET request to `/search` endpoint, verifying JSON response.",
+      "Measure index creation time for 10,000 files and compare to baseline."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1789736546243-0hns9",
+    "log_dir": "/tmp/llm-review-1789736546243-0hns9",
+    "install_success": true,
+    "install_time_s": 15.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:cargo_build_s:0.0256\nBENCHMARK:sqlite_query_ms:0.0003",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:cargo_build_s:0.0256\nTEST_FAIL:build:error: could not find `Cargo.toml` in `/tmp/hister` or any parent directory\nINSTALL_OK\nBENCHMARK:sqlite_query_ms:0.0003\nTEST_PASS:sqlite_query\nTEST_FAIL:hister_index_or_search:[Errno 2] No such file or directory: '/tmp/hister/target/release/hister'\nTEST_FAIL:hister_http:[Errno 2] No such file or directory: '/tmp/hister/target/release/hister'\nTEST_FAIL:hister_index_10k:[Errno 2] No such file or directory: '/tmp/hister/target/release/hister'\nRUN_OK\n"
+  }
+}
