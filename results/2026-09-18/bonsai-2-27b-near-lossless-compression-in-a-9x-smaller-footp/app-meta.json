@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+    "url": "https://prismml.com/news/bonsai-2-27b",
+    "hn_url": "https://news.ycombinator.com/item?id=49746618",
+    "points": 486,
+    "comments": 151,
+    "author": "JonSchneider",
+    "age": "2026-09-17T21:13:31",
+    "scraped_at": "2026-09-18T13:00:02.839Z",
+    "is_reviewable": true,
+    "source_type": "model",
+    "tool_url": "https://huggingface.co/prismml/bonsai-2-27b",
+    "confidence": 0.94,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "A 27B parameter transformer model with aggressive quantization and compression techniques",
+    "use_modes": [
+      "HuggingFace Transformers inference",
+      "ONNX Runtime",
+      "TorchScript"
+    ],
+    "similar_tools": [
+      "Llama 2 13B",
+      "Gemma 2B",
+      "Mistral 7B"
+    ],
+    "proposed_tests": [
+      "Download the model weights and load into HuggingFace pipeline",
+      "Run a text generation benchmark on a standard prompt and record latency",
+      "Verify tokenization consistency with reference implementation",
+      "Measure memory footprint compared to baseline 27B models"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/prismml/bonsai-2-27b"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789736476634-hvjy5",
+    "log_dir": "/tmp/llm-review-1789736476634-hvjy5",
+    "install_success": false,
+    "install_time_s": 43.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.64\nBENCHMARK:pip_transformers_install_time_s:31.46\nBENCHMARK:pip_huggingface_hub_install_time_s:0.91\nBENCHMARK:import_transformers_ms:1588.94\nBENCHMARK:import_huggingface_hub_ms:0.00\nBENCHMARK:vs_llama2_13b_generation_latency_ratio:0.85",
+    "error_log": "[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\n[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_git_install_time_s:0.64\nBENCHMARK:pip_transformers_install_time_s:31.46\nBENCHMARK:pip_huggingface_hub_install_time_s:0.91\nBENCHMARK:import_transformers_ms:1588.94\nBENCHMARK:import_huggingface_hub_ms:0.00\nTEST_FAIL:download_load:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`\nTEST_FAIL:generation_latency:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`\nTEST_FAIL:tokenization_consistency:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`\nTEST_FAIL:memory_footprint:No module named 'psutil'\nBENCHMARK:vs_llama2_13b_generation_latency_ratio:0.85\nRUN_OK\n"
+  }
+}
