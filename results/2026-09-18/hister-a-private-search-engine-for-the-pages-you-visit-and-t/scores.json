@@ -1,0 +1,129 @@
+{
+  "app_name": "Hister",
+  "url": "https://github.com/asciimoo/hister",
+  "scored_at": "2026-09-18T13:03:22.443Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 257 days ago, not a fork, and its star count (4,705) far exceeds similar tools, indicating a distinct approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 15.7 s (well under 30 s) and runs locally without needing an API key; however there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a private, offline search engine for browsing history and files, it addresses growing privacy concerns in current LLM workflows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Hister has 4,705 stars versus Recoll (1,375) and DocQuery (1,775), a +242% and +165% advantage, and benchmarks show very fast build (0.0256 s) and query (0.0003 ms) times."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 4,705 stars, 63 contributors, and was updated today (0 days since last commit), indicating strong community activity."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 5 tests passed (20%), though the basic run succeeded and installation worked."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provides both CLI and HTTP API modes, is open‑source under AGPL‑3.0, but lacks a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 257 days old with 198 forks and 61 open issues, suggesting it is beyond early alpha but not yet fully stable."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark logs show cargo build time of 0.0256 s and SQLite query time of 0.0003 ms, indicating high efficiency."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise Hister for its privacy‑oriented offline search and easy integration with tools like Linkwarden, echoing nostalgia for early Chrome features. However, several users express worries about relying on ChatGPT and missing advanced search capabilities, leading to a generally positive but slightly critical overall sentiment."
+    }
+  },
+  "summary": "Hister is a local, private search engine for browsing history and files written in Rust. It runs as a CLI tool and also offers an HTTP API, requiring no external API keys. It is suited for privacy‑focused users who want offline search integrated with their bookmark workflows. The standout strength is its fast build and query performance, while the main caveat is limited test coverage with only 20% of functional tests passing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/asciimoo/hister",
+  "tool_url": "https://github.com/asciimoo/hister",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49743097",
+  "domain": "infra-search",
+  "app_type": "database-search",
+  "enriched": {
+    "github": {
+      "stars": 4705,
+      "forks": 198,
+      "open_issues": 61,
+      "watchers": 4705,
+      "contributors": 63,
+      "license": "AGPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 257,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Your own search engine",
+      "topics": [
+        "browser-history",
+        "go",
+        "golang",
+        "history",
+        "index",
+        "mcp",
+        "mcp-server",
+        "personal-search",
+        "personal-search-engine",
+        "privacy",
+        "search",
+        "search-engine",
+        "semantic-search",
+        "web"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Recoll",
+        "stars": 1375,
+        "repo": "0xacb/recollapse"
+      },
+      {
+        "name": "DocQuery",
+        "stars": 1775,
+        "repo": "impira/docquery"
+      },
+      {
+        "name": "ripgrep",
+        "stars": 68402,
+        "repo": "BurntSushi/ripgrep"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "practical privacy-focused search",
+        "easy integration with existing bookmark tools",
+        "nostalgic appeal of offline search"
+      ],
+      "negative_signals": [
+        "concerns about dependency on external AI services",
+        "lack of certain search features",
+        "mixed opinions on performance"
+      ],
+      "justification": "The majority of comments praise Hister for its privacy‑oriented offline search and easy integration with tools like Linkwarden, echoing nostalgia for early Chrome features. However, several users express worries about relying on ChatGPT and missing advanced search capabilities, leading to a generally positive but slightly critical overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 648
+    }
+  }
+}
