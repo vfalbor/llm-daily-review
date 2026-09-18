@@ -1,0 +1,29 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.4-r0)
+(11/13) Installing pcre2 (10.48-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+BENCHMARK:apk_git_install_time_s:0.64
+BENCHMARK:pip_transformers_install_time_s:31.46
+BENCHMARK:pip_huggingface_hub_install_time_s:0.91
+BENCHMARK:import_transformers_ms:1588.94
+BENCHMARK:import_huggingface_hub_ms:0.00
+TEST_FAIL:download_load:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+TEST_FAIL:generation_latency:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+TEST_FAIL:tokenization_consistency:prismml/bonsai-2-27b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+TEST_FAIL:memory_footprint:No module named 'psutil'
+BENCHMARK:vs_llama2_13b_generation_latency_ratio:0.85
+RUN_OK
