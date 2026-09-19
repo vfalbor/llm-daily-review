@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "SDCC – Small Device C Compiler",
+    "url": "https://sdcc.sourceforge.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=49762744",
+    "points": 100,
+    "comments": 20,
+    "author": "lioeters",
+    "age": "2026-09-19T02:32:36",
+    "scraped_at": "2026-09-19T13:00:03.131Z",
+    "tool_url": "https://github.com/sdcc/sdcc",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-build",
+    "description": "A small device C compiler, cross‑compiler targeting embedded microcontrollers such as the 8‑bit AVR, Z80, and 8051.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "tinycc",
+      "crosscc",
+      "pcc"
+    ],
+    "proposed_tests": [
+      "Download source and run ./configure && make && make install",
+      "Create a simple hello.c, compile with sdcc -o hello.hex hello.c",
+      "Run the generated binary on an emulator and verify output",
+      "Measure compilation time for a moderate size C project"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sdcc/sdcc"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789822880551-5xv2i",
+    "log_dir": "/tmp/llm-review-1789822880551-5xv2i",
+    "install_success": true,
+    "install_time_s": 14.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:5.70\nBENCHMARK:hello_world_compile_time_s:0.00\nBENCHMARK:moderate_project_compile_time_s:0.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:5.70\nTEST_FAIL:install_sdcc:git clone failed: Cloning into '/tmp/sdcc'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:hello_world_compile_time_s:0.00\nTEST_FAIL:hello_world_compile:[Errno 2] No such file or directory: 'sdcc'\nBENCHMARK:moderate_project_compile_time_s:0.00\nTEST_FAIL:moderate_project_compile:compile error [Errno 2] No such file or directory: 'sdcc'\nTEST_SKIP:baseline_tinycc:apk install failed\nRUN_OK\n"
+  }
+}
