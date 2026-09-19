@@ -1,0 +1,93 @@
+{
+  "app_name": "c8-ass",
+  "url": "https://github.com/Tackx/c8-ass",
+  "scored_at": "2026-09-19T13:01:19.126Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo was created 33 days ago, is not a fork, and there are existing CHIP‑8 assemblers, so it is an incremental addition."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 13.5 seconds, which is under the 30‑second threshold, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool‑cli for a CHIP‑8 assembler, it does not address a major need in today’s LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has 6 stars versus 30 stars for a similar x86 assembler and 3,315 stars for NASM, showing little advantage over existing tools."
+    },
+    "community": {
+      "score": 3,
+      "justification": "GitHub shows only 6 stars, 1 contributor, and the repository was updated today, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 1 test, 0 passed (0/1) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a CLI only, has no PyPI package, and provides no API or licensing information, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic data were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 33 days old with 1 fork and 0 open issues, placing it in an early‑stage (alpha) phase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results or performance claims were present in the test output."
+    }
+  },
+  "summary": "c8-ass is a command‑line assembler that compiles CHIP‑8 programs into binary ROMs using C++. It builds a small native executable without any external API or package manager support. The tool is suited for hobbyists experimenting with CHIP‑8 but offers little over existing assemblers, as reflected by its 6 GitHub stars and no performance advantages. Its main strength is that it installs quickly (13.5 s) and runs, while its main caveat is the lack of tests, integration hooks, and a tiny community.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/Tackx/c8-ass",
+  "tool_url": "https://github.com/Tackx/c8-ass",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49744174",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 6,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 6,
+      "contributors": 1,
+      "license": "none",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 33,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Custom assembler for CHIP-8",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "x86-assembler",
+        "stars": 30,
+        "repo": "anathonic/assembler-x86-32-ATT"
+      },
+      {
+        "name": "NASM",
+        "stars": 3315,
+        "repo": "netwide-assembler/nasm"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
