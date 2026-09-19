@@ -1,0 +1,99 @@
+{
+  "app_name": "SDCC – Small Device C Compiler",
+  "url": "https://sdcc.sourceforge.net/",
+  "scored_at": "2026-09-19T13:02:21.974Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed; assigning a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 14.5 s, which is under the 30 s threshold, but there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑build targeting embedded 8‑bit MCUs, it serves a niche but still relevant developer need."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "SDCC has no reported GitHub stars while similar tools have 3,034 (tinycc) and 3,122 (pcc) stars, indicating limited differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub data; HN points are 100, placing it in the 5–6 community range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and install succeeded, indicating core functionality is missing."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package and only a CLI use mode are available, with no documented API."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata (wiki/pages, topics) is unavailable and no explicit documentation signals were found."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, HN points of 100 give a neutral maturity rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows install_time_s of 5.70 s, but no comparative data to other compilers is provided."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight SDCC’s broad applicability and zero cost, but also consistent reports of bugs, aggressive optimization, and difficulty with certain MCUs, resulting in a generally positive but cautious reception."
+    }
+  },
+  "summary": "SDCC is a small-device C cross‑compiler that generates code for 8‑bit microcontrollers such as AVR, Z80, and 8051. It is a CLI‑only tool distributed from SourceForge with no PyPI package or API layer. It is suited for embedded developers needing a free, open‑source compiler for legacy MCUs. Benchmarks show a 5.7 s install time, but community feedback notes frequent bugs and optimizer quirks, and documentation is sparse.",
+  "recommendation": "niche",
+  "app_url": "https://sdcc.sourceforge.net/",
+  "tool_url": "https://github.com/sdcc/sdcc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49762744",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "tinycc",
+        "stars": 3034,
+        "repo": "TinyCC/tinycc"
+      },
+      {
+        "name": "crosscc",
+        "stars": 0,
+        "repo": "gilaraujo/crossccpp"
+      },
+      {
+        "name": "pcc",
+        "stars": 3122,
+        "repo": "ehmatthes/pcc"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "widely used for various 8-bit MCUs",
+        "supports 8051 and z80",
+        "free and open source"
+      ],
+      "negative_signals": [
+        "frequent bugs and optimizer issues",
+        "hard to use for PIC16",
+        "requires workarounds and assembly debugging"
+      ],
+      "justification": "Comments highlight SDCC’s broad applicability and zero cost, but also consistent reports of bugs, aggressive optimization, and difficulty with certain MCUs, resulting in a generally positive but cautious reception.",
+      "comment_count": 20,
+      "hn_points": 100
+    }
+  }
+}
