@@ -1,0 +1,112 @@
+{
+  "app_name": "Measure internet censorship",
+  "url": "https://ooni.org/install",
+  "scored_at": "2026-09-20T13:01:24.057Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 3,146 days old and is not a fork, and its 288 stars are lower than the leading competitor Netprobe (751 stars), indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 17.4 seconds despite the lack of a PyPI package, showing a reasonably simple setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data-pipeline tool for measuring internet censorship, it addresses an ongoing need for network transparency in the current ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 288 stars it trails the main alternative Netprobe (751 stars) and only modestly exceeds smaller tools like Shieldsup (8 stars) and OpenSignal (56 stars), and no benchmark data is provided."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 288 GitHub stars, 33 contributors, and was updated 0 days ago, indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "None of the 3 functional tests passed (0/3), showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is only a CLI with no PyPI package or API, limiting automated integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or other documentation sources was found, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 3,146 days old with 64 forks and 50 open issues, suggesting a mature codebase but no clear release versioning."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments largely discuss the challenges and significance of measuring internet censorship, highlighting both the need for such data and the potential pitfalls, resulting in a balanced view."
+    }
+  },
+  "summary": "Measure internet censorship is a CLI tool that runs OONI Probe to collect data on censorship and network performance worldwide. It is built as a Go binary distributed via direct download, requiring no API key. Researchers and activists needing on‑the‑ground measurements of internet blocking would use it. The project is actively maintained (last commit today) and has a solid community (288 stars, 33 contributors), but it lacks automated integration options and its test suite shows 0 of 3 tests passing, indicating limited ease of use and unknown performance characteristics.",
+  "recommendation": "niche",
+  "app_url": "https://ooni.org/install",
+  "tool_url": "https://github.com/ooni/probe-cli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49769676",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": {
+      "stars": 288,
+      "forks": 64,
+      "open_issues": 50,
+      "watchers": 288,
+      "contributors": 33,
+      "license": "GPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3146,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "OONI Probe Engine and CLI",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Shieldsup",
+        "stars": 8,
+        "repo": "JakeShelf/ShieldsUpNZ"
+      },
+      {
+        "name": "Netprobe",
+        "stars": 751,
+        "repo": "plaintextpackets/netprobe_lite"
+      },
+      {
+        "name": "OpenSignal",
+        "stars": 56,
+        "repo": "asifali411/OpenSignal"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "recognizes importance of measuring censorship",
+        "raises awareness of platform moderation"
+      ],
+      "negative_signals": [
+        "concerns about data accuracy and bias",
+        "discusses political implications of censorship"
+      ],
+      "justification": "The comments largely discuss the challenges and significance of measuring internet censorship, highlighting both the need for such data and the potential pitfalls, resulting in a balanced view.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
