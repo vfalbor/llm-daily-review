@@ -1,0 +1,75 @@
+{
+  "app_name": "Sigabrt.dev",
+  "url": "https://sigabrt.dev/",
+  "scored_at": "2026-09-20T13:02:24.130Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only a list of similar tools (htop, glances, nmon, btop) is provided, so novelty cannot be assessed beyond a neutral rating."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 14.9 seconds, but there is no PyPI package, indicating a modest setup complexity."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli for monitoring cron jobs over SSH, it addresses a common operations need in current LLM‑enhanced workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The tool offers a TUI for SSH‑based cron monitoring, a feature not present in the listed similar CLI tools, though no benchmark data is available."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No GitHub repository is detected and HN points are only 3 with a single comment, indicating very low community activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No automated tests were run (tests_passed: 0 / 0), but the basic run succeeded, providing insufficient data for a higher rating."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project lacks a PyPI package, API/SDK, or webhook support, limiting integration to manual CLI usage."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "A docs/wiki link is present (has docs/link: true) and the page length is 1790 characters, giving a minimal but existent documentation base."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The website reports version 1.0, which meets the proxy rule for a maturity score of 7 when no repository data exists."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are present in the test output, so a neutral performance score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Sigabrt.dev is a terminal UI that lets users monitor cron jobs over SSH, showing status and logs in a navigable dashboard. It runs as a CLI tool without requiring any API keys and is built around a simple SSH/TUI approach. It is suited for system administrators who need a lightweight, on‑premise way to keep an eye on scheduled tasks across servers. The main strength is its focused SSH monitoring capability, while the lack of an installable package, limited documentation, and virtually no community support are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://sigabrt.dev/",
+  "tool_url": "https://sigabrt.dev/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49765354",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 3
+    }
+  }
+}
