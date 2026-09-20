@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Measure internet censorship",
+    "url": "https://ooni.org/install",
+    "hn_url": "https://news.ycombinator.com/item?id=49769676",
+    "points": 171,
+    "comments": 111,
+    "author": "Bluestein",
+    "age": "2026-09-19T20:00:59",
+    "scraped_at": "2026-09-20T13:00:03.113Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/ooni/probe-cli",
+    "confidence": 0.95,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "OONI Probe CLI is an open‑source client for measuring internet censorship and network performance across the globe.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Shieldsup",
+      "Netprobe",
+      "OpenSignal"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/ooni/probe-cli and build with Cargo",
+      "run 'probe-cli --version' and verify output",
+      "execute a sample probe against a known target (e.g., https://www.google.com) and capture the JSON output",
+      "measure the time to complete a basic HTTP probe and ensure it completes within 30 seconds"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ooni/probe-cli"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789909244026-yt2qj",
+    "log_dir": "/tmp/llm-review-1789909244026-yt2qj",
+    "install_success": true,
+    "install_time_s": 17.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Command failed: /usr/local/bin/python -m pip install --quiet probe-cli\nReturn code: 1\nOutput: \nError: ERROR: Could not find a version that satisfies the requirement probe-cli (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for probe-cli\n\nINSTALL_OK\nINSTALL_FAIL:Command failed: /usr/local/bin/python -m pip install --quiet -e /tmp/tmpqzji8nk6/probe-cli\nReturn code: 1\nOutput: \nError: \n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/tmpqzji8nk6/probe-cli does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n\nTEST_FAIL:import_time:No module named 'probe_cli'\nTEST_FAIL:version:Command failed: probe-cli --version\nReturn code: 127\nOutput: \nError: /bin/sh: probe-cli: not found\n\nTEST_FAIL:http_probe:Command failed: probe-cli http https://www.google.com --format json --timeout 30\nReturn code: 127\nOutput: \nError: /bin/sh: probe-cli: not found\n\nRUN_OK\n"
+  }
+}
