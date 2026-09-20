@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 197, in <module>
+    main()
+  File "/app/test.py", line 136, in main
+    binary = find_executable(workdir)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 56, in find_executable
+    for f in os.listdir(target):
+             ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/zkjpeg_uh8s6ey9/target/release'
