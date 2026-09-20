@@ -1,0 +1,89 @@
+{
+  "app_name": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+  "url": "https://eprint.iacr.org/2026/2039",
+  "scored_at": "2026-09-20T13:03:41.433Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so insufficient evidence to assess novelty."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research paper type"
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The tool is a research dev‑tool for zero‑knowledge image processing, which does not align closely with today's dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No star or fork data for the project, while the closest comparable OpenZKP has 660 stars, indicating limited distinct advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repository is available; HN points are 91, placing it in the 50–200 range which maps to a community score of 3–4."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research paper type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research paper type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or documented topics were found; lacking concrete documentation evidence results in a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No repository metadata (creation date, forks, issues) is available, so maturity cannot be quantified beyond a neutral assumption."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research paper type without reported benchmark results"
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the idea of zero‑knowledge attestations for image authenticity and highlight practical uses, while a minority raise philosophical and legal concerns, leading to a generally positive but somewhat cautious sentiment."
+    }
+  },
+  "summary": "ZK-JPEG is a command‑line research prototype that applies zero‑knowledge proofs to JPEG images for privacy‑preserving editing and compression. It is built as a CLI tool without a public package manager release and relies on custom cryptographic code. Researchers interested in ZK proofs for media may experiment with it, but the lack of packaging, documentation, and community signals limit its practicality. While the concept is praised in HN comments (sentiment 8/10, 91 points), the project shows minimal differentiation and maturity.",
+  "recommendation": "skip",
+  "app_url": "https://eprint.iacr.org/2026/2039",
+  "tool_url": "https://github.com/zkjpeg/zkjpeg",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=49769405",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenZKP",
+        "stars": 660,
+        "repo": "0xProject/OpenZKP"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "useful for provenance and authenticity",
+        "practical real‑world use cases",
+        "enhances trust in photo platforms"
+      ],
+      "negative_signals": [
+        "philosophical policy concerns",
+        "legal complexity of proof",
+        "possible abuse/ gaming"
+      ],
+      "justification": "Most comments praise the idea of zero‑knowledge attestations for image authenticity and highlight practical uses, while a minority raise philosophical and legal concerns, leading to a generally positive but somewhat cautious sentiment.",
+      "comment_count": 20,
+      "hn_points": 91
+    }
+  }
+}
