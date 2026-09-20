@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+    "url": "https://eprint.iacr.org/2026/2039",
+    "hn_url": "https://news.ycombinator.com/item?id=49769405",
+    "points": 91,
+    "comments": 20,
+    "author": "gslin",
+    "age": "2026-09-19T19:23:23",
+    "scraped_at": "2026-09-20T13:00:03.117Z",
+    "tool_url": "https://github.com/zkjpeg/zkjpeg",
+    "source_type": "research",
+    "is_reviewable": true,
+    "confidence": 0.78,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "An open-source command‑line tool that applies zero‑knowledge proofs to JPEG images, allowing privacy‑preserving editing and compression.",
+    "use_modes": [
+      "CLI",
+      "ZKP"
+    ],
+    "similar_tools": [
+      "ZK‑Steganography",
+      "ZK‑Video",
+      "OpenZKP"
+    ],
+    "proposed_tests": [
+      "Clone repository and run `cargo build --release`",
+      "Encode a sample JPEG and measure resulting file size and proof generation time",
+      "Decode the JPEG with proof verification, compare pixel data to original",
+      "Run a batch of 10 images and benchmark average throughput"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zkjpeg/zkjpeg"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789909345616-i8q23",
+    "log_dir": "/tmp/llm-review-1789909345616-i8q23",
+    "install_success": true,
+    "install_time_s": 13.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:6.314\nBENCHMARK:clone_time_s:0.286\nBENCHMARK:build_time_s:0.001",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 197, in <module>\n    main()\n  File \"/app/test.py\", line 136, in main\n    binary = find_executable(workdir)\n             ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 56, in find_executable\n    for f in os.listdir(target):\n             ^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/zkjpeg_uh8s6ey9/target/release'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:6.314\nINSTALL_FAIL:Cloning into '/tmp/zkjpeg_uh8s6ey9'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:clone_time_s:0.286\nTEST_FAIL:cargo_build:[Errno 2] No such file or directory: '/tmp/zkjpeg_uh8s6ey9'\nBENCHMARK:build_time_s:0.001\n"
+  }
+}
