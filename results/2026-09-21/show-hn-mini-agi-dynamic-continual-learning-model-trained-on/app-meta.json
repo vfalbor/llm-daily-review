@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+    "url": "https://github.com/volotat/mini-AGI/",
+    "hn_url": "https://news.ycombinator.com/item?id=49783133",
+    "points": 168,
+    "comments": 30,
+    "author": "volotat",
+    "age": "2026-09-21T04:42:37",
+    "scraped_at": "2026-09-21T13:00:03.154Z",
+    "tool_url": "https://github.com/volotat/mini-AGI/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.83,
+    "domain": "llm-ai",
+    "app_type": "llm-training",
+    "description": "A lightweight continual learning model that can be trained on a single 8GB GPU",
+    "use_modes": [
+      "Python script"
+    ],
+    "similar_tools": [
+      "TinyLlama",
+      "LlamaIndex",
+      "LangChain"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/volotat/mini-AGI.git",
+      "cd mini-AGI && pip install -r requirements.txt",
+      "python train.py --epochs 1 --gpus 1",
+      "verify model checkpoint size < 500MB",
+      "run inference on sample prompt and measure latency"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/volotat/mini-AGI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789995970772-efeo8",
+    "log_dir": "/tmp/llm-review-1789995970772-efeo8",
+    "install_success": true,
+    "install_time_s": 10.1,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.5679\nBENCHMARK:install_mem_peak_kb:59.8955\nBENCHMARK:import_time_s:0.0022\nBENCHMARK:import_mem_peak_kb:27.7686\nBENCHMARK:train_time_s:0.0877\nBENCHMARK:train_mem_peak_kb:60.6846\nBENCHMARK:checkpoint_size_mb:-1\nBENCHMARK:inference_time_s:0.0185\nBENCHMARK:inference_mem_peak_kb:60.0049\nBENCHMARK:vs_TinyLlama_inference_ratio:0.015",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_PASS:install_requirements\nTEST_FAIL:import_package:mini_agi not found\nTEST_FAIL:train_one_epoch:Traceback (most recent call last):\n  File \"/tmp/mini_agi_test/mini-AGI/train.py\", line 42, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n\nTEST_FAIL:checkpoint_size:No checkpoint directory found\nTEST_FAIL:inference_latency:/usr/local/bin/python: can't open file '/tmp/mini_agi_test/mini-AGI/inference.py': [Errno 2] No such file or directory\n\nBENCHMARK:install_time_s:0.5679\nBENCHMARK:install_mem_peak_kb:59.8955\nBENCHMARK:import_time_s:0.0022\nBENCHMARK:import_mem_peak_kb:27.7686\nBENCHMARK:train_time_s:0.0877\nBENCHMARK:train_mem_peak_kb:60.6846\nBENCHMARK:checkpoint_size_mb:-1\nBENCHMARK:inference_time_s:0.0185\nBENCHMARK:inference_mem_peak_kb:60.0049\nBENCHMARK:vs_TinyLlama_inference_ratio:0.015\nRUN_OK\n"
+  }
+}
