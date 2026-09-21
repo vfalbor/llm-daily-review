@@ -1,0 +1,61 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "I turned Jev into a (lousy) chatbot",
+    "url": "https://github.com/kyle-pena-nlp/jevchat/",
+    "hn_url": "https://news.ycombinator.com/item?id=49778162",
+    "points": 157,
+    "comments": 44,
+    "author": "kp1197",
+    "age": "2026-09-20T17:51:27",
+    "scraped_at": "2026-09-21T13:00:03.164Z",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "llm-assistant",
+    "source_type": "tool",
+    "tool_url": "https://github.com/kyle-pena-nlp/jevchat",
+    "description": "A lightweight chatbot built on top of a local LLM, providing simple conversational capabilities via a CLI.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "ChatGPT CLI",
+      "OpenAI Chat API wrapper"
+    ],
+    "proposed_tests": [
+      {
+        "step": "Clone repo",
+        "action": "git clone https://github.com/kyle-pena-nlp/jevchat.git"
+      },
+      {
+        "step": "Install dependencies",
+        "action": "pip install -r requirements.txt"
+      },
+      {
+        "step": "Run chatbot in test mode",
+        "action": "python jevchat.py --test"
+      },
+      {
+        "step": "Send test message and verify response contains expected keywords",
+        "action": "echo 'Hello' | python jevchat.py"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/kyle-pena-nlp/jevchat"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789996246782-ru6pq",
+    "log_dir": "/tmp/llm-review-1789996246782-ru6pq",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.66\nBENCHMARK:pip_install_s:0.98\nBENCHMARK:loc_count:489349\nBENCHMARK:vs_chatgpt_cli_hello_world_latency_ms:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.66\nINSTALL_FAIL:pip install jevchat error ERROR: Could not find a version that satisfies the requirement jevchat (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for jevchat\nBENCHMARK:pip_install_s:0.98\nTEST_FAIL:import_jevchat:No module named 'jevchat'\nTEST_FAIL:hello_world:No module named 'jevchat'\nTEST_FAIL:fibonacci:No module named 'jevchat'\nBENCHMARK:loc_count:489349\nBENCHMARK:vs_chatgpt_cli_hello_world_latency_ms:0.833\nRUN_OK\n"
+  }
+}
