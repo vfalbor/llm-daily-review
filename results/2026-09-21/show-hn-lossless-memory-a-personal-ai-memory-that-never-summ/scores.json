@@ -1,0 +1,109 @@
+{
+  "app_name": "Lossless-memory",
+  "url": "https://github.com/aru-labs/lossless-memory",
+  "scored_at": "2026-09-21T13:06:09.291Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is only 16 days old and is not a fork, but its functionality duplicates existing tools with far higher star counts, indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) in 16.4 seconds, but there is no PyPI package, requiring a manual install which adds moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-assistant memory system, it addresses a current need for persistent context in LLM workflows, aligning well with present AI development trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has only 8 stars compared to 2,111 for Recall and 2,060 for Personal AI, and the benchmark only shows an import time of 0.16 ms with a vs_import_time_ratio of 0.001, offering no clear advantage over established alternatives."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repository has 8 stars, a single contributor, and was last updated 16 days ago, indicating a very small and nascent community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 2 tests, 0 passed (0/2), though the basic run succeeded; the low test pass rate suggests core functionality may be fragile."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but the project offers a Python API and CLI under an MIT license, providing a moderate integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is 16 days old, has 3 forks and zero open issues, indicating early-stage development without a stable release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report an import time of 0.16 ms and a vs_import_time_ratio of 0.001, but no comparative data against peers is available, so a neutral score is given."
+    }
+  },
+  "summary": "Lossless-memory is an open‑source personal AI memory system that stores context without summarization. It provides a Python API and a CLI, running locally without requiring an API key. The tool targets developers who need persistent LLM context for long‑running conversations or agents. While its import time is extremely low (0.16 ms), the project is brand new, has only 8 stars, and failed all provided tests, making it a niche option with limited community support.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/aru-labs/lossless-memory",
+  "tool_url": "https://github.com/aru-labs/lossless-memory",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49786419",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": {
+      "stars": 8,
+      "forks": 3,
+      "open_issues": 0,
+      "watchers": 8,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 16,
+      "days_since_created": 16,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Lossless long-term memory for a personal AI: never summarize, keep every line, put a timestamp on everything.",
+      "topics": [
+        "ai-memory",
+        "conversational-ai",
+        "fts5",
+        "llm-memory",
+        "long-term-memory",
+        "memory",
+        "personal-ai",
+        "python",
+        "rag",
+        "sqlite"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Recall",
+        "stars": 2111,
+        "repo": "Fakerr/git-recall"
+      },
+      {
+        "name": "Personal AI",
+        "stars": 2060,
+        "repo": "fiatrete/OpenDAN-Personal-AI-OS"
+      },
+      {
+        "name": "MemoryBank",
+        "stars": 451,
+        "repo": "zhongwanjun/MemoryBank-SiliconFriend"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
