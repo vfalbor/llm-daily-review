@@ -1,0 +1,107 @@
+{
+  "app_name": "Ogre Battle 64 Recompiled Project at 99.05%",
+  "url": "https://github.com/lfarroco/ogre-battle-64-recomp",
+  "scored_at": "2026-09-21T13:10:45.524Z",
+  "total_score": 35,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository is 27 days old, is not a fork, and simply reimplements an existing game, making it a near‑duplicate of tools like Dolphin (128 stars) and RetroArch (14,073 stars)."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 13.7 seconds and required no API key, though the tool is not available via PyPI."
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "As a game‑recompiler (app_type \"game-recompiler\"), it does not address current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has only 41 GitHub stars, far fewer than Dolphin (128) and RetroArch (14,073), and provides no benchmark advantages."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repo has 41 stars, 2 contributors, and was updated today, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 1 test, 0 passed (0% pass rate) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type (game-recompiler)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 27 days old, has 0 forks and 0 open issues, placing it at an early alpha stage."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type as no performance benchmarks are reported."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of comments focus on the legal gray area of recompilation projects and concerns about using LLMs for code generation, while a few express enthusiasm for the game’s reavailability and modding potential."
+    }
+  },
+  "summary": "Ogre Battle 64 Recompiled Project is a CLI and web tool that rebuilds the classic Ogre Battle 64 game with updated assets and bug fixes. It runs locally without needing an API key and installs in under 14 seconds, but its test suite reports 0 of 1 tests passing, indicating core functionality is not verified. The project is very new (27 days) with only 41 stars and minimal community activity, making it a niche reimplementation rather than a novel solution. Its main strength is the availability of a near‑complete recompiled game, while the primary caveat is the lack of demonstrated reliability and limited differentiation from existing emulators.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/lfarroco/ogre-battle-64-recomp",
+  "tool_url": "https://github.com/lfarroco/ogre-battle-64-recomp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49780022",
+  "domain": "other",
+  "app_type": "game-recompiler",
+  "enriched": {
+    "github": {
+      "stars": 41,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 41,
+      "contributors": 2,
+      "license": "none",
+      "language": "Assembly",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 27,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Recompilation project for the game \"Ogre Battle 64: Person of Lordly Caliber\"",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Dolphin emulator",
+        "stars": 128,
+        "repo": "ElektroStudios/Dolphin_Emulator_RVZ_ISO_GameCube_Wii_Conversion_Scripts"
+      },
+      {
+        "name": "RetroArch",
+        "stars": 14073,
+        "repo": "libretro/RetroArch"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "playable and mod-friendly",
+        "community interest"
+      ],
+      "negative_signals": [
+        "legal uncertainty",
+        "LLM concerns"
+      ],
+      "justification": "The majority of comments focus on the legal gray area of recompilation projects and concerns about using LLMs for code generation, while a few express enthusiasm for the game’s reavailability and modding potential.",
+      "comment_count": 30,
+      "hn_points": 95
+    }
+  }
+}
