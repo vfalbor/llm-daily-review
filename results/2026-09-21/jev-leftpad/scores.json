@@ -1,0 +1,114 @@
+{
+  "app_name": "Jev-Leftpad",
+  "url": "https://github.com/f/jev-leftpad",
+  "scored_at": "2026-09-21T13:05:14.542Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 0 days ago, not a fork, and essentially replicates existing left‑pad tools (e.g., leftpad with 754 stars), indicating a near‑duplicate."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 191.8 seconds and there is no PyPI package, implying a moderately complex setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool‑CLI for string padding, it addresses a niche need that is not a major focus of current LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The repo has only 32 stars versus similar tools with 754, 89,929 and 599 stars, and no benchmark advantages are reported."
+    },
+    "community": {
+      "score": 4,
+      "justification": "GitHub shows 32 stars, a single contributor, and the repo was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed and the basic run failed, indicating core functionality does not work out of the box."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Only a CLI mode is provided, no PyPI package, and no API surface, making integration manual and limited."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic tags were found, so documentation evidence is missing; a neutral score is applied."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository was created today (0 days), has 1 fork and 2 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output reports an import time of 142 ms (BENCHMARK:import_time_ms:142) but no comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments express mixed feelings: enthusiasm for the novel AI‑powered leftpad and potential tooling, but also worries about production safety, missing confidence scores, and the risk of adding a dependency that could cause outages."
+    }
+  },
+  "summary": "Jev-Leftpad is a tiny command‑line tool that pads strings on the left. It is a pure JavaScript CLI built without any external API dependencies. It suits developers who need a quick, local utility for simple padding tasks. The main strength is its minimal footprint, while the lack of tests passing and limited documentation are significant drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/f/jev-leftpad",
+  "tool_url": "https://github.com/f/jev-leftpad",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49784706",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 32,
+      "forks": 1,
+      "open_issues": 2,
+      "watchers": 32,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Left-pad strings with TypeSafe AI's Jev. For reasons.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "leftpad",
+        "stars": 754,
+        "repo": "hwayne/lets-prove-leftpad"
+      },
+      {
+        "name": "pad",
+        "stars": 89929,
+        "repo": "PaddlePaddle/PaddleOCR"
+      },
+      {
+        "name": "textutils",
+        "stars": 599,
+        "repo": "CodeWithHarry/TextUtils-React"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "novel use of AI for string padding",
+        "potential for lightweight, fast utilities",
+        "fun test runner idea"
+      ],
+      "negative_signals": [
+        "security & reliability concerns",
+        "dependency risk",
+        "lack of confidence handling"
+      ],
+      "justification": "Comments express mixed feelings: enthusiasm for the novel AI‑powered leftpad and potential tooling, but also worries about production safety, missing confidence scores, and the risk of adding a dependency that could cause outages.",
+      "comment_count": 30,
+      "hn_points": 127
+    }
+  }
+}
