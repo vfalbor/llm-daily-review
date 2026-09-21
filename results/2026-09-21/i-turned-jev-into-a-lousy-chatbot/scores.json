@@ -1,0 +1,104 @@
+{
+  "app_name": "I turned Jev into a (lousy) chatbot",
+  "url": "https://github.com/kyle-pena-nlp/jevchat/",
+  "scored_at": "2026-09-21T13:11:52.992Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo was created 1 day ago and is not a fork, but it offers a chatbot similar to the existing ChatGPT CLI which has 1,240 stars versus this project's 62 stars, indicating it is a near‑duplicate implementation."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 9.9 seconds, well under the 30‑second threshold, and the tool runs locally without requiring an API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑assistant CLI tool, it directly matches current LLM workflow needs for lightweight local chat interactions."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "It provides both a CLI and an HTTP API whereas the comparable ChatGPT CLI only offers a CLI, and the benchmark shows a hello‑world latency of 0.833 ms, suggesting a speed advantage, but overall feature set remains similar."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repo has 62 stars (under 100) and a single contributor, though it was updated today (0 days since last commit), indicating limited but recent community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of three tests passed (0/3), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project is not on PyPI and lacks a formal SDK, but it exposes a CLI and an HTTP API, offering a moderate integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 1 day old, has 2 forks and 0 open issues, indicating an early‑stage project with minimal maturity."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows a latency of 0.833 ms for a hello‑world request versus the ChatGPT CLI, suggesting comparable or slightly better performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments mostly praise the playful and insightful exploration of Jev, while a minority raise issues about execution quality, redundancy, and performance, leading to a generally positive but somewhat critical tone."
+    }
+  },
+  "summary": "This is a lightweight CLI and HTTP‑API chatbot built on a local LLM. It runs locally without needing an API key and is implemented in Python. It is suited for developers who want a quick, self‑hosted chat interface for experimentation. While it offers fast hello‑world latency (0.833 ms) and dual interaction modes, the project is brand new, has minimal community engagement, and fails its basic test suite, limiting its reliability.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/kyle-pena-nlp/jevchat/",
+  "tool_url": "https://github.com/kyle-pena-nlp/jevchat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49778162",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": {
+      "stars": 62,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 62,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Turns Jev into a chatbot",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ChatGPT CLI",
+        "stars": 1240,
+        "repo": "0xacx/chatGPT-shell-cli"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "creative experimentation",
+        "fun and humor",
+        "insight into model behavior"
+      ],
+      "negative_signals": [
+        "execution concerns",
+        "redundancy of ideas",
+        "performance criticism"
+      ],
+      "justification": "Comments mostly praise the playful and insightful exploration of Jev, while a minority raise issues about execution quality, redundancy, and performance, leading to a generally positive but somewhat critical tone.",
+      "comment_count": 30,
+      "hn_points": 157
+    }
+  }
+}
