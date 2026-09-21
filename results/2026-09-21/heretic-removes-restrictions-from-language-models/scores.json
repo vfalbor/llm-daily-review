@@ -1,0 +1,101 @@
+{
+  "app_name": "Heretic",
+  "url": "https://heretic-project.org/",
+  "scored_at": "2026-09-21T13:08:27.851Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and the tool appears to be a variation on existing jailbreak proxies, so we assign a neutral score."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 9 seconds (<30s) and the package exists on PyPI, indicating an easy, consumer‑hardware install."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑inference tool that lifts model usage restrictions, it addresses a hot topic in current LLM workflows."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no reported GitHub stars while similar tools have 5 and 28 stars, and benchmarks show a 1.6× latency penalty (vs_promptlayer_latency_ratio 1.598), indicating limited advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No public repo is available; HN points are 90 (50‑200 range) which maps to a community score of 3‑4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%), and while install succeeded, core functionality is not fully verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI and offers both a CLI and a Python SDK, making integration moderately straightforward despite missing license details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub README, wiki, or docs page data was found; without concrete evidence we assign a neutral score."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Absent repository metrics; HN points are only 90 (<200) and no versioning info is available, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmarks report a direct latency of 50.12 ms and a 1.598× slower ratio versus PromptLayer, showing no performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment score is 6/10 with 90 points and 30 comments, reflecting a generally positive but cautious reception."
+    }
+  },
+  "summary": "Heretic is a CLI and Python SDK that proxies OpenAI/Anthropic APIs to remove usage restrictions via prompt injection. It runs locally and requires an API key, installing from PyPI in under 10 seconds. The tool is aimed at developers who need unrestricted model access for experimentation, but its latency is about 1.6× higher than comparable wrappers and community adoption is limited. While the engineering is praised, the project's maturity and documentation are minimal.",
+  "recommendation": "niche",
+  "app_url": "https://heretic-project.org/",
+  "tool_url": "https://github.com/heretic-project/heretic",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49783101",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PromptLayer",
+        "stars": 5,
+        "repo": "MagnivOrg/my-chatgpt-promptlayer"
+      },
+      {
+        "name": "OpenAI API wrapper",
+        "stars": 28,
+        "repo": "karamusluk/OpenAI-GPT-3-API-Wrapper-for-PHP-8"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.0",
+      "summary": "",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "https://github.com/jkloo/Heretic"
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "well engineered pipeline",
+        "models perform well",
+        "useful for local deployment"
+      ],
+      "negative_signals": [
+        "overstated claims",
+        "concerns over outlawing",
+        "security implications"
+      ],
+      "justification": "The discussion is largely technical, noting good performance and engineering, but several comments raise skepticism about claim strength and potential regulatory backlash, leading to a generally positive yet cautiously critical overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 90
+    }
+  }
+}
