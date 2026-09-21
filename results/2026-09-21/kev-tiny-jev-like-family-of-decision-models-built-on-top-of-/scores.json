@@ -1,0 +1,125 @@
+{
+  "app_name": "Kev",
+  "url": "https://github.com/jaredpalmer/kev/tree/main",
+  "scored_at": "2026-09-21T13:01:46.469Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is only 3 days old and is not a fork, but it closely mirrors existing Jev functionality, making it an incremental improvement rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 26.4 seconds (<30 s) and the package is available on PyPI, indicating a straightforward setup on consumer hardware."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework tool that wraps Qwen3.5, it aligns well with current trends of lightweight decision‑model wrappers for large language models."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Kev has 1,751 stars, far fewer than Jev (14,358) and LangChain (146,786), and the only quantitative claim is an import time of 142 ms, which does not demonstrate a clear advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,751 GitHub stars, 4 contributors, and was updated today (0 days since last commit), showing an active but still modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed (0 % pass rate) despite a successful install, indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package (v0.10.0) is available, the tool offers a Python API, and it is licensed under Apache‑2.0, making integration straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned due to insufficient documentation signals."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 3 days old, has 96 forks and 6 open issues, indicating early‑stage development and limited stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows an import time of 142 ms and an install time of 7.614 s, but without comparative data it can only be rated as average."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the model’s fast, low‑latency performance and simple JSON‑based interface, while many express uncertainty about real‑world applications and point out occasional reliability issues or lack of novelty compared to traditional classifiers."
+    }
+  },
+  "summary": "Kev is a tiny Python library that provides Jev‑style decision models built on top of the Qwen3.5 LLM. It is distributed via PyPI and offers a simple Python API, making it easy to add to existing codebases. The tool is suited for developers who need lightweight, low‑latency decision logic and are already using Qwen3.5. While the import time is modest (142 ms) and the package installs quickly, the lack of passing tests and the very new codebase limit confidence in its reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/jaredpalmer/kev/tree/main",
+  "tool_url": "https://github.com/jaredpalmer/kev/tree/main",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49783999",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 1751,
+      "forks": 96,
+      "open_issues": 6,
+      "watchers": 1751,
+      "contributors": 4,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+      "topics": [
+        "decision-model",
+        "jev",
+        "qwen3"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Jev",
+        "stars": 14358,
+        "repo": "browser-use/jev-ultrafast"
+      },
+      {
+        "name": "LangChain",
+        "stars": 146786,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "Qwen3.5",
+        "stars": 362,
+        "repo": "AI-FanGe/AI_DesktopCat_Qwen3.5Omni"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.10.0",
+      "summary": "K.E.V. (Keys, Extra Stuff, and Values) is a Python ORM for key-value stores and document databases based on Valley. Currently supported backends are Redis, S3 and a S3/Redis hybrid backend.",
+      "requires_python": ">=3.7,<4.0",
+      "license": "Apache-2.0",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "speed and low latency",
+        "simplicity and ease of integration",
+        "potential for broad applicability"
+      ],
+      "negative_signals": [
+        "limited immediate use cases",
+        "concerns about reliability and completeness",
+        "comparisons to existing classifiers"
+      ],
+      "justification": "Comments generally praise the model’s fast, low‑latency performance and simple JSON‑based interface, while many express uncertainty about real‑world applications and point out occasional reliability issues or lack of novelty compared to traditional classifiers.",
+      "comment_count": 30,
+      "hn_points": 182
+    }
+  }
+}
