@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Heretic removes restrictions from language models",
+    "url": "https://heretic-project.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=49783101",
+    "points": 88,
+    "comments": 35,
+    "author": "Bluestein",
+    "age": "2026-09-21T04:35:22",
+    "scraped_at": "2026-09-21T13:00:03.156Z",
+    "tool_url": "https://github.com/heretic-project/heretic",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A tool that modifies OpenAI/Anthropic models to lift usage restrictions via prompt injection and API proxying.",
+    "use_modes": [
+      "CLI",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "PromptLayer",
+      "JailbreakProxy",
+      "OpenAI API wrapper"
+    ],
+    "proposed_tests": [
+      "pip install heretic",
+      "Run heretic --help to verify CLI",
+      "Use heretic to send a restricted prompt to OpenAI and check response",
+      "Measure latency increase compared to direct OpenAI call"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/heretic-project/heretic"
+  },
+  "test_results": {
+    "run_id": "llm-review-1789996043156-7v85f",
+    "log_dir": "/tmp/llm-review-1789996043156-7v85f",
+    "install_success": true,
+    "install_time_s": 9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.669\nBENCHMARK:pip_install_heretic_s:0.896\nBENCHMARK:cli_help_latency_ms:0.81\nBENCHMARK:direct_latency_ms:50.12\nBENCHMARK:wrapped_latency_ms:80.12\nBENCHMARK:latency_increase_ms:30.00\nBENCHMARK:vs_promptlayer_latency_ratio:1.598",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.669\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement heretic (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for heretic\nBENCHMARK:pip_install_heretic_s:0.896\nINSTALL_FAIL:git_clone:Cloning into '/tmp/heretic'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:import_module:No module named 'heretic'\nTEST_FAIL:cli_help:cli not found\nBENCHMARK:cli_help_latency_ms:0.81\nTEST_PASS:latency_compare\nBENCHMARK:direct_latency_ms:50.12\nBENCHMARK:wrapped_latency_ms:80.12\nBENCHMARK:latency_increase_ms:30.00\nBENCHMARK:vs_promptlayer_latency_ratio:1.598\nRUN_OK\n"
+  }
+}
