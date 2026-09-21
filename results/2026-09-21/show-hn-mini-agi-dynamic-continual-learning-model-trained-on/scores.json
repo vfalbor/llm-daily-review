@@ -1,0 +1,114 @@
+{
+  "app_name": "Mini-AGI",
+  "url": "https://github.com/volotat/mini-AGI/",
+  "scored_at": "2026-09-21T13:07:21.821Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 2 days ago and is not a fork, but it targets the same problem space as TinyLlama and other large LLM wrappers, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 10.1 s and the code runs locally without an API key, though no PyPI package exists, making setup fairly simple but not completely frictionless."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑training tool that can be run on a single 8 GB GPU, it addresses a current pain point for developers wanting low‑resource continual learning."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With only 177 stars versus tens of thousands for TinyLlama, LlamaIndex, and LangChain, the project is much smaller, but its inference speed is 0.015 × that of TinyLlama (vs_TinyLlama_inference_ratio: 0.015), a clear performance edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 177 stars, 1 contributor, and was updated today (0 days since last commit), indicating modest but active interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 2 out of 6 tests passed (33 %), which is below the 50 % threshold for a higher rating, though installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is distributed only as source code (no PyPI package) and provides a Python script interface; manual glue code is required to embed it in pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 2 days old with 17 forks and 2 open issues, suggesting an early‑alpha stage without a stable release."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows inference time of 0.0185 s and an inference‑speed ratio of 0.015 compared to TinyLlama, indicating more than a 2× speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show excitement over the novel expert‑swapping design and the possibility of AGI on 8 GB VRAM, yet several users point out insufficient training, poor benchmarks, and skepticism about real intelligence, resulting in a generally positive but critically tempered reception."
+    }
+  },
+  "summary": "Mini-AGI is a lightweight continual‑learning model that can be trained on a single 8 GB GPU. It runs as a pure Python script and does not require any external API keys. The tool is aimed at hobbyists and researchers who need a low‑resource training loop, and it shines with an inference speed that is only 1.5 % of TinyLlama's latency. However, the library is brand‑new (2 days old), has limited documentation, and only 2 of 6 functional tests pass, so it remains experimental.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/volotat/mini-AGI/",
+  "tool_url": "https://github.com/volotat/mini-AGI/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49783133",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 177,
+      "forks": 17,
+      "open_issues": 2,
+      "watchers": 177,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "TinyLlama",
+        "stars": 9014,
+        "repo": "jzhang38/TinyLlama"
+      },
+      {
+        "name": "LlamaIndex",
+        "stars": 52259,
+        "repo": "run-llama/llama_index"
+      },
+      {
+        "name": "LangChain",
+        "stars": 146786,
+        "repo": "langchain-ai/langchain"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "innovative continual learning architecture",
+        "potential for local AGI with limited hardware",
+        "enthusiastic community support"
+      ],
+      "negative_signals": [
+        "questionable generalization and performance",
+        "limited training data and undertrained model",
+        "concerns about marketing overreach"
+      ],
+      "justification": "Comments show excitement over the novel expert‑swapping design and the possibility of AGI on 8 GB VRAM, yet several users point out insufficient training, poor benchmarks, and skepticism about real intelligence, resulting in a generally positive but critically tempered reception.",
+      "comment_count": 30,
+      "hn_points": 168
+    }
+  }
+}
