@@ -1,0 +1,99 @@
+{
+  "app_name": "Python Workers",
+  "url": "https://github.com/cloudflare/python-workers",
+  "scored_at": "2026-09-22T13:01:16.803Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and no GitHub metrics were found to compare novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 15.5 s, but the tool is not available on PyPI, requiring a non‑pip installation path."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑cli for deploying serverless Python functions, it aligns with current cloud and LLM integration trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark data for this tool; only similar tools have stars (wrangler 3,189, flyctl 1,706, vercel cli 811)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository; HN points are 243 with 30 comments, placing it in the 200‑500 range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0/1) despite successful installation, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool lacks a PyPI package and only offers CLI/SDK modes, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub repository data (wiki, pages, topics) is unavailable, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "No repository data; HN points of 243 and a stable domain suggest moderate maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines are absent; only install_time_s 5.981 s and pip_install_time_s 1.033 s are reported without comparative context."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely praise Cloudflare’s new Python Workers for expanding developer options and acknowledge community contributions, while raising valid concerns over cold-start times, performance relative to Lambda, and network‑stack restrictions."
+    }
+  },
+  "summary": "Python Workers is a CLI and SDK that lets developers build and deploy serverless Python functions to Cloudflare's Workers runtime. It operates via a proprietary deployment flow rather than a standard PyPI package, requiring an API key and manual setup. The tool is suited for developers needing edge‑deployed Python code, especially those already using Cloudflare services. While it installs quickly (15.5 s) and has positive HN sentiment, the lack of tests passing and limited integration options are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.cloudflare.com/python-workers-ga/",
+  "tool_url": "https://github.com/cloudflare/python-workers",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49787142",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "wrangler",
+        "stars": 3189,
+        "repo": "cloudflare/wrangler-legacy"
+      },
+      {
+        "name": "flyctl",
+        "stars": 1706,
+        "repo": "superfly/flyctl"
+      },
+      {
+        "name": "vercel cli",
+        "stars": 811,
+        "repo": "vercel-labs/ai-cli"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Python support adds value",
+        "Community contributions appreciated",
+        "Performance improvements cited"
+      ],
+      "negative_signals": [
+        "Cold-start and performance concerns",
+        "Network stack limitations",
+        "Some usability issues"
+      ],
+      "justification": "The comments largely praise Cloudflare’s new Python Workers for expanding developer options and acknowledge community contributions, while raising valid concerns over cold-start times, performance relative to Lambda, and network‑stack restrictions.",
+      "comment_count": 30,
+      "hn_points": 243
+    }
+  }
+}
