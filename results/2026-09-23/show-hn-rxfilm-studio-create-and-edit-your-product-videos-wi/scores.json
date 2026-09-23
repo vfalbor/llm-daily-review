@@ -1,0 +1,75 @@
+{
+  "app_name": "RxFilm Studio",
+  "url": "https://filmstudio.rxlab.app/",
+  "scored_at": "2026-09-23T13:01:27.368Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and no star comparison is available, so evidence is insufficient."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 11.4 seconds and the tool runs in the browser without needing a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑SaaS video editor with an AI agent, it matches the current surge in AI‑driven content creation tools."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Benchmark ratios vs Descript are all 1.00, showing no speed or memory advantage, and no GitHub stars are available for comparison."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No public repository or stars are detected; HN points are only 7 with 2 comments, indicating minimal community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed (33%), indicating core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The app offers a REST API (use_modes includes REST API) but lacks an SDK, PyPI package, or documentation for integration."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "No docs or wiki link is present, but the page content length is 72,454 characters, suggesting substantial on‑page information."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 0.22, which is pre‑1.0, and no changelog or release notes are available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark ratios (health endpoint, homepage load, API ping) are all 1.00 compared to Descript, indicating average performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "RxFilm Studio is a browser‑based video editing platform that uses an AI agent to help create and edit product videos. It runs entirely in the web UI and also exposes a REST API for programmatic access. The tool is suited for marketers or small teams needing quick AI‑assisted video production without installing software. While it offers a complete web experience, its performance matches existing tools and its community presence is minimal.",
+  "recommendation": "niche",
+  "app_url": "https://filmstudio.rxlab.app/",
+  "tool_url": "https://filmstudio.rxlab.app/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49815095",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 7
+    }
+  }
+}
