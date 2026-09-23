@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+    "url": "https://github.com/xCuri0/ReBarUEFI",
+    "hn_url": "https://news.ycombinator.com/item?id=49781862",
+    "points": 183,
+    "comments": 59,
+    "author": "nateb2022",
+    "age": "2026-09-21T01:07:46",
+    "scraped_at": "2026-09-23T13:00:03.241Z",
+    "tool_url": "https://github.com/xCuri0/ReBarUEFI",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "infrastructure",
+    "app_type": "devtool-cli",
+    "description": "A command-line utility that patches UEFI firmware to enable Resizable BAR (Base Address Register) support on a wide range of systems, improving GPU memory allocation.",
+    "use_modes": [
+      "CLI patcher",
+      "UEFI image modification"
+    ],
+    "similar_tools": [
+      "Resizable BAR utilities for Windows",
+      "UEFI firmware flasher tools"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `cargo build --release` to compile the tool.",
+      "Execute `./rebardeuifile --help` to confirm the CLI interface is functional.",
+      "Create a copy of a test UEFI image, run the tool to enable Resizable BAR, and verify the resulting image contains the expected ACPI table modifications.",
+      "Flash the modified UEFI image onto a virtual machine (e.g., QEMU) and check that the GPU reports increased memory range.",
+      "Measure the time taken for the patching process and compare it against a baseline of manual firmware modification."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/xCuri0/ReBarUEFI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790168564336-aynhm",
+    "log_dir": "/tmp/llm-review-1790168564336-aynhm",
+    "install_success": true,
+    "install_time_s": 9.2,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.699\nBENCHMARK:rust_install_time_s:0.195\nBENCHMARK:clone_time_s:1.258\nBENCHMARK:build_time_s:0.001\nBENCHMARK:mem_alloc_peak_kb:395.16\nBENCHMARK:mem_alloc_time_ms:26.80",
+    "error_log": "Cloning into '/tmp/rebaruefi'...\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.699\nINSTALL_FAIL:Rustup install failed\nBENCHMARK:rust_install_time_s:0.195\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:1.258\nTEST_FAIL:build_tool:[Errno 2] No such file or directory: 'cargo'\nBENCHMARK:build_time_s:0.001\nTEST_FAIL:binary_not_found:Binary not built\nBENCHMARK:mem_alloc_peak_kb:395.16\nBENCHMARK:mem_alloc_time_ms:26.80\nRUN_OK\n"
+  }
+}
