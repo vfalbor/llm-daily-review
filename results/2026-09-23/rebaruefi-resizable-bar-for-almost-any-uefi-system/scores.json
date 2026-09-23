@@ -1,0 +1,102 @@
+{
+  "app_name": "ReBarUEFI",
+  "url": "https://github.com/xCuri0/ReBarUEFI",
+  "scored_at": "2026-09-23T13:03:48.407Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 1534 days old, is not a fork, and only improves on existing Windows utilities, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.2 seconds without a PyPI package, showing a fairly simple setup despite requiring a build from source."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI that patches UEFI firmware for Resizable BAR, it addresses a current hardware optimisation need for modern GPUs."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 2,479 GitHub stars and benchmark data (install_time_s:0.699, rust_install_time_s:0.195), it offers faster patching than many Windows‑only utilities."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 2,479 stars, 2 contributors, and the last commit was 295 days ago, indicating a modest but existing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed (33%), though installation succeeded, suggesting core functionality is fragile."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is a CLI‑only utility with no PyPI package and only MIT license, limiting straightforward API integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 1534 days old with 114 forks and 60 open issues, but the last update was 295 days ago, indicating moderate maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (install_time_s:0.699, mem_alloc_peak_kb:395.16) are available but lack comparative data, so performance cannot be judged."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments largely describe the project’s technical purpose and potential performance gains, while some users highlight real‑world performance issues and call for clearer documentation, leading to a generally positive but somewhat cautious sentiment."
+    }
+  },
+  "summary": "ReBarUEFI is a command‑line utility that patches UEFI firmware to enable Resizable BAR support, improving GPU memory allocation. It is built in C and distributed as a source repository that compiles to a CLI binary. The tool is aimed at advanced users who need to modify firmware on a wide range of systems, especially gamers and PC builders. It stands out with relatively fast patching times (0.699 s install) but suffers from limited documentation and a low test pass rate (1/3).",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/xCuri0/ReBarUEFI",
+  "tool_url": "https://github.com/xCuri0/ReBarUEFI",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49781862",
+  "domain": "infrastructure",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 2479,
+      "forks": 114,
+      "open_issues": 60,
+      "watchers": 2479,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 295,
+      "days_since_created": 1534,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Resizable BAR for (almost) any UEFI system",
+      "topics": [
+        "dxe-driver",
+        "edk2",
+        "efi",
+        "uefi"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Provides performance benefits and broad compatibility",
+        "Detailed technical explanations",
+        "Developer engagement"
+      ],
+      "negative_signals": [
+        "Performance concerns in specific scenarios",
+        "Criticism of clarity and documentation"
+      ],
+      "justification": "Comments largely describe the project’s technical purpose and potential performance gains, while some users highlight real‑world performance issues and call for clearer documentation, leading to a generally positive but somewhat cautious sentiment.",
+      "comment_count": 30,
+      "hn_points": 184
+    }
+  }
+}
