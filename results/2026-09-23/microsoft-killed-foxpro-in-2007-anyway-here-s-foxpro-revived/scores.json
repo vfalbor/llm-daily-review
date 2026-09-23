@@ -1,0 +1,83 @@
+{
+  "app_name": "FoxDev Studio",
+  "url": "https://foxscript.org/",
+  "scored_at": "2026-09-23T13:02:42.580Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is provided, and the tool reproduces existing FoxPro/dBase functionality, so insufficient data forces a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 16.3 seconds, but there is no PyPI package, indicating a modest setup complexity."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a revived legacy FoxPro runtime (type: lang-runtime), it addresses a niche legacy‑code need rather than a mainstream LLM workflow."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project offers an API/SDK mention and examples despite lacking stars or benchmark data, giving it a modest edge over pure CLI clones."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repo is available, but HN points are 375 with 30 comments, placing it in the 200–500 range for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed (tests_passed: 0 / tests_total: 1) and despite install success, the low test coverage indicates usability issues."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, but the website mentions an API/SDK, allowing manual integration with some extra glue code."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The site provides docs/wiki links, examples, and a substantial content length of 10,354 characters, indicating thorough documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The detected version is 000.00 and no changelog is present, suggesting an early‑stage or pre‑release maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are reported; only install_time_s (8.14 s) is available, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments express a generally positive nostalgia for FoxPro and praise its ease of use and renewed tooling, but several users caution about data migration challenges and the inherent limits of legacy platforms. The overall tone balances enthusiasm with constructive skepticism, yielding a score of 7."
+    }
+  },
+  "summary": "FoxDev Studio revives the classic FoxPro language as a command‑line REPL and script executor for modern platforms. It runs locally without requiring an API key and offers a basic API/SDK mentioned on its website. The tool is suited for developers maintaining legacy FoxPro codebases who need a lightweight interpreter. While documentation is extensive and installation succeeds quickly, the lack of tests, early‑stage versioning, and modest community support limit its appeal.",
+  "recommendation": "niche",
+  "app_url": "https://foxscript.org/",
+  "tool_url": "https://foxscript.org/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49808023",
+  "domain": "language-runtime",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "nostalgic revival",
+        "high developer productivity",
+        "legacy tooling support"
+      ],
+      "negative_signals": [
+        "legacy data migration risks",
+        "platform limitations",
+        "potential for outdated tech"
+      ],
+      "justification": "The comments express a generally positive nostalgia for FoxPro and praise its ease of use and renewed tooling, but several users caution about data migration challenges and the inherent limits of legacy platforms. The overall tone balances enthusiasm with constructive skepticism, yielding a score of 7.",
+      "comment_count": 30,
+      "hn_points": 375
+    }
+  }
+}
