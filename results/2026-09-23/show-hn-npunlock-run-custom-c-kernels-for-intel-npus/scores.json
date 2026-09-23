@@ -1,0 +1,114 @@
+{
+  "app_name": "npunlock",
+  "url": "https://github.com/hsfzxjy/npunlock",
+  "scored_at": "2026-09-23T13:04:49.526Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created only 2 days ago and is not a fork, but it replicates functionality of existing tools like ONNX Runtime and TensorRT, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 10.3 seconds, showing a simple setup, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool enabling custom C kernels for Intel NPUs, it aligns with the current trend of hardware‑accelerated LLM inference."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The repo has only 41 stars versus 393 for ONNX Runtime and 14,702 for TensorRT, and the benchmark shows a 1.250× slower install ratio than ONNX Runtime, indicating minimal advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "GitHub shows 41 stars, a single contributor, and the repository was updated today, reflecting a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides C API, Rust wrapper, and Python bindings and is Apache‑2.0 licensed, but lacks a PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 2 days old with 0 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark reports a vs_onnxruntime_install_ratio of 1.250, meaning it is slower than the ONNX Runtime baseline."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the tool’s ability to unlock custom NPU kernels and support uncommon operators, but highlight issues such as unpredictable compiler lowering, platform limitations, and lack of extensive community testing."
+    }
+  },
+  "summary": "npunlock is a lightweight devtool that lets developers run custom C kernels directly on Intel NPUs via a C API, Rust wrapper, and Python bindings. It targets low‑latency inference and training workloads by providing a hardware‑specific compilation path. This library is suited for engineers needing fine‑grained NPU control when existing frameworks lack the required operator support. While it offers flexibility for niche operators, its very low star count, slower benchmark than ONNX Runtime, and lack of documentation limit its practicality.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/hsfzxjy/npunlock",
+  "tool_url": "https://github.com/hsfzxjy/npunlock",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49800513",
+  "domain": "hardware",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 41,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 41,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Write and run custom C kernels for Intel Core Ultra NPUs",
+      "topics": [
+        "intel",
+        "npu",
+        "npu-acceleration",
+        "openvino"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ONNX Runtime",
+        "stars": 393,
+        "repo": "xmba15/onnx_runtime_cpp"
+      },
+      {
+        "name": "TensorRT",
+        "stars": 14702,
+        "repo": "NVIDIA/TensorRT-LLM"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Enables custom NPU kernels",
+        "Provides flexibility for uncommon operators",
+        "Shows promising potential for high‑precision work"
+      ],
+      "negative_signals": [
+        "Unpredictable compiler behavior",
+        "Limited platform support",
+        "Sparse community engagement"
+      ],
+      "justification": "Comments generally praise the tool’s ability to unlock custom NPU kernels and support uncommon operators, but highlight issues such as unpredictable compiler lowering, platform limitations, and lack of extensive community testing.",
+      "comment_count": 12,
+      "hn_points": 46
+    }
+  }
+}
