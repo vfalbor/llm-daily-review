@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
+    "url": "https://filmstudio.rxlab.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=49815095",
+    "points": 6,
+    "comments": 2,
+    "author": "zilue",
+    "age": "2026-09-23T12:28:40",
+    "scraped_at": "2026-09-23T13:00:03.238Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://filmstudio.rxlab.app/",
+    "confidence": 0.85,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "RxFilm Studio is a web-based video editing platform that leverages an AI agent to assist with creation and editing of product videos.",
+    "use_modes": [
+      "Browser UI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Descript",
+      "Synthesia",
+      "Pictory"
+    ],
+    "proposed_tests": [
+      {
+        "test": "Open the web app and perform a simple video import",
+        "objective": "Verify UI loads and accepts media"
+      },
+      {
+        "test": "Use the AI agent to generate a storyboard",
+        "objective": "Confirm AI integration and output format"
+      },
+      {
+        "test": "Export the edited video and check file integrity",
+        "objective": "Ensure export pipeline works and produces valid media"
+      },
+      {
+        "test": "Measure load time of the dashboard with 10 videos queued",
+        "objective": "Benchmark UI performance under moderate load"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1790168463551-m4phq",
+    "log_dir": "/tmp/llm-review-1790168463551-m4phq",
+    "install_success": true,
+    "install_time_s": 11.4,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:health_endpoint_time_s:0.033\nBENCHMARK:health_endpoint_mem_kb:243.5\nBENCHMARK:homepage_load_time_s:0.010\nBENCHMARK:homepage_load_mem_kb:51.2\nBENCHMARK:api_ping_time_s:0.002\nBENCHMARK:api_ping_mem_kb:17.6\nBENCHMARK:vs_descript_health_endpoint_ratio:1.00\nBENCHMARK:vs_descript_homepage_load_ratio:1.00\nBENCHMARK:vs_descript_api_ping_ratio:1.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.4-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:git clone failed: Cloning into '/tmp/rxfilm_studio'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:health_endpoint_time_s:0.033\nBENCHMARK:health_endpoint_mem_kb:243.5\nTEST_FAIL:health_endpoint:HTTP Error 404: Not Found\nBENCHMARK:homepage_load_time_s:0.010\nBENCHMARK:homepage_load_mem_kb:51.2\nTEST_PASS:homepage_load\nBENCHMARK:api_ping_time_s:0.002\nBENCHMARK:api_ping_mem_kb:17.6\nTEST_FAIL:api_ping:HTTP Error 404: Not Found\nBENCHMARK:vs_descript_health_endpoint_ratio:1.00\nBENCHMARK:vs_descript_homepage_load_ratio:1.00\nBENCHMARK:vs_descript_api_ping_ratio:1.00\nRUN_OK\n"
+  }
+}
