@@ -1,0 +1,94 @@
+{
+  "app_name": "Mercury 2.5",
+  "url": "https://artificialanalysis.ai/models/mercury-2-5",
+  "scored_at": "2026-09-24T13:02:09.842Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is listed as similar to GPT4All and Llama.cpp, indicating it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10.9 seconds, but there is no PyPI package, so setup is moderately complex."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-inference model optimized for high throughput, it addresses a current need for fast token generation in LLM pipelines."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or direct benchmark comparison to GPT4All (77,386 stars) or Llama.cpp (129,408 stars) is available, so only a neutral differentiation can be assumed."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 129, which falls in the 100–300 range, yielding a community score of 5–6."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 6 tests passed (≈16.7%), indicating core functionality is barely working."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides a Python API and a REST API, but lacks a PyPI package; this gives moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or documentation metrics (wiki, pages, topics) were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With no repository data, the HN points of 129 place maturity in the 100–300 band, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install times of 0.773 s and 2.135 s and a parallel total time of 4.71 ms, but there is no comparative data, so a neutral performance score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight the impressive speed as a positive but criticize the high price, inconsistent results and reliability problems, leading to an overall mixed but slightly positive sentiment."
+    }
+  },
+  "summary": "Mercury 2.5 is a lightweight LLM model that claims high token‑throughput, offering both a Python API and a REST endpoint. It runs locally without requiring an API key and targets users who need fast inference for large token streams. The benchmark logs show sub‑second install times and low latency, but only 1 of 6 functional tests passed, indicating limited reliability. Community reaction is mixed, with 129 HN points and a sentiment of 6/10, highlighting speed as a plus but raising concerns about cost and result consistency.",
+  "recommendation": "niche",
+  "app_url": "https://artificialanalysis.ai/models/mercury-2-5",
+  "tool_url": "https://github.com/ArtificialAnalysis/Mercury-2.5",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49823348",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "GPT4All",
+        "stars": 77386,
+        "repo": "nomic-ai/gpt4all"
+      },
+      {
+        "name": "Llama.cpp",
+        "stars": 129408,
+        "repo": "ggml-org/llama.cpp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "high token throughput",
+        "iterative workflow benefits",
+        "fast for some use cases"
+      ],
+      "negative_signals": [
+        "high cost and pricing concerns",
+        "quality and reliability issues",
+        "lack of input caching advantage"
+      ],
+      "justification": "Comments highlight the impressive speed as a positive but criticize the high price, inconsistent results and reliability problems, leading to an overall mixed but slightly positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 129
+    }
+  }
+}
