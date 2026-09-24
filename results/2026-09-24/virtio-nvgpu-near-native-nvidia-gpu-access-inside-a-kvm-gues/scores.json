@@ -1,0 +1,111 @@
+{
+  "app_name": "Virtio-nvgpu",
+  "url": "https://github.com/nestrilabs/virtio-nvgpu",
+  "scored_at": "2026-09-24T13:01:13.052Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repository is 176 days old, is not a fork, and its 165 stars exceed the 95 stars of the closest alternative by 74%, indicating a meaningful improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 15 seconds, showing a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑queue tool that enables near‑native Nvidia GPU access in KVM guests, it addresses a current demand for GPU virtualization in cloud and edge workloads."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Virtio-nvgpu has 165 GitHub stars versus 95 for the comparable virtio-gpu project (+74%) and claims near‑native performance, providing a clear advantage though no quantitative benchmark is published."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 165 stars, 2 contributors, and was updated today (0 days since last commit), indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Out of 2 tests, 1 passed (50%), meeting the ≥50% threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers both CLI and API modes and is released under Apache‑2.0, but there is no PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 176 days old with 2 forks and 1 open issue, indicating early‑stage but functional software."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were supplied (only a zero build time), so a neutral score is applied."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "While reviewers praise the project’s low performance penalty and reuse of unmodified drivers, several comments highlight concerns over the README’s quality, technical uncertainty around sharing GPUs, and the current absence of Windows support."
+    }
+  },
+  "summary": "Virtio-nvgpu is a kernel module that exposes Nvidia GPUs to KVM guests via VirtIO, enabling near‑native performance. It is built in Rust and provides both a CLI and an API, running locally without external services. The project suits cloud operators or developers needing GPU acceleration inside virtual machines, especially when low overhead is critical. Its main strength is the high star count and recent activity that signal community interest, while the lack of detailed documentation and formal performance benchmarks are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/nestrilabs/virtio-nvgpu",
+  "tool_url": "https://github.com/nestrilabs/virtio-nvgpu",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49824864",
+  "domain": "infrastructure",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": {
+      "stars": 165,
+      "forks": 2,
+      "open_issues": 1,
+      "watchers": 165,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 176,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "[Experimental] A virtio device for near-native NVIDIA GPU access in KVM virtual machines.",
+      "topics": [
+        "gaming",
+        "kvm",
+        "mesa",
+        "nvidia",
+        "virtio",
+        "virtualization"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "virtio-gpu",
+        "stars": 95,
+        "repo": "Keenuts/virtio-gpu-win-icd"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "supports multiple guests with low overhead",
+        "uses unmodified Nvidia drivers",
+        "active roadmap for Windows"
+      ],
+      "negative_signals": [
+        "README language issues",
+        "technical skepticism on GPU sharing",
+        "lack of Windows support"
+      ],
+      "justification": "While reviewers praise the project’s low performance penalty and reuse of unmodified drivers, several comments highlight concerns over the README’s quality, technical uncertainty around sharing GPUs, and the current absence of Windows support.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
