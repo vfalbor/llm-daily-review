@@ -1,0 +1,114 @@
+{
+  "app_name": "Whiteboard",
+  "url": "https://github.com/devdotfast/whiteboard",
+  "scored_at": "2026-09-25T13:04:39.532Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 37 days old and is not a fork, but it closely mirrors existing diagram editors like Zenity and Mermaid, indicating an incremental improvement rather than a breakthrough."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 31.6 seconds and the project runs locally without an API key, though it lacks a PyPI package, making setup fairly simple."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-editor for visual design, it aligns with current trends of lightweight, collaborative IDEs in the LLM‑enhanced development workflow."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 975 stars it slightly exceeds Zenity (922 stars) but trails Dionysus (3,414) and Mermaid Live Editor (6,825), offering modest advantages such as a desktop GUI and animation features."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 975 stars, 8 contributors, and was updated today (0 days since last commit), reflecting an active but still growing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), indicating core functionality works but many features are unreliable despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides a CLI, desktop GUI, and extension mode, is MIT‑licensed, but lacks a PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Created 37 days ago with 36 forks and 21 open issues, indicating early but active development and moderate stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import time of 0.32 ms and startup time of 0.001 s, but no comparative data to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments overwhelmingly praise the design, animation, and agent‑centric focus, while only a few nitpicks touch on naming, pricing, or minor UI choices. The overall tone is very positive with constructive curiosity."
+    }
+  },
+  "summary": "Whiteboard is an open‑source IDE that lets users create visual architecture diagrams via a desktop GUI, CLI, or editor extension. It runs locally without needing an API key and installs in about half a minute. The tool is suited for developers who want a lightweight, animation‑rich design surface for brainstorming software structures. While it installs easily and offers multiple usage modes, its test suite shows limited reliability and its community and documentation are still modest.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/devdotfast/whiteboard",
+  "tool_url": "https://github.com/devdotfast/whiteboard",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49833867",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 975,
+      "forks": 36,
+      "open_issues": 21,
+      "watchers": 975,
+      "contributors": 8,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 37,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "open-source canvas for thoughtful software design",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Zenity",
+        "stars": 922,
+        "repo": "ncruces/zenity"
+      },
+      {
+        "name": "Dionysus",
+        "stars": 3414,
+        "repo": "pewdiepie-archdaemon/dionysus"
+      },
+      {
+        "name": "Mermaid Live Editor",
+        "stars": 6825,
+        "repo": "mermaid-js/mermaid-live-editor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "enthusiastic reception",
+        "appreciation for design and animation",
+        "community interest in agent orchestration"
+      ],
+      "negative_signals": [
+        "concerns about naming and terminology",
+        "minor design complaints",
+        "questions about pricing"
+      ],
+      "justification": "Comments overwhelmingly praise the design, animation, and agent‑centric focus, while only a few nitpicks touch on naming, pricing, or minor UI choices. The overall tone is very positive with constructive curiosity.",
+      "comment_count": 30,
+      "hn_points": 337
+    }
+  }
+}
