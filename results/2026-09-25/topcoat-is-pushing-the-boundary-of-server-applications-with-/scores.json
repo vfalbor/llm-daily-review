@@ -1,0 +1,98 @@
+{
+  "app_name": "Topcoat",
+  "url": "https://tokio.rs/blog/2026-09-24-topcoat-server-applications",
+  "scored_at": "2026-09-25T13:03:32.033Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 30.4 s, but there is no PyPI package, indicating a moderate setup complexity for Rust users."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a Rust web‑framework, it aligns with the current surge in async Rust server tools within the LLM‑enabled backend ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Benchmark shows Topcoat achieves 108 RPS while Actix reports 0 RPS, and Topcoat’s latency is 12.16 ms, giving a clear performance edge over the listed similar tools."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository is detected; HN points are only 22, placing it in the low‑engagement bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 of 6 tests passed (33 %), indicating core functionality is limited and usability is low."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and the API modes (Rust library, CLI) are known, but lack of explicit integration docs forces a neutral score."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata (wiki, pages, topics) is unavailable and no documentation quality signals were found, resulting in a neutral default."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN points (22) are available, indicating an early‑stage project with limited maturity."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks report topcoat_rps of 108.0 versus actix_rps of 0.0 and a latency of 12.16 ms, demonstrating strong performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "HN sentiment score is 5/10 with 22 points and 22 comments, reflecting a mixed but neutral community view."
+    }
+  },
+  "summary": "Topcoat is a Rust‑based, event‑driven server framework that provides both a library and a CLI scaffolder for building low‑latency services. It leverages Rust's async ecosystem and aims to simplify concurrent server development. The tool is suited for Rust developers needing high‑performance back‑ends, especially those prioritizing raw request‑per‑second metrics. It shines with benchmarked 108 RPS and 12 ms latency, but suffers from limited community adoption and sparse documentation.",
+  "recommendation": "niche",
+  "app_url": "https://tokio.rs/blog/2026-09-24-topcoat-server-applications",
+  "tool_url": "https://github.com/oxidecomputer/topcoat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49842332",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Actix",
+        "stars": 24844,
+        "repo": "actix/actix-web"
+      },
+      {
+        "name": "Warp",
+        "stars": 65162,
+        "repo": "warpdotdev/warp"
+      },
+      {
+        "name": "Rocket",
+        "stars": 46174,
+        "repo": "RocketChat/Rocket.Chat"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Early usability is good",
+        "Some developers find it cool and clear",
+        "Clear documentation"
+      ],
+      "negative_signals": [
+        "Unstable API and missing features",
+        "Syntax complaints and borrow checker frustration"
+      ],
+      "justification": "With only five comments, opinions are split: some praise its usability and clarity, while others point out early instability, missing features, and syntax concerns, yielding a neutral mixed sentiment.",
+      "comment_count": 22,
+      "hn_points": 22
+    }
+  }
+}
