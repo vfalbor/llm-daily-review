@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Show HN: Hamilton – a no-internet Android health dashboard, named after my dog",
+    "url": "https://play.google.com/store/apps/details?id=com.gads.hamilton&hl=en_US",
+    "hn_url": "https://news.ycombinator.com/item?id=49843909",
+    "points": 4,
+    "comments": 0,
+    "author": "hamilton_app",
+    "age": "2026-09-25T12:49:17",
+    "scraped_at": "2026-09-25T13:00:03.102Z",
+    "tool_url": "https://play.google.com/store/apps/details?id=com.gads.hamilton&hl=en_US",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "mobile",
+    "app_type": "mobile-native",
+    "description": "An offline Android health dashboard app that tracks health metrics without requiring an internet connection.",
+    "use_modes": [
+      "Android app"
+    ],
+    "similar_tools": [
+      "Samsung Health (offline mode)",
+      "Google Fit (offline sync)"
+    ],
+    "proposed_tests": [
+      "Install the app via APK or Google Play and launch it",
+      "Add a sample health metric (e.g., steps, heart rate) and verify persistence",
+      "Open the app offline and confirm it remains functional",
+      "Check that data syncs when connectivity is restored"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1790341549987-0uxbv",
+    "log_dir": "/tmp/llm-review-1790341549987-0uxbv",
+    "install_success": true,
+    "install_time_s": 14.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 88, in <module>\n    benchmark('import_time', import_module)\n  File \"/app/test.py\", line 14, in benchmark\n    result = func()\n             ^^^^^^\n  File \"/app/test.py\", line 87, in import_module\n    importlib.import_module('hamilton')  # assume top‑level module name\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'hamilton'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:hamilton-health-dashboard:ERROR: Could not find a version that satisfies the requirement hamilton-health-dashboard (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for hamilton-health-dashboard\nINSTALL_FAIL:https://github.com/example/hamilton-health-dashboard.git:Cloning into '/tmp/tmpifara3jq'...\nfatal: could not read Username for 'https://github.com': No such device or address\n"
+  }
+}
