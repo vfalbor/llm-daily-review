@@ -1,0 +1,93 @@
+{
+  "app_name": "Agentic CUDA Kernel Optimizer",
+  "url": "https://github.com/bertaye/agentic-cuda-optimizer",
+  "scored_at": "2026-09-25T13:05:48.741Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository was created today (0 days since creation) and is not a fork, but similar tools like nvcc and TensorRT have hundreds to thousands of stars, indicating this is an incremental addition."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 15.6 s (<30 s) and required only standard Python dependencies, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑CLI for generating faster CUDA kernels, it addresses a common performance need in current LLM training pipelines."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project has 9 stars versus 264 for nvcc and 14,713 for TensorRT, and no benchmark data were provided to show a clear advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "GitHub shows only 9 stars, a single contributor, and 0 open issues, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0 % pass rate) despite a successful install, suggesting core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a CLI and a Python API, but lacks a PyPI package and has no declared license, making integration modestly straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No evidence of a wiki, GitHub Pages, or extensive README was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (0 days old), has 0 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No performance benchmark results were reported; only generic install timing metrics are available."
+    }
+  },
+  "summary": "Agentic CUDA Kernel Optimizer is a command‑line and Python API tool that uses reinforcement learning to generate alternative CUDA kernel implementations. It runs locally without requiring an API key and targets developers looking to squeeze extra performance from GPU kernels. The main strength is its novel RL‑based generation approach, but the project is brand new, has minimal community adoption, and lacks benchmark evidence of speed gains.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/bertaye/agentic-cuda-optimizer",
+  "tool_url": "https://github.com/bertaye/agentic-cuda-optimizer",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49842596",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 9,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A langgraph based workflow with a C++ CUDA suite to optimize CUDA kernels",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "nvcc",
+        "stars": 264,
+        "repo": "andreinechaev/nvcc4jupyter"
+      },
+      {
+        "name": "TensorRT",
+        "stars": 14713,
+        "repo": "NVIDIA/TensorRT-LLM"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
