@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Topcoat is pushing the boundary of server applications with Rust",
+    "url": "https://tokio.rs/blog/2026-09-24-topcoat-server-applications",
+    "hn_url": "https://news.ycombinator.com/item?id=49842332",
+    "points": 21,
+    "comments": 21,
+    "author": "sagacity",
+    "age": "2026-09-25T09:59:40",
+    "scraped_at": "2026-09-25T13:00:03.093Z",
+    "tool_url": "https://github.com/oxidecomputer/topcoat",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-framework",
+    "description": "A Rust-based, event-driven server application framework that aims to simplify building concurrent, low‑latency services.",
+    "use_modes": [
+      "Rust library",
+      "CLI scaffolder"
+    ],
+    "similar_tools": [
+      "Actix",
+      "Warp",
+      "Rocket",
+      "Axum"
+    ],
+    "proposed_tests": [
+      "Create a hello‑world server using Topcoat CLI",
+      "Send an HTTP GET request and measure response latency",
+      "Add a background task and verify concurrency handling",
+      "Benchmark against a comparable Actix server for request throughput"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/oxidecomputer/topcoat"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790341337573-wh4by",
+    "log_dir": "/tmp/llm-review-1790341337573-wh4by",
+    "install_success": true,
+    "install_time_s": 30.4,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:topcoat_build_time_s:0.001\nBENCHMARK:topcoat_hello_build_time_s:0.077\nBENCHMARK:topcoat_hello_latency_ms:12.16\nBENCHMARK:topcoat_concurrency_seconds:0.016\nBENCHMARK:actix_build_time_s:0.032\nBENCHMARK:topcoat_rps:108.0\nBENCHMARK:actix_rps:0.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_topcoat:Git clone failed\nINSTALL_FAIL:unknown\nBENCHMARK:topcoat_build_time_s:0.001\nTEST_FAIL:build_topcoat:Build failed\nBENCHMARK:topcoat_hello_build_time_s:0.077\nTEST_FAIL:build_hello_server:error: failed to parse manifest at `/tmp/topcoat_hello/Cargo.toml`\n\nCaused by:\n  no targets specified in the manifest\n  either src/lib.rs, src/main.rs, a [lib] section, or [[bin]] section must be present\nBENCHMARK:topcoat_hello_latency_ms:12.16\nTEST_PASS:http_hello\nBENCHMARK:topcoat_concurrency_seconds:0.016\nTEST_PASS:concurrency\nBENCHMARK:actix_build_time_s:0.032\nTEST_FAIL:build_actix:error: failed to parse manifest at `/tmp/actix_hello/Cargo.toml`\n\nCaused by:\n  no targets specified in the manifest\n  either src/lib.rs, src/main.rs, a [lib] section, or [[bin]] section must be present\nBENCHMARK:topcoat_rps:108.0\nBENCHMARK:actix_rps:0.0\nRUN_OK\n"
+  }
+}
