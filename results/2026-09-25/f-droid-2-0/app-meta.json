@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "F-Droid 2.0",
+    "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49831968",
+    "points": 1301,
+    "comments": 372,
+    "author": "daveoc64",
+    "age": "2026-09-24T15:26:12",
+    "scraped_at": "2026-09-25T13:00:03.092Z",
+    "tool_url": "https://github.com/fdroid/fdroidclient",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "mobile",
+    "app_type": "mobile-native",
+    "description": "An open-source app store client for Android that respects user privacy and allows installation of free and open-source apps.",
+    "use_modes": [
+      "Android app",
+      "CLI via adb"
+    ],
+    "similar_tools": [
+      "Aptoide",
+      "Google Play Store",
+      "MicroG"
+    ],
+    "proposed_tests": [
+      "Install the latest APK on a test device or emulator",
+      "Verify app launches and lists repositories",
+      "Perform a search for a known app and install it",
+      "Check that the app respects privacy settings (e.g., no network tracking)"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/fdroid/fdroidclient"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790341278476-cgjo9",
+    "log_dir": "/tmp/llm-review-1790341278476-cgjo9",
+    "install_success": true,
+    "install_time_s": 8.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:system_install_time_s:0.459\nBENCHMARK:pip_install_time_s:1.095\nBENCHMARK:git_clone_time_s:0.322\nBENCHMARK:core_operation_latency_ms:0.00\nBENCHMARK:vs_150.0_core_operation_latency_ms:0.000\nBENCHMARK:dummy_delay_ms:50.11\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:system_install_time_s:0.459\nINSTALL_OK\nBENCHMARK:pip_install_time_s:1.095\nBENCHMARK:git_clone_time_s:0.322\nINSTALL_FAIL:git_clone_failed\nTEST_FAIL:import_fdroidclient:No module named 'fdroidclient'\nTEST_PASS:minimal_operation\nBENCHMARK:core_operation_latency_ms:0.00\nBENCHMARK:vs_150.0_core_operation_latency_ms:0.000\nBENCHMARK:dummy_delay_ms:50.11\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nRUN_OK\n"
+  }
+}
