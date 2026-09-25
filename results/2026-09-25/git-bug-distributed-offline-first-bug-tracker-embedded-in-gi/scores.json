@@ -1,0 +1,116 @@
+{
+  "app_name": "Git-bug",
+  "url": "https://github.com/git-bug/git-bug",
+  "scored_at": "2026-09-25T13:01:17.280Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 2997 days ago, not a fork, and dwarfs similar tools with +10100 star advantage, indicating a novel approach."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) after 20.5 s and no PyPI package, making setup difficult."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-cli for offline‑first bug tracking it fits a niche need in current LLM‑enhanced developer workflows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "Has 10,105 stars versus 5–429 stars of alternatives and a benchmark init‑ratio of 0.22, showing clear advantage."
+    },
+    "community": {
+      "score": 9,
+      "justification": "GitHub shows 10,105 stars, 77 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "All 4 tests failed (0/4) and install did not succeed, indicating poor usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package; only CLI and Git integration are available, with a GPL‑3.0 license, limiting automated embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, pages, or README quality was provided; default neutral score applied."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "Repository is 2997 days old, has 323 forks and 155 open issues, indicating a mature, actively maintained project."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows install time of 3.71 s and an init ratio of 0.22 versus GitIssues, suggesting better performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN sentiment 8/10, 38 points and 5 comments highlight novelty and usefulness with no major criticism."
+    }
+  },
+  "summary": "Git-bug is a CLI tool that tracks bugs by storing issues as Git commits, enabling fully offline collaboration. It operates directly on Git repositories without needing an external API, making it suitable for developers who prefer version‑control‑first workflows. The tool shines for teams that require distributed, offline‑first issue tracking, but its difficult installation and lack of package managers limit casual adoption. While it enjoys strong community support and clear performance gains over similar trackers, the current test suite shows major usability problems.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/git-bug/git-bug",
+  "tool_url": "https://github.com/git-bug/git-bug",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49843174",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 10105,
+      "forks": 323,
+      "open_issues": 155,
+      "watchers": 10105,
+      "contributors": 77,
+      "license": "GPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2997,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Distributed, offline-first bug tracker embedded in git",
+      "topics": [
+        "bugtracker",
+        "decentralized-application",
+        "distributed-systems",
+        "git",
+        "gitdb"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GitIssues",
+        "stars": 5,
+        "repo": "nathanlesage/ubersicht-gitissues"
+      },
+      {
+        "name": "GitHub Issues",
+        "stars": 429,
+        "repo": "IQAndreas/github-issues-import"
+      },
+      {
+        "name": "GitLab Issues",
+        "stars": 32,
+        "repo": "benr77/obsidian-gitlab-issues"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative Git-integrated tracker",
+        "Positive community endorsements",
+        "Real-world adoption"
+      ],
+      "negative_signals": [],
+      "justification": "Comments highlight novelty, usefulness, and real deployments with enthusiastic language, with no substantial criticism or concerns.",
+      "comment_count": 5,
+      "hn_points": 38
+    }
+  }
+}
