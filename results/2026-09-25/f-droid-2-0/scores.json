@@ -1,0 +1,99 @@
+{
+  "app_name": "F-Droid 2.0",
+  "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+  "scored_at": "2026-09-25T13:02:16.036Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is similar to existing stores like Aptoide and Google Play, so we lack evidence of a novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 8.5 seconds, indicating a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a privacy‑focused Android app store client, it addresses a continuing demand for open‑source alternatives in the mobile ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is available for F-Droid, so we cannot quantify advantages over Aptoide (369 stars), Google Play Store (3,594 stars) or MicroG (17,656 stars)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 1,301 (>500) and sentiment is 7/10, indicating strong community interest despite the missing GitHub repository."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 of 2 tests passed (50%), meeting the ≥50% threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available as an Android app and via CLI through adb, but there is no PyPI package or documented API, limiting seamless integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository metadata (wiki, pages, topics) is available and no explicit documentation signals were fetched."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points exceed 300 and the domain is stable, giving a moderate maturity indication in the absence of repository data."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows core operation latency of 0 ms and a dummy delay of 50.11 ms, suggesting acceptable performance but no comparative data."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters highlight the improved visual design and robust multi‑repo support, giving a generally positive tone, while a subset note frustrations around the update workflow and UI annoyances, leading to an overall constructive but slightly mixed reception."
+    }
+  },
+  "summary": "F-Droid 2.0 is an open‑source Android app store client that lets users install free apps while preserving privacy. It runs as a native Android app and also offers a CLI wrapper via adb, without requiring any API keys. This tool is suited for privacy‑conscious Android users looking for an alternative to mainstream stores. Reviewers praise its visual redesign and multi‑repo support, though some find the update workflow confusing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+  "tool_url": "https://github.com/fdroid/fdroidclient",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49831968",
+  "domain": "mobile",
+  "app_type": "mobile-native",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Aptoide",
+        "stars": 369,
+        "repo": "Aptoide/aptoide-client-v8"
+      },
+      {
+        "name": "Google Play Store",
+        "stars": 3594,
+        "repo": "hideuvpn/android-google-play-store"
+      },
+      {
+        "name": "MicroG",
+        "stars": 17656,
+        "repo": "karpathy/micrograd"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Visual redesign improves UX",
+        "Multiple repo support stays functional",
+        "Codebase modernization praised"
+      ],
+      "negative_signals": [
+        "Update process confusing",
+        "UI toast design criticized",
+        "Issues with Aurora/PlayStore integration"
+      ],
+      "justification": "Most commenters highlight the improved visual design and robust multi‑repo support, giving a generally positive tone, while a subset note frustrations around the update workflow and UI annoyances, leading to an overall constructive but slightly mixed reception.",
+      "comment_count": 30,
+      "hn_points": 1301
+    }
+  }
+}
