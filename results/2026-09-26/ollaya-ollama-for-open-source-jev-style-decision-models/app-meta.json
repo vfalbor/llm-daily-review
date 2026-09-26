@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+    "url": "https://ollaya.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=49848269",
+    "points": 489,
+    "comments": 122,
+    "author": "Ardakilic",
+    "age": "2026-09-25T18:33:50",
+    "scraped_at": "2026-09-26T13:00:02.668Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/ollaya/ollaya",
+    "source_type": "tool",
+    "confidence": 0.91,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A lightweight framework that brings Ollama‑style decision models to open‑source LLMs, enabling local, fast inference with Jev‑style interfaces.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "Ollama",
+      "CrewAI",
+      "LangChain"
+    ],
+    "proposed_tests": [
+      {
+        "step": "pip install ollaya",
+        "expect": "Installation succeeds"
+      },
+      {
+        "step": "ollaya --model llama2-7b --prompt \"Hello\"",
+        "expect": "Returns a response within 2 seconds"
+      },
+      {
+        "step": "python -c \"import ollaya; ollaya.run('gpt-4o', 'Hi')\"",
+        "expect": "Yields non‑empty string"
+      },
+      {
+        "step": "ollaya benchmark --model llama2-7b --dataset small",
+        "expect": "Shows latency metrics"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ollaya/ollaya"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790427688292-w3mx2",
+    "log_dir": "/tmp/llm-review-1790427688292-w3mx2",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:import_time_s:0.0006\nBENCHMARK:import_time_s:0.0006\nBENCHMARK:vs_import_time_s_ratio:0.0028",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ollaya:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'ollaya']' returned non-zero exit status 1.\nINSTALL_FAIL:git_clone:Command '['git', 'clone', 'https://github.com/ollaya/ollaya.git', '/tmp/ollaya_src']' returned non-zero exit status 128.\nBENCHMARK:import_time_s:0.0006\nTEST_PASS:test_import\nTEST_FAIL:test_basic_operation:No module named 'ollaya'\nBENCHMARK:import_time_s:0.0006\nBENCHMARK:vs_import_time_s_ratio:0.0028\nRUN_OK\n"
+  }
+}
