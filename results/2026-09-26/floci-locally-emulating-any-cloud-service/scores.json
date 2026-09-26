@@ -1,0 +1,98 @@
+{
+  "app_name": "Floci: Locally emulating any cloud service",
+  "url": "https://floci.io/",
+  "scored_at": "2026-09-26T13:01:27.105Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are unavailable, so novelty cannot be assessed and defaults to a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 8.4 seconds, indicating a simple setup despite the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra‑queue emulator, it addresses the current need for local cloud‑service testing in LLM pipelines and other AI workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count is available for Floci, while similar tools have 65,126 (LocalStack) and 61,350 (MinIO) stars, giving no clear advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "There is no GitHub repo; HN points are 46 with only 5 comments, placing community engagement in the lowest bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers CLI, HTTP API, and SDK use modes, providing multiple integration paths even though no PyPI package exists."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) was found, so documentation quality cannot be evaluated beyond a neutral default."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Without repository metadata, maturity relies on HN points (46) which indicate a low‑maturity project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show cli_help 0.002 s, cli_version 0.001 s, and emulate_s3 0.001 s, but no comparative data to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the project and note it works well, but a couple of remarks criticize the name or are trivial, leading to a generally positive but slightly mixed sentiment."
+    }
+  },
+  "summary": "Floci is a local emulator that mimics cloud service APIs for development and testing, exposing a CLI, HTTP API, and SDK. It runs as a self‑hosted service without needing an API key and targets developers who want to avoid cloud costs during testing. The standout strength is its multi‑mode integration options, while the main caveat is the lack of verified functionality—none of the three automated tests passed and community signals are weak. ",
+  "recommendation": "niche",
+  "app_url": "https://floci.io/",
+  "tool_url": "https://github.com/floci/floci",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49854416",
+  "domain": "infrastructure",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LocalStack",
+        "stars": 65126,
+        "repo": "localstack/localstack"
+      },
+      {
+        "name": "MinIO",
+        "stars": 61350,
+        "repo": "minio/minio"
+      },
+      {
+        "name": "FakeS3",
+        "stars": 8,
+        "repo": "railsware/fakes3server"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Good work and interest in specific services",
+        "Positive feedback that it works well in production",
+        "Light‑hearted humor"
+      ],
+      "negative_signals": [
+        "Name objection regarding cultural sensitivity",
+        "Trivial or negative remark"
+      ],
+      "justification": "Most comments praise the project and note it works well, but a couple of remarks criticize the name or are trivial, leading to a generally positive but slightly mixed sentiment.",
+      "comment_count": 5,
+      "hn_points": 46
+    }
+  }
+}
