@@ -1,0 +1,99 @@
+{
+  "app_name": "A single function Jev-like wrapper for LLMs, including vision models",
+  "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+  "scored_at": "2026-09-26T13:03:28.485Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, and the tool appears to be an incremental wrapper of existing Jev functionality."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) in 8.8 seconds, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is llm-framework, which directly aligns with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No GitHub stars are available for this project, while similar tools like LangChain have 147,089 stars and Jev has 20,417 stars, suggesting limited differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository was detected, but the HN post has 100 points and 28 comments, indicating a modest community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) despite a successful install, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is not available on PyPI and only offers a Python API; lack of package distribution raises integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "GitHub data (stars, forks, issues) is missing; the HN post’s 100 points suggest a modest maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows list_creation_ms:5.94 for a 100,000‑item list, but no comparative data to other tools is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the wrapper for improved speed, accuracy, and lower code overhead, while a few note higher cost or lack of image support and question the fairness of benchmarks. Overall sentiment is constructive and moderately positive."
+    }
+  },
+  "summary": "This is a Python API wrapper that replicates Jev‑style decision logic for LLMs and adds optional vision support. It is built as a single‑function library without a PyPI distribution, requiring manual installation from source. It targets developers who need a lightweight, code‑only alternative to larger frameworks like LangChain. While community comments note improved speed and lower code overhead, the lack of benchmarks and limited integration support are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+  "tool_url": "https://github.com/allanrbo/jev-wrapper",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49853175",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 147089,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "PromptLayer",
+        "stars": 5,
+        "repo": "MagnivOrg/my-chatgpt-promptlayer"
+      },
+      {
+        "name": "Jev",
+        "stars": 20417,
+        "repo": "browser-use/jev-ultrafast"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Efficient wrapper improves speed and accuracy",
+        "Comparable or better cost than Jev",
+        "Simpler implementation"
+      ],
+      "negative_signals": [
+        "Higher cost and slower for some claims",
+        "Limited image support compared to Jev",
+        "Some skepticism about benchmarking"
+      ],
+      "justification": "Most comments praise the wrapper for improved speed, accuracy, and lower code overhead, while a few note higher cost or lack of image support and question the fairness of benchmarks. Overall sentiment is constructive and moderately positive.",
+      "comment_count": 28,
+      "hn_points": 100
+    }
+  }
+}
