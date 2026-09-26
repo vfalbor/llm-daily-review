@@ -1,0 +1,98 @@
+{
+  "app_name": "Ollaya",
+  "url": "https://ollaya.dev/",
+  "scored_at": "2026-09-26T13:02:22.498Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so the novelty cannot be quantified and is scored neutrally."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 8.6 seconds (well under 30 s) and required no API key, though the tool is not available on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑framework that provides local decision‑model inference, it aligns with current trends in open‑source LLM tooling."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no visible GitHub stars while comparable tools like Ollama and LangChain have 181,756 and 147,089 stars respectively, indicating limited differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "GitHub data is missing, but the Hacker News post received 489 points and 30 comments, which signals a fairly active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 out of 2 tests passed (50 % success) and the install succeeded, meeting the ≥50 % threshold for a moderate ease‑of‑use rating."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a CLI and a Python API, but it is not published on PyPI, requiring manual installation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, or topics) is available, so documentation quality cannot be assessed beyond a neutral default."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository metadata, maturity is inferred from the Hacker News score of 489 points, indicating a moderately mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows an import time of 0.0006 s and a relative ratio of 0.0028, but there is no comparative data to judge performance."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The comments largely criticize the project for marketing hype and alleged weak performance compared to Jev, though a few acknowledge its open-source nature and API compatibility. Overall sentiment skews negative with some constructive points."
+    }
+  },
+  "summary": "Ollaya is a lightweight framework that brings Ollama‑style decision models to open‑source LLMs, offering both a CLI and a Python API for local inference. It is built on the same concept as Ollama but targets open‑source models and does not require an API key. The tool is suitable for developers who need fast, local decision‑model execution without cloud dependencies. While installation is quick (8.6 s) and basic functionality works, the project lacks visible community metrics and documentation, and its performance advantage is unclear.",
+  "recommendation": "niche",
+  "app_url": "https://ollaya.dev/",
+  "tool_url": "https://github.com/ollaya/ollaya",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49848269",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 181756,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59051,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LangChain",
+        "stars": 147089,
+        "repo": "langchain-ai/langchain"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "open-source empowerment",
+        "API compatibility with Jev"
+      ],
+      "negative_signals": [
+        "misleading marketing",
+        "performance concerns",
+        "criticized authorship"
+      ],
+      "justification": "The comments largely criticize the project for marketing hype and alleged weak performance compared to Jev, though a few acknowledge its open-source nature and API compatibility. Overall sentiment skews negative with some constructive points.",
+      "comment_count": 30,
+      "hn_points": 489
+    }
+  }
+}
