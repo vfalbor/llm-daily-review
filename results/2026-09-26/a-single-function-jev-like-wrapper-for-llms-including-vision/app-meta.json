@@ -1,0 +1,61 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "A single function Jev-like wrapper for LLMs, including vision models",
+    "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+    "hn_url": "https://news.ycombinator.com/item?id=49853175",
+    "points": 100,
+    "comments": 28,
+    "author": "allanrbo",
+    "age": "2026-09-26T04:20:58",
+    "scraped_at": "2026-09-26T13:00:02.670Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/allanrbo/jev-wrapper",
+    "source_type": "tool",
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A one‑liner wrapper that exposes Jev‑style decision logic for any LLM, with optional vision support via embeddings.",
+    "use_modes": [
+      "Python API"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "PromptLayer",
+      "Jev"
+    ],
+    "proposed_tests": [
+      {
+        "step": "pip install jev-wrapper",
+        "expect": "Installation succeeds"
+      },
+      {
+        "step": "python - <<'PY'\nfrom jev_wrapper import wrapper\nprint(wrapper('gpt-4o', 'What is 2+2?'))\nPY",
+        "expect": "Prints '4' or similar"
+      },
+      {
+        "step": "python - <<'PY'\nfrom jev_wrapper import wrapper\nprint(wrapper('gpt-4o', 'Describe this image', image='path/to/img.png'))\nPY",
+        "expect": "Returns textual description"
+      },
+      {
+        "step": "wrapper benchmark --model gpt-4o --dataset small",
+        "expect": "Shows latency and accuracy metrics"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/allanrbo/jev-wrapper"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790427743808-emfpw",
+    "log_dir": "/tmp/llm-review-1790427743808-emfpw",
+    "install_success": true,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:list_creation_ms:5.94\nBENCHMARK:list_len:100000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement jev-wrapper (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for jev-wrapper\nINSTALL_FAIL:Cloning into '/tmp/jev-wrapper'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:import_module:No module named 'jev_wrapper'\nTEST_FAIL:import_module:Failed to import after install\nTEST_FAIL:core_operation:No module named 'jev_wrapper'\nBENCHMARK:list_creation_ms:5.94\nBENCHMARK:list_len:100000\nRUN_OK\n"
+  }
+}
