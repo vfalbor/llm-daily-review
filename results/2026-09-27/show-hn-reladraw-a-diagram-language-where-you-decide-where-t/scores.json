@@ -1,0 +1,113 @@
+{
+  "app_name": "Reladraw",
+  "url": "https://github.com/reladraw/reladraw",
+  "scored_at": "2026-09-27T13:02:09.201Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo is 19 days old, is not a fork, and competes directly with established tools like Mermaid (90k+ stars), indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 22.1 seconds (<30 s) and npm install took 1.71 s; although no PyPI package exists, the setup is simple and fast."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑frontend diagram language, it addresses a common need for fine‑grained layout control in modern developer tooling."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 615 stars versus millions for Mermaid and PlantUML, Reladraw’s unique relative positioning and a benchmark ratio of 0.041 against Mermaid show a clear speed advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 615 stars (100–1k range), 1 contributor, and was updated today (0 days since last commit), indicating an active but small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of three tests passed (0 % pass rate) despite a successful install, suggesting core functionality is not reliably working."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available via npm, offers Web App and CLI modes, and uses an Apache‑2.0 license, providing moderate integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided; documentation quality could not be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Created 19 days ago with 11 forks and 2 open issues, the project appears to be in an early, alpha‑like stage."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows render_response_ms of 4.95 ms and a vs_mermaid_render_time_ratio of 0.041, indicating it is over 20× faster than Mermaid."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise Reladraw for providing easy relative placement, useful themes, and filling a gap left by tools like Mermaid, with only a few remarks about bugs and limited routing."
+    }
+  },
+  "summary": "Reladraw is a web‑frontend diagram language and editor that lets users place elements explicitly, offering fine‑grained layout control. It runs as a CLI that renders SVGs and as a web app, built with TypeScript and distributed via npm. It suits developers who need precise diagram positioning beyond what Mermaid or PlantUML provide. Its standout strength is very fast rendering (≈4 ms and 20× faster than Mermaid), while the main caveat is that none of the three functional tests passed, indicating reliability issues.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/reladraw/reladraw",
+  "tool_url": "https://github.com/reladraw/reladraw",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49858513",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 615,
+      "forks": 11,
+      "open_issues": 2,
+      "watchers": 615,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 19,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Mermaid",
+        "stars": 90445,
+        "repo": "mermaid-js/mermaid"
+      },
+      {
+        "name": "PlantUML",
+        "stars": 13342,
+        "repo": "plantuml/plantuml"
+      },
+      {
+        "name": "draw.io",
+        "stars": 36054,
+        "repo": "DayuanJiang/next-ai-draw-io"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Easy relative positioning",
+        "Great theme support",
+        "Filling a niche for complex diagrams"
+      ],
+      "negative_signals": [
+        "Occasional bugs",
+        "Limited automatic routing"
+      ],
+      "justification": "The majority of comments praise Reladraw for providing easy relative placement, useful themes, and filling a gap left by tools like Mermaid, with only a few remarks about bugs and limited routing.",
+      "comment_count": 30,
+      "hn_points": 333
+    }
+  }
+}
