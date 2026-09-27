@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "url": "https://github.com/reladraw/reladraw",
+    "hn_url": "https://news.ycombinator.com/item?id=49858513",
+    "points": 333,
+    "comments": 90,
+    "author": "jpwalsh234",
+    "age": "2026-09-26T17:10:40",
+    "scraped_at": "2026-09-27T13:00:02.931Z",
+    "tool_url": "https://github.com/reladraw/reladraw",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A diagram language and editor that lets users explicitly place elements, providing fine‑grained layout control.",
+    "use_modes": [
+      "Web App",
+      "CLI (render to SVG)"
+    ],
+    "similar_tools": [
+      "Mermaid",
+      "PlantUML",
+      "draw.io",
+      "Graphviz"
+    ],
+    "proposed_tests": [
+      "Install via npm and run the development server.",
+      "Create a simple diagram and verify it renders correctly.",
+      "Export the diagram to SVG and check for expected node positions.",
+      "Run the CLI renderer on a sample file and compare output size.",
+      "Measure bundle size and load time on a standard browser."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/reladraw/reladraw"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790514069105-g10z0",
+    "log_dir": "/tmp/llm-review-1790514069105-g10z0",
+    "install_success": true,
+    "install_time_s": 22.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.59\nBENCHMARK:npm_install_time_s:1.71\nBENCHMARK:render_response_ms:4.95\nBENCHMARK:cli_render_time_ms:0.70\nBENCHMARK:vs_mermaid_render_time_ratio:0.041\nBENCHMARK:memory_peak_kb:0.61",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.59\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:npm_install_time_s:1.71\nTEST_FAIL:server_start:Unexpected status 404\nTEST_FAIL:render_api:Bad response 404\nBENCHMARK:render_response_ms:4.95\nTEST_FAIL:cli_render:CLI failed\nBENCHMARK:cli_render_time_ms:0.70\nBENCHMARK:vs_mermaid_render_time_ratio:0.041\nBENCHMARK:memory_peak_kb:0.61\nRUN_OK\n"
+  }
+}
