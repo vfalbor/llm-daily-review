@@ -1,0 +1,91 @@
+{
+  "app_name": "LightCloud",
+  "url": "https://www.light-cloud.com/",
+  "scored_at": "2026-09-27T13:03:43.693Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and no repository data was found, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 8.2 seconds (well under the 30‑second benchmark) and no exotic dependencies were reported, though a PyPI package is absent."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra‑api‑gateway providing a file‑system view of cloud resources, it matches current trends toward unified cloud management interfaces."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools with 11, 327, and 545 GitHub stars, LightCloud shows a latency ratio of 0.600 versus the AWS console, indicating a speed advantage but lacking star‑based popularity."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository data is available and Hacker News points are only 7, indicating very limited community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 4 tests passed (25%), showing core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool offers a Web UI and CLI but lacks a PyPI package, documented API modes, or license information, making integration moderately difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or explicit documentation metrics (wiki, pages, topics) were found, so only a neutral score can be assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Absent repository metadata, creation date, forks, or issue counts, combined with only 7 HN points, suggests very low maturity."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark reports a latency ratio of 0.600 against the AWS console, indicating roughly 40% faster response."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "LightCloud is a web‑based console that presents cloud resources in a file‑system‑style view, accessible via a UI and CLI. It runs locally without requiring an API key and claims faster latency than the AWS console (0.600 ratio). The tool is suited for engineers who prefer a filesystem metaphor for cloud management and need a lightweight, key‑less interface. Its main strength is the reported speed advantage, while limited documentation, low community engagement, and poor test coverage are significant drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://www.light-cloud.com/",
+  "tool_url": "https://github.com/light-cloud/light-cloud",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49865067",
+  "domain": "infrastructure",
+  "app_type": "infra-api-gateway",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Cloudflare Dashboard",
+        "stars": 11,
+        "repo": "owenvoke/laravel-dashboard-cloudflare-stats-tile"
+      },
+      {
+        "name": "AWS Console",
+        "stars": 327,
+        "repo": "rkoval/alfred-aws-console-services-workflow"
+      },
+      {
+        "name": "Azure Portal",
+        "stars": 545,
+        "repo": "Azure/api-management-developer-portal"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 7
+    }
+  }
+}
