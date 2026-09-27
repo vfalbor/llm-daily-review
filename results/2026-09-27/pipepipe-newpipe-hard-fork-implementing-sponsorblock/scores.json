@@ -1,0 +1,120 @@
+{
+  "app_name": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+  "url": "https://github.com/InfinityLoop1308/PipePipe",
+  "scored_at": "2026-09-27T13:01:07.584Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 1600 days old, is not a fork, and mainly adds SponsorBlock to an existing NewPipe codebase, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 14.1 seconds, but there is no PyPI package, so setup is simple yet not pip‑based."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a mobile video player with built‑in ad‑blocking, it addresses a still‑relevant user demand for privacy‑focused YouTube alternatives."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 6,381 stars it is smaller than NewPipe (39,790 stars) but offers unique SponsorBlock integration and a benchmark latency ratio of 0.334 versus NewPipe, showing a clear performance edge."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 6,381 stars, 8 contributors, and was updated just 1 day ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 4 tests passed despite a successful install, placing it below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The app is an Android‑only binary with no PyPI package, no public API, and is licensed GPL‑3.0, making integration into other pipelines difficult."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The GitHub repo provides no wiki or GitHub Pages and lacks additional documentation topics, resulting in minimal guidance."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 1600 days old, has 214 forks and 153 open issues, suggesting a mature but still evolving project."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmarks report a synthetic operation latency of 50.10 ms and a latency ratio of 0.334 versus NewPipe, indicating more than a 2× speed improvement."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments reflect a balanced mix of viewpoints: supporters praise the privacy‑first approach and open‑source nature, while critics raise ethical and consistency concerns about sponsorship advertising. The discussion is largely constructive rather than hostile."
+    }
+  },
+  "summary": "PipePipe is an Android video player that extends NewPipe by embedding SponsorBlock for ad‑free playback. It builds on the existing NewPipe codebase and runs locally on Android devices without requiring an API key. The tool is suited for privacy‑concerned mobile users who want an open‑source YouTube alternative with built‑in sponsor skipping. It shines with a 0.334 latency ratio against NewPipe, but its limited documentation and lack of integration hooks make broader adoption harder.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/InfinityLoop1308/PipePipe",
+  "tool_url": "https://github.com/InfinityLoop1308/PipePipe",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49842764",
+  "domain": "mobile",
+  "app_type": "mobile-native",
+  "enriched": {
+    "github": {
+      "stars": 6381,
+      "forks": 214,
+      "open_issues": 153,
+      "watchers": 6381,
+      "contributors": 8,
+      "license": "GPL-3.0",
+      "language": "Shell",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1600,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "An open-source Android app to let you browse YouTube and other services freely. ",
+      "topics": [
+        "android",
+        "mediaplayer",
+        "newpipe",
+        "sponsorblock",
+        "youtube"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "NewPipe",
+        "stars": 39790,
+        "repo": "TeamNewPipe/NewPipe"
+      },
+      {
+        "name": "YouTube Vanced",
+        "stars": 491,
+        "repo": "MANCrimSon/YouTube-ReVanced-Extended"
+      },
+      {
+        "name": "Piped",
+        "stars": 11713,
+        "repo": "PipedreamHQ/pipedream"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "support for ethical advertising",
+        "maintaining user privacy",
+        "open-source community fork"
+      ],
+      "negative_signals": [
+        "ethical concerns over sponsor visibility",
+        "mixed opinions on ad blocking consistency",
+        "some frustration with browser performance"
+      ],
+      "justification": "The comments reflect a balanced mix of viewpoints: supporters praise the privacy‑first approach and open‑source nature, while critics raise ethical and consistency concerns about sponsorship advertising. The discussion is largely constructive rather than hostile.",
+      "comment_count": 30,
+      "hn_points": 443
+    }
+  }
+}
