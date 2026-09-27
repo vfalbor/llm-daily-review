@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Show HN: LightCloud – A cloud console organised like file system",
+    "url": "https://www.light-cloud.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49865067",
+    "points": 7,
+    "comments": 2,
+    "author": "yullius",
+    "age": "2026-09-27T09:45:15",
+    "scraped_at": "2026-09-27T13:00:02.937Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/light-cloud/light-cloud",
+    "repo_url": "https://github.com/light-cloud/light-cloud",
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-api-gateway",
+    "description": "Web-based console that provides a file‑system‑style interface to manage cloud resources, including compute, storage, and networking services.",
+    "use_modes": [
+      "Web UI",
+      "CLI"
+    ],
+    "similar_tools": [
+      "Cloudflare Dashboard",
+      "AWS Console",
+      "Azure Portal",
+      "Kubernetes Dashboard"
+    ],
+    "proposed_tests": [
+      {
+        "test": "Spin up a local Docker container using the CLI and verify resource creation"
+      },
+      {
+        "test": "Create a file in the console and confirm it appears in the underlying storage backend"
+      },
+      {
+        "test": "Delete a resource via the UI and check API status"
+      },
+      {
+        "test": "Measure latency of creating 50 concurrent resources"
+      },
+      {
+        "test": "Verify authentication flow with a test OAuth provider"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1790514197536-cx02h",
+    "log_dir": "/tmp/llm-review-1790514197536-cx02h",
+    "install_success": true,
+    "install_time_s": 8.2,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:0.447\nBENCHMARK:pip_install_light-cloud_time_s:0.858\nBENCHMARK:cli_help_time_s:0.001\nBENCHMARK:cli_help_mem_kb:55.4\nBENCHMARK:cli_version_time_s:0.001\nBENCHMARK:cli_version_mem_kb:55.3\nBENCHMARK:api_mock_time_s:0.001\nBENCHMARK:api_mock_mem_kb:55.4\nBENCHMARK:vs_aws_console_latency_ratio:0.600",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nERROR: Could not find a version that satisfies the requirement light-cloud (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for light-cloud\nCloning into '/tmp/light-cloud'...\nfatal: could not read Username for 'https://github.com': No such device or address\nINSTALL_OK\nBENCHMARK:apk_install_time_s:0.447\nINSTALL_FAIL:\nBENCHMARK:pip_install_light-cloud_time_s:0.858\nTEST_FAIL:clone:git clone failed: \nBENCHMARK:cli_help_time_s:0.001\nBENCHMARK:cli_help_mem_kb:55.4\nTEST_FAIL:cli_help:Non-zero exit: [Errno 2] No such file or directory: 'light-cloud'\nBENCHMARK:cli_version_time_s:0.001\nBENCHMARK:cli_version_mem_kb:55.3\nTEST_FAIL:cli_version:Bad output: [Errno 2] No such file or directory: 'light-cloud'\nBENCHMARK:api_mock_time_s:0.001\nBENCHMARK:api_mock_mem_kb:55.4\nTEST_PASS:api_mock\nBENCHMARK:vs_aws_console_latency_ratio:0.600\nRUN_OK\n"
+  }
+}
