@@ -1,0 +1,97 @@
+{
+  "app_name": "Drawgent: Coding agent on a live Excalidraw canvas",
+  "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+  "scored_at": "2026-09-27T13:03:16.328Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so we cannot assess originality; the tool appears to be an incremental integration with existing canvas editors."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 8.9 seconds, indicating a quick and simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-frontend that lets LLMs draw and generate code on an Excalidraw canvas, it addresses a current workflow need for interactive coding assistance."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools like Excalidraw (133,051 stars) focus on drawing only, Drawgent adds LLM-driven code generation; however, no star count is available for Drawgent to quantify advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repo data is available; HN points are 162, placing the project in the 100–200 range, which corresponds to a moderate community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), indicating core functionality is not reliably demonstrated in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides Web UI, CLI, and API use modes, making integration possible despite the absence of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki/pages information was found, so documentation quality cannot be evaluated; we assign a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, we rely on HN points (162) which suggest a moderate maturity level but no concrete release or version data."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only shows a dummy baseline with no comparative performance data, so we assign a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Several comments highlight the tool’s convenience for sketching and idea exploration, while others express frustration over clunky API integration, maintenance lag, and skepticism toward AI‑generated diagrams."
+    }
+  },
+  "summary": "Drawgent is a web‑based coding agent that lets an LLM draw on an Excalidraw canvas and generate code in real time. It runs via a Web UI, CLI, or API and does not require an API key. The tool is suited for developers who want quick visual prototyping combined with AI‑assisted code generation. Its main strength is the novel LLM‑canvas interaction, while the lack of reliable test results and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+  "tool_url": "https://github.com/yanndegat/drawgent",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49857729",
+  "domain": "devtool",
+  "app_type": "devtool-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Excalidraw",
+        "stars": 133051,
+        "repo": "excalidraw/excalidraw"
+      },
+      {
+        "name": "CodeSandbox",
+        "stars": 13650,
+        "repo": "codesandbox/codesandbox-client"
+      },
+      {
+        "name": "StackBlitz",
+        "stars": 16567,
+        "repo": "stackblitz/bolt.new"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful for quick diagramming and exploration",
+        "Encourages thinking through visual aids"
+      ],
+      "negative_signals": [
+        "Criticism of LLM-generated content quality",
+        "Clunky integration and maintenance concerns"
+      ],
+      "justification": "Several comments highlight the tool’s convenience for sketching and idea exploration, while others express frustration over clunky API integration, maintenance lag, and skepticism toward AI‑generated diagrams.",
+      "comment_count": 30,
+      "hn_points": 162
+    }
+  }
+}
