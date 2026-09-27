@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+    "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+    "hn_url": "https://news.ycombinator.com/item?id=49857729",
+    "points": 162,
+    "comments": 42,
+    "author": "parasitid",
+    "age": "2026-09-26T15:56:34",
+    "scraped_at": "2026-09-27T13:00:02.936Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/yanndegat/drawgent",
+    "repo_url": "https://github.com/yanndegat/drawgent",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-frontend",
+    "description": "Web-based coding agent that interacts with an Excalidraw canvas, enabling real‑time drawing and code generation.",
+    "use_modes": [
+      "Web UI",
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "Excalidraw",
+      "CodeSandbox",
+      "StackBlitz"
+    ],
+    "proposed_tests": [
+      {
+        "test": "Verify web UI loads and connects to canvas"
+      },
+      {
+        "test": "Run a sample code generation command via API and confirm canvas updates"
+      },
+      {
+        "test": "Measure latency of code generation for 100 characters"
+      },
+      {
+        "test": "Check that the tool can be installed via npm and run locally"
+      },
+      {
+        "test": "Test undo/redo functionality in the canvas after code insertion"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1790514130469-rxg02",
+    "log_dir": "/tmp/llm-review-1790514130469-rxg02",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:baseline_dummy_s:0.1087\nBENCHMARK:baseline_dummy_mem_kb:0.17\nBENCHMARK:vs_dummy_ratio:NA",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip install drawgent rc 1\nINSTALL_FAIL:git clone https://github.com/yanndegat/drawgent.git rc 128\nTEST_FAIL:import:No module named 'drawgent'\nTEST_FAIL:core_operation:cannot access free variable 'drawgent' where it is not associated with a value in enclosing scope\nBENCHMARK:baseline_dummy_s:0.1087\nBENCHMARK:baseline_dummy_mem_kb:0.17\nBENCHMARK:vs_dummy_ratio:NA\nTEST_FAIL:file_count:cannot access local variable 'drawgent' where it is not associated with a value\nRUN_OK\n"
+  }
+}
