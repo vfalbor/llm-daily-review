@@ -1,0 +1,11 @@
+Cloning into '/tmp/imp_test/imp'...
+ERROR: Could not find a version that satisfies the requirement imp (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for imp
+Traceback (most recent call last):
+  File "/app/test.py", line 75, in <module>
+    pip_err = pip_res.stderr.strip() if pip_res else "pip not found"
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
