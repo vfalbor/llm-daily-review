@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Imp is a full port of DSPy to the BEAM",
+    "url": "https://github.com/deepfates/imp",
+    "hn_url": "https://news.ycombinator.com/item?id=49869995",
+    "points": 84,
+    "comments": 7,
+    "author": "mpweiher",
+    "age": "2026-09-27T19:28:23",
+    "scraped_at": "2026-09-28T13:00:03.411Z",
+    "tool_url": "https://github.com/deepfates/imp",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "prompt-tool",
+    "description": "An Erlang/Elixir library that implements the DSPy prompt‑management framework on the BEAM.",
+    "use_modes": [
+      "Elixir",
+      "Erlang",
+      "CLI"
+    ],
+    "similar_tools": [
+      "DSPy (Python)",
+      "Promptflow",
+      "LlamaIndex"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `mix deps.get`",
+      "Execute the example notebook in `examples/hello_imp.exs`",
+      "Run `mix test` to ensure all unit tests pass",
+      "Benchmark prompt generation time against a small Python DSPy script"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/deepfates/imp"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790600682556-y3hv6",
+    "log_dir": "/tmp/llm-review-1790600682556-y3hv6",
+    "install_success": true,
+    "install_time_s": 11.7,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "Cloning into '/tmp/imp_test/imp'...\nERROR: Could not find a version that satisfies the requirement imp (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for imp\nTraceback (most recent call last):\n  File \"/app/test.py\", line 75, in <module>\n    pip_err = pip_res.stderr.strip() if pip_res else \"pip not found\"\n              ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'strip'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone_repo\n"
+  }
+}
