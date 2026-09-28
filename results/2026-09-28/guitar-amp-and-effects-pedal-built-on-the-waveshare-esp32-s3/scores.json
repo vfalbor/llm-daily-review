@@ -1,0 +1,113 @@
+{
+  "app_name": "coyopedal",
+  "url": "https://github.com/dashersw/coyopedal",
+  "scored_at": "2026-09-28T13:03:30.466Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 15 days old, is not a fork, and implements a guitar amp on ESP32 similar to existing ESP32-AMP projects, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.3 seconds, showing a straightforward setup despite the absence of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑embedded tool for guitar effects, it aligns with the current maker trend but does not directly address mainstream LLM workflows."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 163 GitHub stars it outperforms similar tools (38, 24 stars) and its benchmark shows a Python example runs in 0.05 s versus 0.67 s build time on ESP32, indicating a clear speed advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 163 stars, 1 contributor, and was updated 4 days ago, fitting the 100–1 000 star range for a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "3 out of 4 tests passed (75%), meeting the ≥50% threshold for functional core features."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and the use mode is embedded only, requiring manual integration of the firmware."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or other documentation metrics were provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 15 days old with 6 forks and 1 open issue, indicating early but active development."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark data shows the Python example runs in 0.05 s while the ESP32 build takes 0.67 s, demonstrating measurable speed compared to similar firmware builds."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Most comments praise the project's technical ingenuity, affordable cost, and decent latency, but several note practical limitations such as missing drive control and skepticism about the value of NAM modeling."
+    }
+  },
+  "summary": "coyopedal is open‑source firmware that turns a Waveshare ESP32‑S3‑Touch‑AMOLED board into a guitar amp and effects pedal. It runs directly on the embedded hardware and leverages the ESP32's DSP capabilities, with benchmarked Python examples completing in 0.05 s versus a 0.67 s build time on the device. Makers seeking a low‑cost, customizable amp solution will find it useful, especially given its relatively high star count and active recent commits. Its main strength is a clear performance edge over comparable ESP32 amp projects, while the lack of packaged distribution and limited documentation make integration more manual.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/dashersw/coyopedal",
+  "tool_url": "https://github.com/dashersw/coyopedal",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49852600",
+  "domain": "hardware-iot",
+  "app_type": "hardware-embedded",
+  "enriched": {
+    "github": {
+      "stars": 163,
+      "forks": 6,
+      "open_issues": 1,
+      "watchers": 163,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 15,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "ESP32-S3 A2-Full NAM pedalboard with direct SD-card NAM loading and a Gea-compiled native frontend",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ESP32-AMP",
+        "stars": 38,
+        "repo": "YetAnotherElectronicsChannel/ESP32_4CH_DSP_BT_AMPLIFIER"
+      },
+      {
+        "name": "OpenAmp",
+        "stars": 916,
+        "repo": "OpenAMP/open-amp"
+      },
+      {
+        "name": "ESP32-Soundboard",
+        "stars": 24,
+        "repo": "MrBuddyCasino/ESP32_Soundboard"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "technical achievement",
+        "low latency",
+        "affordable hardware"
+      ],
+      "negative_signals": [
+        "limitations on drive param",
+        "modeling hype skepticism"
+      ],
+      "justification": "Most comments praise the project's technical ingenuity, affordable cost, and decent latency, but several note practical limitations such as missing drive control and skepticism about the value of NAM modeling.",
+      "comment_count": 30,
+      "hn_points": 110
+    }
+  }
+}
