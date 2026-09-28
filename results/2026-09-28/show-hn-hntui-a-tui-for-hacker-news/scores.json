@@ -1,0 +1,110 @@
+{
+  "app_name": "Hntui",
+  "url": "https://github.com/ahmd-sh/hntui",
+  "scored_at": "2026-09-28T13:02:22.809Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 123 days ago, not a fork, and offers a TUI similar to existing tools (hn-tui, news-tui, hackernews-cli), indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 17.6 seconds, which is under the 30‑second threshold for easy setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI for browsing Hacker News, it serves a niche developer workflow but aligns with current interest in terminal UI tools."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has only 6 GitHub stars versus 419 stars for the closest competitor (hackernews-cli), showing minimal advantage over existing options."
+    },
+    "community": {
+      "score": 3,
+      "justification": "GitHub shows 6 stars, 1 contributor, and the repo was updated 4 days ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "No test suite was run (0 tests passed out of 0) and the basic run failed, suggesting limited verified usability."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is a pure CLI with no PyPI package and only MIT license; no API or library interface is provided."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repository is 123 days old, has 1 fork and 0 open issues, providing limited evidence of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were emitted in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Hntui is a terminal UI written in Rust for browsing Hacker News via the command line. It runs as a standalone CLI without external services. It is suited for developers who prefer a TUI experience for quick news checks. The project is lightweight to install (under 30 seconds) but offers little differentiation from higher‑starred alternatives and has a very small community.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/ahmd-sh/hntui",
+  "tool_url": "https://github.com/ahmd-sh/hntui",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49876760",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 6,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 6,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 123,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "browse hackernews like a hacker",
+      "topics": [
+        "hacker-news",
+        "opentui",
+        "tui"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "hn-tui",
+        "stars": 4,
+        "repo": "dmille56/hn-tui"
+      },
+      {
+        "name": "news-tui",
+        "stars": 41,
+        "repo": "danfry1/hacker-news-tui"
+      },
+      {
+        "name": "hackernews-cli",
+        "stars": 419,
+        "repo": "the-road-to-learn-react/hackernews-client"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 11
+    }
+  }
+}
