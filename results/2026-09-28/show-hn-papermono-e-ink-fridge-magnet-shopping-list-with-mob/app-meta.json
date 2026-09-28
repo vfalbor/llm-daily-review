@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+    "url": "https://github.com/seamusc/papermono-shopping-list",
+    "hn_url": "https://news.ycombinator.com/item?id=49875801",
+    "points": 4,
+    "comments": 0,
+    "author": "seamus_c",
+    "age": "2026-09-28T10:14:41",
+    "scraped_at": "2026-09-28T13:00:03.408Z",
+    "tool_url": "https://github.com/seamusc/papermono-shopping-list",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A mobile-friendly web app that turns a shopping list into an e‑ink fridge magnet display.",
+    "use_modes": [
+      "Web"
+    ],
+    "similar_tools": [
+      "Google Keep",
+      "Todoist",
+      "Any.do"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `npm install`",
+      "Start dev server with `npm start` and verify page loads at localhost:3000",
+      "Build production bundle with `npm run build` and check bundle size",
+      "Run end‑to‑end test with Playwright against the / list creation flow"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/seamusc/papermono-shopping-list"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790600612337-8f44l",
+    "log_dir": "/tmp/llm-review-1790600612337-8f44l",
+    "install_success": true,
+    "install_time_s": 10.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.78",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:npm install failed - npm error code ENOENT\nnpm error syscall open\nnpm error path /tmp/papermono/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/papermono/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-09-28T13_03_56_757Z-debug-0.log\nBENCHMARK:install_time_s:0.78\nRUN_OK\n"
+  }
+}
