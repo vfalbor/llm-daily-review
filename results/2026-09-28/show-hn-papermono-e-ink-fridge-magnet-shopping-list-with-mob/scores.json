@@ -1,0 +1,106 @@
+{
+  "app_name": "PaperMono",
+  "url": "https://github.com/seamusc/papermono-shopping-list",
+  "scored_at": "2026-09-28T13:04:41.193Z",
+  "total_score": 35,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "Created only 1 day ago and is not a fork, but mirrors existing list apps (Google Keep, Todoist, Any.do) with only 3 stars versus hundreds to thousands."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) in 10.5 seconds, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a web‑frontend shopping‑list tool, it has limited fit with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Only 3 GitHub stars compared to 404‑4,241 stars of similar tools and no benchmark advantages."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The repo has 3 stars, a single contributor, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Installation succeeded, but no tests were defined (0/0), leaving insufficient data on usability."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Only a web UI is provided; no PyPI package, no API modes, and GPL‑3.0 license, making programmatic integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No wiki, GitHub pages, or documented topics were found, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository is 1 day old, has 0 forks and 0 open issues, showing very early stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports only an install_time_s of 0.78 with no comparative data, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "PaperMono is a mobile‑friendly web app that displays a shopping list on an e‑ink fridge magnet. It is built as a simple web frontend without any API or package distribution. The tool is suited for hobbyists who want a low‑tech visual list, but it offers no clear advantage over existing list apps and lacks documentation and community support. Its main strength is the novel e‑ink display concept, while the main caveat is its minimal maturity and near‑zero adoption.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/seamusc/papermono-shopping-list",
+  "tool_url": "https://github.com/seamusc/papermono-shopping-list",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49875801",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "E-paper shopping list for the M5Stack PaperMono, with a FastAPI server and phone web UI",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Google Keep",
+        "stars": 404,
+        "repo": "google/keep-sorted"
+      },
+      {
+        "name": "Todoist",
+        "stars": 1735,
+        "repo": "sachaos/todoist"
+      },
+      {
+        "name": "Any.do",
+        "stars": 4241,
+        "repo": "ali-vilab/AnyDoor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 4
+    }
+  }
+}
