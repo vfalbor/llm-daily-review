@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+    "url": "https://github.com/dashersw/coyopedal",
+    "hn_url": "https://news.ycombinator.com/item?id=49852600",
+    "points": 110,
+    "comments": 55,
+    "author": "arbayi",
+    "age": "2026-09-26T02:24:50",
+    "scraped_at": "2026-09-28T13:00:03.405Z",
+    "tool_url": "https://github.com/dashersw/coyopedal",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "hardware-iot",
+    "app_type": "hardware-embedded",
+    "description": "Firmware for a guitar amp and effects pedal running on the Waveshare ESP32‑S3‑Touch‑AMOLED‑2.06 board.",
+    "use_modes": [
+      "embedded"
+    ],
+    "similar_tools": [
+      "ESP32-AMP",
+      "OpenAmp",
+      "ESP32-Soundboard"
+    ],
+    "proposed_tests": [
+      "Clone the repository and verify the Makefile builds the firmware.",
+      "Flash the built firmware onto an ESP32‑S3 board and confirm it powers on.",
+      "Run a test signal through the amp to ensure the audio output is audible and distortion is within acceptable limits.",
+      "Apply a preset effects chain via the OLED UI and record output to validate DSP processing.",
+      "Measure firmware boot time and memory usage with a serial monitor."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/dashersw/coyopedal"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790600544692-9llyp",
+    "log_dir": "/tmp/llm-review-1790600544692-9llyp",
+    "install_success": true,
+    "install_time_s": 9.3,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:source_file_count:99\nBENCHMARK:source_langs_json:{\".cpp\": 28, \".h\": 42, \".py\": 10, \".c\": 19}\nBENCHMARK:python_example_time_s:0.05\nBENCHMARK:vs_esp32_amp_build_time_s:0.67\nBENCHMARK:vs_esp32_amp_python_example_time_s:0.8",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_PASS:count_files\nBENCHMARK:source_file_count:99\nBENCHMARK:source_langs_json:{\".cpp\": 28, \".h\": 42, \".py\": 10, \".c\": 19}\nTEST_SKIP:build_firmware:Makefile not found\nTEST_PASS:python_example\nBENCHMARK:python_example_time_s:0.05\nBENCHMARK:vs_esp32_amp_build_time_s:0.67\nBENCHMARK:vs_esp32_amp_python_example_time_s:0.8\nRUN_OK\n"
+  }
+}
