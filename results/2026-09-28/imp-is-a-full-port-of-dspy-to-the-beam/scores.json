@@ -1,0 +1,114 @@
+{
+  "app_name": "Imp",
+  "url": "https://github.com/deepfates/imp",
+  "scored_at": "2026-09-28T13:05:43.329Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repository is 79 days old, is not a fork, and provides the first BEAM implementation of the DSPy framework, a meaningful improvement over the Python-only reference."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11.7 seconds and requires only the BEAM runtime; no exotic hardware or API keys are needed."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a prompt‑management library for LLM workflows on the BEAM, it addresses a growing need for Elixir/Erlang developers to integrate LLMs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 205 stars it is far smaller than Promptflow (11,241) and LlamaIndex (52,334), but it uniquely offers DSPy functionality on the BEAM and reports an import time of 142 ms."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 205 stars, 4 contributors, and was updated today (0 days since last commit), placing it in the 100–1k star, active‑maintainer range."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 1 of 1 tests passed and the installation succeeded, indicating core functionality works out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The library is available via the source repository (no PyPI package) and provides Elixir, Erlang, and CLI use modes under an MIT license, enabling straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 79 days old with 11 forks and 16 open issues, indicating early‑stage but actively maintained code."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A benchmark line reports import_time_ms:142, but no comparative data is available to judge relative performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments acknowledge DSPy's usefulness and the benefits of tool calls, yet express skepticism about widespread use, potential shortcomings, and validation problems, leading to a generally positive but somewhat cautious assessment."
+    }
+  },
+  "summary": "Imp is an Erlang/Elixir library that ports the DSPy prompt‑management framework to the BEAM, allowing LLM prompt handling directly from Elixir or Erlang code. It works as a library and CLI without needing an external API key, targeting developers building LLM‑enabled BEAM applications. The standout strength is its unique BEAM support, while the main caveat is limited community size and documentation detail. ",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/deepfates/imp",
+  "tool_url": "https://github.com/deepfates/imp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49869995",
+  "domain": "llm-ai",
+  "app_type": "prompt-tool",
+  "enriched": {
+    "github": {
+      "stars": 205,
+      "forks": 11,
+      "open_issues": 16,
+      "watchers": 205,
+      "contributors": 4,
+      "license": "MIT",
+      "language": "Elixir",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 79,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "declarative self-improving language-model programs for Elixir 😇",
+      "topics": [
+        "agents",
+        "beam",
+        "dspy",
+        "elixir",
+        "llm",
+        "machine-learning"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Promptflow",
+        "stars": 11241,
+        "repo": "microsoft/promptflow"
+      },
+      {
+        "name": "LlamaIndex",
+        "stars": 52334,
+        "repo": "run-llama/llama_index"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "DSPy techniques valuable",
+        "tool calls improve functionality"
+      ],
+      "negative_signals": [
+        "concerns about adoption and quality",
+        "issues with tool call validation"
+      ],
+      "justification": "The comments acknowledge DSPy's usefulness and the benefits of tool calls, yet express skepticism about widespread use, potential shortcomings, and validation problems, leading to a generally positive but somewhat cautious assessment.",
+      "comment_count": 7,
+      "hn_points": 84
+    }
+  }
+}
