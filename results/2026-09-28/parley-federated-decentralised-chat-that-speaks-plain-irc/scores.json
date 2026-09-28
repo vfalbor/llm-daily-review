@@ -1,0 +1,83 @@
+{
+  "app_name": "Parley",
+  "url": "https://git.mills.io/prologic/parley",
+  "scored_at": "2026-09-28T13:01:26.762Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so only a generic novelty assessment can be made, resulting in a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 12.2 seconds, which is well under the 30‑second threshold, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As an \"other-app\" federated chat tool, it does not directly address a primary pain point in today's LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub stars or benchmark comparisons are available; the app is listed alongside Matrix, Nostr, and Tox, giving only a baseline level of differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository, but the Hacker News post received 112 points and 30 comments, placing it in the 100–200 point range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 out of 2 tests passed (50%), meeting the ≥50% threshold for a modest ease‑of‑use rating."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The web page mentions an API/SDK/webhook support and the tool offers both CLI and Web UI modes, despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The site provides a docs/wiki link, example/demo material, and a long content length of 33,902 characters, indicating comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.25.2 signals a released, stable version (≥1.0) even though no GitHub data is present."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import time of 1.34 ms and install time of 4.157 s, but no comparative data exists to judge relative performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the federated, IRC‑friendly nature and potential for bridging, but raise concerns about spam, the need for users to run or rely on instances, and technical complexity, leading to a generally positive but somewhat cautious reception."
+    }
+  },
+  "summary": "Parley is a decentralized chat application that bridges users via the plain IRC protocol, offering both a CLI and a Web UI. It runs a self‑hosted instance and exposes an API/SDK with webhook capabilities. The tool is suited for communities that need federated IRC‑compatible chat without relying on centralized services. Its strong point is the extensive documentation and a stable 1.25.2 release, while the lack of package distribution and limited benchmark comparisons are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://git.mills.io/prologic/parley",
+  "tool_url": "https://git.mills.io/prologic/parley",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49875913",
+  "domain": "other",
+  "app_type": "other-app",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "federated IRC-compatible chat",
+        "easy bridging to existing protocols",
+        "open to layman usage via public instances"
+      ],
+      "negative_signals": [
+        "spam and bot concerns",
+        "requires running own instance or dependency on others",
+        "implementation complexity and lack of existing tooling"
+      ],
+      "justification": "Comments praise the federated, IRC‑friendly nature and potential for bridging, but raise concerns about spam, the need for users to run or rely on instances, and technical complexity, leading to a generally positive but somewhat cautious reception.",
+      "comment_count": 30,
+      "hn_points": 112
+    }
+  }
+}
