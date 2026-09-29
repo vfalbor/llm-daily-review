@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Show HN: Raven – The harness of harnesses, built for RSI",
+    "url": "https://github.com/EverMind-AI/Raven",
+    "hn_url": "https://news.ycombinator.com/item?id=49890647",
+    "points": 14,
+    "comments": 6,
+    "author": "cyfyifanchen",
+    "age": "2026-09-29T09:58:24",
+    "scraped_at": "2026-09-29T13:00:03.092Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/EverMind-AI/Raven",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-codegen",
+    "description": "Raven is a modular harness framework designed to streamline the development of RSI (Robotic Systems Integration) applications, providing reusable components and orchestration utilities.",
+    "use_modes": [
+      "CLI",
+      "Library"
+    ],
+    "similar_tools": [
+      "ROS2",
+      "Gazebo",
+      "Robotics Runtime"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run 'npm install' (or equivalent) to ensure dependencies resolve.",
+      "Execute the provided example harness script and verify it outputs the expected integration flow.",
+      "Run 'npm test' or the built-in test suite to confirm all unit tests pass.",
+      "Measure startup latency of the harness when loading a complex component graph."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/EverMind-AI/Raven"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790686927126-hzud6",
+    "log_dir": "/tmp/llm-review-1790686927126-hzud6",
+    "install_success": true,
+    "install_time_s": 9.7,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_s:0.590\nBENCHMARK:import_time_s_peak_mem_bytes:9876236\nBENCHMARK:functional_test_latency_s:error",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 141, in <module>\n    main()\n  File \"/app/test.py\", line 117, in main\n    elif os.path.isfile(os.path.join(src_dir, 'pytest.ini')) or any(f.startswith('test_') for f in os.listdir(src_dir)):\n                                                                                                   ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/raven'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_s:0.590\nBENCHMARK:import_time_s_peak_mem_bytes:9876236\nBENCHMARK:functional_test_latency_s:error\nTEST_PASS:functional_test\n"
+  }
+}
