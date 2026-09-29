@@ -1,0 +1,121 @@
+{
+  "app_name": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+  "url": "https://github.com/firelex/jeff",
+  "scored_at": "2026-09-29T13:06:29.460Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created today (0 days since repo created) and not a fork, but it replicates Jev functionality rather than introducing a new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 40.1 s and the package is on PyPI, indicating a fairly simple setup despite being slightly slower than the <30 s ideal."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-codegen library for decision models, it fits current interest in lightweight, locally‑run LLM‑adjacent tools."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repo has 861 stars versus Jev's 21,304 stars (‑96%) but offers a unique 0.8B sub‑30 ms model compatible with Jev, giving it a moderate edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 861 GitHub stars (100–1k range) and 1 contributor, with the last commit today (0 days since update), showing a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (<50%) and install succeeded, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is published on PyPI (v0.3.1), uses a Python API, and is MIT‑licensed, allowing straightforward integration despite lacking a dedicated REST interface."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository was created today (0 days) with 29 forks and 3 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons were supplied; only generic install timings are available, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the ease of local deployment and open weights, but several users point out lower accuracy compared to Jev and the need for fine-tuning, leading to a generally positive but cautiously critical tone."
+    }
+  },
+  "summary": "Jeff is a lightweight Python library that provides Jev‑compatible 0.8B decision models with sub‑30 ms inference latency. It runs locally without requiring an API key and is distributed via PyPI. The tool is aimed at developers who need fast, on‑device decision models for prototyping or edge deployments. While it offers quick local execution, its accuracy trails larger models like Jev and it lacks robust test coverage, as evidenced by 0/4 passed tests.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/firelex/jeff",
+  "tool_url": "https://github.com/firelex/jeff",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49883844",
+  "domain": "llm-ai",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 861,
+      "forks": 29,
+      "open_issues": 3,
+      "watchers": 861,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Jev",
+        "stars": 21304,
+        "repo": "browser-use/jev-ultrafast"
+      },
+      {
+        "name": "Decision Transformer",
+        "stars": 2837,
+        "repo": "kzl/decision-transformer"
+      },
+      {
+        "name": "Alibi-ML",
+        "stars": 0,
+        "repo": "shahidsak1973/SV_ML_ALIBI_DETECT"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.1",
+      "summary": "Jeff generates license file from the command line.",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "https://github.com/oskarcieslik/Jeff"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "local, low-latency inference",
+        "open-weight fine-tunes",
+        "easy to deploy"
+      ],
+      "negative_signals": [
+        "accuracy lower than Jev",
+        "requires fine-tuning for many cases",
+        "mixed benchmark support"
+      ],
+      "justification": "Comments praise the ease of local deployment and open weights, but several users point out lower accuracy compared to Jev and the need for fine-tuning, leading to a generally positive but cautiously critical tone.",
+      "comment_count": 30,
+      "hn_points": 527
+    }
+  }
+}
