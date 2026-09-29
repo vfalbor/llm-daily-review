@@ -1,0 +1,82 @@
+{
+  "app_name": "MicroLLM Lab",
+  "url": "https://stateofutopia.com/experiments/microllmlab/",
+  "scored_at": "2026-09-29T13:03:59.268Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, and only similarity to existing tools is listed, so there is insufficient quantitative evidence to assess novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success: true) in 8.8 seconds, and the tool runs in the browser without requiring an API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-inference web playground, it aligns with current trends of running lightweight LLMs client‑side for rapid experimentation."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The benchmark shows an inference latency of 69.02 ms, and the ability to run seven models in‑browser differentiates it from server‑based tools like TGI‑Playground and VLLM‑Web, though no direct performance comparison is available."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository is detected, so community health is inferred from Hacker News activity: 261 points and 30 comments indicate a modest but engaged user base."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 out of 3 tests passed (≈66%), meeting the ≥50% threshold for functional core features."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook (has API/SDK/webhook mention: true) despite the absence of a PyPI package."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The site provides examples/demo (has examples or demo: true) and a substantial content length of 5,488 characters, indicating decent documentation depth despite lacking a dedicated docs link."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.6 suggests a stable release, even though no changelog or GitHub repo is present."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an inference latency of 69.02 ms, but no comparative data to similar tools is available, so the performance is considered average."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Based on HN comment sentiment analysis."
+    }
+  },
+  "summary": "MicroLLM Lab is a browser‑based playground that runs seven tiny LLMs locally via WebAssembly and ONNX. It works entirely in the client, requiring no API key and offering a simple web UI with an optional API/SDK hook. The tool is suited for developers or researchers who want to experiment with small models without server resources. It stands out for its in‑browser multi‑model capability and decent latency (69 ms), but its limited documentation and lack of a public repository temper its appeal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://stateofutopia.com/experiments/microllmlab/",
+  "tool_url": "https://stateofutopia.com/experiments/microllmlab/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49882781",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Good performance on small models",
+        "User-friendly demo",
+        "Useful for experimenting"
+      ],
+      "negative_signals": [
+        "Sloppy UI and small text",
+        "Dense information overload",
+        "Limited instruction tuning"
+      ],
+      "comment_count": 30,
+      "hn_points": 261
+    }
+  }
+}
