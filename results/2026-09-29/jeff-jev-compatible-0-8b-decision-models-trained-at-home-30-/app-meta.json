@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+    "url": "https://github.com/firelex/jeff",
+    "hn_url": "https://news.ycombinator.com/item?id=49883844",
+    "points": 526,
+    "comments": 200,
+    "author": "firelex",
+    "age": "2026-09-28T20:23:36",
+    "scraped_at": "2026-09-29T13:00:03.095Z",
+    "tool_url": "https://github.com/firelex/jeff",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "devtool-codegen",
+    "description": "A lightweight library providing Jev-compatible 0.8B decision models that can be trained locally and executed with sub-30 ms latency.",
+    "use_modes": [
+      "Python"
+    ],
+    "similar_tools": [
+      "Jev",
+      "Decision Transformer",
+      "Alibi-ML",
+      "TensorFlow Decision Forests"
+    ],
+    "proposed_tests": [
+      "pip install git+https://github.com/firelex/jeff.git",
+      "import jeff; model = jeff.load_model('path/to/model')",
+      "Run a forward pass with sample input and measure execution time",
+      "Validate output shape and type against expected schema",
+      "Compare inference latency to baseline Jev implementation"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/firelex/jeff"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790687127796-yip5r",
+    "log_dir": "/tmp/llm-review-1790687127796-yip5r",
+    "install_success": true,
+    "install_time_s": 40.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.458\nBENCHMARK:pip_install_jeff_s:16.419\nBENCHMARK:git_clone_jeff_s:8.975\nBENCHMARK:pip_edit_install_jeff_s:7.698\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk git\nBENCHMARK:apk_git_install_s:0.458\nINSTALL_FAIL:ERROR: No matching distribution found for torch==2.14.0\nBENCHMARK:pip_install_jeff_s:16.419\nINSTALL_OK | git clone jeff\nBENCHMARK:git_clone_jeff_s:8.975\nINSTALL_FAIL:ERROR: No matching distribution found for torch==2.14.0\nBENCHMARK:pip_edit_install_jeff_s:7.698\nTEST_FAIL:import_jeff:No module named 'jeff'\nTEST_FAIL:load_model:RuntimeError: jeff not imported\nTEST_FAIL:inference_latency:RuntimeError: Model not loaded\nTEST_FAIL:baseline_comparison:RuntimeError: No latency measured\nBENCHMARK:loc_count:0\nBENCHMARK:test_files_count:1\nRUN_OK\n"
+  }
+}
