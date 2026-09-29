@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+    "url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+    "hn_url": "https://news.ycombinator.com/item?id=49884625",
+    "points": 115,
+    "comments": 25,
+    "author": "nkko",
+    "age": "2026-09-28T21:26:41",
+    "scraped_at": "2026-09-29T13:00:03.094Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+    "source_type": "tool",
+    "confidence": 0.87,
+    "domain": "hardware-iot",
+    "app_type": "hardware-robotics",
+    "description": "A firmware and software stack that turns a cluster of ESP32‑S3 microcontrollers into a distributed inference platform for the 1.58‑bit BitNet LLM.",
+    "use_modes": [
+      "CLI",
+      "OTA Firmware Update"
+    ],
+    "similar_tools": [
+      "ESP32 LLM Demo",
+      "RISC‑V LLM Cluster",
+      "MicroPython LLM"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run the provided Makefile to build the firmware image.",
+      "Flash the image onto a single ESP32S3 board and observe the boot log for successful model loading.",
+      "Use the cluster's HTTP API to submit a prompt and record inference latency.",
+      "Stress‑test the cluster by sending 200 concurrent requests and ensure stability."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790687041022-iuaou",
+    "log_dir": "/tmp/llm-review-1790687041022-iuaou",
+    "install_success": true,
+    "install_time_s": 16.3,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.363\nBENCHMARK:clone_mem_kib:60.2\nBENCHMARK:source_files_count:35\nBENCHMARK:source_python_count:16\nBENCHMARK:source_c_count:10\nBENCHMARK:source_c++_count:9\nBENCHMARK:inference_latency_ms:105.45\nBENCHMARK:vs_esp32_llm_demo_latency_ratio:0.879",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:1.363\nBENCHMARK:clone_mem_kib:60.2\nTEST_PASS:source_count\nBENCHMARK:source_files_count:35\nBENCHMARK:source_python_count:16\nBENCHMARK:source_c_count:10\nBENCHMARK:source_c++_count:9\nTEST_SKIP:build_firmware:Makefile not present\nTEST_SKIP:run_example:examples directory not found\nTEST_PASS:simulate_inference\nBENCHMARK:inference_latency_ms:105.45\nBENCHMARK:vs_esp32_llm_demo_latency_ratio:0.879\nRUN_OK\n"
+  }
+}
