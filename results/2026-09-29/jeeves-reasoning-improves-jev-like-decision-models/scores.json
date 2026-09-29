@@ -1,0 +1,121 @@
+{
+  "app_name": "Jeeves. Reasoning improves Jev-like decision models",
+  "url": "https://github.com/PostHog/jeeves",
+  "scored_at": "2026-09-29T13:02:05.581Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created today (0 days since creation) and is not a fork, but its functionality closely mirrors existing decision‑model libraries, yielding an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) but took 45.8 s, exceeding the <30 s threshold for top marks, while a PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑evaluation tool, it aligns with the current surge in LLM pipeline tooling and integrates without requiring an API key."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Jeeves has 71 GitHub stars versus LangChain's 147,248 and CrewAI's 59,174, showing far less community traction and no published benchmark advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 71 stars (100–1k range) and a single contributor, with the latest commit made today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of four tests passed (0 %); while the basic run succeeded, core functionality fails the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists (v0.1.0a3), the library offers a Python API and CLI, and it is MIT‑licensed, facilitating straightforward embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is brand new (0 days old) with 7 forks, no stable release (pre‑release 0.1.0a3) and zero open issues, placing it in an early‑alpha stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark values (e.g., install_jeeves_time_s = 2.68 s) are reported, but no comparative data against peers is available, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The discussion shows a mix of positive curiosity and humor about the project, but also skepticism regarding hallucination mitigation, model sizing, and readiness for production, leading to a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "Jeeves is a Python library that adds reasoning layers to decision‑making models for LLM pipelines, exposing both a Python API and a CLI. It is built on a fresh open‑source codebase released on PyPI (v0.1.0a3) and runs locally without external API keys. The tool is suited for developers experimenting with augmented decision logic in LLM workflows, especially when they need a quick prototype. Its main strength is easy local installation, but it currently lacks test coverage and community traction, and performance claims are not benchmarked against established alternatives.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/PostHog/jeeves",
+  "tool_url": "https://github.com/PostHog/jeeves",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49891290",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 71,
+      "forks": 7,
+      "open_issues": 0,
+      "watchers": 71,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Jeeves – Reasoning improves Jev-like decision models",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 147248,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59174,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "PromptLayer",
+        "stars": 5,
+        "repo": "MagnivOrg/my-chatgpt-promptlayer"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0a3",
+      "summary": "",
+      "requires_python": ">=3.7,<4.0",
+      "license": "",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Curiosity about new terminology",
+        "Interest in hybrid approach and benchmarking",
+        "Positive nostalgia for AskJeeves"
+      ],
+      "negative_signals": [
+        "Skepticism about hallucination handling",
+        "Critique of model size suitability",
+        "Uncertain about production readiness"
+      ],
+      "justification": "The discussion shows a mix of positive curiosity and humor about the project, but also skepticism regarding hallucination mitigation, model sizing, and readiness for production, leading to a generally positive but cautiously critical sentiment.",
+      "comment_count": 26,
+      "hn_points": 67
+    }
+  }
+}
