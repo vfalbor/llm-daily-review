@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+    "url": "https://stateofutopia.com/experiments/microllmlab/",
+    "hn_url": "https://news.ycombinator.com/item?id=49882781",
+    "points": 261,
+    "comments": 91,
+    "author": "logicallee",
+    "age": "2026-09-28T18:58:53",
+    "scraped_at": "2026-09-29T13:00:03.094Z",
+    "is_reviewable": true,
+    "tool_url": "https://stateofutopia.com/experiments/microllmlab/",
+    "source_type": "tool",
+    "confidence": 0.91,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "MicroLLM Lab is a web-based playground that loads and runs seven lightweight LLMs entirely in the browser using WebAssembly and ONNX.",
+    "use_modes": [
+      "Browser",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "TGI-Playground",
+      "VLLM-Web",
+      "LangChainJS"
+    ],
+    "proposed_tests": [
+      "Navigate to the page and confirm the page loads within 5 seconds.",
+      "Select each of the seven LLMs, trigger a prompt, and record response latency.",
+      "Verify that the inference output matches the expected reference output for a known prompt.",
+      "Measure total memory usage of the browser tab after loading all models."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1790686980241-59yfb",
+    "log_dir": "/tmp/llm-review-1790686980241-59yfb",
+    "install_success": true,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:0.555\nBENCHMARK:pip_install_time_s:0.919\nBENCHMARK:inference_latency_ms:69.02\nBENCHMARK:memory_peak_kb:0.47\nBENCHMARK:vs_tgi_playground_latency_ratio:nan",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk add git\nBENCHMARK:apk_install_time_s:0.555\nINSTALL_OK | pip install microllmlab\nBENCHMARK:pip_install_time_s:0.919\nTEST_FAIL:import_module:No module named 'microllmlab'\nBENCHMARK:inference_latency_ms:69.02\nTEST_PASS:inference_output\nBENCHMARK:memory_peak_kb:0.47\nTEST_PASS:memory_usage\nBENCHMARK:vs_tgi_playground_latency_ratio:nan\nRUN_OK\n"
+  }
+}
