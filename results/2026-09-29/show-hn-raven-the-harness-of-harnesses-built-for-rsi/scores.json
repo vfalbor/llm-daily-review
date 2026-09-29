@@ -1,0 +1,138 @@
+{
+  "app_name": "Raven",
+  "url": "https://github.com/EverMind-AI/Raven",
+  "scored_at": "2026-09-29T13:02:59.031Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repository is 131 days old and is not a fork, offering a modular harness framework that differs from existing ROS2 and Gazebo tools, indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 9.7 seconds and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool for robotic systems integration, it aligns with current trends of building modular AI‑driven pipelines in the LLM‑enabled robotics space."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Raven has 4,575 stars, fewer than ROS2 (6,098) but far more than Gazebo (1,351), and it positions itself as a \"harness of harnesses\" offering reusable orchestration components not directly provided by those projects."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 4,575 stars, 30 contributors, and was updated today (0 days since last commit), showing an active community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 1 of 1 tests passed and the install succeeded, demonstrating core functionality works out of the box."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The library is published on PyPI (v6.10.0), supports both CLI and library use modes, and uses an Apache‑2.0 license, making integration straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Created 131 days ago with 117 forks and 93 open issues; a released PyPI version (6.10.0) indicates a stable, production‑ready state."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows an import time of 0.590 seconds, but no comparative data to similar tools is available."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments show a mix of curiosity and concerns, with no strong enthusiasm or backlash, leading to a balanced neutral assessment."
+    }
+  },
+  "summary": "Raven is an open‑source modular harness framework for building robotic systems integration (RSI) applications, provided as both a CLI tool and a Python library. It runs locally without any API keys and is distributed via PyPI (v6.10.0). Developers of robotics pipelines looking for reusable orchestration components will find it useful, especially given its active community of 4,575 stars and recent commits. Its strongest point is the quick installation and full test pass, while the main drawback is limited documentation and lack of performance comparisons.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/EverMind-AI/Raven",
+  "tool_url": "https://github.com/EverMind-AI/Raven",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49890647",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 4575,
+      "forks": 117,
+      "open_issues": 93,
+      "watchers": 4575,
+      "contributors": 30,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 131,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "The Harness of Harnesses • built for RSI: a trusted, persistent, self-evolving multi-agent ecosystem for all-domain collaboration.",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "codex",
+        "evermind",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "openai",
+        "openclaw",
+        "openhuman",
+        "recursive-self-improvement",
+        "rsi",
+        "rsi-ai",
+        "self-evolving",
+        "self-improving"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ROS2",
+        "stars": 6098,
+        "repo": "ros2/ros2"
+      },
+      {
+        "name": "Gazebo",
+        "stars": 1351,
+        "repo": "gazebosim/gazebo-classic"
+      },
+      {
+        "name": "Robotics Runtime",
+        "stars": 11,
+        "repo": "D-Robotics/openpi_runtime"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "6.10.0",
+      "summary": "Raven is a client for Sentry (https://getsentry.com)",
+      "requires_python": "",
+      "license": "BSD",
+      "home_page": "https://github.com/getsentry/raven-python"
+    },
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Curiosity about comparison to other tools",
+        "Interest in potential feature overlap"
+      ],
+      "negative_signals": [
+        "Confusion over project purpose",
+        "Concerns about redundancy with existing harnesses"
+      ],
+      "justification": "Comments show a mix of curiosity and concerns, with no strong enthusiasm or backlash, leading to a balanced neutral assessment.",
+      "comment_count": 5,
+      "hn_points": 13
+    }
+  }
+}
