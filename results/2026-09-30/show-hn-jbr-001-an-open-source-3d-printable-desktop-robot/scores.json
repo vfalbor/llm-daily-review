@@ -1,0 +1,112 @@
+{
+  "app_name": "JBR-001",
+  "url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+  "scored_at": "2026-09-30T13:01:11.357Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created only 8 days ago and is not a fork, but similar open-source robots exist with comparable star counts, indicating an incremental rather than groundbreaking contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 17.6 seconds (under the 30 s high‑score threshold) despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑robotics tool, it aligns with the current maker‑hardware trend but addresses a niche desktop companion use case."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 7 GitHub stars, which is lower than Kuri Robot (12) and Arduino Robot Kit (15) and only slightly above Robotis Bioloid (5), showing limited distinction."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repository has 7 stars, a single contributor, and was updated 4 days ago, placing it in the 100‑1k star, small‑community range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 4 of 9 tests passed (44%), which is below the 50 % threshold for moderate usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Integration is limited to USB and Serial interfaces, with no PyPI package and a CC0‑1.0 license, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or other documentation signals were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repo is only 8 days old, has zero forks and zero open issues, indicating an early‑alpha stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only reports clone time and source file counts with no comparative performance claims."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show enthusiasm for the open‑source nature and family building, but a few critique the use of a pricey Uno Q board, indicating moderate positive sentiment with some cost‑related reservations."
+    }
+  },
+  "summary": "JBR-001 is a 3D‑printable desktop companion robot built around an Arduino Uno and controlled via USB or Serial. It compiles a small C++ codebase (117 source files) and runs locally without cloud services. Makers looking for a low‑cost, family‑friendly robot kit may find it useful, especially given its open‑source nature. Its main strength is quick installation (under 20 s), but limited documentation, low community adoption, and modest test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+  "tool_url": "https://github.com/syntheticaidata/jbr-001",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49890707",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 7,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 7,
+      "contributors": 1,
+      "license": "CC0-1.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 8,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A Desktop Companion Robot Powered by Arduino UNO Q",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Kuri Robot",
+        "stars": 12,
+        "repo": "hcrlab/kuri_wandering_robot"
+      },
+      {
+        "name": "Robotis Bioloid",
+        "stars": 5,
+        "repo": "billynugrahas/ROBOTIS-BIOLOID"
+      },
+      {
+        "name": "Arduino Robot Kit",
+        "stars": 15,
+        "repo": "sunfounder/SunFounder_Crawling_Quadruped_Robot_Kit_for_Arduino"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 9,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Open source with buildable files",
+        "Encourages family collaboration"
+      ],
+      "negative_signals": [
+        "Concerns over expensive Uno Q component",
+        "Potential cost barrier for users"
+      ],
+      "justification": "The comments show enthusiasm for the open‑source nature and family building, but a few critique the use of a pricey Uno Q board, indicating moderate positive sentiment with some cost‑related reservations.",
+      "comment_count": 7,
+      "hn_points": 43
+    }
+  }
+}
