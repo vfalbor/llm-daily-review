@@ -1,0 +1,82 @@
+{
+  "app_name": "Phyllotaxis: An audio-reactive LED display",
+  "url": "https://jagi.studio/posts/phyllotaxis/",
+  "scored_at": "2026-09-30T13:04:56.762Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not available, so the novelty cannot be assessed from the data."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 11.4 seconds, well under the 30‑second threshold for easy setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑IoT audio‑reactive LED controller, it aligns with the current maker and real‑time visualisation trends in the LLM‑adjacent ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons to the listed similar tools are available, leaving only a neutral assessment."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN points are 309, which falls in the 200‑500 range indicating a healthy community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3) and only basic run succeeded, showing limited functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project offers GPIO and optional Web UI modes but lacks a PyPI package or documented SDK, making integration manual."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic metadata were found; documentation quality cannot be measured from the available data."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With HN points of 309 and no version or release tags, the proxy maturity score falls in the 6 range."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a vs_python_fib35_ratio of 0.45, indicating the implementation runs about 2.2× faster than a pure Python baseline."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the project’s aesthetic and engineering ingenuity, with several users noting assembly advice and inspiration. Minor negative threads discuss the use of the term \"phyllotaxis\" and concerns about hand‑soldering complexity, but overall sentiment is strongly positive."
+    }
+  },
+  "summary": "Phyllotaxis is a Raspberry Pi/ESP32 controller that drives an LED strip to display a phyllotaxis pattern reacting to live audio. It runs locally using GPIO and an optional Web UI, without needing any external API keys. Makers looking for a visually striking, real‑time audio visualisation on custom hardware would reach for this tool. The project shines in speed—its benchmark runs 2.2× faster than a comparable Python implementation—but its documentation and integration support are sparse, and automated tests show limited functional coverage.",
+  "recommendation": "worth-watching",
+  "app_url": "https://jagi.studio/posts/phyllotaxis/",
+  "tool_url": "https://github.com/jagi/phyllotaxis-led",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49880411",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "cool design & assembly tips",
+        "inspiring audio-reactive art",
+        "community appreciation"
+      ],
+      "negative_signals": [
+        "naming controversy",
+        "assembly difficulty concerns"
+      ],
+      "justification": "The majority of comments praise the project’s aesthetic and engineering ingenuity, with several users noting assembly advice and inspiration. Minor negative threads discuss the use of the term \"phyllotaxis\" and concerns about hand‑soldering complexity, but overall sentiment is strongly positive.",
+      "comment_count": 30,
+      "hn_points": 309
+    }
+  }
+}
