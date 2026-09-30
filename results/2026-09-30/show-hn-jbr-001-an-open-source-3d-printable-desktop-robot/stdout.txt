@@ -1,0 +1,118 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.69.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.5-r0)
+(11/13) Installing pcre2 (10.48-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+BENCHMARK:clone_time_s:9.412
+TEST_FAIL:clone_repo:Cloning into '/tmp/jbr-001'...
+error: unable to write file 3d-printable-files/head/Head_Ear_Left_Blue.stl
+error: unable to write file 3d-printable-files/head/Head_Ear_Right_Blue.stl
+error: unable to write file 3d-printable-files/head/Head_Front_Left_White.stl
+error: unable to write file 3d-printable-files/head/Head_Front_Right_White.stl
+error: unable to write file 3d-printable-files/head/Head_Front_White.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Forearm_White.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Hand_Gray.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Ring_Bottom_Blue.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Ring_Top_Blue.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Joint.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Pole.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Ring_Blue.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_White.stl
+error: unable to write file 3d-printable-files/left-arm/Left_Arm_Upper_Arm_Black.stl
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Base_Blue.stl
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Button_Left_Blue.stl
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Button_Right_Blue.stl
+Updating files:  64% (58/90)
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Cap_White.stl
+Updating files:  65% (59/90)
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Knee_Black.stl
+Updating files:  66% (60/90)
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Knee_Ring_Blue.stl
+Updating files:  67% (61/90)
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Main_White.stl
+Updating files:  68% (62/90)
+error: unable to write file 3d-printable-files/left-leg/Left_Leg_Ring_Blue.stl
+Updating files:  70% (63/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Forearm_White.stl
+Updating files:  71% (64/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Hand_Gray.stl
+Updating files:  72% (65/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Ring_Bottom_Blue.stl
+Updating files:  73% (66/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Ring_Top_Blue.stl
+Updating files:  74% (67/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Joint.stl
+Updating files:  75% (68/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Pole.stl
+Updating files:  76% (69/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Ring_Blue.stl
+Updating files:  77% (70/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_White.stl
+Updating files:  78% (71/90)
+error: unable to write file 3d-printable-files/right-arm/Right_Arm_Upper_Arm_Black.stl
+Updating files:  80% (72/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Base_Blue.stl
+Updating files:  81% (73/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Button_Left_Blue.stl
+Updating files:  82% (74/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Button_Right_Blue.stl
+Updating files:  83% (75/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Cap_White.stl
+Updating files:  84% (76/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Knee_Black.stl
+Updating files:  85% (77/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Knee_Ring_Blue.stl
+Updating files:  86% (78/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Main_White.stl
+Updating files:  87% (79/90)
+error: unable to write file 3d-printable-files/right-leg/Right_Leg_Ring_Blue.stl
+Updating files:  88% (80/90)
+error: unable to write file LICENSE
+Updating files:  90% (81/90)
+error: unable to write file README.md
+Updating files:  91% (82/90)
+error: unable to write file assembly-instructions/assembly-instructions.pdf
+Updating files:  92% (83/90)
+error: unable to write file img/JBR-001-readme.jpg
+Updating files:  93% (84/90)
+error: unable to write file schematics/JBR-001-schematics.png
+Updating files:  94% (85/90)
+error: unable to write file source-code/buzzer.cpp
+Updating files:  95% (86/90)
+error: unable to write file source-code/distance-and-buzzer.cpp
+Updating files:  96% (87/90)
+error: unable to write file source-code/full-code.cpp
+Updating files:  97% (88/90)
+error: unable to write file source-code/head-display.cpp
+Updating files:  98% (89/90)
+error: unable to write file source-code/servo-motors.cpp
+Updating files: 100% (90/90)
+Updating files: 100% (90/90), done.
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+BENCHMARK:source_file_count:117
+BENCHMARK:language_counts:{"Other": 112, "C++": 5}
+TEST_PASS:count_files
+TEST_PASS:count_files
+TEST_FAIL:run_python_example:No Python example found
+INSTALL_SKIP:arduino_cli:apk package not found
+TEST_FAIL:firmware_upload_check:arduino-cli not available
+TEST_FAIL:movement_test:No .ino files found
+TEST_FAIL:sensor_read_sim:No serial reading scripts found
+BENCHMARK:vs_kuri_robot_compile_ratio:0.000
+TEST_PASS:baseline_compare
+TEST_PASS:baseline_compare
+RUN_OK
