@@ -1,0 +1,107 @@
+{
+  "app_name": "Livenerf",
+  "url": "https://github.com/ninjahawk/livenerf",
+  "scored_at": "2026-09-30T13:02:08.624Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is only 7 days old, is not a fork, and tackles a new benchmark that existing tools do not cover directly."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded but took 40.4 s (>30 s) and there is no PyPI package, requiring a manual install."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑evaluation framework it aligns with the current surge in benchmark‑driven LLM development."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 630 stars it is far less popular than lm‑eval‑harness (14,104 stars) and EvalAI (2,044 stars), and no benchmark advantage is reported."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 630 stars, only 1 contributor, and was updated today, indicating modest but active interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0 %), showing core functionality fails in the container run."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a CLI and Python API but lacks a PyPI distribution and has no declared license, making integration average."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic tags were found; the README provides only basic install instructions."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Created 7 days ago, with 8 forks and 1 open issue, the project is still in an early stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were reported; the only timings are install times, which do not measure evaluation speed."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN shows 717 points, 30 comments, and a sentiment score of 6/10, indicating generally positive but mixed reactions."
+    }
+  },
+  "summary": "Livenerf is a lightweight LLM evaluation framework that runs a custom Livenerf benchmark via a CLI or Python API. It was released only a week ago and does not depend on an API key, making it easy to try locally. Researchers and developers who need a quick, open‑source benchmark for recent model releases may find it useful, especially given the early excitement reflected in HN discussions. However, the package lacks a PyPI distribution, has minimal documentation, and none of its core tests pass, indicating limited stability and performance evidence.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/ninjahawk/livenerf",
+  "tool_url": "https://github.com/ninjahawk/livenerf",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49901736",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": {
+      "stars": 630,
+      "forks": 8,
+      "open_issues": 1,
+      "watchers": 630,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Benchmark for tracking model capability after release.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "lm-eval-harness",
+        "stars": 14104,
+        "repo": "EleutherAI/lm-evaluation-harness"
+      },
+      {
+        "name": "EvalAI",
+        "stars": 2044,
+        "repo": "Cloud-CV/EvalAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Acknowledgement of novelty and early excitement",
+        "Hope for maintaining performance"
+      ],
+      "negative_signals": [
+        "Skepticism about nerfing",
+        "Concerns about lack of evidence"
+      ],
+      "justification": "Comments show a generally positive attitude toward the model’s novelty, but many express doubts and request concrete evidence of any performance degradation, reflecting mixed reception.",
+      "comment_count": 30,
+      "hn_points": 717
+    }
+  }
+}
