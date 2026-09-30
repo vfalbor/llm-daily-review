@@ -1,0 +1,99 @@
+{
+  "app_name": "Real-time Solar System with 526k asteroids and all tracked satellites",
+  "url": "https://space.bl2.net/",
+  "scored_at": "2026-09-30T13:03:23.119Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool is not a fork and offers a much larger dataset (526k asteroids) compared to similar projects with far fewer stars, indicating an incremental but meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 12.7 seconds (<30 s) and required no PyPI package, showing a fairly easy setup despite needing an API key at runtime."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a web-frontend visualizer it does not address core LLM workflow needs, making its relevance to the current LLM ecosystem limited."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools (Space-Engine 2,979★, Orbit-Visualizer 5★, Universe.js 28★) this project renders 526k asteroids and all tracked satellites, a unique scale not offered elsewhere."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub data is available, but the HN post received 287 points and 30 comments, which places it in the 200–500 point range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20 %), indicating core functionality works but many features are unreliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project provides both a Web UI and an API integration mode, though no PyPI package exists and license details are unknown."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub repository metadata is unavailable, and no explicit wiki or GitHub Pages information was found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, the HN point total of 287 falls in the 200–300 range, triggering the proxy maturity score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show clone/install time 0.31 s and server startup 0.03 s, but no comparative data is available, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud the project’s scope and real‑time data, while a few highlight UX and visual scaling concerns; overall reception is very positive with constructive feedback."
+    }
+  },
+  "summary": "This is a client‑side JavaScript app that visualizes the Solar System in 3D using Three.js and a public space‑tracking API, rendering 526 k asteroids and all tracked satellites. It runs in the browser and also exposes an API for integration, requiring an API key for live data. It is suited for educators, astronomers, or hobbyists who need a high‑detail, real‑time planetary visualization. Its standout strength is the unprecedented data scale, while the main caveat is limited reliability shown by only 20 % of automated tests passing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://space.bl2.net/",
+  "tool_url": "https://github.com/space-visualization/solar-system-3d",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49898778",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Space-Engine",
+        "stars": 2979,
+        "repo": "KeenSoftwareHouse/SpaceEngineers"
+      },
+      {
+        "name": "Orbit-Visualizer",
+        "stars": 5,
+        "repo": "freeflyer-team/svelte-orbit-visualizer"
+      },
+      {
+        "name": "Universe.js",
+        "stars": 28,
+        "repo": "uni-js/universe"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "enthusiastic praise",
+        "impressive scale & data",
+        "UX improvements welcomed"
+      ],
+      "negative_signals": [
+        "scale/size issues",
+        "zoom/UX pain points",
+        "concerns about satellite representation"
+      ],
+      "justification": "The majority of comments applaud the project’s scope and real‑time data, while a few highlight UX and visual scaling concerns; overall reception is very positive with constructive feedback.",
+      "comment_count": 30,
+      "hn_points": 287
+    }
+  }
+}
