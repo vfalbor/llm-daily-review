@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+    "url": "https://space.bl2.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=49898778",
+    "points": 287,
+    "comments": 70,
+    "author": "wanick",
+    "age": "2026-09-29T19:08:01",
+    "scraped_at": "2026-09-30T13:00:02.730Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/space-visualization/solar-system-3d",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A client‑side JavaScript application that renders a 3D model of the Solar System with real‑time data on asteroids and satellites, powered by Three.js and a public space‑tracking API.",
+    "use_modes": [
+      "Web UI",
+      "API integration"
+    ],
+    "similar_tools": [
+      "Space-Engine",
+      "Orbit-Visualizer",
+      "Universe.js"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `npm install` to build the project.",
+      "Serve the app locally with `npm start` and verify the 3D scene loads without errors.",
+      "Automate a headless browser test to capture a screenshot of the scene and compare against a baseline image.",
+      "Measure the initial load time and the FPS during idle and while scrolling the scene.",
+      "Run a simple fetch against the public API used for asteroids and confirm the data shape matches the documentation."
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/space-visualization/solar-system-3d"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790773330995-03qal",
+    "log_dir": "/tmp/llm-review-1790773330995-03qal",
+    "install_success": true,
+    "install_time_s": 12.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:clone_and_install_total_s:0.31\nBENCHMARK:server_startup_time_s:0.03\nBENCHMARK:api_fetch_time_ms:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:playwright:ERROR: Could not find a version that satisfies the requirement playwright (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for playwright\nINSTALL_OK\nINSTALL_FAIL:playwright_browser:Command '['/usr/local/bin/python', '-m', 'playwright', 'install', 'chromium']' returned non-zero exit status 1.\nTEST_FAIL:clone_and_install:[Errno 2] No such file or directory: '/tmp/solar-system-3d'\nBENCHMARK:clone_and_install_total_s:0.31\nTEST_FAIL:start_server:[Errno 2] No such file or directory: '/tmp/solar-system-3d'\nBENCHMARK:server_startup_time_s:0.03\nTEST_FAIL:screenshot:No module named 'playwright'\nTEST_FAIL:performance_metrics:No module named 'playwright'\nBENCHMARK:api_fetch_time_ms:0\nTEST_PASS:api_fetch_mocked_error\nRUN_OK\n"
+  }
+}
