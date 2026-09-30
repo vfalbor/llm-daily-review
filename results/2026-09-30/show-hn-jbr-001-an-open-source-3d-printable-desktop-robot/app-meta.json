@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Show HN: JBR-001 – An open-source 3D printable desktop robot",
+    "url": "https://projecthub.arduino.cc/syntheticaidata/jbr-001-a-desktop-companion-robot-powered-by-arduino-uno-q-b11c96",
+    "hn_url": "https://news.ycombinator.com/item?id=49890707",
+    "points": 43,
+    "comments": 7,
+    "author": "gvuksic",
+    "age": "2026-09-29T10:05:56",
+    "scraped_at": "2026-09-30T13:00:02.722Z",
+    "tool_url": "https://github.com/syntheticaidata/jbr-001",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.8,
+    "domain": "hardware",
+    "app_type": "hardware-robotics",
+    "description": "A 3D‑printable desktop companion robot powered by an Arduino Uno",
+    "use_modes": [
+      "USB",
+      "Serial"
+    ],
+    "similar_tools": [
+      "Kuri Robot",
+      "Robotis Bioloid",
+      "Arduino Robot Kit"
+    ],
+    "proposed_tests": [
+      "Download source and assemble robot",
+      "Upload firmware via Arduino IDE",
+      "Run movement test script and measure response time",
+      "Verify sensor readings via serial output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/syntheticaidata/jbr-001"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790773239143-j890a",
+    "log_dir": "/tmp/llm-review-1790773239143-j890a",
+    "install_success": true,
+    "install_time_s": 17.6,
+    "basic_run_success": true,
+    "tests_passed": 4,
+    "tests_total": 9,
+    "benchmark_notes": "BENCHMARK:clone_time_s:9.412\nBENCHMARK:source_file_count:117\nBENCHMARK:language_counts:{\"Other\": 112, \"C++\": 5}\nBENCHMARK:vs_kuri_robot_compile_ratio:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.69.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.48-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:clone_time_s:9.412\nTEST_FAIL:clone_repo:Cloning into '/tmp/jbr-001'...\nerror: unable to write file 3d-printable-files/head/Head_Ear_Left_Blue.stl\nerror: unable to write file 3d-printable-files/head/Head_Ear_Right_Blue.stl\nerror: unable to write file 3d-printable-files/head/Head_Front_Left_White.stl\nerror: unable to write file 3d-printable-files/head/Head_Front_Right_White.stl\nerror: unable to write file 3d-printable-files/head/Head_Front_White.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Forearm_White.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Hand_Gray.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Ring_Bottom_Blue.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Ring_Top_Blue.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Joint.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Pole.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_Ring_Blue.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Shoulder_White.stl\nerror: unable to write file 3d-printable-files/left-arm/Left_Arm_Upper_Arm_Black.stl\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Base_Blue.stl\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Button_Left_Blue.stl\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Button_Right_Blue.stl\nUpdating files:  64% (58/90)\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Cap_White.stl\nUpdating files:  65% (59/90)\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Knee_Black.stl\nUpdating files:  66% (60/90)\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Knee_Ring_Blue.stl\nUpdating files:  67% (61/90)\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Main_White.stl\nUpdating files:  68% (62/90)\nerror: unable to write file 3d-printable-files/left-leg/Left_Leg_Ring_Blue.stl\nUpdating files:  70% (63/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Forearm_White.stl\nUpdating files:  71% (64/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Hand_Gray.stl\nUpdating files:  72% (65/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Ring_Bottom_Blue.stl\nUpdating files:  73% (66/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Ring_Top_Blue.stl\nUpdating files:  74% (67/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Joint.stl\nUpdating files:  75% (68/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Pole.stl\nUpdating files:  76% (69/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_Ring_Blue.stl\nUpdating files:  77% (70/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Shoulder_White.stl\nUpdating files:  78% (71/90)\nerror: unable to write file 3d-printable-files/right-arm/Right_Arm_Upper_Arm_Black.stl\nUpdating files:  80% (72/90)\nerror: unable to write file 3d-printable-files/right-leg/Right_Leg_Base_Blue.stl\nUpdating files:  81% (73/90)\nerror: unable to write file 3d-printable-files/right-leg/Right_Leg_Button_Left_Blue.stl\nUpdating files:  82% (74/90)\nerror: unable to write file 3d-printable-files/right-leg/Right_Leg_Button_Right_Blue.stl\nUpdating fil"
+  }
+}
