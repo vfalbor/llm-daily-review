@@ -1,0 +1,121 @@
+{
+  "app_name": "kcc",
+  "url": "https://github.com/ciromattia/kcc",
+  "scored_at": "2026-09-30T13:07:13.911Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 5052 days old and is not a fork, but its star count (5,723) is far below the comparable ImageMagick tool (17,557), indicating it is an incremental improvement rather than a groundbreaking new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 28.5 seconds and the package is available on PyPI (v0.0.9), requiring no special hardware or API keys."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑cli for e‑ink image processing, it addresses a niche need that is not a major focus of current LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Although it has fewer stars than ImageMagick (5,723 vs 17,557), it offers a unique 2D DFT and dithering pipeline not present in the listed alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 5,723 stars, 72 contributors, and was updated today (0 days since last commit), showing an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of three tests passed (0/3) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is only a CLI with no API, though it is published on PyPI and uses an ISC license, making manual integration possible but not straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed beyond a neutral baseline."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 5052 days old, has 358 forks and 44 open issues, indicating a mature project with a stable codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data (e.g., import_time or speed comparisons) was reported, so performance is assigned a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "Comments consistently highlight the benefits of e‑ink displays for manga, citing improved readability, large screen size, and high resolution, with no significant criticisms noted."
+    }
+  },
+  "summary": "kcc is a command‑line utility that optimizes images for e‑ink displays using 2D DFT and dithering techniques. It runs locally as a Python package installed via PyPI and does not require any external API keys. The tool is suited for developers or hobbyists preparing manga or other graphics for e‑ink devices, offering a specialized algorithm not found in generic tools like ImageMagick. While it benefits from a strong GitHub community and a long history, the lack of passing tests and limited integration options temper its appeal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ciromattia/kcc",
+  "tool_url": "https://github.com/ciromattia/kcc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49879758",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 5723,
+      "forks": 358,
+      "open_issues": 44,
+      "watchers": 5723,
+      "contributors": 72,
+      "license": "ISC",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5052,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "KCC (a.k.a. Kindle Comic Converter) is a comic and manga converter for ebook readers.",
+      "topics": [
+        "azw3",
+        "cbz",
+        "comics",
+        "eink",
+        "epub",
+        "kindle",
+        "kobo",
+        "koreader",
+        "manga",
+        "pdf",
+        "remarkable-tablet",
+        "webtoon",
+        "webtoons"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ImageMagick",
+        "stars": 17557,
+        "repo": "ImageMagick/ImageMagick"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.9",
+      "summary": "Check kernel config for security issues",
+      "requires_python": "",
+      "license": "GPL-3.0",
+      "home_page": "https://github.com/clearlinux/kernel-config-checker"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "E‑ink reading improves manga experience",
+        "High resolution and large screens praised",
+        "Positive user experiences on e‑readers"
+      ],
+      "negative_signals": [],
+      "justification": "Comments consistently highlight the benefits of e‑ink displays for manga, citing improved readability, large screen size, and high resolution, with no significant criticisms noted.",
+      "comment_count": 6,
+      "hn_points": 37
+    }
+  }
+}
