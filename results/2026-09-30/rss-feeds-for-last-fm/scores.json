@@ -1,0 +1,93 @@
+{
+  "app_name": "RSS Feeds for Last.fm",
+  "url": "https://lfm.xiffy.nl/",
+  "scored_at": "2026-09-30T13:04:29.074Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 8.5 s, well under the 30 s threshold, indicating an easy setup despite no PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web‑frontend service that generates RSS feeds for Last.fm, it addresses a niche but still relevant integration need in today’s API‑driven ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Similar tools have only 6 and 0 GitHub stars, while this service offers both an HTTP API and a CLI, giving it a clear advantage in flexibility."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data is available; HN points are 97 with 29 comments, which falls in the 50–200 range, yielding a modest community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0 / 1) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool provides an HTTP API and a CLI, and is open source, making integration straightforward even without a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub README, wiki, or pages data is available and the provided URLs do not disclose documentation quality, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository or version information, only HN points (97) are usable, placing maturity in the neutral 5‑point band."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are present and the project makes no performance claims, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments praise the ease and speed of the RSS feeds and note community appreciation, while a few highlight issues with Last.fm’s platform and minor technical glitches in the feeds."
+    }
+  },
+  "summary": "RSS Feeds for Last.fm is a lightweight Node.js service that creates RSS feeds from a Last.fm user's listening history. It runs as a web‑frontend offering both an HTTP API and a CLI, built on standard Node.js libraries. It is suited for users who want to integrate their music data into any RSS reader or downstream workflow. The standout strength is its dual API/CLI access, while the main caveat is the lack of automated test coverage and limited community signals.",
+  "recommendation": "worth-watching",
+  "app_url": "https://lfm.xiffy.nl/",
+  "tool_url": "https://github.com/xiffy/lfm-rss",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49903862",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Last.fm-Feed",
+        "stars": 6,
+        "repo": "jeromelachaud/Last.fm-feed"
+      },
+      {
+        "name": "Last.fm API wrapper",
+        "stars": 0,
+        "repo": "joshuarreid/LastFm-API-Wrapper"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Helpful RSS feeds for Last.fm users",
+        "Lightweight, fast implementation",
+        "Positive community feedback"
+      ],
+      "negative_signals": [
+        "Criticism of Last.fm’s redesign and lack of features",
+        "Some concerns about data consistency and MIME type"
+      ],
+      "justification": "Comments praise the ease and speed of the RSS feeds and note community appreciation, while a few highlight issues with Last.fm’s platform and minor technical glitches in the feeds.",
+      "comment_count": 29,
+      "hn_points": 97
+    }
+  }
+}
