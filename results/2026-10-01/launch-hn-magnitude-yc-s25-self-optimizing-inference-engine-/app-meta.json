@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "hn_url": "https://news.ycombinator.com/item?id=49911995",
+    "points": 174,
+    "comments": 86,
+    "author": "anerli",
+    "age": "2026-09-30T17:37:40",
+    "scraped_at": "2026-10-01T13:00:02.302Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/magnitudedev/magnitude",
+    "source_type": "tool",
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A self‑optimizing inference engine designed for agentic workloads, providing dynamic model selection and runtime tuning.",
+    "use_modes": [
+      "CLI",
+      "Python SDK",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Ollama",
+      "vLLM",
+      "Cohere Inference Server",
+      "TorchServe"
+    ],
+    "proposed_tests": [
+      "pip install magnitude",
+      "magnitude server --model openai/gpt-4o-mini &",
+      "curl -X POST http://localhost:8000/infer -d '{\"prompt\":\"Hello\"}'",
+      "Measure round‑trip latency for 10 inference requests",
+      "Verify that the engine switches models based on workload metrics"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/magnitudedev/magnitude"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790859763996-dweuc",
+    "log_dir": "/tmp/llm-review-1790859763996-dweuc",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.70\nBENCHMARK:pip_magnitude_install_s:1.39\nBENCHMARK:import_magnitude_ms:19.31\nBENCHMARK:import_magnitude_mem_kb:545.17\nBENCHMARK:cpu_compute_ms:1.78\nBENCHMARK:mem_alloc_kb:209.43\nBENCHMARK:root_file_count:1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_git_install_s:0.70\nBENCHMARK:pip_magnitude_install_s:1.39\nINSTALL_OK\nBENCHMARK:import_magnitude_ms:19.31\nBENCHMARK:import_magnitude_mem_kb:545.17\nTEST_PASS:import_magnitude\nTEST_FAIL:start_server:[Errno 2] No such file or directory: 'magnitude'\nTEST_SKIP:start_server:Could not start server, skipping inference tests\nBENCHMARK:cpu_compute_ms:1.78\nBENCHMARK:mem_alloc_kb:209.43\nBENCHMARK:root_file_count:1\nRUN_OK\n"
+  }
+}
