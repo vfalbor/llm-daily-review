@@ -1,0 +1,99 @@
+{
+  "app_name": "CHOMPI portable sampler instrument is now open-source",
+  "url": "https://www.chompiclub.com/opensource",
+  "scored_at": "2026-10-01T13:08:37.140Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so the novelty cannot be assessed and defaults to a neutral score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) but took 73.3 seconds, exceeding the <30 s ideal, and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a hardware‑IoT audio sampler, it addresses a niche audio‑hardware need rather than a core LLM workflow, giving it limited relevance to current LLM trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without a GitHub star count for CHOMPI, only the benchmark ratio (0.833 vs SuperCollider) is available, which does not show a clear advantage over similar tools."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repo exists; HN points are 92, placing it in the 50‑200 range, which maps to a community score of 3‑4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%), well below the 50 % threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but a Python control interface is listed, allowing manual integration despite the lack of a packaged SDK."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic data were found and no documentation quality metrics are available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, maturity relies on HN points (92 < 100), which corresponds to a low maturity rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The only performance metric is a vs_supercollider_example_ratio of 0.833, which does not demonstrate a clear speed advantage, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight excitement about the open‑source nature and the fun, buildable design, yet several users criticize the high price and lack of new units, leading to a mixed but slightly positive overall tone."
+    }
+  },
+  "summary": "CHOMPI is an open‑source portable audio sampler that runs on a custom FPGA‑based DSP core with firmware and a Python control interface. It is built as a hardware project with schematics and firmware that users can compile themselves. The tool is most useful for audio hobbyists or makers who want a DIY sampler and are comfortable flashing hardware. Its strength is the unique FPGA implementation, while the main drawback is limited community support and modest performance compared to established software synths.",
+  "recommendation": "niche",
+  "app_url": "https://www.chompiclub.com/opensource",
+  "tool_url": "https://github.com/chompic/chompi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49912048",
+  "domain": "hardware-iot",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Mutable Instruments",
+        "stars": 100,
+        "repo": "pichenettes/mutable-instruments-documentation"
+      },
+      {
+        "name": "Pianoteq",
+        "stars": 155,
+        "repo": "youfou/pianoteq-pi"
+      },
+      {
+        "name": "SuperCollider",
+        "stars": 6752,
+        "repo": "supercollider/supercollider"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Open source and buildable",
+        "Fun, unique workflow",
+        "Community support"
+      ],
+      "negative_signals": [
+        "High price/poor value",
+        "Discontinued production",
+        "Limited availability"
+      ],
+      "justification": "Comments highlight excitement about the open‑source nature and the fun, buildable design, yet several users criticize the high price and lack of new units, leading to a mixed but slightly positive overall tone.",
+      "comment_count": 23,
+      "hn_points": 92
+    }
+  }
+}
