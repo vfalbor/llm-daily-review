@@ -1,0 +1,102 @@
+{
+  "app_name": "Halfspace experimental IDE for solid modeling with distance fields",
+  "url": "https://www.mattkeeter.com/projects/halfspace/",
+  "scored_at": "2026-10-01T13:05:15.273Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available and the tool resembles existing CAD editors like Blender and OpenSCAD, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded but took 40.3 seconds, exceeding the <30 s ideal, and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-editor for solid modeling, it addresses a niche but growing area of 3D design within the broader LLM‑enabled tooling landscape."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The repository has no star count to compare, and the benchmark ratio versus OpenSCAD is 1.0, showing no clear speed advantage over similar tools."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub metrics are available; however, Hacker News generated 153 points and 9 comments with a sentiment of 7/10, indicating moderate community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%), although the basic run succeeded, the lack of passing tests suggests core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI (v0.36) and offers a Python API, CLI, and Web UI, facilitating integration despite the missing license information."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki/pages or topic counts are available; documentation quality cannot be assessed from the provided data."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The package version is 0.36 (pre‑1.0) and no repository statistics (forks, issues) are provided, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show a 1.0 ratio to OpenSCAD for cube generation and install times of 25 s (pip) and 40 s overall, indicating performance comparable to existing tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments are largely supportive and enthusiastic, with a few neutral references to related work; no significant criticism is present."
+    }
+  },
+  "summary": "Halfspace is a lightweight IDE for 3D solid modeling that uses signed distance fields to provide live previews and export to standard CAD formats. It runs locally via a Python package (v0.36) and offers a Web UI, CLI, and Python API for interaction. The tool is suited for developers or designers who need a fast, scriptable modeling environment without the overhead of full‑featured CAD suites. While it integrates easily through PyPI and multiple interfaces, its novelty is modest, documentation is sparse, and benchmarked performance matches rather than exceeds existing solutions.",
+  "recommendation": "niche",
+  "app_url": "https://www.mattkeeter.com/projects/halfspace/",
+  "tool_url": "https://github.com/mattkeeter/halfspace",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49913350",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Blender",
+        "stars": 29800,
+        "repo": "ahujasid/mcp-for-blender"
+      },
+      {
+        "name": "OpenSCAD",
+        "stars": 10336,
+        "repo": "openscad/openscad"
+      },
+      {
+        "name": "FreeCAD",
+        "stars": 33877,
+        "repo": "FreeCAD/FreeCAD"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.36",
+      "summary": "Core Halfspace python library",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://halfspace.ai/"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "enthusiastic reception",
+        "innovative IDE concept",
+        "active community interest"
+      ],
+      "negative_signals": [],
+      "justification": "Comments are largely supportive and enthusiastic, with a few neutral references to related work; no significant criticism is present.",
+      "comment_count": 9,
+      "hn_points": 153
+    }
+  }
+}
