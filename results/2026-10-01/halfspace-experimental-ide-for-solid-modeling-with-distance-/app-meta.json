@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Halfspace experimental IDE for solid modeling with distance fields",
+    "url": "https://www.mattkeeter.com/projects/halfspace/",
+    "hn_url": "https://news.ycombinator.com/item?id=49913350",
+    "points": 153,
+    "comments": 9,
+    "author": "luu",
+    "age": "2026-09-30T19:44:37",
+    "scraped_at": "2026-10-01T13:00:02.302Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/mattkeeter/halfspace",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "A lightweight IDE that uses signed distance fields for 3D solid modeling, supporting live preview and export to common CAD formats.",
+    "use_modes": [
+      "Web UI",
+      "CLI (build & export)",
+      "Python API"
+    ],
+    "similar_tools": [
+      "Blender",
+      "OpenSCAD",
+      "FreeCAD",
+      "THREE.js + ThreeCSG"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/mattkeeter/halfspace",
+      "npm install && npm run build",
+      "Open the web UI and create a simple cube primitive",
+      "Export the model to STL and verify file integrity",
+      "Run the CLI export command on a sample .hsp file and compare output size to expected"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mattkeeter/halfspace"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790859836436-mkg08",
+    "log_dir": "/tmp/llm-review-1790859836436-mkg08",
+    "install_success": true,
+    "install_time_s": 40.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:system_install_time_s:0.531\nBENCHMARK:pip_install_time_s:25.332\nBENCHMARK:vs_openscad_cube_generation_ratio:1.0\nBENCHMARK:memory_peak_kb:64443.23",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:system_install_time_s:0.531\nINSTALL_OK\nBENCHMARK:pip_install_time_s:25.332\nINSTALL_OK\nTEST_FAIL:import:Please open the URL for reading and pass the result to Pillow, e.g. with ``np.array(PIL.Image.open(urllib.request.urlopen(url)))``.\nTEST_FAIL:cube_generation:Please open the URL for reading and pass the result to Pillow, e.g. with ``np.array(PIL.Image.open(urllib.request.urlopen(url)))``.\nTEST_FAIL:cli_export:Traceback (most recent call last):\n  File \"<frozen runpy>\", line 189, in _run_module_as_main\n  File \"<frozen runpy>\", line 148, in _get_module_details\n  File \"<frozen runpy>\", line 112, in _get_module_details\n  File \"/usr/local/lib/python3.12/site-packages/halfspace/__init__.py\", line 1, in <module>\n    from . import theme\n  File \"/usr/local/lib/python3.12/site-packages/halfspace/theme.py\", line 54, in <module>\n    'normal':   plt.imread(\"file:\" + dirname + '/images/halfspace.png'),\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/matplotlib/pyplot.py\", line 2763, in imread\n    return matplotlib.image.imread(fname, format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/matplotlib/image.py\", line 1589, in imread\n    raise ValueError(\nValueError: Please open the URL for reading and pass the result to Pillow, e.g. with ``np.array(PIL.Image.open(urllib.request.urlopen(url)))``.\nBENCHMARK:vs_openscad_cube_generation_ratio:1.0\nRUN_OK\nBENCHMARK:memory_peak_kb:64443.23\n"
+  }
+}
