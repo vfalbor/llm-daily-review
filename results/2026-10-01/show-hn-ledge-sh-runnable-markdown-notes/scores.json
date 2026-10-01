@@ -1,0 +1,107 @@
+{
+  "app_name": "Ledge.sh",
+  "url": "https://ledge.sh/",
+  "scored_at": "2026-10-01T13:06:58.110Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The tool is similar to existing web IDEs like StackBlitz (16,568 stars), Glitch (4,140 stars) and Replit (2,734 stars), indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 70 seconds, exceeding the <30 s ideal, while a PyPI package exists (v0.0.8)."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑SaaS that renders runnable Markdown in the browser, it aligns with current LLM workflow trends toward low‑code, interactive notebooks."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmarks show a health latency of 8.08 ms and a vs‑Replit latency ratio of 0.067, indicating markedly faster response than Replit, a direct competitor."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub data, but the Hacker News post received 163 points and 30 comments, which falls in the 100–200 range for a moderate community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed (0/4), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists and the project offers a REST API and CLI, facilitating integration into pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data or explicit documentation signals were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With no repository metadata, the only proxy is the Hacker News points (163), which places the project in the 100–300 bracket for maturity."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark reports a health latency of 8.08 ms and a latency ratio of 0.067 versus Replit, showing a clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the project’s markdown‑based runnable notes, mobile support, and team usability, while a few point out missing terminal editor completion and doubts about it becoming mainstream."
+    }
+  },
+  "summary": "Ledge.sh is a web service that lets users write Markdown notes which are turned into interactive, runnable code snippets in the browser. It runs entirely in the browser and also provides a REST API and a CLI, with a tiny PyPI package (v0.0.8) for local use. It is suited for teams or individuals who want quick, markdown‑based prototyping without setting up a full notebook environment. The standout strength is its very low latency (8 ms health check and 0.067× the latency of Replit), while the main caveat is that its test suite shows 0 % pass rate, indicating potential reliability issues.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ledge.sh/",
+  "tool_url": "https://github.com/ledge-sh/ledge",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49902382",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "StackBlitz",
+        "stars": 16568,
+        "repo": "stackblitz/bolt.new"
+      },
+      {
+        "name": "Glitch",
+        "stars": 4140,
+        "repo": "arvin341az-glitch/RVG"
+      },
+      {
+        "name": "Replit",
+        "stars": 2734,
+        "repo": "replit/kaboom"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.8",
+      "summary": "Hedging algorithms with lag",
+      "requires_python": "",
+      "license": "GPLv3",
+      "home_page": "https://github.com/reichlab/ledge"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Easy markdown execution",
+        "Mobile and cross‑platform support",
+        "Team collaboration",
+        "User enthusiasm"
+      ],
+      "negative_signals": [
+        "Editor completion missing",
+        "Competition with established tools",
+        "Skepticism about mainstream adoption"
+      ],
+      "justification": "The majority of comments praise the project’s markdown‑based runnable notes, mobile support, and team usability, while a few point out missing terminal editor completion and doubts about it becoming mainstream.",
+      "comment_count": 30,
+      "hn_points": 163
+    }
+  }
+}
