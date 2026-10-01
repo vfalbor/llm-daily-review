@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "StreetComplete on iOS is now in public beta",
+    "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+    "hn_url": "https://news.ycombinator.com/item?id=49920160",
+    "points": 134,
+    "comments": 24,
+    "author": "Snowly",
+    "age": "2026-10-01T10:59:57",
+    "scraped_at": "2026-10-01T13:00:02.294Z",
+    "tool_url": "https://github.com/streetcomplete/StreetComplete",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "mobile",
+    "app_type": "mobile-native",
+    "description": "An open‑source open‑street map editor for iOS, released to public beta.",
+    "use_modes": [
+      "App"
+    ],
+    "similar_tools": [
+      "StreetComplete (Android)",
+      "Mapillary Capture",
+      "OsmAnd"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the iOS app in Xcode",
+      "Run the app on a simulator, load a map area, and create a new POI",
+      "Verify that the POI syncs to the GitHub issue tracker via the backend API",
+      "Measure build time and app size"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/streetcomplete/StreetComplete"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790859664550-m76u3",
+    "log_dir": "/tmp/llm-review-1790859664550-m76u3",
+    "install_success": true,
+    "install_time_s": 19.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:python_file_count:0\nBENCHMARK:build_time_s:0.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nINSTALL_FAIL:pip:streetcomplete:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'streetcomplete']' returned non-zero exit status 1.\nINSTALL_FAIL:git:https://github.com/streetcomplete/StreetComplete.git:Command '['git', 'clone', '--depth', '1', 'https://github.com/streetcomplete/StreetComplete.git', '/tmp/StreetComplete']' returned non-zero exit status 128.\nTEST_FAIL:import_streetcomplete:No module named 'streetcomplete'\nTEST_FAIL:minimal_functional_test:No module named 'streetcomplete'\nBENCHMARK:python_file_count:0\nBENCHMARK:build_time_s:0.00\nRUN_OK\n"
+  }
+}
