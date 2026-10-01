@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+    "url": "https://www.chompiclub.com/opensource",
+    "hn_url": "https://news.ycombinator.com/item?id=49912048",
+    "points": 92,
+    "comments": 22,
+    "author": "lashkari",
+    "age": "2026-09-30T17:42:13",
+    "scraped_at": "2026-10-01T13:00:02.304Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/chompic/chompi",
+    "source_type": "tool",
+    "confidence": 0.9,
+    "domain": "hardware-iot",
+    "app_type": "hardware-iot",
+    "description": "An open‑source portable audio sampler with a custom FPGA‑based DSP core and accompanying firmware for real‑time synthesis.",
+    "use_modes": [
+      "Firmware build",
+      "Hardware schematic",
+      "Python control interface"
+    ],
+    "similar_tools": [
+      "Mutable Instruments",
+      "Pianoteq",
+      "SuperCollider",
+      "AudioKit"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run cmake to build firmware",
+      "Flash a development board and verify boot message on serial console",
+      "Use the Python API to trigger a sample playback and check latency",
+      "Run the included unit tests for the DSP kernel and confirm all pass"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/chompic/chompi"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790860019406-am1n1",
+    "log_dir": "/tmp/llm-review-1790860019406-am1n1",
+    "install_success": true,
+    "install_time_s": 73.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:src_files:0\nBENCHMARK:mem_peak_kb:2.5\nBENCHMARK:vs_supercollider_example_ratio:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_repo:git clone failed: Cloning into '/tmp/chompi'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:src_files:0\nTEST_PASS:count_source_files\nTEST_FAIL:cmake_build:cmake configure failed: CMake Warning:\n  Ignoring extra path from command line:\n\n   \"..\"\n\n\nCMake Error: The source directory \"/tmp/chompi\" does not appear to contain CMakeLists.txt.\nSpecify --help for usage, or press the help button on the CMake GUI.\n\nTEST_FAIL:run_python_examples:No python examples found\nTEST_FAIL:unit_tests:No tests directory found\nBENCHMARK:mem_peak_kb:2.5\nBENCHMARK:vs_supercollider_example_ratio:0.833\nRUN_OK\n"
+  }
+}
