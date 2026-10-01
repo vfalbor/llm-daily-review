@@ -1,0 +1,116 @@
+{
+  "app_name": "Magnitude",
+  "url": "https://github.com/magnitudedev/magnitude",
+  "scored_at": "2026-10-01T13:03:54.982Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 111 days ago, is not a fork, and has far fewer stars (5,948) than dominant alternatives like Ollama (181,997) and vLLM (93,016), indicating an incremental rather than groundbreaking contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 9.5 seconds (well under the 30‑second benchmark) and the package is available on PyPI, requiring only Python >=3.9."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm‑inference engine for agentic workloads, it addresses a core need in today’s LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Although it has only 5,948 stars versus Ollama’s 181,997 and vLLM’s 93,016, its benchmark shows a fast import time of 19.31 ms and it offers a hybrid local/cloud tuning feature not present in the compared tools."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repository has 5,948 stars, 11 contributors, and was updated today (0 days since last commit), indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed (33 %); the install succeeded but the functional test coverage is low."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists, the project provides a CLI, Python SDK, and REST API, and it is licensed under Apache‑2.0, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repo is 111 days old, has 401 forks and 28 open issues, showing active development and reasonable stability for a young project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark logs report an import time of 19.31 ms and a compute latency of 1.78 ms, providing concrete performance numbers though without direct comparison to peers."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the speed gains, hybrid workflow, and quick tuning, while a handful raise concerns about benchmark transparency, multi‑GPU lack, and comparative speed against other local engines."
+    }
+  },
+  "summary": "Magnitude is a self‑optimizing inference engine that dynamically selects models and tunes runtime parameters for agentic workloads. It runs locally via a Rust core with a Python SDK, CLI, and REST API, and requires an API key for some back‑ends. It is suited for developers needing fast, hybrid local/cloud inference in agent pipelines, offering quick one‑time kernel tuning as its standout strength while the limited test coverage (1/3 passed) is a clear caveat.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/magnitudedev/magnitude",
+  "tool_url": "https://github.com/magnitudedev/magnitude",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49911995",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 5948,
+      "forks": 401,
+      "open_issues": 28,
+      "watchers": 5948,
+      "contributors": 11,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 111,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Open source inference engine for agents that optimizes itself for your exact hardware. Compiles and tunes its kernels on your device, so open models run up to 2x faster than llama.cpp. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 181997,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 93016,
+        "repo": "vllm-project/vllm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.1.2",
+      "summary": "Python library for computing with numbers with units",
+      "requires_python": ">=3.9",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Performance improvements over llama.cpp",
+        "Seamless hybrid local/cloud inference",
+        "Fast one‑time kernel tuning"
+      ],
+      "negative_signals": [
+        "Benchmark methodology questioned",
+        "Limited multi‑GPU support",
+        "Speed/efficiency lower than some alternatives"
+      ],
+      "justification": "Most comments praise the speed gains, hybrid workflow, and quick tuning, while a handful raise concerns about benchmark transparency, multi‑GPU lack, and comparative speed against other local engines.",
+      "comment_count": 30,
+      "hn_points": 174
+    }
+  }
+}
