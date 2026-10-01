@@ -1,0 +1,110 @@
+{
+  "app_name": "StreetComplete on iOS is now in public beta",
+  "url": "https://github.com/streetcomplete/StreetComplete",
+  "scored_at": "2026-10-01T13:01:47.823Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 3743 days old, is not a fork, and merely brings an existing Android OSM editor to iOS, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 19.6 seconds, but there is no PyPI package, so setup is simple yet not pip‑installable."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a mobile‑native open‑source OSM editor, it addresses the ongoing demand for map contributions on iOS devices."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 4,841 stars it trails the similar OsmAnd project (6,051 stars) and no benchmark claims are provided, showing only modest differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 4,841 stars, 166 contributors, and was updated today (0 days since last commit), indicating a healthy and active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 2 tests passed (<50%), despite a successful install, suggesting core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no PyPI package, the app is only usable as a standalone mobile application, and no API modes are listed, limiting integration options."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub pages, or detailed README topics was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 3743 days old, has 455 forks and 138 open issues, indicating a mature project with ongoing maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was reported in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most commenters praise StreetComplete for dramatically lowering the barrier to editing OpenStreetMap and note it is well received by the community, while a few point out small UI issues and lack of a clear edit history."
+    }
+  },
+  "summary": "StreetComplete on iOS is an open‑source mobile editor that lets users contribute to OpenStreetMap directly from iOS devices. It reuses the Android StreetComplete codebase and runs as a standalone app without requiring an API key. The tool is aimed at map contributors who want a native iOS experience, leveraging a large contributor base and active maintenance. Its main strength is a strong community and frequent updates, while the lack of integration hooks and limited test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+  "tool_url": "https://github.com/streetcomplete/StreetComplete",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49920160",
+  "domain": "mobile",
+  "app_type": "mobile-native",
+  "enriched": {
+    "github": {
+      "stars": 4841,
+      "forks": 455,
+      "open_issues": 138,
+      "watchers": 4841,
+      "contributors": 166,
+      "license": "GPL-3.0",
+      "language": "Kotlin",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3743,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Easy to use OpenStreetMap editor for Android",
+      "topics": [
+        "android",
+        "editor",
+        "mapping",
+        "openstreetmap",
+        "osm",
+        "survey"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OsmAnd",
+        "stars": 6051,
+        "repo": "osmandapp/OsmAnd"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "low barrier to entry",
+        "easy contribution",
+        "positive community reception"
+      ],
+      "negative_signals": [
+        "minor UI/UX bugs",
+        "missing edit history"
+      ],
+      "justification": "Most commenters praise StreetComplete for dramatically lowering the barrier to editing OpenStreetMap and note it is well received by the community, while a few point out small UI issues and lack of a clear edit history.",
+      "comment_count": 25,
+      "hn_points": 136
+    }
+  }
+}
