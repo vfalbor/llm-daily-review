@@ -1,0 +1,109 @@
+{
+  "app_name": "OpenDLSS",
+  "url": "https://github.com/maanHimself/OpenDLSS-NR",
+  "scored_at": "2026-10-01T13:02:42.446Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repo is only 10 days old, is not a fork, and its 629 stars far exceed the 38 stars of the closest alternative OpenVRS, indicating a novel contribution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 18.6 seconds (under the 30‑second threshold) and the tool runs locally without requiring an API key, despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑build for neural rendering, it addresses the current surge of interest in hardware‑independent AI‑enhanced graphics within the LLM‑driven ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 629 GitHub stars it outperforms OpenVRS (38 stars) by more than 15×, and the benchmark shows an import time of 142 ms, a concrete performance claim not present in the alternatives."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 629 stars, 1 contributor, and was updated 9 days ago, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "One of two automated tests passed (50% pass rate) and the install succeeded, demonstrating core functionality works."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The library is available only via source (no PyPI package) and provides Library and Example App use modes, but no documented REST or SDK integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 10 days old with 58 forks and zero open issues; it shows early adoption but lacks longer‑term release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The only benchmark line reports an import time of 142 ms; without comparative data, a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of comments criticize the AI-generated README and question the authenticity and quality of the code, expressing disinterest and distrust, while a minority note the value of an open-source DLSS implementation and Nvidia’s support for open weight models. Overall, sentiment skews toward skeptical and negative."
+    }
+  },
+  "summary": "OpenDLSS is a Vulkan‑based reimplementation of Nvidia's DLSS 5 neural rendering network that runs as a library and includes an example application. It compiles locally without needing an API key and leverages the community's interest in hardware‑agnostic AI graphics. The tool is best suited for graphics developers who want to experiment with DLSS‑style upscaling on non‑Nvidia hardware. Its standout strength is strong early community interest (629 stars) and a clear benchmark of 142 ms import time, while the main caveat is limited integration support and sparse documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/maanHimself/OpenDLSS-NR",
+  "tool_url": "https://github.com/maanHimself/OpenDLSS-NR",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49906100",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 629,
+      "forks": 58,
+      "open_issues": 0,
+      "watchers": 629,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 9,
+      "days_since_created": 10,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A Vulkan reimplementation of NVIDIA's DLSS 5 Neural Rendering network, bit-exact against the original.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "DLSS SDK",
+        "stars": 0,
+        "repo": "luke-taylor-lab1992m6/NVIDIA-Streamline-SDK-and-DLSS-Update"
+      },
+      {
+        "name": "OpenVRS",
+        "stars": 38,
+        "repo": "BOLL7708/OpenVRStartup"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Open-source implementation potential",
+        "Interest in neural rendering",
+        "Acknowledgement of Nvidia support"
+      ],
+      "negative_signals": [
+        "LLM-generated documentation concerns",
+        "Quality and factual inaccuracies",
+        "Distrust of code origin and author effort"
+      ],
+      "justification": "The majority of comments criticize the AI-generated README and question the authenticity and quality of the code, expressing disinterest and distrust, while a minority note the value of an open-source DLSS implementation and Nvidia’s support for open weight models. Overall, sentiment skews toward skeptical and negative.",
+      "comment_count": 30,
+      "hn_points": 142
+    }
+  }
+}
