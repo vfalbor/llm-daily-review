@@ -1,0 +1,102 @@
+{
+  "app_name": "DeepSeek Harness Desktop",
+  "url": "https://www.deepseek.com/en/harness/",
+  "scored_at": "2026-10-02T13:03:46.414Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The tool is comparable to existing desktop clients such as Ollama Desktop (17 stars) and Llama.cpp GUI (40 stars), indicating it is not a first‑of‑its‑kind solution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 20.8 seconds and the package is available on PyPI, meeting the <30 s pip‑install guideline."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a desktop client for running DeepSeek LLMs locally or via the cloud, it addresses the current demand for user‑friendly local LLM interfaces."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it offers a GUI and plugin flexibility, the comparable tools have low star counts (17 and 40), showing only modest advantage over existing options."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No public GitHub repo is available, but the Hacker News post received 280 points, placing it in the 200–500 range that maps to a community score of 5–6."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 3 functional tests, 0 passed (0/3), which is below the 50% threshold for acceptable usability."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The package exists on PyPI but only provides a GUI use mode with no documented API, limiting straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki/pages data was found, and the public site does not expose detailed documentation, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With no repository metadata, maturity is inferred from the Hacker News score of 280 points, which suggests a modestly mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report a pip install time of 10.469 s and an APK git install time of 0.471 s, but no comparative data is available to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The thread contains a mix of enthusiastic praise for the harness’s observability and plugin system, as well as several skeptical comments about missing features and concerns over openness, resulting in a generally positive but tempered reception."
+    }
+  },
+  "summary": "DeepSeek Harness Desktop is a native GUI client that lets users run DeepSeek LLM models locally or via the cloud. It is built as a closed‑source desktop application requiring an API key and is distributed through a PyPI package. The tool targets users who want a simple chat interface without writing code, offering observability and plugin flexibility. While it installs quickly, its lack of automated tests, limited integration options, and sparse documentation are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://www.deepseek.com/en/harness/",
+  "tool_url": "https://github.com/deepseek-ai/harness",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49929489",
+  "domain": "other",
+  "app_type": "desktop-app",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Ollama Desktop",
+        "stars": 17,
+        "repo": "Laszlobeer/Ollama-Vision-Memory-Desktop"
+      },
+      {
+        "name": "Llama.cpp GUI",
+        "stars": 40,
+        "repo": "mpwang/llama-cpp-windows-guide"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Language-neutral meta-framework for server-less style services",
+      "requires_python": ">=3.7",
+      "license": "BSD-3-Clause",
+      "home_page": "https://github.com/vmagamedov/harness"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "excellent observability",
+        "plugin flexibility",
+        "open‑source nature",
+        "easy deployment"
+      ],
+      "negative_signals": [
+        "mixed skepticism",
+        "feature gaps (font size, shortcuts)",
+        "confusion over open/closed source"
+      ],
+      "justification": "The thread contains a mix of enthusiastic praise for the harness’s observability and plugin system, as well as several skeptical comments about missing features and concerns over openness, resulting in a generally positive but tempered reception.",
+      "comment_count": 30,
+      "hn_points": 280
+    }
+  }
+}
