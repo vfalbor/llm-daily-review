@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Show HN: Janus – Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+    "url": "https://github.com/Vibra-Ingenn/Janus",
+    "hn_url": "https://news.ycombinator.com/item?id=49926773",
+    "points": 82,
+    "comments": 14,
+    "author": "Maverick617",
+    "age": "2026-10-01T20:36:47",
+    "scraped_at": "2026-10-02T13:00:02.835Z",
+    "tool_url": "https://github.com/Vibra-Ingenn/Janus",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A Go-based binary that loads GGUF format language models and performs inference using Vulkan GPU acceleration on AMD, Intel, and Nvidia hardware.",
+    "use_modes": [
+      "CLI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "gpt4all",
+      "Ollama",
+      "vllm"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the binary with `go build`.",
+      "Download a small GGUF model (e.g., `tinyllama.gguf`) and run a sample inference via the CLI: `./janus -m tinyllama.gguf -p \"Hello, world!\"`.",
+      "Measure the latency of a 1‑sentence prompt and compare it against the same model run with llama.cpp.",
+      "Run the binary in server mode (`./janus -s`) and issue a POST request to the `/infer` endpoint with a JSON payload; verify the response structure and latency.",
+      "Validate that the binary correctly falls back to CPU when no suitable GPU is found."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Vibra-Ingenn/Janus"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790946227788-thy52",
+    "log_dir": "/tmp/llm-review-1790946227788-thy52",
+    "install_success": true,
+    "install_time_s": 13.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 8,
+    "benchmark_notes": "BENCHMARK:install_time_s:4.243\nBENCHMARK:clone_time_s:0.822",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:4.243\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:0.822\nTEST_FAIL:build_binary:no Go files in /tmp/janus_test/Janus\nTEST_FAIL:download_model:Download error: HTTP Error 404: Not Found\nTEST_FAIL:cli_inference:[Errno 2] No such file or directory: '/tmp/janus_test/Janus/janus'\nTEST_SKIP:baseline_inference:binary not found\nTEST_SKIP:vs_llama_cpp_ratio:missing data\nTEST_FAIL:server_infer:[Errno 2] No such file or directory: '/tmp/janus_test/Janus/janus'\nTEST_FAIL:cpu_fallback:[Errno 2] No such file or directory: '/tmp/janus_test/Janus/janus'\nRUN_OK\n"
+  }
+}
