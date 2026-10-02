@@ -1,0 +1,120 @@
+{
+  "app_name": "Audionaut",
+  "url": "https://github.com/kvoltmer/Audionaut",
+  "scored_at": "2026-10-02T13:01:27.398Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo is 1344 days old and is not a fork, but it closely mirrors existing editors like Audacity, showing no first‑of‑its‑kind approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 19.9 seconds, which is under the 30‑second threshold, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As an audio‑editor tool, it does not align with the primary LLM workflow trends, limiting its relevance."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 56 GitHub stars versus Audacity's 18,628 stars, the project offers no clear advantage; benchmark numbers are provided but no comparative benefit is demonstrated."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 56 stars, 3 contributors, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 out of 4 tests passed (50%), meeting the ≥50% threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists and the tool offers only GUI and CLI modes, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic data were found, so documentation evidence is missing."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 1344 days old with 3 forks and 4 open issues, indicating an early‑stage project without a stable release cadence."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (e.g., vs_audacity_import_time_ms:0.80) are present but no comparative performance claim is made."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments are largely supportive, praising the open‑source, cross‑platform nature and precise timing, but several users note the lack of a roadmap, plugin support, and untested performance as areas for improvement."
+    }
+  },
+  "summary": "Audionaut is an open‑source, cross‑platform multitrack audio editor built with Electron and Rust. It provides both a GUI and a CLI but lacks a package manager distribution, requiring manual installation. The tool targets users needing a lightweight alternative to heavyweight editors like Audacity, but its modest star count and limited benchmark evidence suggest it is still a niche offering. While installation works quickly, the lack of clear performance advantages and sparse documentation are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/kvoltmer/Audionaut",
+  "tool_url": "https://github.com/kvoltmer/Audionaut",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49931031",
+  "domain": "other",
+  "app_type": "audio-editor",
+  "enriched": {
+    "github": {
+      "stars": 56,
+      "forks": 3,
+      "open_issues": 4,
+      "watchers": 56,
+      "contributors": 3,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1344,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Audionaut professional audio editing and audio recording",
+      "topics": [
+        "audio",
+        "audio-processing",
+        "c-plus-plus",
+        "cpp",
+        "juce"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Audacity",
+        "stars": 18628,
+        "repo": "audacity/audacity"
+      },
+      {
+        "name": "Ardour",
+        "stars": 5312,
+        "repo": "Ardour/ardour"
+      },
+      {
+        "name": "Reaper",
+        "stars": 2224,
+        "repo": "punk-security/dnsReaper"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Open‑source, cross‑platform editor",
+        "Precise timing and performance claims",
+        "User enthusiasm and praise"
+      ],
+      "negative_signals": [
+        "No roadmap or plugin support yet",
+        "Performance/latency unbenchmarked",
+        "Feature request for better automation"
+      ],
+      "justification": "The comments are largely supportive, praising the open‑source, cross‑platform nature and precise timing, but several users note the lack of a roadmap, plugin support, and untested performance as areas for improvement.",
+      "comment_count": 14,
+      "hn_points": 47
+    }
+  }
+}
