@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "DeepSeek Harness Desktop for macOS and Windows",
+    "url": "https://www.deepseek.com/en/harness/",
+    "hn_url": "https://news.ycombinator.com/item?id=49929489",
+    "points": 280,
+    "comments": 146,
+    "author": "Kuyawa",
+    "age": "2026-10-02T03:11:20",
+    "scraped_at": "2026-10-02T13:00:02.825Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/deepseek-ai/harness",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "other",
+    "app_type": "desktop-app",
+    "description": "A native desktop client that allows users to run DeepSeek LLM models locally or via the cloud, providing a chat interface and prompt management.",
+    "use_modes": [
+      "GUI"
+    ],
+    "similar_tools": [
+      "Ollama Desktop",
+      "Llama.cpp GUI"
+    ],
+    "proposed_tests": [
+      "Download the precompiled binaries for macOS and Windows from the releases page.",
+      "Launch the application and verify the UI loads without errors.",
+      "Connect to the DeepSeek API endpoint (local or cloud) and send a test prompt, measuring round‑trip latency.",
+      "Export a conversation to a text file and import it back, checking consistency."
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": "https://github.com/deepseek-ai/harness"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790946155702-252fn",
+    "log_dir": "/tmp/llm-review-1790946155702-252fn",
+    "install_success": true,
+    "install_time_s": 20.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_git_s:0.471\nBENCHMARK:pip_install_deepseek-harness_s:10.469\nBENCHMARK:loc_count:822381",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_git_s:0.471\nINSTALL_OK\nBENCHMARK:pip_install_deepseek-harness_s:10.469\nTEST_FAIL:import_harness:No module named 'harness'\nTEST_FAIL:minimal_function:No module named 'harness'\nTEST_FAIL:export_import:No module named 'harness'\nBENCHMARK:loc_count:822381\nRUN_OK\n"
+  }
+}
