@@ -1,0 +1,121 @@
+{
+  "app_name": "Janus",
+  "url": "https://github.com/Vibra-Ingenn/Janus",
+  "scored_at": "2026-10-02T13:04:25.605Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created only 8 days ago, not a fork, and targets GGUF inference via Vulkan unlike the much older llama.cpp, gpt4all, and Ollama which have >70k stars each."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 13.5 s (<30 s) and the package is available on PyPI, requiring only Python >=3.9."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-inference tool that leverages GPU acceleration on AMD/Intel/Nvidia, it addresses a hot need in today’s LLM deployment workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 74 GitHub stars it is far smaller than llama.cpp (130 k), gpt4all (77 k), and Ollama (182 k), but offers unique Vulkan‑based multi‑GPU support not present in those projects."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repo has 74 stars, a single contributor, and was updated today, placing it in the 100–1 000 star range with modest activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 8 tests passed (12.5%), indicating core functionality is barely verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI, provides both CLI and REST API modes, and is MIT‑licensed, facilitating straightforward embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 8 days old, has 1 fork and 1 open issue, indicating an early‑stage alpha release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only reports install_time_s = 4.243 s and clone_time_s = 0.822 s with no comparative speed data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments show balanced curiosity and skepticism: users appreciate the focus on Intel GPUs and documentation, but many highlight the absence of benchmarks and worries about Vulkan overhead on Intel hardware."
+    }
+  },
+  "summary": "Janus is a Go binary that runs GGUF language models using Vulkan GPU acceleration on AMD, Intel, and Nvidia cards. It ships as a CLI tool and also exposes a REST API, and is available as a PyPI package (v2.0.0). The project is aimed at developers who need fast, cross‑GPU inference without vendor‑specific SDKs. It stands out for its Vulkan‑based multi‑GPU support, but its early age and lack of benchmark results limit confidence in performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Vibra-Ingenn/Janus",
+  "tool_url": "https://github.com/Vibra-Ingenn/Janus",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49926773",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 74,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 74,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 8,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Janus is a API router for AI models written in Go and has a Vulkan Model runner",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "llama.cpp",
+        "stars": 130131,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "gpt4all",
+        "stars": 77389,
+        "repo": "nomic-ai/gpt4all"
+      },
+      {
+        "name": "Ollama",
+        "stars": 182048,
+        "repo": "ollama/ollama"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.0.0",
+      "summary": "Mixed sync-async queue to interoperate between asyncio tasks and classic threads",
+      "requires_python": ">=3.9",
+      "license": "Apache 2",
+      "home_page": "https://github.com/aio-libs/janus"
+    },
+    "tests_passed": 1,
+    "tests_total": 8,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Excitement about Intel support",
+        "Clear documentation",
+        "Interest in performance comparisons"
+      ],
+      "negative_signals": [
+        "Lack of benchmarks",
+        "Concerns about Intel Vulkan overhead",
+        "Performance uncertainty"
+      ],
+      "justification": "Comments show balanced curiosity and skepticism: users appreciate the focus on Intel GPUs and documentation, but many highlight the absence of benchmarks and worries about Vulkan overhead on Intel hardware.",
+      "comment_count": 14,
+      "hn_points": 82
+    }
+  }
+}
