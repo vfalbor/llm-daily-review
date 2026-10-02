@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "SvelteKit 3",
+    "url": "https://svelte.dev/blog/sveltekit-3-is-here",
+    "hn_url": "https://news.ycombinator.com/item?id=49926536",
+    "points": 327,
+    "comments": 129,
+    "author": "sampsn",
+    "age": "2026-10-01T20:14:23",
+    "scraped_at": "2026-10-02T13:00:02.819Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/sveltejs/kit",
+    "source_type": "tool",
+    "confidence": 0.97,
+    "domain": "web",
+    "app_type": "web-framework",
+    "description": "A full‑stack web framework built on Svelte, featuring routing, SSR, and static site generation.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Next.js",
+      "Remix",
+      "Nuxt"
+    ],
+    "proposed_tests": [
+      "Run `npm create svelte@latest myapp` to scaffold a new project.",
+      "Start the dev server with `npm run dev` and perform a GET request to `/api/hello`, verifying JSON response.",
+      "Build the project for production with `npm run build` and measure bundle size and startup time.",
+      "Deploy the app to a platform (e.g., Vercel) and benchmark response latency under 50 concurrent requests."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sveltejs/kit"
+  },
+  "test_results": {
+    "run_id": "llm-review-1790946088706-86ns9",
+    "log_dir": "/tmp/llm-review-1790946088706-86ns9",
+    "install_success": true,
+    "install_time_s": 13.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:scaffold_time_s:1.692\nBENCHMARK:dev_hello_latency_ms:0\nBENCHMARK:dev_server_total_time_s:0.001\nBENCHMARK:bundle_size_kb:0\nBENCHMARK:prod_startup_latency_ms:0\nBENCHMARK:build_total_time_s:0.0\nBENCHMARK:concurrency_50_avg_latency_ms:0\nBENCHMARK:concurrency_total_time_s:0.0\nBENCHMARK:vs_nextjs_scaffold_time_s_ratio:0.113\nBENCHMARK:vs_nextjs_bundle_size_kb_ratio:0.0\nBENCHMARK:vs_nextjs_prod_startup_latency_ms_ratio:0.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:scaffold_time_s:1.692\nTEST_PASS:scaffold\nBENCHMARK:dev_hello_latency_ms:0\nTEST_FAIL:dev_server_hello:npm install failed: [Errno 2] No such file or directory: '/myapp'\nBENCHMARK:dev_server_total_time_s:0.001\nBENCHMARK:bundle_size_kb:0\nBENCHMARK:prod_startup_latency_ms:0\nTEST_FAIL:build:npm run build failed: [Errno 2] No such file or directory: '/myapp'\nBENCHMARK:build_total_time_s:0.0\nBENCHMARK:concurrency_50_avg_latency_ms:0\nTEST_FAIL:concurrency_50:[Errno 2] No such file or directory: '/myapp'\nBENCHMARK:concurrency_total_time_s:0.0\nBENCHMARK:vs_nextjs_scaffold_time_s_ratio:0.113\nBENCHMARK:vs_nextjs_bundle_size_kb_ratio:0.0\nBENCHMARK:vs_nextjs_prod_startup_latency_ms_ratio:0.0\nRUN_OK\n"
+  }
+}
