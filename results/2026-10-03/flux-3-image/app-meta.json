@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "FLUX 3 Image",
+    "url": "https://bfl.ai/models/flux-3-image",
+    "hn_url": "https://news.ycombinator.com/item?id=49925974",
+    "points": 369,
+    "comments": 80,
+    "author": "minimaxir",
+    "age": "2026-10-01T19:24:29",
+    "scraped_at": "2026-10-03T13:00:03.109Z",
+    "tool_url": "https://huggingface.co/bfl/flux-3-image",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A diffusion model for high‑resolution image generation, optimized for speed and quality.",
+    "use_modes": [
+      "Python API",
+      "CLI inference"
+    ],
+    "similar_tools": [
+      "Stable Diffusion 2.1",
+      "Flux-1",
+      "OpenAI DALL·E"
+    ],
+    "proposed_tests": [
+      "Load the model via HuggingFace Hub and run a sample prompt",
+      "Measure generation time for a 512x512 image",
+      "Verify output quality against a reference image using FID",
+      "Run the model in a docker container and compare performance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bfl-ai/flux-3-image"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791032628831-g1f30",
+    "log_dir": "/tmp/llm-review-1791032628831-g1f30",
+    "install_success": true,
+    "install_time_s": 8.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 145, in <module>\n    main()\n  File \"/app/test.py\", line 117, in main\n    if not measure_import():\n           ^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 36, in measure_import\n    start = time.time()\n            ^^^^\nUnboundLocalError: cannot access local variable 'time' where it is not associated with a value\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk git\nINSTALL_FAIL:pip install bfl-flux-3-image:ERROR: Could not find a version that satisfies the requirement bfl-flux-3-image (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for bfl-flux-3-image\nINSTALL_FAIL:git clone https://github.com/bfl/flux-3-image.git:Cloning into '/tmp/flux-3-image'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_SKIP:git_clone:clone failed\n"
+  }
+}
