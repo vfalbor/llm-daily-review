@@ -1,0 +1,123 @@
+{
+  "app_name": "C++ Insights – See your source code with the eyes of a Compiler",
+  "url": "https://github.com/andreasfertig/cppinsights",
+  "scored_at": "2026-10-03T13:01:42.920Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 3078 days old and is not a fork, but it offers a unique annotated view of C++ code compared to similar tools like clangd and cquery, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 17.6 seconds (under 30 s) and the tool runs locally without needing an API key, though it is not available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli for C++ code insight, it aligns with current trends of AI‑assisted developer tooling and remains useful for modern C++ development."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 4,519 stars it outperforms clangd (2,303) and cquery (2,360) and provides a distinct annotation feature not present in those tools, though it has fewer stars than cppcheck (6,765)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 4,519 stars, 25 contributors, and the last commit was 38 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 7 tests passed (≈14%) and the basic run failed, suggesting core functionality is not reliably usable out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is distributed as a compiled CLI with plugin and language‑server modes and uses an MIT license, but lacks a PyPI package for easy Python integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 3078 days old, has 266 forks and only 25 open issues, indicating a mature project with stable releases."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so a neutral performance score is applied."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "C++ Insights is a Rust‑based command‑line tool that generates annotated C++ source code by tapping into compiler internals. It runs locally as a CLI, plugin, or language‑server component and does not require an external API key. The tool is best suited for C++ developers who want to visualise compiler transformations directly in their code. It stands out for its detailed annotation capability and strong community engagement, but current test results show limited functional reliability out of the box.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/andreasfertig/cppinsights",
+  "tool_url": "https://github.com/andreasfertig/cppinsights",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49928361",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 4519,
+      "forks": 266,
+      "open_issues": 25,
+      "watchers": 4519,
+      "contributors": 25,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 38,
+      "days_since_created": 3078,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "C++ Insights - See your source code with the eyes of a compiler",
+      "topics": [
+        "ast",
+        "clang",
+        "cplusplus",
+        "cplusplus-11",
+        "cplusplus-14",
+        "cplusplus-17",
+        "cplusplus-20",
+        "cplusplus-23",
+        "cpp",
+        "cpp11",
+        "cpp14",
+        "cpp17",
+        "cpp20",
+        "cpp23",
+        "cpp26",
+        "llvm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "clangd",
+        "stars": 2303,
+        "repo": "clangd/clangd"
+      },
+      {
+        "name": "cquery",
+        "stars": 2360,
+        "repo": "jacobdufault/cquery"
+      },
+      {
+        "name": "cppcheck",
+        "stars": 6765,
+        "repo": "cppcheck-opensource/cppcheck"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 4
+    }
+  }
+}
