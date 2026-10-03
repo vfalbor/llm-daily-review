@@ -1,0 +1,27 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+Cloning into '/tmp/cppinsights_test'...
+error: could not find `Cargo.toml` in `/tmp/cppinsights_test` or any parent directory
+Cloning into '/tmp/cppinsights_bench'...
+error: could not find `Cargo.toml` in `/tmp/cppinsights_bench` or any parent directory
+ERROR: unable to select packages:
+  clang-tools-extra (no such package):
+    required by: world[clang-tools-extra]
+Traceback (most recent call last):
+  File "/app/test.py", line 186, in <module>
+    clangd_time = bench_tool(['clangd', '--version'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 183, in bench_tool
+    rc, _ = run_cmd(cmd, capture=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 10, in run_cmd
+    result = subprocess.run(
+             ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'clangd'
