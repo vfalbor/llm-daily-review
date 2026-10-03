@@ -1,0 +1,95 @@
+{
+  "app_name": "Offrun",
+  "url": "https://offrun.dev/",
+  "scored_at": "2026-10-03T13:02:39.461Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be assessed beyond being an incremental addition to existing agent workspaces."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 8.9 seconds, which is well under the 30‑second threshold, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑framework for managing coding agents, it aligns with the current surge in agent‑based LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Similar tools such as CrewAI (59,310 stars) and LangChain Agents (2,346 stars) have far greater community traction, while Offrun has no reported star count."
+    },
+    "community": {
+      "score": 2,
+      "justification": "HN points are only 14 with 5 comments, all of which highlight uncertainty and criticism, indicating a very small and negative community signal."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%), showing core functionality fails in the automated test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a Web UI and a CLI API (use_modes), but lacks a PyPI package, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available, so documentation quality cannot be measured."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "With only 14 HN points and no release or issue data, the project appears early‑stage and not yet stable."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines show import time 0 ms, workspace creation 0.5 ms, and agent response 0.8 ms, but no comparative data to other tools is provided."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments express uncertainty or criticism, questioning the value proposition and noting significant limitations, with no positive remarks."
+    }
+  },
+  "summary": "Offrun is a workspace that lets users orchestrate multiple coding agents through a Web UI or CLI API. It is built as an open‑source llm‑framework without a PyPI package, running locally without an API key. The tool targets developers who need a single interface to manage several coding agents, but its differentiation is unclear compared to heavily starred alternatives like CrewAI. While installation is quick, the test suite fails completely and community feedback on HN is largely negative, indicating limited maturity and utility at present.",
+  "recommendation": "skip",
+  "app_url": "https://offrun.dev/",
+  "tool_url": "https://github.com/offrun/offrun",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49942434",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CrewAI",
+        "stars": 59310,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LangChain Agents",
+        "stars": 2346,
+        "repo": "langchain-ai/agents-from-scratch"
+      },
+      {
+        "name": "OpenAI Assistant API",
+        "stars": 362,
+        "repo": "twilio-samples/speech-assistant-openai-realtime-api-node"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [],
+      "negative_signals": [
+        "Unclear differentiator from similar tools",
+        "Limited platform support",
+        "Missing key feature like rate‑limit preview"
+      ],
+      "justification": "Most comments express uncertainty or criticism, questioning the value proposition and noting significant limitations, with no positive remarks.",
+      "comment_count": 5,
+      "hn_points": 14
+    }
+  }
+}
