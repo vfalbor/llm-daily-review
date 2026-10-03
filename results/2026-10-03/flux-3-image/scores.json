@@ -1,0 +1,82 @@
+{
+  "app_name": "FLUX 3 Image",
+  "url": "https://bfl.ai/models/flux-3-image",
+  "scored_at": "2026-10-03T13:04:52.975Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only a list of similar tools is provided, so there is insufficient quantitative evidence to assess originality."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 8.7 seconds, which is well under the 30‑second threshold, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is 'llm-inference' for image generation, a hot area in today's LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons are available for this model versus Stable Diffusion 2.1, Flux‑1, or DALL·E."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Hacker News points are 369, which falls in the 200‑500 range, indicating a moderate community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 1 tests passed (<50%) and the basic run failed, showing limited functional correctness."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a Python API and CLI, but no PyPI package or explicit API documentation is available, leaving integration details unclear."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or documentation pages were detected, and no web signals about documentation quality were found."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Hacker News points exceed 300 and the domain appears stable, giving a moderate maturity rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the intuitive UX for placing elements and the excitement around an open‑weight release, but a few users express concern that the model may become closed‑source and note some friction with existing UI workflows."
+    }
+  },
+  "summary": "FLUX 3 Image is an open‑source diffusion model that generates high‑resolution images via a Python API or CLI. It runs locally without requiring an API key and is positioned as a faster, higher‑quality alternative to Stable Diffusion 2.1 and DALL·E. It is suited for developers who need on‑device image synthesis and can tolerate limited documentation and community support. While installation is quick, the test suite shows zero functional passes and documentation is sparse, indicating a need for further polishing.",
+  "recommendation": "niche",
+  "app_url": "https://bfl.ai/models/flux-3-image",
+  "tool_url": "https://huggingface.co/bfl/flux-3-image",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=49925974",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "UX and steering control",
+        "open weight promise",
+        "creative image composition"
+      ],
+      "negative_signals": [
+        "uncertainty over open‑weights release",
+        "friction with ComfyUI integration"
+      ],
+      "justification": "Comments praise the intuitive UX for placing elements and the excitement around an open‑weight release, but a few users express concern that the model may become closed‑source and note some friction with existing UI workflows.",
+      "comment_count": 30,
+      "hn_points": 369
+    }
+  }
+}
