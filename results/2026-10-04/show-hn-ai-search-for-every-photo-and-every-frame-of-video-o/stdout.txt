@@ -1,0 +1,72 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.5-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+TEST_FAIL:clone_repo:git clone failed: Cloning into '/tmp/scm_src'...
+error: unable to write file test/delta-switch.test.js
+error: unable to write file test/detect-deep.test.js
+error: unable to write file test/detect-options.test.js
+error: unable to write file test/dialogue-exact.test.js
+error: unable to write file test/email-address.test.ts
+error: unable to write file test/embedding-versions.test.js
+error: unable to write file test/fp-core.test.ts
+error: unable to write file test/grid-columns.test.ts
+error: unable to write file test/import-order.test.js
+error: unable to write file test/import-toast.test.ts
+error: unable to write file test/library-reset.test.js
+error: unable to write file test/library-store.test.js
+error: unable to write file test/media-order.test.ts
+error: unable to write file test/mime-sniff.test.js
+error: unable to write file test/ocr-cjk.test.js
+error: unable to write file test/ocr-email-glue.test.js
+error: unable to write file test/ocr-highlights.test.ts
+error: unable to write file test/packaged-files.test.js
+error: unable to write file test/perf-grid.test.js
+error: unable to write file test/perf-test.js
+error: unable to write file test/pump-enrichment.test.js
+error: unable to write file test/pump-transcription.test.js
+error: unable to write file test/rank-ocr-exemption.test.js
+error: unable to write file test/raw-frame-parity.test.js
+error: unable to write file test/saved-searches.test.ts
+error: unable to write file test/scene-noise-test.js
+error: unable to write file test/screenshot-categories.test.ts
+error: unable to write file test/screenshot-probe.test.js
+error: unable to write file test/search-metadata.test.ts
+error: unable to write file test/settings.test.js
+error: unable to write file test/stores.test.js
+error: unable to write file test/text-mean-constant.test.js
+error: unable to write file test/transcribe-audio-probe.test.js
+error: unable to write file test/transcript-deep.test.js
+error: unable to write file test/transcript-dialogue-rank.test.js
+error: unable to write file test/transcript-fusion.test.js
+error: unable to write file test/video-quality.test.ts
+error: unable to write file test/view-shortcuts.test.ts
+error: unable to write file test/virtual-grid.test.ts
+error: unable to write file test/whisper-model.test.js
+error: unable to write file test/whisper-model.test.ts
+error: unable to write file tsconfig.json
+error: unable to write file vite.config.ts
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+TEST_FAIL:cli_discovery:CLI executable not found
+TEST_FAIL:create_sample_data:[Errno 28] No space left on device
