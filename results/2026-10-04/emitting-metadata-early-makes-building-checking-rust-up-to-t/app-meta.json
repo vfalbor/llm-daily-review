@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Emitting metadata early makes building/checking Rust up to twice as fast",
+    "url": "https://github.com/PowderworksCode/headstart",
+    "hn_url": "https://news.ycombinator.com/item?id=49951218",
+    "points": 24,
+    "comments": 1,
+    "author": "knuckleheads",
+    "age": "2026-10-04T06:26:57",
+    "scraped_at": "2026-10-04T13:00:03.254Z",
+    "tool_url": "https://github.com/PowderworksCode/headstart",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "devtool",
+    "app_type": "devtool-build",
+    "description": "A Rust build tool that emits metadata early to accelerate compile and check times",
+    "use_modes": [
+      "CLI",
+      "Build integration"
+    ],
+    "similar_tools": [
+      "cargo",
+      "cargo-bloat",
+      "cargo-watch"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `cargo test` to confirm build passes",
+      "Measure `cargo build` time with and without the tool enabled",
+      "Run `cargo bench` and compare benchmark results",
+      "Integrate into a CI pipeline and verify build duration reduction"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/PowderworksCode/headstart"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791118950349-t8hgx",
+    "log_dir": "/tmp/llm-review-1791118950349-t8hgx",
+    "install_success": true,
+    "install_time_s": 14,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:6.24\nBENCHMARK:cargo_test_time_s:0.06\nBENCHMARK:build_without_tool_time_s:0.02\nBENCHMARK:build_with_tool_time_s:0.02\nBENCHMARK:vs_cargo_build_ratio:1.008\nBENCHMARK:cargo_bench_time_s:0.02\nBENCHMARK:build_memory_peak_kb:57.47",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:6.24\nTEST_FAIL:cargo_test:error: could not find `Cargo.toml` in `/tmp/headstart_repo` or any parent directory\nBENCHMARK:cargo_test_time_s:0.06\nTEST_FAIL:build_without_tool:error: could not find `Cargo.toml` in `/tmp/headstart_repo` or any parent directory\nBENCHMARK:build_without_tool_time_s:0.02\nTEST_FAIL:build_with_tool:error: could not find `Cargo.toml` in `/tmp/headstart_repo` or any parent directory\nBENCHMARK:build_with_tool_time_s:0.02\nBENCHMARK:vs_cargo_build_ratio:1.008\nTEST_FAIL:cargo_bench:error: could not find `Cargo.toml` in `/tmp/headstart_repo` or any parent directory\nBENCHMARK:cargo_bench_time_s:0.02\nBENCHMARK:build_memory_peak_kb:57.47\nRUN_OK\n"
+  }
+}
