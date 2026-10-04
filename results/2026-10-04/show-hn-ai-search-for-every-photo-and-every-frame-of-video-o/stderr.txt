@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 176, in <module>
+    main()
+  File "/app/test.py", line 168, in main
+    mem_snapshot = tracemalloc.take_snapshot()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/tracemalloc.py", line 556, in take_snapshot
+    raise RuntimeError("the tracemalloc module must be tracing memory "
+RuntimeError: the tracemalloc module must be tracing memory allocations to take a snapshot
