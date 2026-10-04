@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Show HN: AI search for every photo and every frame of video on macOS",
+    "url": "https://github.com/allenv0/SCM",
+    "hn_url": "https://news.ycombinator.com/item?id=49952111",
+    "points": 13,
+    "comments": 4,
+    "author": "allenleee",
+    "age": "2026-10-04T09:24:52",
+    "scraped_at": "2026-10-04T13:00:03.251Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/allenv0/SCM",
+    "repo_url": "https://github.com/allenv0/SCM",
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "AI-powered search engine that indexes photos and video frames on macOS and allows quick retrieval via a CLI or desktop UI.",
+    "use_modes": [
+      "CLI",
+      "Desktop UI"
+    ],
+    "similar_tools": [
+      "Recoll",
+      "DocFetcher",
+      "OpenSearch"
+    ],
+    "proposed_tests": [
+      "Clone repo and run pip install -e . to install dependencies",
+      "Index a sample photo directory and a short video file",
+      "Run search queries against the indexed data and compare result relevance",
+      "Measure indexing time per megabyte",
+      "Verify that no API key is required for local usage"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1791118889658-kw5ew",
+    "log_dir": "/tmp/llm-review-1791118889658-kw5ew",
+    "install_success": true,
+    "install_time_s": 22.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 176, in <module>\n    main()\n  File \"/app/test.py\", line 168, in main\n    mem_snapshot = tracemalloc.take_snapshot()\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/tracemalloc.py\", line 556, in take_snapshot\n    raise RuntimeError(\"the tracemalloc module must be tracing memory \"\nRuntimeError: the tracemalloc module must be tracing memory allocations to take a snapshot\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_repo:git clone failed: Cloning into '/tmp/scm_src'...\nerror: unable to write file test/delta-switch.test.js\nerror: unable to write file test/detect-deep.test.js\nerror: unable to write file test/detect-options.test.js\nerror: unable to write file test/dialogue-exact.test.js\nerror: unable to write file test/email-address.test.ts\nerror: unable to write file test/embedding-versions.test.js\nerror: unable to write file test/fp-core.test.ts\nerror: unable to write file test/grid-columns.test.ts\nerror: unable to write file test/import-order.test.js\nerror: unable to write file test/import-toast.test.ts\nerror: unable to write file test/library-reset.test.js\nerror: unable to write file test/library-store.test.js\nerror: unable to write file test/media-order.test.ts\nerror: unable to write file test/mime-sniff.test.js\nerror: unable to write file test/ocr-cjk.test.js\nerror: unable to write file test/ocr-email-glue.test.js\nerror: unable to write file test/ocr-highlights.test.ts\nerror: unable to write file test/packaged-files.test.js\nerror: unable to write file test/perf-grid.test.js\nerror: unable to write file test/perf-test.js\nerror: unable to write file test/pump-enrichment.test.js\nerror: unable to write file test/pump-transcription.test.js\nerror: unable to write file test/rank-ocr-exemption.test.js\nerror: unable to write file test/raw-frame-parity.test.js\nerror: unable to write file test/saved-searches.test.ts\nerror: unable to write file test/scene-noise-test.js\nerror: unable to write file test/screenshot-categories.test.ts\nerror: unable to write file test/screenshot-probe.test.js\nerror: unable to write file test/search-metadata.test.ts\nerror: unable to write file test/settings.test.js\nerror: unable to write file test/stores.test.js\nerror: unable to write file test/text-mean-constant.test.js\nerror: unable to write file test/transcribe-audio-probe.test.js\nerror: unable to write file test/transcript-deep.test.js\nerror: unable to write file test/transcript-dialogue-rank.test.js\nerror: unable to write file test/transcript-fusion.test.js\nerror: unable to write file test/video-quality.test.ts\nerror: unable to write file test/view-shortcuts.test.ts\nerror: unable to write file test/virtual-grid.test.ts\nerror: unable to write file test/whisper-model.test.js\nerror: unable to write file test/whisper-model.test.ts\nerror: unable to write file tsconfig.json\nerror: unable to write file vite.config.ts\nfatal: unable to checkout working tree\nwarning: Clone succeeded, but checkout failed.\nYou can inspect what was checked out with 'git status'\nand retry with 'git restore --source=HEAD :/'\n\n\nTEST_FAIL:cli_discovery:CLI executable not found\nTEST_FAIL:create_sample_data:[Errno 28] No space left on device\n"
+  }
+}
