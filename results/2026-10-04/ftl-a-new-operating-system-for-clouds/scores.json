@@ -1,0 +1,90 @@
+{
+  "app_name": "FTL: A new operating system for clouds",
+  "url": "https://ftl-os.org/",
+  "scored_at": "2026-10-04T13:04:33.961Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only high‑starred alternatives (Kubernetes 128,252 stars) are listed, so we cannot assess originality."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 11.8 seconds (<30 s) and the package exists on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infrastructure‑ops OS for cloud environments, it aligns with current trends toward lightweight VM abstractions and resource scheduling."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no visible star count while comparable tools have hundreds of thousands of stars (e.g., Kubernetes 128,252), and no benchmark data is provided."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository or HN comment data is available, so community signals are missing."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (<50 %) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists (v0.0.7) and the tool offers both CLI and API modes, enabling straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki/pages data was found, and no external documentation signals were provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) we cannot assess maturity, so a neutral score is assigned."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark timings are reported (apk install 4.126 s, git clone 0.270 s) but there is no comparative data to judge relative performance."
+    }
+  },
+  "summary": "FTL is an open‑source operating system that provides a lightweight VM abstraction and efficient scheduling for cloud infrastructures. It is distributed as a PyPI package and can be controlled via CLI or an API. The tool targets cloud operators who need a minimal OS layer for managing resources across virtual machines. Installation is fast (11.8 s) and the package runs locally, but the lack of community activity, sparse testing, and missing performance comparisons limit confidence in its maturity and differentiation.",
+  "recommendation": "niche",
+  "app_url": "https://ftl-os.org/",
+  "tool_url": "https://github.com/ftlos/ftl",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49944912",
+  "domain": "infrastructure",
+  "app_type": "infra-ops",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Kubernetes",
+        "stars": 128252,
+        "repo": "kubernetes/kubernetes"
+      },
+      {
+        "name": "RancherOS",
+        "stars": 41,
+        "repo": "robbertkl/RancherOS-Linode"
+      },
+      {
+        "name": "Flatcar Container Linux",
+        "stars": 28,
+        "repo": "flatcar/container-linux-config-transpiler"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.7",
+      "summary": "asyncio-based HTTP/2 implementation",
+      "requires_python": "",
+      "license": "Apache License 2.0",
+      "home_page": "https://github.com/other-xyz/ftl"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
