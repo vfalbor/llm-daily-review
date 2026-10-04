@@ -1,0 +1,106 @@
+{
+  "app_name": "headstart",
+  "url": "https://github.com/PowderworksCode/headstart",
+  "scored_at": "2026-10-04T13:03:30.161Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created only 7 days ago and is not a fork, but it mirrors existing tools like cargo, so it is an incremental addition."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 14 s, runs on typical developer hardware, and requires no API key despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-build for Rust, it aligns with current trends of speeding up compile cycles in modern Rust development."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Only 10 GitHub stars versus 15,548 for cargo and the benchmark shows a build‑time ratio of 1.008, offering no clear advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repository has 10 stars, 2 contributors, and was updated 1 day ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "All 4 functional tests failed (0 / 4 passed) even though installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is only a CLI/ build‑integration with no PyPI package and no declared license, making automated integration modestly difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topics was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is 7 days old, has 1 fork and 0 open issues, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark shows a build‑time ratio of 1.008 versus cargo, meaning no measurable performance gain."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "headstart is a Rust build‑tool that emits metadata early to try to speed up compile and check phases. It works as a CLI and can be integrated into Cargo build pipelines, but it does not provide a library or API beyond command‑line usage. It is aimed at Rust developers seeking marginal compile‑time improvements, yet benchmarks show only a 0.8% speed difference compared to cargo. The project is brand new, has minimal community activity, and lacks comprehensive documentation, making it a niche experiment rather than a production-ready solution.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/PowderworksCode/headstart",
+  "tool_url": "https://github.com/PowderworksCode/headstart",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49951218",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 10,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 10,
+      "contributors": 2,
+      "license": "none",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Start dependent crates before their dependencies finish type-checking",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "cargo",
+        "stars": 15548,
+        "repo": "rust-lang/cargo"
+      },
+      {
+        "name": "cargo-bloat",
+        "stars": 2772,
+        "repo": "RazrFalcon/cargo-bloat"
+      },
+      {
+        "name": "cargo-watch",
+        "stars": 2859,
+        "repo": "watchexec/cargo-watch"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 24
+    }
+  }
+}
