@@ -1,0 +1,120 @@
+{
+  "app_name": "AI search for every photo and every frame of video on macOS",
+  "url": "https://github.com/allenv0/SCM",
+  "scored_at": "2026-10-04T13:02:29.167Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The repository was created today (0 days since creation) and is not a fork, but it mirrors existing tools like Recoll and DocFetcher which have thousands of stars, indicating it is a near-duplicate."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 22.5 seconds (under 30 s) and a PyPI package exists, requiring no special hardware or API keys."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for AI‑powered media search on macOS, it addresses a common workflow need in current LLM‑enhanced productivity tools."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has only 28 GitHub stars versus 1,379 for Recoll, 84 for DocFetcher, and 13,807 for OpenSearch, showing no clear advantage over these established alternatives."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repo has 28 stars, a single contributor, and was updated today, indicating a very small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of three tests passed (0/3) and the basic run failed, suggesting core functionality is unreliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package is available and the tool offers both CLI and desktop UI modes, but there is no documented REST API, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (0 days ago) and has only one fork, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show enthusiasm for the idea and curiosity about technical details, but also highlight realistic worries about processing large video libraries, leading to a generally positive yet cautious sentiment."
+    }
+  },
+  "summary": "This open‑source CLI indexes photos and video frames on macOS using AI and provides a desktop UI for quick retrieval. It is built in JavaScript, installs quickly (22.5 s) and requires no API key. It is aimed at macOS power users who need local media search, but its reliability is low (0 of 3 tests passed) and it has a very small community (28 stars). The main strength is the fast local install; the main caveat is the lack of proven functionality and limited differentiation from established tools.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/allenv0/SCM",
+  "tool_url": "https://github.com/allenv0/SCM",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49952111",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 28,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 28,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Deep AI search for every photo and every frame of video in any folder on macOS",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Recoll",
+        "stars": 1379,
+        "repo": "0xacb/recollapse"
+      },
+      {
+        "name": "DocFetcher",
+        "stars": 84,
+        "repo": "xiaoniu-578fa6bff964d005/docfetcher"
+      },
+      {
+        "name": "OpenSearch",
+        "stars": 13807,
+        "repo": "opensearch-project/OpenSearch"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0alpha",
+      "summary": "Gui for EPSC model and inverse analysis",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "http://www.engdiff.org"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Positive premise and interest",
+        "Technical curiosity",
+        "Encouraging questions"
+      ],
+      "negative_signals": [
+        "Concerns about processing time",
+        "Uncertainty about performance"
+      ],
+      "justification": "Comments show enthusiasm for the idea and curiosity about technical details, but also highlight realistic worries about processing large video libraries, leading to a generally positive yet cautious sentiment.",
+      "comment_count": 4,
+      "hn_points": 13
+    }
+  }
+}
