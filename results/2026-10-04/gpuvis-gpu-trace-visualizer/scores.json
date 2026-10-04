@@ -1,0 +1,109 @@
+{
+  "app_name": "gpuvis: GPU Trace Visualizer",
+  "url": "https://github.com/mikesart/gpuvis",
+  "scored_at": "2026-10-04T13:01:28.398Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository is 3495 days old and is not a fork, and many similar tools (e.g., RenderDoc with 11,140 stars) already exist, indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 17.7 seconds (under the 30‑second threshold) and the tool runs locally without requiring an API key, though it lacks a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑cli for GPU trace visualization, it aligns with current developer tooling needs for Vulkan and OpenGL debugging."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 948 stars it trails RenderDoc (11,140 stars) but surpasses VkTrace (23 stars) and gpu‑profiler (454 stars); no benchmark advantage is shown beyond a clone time of 1.375 s."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 948 stars, 62 contributors, and was updated 24 days ago, indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 3 automated tests, 0 passed (0%), though installation succeeded; this places it in the <50% pass bracket."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is distributed as a CLI/GUI application with an MIT license but has no PyPI package or REST API, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 3495 days old, has 105 forks and only 6 open issues, reflecting a mature and stable codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a clone_time of 1.375 s is reported; no comparative performance benchmarks are available."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments are minimal and uninformative, with one user noting a broken screenshot and others providing only a link or a vague statement, indicating insufficient data for a clear sentiment."
+    }
+  },
+  "summary": "gpuvis is a CLI and GUI tool that visualizes Vulkan and OpenGL GPU traces, showing call stacks, resource usage, and timelines. It runs locally as a compiled C++ application and does not require any external API keys. The tool is suited for graphics developers who need detailed GPU profiling without relying on heavyweight solutions like RenderDoc. It benefits from a mature codebase and active contributors, but its lack of automated test success and limited integration options are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/mikesart/gpuvis",
+  "tool_url": "https://github.com/mikesart/gpuvis",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49935097",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 948,
+      "forks": 105,
+      "open_issues": 6,
+      "watchers": 948,
+      "contributors": 62,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 24,
+      "days_since_created": 3495,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "GPU Trace Visualizer",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "RenderDoc",
+        "stars": 11140,
+        "repo": "baldurk/renderdoc"
+      },
+      {
+        "name": "VkTrace",
+        "stars": 23,
+        "repo": "ARM-software/vktrace-arm"
+      },
+      {
+        "name": "gpu-profiler",
+        "stars": 454,
+        "repo": "GPUOpen-Tools/radeon_gpu_profiler"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [
+        "Screenshot not accessible",
+        "Sparse feedback"
+      ],
+      "justification": "Comments are minimal and uninformative, with one user noting a broken screenshot and others providing only a link or a vague statement, indicating insufficient data for a clear sentiment.",
+      "comment_count": 3,
+      "hn_points": 31
+    }
+  }
+}
