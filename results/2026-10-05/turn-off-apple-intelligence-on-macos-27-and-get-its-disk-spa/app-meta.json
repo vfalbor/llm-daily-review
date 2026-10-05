@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+    "url": "https://github.com/omlahore/RemoveMacAI",
+    "hn_url": "https://news.ycombinator.com/item?id=49957116",
+    "points": 641,
+    "comments": 435,
+    "author": "privacyisntdead",
+    "age": "2026-10-04T19:42:25",
+    "scraped_at": "2026-10-05T13:00:02.921Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/omlahore/RemoveMacAI",
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A shell script that disables Apple AI services on macOS 27 to free disk space.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "disable-ai-mac",
+      "macos-ai-off"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the install script",
+      "Execute the script with --help to verify help output",
+      "Run the script without arguments and confirm it reports disabling AI services",
+      "Check system logs to ensure AI services are stopped",
+      "Verify disk usage before and after to measure reclaimed space"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/omlahore/RemoveMacAI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791205293050-4pwkl",
+    "log_dir": "/tmp/llm-review-1791205293050-4pwkl",
+    "install_success": true,
+    "install_time_s": 13.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.150\nBENCHMARK:git_clone_time_s:1.052\nBENCHMARK:disk_reclaimed_bytes:5242880\nBENCHMARK:repo_file_count:55\nBENCHMARK:vs_disable_ai_mac_help_ratio:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:5.150\nBENCHMARK:git_clone_time_s:1.052\nTEST_FAIL:help_output:[Errno 2] No such file or directory: 'remove-mac-ai'\nTEST_FAIL:run_no_args:[Errno 2] No such file or directory: 'remove-mac-ai'\nTEST_PASS:disk_reclaim\nBENCHMARK:disk_reclaimed_bytes:5242880\nBENCHMARK:repo_file_count:55\nBENCHMARK:vs_disable_ai_mac_help_ratio:0.000\nRUN_OK\n"
+  }
+}
