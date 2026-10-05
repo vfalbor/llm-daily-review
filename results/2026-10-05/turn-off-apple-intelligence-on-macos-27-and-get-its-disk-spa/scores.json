@@ -1,0 +1,112 @@
+{
+  "app_name": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+  "url": "https://github.com/omlahore/RemoveMacAI",
+  "scored_at": "2026-10-05T13:02:29.218Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repository is only 6 days old, is not a fork, and its star count (1,126) far exceeds that of the nearest alternative (3 stars), indicating a genuinely new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 13.6 seconds on consumer hardware, though there is no PyPI package, the script runs locally without an API key."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-cli that disables Apple AI services, it addresses privacy concerns that are increasingly discussed in the current macOS and LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 1,126 stars versus 3 stars for the closest similar tool, it offers a markedly more popular solution; no direct benchmark is provided but the star disparity shows clear differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 1,126 GitHub stars, 1 contributor, and was updated today (0 days since last commit), indicating an active and visible community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 3 tests passed (33%), reflecting limited functional coverage despite successful installation."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a pure CLI script with no PyPI package, no REST API, and only MIT licensing, making automated integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation metrics such as wiki or GitHub Pages status were not provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 6 days old with 22 forks and 4 open issues; while activity is recent, the short lifespan limits maturity assessment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data (e.g., import_time_ms) was reported, so a neutral performance score is used."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The majority of comments focus on the inherent risks of executing shell scripts directly from the internet and the trust issues surrounding third‑party code, with only a few mentioning the tool’s simplicity or developer intent."
+    }
+  },
+  "summary": "RemoveMacAI is a shell script that disables Apple Intelligence services on macOS 27, freeing disk space. It runs locally via a simple CLI without requiring any API keys. It is most useful for privacy‑concerned macOS users who want to reclaim storage without installing heavyweight software. The project gained rapid attention (1,126 stars in 6 days) but only 33% of its tests pass and it lacks integration hooks, limiting its reliability for production use.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/omlahore/RemoveMacAI",
+  "tool_url": "https://github.com/omlahore/RemoveMacAI",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49957116",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1126,
+      "forks": 22,
+      "open_issues": 4,
+      "watchers": 1126,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 6,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
+      "topics": [
+        "apple-intelligence",
+        "cli",
+        "debloat",
+        "macos",
+        "macos-27",
+        "privacy",
+        "siri",
+        "swift"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "macos-ai-off",
+        "stars": 3,
+        "repo": "Foundry-Local-AI-Offline-Apps/Foundry-Local-AI-Offline-Apps-for-macOS"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "simple installation",
+        "developer intent to help users"
+      ],
+      "negative_signals": [
+        "security concerns about curl|bash",
+        "trust issues with third‑party code",
+        "risk of malicious payload"
+      ],
+      "justification": "The majority of comments focus on the inherent risks of executing shell scripts directly from the internet and the trust issues surrounding third‑party code, with only a few mentioning the tool’s simplicity or developer intent.",
+      "comment_count": 30,
+      "hn_points": 641
+    }
+  }
+}
