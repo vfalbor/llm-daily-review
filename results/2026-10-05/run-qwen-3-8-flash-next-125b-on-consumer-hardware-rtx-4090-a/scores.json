@@ -1,0 +1,121 @@
+{
+  "app_name": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+  "url": "https://github.com/Niko1221/Strata",
+  "scored_at": "2026-10-05T13:01:31.584Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created only 10 days ago and is not a fork, but similar high‑throughput inference tools already exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) despite a short install time of 8.8 s and a PyPI package, showing poor installability."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑inference tool targeting consumer GPUs, it addresses a hot need in today's LLM deployment landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repository has 12,664 stars, far fewer than Ollama (182,220) and vLLM (93,206), but it uniquely claims to run a 125B model on a single RTX 4090, offering a distinct capability."
+    },
+    "community": {
+      "score": 8,
+      "justification": "12,664 stars, 83 contributors, and only 1 day since the last commit indicate an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 1 tests passed and the install step failed, showing that core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package (v26.0.0) is available, the project offers both CLI and Python API modes, and it is released under an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is very new (10 days) but already has 1,070 forks and 359 open issues, suggesting early-stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark notes report an import time of 142 ms, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments overwhelmingly praise the model’s speed and coding accuracy on consumer hardware, but a few note spelling mistakes at large context sizes and issues on less powerful GPUs, leading to a strong but not flawless reception."
+    }
+  },
+  "summary": "Strata is a lightweight inference framework that enables running the 125B Qwen 3.8 Flash Next model on consumer GPUs like the RTX 4090. It provides both a CLI and a Python API and is distributed via PyPI (v26.0.0) under an MIT license. The tool is aimed at developers who need high‑throughput inference on a single consumer GPU without complex setup. While it enjoys strong community interest (12.6k stars) and a very recent commit, installation failures and lack of passing tests limit its immediate usability, and performance claims lack comparative evidence.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Niko1221/Strata",
+  "tool_url": "https://github.com/Niko1221/Strata",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49953495",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 12664,
+      "forks": 1070,
+      "open_issues": 359,
+      "watchers": 12664,
+      "contributors": 83,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 10,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 182220,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 93206,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "NeuralChat",
+        "stars": 14,
+        "repo": "ricsinaruto/NeuralChatbots-DataFiltering"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "26.0.0",
+      "summary": "Multi-dimensional, topologically-driven, dependency-resolving configuration framework, built to handle the complexities of advanced projects.",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "High performance on consumer GPUs",
+        "Superior coding quality",
+        "Ease of deployment with Docker images"
+      ],
+      "negative_signals": [
+        "Spelling errors at long context",
+        "Hardware limitations on lower-end GPUs",
+        "Some quality concerns with certain quantizations"
+      ],
+      "justification": "Comments overwhelmingly praise the model’s speed and coding accuracy on consumer hardware, but a few note spelling mistakes at large context sizes and issues on less powerful GPUs, leading to a strong but not flawless reception.",
+      "comment_count": 30,
+      "hn_points": 842
+    }
+  }
+}
