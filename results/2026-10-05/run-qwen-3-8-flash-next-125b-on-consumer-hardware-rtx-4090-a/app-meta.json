@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+    "url": "https://github.com/Niko1221/Strata",
+    "hn_url": "https://news.ycombinator.com/item?id=49953495",
+    "points": 842,
+    "comments": 369,
+    "author": "snehesht",
+    "age": "2026-10-04T12:51:53",
+    "scraped_at": "2026-10-05T13:00:02.915Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/Niko1221/Strata",
+    "confidence": 0.97,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Strata is a lightweight inference framework that runs Qwen 3.8 Flash Next (125B) on consumer GPUs such as RTX 4090, aiming for high throughput with minimal setup.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "Ollama",
+      "vLLM",
+      "NeuralChat",
+      "MosaicML Inference"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies via pip",
+      "Run the provided inference script on a sample prompt and verify output",
+      "Measure token generation latency and compare with vLLM baseline",
+      "Benchmark throughput by generating 100 tokens and calculate tokens/second"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Niko1221/Strata"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791205251083-nh5xf",
+    "log_dir": "/tmp/llm-review-1791205251083-nh5xf",
+    "install_success": false,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n=== LLM Daily Review — Fallback Test Runner ===\nApp: Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s\nType: llm-inference\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement run-qwen-3-8-flash-next-125b-on-consumer-hardware-rtx-4090-at-100t-s (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution f\nTEST_SKIP:import:package_not_installed\nRUN_OK\n"
+  }
+}
