@@ -1,0 +1,68 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+    "url": "https://github.com/dfd-tud/deda",
+    "hn_url": "https://news.ycombinator.com/item?id=49953195",
+    "points": 76,
+    "comments": 9,
+    "author": "greyface-",
+    "age": "2026-10-04T12:09:10",
+    "scraped_at": "2026-10-06T13:00:03.069Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/dfd-tud/deda",
+    "repo_url": "https://github.com/dfd-tud/deda",
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "A command‑line toolkit for extracting, decoding and anonymising dot patterns from images, primarily used in forensic analysis.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "OpenCV",
+      "Tesseract",
+      "ImageMagick"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Install the package via pip",
+        "command": "pip install git+https://github.com/dfd-tud/deda.git"
+      },
+      {
+        "name": "Verify CLI help output",
+        "command": "deda --help",
+        "expected_output": "Usage:"
+      },
+      {
+        "name": "Run a basic extraction on a sample image",
+        "command": "deda extract --input sample.png --output out.json",
+        "expected_output_contains": "{\"dots\":"
+      },
+      {
+        "name": "Decode the extracted dots into text",
+        "command": "deda decode --input out.json --output decoded.txt",
+        "expected_output_contains": "Decoded:"
+      },
+      {
+        "name": "Check anonymisation routine removes identifiers",
+        "command": "deda anonymise --input decoded.txt --output anon.txt",
+        "expected_output_contains": "Anonymised:"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1791291641890-eg5fe",
+    "log_dir": "/tmp/llm-review-1791291641890-eg5fe",
+    "install_success": true,
+    "install_time_s": 26.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:import_time_s:0.0003\nBENCHMARK:vs_opencv_latency_ratio:NaN\nBENCHMARK:package_file_count:0\nBENCHMARK:import_peak_memory_bytes:1748",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nINSTALL_FAIL:ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nTEST_FAIL:deda:No module named 'deda'\nBENCHMARK:import_time_s:0.0003\nTEST_FAIL:core_operation:No module named 'deda'\nINSTALL_OK\nBENCHMARK:vs_opencv_latency_ratio:NaN\nBENCHMARK:package_file_count:0\nBENCHMARK:import_peak_memory_bytes:1748\nRUN_OK\n"
+  }
+}
