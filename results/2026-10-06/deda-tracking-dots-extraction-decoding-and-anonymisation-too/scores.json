@@ -1,0 +1,120 @@
+{
+  "app_name": "DEDA – Tracking Dots Extraction, Decoding and Anonymisation Toolkit",
+  "url": "https://github.com/dfd-tud/deda",
+  "scored_at": "2026-10-06T13:01:23.522Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 3162 days old and is not a fork, but it tackles a problem that existing tools like OpenCV, Tesseract and ImageMagick already address, indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 26.8 seconds and the package is available on PyPI, requiring only Python >=3.3, meeting the simple‑setup criteria."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a forensic‑oriented data‑pipeline tool, it addresses a niche need that is not a core pain point in today's mainstream LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With 2,640 GitHub stars it trails OpenCV (91,080), Tesseract (76,840) and ImageMagick (17,607) by 85–97%, and no benchmark shows a clear advantage, so its differentiating value is minimal."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 2,640 stars and 10 contributors, but the last commit was 750 days ago, indicating a modest but declining community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "A PyPI package is available, but the tool is CLI‑only with no API surface, limiting straightforward integration into pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 3162 days old, has 119 forks and only 5 open issues, showing an established codebase but little recent activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 0.0003 s, but no comparative performance data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The few comments express skepticism and negative views about government involvement, security implications, and potential pressure on printer makers, indicating a mostly negative reception."
+    }
+  },
+  "summary": "DEDA is a command‑line toolkit that extracts, decodes, and anonymises dot patterns from images for forensic analysis. It runs locally as a Python package (v2.0b4) and does not require any external API keys. The tool is suited for forensic investigators who need a lightweight, offline solution for dot‑pattern processing. While installation is quick, the test suite fails completely and the project shows little recent activity, limiting confidence in its reliability.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/dfd-tud/deda",
+  "tool_url": "https://github.com/dfd-tud/deda",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49953195",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": {
+      "stars": 2640,
+      "forks": 119,
+      "open_issues": 5,
+      "watchers": 2640,
+      "contributors": 10,
+      "license": "GPL-3.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 750,
+      "days_since_created": 3162,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": [
+        "printer-forensic",
+        "tracking-dots",
+        "yellow-dots"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenCV",
+        "stars": 91080,
+        "repo": "opencv/opencv"
+      },
+      {
+        "name": "Tesseract",
+        "stars": 76840,
+        "repo": "tesseract-ocr/tesseract"
+      },
+      {
+        "name": "ImageMagick",
+        "stars": 17607,
+        "repo": "ImageMagick/ImageMagick"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.0b4",
+      "summary": "tracking Dots Extraction, Decoding and Anonymisation toolkit",
+      "requires_python": ">=3.3",
+      "license": "GNU General Public License v3 or later (GPLv3+)",
+      "home_page": "https://github.com/dfd-tud/deda"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [],
+      "negative_signals": [
+        "Security/authority concerns",
+        "Negative tone toward law enforcement"
+      ],
+      "justification": "The few comments express skepticism and negative views about government involvement, security implications, and potential pressure on printer makers, indicating a mostly negative reception.",
+      "comment_count": 9,
+      "hn_points": 77
+    }
+  }
+}
