@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+    "url": "https://astrohelm.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=49954015",
+    "points": 28,
+    "comments": 11,
+    "author": "HeavenFox",
+    "age": "2026-10-04T14:01:09",
+    "scraped_at": "2026-10-07T13:00:03.104Z",
+    "tool_url": "https://github.com/astrohelm/astrohelm",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "mobile",
+    "app_type": "devtool-cli",
+    "description": "A mobile-friendly web app that uses the phone camera to provide real-time aiming assistance for telescopes or telephoto lenses.",
+    "use_modes": [
+      "Web UI",
+      "Mobile web"
+    ],
+    "similar_tools": [
+      "Slooh",
+      "Focuser",
+      "Telescope Control Apps"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies",
+      "Start local development server and confirm the app loads in mobile view",
+      "Capture a test image via device camera and verify the aiming overlay renders correctly",
+      "Run a basic end-to-end test with Playwright to simulate camera usage and check UI responsiveness"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/astrohelm/astrohelm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378061156-5ppxy",
+    "log_dir": "/tmp/llm-review-1791378061156-5ppxy",
+    "install_success": true,
+    "install_time_s": 14,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_install_git_time_s:0.636\nBENCHMARK:apk_install_python3-dev_time_s:1.561\nBENCHMARK:apk_install_gcc_time_s:1.844\nBENCHMARK:apk_install_musl-dev_time_s:0.571\nBENCHMARK:apk_install_py3-pip_time_s:0.747\nBENCHMARK:pip_install_astrohelm_time_s:0.999\nBENCHMARK:git_clone_time_s:0.327\nBENCHMARK:import_memory_peak_kb:1.71\nBENCHMARK:minimal_operation_memory_peak_kb:1.71\nBENCHMARK:repo_py_files_count:0\nBENCHMARK:script_runtime_s:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nBENCHMARK:apk_install_git_time_s:0.636\nINSTALL_OK | python3-dev\nBENCHMARK:apk_install_python3-dev_time_s:1.561\nINSTALL_OK | gcc\nBENCHMARK:apk_install_gcc_time_s:1.844\nINSTALL_OK | musl-dev\nBENCHMARK:apk_install_musl-dev_time_s:0.571\nINSTALL_OK | py3-pip\nBENCHMARK:apk_install_py3-pip_time_s:0.747\nINSTALL_FAIL:pip:astrohelm:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--no-cache-dir', 'astrohelm']' returned non-zero exit status 1.\nBENCHMARK:pip_install_astrohelm_time_s:0.999\nINSTALL_FAIL:git:https://github.com/astrohelm/astrohelm.git:Command '['git', 'clone', '--depth', '1', 'https://github.com/astrohelm/astrohelm.git', '/tmp/astrohelm_src']' returned non-zero exit status 128.\nBENCHMARK:git_clone_time_s:0.327\nINSTALL_FAIL:git_clone_and_editable\nTEST_FAIL:import_astrohelm:No module named 'astrohelm'\nBENCHMARK:import_memory_peak_kb:1.71\nTEST_FAIL:minimal_operation:No module named 'astrohelm'\nBENCHMARK:minimal_operation_memory_peak_kb:1.71\nBENCHMARK:repo_py_files_count:0\nBENCHMARK:script_runtime_s:0.000\nRUN_OK\n"
+  }
+}
