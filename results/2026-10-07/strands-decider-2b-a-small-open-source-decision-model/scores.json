@@ -1,0 +1,101 @@
+{
+  "app_name": "Strands Decider 2B",
+  "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+  "scored_at": "2026-10-07T13:02:32.704Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "No repository data and the tool is a lightweight version of existing decision models like OpenAI Evals and ReAct, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 17 seconds (under 30s) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-evaluation tool, it directly addresses the current need for benchmarking LLM outputs in modern workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without GitHub stars to compare and only a single import-time benchmark (49.52 ms), the tool shows no clear advantage over high‑star alternatives like OpenAI Evals (19,564 stars) and ReAct (250,916 stars)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repo is detected, but Hacker News points are 218, placing it in the 200–500 range for community engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 of 5 tests passed (40%), which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package exists on PyPI and offers both a CLI and a Python API, enabling straightforward integration despite missing license details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and the provided URLs contain only a blog post, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Absent repository information; Hacker News points of 218 serve as the only maturity proxy, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A single benchmark reports import_time_ms of 49.52, but without comparative data it cannot be judged as better or worse than alternatives."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments praise its size, speed, clarity, and new vision support, while noting occasional speed issues and questions about benchmark reliability, leading to a generally positive but moderately critical assessment."
+    }
+  },
+  "summary": "Strands Decider 2B is an open‑source decision model that evaluates LLM outputs against human preferences. It can be used via a CLI or a Python API and is installable from PyPI without an API key. The tool is suited for researchers or engineers needing a lightweight benchmark for LLMs, especially when quick prototyping is required. Its main strength is fast installation and a modest import time of 49.52 ms, while its limited test coverage (40% pass) and lack of extensive community resources are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://strandsagents.com/blog/introducing-strands-decider/",
+  "tool_url": "https://github.com/strands-agents/decider",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49987076",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenAI Evals",
+        "stars": 19564,
+        "repo": "openai/evals"
+      },
+      {
+        "name": "ReAct",
+        "stars": 250916,
+        "repo": "react/react"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Build, serve and inspect decision pipelines",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "small, fast, useful",
+        "well written and human-friendly",
+        "supports vision in v21"
+      ],
+      "negative_signals": [
+        "some speed concerns",
+        "benchmark reliability questioned",
+        "limited multimodal support"
+      ],
+      "justification": "The comments praise its size, speed, clarity, and new vision support, while noting occasional speed issues and questions about benchmark reliability, leading to a generally positive but moderately critical assessment.",
+      "comment_count": 30,
+      "hn_points": 218
+    }
+  }
+}
