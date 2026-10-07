@@ -1,0 +1,94 @@
+{
+  "app_name": "AstroHelm",
+  "url": "https://astrohelm.app/",
+  "scored_at": "2026-10-07T13:01:33.793Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The tool uses a phone camera for telescope aiming, but similar projects (Slooh with 3 stars and Focuser with 162 stars) already exist, and no creation date or fork information is available."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 14 seconds, and the app runs locally without requiring an API key."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI for astronomy, it addresses a niche need but does not align directly with the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "AstroHelm has no GitHub stars to compare, while the closest alternatives have 3 and 162 stars, indicating little distinguishable advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No public repository data is available and HN points are only 28, placing community engagement in the lowest bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50%), indicating core functionality is not reliably demonstrated despite successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project lacks a PyPI package and provides only Web UI / Mobile web use modes, offering limited programmatic integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki information was found; without explicit documentation signals the score defaults to a neutral 5."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Absent version tags, release history, or repository activity, the tool appears fresh with minimal maturity signals."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons were provided; the only timings relate to package installation steps, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the tool’s practicality and offline plate‑solving, while a few raise concerns about Android support, field‑of‑view constraints, and positional accuracy without a motorized mount."
+    }
+  },
+  "summary": "AstroHelm is a mobile‑friendly web app that uses a phone camera to help aim telescopes or telephoto lenses in real time. It runs entirely in the browser and does not require an API key, making it easy to launch locally. Astronomers looking for an offline, low‑cost aiming aid may find it useful, especially when they have no motorized mount. The tool’s main strength is its offline capability praised by users, while its lack of programmatic API, sparse documentation, and limited community support are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://astrohelm.app/",
+  "tool_url": "https://github.com/astrohelm/astrohelm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49954015",
+  "domain": "mobile",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Slooh",
+        "stars": 3,
+        "repo": "Calteo/Slooh.Explorer"
+      },
+      {
+        "name": "Focuser",
+        "stars": 162,
+        "repo": "art-technologies/swift-focuser"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "useful for astronomers",
+        "offline capability",
+        "easy to use without extra hardware"
+      ],
+      "negative_signals": [
+        "Android support missing",
+        "FOV/plate‑solve limits",
+        "accuracy may drift without mount"
+      ],
+      "justification": "Most comments praise the tool’s practicality and offline plate‑solving, while a few raise concerns about Android support, field‑of‑view constraints, and positional accuracy without a motorized mount.",
+      "comment_count": 11,
+      "hn_points": 28
+    }
+  }
+}
