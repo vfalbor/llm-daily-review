@@ -1,0 +1,109 @@
+{
+  "app_name": "OpenTPU – An open-source AI accelerator, developed by AI",
+  "url": "https://github.com/FeSens/openTPU",
+  "scored_at": "2026-10-07T13:06:50.416Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 13 days ago and is not a fork, but it mirrors existing Edge TPU and Myriad X designs, giving only a modest new contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 15.7 seconds and does not require a PyPI package, indicating a relatively straightforward setup despite hardware build steps."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a hardware‑iOT AI accelerator, it aligns with the current push for on‑device inference for LLMs and edge workloads."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "OpenTPU has 369 stars, slightly fewer than Edge TPU's 381 but far more than Myriad X's 6, showing a clear advantage over low‑star alternatives but limited uniqueness versus the leading Edge TPU."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 369 stars, 1 contributor, and was updated today (0 days since last commit), indicating an active but still small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3) and install succeeded, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available; the project offers hardware build and a software simulator with an Apache‑2.0 license but no ready‑made API, making integration effort moderate."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The repository lacks a wiki or GitHub Pages site and no topic metadata is provided, suggesting documentation is limited to the basic README."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 13 days old, has 21 forks and 0 open issues, indicating early‑stage development without a stable release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output includes a vs_edge_tpu_inference_ratio of 0.85, showing it runs at 85% of Edge TPU speed but no further comparative data are provided."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show a generally supportive tone toward an open‑source AI accelerator, with excitement about its potential and community involvement, yet many users question its practical performance, production timelines, and competitiveness with existing GPU/ASIC solutions."
+    }
+  },
+  "summary": "OpenTPU is an open‑source hardware design that provides a lightweight AI accelerator compatible with TensorFlow Lite and ONNX. It can be built as physical hardware or run in a software simulator and is released under Apache‑2.0. The project targets developers needing edge inference for LLMs and similar models, offering a cost‑effective alternative to commercial accelerators. It benefits from a modest community (369 stars) and early‑stage activity, but its limited documentation, lack of a pip package, and only 0 of 3 functional tests indicate the tool is still immature and may require significant engineering effort.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/FeSens/openTPU",
+  "tool_url": "https://github.com/FeSens/openTPU",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49980715",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 369,
+      "forks": 21,
+      "open_issues": 0,
+      "watchers": 369,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Verilog",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 13,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "An open-source AI accelerator, developed by AI: RTL, ISA, simulator, compiler and profiler in one repo. Runs Qwen3, LFM2.5 and Qwen3.5 on a Kintex-7 PCIe card.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Edge TPU",
+        "stars": 381,
+        "repo": "magic-blue-smoke/Dual-Edge-TPU-Adapter"
+      },
+      {
+        "name": "Myriad X",
+        "stars": 6,
+        "repo": "Myriad-Dreamin/xp3-parser"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "open‑source innovation",
+        "community engagement",
+        "potential for cost‑effective inference"
+      ],
+      "negative_signals": [
+        "skepticism about production feasibility",
+        "concerns about performance vs GPUs",
+        "FPGA limitations"
+      ],
+      "justification": "The comments show a generally supportive tone toward an open‑source AI accelerator, with excitement about its potential and community involvement, yet many users question its practical performance, production timelines, and competitiveness with existing GPU/ASIC solutions.",
+      "comment_count": 30,
+      "hn_points": 309
+    }
+  }
+}
