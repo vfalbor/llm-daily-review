@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Strands Decider 2B: a small, open-source, decision model",
+    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+    "hn_url": "https://news.ycombinator.com/item?id=49987076",
+    "points": 218,
+    "comments": 62,
+    "author": "gmays",
+    "age": "2026-10-07T02:02:11",
+    "scraped_at": "2026-10-07T13:00:03.105Z",
+    "tool_url": "https://github.com/strands-agents/decider",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Decider 2B is a lightweight open-source decision model designed for evaluating and benchmarking LLM outputs against human preferences.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "OpenAI Evals",
+      "ReAct",
+      "MosaicML Eval"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies via pip",
+      "Run the provided CLI to evaluate a sample LLM output and verify scoring format",
+      "Integrate Decider 2B with a simple Python script to compare two LLM responses and ensure the API returns a numeric score",
+      "Measure evaluation latency on a dataset of 100 prompts and confirm it stays below a target threshold"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/strands-agents/decider"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378095358-grjmd",
+    "log_dir": "/tmp/llm-review-1791378095358-grjmd",
+    "install_success": true,
+    "install_time_s": 17,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:import_time_ms:49.52",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:import_time_ms:49.52\nTEST_PASS:import_decider\nTEST_PASS:cli_evaluate\nTEST_FAIL:functional_score:module 'decider' has no attribute 'compare_responses'\nTEST_FAIL:batch_latency_100:module 'decider' has no attribute 'compare_responses'\nTEST_FAIL:baseline_compare:module 'decider' has no attribute 'compare_responses'\nRUN_OK\n"
+  }
+}
