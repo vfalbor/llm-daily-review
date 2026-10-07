@@ -1,0 +1,115 @@
+{
+  "app_name": "Arcadeia",
+  "url": "https://github.com/travelonium/arcadeia",
+  "scored_at": "2026-10-07T13:07:54.023Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The repository is 660 days old, is not a fork, and its 17 stars are far fewer than similar tools (Plex 11,672 stars, Jellyfin 57,864 stars), indicating it is a minor clone rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 48.1 seconds, exceeding the <30 s ideal, and there is no PyPI package, suggesting moderate installation complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a self‑hosted media library with animated previews, it fits a niche media‑streaming use case but does not address a broad current AI/LLM workflow."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 17 GitHub stars versus thousands for Plex, Plexamp, and Jellyfin, and no benchmark claims, it offers minimal advantage over established alternatives."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 17 stars, a single contributor, and was updated today, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25%), showing core functionality is largely unverified in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package and only CLI/Web UI modes are provided; there is no REST API or SDK, limiting easy embedding into pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is 660 days old with 1 fork and 0 open issues, but lacks version tags or release notes, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows install times (7.29 s apk install, 1.37 s clone) and memory usage (≈39 MB) but provides no comparative data to judge performance."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Based on HN comment sentiment analysis."
+    }
+  },
+  "summary": "Arcadeia is a self‑hosted media library that creates animated video previews using ffmpeg and offers a lightweight web UI. It runs as a CLI tool and a web interface without requiring an API key. It targets users who want a personal media catalog with visual previews, but its tiny community and lack of distinguishing features make it a modest alternative to established platforms like Plex or Jellyfin. The only clear strength is its recent activity, while the main drawback is minimal adoption and scarce documentation.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/travelonium/arcadeia",
+  "tool_url": "https://github.com/travelonium/arcadeia",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49957044",
+  "domain": "web",
+  "app_type": "web-cms",
+  "enriched": {
+    "github": {
+      "stars": 17,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 17,
+      "contributors": 1,
+      "license": "AGPL-3.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 660,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Arcadeia is an open-source, self-hosted photo and video library. Find clips with animated previews, search filenames and descriptions, and make spoken words searchable with optional local transcription. Connect network storage, upload media with drag and drop, and watch videos in your browser.",
+      "topics": [
+        "media",
+        "media-center",
+        "media-library",
+        "mediacenter",
+        "medialibrary"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Plex",
+        "stars": 11672,
+        "repo": "IBM/plex"
+      },
+      {
+        "name": "Plexamp",
+        "stars": 138,
+        "repo": "odinb/bash-plexamp-installer"
+      },
+      {
+        "name": "Jellyfin",
+        "stars": 57864,
+        "repo": "jellyfin/jellyfin"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [],
+      "negative_signals": [
+        "Demo site unavailable and lacks visual preview",
+        "Insufficient documentation for setup",
+        "Unclear configuration details"
+      ],
+      "comment_count": 6,
+      "hn_points": 10
+    }
+  }
+}
