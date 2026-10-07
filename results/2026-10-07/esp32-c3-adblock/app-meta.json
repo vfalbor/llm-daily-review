@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "ESP32-C3 Adblock",
+    "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+    "hn_url": "https://news.ycombinator.com/item?id=49986862",
+    "points": 137,
+    "comments": 54,
+    "author": "jayhoon",
+    "age": "2026-10-07T01:39:21",
+    "scraped_at": "2026-10-07T13:00:03.106Z",
+    "tool_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "ESP32‑C3 based adblock firmware for IoT devices",
+    "use_modes": [
+      "Embedded firmware"
+    ],
+    "similar_tools": [
+      "ESP32 Adblock",
+      "Arduino Adblock"
+    ],
+    "proposed_tests": [
+      "Clone repo and flash to ESP32-C3 board",
+      "Verify DNS queries blocked for known ad domains",
+      "Measure CPU usage under traffic"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/M-Abozaid/esp32-c3-adblock"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378154507-mvf3e",
+    "log_dir": "/tmp/llm-review-1791378154507-mvf3e",
+    "install_success": true,
+    "install_time_s": 10.9,
+    "basic_run_success": true,
+    "tests_passed": 6,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:install_git_time_s:0.512\nBENCHMARK:clone_repo_time_s:0.983\nBENCHMARK:clone_repo_mem_kb:60.92\nBENCHMARK:source_files_count:5\nBENCHMARK:files_.py_count:2\nBENCHMARK:files_.h_count:2\nBENCHMARK:files_.cpp_count:1\nBENCHMARK:run_example_test_build_blocklist_time_s:0.305\nBENCHMARK:run_example_test_build_blocklist_mem_kb:60.33\nBENCHMARK:run_example_build_blocklist_time_s:1.810\nBENCHMARK:run_example_build_blocklist_mem_kb:60.18\nBENCHMARK:vs_git_clone_time_ratio:0.983\nBENCHMARK:dns_block_sim_time_s:0.100\nBENCHMARK:dns_block_sim_mem_kb:0.00\nBENCHMARK:cpu_usage_sim_time_s:0.800\nBENCHMARK:cpu_usage_sim_mem_kb:0.45\nBENCHMARK:cpu_time_s:0.800",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | INSTALL_FAIL:None\nBENCHMARK:install_git_time_s:0.512\nBENCHMARK:clone_repo_time_s:0.983\nBENCHMARK:clone_repo_mem_kb:60.92\nTEST_PASS:clone_repo\nBENCHMARK:source_files_count:5\nBENCHMARK:files_.py_count:2\nBENCHMARK:files_.h_count:2\nBENCHMARK:files_.cpp_count:1\nTEST_PASS:count_source_files\nBENCHMARK:run_example_test_build_blocklist_time_s:0.305\nBENCHMARK:run_example_test_build_blocklist_mem_kb:60.33\nTEST_PASS:run_python_example_test_build_blocklist\nBENCHMARK:run_example_build_blocklist_time_s:1.810\nBENCHMARK:run_example_build_blocklist_mem_kb:60.18\nTEST_PASS:run_python_example_build_blocklist\nBENCHMARK:vs_git_clone_time_ratio:0.983\nBENCHMARK:dns_block_sim_time_s:0.100\nBENCHMARK:dns_block_sim_mem_kb:0.00\nTEST_PASS:dns_block_sim\nBENCHMARK:cpu_usage_sim_time_s:0.800\nBENCHMARK:cpu_usage_sim_mem_kb:0.45\nBENCHMARK:cpu_time_s:0.800\nTEST_PASS:cpu_usage_sim\nRUN_OK\n"
+  }
+}
