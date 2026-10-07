@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+    "url": "https://github.com/nano-muse/nanoMuse",
+    "hn_url": "https://news.ycombinator.com/item?id=49987765",
+    "points": 30,
+    "comments": 8,
+    "author": "ilreb",
+    "age": "2026-10-07T03:30:44",
+    "scraped_at": "2026-10-07T13:00:03.112Z",
+    "tool_url": "https://github.com/nano-muse/nanoMuse",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A lightweight, cross‑platform AI agent framework that runs locally on Android, iOS, and desktop, with plug‑in support for custom skills.",
+    "use_modes": [
+      "Mobile app",
+      "Desktop CLI"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "Agentscope"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the build script for Android/iOS.",
+      "Start the desktop CLI agent and issue a simple task (e.g., fetch weather).",
+      "Verify the agent logs and response latency are within acceptable limits."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/nano-muse/nanoMuse"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378475328-yy8r6",
+    "log_dir": "/tmp/llm-review-1791378475328-yy8r6",
+    "install_success": true,
+    "install_time_s": 41.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.99\nBENCHMARK:install_time_s:15.4\nBENCHMARK:import_time_langchain_ms:1.73\nBENCHMARK:loc_count:315",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.99\nBENCHMARK:install_time_s:15.4\nTEST_FAIL:import_nanoMuse:No module named 'nanoMuse'\nBENCHMARK:import_time_langchain_ms:1.73\nTEST_FAIL:functional_core:No module named 'nanoMuse'\nTEST_FAIL:cli_help:[Errno 2] No such file or directory: 'nanoMuse'\nBENCHMARK:loc_count:315\nRUN_OK\n"
+  }
+}
