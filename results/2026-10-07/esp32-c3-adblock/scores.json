@@ -1,0 +1,114 @@
+{
+  "app_name": "ESP32-C3 Adblock",
+  "url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+  "scored_at": "2026-10-07T13:03:38.574Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 109 days ago, not a fork, and has the same star count as the closest similar tool, indicating an incremental rather than breakthrough contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 10.9 seconds, well under the 30‑second threshold, and the project builds without a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑IoT firmware for ESP32‑C3, it addresses current trends in edge security and local ad‑blocking for embedded devices."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Stars equal to the closest alternative (2,082) and the benchmark timings (e.g., 0.305 s build blocklist) show comparable performance, but the firmware offers a unique local DNS ad‑block approach."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repository has 2,082 stars, 6 contributors, and was updated just 1 day ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 6 out of 6 tests passed and the basic run succeeded, demonstrating reliable functionality out of the box."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The project provides only embedded firmware (no PyPI/npm package) and lacks a public API, making integration into other pipelines limited."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repo is 109 days old with 187 forks and 19 open issues, suggesting a moderately mature project but still early in its lifecycle."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark numbers (e.g., install_git_time_s 0.512 s) are present but lack comparative data, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments highlight enthusiasm for the local ad‑blocking concept and its potential benefits for privacy and control, but also raise significant concerns about latency, documentation quality, and hash‑collision logic, leading to a moderately positive overall sentiment."
+    }
+  },
+  "summary": "ESP32-C3 Adblock is firmware that runs on ESP32‑C3 devices to block ads locally via DNS. It is built as C++ embedded code compiled into the microcontroller, requiring no external API keys. The tool is suited for IoT developers who need on‑device privacy controls without cloud dependence. It shines with fast installation (10.9 s) and full test pass, but documentation is sparse and integration options are limited to the firmware itself.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+  "tool_url": "https://github.com/M-Abozaid/esp32-c3-adblock",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49986862",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 2082,
+      "forks": 187,
+      "open_issues": 19,
+      "watchers": 2082,
+      "contributors": 6,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 109,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+      "topics": [
+        "adblocker",
+        "arduino",
+        "dns",
+        "dns-sinkhole",
+        "esp32",
+        "esp32-c3",
+        "iot",
+        "pi-hole",
+        "platformio"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ESP32 Adblock",
+        "stars": 2082,
+        "repo": "M-Abozaid/esp32-c3-adblock"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 6,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "cool idea",
+        "allow list benefits",
+        "local DNS advantage"
+      ],
+      "negative_signals": [
+        "high latency concerns",
+        "poor documentation",
+        "hash collision confusion"
+      ],
+      "justification": "The comments highlight enthusiasm for the local ad‑blocking concept and its potential benefits for privacy and control, but also raise significant concerns about latency, documentation quality, and hash‑collision logic, leading to a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 137
+    }
+  }
+}
