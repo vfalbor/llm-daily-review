@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+    "url": "https://penguin-mail.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=49984716",
+    "points": 212,
+    "comments": 136,
+    "author": "kavourias",
+    "age": "2026-10-06T21:59:43",
+    "scraped_at": "2026-10-07T13:00:03.110Z",
+    "tool_url": "https://github.com/penguin-mail/penguin-mail",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-app",
+    "description": "Rust‑based desktop email client with AI‑powered features",
+    "use_modes": [
+      "Desktop GUI"
+    ],
+    "similar_tools": [
+      "Mailspring",
+      "AlsaMail"
+    ],
+    "proposed_tests": [
+      "Build from source and launch application",
+      "Send test email via local SMTP",
+      "Verify AI suggestion popup works"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/penguin-mail/penguin-mail"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378282323-eraxv",
+    "log_dir": "/tmp/llm-review-1791378282323-eraxv",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_time_s:0.47\nBENCHMARK:pip_install_time_s:1.08\nBENCHMARK:git_clone_time_s:0.32",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk_git\nBENCHMARK:apk_git_time_s:0.47\nINSTALL_FAIL:pip_penguin_mail:ERROR: Could not find a version that satisfies the requirement penguin-mail (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for penguin-mail\nBENCHMARK:pip_install_time_s:1.08\nINSTALL_FAIL:git_clone:Cloning into '/tmp/penguin-mail'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:git_clone_time_s:0.32\nTEST_SKIP:install_penguin_mail:Git clone failed\nTEST_FAIL:import_penguin_mail:No module named 'penguin_mail'\nTEST_FAIL:minimal_send:No module named 'penguin_mail'\nTEST_FAIL:ai_suggestion:No module named 'penguin_mail'\nRUN_OK\n"
+  }
+}
