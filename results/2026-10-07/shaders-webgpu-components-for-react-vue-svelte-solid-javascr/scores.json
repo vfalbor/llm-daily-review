@@ -1,0 +1,119 @@
+{
+  "app_name": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+  "url": "https://github.com/shader-effects-inc/shaders",
+  "scored_at": "2026-10-07T13:04:40.869Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is 7 days old and is not a fork, offering reusable WebGPU shader components unlike the much older react-three-fiber (32,776 stars) and three.js (116,310 stars)."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 11.5 seconds and the package is available via NPM, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-frontend providing WebGPU shaders for popular UI frameworks, it matches the current push for GPU‑accelerated web UIs."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 2,097 GitHub stars it is far smaller than react-three-fiber (32,776) and three.js (116,310), but it targets a unique niche of declarative shader components for multiple frameworks."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 2,097 stars, 1 contributor and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed, which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is distributed as an NPM package with ESM import support and uses an MIT license, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages flags were found and no explicit documentation quality data is available."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 7 days old, has 70 forks and 1 open issue, indicating an early‑stage alpha release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark metrics were provided; only an import_error flag was reported, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments express skepticism about performance, clarity, and utility, while a few highlight the visual appeal and declarative benefits. The overall sentiment leans negative with some constructive praise."
+    }
+  },
+  "summary": "Shaders is an open‑source library that supplies reusable WebGPU shader components for React, Vue, Svelte, Solid and Framer via NPM. It wraps low‑level GPU code in a declarative API built on TypeScript, targeting modern web front‑ends. Developers looking to add GPU‑accelerated visual effects to UI frameworks can use it without needing an API key. The project installs quickly and integrates easily, but its test suite shows 0 % pass rate and the documentation is sparse, while early community feedback is mixed on performance.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/shader-effects-inc/shaders",
+  "tool_url": "https://github.com/shader-effects-inc/shaders",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49988709",
+  "domain": "devtool",
+  "app_type": "devtool-frontend",
+  "enriched": {
+    "github": {
+      "stars": 2097,
+      "forks": 70,
+      "open_issues": 1,
+      "watchers": 2097,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "topics": [
+        "cli",
+        "javascript",
+        "mcp",
+        "react",
+        "shaders",
+        "solid",
+        "svelte",
+        "vue",
+        "webgpu-shaders"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "react-three-fiber",
+        "stars": 32776,
+        "repo": "pmndrs/react-three-fiber"
+      },
+      {
+        "name": "three.js",
+        "stars": 116310,
+        "repo": "mrdoob/three.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Impressive visuals and declarative approach",
+        "Open source availability",
+        "Potential performance benefits of shaders"
+      ],
+      "negative_signals": [
+        "Performance/jank on lower-end devices",
+        "Unclear open‑source vs paid boundary",
+        "Limited practical use beyond gimmicks"
+      ],
+      "justification": "Most comments express skepticism about performance, clarity, and utility, while a few highlight the visual appeal and declarative benefits. The overall sentiment leans negative with some constructive praise.",
+      "comment_count": 23,
+      "hn_points": 42
+    }
+  }
+}
