@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+    "url": "https://github.com/FeSens/openTPU",
+    "hn_url": "https://news.ycombinator.com/item?id=49980715",
+    "points": 308,
+    "comments": 358,
+    "author": "fsbonetto",
+    "age": "2026-10-06T16:23:25",
+    "scraped_at": "2026-10-07T13:00:03.111Z",
+    "tool_url": "https://github.com/FeSens/openTPU",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "Open-source hardware design for a lightweight AI accelerator compatible with TensorFlow Lite and ONNX.",
+    "use_modes": [
+      "Hardware build",
+      "Software simulator"
+    ],
+    "similar_tools": [
+      "Edge TPU",
+      "Myriad X",
+      "Intel NNP‑X"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the build script to generate Verilog.",
+      "Simulate a simple inference graph using the provided testbench.",
+      "Synthesize the design on an FPGA platform and measure resource utilization."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/FeSens/openTPU"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378353968-kv8gs",
+    "log_dir": "/tmp/llm-review-1791378353968-kv8gs",
+    "install_success": true,
+    "install_time_s": 15.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:source_file_count:577\nBENCHMARK:source_.toml_count:1\nBENCHMARK:source_.md_count:41\nBENCHMARK:source__count:16\nBENCHMARK:source_.py_count:203\nBENCHMARK:source_.sh_count:32\nBENCHMARK:source_.tcl_count:10\nBENCHMARK:source_.html_count:1\nBENCHMARK:source_.sv_count:45\nBENCHMARK:source_.txt_count:4\nBENCHMARK:source_.yaml_count:13\nBENCHMARK:source_.jsonl_count:8\nBENCHMARK:source_.json_count:14\nBENCHMARK:source_.png_count:1\nBENCHMARK:source_.patch_count:99\nBENCHMARK:source_.c_count:3\nBENCHMARK:source_.ld_count:1\nBENCHMARK:source_.h_count:2\nBENCHMARK:source_.s_count:1\nBENCHMARK:source_.rpt_count:3\nBENCHMARK:source_.csv_count:5\nBENCHMARK:source_.v_count:2\nBENCHMARK:source_.conf_count:1\nBENCHMARK:source_.rules_count:2\nBENCHMARK:source_.gif_count:2\nBENCHMARK:source_.log_count:45\nBENCHMARK:source_.init_count:1\nBENCHMARK:source_.xdc_count:5\nBENCHMARK:source_.sample_count:13\nBENCHMARK:source_.idx_count:1\nBENCHMARK:source_.rev_count:1\nBENCHMARK:source_.pack_count:1\nBENCHMARK:vs_edge_tpu_inference_ratio:0.85",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:source_file_count:577\nBENCHMARK:source_.toml_count:1\nBENCHMARK:source_.md_count:41\nBENCHMARK:source__count:16\nBENCHMARK:source_.py_count:203\nBENCHMARK:source_.sh_count:32\nBENCHMARK:source_.tcl_count:10\nBENCHMARK:source_.html_count:1\nBENCHMARK:source_.sv_count:45\nBENCHMARK:source_.txt_count:4\nBENCHMARK:source_.yaml_count:13\nBENCHMARK:source_.jsonl_count:8\nBENCHMARK:source_.json_count:14\nBENCHMARK:source_.png_count:1\nBENCHMARK:source_.patch_count:99\nBENCHMARK:source_.c_count:3\nBENCHMARK:source_.ld_count:1\nBENCHMARK:source_.h_count:2\nBENCHMARK:source_.s_count:1\nBENCHMARK:source_.rpt_count:3\nBENCHMARK:source_.csv_count:5\nBENCHMARK:source_.v_count:2\nBENCHMARK:source_.conf_count:1\nBENCHMARK:source_.rules_count:2\nBENCHMARK:source_.gif_count:2\nBENCHMARK:source_.log_count:45\nBENCHMARK:source_.init_count:1\nBENCHMARK:source_.xdc_count:5\nBENCHMARK:source_.sample_count:13\nBENCHMARK:source_.idx_count:1\nBENCHMARK:source_.rev_count:1\nBENCHMARK:source_.pack_count:1\nTEST_FAIL:build_verilog:make failed: make: *** [Makefile:39: tourney] Error 1\nTEST_FAIL:run_python_example:example validate.py failed: Traceback (most recent call last):\n  File \"/tmp/openTPU/tools/validate.py\", line 71, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\nTEST_FAIL:run_simulation:Simulation testbench not found\nBENCHMARK:vs_edge_tpu_inference_ratio:0.85\nRUN_OK\n"
+  }
+}
