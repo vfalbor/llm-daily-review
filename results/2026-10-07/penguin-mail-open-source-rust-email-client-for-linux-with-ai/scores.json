@@ -1,0 +1,89 @@
+{
+  "app_name": "Penguin Mail",
+  "url": "https://penguin-mail.com/",
+  "scored_at": "2026-10-07T13:05:51.628Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on creation date, fork status, or unique features versus similar tools, so a neutral score is assigned."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 8.6 seconds, well under the 30‑second threshold, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Rust‑based desktop email client with AI features, it fits current trends of privacy‑focused AI‑enhanced productivity tools."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Compared to Mailspring's 17,890 stars, this app has no reported stars and no benchmark advantage, giving it only modest differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "GitHub data is missing; HN points are 212 with 30 comments, indicating a moderate community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (<50%) despite a successful install, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package and only a desktop GUI mode are reported; no API or integration hooks are available."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic data were found, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "No repository data; HN points of 212 and mentions of an \"early stable release\" give a modest maturity indication."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No performance benchmarks are provided; install times are noted but do not constitute a performance comparison."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments applaud the privacy‑focused, Rust‑based UI and AI aid, noting early stability, while several criticize the 1.0 claim, missing features, and threading/search performance, leading to an overall moderately positive view."
+    }
+  },
+  "summary": "Penguin Mail is an open‑source Rust desktop email client that adds AI‑powered assistance. It runs locally on Linux without requiring an API key and is distributed as a compiled binary rather than via a package manager. It is aimed at privacy‑concerned users who want AI integration in their email workflow. The tool's main strength is its privacy‑first design praised by the community, while its lack of package distribution and limited test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://penguin-mail.com/",
+  "tool_url": "https://github.com/penguin-mail/penguin-mail",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49984716",
+  "domain": "devtool",
+  "app_type": "devtool-app",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Mailspring",
+        "stars": 17890,
+        "repo": "Foundry376/Mailspring"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Privacy‑first design and Rust/GTK stack",
+        "Positive UI perception and AI integration",
+        "Stable early release"
+      ],
+      "negative_signals": [
+        "Versioning and feature completeness concerns",
+        "Threading and search performance issues",
+        "Mixed opinions on UI feel"
+      ],
+      "justification": "Most comments applaud the privacy‑focused, Rust‑based UI and AI aid, noting early stability, while several criticize the 1.0 claim, missing features, and threading/search performance, leading to an overall moderately positive view.",
+      "comment_count": 30,
+      "hn_points": 212
+    }
+  }
+}
