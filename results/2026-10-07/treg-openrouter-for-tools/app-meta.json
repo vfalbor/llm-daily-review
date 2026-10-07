@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "Treg (OpenRouter for Tools)",
+    "url": "https://github.com/superdesigndev/treg",
+    "hn_url": "https://news.ycombinator.com/item?id=49980790",
+    "points": 36,
+    "comments": 8,
+    "author": "trollied",
+    "age": "2026-10-06T16:29:59",
+    "scraped_at": "2026-10-07T13:00:03.112Z",
+    "tool_url": "https://github.com/superdesigndev/treg",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.87,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A lightweight routing layer that allows OpenRouter‑compatible LLMs to call arbitrary external tools via a simple HTTP API.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "OpenRouter",
+      "LangChain Tool Calling",
+      "SuperAGI"
+    ],
+    "proposed_tests": [
+      "Install the package via pip and run `treg --help`.",
+      "Create a mock tool endpoint and register it with Treg.",
+      "Send a test prompt to OpenRouter through Treg and assert the tool is invoked."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/superdesigndev/treg"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378532868-5fzsz",
+    "log_dir": "/tmp/llm-review-1791378532868-5fzsz",
+    "install_success": true,
+    "install_time_s": 8.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.231\nBENCHMARK:install_mem_kb:59.9\nBENCHMARK:help_latency_ms:0.71\nBENCHMARK:vs_langchain_latency_ratio:unknown",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.231\nBENCHMARK:install_mem_kb:59.9\nINSTALL_OK\nBENCHMARK:help_latency_ms:0.71\nTEST_FAIL:treg_help:no output\nTEST_FAIL:tool_invoke:Traceback (most recent call last):\n  File \"/app/test.py\", line 127, in test_register_and_call\n    import treg\n  File \"/usr/local/lib/python3.12/site-packages/treg.py\", line 31, in <module>\n    import regex as re\nModuleNotFoundError: No module named 'regex'\n\nBENCHMARK:vs_langchain_latency_ratio:unknown\nRUN_OK\n"
+  }
+}
