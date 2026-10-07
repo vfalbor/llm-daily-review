@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Shaders, WebGPU Components for React, Vue, Svelte, Solid, JavaScript and Framer",
+    "url": "https://github.com/shader-effects-inc/shaders",
+    "hn_url": "https://news.ycombinator.com/item?id=49988709",
+    "points": 42,
+    "comments": 23,
+    "author": "jinqueeny",
+    "age": "2026-10-07T05:38:35",
+    "scraped_at": "2026-10-07T13:00:03.107Z",
+    "tool_url": "https://github.com/shader-effects-inc/shaders",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-frontend",
+    "description": "Reusable WebGPU shader components for popular UI frameworks",
+    "use_modes": [
+      "NPM package",
+      "ESM imports"
+    ],
+    "similar_tools": [
+      "react-three-fiber",
+      "three.js"
+    ],
+    "proposed_tests": [
+      "Install package and render a sample shader in React app",
+      "Verify WebGPU context creation",
+      "Benchmark frame rate of shader animation"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/shader-effects-inc/shaders"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791378219942-ijdr7",
+    "log_dir": "/tmp/llm-review-1791378219942-ijdr7",
+    "install_success": true,
+    "install_time_s": 11.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:import_error:1",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 131, in main\n    benchmark(\"import\", lambda: __import__(\"shaders\"))\n  File \"/app/test.py\", line 17, in benchmark\n    func()\n  File \"/app/test.py\", line 131, in <lambda>\n    benchmark(\"import\", lambda: __import__(\"shaders\"))\n                                ^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'shaders'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement shaders (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for shaders\nINSTALL_OK\nINSTALL_FAIL:[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/shaders_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_SKIP:install_package:Both pip and git install failed\nBENCHMARK:import_error:1\nTEST_FAIL:unexpected:No module named 'shaders'\nRUN_OK\n"
+  }
+}
