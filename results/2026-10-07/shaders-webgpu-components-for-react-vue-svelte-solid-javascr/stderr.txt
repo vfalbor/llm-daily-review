@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 131, in main
+    benchmark("import", lambda: __import__("shaders"))
+  File "/app/test.py", line 17, in benchmark
+    func()
+  File "/app/test.py", line 131, in <lambda>
+    benchmark("import", lambda: __import__("shaders"))
+                                ^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'shaders'
