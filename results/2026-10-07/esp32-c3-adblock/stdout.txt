@@ -1,0 +1,40 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.5-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK | INSTALL_FAIL:None
+BENCHMARK:install_git_time_s:0.512
+BENCHMARK:clone_repo_time_s:0.983
+BENCHMARK:clone_repo_mem_kb:60.92
+TEST_PASS:clone_repo
+BENCHMARK:source_files_count:5
+BENCHMARK:files_.py_count:2
+BENCHMARK:files_.h_count:2
+BENCHMARK:files_.cpp_count:1
+TEST_PASS:count_source_files
+BENCHMARK:run_example_test_build_blocklist_time_s:0.305
+BENCHMARK:run_example_test_build_blocklist_mem_kb:60.33
+TEST_PASS:run_python_example_test_build_blocklist
+BENCHMARK:run_example_build_blocklist_time_s:1.810
+BENCHMARK:run_example_build_blocklist_mem_kb:60.18
+TEST_PASS:run_python_example_build_blocklist
+BENCHMARK:vs_git_clone_time_ratio:0.983
+BENCHMARK:dns_block_sim_time_s:0.100
+BENCHMARK:dns_block_sim_mem_kb:0.00
+TEST_PASS:dns_block_sim
+BENCHMARK:cpu_usage_sim_time_s:0.800
+BENCHMARK:cpu_usage_sim_mem_kb:0.45
+BENCHMARK:cpu_time_s:0.800
+TEST_PASS:cpu_usage_sim
+RUN_OK
