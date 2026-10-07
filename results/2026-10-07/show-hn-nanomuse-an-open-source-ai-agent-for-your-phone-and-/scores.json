@@ -1,0 +1,131 @@
+{
+  "app_name": "NanoMuse",
+  "url": "https://github.com/nano-muse/nanoMuse",
+  "scored_at": "2026-10-07T13:08:51.531Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 14 days ago and is not a fork, offering a new cross‑platform agent framework unlike existing large‑scale tools."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 41.3 seconds, but there is no PyPI package, so setup requires cloning the repo."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑framework that runs locally on mobile and desktop, it addresses a current demand for on‑device agents in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "NanoMuse has 154 stars versus LangChain's 147,526, CrewAI's 59,415, and Agentscope's 35,476, and only reports a 1.73 ms import time without direct comparative benchmarks."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 154 stars, 5 contributors, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%), though basic run succeeded, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available; the tool offers mobile app and desktop CLI modes and is licensed GPL‑3.0, but lacks a clean API or SDK."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topics was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is only 14 days old, has 18 forks and 5 open issues, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output includes install times (0.99 s, 15.4 s) and an import time of 1.73 ms, but no comparative data to judge advantage."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The majority of comments express skepticism or criticism about security and marketing, with only a couple of users noting personal benefit, leading to a generally negative sentiment."
+    }
+  },
+  "summary": "NanoMuse is an open‑source framework that lets you run AI agents locally on Android, iOS, and desktop, offering plug‑in support for custom skills. It is built in Swift and distributed via source code rather than a package manager, requiring a manual clone and build. The project targets developers who need on‑device, privacy‑preserving agents and benefits from its recent creation and active commits. Its main strength is the ability to run entirely offline, while its limited documentation, lack of a package manager, and failing test suite are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/nano-muse/nanoMuse",
+  "tool_url": "https://github.com/nano-muse/nanoMuse",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49987765",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 154,
+      "forks": 18,
+      "open_issues": 5,
+      "watchers": 154,
+      "contributors": 5,
+      "license": "GPL-3.0",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 14,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "nanoMuse: an open-source personal agent for every device you own — one agent with a name and a face that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "android",
+        "computer-use",
+        "cross-device",
+        "desktop-app",
+        "gui-agent",
+        "ios",
+        "linux",
+        "llm",
+        "mcp",
+        "meta-muse",
+        "mobile-agent",
+        "muse",
+        "nanomuse",
+        "openminis",
+        "openmuse",
+        "personal-agent"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 147526,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59415,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "Agentscope",
+        "stars": 35476,
+        "repo": "agentscope-ai/QwenPaw"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "Some users find practical help",
+        "App can assist ADHD users"
+      ],
+      "negative_signals": [
+        "Security and privacy concerns",
+        "Negative marketing perception"
+      ],
+      "justification": "The majority of comments express skepticism or criticism about security and marketing, with only a couple of users noting personal benefit, leading to a generally negative sentiment.",
+      "comment_count": 8,
+      "hn_points": 32
+    }
+  }
+}
