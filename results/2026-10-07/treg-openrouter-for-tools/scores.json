@@ -1,0 +1,133 @@
+{
+  "app_name": "Treg (OpenRouter for Tools)",
+  "url": "https://github.com/superdesigndev/treg",
+  "scored_at": "2026-10-07T13:09:58.210Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 83 days old, not a fork, and offers a routing layer similar to existing tools, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 8.3 seconds (<30 s) and the package is available on PyPI, requiring only Python ≥3.7."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm‑framework tool that enables OpenRouter‑compatible models to call external tools, it aligns tightly with current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 4,656 stars it outpaces OpenRouter (1,256) but trails SuperAGI (17,700); its unique lightweight HTTP routing distinguishes it from the low‑star LangChain example."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 4,656 stars, 18 contributors, and was updated today (0 days since last commit), indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed (0 %), showing core functionality is not reliably verified despite a successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package exists and the tool provides both a CLI and an HTTP API, though the license is listed as NOASSERTION, which may add friction."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topics was provided, so evidence is insufficient and a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 83 days old, has 382 forks and 122 open issues, suggesting a beta‑stage project with moderate stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install_time_s = 1.231 s and help_latency_ms = 0.71 ms, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments praise Treg’s ease of use and abstraction but also raise valid legal, reliability, and design concerns, leading to a generally positive but cautious stance."
+    }
+  },
+  "summary": "Treg is a lightweight routing layer that lets OpenRouter‑compatible LLMs invoke arbitrary external tools via a simple HTTP API. It is built as a Python package on PyPI and offers both CLI and HTTP interfaces without requiring an API key. Developers needing rapid prototyping of tool‑calling capabilities will find it useful, especially given its fast help latency of 0.71 ms. The main strength is its high star count and active updates, while the lack of passing tests and sparse documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/superdesigndev/treg",
+  "tool_url": "https://github.com/superdesigndev/treg",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49980790",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 4656,
+      "forks": 382,
+      "open_issues": 122,
+      "watchers": 4656,
+      "contributors": 18,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 83,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "topics": [
+        "agents",
+        "api-keys",
+        "cli",
+        "credentials",
+        "developer-tools",
+        "dsh-plugin",
+        "mcp",
+        "proxy",
+        "python",
+        "registry",
+        "secrets"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenRouter",
+        "stars": 1256,
+        "repo": "OpenRouterArchived/openrouter-runner"
+      },
+      {
+        "name": "LangChain Tool Calling",
+        "stars": 7,
+        "repo": "developersdigest/ollama-tool-calling-langchain-examples"
+      },
+      {
+        "name": "SuperAGI",
+        "stars": 17700,
+        "repo": "TransformerOptimus/SuperAGI"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.3",
+      "summary": "treg utilizes trie structured regex patterns to search texts for a potientially large number of words and phrases.",
+      "requires_python": ">=3.7",
+      "license": "",
+      "home_page": "https://https://github.com/RaphaelBoegel/Tregex"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "useful abstraction for rapid prototypes",
+        "stateless API with single subscription",
+        "supports many free tools"
+      ],
+      "negative_signals": [
+        "T&C/legal concerns",
+        "potential provider backlash",
+        "website quality and reliability doubts"
+      ],
+      "justification": "The comments praise Treg’s ease of use and abstraction but also raise valid legal, reliability, and design concerns, leading to a generally positive but cautious stance.",
+      "comment_count": 8,
+      "hn_points": 39
+    }
+  }
+}
