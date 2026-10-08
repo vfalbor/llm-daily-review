@@ -1,0 +1,97 @@
+{
+  "app_name": "Bigwords.page",
+  "url": "https://bigwords.page/",
+  "scored_at": "2026-10-08T13:01:35.125Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be measured and is given a neutral score."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 9.7 seconds and install_success is true, indicating a simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a browser extension that turns pages into signs, it does not address a core pain point in current LLM workflows."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The app has no reported star count and no benchmark data, while similar tools have 1,117, 879, and 3,759 stars, showing little differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 560, which falls into the >500 bracket, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were executed (0/0) and basic run failed, providing insufficient evidence to rate ease of use beyond a neutral score."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is only available as a browser extension with no PyPI package or documented API, making integration limited."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or documentation metrics (wiki, pages, topics) were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With HN points of 560 and a stable domain, the proxy rule gives a maturity score of 6."
+    },
+    "performance": {
+      "score": null,
+      "justification": "No benchmark lines were provided and the app type does not expose measurable performance metrics."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of comments focus on the title’s phrasing as overly “LLM‑speak” and express skepticism about its clarity, while a few praise the practical concept. Overall sentiment leans negative but not overwhelmingly so."
+    }
+  },
+  "summary": "Bigwords.page is a browser extension that overlays large text on any webpage, turning the page into a sign. It works entirely client‑side in the browser and requires no API keys. It is suited for users who want a quick visual emphasis on web content without installing separate software. The main strength is its immediate, zero‑setup installation, while the lack of benchmarks and limited integration options are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://bigwords.page/",
+  "tool_url": "https://github.com/miguelguerra/bigwords",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49994443",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Textify",
+        "stars": 1117,
+        "repo": "m417z/Textify"
+      },
+      {
+        "name": "Big Text",
+        "stars": 879,
+        "repo": "zachleat/BigText"
+      },
+      {
+        "name": "Supertext",
+        "stars": 3759,
+        "repo": "lygttpod/SuperTextView"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Helpful explanation of how URL can be used as content"
+      ],
+      "negative_signals": [
+        "Critique of title as LLM-speak",
+        "Confusion over terminology",
+        "Mixed reception on marketing tone"
+      ],
+      "justification": "The majority of comments focus on the title’s phrasing as overly “LLM‑speak” and express skepticism about its clarity, while a few praise the practical concept. Overall sentiment leans negative but not overwhelmingly so.",
+      "comment_count": 30,
+      "hn_points": 560
+    }
+  }
+}
