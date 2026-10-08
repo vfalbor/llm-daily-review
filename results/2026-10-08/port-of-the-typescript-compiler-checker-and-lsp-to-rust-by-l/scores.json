@@ -1,0 +1,119 @@
+{
+  "app_name": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+  "url": "https://github.com/pingdotgg/ts-rust",
+  "scored_at": "2026-10-08T13:03:47.062Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 1 day ago and is not a fork, but it replicates existing TypeScript tools (tsc, deno, Bun) with a Rust implementation, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 25.4 seconds (under 30 s) and the project provides an NPM package, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a lang-transpiler powered by an LLM, it aligns with current trends of using LLMs to accelerate language tooling."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repo has 610 stars versus 37,794–108,695 stars for similar tools, and benchmarks show install time of 8.023 s, but no direct speed advantage over tsc/deno/Bun is reported."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The GitHub repo has 610 stars, 2 contributors, and was updated today (0 days since last commit), indicating modest but active interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) and basic run failed, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project offers CLI, LSP server, and an NPM package and is MIT‑licensed, allowing reasonable integration despite lacking a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages flags are present and no explicit documentation quality metrics were found, so a neutral default is used."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 1 day old, has 37 forks and 7 open issues, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data (install, clone, build times) are provided but no comparative performance claims against alternatives, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show enthusiasm for the port and recognition from the TypeScript team, but also significant concern over the high token costs and doubts about the economics, leading to an overall moderately positive tone."
+    }
+  },
+  "summary": "This tool is a Rust implementation of the TypeScript compiler, type checker, and LSP that leverages an LLM to assist the porting process. It ships as a CLI, LSP server, and NPM package, running locally without an API key. It is aimed at developers who want a high‑performance TypeScript toolchain written in Rust, especially those interested in LLM‑augmented development. Strength: fast installation (≈8 s) and early community interest (610 stars); caveat: none of the three functional tests pass, indicating limited usability at present.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/pingdotgg/ts-rust",
+  "tool_url": "https://github.com/pingdotgg/ts-rust",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50000676",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": {
+      "stars": 610,
+      "forks": 37,
+      "open_issues": 7,
+      "watchers": 610,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+      "topics": [
+        "compiler",
+        "rust",
+        "tsc",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "tsc",
+        "stars": 37794,
+        "repo": "PKUanonym/REKCARC-TSC-UHT"
+      },
+      {
+        "name": "deno",
+        "stars": 108695,
+        "repo": "denoland/deno"
+      },
+      {
+        "name": "Bun",
+        "stars": 96150,
+        "repo": "oven-sh/bun"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Impressive technical achievement",
+        "Positive reactions from TS community",
+        "Potential for future support"
+      ],
+      "negative_signals": [
+        "Cost concerns and skepticism",
+        "Questionable economic viability",
+        "Criticism of token accounting"
+      ],
+      "justification": "The comments show enthusiasm for the port and recognition from the TypeScript team, but also significant concern over the high token costs and doubts about the economics, leading to an overall moderately positive tone.",
+      "comment_count": 30,
+      "hn_points": 82
+    }
+  }
+}
