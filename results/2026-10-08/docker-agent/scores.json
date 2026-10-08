@@ -1,0 +1,109 @@
+{
+  "app_name": "Docker Agent",
+  "url": "https://github.com/docker/docker-agent",
+  "scored_at": "2026-10-08T13:02:46.704Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 402 days ago and is not a fork, but similar CI container agents exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 12.1 seconds despite no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra-container tool for CI pipelines, it aligns with current trends in containerized CI workflows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 4,065 GitHub stars versus 628 for GitLab Runner and a startup ratio of 0.48 against GitHub Actions self‑hosted, it offers clear advantages."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repository has 4,065 stars, 114 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 5 tests passed (0%) and install succeeded, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provides CLI, HTTP API, and Docker plugin modes and is licensed Apache‑2.0, facilitating integration despite lacking a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, pages, or topic data were available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project is 402 days old, has 491 forks and 43 open issues, showing active development and stability."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark shows install time 4.822 s, health check 6.08 ms, and a startup ratio of 0.48 versus GitHub Actions self‑hosted, indicating strong performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments highlight mixed feelings: some praise Go and open source enthusiasm, while many criticize the prevalence of TS/JS frameworks and plugin complexity, resulting in a neutral overall sentiment."
+    }
+  },
+  "summary": "Docker Agent is a lightweight tool that runs Docker containers in CI environments via CLI, HTTP API, or Docker plugin. It is built in Go and targets GitHub Actions, GitLab Runner, and CircleCI executor workflows. CI engineers needing fast container startup and tight integration with CI pipelines will find it useful. Its main strength is superior startup performance (0.48× the self‑hosted runner) while its documentation is sparse, limiting onboarding ease.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/docker/docker-agent",
+  "tool_url": "https://github.com/docker/docker-agent",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49996259",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 4065,
+      "forks": 491,
+      "open_issues": 43,
+      "watchers": 4065,
+      "contributors": 114,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 402,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "topics": [
+        "agents",
+        "ai"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GitLab Runner",
+        "stars": 628,
+        "repo": "cattle-ops/terraform-aws-gitlab-runner"
+      },
+      {
+        "name": "CircleCI Docker executor",
+        "stars": 0,
+        "repo": "docker-images-mamono210/circleci-executors_packer"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Appreciation for Go tooling and open source"
+      ],
+      "negative_signals": [
+        "Critique of JS framework dominance",
+        "Concerns over plugin complexity"
+      ],
+      "justification": "Comments highlight mixed feelings: some praise Go and open source enthusiasm, while many criticize the prevalence of TS/JS frameworks and plugin complexity, resulting in a neutral overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 263
+    }
+  }
+}
