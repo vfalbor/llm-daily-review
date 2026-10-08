@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Docker Agent",
+    "url": "https://github.com/docker/docker-agent",
+    "hn_url": "https://news.ycombinator.com/item?id=49996259",
+    "points": 263,
+    "comments": 121,
+    "author": "saikatsg",
+    "age": "2026-10-07T17:48:38",
+    "scraped_at": "2026-10-08T13:00:02.594Z",
+    "tool_url": "https://github.com/docker/docker-agent",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A lightweight agent that runs Docker containers in CI environments, designed for GitHub Actions and similar workflows.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "Docker plugin"
+    ],
+    "similar_tools": [
+      "GitHub Actions self‑hosted runner",
+      "GitLab Runner",
+      "CircleCI Docker executor"
+    ],
+    "proposed_tests": [
+      "docker pull ghcr.io/docker/agent:latest",
+      "run a hello-world container using the agent and verify output",
+      "measure agent startup time and container launch latency",
+      "check health endpoint /health returns 200"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/docker/docker-agent"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791464497000-m5gbu",
+    "log_dir": "/tmp/llm-review-1791464497000-m5gbu",
+    "install_success": true,
+    "install_time_s": 12.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:4.822\nBENCHMARK:health_endpoint_ms:6.08\nBENCHMARK:health_endpoint_mem_kb:60.00\nBENCHMARK:vs_github_actions_selfhosted_startup_ratio:0.480",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:4.822\nINSTALL_OK\nTEST_FAIL:docker_pull:exception [Errno 2] No such file or directory: 'docker'\nTEST_FAIL:docker_pull:pull failed\nTEST_FAIL:hello_world:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:startup_latency:[Errno 2] No such file or directory: 'docker'\nBENCHMARK:health_endpoint_ms:6.08\nBENCHMARK:health_endpoint_mem_kb:60.00\nTEST_FAIL:health_endpoint:status 404\nBENCHMARK:vs_github_actions_selfhosted_startup_ratio:0.480\nRUN_OK\n"
+  }
+}
