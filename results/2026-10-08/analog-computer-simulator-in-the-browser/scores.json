@@ -1,0 +1,113 @@
+{
+  "app_name": "Analog Computer Simulator in the Browser",
+  "url": "https://pavel-krivanek.github.io/The-Analog-Thing-Simulator/public/",
+  "scored_at": "2026-10-08T13:04:53.625Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository is 127 days old, is not a fork, and its 3 stars are far below similar simulators (12–2,961 stars), indicating it adds little new capability."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11.4 seconds and the tool runs client‑side in a browser without needing an API key or heavy dependencies."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a JavaScript/WebAssembly analog circuit simulator, it addresses a niche educational use rather than a broad LLM workflow trend."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 3 GitHub stars versus 12, 327, and 2,961 for close alternatives and no benchmark advantage, it offers minimal differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The project has 3 stars, 2 contributors, and has not been updated for 127 days, showing a very small and inactive community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed (0%), indicating core functionality often fails in automated checks."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides a JavaScript API and a web UI, is open‑source under GPL‑2.0, but lacks a PyPI package, giving moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki or GitHub Pages data was found; documentation presence is unclear, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Created 127 days ago with 0 forks and 0 open issues, indicating early‑stage maturity without stable releases."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output lists import and simulation times as 0 ms but provides no comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments overwhelmingly celebrate the simulator’s ingenuity, relevance, and educational potential, with only brief mentions of setup effort or technical details."
+    }
+  },
+  "summary": "The Analog Computer Simulator is a client‑side web tool that models analog circuits using JavaScript and WebAssembly. It runs entirely in the browser and offers a simple JavaScript API alongside a graphical UI. It is suited for educators or hobbyists wanting an in‑browser analog circuit sandbox, but its low star count and lack of performance claims limit its impact. While it installs quickly and works locally, the project shows minimal community activity and offers little advantage over established simulators.",
+  "recommendation": "skip",
+  "app_url": "https://pavel-krivanek.github.io/The-Analog-Thing-Simulator/public/",
+  "tool_url": "https://github.com/pavel-krivanek/The-Analog-Thing-Simulator",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49966866",
+  "domain": "other",
+  "app_type": "other",
+  "enriched": {
+    "github": {
+      "stars": 3,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 3,
+      "contributors": 2,
+      "license": "GPL-2.0",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 127,
+      "days_since_created": 127,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Analog computer simulator",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Falstad Circuit Simulator",
+        "stars": 12,
+        "repo": "amirsafiallah/falstad-circuit-simulator"
+      },
+      {
+        "name": "SimulIDE",
+        "stars": 327,
+        "repo": "Arcachofo/SimulIDE-dev"
+      },
+      {
+        "name": "CircuitJS",
+        "stars": 2961,
+        "repo": "sharpie7/circuitjs1"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "enthusiastic praise",
+        "practical relevance for FPAA",
+        "educational value"
+      ],
+      "negative_signals": [
+        "minor technical concerns",
+        "setup complexity mention"
+      ],
+      "justification": "The comments overwhelmingly celebrate the simulator’s ingenuity, relevance, and educational potential, with only brief mentions of setup effort or technical details.",
+      "comment_count": 10,
+      "hn_points": 30
+    }
+  }
+}
