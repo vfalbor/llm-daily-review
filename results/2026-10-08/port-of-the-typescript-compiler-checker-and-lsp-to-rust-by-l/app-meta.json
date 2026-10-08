@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+    "url": "https://github.com/pingdotgg/ts-rust",
+    "hn_url": "https://news.ycombinator.com/item?id=50000676",
+    "points": 82,
+    "comments": 156,
+    "author": "jcbhmr",
+    "age": "2026-10-08T00:46:00",
+    "scraped_at": "2026-10-08T13:00:02.596Z",
+    "tool_url": "https://github.com/pingdotgg/ts-rust",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "language",
+    "app_type": "lang-transpiler",
+    "description": "A Rust implementation of the TypeScript compiler, type checker, and LSP powered by an LLM to assist in porting.",
+    "use_modes": [
+      "CLI",
+      "LSP server",
+      "NPM package"
+    ],
+    "similar_tools": [
+      "tsc",
+      "deno",
+      "Bun",
+      "swc"
+    ],
+    "proposed_tests": [
+      "npm install ts-rust",
+      "compile a simple TypeScript file to Rust and ensure syntax is valid",
+      "run the LSP server against a small project and verify diagnostics",
+      "measure compilation time versus official tsc on same codebase"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/pingdotgg/ts-rust"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791464568234-lch28",
+    "log_dir": "/tmp/llm-review-1791464568234-lch28",
+    "install_success": true,
+    "install_time_s": 25.4,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:8.023\nBENCHMARK:clone_time_s:4.617\nBENCHMARK:build_time_s:4.097\nBENCHMARK:npm_install_time_s:0.928\nBENCHMARK:compile_time_s:0.001\nBENCHMARK:lsp_startup_s:0.001",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 158, in <module>\n    main()\n  File \"/app/test.py\", line 148, in main\n    benchmark_vs_tsc(src)\n  File \"/app/test.py\", line 122, in benchmark_vs_tsc\n    run_cmd([tsrust_bin, \"compile\", ts_file, \"-o\", \"/dev/null\"])\n  File \"/app/test.py\", line 7, in run_cmd\n    return subprocess.run(cmd, cwd=cwd, env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/ts-rust/target/release/ts-rust'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:8.023\nINSTALL_OK\nBENCHMARK:clone_time_s:4.617\nINSTALL_FAIL:build:Updating crates.io index\n Downloading crates ...\n  Downloaded adler2 v2.0.1\n  Downloaded cfg_aliases v0.2.2\n  Downloaded cfg-if v1.0.5\n  Downloaded bitflags v1.3.2\n  Downloaded autocfg v1.5.1\n  Downloaded bitflags v2.13.0\n  Downloaded equivalent v1.0.2\n  Downloaded tikv-jemallocator v0.7.0\n  Downloaded rustc-hash v2.1.2\n  Downloaded errno v0.3.14\n  Downloaded itoa v1.0.18\n  Downloaded simd-adler32 v0.3.10\n  Downloaded defmt-macros v1.1.1\n  Downloaded tikv-jemalloc-ctl v0.7.0\n  Downloaded crc32fast v1.5.2\n  Downloaded quote v1.0.46\n  Downloaded thiserror v2.0.21\n  Downloaded zmij v1.0.21\n  Downloaded defmt v1.1.1\n  Downloaded unicode-ident v1.0.24\n  Downloaded serde_derive v1.0.228\n  Downloaded flate2 v1.1.10\n  Downloaded serde_core v1.0.228\n  Downloaded serde v1.0.228\n  Downloaded memchr v2.8.2\n  Downloaded ryu-js v1.0.2\n  Downloaded jiff-core v0.1.1\n  Downloaded num-bigint v0.4.6\n  Downloaded serde_json v1.0.150\n  Downloaded lzma-rust2 v0.21.0\n  Downloaded zlib-rs v0.6.8\n  Downloaded hashbrown v0.17.1\n  Downloaded indexmap v2.14.0\n  Downloaded cc v1.5.1\n  Downloaded syn v2.0.118\n  Downloaded syn v3.0.6\n  Downloaded nix v0.31.3\n  Downloaded bumpalo v3.20.3\n  Downloaded miniz_oxide v0.9.1\n  Downloaded rustix v1.1.5\n  Downloaded log v0.4.33\n  Downloaded signal-hook v0.4.4\n  Downloaded proc-macro2 v1.0.106\n  Downloaded num-traits v0.2.19\n  Downloaded xxhash-rust v0.8.15\n  Downloaded thiserror-impl v2.0.21\n  Downloaded smallvec v1.15.1\n  Downloaded shlex v2.0.1\n  Downloaded signal-hook-registry v1.4.8\n  Downloaded paste v1.0.15\n  Downloaded num-integer v0.1.46\n  Downloaded jiff v0.2.37\n  Downloaded find-msvc-tools v0.1.14\n  Downloaded defmt-parser v1.0.0\n  Downloaded libc v0.2.186\n  Downloaded tikv-jemalloc-sys v0.7.1+5.3.1-0-g81034ce1f1373e37dc865038e1bc8eeecf559ce8\n  Downloaded name-to-handle-at v0.1.0\n  Downloaded linux-raw-sys v0.12.1\n   Compiling libc v0.2.186\nerror: failed to run custom build command for `libc v0.2.186`\n\nCaused by:\n  could not execute process `/tmp/ts-rust/target/release/build/libc-f925be792b1c205c/build-script-build` (never executed)\n\nCaused by:\n  Permission denied (os error 13)\nBENCHMARK:build_time_s:4.097\nTEST_FAIL:npm_install:npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-08T13_03_24_237Z-debug-0.log\nBENCHMARK:npm_install_time_s:0.928\nTEST_FAIL:compile_ts:[Errno 2] No such file or directory: '/tmp/ts-rust/target/release/ts-rust'\nBENCHMARK:compile_time_s:0.001\nTEST_FAIL:lsp_server:[Errno 2] No such file or directory: '/tmp/ts-rust/target/release/ts-rust'\nBENCHMARK:lsp_startup_s:0.001\n"
+  }
+}
