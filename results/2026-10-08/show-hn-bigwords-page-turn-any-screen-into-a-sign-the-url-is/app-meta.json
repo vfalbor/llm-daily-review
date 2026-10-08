@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+    "url": "https://bigwords.page/",
+    "hn_url": "https://news.ycombinator.com/item?id=49994443",
+    "points": 560,
+    "comments": 143,
+    "author": "SpeakingOfBrad",
+    "age": "2026-10-07T15:44:21",
+    "scraped_at": "2026-10-08T13:00:02.588Z",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "web",
+    "app_type": "web-extension",
+    "source_type": "tool",
+    "tool_url": "https://github.com/miguelguerra/bigwords",
+    "description": "A browser extension that turns any webpage into a sign by overlaying large text.",
+    "use_modes": [
+      "Browser Extension"
+    ],
+    "similar_tools": [
+      "Textify",
+      "Big Text",
+      "Supertext"
+    ],
+    "proposed_tests": [
+      "Install extension from Chrome Web Store and enable on a test page",
+      "Navigate to a page containing short text and verify overlay renders correctly",
+      "Measure overlay rendering time for a page with 10k words",
+      "Check that the extension respects user-configured font size and color settings"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/miguelguerra/bigwords"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791464470074-ocut1",
+    "log_dir": "/tmp/llm-review-1791464470074-ocut1",
+    "install_success": true,
+    "install_time_s": 9.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 63, in <module>\n    start_server()\n  File \"/app/test.py\", line 49, in start_server\n    server_process = subprocess.Popen(\n                     ^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/bigwords'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_OK | git\nINSTALL_OK | curl\nINSTALL_FAIL:git_clone:Command '['git', 'clone', '--depth', '1', 'https://github.com/miguelguerra/bigwords.git', '/tmp/bigwords']' returned non-zero exit status 128.\nINSTALL_FAIL:npm_install:[Errno 2] No such file or directory: '/tmp/bigwords'\n"
+  }
+}
