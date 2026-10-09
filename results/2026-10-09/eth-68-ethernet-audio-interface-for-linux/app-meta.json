@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "ETH-68: Ethernet Audio Interface for Linux",
+    "url": "https://naturalsystems.io/eth68",
+    "hn_url": "https://news.ycombinator.com/item?id=49992994",
+    "points": 177,
+    "comments": 103,
+    "author": "chabad360",
+    "age": "2026-10-07T13:58:05",
+    "scraped_at": "2026-10-09T13:00:03.289Z",
+    "tool_url": "https://github.com/naturalsystems/eth68",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "A hardware project that implements an Ethernet audio interface for Linux, providing low-latency audio routing over network.",
+    "use_modes": [
+      "CLI",
+      "USB device",
+      "Linux kernel module"
+    ],
+    "similar_tools": [
+      "PulseAudio",
+      "JACK",
+      "ALSA",
+      "ASIO4ALL"
+    ],
+    "proposed_tests": [
+      "Clone repo and build the kernel module with make.",
+      "Load module on a Linux system and verify it appears under /proc/asound.",
+      "Run a simple test harness that sends audio over the interface and measures latency.",
+      "Compare throughput to a local ALSA loopback.",
+      "Verify compatibility with common audio tools (pavucontrol)."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/naturalsystems/eth68"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791551014806-2z0gx",
+    "log_dir": "/tmp/llm-review-1791551014806-2z0gx",
+    "install_success": true,
+    "install_time_s": 10.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:2.93\nBENCHMARK:clone_time_s:0.29",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:2.93\nTEST_FAIL:clone_repo:Cloning into '/tmp/eth68'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:clone_time_s:0.29\nRUN_OK\n"
+  }
+}
