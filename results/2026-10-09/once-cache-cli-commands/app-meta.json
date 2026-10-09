@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Once: Cache CLI Commands",
+    "url": "https://github.com/alex0ptr/once",
+    "hn_url": "https://news.ycombinator.com/item?id=50018239",
+    "points": 21,
+    "comments": 8,
+    "author": "baquero",
+    "age": "2026-10-09T09:43:06",
+    "scraped_at": "2026-10-09T13:00:03.279Z",
+    "tool_url": "https://github.com/alex0ptr/once",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A Rust CLI utility that caches command outputs to speed up repetitive work.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "cachet",
+      "bbq",
+      "just"
+    ],
+    "proposed_tests": [
+      "cargo install once",
+      "run `once echo hello` twice and verify the second run is served from cache",
+      "measure execution time difference between cached and uncached runs",
+      "test the `--clear` option to ensure cache is purged"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/alex0ptr/once"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791550894219-rwjm9",
+    "log_dir": "/tmp/llm-review-1791550894219-rwjm9",
+    "install_success": true,
+    "install_time_s": 14.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.264\nBENCHMARK:baseline_fib35_ms:2.19",
+    "error_log": "    Updating crates.io index\n Downloading crates ...\n  Downloaded once v0.3.4\nerror: there is nothing to install in `once v0.3.4`, because it has no binaries\n`cargo install` is only for installing programs, and can't be used with libraries.\nTo use a library crate, add it as a dependency to a Cargo project with `cargo add`.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 153, in <module>\n    main()\n  File \"/app/test.py\", line 143, in main\n    if not any(\"BENCHMARK:\" in line for line in sys.stdout.getvalue().splitlines() if False):\n                                                ^^^^^^^^^^^^^^^^^^^\nAttributeError: '_io.TextIOWrapper' object has no attribute 'getvalue'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_install_time_s:5.264\nINSTALL_OK\nINSTALL_FAIL:cargo_install_once:'NoneType' object has no attribute 'strip'\nTEST_FAIL:once_echo_uncached:failed to execute once\nTEST_FAIL:once_clear:clear command failed\nBENCHMARK:baseline_fib35_ms:2.19\nTEST_SKIP:compare_vs_baseline:missing data\n"
+  }
+}
