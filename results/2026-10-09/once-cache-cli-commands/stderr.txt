@@ -1,0 +1,13 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded once v0.3.4
+error: there is nothing to install in `once v0.3.4`, because it has no binaries
+`cargo install` is only for installing programs, and can't be used with libraries.
+To use a library crate, add it as a dependency to a Cargo project with `cargo add`.
+Traceback (most recent call last):
+  File "/app/test.py", line 153, in <module>
+    main()
+  File "/app/test.py", line 143, in main
+    if not any("BENCHMARK:" in line for line in sys.stdout.getvalue().splitlines() if False):
+                                                ^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.TextIOWrapper' object has no attribute 'getvalue'
