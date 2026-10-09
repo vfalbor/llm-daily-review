@@ -1,0 +1,114 @@
+{
+  "app_name": "Once: Cache CLI Commands",
+  "url": "https://github.com/alex0ptr/once",
+  "scored_at": "2026-10-09T13:02:27.539Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created today (0 days since repo created) and not a fork, but its 26 stars versus 15,255, 2,095 and 36,178 stars of similar tools shows it is a near-duplicate rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 14.2 seconds and required no API key; although no PyPI package exists, the installation was simple and fast."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli for caching CLI output, it aligns with current developer workflow optimization trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With only 26 GitHub stars compared to 15,255, 2,095 and 36,178 stars of similar projects and no benchmark advantage, it offers limited differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repository has 26 stars, a single contributor, and was updated today, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed and the basic run failed, indicating less than 50% functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only with no API, no PyPI package, and only an MIT license, making integration manual."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repo was created today (0 days old), has 0 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a baseline fib35 benchmark (2.19 ms) is reported with no comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments show interest and some praise for the convenience of caching CLI commands, but also raise valid concerns about unclear use cases, sensitive data handling, and usability quirks, leading to an overall positive but slightly cautious reception."
+    }
+  },
+  "summary": "Once is a Rust CLI that caches the output of other commands to speed up repetitive tasks. It runs locally without needing an API key and is installed in under 15 seconds. The tool is aimed at developers who repeatedly run the same CLI commands and want quick results. Its main strength is the convenience of caching, but limited documentation, unclear use cases, and no integration API are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/alex0ptr/once",
+  "tool_url": "https://github.com/alex0ptr/once",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50018239",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 26,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 26,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Run a command once, reuse its output for a while.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "cachet",
+        "stars": 15255,
+        "repo": "cachethq/cachet"
+      },
+      {
+        "name": "bbq",
+        "stars": 2095,
+        "repo": "13o-bbr-bbq/machine_learning_security"
+      },
+      {
+        "name": "just",
+        "stars": 36178,
+        "repo": "casey/just"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Convenient caching of CLI output",
+        "Addresses cache invalidation needs",
+        "Tool seen as useful by some users"
+      ],
+      "negative_signals": [
+        "Unclear use cases and benefits",
+        "Concerns about storing sensitive data",
+        "Need for command prefixing/verbosity handling"
+      ],
+      "justification": "The comments show interest and some praise for the convenience of caching CLI commands, but also raise valid concerns about unclear use cases, sensitive data handling, and usability quirks, leading to an overall positive but slightly cautious reception.",
+      "comment_count": 8,
+      "hn_points": 21
+    }
+  }
+}
