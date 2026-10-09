@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "DuckDB Ducklake",
+    "url": "https://github.com/duckdb/ducklake",
+    "hn_url": "https://news.ycombinator.com/item?id=49996149",
+    "points": 196,
+    "comments": 23,
+    "author": "saikatsg",
+    "age": "2026-10-07T17:40:23",
+    "scraped_at": "2026-10-09T13:00:03.291Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/duckdb/ducklake",
+    "source_type": "tool",
+    "confidence": 0.97,
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "DuckLake is an extension to DuckDB that adds support for time‑series and windowed aggregations, enabling efficient analytics over large datasets.",
+    "use_modes": [
+      "CLI",
+      "SQL API",
+      "Python API"
+    ],
+    "similar_tools": [
+      "TimescaleDB",
+      "VictoriaMetrics",
+      "ClickHouse",
+      "DuckDB (native)"
+    ],
+    "proposed_tests": [
+      "pip install ducklake",
+      "Create a DuckLake database and load sample time‑series data",
+      "Execute a windowed aggregation query and measure execution time",
+      "Compare query results and performance against native DuckDB"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/duckdb/ducklake"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791551080250-pn2ah",
+    "log_dir": "/tmp/llm-review-1791551080250-pn2ah",
+    "install_success": true,
+    "install_time_s": 19.2,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:import_ducklake_ms:0.56\nBENCHMARK:sqlite_query_latency_ms:4.40\nBENCHMARK:sqlite_query_ms:13.87\nBENCHMARK:sqlite_query_mem_kb:233.57\nBENCHMARK:script_runtime_s:12.64",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk add sqlite\nINSTALL_OK | pip install ducklake\nBENCHMARK:import_ducklake_ms:0.56\nINSTALL_FAIL:pip install duckdb:error: subprocess-exited-with-error\n  \n  × pip subprocess to install backend dependencies did not run successfully.\n  │ exit code: 1\n  ╰─> [10 lines of output]\n      Collecting ninja>=1.10\n        Downloading ninja-1.13.2-py3-none-musllinux_1_2_x86_64.whl.metadata (5.4 kB)\n      Collecting cmake>=3.29.0\n        Downloading cmake-4.4.4-py3-none-musllinux_1_2_x86_64.whl.metadata (7.0 kB)\n      Downloading ninja-1.13.2-py3-none-musllinux_1_2_x86_64.whl (544 kB)\n         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 544.5/544.5 kB 8.1 MB/s eta 0:00:00\n      Downloading cmake-4.4.4-py3-none-musllinux_1_2_x86_64.whl (39.5 MB)\n      ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n      \n         ━━━━━━━━━━━━━━━━━━━━━━━━━━               26.0/39.5 MB 99.8 MB/s eta 0:00:01\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× pip subprocess to install backend dependencies did not run successfully.\n│ exit code: 1\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nTEST_FAIL:import_duckdb:No module named 'duckdb'\nTEST_FAIL:ducklake_window_query:No module named 'duckdb'\nTEST_PASS:sqlite_baseline_query\nTEST_FAIL:compare_result_counts:Row count mismatch DuckLake=0 SQLite=989\nTEST_FAIL:ducklake_query:No module named 'duckdb'\nBENCHMARK:sqlite_query_latency_ms:4.40\nBENCHMARK:sqlite_query_ms:13.87\nBENCHMARK:sqlite_query_mem_kb:233.57\nTEST_SKIP:vs_sqlite_comparison:Missing latency data\nBENCHMARK:script_runtime_s:12.64\nRUN_OK\n"
+  }
+}
