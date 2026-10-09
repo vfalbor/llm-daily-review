@@ -1,0 +1,99 @@
+{
+  "app_name": "ETH-68: Ethernet Audio Interface for Linux",
+  "url": "https://naturalsystems.io/eth68",
+  "scored_at": "2026-10-09T13:04:38.692Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The project implements Ethernet-based low-latency audio routing, a distinct approach compared to similar tools like PulseAudio (1,760 stars), JACK (19,789 stars), and ALSA (1,351 stars), indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10.8 seconds, though there is no PyPI package, suggesting a relatively straightforward setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a hardware-iot tool for Linux audio, it addresses current interest in low-latency network audio solutions within the LLM and multimedia workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Unlike PulseAudio, JACK, and ALSA which are software frameworks, ETH-68 provides a hardware Ethernet interface, offering a unique capability not present in those high‑star projects."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub data, but Hacker News shows 177 points and 30 comments with a sentiment score of 8/10, indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 1 test passed (0%) despite a successful install, reflecting limited functional verification."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers CLI, USB device, and Linux kernel module modes but lacks a PyPI package or explicit API documentation, making integration moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or wiki/pages were detected, and no documentation quality signals are available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity is inferred from Hacker News points (177) which place it in the 100–300 range, yielding a neutral maturity rating."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were provided; given the hardware nature, the lack of performance data leads to a low confidence score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments praise the ETH‑68’s very low audio latency, noting it matches or surpasses expensive PCIe cards, while a few users point out practical issues like a default external IP address and lack of gigabit MAC support. Overall reception is enthusiastic with only minor technical critiques."
+    }
+  },
+  "summary": "ETH-68 is a hardware project that provides an Ethernet audio interface for Linux, enabling low‑latency audio routing over a network. It operates as a USB device and Linux kernel module, exposing a CLI for control. The tool is suited for audio engineers and Linux power users needing networked audio with minimal latency. It stands out for its Ethernet‑based approach compared to traditional software mixers, but the lack of documented benchmarks and limited test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://naturalsystems.io/eth68",
+  "tool_url": "https://github.com/naturalsystems/eth68",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49992994",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "PulseAudio",
+        "stars": 1760,
+        "repo": "EHfive/pulseaudio-modules-bt"
+      },
+      {
+        "name": "JACK",
+        "stars": 19789,
+        "repo": "Jack-Cherish/python-spider"
+      },
+      {
+        "name": "ALSA",
+        "stars": 1351,
+        "repo": "geoffreybennett/alsa-scarlett-gui"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "impressive low latency",
+        "matches high-end PCIe cards",
+        "exciting networking project"
+      ],
+      "negative_signals": [
+        "IP address concerns",
+        "gigabit MAC missing",
+        "minor nitpicks"
+      ],
+      "justification": "Comments praise the ETH‑68’s very low audio latency, noting it matches or surpasses expensive PCIe cards, while a few users point out practical issues like a default external IP address and lack of gigabit MAC support. Overall reception is enthusiastic with only minor technical critiques.",
+      "comment_count": 30,
+      "hn_points": 177
+    }
+  }
+}
