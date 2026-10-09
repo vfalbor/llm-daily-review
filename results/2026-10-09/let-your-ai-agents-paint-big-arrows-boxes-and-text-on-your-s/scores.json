@@ -1,0 +1,120 @@
+{
+  "app_name": "Let your AI agents paint big arrows, boxes and text on your screen",
+  "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "scored_at": "2026-10-09T13:01:32.759Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 1 day old, is not a fork, and adds a lightweight JS library compared to similar tools with hundreds of stars, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 10.7 seconds and the library is installable locally, though it lacks a PyPI package, suggesting a fairly simple setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-library enabling AI agents to draw UI overlays, it aligns with the current trend of integrating LLMs into interactive front‑ends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 124 stars it trails the leading react-annotation (408 stars) but is comparable to smaller alternatives, and the only benchmark (import_time_ms 0.38) lacks a reference for advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 124 GitHub stars, a single contributor, and was updated today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) and install succeeded, showing core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is available for JavaScript/TypeScript, uses an MIT license, and though no PyPI package exists, it can be imported directly, offering moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Created 1 day ago, with 2 forks and 1 open issue, the project is in an early stage of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 0.38 ms, but no comparative data is available, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments largely praise the tool’s utility for teaching and helping non‑technical users, but raise concerns about giving agents too much UI control and possible security risks."
+    }
+  },
+  "summary": "This is a lightweight JavaScript library that lets AI agents draw arrows, boxes, and text overlays on the screen. It is built in JavaScript/TypeScript and can be added to web projects without needing an API key. It suits developers who want simple visual annotations for AI‑driven interfaces. The library installs quickly and runs locally, but its test suite shows 0 of 2 tests passing and community signals are modest.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "tool_url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50018817",
+  "domain": "devtool",
+  "app_type": "devtool-library",
+  "enriched": {
+    "github": {
+      "stars": 124,
+      "forks": 2,
+      "open_issues": 1,
+      "watchers": 124,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Let your AI agents paint big arrows, boxes and text on your Mac screen. One CLI, click-through, gone by itself. Skill for Claude Code and Codex. MIT.",
+      "topics": [
+        "accessibility",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "macos",
+        "swift"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "react-annotation",
+        "stars": 408,
+        "repo": "susielu/react-annotation"
+      },
+      {
+        "name": "react-annotation-canvas",
+        "stars": 10,
+        "repo": "denvash/react-canvas-annotation"
+      },
+      {
+        "name": "react-svg-annotation",
+        "stars": 1,
+        "repo": "hsyuen720/react-svg-annotation"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Helpful for documentation and onboarding",
+        "Useful for assisting older users"
+      ],
+      "negative_signals": [
+        "Safety and permission concerns",
+        "Potential misuse of control"
+      ],
+      "justification": "Comments largely praise the tool’s utility for teaching and helping non‑technical users, but raise concerns about giving agents too much UI control and possible security risks.",
+      "comment_count": 30,
+      "hn_points": 119
+    }
+  }
+}
