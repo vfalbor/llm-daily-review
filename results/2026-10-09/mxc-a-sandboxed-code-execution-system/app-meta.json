@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "MXC - a sandboxed code execution system",
+    "url": "https://github.com/microsoft/mxc",
+    "hn_url": "https://news.ycombinator.com/item?id=50016489",
+    "points": 71,
+    "comments": 37,
+    "author": "nreece",
+    "age": "2026-10-09T05:51:29",
+    "scraped_at": "2026-10-09T13:00:03.280Z",
+    "tool_url": "https://github.com/microsoft/mxc",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A sandboxed execution environment for running arbitrary code securely using OCI containers.",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "Firecracker",
+      "gVisor",
+      "runc"
+    ],
+    "proposed_tests": [
+      "docker pull mxc:latest",
+      "run a simple Python script inside MXC and capture stdout",
+      "measure start-up latency for a new sandbox container",
+      "attempt to execute a privileged command and confirm it is blocked"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/microsoft/mxc"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791550948886-nvv6r",
+    "log_dir": "/tmp/llm-review-1791550948886-nvv6r",
+    "install_success": true,
+    "install_time_s": 7.6,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:pull_time_s:0.001\nBENCHMARK:run_simple_s:0.001\nBENCHMARK:startup_latency_ms:0.973\nBENCHMARK:priv_cmd_block_ms:0.915\nBENCHMARK:vs_firecracker_startup_latency_ratio:0.006\nBENCHMARK:vs_firecracker_priv_cmd_block_ratio:0.031",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:docker_pull:/bin/sh: docker: not found\nTEST_FAIL:simple_python:/bin/sh: docker: not found\nTEST_FAIL:start_up_latency:/bin/sh: docker: not found\nTEST_PASS:privileged_block\nBENCHMARK:pull_time_s:0.001\nBENCHMARK:run_simple_s:0.001\nBENCHMARK:startup_latency_ms:0.973\nBENCHMARK:priv_cmd_block_ms:0.915\nBENCHMARK:vs_firecracker_startup_latency_ratio:0.006\nBENCHMARK:vs_firecracker_priv_cmd_block_ratio:0.031\nRUN_OK\n"
+  }
+}
