@@ -1,0 +1,121 @@
+{
+  "app_name": "DuckDB Ducklake",
+  "url": "https://github.com/duckdb/ducklake",
+  "scored_at": "2026-10-09T13:05:53.657Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 584 days ago and is not a fork; it adds time-series and windowed aggregation to DuckDB, which is an incremental improvement over existing databases."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 19.2 seconds (<30s) and a PyPI package exists, requiring only Python >=3.9."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a database‑relational tool, it addresses the growing need for fast time‑series analytics in modern data pipelines."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "It has 3,231 GitHub stars, far fewer than TimescaleDB (23,666), VictoriaMetrics (17,841) and ClickHouse (50,313), and no direct benchmark advantage is reported."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repository has 3,231 stars, 87 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 6 tests passed (≈16.7%) and install succeeded, indicating core functionality is fragile."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package is available, the project offers CLI, SQL API, and Python API, and it is released under the MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 584 days old with 271 forks and 82 open issues; the released version is 0.1.1, indicating an early‑stage but active project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import time of 0.56 ms and total script runtime of 12.64 s, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the new spec’s performance and community backing, while noting it is still alpha with bugs and limited features, leading to a generally positive but cautious sentiment."
+    }
+  },
+  "summary": "DuckDB Ducklake is an extension that adds time‑series and windowed aggregation capabilities to DuckDB, exposing a CLI, SQL, and Python API. It builds on DuckDB's in‑process engine and is packaged on PyPI for easy installation. Data engineers needing fast analytics over large time‑series datasets can use it as a lightweight alternative to heavier systems. Benchmarks indicate low import latency, but limited test coverage and an early 0.1.1 release highlight maturity concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/duckdb/ducklake",
+  "tool_url": "https://github.com/duckdb/ducklake",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=49996149",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 3231,
+      "forks": 271,
+      "open_issues": 82,
+      "watchers": 3231,
+      "contributors": 87,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 584,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "DuckLake is an integrated data lake and catalog format",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "TimescaleDB",
+        "stars": 23666,
+        "repo": "timescale/timescaledb"
+      },
+      {
+        "name": "VictoriaMetrics",
+        "stars": 17841,
+        "repo": "VictoriaMetrics/VictoriaMetrics"
+      },
+      {
+        "name": "ClickHouse",
+        "stars": 50313,
+        "repo": "ClickHouse/ClickHouse"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "DuckLake package for Python",
+      "requires_python": ">=3.9",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Innovative spec simplifies lakehouse catalog",
+        "High-performance concurrent access",
+        "Strong community support and documentation"
+      ],
+      "negative_signals": [
+        "Alpha maturity and bugs",
+        "Dependency on DuckDB limits flexibility",
+        "Limited access control features"
+      ],
+      "justification": "Comments praise the new spec’s performance and community backing, while noting it is still alpha with bugs and limited features, leading to a generally positive but cautious sentiment.",
+      "comment_count": 23,
+      "hn_points": 196
+    }
+  }
+}
