@@ -1,0 +1,121 @@
+{
+  "app_name": "MXC - a sandboxed code execution system",
+  "url": "https://github.com/microsoft/mxc",
+  "scored_at": "2026-10-09T13:03:33.293Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 244 days ago and is not a fork, but mirrors existing sandbox runtimes like Firecracker, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 7.6 s (<30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑container sandbox, it addresses the current demand for secure code execution in LLM pipelines."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Despite having only 2,086 stars versus Firecracker's 37,261, benchmarks show a startup latency ratio of 0.006 versus Firecracker, a >150× speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 2,086 stars, 30 contributors, and was updated 0 days ago, indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 4 tests passed (25 %), though installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists, the tool offers both CLI and API modes, and it is MIT‑licensed."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project is 244 days old, has 113 forks and 52 open issues, suggesting a moderately mature codebase."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmarks report a startup latency of 0.973 ms and a vs_firecracker_startup_latency_ratio of 0.006, indicating a large performance gain over comparable tools."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments praise MXC’s ease of integration, learning mode and cross‑platform aims, yet critics raise valid security worries over code size, sandbox escape claims and distrust of Microsoft branding, resulting in a generally positive but cautious tone."
+    }
+  },
+  "summary": "MXC provides a sandboxed execution environment built on Rust that runs arbitrary code inside OCI containers via a CLI or API. It leverages bubblewrap for lightweight isolation and ships as a PyPI package, requiring no external API keys. The tool is suited for developers needing fast, secure sandboxing in their LLM workflows, especially when startup speed is critical. Its standout strength is a sub‑millisecond startup time that outperforms Firecracker by over two orders of magnitude, while its main caveat is limited test coverage, with only 25 % of functional tests passing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/microsoft/mxc",
+  "tool_url": "https://github.com/microsoft/mxc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50016489",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 2086,
+      "forks": 113,
+      "open_issues": 52,
+      "watchers": 2086,
+      "contributors": 30,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 244,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Policy-driven, layered isolation and containment ",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Firecracker",
+        "stars": 37261,
+        "repo": "firecracker-microvm/firecracker"
+      },
+      {
+        "name": "gVisor",
+        "stars": 19613,
+        "repo": "google/gvisor"
+      },
+      {
+        "name": "runc",
+        "stars": 13481,
+        "repo": "opencontainers/runc"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "ProperMX Command Line Interface (CLI)",
+      "requires_python": "",
+      "license": "MIT",
+      "home_page": "https://github.com/propermx/mxc"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Easy integration and learning mode",
+        "Cross‑platform support",
+        "Use of bubblewrap for sandboxing"
+      ],
+      "negative_signals": [
+        "Security and trust concerns about large Rust code base",
+        "Claims of sandbox escape and bad config",
+        "Branding backlash"
+      ],
+      "justification": "The comments praise MXC’s ease of integration, learning mode and cross‑platform aims, yet critics raise valid security worries over code size, sandbox escape claims and distrust of Microsoft branding, resulting in a generally positive but cautious tone.",
+      "comment_count": 30,
+      "hn_points": 71
+    }
+  }
+}
