@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Cube Type – Isometric Typography Generator",
+    "url": "https://typeincube.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=50010986",
+    "points": 25,
+    "comments": 3,
+    "author": "eustoria",
+    "age": "2026-10-08T19:41:19",
+    "scraped_at": "2026-10-10T13:00:02.703Z",
+    "tool_url": "https://typeincube.com/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "An online tool that transforms text into isometric 3D cube-style typography, allowing users to generate stylized SVG or PNG images directly in the browser.",
+    "use_modes": [
+      "Web UI"
+    ],
+    "similar_tools": [
+      "3D Text Generator",
+      "Cube Text Maker",
+      "Isometric Font Creator"
+    ],
+    "proposed_tests": [
+      "Open the homepage and verify the input text field renders correctly",
+      "Submit a sample string via the UI or API (if available) and capture the generated SVG output",
+      "Check that the SVG contains <g> and <path> elements with expected class names",
+      "Download the PNG export and confirm the file size is greater than zero",
+      "Verify the service responds within 2 seconds for a typical 50‑character input"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1791637417061-9tski",
+    "log_dir": "/tmp/llm-review-1791637417061-9tski",
+    "install_success": true,
+    "install_time_s": 11.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.62\nBENCHMARK:memory_peak_kb:3899.16\nBENCHMARK:vs_3d_text_generator_ratio:0.85",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:install_time_s:1.62\nTEST_PASS:homepage_render\nTEST_FAIL:svg_generation:HTTP Error 404: Not Found\nTEST_FAIL:png_download:HTTP Error 404: Not Found\nTEST_FAIL:response_time:HTTP Error 404: Not Found\nBENCHMARK:memory_peak_kb:3899.16\nBENCHMARK:vs_3d_text_generator_ratio:0.85\nRUN_OK\n"
+  }
+}
