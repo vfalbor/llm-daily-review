@@ -1,0 +1,79 @@
+{
+  "app_name": "Cube Type – Isometric Typography Generator",
+  "url": "https://typeincube.com/",
+  "scored_at": "2026-10-10T13:04:43.345Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The tool replicates existing isometric text generators (similar tools listed) and no creation date or fork information is available, indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) with a short install time of 11.7 s and the web UI requires no API key or heavy dependencies."
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "As a web-frontend typography generator it does not address current LLM workflow pain points, making it low relevance to the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No GitHub stars to compare and the benchmark shows a performance ratio of 0.85 versus similar 3D text generators, offering no clear advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No public repository; HN points are only 25, which places community score in the 1‑2 range per the proxy rubric."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25%), which is below the 50% threshold, indicating limited core functionality despite successful install."
+    },
+    "ease_of_integration": {
+      "score": 1,
+      "justification": "The product offers only a Web UI, has no API/SDK, and no PyPI package, making automated integration virtually impossible."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The website lacks docs/wiki links, has only a demo example, and its content length is 1796 characters, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 is displayed on the site, satisfying the proxy rule for a maturity score of 7 despite missing repository data."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark reports a vs_3d_text_generator_ratio of 0.85, meaning it is slower than comparable tools and provides no performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "All three comments are supportive, praising the project’s creativity and documentation and suggesting fun additions, indicating a very positive reception."
+    }
+  },
+  "summary": "Cube Type is a browser‑based tool that converts text into isometric 3D cube‑style typography, generating SVG or PNG images directly in the UI. It runs entirely in the client, requiring no installation or API keys, and is built as a simple web front‑end. The tool is suited for designers who need quick, stylized text graphics without installing software. While it works out‑of‑the‑box, its performance is slower than similar generators and it offers no integration hooks, and community signals are weak.",
+  "recommendation": "skip",
+  "app_url": "https://typeincube.com/",
+  "tool_url": "https://typeincube.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50010986",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "cool and enjoyable",
+        "clear documentation",
+        "creative suggestions"
+      ],
+      "negative_signals": [],
+      "justification": "All three comments are supportive, praising the project’s creativity and documentation and suggesting fun additions, indicating a very positive reception.",
+      "comment_count": 3,
+      "hn_points": 25
+    }
+  }
+}
