@@ -1,0 +1,122 @@
+{
+  "app_name": "Talorys",
+  "url": "https://github.com/rociiu/talorys",
+  "scored_at": "2026-10-10T13:01:28.387Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is brand new (0 days since creation) and not a fork, but it duplicates functionality of massive projects like LangChain, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 18.9 seconds and the Docker runner reported success, though no PyPI package exists, showing a relatively simple setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework offering a self‑hosted agent, it aligns with the current trend of personal AI assistants in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With only 53 GitHub stars versus 147k+ for LangChain, CrewAI and AutoGPT and a benchmark ratio of 0.0, it provides little advantage over established alternatives."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 53 stars, a single contributor, and was updated today, indicating a tiny but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) despite a successful install, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a HTTP API and CLI, is MIT‑licensed, but lacks a PyPI package, making integration moderately straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 0 days old, has 4 forks, 0 open issues, and no release tags, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark output shows a latency ratio of 0.0 versus LangChain with no reported speed advantage, suggesting average or unknown performance."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments express skepticism about the claim that Talorys is truly self-hosted, pointing out dependence on Cloudflare and questioning the definition of self-hosting, while a few highlight the free-tier access and open-source nature."
+    }
+  },
+  "summary": "Talorys is a self‑hosted personal AI agent built on Cloudflare Workers and Rust that can be accessed via CLI, HTTP API, or a web UI. It follows the same architectural ideas as larger frameworks like LangChain, offering similar prompt and knowledge‑base features. The project targets developers who want a free‑tier, Cloudflare‑based agent without needing an API key. While it installs quickly, it lacks test coverage, has minimal community traction, and provides no measurable performance benefit over established tools.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/rociiu/talorys",
+  "tool_url": "https://github.com/rociiu/talorys",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50031614",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 53,
+      "forks": 4,
+      "open_issues": 0,
+      "watchers": 53,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+      "topics": [
+        "ai-agent",
+        "cloudflare",
+        "cloudflare-workers",
+        "durable-objects",
+        "personal-assistant",
+        "react",
+        "self-hosted",
+        "typescript",
+        "workers-ai"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 147553,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59528,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "AutoGPT",
+        "stars": 187504,
+        "repo": "Significant-Gravitas/AutoGPT"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Open-source initiative",
+        "Free-tier availability"
+      ],
+      "negative_signals": [
+        "Reliance on Cloudflare questioned",
+        "Definition of self-hosted unclear"
+      ],
+      "justification": "Most comments express skepticism about the claim that Talorys is truly self-hosted, pointing out dependence on Cloudflare and questioning the definition of self-hosting, while a few highlight the free-tier access and open-source nature.",
+      "comment_count": 21,
+      "hn_points": 55
+    }
+  }
+}
