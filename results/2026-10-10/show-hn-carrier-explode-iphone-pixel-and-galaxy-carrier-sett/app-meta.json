@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+    "url": "https://carrierexplode.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=50024499",
+    "points": 346,
+    "comments": 42,
+    "author": "simplyalec",
+    "age": "2026-10-09T18:10:55",
+    "scraped_at": "2026-10-10T13:00:02.693Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/Carrier-Explode/carrierexplode",
+    "repo_url": "https://github.com/Carrier-Explode/carrierexplode",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A command-line utility that decodes carrier configuration files from iPhone, Pixel, and Galaxy devices, extracting network settings such as APN, carrier name, and security parameters.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "aircrack-ng (for carrier data extraction)",
+      "gqrx (radio scanning)"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `cargo build` to ensure the binary compiles.",
+      "Execute `carrierexplode -h` to verify help output and available flags.",
+      "Provide a sample carrier settings file (e.g., `sample.cfg`) and run `carrierexplode -i sample.cfg` to confirm JSON output contains expected keys.",
+      "Measure execution time for processing 100 carrier files and compare against a baseline implementation."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1791637289505-rv7kb",
+    "log_dir": "/tmp/llm-review-1791637289505-rv7kb",
+    "install_success": true,
+    "install_time_s": 17,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_and_build:git clone failed: Cloning into '/tmp/carrierexplode_test_a1lz7hvl/carrierexplode'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:help_output:binary not found\nTEST_FAIL:process_sample:[Errno 2] No such file or directory: '/tmp/carrierexplode_test_a1lz7hvl/carrierexplode/target/release/carrierexplode'\nTEST_FAIL:benchmark_100_files:[Errno 2] No such file or directory: '/tmp/carrierexplode_test_a1lz7hvl/carrierexplode/target/release/carrierexplode'\nRUN_OK\n"
+  }
+}
