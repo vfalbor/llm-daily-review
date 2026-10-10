@@ -1,0 +1,83 @@
+{
+  "app_name": "Carrier-Explode",
+  "url": "https://carrierexplode.com/",
+  "scored_at": "2026-10-10T13:02:26.448Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork status, or GitHub stars were available, so quantitative evidence is missing."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 17 seconds, but there is no PyPI package, indicating a modest setup complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The tool is a devtool CLI for carrier config decoding, which is a niche use case within the broader LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons to similar tools (aircrack-ng, gqrx) were provided."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN points are 346 with 30 comments, indicating solid community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) despite install success, placing it below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool is CLI‑only, has no PyPI package, and offers no API, making integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository or documented wiki/pages were found, so documentation evidence is lacking."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points are 346 and the domain appears stable, suggesting moderate maturity despite no release tags."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance evidence is insufficient."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the UI, usefulness of decoded carrier settings, and invite contributions, while a few raise concerns about using AI or manipulating settings that could lead to bans or misuse. The overall tone is largely positive with constructive caution."
+    }
+  },
+  "summary": "Carrier-Explode is a command‑line utility that decodes carrier configuration files from iPhone, Pixel, and Galaxy devices, extracting APN and other network settings. It runs locally without requiring an API key and is distributed via a source repository rather than a package manager. The tool is suited for developers or power users needing to inspect or modify carrier settings on supported devices. It benefits from positive Hacker News sentiment (346 points) but suffers from missing documentation, no integration API, and failed test cases, limiting its practicality.",
+  "recommendation": "niche",
+  "app_url": "https://carrierexplode.com/",
+  "tool_url": "https://github.com/Carrier-Explode/carrierexplode",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50024499",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Helpful UI and detailed carrier data",
+        "Community engagement and contribution opportunities",
+        "Transparency and utility for developers"
+      ],
+      "negative_signals": [
+        "Concerns over AI usage leading to bans",
+        "Potential misuse of carrier settings",
+        "Some skepticism about security and policy"
+      ],
+      "justification": "Most comments praise the UI, usefulness of decoded carrier settings, and invite contributions, while a few raise concerns about using AI or manipulating settings that could lead to bans or misuse. The overall tone is largely positive with constructive caution.",
+      "comment_count": 30,
+      "hn_points": 346
+    }
+  }
+}
