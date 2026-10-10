@@ -1,0 +1,94 @@
+{
+  "app_name": "Proton Drive for Linux",
+  "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+  "scored_at": "2026-10-10T13:03:35.785Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 17.2 seconds, but the tool is not available on PyPI, requiring source build."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-cli that provides a privacy‑focused FUSE mount for Proton Drive, it aligns with current cloud‑storage and privacy trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub star count or benchmark data is available to compare against similar tools like rclone (60,218 stars) or onedrive-fuse (93 stars)."
+    },
+    "community": {
+      "score": 5,
+      "justification": "There is no public repository; HN points are 97, placing the community signal in the 5‑6 range per the HN proxy rules."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "No tests are defined (0/0) and the basic run failed, indicating less than 50% functional verification."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool lacks a PyPI package and only offers CLI/FUSE modes; no explicit API or SDK information is provided."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or documentation pages were detected, and no web signals of docs quality were found."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without a repository, the only signal is HN points (97) which is below the 100‑point threshold, leading to a low maturity rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments reflect a mixed reception: some users praise the novelty and privacy benefits, while others cite trust issues, lack of features, and speed problems."
+    }
+  },
+  "summary": "Proton Drive for Linux is a CLI and FUSE filesystem that mounts Proton Drive as a local directory on Linux, enabling direct read/write access. It is built as an open‑source tool that requires an API key and is installed from source rather than via PyPI. The tool is suited for users who prioritize privacy and want a native Linux mount for Proton's cloud storage. While it offers the novelty of a privacy‑focused driver, it suffers from limited documentation, modest community signals, and a lack of performance benchmarks.",
+  "recommendation": "niche",
+  "app_url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+  "tool_url": "https://github.com/lsantos/proton-drive-linux-fs",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50003545",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "rclone",
+        "stars": 60218,
+        "repo": "rclone/rclone"
+      },
+      {
+        "name": "onedrive-fuse",
+        "stars": 93,
+        "repo": "oxalica/onedrive-fuse"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "New privacy-focused CLI",
+        "Positive user experiences with backup and speed improvements",
+        "Proton’s existing CLI support"
+      ],
+      "negative_signals": [
+        "Trust/security concerns",
+        "Limited functionality (no sync, only upload/download)",
+        "Performance and usability complaints"
+      ],
+      "justification": "Comments reflect a mixed reception: some users praise the novelty and privacy benefits, while others cite trust issues, lack of features, and speed problems.",
+      "comment_count": 30,
+      "hn_points": 97
+    }
+  }
+}
