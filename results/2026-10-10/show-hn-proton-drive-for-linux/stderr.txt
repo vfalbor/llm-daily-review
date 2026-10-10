@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 202, in <module>
+    main()
+  File "/app/test.py", line 92, in main
+    subprocess.run(['git', 'clone', 'https://github.com/lsantos/proton-drive-linux-fs.git', tmp],
+  File "/usr/local/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['git', 'clone', 'https://github.com/lsantos/proton-drive-linux-fs.git', '/tmp/tmp_ri6igdv']' returned non-zero exit status 128.
