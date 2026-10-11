@@ -1,0 +1,104 @@
+{
+  "app_name": "PSPi 6 – Raspberry Pi in a PSP",
+  "url": "https://github.com/othermod/PSPi-Version-6",
+  "scored_at": "2026-10-11T13:01:13.340Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 1816 days old and is not a fork, but the project is an incremental DIY adaptation of existing handheld Pi hacks, making it a modest innovation."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 15.6 seconds despite no PyPI package, showing the setup is relatively straightforward."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑IoT tool, it aligns with the current maker trend of repurposing consumer devices, though its niche focus limits broad relevance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 1,043 GitHub stars versus PicoPack's 10 stars (+10330%), it far outpaces similar projects, even though its clone time is 1.378× slower than PicoPack."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 1,043 stars, 4 contributors, and was updated 18 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 3 of 7 tests passed (43%), showing core functionality is limited and the user experience may be confusing."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "There is no PyPI package, no documented API, and the license field is empty, making integration into other pipelines difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 1816 days old with 41 forks and only 1 open issue, suggesting a stable but still evolving project."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark shows a clone time ratio of 1.378 compared to PicoPack, indicating it is slower rather than faster."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments reflect enthusiasm for the performance gains and DIY appeal, but also raise practical concerns about cost, power consumption, and the need to break the original PSP."
+    }
+  },
+  "summary": "PSPi 6 is a hardware project that embeds a Raspberry Pi inside a PlayStation Portable, providing firmware, schematics, and assembly instructions. It builds on the common Raspberry‑Pi‑in‑handheld approach using C code and a custom PCB, and runs locally on the device. Makers who want a portable, retro‑gaming console with a Pi core will find it useful, especially given its strong community interest shown by over a thousand stars. Its main strength is the large community support, while its limited documentation and slower performance compared to similar hacks are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/othermod/PSPi-Version-6",
+  "tool_url": "https://github.com/othermod/PSPi-Version-6",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50038623",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 1043,
+      "forks": 41,
+      "open_issues": 1,
+      "watchers": 1043,
+      "contributors": 4,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 18,
+      "days_since_created": 1816,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PicoPack",
+        "stars": 10,
+        "repo": "yisar/picopack"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "high performance Pi in PSP",
+        "interesting DIY project",
+        "affordable parts"
+      ],
+      "negative_signals": [
+        "high cost and no sleep mode",
+        "requires destroying original PSP",
+        "potential battery issues"
+      ],
+      "justification": "The comments reflect enthusiasm for the performance gains and DIY appeal, but also raise practical concerns about cost, power consumption, and the need to break the original PSP.",
+      "comment_count": 10,
+      "hn_points": 109
+    }
+  }
+}
