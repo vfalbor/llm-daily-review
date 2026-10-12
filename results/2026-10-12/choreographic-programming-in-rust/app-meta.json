@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Choreographic Programming in Rust",
+    "url": "https://github.com/hibanaworks/hibana",
+    "hn_url": "https://news.ycombinator.com/item?id=50042936",
+    "points": 3,
+    "comments": 1,
+    "author": "o8vm",
+    "age": "2026-10-11T13:05:03",
+    "scraped_at": "2026-10-12T13:00:02.895Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/hibanaworks/hibana",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-codegen",
+    "description": "A Rust library for choreographic programming that enables safe distributed interactions by generating communication protocols from high-level specifications.",
+    "use_modes": [
+      "Rust library",
+      "CLI code generator"
+    ],
+    "similar_tools": [
+      "Actix",
+      "Tokio",
+      "Mio",
+      "async-std"
+    ],
+    "proposed_tests": [
+      "Clone repo and build with Cargo",
+      "Run the provided example to generate a sample protocol",
+      "Verify that generated code compiles and passes lint checks",
+      "Measure build time for a large choreography"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/hibanaworks/hibana"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791810139449-6xmun",
+    "log_dir": "/tmp/llm-review-1791810139449-6xmun",
+    "install_success": true,
+    "install_time_s": 36,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:build_time_s:12.089\nBENCHMARK:example_run_time_s:0.531",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nINSTALL_OK | build-base\nINSTALL_OK | rust\nINSTALL_OK | cargo\nTEST_PASS:clone_repo\nTEST_PASS:cargo_build\nBENCHMARK:build_time_s:12.089\nTEST_FAIL:run_example:Downloading crates ...\n  Downloaded futures-sink v0.3.31\n  Downloaded equivalent v1.0.2\n  Downloaded futures-macro v0.3.31\n  Downloaded bytes v1.11.1\n  Downloaded pin-utils v0.1.0\n  Downloaded futures-task v0.3.31\n  Downloaded itoa v1.0.15\n  Downloaded futures-io v0.3.31\n  Downloaded serde_spanned v1.0.3\n  Downloaded toml_writer v1.0.4\n  Downloaded toml_parser v1.0.4\n  Downloaded unicode-ident v1.0.20\n  Downloaded serde v1.0.228\n  Downloaded toml v0.9.8\n  Downloaded mio v1.1.0\n  Downloaded indexmap v2.12.0\n  Downloaded winnow v0.7.13\n  Downloaded trybuild v1.0.112\n  Downloaded serde_json v1.0.145\n  Downloaded hashbrown v0.16.0\n  Downloaded futures-util v0.3.31\n  Downloaded memchr v2.7.6\n  Downloaded socket2 v0.6.2\n  Downloaded serde_derive v1.0.228\n  Downloaded syn v2.0.108\n  Downloaded serde_core v1.0.228\n  Downloaded ryu v1.0.20\n  Downloaded proc-macro2 v1.0.103\n  Downloaded toml_datetime v0.7.3\n  Downloaded static_assertions v1.1.0\n  Downloaded slab v0.4.11\n  Downloaded futures-channel v0.3.31\n  Downloaded futures v0.3.31\n  Downloaded tokio-macros v2.6.0\n  Downloaded termcolor v1.4.1\n  Downloaded target-triple v0.1.4\n  Downloaded quote v1.0.41\n  Downloaded pin-project-lite v0.2.16\n  Downloaded glob v0.3.3\n  Downloaded futures-executor v0.3.31\n  Downloaded futures-core v0.3.31\n  Downloaded tokio v1.48.0\n  Downloaded libc v0.2.177\nerror: no example target named `basic` in default-run packages\nhelp: available example targets:\n    ping_pong\nBENCHMARK:example_run_time_s:0.531\nTEST_SKIP:compile_generated:generated code directory missing\nINSTALL_FAIL:hibana:ERROR: Could not find a version that satisfies the requirement hibana (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for hibana\nINSTALL_FAIL:/tmp/hibana:[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/hibana does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_FAIL:import_hibana:No module named 'hibana'\nTEST_FAIL:core_latency:No module named 'hibana'\nINSTALL_FAIL:tokio:error: subprocess-exited-with-error\n  \n  × Getting requirements to build wheel did not run successfully.\n  │ exit code: 1\n  ╰─> [13 lines of output]\n      <string>:6: SetuptoolsDeprecationWarning: The test command is disabled and references to it are deprecated.\n      !!\n      \n              ********************************************************************************\n              Please remove any references to `setuptools.command.test` in all supported versions of the affected package.\n      \n              This deprecation is overdue, please update your project and remove deprecated\n              calls to avoid build errors in the future.\n              ********************************************************************************\n      \n      !!\n      /usr/local/bin/python: No module named pip\n      Please install setuptools-rust package\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To u"
+  }
+}
