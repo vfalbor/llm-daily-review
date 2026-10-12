@@ -1,0 +1,110 @@
+{
+  "app_name": "Doory – Open-Source Canva",
+  "url": "https://github.com/shaongitbd/doory",
+  "scored_at": "2026-10-12T13:04:33.346Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created only 2 days ago and is not a fork, but its stars (503) are far lower than similar tools (e.g., Figma 15,973), indicating it is a near-duplicate of existing design platforms."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 12.3 seconds, showing a quick setup despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a web‑CMS design tool, it addresses a niche unrelated to the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 503 stars it trails major alternatives (Figma 15,973, Photopea 8,486) and provides no benchmark advantage, offering only marginal differences."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 503 stars and 1 contributor, and was updated just 1 day ago, showing modest but recent activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provides a REST API and web‑app use mode, though no PyPI package and license is NOASSERTION."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Repository created only 2 days ago with 19 forks and 18 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons are available; only memory usage metrics were recorded, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments largely criticize the project for being a low‑effort, AI‑generated clone with poor maintenance and questionable code quality, reflecting skepticism rather than enthusiasm."
+    }
+  },
+  "summary": "Doory is an open‑source web‑based design platform that mimics Canva, offering a UI for graphics and presentations. It runs as a web app and exposes a REST API, built with TypeScript. It suits designers looking for a free, self‑hosted alternative to commercial design tools. The project installs quickly but fails all functional tests and lacks distinguishing performance or feature advantages, while community feedback on HN is largely negative.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/shaongitbd/doory",
+  "tool_url": "https://github.com/shaongitbd/doory",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50049872",
+  "domain": "web",
+  "app_type": "web-cms",
+  "enriched": {
+    "github": {
+      "stars": 503,
+      "forks": 19,
+      "open_issues": 18,
+      "watchers": 503,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 2,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Open source canva alternative",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Figma",
+        "stars": 15973,
+        "repo": "GLips/Figma-Context-MCP"
+      },
+      {
+        "name": "Adobe Spark",
+        "stars": 48,
+        "repo": "adobe-research/spark-parquet-thrift-example"
+      },
+      {
+        "name": "Photopea",
+        "stars": 8486,
+        "repo": "photopea/photopea"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [],
+      "negative_signals": [
+        "Vibe‑coded quality concerns",
+        "single‑author/low maintenance",
+        "AI‑generated code fears"
+      ],
+      "justification": "Comments largely criticize the project for being a low‑effort, AI‑generated clone with poor maintenance and questionable code quality, reflecting skepticism rather than enthusiasm.",
+      "comment_count": 30,
+      "hn_points": 145
+    }
+  }
+}
