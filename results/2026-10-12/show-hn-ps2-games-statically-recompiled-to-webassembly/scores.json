@@ -1,0 +1,114 @@
+{
+  "app_name": "Show HN: PS2 games statically recompiled to WebAssembly",
+  "url": "https://github.com/snuri00/ps2-web-recomp",
+  "scored_at": "2026-10-12T13:01:20.578Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created only 4 days ago and is not a fork, yet it tackles a unique problem of recompiling PS2 binaries to WebAssembly, which existing tools like Emscripten do not target."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) after 6.8 seconds and there is no PyPI package, indicating a difficult setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-build for WebAssembly, it aligns with current interest in running native code in browsers, though the niche PS2 focus limits broad relevance."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project has 116 stars versus 27,700 for Emscripten and 8,047 for Wasm3, and the only benchmark (import_time_ms: 142) lacks a comparative baseline."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 116 stars, 1 contributor, and was updated today (0 days since last commit), indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were executed (0/0) and the install failed, providing no evidence of usable functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project offers a CLI and WASM runtime and is MIT‑licensed, but lacks a PyPI package or documented API, giving only moderate integration potential."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about a wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repo is only 4 days old, has 4 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A single benchmark line (import_time_ms: 142) is present but lacks comparison to alternatives, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight technical impressiveness and excitement but also raise practical concerns about accurate emulation, hardware support, market viability, and legal issues."
+    }
+  },
+  "summary": "This tool statically recompiles PlayStation 2 executables into WebAssembly so they can run in browsers. It is a C++ CLI project that produces a WASM runtime bundle and does not require an API key. It is aimed at developers wanting to bring legacy PS2 games to the web, leveraging static recompilation rather than emulation. The main strength is its novel focus on PS2 binaries, but the broken installation and lack of documentation limit immediate usability.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/snuri00/ps2-web-recomp",
+  "tool_url": "https://github.com/snuri00/ps2-web-recomp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50052251",
+  "domain": "other",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 116,
+      "forks": 4,
+      "open_issues": 0,
+      "watchers": 116,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Emscripten",
+        "stars": 27700,
+        "repo": "emscripten-core/emscripten"
+      },
+      {
+        "name": "Wasm3",
+        "stars": 8047,
+        "repo": "wasm3/wasm3"
+      },
+      {
+        "name": "WebAssembly Studio",
+        "stars": 2933,
+        "repo": "wasdk/WebAssemblyStudio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive static recompilation",
+        "Cool potential for web play",
+        "Support for legacy graphics APIs"
+      ],
+      "negative_signals": [
+        "Hardware timing uncertainty",
+        "Limited market/ token costs",
+        "Legality/ copyright concerns"
+      ],
+      "justification": "Comments highlight technical impressiveness and excitement but also raise practical concerns about accurate emulation, hardware support, market viability, and legal issues.",
+      "comment_count": 30,
+      "hn_points": 96
+    }
+  }
+}
