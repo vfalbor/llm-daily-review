@@ -1,0 +1,106 @@
+{
+  "app_name": "Choreographic Programming in Rust",
+  "url": "https://github.com/hibanaworks/hibana",
+  "scored_at": "2026-10-12T13:03:19.334Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is 403 days old, is not a fork, and introduces choreographic programming unlike the similar Actix, Tokio, and Mio projects which have tens of thousands of stars."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 36 seconds, but there is no PyPI package, requiring Rust toolchain setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool-codegen library it fits the developer tooling niche but is not directly tied to the hottest LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With only 32 stars versus 24,859 (Actix) and 33,417 (Tokio), it offers a unique choreographic programming model and shows modest benchmark times (build 12.089 s, run 0.531 s)."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 32 GitHub stars, a single contributor, and was updated 1 day ago, indicating a small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 out of 6 tests passed (33%), showing core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists; the library is usable as a Rust crate and CLI, with an Apache‑2.0 license, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about wiki, GitHub Pages, or README quality was provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 403 days old, has 0 forks and 0 open issues, suggesting an early‑stage but stable codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report a build time of 12.089 s and an example run time of 0.531 s, with no comparative data to similar tools."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Choreographic Programming in Rust is a Rust library and CLI that generates safe distributed communication protocols from high‑level specifications. It is built as a Rust crate using the Apache‑2.0 license and runs locally without external API keys. The tool targets Rust developers needing formally verified distributed interactions, offering a novel choreographic approach compared to typical async frameworks. Its strength is the unique safety model, while limited community size and modest test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/hibanaworks/hibana",
+  "tool_url": "https://github.com/hibanaworks/hibana",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50042936",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 32,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 32,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "SMT",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 403,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Choreography-Derived Runtime Enforcement for Rust",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Actix",
+        "stars": 24859,
+        "repo": "actix/actix-web"
+      },
+      {
+        "name": "Tokio",
+        "stars": 33417,
+        "repo": "tokio-rs/tokio"
+      },
+      {
+        "name": "Mio",
+        "stars": 7115,
+        "repo": "tokio-rs/mio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 2
+    }
+  }
+}
