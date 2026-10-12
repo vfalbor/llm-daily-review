@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Running the unmodified Linux amdgpu driver on an iPad",
+    "url": "https://github.com/Geramy/LemonSeed-Studio",
+    "hn_url": "https://news.ycombinator.com/item?id=50041573",
+    "points": 47,
+    "comments": 16,
+    "author": "joshcsimmons",
+    "age": "2026-10-11T10:18:18",
+    "scraped_at": "2026-10-12T13:00:02.888Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/Geramy/LemonSeed-Studio",
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-queue",
+    "description": "A repository for running the Linux amdgpu driver on an iPad, enabling GPU support for iOS devices.",
+    "use_modes": [
+      "Kernel module",
+      "Device driver"
+    ],
+    "similar_tools": [
+      "Mali-GPUs on iOS",
+      "NVIDIA Driver on iOS"
+    ],
+    "proposed_tests": [
+      "Clone repository and build kernel module",
+      "Load module on an iPad device (or emulator) and verify GPU driver activation",
+      "Run a simple OpenGL ES program to confirm rendering",
+      "Check driver logs for errors or warnings"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Geramy/LemonSeed-Studio"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791810081840-3h4k1",
+    "log_dir": "/tmp/llm-review-1791810081840-3h4k1",
+    "install_success": true,
+    "install_time_s": 11.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:0.753\nBENCHMARK:git_clone_time_s:3.039\nBENCHMARK:glxinfo_check_time_ms:1.83\nBENCHMARK:driver_log_read_ms:1.88\nBENCHMARK:total_runtime_s:3.047\nBENCHMARK:memory_peak_kb:62.52\nBENCHMARK:memory_current_kb:2.02\nBENCHMARK:vs_make_minimal_build_ratio:2.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_install_time_s:0.753\nINSTALL_OK\nBENCHMARK:git_clone_time_s:3.039\nTEST_FAIL:clone_and_build:make failed: exception\nTEST_FAIL:cli_help:--help failed: exception\nBENCHMARK:glxinfo_check_time_ms:1.83\nTEST_FAIL:opengl_render:glxinfo not found, cannot test OpenGL\nBENCHMARK:driver_log_read_ms:1.88\nTEST_FAIL:driver_logs:'in <string>' requires string as left operand, not bytes\nBENCHMARK:total_runtime_s:3.047\nBENCHMARK:memory_peak_kb:62.52\nBENCHMARK:memory_current_kb:2.02\nBENCHMARK:vs_make_minimal_build_ratio:2.0\nRUN_OK\n"
+  }
+}
