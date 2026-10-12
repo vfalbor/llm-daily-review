@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+    "url": "https://github.com/snuri00/ps2-web-recomp",
+    "hn_url": "https://news.ycombinator.com/item?id=50052251",
+    "points": 96,
+    "comments": 43,
+    "author": "deadxwarrior",
+    "age": "2026-10-12T06:46:53",
+    "scraped_at": "2026-10-12T13:00:02.885Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/snuri00/ps2-web-recomp",
+    "source_type": "tool",
+    "confidence": 0.94,
+    "domain": "other",
+    "app_type": "devtool-build",
+    "description": "A project that statically recompiles PlayStation 2 binary executables to WebAssembly, enabling them to run in browsers.",
+    "use_modes": [
+      "CLI",
+      "WASM runtime"
+    ],
+    "similar_tools": [
+      "Emscripten",
+      "Wasm3",
+      "WebAssembly Studio"
+    ],
+    "proposed_tests": [
+      "Clone the repository and install dependencies via npm.",
+      "Run the build command on a sample PS2 executable and verify a .wasm file is produced.",
+      "Execute the generated wasm in a browser or node and check for expected output.",
+      "Measure build time and compare to original binary size."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/snuri00/ps2-web-recomp"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791810056746-m3sc1",
+    "log_dir": "/tmp/llm-review-1791810056746-m3sc1",
+    "install_success": false,
+    "install_time_s": 6.8,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  File \"/app/test.py\", line 85\n    const {{} } = require('wasm-bindgen'); // placeholder\n            ^\nSyntaxError: f-string: single '}' is not allowed\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n"
+  }
+}
