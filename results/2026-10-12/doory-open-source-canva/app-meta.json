@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Doory – Open-Source Canva",
+    "url": "https://github.com/shaongitbd/doory",
+    "hn_url": "https://news.ycombinator.com/item?id=50049872",
+    "points": 145,
+    "comments": 54,
+    "author": "acley",
+    "age": "2026-10-12T00:48:27",
+    "scraped_at": "2026-10-12T13:00:02.896Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/shaongitbd/doory",
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-cms",
+    "description": "An open‑source design platform inspired by Canva, providing a web‑based UI for creating graphics, presentations, and marketing materials.",
+    "use_modes": [
+      "Web app",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Figma",
+      "Adobe Spark",
+      "Photopea"
+    ],
+    "proposed_tests": [
+      "Clone repo and run the Docker image",
+      "Open the web app in a browser and create a new design canvas",
+      "Export the design as PNG and verify file integrity",
+      "Run unit tests and integration tests locally"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/shaongitbd/doory"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791810200703-e5b6q",
+    "log_dir": "/tmp/llm-review-1791810200703-e5b6q",
+    "install_success": true,
+    "install_time_s": 12.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:vs_figma_export_png_ratio:fail\nBENCHMARK:memory_peak_kb:317.39\nBENCHMARK:memory_current_kb:206.15",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:npm error code EUSAGE\nnpm error\nnpm error The `npm ci` command can only install with an existing package-lock.json or\nnpm error npm-shrinkwrap.json with lockfileVersion >= 1. Run an install with npm@5 or\nnpm error later to generate a package-lock.json file, then try again.\nnpm error\nnpm error Clean install a project\nnpm error\nnpm error Usage:\nnpm error npm ci\nnpm error\nnpm error Options:\nnpm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]\nnpm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]\nnpm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]\nnpm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts]\nnpm error [--allow-git <all|none|root>] [--no-audit] [--no-bin-links] [--no-fund]\nnpm error [--dry-run]\nnpm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]\nnpm error [--workspaces] [--include-workspace-root] [--install-links]\nnpm error\nnpm error   --install-strategy\nnpm error     Sets the strategy for installing packages in node_modules.\nnpm error\nnpm error   --legacy-bundling\nnpm error     Instead of hoisting package installs in `node_modules`, install packages\nnpm error\nnpm error   --global-style\nnpm error     Only install direct dependencies in the top level `node_modules`,\nnpm error\nnpm error   --omit\nnpm error     Dependency types to omit from the installation tree on disk.\nnpm error\nnpm error   --include\nnpm error     Option that allows for defining which types of dependencies to install.\nnpm error\nnpm error   --strict-peer-deps\nnpm error     If set to `true`, and `--legacy-peer-deps` is not set, then _any_\nnpm error\nnpm error   --foreground-scripts\nnpm error     Run all build scripts (ie, `preinstall`, `install`, and\nnpm error\nnpm error   --ignore-scripts\nnpm error     If true, npm does not run scripts specified in package.json files.\nnpm error\nnpm error   --allow-git\nnpm error     Limits the ability for npm to fetch dependencies from git references.\nnpm error\nnpm error   --audit\nnpm error     When \"true\" submit audit reports alongside the current npm command to the\nnpm error\nnpm error   --bin-links\nnpm error     Tells npm to create symlinks (or `.cmd` shims on Windows) for package\nnpm error\nnpm error   --fund\nnpm error     When \"true\" displays the message at the end of each `npm install`\nnpm error\nnpm error   --dry-run\nnpm error     Indicates that you don't want npm to make any changes and that it should\nnpm error\nnpm error   -w|--workspace\nnpm error     Enable running a command in the context of the configured workspaces of the\nnpm error\nnpm error   --workspaces\nnpm error     Set to true to run the command in the context of **all** configured\nnpm error\nnpm error   --include-workspace-root\nnpm error     Include the workspace root when workspaces are enabled for a command.\nnpm error\nnpm error   --install-links\nnpm error     When set file: protocol dependencies will be packed and installed as\nnpm error\nnpm error\nnpm error aliases: clean-install, ic, install-clean, isntall-clean\nnpm error\nnpm error Run \"npm help ci\" for more info\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-12T13_03_47_448Z-debug-0.log\nINSTALL_OK\nTEST_FAIL:health_check:HTTP Error 404: Not Found\nTEST_FAIL:create_canvas:404_Not Found\nTEST_FAIL:export_png:HTTP Error 404: Not Found"
+  }
+}
