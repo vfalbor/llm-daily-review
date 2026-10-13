@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+    "url": "https://github.com/composo-ai/DishwasherBench",
+    "hn_url": "https://news.ycombinator.com/item?id=50068437",
+    "points": 68,
+    "comments": 35,
+    "author": "mlukewizard",
+    "age": "2026-10-13T08:24:06",
+    "scraped_at": "2026-10-13T13:00:03.212Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/composo-ai/DishwasherBench",
+    "confidence": 0.89,
+    "domain": "research-dataset",
+    "app_type": "research-dataset",
+    "description": "Benchmark suite to evaluate large language models on a kitchen appliance scenario.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "GLUE",
+      "SuperGLUE",
+      "GLUEbench"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies.",
+      "Run the full benchmark on a small model and record accuracy.",
+      "Measure inference latency per task.",
+      "Compare results against the published leaderboard."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/composo-ai/DishwasherBench"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791896499687-gdzow",
+    "log_dir": "/tmp/llm-review-1791896499687-gdzow",
+    "install_success": true,
+    "install_time_s": 15.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.81\nBENCHMARK:git_clone_time_s:7.58",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 145, in <module>\n    main()\n  File \"/app/test.py\", line 110, in main\n    os.chdir(clone_dir)\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/DishwasherBench'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.81\nINSTALL_FAIL:git clone - Cloning into '/tmp/DishwasherBench'...\nfatal: write error: No space left on device\nfatal: fetch-pack: invalid index-pack output\nBENCHMARK:git_clone_time_s:7.58\n"
+  }
+}
