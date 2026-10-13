@@ -1,0 +1,357 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.5-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+TEST_PASS:clone_repo
+BENCHMARK:clone_time_s:0.000
+BENCHMARK:source_files_count:354
+BENCHMARK:source_languages:{".md": 13, ".py": 79, ".c": 52, ".json": 2, ".seed": 1, ".fragment": 1, ".conf": 2, ".patch": 34, ".dts": 3, ".dtsi": 2, ".h": 115, ".config": 1, ".mt76": 1, ".service": 1, ".cpp": 12, ".sh": 1, ".css": 1, ".js": 2, ".html": 1, ".svg": 1, ".s": 8, ".png": 3, ".gif": 1, ".0": 1, ".idx": 1, ".rev": 1, ".pack": 1, ".sample": 13}
+TEST_PASS:count_source
+TEST_PASS:run_example:tools/check_hw_names.py
+BENCHMARK:example_tools/check_hw_names.py_runtime_s:0.635
+TEST_PASS:run_example:tests/test_stream.py
+BENCHMARK:example_tests/test_stream.py_runtime_s:0.159
+TEST_PASS:run_example:tests/test_spectrum_server.py
+BENCHMARK:example_tests/test_spectrum_server.py_runtime_s:0.121
+TEST_PASS:run_example:tests/test_recv.py
+BENCHMARK:example_tests/test_recv.py_runtime_s:0.111
+TEST_PASS:run_example:tests/test_platform_partitions.py
+BENCHMARK:example_tests/test_platform_partitions.py_runtime_s:0.379
+TEST_PASS:run_example:tests/test_platform_images.py
+BENCHMARK:example_tests/test_platform_images.py_runtime_s:0.259
+TEST_PASS:run_example:tests/test_platform_board.py
+BENCHMARK:example_tests/test_platform_board.py_runtime_s:0.150
+TEST_PASS:run_example:tests/test_platform_bmt.py
+BENCHMARK:example_tests/test_platform_bmt.py_runtime_s:0.130
+TEST_PASS:run_example:tests/test_kernel_mmio.py
+BENCHMARK:example_tests/test_kernel_mmio.py_runtime_s:0.097
+TEST_PASS:run_example:tests/test_kernel_fwdl.py
+BENCHMARK:example_tests/test_kernel_fwdl.py_runtime_s:0.100
+TEST_PASS:run_example:tests/test_kernel_dma.py
+BENCHMARK:example_tests/test_kernel_dma.py_runtime_s:0.123
+TEST_PASS:run_example:tests/test_kernel_abi.py
+BENCHMARK:example_tests/test_kernel_abi.py_runtime_s:0.147
+TEST_PASS:run_example:tests/test_init_tftpd.py
+BENCHMARK:example_tests/test_init_tftpd.py_runtime_s:0.317
+TEST_PASS:run_example:tests/test_init_serial_console.py
+BENCHMARK:example_tests/test_init_serial_console.py_runtime_s:0.631
+TEST_PASS:run_example:tests/test_init_restore.py
+BENCHMARK:example_tests/test_init_restore.py_runtime_s:14.204
+TEST_PASS:run_example:tests/test_init_rawdump.py
+BENCHMARK:example_tests/test_init_rawdump.py_runtime_s:6.796
+TEST_PASS:run_example:tests/test_init_install.py
+BENCHMARK:example_tests/test_init_install.py_runtime_s:6.676
+TEST_PASS:run_example:tests/test_init_host.py
+BENCHMARK:example_tests/test_init_host.py_runtime_s:0.092
+TEST_PASS:run_example:tests/test_init_eeprom.py
+BENCHMARK:example_tests/test_init_eeprom.py_runtime_s:0.186
+TEST_PASS:run_example:tests/test_host_wm.py
+BENCHMARK:example_tests/test_host_wm.py_runtime_s:0.554
+TEST_PASS:run_example:tests/test_host_unit.py
+BENCHMARK:example_tests/test_host_unit.py_runtime_s:0.188
+TEST_PASS:run_example:tests/test_host_stream.py
+BENCHMARK:example_tests/test_host_stream.py_runtime_s:0.155
+TEST_PASS:run_example:tests/test_host_rf.py
+BENCHMARK:example_tests/test_host_rf.py_runtime_s:0.162
+TEST_PASS:run_example:tests/test_host_firmware.py
+BENCHMARK:example_tests/test_host_firmware.py_runtime_s:0.130
+TEST_PASS:run_example:tests/test_host_controller.py
+BENCHMARK:example_tests/test_host_controller.py_runtime_s:5.499
+TEST_PASS:run_example:tests/test_firmware_radio.py
+BENCHMARK:example_tests/test_firmware_radio.py_runtime_s:0.122
+TEST_FAIL:run_example:tests/test_firmware_own.py:sssE.E
+======================================================================
+ERROR: test_reader_refusals (__main__.Sealing.test_reader_refusals)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/tests/test_firmware_own.py", line 54, in test_reader_refusals
+    image = container.ram_container([(0x00916400, b'x' * 40, 0x21)], '0123456789', '1')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/container.py", line 49, in ram_container
+    bodies = [_region(payload, feature) for _, payload, feature in regions]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/container.py", line 30, in _region
+    body = aes.cbc_zero(body, encrypt=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/aes.py", line 19, in cbc_zero
+    raise SystemExit('the firmware build needs the openssl command')
+SystemExit: the firmware build needs the openssl command
+
+======================================================================
+ERROR: test_round_trip (__main__.Sealing.test_round_trip)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/tests/test_firmware_own.py", line 31, in test_round_trip
+    image = container.ram_container([(0x00916400, code, 0x21), (0x00407200, b'\x55' * 32, 0x01),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/container.py", line 49, in ram_container
+    bodies = [_region(payload, feature) for _, payload, feature in regions]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/container.py", line 30, in _region
+    body = aes.cbc_zero(body, encrypt=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/firmware/aes.py", line 19, in cbc_zero
+    raise SystemExit('the firmware build needs the openssl command')
+SystemExit: the firmware build needs the openssl command
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (errors=2, skipped=3)
+BENCHMARK:example_tests/test_firmware_own.py_runtime_s:0.118
+TEST_PASS:run_example:tests/stream_shm.py
+BENCHMARK:example_tests/stream_shm.py_runtime_s:0.021
+TEST_FAIL:run_example:tests/spectrum_fake_controller.py:usage: spectrum_fake_controller.py [-h] --log LOG [--tuning-file TUNING_FILE]
+                                   [--progress-delay PROGRESS_DELAY]
+spectrum_fake_controller.py: error: the following arguments are required: --log
+BENCHMARK:example_tests/spectrum_fake_controller.py_runtime_s:0.049
+TEST_PASS:run_example:tests/platform_bmt_model.py
+BENCHMARK:example_tests/platform_bmt_model.py_runtime_s:0.022
+TEST_PASS:run_example:tests/kernel_build.py
+BENCHMARK:example_tests/kernel_build.py_runtime_s:0.053
+TEST_PASS:run_example:tests/init_fake_unit.py
+BENCHMARK:example_tests/init_fake_unit.py_runtime_s:0.076
+TEST_PASS:run_example:tests/host_fake.py
+BENCHMARK:example_tests/host_fake.py_runtime_s:0.112
+TEST_PASS:run_example:platform/uboot.py
+BENCHMARK:example_platform/uboot.py_runtime_s:0.108
+TEST_PASS:run_example:platform/partitions.py
+BENCHMARK:example_platform/partitions.py_runtime_s:0.060
+TEST_FAIL:run_example:platform/images.py:images.py: /tmp/w1700k-sdr/platform/build/linux/arch/arm64/boot/Image is missing; build it first (see the top-level Makefile)
+BENCHMARK:example_platform/images.py_runtime_s:0.118
+TEST_FAIL:run_example:platform/fetch.py:fetch.py: cannot download https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.52.tar.xz: [Errno 28] No space left on device
+BENCHMARK:example_platform/fetch.py_runtime_s:26.680
+TEST_PASS:run_example:platform/fdt.py
+BENCHMARK:example_platform/fdt.py_runtime_s:0.021
+TEST_PASS:run_example:platform/buildlib.py
+BENCHMARK:example_platform/buildlib.py_runtime_s:0.063
+TEST_FAIL:run_example:platform/rootfs/build.py:usage: build.py [-h] {toolchain,image}
+build.py: error: the following arguments are required: step
+BENCHMARK:example_platform/rootfs/build.py_runtime_s:0.135
+TEST_FAIL:run_example:platform/restorer/build.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/platform/restorer/build.py", line 111, in <module>
+    main_guard(main)
+  File "/tmp/w1700k-sdr/platform/buildlib.py", line 176, in main_guard
+    sys.exit(function())
+             ^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/restorer/build.py", line 84, in main
+    src = uboot.prepare('restorer', patches(), FILES, partitions.policy_header('uenv'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/uboot.py", line 28, in prepare
+    fetch.extract(fetch.uboot_archive(), src)
+  File "/tmp/w1700k-sdr/platform/fetch.py", line 57, in extract
+    tar.extractall(temporary, filter='data')
+  File "/usr/local/lib/python3.12/tarfile.py", line 2359, in extractall
+    self._extract_one(tarinfo, path, set_attrs=not tarinfo.isdir(),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2469, in _extract_one
+    self._handle_fatal_error(e)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2463, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2552, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2609, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/usr/local/lib/python3.12/tarfile.py", line 254, in copyfileobj
+    dst.write(buf)
+OSError: [Errno 28] No space left on device
+BENCHMARK:example_platform/restorer/build.py_runtime_s:4.722
+TEST_FAIL:run_example:platform/loader/build.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/platform/loader/build.py", line 114, in <module>
+    main_guard(main)
+  File "/tmp/w1700k-sdr/platform/buildlib.py", line 176, in main_guard
+    sys.exit(function())
+             ^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/loader/build.py", line 83, in main
+    src = uboot.prepare('loader', patches(), FILES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/uboot.py", line 28, in prepare
+    fetch.extract(fetch.uboot_archive(), src)
+  File "/tmp/w1700k-sdr/platform/fetch.py", line 57, in extract
+    tar.extractall(temporary, filter='data')
+  File "/usr/local/lib/python3.12/tarfile.py", line 2359, in extractall
+    self._extract_one(tarinfo, path, set_attrs=not tarinfo.isdir(),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2469, in _extract_one
+    self._handle_fatal_error(e)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2463, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2552, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2609, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/usr/local/lib/python3.12/tarfile.py", line 254, in copyfileobj
+    dst.write(buf)
+OSError: [Errno 28] No space left on device
+BENCHMARK:example_platform/loader/build.py_runtime_s:3.640
+TEST_FAIL:run_example:platform/linux/build.py:build.py: no cross compiler; run platform/rootfs/build.py toolchain first
+BENCHMARK:example_platform/linux/build.py_runtime_s:0.109
+TEST_PASS:run_example:platform/linux/board_check.py
+BENCHMARK:example_platform/linux/board_check.py_runtime_s:0.070
+TEST_FAIL:run_example:platform/dumper/build.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/platform/dumper/build.py", line 125, in <module>
+    main_guard(main)
+  File "/tmp/w1700k-sdr/platform/buildlib.py", line 176, in main_guard
+    sys.exit(function())
+             ^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/dumper/build.py", line 101, in main
+    src = uboot.prepare('dumper', patches(), FILES)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/w1700k-sdr/platform/uboot.py", line 28, in prepare
+    fetch.extract(fetch.uboot_archive(), src)
+  File "/tmp/w1700k-sdr/platform/fetch.py", line 57, in extract
+    tar.extractall(temporary, filter='data')
+  File "/usr/local/lib/python3.12/tarfile.py", line 2359, in extractall
+    self._extract_one(tarinfo, path, set_attrs=not tarinfo.isdir(),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2469, in _extract_one
+    self._handle_fatal_error(e)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2463, in _extract_one
+    self._extract_member(tarinfo, os.path.join(path, tarinfo.name),
+  File "/usr/local/lib/python3.12/tarfile.py", line 2552, in _extract_member
+    self.makefile(tarinfo, targetpath)
+  File "/usr/local/lib/python3.12/tarfile.py", line 2609, in makefile
+    copyfileobj(source, target, tarinfo.size, ReadError, bufsize)
+  File "/usr/local/lib/python3.12/tarfile.py", line 254, in copyfileobj
+    dst.write(buf)
+OSError: [Errno 28] No space left on device
+BENCHMARK:example_platform/dumper/build.py_runtime_s:3.680
+TEST_FAIL:run_example:init/initkit/update.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/update.py", line 9, in <module>
+    from . import config, layout, provision, stock, steps
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/update.py_runtime_s:0.021
+TEST_PASS:run_example:init/initkit/uart.py
+BENCHMARK:example_init/initkit/uart.py_runtime_s:0.064
+TEST_FAIL:run_example:init/initkit/tftp.py:usage: tftp.py [-h] --root ROOT --listen ADDR:PORT [--allow-write]
+               [--overwrite] [--timeout TIMEOUT] [--retries RETRIES]
+               [--windowsize WINDOWSIZE] [--once] [--priority]
+tftp.py: error: the following arguments are required: --root, --listen
+BENCHMARK:example_init/initkit/tftp.py_runtime_s:0.075
+TEST_FAIL:run_example:init/initkit/stock.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/stock.py", line 15, in <module>
+    from .console import StepFailed, command, verify_fit
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/stock.py_runtime_s:0.044
+TEST_FAIL:run_example:init/initkit/steps.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/steps.py", line 11, in <module>
+    from . import config, console as unit, layout, nand as parts, stock
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/steps.py_runtime_s:0.067
+TEST_FAIL:run_example:init/initkit/session.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/session.py", line 10, in <module>
+    from . import tftp, uart
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/session.py_runtime_s:0.069
+TEST_FAIL:run_example:init/initkit/restore.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/restore.py", line 28, in <module>
+    from . import backup, config, nand as parts, stock
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/restore.py_runtime_s:0.046
+TEST_FAIL:run_example:init/initkit/rawdump.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/rawdump.py", line 26, in <module>
+    from . import backup, config, nand as parts, stock
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/rawdump.py_runtime_s:0.046
+TEST_FAIL:run_example:init/initkit/provision.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/provision.py", line 24, in <module>
+    from . import config
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/provision.py_runtime_s:0.090
+TEST_FAIL:run_example:init/initkit/nand.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/nand.py", line 11, in <module>
+    from .config import partitions
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/nand.py_runtime_s:0.036
+TEST_PASS:run_example:init/initkit/log.py
+BENCHMARK:example_init/initkit/log.py_runtime_s:0.075
+TEST_FAIL:run_example:init/initkit/layout.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/layout.py", line 9, in <module>
+    from .config import partitions
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/layout.py_runtime_s:0.021
+TEST_FAIL:run_example:init/initkit/install.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/install.py", line 21, in <module>
+    from . import backup, config, layout, nand as parts, provision, stock, steps
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/install.py_runtime_s:0.020
+TEST_PASS:run_example:init/initkit/console.py
+BENCHMARK:example_init/initkit/console.py_runtime_s:0.042
+TEST_PASS:run_example:init/initkit/config.py
+BENCHMARK:example_init/initkit/config.py_runtime_s:0.053
+TEST_FAIL:run_example:init/initkit/backup.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/init/initkit/backup.py", line 20, in <module>
+    from .config import partitions
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_init/initkit/backup.py_runtime_s:0.053
+TEST_PASS:run_example:init/initkit/__init__.py
+BENCHMARK:example_init/initkit/__init__.py_runtime_s:0.022
+TEST_FAIL:run_example:host/w1700k/wm.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/wm.py", line 17, in <module>
+    from . import rf
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/wm.py_runtime_s:0.028
+TEST_PASS:run_example:host/w1700k/unit.py
+BENCHMARK:example_host/w1700k/unit.py_runtime_s:0.106
+TEST_FAIL:run_example:host/w1700k/stream.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/stream.py", line 20, in <module>
+    from . import wm as wm_mod
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/stream.py_runtime_s:0.062
+TEST_FAIL:run_example:host/w1700k/rf.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/rf.py", line 20, in <module>
+    from .radio import LO_RANGE
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/rf.py_runtime_s:0.055
+TEST_FAIL:run_example:host/w1700k/radio.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/radio.py", line 13, in <module>
+    from .unit import DEVICE, Step, UnitError
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/radio.py_runtime_s:0.067
+TEST_PASS:run_example:host/w1700k/firmware.py
+BENCHMARK:example_host/w1700k/firmware.py_runtime_s:0.093
+TEST_FAIL:run_example:host/w1700k/controller.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/controller.py", line 31, in <module>
+    from . import config, firmware, rf, wm
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/controller.py_runtime_s:0.052
+TEST_PASS:run_example:host/w1700k/config.py
+BENCHMARK:example_host/w1700k/config.py_runtime_s:0.074
+TEST_FAIL:run_example:host/w1700k/cli.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/cli.py", line 31, in <module>
+    from . import config as config_mod
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/cli.py_runtime_s:0.049
+TEST_FAIL:run_example:host/w1700k/__main__.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/host/w1700k/__main__.py", line 4, in <module>
+    from .cli import main
+ImportError: attempted relative import with no known parent package
+BENCHMARK:example_host/w1700k/__main__.py_runtime_s:0.018
+TEST_PASS:run_example:host/w1700k/__init__.py
+BENCHMARK:example_host/w1700k/__init__.py_runtime_s:0.017
+TEST_PASS:run_example:firmware/own.py
+BENCHMARK:example_firmware/own.py_runtime_s:0.074
+TEST_PASS:run_example:firmware/container.py
+BENCHMARK:example_firmware/container.py_runtime_s:0.059
+TEST_FAIL:run_example:firmware/build.py:the firmware build needs the openssl command
+BENCHMARK:example_firmware/build.py_runtime_s:0.103
+TEST_PASS:run_example:firmware/aes.py
+BENCHMARK:example_firmware/aes.py_runtime_s:0.048
+TEST_PASS:run_example:firmware/stream/blob.py
+BENCHMARK:example_firmware/stream/blob.py_runtime_s:0.076
+TEST_FAIL:run_example:firmware/rom_patch/patch.py:Traceback (most recent call last):
+  File "/tmp/w1700k-sdr/firmware/rom_patch/patch.py", line 28, in <module>
+    import aes
+ModuleNotFoundError: No module named 'aes'
+BENCHMARK:example_firmware/rom_patch/patch.py_runtime_s:0.079
+BENCHMARK:vs_hackrf_runtime_ratio:0.065
+RUN_OK
