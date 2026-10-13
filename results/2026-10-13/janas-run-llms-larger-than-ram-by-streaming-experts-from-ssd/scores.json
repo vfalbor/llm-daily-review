@@ -1,0 +1,138 @@
+{
+  "app_name": "Janas",
+  "url": "https://github.com/prabanta-dev/janas",
+  "scored_at": "2026-10-13T13:01:38.206Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 23 days ago and is not a fork, introducing a streaming‑from‑SSD approach not seen in vLLM, FlashInfer, or Llama.cpp, indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 21.4 seconds and the package is on PyPI, requiring only Python ≥3.8 and no external API key."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm‑inference tool that lets large models run on limited RAM, it addresses a hot pain point in current LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Janas has 247 stars versus 93,712 for vLLM and 131,011 for Llama.cpp, but offers the unique streaming‑weights capability; benchmark notes show an import time of 142 ms, a concrete performance claim."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 247 stars, 1 contributor, and was updated today, placing it in the 100–1k star range with active recent maintenance."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) despite a successful install, indicating core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package is available, the project provides both a CLI and a Python API, and it is licensed under GPL‑3.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 23 days old, has 15 forks and 4 open issues, indicating early‑stage development with some community interest."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows an import time of 142 ms, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show enthusiasm for the novel streaming concept and its local‑usage potential, but many users express doubts about speed, benchmark reliability, and model support, leading to a generally positive but cautious reception."
+    }
+  },
+  "summary": "Janas is an open‑source LLM inference framework that streams model weights from SSD to run models larger than available RAM. It offers a CLI and a Python API and is distributed via PyPI without requiring an external API key. The tool is aimed at developers who need to deploy large language models on commodity hardware, leveraging its unique streaming architecture. While the streaming concept is praised in HN comments, current benchmarks are sparse and test coverage is low, leading to functional reliability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/prabanta-dev/janas",
+  "tool_url": "https://github.com/prabanta-dev/janas",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50063717",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 247,
+      "forks": 15,
+      "open_issues": 4,
+      "watchers": 247,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 23,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than your RAM, pure C, CPU or GPU.",
+      "topics": [
+        "avx2",
+        "c",
+        "cpu-inference",
+        "gguf",
+        "inference-engine",
+        "linux",
+        "llm",
+        "local-llm",
+        "mixture-of-experts",
+        "moe",
+        "nvme",
+        "quantization",
+        "qwen3",
+        "simd",
+        "speculative-decoding",
+        "vulkan"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "vLLM",
+        "stars": 93712,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "FlashInfer",
+        "stars": 6607,
+        "repo": "flashinfer-ai/flashinfer"
+      },
+      {
+        "name": "Llama.cpp",
+        "stars": 131011,
+        "repo": "ggml-org/llama.cpp"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.2.3",
+      "summary": "Pipeline for per-particle selection and 3D class reassignment in single-particle cryo-EM.",
+      "requires_python": ">=3.8",
+      "license": "MIT",
+      "home_page": "https://gitlab.com/topf-lab/janas"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Innovative streaming approach",
+        "Potential to run large models locally",
+        "Community interest in performance"
+      ],
+      "negative_signals": [
+        "Concerns over speed and latency",
+        "Limited model support and hallucinations",
+        "Uncertain benchmark validity"
+      ],
+      "justification": "Comments show enthusiasm for the novel streaming concept and its local‑usage potential, but many users express doubts about speed, benchmark reliability, and model support, leading to a generally positive but cautious reception.",
+      "comment_count": 30,
+      "hn_points": 178
+    }
+  }
+}
