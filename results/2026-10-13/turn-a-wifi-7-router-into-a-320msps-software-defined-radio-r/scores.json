@@ -1,0 +1,114 @@
+{
+  "app_name": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+  "url": "https://github.com/h0m3us3r/w1700k-sdr",
+  "scored_at": "2026-10-13T13:04:31.574Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 1 day ago, not a fork, and repurposes a WiFi 7 router for SDR—a genuinely new approach compared to existing tools."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 89.2 s and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a hardware‑IoT SDR tool, it addresses the current demand for low‑cost high‑speed radio receivers in the LLM‑driven signal‑processing community."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 525 stars versus 8,150 for hackrf and 4,106 for SDRangel, and its benchmark import time of 142 ms shows comparable speed while offering a unique router‑based form factor."
+    },
+    "community": {
+      "score": 6,
+      "justification": "525 GitHub stars (100‑1k range), 1 contributor, and 0 days since last commit indicate an active but still‑small community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "51 of 81 tests passed (63 %), and install succeeded, demonstrating core functionality works with reasonable usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package, but the project provides a CLI and a Python API; license is NOASSERTION, so integration requires manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Repository created 1 day ago, 51 forks, and only 2 open issues suggest an early‑stage project still stabilizing."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark runtimes are listed (e.g., import_time_ms 142) but no comparative data to alternatives, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "HN sentiment score is 8/10 with 375 points and 30 comments, indicating strong positive community perception."
+    }
+  },
+  "summary": "This tool turns a WiFi 7 router into a 320 Msps software‑defined radio receiver using custom firmware and a Python API. It runs locally on the router hardware and is accessed via command‑line or Python calls. It is aimed at hobbyist ham‑radio enthusiasts and security researchers who need a cheap high‑speed SDR. Its standout strength is the cost‑effective, high‑performance conversion of consumer hardware, while its main caveat is the immature codebase and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/h0m3us3r/w1700k-sdr",
+  "tool_url": "https://github.com/h0m3us3r/w1700k-sdr",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50055593",
+  "domain": "hardware-iot",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 525,
+      "forks": 51,
+      "open_issues": 2,
+      "watchers": 525,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "sdrplay",
+        "stars": 122,
+        "repo": "pothosware/SoapySDRPlay3"
+      },
+      {
+        "name": "hackrf",
+        "stars": 8150,
+        "repo": "greatscottgadgets/hackrf"
+      },
+      {
+        "name": "SDRangel",
+        "stars": 4106,
+        "repo": "f4exb/sdrangel"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 51,
+    "tests_total": 81,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "cost-effective high-speed SDR",
+        "breakthrough for ham radio",
+        "valuable reverse engineering documentation"
+      ],
+      "negative_signals": [
+        "complex technical jargon",
+        "limited scope of proof-of-concept",
+        "mixed skepticism about novelty"
+      ],
+      "justification": "The majority of comments praise the low cost and high performance of converting a WiFi 7 router into an SDR, highlighting its breakthrough nature for ham radio and signal analysis. Some users note the dense technical language and the project’s proof‑of‑concept limits, but overall sentiment is very positive with only minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 375
+    }
+  }
+}
