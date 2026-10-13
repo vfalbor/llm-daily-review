@@ -1,0 +1,119 @@
+{
+  "app_name": "SolidCraft",
+  "url": "https://github.com/bherbruck/solidcraft",
+  "scored_at": "2026-10-13T13:05:42.497Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo is only 5 days old, is not a fork, and replicates functionality of established tools like OpenSCAD (10,434 stars) and CadQuery (5,925 stars), indicating it is a near‑duplicate."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 33.4 s, exceeding the <30 s ideal, and there is no PyPI package, requiring a Rust build."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI for parametric CAD with AI integration, it aligns modestly with current LLM workflow trends but serves a niche CAD audience."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "SolidCraft has 1,462 stars, far fewer than OpenSCAD (‑8,972 stars) and CadQuery (‑4,463 stars), and provides no benchmark advantage, showing limited differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,462 stars, 36 contributors, and was updated today (0 days since last commit), indicating an active but still growing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0 %), and while the basic run succeeded, the failing tests indicate core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "There is no PyPI package, but the project offers a Rust library and CLI under an Apache‑2.0 license, allowing manual integration with some glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 5 days old, has 132 forks and 190 open issues, suggesting early‑stage development and limited stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A single benchmark line reports install_time_s = 14.84 s, but no comparative performance data are available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the open‑source Rust kernel and AI integration, noting 3D printing export capabilities, while a few raise concerns about copying existing CAD systems and potential geometry issues."
+    }
+  },
+  "summary": "SolidCraft is a Rust‑based parametric CAD engine that provides a CLI, a Rust library, and optional GUI for generating 3D models with Metal‑Capped‑Pipes support. It builds on the same concepts as OpenSCAD and CadQuery, using a Rust kernel and offering AI‑controlled workflows. The tool targets developers and advanced CAD users who need a programmable, open‑source alternative for custom geometry and 3D printing export. While its open‑source Rust core and AI integration are praised, the project is brand‑new, has limited differentiation from established CAD tools, and currently lacks comprehensive documentation and performance benchmarks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/bherbruck/solidcraft",
+  "tool_url": "https://github.com/bherbruck/solidcraft",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50064840",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1462,
+      "forks": 132,
+      "open_issues": 190,
+      "watchers": 1462,
+      "contributors": 36,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenSCAD",
+        "stars": 10434,
+        "repo": "openscad/openscad"
+      },
+      {
+        "name": "CadQuery",
+        "stars": 5925,
+        "repo": "CadQuery/cadquery"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Open‑source Rust kernel",
+        "AI‑controlled parametric workflow",
+        "3D printing export support"
+      ],
+      "negative_signals": [
+        "Skepticism about copying existing CAD",
+        "Concerns over slivers and geometry bugs",
+        "Limited UI/UX criticism"
+      ],
+      "justification": "Most comments praise the open‑source Rust kernel and AI integration, noting 3D printing export capabilities, while a few raise concerns about copying existing CAD systems and potential geometry issues.",
+      "comment_count": 19,
+      "hn_points": 87
+    }
+  }
+}
