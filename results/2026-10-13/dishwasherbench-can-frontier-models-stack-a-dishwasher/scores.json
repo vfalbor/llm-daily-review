@@ -1,0 +1,121 @@
+{
+  "app_name": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+  "url": "https://github.com/composo-ai/DishwasherBench",
+  "scored_at": "2026-10-13T13:02:46.807Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo was created only 1 day ago and is not a fork, but it mirrors existing GLUE-style benchmarks that have >15,000 stars, indicating a near‑duplicate approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) in 15.6 seconds, but there is no PyPI package, requiring a git install which adds moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research‑dataset benchmark for LLMs, it aligns with the current focus on evaluating frontier models in realistic scenarios."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has only 32 stars compared to GLUE's 15,766 and SuperGLUE's 4,095, showing minimal differentiation from established benchmarks."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repository has 32 stars, a single contributor, and was updated today, indicating a very small but recently active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "No tests were defined (0/0) and the basic run failed, suggesting core functionality is not yet usable out of the box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "While there is no PyPI package, the tool offers a CLI and Python API and is MIT‑licensed, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is 1 day old, has 2 forks and 58 open issues, indicating an early‑stage project with many pending concerns."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results for model performance were reported; only install‑time metrics are available, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments show enthusiasm for a playful and novel LLM benchmark, with many users sharing personal dishwasher anecdotes and humor, but a few express skepticism about the uniqueness of the idea and question the simulation's realism."
+    }
+  },
+  "summary": "DishwasherBench is a benchmark suite that evaluates large language models on a kitchen appliance scenario using a CLI and Python API. It was created a day ago and builds on the GLUE benchmarking paradigm without offering novel metrics. The tool targets researchers who need a quick, toy‑style evaluation of frontier models, but its minimal star count and lack of documented performance make it a niche, experimental option.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/composo-ai/DishwasherBench",
+  "tool_url": "https://github.com/composo-ai/DishwasherBench",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50068437",
+  "domain": "research-dataset",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": {
+      "stars": 32,
+      "forks": 2,
+      "open_issues": 58,
+      "watchers": 32,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A dishwasher-loading game on a physical simulation of one real machine, built to benchmark language models and playable in a browser. The game inside is called Spotless.",
+      "topics": [
+        "ai-agents",
+        "benchmark",
+        "evaluation",
+        "game",
+        "llm",
+        "llm-benchmark",
+        "mcp",
+        "physics-simulation",
+        "simulation",
+        "typescript",
+        "webgpu"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GLUE",
+        "stars": 15766,
+        "repo": "passteque/gluetun"
+      },
+      {
+        "name": "SuperGLUE",
+        "stars": 4095,
+        "repo": "magicleap/SuperGluePretrainedNetwork"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Creative benchmarking idea",
+        "Engaged and supportive community",
+        "Humor and personal anecdotes"
+      ],
+      "negative_signals": [
+        "Skepticism about novelty",
+        "Comments about existing research",
+        "Some confusion over simulation quality"
+      ],
+      "justification": "The comments show enthusiasm for a playful and novel LLM benchmark, with many users sharing personal dishwasher anecdotes and humor, but a few express skepticism about the uniqueness of the idea and question the simulation's realism.",
+      "comment_count": 30,
+      "hn_points": 68
+    }
+  }
+}
