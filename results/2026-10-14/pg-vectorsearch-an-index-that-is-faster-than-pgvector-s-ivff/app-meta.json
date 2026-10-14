@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+    "url": "https://github.com/timescale/pg_vectorsearch",
+    "hn_url": "https://news.ycombinator.com/item?id=50086165",
+    "points": 34,
+    "comments": 7,
+    "author": "jascha_eng",
+    "age": "2026-10-14T11:47:53",
+    "scraped_at": "2026-10-14T13:00:03.630Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/timescale/pg_vectorsearch",
+    "confidence": 0.94,
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "PostgreSQL extension providing high-performance vector search index surpassing pgvector's IVFFlat and HNSW.",
+    "use_modes": [
+      "PostgreSQL extension",
+      "SQL functions"
+    ],
+    "similar_tools": [
+      "pgvector",
+      "TimescaleDB vector",
+      "ZomboDB"
+    ],
+    "proposed_tests": [
+      "Clone repo and build extension against PostgreSQL 15",
+      "Create test table, insert 10,000 random vectors",
+      "Run similarity query using Pg_vectorsearch index, measure latency",
+      "Compare query performance against pgvector's IVFFlat"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/timescale/pg_vectorsearch"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791982876534-7v95d",
+    "log_dir": "/tmp/llm-review-1791982876534-7v95d",
+    "install_success": true,
+    "install_time_s": 24.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 239, in <module>\n    main()\n  File \"/app/test.py\", line 232, in main\n    test_query_performance()\n  File \"/app/test.py\", line 157, in test_query_performance\n    if conn:\n       ^^^^\nUnboundLocalError: cannot access local variable 'conn' where it is not associated with a value\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:test_clone_and_build:make failed: make: meson: No such file or directory\nmake: *** [Makefile:56: builddir/build.ninja] Error 127\n\nTEST_FAIL:test_insert_vectors:connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n\nTEST_FAIL:test_query_performance:connection to server at \"localhost\" (127.0.0.1), port 5432 failed: Connection refused\n\tIs the server running on that host and accepting TCP/IP connections?\n\n"
+  }
+}
