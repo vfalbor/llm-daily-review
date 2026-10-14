@@ -1,0 +1,125 @@
+{
+  "app_name": "FCSS 2: Utility CSS that reads like CSS",
+  "url": "https://github.com/meerita/FCSS2",
+  "scored_at": "2026-10-14T13:06:39.288Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 89 days ago, not a fork, and offers a utility CSS approach that closely mirrors existing frameworks like Tailwind, resulting in only a marginal novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 56.3 seconds and npm install took 37.966 seconds; no PyPI package but npm works, indicating a moderately simple setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web-frontend utility CSS framework, it aligns with current trends of utility‑first styling in modern web development."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has only 2 GitHub stars versus 502, 8, and 18,978 stars for comparable tools, and provides no benchmark advantage, showing minimal differentiation."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repo has 2 stars, 2 contributors, and was updated 1 day ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%), indicating limited core functionality out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Available via npm with CLI and PostCSS plugin modes and an MIT license, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repo created 89 days ago with 0 forks and 0 open issues, suggesting early‑stage maturity without extensive release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark comparisons were reported; only install and npm install times are available, so a neutral performance score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments show a mix of praise for the simplicity and framework compatibility, and criticism for the perceived unnecessary indirection and missing advanced CSS support, leading to a neutral overall sentiment."
+    }
+  },
+  "summary": "FCSS 2 is a utility‑first CSS framework that compiles class names into a more readable CSS format. It ships as a CLI tool and a PostCSS plugin, running via npm without requiring an API key. It targets front‑end developers who want Tailwind‑like syntax but prefer generated CSS files, offering a modest convenience layer. The main strength is its zero‑runtime approach, while its major caveat is very low adoption and minimal differentiation from established frameworks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/meerita/FCSS2",
+  "tool_url": "https://github.com/meerita/FCSS2",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50060606",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 2,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 2,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 89,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Functional CSS: utility classes named after real CSS properties. One class, one declaration, zero runtime. Works with Vite, Next.js, Astro and Angular.",
+      "topics": [
+        "angular",
+        "astro",
+        "atomic-css",
+        "css",
+        "css-framework",
+        "functional-css",
+        "nextjs",
+        "postcss",
+        "postcss-plugin",
+        "typescript",
+        "utility-css",
+        "vite-plugin"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Tailwind CSS",
+        "stars": 502,
+        "repo": "Devzstudio/tailwind_to_css"
+      },
+      {
+        "name": "Windi CSS",
+        "stars": 8,
+        "repo": "brillout/vite-plugin-ssr_windi-css"
+      },
+      {
+        "name": "UnoCSS",
+        "stars": 18978,
+        "repo": "unocss/unocss"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Convenient utility classes",
+        "Zero runtime, works with Vite/Next.js"
+      ],
+      "negative_signals": [
+        "Perceived over‑indirection and verbosity",
+        "Criticism about lack of advanced features"
+      ],
+      "justification": "Comments show a mix of praise for the simplicity and framework compatibility, and criticism for the perceived unnecessary indirection and missing advanced CSS support, leading to a neutral overall sentiment.",
+      "comment_count": 8,
+      "hn_points": 5
+    }
+  }
+}
