@@ -1,0 +1,99 @@
+{
+  "app_name": "Kcgi – minimal CGI and FastCGI library for C/C++",
+  "url": "https://kristaps.bsd.lv/kcgi/",
+  "scored_at": "2026-10-14T13:05:14.758Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed beyond being an incremental C/C++ CGI library."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 15.9 seconds, indicating a simple build despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool for C/C++ CGI services, it addresses a niche need that is less central to the current Python‑centric LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark shows a vs_cgicc_time_ratio of 0.093, i.e., roughly 10× faster than cgicc, and the similar tools have far more stars (27–27,459), highlighting a performance advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is detected; HN points are only 46, which falls into the <50 range for low community engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50% pass rate) despite a successful install, indicating core functionality is missing or hard to use."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package and only C/C++ library modes are listed, requiring manual linking; no explicit API or webhook support is documented."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic metadata are available and no documentation quality signals were found."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN signals are present (46 points), which suggest an early‑stage project with limited maturity."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark ratio vs_cgicc_time_ratio of 0.093 indicates the library is about ten times faster than cgicc, meeting the >2× improvement criterion."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the library’s performance and minimalism, but raise valid concerns about C/C++ safety, lack of guardrails, and the developer effort required for web applications."
+    }
+  },
+  "summary": "Kcgi is a lightweight C/C++ library for building CGI and FastCGI web services. It compiles quickly (≈300 ms) and runs requests in under 2 ms, offering roughly ten‑fold speed over the older cgicc library. Developers needing a minimal, high‑performance C interface for web back‑ends would benefit from it, especially when low overhead is critical. Its main strength is the strong performance advantage, while the lack of package distribution, sparse documentation, and minimal community support are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://kristaps.bsd.lv/kcgi/",
+  "tool_url": "https://github.com/kristaps/kcgi",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50063104",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "cgicc",
+        "stars": 27,
+        "repo": "cmakified/cgicc"
+      },
+      {
+        "name": "fcgi",
+        "stars": 427,
+        "repo": "gnosek/fcgiwrap"
+      },
+      {
+        "name": "Mongoose",
+        "stars": 27459,
+        "repo": "Automattic/mongoose"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "High performance potential",
+        "Lightweight and minimalistic design",
+        "Flexibility for developers"
+      ],
+      "negative_signals": [
+        "Security and safety concerns",
+        "Complexity and developer overhead",
+        "Limited community and ecosystem"
+      ],
+      "justification": "Comments praise the library’s performance and minimalism, but raise valid concerns about C/C++ safety, lack of guardrails, and the developer effort required for web applications.",
+      "comment_count": 27,
+      "hn_points": 46
+    }
+  }
+}
