@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Kcgi – minimal CGI and FastCGI library for C/C++",
+    "url": "https://kristaps.bsd.lv/kcgi/",
+    "hn_url": "https://news.ycombinator.com/item?id=50063104",
+    "points": 46,
+    "comments": 29,
+    "author": "Bluestein",
+    "age": "2026-10-12T21:09:08",
+    "scraped_at": "2026-10-14T13:00:03.638Z",
+    "tool_url": "https://github.com/kristaps/kcgi",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "devtool",
+    "app_type": "devtool",
+    "description": "A lightweight CGI and FastCGI library written in C/C++ for building web services.",
+    "use_modes": [
+      "C library",
+      "C++ library"
+    ],
+    "similar_tools": [
+      "cgicc",
+      "fcgi",
+      "Mongoose"
+    ],
+    "proposed_tests": [
+      "Clone the repository and build the library using cmake.",
+      "Compile a simple CGI program that prints \"Hello World\" using kcgi.",
+      "Run the CGI program under a test server (e.g., Apache or lighttpd) and verify the output.",
+      "Measure the memory footprint and startup time compared to cgicc."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/kristaps/kcgi"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791983047358-l1jji",
+    "log_dir": "/tmp/llm-review-1791983047358-l1jji",
+    "install_success": true,
+    "install_time_s": 15.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:clone_build_ms:300.488\nBENCHMARK:clone_build_mem_kb:60.157\nBENCHMARK:compile_cgi_ms:0.216\nBENCHMARK:compile_cgi_mem_kb:2.241\nBENCHMARK:run_cgi_ms:1.879\nBENCHMARK:run_cgi_mem_kb:62.217\nBENCHMARK:vs_cgicc_time_ratio:0.093",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:kcgi ERROR: Could not find a version that satisfies the requirement kcgi (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for kcgi\nTEST_FAIL:clone_build:git clone failed: Cloning into '/tmp/kcgi_test/kcgi'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nBENCHMARK:clone_build_ms:300.488\nBENCHMARK:clone_build_mem_kb:60.157\nTEST_FAIL:compile_cgi:[Errno 2] No such file or directory: '/tmp/kcgi_test/kcgi/hello.c'\nBENCHMARK:compile_cgi_ms:0.216\nBENCHMARK:compile_cgi_mem_kb:2.241\nTEST_FAIL:run_cgi:[Errno 2] No such file or directory: '/tmp/kcgi_test/kcgi/build/hello_cgi'\nBENCHMARK:run_cgi_ms:1.879\nBENCHMARK:run_cgi_mem_kb:62.217\nBENCHMARK:vs_cgicc_time_ratio:0.093\nRUN_OK\n"
+  }
+}
