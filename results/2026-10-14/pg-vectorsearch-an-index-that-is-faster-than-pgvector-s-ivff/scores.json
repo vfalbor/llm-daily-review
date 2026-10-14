@@ -1,0 +1,113 @@
+{
+  "app_name": "Pg_vectorsearch",
+  "url": "https://github.com/timescale/pg_vectorsearch",
+  "scored_at": "2026-10-14T13:01:59.554Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 256 days ago and is not a fork, but it implements an incremental improvement over existing tools such as pgvector rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 24.5 s (under the 30 s threshold) despite requiring a PostgreSQL extension build, and no PyPI package is needed."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a database‑relational vector search extension, it addresses the current surge in retrieval‑augmented generation pipelines that rely on fast vector indexes."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 100 GitHub stars it is far less popular than pgvector (23,355 stars), yet the README claims it is faster than pgvector's IVFFlat and HNSW, providing a clear speed advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 100 stars, 5 contributors, and was updated 0 days ago, indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 3 tests passed and the basic run failed, placing the pass rate below 50 %."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project is distributed as a PostgreSQL extension (no PyPI package) and provides SQL functions, offering a standard integration path but requiring database installation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or README depth was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 256 days old, has 5 forks and 38 open issues, suggesting early‑stage maturity without a stable release tag."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the performance and cost benefits of pg_vectorsearch, noting excitement for low-RAM solutions, while a few express concerns about filtering capabilities and limited availability on managed Postgres platforms."
+    }
+  },
+  "summary": "Pg_vectorsearch is a PostgreSQL extension that adds a high‑performance vector search index, claiming to beat pgvector's IVFFlat and HNSW algorithms. It works by installing compiled C code into a Postgres server and exposing SQL functions for similarity queries. The tool is aimed at developers building retrieval‑augmented generation pipelines who need fast, low‑RAM vector search inside their relational databases. Its standout strength is the advertised speed advantage, but the current test suite shows 0 % pass rate, indicating usability issues.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/timescale/pg_vectorsearch",
+  "tool_url": "https://github.com/timescale/pg_vectorsearch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50086165",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 100,
+      "forks": 5,
+      "open_issues": 38,
+      "watchers": 100,
+      "contributors": 5,
+      "license": "PostgreSQL",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 256,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "High-performance vector search for PostgreSQL",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "pgvector",
+        "stars": 23355,
+        "repo": "pgvector/pgvector"
+      },
+      {
+        "name": "TimescaleDB vector",
+        "stars": 5,
+        "repo": "timescale/TimescaleDB-CloudNativePG-VectorSearch"
+      },
+      {
+        "name": "ZomboDB",
+        "stars": 4719,
+        "repo": "zombodb/zombodb"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "dramatically faster vector search",
+        "cost-efficient",
+        "excited about low-RAM competition"
+      ],
+      "negative_signals": [
+        "question about filtering support",
+        "concern about managed Postgres availability"
+      ],
+      "justification": "Comments praise the performance and cost benefits of pg_vectorsearch, noting excitement for low-RAM solutions, while a few express concerns about filtering capabilities and limited availability on managed Postgres platforms.",
+      "comment_count": 6,
+      "hn_points": 31
+    }
+  }
+}
