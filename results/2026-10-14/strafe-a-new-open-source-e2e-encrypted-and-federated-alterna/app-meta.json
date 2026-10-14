@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Strafe: A new open-source, E2E Encrypted, and federated alternative to Discord",
+    "url": "https://strafe.chat/",
+    "hn_url": "https://news.ycombinator.com/item?id=50082021",
+    "points": 60,
+    "comments": 41,
+    "author": "brydencalaway",
+    "age": "2026-10-14T03:28:00",
+    "scraped_at": "2026-10-14T13:00:03.637Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/strafechat/strafe",
+    "source_type": "tool",
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "Strafe is an open‑source, end‑to‑end encrypted, federated chat platform that serves as a privacy‑focused alternative to Discord.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Matrix",
+      "Element",
+      "Jitsi",
+      "Rocket.Chat"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run docker compose up to launch a local instance",
+      "Send a message via the REST API and verify it appears in the UI",
+      "Measure end‑to‑end latency for a 1KB message",
+      "Check that the server rejects unauthenticated connections"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/strafechat/strafe"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791982969636-dow55",
+    "log_dir": "/tmp/llm-review-1791982969636-dow55",
+    "install_success": true,
+    "install_time_s": 17.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:9.38\nBENCHMARK:clone_time_s:0.33",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 132, in <module>\n    test_unauth()\n  File \"/app/test.py\", line 120, in test_unauth\n    with urllib.request.urlopen(req, data=data, timeout=5) as resp:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 521, in open\n    response = meth(req, response)\n               ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 630, in http_response\n    response = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 492, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/urllib/request.py\", line 639, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 404: Not Found\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_time_s:9.38\nINSTALL_OK\nINSTALL_FAIL:clone:Cloning into '/tmp/strafe'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:clone_time_s:0.33\nINSTALL_FAIL:server:[Errno 2] No such file or directory: '/tmp/strafe'\nTEST_FAIL:health_endpoint:HTTP Error 404: Not Found\n"
+  }
+}
