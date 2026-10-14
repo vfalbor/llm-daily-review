@@ -1,0 +1,81 @@
+{
+  "app_name": "Gemini 4 Argon",
+  "url": "https://deepmind.google/models/gemini/",
+  "scored_at": "2026-10-14T13:02:48.176Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 7.7 seconds (install_success true, install_time_s 7.7), but the model is not pip‑installable and requires an API key."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm-model with multimodal capabilities, it aligns strongly with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools (PaLM, Gopher, Claude 3) there are no star counts or benchmark data, indicating modest differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 1355 with 30 comments, which places it in the high community engagement tier."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%), indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The page mentions an API/SDK/webhook and the use_modes include API and fine‑tune, providing clear integration paths."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Docs/link present (has docs true), examples are available (has examples true), and the page content length is 35476 characters, indicating extensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.0 suggests a stable release despite the lack of changelog."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight notable advances in Gemini’s generative and math abilities, yet many users report performance crashes, memory issues and restricted access, leading to an overall mixed reception."
+    }
+  },
+  "summary": "Gemini 4 Argon is a multimodal large language model from DeepMind that can be accessed via an API and fine‑tuning. It runs as a hosted service requiring an API key and offers SDK/webhook integration. Researchers and developers needing advanced reasoning and multimodal generation would choose it over other models. It benefits from strong community attention (1355 HN points) but suffers from poor test coverage (0/4 tests passed) and limited performance data.",
+  "recommendation": "worth-watching",
+  "app_url": "https://deepmind.google/models/gemini/",
+  "tool_url": "https://deepmind.google/models/gemini/",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50073879",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "impressive capability progression",
+        "advanced generation features"
+      ],
+      "negative_signals": [
+        "performance and usability problems",
+        "limited availability"
+      ],
+      "justification": "Comments highlight notable advances in Gemini’s generative and math abilities, yet many users report performance crashes, memory issues and restricted access, leading to an overall mixed reception.",
+      "comment_count": 30,
+      "hn_points": 1355
+    }
+  }
+}
