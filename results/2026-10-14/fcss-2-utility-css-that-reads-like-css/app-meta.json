@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "FCSS 2: Utility CSS that reads like CSS",
+    "url": "https://github.com/meerita/FCSS2",
+    "hn_url": "https://news.ycombinator.com/item?id=50060606",
+    "points": 5,
+    "comments": 8,
+    "author": "meerita",
+    "age": "2026-10-12T18:23:10",
+    "scraped_at": "2026-10-14T13:00:03.641Z",
+    "tool_url": "https://github.com/meerita/FCSS2",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A utility-first CSS framework that compiles CSS classes into a readable, maintainable format.",
+    "use_modes": [
+      "CLI",
+      "PostCSS plugin"
+    ],
+    "similar_tools": [
+      "Tailwind CSS",
+      "Windi CSS",
+      "UnoCSS",
+      "Bootstrap Utility"
+    ],
+    "proposed_tests": [
+      "Clone the repository and install dependencies with npm/yarn.",
+      "Run the build script to generate the compiled CSS output.",
+      "Verify that a sample HTML file using FCSS classes renders correctly in a headless browser.",
+      "Measure the size of the generated CSS compared to Tailwind's default build."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/meerita/FCSS2"
+  },
+  "test_results": {
+    "run_id": "llm-review-1791983116526-rvw21",
+    "log_dir": "/tmp/llm-review-1791983116526-rvw21",
+    "install_success": true,
+    "install_time_s": 56.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.0\nBENCHMARK:clone_time_s:1.217\nBENCHMARK:npm_install_time_s:37.966\nBENCHMARK:build_time_s:0.0\nBENCHMARK:render_time_s:0.0\nBENCHMARK:vs_tailwind_css_size_ratio:0.0\nBENCHMARK:memory_peak_bytes:3992744",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.0\nBENCHMARK:clone_time_s:1.217\nTEST_PASS:clone_repository\nINSTALL_FAIL:npm install failed: npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.\nnpm error code 1\nnpm error path /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild\nnpm error command failed\nnpm error command sh -c node install.js\nnpm error node:internal/child_process:1143\nnpm error     result.error = new ErrnoException(result.error, 'spawnSync ' + options.file);\nnpm error                    ^\nnpm error\nnpm error <ref *1> Error: spawnSync /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild EACCES\nnpm error     at Object.spawnSync (node:internal/child_process:1143:20)\nnpm error     at spawnSync (node:child_process:911:24)\nnpm error     at Object.execFileSync (node:child_process:954:15)\nnpm error     at validateBinaryVersion (/tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/install.js:102:28)\nnpm error     at /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/install.js:287:5 {\nnpm error   errno: -13,\nnpm error   code: 'EACCES',\nnpm error   syscall: 'spawnSync /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild',\nnpm error   path: '/tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild',\nnpm error   spawnargs: [ '--version' ],\nnpm error   error: [Circular *1],\nnpm error   status: null,\nnpm error   signal: null,\nnpm error   output: null,\nnpm error   pid: 0,\nnpm error   stdout: undefined,\nnpm error   stderr: undefined\nnpm error }\nnpm error\nnpm error Node.js v24.18.1\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-14T13_05_48_776Z-debug-0.log\nBENCHMARK:npm_install_time_s:37.966\nTEST_FAIL:npm_install:Failed to install deps\nTEST_FAIL:build:sh: pnpm: not found\nBENCHMARK:build_time_s:0.0\nTEST_FAIL:generated_css_exists:CSS file not found\nTEST_FAIL:render_sample_html:No module named 'selenium'\nBENCHMARK:render_time_s:0.0\nBENCHMARK:vs_tailwind_css_size_ratio:0.0\nBENCHMARK:memory_peak_bytes:3992744\nRUN_OK\n"
+  }
+}
