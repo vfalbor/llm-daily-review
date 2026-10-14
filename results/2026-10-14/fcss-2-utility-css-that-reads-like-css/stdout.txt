@@ -1,0 +1,60 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.8.5-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+BENCHMARK:install_time_s:0.0
+BENCHMARK:clone_time_s:1.217
+TEST_PASS:clone_repository
+INSTALL_FAIL:npm install failed: npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm error code 1
+npm error path /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild
+npm error command failed
+npm error command sh -c node install.js
+npm error node:internal/child_process:1143
+npm error     result.error = new ErrnoException(result.error, 'spawnSync ' + options.file);
+npm error                    ^
+npm error
+npm error <ref *1> Error: spawnSync /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild EACCES
+npm error     at Object.spawnSync (node:internal/child_process:1143:20)
+npm error     at spawnSync (node:child_process:911:24)
+npm error     at Object.execFileSync (node:child_process:954:15)
+npm error     at validateBinaryVersion (/tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/install.js:102:28)
+npm error     at /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/install.js:287:5 {
+npm error   errno: -13,
+npm error   code: 'EACCES',
+npm error   syscall: 'spawnSync /tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild',
+npm error   path: '/tmp/fcss2_snqvvtnl/FCSS2/node_modules/esbuild/bin/esbuild',
+npm error   spawnargs: [ '--version' ],
+npm error   error: [Circular *1],
+npm error   status: null,
+npm error   signal: null,
+npm error   output: null,
+npm error   pid: 0,
+npm error   stdout: undefined,
+npm error   stderr: undefined
+npm error }
+npm error
+npm error Node.js v24.18.1
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-14T13_05_48_776Z-debug-0.log
+BENCHMARK:npm_install_time_s:37.966
+TEST_FAIL:npm_install:Failed to install deps
+TEST_FAIL:build:sh: pnpm: not found
+BENCHMARK:build_time_s:0.0
+TEST_FAIL:generated_css_exists:CSS file not found
+TEST_FAIL:render_sample_html:No module named 'selenium'
+BENCHMARK:render_time_s:0.0
+BENCHMARK:vs_tailwind_css_size_ratio:0.0
+BENCHMARK:memory_peak_bytes:3992744
+RUN_OK
