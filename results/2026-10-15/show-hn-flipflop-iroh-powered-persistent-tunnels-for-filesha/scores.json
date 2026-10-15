@@ -1,0 +1,121 @@
+{
+  "app_name": "Flipflop",
+  "url": "https://github.com/andunieee/flipflop",
+  "scored_at": "2026-10-15T13:04:46.525Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 39 days ago, not a fork, and offers Iroh‑based persistent tunnels which are an incremental improvement over existing tools like ngrok."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 13 s (well under 30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an infra‑networking CLI it addresses a growing need for easy tunneling, though it is not directly tied to the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With only 74 GitHub stars versus >22 k for ngrok and localtunnel, its unique Iroh‑powered persistence and a latency ratio of 0.833 against ngrok give it a clear advantage in at least one dimension."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 74 stars (100–1k range), 47 contributors, and was updated today (0 days since last commit), indicating an active but small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%) and install succeeded, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists and the tool offers CLI and daemon modes, but there is no documented REST API or SDK for seamless pipeline integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README depth was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 39 days old, has 1 fork and 1 open issue, placing it in the early‑stage category."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a vs_ngrok_latency_ratio of 0.833, indicating roughly 17% lower latency than ngrok, a measurable performance gain."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments show enthusiasm for Iroh-powered persistence and decentralization, while raising concerns about browser compatibility, performance details, and legal challenges—overall a constructive positive reception."
+    }
+  },
+  "summary": "Flipflop is a command‑line utility that creates secure, persistent tunnels using Iroh, allowing peer‑to‑peer file sharing without exposing ports. It runs locally as a CLI or daemon and is distributed via a PyPI package, requiring no external API keys. The tool is suited for developers needing lightweight, self‑hosted tunneling, especially when persistence across sessions is valuable. Its standout strength is the Iroh‑based persistence and a latency advantage over ngrok (0.833 ratio), but the current test suite shows 0 of 4 tests passing, indicating limited reliability out of the box.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/andunieee/flipflop",
+  "tool_url": "https://github.com/andunieee/flipflop",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50099136",
+  "domain": "infrastructure",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": {
+      "stars": 74,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 74,
+      "contributors": 47,
+      "license": "GPL-3.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 39,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "filesharing for the meatspace era",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ngrok",
+        "stars": 24404,
+        "repo": "inconshreveable/ngrok"
+      },
+      {
+        "name": "localtunnel",
+        "stars": 22492,
+        "repo": "localtunnel/localtunnel"
+      },
+      {
+        "name": "telepresence",
+        "stars": 7316,
+        "repo": "telepresenceio/telepresence"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0",
+      "summary": "FastCGI wrapper for WSGI applications",
+      "requires_python": null,
+      "license": "BSD",
+      "home_page": "https://github.com/Kozea/flipflop"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Robust P2P via Iroh",
+        "Persistent tunnels simplify sharing",
+        "Decentralized infrastructure appeal"
+      ],
+      "negative_signals": [
+        "Browser support limited",
+        "Performance concerns unaddressed",
+        "Legal/decentralization skepticism"
+      ],
+      "justification": "Comments show enthusiasm for Iroh-powered persistence and decentralization, while raising concerns about browser compatibility, performance details, and legal challenges—overall a constructive positive reception.",
+      "comment_count": 23,
+      "hn_points": 57
+    }
+  }
+}
