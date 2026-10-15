@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Show HN: Ito – Build Terminal UIs in Lua",
+    "url": "https://uji.sh/ito/",
+    "hn_url": "https://news.ycombinator.com/item?id=50096300",
+    "points": 42,
+    "comments": 9,
+    "author": "cat-whisperer",
+    "age": "2026-10-14T22:23:53",
+    "scraped_at": "2026-10-15T13:00:03.108Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/uji-sh/ito",
+    "repo_url": "https://github.com/uji-sh/ito",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-frontend",
+    "description": "Ito is a lightweight Lua library for building terminal user interfaces, inspired by curses and modern TUI paradigms.",
+    "use_modes": [
+      "Library",
+      "CLI (via wrapper)"
+    ],
+    "similar_tools": [
+      "luaposix",
+      "termui",
+      "busted",
+      "tui.nvim"
+    ],
+    "proposed_tests": [
+      "Install Ito via LuaRocks and run a simple hello-world TUI example.",
+      "Create a TUI with a menu and capture user input; verify output rendering.",
+      "Measure initialization time of a 100-line TUI application.",
+      "Run a benchmark that renders 1000 frames per second and check performance."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1792069343227-fnvag",
+    "log_dir": "/tmp/llm-review-1792069343227-fnvag",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:import_time_seconds:0.0175\nBENCHMARK:import_time_mem_kb:629.59\nBENCHMARK:hello_test_seconds:0.0000\nBENCHMARK:hello_test_mem_kb:0.83\nBENCHMARK:init_100_lines_seconds:0.0005\nBENCHMARK:init_100_lines_mem_kb:19.95\nBENCHMARK:render_fps:2520615.38\nBENCHMARK:render_benchmark_seconds:0.0005\nBENCHMARK:render_benchmark_mem_kb:0.43\nBENCHMARK:vs_termui_fps_ratio:2772.544",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:import_ito:Error loading shared library libstdc++.so.6: No such file or directory (needed by /usr/local/lib/python3.12/site-packages/ito/libitosdk.so)\nBENCHMARK:import_time_seconds:0.0175\nBENCHMARK:import_time_mem_kb:629.59\nTEST_FAIL:minimal_hello:name 'clone_dir' is not defined\nBENCHMARK:hello_test_seconds:0.0000\nBENCHMARK:hello_test_mem_kb:0.83\nTEST_PASS:init_100_lines\nBENCHMARK:init_100_lines_seconds:0.0005\nBENCHMARK:init_100_lines_mem_kb:19.95\nBENCHMARK:render_fps:2520615.38\nTEST_PASS:render_benchmark\nBENCHMARK:render_benchmark_seconds:0.0005\nBENCHMARK:render_benchmark_mem_kb:0.43\nBENCHMARK:vs_termui_fps_ratio:2772.544\nRUN_OK\n"
+  }
+}
