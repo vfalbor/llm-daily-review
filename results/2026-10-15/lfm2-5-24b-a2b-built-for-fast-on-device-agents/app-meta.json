@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "hn_url": "https://news.ycombinator.com/item?id=50097369",
+    "points": 248,
+    "comments": 59,
+    "author": "gmays",
+    "age": "2026-10-14T23:59:37",
+    "scraped_at": "2026-10-15T13:00:03.105Z",
+    "is_reviewable": true,
+    "source_type": "model",
+    "tool_url": "https://github.com/liquid-ai/lfm2-5-24b-a2b",
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-training",
+    "description": "A lightweight 24B parameter language model optimized for on-device agent workloads.",
+    "use_modes": [
+      "Inference via HuggingFace Inference API",
+      "Local deployment with TorchScript"
+    ],
+    "similar_tools": [
+      "Llama2",
+      "Falcon",
+      "Mistral"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the provided finetune script on a sample dataset",
+      "Export the model to TorchScript and measure inference latency on CPU",
+      "Compare model accuracy on a standard benchmark vs baseline",
+      "Run an end-to-end agent scenario and verify response quality"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/liquid-ai/lfm2-5-24b-a2b"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792069286072-oev4x",
+    "log_dir": "/tmp/llm-review-1792069286072-oev4x",
+    "install_success": true,
+    "install_time_s": 8.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:memory_peak_kb:1.71",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:git clone failed:Cloning into '/tmp/lfm2_repo'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nTEST_FAIL:baseline_import:No module named 'transformers'\nTEST_FAIL:functional_test:No module named 'lfm2_5_24b_a2b'\nTEST_FAIL:torchscript_inference:No module named 'torch'\nBENCHMARK:memory_peak_kb:1.71\nRUN_OK\n"
+  }
+}
