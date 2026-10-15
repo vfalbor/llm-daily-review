@@ -1,0 +1,83 @@
+{
+  "app_name": "Libreboot 26.10 \"Ominous Olive\"",
+  "url": "https://libreboot.org/news/libreboot2610.html",
+  "scored_at": "2026-10-15T13:01:24.422Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed quantitatively."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 15.5 seconds, which is well under the 30‑second threshold for easy installation."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑bootloader, Libreboot addresses ongoing demand for open‑source firmware in the current LLM‑driven ecosystem of open hardware tools."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark data are available for Libreboot, making quantitative differentiation from Coreboot (2,810 stars), OpenCore (18,613 stars) and SeaBIOS (534 stars) impossible."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub repository statistics (stars, contributors, recent activity) are unavailable, so community health cannot be measured."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (<50%), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is present and only generic use modes (UEFI firmware installation, BIOS configuration) are listed, suggesting limited plug‑and‑play integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation indicators such as wiki, GitHub pages, or topic count are not provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Days since creation, fork count, and open issue count are missing, preventing an assessment of maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a clone time of 0.28 s is reported; no relevant firmware performance benchmarks are available."
+    }
+  },
+  "summary": "Libreboot is an open‑source UEFI firmware project for x86 PCs and Chromebooks that replaces proprietary BIOS implementations. It is distributed as source code on GitHub and installed by flashing the firmware onto hardware. The tool is aimed at users who need a free, auditable bootloader for laptops and desktops, especially those concerned with security and vendor lock‑in. Installation succeeds quickly (15.5 s), but the test suite shows 0 / 5 passes and documentation details are sparse, indicating limited ease of use and integration.",
+  "recommendation": "niche",
+  "app_url": "https://libreboot.org/news/libreboot2610.html",
+  "tool_url": "https://github.com/libreboot/libreboot",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50102923",
+  "domain": "hardware",
+  "app_type": "hardware-bootloader",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Coreboot",
+        "stars": 2810,
+        "repo": "coreboot/coreboot"
+      },
+      {
+        "name": "OpenCore",
+        "stars": 18613,
+        "repo": "dortania/OpenCore-Legacy-Patcher"
+      },
+      {
+        "name": "SeaBIOS",
+        "stars": 534,
+        "repo": "coreboot/seabios"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
