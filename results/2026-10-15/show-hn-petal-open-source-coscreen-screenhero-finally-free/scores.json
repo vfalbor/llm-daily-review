@@ -1,0 +1,98 @@
+{
+  "app_name": "Petal",
+  "url": "https://petal.live/",
+  "scored_at": "2026-10-15T13:05:55.591Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Petal replicates existing screen‑recording tools like CoScreen (4 stars) and ScreenHero (3 stars) and does not introduce a new approach, indicating an incremental clone."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 19.3 seconds, which is under the 30‑second threshold, though it lacks a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for screen sharing, Petal fits current remote‑collaboration trends in the developer tooling ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Petal has far fewer GitHub stars (none reported) compared to OBS Studio's 77,562 stars, but offers a free CLI alternative, giving it a modest advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repo is available, but the HN post earned 190 points from 30 comments, indicating a moderate community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), showing core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "Petal is only a CLI/desktop app with no PyPI package, no documented API, and no license information, making integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or GitHub Pages were detected, providing virtually no documentation."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity is inferred from the HN score of 190 points, suggesting a mid‑range maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data succeeded (ffmpeg test failed), so performance cannot be assessed; a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud the tool’s return, open-source nature, and community engagement, while a few mention concerns about latency and copywriting, leading to a generally positive but slightly mixed sentiment."
+    }
+  },
+  "summary": "Petal is an open‑source CLI tool for screen recording and sharing, built as a desktop application without requiring an API key. It runs locally and offers a simple command‑line interface for capturing desktop sessions. It targets developers and remote collaborators who need a lightweight, free alternative to larger tools like OBS. While it benefits from open‑source community enthusiasm, its lack of documentation, minimal test coverage, and absence of performance benchmarks limit its reliability.",
+  "recommendation": "niche",
+  "app_url": "https://petal.live/",
+  "tool_url": "https://github.com/petal/cosc",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50092470",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "CoScreen",
+        "stars": 4,
+        "repo": "carlosschults/tdd-csharp-coscreen"
+      },
+      {
+        "name": "ScreenHero",
+        "stars": 3,
+        "repo": "screenhero/ruby-appcast"
+      },
+      {
+        "name": "OBS Studio",
+        "stars": 77562,
+        "repo": "obsproject/obs-studio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "User praise for open-source, low-latency, and collaboration features",
+        "Strong community support and constructive feedback",
+        "Positive response to Linux support and future roadmap"
+      ],
+      "negative_signals": [
+        "Skepticism about latency and feature completeness",
+        "Critique of marketing copy and copywriting style"
+      ],
+      "justification": "The majority of comments applaud the tool’s return, open-source nature, and community engagement, while a few mention concerns about latency and copywriting, leading to a generally positive but slightly mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 190
+    }
+  }
+}
