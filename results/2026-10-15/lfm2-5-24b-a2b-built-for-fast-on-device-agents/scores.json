@@ -1,0 +1,99 @@
+{
+  "app_name": "LFM2.5-24B-A2B: Built for fast on-device agents",
+  "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+  "scored_at": "2026-10-15T13:02:21.628Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so the novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 8.1 seconds, meeting the <30 s simple‑setup criterion despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑training model optimized for on‑device agents, it aligns with the current push for local LLM deployment."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The model has no reported star count, while comparable tools have 20,183 (Llama2), 9,808 (Falcon) and 10,823 (Mistral) stars, indicating limited distinct advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN discussion shows 248 points and 30 comments, which places community interest in the 5–6 range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0/3) and install succeeded, putting it below the 50 % pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers inference via HuggingFace API and local TorchScript deployment, providing moderate integration options despite no PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data, wiki, or docs site was found; the only source is a blog page, which is insufficient for a higher score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from HN points (248), yielding a neutral mid‑range score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a memory peak of 1.71 KB is reported; no speed or throughput benchmarks are available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the impressive token throughput and local deployment potential, while also noting mixed performance against competitors and occasional reasoning issues."
+    }
+  },
+  "summary": "LFM2.5-24B-A2B is a 24‑billion‑parameter language model designed for fast on‑device agent workloads. It can be run locally via TorchScript or accessed through the HuggingFace Inference API, requiring no external API key. Researchers and developers building edge‑centric agents would consider it when they need a lightweight yet capable model. While community discussion is positive about its on‑device speed, the lack of benchmark data and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+  "tool_url": "https://github.com/liquid-ai/lfm2-5-24b-a2b",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50097369",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Llama2",
+        "stars": 20183,
+        "repo": "karpathy/llama2.c"
+      },
+      {
+        "name": "Falcon",
+        "stars": 9808,
+        "repo": "falconry/falcon"
+      },
+      {
+        "name": "Mistral",
+        "stars": 10823,
+        "repo": "mistralai/mistral-inference"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Fast on‑device speed",
+        "Encouraging local model development",
+        "Community enthusiasm"
+      ],
+      "negative_signals": [
+        "Mixed performance vs other models",
+        "Some users report poor reasoning",
+        "Limited benchmarking data"
+      ],
+      "justification": "Comments praise the impressive token throughput and local deployment potential, while also noting mixed performance against competitors and occasional reasoning issues.",
+      "comment_count": 30,
+      "hn_points": 248
+    }
+  }
+}
