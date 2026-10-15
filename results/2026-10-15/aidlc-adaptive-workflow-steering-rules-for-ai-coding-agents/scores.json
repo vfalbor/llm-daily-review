@@ -1,0 +1,114 @@
+{
+  "app_name": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+  "url": "https://github.com/awslabs/aidlc-workflows",
+  "scored_at": "2026-10-15T13:06:57.324Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 335 days old, is not a fork, and its 5,260 stars are far lower than major alternatives like LangChain (147,862 stars), indicating an incremental improvement rather than a breakthrough."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 14.9 seconds, well under the 30‑second threshold, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑codegen library, it addresses current trends of steering AI coding agents, fitting well within today’s LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 5,260 stars it trails LangChain (147,862) and CrewAI (59,733), but it offers unique adaptive workflow steering rules not present in those tools."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 5,260 stars, 73 contributors, and was updated today (0 days since last commit), showing an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%) and install succeeded, indicating core functionality is missing or unstable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is usable via a Python API and CLI, but lacks a PyPI package, requiring manual installation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repo is 335 days old with 952 forks and 282 open issues, indicating a mature, actively maintained project approaching a stable release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines report install times (e.g., pip_editable_install_s: 3.201) but no comparative performance claims against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments show skepticism about real-world effectiveness and complexity, with only a few nods to potential consistency and token use benefits. The overall tone leans negative with some constructive interest."
+    }
+  },
+  "summary": "Aidlc is a TypeScript‑based library that lets developers define adaptive workflow steering rules for AI coding agents, offering both a Python API and a CLI. It builds on existing code‑gen ecosystems by introducing dynamic task allocation, but its novelty is modest compared to larger frameworks like LangChain. The tool is best suited for teams wanting fine‑grained control over agent behavior, though its current instability is evident from zero passed tests and limited integration ease. While it benefits from an active community (5,260 stars, 73 contributors), performance claims are minimal and documentation details are scarce.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/awslabs/aidlc-workflows",
+  "tool_url": "https://github.com/awslabs/aidlc-workflows",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50100387",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 5260,
+      "forks": 952,
+      "open_issues": 282,
+      "watchers": 5260,
+      "contributors": 73,
+      "license": "MIT-0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 335,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 147862,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59733,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "OpenAI Code Interpreter",
+        "stars": 71,
+        "repo": "simonw/scrape-openai-code-interpreter"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "improves consistency",
+        "token efficiency",
+        "interesting guardrail problem"
+      ],
+      "negative_signals": [
+        "lack of evaluation",
+        "complexity worries",
+        "mostly hype"
+      ],
+      "justification": "Comments show skepticism about real-world effectiveness and complexity, with only a few nods to potential consistency and token use benefits. The overall tone leans negative with some constructive interest.",
+      "comment_count": 14,
+      "hn_points": 16
+    }
+  }
+}
