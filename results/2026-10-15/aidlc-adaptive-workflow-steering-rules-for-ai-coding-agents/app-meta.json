@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+    "url": "https://github.com/awslabs/aidlc-workflows",
+    "hn_url": "https://news.ycombinator.com/item?id=50100387",
+    "points": 15,
+    "comments": 14,
+    "author": "pramodbiligiri",
+    "age": "2026-10-15T07:20:39",
+    "scraped_at": "2026-10-15T13:00:03.112Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/awslabs/aidlc-workflows",
+    "repo_url": "https://github.com/awslabs/aidlc-workflows",
+    "confidence": 0.94,
+    "domain": "devtool",
+    "app_type": "devtool-codegen",
+    "description": "Aidlc is a library for defining adaptive workflow steering rules that guide AI coding agents during development, enabling dynamic task allocation and execution control.",
+    "use_modes": [
+      "Python library",
+      "CLI integration"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "OpenAI Code Interpreter",
+      "GitHub Copilot Lab"
+    ],
+    "proposed_tests": [
+      "pip install aidlc-workflows",
+      "import aidlc; create a simple rule that prints 'hello'",
+      "run the rule in an AI agent mock environment and assert output",
+      "measure rule evaluation latency on 100 rules",
+      "compare rule execution speed to a naive if/else implementation"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1792069558344-agjp8",
+    "log_dir": "/tmp/llm-review-1792069558344-agjp8",
+    "install_success": true,
+    "install_time_s": 14.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.680\nBENCHMARK:pip_aidlc-workflows_install_s:0.875\nBENCHMARK:git_clone_s:3.136\nBENCHMARK:pip_editable_install_s:3.201",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.680\nINSTALL_FAIL:pip install returned 1\nBENCHMARK:pip_aidlc-workflows_install_s:0.875\nINSTALL_OK\nBENCHMARK:git_clone_s:3.136\nINSTALL_FAIL:pip -e install returned 1\nBENCHMARK:pip_editable_install_s:3.201\nTEST_FAIL:import_aidlc:No module named 'aidlc'\nTEST_FAIL:simple_rule_output:No module named 'aidlc'\nTEST_FAIL:rule_latency_100:No module named 'aidlc'\nTEST_FAIL:vs_baseline:No module named 'aidlc'\nRUN_OK\n"
+  }
+}
