@@ -1,0 +1,105 @@
+{
+  "app_name": "Ito",
+  "url": "https://uji.sh/ito/",
+  "scored_at": "2026-10-15T13:03:26.932Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only similarity to existing tools is listed, so novelty cannot be assessed beyond a neutral estimate."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 9.5 seconds (<30s) and the package is on PyPI, requiring only Python >=3.6."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-frontend for building terminal UIs in Lua, it addresses a common need in CLI development within the current LLM‑augmented tooling ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Benchmarks show a render FPS of 2,520,615 and a vs_termui_fps_ratio of 2772.5, indicating a large speed advantage over termui (13,589 stars)."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository data is available; HN points are only 42, which falls below the 50‑point threshold for a higher community rating."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "2 of 4 tests passed (50%), meeting the ≥50% threshold for a modest usability score."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library is published on PyPI and offers both Library and CLI use modes, but no explicit API documentation or license information was found."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub metadata (wiki, pages, topics) or other documentation signals were provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN points (42) are available, which are insufficient for a higher maturity rating."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "The benchmark reports import time of 0.0175 s and a render FPS of 2.5 M, giving a clear quantitative performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters praise the project’s ease of use and declarative design, with a few noting that the Lua code could be more idiomatic and stylistically improved."
+    }
+  },
+  "summary": "Ito is a lightweight Lua library for building terminal user interfaces, usable both as a library and via a CLI wrapper. It runs locally without any API keys and is distributed on PyPI. Developers who need fast, scriptable TUIs in Lua will find it useful, especially given its extremely high render speed (2.5 M FPS) compared to similar tools. The main drawback is a small community and limited documentation, reflected by low HN points and missing repo details.",
+  "recommendation": "worth-watching",
+  "app_url": "https://uji.sh/ito/",
+  "tool_url": "https://github.com/uji-sh/ito",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50096300",
+  "domain": "devtool",
+  "app_type": "devtool-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "luaposix",
+        "stars": 595,
+        "repo": "luaposix/luaposix"
+      },
+      {
+        "name": "termui",
+        "stars": 13589,
+        "repo": "gizak/termui"
+      },
+      {
+        "name": "busted",
+        "stars": 3797,
+        "repo": "loveBabbar/CodeHelp-DSA-Busted-Series"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.2",
+      "summary": "A domain specific language for the description of financial derivatives.",
+      "requires_python": ">=3.6",
+      "license": "",
+      "home_page": "https://github.com/rexsutton/vollab"
+    },
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "amazing",
+        "great job",
+        "declarative API"
+      ],
+      "negative_signals": [
+        "not idiomatic",
+        "could look better"
+      ],
+      "justification": "Most commenters praise the project’s ease of use and declarative design, with a few noting that the Lua code could be more idiomatic and stylistically improved.",
+      "comment_count": 8,
+      "hn_points": 42
+    }
+  }
+}
