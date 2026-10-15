@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+    "url": "https://petal.live/",
+    "hn_url": "https://news.ycombinator.com/item?id=50092470",
+    "points": 190,
+    "comments": 39,
+    "author": "thedracle",
+    "age": "2026-10-14T18:23:14",
+    "scraped_at": "2026-10-15T13:00:03.111Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/petal/cosc",
+    "repo_url": "https://github.com/petal/cosc",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Petal is an open‑source screen‑recording and screen‑sharing tool similar to CoScreen/ScreenHero, providing a CLI for capturing and streaming desktop sessions.",
+    "use_modes": [
+      "CLI",
+      "Desktop app"
+    ],
+    "similar_tools": [
+      "CoScreen",
+      "ScreenHero",
+      "OBS Studio",
+      "ffmpeg"
+    ],
+    "proposed_tests": [
+      "git clone petal repository and run ./install.sh",
+      "execute petal --help and verify usage output",
+      "start a short screen recording session and confirm output file creation",
+      "stream to a local RTMP server and measure latency",
+      "compare recording quality vs OBS Studio using same settings"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1792069487921-4dblz",
+    "log_dir": "/tmp/llm-review-1792069487921-4dblz",
+    "install_success": true,
+    "install_time_s": 19.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_nodejs_npm_git_cargo_rust_time_s:5.97\nBENCHMARK:npm_install_time_s:5.67\nBENCHMARK:git_clone_time_s:0.30\nBENCHMARK:vs_ffmpeg_record_ratio:fail:[Errno 2] No such file or directory: 'ffmpeg'",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_nodejs_npm_git_cargo_rust_time_s:5.97\nINSTALL_OK\nBENCHMARK:npm_install_time_s:5.67\nINSTALL_OK\nBENCHMARK:git_clone_time_s:0.30\nINSTALL_FAIL:git clone Cloning into '/tmp/petal_repo'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:help_output:[Errno 2] No such file or directory: 'petal'\nTEST_FAIL:record_output:[Errno 2] No such file or directory: 'petal'\nTEST_FAIL:stream_latency:[Errno 2] No such file or directory: 'ffmpeg'\nBENCHMARK:vs_ffmpeg_record_ratio:fail:[Errno 2] No such file or directory: 'ffmpeg'\nRUN_OK\n"
+  }
+}
