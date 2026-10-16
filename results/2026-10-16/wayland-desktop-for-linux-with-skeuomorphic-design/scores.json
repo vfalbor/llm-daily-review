@@ -1,0 +1,121 @@
+{
+  "app_name": "Wayland desktop for Linux with skeuomorphic design",
+  "url": "https://github.com/fyzugx/DEsk",
+  "scored_at": "2026-10-16T13:03:20.580Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created only 5 days ago and is not a fork, but it replicates existing desktop concepts with a skeuomorphic skin, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 44.7 seconds and the package is available on PyPI, indicating a relatively straightforward setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a web-frontend desktop environment, it addresses a niche UI taste rather than a core need in the current Linux or LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 961 GitHub stars it trails GNOME (6,517), KDE Plasma (1,372) and XFCE (2,311) significantly, and no benchmark data shows a clear advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repo has 961 stars, only 1 contributor, and was updated 1 day ago, placing it in the 100–1k star, small‑community bracket."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "3 out of 5 tests passed (60%) and install succeeded, indicating core functionality works with moderate friction."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package exists (v1.9.1), the tool offers CLI and GUI modes, and it uses an MIT license, making basic integration feasible."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic data were provided, so documentation quality cannot be assessed beyond a neutral baseline."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 5 days old, has 26 forks and 5 open issues, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows a root response time of 10.69 ms but offers no comparative data to similar desktops, so performance is rated neutral."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments show a mix of nostalgia and mild enthusiasm for the skeuomorphic design, balanced against criticism that it feels dated and overdone, leading to an overall neutral sentiment."
+    }
+  },
+  "summary": "DEsk is a Wayland‑based desktop environment that applies a skeuomorphic visual style to Linux. It is packaged on PyPI and can be launched via CLI or GUI, relying on standard C code. The project targets users who enjoy retro‑styled interfaces and are willing to try a niche desktop replacement. While installation works and basic tests pass, the UI novelty is its main strength and the lack of broader community support and performance comparisons are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/fyzugx/DEsk",
+  "tool_url": "https://github.com/fyzugx/DEsk",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50103338",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 961,
+      "forks": 26,
+      "open_issues": 5,
+      "watchers": 961,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 5,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "GNOME",
+        "stars": 6517,
+        "repo": "GNOME/gimp"
+      },
+      {
+        "name": "KDE Plasma",
+        "stars": 1372,
+        "repo": "KDE/plasma-desktop"
+      },
+      {
+        "name": "XFCE",
+        "stars": 2311,
+        "repo": "rozniak/xfce-winxp-tc"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.9.1",
+      "summary": "The DESK is an SED-fitting python scripts for fitting data from evolved stars",
+      "requires_python": null,
+      "license": "BSD license",
+      "home_page": "https://github.com/s-goldman/Dusty-Evolved-Star-Kit/"
+    },
+    "tests_passed": 3,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "nostalgic appeal",
+        "fun visual experience",
+        "potential for customization"
+      ],
+      "negative_signals": [
+        "overused skeuomorphism",
+        "too reminiscent of outdated UI",
+        "mixed reception"
+      ],
+      "justification": "The comments show a mix of nostalgia and mild enthusiasm for the skeuomorphic design, balanced against criticism that it feels dated and overdone, leading to an overall neutral sentiment.",
+      "comment_count": 30,
+      "hn_points": 639
+    }
+  }
+}
