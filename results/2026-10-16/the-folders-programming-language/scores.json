@@ -1,0 +1,99 @@
+{
+  "app_name": "The Folders Programming Language",
+  "url": "https://danieltemkin.com/esolangs/folders",
+  "scored_at": "2026-10-16T13:02:03.652Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on days since creation or fork status is available, so novelty cannot be assessed and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 15 seconds and the tool is not pip‑installable, indicating a simple but slightly manual setup."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As an esoteric language (type \"lang-new\"), it has limited relevance to today’s mainstream LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no reported star count, while similar esolangs have 1,430, 627, and 557 stars, showing only marginal distinction."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected; HN points are 118, which places community health in the 5‑6 range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 6 tests passed (≈16%), well below the 50% threshold for moderate usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The language lacks a PyPI package and no explicit API mode or license information is provided, allowing only manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags is available, so documentation quality cannot be evaluated and receives a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from HN points (118), which yields a neutral score per the proxy rules."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A benchmark reports total_time_s of 0.3044, but no comparative data exist, so performance receives a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the project’s creativity, beauty, and the fun, unhinged nature of its design, while a minority point out inefficiencies and confusion, resulting in a very positive overall sentiment."
+    }
+  },
+  "summary": "The Folders Programming Language is an esoteric language that encodes programs as nested folder structures, offering both an interpreter and a compiler. It is built as a standalone project with source hosted on GitHub but without a package manager release. The tool mainly appeals to hobbyist programmers and language experimenters looking for novel, folder‑based computation. While the concept is praised for its creativity (HN sentiment 8/10), the implementation shows limited practicality, with only 1 of 6 tests passing and no performance advantage over similar esolangs.",
+  "recommendation": "niche",
+  "app_url": "https://danieltemkin.com/esolangs/folders",
+  "tool_url": "https://github.com/danieltemkin/folders-lang",
+  "source_type": "lang-new",
+  "hn_url": "https://news.ycombinator.com/item?id=50114342",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Whitespace",
+        "stars": 1430,
+        "repo": "ntpeters/vim-better-whitespace"
+      },
+      {
+        "name": "Brainfuck",
+        "stars": 627,
+        "repo": "fabianishere/brainfuck"
+      },
+      {
+        "name": "Malbolge",
+        "stars": 557,
+        "repo": "iczelia/malbolge-lisp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "fun and creative design",
+        "beautiful and impressive",
+        "enthusiastic love"
+      ],
+      "negative_signals": [
+        "inefficient and confusing",
+        "worst-case esolang feel",
+        "criticisms of practicality"
+      ],
+      "justification": "The majority of comments praise the project’s creativity, beauty, and the fun, unhinged nature of its design, while a minority point out inefficiencies and confusion, resulting in a very positive overall sentiment.",
+      "comment_count": 17,
+      "hn_points": 118
+    }
+  }
+}
