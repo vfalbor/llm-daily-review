@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Wayland desktop for Linux with skeuomorphic design",
+    "url": "https://github.com/fyzugx/DEsk",
+    "hn_url": "https://news.ycombinator.com/item?id=50103338",
+    "points": 639,
+    "comments": 259,
+    "author": "FinalDestiny",
+    "age": "2026-10-15T13:23:44",
+    "scraped_at": "2026-10-16T13:00:03.333Z",
+    "tool_url": "https://github.com/fyzugx/DEsk",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A Wayland-based desktop environment for Linux featuring a skeuomorphic design aesthetic.",
+    "use_modes": [
+      "CLI",
+      "GUI"
+    ],
+    "similar_tools": [
+      "GNOME",
+      "KDE Plasma",
+      "XFCE"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the application on a recent Linux distro",
+      "Run the built executable and verify the GUI loads without errors",
+      "Measure startup time from command to window ready state",
+      "Check that basic window management actions (move, resize, close) work"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/fyzugx/DEsk"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792155725187-wsqv2",
+    "log_dir": "/tmp/llm-review-1792155725187-wsqv2",
+    "install_success": true,
+    "install_time_s": 44.7,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.212\nBENCHMARK:npm_install_time_s:0.779\nBENCHMARK:startup_time_s:-1\nBENCHMARK:root_response_ms:10.69\nBENCHMARK:memory_usage_mb:0.0\nBENCHMARK:vs_gnome_startup_ratio:-1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_OK | curl\nBENCHMARK:clone_time_s:1.212\nTEST_PASS:clone_repo\nBENCHMARK:npm_install_time_s:0.779\nTEST_FAIL:npm_install:npm error code ENOENT\nnpm error syscall open\nnpm error path /tmp/DEsk/package.json\nnpm error errno -2\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/tmp/DEsk/package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-10-16T13_02_36_711Z-debug-0.log\n\nBENCHMARK:startup_time_s:-1\nTEST_FAIL:startup_time:Health endpoint not reachable\nBENCHMARK:root_response_ms:10.69\nTEST_PASS:root_response\nBENCHMARK:memory_usage_mb:0.0\nTEST_PASS:memory_usage\nBENCHMARK:vs_gnome_startup_ratio:-1\nRUN_OK\n"
+  }
+}
