@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Any window from your Mac, on your iPhone and iPad",
+    "url": "https://github.com/Saffsanity/sill",
+    "hn_url": "https://news.ycombinator.com/item?id=50112739",
+    "points": 189,
+    "comments": 48,
+    "author": "chanana",
+    "age": "2026-10-16T01:43:17",
+    "scraped_at": "2026-10-16T13:00:03.334Z",
+    "tool_url": "https://github.com/Saffsanity/sill",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A cross‑platform CLI that streams macOS windows to iPhone/iPad screens, enabling remote viewing.",
+    "use_modes": [
+      "CLI",
+      "GUI via WebSocket"
+    ],
+    "similar_tools": [
+      "VNC",
+      "Remote Desktop Protocol (RDP)",
+      "TeamViewer"
+    ],
+    "proposed_tests": [
+      "Install the tool via Homebrew or pip and run `sill --help`",
+      "Launch a sample macOS application window, run `sill stream <window-id>`",
+      "Verify the stream appears on an iOS simulator or device",
+      "Measure latency between input on iOS and output on macOS"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Saffsanity/sill"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792155802250-6b9u4",
+    "log_dir": "/tmp/llm-review-1792155802250-6b9u4",
+    "install_success": true,
+    "install_time_s": 17.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.8\nBENCHMARK:memory_peak_kb:0.0\nBENCHMARK:loc_count:43307\nBENCHMARK:vs_vnc_latency_ratio:0.792",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (3.3.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.18.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 90.6 MiB in 59 packages\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 98.1 MiB in 60 packages\nOK: 98.1 MiB in 60 packages\n( 1/17) Installing jansson (2.15.0-r0)\n( 2/17) Installing binutils (2.45.1-r1)\n( 3/17) Installing libgcc-static (15.2.0-r5)\n( 4/17) Installing libgomp (15.2.0-r5)\n( 5/17) Installing libatomic (15.2.0-r5)\n( 6/17) Installing gmp (6.3.0-r4)\n( 7/17) Installing isl26 (0.26-r2)\n( 8/17) Installing mpfr4 (4.2.2-r0)\n( 9/17) Installing mpc1 (1.3.1-r1)\n(10/17) Installing gcc (15.2.0-r5)\n(11/17) Installing musl-dev (1.2.6-r2)\n(12/17) Installing libxml2 (2.13.9-r2)\n(13/17) Installing llvm22-libs (22.1.3-r1)\n(14/17) Installing scudo-malloc (22.1.3-r0)\n(15/17) Installing rust (1.96.1-r0)\n(16/17) Installing libssh2 (1.11.1-r3)\n(17/17) Installing cargo (1.96.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 692.4 MiB in 77 packages\nOK: 692.4 MiB in 77 packages\nCollecting sill\n  Downloading sill-0.0.1-py3-none-any.whl.metadata (611 bytes)\nDownloading sill-0.0.1-py3-none-any.whl (1.5 kB)\nInstalling collected packages: sill\nSuccessfully installed sill-0.0.1\nINSTALL_OK | nodejs installed\nINSTALL_OK | npm installed\nINSTALL_OK | git installed\nINSTALL_OK | cargo installed\nINSTALL_OK | rust installed\nINSTALL_OK | apk packages installed\nINSTALL_OK | pip install sill\nTEST_PASS:sill_install\nTEST_FAIL:sill_help:[Errno 2] No such file or directory: 'sill'\nTEST_FAIL:sill_stream:[Errno 2] No such file or directory: 'sill'\nBENCHMARK:import_time_ms:0.8\nBENCHMARK:memory_peak_kb:0.0\nBENCHMARK:loc_count:43307\nBENCHMARK:vs_vnc_latency_ratio:0.792\nRUN_OK\n"
+  }
+}
