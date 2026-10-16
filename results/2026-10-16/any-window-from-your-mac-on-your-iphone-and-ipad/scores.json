@@ -1,0 +1,133 @@
+{
+  "app_name": "Any window from your Mac, on your iPhone and iPad",
+  "url": "https://github.com/Saffsanity/sill",
+  "scored_at": "2026-10-16T13:04:16.266Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 24 days ago, not a fork, and implements a known remote‑viewing concept similar to VNC and TeamViewer, so it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 17.9 s (<30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑cli for streaming macOS windows to iOS devices, it matches current cross‑device productivity trends in the LLM‑enabled tooling ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "It has 2,328 GitHub stars versus 14,112 for VNC, but offers unique touch‑friendly streaming and a WebSocket GUI, giving it a clear advantage in usability."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 2,328 stars, 2 contributors, and was updated today (0 days since last commit), indicating an active, visible community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 3 tests passed (33 %), though installation succeeded; the low test pass rate reflects limited core functionality verification."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists, the tool offers both CLI and WebSocket GUI modes, and it is licensed under Apache‑2.0, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic count was provided; with no concrete documentation signals, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 24 days old, has 104 forks and 59 open issues, indicating early‑stage development without a stable release history."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows import time of 0.8 ms and a latency ratio of 0.792 versus VNC, suggesting it is faster than traditional VNC solutions."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Users praise the app as a smoother, touch‑friendly VNC replacement and highlight its open‑source nature, while several comments point out Sidecar restrictions (no VPN, same Apple ID) and the lack of Windows support, with a few comments raising spam concerns."
+    }
+  },
+  "summary": "This CLI streams macOS windows to iPhone and iPad screens using a WebSocket‑based GUI, enabling remote viewing without an API key. It builds on the familiar remote‑desktop paradigm but adds touch‑friendly interaction and a lightweight Swift implementation. It is suited for macOS power users who need quick, mobile access to their desktop windows, especially on Apple devices. Its main strength is the low latency (0.8 ms import time and 0.792 × VNC latency) while its limited test coverage and early‑stage maturity are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Saffsanity/sill",
+  "tool_url": "https://github.com/Saffsanity/sill",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50112739",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 2328,
+      "forks": 104,
+      "open_issues": 59,
+      "watchers": 2328,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 24,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Any window from your Mac, live on your iPhone or iPad. Touch, Apple Pencil, trackpad and keys. Free, open source, no servers.",
+      "topics": [
+        "apple-pencil",
+        "hevc",
+        "ios",
+        "ipad",
+        "ipados",
+        "iphone",
+        "iphone-duo",
+        "macos",
+        "menu-bar",
+        "remote-desktop",
+        "screen-sharing",
+        "screencapturekit",
+        "swift",
+        "swiftui",
+        "tailscale",
+        "videotoolbox"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "VNC",
+        "stars": 14112,
+        "repo": "novnc/noVNC"
+      },
+      {
+        "name": "TeamViewer",
+        "stars": 311,
+        "repo": "gellin/TeamViewer_Permissions_Hook_V1"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Sill — a local-first desk cockpit for people who build things. First release coming soon.",
+      "requires_python": ">=3.12",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fast VNC alternative",
+        "Touch support",
+        "Open source"
+      ],
+      "negative_signals": [
+        "Sidecar limitations & VPN issues",
+        "Missing Windows support",
+        "Some spam/over‑promotion concerns"
+      ],
+      "justification": "Users praise the app as a smoother, touch‑friendly VNC replacement and highlight its open‑source nature, while several comments point out Sidecar restrictions (no VPN, same Apple ID) and the lack of Windows support, with a few comments raising spam concerns.",
+      "comment_count": 30,
+      "hn_points": 189
+    }
+  }
+}
