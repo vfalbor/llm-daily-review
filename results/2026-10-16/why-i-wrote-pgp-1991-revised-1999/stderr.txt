@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/gnupg.py", line 1160, in __init__
+    p = self._open_subprocess(['--list-config', '--with-colons'])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/gnupg.py", line 1230, in _open_subprocess
+    result = Popen(cmd, shell=False, stdin=PIPE, stdout=PIPE, stderr=PIPE, startupinfo=si, env=self.env)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'gpg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 182, in <module>
+    main()
+  File "/app/test.py", line 166, in main
+    func_ok_g, func_err_g = functional_test_gnupg()
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 91, in functional_test_gnupg
+    gpg = gnupg.GPG()
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/gnupg.py", line 1164, in __init__
+    raise OSError(msg)
+OSError: Unable to run gpg (gpg) - it may not be available.
