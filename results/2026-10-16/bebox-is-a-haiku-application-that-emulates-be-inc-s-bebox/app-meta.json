@@ -1,0 +1,57 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "BeBox is a Haiku application that emulates Be Inc.'s BeBox",
+    "url": "https://github.com/johnrash/bebox",
+    "hn_url": "https://news.ycombinator.com/item?id=50111742",
+    "points": 79,
+    "comments": 25,
+    "author": "rguiscard",
+    "age": "2026-10-15T23:22:53",
+    "scraped_at": "2026-10-16T13:00:03.340Z",
+    "tool_url": "https://github.com/johnrash/bebox",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "other",
+    "app_type": "devtool-cli",
+    "description": "BeBox is a command‑line application for Haiku that emulates the classic BeBox hardware and OS.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "beos",
+      "beosbox",
+      "BeOS"
+    ],
+    "proposed_tests": [
+      {
+        "test": "Install BeBox via package manager",
+        "description": "Verify installation succeeds"
+      },
+      {
+        "test": "Run 'bebox -h' and check help output",
+        "description": "Ensure command responds with usage information"
+      },
+      {
+        "test": "Execute a simple application within BeBox and capture output",
+        "description": "Validate emulation environment behaves as expected"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/johnrash/bebox"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792155922157-elht3",
+    "log_dir": "/tmp/llm-review-1792155922157-elht3",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:minimal_operation_error:cannot access free variable 'bebox' where it is not associated with a value in enclosing scope\nBENCHMARK:vs_python_fib35_error:cannot access local variable 'import_elapsed' where it is not associated with a value",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.8.5-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:import:No module named 'bebox'\nBENCHMARK:minimal_operation_error:cannot access free variable 'bebox' where it is not associated with a value in enclosing scope\nTEST_FAIL:minimal_operation:No latency measured\nTEST_FAIL:file_count:cannot access local variable 'bebox' where it is not associated with a value\nBENCHMARK:vs_python_fib35_error:cannot access local variable 'import_elapsed' where it is not associated with a value\nRUN_OK\n"
+  }
+}
