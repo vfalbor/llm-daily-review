@@ -1,0 +1,121 @@
+{
+  "app_name": "Muse Spark Open",
+  "url": "https://research.meta.ai/blog/muse-spark-open",
+  "scored_at": "2026-10-16T13:01:14.345Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 3279 days ago, is not a fork, and has far fewer stars (3,266) than the dominant Meta LLaMA (59,630), indicating it is an incremental multimodal extension rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 8.6 seconds and the package is available on PyPI (v0.2.4), showing a quick and straightforward setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a research‑model multimodal LLM, it aligns with current AI trends emphasizing vision‑language capabilities."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it has 3,266 stars versus Meta LLaMA's 59,630, it offers open‑source multimodal inference (Python API, CLI, ONNX) not present in the larger models, giving it a modest advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 3,266 stars and 10 contributors, but the last commit was 1507 days ago, indicating a modest but aging community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of three tests passed (0/3) despite a successful install, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package exists and the tool provides Python API, CLI, and ONNX modes, though the license is listed as NOASSERTION."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 3279 days old with 569 forks and 77 open issues, but the most recent commit was 1507 days ago, suggesting limited recent activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results for inference speed or efficiency were supplied; only install‑related timings are available, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight broad support and thorough documentation, signaling strong positives, while a few users point to pricey hardware requirements and skepticism about marketing tactics, resulting in a generally positive yet cautiously critical assessment."
+    }
+  },
+  "summary": "Muse Spark Open is an open‑source multimodal LLM from Meta that can be run locally via a Python API, CLI, or ONNX export. It builds on existing Meta models but adds image‑text capabilities, positioning it for researchers needing on‑premise multimodal inference. The tool is best suited for developers comfortable with Python who require a self‑hosted multimodal model and can tolerate limited community activity. While installation is quick and the package is on PyPI, the lack of passing tests and stale repository updates are significant drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://research.meta.ai/blog/muse-spark-open",
+  "tool_url": "https://github.com/facebookresearch/muse",
+  "source_type": "research-model",
+  "hn_url": "https://news.ycombinator.com/item?id=50107379",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 3266,
+      "forks": 569,
+      "open_issues": 77,
+      "watchers": 3266,
+      "contributors": 10,
+      "license": "NOASSERTION",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 1507,
+      "days_since_created": 3279,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A library for Multilingual Unsupervised or Supervised word Embeddings",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Meta LLaMA",
+        "stars": 59630,
+        "repo": "meta-llama/llama"
+      },
+      {
+        "name": "OpenAI GPT-4o",
+        "stars": 33,
+        "repo": "wifiuk/OpenAI-GPT-4o-Mini-TTS-Home-Assistant-Integration"
+      },
+      {
+        "name": "Google Gemini",
+        "stars": 107406,
+        "repo": "google-gemini/gemini-cli"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.4",
+      "summary": "A library to reduce and analyze data from the MUSE Mission.",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Widespread platform support",
+        "Open-weight accessibility",
+        "Detailed deployment documentation"
+      ],
+      "negative_signals": [
+        "High hardware cost",
+        "Mixed marketing reception",
+        "Limited small‑model availability"
+      ],
+      "justification": "The comments highlight broad support and thorough documentation, signaling strong positives, while a few users point to pricey hardware requirements and skepticism about marketing tactics, resulting in a generally positive yet cautiously critical assessment.",
+      "comment_count": 30,
+      "hn_points": 854
+    }
+  }
+}
