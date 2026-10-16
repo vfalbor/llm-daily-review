@@ -1,0 +1,112 @@
+{
+  "app_name": "Konnect",
+  "url": "https://github.com/mixelpixx/Konnect",
+  "scored_at": "2026-10-16T13:05:20.721Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 102 days old, is not a fork, and has 1,006 stars compared with the Eagle AI plugin's 17 stars, indicating a meaningful improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 10.3 seconds (well under the 30‑second benchmark) and the tool runs locally, though it lacks a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑codegen for KiCad, it aligns with the current trend of AI‑assisted EDA workflows in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 1,006 GitHub stars versus the closest alternative's 17 stars, Konnect offers a clearly larger user base and perceived value; no benchmark data is provided to compare speed."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 1,006 stars, 38 contributors, and the last commit was only 4 days ago, indicating an active and growing community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of four tests passed (0/4) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available as a CLI and KiCad plugin and is released under AGPL‑3.0, but it lacks a REST API or package manager distribution, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 102 days old, has 134 forks and 223 open issues, suggesting a beta‑level project with active development but still many open problems."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only lists zero‑value placeholders (vs_kicad_autoroute_import_time_ms:0.00), providing no measurable performance data."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show enthusiasm about the tool’s ability to assist with stackup and part selection, but also note that the output isn’t flawless and often needs manual intervention or complementary tools."
+    }
+  },
+  "summary": "Konnect is an open‑source AI plugin that helps with schematic capture and PCB layout inside KiCad 10 via a CLI and KiCad plugin interface. It runs locally and requires an API key, leveraging LLMs to suggest component placements and routing decisions. The tool is suited for PCB designers looking for AI‑driven assistance in KiCad projects, especially those comfortable with command‑line integration. While it enjoys strong community interest (1,006 stars) and rapid updates, its test suite shows zero passed tests and documentation details are scarce, and benchmark claims are absent.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mixelpixx/Konnect",
+  "tool_url": "https://github.com/mixelpixx/Konnect",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50085553",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 1006,
+      "forks": 134,
+      "open_issues": 223,
+      "watchers": 1006,
+      "contributors": 38,
+      "license": "AGPL-3.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 102,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "topics": [
+        "agent-skills",
+        "claude",
+        "kicad-pcb",
+        "kicad-schematics",
+        "llm",
+        "mcp-server",
+        "mcp-tools"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Eagle AI plugin",
+        "stars": 17,
+        "repo": "GOvEy1nw/Eagle-Plugin-AI-Tags"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Helpful stackup and part configuration",
+        "Complementary to existing tools",
+        "Ease of use for complex tasks"
+      ],
+      "negative_signals": [
+        "Results not perfect, require manual tweaks",
+        "Mix of tools needed",
+        "Limited performance on larger projects"
+      ],
+      "justification": "Comments show enthusiasm about the tool’s ability to assist with stackup and part selection, but also note that the output isn’t flawless and often needs manual intervention or complementary tools.",
+      "comment_count": 4,
+      "hn_points": 19
+    }
+  }
+}
