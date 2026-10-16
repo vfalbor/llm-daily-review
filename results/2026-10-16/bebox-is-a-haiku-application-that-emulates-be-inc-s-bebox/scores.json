@@ -1,0 +1,113 @@
+{
+  "app_name": "BeBox",
+  "url": "https://github.com/johnrash/bebox",
+  "scored_at": "2026-10-16T13:06:28.211Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository is only 1 day old and is not a fork, but it emulates an existing BeBox system and has far fewer stars (26) than similar projects (131), indicating it is not a novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 8.6 seconds, which is well under the 30‑second threshold, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI that emulates classic BeBox hardware for Haiku, it addresses a niche interest rather than a broad current LLM workflow need."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 26 stars it is significantly less popular than beos (131 stars) and beosbox (6 stars), and no benchmark data is provided to show a clear advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repo has 26 stars, a single contributor, and was updated today (0 days since last commit), placing it in the low‑hundreds community tier."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of three tests passed (0/3), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a CLI‑only application with no PyPI package and only an MIT license, requiring manual scripting to integrate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral default of 5 is used."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is 1 day old, has only 1 fork and 0 open issues, indicating an early‑stage, alpha‑like status."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output contains only error messages and no quantitative timings, so a neutral score of 5 is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "HN sentiment is 8/10 with 79 points and 25 comments, showing generally positive reception but modest community engagement."
+    }
+  },
+  "summary": "BeBox is a command‑line emulator that recreates the classic BeBox hardware and OS on Haiku. It is built as a C++ CLI tool without any package manager distribution, requiring manual compilation and execution. The project mainly serves retro‑computing enthusiasts who want to run BeBox software on modern Haiku systems. While it receives nostalgic praise on Hacker News (8/10 sentiment), it lacks robust test coverage and performance benchmarks, and its documentation and community support are minimal.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/johnrash/bebox",
+  "tool_url": "https://github.com/johnrash/bebox",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50111742",
+  "domain": "other",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 26,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 26,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Haiku native PowerPC and Hobbit BeBox Emulator",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "beos",
+        "stars": 131,
+        "repo": "jcherven/BeOS-r5-Icons"
+      },
+      {
+        "name": "beosbox",
+        "stars": 6,
+        "repo": "beosbox-dot/Geofs-better-pushback"
+      },
+      {
+        "name": "BeOS",
+        "stars": 131,
+        "repo": "jcherven/BeOS-r5-Icons"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "nostalgic excitement",
+        "performance praise",
+        "community enthusiasm"
+      ],
+      "negative_signals": [
+        "limited app availability",
+        "missing video editor"
+      ],
+      "justification": "Comments largely recall BeOS as fast, enjoyable, and evoke nostalgia, while a few note the lack of modern apps such as a good video editor, leading to a positive but slightly tempered reception.",
+      "comment_count": 25,
+      "hn_points": 79
+    }
+  }
+}
