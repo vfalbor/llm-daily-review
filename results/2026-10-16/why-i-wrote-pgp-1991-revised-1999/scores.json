@@ -1,0 +1,100 @@
+{
+  "app_name": "Why I Wrote PGP (1991, revised 1999)",
+  "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+  "scored_at": "2026-10-16T13:07:36.460Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The essay dates back to 1991 (≈12,800 days ago) and is not a fork, predating similar tools like GnuPG, making it a first‑of‑its‑kind contribution."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for this article type"
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As an article about historic crypto, it does not directly address current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The tool has no visible GitHub stars whereas comparable projects have 991 (GnuPG) and 11 (OpenPGP.js), showing minimal differentiation."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repo; HN discussion has 170 points, which falls in the 100‑300 range yielding a moderate community score."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for this article type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this article type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topics are available; with only the article as documentation, evidence is insufficient, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without a repository, maturity is inferred from HN points (170) which places it in the 100‑300 bracket, giving a neutral maturity rating."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this article type"
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The discussion is largely critical of PGP’s security and design choices, but some participants recognize its historical impact and the importance of strong consumer‑facing tools."
+    }
+  },
+  "summary": "This is an essay by Phil Zimmermann explaining why he created PGP, accompanied by a reference implementation hosted on GitHub. It is a historical write‑up rather than a runnable package, built around the original PGP cryptographic design and available as a CLI/library. Researchers or historians of cryptography may read it to understand the origins of modern encryption tools. Its strength lies in being the original source of the PGP concept, but it offers little practical utility today and lacks modern community support or performance data.",
+  "recommendation": "skip",
+  "app_url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+  "tool_url": "https://github.com/philzimmermann/PGP",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=50084674",
+  "domain": "security",
+  "app_type": "sec-crypto",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "GnuPG",
+        "stars": 991,
+        "repo": "gpg/gnupg"
+      },
+      {
+        "name": "OpenPGP.js",
+        "stars": 11,
+        "repo": "fastdata2go/openpgp.js-examples"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "UNKNOWN",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "https://github.com/mitchellrj/python-pgp"
+    },
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Acknowledgement of strong end‑user crypto",
+        "Legacy influence appreciated"
+      ],
+      "negative_signals": [
+        "Security design flaws",
+        "Complexity and maintenance concerns",
+        "Metadata leakage worries"
+      ],
+      "justification": "The discussion is largely critical of PGP’s security and design choices, but some participants recognize its historical impact and the importance of strong consumer‑facing tools.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
