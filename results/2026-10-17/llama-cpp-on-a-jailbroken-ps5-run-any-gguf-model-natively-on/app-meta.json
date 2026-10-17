@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "url": "https://github.com/cobanov/PS5LM",
+    "hn_url": "https://news.ycombinator.com/item?id=50122431",
+    "points": 307,
+    "comments": 75,
+    "author": "Anon84",
+    "age": "2026-10-16T18:32:35",
+    "scraped_at": "2026-10-17T13:00:03.188Z",
+    "tool_url": "https://github.com/cobanov/PS5LM",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Port of llama.cpp that runs GGUF models on a jailbroken PlayStation 5",
+    "use_modes": [
+      "CLI",
+      "C++"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "gpt4all",
+      "Ollama"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/cobanov/PS5LM",
+      "cd PS5LM",
+      "make",
+      "./llama --model /path/to/model.gguf --prompt 'Hello' --num_predict 20"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/cobanov/PS5LM"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792242319823-jip1u",
+    "log_dir": "/tmp/llm-review-1792242319823-jip1u",
+    "install_success": true,
+    "install_time_s": 12.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.60\nBENCHMARK:process_memory_mb:13.33\nBENCHMARK:vs_python_llama_cpp_import_ratio:1.2500",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ps5lm:ERROR: Could not find a version that satisfies the requirement ps5lm (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for ps5lm\nBENCHMARK:clone_time_s:1.60\nTEST_FAIL:clone_and_build:[Errno 2] No such file or directory: 'make'\nINSTALL_FAIL:-e /tmp/ps5lm:[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR:  /tmp/ps5lm is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTEST_FAIL:import_ps5lm:No module named 'ps5lm'\nTEST_FAIL:runtime:[Errno 2] No such file or directory: '/tmp/ps5lm/llama'\nINSTALL_OK\nBENCHMARK:process_memory_mb:13.33\nBENCHMARK:vs_python_llama_cpp_import_ratio:1.2500\nRUN_OK\n"
+  }
+}
