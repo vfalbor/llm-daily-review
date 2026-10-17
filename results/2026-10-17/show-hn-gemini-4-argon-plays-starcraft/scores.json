@@ -1,0 +1,99 @@
+{
+  "app_name": "Show HN: Gemini 4 Argon plays StarCraft",
+  "url": "https://starskirmish.com/bench/v0-2/",
+  "scored_at": "2026-10-17T13:07:21.958Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation, fork status, and direct star counts are not available, so novelty cannot be quantified and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) and completed in 8.5 seconds, but there is no PyPI package, indicating a moderately easy setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-inference server for the Gemini 4 model, it addresses the current trend of running large models locally without internet access."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is provided; the tool appears similar to Ollama, vLLM, and Triton, resulting in a neutral differentiation score."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 228 (200–500 range), indicating a modest community presence despite the lack of GitHub statistics."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 4 tests passed (<50% pass rate) despite a successful install, showing limited functional usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides a REST API and a Python client (use_modes: CLI, Python API, REST API) but lacks a PyPI package, giving moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or README quality was available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Days since creation, fork count, and open issue numbers are not provided, resulting in a neutral maturity assessment."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results beyond an install_time_s of 0.853 s are present, so performance cannot be evaluated beyond a neutral baseline."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The discussion highlights enthusiasm for the LLM‑driven StarCraft benchmark and its adaptability, while raising legitimate concerns about APM fairness, time limits, and potential data leakage. Overall sentiment is constructive and positive with room for improvement."
+    }
+  },
+  "summary": "Gemini 4 Argon is an open-source LLM inference server that runs the Gemini 4 model locally and offers a REST API and Python client. It is built as a self‑hosted service without requiring an API key, targeting developers who need offline inference. The tool is relevant for teams wanting to benchmark or deploy Gemini 4 without cloud dependencies, but its lack of package distribution and limited test pass rate indicate usability challenges. While the community shows moderate interest (228 HN points), documentation and maturity signals are sparse, and performance claims are minimal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://starskirmish.com/bench/v0-2/",
+  "tool_url": "https://github.com/argondotdev/gemini-4-argon",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50118688",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 183575,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 93981,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "NVIDIA Triton",
+        "stars": 87,
+        "repo": "NVIDIA-AI-IOT/deepstream_triton_model_deploy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "innovative LLM benchmark",
+        "models show strong adaptability",
+        "valuable insights for AI research"
+      ],
+      "negative_signals": [
+        "APM fairness concerns",
+        "short play time limits",
+        "possible data leakage worries"
+      ],
+      "justification": "The discussion highlights enthusiasm for the LLM‑driven StarCraft benchmark and its adaptability, while raising legitimate concerns about APM fairness, time limits, and potential data leakage. Overall sentiment is constructive and positive with room for improvement.",
+      "comment_count": 30,
+      "hn_points": 228
+    }
+  }
+}
