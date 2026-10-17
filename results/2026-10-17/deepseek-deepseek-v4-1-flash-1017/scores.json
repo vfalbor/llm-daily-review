@@ -1,0 +1,83 @@
+{
+  "app_name": "DeepSeek V4.1 Flash 1017",
+  "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "scored_at": "2026-10-17T13:01:55.485Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only generic similarity to Gemma, OpenChat, and Llama-2 is given, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 49.2 seconds, exceeding the <30 s threshold for top scores, and there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is 'llm-inference', which directly matches the dominant focus on local LLM deployment in today's AI ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No star count is available, but the benchmark shows an import time of 1.649 s and a vs_import_time_s_ratio of 39.96, indicating a performance profile that differs from baseline tools."
+    },
+    "community": {
+      "score": 6,
+      "justification": "With no GitHub repo, the HN signal of 294 points (within the 200–500 range) is used, placing community health in the 5–6 band."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) and install succeeded, putting usability below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The web page lists an API/SDK, install command, and supports CLI, API, and Python SDK modes, though no PyPI package is present."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The page provides docs/wiki links, examples, and a content length of 25,026 characters, indicating extensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.0 meets the proxy rule for maturity ≥ 1.0, awarding a score in the 7–8 range despite missing changelog or repo data."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark data shows import_time_s of 1.649 s and a vs_import_time_s_ratio of 39.96, suggesting no clear speed advantage over alternatives."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise DeepSeek’s performance and low cost compared to OpenAI, while several users highlight practical challenges with cache handling and subagent management that require workarounds."
+    }
+  },
+  "summary": "DeepSeek V4.1 Flash 1017 is a locally runnable large language model hosted on Hugging Face. It can be accessed via CLI, REST API, or a Python SDK and does not require an API key. This model is suited for developers who need on‑prem inference without external service costs. It offers extensive documentation and a stable 1.0 release, but its installation is relatively slow and functional tests show major gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+  "tool_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50129121",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "cost‑effective vs OpenAI",
+        "good performance benchmarks",
+        "ease of integrating with existing workflows"
+      ],
+      "negative_signals": [
+        "cache expiration and token waste issues",
+        "subagent looping concerns",
+        "mixed search results"
+      ],
+      "justification": "Most comments praise DeepSeek’s performance and low cost compared to OpenAI, while several users highlight practical challenges with cache handling and subagent management that require workarounds.",
+      "comment_count": 30,
+      "hn_points": 294
+    }
+  }
+}
