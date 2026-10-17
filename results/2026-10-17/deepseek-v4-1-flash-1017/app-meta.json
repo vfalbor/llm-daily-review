@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "hn_url": "https://news.ycombinator.com/item?id=50129045",
+    "points": 248,
+    "comments": 97,
+    "author": "theykk",
+    "age": "2026-10-17T08:21:25",
+    "scraped_at": "2026-10-17T13:00:03.186Z",
+    "tool_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Large language model (DeepSeek V4.1 Flash 1017) available for direct download",
+    "use_modes": [
+      "CLI",
+      "API",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "Gemma",
+      "OpenChat",
+      "Llama-2"
+    ],
+    "proposed_tests": [
+      "from transformers import AutoModelForCausalLM, AutoTokenizer",
+      "model=AutoModelForCausalLM.from_pretrained('deepseek-ai/DeepSeek-V4.1-Flash-1017')",
+      "tokenizer=AutoTokenizer.from_pretrained('deepseek-ai/DeepSeek-V4.1-Flash-1017')",
+      "inputs=tokenizer('Test', return_tensors='pt').input_ids",
+      "output=model.generate(inputs, max_new_tokens=10)"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792242175178-jzpiw",
+    "log_dir": "/tmp/llm-review-1792242175178-jzpiw",
+    "install_success": true,
+    "install_time_s": 88.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:80.14\nBENCHMARK:vs_gemma_generate_latency_ratio:nan\nBENCHMARK:memory_peak_kb:7812.51",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:install_time_s:80.14\nTEST_FAIL:import_transformers:No module named 'transformers'\nTEST_FAIL:deepseek_model_load_generate:Traceback (most recent call last):\n  File \"/app/test.py\", line 81, in main\n    from transformers import AutoModelForCausalLM, AutoTokenizer\nModuleNotFoundError: No module named 'transformers'\n\nBENCHMARK:vs_gemma_generate_latency_ratio:nan\nBENCHMARK:memory_peak_kb:7812.51\nRUN_OK\n"
+  }
+}
