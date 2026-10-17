@@ -1,0 +1,90 @@
+{
+  "app_name": "DeepSeek-v4.1-Flash-1017",
+  "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "scored_at": "2026-10-17T13:04:47.500Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, and similarity to Gemma, OpenChat, and Llama-2 suggests it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) but took 88.3 seconds, exceeding the <30s threshold for top scores; the package exists on PyPI."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm-inference model, it directly addresses the high demand for locally runnable LLMs in the current AI ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison to similar tools is available, so only a neutral differentiation can be claimed."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 248, placing it in the 200–500 range which maps to a community score of 5–6."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50%) and install succeeded, indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The model has a PyPI package, mentions an API/SDK/webhook on the page, and supports CLI, API, and Python SDK use modes."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The web page includes a docs link, examples/demo, and a lengthy content body of 25,026 characters, indicating substantial documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version number of 1.0 suggests a stable release, satisfying the rule for a maturity score of 7."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results or performance claims are present beyond memory usage, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise DeepSeek for its high cost/quality ratio and benchmark performance, while a few voice skepticism about the authenticity of benchmarks and note the high local deployment cost or certain limitations. The overall tone is strongly positive with only minor nitpicks."
+    }
+  },
+  "summary": "DeepSeek-v4.1-Flash-1017 is a downloadable large language model that can be run locally via CLI, API, or Python SDK. It is hosted on Hugging Face and packaged on PyPI, requiring no API key. The model targets developers needing on‑premise inference and is praised on HN for its cost‑effective performance, though benchmark credibility is questioned. Documentation is extensive and the version 1.0 release suggests reasonable maturity, but test coverage is lacking and performance data is sparse.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "tool_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50129045",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.0",
+      "summary": "Deepseek API Library",
+      "requires_python": null,
+      "license": "Apache-2.0",
+      "home_page": "https://github.com/deskpai/deepseek"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "cost-effective performance",
+        "strong benchmark results",
+        "competitive with OpenAI"
+      ],
+      "negative_signals": [
+        "benchmark credibility concerns",
+        "local deployment cost",
+        "some model limitations"
+      ],
+      "justification": "Most comments praise DeepSeek for its high cost/quality ratio and benchmark performance, while a few voice skepticism about the authenticity of benchmarks and note the high local deployment cost or certain limitations. The overall tone is strongly positive with only minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 248
+    }
+  }
+}
