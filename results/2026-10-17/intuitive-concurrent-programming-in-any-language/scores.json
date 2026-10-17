@@ -1,0 +1,99 @@
+{
+  "app_name": "lf-lang",
+  "url": "https://www.lf-lang.org/",
+  "scored_at": "2026-10-17T13:05:18.556Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The language targets concurrent programming like Go, Rust, and Erlang, which collectively have 188,849; 126,086; and 12,369 stars, indicating the concepts are not new."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 16 seconds, though there is no PyPI package, suggesting a moderately simple setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a new programming language for concurrency, it aligns with ongoing interest in multi‑core development but is not a core LLM‑tool trend."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While it claims a flow‑based approach, the lack of benchmark data and the huge star counts of Go, Rust, and Erlang (188k+, 126k+, 12k+) show only modest differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data is available; HN points are 71 with 14 comments, placing it in the 50‑200 range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0 %), indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project provides only a compiler and has no PyPI package, meaning manual integration is required."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic data were found for the repository, leaving documentation quality unclear."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metrics (creation date, forks, issues) the maturity cannot be assessed, so a neutral score is used."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were produced and no performance claims are present, so the language is assumed average."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments show enthusiasm for the flow‑based programming concepts and examples, but also raise valid concerns about the project's clarity, terminology, and justification of a separate language, leading to a generally positive but cautiously critical overall sentiment."
+    }
+  },
+  "summary": "lf-lang is a new programming language that aims to make concurrent programming intuitive across platforms. It compiles code locally and does not rely on external APIs. The tool is suited for developers who need a flow‑based concurrency model but are comfortable handling a compiler without package manager support. Its main strength is the novel flow‑based concept, while the lack of benchmarks, sparse testing results, and limited community signals are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://www.lf-lang.org/",
+  "tool_url": "https://github.com/lf-lang/lf-lang",
+  "source_type": "language",
+  "hn_url": "https://news.ycombinator.com/item?id=50103255",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Go",
+        "stars": 188849,
+        "repo": "avelino/awesome-go"
+      },
+      {
+        "name": "Rust",
+        "stars": 126086,
+        "repo": "rustdesk/rustdesk"
+      },
+      {
+        "name": "Erlang",
+        "stars": 12369,
+        "repo": "erlang/otp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "clear FBP inspiration",
+        "concurrency examples",
+        "cross-language potential"
+      ],
+      "negative_signals": [
+        "unclear purpose",
+        "confusion over terminology",
+        "questionable need for separate language"
+      ],
+      "justification": "Comments show enthusiasm for the flow‑based programming concepts and examples, but also raise valid concerns about the project's clarity, terminology, and justification of a separate language, leading to a generally positive but cautiously critical overall sentiment.",
+      "comment_count": 14,
+      "hn_points": 71
+    }
+  }
+}
