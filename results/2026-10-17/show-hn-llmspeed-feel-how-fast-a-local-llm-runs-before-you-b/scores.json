@@ -1,0 +1,96 @@
+{
+  "app_name": "Llmspeed",
+  "url": "https://llmspeed.dev/",
+  "scored_at": "2026-10-17T13:02:53.948Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative novelty data is missing; default neutral score applied."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) in 20.1 seconds, but no PyPI package is available, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-evaluation tool, it addresses the current need to gauge local LLM hardware performance, fitting today’s LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools (llm-eval-harness with 6 stars and lmbench with 386 stars), Llmspeed offers a CLI and Python API, though benchmark latency ratio of 1.087 shows only slight difference."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repository data, but HN points are 122 with 30 comments, placing it in the 100–200 range for community scoring."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) despite install success, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides both CLI and Python API modes, but lacks a PyPI package, making integration moderately straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic counts are available; documentation quality cannot be assessed from the provided data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from HN points (122) which falls in the range that yields a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows a latency ratio of 1.087 versus llm-eval-harness, indicating performance comparable to existing tools but no clear advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the tool as a helpful way to gauge local LLM performance and spark discussion, yet many note its limited model coverage, insufficient multi‑GPU and older hardware support, and questions about the accuracy of the benchmark estimates."
+    }
+  },
+  "summary": "Llmspeed is a command‑line and Python API utility that benchmarks the inference speed and memory usage of local LLMs. It runs locally by measuring import time (0.26 ms) and query latency (0.022 s), allowing users to estimate hardware needs before purchase. It is most useful for developers planning on deploying LLMs on‑premise who need quick performance insights. While it provides concrete benchmark numbers, the tool lacks a PyPI package and its test suite shows 0 of 2 tests passing, suggesting limited robustness.",
+  "recommendation": "worth-watching",
+  "app_url": "https://llmspeed.dev/",
+  "tool_url": "https://github.com/LLM-SPEED/llmspeed",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50127979",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "llm-eval-harness",
+        "stars": 6,
+        "repo": "magicsword-io/llm-eval-harness"
+      },
+      {
+        "name": "lmbench",
+        "stars": 386,
+        "repo": "intel/lmbench"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "useful benchmarking tool",
+        "valuable for hardware planning",
+        "community engagement",
+        "practical advice"
+      ],
+      "negative_signals": [
+        "limited model list",
+        "lack of multi-GPU support",
+        "uncertain accuracy of estimates",
+        "missing older hardware support"
+      ],
+      "justification": "Comments generally praise the tool as a helpful way to gauge local LLM performance and spark discussion, yet many note its limited model coverage, insufficient multi‑GPU and older hardware support, and questions about the accuracy of the benchmark estimates.",
+      "comment_count": 30,
+      "hn_points": 122
+    }
+  }
+}
