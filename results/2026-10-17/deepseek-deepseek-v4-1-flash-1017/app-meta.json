@@ -1,0 +1,54 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+    "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "hn_url": "https://news.ycombinator.com/item?id=50129121",
+    "points": 292,
+    "comments": 111,
+    "author": "theanonymousone",
+    "age": "2026-10-17T08:37:46",
+    "scraped_at": "2026-10-17T13:00:03.181Z",
+    "tool_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Large language model (DeepSeek V4.1 Flash 1017) available on Hugging Face for local inference",
+    "use_modes": [
+      "CLI",
+      "API",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "Gemma",
+      "OpenChat",
+      "Llama-2"
+    ],
+    "proposed_tests": [
+      "pip install transformers",
+      "from transformers import AutoModelForCausalLM, AutoTokenizer",
+      "tokenizer=AutoTokenizer.from_pretrained('deepseek-ai/DeepSeek-V4.1-Flash-1017')",
+      "model=AutoModelForCausalLM.from_pretrained('deepseek-ai/DeepSeek-V4.1-Flash-1017')",
+      "input_ids=tokenizer('Hello', return_tensors='pt').input_ids",
+      "output=model.generate(input_ids, max_new_tokens=20)",
+      "print(tokenizer.decode(output[0]))"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792242053443-v5624",
+    "log_dir": "/tmp/llm-review-1792242053443-v5624",
+    "install_success": true,
+    "install_time_s": 49.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.5331\nBENCHMARK:pip_transformers_install_s:31.9709\nBENCHMARK:import_time_s:1.6491\nBENCHMARK:model_load_s:FAIL:\nBENCHMARK:model_cache_files:15\nBENCHMARK:vs_import_time_s_ratio:39.9636",
+    "error_log": "[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\n[transformers] You are using a model of type `deepseek_v41` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n[transformers] You are using a model of type `deepseek_v41` to instantiate a model of type ``. This may be expected if you are loading a checkpoint that shares a subset of the architecture (e.g., loading a `sam2_video` checkpoint into `Sam2Model`), but is otherwise not supported and can yield errors. Please verify that the checkpoint is compatible with the model you are instantiating.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.5331\nINSTALL_OK\nBENCHMARK:pip_transformers_install_s:31.9709\nBENCHMARK:import_time_s:1.6491\nBENCHMARK:model_load_s:FAIL:\nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n\nTEST_FAIL:model_load:load failed\nTEST_FAIL:generate:\nAutoModelForCausalLM requires the PyTorch library but it was not found in your environment. Check out the instructions on the\ninstallation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.\nPlease note that you may need to restart your runtime after installation.\n\nBENCHMARK:model_cache_files:15\nBENCHMARK:vs_import_time_s_ratio:39.9636\nRUN_OK\n"
+  }
+}
