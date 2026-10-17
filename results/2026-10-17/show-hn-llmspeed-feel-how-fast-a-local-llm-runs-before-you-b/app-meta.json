@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "url": "https://llmspeed.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=50127979",
+    "points": 121,
+    "comments": 44,
+    "author": "albinstman",
+    "age": "2026-10-17T04:36:53",
+    "scraped_at": "2026-10-17T13:00:03.185Z",
+    "tool_url": "https://github.com/LLM-SPEED/llmspeed",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "Command‑line utility to benchmark local LLM inference speed and memory usage",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "llm-eval-harness",
+      "lmbench"
+    ],
+    "proposed_tests": [
+      "pip install llmspeed",
+      "llmspeed --model meta-llama/Llama-2-7b-hf --batch 4 --steps 10"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/LLM-SPEED/llmspeed"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792242116759-1qlnw",
+    "log_dir": "/tmp/llm-review-1792242116759-1qlnw",
+    "install_success": true,
+    "install_time_s": 20.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.107\nBENCHMARK:import_time_ms:0.26\nBENCHMARK:llmspeed_cli_latency_s:0.022\nBENCHMARK:vs_llm-eval-harness_latency_ratio:1.087\nBENCHMARK:memory_peak_kb:39492.66\nBENCHMARK:memory_current_kb:39492.62",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip or git install failed\nBENCHMARK:install_time_s:1.107\nTEST_FAIL:import_llmspeed:No module named 'llmspeed'\nBENCHMARK:import_time_ms:0.26\nTEST_FAIL:llmspeed_cli:/usr/local/bin/python: No module named llmspeed\nBENCHMARK:llmspeed_cli_latency_s:0.022\nBENCHMARK:vs_llm-eval-harness_latency_ratio:1.087\nBENCHMARK:memory_peak_kb:39492.66\nBENCHMARK:memory_current_kb:39492.62\nRUN_OK\n"
+  }
+}
