@@ -1,0 +1,87 @@
+{
+  "app_name": "Interactive Linear Programming in the Browser",
+  "url": "https://lpviz.net/",
+  "scored_at": "2026-10-18T13:03:54.764Z",
+  "total_score": 40,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so novelty cannot be assessed with the available data."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success = false) despite a short install time of 11.5 s and no PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The tool is a web‑framework for visualizing linear programming, which is not a core trend in the current LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No repository stars are available; similar tools have 148, 73, and 27 stars, but no direct benchmark comparison is provided."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected, so there are no stars, contributors, or recent activity to indicate a community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20 %), indicating core functionality is largely broken."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The library offers ESM import, NPM package, and CDN use modes, suggesting moderate integration ease despite missing license info."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository data (wiki, pages, topics) were found and no web‑site documentation signals were provided."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Without a repository, there are no stars, forks, or issue counts to gauge maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No performance benchmark specific to the library was run; only generic apk install times are available."
+    },
+    "hn_sentiment": {
+      "score": null,
+      "justification": "HN sentiment data is unavailable."
+    }
+  },
+  "summary": "Interactive Linear Programming in the Browser is a lightweight JavaScript library that visualizes LP solutions directly in the browser. It can be imported via ESM, NPM, or a CDN, requiring no API key. The tool is suited for developers who need an in‑browser LP visualizer for demos or educational purposes. Installation fails in the test environment and documentation is sparse, while performance claims are absent.",
+  "recommendation": "niche",
+  "app_url": "https://lpviz.net/",
+  "tool_url": "https://github.com/antirez/lpviz",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50130379",
+  "domain": "web-frontend",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "glpk.js",
+        "stars": 148,
+        "repo": "hgourvest/glpk.js"
+      },
+      {
+        "name": "lp-solver",
+        "stars": 27,
+        "repo": "rust-or/lp-solvers"
+      },
+      {
+        "name": "solver.js",
+        "stars": 73,
+        "repo": "noCaptchaAi/qCaptchaSolver.user.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
