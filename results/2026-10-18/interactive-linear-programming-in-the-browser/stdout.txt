@@ -1,0 +1,108 @@
+( 1/13) Installing brotli-libs (1.2.0-r1)
+( 2/13) Installing c-ares (1.34.8-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.9.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+BENCHMARK:apk_install_nodejs_s:1.352
+BENCHMARK:apk_install_npm_s:0.952
+INSTALL_FAIL:@antirez/lpviz:npm returned 1
+TEST_FAIL:import_@antirez/lpviz:node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module '@antirez/lpviz'
+Require stack:
+- /[eval]
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at [eval]:1:1
+    at runScriptInThisContext (node:internal/vm:219:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/[eval]' ]
+}
+
+Node.js v24.18.1
+TEST_PASS:simple_render
+TEST_FAIL:render_perf_100:node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module '@antirez/lpviz'
+Require stack:
+- /[eval]
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at [eval]:3:23
+    at runScriptInThisContext (node:internal/vm:219:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/[eval]' ]
+}
+
+Node.js v24.18.1
+TEST_FAIL:worker_integration:node:internal/event_target:1118
+  process.nextTick(() => { throw err; });
+                           ^
+Error: Cannot find module '@antirez/lpviz'
+Require stack:
+- /worker_test/worker.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at Object.<anonymous> (/worker_test/worker.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1871:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/worker_test/worker.js' ]
+}
+
+Node.js v24.18.1
+INSTALL_FAIL:glpk.js:npm returned 1
+TEST_FAIL:import_glpk.js:node:internal/modules/cjs/loader:1520
+  throw err;
+  ^
+
+Error: Cannot find module 'glpk.js'
+Require stack:
+- /[eval]
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)
+    at Module._load (node:internal/modules/cjs/loader:1294:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1617:12)
+    at require (node:internal/modules/helpers:153:16)
+    at [eval]:1:1
+    at runScriptInThisContext (node:internal/vm:219:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/[eval]' ]
+}
+
+Node.js v24.18.1
+RUN_OK
