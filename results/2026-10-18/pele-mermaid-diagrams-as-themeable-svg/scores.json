@@ -1,0 +1,106 @@
+{
+  "app_name": "Pele – Mermaid diagrams as themeable SVG",
+  "url": "https://pele.run/",
+  "scored_at": "2026-10-18T13:03:24.472Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only similarity to existing tools is given, so novelty cannot be assessed beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 17.4 seconds (<30 s) and the package is on PyPI, indicating a simple, consumer‑hardware‑friendly setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool‑frontend for rendering Mermaid diagrams to themeable SVGs, it addresses a common need in modern web UI development."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools like Mermaid (90k+ stars) and Graphviz exist, Pele offers the unique feature of themeable SVG output, giving it one notable advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "No GitHub repo is detected, but Hacker News shows 476 points and a sentiment of 7/10 from 30 comments, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed and the basic run failed, meaning less than 50% of core functionality is verified."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The library is published on PyPI, supports NPM, CDN import, and a React component, providing multiple straightforward integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit documentation metrics (wiki, GitHub pages, topics) were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Without repository data, maturity is inferred from Hacker News points (476 > 300) and a stable domain, suggesting a moderately mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were provided, so a neutral performance score is applied."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely praise Pele’s improved layout and ease of integration, with developers noting its open‑source nature and compatibility with CI/CD and version control. Some users express lingering frustration with Mermaid’s original complexity, mention security and documentation gaps, but these are outweighed by the overall positive reception."
+    }
+  },
+  "summary": "Pele is a lightweight library that renders Mermaid diagrams as themeable SVGs using React. It can be installed via PyPI, imported as an NPM package, or used via a CDN, and is offered as a ready-to-use React component. Developers building web interfaces that need customizable diagram styling will find it useful, especially when they want direct SVG control. The standout strength is its easy integration options and themeable output, while the main caveat is that automated tests show none of the core functionality passing, indicating limited verified stability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://pele.run/",
+  "tool_url": "https://github.com/antfu/pele",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50132193",
+  "domain": "devtool",
+  "app_type": "devtool-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Mermaid",
+        "stars": 90728,
+        "repo": "mermaid-js/mermaid"
+      },
+      {
+        "name": "Graphviz",
+        "stars": 1814,
+        "repo": "xflr6/graphviz"
+      },
+      {
+        "name": "D3.js",
+        "stars": 4636,
+        "repo": "Jannchie/Historical-ranking-data-visualization-based-on-d3.js"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.2",
+      "summary": "Python energy landscape explorer: global optimization, minimization, basins of attraction",
+      "requires_python": ">=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Excellent layout quality",
+        "Open source and easy embedding",
+        "Version‑control friendly"
+      ],
+      "negative_signals": [
+        "Some frustration with Mermaid’s complexity",
+        "Security concerns mentioned",
+        "Limited documentation issues"
+      ],
+      "justification": "The comments largely praise Pele’s improved layout and ease of integration, with developers noting its open‑source nature and compatibility with CI/CD and version control. Some users express lingering frustration with Mermaid’s original complexity, mention security and documentation gaps, but these are outweighed by the overall positive reception.",
+      "comment_count": 30,
+      "hn_points": 476
+    }
+  }
+}
