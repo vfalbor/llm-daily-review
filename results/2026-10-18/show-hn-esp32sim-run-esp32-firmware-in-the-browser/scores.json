@@ -1,0 +1,109 @@
+{
+  "app_name": "esp32sim",
+  "url": "https://github.com/mikroverk/esp32sim",
+  "scored_at": "2026-10-18T13:07:24.150Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 54 days old, is not a fork, and offers a browser‑based ESP32 simulator that overlaps with existing tools like espsim (239 stars) and esp-idf-web (27 stars), indicating an incremental rather than breakthrough contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 22.8 seconds, which is under the 30‑second threshold for easy setup, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for rapid ESP32 prototyping, it aligns with current trends of fast hardware emulation for agentic coding and demo workloads."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 261 stars it surpasses esp-idf-web (27 stars, +867%) and modestly exceeds espsim (239 stars, +9%), and its WebAssembly‑based browser runtime is a unique deployment model."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 261 stars, 5 contributors, and was updated just 1 day ago, showing modest but active community engagement."
+    },
+    "ease_of_use": {
+      "score": 8,
+      "justification": "Four out of five tests passed (80%) and the install succeeded, indicating most core functionality works out of the box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available via CLI and Web UI, licensed under MIT, but lacks a PyPI package or explicit API, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 54 days old with 15 forks and 18 open issues, indicating early‑stage maturity without a stable release cycle."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report a page load time of 535.10 ms and an install time of 0.833 s for a comparable tool, but no clear performance advantage is demonstrated."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight enthusiasm for a free, browser‑based ESP32 simulator that aids rapid development and demos, but several users point out documentation issues and comparison to existing paid tools, reflecting constructive criticism rather than outright hostility."
+    }
+  },
+  "summary": "esp32sim is a Rust‑based tool that runs ESP32 firmware in the browser via WebAssembly, providing both a CLI and a Web UI for rapid prototyping without physical hardware. It builds on existing ESP32 simulators but adds a browser‑first deployment model, leveraging the same open‑source ecosystem. Developers who need quick demos or agentic code generation for ESP32 devices will find it useful, especially because it avoids hardware setup. Its strongest point is the higher star count and fast installation, while its main drawback is limited documentation and early‑stage maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mikroverk/esp32sim",
+  "tool_url": "https://github.com/mikroverk/esp32sim",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50131189",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 261,
+      "forks": 15,
+      "open_issues": 18,
+      "watchers": 261,
+      "contributors": 5,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 54,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "esp-idf-web",
+        "stars": 27,
+        "repo": "ESP32Tutorials/ESP32-CAM-ESP-IDF-Live-Streaming-Web-Server"
+      },
+      {
+        "name": "espsim",
+        "stars": 239,
+        "repo": "hesther/espsim"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 4,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Free open-source tool",
+        "Useful for demoing and agentic coding",
+        "Easily extensible"
+      ],
+      "negative_signals": [
+        "Poorly formatted documentation",
+        "Comparisons to existing paid emulators",
+        "Limited hardware support"
+      ],
+      "justification": "Comments highlight enthusiasm for a free, browser‑based ESP32 simulator that aids rapid development and demos, but several users point out documentation issues and comparison to existing paid tools, reflecting constructive criticism rather than outright hostility.",
+      "comment_count": 30,
+      "hn_points": 180
+    }
+  }
+}
