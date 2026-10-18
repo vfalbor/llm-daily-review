@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 145, in <module>
+    main()
+  File "/app/test.py", line 112, in main
+    importlib.reload(pele)
+                     ^^^^
+UnboundLocalError: cannot access local variable 'pele' where it is not associated with a value
