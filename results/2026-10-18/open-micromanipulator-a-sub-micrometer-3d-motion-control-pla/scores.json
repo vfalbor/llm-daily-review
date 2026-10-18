@@ -1,0 +1,106 @@
+{
+  "app_name": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+  "url": "https://github.com/0x23/MicroManipulatorStepper",
+  "scored_at": "2026-10-18T13:01:19.311Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 416 days ago and is not a fork, offering sub‑micrometer 3‑D motion control unlike the broader GRBL/Marlin firmware, indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 9.5 s despite no PyPI package, showing a straightforward setup on consumer hardware."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a hardware‑robotics firmware tool, it aligns with the current maker and automation trend of high‑precision motion platforms."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The repo has 1,901 stars, far fewer than GRBL (6,296), Marlin (17,625) and OctoPrint (9,147), and no benchmark data to prove superiority."
+    },
+    "community": {
+      "score": 8,
+      "justification": "GitHub shows 1,901 stars, 12 contributors, and the latest commit was 7 days ago, indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 of 4 tests passed (50%) and the basic run succeeded, meeting the ≥50% threshold for a moderate usability score."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project provides a CLI, firmware, and a Python API but lacks a PyPI package; license is marked NOASSERTION."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed beyond the basic repository README."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 416 days old, has 273 forks and 23 open issues, suggesting a stable, moderately mature project."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were emitted and no performance claims appear in the repo, so only a minimal score is given for lack of evidence."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Open MicroManipulator is firmware and a control library for a sub‑micrometer 3‑D motion platform that uses stepper‑motor drivers. It is built in C++ and offers a CLI, firmware flashing, and a Python API for direct integration. The tool suits hobbyist and research robotics teams needing ultra‑precise motion control. It benefits from an active community (1,901 stars, recent commits) but lacks performance benchmarks and comprehensive documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/0x23/MicroManipulatorStepper",
+  "tool_url": "https://github.com/0x23/MicroManipulatorStepper",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50140001",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 1901,
+      "forks": 273,
+      "open_issues": 23,
+      "watchers": 1901,
+      "contributors": 12,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 7,
+      "days_since_created": 416,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A sub-micrometer 3D motion control plattform.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "GRBL",
+        "stars": 6296,
+        "repo": "grbl/grbl"
+      },
+      {
+        "name": "Marlin",
+        "stars": 17625,
+        "repo": "MarlinFirmware/Marlin"
+      },
+      {
+        "name": "OctoPrint",
+        "stars": 9147,
+        "repo": "OctoPrint/OctoPrint"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 18
+    }
+  }
+}
