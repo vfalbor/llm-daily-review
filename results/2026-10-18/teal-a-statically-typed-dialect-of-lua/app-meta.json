@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Teal – A statically-typed dialect of Lua",
+    "url": "https://teal-language.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=50124730",
+    "points": 62,
+    "comments": 22,
+    "author": "Lyngbakr",
+    "age": "2026-10-16T21:07:24",
+    "scraped_at": "2026-10-18T13:00:02.376Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/teal-language/teal",
+    "source_type": "tool",
+    "confidence": 0.92,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "A statically-typed dialect of Lua with a small runtime and optional type checker.",
+    "use_modes": [
+      "Interpreter",
+      "Compiler",
+      "IDE integration"
+    ],
+    "similar_tools": [
+      "TypedLua",
+      "Starlite",
+      "Fennel"
+    ],
+    "proposed_tests": [
+      "Clone the Teal repository and run the build script to install the interpreter.",
+      "Execute the provided `hello_world.t` example and assert the output is 'Hello, world!'.",
+      "Compile a small Teal program to Lua and compare byte‑code size with a vanilla Lua equivalent.",
+      "Measure the execution time of a computationally intensive loop in both Teal and Lua and compare performance.",
+      "Run the built‑in type checker on a file with intentional type errors and confirm it reports the expected diagnostics."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/teal-language/teal"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792328480513-8gk4x",
+    "log_dir": "/tmp/llm-review-1792328480513-8gk4x",
+    "install_success": true,
+    "install_time_s": 15.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:clone_build:git clone failed: Cloning into '/tmp/teal_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nTEST_FAIL:hello_world:[Errno 2] No such file or directory: 'teal'\nTEST_FAIL:bytecode_size:[Errno 2] No such file or directory: 'teal'\nTEST_FAIL:perf_loop:[Errno 2] No such file or directory: 'teal'\nTEST_FAIL:type_checker:[Errno 2] No such file or directory: 'tealc'\nRUN_OK\n"
+  }
+}
