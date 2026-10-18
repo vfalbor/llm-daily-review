@@ -1,0 +1,106 @@
+{
+  "app_name": "Custom server to revive neato bots",
+  "url": "https://github.com/vacuula/vacuula",
+  "scored_at": "2026-10-18T13:06:14.004Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 138 days ago, is not a fork, and its 96 stars vastly exceed the 4, 1, and 0 stars of the closest alternatives, indicating a meaningful but not groundbreaking improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 16.6 seconds (under the 30‑second threshold) despite the lack of a PyPI package, showing a relatively simple setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI for controlling Neato robot vacuums, it addresses a niche hardware‑automation use case rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 96 GitHub stars it outperforms vacuum‑remote (4 stars), neato‑web (1 star) and roombai (0 stars) by +92 to +96 stars, and its import time of 0.60 ms demonstrates a clear performance edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 96 stars, 4 contributors, and was updated 0 days ago, placing it in the 100–1 000 star range with active recent maintenance."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 5 tests passed (0 %), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides both a CLI and an HTTP API and is licensed under AGPL‑3.0, but lacks a PyPI package, requiring manual wiring."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki, GitHub Pages, or README quality metrics were provided, so evidence is insufficient for a higher score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 138 days old with 16 forks and 8 open issues, indicating an early‑stage but actively maintained project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show an import time of 0.60 ms and a post‑command latency of 17.36 ms, but no comparative data are available to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This is a lightweight HTTP server that revives and manages Neato robot vacuums via a REST API and a CLI. It is built as a TypeScript project hosted on GitHub and runs locally without requiring an API key. The tool is suited for developers or hobbyists who need direct programmatic control of Neato vacuums. It stands out with a high star count compared to similar niche projects, but its lack of passing tests and limited documentation are major drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/vacuula/vacuula",
+  "tool_url": "https://github.com/vacuula/vacuula",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50097257",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 96,
+      "forks": 16,
+      "open_issues": 8,
+      "watchers": 96,
+      "contributors": 4,
+      "license": "AGPL-3.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 138,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "custom server for the undead robot vacuum cleaners - revive your Neato with the power of Vacuula",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "vacuum-remote",
+        "stars": 4,
+        "repo": "naimurhamim/Smart-Vacuum-Cleaner-Robot-with-Remote-Voice-and-Autonomous-control"
+      },
+      {
+        "name": "neato-web",
+        "stars": 1,
+        "repo": "EldoonNemar/neatoscheduler_web"
+      },
+      {
+        "name": "roombai",
+        "stars": 0,
+        "repo": "latinrev/roombai"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 52
+    }
+  }
+}
