@@ -1,0 +1,106 @@
+{
+  "app_name": "Teal – A statically-typed dialect of Lua",
+  "url": "https://teal-language.org/",
+  "scored_at": "2026-10-18T13:02:16.313Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date, fork status, and direct comparison to similar tools are not provided, so data is insufficient."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 15.2 seconds and the package is available on PyPI, meeting the <30 s pip install guideline."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a new statically-typed Lua dialect, it aligns with current LLM agent trends that value type safety, fitting the lang-new tool category."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark data for Teal is available, so a neutral score is assigned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub statistics (stars, contributors, recent activity) are unavailable, leading to a neutral rating."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (<50%); despite successful installation, core functionality failed in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The library is on PyPI and offers Interpreter, Compiler, and IDE integration modes, facilitating straightforward embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation metrics (wiki, GitHub pages, topic count) were retrieved, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Version 0.0.1 is listed but there is no data on creation date, forks, or issue activity to assess maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output and no performance claims were found, resulting in a neutral rating."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show generally positive view of Teal’s type system and benefits for AI, but also mixed opinions about its necessity and novelty, leading to a moderately positive sentiment."
+    }
+  },
+  "summary": "Teal is a statically‑typed dialect of Lua that provides an interpreter, a compiler, and IDE integration. It is distributed via PyPI and installs in about 15 seconds, but its test suite reports zero passed tests, indicating core functionality issues. The language targets AI agents that benefit from type safety, offering a niche alternative to TypedLua and Fennel. While the community and documentation signals are missing, its easy integration and relevance to current LLM workflows are its main strengths, tempered by unclear maturity and performance data.",
+  "recommendation": "niche",
+  "app_url": "https://teal-language.org/",
+  "tool_url": "https://github.com/teal-language/teal",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50124730",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "TypedLua",
+        "stars": 588,
+        "repo": "andremm/typedlua"
+      },
+      {
+        "name": "Starlite",
+        "stars": 32,
+        "repo": "topsport-com-au/starlite-saqlalchemy"
+      },
+      {
+        "name": "Fennel",
+        "stars": 2761,
+        "repo": "bakpakin/Fennel"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "RESTful Flask for big applications.",
+      "requires_python": "",
+      "license": "BSD",
+      "home_page": "https://github.com/bustawin/teal"
+    },
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful static typing for Lua",
+        "Helpful for AI agents",
+        "Encourages better error feedback"
+      ],
+      "negative_signals": [
+        "Mixed relevance of new language",
+        "Uncertain novelty",
+        "Limited discussion on performance"
+      ],
+      "justification": "Comments show generally positive view of Teal’s type system and benefits for AI, but also mixed opinions about its necessity and novelty, leading to a moderately positive sentiment.",
+      "comment_count": 20,
+      "hn_points": 62
+    }
+  }
+}
