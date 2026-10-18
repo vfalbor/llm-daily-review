@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Interactive Linear Programming in the Browser",
+    "url": "https://lpviz.net/",
+    "hn_url": "https://news.ycombinator.com/item?id=50130379",
+    "points": 51,
+    "comments": 0,
+    "author": "klamike",
+    "age": "2026-10-17T12:06:44",
+    "scraped_at": "2026-10-18T13:00:02.380Z",
+    "tool_url": "https://github.com/antirez/lpviz",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "web-frontend",
+    "app_type": "web-framework",
+    "description": "A lightweight JavaScript library that visualizes linear programming solutions directly in the browser.",
+    "use_modes": [
+      "ESM import",
+      "NPM package",
+      "CDN"
+    ],
+    "similar_tools": [
+      "glpk.js",
+      "lp-solver",
+      "solver.js"
+    ],
+    "proposed_tests": [
+      "npm install @antirez/lpviz",
+      "Create a simple LP in a test page and render the solution",
+      "Verify that the output SVG correctly depicts the feasible region",
+      "Measure rendering performance for 100 variables",
+      "Test integration with a web worker for solving"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/antirez/lpviz"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792328605824-asr2g",
+    "log_dir": "/tmp/llm-review-1792328605824-asr2g",
+    "install_success": false,
+    "install_time_s": 11.5,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_install_nodejs_s:1.352\nBENCHMARK:apk_install_npm_s:0.952",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_install_nodejs_s:1.352\nBENCHMARK:apk_install_npm_s:0.952\nINSTALL_FAIL:@antirez/lpviz:npm returned 1\nTEST_FAIL:import_@antirez/lpviz:node:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module '@antirez/lpviz'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at [eval]:1:1\n    at runScriptInThisContext (node:internal/vm:219:10) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/[eval]' ]\n}\n\nNode.js v24.18.1\nTEST_PASS:simple_render\nTEST_FAIL:render_perf_100:node:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module '@antirez/lpviz'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at [eval]:3:23\n    at runScriptInThisContext (node:internal/vm:219:10) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/[eval]' ]\n}\n\nNode.js v24.18.1\nTEST_FAIL:worker_integration:node:internal/event_target:1118\n  process.nextTick(() => { throw err; });\n                           ^\nError: Cannot find module '@antirez/lpviz'\nRequire stack:\n- /worker_test/worker.js\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.require (node:internal/modules/cjs/loader:1617:12)\n    at require (node:internal/modules/helpers:153:16)\n    at Object.<anonymous> (/worker_test/worker.js:3:23)\n    at Module._compile (node:internal/modules/cjs/loader:1871:14) {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '/worker_test/worker.js' ]\n}\n\nNode.js v24.18.1\nINSTALL_FAIL:glpk.js:npm returned 1\nTEST_FAIL:import_glpk.js:node:internal/modules/cjs/loader:1520\n  throw err;\n  ^\n\nError: Cannot find module 'glpk.js'\nRequire stack:\n- /[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1517:15)\n    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)\n    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)\n    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1122:12)\n    at Module._load (node:internal/modules/cjs/loader:1294:5)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19"
+  }
+}
