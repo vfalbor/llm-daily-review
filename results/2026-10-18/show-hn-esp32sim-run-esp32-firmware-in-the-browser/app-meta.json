@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+    "url": "https://github.com/mikroverk/esp32sim",
+    "hn_url": "https://news.ycombinator.com/item?id=50131189",
+    "points": 180,
+    "comments": 33,
+    "author": "joakimeriksson",
+    "age": "2026-10-17T13:51:08",
+    "scraped_at": "2026-10-18T13:00:02.387Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/mikroverk/esp32sim",
+    "repo_url": "https://github.com/mikroverk/esp32sim",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A web-based ESP32 simulator that runs firmware in the browser using WebAssembly, enabling rapid prototyping without hardware.",
+    "use_modes": [
+      "Web UI",
+      "CLI"
+    ],
+    "similar_tools": [
+      "esp-idf-web",
+      "espsim",
+      "espressif-simulator"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies",
+      "Run `npm start` to launch the simulator",
+      "Upload a simple blink firmware and verify LED toggling in the UI",
+      "Measure load time of the simulator page"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1792328775270-zkjf3",
+    "log_dir": "/tmp/llm-review-1792328775270-zkjf3",
+    "install_success": true,
+    "install_time_s": 22.8,
+    "basic_run_success": true,
+    "tests_passed": 4,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.927\nBENCHMARK:clone_time_s:2.882\nBENCHMARK:npm_install_time_s:0.811\nBENCHMARK:page_load_ms:535.10\nBENCHMARK:vs_espsim_install_time_s:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_install_time_s:5.927\nINSTALL_OK\nBENCHMARK:clone_time_s:2.882\nTEST_PASS:clone_repo\nBENCHMARK:npm_install_time_s:0.811\nTEST_PASS:npm_install\nTEST_PASS:npm_start\nTEST_FAIL:firmware_discovery:no firmware files found\nBENCHMARK:page_load_ms:535.10\nTEST_PASS:page_load\nBENCHMARK:vs_espsim_install_time_s:0.833\nRUN_OK\n"
+  }
+}
