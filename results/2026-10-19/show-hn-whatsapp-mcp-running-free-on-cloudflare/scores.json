@@ -1,0 +1,121 @@
+{
+  "app_name": "WhatsApp MCP running free on Cloudflare",
+  "url": "https://github.com/finereli/whatsapp-mcp",
+  "scored_at": "2026-10-19T13:02:17.088Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 0 days ago, is not a fork, and provides a wrapper similar to existing WhatsApp Business and Twilio APIs, indicating an incremental rather than revolutionary approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 11.8 seconds (well under the 30 s threshold) and the package is available on PyPI, requiring only Python 3.11+."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra‑networking tool for WhatsApp on Cloudflare, it aligns with current trends of low‑cost, edge‑deployed messaging services in the LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 221 GitHub stars it trails the WhatsApp Business API (481 stars) but outperforms Twilio and Signal Wire alternatives; the benchmark shows a latency ratio of 0.67 versus Twilio, indicating a modest speed advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 221 stars (within the 100–1k range), 1 contributor, and was updated today (0 days since last commit), reflecting an active but still small community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 3 tests passed (33%), which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI, offers both CLI and HTTP API modes, and uses an MIT license, facilitating straightforward integration into pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned due to lack of documented evidence."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository was created today (0 days old) with 13 forks and a single open issue, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmarks report an import time of 0.9 ms and message latency of 100 ms, with a latency ratio of 0.67 compared to Twilio, showing comparable but not dramatically superior performance."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of comments focus on privacy worries about exposing private messages to a third‑party AI, with concerns about consent and data leakage outweighing praise for the convenience of running WhatsApp on Cloudflare."
+    }
+  },
+  "summary": "WhatsApp MCP is a lightweight wrapper that lets you run the WhatsApp Multi‑Client Protocol on Cloudflare workers, exposing both a CLI and an HTTP API. It is built in TypeScript, packaged on PyPI, and requires a WhatsApp API key to operate. The tool is suited for developers who need free, edge‑deployed WhatsApp messaging without paying for official Business APIs. Its main strength is a modest latency improvement (0.67× Twilio) and easy installation, while its primary drawback is limited test coverage (only 33% of tests passed) and very recent creation, meaning the ecosystem and documentation are still immature.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/finereli/whatsapp-mcp",
+  "tool_url": "https://github.com/finereli/whatsapp-mcp",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50145715",
+  "domain": "infra",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": {
+      "stars": 221,
+      "forks": 13,
+      "open_issues": 1,
+      "watchers": 221,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "WhatsApp Business API",
+        "stars": 481,
+        "repo": "WhatsApp/WhatsApp-Business-API-Setup-Scripts"
+      },
+      {
+        "name": "Twilio API for WhatsApp",
+        "stars": 0,
+        "repo": "chiefstain/WhatsApp-bot-code-for-Twilio-API-in-Python"
+      },
+      {
+        "name": "Signal Wire API",
+        "stars": 0,
+        "repo": "diego-oliveira/signal-wire-api"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "WhatsApp MCP Server",
+      "requires_python": ">=3.11",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "cloud free use",
+        "simplifies WhatsApp deployment",
+        "leverages Cloudflare"
+      ],
+      "negative_signals": [
+        "privacy intrusion",
+        "AI data usage concerns",
+        "questionable ethics"
+      ],
+      "justification": "The majority of comments focus on privacy worries about exposing private messages to a third‑party AI, with concerns about consent and data leakage outweighing praise for the convenience of running WhatsApp on Cloudflare.",
+      "comment_count": 30,
+      "hn_points": 124
+    }
+  }
+}
