@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+    "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+    "hn_url": "https://news.ycombinator.com/item?id=50151390",
+    "points": 33,
+    "comments": 13,
+    "author": "isuruwijesiri",
+    "age": "2026-10-19T12:07:41",
+    "scraped_at": "2026-10-19T13:00:02.735Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/IsuruMaduranga/harness-engineing-101",
+    "source_type": "tool",
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A modular framework for building LLM harnesses that combine reasoning, memory, and action modules.",
+    "use_modes": [
+      "library",
+      "CLI"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "LlamaIndex"
+    ],
+    "proposed_tests": [
+      "pip install harness-engineering-101 and import harness module",
+      "Instantiate a simple harness with a dummy LLM and run a basic prompt to ensure output generation",
+      "Verify that the memory component stores and retrieves data by injecting a known token and checking retrieval",
+      "Measure end-to-end latency for a short prompt and compare against a baseline using LangChain",
+      "Run unit tests included in the repository to confirm all modules are functional"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/IsuruMaduranga/harness-engineering-101"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792414854431-suift",
+    "log_dir": "/tmp/llm-review-1792414854431-suift",
+    "install_success": true,
+    "install_time_s": 9.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.670\nBENCHMARK:pip_harness-engineering-101_install_time_s:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.670\nINSTALL_OK\nBENCHMARK:pip_harness-engineering-101_install_time_s:0.833\nTEST_FAIL:import_harness:No module named 'harness_engineering_101'\nTEST_FAIL:basic_harness:No module named 'harness_engineering_101'\nTEST_FAIL:memory_store_retrieve:No module named 'harness_engineering_101'\nTEST_FAIL:latency_vs_langchain:No module named 'harness_engineering_101'\nTEST_SKIP:repo_tests:repo_not_cloned\nRUN_OK\n"
+  }
+}
