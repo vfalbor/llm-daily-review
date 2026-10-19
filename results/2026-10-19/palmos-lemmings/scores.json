@@ -1,0 +1,94 @@
+{
+  "app_name": "PalmOS Lemmings",
+  "url": "https://github.com/ardiri/palmos-lemmings",
+  "scored_at": "2026-10-19T13:03:22.106Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 1615 days ago and is not a fork, but it is a port of an existing classic game, making it an incremental improvement rather than a brand‑new concept."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 12.3 seconds, but there is no PyPI package, indicating a modest setup complexity for compiling the source."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a retro PalmOS game port, it addresses a niche hobby rather than a current trend in LLM or mainstream software development."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 148 GitHub stars it outperforms many similar PalmOS game ports and uniquely brings the Lemmings title to the platform, offering a feature no other listed tool provides."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 148 stars, 3 contributors, and the last commit was 13 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type (game) as it is not intended to be embedded in other pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki or GitHub Pages was provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 1615 days old, has 18 forks and zero open issues, suggesting a stable, mature codebase."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this app type as no benchmark data or performance claims are available for a game port."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments overwhelmingly celebrate the project, its developer, and the nostalgic value of Palm OS, with only minor mentions of documentation gaps, yielding a very positive sentiment."
+    }
+  },
+  "summary": "PalmOS Lemmings is a C‑based port of the classic Lemmings game that runs on PalmOS devices, offering both a downloadable ROM and source code for compilation. It builds locally without needing an API key and targets retro‑gaming enthusiasts who want to experience Lemmings on vintage hardware. The standout strength is its unique availability of this iconic game on PalmOS, while the main caveat is the lack of functional test coverage (0/4 tests passed) and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ardiri/palmos-lemmings",
+  "tool_url": "https://github.com/ardiri/palmos-lemmings",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50143536",
+  "domain": "other",
+  "app_type": "other",
+  "enriched": {
+    "github": {
+      "stars": 148,
+      "forks": 18,
+      "open_issues": 0,
+      "watchers": 148,
+      "contributors": 3,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 13,
+      "days_since_created": 1615,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "PalmOS - clone - Lemmings (Lemmings)",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Nostalgic appreciation for Palm OS",
+        "Praise for Aaron’s coding skill and legacy",
+        "Technical admiration of the port’s quality"
+      ],
+      "negative_signals": [],
+      "justification": "The comments overwhelmingly celebrate the project, its developer, and the nostalgic value of Palm OS, with only minor mentions of documentation gaps, yielding a very positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 138
+    }
+  }
+}
