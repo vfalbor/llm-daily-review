@@ -1,0 +1,99 @@
+{
+  "app_name": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+  "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+  "scored_at": "2026-10-19T13:01:20.207Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative novelty data is unavailable."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 9.1 seconds and the tool does not require an API key, meeting the fast, low‑dependency criteria."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app type is 'llm-framework', which aligns with today's focus on modular LLM harnesses in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub star count or benchmark comparison is available to quantify differences from LangChain (148,075 stars), CrewAI (59,867 stars) or LlamaIndex (52,567 stars)."
+    },
+    "community": {
+      "score": 3,
+      "justification": "Without a GitHub repository, the only community signal is 35 HN points, which falls in the low range for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 5 tests passed (0%) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The package is not on PyPI, but it offers library and CLI use modes; no further API or license details are available."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "No GitHub repo data (wiki, pages, topics) is present, and no external documentation signals were found."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository metadata, maturity must rely on the modest 35 HN points, indicating limited adoption and early-stage status."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only shows install times (apk_git_install_time_s:0.670, pip_harness-engineering-101_install_time_s:0.833) with no performance comparison to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments generally appreciate the resource list and analogies while noting some overload of metaphors and skepticism about anthropomorphism and writing quality, yielding a mildly positive overall sentiment."
+    }
+  },
+  "summary": "Harness Engineering 101 is a modular framework that lets developers combine reasoning, memory, and action modules into LLM harnesses. It is delivered as a library and CLI but is not distributed via PyPI, requiring a git‑based install. The tool targets developers building custom LLM pipelines who want a plug‑and‑play architecture, but its lack of documented benchmarks and minimal community activity limit its appeal. While installation is quick and the concept fits current LLM trends, the absence of test passes and limited documentation are significant drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+  "tool_url": "https://github.com/IsuruMaduranga/harness-engineing-101",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50151390",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 148075,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 59867,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LlamaIndex",
+        "stars": 52567,
+        "repo": "run-llama/llama_index"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "resourceful references",
+        "useful analogies",
+        "emphasis on harness optimization"
+      ],
+      "negative_signals": [
+        "metaphor overload",
+        "critical comments on writing",
+        "concerns about anthropomorphizing"
+      ],
+      "justification": "The comments generally appreciate the resource list and analogies while noting some overload of metaphors and skepticism about anthropomorphism and writing quality, yielding a mildly positive overall sentiment.",
+      "comment_count": 14,
+      "hn_points": 35
+    }
+  }
+}
