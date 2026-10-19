@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "PalmOS Lemmings",
+    "url": "https://github.com/ardiri/palmos-lemmings",
+    "hn_url": "https://news.ycombinator.com/item?id=50143536",
+    "points": 138,
+    "comments": 33,
+    "author": "memalign",
+    "age": "2026-10-18T17:56:59",
+    "scraped_at": "2026-10-19T13:00:02.745Z",
+    "tool_url": "https://github.com/ardiri/palmos-lemmings",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "other",
+    "app_type": "other",
+    "description": "A port of the classic Lemmings game to the PalmOS platform, providing a playable ROM and source for retro enthusiasts.",
+    "use_modes": [
+      "ROM download",
+      "source compile"
+    ],
+    "similar_tools": [
+      "PalmOS games",
+      "Handheld ROMs",
+      "Retro game ports"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the ROM using the provided Makefile.",
+      "Verify the ROM runs on an emulator (e.g., Mupen64).",
+      "Check that all original game levels load correctly.",
+      "Benchmark ROM size against the original PC version.",
+      "Run a smoke test to ensure no crashes during gameplay."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ardiri/palmos-lemmings"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792414938530-ty4wv",
+    "log_dir": "/tmp/llm-review-1792414938530-ty4wv",
+    "install_success": true,
+    "install_time_s": 12.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement palmos-lemmings (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for palmos-lemmings\nINSTALL_FAIL:[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/palmos-lemmings does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_FAIL:import_palmos_lemmings:No module named 'palmos_lemmings'\nTEST_SKIP:build_rom:Source not available\nTEST_SKIP:rom_size:Source not available\nTEST_SKIP:smoke_run:Source not available\nRUN_OK\n"
+  }
+}
