@@ -1,0 +1,114 @@
+{
+  "app_name": "DeepInfer",
+  "url": "https://github.com/deepseek-ai/DeepInfer",
+  "scored_at": "2026-10-20T13:01:24.784Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 4 days old and is not a fork, but it targets the same inference problem as well‑established tools like Ollama and vLLM, making it an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 13.8 s and runs locally, though there is no PyPI package, indicating a fairly simple setup with minor extra steps."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm‑inference engine, it addresses a core need in today’s LLM deployment pipelines, matching current ecosystem trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 7,221 stars it is far smaller than Ollama (184,240) or vLLM (94,255), yet it offers a lightweight HTTP API and a 142 ms import benchmark, giving it a clear edge in simplicity."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 7,221 GitHub stars, 2 contributors, and was updated today (0 days since last commit), indicating strong recent interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed despite a successful install, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "No PyPI package is available, but the project provides an HTTP API, CLI, and Python SDK under an Apache‑2.0 license, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README depth was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is only 4 days old, has 595 forks and 60 open issues, suggesting early‑stage development with active forking but limited stable releases."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The benchmark reports an import time of 142 ms, but no comparative data to other engines is available, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Many comments praise the concrete revenue and margin numbers and see open sourcing as a healthy competitive push, while others caution that open source models could erode margins and that profitability remains uncertain, leading to a generally positive but somewhat guarded sentiment."
+    }
+  },
+  "summary": "DeepInfer is an open‑source inference engine that serves LLMs via a lightweight HTTP API and optional CLI/Python SDK. It is built in Python and runs locally without requiring an API key. It is aimed at developers who need a simple, self‑hosted alternative to larger inference stacks like Ollama or vLLM. The engine’s main strength is its minimalistic design and fast import time (142 ms), while its main caveat is the lack of test coverage and early‑stage maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/deepseek-ai/DeepInfer",
+  "tool_url": "https://github.com/deepseek-ai/DeepInfer",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50163277",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 7221,
+      "forks": 595,
+      "open_issues": 60,
+      "watchers": 7221,
+      "contributors": 2,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 184240,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 94255,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "Llama.cpp",
+        "stars": 131801,
+        "repo": "ggml-org/llama.cpp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Clear profitability figures",
+        "Transparency of cost data",
+        "Encourages competition"
+      ],
+      "negative_signals": [
+        "Concerns about shrinking margins",
+        "Skepticism over profitability",
+        "Potential monopolistic risks"
+      ],
+      "justification": "Many comments praise the concrete revenue and margin numbers and see open sourcing as a healthy competitive push, while others caution that open source models could erode margins and that profitability remains uncertain, leading to a generally positive but somewhat guarded sentiment.",
+      "comment_count": 30,
+      "hn_points": 832
+    }
+  }
+}
