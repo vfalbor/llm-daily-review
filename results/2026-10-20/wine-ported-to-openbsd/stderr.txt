@@ -1,0 +1,15 @@
+ERROR: Could not find a version that satisfies the requirement wine (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for wine
+Traceback (most recent call last):
+  File "/app/test.py", line 163, in <module>
+    main()
+  File "/app/test.py", line 98, in main
+    ok_pip, t_pip = pip_install('wine')
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 33, in pip_install
+    print_marker(f"INSTALL_FAIL:pip:{pkg}:{reason.strip()}")
+                                           ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
