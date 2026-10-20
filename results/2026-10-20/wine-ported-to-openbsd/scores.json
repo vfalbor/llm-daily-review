@@ -1,0 +1,113 @@
+{
+  "app_name": "Wine ported to OpenBSD",
+  "url": "https://github.com/wine-mirror/wine",
+  "scored_at": "2026-10-20T13:03:31.238Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 4457 days ago and is not a fork, but it mainly adds OpenBSD support to an existing Wine codebase, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 8 seconds, which is well under the 30‑second threshold, and no API key is required."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool, the OpenBSD Wine port addresses a niche compatibility need but does not align directly with the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 4,260 stars it outperforms CrossOver (1,258) and PlayOnLinux (497) but trails Bottles (8,971); its unique OpenBSD support provides a clear advantage over those alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 4,260 stars, 2,527 contributors, and the latest commit was 0 days ago, indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No test suite was executed (0/0 tests) and the basic run failed, providing insufficient data to assess usability beyond the successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool has no PyPI package, offers CLI and GUI modes, and the license is listed as NOASSERTION, leaving integration details ambiguous."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information about a wiki, GitHub Pages, or other documentation assets was provided, so documentation quality cannot be evaluated."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 4,457 days old, has 1,465 forks and only 25 open issues, suggesting a mature and stable project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The only benchmark reported is apk_git_install_s of 0.47 seconds, which does not relate to runtime performance, so no meaningful performance data is available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments largely praise the ambitious Wine port to OpenBSD and the excitement it brings, while some caution about driver support (especially Nvidia) and the need for careful patch review and license compliance."
+    }
+  },
+  "summary": "Wine ported to OpenBSD is a compatibility layer that lets Windows applications run on OpenBSD systems, built by extending the existing Wine codebase. It compiles locally and provides both CLI and GUI interfaces without requiring an API key. The project is best suited for developers or system administrators needing Windows app support on OpenBSD, offering unique platform coverage that other Wine front‑ends lack. While the community is large and active, documentation and integration details are sparse, and performance claims are not demonstrated.",
+  "recommendation": "worth-watching",
+  "app_url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+  "tool_url": "https://github.com/wine-mirror/wine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50152307",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 4260,
+      "forks": 1465,
+      "open_issues": 25,
+      "watchers": 4260,
+      "contributors": 2527,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4457,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "CrossOver",
+        "stars": 1258,
+        "repo": "lacymorrow/crossover"
+      },
+      {
+        "name": "PlayOnLinux",
+        "stars": 497,
+        "repo": "PlayOnLinux/POL-POM-4"
+      },
+      {
+        "name": "Bottles",
+        "stars": 8971,
+        "repo": "bottlesdevs/Bottles"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "impressive porting effort",
+        "adds BSD support",
+        "community enthusiasm"
+      ],
+      "negative_signals": [
+        "hardware driver limitations",
+        "license & maintenance concerns"
+      ],
+      "justification": "Comments largely praise the ambitious Wine port to OpenBSD and the excitement it brings, while some caution about driver support (especially Nvidia) and the need for careful patch review and license compliance.",
+      "comment_count": 30,
+      "hn_points": 588
+    }
+  }
+}
