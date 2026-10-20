@@ -1,0 +1,117 @@
+{
+  "app_name": "MicroG",
+  "url": "https://github.com/microg/GmsCore",
+  "scored_at": "2026-10-20T13:02:22.377Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 4562 days ago and is not a fork, but similar free Android service replacements exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 11.7 seconds despite no PyPI package, indicating a reasonably straightforward setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a mobile-native tool for replacing Google Play Services, it does not directly address current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 14,962 stars versus unnamed alternatives, MicroG offers a unique open‑source, privacy‑focused replacement that benchmarks an import time of 0.42 ms."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo has 14,962 stars, 290 contributors, and was updated 21 days ago, showing strong and active community support."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 of 2 tests passed (50%) and install succeeded, indicating core functionality works but some friction remains."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provided as a Gradle dependency and licensed under Apache‑2.0, it can be integrated into Android projects without an API key."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project includes a GitHub wiki and a detailed README, offering sufficient guidance for developers."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 4562 days old, has 3,268 forks and 1,446 open issues, indicating a mature and widely used project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows import_time_ms of 0.42 ms and synthetic_latency_ms of 0.01 ms, but no comparative data is provided."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments highlight positive user experiences (e.g., LineageOS support) while also raising legitimate concerns about security, transparency, and control over the code, leading to a mixed overall sentiment."
+    }
+  },
+  "hn_sentiment": {
+    "score": 5,
+    "justification": "HN points are 166 with a mixed sentiment score of 5/10, reflecting balanced positive and negative community feedback."
+  },
+  "summary": "MicroG is an open‑source re‑implementation of Google Play Services that can be added to Android projects as a Gradle dependency. It replaces proprietary Google libraries with free alternatives, targeting privacy‑focused users and custom ROMs. The tool is best for Android developers seeking a non‑Google service stack on devices like LineageOS. It benefits from a large, active community and solid maturity, but its relevance to current LLM workflows is limited and performance claims lack comparative context.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/microg/GmsCore/wiki",
+  "tool_url": "https://github.com/microg/GmsCore",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50162177",
+  "domain": "mobile",
+  "app_type": "mobile-native",
+  "enriched": {
+    "github": {
+      "stars": 14962,
+      "forks": 3268,
+      "open_issues": 1446,
+      "watchers": 14962,
+      "contributors": 290,
+      "license": "Apache-2.0",
+      "language": "Java",
+      "is_fork": false,
+      "days_since_update": 21,
+      "days_since_created": 4562,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Free implementation of Play Services",
+      "topics": [
+        "android",
+        "auth",
+        "cloud-messaging",
+        "firebase",
+        "geolocation",
+        "google",
+        "google-cloud-messaging",
+        "java",
+        "kotlin",
+        "kotlin-android",
+        "maps",
+        "microg",
+        "mobile",
+        "push-notifications"
+      ]
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Works well on LineageOS",
+        "Provides alternative to proprietary Google services",
+        "Supported by community discussions"
+      ],
+      "negative_signals": [
+        "Security concerns over signature spoofing",
+        "Opaque commit messages",
+        "Critique of Google control and closed‑source nature"
+      ],
+      "justification": "The comments highlight positive user experiences (e.g., LineageOS support) while also raising legitimate concerns about security, transparency, and control over the code, leading to a mixed overall sentiment.",
+      "comment_count": 18,
+      "hn_points": 166
+    }
+  }
+}
