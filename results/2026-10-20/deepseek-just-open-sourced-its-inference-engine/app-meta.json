@@ -1,0 +1,54 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "DeepSeek just open-sourced its inference engine",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "hn_url": "https://news.ycombinator.com/item?id=50163277",
+    "points": 826,
+    "comments": 281,
+    "author": "ggcr",
+    "age": "2026-10-20T09:08:54",
+    "scraped_at": "2026-10-20T13:00:02.920Z",
+    "tool_url": "https://github.com/deepseek-ai/DeepInfer",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Open‑source inference engine from DeepSeek, designed to serve large language models efficiently with a lightweight HTTP API and optional CLI/SDK interfaces.",
+    "use_modes": [
+      "HTTP API",
+      "CLI",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "Ollama",
+      "vLLM",
+      "Llama.cpp",
+      "TensorRT-LLM",
+      "TGI"
+    ],
+    "proposed_tests": [
+      "pip install deephug",
+      "import deephug; deephug.Server.start()",
+      "curl http://localhost:8000/v1/chat/completions -d '{\"model\":\"deepseek-coder-33b\",\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}]}'",
+      "measure average round‑trip latency over 50 requests",
+      "compare latency against vLLM running the same model"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/deepseek-ai/DeepInfer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792501256258-g40tn",
+    "log_dir": "/tmp/llm-review-1792501256258-g40tn",
+    "install_success": true,
+    "install_time_s": 13.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:4.845",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.8-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip fallback error: subprocess-exited-with-error\n  \n  × pip subprocess to install build dependencies did not run successfully.\n  │ exit code: 1\n  ╰─> [6 lines of output]\n      Collecting ninja\n        Downloading ninja-1.13.2-py3-none-musllinux_1_2_x86_64.whl.metadata (5.4 kB)\n      Collecting setuptools>=77.0.3\n        Downloading setuptools-84.2.0-py3-none-any.whl.metadata (6.6 kB)\n      ERROR: Could not find a version that satisfies the requirement torch>=2.7 (from versions: none)\n      ERROR: No matching distribution found for torch>=2.7\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× pip subprocess to install build dependencies did not run successfully.\n│ exit code: 1\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nBENCHMARK:install_time_s:4.845\nTEST_FAIL:import_deephug:No module named 'deephug'\nTEST_SKIP:latency_test:server not started\nRUN_OK\n"
+  }
+}
