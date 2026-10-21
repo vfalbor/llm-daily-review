@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "C# now beats Rust on WASM size",
+    "url": "https://github.com/zion-sati/NetWasm",
+    "hn_url": "https://news.ycombinator.com/item?id=50175510",
+    "points": 109,
+    "comments": 48,
+    "author": "sumnole",
+    "age": "2026-10-21T02:53:47",
+    "scraped_at": "2026-10-21T13:00:03.505Z",
+    "is_reviewable": true,
+    "source_type": "research-paper",
+    "tool_url": "https://github.com/zion-sati/NetWasm",
+    "confidence": 0.88,
+    "domain": "research",
+    "app_type": "research-paper",
+    "description": "Benchmark suite comparing WebAssembly module size for C# and Rust compiled to wasm, using .NET and wasm-tools.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "wasm-opt",
+      "wasm-bench",
+      "binaryen",
+      "wasmer"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `./bench.sh` to compile both C# and Rust examples.",
+      "Verify that the generated .wasm files are smaller for C# than Rust.",
+      "Measure build time for each language and compare.",
+      "Run `dotnet publish -r browser-wasm` and `rustc --target wasm32-unknown-unknown` to ensure reproducibility.",
+      "Check the README for any environment prerequisites and ensure they are met."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zion-sati/NetWasm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792587681571-44znt",
+    "log_dir": "/tmp/llm-review-1792587681571-44znt",
+    "install_success": true,
+    "install_time_s": 20,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 8,
+    "benchmark_notes": "BENCHMARK:install_git_time_s:0.727\nBENCHMARK:install_dotnet-sdk_time_s:0.628\nBENCHMARK:install_rust_time_s:5.266\nBENCHMARK:git_clone_time_s:4.016\nBENCHMARK:pip_install_time_s:1.070\nBENCHMARK:editable_install_time_s:0.669",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.0-r1)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_git_time_s:0.727\nINSTALL_FAIL:ERROR: unable to select packages:\n  dotnet-sdk (no such package):\n    required by: world[dotnet-sdk]\nBENCHMARK:install_dotnet-sdk_time_s:0.628\nINSTALL_OK\nBENCHMARK:install_rust_time_s:5.266\nBENCHMARK:git_clone_time_s:4.016\nTEST_PASS:clone_repo\nTEST_SKIP:run_bench_sh:bench.sh not found\nTEST_FAIL:wasm_size_comparison:\nTEST_FAIL:csharp_build:[Errno 2] No such file or directory: 'dotnet'\nTEST_FAIL:rust_build:[Errno 2] No such file or directory: '/tmp/netwasm_test/rust'\nTEST_FAIL:vs_wasm_opt_build_time_ratio:[Errno 2] No such file or directory: 'wasm-opt'\nTEST_PASS:readme_prereq_check\nBENCHMARK:pip_install_time_s:1.070\nBENCHMARK:editable_install_time_s:0.669\nTEST_FAIL:install_package:[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/netwasm_test does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nRUN_OK\n"
+  }
+}
