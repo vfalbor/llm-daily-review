@@ -1,0 +1,92 @@
+{
+  "app_name": "Show HN: SimCity, but with Permits",
+  "url": "https://permit.petercai.com/",
+  "scored_at": "2026-10-21T13:01:20.128Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed from the data."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 9.3 seconds and the tool runs in a web browser without requiring an API key, indicating easy setup."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a web‑frontend simulation game, which does not align with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark is available for this project, and only the similar tools' stars (11 and 8,402) are known, so differentiation cannot be quantified."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 842 (>500), indicating strong community interest despite the absence of a GitHub repository."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were defined (0/0), so QA evidence is missing even though installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has no PyPI package and only a web‑browser use mode, with no documented API or SDK."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or GitHub Pages were found, and no documentation links are available."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points of 842 and a stable domain suggest a moderately mature project despite lacking version tags or release data."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Only an install_time_s of 1.952 seconds is reported; no comparative benchmarks are available, so performance evidence is insufficient."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The majority of comments revolve around urban planning theories, zoning, and density debates, indicating a mixed reception focused on the game's thematic depth. While some praise its realistic handling of municipal rules, many participants engage in heated arguments over policy implications, reflecting both constructive engagement and frustration."
+    }
+  },
+  "summary": "This is a browser‑based SimCity clone that adds real‑world municipal permitting workflows. It runs entirely in the web browser and does not require any API keys or external services. It is suited for urban‑planning enthusiasts who want to experiment with permitting rules in a game‑like setting. The tool benefits from strong Hacker News interest (842 points) but lacks documentation, integration APIs, and performance benchmarks.",
+  "recommendation": "niche",
+  "app_url": "https://permit.petercai.com/",
+  "tool_url": "https://github.com/petercai/permit-simcity",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50170593",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SimCity 2000",
+        "stars": 11,
+        "repo": "heetbeet/SimCity-2000-portable"
+      },
+      {
+        "name": "OpenTTD",
+        "stars": 8402,
+        "repo": "OpenTTD/OpenTTD"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Realistic urban dynamics",
+        "Engaging policy simulation"
+      ],
+      "negative_signals": [
+        "Controversial debate",
+        "Confusing discussions"
+      ],
+      "justification": "The majority of comments revolve around urban planning theories, zoning, and density debates, indicating a mixed reception focused on the game's thematic depth. While some praise its realistic handling of municipal rules, many participants engage in heated arguments over policy implications, reflecting both constructive engagement and frustration.",
+      "comment_count": 30,
+      "hn_points": 842
+    }
+  }
+}
