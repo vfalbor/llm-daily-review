@@ -1,0 +1,120 @@
+{
+  "app_name": "C# now beats Rust on WASM size",
+  "url": "https://github.com/zion-sati/NetWasm",
+  "scored_at": "2026-10-21T13:02:13.329Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 72 days ago and is not a fork, but benchmarks similar WASM size tools, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a research-paper benchmarking C# vs Rust WASM size, it addresses a niche but still relevant concern in current WebAssembly optimization trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project has 202 stars, outpacing wasm-opt (126) and wasm-bench (77) by +60% and +162% respectively, and reports a size advantage for C# over Rust, giving it clear advantages over two of the three alternatives."
+    },
+    "community": {
+      "score": 6,
+      "justification": "GitHub shows 202 stars, 2 contributors, and the repository was updated today (0 days since last commit), placing it in the 100–1k star range with active recent maintenance."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repo is 72 days old with 6 forks and 6 open issues, indicating an early‑stage but actively maintained project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output lists install times (e.g., pip_install_time_s:1.070) but no comparative WASM size or speed figures against alternatives, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the reduced WASM size for C# and the value of the benchmark but also point out that the comparison is unfair, that C# relies on a runtime and tooling issues, and that Rust can achieve even smaller binaries, leading to a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "This research paper presents a benchmark suite that compares WebAssembly module sizes for C# and Rust, showing that C# can produce smaller binaries in certain scenarios. It runs as a CLI tool built on .NET and wasm‑tools, and the source code is hosted on GitHub. Researchers and developers interested in WASM size optimization for C# projects would find it useful, especially when evaluating trade‑offs against Rust. The standout strength is its reported size reduction for C#, while the main caveat is limited comparative performance data and modest community size.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/zion-sati/NetWasm",
+  "tool_url": "https://github.com/zion-sati/NetWasm",
+  "source_type": "research-paper",
+  "hn_url": "https://news.ycombinator.com/item?id=50175510",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 202,
+      "forks": 6,
+      "open_issues": 6,
+      "watchers": 202,
+      "contributors": 2,
+      "license": "NOASSERTION",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 72,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Compile C# and .NET CIL to small standalone Wasm with WASI (AOT with built-in Runtime and Precise GC)",
+      "topics": [
+        "aot",
+        "compiler",
+        "csharp",
+        "dotnet",
+        "wasi",
+        "wasm",
+        "webassembly"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "wasm-opt",
+        "stars": 126,
+        "repo": "node-libraries/wasm-image-optimization"
+      },
+      {
+        "name": "wasm-bench",
+        "stars": 77,
+        "repo": "sola-st/WasmBench"
+      },
+      {
+        "name": "binaryen",
+        "stars": 8666,
+        "repo": "WebAssembly/binaryen"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 8,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "C# WASM size improvement",
+        "useful benchmark insights"
+      ],
+      "negative_signals": [
+        "unfair comparison concerns",
+        "runtime and tooling caveats"
+      ],
+      "justification": "Comments praise the reduced WASM size for C# and the value of the benchmark but also point out that the comparison is unfair, that C# relies on a runtime and tooling issues, and that Rust can achieve even smaller binaries, leading to a generally positive but cautiously critical sentiment.",
+      "comment_count": 30,
+      "hn_points": 109
+    }
+  }
+}
