@@ -1,0 +1,70 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+    "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "hn_url": "https://news.ycombinator.com/item?id=50181136",
+    "points": 434,
+    "comments": 59,
+    "author": "nnx",
+    "age": "2026-10-21T14:01:22",
+    "scraped_at": "2026-10-22T13:00:02.434Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/duckdb/duckdb",
+    "confidence": 0.95,
+    "domain": "database",
+    "app_type": "database-olap",
+    "description": "DuckDB is a high-performance analytical database that runs as an embedded SQL engine with native support for vectorized query execution.",
+    "use_modes": [
+      "CLI",
+      "JDBC",
+      "ODBC",
+      "Python API"
+    ],
+    "similar_tools": [
+      "ClickHouse",
+      "Apache Arrow",
+      "PostgreSQL (columnar extensions)"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Binary installation",
+        "steps": [
+          "Download pre-built DuckDB binary for Linux",
+          "Verify executable works with \"duckdb --version\""
+        ],
+        "expected": "Version string printed"
+      },
+      {
+        "name": "Create table and insert data",
+        "steps": [
+          "Run \"duckdb\" and execute \"CREATE TABLE t(a INT, b VARCHAR); INSERT INTO t VALUES (1, 'foo'), (2, 'bar');\""
+        ],
+        "expected": "2 rows inserted"
+      },
+      {
+        "name": "Query performance",
+        "steps": [
+          "Execute \"SELECT COUNT(*) FROM t;\" and measure elapsed time"
+        ],
+        "expected": "Quick response (<10ms)"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/duckdb/duckdb"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792674098816-aorg0",
+    "log_dir": "/tmp/llm-review-1792674098816-aorg0",
+    "install_success": true,
+    "install_time_s": 34,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:row_count_fail:No module named 'duckdb'",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:duckdb:error: subprocess-exited-with-error\n  \n  × pip subprocess to install build dependencies did not run successfully.\n  │ exit code: 1\n  ╰─> [19 lines of output]\n      Collecting scikit-build-core>=0.11.4\n        Downloading scikit_build_core-1.1.1-py3-none-any.whl.metadata (19 kB)\n      Collecting nanobind>=3.0\n        Downloading nanobind-3.1.0-py3-none-any.whl.metadata (1.8 kB)\n      Collecting numpy>=2.0\n        Downloading numpy-2.5.4-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\n      Collecting packaging>=23.2 (from scikit-build-core>=0.11.4)\n        Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)\n      Collecting pathspec>=0.12.0 (from scikit-build-core>=0.11.4)\n        Downloading pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)\n      Downloading scikit_build_core-1.1.1-py3-none-any.whl (293 kB)\n      Downloading nanobind-3.1.0-py3-none-any.whl (316 kB)\n      Downloading numpy-2.5.4-cp312-cp312-musllinux_1_2_x86_64.whl (18.5 MB)\n         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.5/18.5 MB 98.9 MB/s eta 0:00:00\n      Downloading packaging-26.3-py3-none-any.whl (129 kB)\n      Downloading pathspec-1.1.1-py3-none-any.whl (57 kB)\n      Installing collected packages: pathspec, packaging, numpy, nanobind, scikit-build-core\n      ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device\n      \n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nerror: subprocess-exited-with-error\n\n× pip subprocess to install build dependencies did not run successfully.\n│ exit code: 1\n╰─> See above for output.\n\nnote: This error originates from a subprocess, and is likely not a problem with pip.\nINSTALL_FAIL:duckdb:pip install failed, trying source\nINSTALL_FAIL:duckdb:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '-e', './duckdb']' returned non-zero exit status 1.\nTEST_FAIL:import_duckdb:No module named 'duckdb'\nTEST_FAIL:simple_query:No module named 'duckdb'\nTEST_FAIL:bulk_insert:No module named 'duckdb'\nBENCHMARK:row_count_fail:No module named 'duckdb'\nRUN_OK\n"
+  }
+}
