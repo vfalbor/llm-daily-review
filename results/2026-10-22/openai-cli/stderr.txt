@@ -1,0 +1,9 @@
+  * If you need ICU with non-English locales and legacy charset support, install
+  * package icu-data-full.
+go: downloading github.com/openai/openai-cli v1.40.2
+go: github.com/openai/openai-cli@latest: module github.com/openai/openai-cli@latest found (v1.40.2), but does not contain package github.com/openai/openai-cli
+Cloning into '/tmp/openai-cli'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///tmp/openai-cli does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
