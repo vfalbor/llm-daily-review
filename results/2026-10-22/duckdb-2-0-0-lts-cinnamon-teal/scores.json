@@ -1,0 +1,124 @@
+{
+  "app_name": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+  "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+  "scored_at": "2026-10-22T13:02:29.308Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 3039 days old and is not a fork, indicating it builds on an established project rather than introducing a brand‑new approach; its star count (42,381) is lower than ClickHouse but higher than Arrow, showing it is an incremental improvement over existing OLAP databases."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 34 seconds and the package is available on PyPI (v2.0.0), indicating a fairly simple setup despite being slightly above the <30 s ideal."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a database‑OLAP tool, DuckDB fits current LLM workflows that need fast embedded analytics for large datasets, matching the prevalent trend of in‑process data processing."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "DuckDB has 42,381 stars, fewer than ClickHouse (50,534) but far more than Apache Arrow (17,214), and it offers a unique embedded SQL engine with client‑server and async I/O features not present in those alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 42,381 GitHub stars, 956 contributors, and was updated 0 days ago, demonstrating a large and actively maintained community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 3 test cases, 0 passed (0 % success) despite a successful install, indicating core functionality is not reliably demonstrated by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "DuckDB is published on PyPI, provides CLI, JDBC, ODBC, and Python APIs, and is MIT‑licensed, making integration into pipelines straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on wiki, GitHub Pages, or topic count was provided, so evidence is insufficient to assess documentation quality."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 3039 days old, has 3,983 forks and 943 open issues, and ships a LTS 2.0.0 release, indicating a mature, production‑ready project."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "The benchmark output only reports a failure (\"No module named 'duckdb'\"), providing no performance numbers to compare against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise DuckDB’s performance, scalability, and new features like async I/O and client‑server architecture, with only a few constructive notes about parallelization limits and documentation clarity."
+    }
+  },
+  "summary": "DuckDB is an embedded analytical database offering vectorized query execution via CLI, JDBC, ODBC, and a Python API. It runs locally without an API key and is built in C++ with a PyPI package for Python integration. Data engineers and ML practitioners who need fast in‑process analytics for LLM pipelines will find it useful. The project’s strength is its large, active community and mature codebase, while the lack of passing test cases and missing performance benchmarks are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+  "tool_url": "https://github.com/duckdb/duckdb",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50181136",
+  "domain": "database",
+  "app_type": "database-olap",
+  "enriched": {
+    "github": {
+      "stars": 42381,
+      "forks": 3983,
+      "open_issues": 943,
+      "watchers": 42381,
+      "contributors": 956,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3039,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "DuckDB is a high-performance analytical database system",
+      "topics": [
+        "analytics",
+        "database",
+        "embedded-database",
+        "olap",
+        "sql"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ClickHouse",
+        "stars": 50534,
+        "repo": "ClickHouse/ClickHouse"
+      },
+      {
+        "name": "Apache Arrow",
+        "stars": 17214,
+        "repo": "apache/arrow"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.0.0",
+      "summary": "DuckDB in-process database",
+      "requires_python": ">=3.11.0",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "high performance on multi-core EC2",
+        "versatile ingestion & reshaping",
+        "client-server & HTTP/HTTP‑load balancer support",
+        "async I/O improves remote file access",
+        "triggers and data warehouse capability"
+      ],
+      "negative_signals": [
+        "over‑parallelization limits beyond ~128 cores",
+        "some confusion over async I/O support in docs",
+        "small number of comments overall"
+      ],
+      "justification": "The majority of comments praise DuckDB’s performance, scalability, and new features like async I/O and client‑server architecture, with only a few constructive notes about parallelization limits and documentation clarity.",
+      "comment_count": 30,
+      "hn_points": 434
+    }
+  }
+}
