@@ -1,0 +1,133 @@
+{
+  "app_name": "mitmproxy",
+  "url": "https://github.com/mitmproxy/mitmproxy",
+  "scored_at": "2026-10-22T13:03:49.978Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 6092 days ago and is not a fork, and similar network debugging tools like Burp Suite and Wireshark already exist, indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) but took 58 seconds, exceeding the <30 s ideal, while a PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a sec-network tool, mitmproxy addresses ongoing needs for HTTP(S) traffic debugging, aligning well with current security and development workflows."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 46,060 GitHub stars it outpaces Burp Suite (3,987), Wireshark (10,065), and Charles Proxy (866) by large margins, showing clear community preference."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 46,060 stars, 629 contributors, and was updated 0 days ago, indicating a very active and large community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 2 tests passed (0%) despite successful installation, suggesting core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists and the license is MIT, but the tool is CLI‑only with no documented API, limiting straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No specific data on wiki, GitHub Pages, or documentation quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 6092 days old, has 4,858 forks and 505 open issues, reflecting a mature project with extensive adoption."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install times (apk_git 0.461 s, mitmproxy 50.717 s) but no comparative performance data against alternatives, leading to a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight enthusiasm for the new capability to sniff and debug older Android devices and smart TVs, but also raise legitimate security and trust concerns, leading to an overall positive but cautious sentiment."
+    }
+  },
+  "summary": "mitmproxy is an interactive TLS‑capable man‑in‑the‑middle HTTP(S) proxy that runs as a CLI tool. It is built in Python, distributed via PyPI, and requires no API key. It is suited for security engineers and developers who need to inspect and modify web traffic on the fly. While it enjoys a massive community and strong differentiation in star count, its test coverage is weak and integration options are limited.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+  "tool_url": "https://github.com/mitmproxy/mitmproxy",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50189232",
+  "domain": "security",
+  "app_type": "sec-network",
+  "enriched": {
+    "github": {
+      "stars": 46060,
+      "forks": 4858,
+      "open_issues": 505,
+      "watchers": 46060,
+      "contributors": 629,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 6092,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.",
+      "topics": [
+        "debugging",
+        "http",
+        "http2",
+        "man-in-the-middle",
+        "mitmproxy",
+        "proxy",
+        "python",
+        "security",
+        "ssl",
+        "tls",
+        "websocket"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Burp Suite",
+        "stars": 3987,
+        "repo": "Mr-xn/BurpSuite-collections"
+      },
+      {
+        "name": "Wireshark",
+        "stars": 10065,
+        "repo": "wireshark/wireshark"
+      },
+      {
+        "name": "Charles Proxy",
+        "stars": 866,
+        "repo": "qnblackcat/How-to-Downgrade-apps-on-AppStore-with-iTunes-and-Charles-Proxy"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "12.3.0",
+      "summary": "An interactive, SSL/TLS-capable intercepting proxy for HTTP/1, HTTP/2, and WebSockets.",
+      "requires_python": ">=3.12",
+      "license": "Copyright (c) 2013, Aldo Cortesi. All rights reserved.\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in\n        all copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Utility for debugging and reverse engineering",
+        "Opportunity to sniff legacy devices",
+        "Feature expands capabilities"
+      ],
+      "negative_signals": [
+        "Security concerns and certificate pinning",
+        "Potential misuse for malicious snooping",
+        "Mixed reception on ethical implications"
+      ],
+      "justification": "Comments highlight enthusiasm for the new capability to sniff and debug older Android devices and smart TVs, but also raise legitimate security and trust concerns, leading to an overall positive but cautious sentiment.",
+      "comment_count": 30,
+      "hn_points": 532
+    }
+  }
+}
