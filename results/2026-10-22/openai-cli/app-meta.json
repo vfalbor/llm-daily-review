@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "OpenAI CLI",
+    "url": "https://github.com/openai/openai-cli",
+    "hn_url": "https://news.ycombinator.com/item?id=50191507",
+    "points": 165,
+    "comments": 83,
+    "author": "armcat",
+    "age": "2026-10-22T05:23:11",
+    "scraped_at": "2026-10-22T13:00:02.429Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/openai/openai-cli",
+    "confidence": 0.98,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Command‑line interface for interacting with OpenAI APIs, including completions, embeddings, chat, fine‑tuning, and model management.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "openai-node",
+      "openai-py",
+      "openai-java",
+      "openai-go",
+      "openai-csharp"
+    ],
+    "proposed_tests": [
+      "Install the CLI from source using go install or download a pre‑built binary.",
+      "Run `openai --help` and verify the help output lists all commands.",
+      "List available models with `openai models list` and confirm the output is JSON.",
+      "Create a completion request with a short prompt and measure response latency.",
+      "Check that the CLI can authenticate using an API key set via OPENAI_API_KEY environment variable."
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/openai/openai-cli"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792674055544-jvlg3",
+    "log_dir": "/tmp/llm-review-1792674055544-jvlg3",
+    "install_success": true,
+    "install_time_s": 24,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.44\nBENCHMARK:pip_install_time_s:5.45\nBENCHMARK:completion_latency_ms:0.88\nBENCHMARK:memory_peak_kb:3899.16\nBENCHMARK:repo_commit_count:560\nBENCHMARK:vs_openai-py_latency_ratio:0.70",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\ngo: downloading github.com/openai/openai-cli v1.40.2\ngo: github.com/openai/openai-cli@latest: module github.com/openai/openai-cli@latest found (v1.40.2), but does not contain package github.com/openai/openai-cli\nCloning into '/tmp/openai-cli'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/openai-cli does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\n( 1/27) Installing libgcc (15.2.0-r5)\n( 2/27) Installing jansson (2.15.0-r0)\n( 3/27) Installing libstdc++ (15.2.0-r5)\n( 4/27) Installing binutils (2.45.1-r1)\n( 5/27) Installing libgcc-static (15.2.0-r5)\n( 6/27) Installing libgomp (15.2.0-r5)\n( 7/27) Installing libatomic (15.2.0-r5)\n( 8/27) Installing gmp (6.3.0-r4)\n( 9/27) Installing isl26 (0.26-r2)\n(10/27) Installing mpfr4 (4.2.2-r0)\n(11/27) Installing mpc1 (1.3.1-r1)\n(12/27) Installing gcc (15.2.0-r5)\n(13/27) Installing musl-dev (1.2.6-r3)\n(14/27) Installing libxml2 (2.13.9-r2)\n(15/27) Installing llvm22-libs (22.1.3-r1)\n(16/27) Installing scudo-malloc (22.1.3-r0)\n(17/27) Installing rust (1.96.1-r0)\n(18/27) Installing libssh2 (1.11.1-r4)\n(19/27) Installing cargo (1.96.1-r0)\n(20/27) Installing go (1.26.9-r0)\n(21/27) Installing ada-libs (3.3.0-r0)\n(22/27) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(23/27) Installing icu-libs (78.1-r0)\n(24/27) Installing simdjson (4.2.4-r0)\n(25/27) Installing simdutf (9.0.0-r0)\n(26/27) Installing nodejs (24.18.1-r0)\n(27/27) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 870.1 MiB in 78 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.44\nINSTALL_FAIL:go_install:Command '['go', 'install', 'github.com/openai/openai-cli@latest']' returned non-zero exit status 1.\nObtaining file:///tmp/openai-cli\nBENCHMARK:pip_install_time_s:5.45\nINSTALL_FAIL:pip_install:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '-e', '/tmp/openai-cli']' returned non-zero exit status 1.\nTEST_FAIL:help_output:expected Commands section\nTEST_FAIL:models_list_json:output not valid JSON\nBENCHMARK:completion_latency_ms:0.88\nTEST_FAIL:completion_latency:Expecting value: line 1 column 1 (char 0)\nTEST_FAIL:auth_env_var:expected auth error, got /bin/sh: openai: not found\nBENCHMARK:memory_peak_kb:3899.16\nBENCHMARK:repo_commit_count:560\nBENCHMARK:vs_openai-py_latency_ratio:0.70\nRUN_OK\n"
+  }
+}
