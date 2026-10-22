@@ -1,0 +1,120 @@
+{
+  "app_name": "OpenAI CLI",
+  "url": "https://github.com/openai/openai-cli",
+  "scored_at": "2026-10-22T13:01:37.205Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 173 days ago, is not a fork, and mirrors many existing OpenAI wrappers, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 24 s and the package is available on PyPI, showing a straightforward setup."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As a devtool‑CLI for OpenAI APIs, it directly addresses current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Has 947 stars versus 31,909 for openai-py and shows a latency ratio of 0.70, i.e., ~30 % faster than the official Python client."
+    },
+    "community": {
+      "score": 6,
+      "justification": "947 GitHub stars, 23 contributors, and the repository was updated today, reflecting an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (<50 %) despite successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Available on PyPI and licensed Apache‑2.0, but only provides a CLI interface, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Repository is 173 days old, has 82 forks and 26 open issues, and ships version 1.0.1, indicating a stable but still evolving project."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a completion latency of 0.88 ms and a latency ratio of 0.70 against openai-py, suggesting better speed than the official client."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments show a split between appreciation for the convenience of a CLI wrapper and worries about the reliability of OpenAI’s rapidly changing API and potential quality issues, leading to an overall mixed sentiment."
+    }
+  },
+  "summary": "OpenAI CLI is a Go‑based command‑line tool that wraps OpenAI API endpoints for completions, embeddings, chat, fine‑tuning, and model management. It runs locally and is installed via PyPI, exposing a simple CLI for developers who prefer scripting over writing code. It is suited for engineers needing quick ad‑hoc API calls or automation in shell pipelines. Its standout strength is a measured latency about 30 % lower than the official Python client, but the zero‑pass test suite reveals reliability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/openai/openai-cli",
+  "tool_url": "https://github.com/openai/openai-cli",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50191507",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 947,
+      "forks": 82,
+      "open_issues": 26,
+      "watchers": 947,
+      "contributors": 23,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 173,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Official CLI for the OpenAI API",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "openai-node",
+        "stars": 11235,
+        "repo": "openai/openai-node"
+      },
+      {
+        "name": "openai-py",
+        "stars": 31909,
+        "repo": "openai/openai-python"
+      },
+      {
+        "name": "openai-java",
+        "stars": 4716,
+        "repo": "TheoKanning/openai-java"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.0.1",
+      "summary": "Command-line client for OpenAI API",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": "https://github.com/peterdemin/openai-cli"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Convenient CLI wrapper",
+        "Potential for efficient tool usage"
+      ],
+      "negative_signals": [
+        "Concerns over buggy/volatile OpenAI tooling",
+        "Debate about code quality and review",
+        "Mixed reception about AI hype"
+      ],
+      "justification": "The comments show a split between appreciation for the convenience of a CLI wrapper and worries about the reliability of OpenAI’s rapidly changing API and potential quality issues, leading to an overall mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 165
+    }
+  }
+}
