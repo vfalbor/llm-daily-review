@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+    "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+    "hn_url": "https://news.ycombinator.com/item?id=50199389",
+    "points": 219,
+    "comments": 42,
+    "author": "maxilevi",
+    "age": "2026-10-22T18:44:36",
+    "scraped_at": "2026-10-23T13:00:02.334Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/maxilevi/project-hedra",
+    "source_type": "tool",
+    "confidence": 0.9,
+    "domain": "game",
+    "app_type": "web-framework",
+    "description": "A fully‑coded 3D open‑world game built in Unity (or Godot) from scratch, with a focus on procedural generation and AI companions.",
+    "use_modes": [
+      "Game Engine",
+      "CLI",
+      "Editor"
+    ],
+    "similar_tools": [
+      "Unreal Engine",
+      "Godot",
+      "Unity"
+    ],
+    "proposed_tests": [
+      "clone the repository and import into Unity/Godot",
+      "run the game in headless mode and capture frame rate",
+      "measure load time for the main scene",
+      "execute unit tests for game logic if available"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/maxilevi/project-hedra"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760734215-06q6j",
+    "log_dir": "/tmp/llm-review-1792760734215-06q6j",
+    "install_success": false,
+    "install_time_s": 13.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:2.83\nBENCHMARK:clone_time_s:3.17",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:install_time_s:2.83\nBENCHMARK:clone_time_s:3.17\nTEST_FAIL:main:TypeError: safe_subprocess() got an unexpected keyword argument 'cwd'\nRUN_OK\n"
+  }
+}
