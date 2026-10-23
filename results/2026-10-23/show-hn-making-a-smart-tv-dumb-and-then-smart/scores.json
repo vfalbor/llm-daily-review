@@ -1,0 +1,109 @@
+{
+  "app_name": "Making a smart TV dumb and then smart",
+  "url": "https://github.com/anubhavmalhotra/r2d2-tv",
+  "scored_at": "2026-10-23T13:03:50.029Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository is only 2 days old and is not a fork, but it replicates functionality of established tools like LibreELEC (2,833 stars) and OpenELEC (1,619 stars), indicating it is a near-duplicate."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 13.8 seconds and the tool runs via Docker, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool‑cli for hacking smart TVs, it does not address a major pain point in the current LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 26 GitHub stars versus 2,833 and 1,619 stars for LibreELEC and OpenELEC, and no benchmark advantage, the project offers little differentiation."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The project has 26 stars, a single contributor, and was updated today (0 days since last commit), indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 2 of 5 tests passed (40%), which is below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is not on PyPI but provides Docker, CLI, and Web UI modes and is MIT‑licensed, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository is only 2 days old, has 0 forks and 0 open issues, indicating an early‑stage, pre‑release project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (e.g., import_time_ms:0.01) are present but lack comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show a generally positive view of the project’s concept and usefulness for Kodi users, but also highlight technical limitations (stuttering, HDR support), time-consuming setup, and practical concerns such as root access and the difficulty of maintaining a debloated TV."
+    }
+  },
+  "summary": "This is a Docker‑based CLI tool that converts a smart TV into a minimal Linux environment for custom apps. It runs via Docker, a CLI, or a simple web UI and targets users who want to repurpose their TV for retro‑gaming or other lightweight workloads. Its main strength is the convenience of a containerized setup, while its main caveat is the very low community adoption and limited performance data. ",
+  "recommendation": "skip",
+  "app_url": "https://github.com/anubhavmalhotra/r2d2-tv",
+  "tool_url": "https://github.com/anubhavmalhotra/r2d2-tv",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50202865",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 26,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 26,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Local home screen, private remote browser, and push-to-talk voice assistant for webOS TVs",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LibreELEC",
+        "stars": 2833,
+        "repo": "LibreELEC/LibreELEC.tv"
+      },
+      {
+        "name": "OpenELEC",
+        "stars": 1619,
+        "repo": "OpenELEC/OpenELEC.tv"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful for turning a TV into a smart device",
+        "Appreciation for the idea of a dumb TV hack",
+        "Positive reception from Kodi users"
+      ],
+      "negative_signals": [
+        "Performance and HDR support concerns",
+        "Long processing time and complexity",
+        "Root access and practicality issues"
+      ],
+      "justification": "Comments show a generally positive view of the project’s concept and usefulness for Kodi users, but also highlight technical limitations (stuttering, HDR support), time-consuming setup, and practical concerns such as root access and the difficulty of maintaining a debloated TV.",
+      "comment_count": 13,
+      "hn_points": 51
+    }
+  }
+}
