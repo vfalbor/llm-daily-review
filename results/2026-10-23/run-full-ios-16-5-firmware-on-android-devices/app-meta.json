@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Run full iOS 16.5 firmware on Android Devices",
+    "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+    "hn_url": "https://news.ycombinator.com/item?id=50196718",
+    "points": 466,
+    "comments": 172,
+    "author": "aghuang",
+    "age": "2026-10-22T15:26:22",
+    "scraped_at": "2026-10-23T13:00:02.324Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.82,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "tool_url": "https://github.com/oosexgang/hackios-xnu-kernel",
+    "description": "An XNU kernel port that allows running iOS 16.5 firmware on Android hardware via a custom kernel module and bootloader",
+    "use_modes": [
+      "CLI",
+      "Kernel Module"
+    ],
+    "similar_tools": [
+      "Android-x86",
+      "AOSP iOS port"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Build kernel module",
+        "steps": [
+          "git clone https://github.com/oosexgang/hackios-xnu-kernel",
+          "cd hackios-xnu-kernel",
+          "make"
+        ],
+        "metrics": "build success"
+      },
+      {
+        "name": "Boot into iOS firmware",
+        "steps": [
+          "install module on Android device",
+          "reboot into custom kernel"
+        ],
+        "metrics": "boot success"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/oosexgang/hackios-xnu-kernel"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760474484-tj0gm",
+    "log_dir": "/tmp/llm-review-1792760474484-tj0gm",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 24,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.48\nBENCHMARK:clone_time_s:1.89\nBENCHMARK:source_files_count:619\nBENCHMARK:lang_Shell_files:32\nBENCHMARK:lang_Other_files:407\nBENCHMARK:lang_Python_files:23\nBENCHMARK:lang_C_files:69\nBENCHMARK:lang_Header_files:77\nBENCHMARK:lang_Assembly_files:1\nBENCHMARK:lang_C++_files:10\nBENCHMARK:run_mkxnuimg.py_ms:180.45\nBENCHMARK:run_mkxnuimg.py_mem_kb:60.00\nBENCHMARK:run_xnuloader/mkpayload.py_ms:44.31\nBENCHMARK:run_xnuloader/mkidentity.py_ms:21.00\nBENCHMARK:run_xnu-deps/gen-iig-stubs.py_ms:31.09\nBENCHMARK:run_tools/userdata-carve.py_ms:38.66\nBENCHMARK:run_tools/ufs-survey.py_ms:58.11\nBENCHMARK:run_tools/ufs-super.py_ms:41.65\nBENCHMARK:run_tools/sound.py_ms:51.48\nBENCHMARK:run_tools/recording.py_ms:41.23\nBENCHMARK:run_tools/latency.py_ms:35.99\nBENCHMARK:run_tools/frames.py_ms:23.00\nBENCHMARK:run_tools/darwin-write.py_ms:52.44\nBENCHMARK:run_tools/camtuning.py_ms:21.30\nBENCHMARK:run_tools/camsensor.py_ms:22.73\nBENCHMARK:run_tools/camraw.py_ms:29.21\nBENCHMARK:run_qemu/where.py_ms:59.63\nBENCHMARK:run_qemu/touch.py_ms:40.49\nBENCHMARK:run_qemu/symstack.py_ms:46.26\nBENCHMARK:run_qemu/sym.py_ms:40.99\nBENCHMARK:run_uefi/files/Platforms/Xiaomi/redwoodPkg/DeviceBuild.py_ms:60.43\nBENCHMARK:run_tools/wpa-test/reference.py_ms:34.66\nBENCHMARK:run_tools/qmi-test/extract.py_ms:32.67\nBENCHMARK:run_prebuilt/uefi/mkbootimg.py_ms:69.08\nBENCHMARK:run_prebuilt/uefi/mkbootimg.py_mem_kb:59.31\nBENCHMARK:vs_8.5_install_time_s:0.057\nBENCHMARK:clone_mem_kb:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | git\nBENCHMARK:install_time_s:0.48\nINSTALL_OK | clone\nBENCHMARK:clone_time_s:1.89\nBENCHMARK:source_files_count:619\nBENCHMARK:lang_Shell_files:32\nBENCHMARK:lang_Other_files:407\nBENCHMARK:lang_Python_files:23\nBENCHMARK:lang_C_files:69\nBENCHMARK:lang_Header_files:77\nBENCHMARK:lang_Assembly_files:1\nBENCHMARK:lang_C++_files:10\nTEST_PASS:count_source_files\nTEST_PASS:run_python_mkxnuimg.py\nBENCHMARK:run_mkxnuimg.py_ms:180.45\nBENCHMARK:run_mkxnuimg.py_mem_kb:60.00\nTEST_FAIL:run_python_xnuloader/mkpayload.py:usage: mkpayload.py [-h] -o OUTPUT [--cmdline CMDLINE] [--physbase PHYSBASE]\n                    [--usb] [--rdres RDRES] [--checkpoint CHECKPOINT]\n                    [items ...]\nmkpayload.py: error: the following arguments are required: -o/--output\nBENCHMARK:run_xnuloader/mkpayload.py_ms:44.31\nTEST_FAIL:run_python_xnuloader/mkidentity.py:Traceback (most recent call last):\n  File \"/tmp/hackios-xnu-kernel/xnuloader/mkidentity.py\", line 80, in <module>\n    main()\n  File \"/tmp/hackios-xnu-kernel/xnuloader/mkidentity.py\", line 64, in main\n    raw = open(sys.argv[1], 'rb').read()\n               ~~~~~~~~^^^\nIndexError: list index out of range\nBENCHMARK:run_xnuloader/mkidentity.py_ms:21.00\nTEST_FAIL:run_python_xnu-deps/gen-iig-stubs.py:Traceback (most recent call last):\n  File \"/tmp/hackios-xnu-kernel/xnu-deps/gen-iig-stubs.py\", line 16, in <module>\n    undefined = [l.strip() for l in open(sys.argv[1]) if l.strip()]\n                                         ~~~~~~~~^^^\nIndexError: list index out of range\nBENCHMARK:run_xnu-deps/gen-iig-stubs.py_ms:31.09\nTEST_FAIL:run_python_tools/userdata-carve.py:Cut a partition of this port's own off the end of Android's userdata: the new GPT, made and checked here.\n\nusage: userdata-carve.py DIR GIB [NAME]\n  DIR   what was saved from the phone under Android (adb's root shell), all read only:\n          gpt-head.bin             the first 8 blocks of LUN 0 (dd if=/dev/block/sda bs=4096 count=8)\n          gpt-tail.bin             its last 8 blocks (... skip=BLOCKS-8 count=8)\n          userdata-meta-before.bin at least the first block of userdata (its f2fs superblock)\n          segment_info-before.txt  /proc/fs/f2fs/sda33/segment_info\n          sb-after.bin             (once the f2fs is shrunk) the first block of userdata again\n  GIB   how much to take off the end of userdata, in GiB (a whole number of f2fs segments)\n  NAME  the new partition's name (default darwin)\n\nAndroid's userdata on this phone is a plain f2fs (no metadata encryption: its superblock lies on the\nflash as it is) that fills its partition, the last of LUN 0. Taking GIB off its end takes two steps\non the phone: first the filesystem is shrunk in place, by Android's own kernel\n(tools/android/f2fs-resize, F2FS_IOC_RESIZE_FS), and only then the partition, by writing the\nGPT this makes: userdata ends exactly where the shrunk f2fs ends, and a new partition NAME (of the\nAPFS container type) has the rest from the next 2 MB on. The kernel takes whole sections off the\nmain area and leaves the filesystem's own slack at its end (the blocks past the last whole segment)\nas it was, so the shrunk f2fs is the old size less GIB, not the size it was asked for.\n\nBoth steps belong to one session of Android, with no reboot between them: at every boot fs_mgr\nruns resize.f2fs on userdata, which grows the filesystem to whatever its partition is -- a shrunk\nf2fs in the old partition is "
+  }
+}
