@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Show HN: Making a smart TV dumb and then smart",
+    "url": "https://github.com/anubhavmalhotra/r2d2-tv",
+    "hn_url": "https://news.ycombinator.com/item?id=50202865",
+    "points": 50,
+    "comments": 11,
+    "author": "animalhot",
+    "age": "2026-10-23T00:10:45",
+    "scraped_at": "2026-10-23T13:00:02.330Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/anubhavmalhotra/r2d2-tv",
+    "source_type": "tool",
+    "confidence": 0.95,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A lightweight, container‑based solution for turning a smart TV into a minimal Linux environment for custom applications.",
+    "use_modes": [
+      "Docker",
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Pine64's RetroPie",
+      "LibreELEC",
+      "OpenELEC"
+    ],
+    "proposed_tests": [
+      "git clone r2d2-tv and run docker build",
+      "run docker run --rm r2d2-tv --help",
+      "build a simple Python script inside the container and execute it",
+      "measure container start time vs a native smart‑TV app"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/anubhavmalhotra/r2d2-tv"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760600906-0b7lj",
+    "log_dir": "/tmp/llm-review-1792760600906-0b7lj",
+    "install_success": true,
+    "install_time_s": 13.8,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:5.60\nBENCHMARK:clone_time_s:1.23\nBENCHMARK:docker_build_time_s:0.00\nBENCHMARK:cli_help_time_ms:0.6\nBENCHMARK:python_script_time_ms:0.5\nBENCHMARK:import_time_ms:0.01\nBENCHMARK:import_peak_mem_kb:1.51\nBENCHMARK:vs_retropie_help_time_ratio:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:5.60\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:1.23\nTEST_FAIL:docker_build:docker build failed\nBENCHMARK:docker_build_time_s:0.00\nTEST_FAIL:cli_help:docker run failed\nBENCHMARK:cli_help_time_ms:0.6\nTEST_FAIL:python_inside_container:script exec failed\nBENCHMARK:python_script_time_ms:0.5\nBENCHMARK:import_time_ms:0.01\nBENCHMARK:import_peak_mem_kb:1.51\nTEST_PASS:import_memory\nBENCHMARK:vs_retropie_help_time_ratio:0.000\nRUN_OK\n"
+  }
+}
