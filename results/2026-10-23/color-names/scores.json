@@ -1,0 +1,101 @@
+{
+  "app_name": "Color Names",
+  "url": "https://names.color.pizza/",
+  "scored_at": "2026-10-23T13:05:32.743Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are unavailable, and similar tools exist, so the novelty cannot be established from the data."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 11.9 seconds (under 30 s) and the package is on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The tool is a data-format utility for color names, which is only marginally aligned with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "No GitHub stars are reported, while closest alternatives have only 51 and 0 stars, and the benchmark shows an import time of 0.0003 s, indicating a speed advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repository is available; HN points are 93, placing it in the 50‑200 range which maps to a community score of 3‑4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (<50 %), indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package exists on PyPI and offers CLI, API, and library use modes, facilitating integration."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repo, wiki, or pages information is available, and no documentation signals were found on the project URL."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN points (93) are available, which suggests early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 0.0003 s, but no comparative data is provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show a mix of praise for the color name data set’s utility and visual appeal against criticism over excessive animation and duplicate naming schemes, resulting in a generally positive but somewhat critical reception."
+    }
+  },
+  "summary": "Color Names provides a lightweight JSON/CSV dataset of color names with their RGB/HSL values and includes a small CLI for querying. It is packaged as a pure‑Python library on PyPI and can be accessed via CLI, API, or direct library calls. The tool is useful for developers who need quick color lookups without external services. Its standout strength is an extremely fast import time of 0.0003 seconds, while its main drawback is the lack of documented guidance and a small community presence.",
+  "recommendation": "niche",
+  "app_url": "https://names.color.pizza/",
+  "tool_url": "https://github.com/filipstokes/color-names",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50168850",
+  "domain": "data",
+  "app_type": "data-format",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "colornames",
+        "stars": 51,
+        "repo": "timoxley/colornames"
+      },
+      {
+        "name": "xkcd-color-names",
+        "stars": 0,
+        "repo": "lichtkind/Graphics-ColorNames-XKCD"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2",
+      "summary": "A curated collection of color name, style & theme hex codes.",
+      "requires_python": "",
+      "license": "",
+      "home_page": "http://github.com/bpeterso2000/color-names"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Helpful dataset for devs",
+        "Fun visual style and modes",
+        "Useful for color identification"
+      ],
+      "negative_signals": [
+        "Annoying animation overload",
+        "Duplicate color names causing confusion",
+        "Criticism over monetisation"
+      ],
+      "justification": "The comments show a mix of praise for the color name data set’s utility and visual appeal against criticism over excessive animation and duplicate naming schemes, resulting in a generally positive but somewhat critical reception.",
+      "comment_count": 20,
+      "hn_points": 93
+    }
+  }
+}
