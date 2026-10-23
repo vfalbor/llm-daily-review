@@ -1,0 +1,337 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.22.0-r0)
+( 9/13) Installing curl (8.22.0-r0)
+(10/13) Installing libexpat (2.9.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK | git
+BENCHMARK:install_time_s:0.48
+INSTALL_OK | clone
+BENCHMARK:clone_time_s:1.89
+BENCHMARK:source_files_count:619
+BENCHMARK:lang_Shell_files:32
+BENCHMARK:lang_Other_files:407
+BENCHMARK:lang_Python_files:23
+BENCHMARK:lang_C_files:69
+BENCHMARK:lang_Header_files:77
+BENCHMARK:lang_Assembly_files:1
+BENCHMARK:lang_C++_files:10
+TEST_PASS:count_source_files
+TEST_PASS:run_python_mkxnuimg.py
+BENCHMARK:run_mkxnuimg.py_ms:180.45
+BENCHMARK:run_mkxnuimg.py_mem_kb:60.00
+TEST_FAIL:run_python_xnuloader/mkpayload.py:usage: mkpayload.py [-h] -o OUTPUT [--cmdline CMDLINE] [--physbase PHYSBASE]
+                    [--usb] [--rdres RDRES] [--checkpoint CHECKPOINT]
+                    [items ...]
+mkpayload.py: error: the following arguments are required: -o/--output
+BENCHMARK:run_xnuloader/mkpayload.py_ms:44.31
+TEST_FAIL:run_python_xnuloader/mkidentity.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/xnuloader/mkidentity.py", line 80, in <module>
+    main()
+  File "/tmp/hackios-xnu-kernel/xnuloader/mkidentity.py", line 64, in main
+    raw = open(sys.argv[1], 'rb').read()
+               ~~~~~~~~^^^
+IndexError: list index out of range
+BENCHMARK:run_xnuloader/mkidentity.py_ms:21.00
+TEST_FAIL:run_python_xnu-deps/gen-iig-stubs.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/xnu-deps/gen-iig-stubs.py", line 16, in <module>
+    undefined = [l.strip() for l in open(sys.argv[1]) if l.strip()]
+                                         ~~~~~~~~^^^
+IndexError: list index out of range
+BENCHMARK:run_xnu-deps/gen-iig-stubs.py_ms:31.09
+TEST_FAIL:run_python_tools/userdata-carve.py:Cut a partition of this port's own off the end of Android's userdata: the new GPT, made and checked here.
+
+usage: userdata-carve.py DIR GIB [NAME]
+  DIR   what was saved from the phone under Android (adb's root shell), all read only:
+          gpt-head.bin             the first 8 blocks of LUN 0 (dd if=/dev/block/sda bs=4096 count=8)
+          gpt-tail.bin             its last 8 blocks (... skip=BLOCKS-8 count=8)
+          userdata-meta-before.bin at least the first block of userdata (its f2fs superblock)
+          segment_info-before.txt  /proc/fs/f2fs/sda33/segment_info
+          sb-after.bin             (once the f2fs is shrunk) the first block of userdata again
+  GIB   how much to take off the end of userdata, in GiB (a whole number of f2fs segments)
+  NAME  the new partition's name (default darwin)
+
+Android's userdata on this phone is a plain f2fs (no metadata encryption: its superblock lies on the
+flash as it is) that fills its partition, the last of LUN 0. Taking GIB off its end takes two steps
+on the phone: first the filesystem is shrunk in place, by Android's own kernel
+(tools/android/f2fs-resize, F2FS_IOC_RESIZE_FS), and only then the partition, by writing the
+GPT this makes: userdata ends exactly where the shrunk f2fs ends, and a new partition NAME (of the
+APFS container type) has the rest from the next 2 MB on. The kernel takes whole sections off the
+main area and leaves the filesystem's own slack at its end (the blocks past the last whole segment)
+as it was, so the shrunk f2fs is the old size less GIB, not the size it was asked for.
+
+Both steps belong to one session of Android, with no reboot between them: at every boot fs_mgr
+runs resize.f2fs on userdata, which grows the filesystem to whatever its partition is -- a shrunk
+f2fs in the old partition is grown straight back (seen on this phone). With userdata exactly the
+filesystem's size there is nothing for it to do. Nothing else in the table changes -- no other entry, no GUID, no
+name, no attribute -- and both copies of the table (the primary one at the start of LUN 0, the
+backup at its end) are made, each with its CRC-32s, then read back here and checked the same way a
+firmware would.
+
+What this writes, into DIR: gpt-head.new and gpt-tail.new (the same 8 blocks, with the change),
+and it prints the f2fs size to shrink to and the dd commands that put the two on the phone. It
+refuses unless the old table checks out, userdata is the last partition, and no f2fs segment
+past the new end holds a single valid block.
+BENCHMARK:run_tools/userdata-carve.py_ms:38.66
+TEST_FAIL:run_python_tools/ufs-survey.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/tools/ufs-survey.py", line 75, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/tmp/hackios-xnu-kernel/tools/ufs-survey.py", line 31, in main
+    text = open(log_path, encoding='utf-8', errors='replace').read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/last.log'
+BENCHMARK:run_tools/ufs-survey.py_ms:58.11
+TEST_FAIL:run_python_tools/ufs-super.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/tools/ufs-super.py", line 137, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/tmp/hackios-xnu-kernel/tools/ufs-super.py", line 115, in main
+    text = open(log_path, encoding='utf-8', errors='replace').read()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'logs/last.log'
+BENCHMARK:run_tools/ufs-super.py_ms:41.65
+TEST_FAIL:run_python_tools/sound.py:Make a WAV file of a sound recording left by the kernel (boot-arg rec_sound=N).
+
+usage: sound.py RECORDING OUT.wav
+
+RECORDING is the piece of memory as the loader hands it over ("xl sound"; under QEMU, the
+monitor's pmemsave at the address in the kernel's line "redwood-audio: recording ... at 0x..."):
+a header { "RWSND001", rate, channels, blocks }, then for every write to /dev/redwood-audio the
+time it was made (nanoseconds since the kernel started), the number of frames and the frames
+themselves, 16-bit samples. iOS writes only while something plays, so the recording holds no
+silence: here the blocks are put back where they were in time, with silence in between
+(a pause of more than a quarter of a second is a pause; anything shorter is the writer being
+early or late, and the blocks are joined).
+
+Says how long and how loud the result is, which is the way to tell sound from nothing without
+listening: a file that peaks at -90 dBFS is silence that was "played".
+BENCHMARK:run_tools/sound.py_ms:51.48
+TEST_FAIL:run_python_tools/recording.py:Make a video of a screen recording left by the kernel's display driver (boot-arg rec_secs=N).
+
+usage: recording.py RECORDING OUT.mp4 [--max-hold SECONDS] [--frames FOLDER]
+
+With --max-hold, no picture stays longer than that: the stretches in which nothing changes on the
+screen (an emulated machine thinking about starting an application) are cut short, while whatever
+moves keeps its real speed.
+
+RECORDING is the piece of memory as the loader hands it over ("xl recording"; under QEMU, the
+monitor's pmemsave): a header { "RWREC003", width, height, frames, oldest, began }, then for every
+frame the time it was shown (nanoseconds from the first) and width x height pixels of three bytes
+(R, G, B). With boot-arg rec_ring=1 the frames are a ring, "oldest" the place of the oldest, and what
+is kept begins wherever the run's last frames began; "began" is when the first frame was recorded,
+in nanoseconds of the kernel's time. ("RWREC002", a kernel before that, has no "began".)
+The frames are not evenly spaced -- one is recorded whenever the screen changes -- so each is
+repeated for as long as it stayed on the screen, at 30 pictures a second, and ffmpeg encodes
+that. The picture is enlarged twice (it was recorded at a third of the panel's resolution).
+BENCHMARK:run_tools/recording.py_ms:41.23
+TEST_FAIL:run_python_tools/latency.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/tools/latency.py", line 32, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+BENCHMARK:run_tools/latency.py_ms:35.99
+TEST_FAIL:run_python_tools/frames.py:frames.py RUN.log [MORE.log ...]: how evenly the frames of a run's gestures came, and what held up the slow ones.
+(More logs: the live ones of the same run, XL_FOLLOW=N XL_FOLLOW_KEEP=1, which keep what the run's log loses.)
+
+Reads the "tl:" lines a run with boot-arg touch_lat=1 writes (see tools/latency.py for what each
+says): the samples and buttons of rwtouch (tl: p), the window server's frames (tl: g: began, ended),
+their hand-over (tl: s), the display driver's GPU wait and copy (tl: v), and every wait of a program
+for the GPU of a millisecond or more (tl: f). Every gesture -- from a touch going down, or a button,
+to the next one or 2.5 s later -- is a segment; for each:
+
+  frames a second while frames came; the share of frame-to-frame times (as the frames reached the
+  panel's memory) over 16.7 ms (counted from 18.0: a 60 Hz frame missed) and over 33 ms (from 34.5);
+  with boot-arg cpuload=MS (tl: u), how busy each processor core was meanwhile, in percent;
+  and for the frames over 16.7 ms, where the time between the previous frame and this one went:
+    draw      the window server drawing it (its first draw to its glFlush done: CPU, Mesa included)
+    gpu       the GPU after the hand-over (SwapEnd to done)
+    idle      the window server not drawing at all before it began (waiting for a commit, a fence, ...)
+    copy      the display driver's copy into the panel's memory
+
+The thresholds are as the coordinator asked for them; 18.0 rather than 16.7 because a frame of a steady
+60 comes 16.6 to 16.8 ms after the one before.
+BENCHMARK:run_tools/frames.py_ms:23.00
+TEST_FAIL:run_python_tools/darwin-write.py:Write an image into the phone's darwin partition, and nowhere else, from Android (adb, root).
+
+usage:
+  darwin-write.py check                 darwin's identity, read from the phone now                (writes nothing)
+  darwin-write.py sum   BLOCK COUNT     sha256 of COUNT blocks of darwin from BLOCK                (writes nothing)
+  darwin-write.py plan  IMAGE BLOCK     every check `write` makes, and the command it would run    (writes nothing)
+  darwin-write.py write IMAGE BLOCK     with DARWIN_WRITE=yes: IMAGE at darwin's block BLOCK, read back and compared
+  darwin-write.py zero  BLOCK COUNT     with DARWIN_WRITE=yes: zeros over COUNT blocks, read back and compared
+  darwin-write.py selftest              the refusals, against this tool's own checks and a GPT read now (writes nothing)
+
+Blocks are darwin's own, 4096 bytes, counted from the partition's start. What it takes to write:
+
+  - darwin is what it was when the port was set up, read at the time of the write and compared with the
+    constants below, all of them: the GPT of logical unit 0 (header and table CRCs right; entry 34 named
+    darwin, its type and unique GUIDs, LBA 25374720..30617594; no other entry over any of it), sda being
+    logical unit 0 of the UFS controller, /dev/block/by-name/darwin being /dev/block/sda34, whose number,
+    name, start and size in sysfs and whose size by blockdev say the same. Anything else: no write.
+  - the blocks lie inside darwin and after the iOS volume at its start (rootfs.apfs, blocks 0..1374207,
+    which is never written): BLOCK >= 1374208 and BLOCK + COUNT <= 5242875. Anything else: no write.
+  - the write goes to /dev/block/by-name/darwin only, by dd with seek and count in blocks of 4096, from a
+    copy of the image on the phone whose sha256 has been checked; in the same shell, right before dd,
+    the name is checked again to be sda34 of darwin's size. Never /dev/block/sda or anything else.
+  - afterwards the blocks are read back and their sha256 has to be the image's.
+
+Every attempt, refused or done, goes into logs/darwin-write.log.
+BENCHMARK:run_tools/darwin-write.py_ms:52.44
+TEST_FAIL:run_python_tools/camtuning.py:Make a camera's colour tuning, as libredwood-media's processor reads it (userland/src/camera_isp.c,
+isp_load_tuning), out of the camera's tuning file of Android's camera stack
+(/vendor/lib64/camera/com.qti.tuned.<name>.bin of the phone: the vendor's, kept in fw-camera/ and never in
+the repository; so is what this makes of it).
+
+usage: camtuning.py TUNED.bin OUT.isp     (camtuning.py TUNED.bin -   lists what is there only)
+
+The tuning file is a "QTI Chromatix Header" / "Parameter Parser V3.0.1" file, laid out as the sensors'
+module files are (see camsensor.py): a table of symbols { id, name[32], kind, ?, parent, offset, size }
+and the data they point into. Two of its modules are taken, each as Chromatix keeps it -- a tree whose
+first level is the flash (led_idx_data: 0 without one, the only one taken), the next the scene's light
+(aec_data: from a lux index to another, Qualcomm's measure of how dark the scene is: higher is darker),
+the last the light's colour temperature (cct_data: from a CCT to another, in kelvin):
+
+  cc13 (the colour matrix, IPE's): per light and temperature a 3x3 matrix from the sensor's colours,
+       white balanced, to linear sRGB, by rows R, G, B (each row sums to 1)
+  lsc34 (lens shading): per light and temperature a gain for each of R, Gr, Gb and B at each point of
+       a 17 x 13 grid laid over the sensor (corners on its corners, rows from the top)
+
+and, of its white balance (Qualcomm's AWB), the reference lights (refPtV1): ten of them for every camera
+of this phone, each as the sensor sees a grey under it, red over green and blue over green -- from the
+bluest daylight to a candle, in the order 10000 K, D75, D65, D50 (whose gains are the AWB's first ones,
+initDataV1), cool white and TL84 fluorescent tubes, U30, A (a filament lamp), horizon, candle. Each is
+given the colour temperature that the tables above are picked by for it: its own, but 3800 K for U30, a
+3000 K light without the infrared a filament gives -- as a white LED is -- whose tables are TL84's (the
+wide camera under a warm white LED: its colour shading measured on a white sheet is TL84's table's to
+within 3 %, the 2550-2900 K one's is 12 % off in red).
+
+OUT.isp: "RWCISP02"; the number of the matrices' light ranges and per range { lux index from, to (two
+floats), the number of temperature ranges, per range { CCT from, to, the matrix (9 floats) } }; the
+same for the lens shading, with per temperature range { CCT from, to, R, Gr, Gb, B grids (17 x 13 floats
+each) }; the number of reference lights (0 where there are not the ten) and each { R/G, B/G, CCT }.
+Everything little-endian, counts as 32-bit words.
+BENCHMARK:run_tools/camtuning.py_ms:21.30
+TEST_FAIL:run_python_tools/camsensor.py:Make the register tables of a camera sensor, as the kernel's camera driver reads them
+(bsd/dev/redwood_camera.c, boot-arg cam=2 and up), out of the sensor's module file of Android's camera
+stack (/vendor/lib64/camera/com.qti.sensormodule.<name>.bin of the phone: the vendor's, kept in
+fw-camera/ and never in the repository; so is what this makes of it).
+
+usage: camsensor.py MODULE.bin OUT.tab     (camsensor.py MODULE.bin -   lists the tables only)
+
+The module file is a "QTI Chromatix Header" / "Parameter Parser V3.0.1" file: after the header a
+table of entry points (offset, size) -- the first is a table of symbols, the second the data the
+symbols point into. A symbol is { id, name[32], kind, ?, parent, offset, size } (56 bytes); the
+sensor driver's data is a C structure at the start of the data, its strings and arrays given by
+(count, symbol id). A register setting ("regSetting") is an array of 40-byte elements
+{ slave present, slave symbol, address, data count, data symbol, address bytes, data bytes,
+operation (0 write), delay present, delay symbol }, the data and the delay values found through
+their symbols. The settings come in the order of the sensor driver's XML: the resolutions' own
+(each resolution element names its own), then stream on, stream off, group hold on and off (after
+"regToRealGain"), the slave mode's (after "slaveSettings"), the initialisation (after
+"initSettings"), the test pattern's off and on (after "testPatternData").
+
+OUT.tab: "RWCTAB02", then { slave (8-bit address), address bytes and data bytes of the id read, id
+address, id, id mask, lane assignment, number of modes } as 32-bit words; per mode { width, height,
+x, y, lanes (trios with C-PHY), C-PHY, settle, output pixel clock, line length, frame length,
+frames a second x 1000, data type }; the power sequences "pwrup" and "pwrdn" as name[8], count and
+count x { kind u16 (0 MCLK, 1 VANA, 2 VDIG, 3 VIO, 8 RESET; Android's cam_sensor kinds), value u16
+(MCLK in kHz), 0 u32, delay in us u32 }; the number of tables, and each table: name[8], count, then
+count x { address u16, data u16, address bytes u8, data bytes u8, operation u8, 0 u8, delay in us
+u32 }. The modes' own tables are res0, res1, ...
+
+The listing also gives each mode's colour filter order: the first word of its resolution element,
+colorFilterArrangement in CamX's order (0 BGGR, 1 GBRG, 2 GRBG, 3 RGGB, 4 mono; camera.qcom.so's
+TranslateColorFilterArrangement makes Android's of it by the table 3, 2, 1, 0, 5). It is not in the
+table: the kernel's sensors[] carries it (bsd/dev/redwood_camera.c).
+BENCHMARK:run_tools/camsensor.py_ms:22.73
+TEST_FAIL:run_python_tools/camraw.py:Make pictures of the frames the kernel's camera driver left in memory (boot-arg cam=3 and up;
+bsd/dev/redwood_camera.c), as the loader hands them over ("xl camera").
+
+usage: camraw.py CAMERA.raw PREFIX [--bayer N]
+
+CAMERA.raw is a header { "RWCAM001", width, height, stride, format, bayer, frames, frame_bytes,
+source, sensor[16], last } in its first 4096 bytes (last: which place holds the last frame written), then the frames, frame_bytes each. Format 1 is MIPI
+RAW10 as the sensor sends it: four pixels in five bytes, the high eight bits of each in the first
+four, their low two bits together in the fifth. Each frame becomes PREFIX-N.png, debayered by
+taking each 2x2 cell (bayer 0 RGGB, 1 GRBG, 2 GBRG, 3 BGGR) as one pixel -- half the resolution, no
+interpolation -- with a plain grey-world white balance and a gamma of 2.2: a first look, not a
+finished photograph; PREFIX-N-raw.png is the frame's raw values as they are (grey, 8 bits).
+Formats 2 and 3 are a picture iOS made of a frame (cam=5): NV12 (full-range YCbCr 4:2:0, the chroma plane
+after the luma one, both of the stride) or BGRA, which becomes PREFIX.png as it is.
+--bayer N takes the frames for that order instead of the header's. The header's is the one each
+sensor's module file gives (tools/camsensor.py lists it): the OV02B10's and the OV16A1Q's picture is
+BGGR, the S5KHM2SD's and the S5K4H7's GRBG. The OV02B10's own colour bars (cam_pattern=1) are taken
+for GBRG, and the header says so for them. (Frames taken before the kernel had this right say
+RGGB for BGGR and GBRG for GRBG: --bayer 3 and --bayer 1 for them.)
+BENCHMARK:run_tools/camraw.py_ms:29.21
+TEST_FAIL:run_python_qemu/where.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/qemu/where.py", line 9, in <module>
+    s = socket.create_connection(('127.0.0.1', 4444 + 10 * instance)); s.settimeout(2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+BENCHMARK:run_qemu/where.py_ms:59.63
+TEST_FAIL:run_python_qemu/touch.py:Touch the screen of the system running under QEMU (qemu/run-ios.sh), through QMP.
+
+usage: touch.py STEP...
+  tap X Y                     a short touch
+  hold X Y MS                 touch and stay
+  swipe X0 Y0 X1 Y1 [MS]      drag in MS milliseconds (default 300)
+  key NAME [MS]               press a button: lock, home, volup, voldown; fivefingers = five fingers on the
+                              screen for MS (held 1500 ms they end the run)
+  stacks PROCESS              have the kernel print where the threads of that process are (the
+                              addresses come out in the log; qemu/symstack.py names them).
+                              "stacks top" is something else: which processes have had the processor
+                              since it was last asked ("top:" lines in the log)
+  wait SECONDS
+Positions are fractions of the screen: 0 0 is the top left corner, 1 1 the bottom right.
+Example, the "swipe up to open" gesture:  touch.py swipe 0.5 0.98 0.5 0.4 250
+BENCHMARK:run_qemu/touch.py_ms:40.49
+TEST_FAIL:run_python_qemu/symstack.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/qemu/symstack.py", line 86, in <module>
+    main()
+  File "/tmp/hackios-xnu-kernel/qemu/symstack.py", line 40, in main
+    log = sys.argv[1]
+          ~~~~~~~~^^^
+IndexError: list index out of range
+BENCHMARK:run_qemu/symstack.py_ms:46.26
+TEST_FAIL:run_python_qemu/sym.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/qemu/sym.py", line 5, in <module>
+    for l in open(os.path.join(os.path.dirname(__file__), 'kernel.syms')):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/hackios-xnu-kernel/qemu/kernel.syms'
+BENCHMARK:run_qemu/sym.py_ms:40.99
+TEST_FAIL:run_python_uefi/files/Platforms/Xiaomi/redwoodPkg/DeviceBuild.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/uefi/files/Platforms/Xiaomi/redwoodPkg/DeviceBuild.py", line 14, in <module>
+    from edk2toolext.environment import shell_environment
+ModuleNotFoundError: No module named 'edk2toolext'
+BENCHMARK:run_uefi/files/Platforms/Xiaomi/redwoodPkg/DeviceBuild.py_ms:60.43
+TEST_FAIL:run_python_tools/wpa-test/reference.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/tools/wpa-test/reference.py", line 13, in <module>
+    from cryptography.hazmat.primitives.keywrap import aes_key_wrap
+ModuleNotFoundError: No module named 'cryptography'
+BENCHMARK:run_tools/wpa-test/reference.py_ms:34.66
+TEST_FAIL:run_python_tools/qmi-test/extract.py:Traceback (most recent call last):
+  File "/tmp/hackios-xnu-kernel/tools/qmi-test/extract.py", line 15, in <module>
+    src = sys.argv[1]
+          ~~~~~~~~^^^
+IndexError: list index out of range
+BENCHMARK:run_tools/qmi-test/extract.py_ms:32.67
+TEST_PASS:run_python_prebuilt/uefi/mkbootimg.py
+BENCHMARK:run_prebuilt/uefi/mkbootimg.py_ms:69.08
+BENCHMARK:run_prebuilt/uefi/mkbootimg.py_mem_kb:59.31
+BENCHMARK:vs_8.5_install_time_s:0.057
+BENCHMARK:clone_mem_kb:0
+RUN_OK
