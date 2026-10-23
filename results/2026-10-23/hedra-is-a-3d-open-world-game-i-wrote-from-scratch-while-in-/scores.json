@@ -1,0 +1,122 @@
+{
+  "app_name": "Hedra",
+  "url": "https://github.com/maxilevi/project-hedra",
+  "scored_at": "2026-10-23T13:06:01.821Z",
+  "total_score": 41,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 2845 days ago and is not a fork, but its stars (163) are orders of magnitude lower than similar engines (e.g., Godot 118,945 stars), indicating it is a near-duplicate rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) after 13.1 seconds and there is no PyPI package, showing poor installability."
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "As a 3D game engine, it does not address core LLM workflow needs, making it largely irrelevant to the current AI development landscape."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "With only 163 stars versus Unreal (2,907), Godot (118,945) and Unity (19,784), and no benchmark advantage, it offers minimal differentiation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 163 stars, 2 contributors and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "Zero of one test passed and installation failed, providing very limited usable functionality."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package exists, the tool offers Game Engine, CLI, and Editor modes but lacks a documented API, limiting straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topics was provided, so documentation quality cannot be assessed and is given a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project is 2845 days old with 5 forks and 40 open issues; while the repo is actively updated, the age and issue count suggest a mid‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only shows install_time_s 2.83 and clone_time_s 3.17 with no comparative data, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud the developer’s technical achievement, persistence, and the game’s aesthetic, while a few mention concerns about AI replacing learning or debate on wording. Overall tone is very positive with only minor nitpicks."
+    }
+  },
+  "summary": "Hedra is a fully‑coded 3D open‑world game engine built in C# that offers procedural generation and AI companions. It runs as a standalone game engine with CLI and editor modes, but lacks a package manager distribution and any public API. It is suited for hobbyists or students wanting a custom engine to experiment with game AI, though its utility is limited by poor installability and minimal community adoption. The project’s strength is its open‑source availability and recent activity, while its main caveat is the lack of documentation, integration hooks, and performance benchmarks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+  "tool_url": "https://github.com/maxilevi/project-hedra",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50199389",
+  "domain": "game",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": {
+      "stars": 163,
+      "forks": 5,
+      "open_issues": 40,
+      "watchers": 163,
+      "contributors": 2,
+      "license": "GPL-3.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2845,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Hedra is a 3D open world game I wrote from scratch while in highschool. The entire codebase is around +100k LOC",
+      "topics": [
+        "bulletphysics",
+        "csharp",
+        "dotnet-core",
+        "game",
+        "game-development",
+        "game-engine",
+        "glsl",
+        "opengl"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Unreal Engine",
+        "stars": 2907,
+        "repo": "20tab/UnrealEnginePython"
+      },
+      {
+        "name": "Godot",
+        "stars": 118945,
+        "repo": "godotengine/godot"
+      },
+      {
+        "name": "Unity",
+        "stars": 19784,
+        "repo": "Unity-Technologies/ml-agents"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "praise for skill & persistence",
+        "high quality open-source work",
+        "educational inspiration"
+      ],
+      "negative_signals": [
+        "skepticism about AI impact on learning",
+        "minor disagreements on terminology"
+      ],
+      "justification": "The majority of comments applaud the developer’s technical achievement, persistence, and the game’s aesthetic, while a few mention concerns about AI replacing learning or debate on wording. Overall tone is very positive with only minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 221
+    }
+  }
+}
