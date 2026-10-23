@@ -1,0 +1,126 @@
+{
+  "app_name": "OnKey",
+  "url": "https://github.com/dsmurrell/onkey",
+  "scored_at": "2026-10-23T13:03:19.181Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 4 days old and is not a fork, indicating a brand‑new project, but it follows established pitch‑detection approaches similar to Auto‑Tune and Melodyne."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 19.2 seconds and required no API key; although there is no PyPI package, the install time is well under the 30‑second threshold."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI for singers, it addresses a niche creative workflow that is moderately relevant to current AI‑enhanced audio tools."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "OnKey has 97 GitHub stars versus 907 for Sonic Visualiser and 483 for Auto‑Tune, but its CLI help response is 0.79 ms, showing a speed advantage and a unique gamified learning feature."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repo has 97 stars, 1 contributor, and was updated today, providing some community interest but limited contributor activity."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "Out of 2 QA tests, 1 passed (50 % pass rate) and installation succeeded, indicating core functionality works but usability is only partially verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers both CLI and Web UI modes and is MIT‑licensed, but lacks a PyPI package, requiring manual integration steps."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 4 days old, has 3 forks and 1 open issue, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data shows fast CLI help latency (0.79 ms) and install times, but no comparative figures against similar tools are available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the app’s pitch detection and gamified learning features, with constructive suggestions for difficulty levels and bug fixes. Criticism is mainly technical (Apple Music/Spotify issues and framework choice) rather than a fundamental objection to the project."
+    }
+  },
+  "summary": "OnKey is a desktop and web application that analyzes audio recordings to highlight pitch inaccuracies for singers. It runs locally via a Rust‑based CLI and also provides a web UI, requiring no external API keys. The tool is suited for singers who want immediate feedback on off‑key notes, leveraging fast pitch detection (0.79 ms CLI help) and gamified learning features. Its main strength is rapid, local analysis, while its limited community size and very recent release are notable caveats.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/dsmurrell/onkey",
+  "tool_url": "https://github.com/dsmurrell/onkey",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50195488",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 97,
+      "forks": 3,
+      "open_issues": 1,
+      "watchers": 97,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Learn to sing the songs you love. A free, open-source singing trainer for Mac that listens to the music you play.",
+      "topics": [
+        "apple-silicon",
+        "audio",
+        "macos",
+        "music",
+        "nextjs",
+        "onnx",
+        "pitch-detection",
+        "rust",
+        "singing",
+        "tauri",
+        "vocal-training"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Auto-Tune",
+        "stars": 483,
+        "repo": "br3ttb/Arduino-PID-AutoTune-Library"
+      },
+      {
+        "name": "Melodyne",
+        "stars": 97,
+        "repo": "EssenceCountCommand/Melodyne-5"
+      },
+      {
+        "name": "Sonic Visualiser",
+        "stars": 907,
+        "repo": "sonic-visualiser/sonic-visualiser"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Useful pitch detection tech",
+        "Gamification & difficulty levels",
+        "Positive community feedback"
+      ],
+      "negative_signals": [
+        "Buggy Apple Music/Spotify switching",
+        "Webview/Tauri concerns",
+        "Limited OS support"
+      ],
+      "justification": "The majority of comments praise the app’s pitch detection and gamified learning features, with constructive suggestions for difficulty levels and bug fixes. Criticism is mainly technical (Apple Music/Spotify issues and framework choice) rather than a fundamental objection to the project.",
+      "comment_count": 30,
+      "hn_points": 80
+    }
+  }
+}
