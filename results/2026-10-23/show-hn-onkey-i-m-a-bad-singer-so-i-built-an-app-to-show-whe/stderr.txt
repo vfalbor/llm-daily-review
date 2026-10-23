@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 110, in generate_sine_wav
+    wf.writeframes(struct.pack("<h", sample))
+  File "/usr/local/lib/python3.12/wave.py", line 576, in writeframes
+    self.writeframesraw(data)
+  File "/usr/local/lib/python3.12/wave.py", line 565, in writeframesraw
+    self._ensure_header_written(len(data))
+  File "/usr/local/lib/python3.12/wave.py", line 606, in _ensure_header_written
+    self._write_header(datasize)
+  File "/usr/local/lib/python3.12/wave.py", line 610, in _write_header
+    self._file.write(b'RIFF')
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'PosixPath' object has no attribute 'write'. Did you mean: 'drive'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/test.py", line 113, in <module>
+    generate_sine_wav(sample_wav)
+  File "/app/test.py", line 103, in generate_sine_wav
+    with wave.open(path, "w") as wf:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/wave.py", line 471, in __exit__
+    self.close()
+  File "/usr/local/lib/python3.12/wave.py", line 583, in close
+    self._ensure_header_written(0)
+  File "/usr/local/lib/python3.12/wave.py", line 606, in _ensure_header_written
+    self._write_header(datasize)
+  File "/usr/local/lib/python3.12/wave.py", line 610, in _write_header
+    self._file.write(b'RIFF')
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'PosixPath' object has no attribute 'write'. Did you mean: 'drive'?
