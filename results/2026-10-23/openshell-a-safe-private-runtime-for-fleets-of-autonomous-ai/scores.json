@@ -1,0 +1,121 @@
+{
+  "app_name": "OpenShell",
+  "url": "https://github.com/NVIDIA/OpenShell",
+  "scored_at": "2026-10-23T13:01:13.051Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 240 days ago, not a fork, and its 18,308 stars dwarf the 2‑star OpenAI Runtime, indicating a novel approach to autonomous agent runtimes."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 15.7 s (well under 30 s) and the package is available on PyPI, requiring only Python ≥3.11."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑container runtime for autonomous AI agents, it directly addresses the current push for scalable, isolated agent deployments."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "OpenShell’s 18,308 stars are far above OpenAI Runtime’s 2 stars (+18306) and it adds isolation, privacy controls, and K8s‑friendly design absent in the alternatives."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo has 18,308 stars, 135 contributors, and was updated today (0 days since last commit), showing a vibrant community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50 %); despite a successful install, core functionality failed to validate in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists, the project offers CLI, API, and Docker use modes, and it is licensed under Apache‑2.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki/pages or README quality was provided; therefore a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 240 days old with 1,855 forks and 564 open issues, and the latest release is version 0.1.5, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import time of 2174 ms and other install timings, but no comparative data to alternatives; a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments frequently criticize OpenShell’s anonymous telemetry and privacy implications, with several users expressing unease and advocating disabling it. Positive remarks focus on its feature set, k8s integration, and enterprise control, but they are outweighed by the privacy concerns."
+    }
+  },
+  "summary": "OpenShell is an open‑source runtime that isolates and manages fleets of autonomous AI agents, providing CLI, API, and Docker interfaces. It is built in Rust and packaged on PyPI, requiring Python ≥3.11, and runs without any external API keys. The tool is aimed at teams needing enterprise‑grade control and K8s‑friendly deployment of private agent workloads. It stands out for its large community (18 k stars) and strong isolation features, but its test suite shows core functionality failures, and its early‑stage version (0.1.5) suggests limited production readiness.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/NVIDIA/OpenShell",
+  "tool_url": "https://github.com/NVIDIA/OpenShell",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50198675",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 18308,
+      "forks": 1855,
+      "open_issues": 564,
+      "watchers": 18308,
+      "contributors": 135,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 240,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "OpenAI Runtime",
+        "stars": 2,
+        "repo": "study8677/openai-agent-runtime"
+      },
+      {
+        "name": "OpenAI Agents",
+        "stars": 30243,
+        "repo": "openai/openai-agents-python"
+      },
+      {
+        "name": "OpenTelemetry Agent",
+        "stars": 115,
+        "repo": "ollygarden/opentelemetry-agent-skills"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.5",
+      "summary": "OpenShell is the safe, private runtime for autonomous AI agents. ",
+      "requires_python": ">=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Feature-rich bundle",
+        "Enterprise‑grade control",
+        "K8s‑friendly design"
+      ],
+      "negative_signals": [
+        "Telemetry privacy concerns",
+        "User discomfort with data collection",
+        "Limited clarity on data scope"
+      ],
+      "justification": "Comments frequently criticize OpenShell’s anonymous telemetry and privacy implications, with several users expressing unease and advocating disabling it. Positive remarks focus on its feature set, k8s integration, and enterprise control, but they are outweighed by the privacy concerns.",
+      "comment_count": 30,
+      "hn_points": 428
+    }
+  }
+}
