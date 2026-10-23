@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Jank – The native Clojure dialect with seamless C++ interop",
+    "url": "https://jank-lang.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=50202762",
+    "points": 124,
+    "comments": 18,
+    "author": "giancarlostoro",
+    "age": "2026-10-22T23:56:36",
+    "scraped_at": "2026-10-23T13:00:02.331Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/jank-lang/jank",
+    "source_type": "tool",
+    "confidence": 0.92,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "A new programming language that extends Clojure with native C++ interoperability, targeting high‑performance systems programming.",
+    "use_modes": [
+      "REPL",
+      "CLI",
+      "Compiler"
+    ],
+    "similar_tools": [
+      "Clojure",
+      "ClojureScript",
+      "C++",
+      "Rust",
+      "Nim"
+    ],
+    "proposed_tests": [
+      "git clone the repository and run ./build.sh",
+      "run the compiler on a hello‑world source file and ensure it outputs valid C++",
+      "measure compile time for a medium‑size project (≈50K LOC)",
+      "execute the generated binary and check for correct output"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jank-lang/jank"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760631554-pmhx7",
+    "log_dir": "/tmp/llm-review-1792760631554-pmhx7",
+    "install_success": true,
+    "install_time_s": 36.4,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_go_s:3.44\nBENCHMARK:install_git_s:0.45\nBENCHMARK:install_cargo_s:3.15\nBENCHMARK:install_rust_s:0.5\nBENCHMARK:install_nodejs_s:1.43\nBENCHMARK:install_npm_s:0.78\nBENCHMARK:install_make_s:0.61\nBENCHMARK:install_gcc_s:0.47\nBENCHMARK:install_g++_s:1.06\nBENCHMARK:install_clang_s:1.31\nBENCHMARK:clone_time_s:7.99\nBENCHMARK:hello_compile_time_ms:0.78\nBENCHMARK:medium_compile_time_s:0.0\nBENCHMARK:vs_clang_compile_ratio:0.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_go_s:3.44\nINSTALL_OK\nBENCHMARK:install_git_s:0.45\nINSTALL_OK\nBENCHMARK:install_cargo_s:3.15\nINSTALL_OK\nBENCHMARK:install_rust_s:0.5\nINSTALL_OK\nBENCHMARK:install_nodejs_s:1.43\nINSTALL_OK\nBENCHMARK:install_npm_s:0.78\nINSTALL_OK\nBENCHMARK:install_make_s:0.61\nINSTALL_OK\nBENCHMARK:install_gcc_s:0.47\nINSTALL_OK\nBENCHMARK:install_g++_s:1.06\nINSTALL_OK\nBENCHMARK:install_clang_s:1.31\nBENCHMARK:clone_time_s:7.99\nTEST_PASS:clone_repo\nTEST_FAIL:build_script_missing:build.sh not found\nBENCHMARK:hello_compile_time_ms:0.78\nTEST_FAIL:hello_compile:[Errno 2] No such file or directory: 'jankc'\nBENCHMARK:medium_compile_time_s:0.0\nTEST_FAIL:medium_compile:sh: can't open './build.sh': No such file or directory\nBENCHMARK:vs_clang_compile_ratio:0.0\nRUN_OK\n"
+  }
+}
