@@ -1,0 +1,69 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+    "url": "https://github.com/NVIDIA/OpenShell",
+    "hn_url": "https://news.ycombinator.com/item?id=50198675",
+    "points": 428,
+    "comments": 198,
+    "author": "niemandhier",
+    "age": "2026-10-22T17:44:06",
+    "scraped_at": "2026-10-23T13:00:02.323Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "tool_url": "https://github.com/NVIDIA/OpenShell",
+    "description": "A runtime environment for deploying and managing autonomous AI agents with isolation and privacy controls",
+    "use_modes": [
+      "CLI",
+      "API",
+      "Docker"
+    ],
+    "similar_tools": [
+      "OpenAI Runtime",
+      "OpenAI Agents",
+      "OpenTelemetry Agent"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Clone and build",
+        "steps": [
+          "git clone https://github.com/NVIDIA/OpenShell",
+          "cd OpenShell",
+          "make build"
+        ]
+      },
+      {
+        "name": "Run hello agent",
+        "steps": [
+          "make run-hello-agent"
+        ],
+        "metrics": "latency of agent startup"
+      },
+      {
+        "name": "API health check",
+        "steps": [
+          "curl http://localhost:8080/health"
+        ],
+        "metrics": "HTTP 200"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/NVIDIA/OpenShell"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760442812-21usm",
+    "log_dir": "/tmp/llm-review-1792760442812-21usm",
+    "install_success": true,
+    "install_time_s": 15.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:0.500\nBENCHMARK:pip_install_openshell_time_s:4.760\nBENCHMARK:import_openshell_ms:2174.62\nBENCHMARK:import_openshell_mem_kb:18588.66\nBENCHMARK:/tmp/openshell/openshell/__main__.py_help_mem_kb:60.69\nBENCHMARK:vs_openai_runtime_install_time_s:0.827\nBENCHMARK:vs_openai_runtime_help_latency_ms:0.850",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:0.500\nINSTALL_OK\nBENCHMARK:pip_install_openshell_time_s:4.760\nBENCHMARK:import_openshell_ms:2174.62\nBENCHMARK:import_openshell_mem_kb:18588.66\nTEST_FAIL:/tmp/openshell/openshell/__main__.py_help:[Errno 2] No such file or directory: '/tmp/openshell/openshell/__main__.py'\nBENCHMARK:/tmp/openshell/openshell/__main__.py_help_mem_kb:60.69\nTEST_FAIL:docker_manifest_fetch:HTTP Error 404: Not Found\nBENCHMARK:vs_openai_runtime_install_time_s:0.827\nBENCHMARK:vs_openai_runtime_help_latency_ms:0.850\nRUN_OK\n"
+  }
+}
