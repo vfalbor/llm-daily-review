@@ -1,0 +1,126 @@
+{
+  "app_name": "Jank – The native Clojure dialect with seamless C++ interop",
+  "url": "https://jank-lang.org/",
+  "scored_at": "2026-10-23T13:04:56.372Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 4495 days ago and is not a fork, but adds native C++ interop to Clojure, which is an incremental improvement over existing languages."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) but took 36.4 seconds, slightly above the <30 s ideal; a PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a lang-new type, it targets high‑performance systems programming, a hot area in today's LLM‑augmented tooling landscape."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 3,359 GitHub stars it is smaller than Clojure (10,979) but uniquely offers seamless C++ interop, a clear advantage not present in the compared tools."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 3,359 stars, 36 contributors, and was updated today (0 days since last commit), indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 4 tests passed (25%), showing limited core functionality despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package (v0.1.1) is available, the tool supports REPL, CLI, and compiler modes, and it uses an MPL‑2.0 license, enabling moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 4495 days old, has 133 forks and 93 open issues, suggesting it is beyond early prototype but not yet fully stable."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results comparing Jank to similar languages were provided; a neutral default score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments highlight enthusiasm for REPL‑driven, agent‑powered development and the promise of native C++ interop, but also note practical pain points such as tracking executed cells and early issues with parenthesis handling."
+    }
+  },
+  "summary": "Jank is a new programming language that extends Clojure with native C++ interoperability, providing a REPL, CLI, and compiler. It is built in C++ and packaged on PyPI, allowing local installation without API keys. The language is suited for developers needing high‑performance systems code while retaining Clojure's functional style. It stands out for its C++ interop but currently shows limited functionality, passing only one of four test cases and lacking published performance benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://jank-lang.org/",
+  "tool_url": "https://github.com/jank-lang/jank",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50202762",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": {
+      "stars": 3359,
+      "forks": 133,
+      "open_issues": 93,
+      "watchers": 3359,
+      "contributors": 36,
+      "license": "MPL-2.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4495,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "jank is the native Clojure dialect with seamless C++ interop.",
+      "topics": [
+        "clojure",
+        "compiler",
+        "cpp",
+        "functional-programming",
+        "jit",
+        "language",
+        "lisp",
+        "llvm",
+        "native",
+        "programming-language"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Clojure",
+        "stars": 10979,
+        "repo": "clojure/clojure"
+      },
+      {
+        "name": "ClojureScript",
+        "stars": 9391,
+        "repo": "clojure/clojurescript"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "A game engine using Pyglet and Pymunk.",
+      "requires_python": ">=3.6",
+      "license": "LICENSE",
+      "home_page": "https://github.com/LennyPhoenix/Jank-Engine"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "REPL-driven dev and agent synergy",
+        "immutability and parallelism",
+        "native C++ interop"
+      ],
+      "negative_signals": [
+        "confusion over cell execution, variable mangling",
+        "early paren‑balancing issues"
+      ],
+      "justification": "The comments highlight enthusiasm for REPL‑driven, agent‑powered development and the promise of native C++ interop, but also note practical pain points such as tracking executed cells and early issues with parenthesis handling.",
+      "comment_count": 18,
+      "hn_points": 124
+    }
+  }
+}
