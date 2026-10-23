@@ -1,0 +1,69 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+    "url": "https://github.com/dsmurrell/onkey",
+    "hn_url": "https://news.ycombinator.com/item?id=50195488",
+    "points": 81,
+    "comments": 44,
+    "author": "dsmurrell",
+    "age": "2026-10-22T14:04:44",
+    "scraped_at": "2026-10-23T13:00:02.325Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.75,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "tool_url": "https://github.com/dsmurrell/onkey",
+    "description": "A desktop and web application that analyzes audio recordings to highlight pitch inaccuracies for singers",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Auto-Tune",
+      "Melodyne",
+      "Sonic Visualiser"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Install dependencies",
+        "steps": [
+          "git clone https://github.com/dsmurrell/onkey",
+          "cd onkey",
+          "npm install"
+        ],
+        "metrics": "install success"
+      },
+      {
+        "name": "Run CLI pitch analysis",
+        "steps": [
+          "node index.js --input test.wav"
+        ],
+        "metrics": "output contains pitch deviation data"
+      },
+      {
+        "name": "Launch web UI",
+        "steps": [
+          "npm start"
+        ],
+        "metrics": "web UI loads at http://localhost:3000"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/dsmurrell/onkey"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792760534531-e5pl0",
+    "log_dir": "/tmp/llm-review-1792760534531-e5pl0",
+    "install_success": true,
+    "install_time_s": 19.2,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:5.94\nBENCHMARK:clone_time_s:1.13\nBENCHMARK:install_tool_time_s:2.89\nBENCHMARK:install_time_sonic-visualiser_s:1.58\nBENCHMARK:cli_help_ms:0.79",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 110, in generate_sine_wav\n    wf.writeframes(struct.pack(\"<h\", sample))\n  File \"/usr/local/lib/python3.12/wave.py\", line 576, in writeframes\n    self.writeframesraw(data)\n  File \"/usr/local/lib/python3.12/wave.py\", line 565, in writeframesraw\n    self._ensure_header_written(len(data))\n  File \"/usr/local/lib/python3.12/wave.py\", line 606, in _ensure_header_written\n    self._write_header(datasize)\n  File \"/usr/local/lib/python3.12/wave.py\", line 610, in _write_header\n    self._file.write(b'RIFF')\n    ^^^^^^^^^^^^^^^^\nAttributeError: 'PosixPath' object has no attribute 'write'. Did you mean: 'drive'?\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 113, in <module>\n    generate_sine_wav(sample_wav)\n  File \"/app/test.py\", line 103, in generate_sine_wav\n    with wave.open(path, \"w\") as wf:\n         ^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/wave.py\", line 471, in __exit__\n    self.close()\n  File \"/usr/local/lib/python3.12/wave.py\", line 583, in close\n    self._ensure_header_written(0)\n  File \"/usr/local/lib/python3.12/wave.py\", line 606, in _ensure_header_written\n    self._write_header(datasize)\n  File \"/usr/local/lib/python3.12/wave.py\", line 610, in _write_header\n    self._file.write(b'RIFF')\n    ^^^^^^^^^^^^^^^^\nAttributeError: 'PosixPath' object has no attribute 'write'. Did you mean: 'drive'?\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:5.94\nBENCHMARK:clone_time_s:1.13\nTEST_PASS:clone_repo\nINSTALL_OK\nBENCHMARK:install_tool_time_s:2.89\nBENCHMARK:install_time_sonic-visualiser_s:1.58\nBENCHMARK:cli_help_ms:0.79\nTEST_FAIL:cli_help:non-zero exit or missing help text (stderr:[Errno 2] No such file or directory: 'onkey')\n"
+  }
+}
