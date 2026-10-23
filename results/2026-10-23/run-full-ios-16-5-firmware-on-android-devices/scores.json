@@ -1,0 +1,104 @@
+{
+  "app_name": "Run full iOS 16.5 firmware on Android Devices",
+  "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+  "scored_at": "2026-10-23T13:02:12.664Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repository is only 1 day old, is not a fork, and implements a unique XNU kernel port unlike the 244‑star Android-x86 runner, indicating a meaningful new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.8 s (under the 30 s threshold) despite lacking a PyPI package, showing a reasonably simple setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑IoT tool that enables iOS firmware on Android, it addresses a niche but timely interest in cross‑platform device hacking."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 860 GitHub stars versus 244 stars for the closest alternative, it has a substantially larger community and offers a kernel‑module based approach unavailable elsewhere."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 860 stars (1k–5k range) and only 1 contributor, but recent activity (1 day since last commit) shows an engaged, albeit small, community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 3 of 24 tests passed (12.5%), indicating core functionality is fragile despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is distributed only via source (no PyPI), offers CLI and kernel‑module modes, and lacks a documented API, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is 1 day old, has 146 forks and 7 open issues, suggesting early‑stage development with limited stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark timings are listed (e.g., run_mkxnuimg.py 180 ms) but no comparative data to similar tools is available, so performance cannot be judged."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments largely praise the technical breakthrough and community excitement, but express concerns about security, incomplete feature set, and realistic usage scenarios."
+    }
+  },
+  "summary": "This open‑source project provides a custom XNU kernel port that lets Android devices boot iOS 16.5 firmware via a kernel module and CLI tools. It builds from source and runs locally, requiring low‑level hardware access rather than a cloud service. Developers and security researchers interested in cross‑platform mobile experimentation would use it when they need to test iOS behavior on Android hardware. It stands out with strong community interest (860 stars) and a novel kernel‑module approach, but the tool is still immature, with only 12 % of tests passing and minimal documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/oosexgang/hackios-xnu-kernel",
+  "tool_url": "https://github.com/oosexgang/hackios-xnu-kernel",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50196718",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 860,
+      "forks": 146,
+      "open_issues": 7,
+      "watchers": 860,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Android-x86",
+        "stars": 244,
+        "repo": "rexim/qemu-android-x86-runner"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 24,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Exciting innovation and community enthusiasm",
+        "Potential to run iOS apps on Android",
+        "Opens possibilities for CI and app testing"
+      ],
+      "negative_signals": [
+        "Security and bootloader concerns",
+        "Limited functionality (no app store, iCloud, etc.)",
+        "Uncertain adoption and support"
+      ],
+      "justification": "Comments largely praise the technical breakthrough and community excitement, but express concerns about security, incomplete feature set, and realistic usage scenarios.",
+      "comment_count": 30,
+      "hn_points": 466
+    }
+  }
+}
