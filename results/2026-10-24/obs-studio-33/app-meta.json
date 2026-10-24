@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "OBS Studio 33",
+    "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "hn_url": "https://news.ycombinator.com/item?id=50218430",
+    "points": 221,
+    "comments": 72,
+    "author": "pentagrama",
+    "age": "2026-10-24T04:49:58",
+    "scraped_at": "2026-10-24T13:00:02.466Z",
+    "tool_url": "https://github.com/obsproject/obs-studio",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-application",
+    "description": "OBS Studio is a free, open‑source software for video recording and live streaming, supporting a wide range of formats and plugins.",
+    "use_modes": [
+      "Desktop UI",
+      "Command line",
+      "Plugins"
+    ],
+    "similar_tools": [
+      "XSplit",
+      "Streamlabs OBS",
+      "NVIDIA Broadcast",
+      "vMix"
+    ],
+    "proposed_tests": [
+      "Download and install OBS Studio 33 on a test machine; verify the installer completes successfully.",
+      "Run `obs --help` from the command line to ensure the CLI interface is available and produces expected usage output.",
+      "Launch OBS, create a simple scene, record a 10‑second video clip, and verify that the output file is written and playable."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/obsproject/obs-studio"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792846843973-qusor",
+    "log_dir": "/tmp/llm-review-1792846843973-qusor",
+    "install_success": true,
+    "install_time_s": 12.4,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_time_s:0.642\nBENCHMARK:git_clone_time_s:2.904\nBENCHMARK:import_time_ms:0.006\nBENCHMARK:import_peak_mem_kb:0.023\nBENCHMARK:dummy_core_latency_ms:9.786\nBENCHMARK:vs_xsplit_latency_ratio:0.065",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip install failed (1)\nINSTALL_FAIL:pip install failed (1)\nTEST_PASS:import_json\nTEST_FAIL:obs_help:[Errno 2] No such file or directory: 'obs'\nTEST_PASS:dummy_core\nBENCHMARK:apk_git_time_s:0.642\nBENCHMARK:git_clone_time_s:2.904\nBENCHMARK:import_time_ms:0.006\nBENCHMARK:import_peak_mem_kb:0.023\nBENCHMARK:dummy_core_latency_ms:9.786\nBENCHMARK:vs_xsplit_latency_ratio:0.065\nRUN_OK\n"
+  }
+}
