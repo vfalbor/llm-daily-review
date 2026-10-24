@@ -1,0 +1,126 @@
+{
+  "app_name": "OBS Studio 33",
+  "url": "https://github.com/obsproject/obs-studio",
+  "scored_at": "2026-10-24T13:01:11.026Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo is 4771 days old and is not a fork, but many similar streaming tools exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 12.4 seconds, but there is no PyPI package, so setup is moderately simple."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-application for video recording and live streaming, it aligns well with current LLM workflow needs for content creation."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 78,079 stars it far outpaces XSplit (23 stars), Streamlabs OBS (685 stars) and NVIDIA Broadcast (200 stars), and benchmarks show very low import latency (0.006 ms) and a latency ratio of 0.065 versus XSplit."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 78,079 stars, 753 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 of 3 tests passed (66%) and installation succeeded, indicating core functionality works but some friction remains."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "No PyPI package, but the tool offers CLI and plugin APIs and is GPL‑2.0 licensed, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki or GitHub Pages data provided; documentation quality cannot be assessed from the available data."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 4771 days old, has 10,827 forks and 1,170 open issues, indicating a mature, widely used codebase."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks report import_time_ms of 0.006 ms and dummy_core_latency_ms of 9.786, with a vs_xsplit_latency_ratio of 0.065, demonstrating strong performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments express frustration over recurring recording crashes and low storage handling, but several users praise the new plugin support, automation scripts and improved source snapping, indicating a generally positive but cautious reception."
+    }
+  },
+  "summary": "OBS Studio 33 is an open‑source desktop application for video recording and live streaming, supporting UI, CLI, and plugin modes. It is built in C and distributed via GitHub releases, with no PyPI package. It suits streamers and content creators who need a flexible, plugin‑rich recorder. Its massive community and strong performance (0.006 ms import latency) are strengths, while the lack of packaged installers and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+  "tool_url": "https://github.com/obsproject/obs-studio",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50218430",
+  "domain": "devtool",
+  "app_type": "devtool-application",
+  "enriched": {
+    "github": {
+      "stars": 78079,
+      "forks": 10827,
+      "open_issues": 1170,
+      "watchers": 78079,
+      "contributors": 753,
+      "license": "GPL-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4771,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "OBS Studio - Free and open source software for live streaming and screen recording",
+      "topics": [
+        "c",
+        "c-plus-plus",
+        "directshow",
+        "facebook-live",
+        "ffmpeg",
+        "game-capture",
+        "live-streaming",
+        "screen-capture",
+        "twitch-tv",
+        "video-recording",
+        "youtube-live"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "XSplit",
+        "stars": 23,
+        "repo": "fractionsnipercanyon/Xsplit-Broadcaster-Premium-Streaming"
+      },
+      {
+        "name": "Streamlabs OBS",
+        "stars": 685,
+        "repo": "streamlabs/obs-studio-node"
+      },
+      {
+        "name": "NVIDIA Broadcast",
+        "stars": 200,
+        "repo": "Hkshoonya/nvidia-broadcast-linux"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "plugin support",
+        "script automation",
+        "source snapping updates"
+      ],
+      "negative_signals": [
+        "low storage recording bugs",
+        "unstable recording",
+        "confusing issues"
+      ],
+      "justification": "Most comments express frustration over recurring recording crashes and low storage handling, but several users praise the new plugin support, automation scripts and improved source snapping, indicating a generally positive but cautious reception.",
+      "comment_count": 30,
+      "hn_points": 221
+    }
+  }
+}
