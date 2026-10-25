@@ -1,0 +1,114 @@
+{
+  "app_name": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+  "url": "https://github.com/Zagitta/gpu-unlock",
+  "scored_at": "2026-10-25T14:04:40.336Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 7 days old and is not a fork, but it replicates functionality of existing tools like Nsight Compute, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 9.7 seconds and requires no API key; although no PyPI package exists, the CLI builds directly from source."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-cli measuring GPU instruction issue rates, it addresses performance debugging for LLM training on RTX 30-series GPUs, a current pain point."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 5,082 stars it outpaces similar tools (e.g., Nsight Compute with 13 stars) by thousands, showing strong community interest despite similar functionality."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 5,082 stars, 5 contributors, and was updated today (0 days since last commit), indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), falling below the 50% threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers a CLI and a Python API but lacks a PyPI package and has no declared license, making automated integration modestly difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 7 days old, has 553 forks and 94 open issues, suggesting early‑stage development without a stable release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows import time of 0.001 s and minimal memory use, but no comparative data against alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight significant performance boosts and an approachable unlock method, but also note concerns about higher temperatures, power limits, and that benefits are workload‑specific."
+    }
+  },
+  "summary": "GPU-unlock is a command‑line utility (with a Python API) that measures FP32 and BF16 instruction issue rates on Nvidia RTX 30‑series GPUs. It runs locally, built in C, and does not require any external API keys. Developers debugging LLM training performance on these GPUs would use it to pinpoint bottlenecks. It enjoys strong community interest (5,082 stars) but its limited test coverage (1/5 passed) and lack of packaging hinder immediate adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Zagitta/gpu-unlock",
+  "tool_url": "https://github.com/Zagitta/gpu-unlock",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50219700",
+  "domain": "hardware",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 5082,
+      "forks": 553,
+      "open_issues": 94,
+      "watchers": 5082,
+      "contributors": 5,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Nsight Compute",
+        "stars": 13,
+        "repo": "leimao/Nsight-Compute-Docker-Image"
+      },
+      {
+        "name": "cuda-memcheck",
+        "stars": 0,
+        "repo": "negativo17/cuda-memcheck"
+      },
+      {
+        "name": "GPUView",
+        "stars": 219,
+        "repo": "fgaim/gpuview"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Performance gains via unlock",
+        "Easy UEFI/CLI package",
+        "Active community support"
+      ],
+      "negative_signals": [
+        "Increased heat/power limits",
+        "Limited to specific workloads",
+        "Potential firmware risks"
+      ],
+      "justification": "The comments highlight significant performance boosts and an approachable unlock method, but also note concerns about higher temperatures, power limits, and that benefits are workload‑specific.",
+      "comment_count": 30,
+      "hn_points": 280
+    }
+  }
+}
