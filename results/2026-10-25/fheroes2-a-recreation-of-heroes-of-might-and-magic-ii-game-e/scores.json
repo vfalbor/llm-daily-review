@@ -1,0 +1,126 @@
+{
+  "app_name": "fheroes2",
+  "url": "https://github.com/ihhub/fheroes2",
+  "scored_at": "2026-10-25T14:01:19.414Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 2612 days old and is not a fork, but it reproduces an existing game engine rather than introducing a fundamentally new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 17.4 seconds and the build runs locally, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a recreation of a classic game engine, it addresses a niche interest rather than a broad current LLM or AI workflow need."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 3,553 stars it has fewer stars than OpenTTD (8,423) and OpenMW (6,679) but far more than OpenSpore, and the only benchmark provided (import_time 142 ms) lacks a comparative baseline."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 3,553 stars, 194 contributors, and the latest commit was just 1 day ago, indicating active community involvement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25%), showing limited functional coverage despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project provides a CLI and GUI, is licensed GPL‑2.0, but lacks a PyPI package or explicit API, making integration moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages information was found, and only the basic README is available, giving a neutral documentation rating."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 2612 days old, has 508 forks and 431 open issues, showing a mature codebase with ongoing maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "The benchmark reports an import time of 142 ms, but without a reference to other engines a neutral performance score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments express fondness for the original game, praise the engine’s quality, and highlight community interest, while a few raise minor concerns about performance or niche status."
+    }
+  },
+  "summary": "fheroes2 is an open‑source C++ recreation of the Heroes of Might and Magic II game engine, offering both CLI and GUI modes. It builds locally without external package managers and runs on typical consumer hardware. The project suits hobbyist game developers or fans wanting to modify or extend the classic engine. While it benefits from an active community of over 3 000 stars and recent commits, its limited test coverage and lack of comparative performance data are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/ihhub/fheroes2",
+  "tool_url": "https://github.com/ihhub/fheroes2",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50230384",
+  "domain": "gaming",
+  "app_type": "engine",
+  "enriched": {
+    "github": {
+      "stars": 3553,
+      "forks": 508,
+      "open_issues": 431,
+      "watchers": 3553,
+      "contributors": 194,
+      "license": "GPL-2.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 2612,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "fheroes2 is a recreation of Heroes of Might and Magic II game engine",
+      "topics": [
+        "cpp",
+        "game",
+        "game-development",
+        "game-engine",
+        "heroes-2",
+        "heroes-of-might-and-magic-2",
+        "heroes-of-might-and-magic-ii",
+        "homm-ii",
+        "homm2",
+        "strategy-game",
+        "turn-based-strategy"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OpenTTD",
+        "stars": 8423,
+        "repo": "OpenTTD/OpenTTD"
+      },
+      {
+        "name": "OpenMW",
+        "stars": 6679,
+        "repo": "OpenMW/openmw"
+      },
+      {
+        "name": "OpenSpore",
+        "stars": 3,
+        "repo": "dpteam/OpenSpore"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Nostalgic fan praise",
+        "Engine quality and features",
+        "Community engagement"
+      ],
+      "negative_signals": [
+        "Limited scope, niche interest",
+        "Concerns about bugs and performance",
+        "Comparison to other engines"
+      ],
+      "justification": "The majority of comments express fondness for the original game, praise the engine’s quality, and highlight community interest, while a few raise minor concerns about performance or niche status.",
+      "comment_count": 25,
+      "hn_points": 80
+    }
+  }
+}
