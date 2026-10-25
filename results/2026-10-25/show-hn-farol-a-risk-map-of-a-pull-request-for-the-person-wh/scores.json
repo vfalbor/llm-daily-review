@@ -1,0 +1,121 @@
+{
+  "app_name": "Farol",
+  "url": "https://github.com/winnin/farol",
+  "scored_at": "2026-10-25T14:02:14.136Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository is only 3 days old and is not a fork, but it duplicates functionality of existing tools like GitHub Insights (44 stars) and Pull Remind (61 stars), indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 13.4 seconds (well under 30 s) and the package is available on PyPI, requiring only Python ≥3.11."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI that visualizes PR risk, it addresses a common pain point in modern software development pipelines."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Farol has only 7 GitHub stars versus 44–178 stars for similar tools, showing little distinct advantage; no benchmark data is provided to demonstrate superiority."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 7 stars, a single contributor, and was updated today, indicating a very small but currently active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25 %), which is below the 50 % threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is distributed via PyPI and licensed MIT, but offers only a CLI interface with no API, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is 3 days old, has 0 forks and 5 open issues, suggesting an early‑stage, pre‑alpha project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results comparing Farol to alternatives are available; only generic timing metrics were recorded."
+    }
+  },
+  "summary": "Farol is a command‑line utility that creates a risk map for pull‑request approvals by analysing approval history and contributor activity. It runs locally via a Python package and requires an API key to access GitHub data. The tool is aimed at developers who want a quick visual assessment of PR risk during code review. While installation is fast, the project is brand‑new, has minimal community traction, and offers no performance advantage over existing, more mature tools.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/winnin/farol",
+  "tool_url": "https://github.com/winnin/farol",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50231349",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 7,
+      "forks": 0,
+      "open_issues": 5,
+      "watchers": 7,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Know the risk of merging a pull request, and where it lives. Free, open-source CLI and GitHub Action: after your AI review, farol shows the riskiest files, what they reach, diff coverage and contract breaks. TypeScript/React, Go, Python.",
+      "topics": [
+        "ai-code-review",
+        "cli",
+        "code-review",
+        "developer-tools",
+        "diff-coverage",
+        "fastapi",
+        "github-actions",
+        "golang",
+        "nextjs",
+        "pull-requests",
+        "python",
+        "react",
+        "risk-analysis",
+        "static-analysis",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GitHub Insights",
+        "stars": 44,
+        "repo": "kb22/GitHub-User-Insights-using-API"
+      },
+      {
+        "name": "Pull Remind",
+        "stars": 61,
+        "repo": "ekmartin/slack-pull-reminder"
+      },
+      {
+        "name": "PR Metrics",
+        "stars": 178,
+        "repo": "artprima/prometheus-metrics-bundle"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.3",
+      "summary": "Fast, plugin-first documentation generator. Rust core, Python-friendly.",
+      "requires_python": ">=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
