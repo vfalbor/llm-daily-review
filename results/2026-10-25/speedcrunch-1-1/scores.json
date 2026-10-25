@@ -1,0 +1,114 @@
+{
+  "app_name": "SpeedCrunch 1.1",
+  "url": "https://www.speedcrunch.org/",
+  "scored_at": "2026-10-25T14:03:38.697Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository is 5,376 days old and is not a fork, but its 291 stars are far lower than similar tools like Kalk (1,929 stars), indicating it is a near‑duplicate rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.5 seconds, showing a straightforward setup, though the tool is not available on PyPI."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a cross‑platform scientific calculator (utility tool), it does not directly address current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 291 GitHub stars it trails Kalk (1,929 stars) and wxMaxima (554 stars); the benchmark shows an import time of 115 ms but no comparative data, so its advantage is minimal."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 291 stars, 38 contributors, and was updated 20 days ago, indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0%) and install succeeded, suggesting core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a desktop GUI only, has no PyPI package, no documented API modes, and lacks a license, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or explicit documentation metrics were found; data is insufficient, so a neutral score is applied."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 5,376 days old, has 38 forks and zero open issues, indicating a stable, mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows import time of 115 ms and memory usage of 13,844 KB, but there is no comparative performance data to assess advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud SpeedCrunch’s reliability, long history, and recent bug fixes, while a minority voice concerns over UI changes, performance, and icon design."
+    }
+  },
+  "summary": "SpeedCrunch 1.1 is a cross‑platform scientific calculator with a Qt desktop UI and extensive unit support. It runs locally as a GUI application and does not expose an API or package manager installation. It is suited for users needing a reliable offline calculator on Windows, macOS, or Linux. The tool installs quickly and is mature, but it offers limited differentiation from better‑starred alternatives and lacks integration hooks, while documentation and performance claims are sparse.",
+  "recommendation": "niche",
+  "app_url": "https://www.speedcrunch.org/",
+  "tool_url": "https://github.com/SpeedCrunch/speedcrunch",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50224210",
+  "domain": "other",
+  "app_type": "utility",
+  "enriched": {
+    "github": {
+      "stars": 291,
+      "forks": 38,
+      "open_issues": 0,
+      "watchers": 291,
+      "contributors": 38,
+      "license": "none",
+      "language": null,
+      "is_fork": false,
+      "days_since_update": 20,
+      "days_since_created": 5376,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A fast, high-precision and powerful cross-platform desktop calculator.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Kalk",
+        "stars": 1929,
+        "repo": "PaddiM8/kalker"
+      },
+      {
+        "name": "Gnumeric",
+        "stars": 104,
+        "repo": "GNOME/gnumeric"
+      },
+      {
+        "name": "wxMaxima",
+        "stars": 554,
+        "repo": "wxMaxima-developers/wxmaxima"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Long-standing utility with accurate calculations",
+        "Recent bug fixes improving order of operations",
+        "Active community support and updates"
+      ],
+      "negative_signals": [
+        "UI changes perceived as unnecessary",
+        "Input lag and performance concerns",
+        "Some users unhappy with new icon design"
+      ],
+      "justification": "The majority of comments applaud SpeedCrunch’s reliability, long history, and recent bug fixes, while a minority voice concerns over UI changes, performance, and icon design.",
+      "comment_count": 30,
+      "hn_points": 179
+    }
+  }
+}
