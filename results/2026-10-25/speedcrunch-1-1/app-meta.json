@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "SpeedCrunch 1.1",
+    "url": "https://www.speedcrunch.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=50224210",
+    "points": 179,
+    "comments": 36,
+    "author": "LordNibbler",
+    "age": "2026-10-24T19:19:43",
+    "scraped_at": "2026-10-25T14:00:02.448Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/SpeedCrunch/speedcrunch",
+    "source_type": "tool",
+    "confidence": 0.97,
+    "domain": "other",
+    "app_type": "utility",
+    "description": "Cross‑platform scientific calculator with a Qt UI, keyboard‑first design, and extensive unit support.",
+    "use_modes": [
+      "Desktop GUI"
+    ],
+    "similar_tools": [
+      "Kalk",
+      "Gnumeric",
+      "wxMaxima"
+    ],
+    "proposed_tests": [
+      "Download the latest release for Linux, macOS, and Windows.",
+      "Verify that the executable launches and the main window appears.",
+      "Execute a set of predefined mathematical expressions and compare results against expected values.",
+      "Measure startup time and memory usage for each platform.",
+      "Confirm that the keyboard shortcuts for basic operations (add, subtract, multiply, divide) work as documented."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/SpeedCrunch/speedcrunch"
+  },
+  "test_results": {
+    "run_id": "llm-review-1792936935412-fjxoe",
+    "log_dir": "/tmp/llm-review-1792936935412-fjxoe",
+    "install_success": true,
+    "install_time_s": 9.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:memory_rss_kb:13844\nBENCHMARK:vs_kalk_import_time_ms:115.37",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.22.0-r0)\n( 9/13) Installing curl (8.22.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip speedcrunch error: ERROR: Could not find a version that satisfies the requirement speedcrunch (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for speedcrunch\nINSTALL_OK\nINSTALL_FAIL:pip -e error: Usage:   \n  /usr/local/bin/python -m pip install [options] <requirement specifier> [package-index-options] ...\n  /usr/local/bin/python -m pip install [options] -r <requirements file> [package-index-options] ...\n  /usr/local/bin/python -m pip install [options] [-e] <vcs project url> ...\n  /usr/local/bin/python -m pip install [options] [-e] <local project path> ...\n  /usr/local/bin/python -m pip install [options] <archive url/path> ...\n\n-e option requires 1 argument\nTEST_SKIP:install_fallback:cannot install from source\nTEST_FAIL:import_speedcrunch:No module named 'speedcrunch'\nTEST_FAIL:import_speedcrunch.core:No module named 'speedcrunch'\nBENCHMARK:memory_rss_kb:13844\nBENCHMARK:vs_kalk_import_time_ms:115.37\nRUN_OK\n"
+  }
+}
