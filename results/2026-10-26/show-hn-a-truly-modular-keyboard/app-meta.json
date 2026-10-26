@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Show HN: A Truly Modular Keyboard",
+    "url": "https://github.com/notaroomba/keybytes",
+    "hn_url": "https://news.ycombinator.com/item?id=50228115",
+    "points": 211,
+    "comments": 69,
+    "author": "NotARoomba",
+    "age": "2026-10-25T03:47:56",
+    "scraped_at": "2026-10-26T14:00:02.768Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/notaroomba/keybytes",
+    "confidence": 0.94,
+    "domain": "hardware",
+    "app_type": "hardware-robotics",
+    "description": "Open‑source modular keyboard firmware and hardware schematics, enabling customizable key layouts and programmable macros.",
+    "use_modes": [
+      "Firmware flashing",
+      "Keyboard configuration via JSON",
+      "USB HID"
+    ],
+    "similar_tools": [
+      "qmk_firmware",
+      "tmk_keyboard",
+      "ergodox-ez"
+    ],
+    "proposed_tests": [
+      "Clone the repository and compile the firmware using make",
+      "Flash the compiled firmware to a compatible keyboard and verify key mapping",
+      "Load a custom JSON configuration file and confirm macro execution",
+      "Measure boot time from power-on to ready state",
+      "Compare key repeat latency against a standard QMK build"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/notaroomba/keybytes"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793023299962-bfprj",
+    "log_dir": "/tmp/llm-review-1793023299962-bfprj",
+    "install_success": true,
+    "install_time_s": 23.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_install_git_s:0.451\nBENCHMARK:apk_install_make_s:0.600\nBENCHMARK:apk_install_gcc_s:1.769\nBENCHMARK:apk_install_musl-dev_s:0.539",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_git_s:0.451\nINSTALL_OK\nBENCHMARK:apk_install_make_s:0.600\nINSTALL_OK\nBENCHMARK:apk_install_gcc_s:1.769\nINSTALL_OK\nBENCHMARK:apk_install_musl-dev_s:0.539\nTEST_FAIL:clone_repo:Cloning into '/tmp/keybytes_repo'...\nerror: unable to write file blender/keybit.pcb3d\nerror: unable to write file blender/keyword_bottom.pcb3d\nerror: unable to write file blender/keyword_top.pcb3d\nerror: unable to write file blender/render1.png\nerror: unable to write file blender/render2.png\nerror: unable to write file blender/render3.png\nerror: unable to write file blender/render4.png\nerror: unable to write file blender/render_final.png\nerror: unable to write file cad/Keybit_Case.step\nerror: unable to write file cad/Keybit_Case_Big.step\nerror: unable to write file cad/Keycap.step\nerror: unable to write file cad/Keyword_Case.step\nerror: unable to write file cad/Keyword_Case_Big_Inner.step\nerror: unable to write file cad/Keyword_Clamp.step\nerror: unable to write file cad/Keyword_Left.step\nerror: unable to write file cad/Keyword_Right.step\nerror: unable to write file cad/convert_step_to_glb.py\nerror: unable to write file cad/tests/J1_magnets_only.step\nerror: unable to write file cad/tests/J2_bowtie_case.step\nerror: unable to write file cad/tests/J2_bowtie_key.step\nerror: unable to write file cad/tests/J3_snap_hooks.step\nerror: unable to write file cad/tests/J4_sliding_dovetail.step\nerror: unable to write file cad/tests/J5_slip_pegs.step\nerror: unable to write file cad/tests/J6_crush_rib_pegs.step\nerror: unable to write file cad/tests/J7.1_keybit_protruding.step\nerror: unable to write file cad/tests/J7.1_keyword_protruding.step\nerror: unable to write file cad/tests/J7.1b_keyword_2x4x1.step\nerror: unable to write file cad/tests/J7.2_keybit_pressfit.step\nerror: unable to write file cad/tests/J7_keybit_protruding.step\nerror: unable to write file cad/tests/JIG_keybit_J7_inner.step\nerror: unable to write file cad/tests/JIG_keybit_J7_outer_gauge.step\nerror: unable to write file cad/tests/MAGNET_pressfit_coupon.step\nerror: unable to write file cad/tests/README.md\nerror: unable to write file cad/tests/superseded/J7.1_keybit_protruding_standoffs.step\nerror: unable to write file cad/tests/superseded/J7.1_keyword_protruding_standoffs.step\nerror: unable to write file cad/tests/superseded/J7.1b_keyword_2x4x1_standoffs.step\nerror: unable to write file cad/tests/superseded/J7_keyword_protruding.step\nerror: unable to write file cad/tests/superseded/J7b_keyword_protruding_1mm.step\nerror: unable to write file cad/tests/superseded/J7c_keyword_protruding_2mm.step\nerror: unable to write file cad/tests/superseded/JIG_keybit_J7_inner_v1.step\nerror: unable to write file cad/tests/superseded/JIG_keybit_J7_outer_gauge_v1.step\nerror: unable to write file firmware/.mxproject\nerror: unable to write file firmware/.stm32env\nerror: unable to write file firmware/.vscode/c_cpp_properties.json\nerror: unable to write file firmware/.vscode/launch.json\nerror: unable to write file firmware/.vscode/settings.json\nerror: unable to write file firmware/.vscode/tasks.json\nerror: unable to write file firmware/Core/Inc/main.h\nerror: unable to write file firmware/Core/Inc/stm32wbxx_hal_conf.h\nerror: unable to write file firmware/Core/Inc/stm32wbxx_it.h\nerror: unable to write file firmware/Core/Src/main.c\nerror: unable to write file firmware/Core/Src/stm32wbxx_hal_msp.c\nerror: unable to write file firmwa"
+  }
+}
