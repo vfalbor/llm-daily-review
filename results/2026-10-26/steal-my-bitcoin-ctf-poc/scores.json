@@ -1,0 +1,114 @@
+{
+  "app_name": "Steal My Bitcoin CTF PoC",
+  "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+  "scored_at": "2026-10-26T14:03:46.547Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo was created today (0 days since creation) and is not a fork, but similar CTF tools exist, indicating an incremental contribution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 9.2 seconds, well under the 30 second threshold, and the tool runs locally without external API keys."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a sec‑crypto CTF proof‑of‑concept, it addresses a niche security exercise rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 674 GitHub stars it outperforms bitcoin‑ctf (2 stars) and CTF‑POC (17 stars) but trails the exploit‑framework (1,046 stars), offering modest advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 674 stars, 1 contributor, and was updated today (0 days since last commit), showing active interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0 %) and only basic run succeeded, indicating core functionality is missing."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "There is no PyPI package, only a CLI mode, and the repository lacks a license, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata does not provide wiki or GitHub Pages information; no explicit documentation quality data was found."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository was created today (0 days), has 94 forks but only 1 contributor and no released version, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report minimal_operation_ms of 0.17 ms and other internal timings, but no comparative performance claims against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments mix neutral to mildly negative remarks about the challenge’s unrealistic configuration and questionable exploitability, with some appreciation for the CTF fun and educational value."
+    }
+  },
+  "summary": "Steal My Bitcoin CTF PoC is a CLI tool that demonstrates a Bitcoin‑stealing script for capture‑the‑flag exercises. It is a fresh Python project that installs quickly (9.2 s) and runs locally without external services. The tool is suited for security researchers or CTF participants looking for a hands‑on exploit demo, but its limited test coverage and lack of integration pathways restrict broader adoption. While it has moderate community interest (674 stars) and modest differentiation from similar low‑star tools, its novelty is incremental and performance claims are unverified.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+  "tool_url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50237379",
+  "domain": "security",
+  "app_type": "sec-crypto",
+  "enriched": {
+    "github": {
+      "stars": 674,
+      "forks": 94,
+      "open_issues": 1,
+      "watchers": 674,
+      "contributors": 1,
+      "license": "none",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A public release of the Steal My Bitcoin challenge",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "bitcoin-ctf",
+        "stars": 2,
+        "repo": "crema-labs/bitcoin-ctf"
+      },
+      {
+        "name": "CTF-POC",
+        "stars": 17,
+        "repo": "wh0amitz/CTFCON2023-POC"
+      },
+      {
+        "name": "exploit-framework",
+        "stars": 1046,
+        "repo": "rastating/wordpress-exploit-framework"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "CTF fun",
+        "learning opportunity",
+        "community engagement"
+      ],
+      "negative_signals": [
+        "unrealistic setup",
+        "limited real-world applicability",
+        "questionable exploit difficulty"
+      ],
+      "justification": "The comments mix neutral to mildly negative remarks about the challenge’s unrealistic configuration and questionable exploitability, with some appreciation for the CTF fun and educational value.",
+      "comment_count": 30,
+      "hn_points": 142
+    }
+  }
+}
