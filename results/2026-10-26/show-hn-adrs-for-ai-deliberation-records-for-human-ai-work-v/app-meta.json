@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+    "url": "https://adrs.systems/",
+    "hn_url": "https://news.ycombinator.com/item?id=50227041",
+    "points": 59,
+    "comments": 32,
+    "author": "lumbroso",
+    "age": "2026-10-25T00:43:47",
+    "scraped_at": "2026-10-26T14:00:02.776Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/adrs-system/adrs",
+    "repo_url": "https://github.com/adrs-system/adrs",
+    "confidence": 0.86,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Command‑line tool for recording, versioning, and querying deliberation records between humans and AI.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "adroit",
+      "dvc",
+      "git-commits"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `adrs init` to create a new project",
+      "Create a dummy deliberation record with `adrs record` and verify it is stored",
+      "Query the records with `adrs list` and measure output consistency",
+      "Run a benchmark of record insertion at 1000 records/sec"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1793023428320-6l2tc",
+    "log_dir": "/tmp/llm-review-1793023428320-6l2tc",
+    "install_success": true,
+    "install_time_s": 35.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:vs_dvc_init_ratio:fail:[Errno 2] No such file or directory: 'dvc'\nBENCHMARK:memory_peak_kb:3899.2",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK:nodejs\nINSTALL_OK:npm\nINSTALL_OK:git\nINSTALL_OK:cargo\nINSTALL_OK:rust\nINSTALL_OK:npm_adrs\nTEST_FAIL:init:Repo not available\nTEST_FAIL:record:project not initialized\nTEST_FAIL:list:[Errno 2] No such file or directory: '/tmp/adrs_test/myproj'\nTEST_FAIL:benchmark:[Errno 2] No such file or directory: '/tmp/adrs_test/myproj'\nBENCHMARK:vs_dvc_init_ratio:fail:[Errno 2] No such file or directory: 'dvc'\nBENCHMARK:memory_peak_kb:3899.2\nRUN_OK\n"
+  }
+}
