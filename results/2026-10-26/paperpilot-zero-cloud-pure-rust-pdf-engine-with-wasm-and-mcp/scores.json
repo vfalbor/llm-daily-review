@@ -1,0 +1,121 @@
+{
+  "app_name": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+  "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+  "scored_at": "2026-10-26T14:01:38.274Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 28 days ago and is not a fork, but similar tools (PDFium, MuPDF, Poppler) already exist with far more stars, indicating an incremental Rust/WASM implementation."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 23.9 seconds (<30s) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool that renders PDFs to WASM, it fits current LLM workflows that need client‑side PDF processing."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 450 GitHub stars it trails PDFium (1,503), MuPDF (3,028) and Poppler (1,599), but offers a unique pure‑Rust/WASM stack and a minimal client‑server protocol."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 450 stars, 5 contributors, and was updated today (0 days since last commit), showing an active small community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 3 tests passed (33%), though installation succeeded; core functionality is partially verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package exists and the project provides CLI, Library API, and WASM use modes, enabling straightforward integration despite an unclear license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 28 days old, has 10 forks and 1 open issue, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were reported in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the privacy and WASM capabilities, and note the rich feature set, while a few point out license concerns and question the necessity of AI, leading to an overall positive but slightly critical tone."
+    }
+  },
+  "summary": "PaperPilot is a pure‑Rust PDF rendering engine that compiles to WebAssembly and offers a minimal client‑server protocol. It runs locally or in the browser via WASM and can be used through a CLI, library API, or WASM module. Developers who need privacy‑preserving, zero‑cloud PDF processing in Rust or web environments will find it useful. Its standout strength is the Rust/WASM implementation, while its main caveat is limited test coverage and early‑stage maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+  "tool_url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50238739",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 450,
+      "forks": 10,
+      "open_issues": 1,
+      "watchers": 450,
+      "contributors": 5,
+      "license": "NOASSERTION",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 28,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Your local AI copilot for documents",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PDFium",
+        "stars": 1503,
+        "repo": "bblanchon/pdfium-binaries"
+      },
+      {
+        "name": "MuPDF",
+        "stars": 3028,
+        "repo": "ArtifexSoftware/mupdf"
+      },
+      {
+        "name": "Poppler",
+        "stars": 1599,
+        "repo": "oschwartz10612/poppler-windows"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.6.0",
+      "summary": "A CLI research agent for scholarly paper search, evidence synthesis, code discovery, PDF collection, bilingual reports, and Obsidian Wiki.",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "privacy-focused, WASM in-browser use",
+        "useful CLI and scripting",
+        "rich feature set"
+      ],
+      "negative_signals": [
+        "license/derivation concerns",
+        "AI justification questioned",
+        "some confusion over GUI claims"
+      ],
+      "justification": "Comments generally praise the privacy and WASM capabilities, and note the rich feature set, while a few point out license concerns and question the necessity of AI, leading to an overall positive but slightly critical tone.",
+      "comment_count": 30,
+      "hn_points": 189
+    }
+  }
+}
