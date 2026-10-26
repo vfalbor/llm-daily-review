@@ -1,0 +1,114 @@
+{
+  "app_name": "Show HN: A Truly Modular Keyboard",
+  "url": "https://github.com/notaroomba/keybytes",
+  "scored_at": "2026-10-26T14:02:36.166Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 310 days old, is not a fork, and has far fewer stars (216) than similar firmware projects, indicating an incremental rather than breakthrough contribution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 23.7 seconds (<30 s) and required no API key, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑robotics keyboard firmware, it serves the maker community but does not directly address current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 216 stars it trails qmk_firmware (20,783) and tmk_keyboard (4,139) yet offers a unique modular design not present in those projects."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 216 stars, a single contributor, and was updated 1 day ago, showing modest but active community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed despite a successful install, indicating core functionality is not yet reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, but the firmware can be flashed and configured via JSON and USB HID, providing a basic integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were provided, so documentation quality cannot be assessed beyond the basic repository README."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 310 days old with 4 forks and only 1 open issue, suggesting it is past the initial prototype stage but not yet fully mature."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results specific to the firmware's runtime performance were provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments largely praise the project's modularity, innovation, and detailed schematics, with several users expressing excitement and support. Minor negative points arise around pricing, demo lighting problems, and questions about long‑term rigidity, but these do not dominate the discussion."
+    }
+  },
+  "summary": "This project provides open‑source firmware and hardware schematics for a modular keyboard that can be flashed and configured via JSON and USB HID. It builds on existing keyboard firmware ecosystems but distinguishes itself with a plug‑in hardware approach. Makers seeking customizable key layouts will find it useful, especially given its recent updates and active (though small) community. Its main strength is the modular design, while limited documentation and incomplete test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/notaroomba/keybytes",
+  "tool_url": "https://github.com/notaroomba/keybytes",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50228115",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": {
+      "stars": 216,
+      "forks": 4,
+      "open_issues": 1,
+      "watchers": 216,
+      "contributors": 1,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 310,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A truly modular keyboard",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "qmk_firmware",
+        "stars": 20783,
+        "repo": "qmk/qmk_firmware"
+      },
+      {
+        "name": "tmk_keyboard",
+        "stars": 4139,
+        "repo": "tmk/tmk_keyboard"
+      },
+      {
+        "name": "ergodox-ez",
+        "stars": 49,
+        "repo": "rothgar/ergodox-ez-tent-kit"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative modular design",
+        "Clear enthusiasm from community",
+        "Detailed technical transparency"
+      ],
+      "negative_signals": [
+        "Cost concerns for mass production",
+        "Compatibility and lighting issues in demo",
+        "Questions about structural rigidity"
+      ],
+      "justification": "The comments largely praise the project's modularity, innovation, and detailed schematics, with several users expressing excitement and support. Minor negative points arise around pricing, demo lighting problems, and questions about long‑term rigidity, but these do not dominate the discussion.",
+      "comment_count": 30,
+      "hn_points": 211
+    }
+  }
+}
