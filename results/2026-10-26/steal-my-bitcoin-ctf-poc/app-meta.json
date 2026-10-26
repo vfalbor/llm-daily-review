@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Steal My Bitcoin CTF PoC",
+    "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+    "hn_url": "https://news.ycombinator.com/item?id=50237379",
+    "points": 142,
+    "comments": 39,
+    "author": "davikr",
+    "age": "2026-10-26T00:15:17",
+    "scraped_at": "2026-10-26T14:00:02.771Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+    "repo_url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+    "confidence": 0.88,
+    "domain": "security",
+    "app_type": "sec-crypto",
+    "description": "Proof‑of‑concept code demonstrating how to steal Bitcoin via a malicious script.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "bitcoin-ctf",
+      "CTF-POC",
+      "exploit-framework"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the PoC against a local Bitcoin node",
+      "Verify that a test wallet address is drained",
+      "Check that the script logs the transaction hash",
+      "Run static analysis to identify vulnerable code paths"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1793023357616-gp5vn",
+    "log_dir": "/tmp/llm-review-1793023357616-gp5vn",
+    "install_success": true,
+    "install_time_s": 9.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.480\nBENCHMARK:pip_StealMyBitcoin-PoC_install_s:0.896\nBENCHMARK:git_clone_s:0.759\nBENCHMARK:pip_-e ._install_s:0.563\nBENCHMARK:minimal_operation_ms:0.17\nBENCHMARK:static_analysis_ms:1.32\nBENCHMARK:memory_current_kb:0.00\nBENCHMARK:memory_peak_kb:0.00\nBENCHMARK:vs_bitcoin-ctf_import_time_ms_ratio:0.667",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement StealMyBitcoin-PoC (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for StealMyBitcoin-PoC\nCloning into '/tmp/StealMyBitcoin-PoC'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR:  . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_git_install_s:0.480\nINSTALL_OK\nBENCHMARK:pip_StealMyBitcoin-PoC_install_s:0.896\nINSTALL_FAIL:pip exit 1\nBENCHMARK:git_clone_s:0.759\nBENCHMARK:pip_-e ._install_s:0.563\nINSTALL_FAIL:pip exit 1\nTEST_FAIL:import_StealMyBitcoin:No module named 'StealMyBitcoin'\nBENCHMARK:minimal_operation_ms:0.17\nTEST_FAIL:minimal_operation:No module named 'StealMyBitcoin'\nBENCHMARK:static_analysis_ms:1.32\nTEST_SKIP:static_analysis:no suspicious patterns found\nBENCHMARK:memory_current_kb:0.00\nBENCHMARK:memory_peak_kb:0.00\nBENCHMARK:vs_bitcoin-ctf_import_time_ms_ratio:0.667\nRUN_OK\n"
+  }
+}
