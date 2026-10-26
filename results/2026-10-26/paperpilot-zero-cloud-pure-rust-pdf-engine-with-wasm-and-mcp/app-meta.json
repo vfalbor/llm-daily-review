@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+    "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "hn_url": "https://news.ycombinator.com/item?id=50238739",
+    "points": 189,
+    "comments": 70,
+    "author": "vardhan1237",
+    "age": "2026-10-26T03:29:05",
+    "scraped_at": "2026-10-26T14:00:02.765Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+    "source_type": "tool",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool",
+    "description": "A pure-Rust PDF rendering engine that compiles to WebAssembly and supports a minimal client‑server protocol (MCP).",
+    "use_modes": [
+      "CLI",
+      "Library API",
+      "WASM"
+    ],
+    "similar_tools": [
+      "PDFium",
+      "MuPDF",
+      "Poppler"
+    ],
+    "proposed_tests": [
+      "git clone repo and run `cargo build --release`",
+      "Execute `paperpilot --help` and verify exit code 0",
+      "Run the provided WASM demo in a headless browser and check rendering output",
+      "Benchmark rendering a 100‑page PDF and compare FPS against PDFium"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/KrushnaVardhanReddy/PaperPilot"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793023257298-qlvl3",
+    "log_dir": "/tmp/llm-review-1793023257298-qlvl3",
+    "install_success": true,
+    "install_time_s": 23.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:import_paperpilot:No module named 'paperpilot'\nTEST_PASS:help\nTEST_FAIL:render:exit code or error\nRUN_OK\n"
+  }
+}
