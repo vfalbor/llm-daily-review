@@ -1,0 +1,125 @@
+{
+  "app_name": "Nietzschian Debugger",
+  "url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+  "scored_at": "2026-10-27T14:02:27.652Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo was created 244 days ago, is not a fork, and offers a Rust REPL similar to existing debuggers like lldb (764 stars) and gdb (12,274 stars), indicating only a modest incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 9.6 seconds, showing a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-debug for Rust, it addresses a common need but competes with well‑established tools, making it moderately relevant to current LLM‑assisted development workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 344 stars it trails lldb (764 stars), gdb (12,274 stars) and Delve (24,950 stars) and provides no benchmark advantage, offering only a slight feature variation."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 344 stars, a single contributor, and was updated 15 days ago, placing it in the 100–1k star range with limited but recent activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed and the basic run failed, indicating core functionality is not reliably working."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is distributed only via source (no PyPI package) and provides CLI, REPL, and IDE plugin modes; manual integration is possible but no dedicated API is offered."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 244 days old, has 6 forks and zero open issues, suggesting a stable but still early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was reported (benchmark line shows nzd_help_ms:0), so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The comments largely mock the project’s anti‑AI claim and point out its contradictory use of AI, with some users finding the joke amusing, but overall skepticism dominates."
+    }
+  },
+  "summary": "Nietzschian Debugger is a Rust debugging tool that offers an interactive REPL and source‑level stepping via CLI, REPL, and IDE plugin modes. It builds on familiar debugger concepts and runs locally without requiring an API key. The tool is suited for Rust developers who want an alternative to lldb or gdb, but its limited test success (0/4) and lack of performance benchmarks indicate it is still experimental. Its main strength is recent activity and a simple install, while the primary drawback is the absence of reliable functionality and sparse community support.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+  "tool_url": "https://github.com/DilawarShafiq/nietzschian-debugger",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50247493",
+  "domain": "devtool",
+  "app_type": "devtool-debug",
+  "enriched": {
+    "github": {
+      "stars": 344,
+      "forks": 6,
+      "open_issues": 0,
+      "watchers": 344,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 15,
+      "days_since_created": 244,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The anti-AI debugger. What doesn't kill your code makes it stronger. Confrontational questioning for developers.",
+      "topics": [
+        "ai",
+        "anti-ai",
+        "cli",
+        "critical-thinking",
+        "debugging",
+        "developer-tools",
+        "education",
+        "learning",
+        "nietzsche",
+        "philosophy",
+        "python"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "lldb",
+        "stars": 764,
+        "repo": "ryanolsonk/LLDB-QuickLook"
+      },
+      {
+        "name": "gdb",
+        "stars": 12274,
+        "repo": "cyrus-and/gdb-dashboard"
+      },
+      {
+        "name": "Delve",
+        "stars": 24950,
+        "repo": "go-delve/delve"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "humorous concept",
+        "provokes philosophical discussion"
+      ],
+      "negative_signals": [
+        "confusing AI usage",
+        "mocked for being anti-AI",
+        "lack of clarity on purpose"
+      ],
+      "justification": "The comments largely mock the project’s anti‑AI claim and point out its contradictory use of AI, with some users finding the joke amusing, but overall skepticism dominates.",
+      "comment_count": 30,
+      "hn_points": 200
+    }
+  }
+}
