@@ -1,0 +1,116 @@
+{
+  "app_name": "winevdm",
+  "url": "https://github.com/otya128/winevdm",
+  "scored_at": "2026-10-27T14:01:24.185Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 4,053 days old and is not a fork, but it replicates existing emulators like wine, dosbox, and v86, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 12.6 seconds and requires no API key, showing a simple setup despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As an infra-container that emulates 16‑bit Windows, it addresses a niche legacy need rather than a broad current LLM workflow."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 3,568 stars it trails wine (5,951 stars) and dosbox (3,789 stars) and is far behind v86 (23,633 stars), offering no clear performance advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 3,568 stars, 120 contributors, and was updated 3 days ago, indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of one test passed (0/1) and while installation succeeded, the lack of functional test coverage reduces usability."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool provides CLI and GUI modes but no package manager distribution or REST API, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repo is 4,053 days old with 208 forks and 352 open issues, suggesting a mature but still actively evolving project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments largely praise the ability to run classic 16‑bit Windows on modern systems for nostalgic or legacy tasks, but also point out performance hits, potential security risks with old file formats, and the fact that many use‑cases are niche or already obsolete."
+    }
+  },
+  "summary": "winevdm is an open‑source emulator that runs classic 16‑bit Windows applications on modern 64‑bit Windows systems. It builds on the existing Wine codebase and offers both CLI and GUI interfaces compiled from C source. The tool is suited for developers or hobbyists needing legacy software compatibility, especially for nostalgic or legacy support scenarios. Its main strength is a modestly active community and recent updates, while its lack of performance benchmarks and limited integration options are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/otya128/winevdm",
+  "tool_url": "https://github.com/otya128/winevdm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50253529",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 3568,
+      "forks": 208,
+      "open_issues": 352,
+      "watchers": 3568,
+      "contributors": 120,
+      "license": "GPL-2.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 4053,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "topics": [
+        "win16"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "wine",
+        "stars": 5951,
+        "repo": "wszqkzqk/deepin-wine-ubuntu"
+      },
+      {
+        "name": "dosbox",
+        "stars": 3789,
+        "repo": "joncampbell123/dosbox-x"
+      },
+      {
+        "name": "v86",
+        "stars": 23633,
+        "repo": "copy/v86"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "nostalgic excitement",
+        "functional legacy support",
+        "ease of use"
+      ],
+      "negative_signals": [
+        "performance overhead",
+        "security concerns",
+        "limited practical use"
+      ],
+      "justification": "Comments largely praise the ability to run classic 16‑bit Windows on modern systems for nostalgic or legacy tasks, but also point out performance hits, potential security risks with old file formats, and the fact that many use‑cases are niche or already obsolete.",
+      "comment_count": 28,
+      "hn_points": 109
+    }
+  }
+}
