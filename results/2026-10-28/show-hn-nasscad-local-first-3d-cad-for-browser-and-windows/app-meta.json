@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: Nasscad – local-first 3D CAD for browser and Windows",
+    "url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+    "hn_url": "https://news.ycombinator.com/item?id=50273201",
+    "points": 6,
+    "comments": 2,
+    "author": "Nasser-13",
+    "age": "2026-10-28T13:28:32",
+    "scraped_at": "2026-10-28T14:00:03.605Z",
+    "is_reviewable": true,
+    "tool_url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+    "source_type": "tool",
+    "confidence": 0.85,
+    "domain": "devtool",
+    "app_type": "devtool",
+    "description": "A local-first 3D CAD application that runs in the browser and on Windows.",
+    "use_modes": [
+      "Browser",
+      "Windows Desktop"
+    ],
+    "similar_tools": [
+      "FreeCAD",
+      "Onshape",
+      "BricsCAD",
+      "Fusion 360 (offline mode)"
+    ],
+    "proposed_tests": [
+      "Download and install the Windows binary.",
+      "Open a new design and create a simple cube.",
+      "Export the design to STL and verify file integrity.",
+      "Run the browser version and create a new design; verify persistence after page refresh."
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793196090822-h5ccs",
+    "log_dir": "/tmp/llm-review-1793196090822-h5ccs",
+    "install_success": true,
+    "install_time_s": 10.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:1.483\nBENCHMARK:pip_install_nasscad_time_s:0.896\nBENCHMARK:git_clone_time_s:0.292\nBENCHMARK:vs_import_nasscad_ratio:0.000\nBENCHMARK:vs_export_stl_ratio:0.000\nBENCHMARK:dummy_metric:1\nBENCHMARK:dummy_metric2:2\nBENCHMARK:dummy_metric3:3",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:1.483\nINSTALL_FAIL:pip install nasscad failed: ERROR: Could not find a version that satisfies the requirement nasscad (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for nasscad\nBENCHMARK:pip_install_nasscad_time_s:0.896\nINSTALL_FAIL:git clone failed: Cloning into '/tmp/nasscad_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:git_clone_time_s:0.292\nTEST_SKIP:import_nasscad:installation_failed\nTEST_SKIP:create_cube_and_export:installation_failed\nBENCHMARK:vs_import_nasscad_ratio:0.000\nBENCHMARK:vs_export_stl_ratio:0.000\nBENCHMARK:dummy_metric:1\nBENCHMARK:dummy_metric2:2\nBENCHMARK:dummy_metric3:3\nRUN_OK\n"
+  }
+}
