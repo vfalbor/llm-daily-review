@@ -1,0 +1,99 @@
+{
+  "app_name": "Survival LLM",
+  "url": "https://www.brangus.io/survival-llm",
+  "scored_at": "2026-10-28T14:03:36.031Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "No creation date or fork flag is available and the tool resembles existing projects like LocalGPT, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 8.5 seconds, well under the 30 second threshold, and no API key is required."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑assistant that runs fully offline, it aligns with the current push for self‑hosted LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Benchmark ratios show import time 0.85× and query latency 0.78× that of LocalGPT, giving a measurable speed edge while the comparable tools have far higher star counts (e.g., LocalGPT 22,196)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 420 with 30 comments, which places it in the 400‑500 range for strong community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 4 tests passed (0 %), indicating core functionality fails to meet the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and the only interfaces are a CLI and a local web UI, requiring manual glue code for pipeline integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub metadata (wiki, pages, topics) is missing and no explicit documentation quality signals were found."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points of 420 and a stable domain suggest a moderately mature project despite the absence of repository data."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks report import time 0.85× and query latency 0.78× compared to LocalGPT, indicating a clear but not dramatic performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the project’s ability to run a local LLM for quick, semantic search while noting issues with hallucinations, hardware demands and whether an LLM is necessary over a simple search system."
+    }
+  },
+  "summary": "Survival LLM is a self‑hosted AI assistant that bundles an offline emergency knowledge base and can be run via CLI or a local web UI. It operates entirely on the user's machine, avoiding any API keys, and leverages local LLM inference. The tool is useful for users who need reliable, internet‑independent assistance in field or disaster scenarios. Benchmarks show it loads 15 % faster and answers 22 % quicker than LocalGPT, but the test suite failed all four functional checks, highlighting stability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.brangus.io/survival-llm",
+  "tool_url": "https://github.com/brangus/survival-llm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50264853",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "LocalGPT",
+        "stars": 22196,
+        "repo": "PromtEngineer/localGPT"
+      },
+      {
+        "name": "Ollama Chat",
+        "stars": 3520,
+        "repo": "sugarforever/chat-ollama"
+      },
+      {
+        "name": "LangServe",
+        "stars": 2323,
+        "repo": "langchain-ai/langserve"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Efficient local LLM access",
+        "Rich semantic search integration",
+        "Community support for small models"
+      ],
+      "negative_signals": [
+        "Accuracy/hallucination concerns",
+        "Hardware/resource requirements",
+        "Redundancy debate"
+      ],
+      "justification": "Comments praise the project’s ability to run a local LLM for quick, semantic search while noting issues with hallucinations, hardware demands and whether an LLM is necessary over a simple search system.",
+      "comment_count": 30,
+      "hn_points": 420
+    }
+  }
+}
