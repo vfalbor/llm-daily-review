@@ -1,0 +1,99 @@
+{
+  "app_name": "Ghostty 1.4",
+  "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+  "scored_at": "2026-10-28T14:01:28.855Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative novelty evidence is missing; assigning a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 14.4 seconds, but there is no PyPI package, indicating a moderately simple setup without pip convenience."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-cli terminal emulator, it aligns with ongoing developer interest in fast, low‑resource tools, though it is not a core LLM component."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Ghostty's startup time is 1.137 s versus xterm's 609.819 s (vs_xterm_startup_ratio 0.000), a dramatic speed advantage, while similar terminals have far more stars (Alacritty 66,074, Kitty 35,458)."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 1,151 with 30 comments, indicating strong community interest despite the lack of a visible GitHub repository."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3), showing core functionality fails in the automated test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available as a CLI and GUI but has no PyPI package and no explicit API description, providing limited integration paths."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "A documentation site is available at the provided URL, suggesting basic docs exist, though no wiki or GitHub topics data are present."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points exceed 300 (1,151) serve as a proxy for maturity in the absence of repository data."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows ghostty_startup 1.137 s versus xterm_startup 609.819 s, giving a >500× speed improvement (ratio 0.000)."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight Ghostty’s performance, smooth TUI rendering, and cross‑platform GPU support as major positives, while noting the lack of a settings UI, an early memory‑leak bug, and that a few users have moved back to other terminals."
+    }
+  },
+  "summary": "Ghostty 1.4 is a Rust‑based terminal emulator that prioritizes speed and low resource usage. It runs as a CLI or GUI application and advertises a startup time of about 1.1 seconds, dramatically faster than traditional terminals like xterm. It is suited for developers who need a snappy, lightweight terminal for daily coding work. The standout strength is its extreme performance advantage, while the main caveat is the lack of passing automated tests and limited integration options.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+  "tool_url": "https://github.com/ghostty/ghostty",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50261998",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Alacritty",
+        "stars": 66074,
+        "repo": "alacritty/alacritty"
+      },
+      {
+        "name": "Kitty",
+        "stars": 35458,
+        "repo": "kovidgoyal/kitty"
+      },
+      {
+        "name": "Terminus",
+        "stars": 3461,
+        "repo": "terminusdb/terminusdb"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "fast and smooth rendering",
+        "cross‑platform GPU acceleration",
+        "easy configuration via code"
+      ],
+      "negative_signals": [
+        "missing default config UI",
+        "initial memory‑leak issue",
+        "some users switched to alternatives"
+      ],
+      "justification": "The comments highlight Ghostty’s performance, smooth TUI rendering, and cross‑platform GPU support as major positives, while noting the lack of a settings UI, an early memory‑leak bug, and that a few users have moved back to other terminals.",
+      "comment_count": 30,
+      "hn_points": 1151
+    }
+  }
+}
