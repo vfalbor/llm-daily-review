@@ -1,0 +1,75 @@
+{
+  "app_name": "WikiCity – Explore 100k Wikipedia Articles as a 3D City",
+  "url": "https://wikicity.app/",
+  "scored_at": "2026-10-28T14:04:42.968Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and no quantitative comparison to similar tools was provided, so the novelty cannot be measured."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 15 seconds, indicating a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app is a web-frontend visualizer, which does not directly address core LLM workflow needs in the current AI ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The benchmark shows a vs_threejs_load_time_ratio of 0.83, meaning it loads 17% faster than a typical Three.js implementation, giving a clear speed advantage over similar 3D map tools."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is available and HN points are only 5, indicating minimal community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0/3) and while install succeeded, the lack of passing tests suggests core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The web page mentions an API/SDK/webhook support, providing a clear integration path despite the absence of a PyPI package."
+    },
+    "documentation": {
+      "score": 9,
+      "justification": "The site includes docs/wiki links, a changelog, examples/demo, and a massive content length of 4,660,763 characters, indicating comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 and a changelog are present, showing the project has reached a stable release stage."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks report load_home_time of 0.056 s and a vs_threejs_load_time_ratio of 0.83, demonstrating measurable performance benefits over comparable tools."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "WikiCity is a web application that renders 100,000 Wikipedia articles as an interactive 3D cityscape. It runs entirely in the browser and provides an API/SDK/webhook for programmatic access. The tool is suited for educators, journalists, or anyone wanting to explore Wikipedia content spatially, offering faster load times (0.83× the typical Three.js load) than comparable 3D map libraries. Its strength lies in extensive documentation and a stable 1.0 release, while the lack of community engagement and failing functional tests limit its reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://wikicity.app/",
+  "tool_url": "https://wikicity.app/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50225880",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 5
+    }
+  }
+}
