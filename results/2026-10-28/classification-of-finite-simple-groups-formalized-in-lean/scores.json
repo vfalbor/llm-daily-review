@@ -1,0 +1,113 @@
+{
+  "app_name": "Classification of Finite Simple Groups Formalized in Lean",
+  "url": "https://cfsg.axiommath.ai/",
+  "scored_at": "2026-10-28T14:05:49.736Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 1 day ago (days_since_created=1), not a fork, and tackles a unique formalization of the classification of finite simple groups unlike the cited similar tools."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a research-paper formalizing a major theorem, it aligns with the current surge in interest for formal verification and Lean-based proofs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Stars=117 vs mathlib (4,380), Coq (3,810) and Isabelle (244) show it targets a distinct problem space rather than competing directly on feature set."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub stars=117 (100‑1k range) and a single contributor indicate a modest but existing community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, pages, or topic data available; documentation signals are missing, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Repository created 1 day ago, 15 forks, 0 open issues, indicating very early-stage maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research-paper type; no benchmark data reported."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters praise the scale and error‑finding power of the formalization, while a minority raise valid technical concerns about Lean’s correctness and the difficulty of such a massive proof."
+    }
+  },
+  "summary": "This project provides a Lean formal proof of the classification of finite simple groups. It is built as a Lean CLI tool that encodes the extensive mathematical argument directly in the theorem prover. Researchers and formal methods engineers seeking a verified foundation for group theory will find it useful, especially when exploring large‑scale formalizations. The standout strength is its ambitious scope, while the main caveat is its infancy—only one day old with minimal community adoption and no performance benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://cfsg.axiommath.ai/",
+  "tool_url": "https://github.com/axiommath/cfsg",
+  "source_type": "research-paper",
+  "hn_url": "https://news.ycombinator.com/item?id=50261647",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 117,
+      "forks": 15,
+      "open_issues": 0,
+      "watchers": 117,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Lean",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A Lean formalization of the Classification of Finite Simple Groups",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "mathlib",
+        "stars": 4380,
+        "repo": "leanprover-community/mathlib4"
+      },
+      {
+        "name": "Coq",
+        "stars": 3810,
+        "repo": "ms-jpq/coq_nvim"
+      },
+      {
+        "name": "Isabelle",
+        "stars": 244,
+        "repo": "pirapira/eth-isabelle"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Impressive formalization effort",
+        "Detection of flaws in original proofs",
+        "Demonstrates reliability of Lean"
+      ],
+      "negative_signals": [
+        "Concerns about Lean kernel bugs",
+        "Doubts over correctness and complexity"
+      ],
+      "justification": "Most commenters praise the scale and error‑finding power of the formalization, while a minority raise valid technical concerns about Lean’s correctness and the difficulty of such a massive proof.",
+      "comment_count": 30,
+      "hn_points": 226
+    }
+  }
+}
