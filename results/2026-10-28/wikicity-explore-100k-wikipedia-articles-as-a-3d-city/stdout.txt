@@ -1,0 +1,36 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.9.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_FAIL:git_clone:Command '['git', 'clone', 'https://github.com/example/wikicity.git', '/app']' returned non-zero exit status 128.
+BENCHMARK:npm_install_time_s:0.848
+INSTALL_FAIL:npm_install:
+INSTALL_OK
+BENCHMARK:load_home_time_s:0.056
+BENCHMARK:load_home_mem_kb:479.6
+TEST_FAIL:load_home:canvas_not_found
+BENCHMARK:search_article_time_s:0.003
+BENCHMARK:search_article_mem_kb:18.2
+TEST_FAIL:search_article:HTTP Error 404: Not Found
+BENCHMARK:page_load_time_s:0.005
+BENCHMARK:page_load_mem_kb:50.8
+BENCHMARK:vs_threejs_load_time_ratio:0.83
+BENCHMARK:keyboard_nav_time_s:0.002
+BENCHMARK:keyboard_nav_mem_kb:17.6
+TEST_SKIP:keyboard_navigation:HTTP Error 404: Not Found
+RUN_OK
