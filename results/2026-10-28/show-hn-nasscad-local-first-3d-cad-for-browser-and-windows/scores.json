@@ -1,0 +1,75 @@
+{
+  "app_name": "Nasscad",
+  "url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+  "scored_at": "2026-10-28T14:02:27.911Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork status, or star counts are available, and only a list of similar tools is given, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 10.2 seconds (under the 30‑second threshold) and no API key is required, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a devtool for local‑first 3D CAD, which does not align with the dominant LLM workflow trends in the current ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Without GitHub stars or benchmark data, the only differentiator is a generic API/SDK mention, while many established CAD tools (FreeCAD, Onshape, etc.) exist."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository is detected, and Hacker News points are only 6 with 2 comments, indicating a very small community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 2 tests passed (0% success) and installation succeeded, placing it below the 50% pass threshold."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The web page mentions an API/SDK, but there is no PyPI package and no license information, requiring manual integration effort."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The site provides a changelog and examples, and its content length is 639,838 characters, indicating substantial documentation despite lacking a dedicated wiki."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 and a changelog are present, suggesting a stable release even though no repository metadata is available."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output contains only dummy metrics and no comparative performance data, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Nasscad is a local‑first 3D CAD application that runs in the browser and on Windows. It offers a web‑based UI with an optional API/SDK, built as a closed‑source tool without a package manager distribution. It is suited for designers who need offline‑capable CAD directly in the browser or desktop without cloud dependencies. The main strength is its substantial on‑site documentation and a released v1.0, while the lack of community activity and poor test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+  "tool_url": "https://www.nasscad.com/NASSCAD_V4_7_0.htm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50273201",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 6
+    }
+  }
+}
