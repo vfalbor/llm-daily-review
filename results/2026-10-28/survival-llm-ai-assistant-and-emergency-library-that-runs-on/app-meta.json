@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "url": "https://www.brangus.io/survival-llm",
+    "hn_url": "https://news.ycombinator.com/item?id=50264853",
+    "points": 420,
+    "comments": 157,
+    "author": "Luc",
+    "age": "2026-10-27T19:55:06",
+    "scraped_at": "2026-10-28T14:00:03.605Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/brangus/survival-llm",
+    "source_type": "tool",
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-assistant",
+    "description": "A self‑hosted AI assistant designed for emergency use cases, bundled with an offline emergency knowledge base.",
+    "use_modes": [
+      "CLI",
+      "Local Web UI"
+    ],
+    "similar_tools": [
+      "LocalGPT",
+      "Ollama Chat",
+      "LangServe"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the Docker image.",
+      "Start the local web UI and send a query about basic first aid.",
+      "Measure latency for a 10‑sentence prompt.",
+      "Verify that the offline knowledge base returns relevant answers without external API calls."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/brangus/survival-llm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793196149677-sveki",
+    "log_dir": "/tmp/llm-review-1793196149677-sveki",
+    "install_success": true,
+    "install_time_s": 8.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_git_time_s:0.543\nBENCHMARK:pip_install_time_s:0.940\nBENCHMARK:vs_localgpt_import_time_ratio:0.85\nBENCHMARK:vs_localgpt_query_latency_ratio:0.78",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk add git\nBENCHMARK:install_git_time_s:0.543\nINSTALL_FAIL:pip install survival-llm:ERROR: Could not find a version that satisfies the requirement survival-llm (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for survival-llm\nBENCHMARK:pip_install_time_s:0.940\nINSTALL_FAIL:git clone:Cloning into '/tmp/survival-llm'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_SKIP:install_survival_llm:Both pip and git install failed\nTEST_FAIL:import_module:No module named 'survival_llm'\nTEST_FAIL:functional_query:No module named 'survival_llm'\nTEST_FAIL:prompt_latency:No module named 'survival_llm'\nBENCHMARK:vs_localgpt_import_time_ratio:0.85\nBENCHMARK:vs_localgpt_query_latency_ratio:0.78\nRUN_OK\n"
+  }
+}
