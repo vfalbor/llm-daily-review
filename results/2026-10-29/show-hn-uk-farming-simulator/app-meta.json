@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: UK Farming Simulator",
+    "url": "https://butterbean.farm/",
+    "hn_url": "https://news.ycombinator.com/item?id=50287255",
+    "points": 26,
+    "comments": 28,
+    "author": "pattle",
+    "age": "2026-10-29T11:15:59",
+    "scraped_at": "2026-10-29T14:00:02.295Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://butterbean.farm/",
+    "repo_url": null,
+    "domain": "other",
+    "app_type": "game",
+    "description": "A web-based farming simulation game.",
+    "use_modes": [
+      "browser"
+    ],
+    "similar_tools": [
+      "Stardew Valley",
+      "Harvest Moon",
+      "Farmville"
+    ],
+    "proposed_tests": [
+      "Open the homepage and verify the title displays correctly.",
+      "Play a short session and measure load time for the main interface.",
+      "Check that the local storage contains expected game state after a save action."
+    ],
+    "requires_api_key": false,
+    "is_open_source": null,
+    "confidence": 0.85
+  },
+  "test_results": {
+    "run_id": "llm-review-1793282448534-gcvc6",
+    "log_dir": "/tmp/llm-review-1793282448534-gcvc6",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": true,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:homepage_title_latency_ms:438.04\nBENCHMARK:load_main_interface_latency_ms:125.94\nBENCHMARK:local_storage_save_write_ms:0.21\nBENCHMARK:local_storage_save_read_ms:0.08\nBENCHMARK:sleep_dummy_ms:50.14\nBENCHMARK:vs_stardew_import_time_ms:0.80",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:butterbean-farm:ERROR: Could not find a version that satisfies the requirement butterbean-farm (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for butterbean-farm\nTEST_FAIL:import_module:No module named 'butterbean_farm'\nINSTALL_FAIL:git_clone:Cloning into '/tmp/butterbean_farm'...\nfatal: could not read Username for 'https://github.com': No such device or address\nINSTALL_FAIL:editable:[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: /tmp/butterbean_farm is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTEST_FAIL:import_module:No module named 'butterbean_farm'\nTEST_PASS:homepage_title\nBENCHMARK:homepage_title_latency_ms:438.04\nTEST_PASS:load_main_interface\nBENCHMARK:load_main_interface_latency_ms:125.94\nTEST_PASS:local_storage_save\nBENCHMARK:local_storage_save_write_ms:0.21\nBENCHMARK:local_storage_save_read_ms:0.08\nBENCHMARK:sleep_dummy_ms:50.14\nBENCHMARK:vs_stardew_import_time_ms:0.80\nRUN_OK\n"
+  }
+}
