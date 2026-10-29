@@ -1,0 +1,113 @@
+{
+  "app_name": "Requests, Please",
+  "url": "https://morronel.github.io/requests_please/",
+  "scored_at": "2026-10-29T14:03:38.981Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo is only 5 days old and directly mirrors existing tools like requests-mock, providing no new approach (days_since_created=5, is_fork=false)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 14.1 seconds but there is no PyPI package, requiring manual clone (install_success=true, install_time_s=14.1, PyPI exists=false)."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-testing library it addresses a common need for HTTP request mocking in Python projects, which remains relevant in current LLM‑augmented development workflows (app_type=devtool-testing)."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has only 9 stars versus 465‑4,342 stars for similar libraries, and provides no benchmark advantage (Stars=9, vs requests-mock=465, responses=4,342)."
+    },
+    "community": {
+      "score": 3,
+      "justification": "GitHub shows 9 stars, 2 contributors, and the last commit was 4 days ago, indicating a very small community (stars=9, contributors=2, days_since_update=4)."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "None of the 4 functional tests passed despite a successful install (tests_passed=0/4, install_success=true)."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The library is usable as a Python package but lacks a PyPI distribution and has no license, making integration slightly harder (PyPI exists=false, use_modes=Python library, license=none)."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were found, so documentation quality cannot be assessed (has_wiki=false, has_pages=false)."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 5 days old with 1 fork and no release tags, suggesting an early‑stage project (days_since_created=5, forks=1)."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided in the test output, so performance cannot be evaluated (no BENCHMARK data)."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise the game for being fun and cool, but a few point out potential confusion about how the game relates to real security practices, leading to a generally positive but cautious reception."
+    }
+  },
+  "summary": "Requests, Please is a tiny Python helper library for mocking HTTP requests in tests. It is a straightforward code library written in TypeScript that users import directly rather than install from PyPI. The tool is aimed at Python developers who need quick request stubbing during unit testing. Its main strength is the minimal setup time, but it offers no performance advantage and suffers from very limited community adoption and documentation.",
+  "recommendation": "skip",
+  "app_url": "https://morronel.github.io/requests_please/",
+  "tool_url": "https://github.com/morronel/requests_please",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50241195",
+  "domain": "devtool",
+  "app_type": "devtool-testing",
+  "enriched": {
+    "github": {
+      "stars": 9,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 9,
+      "contributors": 2,
+      "license": "none",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 5,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "requests-mock",
+        "stars": 465,
+        "repo": "jamielennox/requests-mock"
+      },
+      {
+        "name": "responses",
+        "stars": 4342,
+        "repo": "getsentry/responses"
+      },
+      {
+        "name": "httpretty",
+        "stars": 2146,
+        "repo": "gabrielfalcao/HTTPretty"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "fun and enjoyable",
+        "cool concept",
+        "engaging mechanics"
+      ],
+      "negative_signals": [
+        "concern about misuse/misinterpretation",
+        "some confusion over security guidance"
+      ],
+      "justification": "Most comments praise the game for being fun and cool, but a few point out potential confusion about how the game relates to real security practices, leading to a generally positive but cautious reception.",
+      "comment_count": 11,
+      "hn_points": 50
+    }
+  }
+}
