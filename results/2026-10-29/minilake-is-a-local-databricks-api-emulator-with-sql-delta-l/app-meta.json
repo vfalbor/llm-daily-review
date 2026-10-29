@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+    "url": "https://dmux.github.io/minilake/",
+    "hn_url": "https://news.ycombinator.com/item?id=50259697",
+    "points": 60,
+    "comments": 10,
+    "author": "kermatt",
+    "age": "2026-10-27T14:12:59",
+    "scraped_at": "2026-10-29T14:00:02.297Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/dmux/minilake",
+    "repo_url": "https://github.com/dmux/minilake",
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "A lightweight emulator for Databricks Runtime, exposing REST APIs for SQL, Delta Lake, and Spark.",
+    "use_modes": [
+      "CLI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Databricks",
+      "Spark Standalone",
+      "Delta Lake"
+    ],
+    "proposed_tests": [
+      "Clone the repository and install dependencies with pip.",
+      "Run `minilake serve` and verify the HTTP server starts on port 8080.",
+      "Execute a simple SQL query via the REST API and assert the returned result set.",
+      "Create a Delta Lake table, write data, and read it back to confirm correctness."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "confidence": 0.93
+  },
+  "test_results": {
+    "run_id": "llm-review-1793282484071-zc6lw",
+    "log_dir": "/tmp/llm-review-1793282484071-zc6lw",
+    "install_success": true,
+    "install_time_s": 26.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:4.3\nBENCHMARK:pip_install_time_s:0.61\nBENCHMARK:clone_install_time_s:14.25\nBENCHMARK:server_start_time_s:0.0\nBENCHMARK:sqlite_query_latency_ms:1.73\nBENCHMARK:minilake_sql_latency_ms:23.33\nBENCHMARK:vs_sqlite_sql_latency_ratio:13.49",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:4.3\nINSTALL_OK\nBENCHMARK:pip_install_time_s:0.61\nINSTALL_OK\nBENCHMARK:clone_install_time_s:14.25\nTEST_PASS:server_start\nBENCHMARK:server_start_time_s:0.0\nBENCHMARK:sqlite_query_latency_ms:1.73\nTEST_FAIL:minilake_sql:HTTP Error 404: Not Found\nBENCHMARK:minilake_sql_latency_ms:23.33\nBENCHMARK:vs_sqlite_sql_latency_ratio:13.49\nRUN_OK\n"
+  }
+}
