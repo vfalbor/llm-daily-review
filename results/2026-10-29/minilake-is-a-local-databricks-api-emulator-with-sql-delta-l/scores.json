@@ -1,0 +1,128 @@
+{
+  "app_name": "MiniLake",
+  "url": "https://dmux.github.io/minilake/",
+  "scored_at": "2026-10-29T14:02:39.661Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 95 days ago, not a fork, and mirrors existing Databricks, Spark and Delta Lake tools, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 26.3 s (<30 s) and the package exists on PyPI, requiring only Python >=3.11."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a database‑relational emulator for Databricks, it addresses a current need for local testing of data pipelines in the LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Has 104 stars versus 3,895 for Databricks and 510 for Spark Standalone, offering a unique local REST API emulator but no clear speed advantage (vs_sqlite_sql_latency_ratio 13.49)."
+    },
+    "community": {
+      "score": 6,
+      "justification": "GitHub shows 104 stars, 4 contributors, and the repo was updated today (0 days since last commit), indicating modest but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 of 2 tests passed (50%) and install succeeded, meeting the threshold for a minimal usable core."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Available on PyPI, provides both CLI and REST API modes, and is MIT‑licensed, facilitating straightforward embedding in pipelines."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The project hosts a documentation site at dmux.github.io/minilake and includes a README with usage examples, indicating good but not exhaustive docs."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "95‑day old repository with 14 forks, 4 open issues, and a released version 1.9.0 on PyPI suggests a stable, production‑ready state."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark shows SQLite latency 1.73 ms versus MiniLake 23.33 ms (ratio 13.49), indicating substantially slower performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments highlight potential benefits for CI and integration testing, but also express doubts about effort, clarity, and testing methodology, leading to a generally positive but cautious view."
+    }
+  },
+  "summary": "MiniLake is a lightweight emulator of the Databricks Runtime that exposes SQL, Delta Lake, and Spark through a local REST API and CLI. It runs as a Python package (v1.9.0) without requiring an API key. Developers looking for an offline Databricks‑like environment for CI and integration testing will find it useful. Its standout strength is providing a full‑stack emulator, but benchmarks reveal it is over ten times slower than SQLite, limiting performance‑critical use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://dmux.github.io/minilake/",
+  "tool_url": "https://github.com/dmux/minilake",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50259697",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 104,
+      "forks": 14,
+      "open_issues": 4,
+      "watchers": 104,
+      "contributors": 4,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 95,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Minilake is a free, local Databricks API emulator — a single-developer tool for testing databricks-sdk/Terraform code against real SQL, real Delta Lake, and real Job execution, without paying for cloud compute.",
+      "topics": [
+        "data-analytics",
+        "databricks",
+        "emulator",
+        "mcp",
+        "pyspark",
+        "spark"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Databricks",
+        "stars": 3895,
+        "repo": "databricks/learning-spark"
+      },
+      {
+        "name": "Spark Standalone",
+        "stars": 510,
+        "repo": "cluster-apps-on-docker/spark-standalone-cluster-on-docker"
+      },
+      {
+        "name": "Delta Lake",
+        "stars": 186,
+        "repo": "japila-books/delta-lake-internals"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.9.0",
+      "summary": "A local Databricks API emulator backed by DuckDB.",
+      "requires_python": ">=3.11",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Useful for CI and integration tests",
+        "Potential boon for developers",
+        "Encouraging for local development"
+      ],
+      "negative_signals": [
+        "Low effort and unclear scope",
+        "Skepticism about testing approach",
+        "Uncertain practicality"
+      ],
+      "justification": "The comments highlight potential benefits for CI and integration testing, but also express doubts about effort, clarity, and testing methodology, leading to a generally positive but cautious view.",
+      "comment_count": 10,
+      "hn_points": 59
+    }
+  }
+}
