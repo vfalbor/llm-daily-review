@@ -1,0 +1,83 @@
+{
+  "app_name": "Show HN: UK Farming Simulator",
+  "url": "https://butterbean.farm/",
+  "scored_at": "2026-10-29T14:01:22.327Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, and only similarity to existing games is known, so quantitative novelty data is missing."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 10 seconds, which is under the 30‑second threshold for easy setup, despite no PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The app is a web‑based farming game; no specific data links it to current LLM workflow trends, so relevance is judged as moderate."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Benchmark shows an import time of 0.80 ms versus Stardew Valley, indicating a speed advantage, but no other unique features are quantified."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository; HN points are only 25 with 28 comments, which falls below the 50‑point threshold for a stronger community score."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "3 of 5 tests passed (60%), exceeding the 50% pass threshold for a usable core functionality."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type (game)."
+    },
+    "documentation": {
+      "score": 3,
+      "justification": "The page lacks docs/wiki links and examples, and its content length is 2881 characters, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 is detected on the site, satisfying the proxy rule for a maturity score of 7."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show homepage title latency 438 ms and main interface load 125.94 ms; without comparative data, performance is considered average."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight enthusiasm for the physics and management aspects of the game, but many users report performance, loading, and mobile compatibility problems, resulting in a moderately positive overall sentiment."
+    }
+  },
+  "summary": "Show HN: UK Farming Simulator is a browser‑based farming simulation game that lets players manage a virtual farm. It runs entirely in the web client with no install command or API, relying on standard browser technology. The game suits casual players looking for a simple farm management experience without needing to download software. While it loads the main interface in about 126 ms, users report occasional performance and mobile compatibility issues.",
+  "recommendation": "niche",
+  "app_url": "https://butterbean.farm/",
+  "tool_url": "https://butterbean.farm/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50287255",
+  "domain": "other",
+  "app_type": "game",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 3,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Engaging physics details",
+        "Management simulation fun",
+        "Positive community feedback"
+      ],
+      "negative_signals": [
+        "Performance issues and slow loading",
+        "Mobile support problems",
+        "Unresolved technical bugs"
+      ],
+      "justification": "Comments highlight enthusiasm for the physics and management aspects of the game, but many users report performance, loading, and mobile compatibility problems, resulting in a moderately positive overall sentiment.",
+      "comment_count": 28,
+      "hn_points": 25
+    }
+  }
+}
