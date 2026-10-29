@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Requests, Please",
+    "url": "https://morronel.github.io/requests_please/",
+    "hn_url": "https://news.ycombinator.com/item?id=50241195",
+    "points": 49,
+    "comments": 11,
+    "author": "sysoleg",
+    "age": "2026-10-26T09:23:43",
+    "scraped_at": "2026-10-29T14:00:02.297Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/morronel/requests_please",
+    "repo_url": "https://github.com/morronel/requests_please",
+    "domain": "devtool",
+    "app_type": "devtool-testing",
+    "description": "A lightweight helper library for testing HTTP requests in Python.",
+    "use_modes": [
+      "Python library"
+    ],
+    "similar_tools": [
+      "requests-mock",
+      "responses",
+      "httpretty"
+    ],
+    "proposed_tests": [
+      "Install via pip from the GitHub repo and import `requests_please`.",
+      "Write a test that mocks an external API call and assert the mocked response is returned.",
+      "Measure the execution time of a single mocked request to evaluate overhead.",
+      "Verify that the library correctly forwards headers and query parameters to the mock."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "confidence": 0.88
+  },
+  "test_results": {
+    "run_id": "llm-review-1793282561181-zsbvv",
+    "log_dir": "/tmp/llm-review-1793282561181-zsbvv",
+    "install_success": true,
+    "install_time_s": 14.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:system_install_time_s:1.12\nBENCHMARK:package_install_time_s:6.14",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | system_packages\nBENCHMARK:system_install_time_s:1.12\nINSTALL_FAIL:ERROR: git+https://github.com/morronel/requests_please.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nINSTALL_OK | git_clone\nINSTALL_FAIL:ERROR: file:///tmp/requests_please does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nBENCHMARK:package_install_time_s:6.14\nTEST_SKIP:import:package not installed\nTEST_FAIL:mocked_request:Traceback (most recent call last):\n  File \"/app/test.py\", line 141, in main\n    test_mocked_request()\n  File \"/app/test.py\", line 62, in test_mocked_request\n    from requests_please import RequestsPlease\nModuleNotFoundError: No module named 'requests_please'\n\nTEST_FAIL:header_query_forward:Traceback (most recent call last):\n  File \"/app/test.py\", line 146, in main\n    test_header_query_forward()\n  File \"/app/test.py\", line 84, in test_header_query_forward\n    from requests_please import RequestsPlease\nModuleNotFoundError: No module named 'requests_please'\n\nTEST_FAIL:baseline_setup:No module named 'requests_mock'\nRUN_OK\n"
+  }
+}
