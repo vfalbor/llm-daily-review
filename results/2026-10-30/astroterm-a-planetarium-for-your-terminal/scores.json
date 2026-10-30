@@ -1,0 +1,128 @@
+{
+  "app_name": "Astroterm: A Planetarium for Your Terminal",
+  "url": "https://github.com/da-luce/astroterm",
+  "scored_at": "2026-10-30T14:04:18.383Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 1232 days old and is not a fork, and while similar CLI planetarium tools exist, Astroterm adds a unique ASCII art approach (+293 stars over ncli)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 14.3 seconds, but there is no PyPI package, requiring manual clone/build."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI terminal planetarium, it has niche appeal and does not address a core LLM workflow trend."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Astroterm has 2,360 stars, outpacing ncli (2,067) and far exceeding term‑sky (14), offering a distinct ASCII visual experience not found in moonlight-stream."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 2,360 stars, 13 contributors, and the last commit was 48 days ago, indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%), indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package and only a CLI/TUI interface are provided; there is no API or library integration path."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "HN comments highlight \"clear and readable documentation\" and praise the README, despite no explicit wiki or docs site data."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 1232 days old with 62 forks and 40 open issues, suggesting a mature but still evolving project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install, clone, and build times (e.g., install_time_s:5.426) but no comparative data to assess speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the creative concept, README quality and visual presentation, while a minority criticize it as average or unsuitable as a TUI; overall sentiment is generally positive with constructive remarks."
+    }
+  },
+  "summary": "Astroterm is a terminal‑based planetarium that renders the night sky as ASCII art in real time. It runs locally as a CLI/TUI built in C and does not require any external API keys. It is suited for developers or hobbyists who want a lightweight, visual sky simulation directly in their terminal. The project stands out for its creative visual design, though limited test coverage and lack of package distribution make it less reliable for production use.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/da-luce/astroterm",
+  "tool_url": "https://github.com/da-luce/astroterm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50270651",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 2360,
+      "forks": 62,
+      "open_issues": 40,
+      "watchers": 2360,
+      "contributors": 13,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 48,
+      "days_since_created": 1232,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command line—no telescope required. ✨🪐",
+      "topics": [
+        "ascii",
+        "ascii-art",
+        "c",
+        "command-line",
+        "console",
+        "linux",
+        "linux-terminal",
+        "screencast",
+        "screensaver",
+        "space",
+        "terminal",
+        "tui",
+        "unix",
+        "unix-shell"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ncli",
+        "stars": 2067,
+        "repo": "Dar9586/NClientV2"
+      },
+      {
+        "name": "moon",
+        "stars": 19308,
+        "repo": "moonlight-stream/moonlight-qt"
+      },
+      {
+        "name": "term-sky",
+        "stars": 14,
+        "repo": "LuiseFreese/BlueSkyTerminal"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "impressive creative design",
+        "clear and readable documentation",
+        "visually appealing ASCII astronomy"
+      ],
+      "negative_signals": [
+        "some find it average or lacking features",
+        "not ideal for traditional TUI use"
+      ],
+      "justification": "The majority of comments praise the creative concept, README quality and visual presentation, while a minority criticize it as average or unsuitable as a TUI; overall sentiment is generally positive with constructive remarks.",
+      "comment_count": 21,
+      "hn_points": 182
+    }
+  }
+}
