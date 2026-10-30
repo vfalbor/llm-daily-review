@@ -1,0 +1,112 @@
+{
+  "app_name": "tinyworldformer",
+  "url": "https://github.com/SheepSeb/tinyworldformer",
+  "scored_at": "2026-10-30T14:06:46.488Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created only 7 days ago, not a fork, and introduces a unique hardware‑focused transformer for game simulation, differentiating it from existing MicroML and TinyGPT projects."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 17.2 s (well under 30 s) despite lacking a PyPI package, indicating a fairly easy setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑training tool targeting edge devices, it aligns with the current push for on‑device LLM inference and TinyML."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repo has 264 stars, more than MicroML (196) but far fewer than TinyGPT (1,314); the only concrete benchmark is an import time of 142 ms, giving modest advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "264 GitHub stars place it in the 100‑1k range, with 1 contributor and a recent commit 3 days ago, showing modest but active interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33 %), indicating core functionality is fragile despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and the license is unspecified; the tool offers a Python CLI and edge inference mode, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The repository provides no wiki, GitHub Pages, or listed topics, so documentation quality cannot be assessed beyond the basic README."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The project is only 7 days old, has 10 forks and zero open issues, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 142 ms, but no comparative data is available to judge relative speed."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the project's ingenuity and hardware efficiency, while a few raise technical clarifications or potential improvements; overall enthusiasm dominates."
+    }
+  },
+  "summary": "tinyworldformer is a lightweight transformer model that generates gameplay for simple world simulations and runs on a Raspberry Pi Pico 2 W. It is built in Rust and accessed via a Python CLI or TinyML edge inference, targeting on‑device LLM use cases. The project is aimed at developers experimenting with ultra‑low‑resource AI for embedded games. While the hardware‑centric approach and a 142 ms import time are its standout strengths, the tool is still very new, with limited documentation, a modest community, and only one of three functional tests passing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/SheepSeb/tinyworldformer",
+  "tool_url": "https://github.com/SheepSeb/tinyworldformer",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50295450",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 264,
+      "forks": 10,
+      "open_issues": 0,
+      "watchers": 264,
+      "contributors": 1,
+      "license": "none",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Tiny world model generates games and stream ac plays them all on Pico 2W",
+      "topics": [
+        "rust",
+        "transformers"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "MicroML",
+        "stars": 196,
+        "repo": "jczic/MicroMLP"
+      },
+      {
+        "name": "TinyGPT",
+        "stars": 1314,
+        "repo": "DLYuanGod/TinyGPT-V"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Impressive small-scale world model",
+        "Creative use of Raspberry Pi Pico",
+        "Innovative approach to LLM training"
+      ],
+      "negative_signals": [
+        "Limited single model integration",
+        "Hardware training questions",
+        "Minor confusion about architecture"
+      ],
+      "justification": "The majority of comments praise the project's ingenuity and hardware efficiency, while a few raise technical clarifications or potential improvements; overall enthusiasm dominates.",
+      "comment_count": 16,
+      "hn_points": 244
+    }
+  }
+}
