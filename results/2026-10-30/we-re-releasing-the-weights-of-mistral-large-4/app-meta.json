@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "We're releasing the weights of Mistral Large 4",
+    "url": "https://mistral.ai/news/mistral-large-4-oss/",
+    "hn_url": "https://news.ycombinator.com/item?id=50289418",
+    "points": 1588,
+    "comments": 415,
+    "author": "kuberwastaken",
+    "age": "2026-10-29T14:13:21",
+    "scraped_at": "2026-10-30T14:00:03.625Z",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "llm-ai",
+    "app_type": "llm-model",
+    "source_type": "model",
+    "tool_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "description": "Mistral Large 4 is a 7B parameter instruction‑tuned language model released as open‑source weights.",
+    "use_modes": [
+      "Inference API",
+      "Python SDK",
+      "ONNX Runtime"
+    ],
+    "similar_tools": [
+      "Mistral-7B",
+      "Llama-2-7B",
+      "OpenAI GPT‑3.5"
+    ],
+    "proposed_tests": [
+      "Download model weights from Hugging Face",
+      "Run a simple prompt using the Hugging Face Transformers pipeline",
+      "Measure latency for a 100‑token generation",
+      "Verify output quality against a reference prompt set"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793368856055-mp8qt",
+    "log_dir": "/tmp/llm-review-1793368856055-mp8qt",
+    "install_success": true,
+    "install_time_s": 64,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:model_download_s:1.100",
+    "error_log": "\rFetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n\rFetching 7 files:  14%|█▍        | 1/7 [00:00<00:02,  2.64it/s]\rFetching 7 files:  86%|████████▌ | 6/7 [00:00<00:00, 15.26it/s]\rFetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 12.08it/s]\nTraceback (most recent call last):\n  File \"/app/test.py\", line 140, in <module>\n    main()\n  File \"/app/test.py\", line 88, in main\n    from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer\nModuleNotFoundError: No module named 'transformers'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:torch (ERROR: Could not find a version that satisfies the requirement torch (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for torch)\nINSTALL_OK\nTEST_FAIL:import_time:No module named 'transformers'\nBENCHMARK:model_download_s:1.100\nTEST_PASS:download_model\n"
+  }
+}
