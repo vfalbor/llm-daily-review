@@ -1,0 +1,121 @@
+{
+  "app_name": "Show HN: I Turned DOOM into a Transformer",
+  "url": "https://github.com/mottopanikeiku/doomformer",
+  "scored_at": "2026-10-30T14:07:24.441Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 10 days ago, not a fork, and tackles a unique problem of training a transformer on Doom replay data, which is a meaningful improvement over existing DQN and Gym agents."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 21.5 s (under 30 s) and pip install time was 14.2 s, showing a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑training tool that generates game actions, it aligns with current interest in creative LLM applications and multimodal generation."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repository has 42 stars, more than the 25‑star DQN example but far fewer than the 401‑star OpenAI Gym agents, and provides a novel transformer‑based approach rather than classic RL."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 42 GitHub stars, 1 contributor, and was updated today, placing it in the 100–1 000 star, small‑community range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed (0 % pass rate) despite a successful install, indicating core functionality is not yet verified."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available; the tool is usable via a Python CLI and TorchScript but lacks a clean API or SDK for embedding in pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic metadata were provided, so quantitative documentation signals are missing."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is only 10 days old, has 2 forks and 1 open issue, indicating an early‑stage alpha release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import time of 0.43 ms and inference latency of 0.21 ms, but no comparative data against alternatives are available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments overall show excitement and appreciation for the creative fusion of Doom and Transformers, with several users praising the novelty and potential, but also include criticism about documentation clarity and doubts about the extent of human involvement, leading to a generally positive but somewhat mixed sentiment."
+    }
+  },
+  "summary": "This project trains a transformer on raw Doom replay data to generate plausible game actions, exposing a Python CLI and TorchScript inference mode. It builds on the PyTorch stack and runs locally without any API keys. Researchers and hobbyists interested in creative LLM applications for game AI would find it most useful. The main strength is its novel transformer‑based approach, while the primary caveat is the lack of passing tests and minimal documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/mottopanikeiku/doomformer",
+  "tool_url": "https://github.com/mottopanikeiku/doomformer",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50297697",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 42,
+      "forks": 2,
+      "open_issues": 1,
+      "watchers": 42,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 10,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Compile an integer neural network into a DOOM map. Voodoo dolls do the arithmetic, light levels and plane heights hold the values, and every value is checked against NumPy with tolerance 0.",
+      "topics": [
+        "compiler",
+        "doom",
+        "esoteric-computing",
+        "game-mechanics",
+        "mnist",
+        "neural-networks",
+        "python",
+        "transformer",
+        "translation-validation",
+        "vizdoom",
+        "voodoo-dolls"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "DQN for Atari",
+        "stars": 25,
+        "repo": "hizircanbayram/FeDQN-A-Federated-Learning-Approach-for-Training-Reinforcement-Learning-Agent-of-Atari-Games"
+      },
+      {
+        "name": "OpenAI Gym agents",
+        "stars": 401,
+        "repo": "PacktPublishing/Hands-On-Intelligent-Agents-with-OpenAI-Gym"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Innovative idea",
+        "Community enthusiasm",
+        "Potential for creative exploration"
+      ],
+      "negative_signals": [
+        "Documentation quality concerns",
+        "Some skepticism about AI-generated content",
+        "Mixed reception to humor"
+      ],
+      "justification": "The comments overall show excitement and appreciation for the creative fusion of Doom and Transformers, with several users praising the novelty and potential, but also include criticism about documentation clarity and doubts about the extent of human involvement, leading to a generally positive but somewhat mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 113
+    }
+  }
+}
