@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+    "url": "https://github.com/SheepSeb/tinyworldformer",
+    "hn_url": "https://news.ycombinator.com/item?id=50295450",
+    "points": 243,
+    "comments": 16,
+    "author": "airinei",
+    "age": "2026-10-29T20:32:28",
+    "scraped_at": "2026-10-30T14:00:03.637Z",
+    "tool_url": "https://github.com/SheepSeb/tinyworldformer",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "llm-ai",
+    "app_type": "llm-training",
+    "description": "A lightweight transformer model trained to generate gameplay for simple world simulations, runnable on a Raspberry Pi Pico 2 W.",
+    "use_modes": [
+      "Python CLI",
+      "Edge inference via TinyML"
+    ],
+    "similar_tools": [
+      "TinyML models from Edge TPU",
+      "MicroML",
+      "TinyGPT"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies",
+      "Run the provided inference script on the Pico 2 W",
+      "Measure inference latency and memory footprint",
+      "Compare generated output against the reference demo",
+      "Verify model runs within the Pi Pico 2 W memory limits"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/SheepSeb/tinyworldformer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793369125870-bsbnt",
+    "log_dir": "/tmp/llm-review-1793369125870-bsbnt",
+    "install_success": true,
+    "install_time_s": 17.2,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_FAIL:install_package:error: subprocess-exited-with-error\n  \n  × Preparing editable metadata (pyproject.toml) did not run successfully.\n  │ exit code: 1\n  ╰─> [15 lines of output]\n      Traceback (most recent call last):\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 389, in <module>\n          main()\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 373, in main\n          json_out[\"return_val\"] = hook(**hook_input[\"kwargs\"])\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/usr/local/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py\", line 209, in prepare_metadata_for_build_editable\n          return hook(metadata_directory, config_settings)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-d07y7nc_/overlay/lib/python3.12/site-packages/uv_build/__init__.py\", line 141, in prepare_metadata_for_build_editable\n          return call(args, config_settings)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        File \"/tmp/pip-build-env-d07y7nc_/overlay/lib/python3.12/site-packages/uv_build/__init__.py\", line 51, in call\n          raise RuntimeError(f\"{uv_bin_name} was not properly installed\")\n      RuntimeError: uv-build was not properly installed\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nerror: metadata-generation-failed\n\n× Encountered error while generating package metadata.\n╰─> See above for output.\n\nnote: This is an issue with the package mentioned above, not pip.\nhint: See above for details.\nTEST_FAIL:import_module:No module named 'tinyworldformer'\nRUN_OK\n"
+  }
+}
