@@ -1,0 +1,83 @@
+{
+  "app_name": "Cuis: The Modern Smalltalk-80",
+  "url": "https://cuis.st/",
+  "scored_at": "2026-10-30T14:05:24.455Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is comparable to existing Smalltalk implementations such as Squeak and Pharo, so the novelty cannot be determined."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (install_success true) in 14.3 seconds, which is well under the 30‑second threshold for easy setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a language implementation (app_type=lang-new) it does not address a primary pain point in current LLM workflows, making its relevance to today's LLM ecosystem limited."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is available; the tool offers the same core features as Squeak, Pharo, and GNU Smalltalk, so differentiation cannot be quantified."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN data shows 152 points and 19 comments with a sentiment score of 8/10, placing it in the 5–6 range for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of one test passed (0/1) despite a successful install, indicating less than 50% of functionality is verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project has no PyPI package, no API/SDK/webhook mention, and only interactive REPL/IDE modes, making automated integration difficult."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The website provides a docs/wiki link (true) and examples (true) with 2982 characters of content, indicating fairly comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version is 2.9.1 (>=1.0) even though a changelog is missing, suggesting a mature release level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output reports an install time of 6.83 s and clone time of 0.30 s, but no comparative data is provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise Cuis for its minimal, easy-to-understand approach and fast shared VM, while a few note concerns about library support, AI workflow compatibility, and rendering performance."
+    }
+  },
+  "summary": "Cuis is a modern, open‑source implementation of Smalltalk‑80 that provides a lightweight VM and an interactive IDE. It runs locally via a REPL or GUI and is built on its own language runtime without requiring external APIs. The tool is aimed at developers and learners who want a minimal, fast‑starting Smalltalk environment. Its standout strength is the quick startup and simplicity praised by the HN community (152 points, sentiment 8/10), while its main caveat is a limited library ecosystem and unclear support for modern AI integration.",
+  "recommendation": "niche",
+  "app_url": "https://cuis.st/",
+  "tool_url": "https://cuis.st/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50255343",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Welcoming and minimalistic design",
+        "Fast performance via shared VM",
+        "Ease of entry for beginners"
+      ],
+      "negative_signals": [
+        "Limited libraries",
+        "Uncertainty about modern AI integration",
+        "Hardware acceleration unclear"
+      ],
+      "justification": "Most comments praise Cuis for its minimal, easy-to-understand approach and fast shared VM, while a few note concerns about library support, AI workflow compatibility, and rendering performance.",
+      "comment_count": 19,
+      "hn_points": 152
+    }
+  }
+}
