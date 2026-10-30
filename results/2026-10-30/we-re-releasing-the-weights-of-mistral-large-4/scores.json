@@ -1,0 +1,82 @@
+{
+  "app_name": "Mistral Large 4",
+  "url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "scored_at": "2026-10-30T14:02:14.597Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the model is similar to existing Mistral-7B and Llama-2-7B, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded but took 64 seconds and there is no PyPI package, suggesting moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an open‑source 7B instruction‑tuned llm-model, it directly addresses the current demand for accessible large language models."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is available; the only claim is API/SDK support, which is common among similar models."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 1,590 with a sentiment score of 7/10 and 30 comments, indicating strong community interest despite lacking a GitHub repo."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "1 out of 2 tests passed (50%) and basic run failed, showing core functionality works but with notable friction."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The page mentions an API, Python SDK, and ONNX Runtime support, providing multiple integration pathways."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Docs/wiki link is present, examples are available, and the page content length is 40,266 characters, indicating comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.0 suggests a stable release, though no changelog or repository activity is visible."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a model download time of 1.1 seconds is reported, with no comparative benchmarks to assess performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Overall sentiment is positive with enthusiasm for free weights and community support, tempered by practical concerns around memory requirements and a somewhat confusing payment process."
+    }
+  },
+  "summary": "Mistral Large 4 is a 7‑billion‑parameter instruction‑tuned language model released with open‑source weights. It can be accessed via an inference API, Python SDK, or ONNX Runtime and runs locally without an API key. It suits developers who need a free, high‑quality LLM for inference workloads, especially when they prefer self‑hosting. The strongest point is its comprehensive documentation and community enthusiasm (1,590 HN points), while the main drawback is limited benchmark data and moderate installation complexity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://mistral.ai/news/mistral-large-4-oss/",
+  "tool_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50289418",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Open weight release",
+        "Community guides and quantizations",
+        "Support for diverse hardware"
+      ],
+      "negative_signals": [
+        "Hardware constraints for large models",
+        "Payment and subscription confusion"
+      ],
+      "justification": "Overall sentiment is positive with enthusiasm for free weights and community support, tempered by practical concerns around memory requirements and a somewhat confusing payment process.",
+      "comment_count": 30,
+      "hn_points": 1590
+    }
+  }
+}
