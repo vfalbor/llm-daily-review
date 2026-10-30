@@ -1,0 +1,114 @@
+{
+  "app_name": "Herdr has released native app",
+  "url": "https://github.com/herdrdev/herdr-app",
+  "scored_at": "2026-10-30T14:03:09.765Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "Created 13 days ago and is not a fork, but it replicates functionality of existing native wrappers like Electron and Tauri, making it a near‑duplicate."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11.9 s (<30 s) and the repo builds a Rust GUI without requiring external services or API keys."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑app providing a desktop interface for managing services, it aligns with current trends of local development dashboards."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 655 stars versus Electron's 123,649 and Tauri's 112,337, showing a large gap and no benchmark claims to demonstrate unique advantages."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 655 stars, 8 contributors, and was updated today (0 days since last commit), indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0 % pass rate) despite a successful install, suggesting core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package, GUI‑only use mode, and no public API, making automated integration difficult despite an Apache‑2.0 license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so evidence is insufficient and a neutral score is applied."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 13 days old, has 49 forks and 82 open issues, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only lists install times (apk 0.79 s, pip 3.51 s) with no comparative performance data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments highlight a smooth switch from tmux, attractive agent features, and remote session convenience, while a few note documentation gaps and skepticism about long‑term support, leading to a generally positive but somewhat cautious sentiment."
+    }
+  },
+  "summary": "Herdr's native app is a Rust‑based GUI for managing Herdr services, installed successfully in under 12 seconds. It runs locally without an API key and targets developers who prefer a desktop dashboard over web consoles. The tool's strength is its quick setup, but limited documentation and lack of integration hooks hinder broader adoption.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/herdrdev/herdr-app",
+  "tool_url": "https://github.com/herdrdev/herdr-app",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50298436",
+  "domain": "devtool",
+  "app_type": "devtool-app",
+  "enriched": {
+    "github": {
+      "stars": 655,
+      "forks": 49,
+      "open_issues": 82,
+      "watchers": 655,
+      "contributors": 8,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 13,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "herdr desktop app",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Electron",
+        "stars": 123649,
+        "repo": "electron/electron"
+      },
+      {
+        "name": "Tauri",
+        "stars": 112337,
+        "repo": "tauri-apps/tauri"
+      },
+      {
+        "name": "Neutralino",
+        "stars": 8676,
+        "repo": "neutralinojs/neutralinojs"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Easy transition from tmux with polished UI",
+        "Built‑in agent integration and remote session support",
+        "Open source and customizable"
+      ],
+      "negative_signals": [
+        "Some confusion over usage and docs",
+        "Mixed opinions on value vs. tmux",
+        "Concern about VC funding and product longevity"
+      ],
+      "justification": "The majority of comments highlight a smooth switch from tmux, attractive agent features, and remote session convenience, while a few note documentation gaps and skepticism about long‑term support, leading to a generally positive but somewhat cautious sentiment.",
+      "comment_count": 30,
+      "hn_points": 273
+    }
+  }
+}
