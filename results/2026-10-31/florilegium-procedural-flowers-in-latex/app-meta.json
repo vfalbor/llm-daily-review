@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Florilegium: Procedural Flowers in LaTeX",
+    "url": "https://github.com/kevinraymond/florilegium",
+    "hn_url": "https://news.ycombinator.com/item?id=50305637",
+    "points": 323,
+    "comments": 49,
+    "author": "nanna",
+    "age": "2026-10-30T15:48:12",
+    "scraped_at": "2026-10-31T14:00:03.197Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/kevinraymond/florilegium",
+    "source_type": "tool",
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-others",
+    "description": "A LaTeX package that generates procedural flower graphics with adjustable parameters.",
+    "use_modes": [
+      "LaTeX package",
+      "CLI for preview generation"
+    ],
+    "similar_tools": [
+      "TikZ, PGFplots, Asymptote"
+    ],
+    "proposed_tests": [
+      "Install Florilegium via TeX Live package manager or copy the .sty file",
+      "Compile a minimal LaTeX document that calls florilegium to generate a flower image",
+      "Verify that generated PDF contains expected graphics",
+      "Run the optional CLI to render the flower to PNG and compare image dimensions"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/kevinraymond/florilegium"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793455279790-kei6j",
+    "log_dir": "/tmp/llm-review-1793455279790-kei6j",
+    "install_success": true,
+    "install_time_s": 95.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_git_time_s:0.791\nBENCHMARK:install_texlive_time_s:83.049\nBENCHMARK:install_perl_time_s:0.489\nBENCHMARK:pip_install_florilegium_time_s:0.892\nBENCHMARK:git_clone_time_s:2.592\nBENCHMARK:pip_editable_time_s:0.579",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | install_git\nBENCHMARK:install_git_time_s:0.791\nINSTALL_OK | install_texlive\nBENCHMARK:install_texlive_time_s:83.049\nINSTALL_OK | install_perl\nBENCHMARK:install_perl_time_s:0.489\nINSTALL_FAIL:pip_florilegium:ERROR: Could not find a version that satisfies the requirement florilegium (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for florilegium\nBENCHMARK:pip_install_florilegium_time_s:0.892\nINSTALL_OK | git_clone_https://github.com/kevinraymond/florilegium.git\nBENCHMARK:git_clone_time_s:2.592\nINSTALL_FAIL:pip_editable_/tmp/florilegium_src:[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/florilegium_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nBENCHMARK:pip_editable_time_s:0.579\nTEST_FAIL:import_florilegium:No module named 'florilegium'\nRUN_OK\n"
+  }
+}
