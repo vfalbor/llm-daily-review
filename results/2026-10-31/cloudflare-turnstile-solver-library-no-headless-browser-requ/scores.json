@@ -1,0 +1,98 @@
+{
+  "app_name": "Cloudflare Turnstile solver library",
+  "url": "https://github.com/chris124567/cfsolve",
+  "scored_at": "2026-10-31T14:01:18.519Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 5 days old and is not a fork, but it addresses a problem already solved by many similar services, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 12.1 seconds, but the library is not available on PyPI, requiring a manual install from source."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool for solving Cloudflare Turnstile CAPTCHAs without a headless browser, it fits current automation and web‑scraping trends in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 362 GitHub stars versus much larger established services, and a benchmark import time of 1.60 ms (vs_anticaptcha_latency_ratio 0.000), it is markedly faster than typical alternatives."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 362 stars, 1 contributor, and the last commit was 1 day ago, showing modest but active community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 3 functional tests, 0 passed (0/3), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The library is distributed only via source (no PyPI package), but provides a Python API and CLI wrapper under an MIT license, allowing basic integration with some manual steps."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 5 days old with 39 forks and 2 open issues, suggesting early‑stage development but some early interest."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows an import time of 1.60 ms and a latency ratio of 0.000 compared to anti‑captcha services, indicating a clear speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the library for its novel approach and practical benefits, but several note the difficulty of keeping it up‑to‑date and raise ethical questions about its use, leading to a generally positive but cautiously optimistic assessment."
+    }
+  },
+  "summary": "Cloudflare Turnstile solver is a Python library and CLI that solves Turnstile CAPTCHAs without a headless browser. It runs locally, using a Rust‑based core accessed via Python bindings. The tool is aimed at developers needing fast, lightweight CAPTCHA solving for automation scripts. It shines with extremely low import latency (1.60 ms) but lacks package distribution and has no passing functional tests, raising reliability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/chris124567/cfsolve",
+  "tool_url": "https://github.com/chris124567/cfsolve",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50277379",
+  "domain": "devtool",
+  "app_type": "devtool-others",
+  "enriched": {
+    "github": {
+      "stars": 362,
+      "forks": 39,
+      "open_issues": 2,
+      "watchers": 362,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 5,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Cloudflare turnstile and challenge page solver in Rust (full reverse, request based)",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Innovative solver without headless browsers",
+        "Useful for automation and daily tasks",
+        "Community appreciation and praise"
+      ],
+      "negative_signals": [
+        "Maintenance and continuous updates needed",
+        "Ethical concerns about bypassing anti‑bot measures",
+        "Uncertain reliability and potential abuse"
+      ],
+      "justification": "The majority of comments praise the library for its novel approach and practical benefits, but several note the difficulty of keeping it up‑to‑date and raise ethical questions about its use, leading to a generally positive but cautiously optimistic assessment.",
+      "comment_count": 30,
+      "hn_points": 255
+    }
+  }
+}
