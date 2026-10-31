@@ -1,0 +1,35 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.9.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK | install_git
+BENCHMARK:install_git_time_s:0.791
+INSTALL_OK | install_texlive
+BENCHMARK:install_texlive_time_s:83.049
+INSTALL_OK | install_perl
+BENCHMARK:install_perl_time_s:0.489
+INSTALL_FAIL:pip_florilegium:ERROR: Could not find a version that satisfies the requirement florilegium (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for florilegium
+BENCHMARK:pip_install_florilegium_time_s:0.892
+INSTALL_OK | git_clone_https://github.com/kevinraymond/florilegium.git
+BENCHMARK:git_clone_time_s:2.592
+INSTALL_FAIL:pip_editable_/tmp/florilegium_src:[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///tmp/florilegium_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+BENCHMARK:pip_editable_time_s:0.579
+TEST_FAIL:import_florilegium:No module named 'florilegium'
+RUN_OK
