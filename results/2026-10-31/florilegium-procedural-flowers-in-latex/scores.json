@@ -1,0 +1,97 @@
+{
+  "app_name": "Florilegium: Procedural Flowers in LaTeX",
+  "url": "https://github.com/kevinraymond/florilegium",
+  "scored_at": "2026-10-31T14:03:09.700Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 1 day old and not a fork, but it replicates functionality offered by established tools like TikZ, giving it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Installation succeeded but took 95.9 seconds and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool for LaTeX graphics it addresses a niche need; it is useful but not a core part of current LLM workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "With 1,004 GitHub stars it shows community interest, and its procedural flower generation is a unique feature compared to TikZ, PGFplots, and Asymptote."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 1,004 stars, 24 forks, and was updated today, indicating an active but still small contributor base."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0%) and only basic run succeeded, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available as a LaTeX package and a CLI, but lacks a PyPI distribution; integration requires manual inclusion."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topics was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 1 day old with 24 forks and 0 open issues, placing it at an early‑stage maturity level."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No comparative benchmark data were reported; installation timings are present but not benchmarked against alternatives."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The majority of comments praise the aesthetic and technical novelty of the project, with several users expressing excitement and appreciation. A few commenters criticize the AI‑generated README and question the project's alignment with LaTeX tradition, but these are minority views."
+    }
+  },
+  "summary": "Florilegium is a LaTeX package (and CLI) that generates procedural flower graphics using adjustable parameters. It is implemented in Lua and can be invoked directly in LaTeX documents or via a preview command‑line tool. The package is aimed at LaTeX authors who want unique decorative graphics without hand‑crafting TikZ code. It stands out with over 1,000 GitHub stars and a novel procedural approach, but its documentation is sparse, there is no PyPI distribution, and the test suite shows 0 of 1 tests passing, indicating usability risks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/kevinraymond/florilegium",
+  "tool_url": "https://github.com/kevinraymond/florilegium",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50305637",
+  "domain": "devtool",
+  "app_type": "devtool-others",
+  "enriched": {
+    "github": {
+      "stars": 1004,
+      "forks": 24,
+      "open_issues": 0,
+      "watchers": 1004,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Lua",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Beautiful visuals",
+        "Innovative procedural graphics",
+        "Community enthusiasm"
+      ],
+      "negative_signals": [
+        "AI-generated README criticism",
+        "Some skepticism about tradition"
+      ],
+      "justification": "The majority of comments praise the aesthetic and technical novelty of the project, with several users expressing excitement and appreciation. A few commenters criticize the AI‑generated README and question the project's alignment with LaTeX tradition, but these are minority views.",
+      "comment_count": 30,
+      "hn_points": 323
+    }
+  }
+}
