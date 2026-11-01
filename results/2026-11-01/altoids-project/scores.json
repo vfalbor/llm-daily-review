@@ -1,0 +1,95 @@
+{
+  "app_name": "Altoids Project",
+  "url": "https://uvdn7.github.io/altoids-project/",
+  "scored_at": "2026-11-01T14:03:41.564Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is similar to existing generators like Hugo and Gatsby, so we treat it as an incremental addition."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 16.6 seconds, which is under the 30‑second threshold for easy setup, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a static‑site generator it remains useful for quick publishing, but it does not address a hot LLM‑specific workflow."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No star count is available for Altoids, while comparable tools have 90k, 56k and 4k stars, indicating Altoids offers fewer distinguishing features."
+    },
+    "community": {
+      "score": 6,
+      "justification": "There is no GitHub data, but Hacker News shows 127 points and 7 comments with a 9/10 sentiment, suggesting a modest but engaged community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (<50%), indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is a CLI with build mode and no PyPI package; no API mode or license information is provided, so integration is moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic metadata were retrieved; documentation quality cannot be assessed beyond the project homepage."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Repository metadata such as creation date, forks or open issues is unavailable, so we assign a neutral maturity score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A benchmark note reports an install time of 1.957 s, but there is no comparative performance data against similar generators."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The comments overwhelmingly celebrate the project’s nostalgic appeal and community spirit, with users reminiscing about past Altoids projects and expressing excitement for future developments, showing no significant criticism."
+    }
+  },
+  "summary": "Altoids Project is a lightweight static site generator written in Go that builds minimal HTML/CSS sites via a CLI. It operates locally without requiring an API key and targets quick publishing workflows. It is suited for developers who need a simple, fast tool for small websites and prefer Go‑based tooling. The standout strength is its fast install time of under 2 seconds, while the main caveat is the lack of test coverage (0/5 tests passed) and limited community signals beyond modest Hacker News enthusiasm.",
+  "recommendation": "niche",
+  "app_url": "https://uvdn7.github.io/altoids-project/",
+  "tool_url": "https://github.com/uvdn7/altoids",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50321048",
+  "domain": "web",
+  "app_type": "static-site-generator",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Hugo",
+        "stars": 90312,
+        "repo": "gohugoio/hugo"
+      },
+      {
+        "name": "Gatsby",
+        "stars": 55920,
+        "repo": "gatsbyjs/gatsby"
+      },
+      {
+        "name": "Eleventy",
+        "stars": 4035,
+        "repo": "google/eleventy-high-performance-blog"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "nostalgic enthusiasm",
+        "supportive encouragement",
+        "community engagement"
+      ],
+      "negative_signals": [],
+      "justification": "The comments overwhelmingly celebrate the project’s nostalgic appeal and community spirit, with users reminiscing about past Altoids projects and expressing excitement for future developments, showing no significant criticism.",
+      "comment_count": 7,
+      "hn_points": 127
+    }
+  }
+}
