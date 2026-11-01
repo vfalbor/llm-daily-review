@@ -1,0 +1,125 @@
+{
+  "app_name": "Memdoor",
+  "url": "https://github.com/guregodevo/memdoor",
+  "scored_at": "2026-11-01T14:01:23.175Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 26 days ago, not a fork, but mirrors existing orchestration tools like CrewAI, so it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 10.1 s and runs on consumer hardware, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-framework it directly addresses the current demand for multi‑model orchestration in LLM pipelines."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 134 stars it is far smaller than CrewAI (60 378) and LangChain (148 813), but claims a unique state‑of‑the‑art result on LiveCodeBench Hard."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 134 stars, 1 contributor, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 6 tests passed (≈16 %) indicating limited core functionality in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Provides a CLI and Python API and is Apache‑2.0 licensed, but lacks a PyPI package, making integration moderate."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages data were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 26 days old with 18 forks and zero open issues, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only an install_time_s of 0.631 s is reported; no comparative benchmark data are available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments largely praise the clever harness and local performance gains, yet several users raise valid doubts about quantization fidelity, benchmark validity, and long‑term scalability, resulting in a generally positive but cautiously optimistic assessment."
+    }
+  },
+  "summary": "Memdoor is a Go‑based workflow orchestration framework that chains multiple Qwen3.8‑27B models to solve coding challenges, achieving state‑of‑the‑art results on the LiveCodeBench Hard benchmark. It can be used via a CLI or Python API and requires an API key for the underlying models. The tool is aimed at researchers or teams experimenting with multi‑model ensembles for code generation. Its standout strength is the demonstrated benchmark win, while its small community and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+  "tool_url": "https://github.com/guregodevo/memdoor",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50320995",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 134,
+      "forks": 18,
+      "open_issues": 0,
+      "watchers": 134,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 26,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A lightweight coding and automation agent in one CLI binary. Run locally or over SSH, optimize token use, and automate CI and cron with durable workflows.",
+      "topics": [
+        "agentic-workflows",
+        "ai-agent",
+        "coding-agent",
+        "developer-tools",
+        "golang",
+        "llm",
+        "openrouter",
+        "terminal",
+        "tui",
+        "workflow"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "CrewAI",
+        "stars": 60378,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "LangChain",
+        "stars": 148813,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "LlamaIndex",
+        "stars": 52768,
+        "repo": "run-llama/llama_index"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Effective harness boosting performance",
+        "Community enthusiasm for local models",
+        "Potential for cost‑effective inference"
+      ],
+      "negative_signals": [
+        "Concerns about quantization quality",
+        "Uncertain benchmark relevance",
+        "Skepticism on scalability"
+      ],
+      "justification": "Comments largely praise the clever harness and local performance gains, yet several users raise valid doubts about quantization fidelity, benchmark validity, and long‑term scalability, resulting in a generally positive but cautiously optimistic assessment.",
+      "comment_count": 30,
+      "hn_points": 306
+    }
+  }
+}
