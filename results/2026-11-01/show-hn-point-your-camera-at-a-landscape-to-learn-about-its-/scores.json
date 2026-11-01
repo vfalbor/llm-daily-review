@@ -1,0 +1,99 @@
+{
+  "app_name": "Point your camera at a landscape to learn about its geology",
+  "url": "https://outcrop.rocks/",
+  "scored_at": "2026-11-01T14:02:21.175Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is provided, and similar tools exist, so the novelty cannot be proven beyond an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install success is false and install time was 9.9 s, with no PyPI package, indicating a broken or very difficult setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a computer‑vision tool for geology, it addresses a niche use case that is moderately relevant to current AI workflows but not a core LLM need."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The similar tools have 15, 0, and 33 stars respectively, and the only benchmark is an inference latency of 0.800 ms, giving no clear advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository is detected; HN points are 42 with 6 comments, placing community engagement in the low range."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 3 tests passed and install failed, indicating core functionality does not work out of the box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers CLI, Web UI, and API use modes even though there is no PyPI package, suggesting moderate integration potential."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data (wiki, pages, topics) is available, and no documentation details were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, only HN signals (42 points) are available, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output provides install times and a latency of 0.800 ms, but no comparative data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Overall sentiment leans positive with enthusiasm for the concept and offline support, but some users report technical glitches and wish for a web version, resulting in a moderate score."
+    }
+  },
+  "summary": "This open‑source tool uses a Vision Transformer to identify geological formations from photos via a CLI, web UI, and API. It runs locally without an API key and is built on a pre‑trained computer‑vision model. It is suited for hobbyists or educators who want offline geology identification, but the installation fails and the lack of package distribution makes deployment difficult. The only measurable strength is a fast inference latency of 0.8 ms, while the main caveat is the broken install process and minimal community support.",
+  "recommendation": "niche",
+  "app_url": "https://outcrop.rocks/",
+  "tool_url": "https://github.com/outcrop-ml/outcrop",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50290533",
+  "domain": "ml",
+  "app_type": "computer-vision",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "GeoVision",
+        "stars": 15,
+        "repo": "LiquidGalaxyLAB/LG-GeoVisionAI"
+      },
+      {
+        "name": "LandmarkNet",
+        "stars": 0,
+        "repo": "dotstudio01/LandmarkNet"
+      },
+      {
+        "name": "GeoDL",
+        "stars": 33,
+        "repo": "maxwell-geospatial/wvview_geodl_examples"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Innovative idea and useful educational value",
+        "Good offline functionality and strong user excitement",
+        "Positive feedback on animation and overall experience"
+      ],
+      "negative_signals": [
+        "Technical issues with live view on Android",
+        "App installation preference concerns",
+        "Minor usability and UI concerns"
+      ],
+      "justification": "Overall sentiment leans positive with enthusiasm for the concept and offline support, but some users report technical glitches and wish for a web version, resulting in a moderate score.",
+      "comment_count": 6,
+      "hn_points": 42
+    }
+  }
+}
