@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "hn_url": "https://news.ycombinator.com/item?id=50320995",
+    "points": 306,
+    "comments": 147,
+    "author": "guregodevo",
+    "age": "2026-10-31T22:46:12",
+    "scraped_at": "2026-11-01T14:00:02.917Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/guregodevo/memdoor",
+    "source_type": "tool",
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "Memdoor is a workflow orchestration framework that chains multiple Qwen models to solve coding challenges, achieving state‑of‑the‑art results on the LiveCodeBench Hard benchmark.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "CrewAI",
+      "LangChain",
+      "LlamaIndex"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies via pip install -e .",
+      "Run the example workflow from examples/workflows/team-solve and verify that the generated code passes the LiveCodeBench Hard tests.",
+      "Measure end‑to‑end execution time of the workflow and compare against the baseline reported in the paper.",
+      "Execute a single‑model run using the default Qwen3.8-27B and confirm that the output is valid Python code."
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/guregodevo/memdoor"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793541655760-vkkpl",
+    "log_dir": "/tmp/llm-review-1793541655760-vkkpl",
+    "install_success": true,
+    "install_time_s": 10.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.631",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone_repo\nBENCHMARK:install_time_s:0.631\nTEST_FAIL:pip_install_editable:[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/memdoor_repo does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_FAIL:import_memdoor:No module named 'memdoor'\nTEST_FAIL:minimal_workflow:No module named 'memdoor'\nTEST_FAIL:e2e_execution:No module named 'memdoor'\nTEST_FAIL:single_model_run:No module named 'memdoor'\nRUN_OK\n"
+  }
+}
