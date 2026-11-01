@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "Show HN: Point your camera at a landscape to learn about its geology",
+    "url": "https://outcrop.rocks/",
+    "hn_url": "https://news.ycombinator.com/item?id=50290533",
+    "points": 42,
+    "comments": 6,
+    "author": "headsupernova",
+    "age": "2026-10-29T15:22:41",
+    "scraped_at": "2026-11-01T14:00:02.918Z",
+    "tool_url": "https://github.com/outcrop-ml/outcrop",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "ml",
+    "app_type": "computer-vision",
+    "description": "An open-source model and web interface that identifies geological formations from photographs using a pre‑trained Vision Transformer.",
+    "use_modes": [
+      "CLI",
+      "Web UI",
+      "API"
+    ],
+    "similar_tools": [
+      "GeoVision",
+      "LandmarkNet",
+      "GeoDL"
+    ],
+    "proposed_tests": [
+      "pip install outcrop",
+      "run outcrop --help",
+      "upload a sample image and verify the predicted rock type",
+      "measure inference latency on a local GPU",
+      "compare accuracy against a baseline dataset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/outcrop-ml/outcrop"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793541684586-f5pih",
+    "log_dir": "/tmp/llm-review-1793541684586-f5pih",
+    "install_success": false,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.557\nBENCHMARK:pip_outcrop_install_s:1.082\nBENCHMARK:pip_pillow_install_s:1.805\nBENCHMARK:vs_geovision_inference_latency_ms:0.800",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nBENCHMARK:apk_git_install_s:0.557\nBENCHMARK:pip_outcrop_install_s:1.082\nTEST_FAIL:import_outcrop:No module named 'outcrop'\nTEST_FAIL:cli_help:binary not found\nBENCHMARK:pip_pillow_install_s:1.805\nTEST_FAIL:import_outcrop:No module named 'outcrop'\nBENCHMARK:vs_geovision_inference_latency_ms:0.800\nRUN_OK\n"
+  }
+}
