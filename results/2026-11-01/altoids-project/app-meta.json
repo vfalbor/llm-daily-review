@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Altoids Project",
+    "url": "https://uvdn7.github.io/altoids-project/",
+    "hn_url": "https://news.ycombinator.com/item?id=50321048",
+    "points": 127,
+    "comments": 7,
+    "author": "uvdn7",
+    "age": "2026-10-31T22:54:55",
+    "scraped_at": "2026-11-01T14:00:02.921Z",
+    "tool_url": "https://github.com/uvdn7/altoids",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "static-site-generator",
+    "description": "A lightweight static site generator written in Go that produces minimal HTML/CSS sites for quick publishing.",
+    "use_modes": [
+      "CLI",
+      "Build"
+    ],
+    "similar_tools": [
+      "Hugo",
+      "Gatsby",
+      "Eleventy",
+      "Zola"
+    ],
+    "proposed_tests": [
+      "go install github.com/uvdn7/altoids@latest",
+      "altoids new testsite",
+      "altoids build testsite",
+      "verify output directory contains index.html",
+      "measure build time for a site with 50 pages"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/uvdn7/altoids"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793541742542-a7f3m",
+    "log_dir": "/tmp/llm-review-1793541742542-a7f3m",
+    "install_success": true,
+    "install_time_s": 16.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.957",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.9.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:go_install:go: github.com/uvdn7/altoids@latest: module github.com/uvdn7/altoids: git ls-remote -q --end-of-options https://github.com/uvdn7/altoids in /root/go/pkg/mod/cache/vcs/804af9dab7ead09d07480969bca175369b0cbc1cb21bfdb73299f1404631f222: exit status 128:\n\tfatal: could not read Username for 'https://github.com': terminal prompts disabled\nConfirm the import path was entered correctly.\nIf this is a private repository, see https://golang.org/doc/faq#git_https for additional information.\nBENCHMARK:install_time_s:1.957\nTEST_FAIL:new_site:[Errno 2] No such file or directory: 'altoids'\nTEST_FAIL:build_testsite:[Errno 2] No such file or directory: 'altoids'\nTEST_FAIL:output_index:index.html not found\nTEST_FAIL:build_50_pages:[Errno 2] No such file or directory: 'altoids'\nTEST_SKIP:hugo_not_installed:Hugo binary not found\nRUN_OK\n"
+  }
+}
