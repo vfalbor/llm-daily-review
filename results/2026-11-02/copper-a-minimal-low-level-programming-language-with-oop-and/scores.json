@@ -1,0 +1,106 @@
+{
+  "app_name": "Copper",
+  "url": "https://tibleiz.net/copper/",
+  "scored_at": "2026-11-02T14:02:16.941Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so there is insufficient evidence to assess novelty."
+    },
+    "system_requirements": {
+      "score": 1,
+      "justification": "Install failed (install_success false) after 19.3 seconds, indicating a broken install process."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a low‑level programming language (type lang-new) it addresses a niche not directly aligned with today's dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Copper has no reported GitHub stars while similar languages have tens of thousands of stars (Zig 43,261; Nim 18,296; D 376,519), and no benchmark advantage is demonstrated."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repository is detected; using HN points (185) places community health in the 50‑200 range, yielding a low‑moderate score."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests passed (0/0) and the install failed, indicating core functionality is not usable out of the box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package (v0.9.1) is available and the tool offers CLI, REPL, and compiler modes, facilitating integration despite missing API details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation metrics (wiki, GitHub pages, topics) are available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, HN points (185) fall in the 100‑300 range, giving a modest maturity indication."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an install time of 11.24 s but no comparative data are provided, so performance is rated as average."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the language’s design, syntax, and self-hosting approach, while a minority raise concerns about GC, Unicode handling, and ambiguous OOP descriptions."
+    }
+  },
+  "summary": "Copper is a minimal low‑level programming language that adds object‑oriented programming and generics while aiming for small size and fast execution. It is distributed as a PyPI package and can be used via CLI, REPL, or as a compiler, making it straightforward to try locally. The language targets developers who need an embeddable, high‑performance language with a Ruby/Python‑style syntax. While the community appreciates its design, the project lacks a public repository, benchmarks, and robust documentation, and the installer currently fails, limiting its practical adoption.",
+  "recommendation": "skip",
+  "app_url": "https://tibleiz.net/copper/",
+  "tool_url": "https://github.com/tibleiz/copper",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50308754",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Zig",
+        "stars": 43261,
+        "repo": "ziglang/zig"
+      },
+      {
+        "name": "Nim",
+        "stars": 18296,
+        "repo": "nim-lang/Nim"
+      },
+      {
+        "name": "D",
+        "stars": 376519,
+        "repo": "donnemartin/system-design-primer"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.9.1",
+      "summary": "Module for interacting with electromechanical systems.",
+      "requires_python": "",
+      "license": "Apache 2 license",
+      "home_page": "https://github.com/google/copper"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Language design appreciation",
+        "Ruby/Python style syntax",
+        "Self-hosting benefits"
+      ],
+      "negative_signals": [
+        "Unclear garbage collection",
+        "Unicode support concerns",
+        "OOP description confusion"
+      ],
+      "justification": "The majority of comments praise the language’s design, syntax, and self-hosting approach, while a minority raise concerns about GC, Unicode handling, and ambiguous OOP descriptions.",
+      "comment_count": 30,
+      "hn_points": 185
+    }
+  }
+}
