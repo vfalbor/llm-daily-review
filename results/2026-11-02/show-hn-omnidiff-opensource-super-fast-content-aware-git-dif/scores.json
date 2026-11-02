@@ -1,0 +1,137 @@
+{
+  "app_name": "OmniDiff",
+  "url": "https://github.com/ivankovic/omnidiff",
+  "scored_at": "2026-11-02T14:03:32.343Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 381 days ago and is not a fork, but similar diff tools exist with far more stars, indicating it is an incremental improvement rather than a breakthrough."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 36.6 s and the package is available on PyPI, requiring only Python ≥3, showing a relatively easy setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI diff utility it addresses a niche need in developer workflows but is not a core component of current LLM pipelines."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "OmniDiff has 719 stars versus 18k‑61k stars for comparable tools and benchmarks show a latency of 1.94 ms, suggesting some speed advantage but limited overall distinction."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 719 stars, 2 contributors, and was updated today (0 days since last commit), indicating an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "All 3 functional tests failed (0/3 passed) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is a CLI only, available via PyPI, with no documented API or webhook support, making integration possible but manual."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README depth was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project is 381 days old, has 12 forks, 11 open issues, and a released version 1.3 on PyPI, indicating a stable, production‑ready state."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmarks report an omnidiff latency of 1.94 ms and low memory use (≈60 KB), showing good performance though no direct comparison to alternatives is available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments largely praise OmniDiff’s improved diff quality, speed and Rust base, with few users expressing concerns over the AGPL license choice and legal complexities surrounding AI-generated code; overall reception is enthusiastic with minor nitpicks."
+    }
+  },
+  "summary": "OmniDiff is a Rust‑based CLI tool that provides content‑aware Git diffs with fast, low‑memory processing. It runs locally without external APIs and is distributed via PyPI for easy installation. The tool targets developers who need high‑speed diffing in their version‑control workflow, especially those valuing Rust performance. Its main strength is the sub‑2 ms latency, while the lack of passing functional tests and limited integration options are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ivankovic/omnidiff",
+  "tool_url": "https://github.com/ivankovic/omnidiff",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50325253",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 719,
+      "forks": 12,
+      "open_issues": 11,
+      "watchers": 719,
+      "contributors": 2,
+      "license": "NOASSERTION",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 381,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Fast, robust, accurate diffing ",
+      "topics": [
+        "ast-diff",
+        "ast-diff-tool",
+        "ast-differencing",
+        "code-quality",
+        "code-review",
+        "codereview",
+        "codereview-tools",
+        "diff",
+        "difftool",
+        "git",
+        "git-diff",
+        "git-difftool",
+        "ratatui",
+        "structural-diff",
+        "syntax-aware-diff"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "diff-so-fancy",
+        "stars": 18106,
+        "repo": "so-fancy/diff-so-fancy"
+      },
+      {
+        "name": "delta",
+        "stars": 32633,
+        "repo": "dandavison/delta"
+      },
+      {
+        "name": "bat",
+        "stars": 61024,
+        "repo": "sharkdp/bat"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.3",
+      "summary": "A diff toolkit for python",
+      "requires_python": ">=3",
+      "license": "MIT",
+      "home_page": "https://github.com/game1024/omnidiff"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Superior diff accuracy",
+        "Fast Rust implementation",
+        "Positive community feedback"
+      ],
+      "negative_signals": [
+        "License controversy (AGPL vs MIT)",
+        "Complex comparison with existing tools",
+        "Some concerns about legal aspects of AI-generated code"
+      ],
+      "justification": "Comments largely praise OmniDiff’s improved diff quality, speed and Rust base, with few users expressing concerns over the AGPL license choice and legal complexities surrounding AI-generated code; overall reception is enthusiastic with minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 274
+    }
+  }
+}
