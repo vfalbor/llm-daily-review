@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+    "url": "https://github.com/ivankovic/omnidiff",
+    "hn_url": "https://news.ycombinator.com/item?id=50325253",
+    "points": 274,
+    "comments": 81,
+    "author": "FabCH",
+    "age": "2026-11-01T13:02:30",
+    "scraped_at": "2026-11-02T14:00:02.876Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "tool_url": "https://github.com/ivankovic/omnidiff",
+    "description": "A Rust implementation of a content‑aware Git diff tool that performs fast diffs with contextual awareness.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "diff-so-fancy",
+      "delta",
+      "bat"
+    ],
+    "proposed_tests": [
+      "Install with cargo install omnidiff",
+      "Run omnidiff on a sample repo and compare output to git diff",
+      "Measure diff latency for a 50kB file",
+      "Verify content‑aware diff by editing a block and observing correct grouping"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ivankovic/omnidiff"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793628138469-qw1d3",
+    "log_dir": "/tmp/llm-review-1793628138469-qw1d3",
+    "install_success": true,
+    "install_time_s": 36.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.713\nBENCHMARK:cargo_install_time_s:10.899\nBENCHMARK:omnidiff_latency_ms:1.94\nBENCHMARK:gitdiff_latency_ms:5.30\nBENCHMARK:line_count:5\nBENCHMARK:memory_peak_kb:59.81",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:5.713\nINSTALL_FAIL:cargo install error: Updating crates.io index\n Downloading crates ...\n  Downloaded omnidiff v0.3.0\n  Installing omnidiff v0.3.0\n    Updating crates.io index\n     Locking 430 packages to latest compatible versions\n      Adding generic-array v0.14.7 (available: v0.14.9)\n      Adding hayro v0.7.1 (available: v0.8.0)\n      Adding lzma-rust2 v0.21.0 (available: v0.25.0)\n      Adding psm v0.1.24 (available: v0.1.32)\n      Adding resvg v0.48.1 (available: v0.49.0)\n      Adding skrifa v0.48.0 (available: v0.49.0)\n      Adding tree-sitter v0.25.10 (available: v0.27.1)\n      Adding tree-sitter-php v0.24.2 (available: v0.25.1)\n      Adding tree-sitter-scala v0.24.1 (available: v0.26.4)\n Downloading crates ...\n  Downloaded alloc-stdlib v0.2.4\n  Downloaded adler2 v2.0.1\n  Downloaded cfg-if v1.0.5\n  Downloaded bit-set v0.8.0\n  Downloaded anstyle-query v1.1.5\n  Downloaded fnv v1.0.7\n  Downloaded alloc-no-stdlib v2.0.4\n  Downloaded block-buffer v0.10.4\n  Downloaded cfg_aliases v0.2.2\n  Downloaded fastrand v2.5.0\n  Downloaded pico-args v0.5.0\n  Downloaded cpufeatures v0.3.1\n  Downloaded phf_shared v0.13.1\n  Downloaded cpufeatures v0.2.17\n  Downloaded convert_case v0.10.0\n  Downloaded siphasher v1.0.4\n  Downloaded scopeguard v1.2.0\n  Downloaded radium v0.7.0\n  Downloaded strum v0.28.0\n  Downloaded ratatui-macros v0.7.2\n  Downloaded polycool v0.4.0\n  Downloaded thiserror-impl v2.0.21\n  Downloaded terminfo v0.9.0\n  Downloaded tree-sitter-language v0.1.9\n  Downloaded zerofrom-derive v0.1.8\n  Downloaded zmij v1.0.23\n  Downloaded yaml-rust v0.4.5\n  Downloaded vello_common v0.0.8\n  Downloaded zune-core v0.5.3\n  Downloaded zerocopy-derive v0.8.63\n  Downloaded tree-sitter-go v0.25.0\n  Downloaded zune-jpeg v0.5.15\n  Downloaded winnow v1.0.4\n  Downloaded zlib-rs v0.6.8\n  Downloaded walkdir v2.5.0\n  Downloaded ucd-trie v0.1.7\n  Downloaded unicode-ident v1.0.27\n  Downloaded tree-sitter-c v0.24.2\n  Downloaded vello_cpu v0.0.8\n  Downloaded zerocopy v0.8.63\n  Downloaded usvg v0.48.1\n  Downloaded tree-sitter-vim v0.4.0\n  Downloaded rustix v1.1.6\n  Downloaded hashbrown v0.17.1\n  Downloaded read-fonts v0.39.2\n  Downloaded weezl v0.1.12\n  Downloaded tree-sitter-rust v0.24.2\n  Downloaded hayro-cmap v0.1.0\n  Downloaded image v0.25.10\n  Downloaded nix v0.31.3\n  Downloaded tree-sitter-bash v0.25.1\n  Downloaded regex-automata v0.4.18\n  Downloaded unicode-segmentation v1.13.3\n  Downloaded tree-sitter-ruby v0.23.1\n  Downloaded wezterm-bidi v0.2.3\n  Downloaded tree-sitter-php v0.24.2\n  Downloaded read-fonts v0.45.1\n  Downloaded tree-sitter-r v1.3.0\n  Downloaded palette v0.7.7\n  Downloaded onig_sys v69.9.3\n  Downloaded nix v0.29.0\n  Downloaded libm v0.2.16\n  Downloaded kurbo v0.13.1\n  Downloaded syntect v5.3.0\n  Downloaded hayro-jpeg2000 v0.3.5\n  Downloaded unicode-width v0.2.3\n  Downloaded pxfm v0.1.30\n  Downloaded time v0.3.55\n  Downloaded termwiz v0.23.3\n  Downloaded regex-syntax v0.8.11\n  Downloaded hayro-syntax v0.7.2\n  Downloaded tree-sitter-typescript v0.23.2\n  Downloaded kasuari v0.4.13\n  Downloaded indexmap v2.14.2\n  Downloaded image-webp v0.2.4\n  Downloaded tree-sitter-cpp v0.23.4\n  Downloaded deltae v0.3.2\n  Downloaded tokio v1.54.1\n  Downloaded rustix v0.38.44\n  Downloaded tree-sitter-kotlin-ng v1.1.0\n  Downloaded libc v0.2.191\n  Downloaded parking_lot_core v0.9.12\n  Downloaded hayro-jbig2 v0.3.1\n  Downloaded tree-sitter-swift v0."
+  }
+}
