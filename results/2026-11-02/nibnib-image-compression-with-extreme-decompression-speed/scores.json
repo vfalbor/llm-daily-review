@@ -1,0 +1,114 @@
+{
+  "app_name": "Nibnib: Image compression with extreme decompression speed",
+  "url": "https://github.com/raphlinus/nibnib",
+  "scored_at": "2026-11-02T14:01:17.409Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 3 days ago and is not a fork, but similar compressors like brotli and zstd-image already exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11.3 s and requires no API key, indicating a simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a data‑format compression library it addresses ongoing needs for fast image decoding, though it is not tied to the current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Nibnib has 122 stars versus brotli's 15,076 stars, showing far less community adoption; no benchmark data were provided to prove a speed advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 122 stars (100–1k range), 1 contributor, and was updated 3 days ago, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50% success) despite a successful install, suggesting core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides a library API and CLI, is licensed Apache‑2.0, but lacks a PyPI package, requiring manual build for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was supplied, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repo is only 3 days old, has 5 forks and 2 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments are generally positive, praising the project’s speed and innovative use of a custom assembler, while also pointing out missing performance benchmarks and some off-topic or sarcastic remarks."
+    }
+  },
+  "summary": "Nibnib is a Rust‑based image compression library that promises extremely fast decompression via a custom assembler backend. It offers both a CLI and a library API and can be built locally without external API keys. The tool targets developers needing high‑speed image decoding, especially in low‑resource environments. While the code installs quickly, the test suite shows no passed tests and no public benchmarks, and the project is only days old with modest community traction.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/raphlinus/nibnib",
+  "tool_url": "https://github.com/raphlinus/nibnib",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50299811",
+  "domain": "data",
+  "app_type": "data-format",
+  "enriched": {
+    "github": {
+      "stars": 122,
+      "forks": 5,
+      "open_issues": 2,
+      "watchers": 122,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Image compression at 4bpp with extreme decompression speed",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "brotli",
+        "stars": 15076,
+        "repo": "google/brotli"
+      },
+      {
+        "name": "zstd-image",
+        "stars": 3,
+        "repo": "Griggorii/linux-image-5.9.3_amd64.deb_light_zstd_ultra_fast_kernel_wayland_fast"
+      },
+      {
+        "name": "jpegxl",
+        "stars": 112,
+        "repo": "novomesk/qt-jpegxl-image-plugin"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "well-executed low-resource decoding",
+        "impressive speed claims",
+        "use of unique assembler language"
+      ],
+      "negative_signals": [
+        "lack of benchmark data",
+        "questionable claims vs JPEG",
+        "some off-topic remarks"
+      ],
+      "justification": "The comments are generally positive, praising the project’s speed and innovative use of a custom assembler, while also pointing out missing performance benchmarks and some off-topic or sarcastic remarks.",
+      "comment_count": 30,
+      "hn_points": 163
+    }
+  }
+}
