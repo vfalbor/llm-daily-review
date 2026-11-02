@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Nibnib: Image compression with extreme decompression speed",
+    "url": "https://github.com/raphlinus/nibnib",
+    "hn_url": "https://news.ycombinator.com/item?id=50299811",
+    "points": 163,
+    "comments": 30,
+    "author": "raphlinus",
+    "age": "2026-10-30T04:17:06",
+    "scraped_at": "2026-11-02T14:00:02.872Z",
+    "tool_url": "https://github.com/raphlinus/nibnib",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "data",
+    "app_type": "data-format",
+    "description": "A high‑performance image compression library that achieves very fast decompression speeds while maintaining competitive compression ratios.",
+    "use_modes": [
+      "Library API",
+      "CLI"
+    ],
+    "similar_tools": [
+      "brotli",
+      "zstd-image",
+      "jpegxl",
+      "mozjpeg"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `cargo build` to build the library.",
+      "Run the provided `bench.rs` benchmark on a set of sample images and record compression ratio and decompression latency.",
+      "Compare the decompression latency to that of `zstd` and `jpegxl` on the same images.",
+      "Verify that the CLI `nibnib compress` command produces a valid image file that can be decoded by standard image viewers."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/raphlinus/nibnib"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793628044018-7c52e",
+    "log_dir": "/tmp/llm-review-1793628044018-7c52e",
+    "install_success": true,
+    "install_time_s": 11.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:pip_install_time_s:-1",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement nibnib (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for nibnib\n\n[notice] A new release of pip is available: 25.0.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/tmp1qqx_blc does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:pip_install_time_s:-1\nTEST_FAIL:install_nibnib:pip and git fallback failed: Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', '-e', '.']' returned non-zero exit status 1.\nTEST_FAIL:import_nibnib:Installation failed\nRUN_OK\n"
+  }
+}
