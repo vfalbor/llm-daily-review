@@ -1,0 +1,75 @@
+{
+  "app_name": "Kvittas",
+  "url": "https://kvittas.app/",
+  "scored_at": "2026-11-03T14:05:23.761Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork information are not provided, so no quantitative evidence of originality is available."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 10.3 seconds and the app runs in a browser without requiring a PyPI package, indicating a simple setup."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a web‑SaaS expense splitter, which does not address a primary pain point in the current LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Benchmark shows a latency ratio of 1.11 versus Splitwise, indicating it is slightly slower and provides no clear advantage over existing tools."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository or stars are available, and Hacker News points are only 5, reflecting minimal community activity."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 out of 4 tests passed (50%) and the basic run succeeded, meeting the ≥50% threshold for a moderate usability rating."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The service offers a REST API use mode but lacks a published SDK or PyPI package, requiring manual integration work."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The website has no docs/wiki link and the page content is 4638 characters, indicating limited documentation depth."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No version, changelog, or repository information is present, suggesting the project is in an early or untracked stage."
+    },
+    "performance": {
+      "score": 4,
+      "justification": "Benchmark data shows a latency ratio of 1.11 versus Splitwise and modest request times, but no clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Kvittas is a web‑based expense‑splitting tool that lets groups track and divide bills. It runs in the browser and also exposes a REST API, but it has no SDK or package installer. It is suited for small teams or friends who need a simple online splitter and are comfortable using a web UI. The app’s main strength is its straightforward browser interface, while its lack of documentation, community backing, and slower performance compared to Splitwise are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://kvittas.app/",
+  "tool_url": "https://kvittas.app/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50351427",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 5
+    }
+  }
+}
