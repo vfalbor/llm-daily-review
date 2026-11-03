@@ -1,0 +1,65 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+    "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "hn_url": "https://news.ycombinator.com/item?id=50346849",
+    "points": 295,
+    "comments": 58,
+    "author": "bpierre",
+    "age": "2026-11-03T01:33:43",
+    "scraped_at": "2026-11-03T14:00:02.183Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "repo_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A cross‑platform command‑line application for creating disc images and burning them to optical media, with support for custom artwork and metadata.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "ImgBurn",
+      "cdburnerxp",
+      "BurntSushi's dd"
+    ],
+    "proposed_tests": [
+      {
+        "test": "git clone https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+        "action": "verify repository"
+      },
+      {
+        "test": "discimaged --help",
+        "action": "confirm help output"
+      },
+      {
+        "test": "discimaged create --size 700M --output test.iso",
+        "action": "create ISO image"
+      },
+      {
+        "test": "discimaged burn --source test.iso",
+        "action": "burn to virtual medium (e.g., loopback) and verify integrity"
+      },
+      {
+        "test": "measure burn time for 700MB image",
+        "action": "benchmark performance"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1793714571606-4ulfy",
+    "log_dir": "/tmp/llm-review-1793714571606-4ulfy",
+    "install_success": true,
+    "install_time_s": 16.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.43\nBENCHMARK:git_clone_time_s:2.41\nBENCHMARK:dd_10M_copy_ms:2.36\nBENCHMARK:memory_peak_kb:39492.66",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:5.43\nINSTALL_OK\nBENCHMARK:git_clone_time_s:2.41\nINSTALL_FAIL:build:error: could not find `Cargo.toml` in `/tmp/DiscImageStudio` or any parent directory\nTEST_SKIP:help:binary not built\nTEST_SKIP:version:binary not built\nBENCHMARK:dd_10M_copy_ms:2.36\nBENCHMARK:memory_peak_kb:39492.66\nRUN_OK\n"
+  }
+}
