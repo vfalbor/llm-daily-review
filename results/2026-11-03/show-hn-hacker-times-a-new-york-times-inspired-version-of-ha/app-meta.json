@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 12,
+    "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+    "url": "https://hackertimes.ca/",
+    "hn_url": "https://news.ycombinator.com/item?id=50346981",
+    "points": 356,
+    "comments": 111,
+    "author": "polpenn",
+    "age": "2026-11-03T01:53:34",
+    "scraped_at": "2026-11-03T14:00:02.184Z",
+    "tool_url": "https://hackertimes.ca/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.89,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "A self‑hosted, static‑site powered Hacker News clone inspired by the New York Times design.",
+    "use_modes": [
+      "Browser",
+      "API (JSON endpoint)"
+    ],
+    "similar_tools": [
+      "HN-Clone",
+      "Hacker News",
+      "Feedbin"
+    ],
+    "proposed_tests": [
+      "Send a GET request to https://hackertimes.ca/ and expect HTTP 200",
+      "Send a GET request to https://hackertimes.ca/api/v1/threads and validate JSON structure",
+      "Attempt to sign up via the registration page and confirm account creation",
+      "Post a comment through the API and verify it appears in the thread feed"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793714631997-klnk8",
+    "log_dir": "/tmp/llm-review-1793714631997-klnk8",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:homepage_ms:129.93\nBENCHMARK:homepage_mem_kb:323.39\nBENCHMARK:threads_api_ms:36.73\nBENCHMARK:threads_api_mem_kb:24.32\nBENCHMARK:signup_ms:47.49\nBENCHMARK:signup_mem_kb:24.83\nBENCHMARK:post_comment_ms:38.52\nBENCHMARK:post_comment_mem_kb:24.81\nBENCHMARK:install_time_s:12.4\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nBENCHMARK:vs_hnclone_response_ms:0.72\nBENCHMARK:vs_hnclone_threads_ms:0.90",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | nodejs installed\nINSTALL_OK | npm installed\nINSTALL_OK | npm install\nBENCHMARK:homepage_ms:129.93\nBENCHMARK:homepage_mem_kb:323.39\nTEST_FAIL:homepage:HTTP Error 403: Forbidden\nBENCHMARK:threads_api_ms:36.73\nBENCHMARK:threads_api_mem_kb:24.32\nTEST_FAIL:threads_api:HTTP Error 403: Forbidden\nBENCHMARK:signup_ms:47.49\nBENCHMARK:signup_mem_kb:24.83\nTEST_SKIP:signup:Could not complete signup (HTTP Error 403: Forbidden)\nBENCHMARK:post_comment_ms:38.52\nBENCHMARK:post_comment_mem_kb:24.81\nTEST_SKIP:post_comment:Expected auth failure (HTTP Error 403: Forbidden)\nBENCHMARK:install_time_s:12.4\nBENCHMARK:loc_count:1240\nBENCHMARK:test_files_count:23\nBENCHMARK:vs_hnclone_response_ms:0.72\nBENCHMARK:vs_hnclone_threads_ms:0.90\nRUN_OK\n"
+  }
+}
