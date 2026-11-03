@@ -1,0 +1,67 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Toit v2.0.0",
+    "url": "https://toit.io/blog/toit-v2-0-0/",
+    "hn_url": "https://news.ycombinator.com/item?id=50321605",
+    "points": 159,
+    "comments": 49,
+    "author": "floitsch",
+    "age": "2026-11-01T00:25:04",
+    "scraped_at": "2026-11-03T14:00:02.182Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/toitware/toit",
+    "repo_url": "https://github.com/toitware/toit",
+    "confidence": 0.93,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "Toit is a lightweight, statically typed language for IoT devices with an ergonomic syntax and a runtime that compiles to bytecode for embedded hardware.",
+    "use_modes": [
+      "CLI",
+      "IDE"
+    ],
+    "similar_tools": [
+      "C",
+      "Rust",
+      "C++",
+      "CircuitPython"
+    ],
+    "proposed_tests": [
+      {
+        "test": "git clone https://github.com/toitware/toit",
+        "action": "verify repository"
+      },
+      {
+        "test": "toitc -o hello.toit hello.toit",
+        "action": "compile hello-world"
+      },
+      {
+        "test": "toitc -run hello.toit",
+        "action": "execute and capture output"
+      },
+      {
+        "test": "measure compile and run time on Raspberry Pi 4",
+        "action": "benchmark performance"
+      },
+      {
+        "test": "check type-checking on a file with intentional errors",
+        "action": "validate type system"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1793714503404-38388",
+    "log_dir": "/tmp/llm-review-1793714503404-38388",
+    "install_success": true,
+    "install_time_s": 19.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:11.20",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | go\nINSTALL_OK | git\nINSTALL_OK | cargo\nINSTALL_OK | rust\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_FAIL:clone:Cloning into '/tmp/toit_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_SKIP:clone:Could not clone repository\nBENCHMARK:install_time_s:11.20\nRUN_OK\n"
+  }
+}
