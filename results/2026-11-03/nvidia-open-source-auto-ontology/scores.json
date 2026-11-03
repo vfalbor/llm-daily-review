@@ -1,0 +1,114 @@
+{
+  "app_name": "Nvidia – open-source auto-ontology",
+  "url": "https://github.com/NVIDIA/auto-ontology",
+  "scored_at": "2026-11-03T14:01:41.611Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 189 days ago, not a fork, and adds automatic ontology generation not present in similar tools, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 25.5 s (under 30 s) and the repo builds without a PyPI package, showing a fairly simple setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-codegen library for ontology generation, it aligns with current LLM workflows that need structured knowledge graphs."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 1,893 stars it trails RDFLib (2,546) but offers unique auto‑ontology generation, a capability not found in RDFLib, owlready2, or PyODK."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo has 1,893 stars, 12 contributors, and was updated today (0 days since last commit), indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 7 tests passed (0 % pass) despite a successful install, showing core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides both a CLI and a Python API and is Apache‑2.0 licensed, but lacks a PyPI distribution, requiring manual installation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki or GitHub Pages was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The project is 189 days old, has 145 forks and 32 open issues, suggesting a stable, beta‑level release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only install‑time measurements are available; no benchmark comparing speed or resource use to alternatives was reported."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the project’s enterprise utility, open‑source nature, and potential to make LLMs more reliable, while a few note concerns about API key usage and the lack of clear academic grounding."
+    }
+  },
+  "summary": "Nvidia’s auto‑ontology library generates ontology files from structured data via a CLI and Python API. It builds on Python and runs locally without needing an API key. It is suited for developers building knowledge‑graph pipelines who want automated schema creation. The project’s strength is its active community (1,893 stars, recent commits) and unique auto‑generation feature, while its main caveat is poor test coverage (0 of 7 tests passed) and lack of a PyPI package.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/NVIDIA/auto-ontology",
+  "tool_url": "https://github.com/NVIDIA/auto-ontology",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50348962",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 1893,
+      "forks": 145,
+      "open_issues": 32,
+      "watchers": 1893,
+      "contributors": 12,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 189,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "RDFLib",
+        "stars": 2546,
+        "repo": "RDFLib/rdflib"
+      },
+      {
+        "name": "owlready2",
+        "stars": 219,
+        "repo": "pwin/owlready2"
+      },
+      {
+        "name": "PyODK",
+        "stars": 40,
+        "repo": "getodk/pyodk"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Enterprise-friendly ontology tool",
+        "Open-source focus",
+        "Improves LLM reliability"
+      ],
+      "negative_signals": [
+        "API key requirement confusion",
+        "Lack of clear academic tie-in",
+        "Some technical uncertainties"
+      ],
+      "justification": "The majority of comments praise the project’s enterprise utility, open‑source nature, and potential to make LLMs more reliable, while a few note concerns about API key usage and the lack of clear academic grounding.",
+      "comment_count": 30,
+      "hn_points": 177
+    }
+  }
+}
