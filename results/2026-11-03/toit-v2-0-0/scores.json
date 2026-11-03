@@ -1,0 +1,94 @@
+{
+  "app_name": "Toit v2.0.0",
+  "url": "https://toit.io/blog/toit-v2-0-0/",
+  "scored_at": "2026-11-03T14:02:50.124Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so the novelty cannot be quantified beyond a neutral assessment."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 19.3 seconds and runs on consumer hardware without an API key, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a lightweight language for IoT devices, it aligns with the current trend of edge AI and embedded LLM deployment."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Toit has no reported GitHub stars to compare with similar tools like C (458,487 stars) or Rust (128,014 stars), and no benchmark advantage is shown."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 159 with 30 comments, indicating a moderate but not large community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available and the tool offers only CLI and IDE modes, with no documented API or integration details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and the provided URLs do not expose measurable documentation metrics."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "With only HN points (159) as a proxy and no release or issue data, maturity can be assessed only as moderate."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an install_time_s of 11.20 seconds, but no comparative performance data is provided."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments highlight the strong background of the team and the language’s efficient design for embedded devices, yet several users note the lack of widespread adoption, unclear target use cases, and weak marketing efforts, leading to a generally positive but cautious reception."
+    }
+  },
+  "summary": "Toit v2.0.0 is a lightweight, statically typed language designed for IoT devices, compiling to bytecode for embedded hardware. It is distributed as a CLI and IDE tool rather than a pip‑installable package, and runs on typical consumer machines. The language targets developers building edge applications who need an efficient runtime, but its advantage over established languages like C or Rust is unclear and community adoption remains modest. The main strength is its ergonomic syntax and efficient runtime, while the lack of package distribution and limited test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://toit.io/blog/toit-v2-0-0/",
+  "tool_url": "https://github.com/toitware/toit",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50321605",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "C",
+        "stars": 458487,
+        "repo": "freeCodeCamp/freeCodeCamp"
+      },
+      {
+        "name": "Rust",
+        "stars": 128014,
+        "repo": "rustdesk/rustdesk"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Experienced team behind Toit",
+        "Efficient runtime & good syntax",
+        "Clear isolation & remote updates"
+      ],
+      "negative_signals": [
+        "Limited user base & adoption",
+        "Unclear use cases & marketing",
+        "Skepticism about resource constraints"
+      ],
+      "justification": "Most comments highlight the strong background of the team and the language’s efficient design for embedded devices, yet several users note the lack of widespread adoption, unclear target use cases, and weak marketing efforts, leading to a generally positive but cautious reception.",
+      "comment_count": 30,
+      "hn_points": 159
+    }
+  }
+}
