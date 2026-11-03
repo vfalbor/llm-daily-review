@@ -1,0 +1,109 @@
+{
+  "app_name": "DiscImageStudio",
+  "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+  "scored_at": "2026-11-03T14:03:50.562Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository is 72 days old, is not a fork, and the only comparable tools (ImgBurn with 19 stars and cdburnerxp with 1 star) have orders of magnitude fewer stars, indicating this is an incremental clone rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 16.2 seconds and required no API key, though the tool is not available on PyPI and must be built from source, indicating a moderately simple setup."
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "As a devtool-cli for burning optical media, it addresses a niche use case that is largely unrelated to current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 4,457 GitHub stars it dwarfs similar projects (ImgBurn 19 stars, cdburnerxp 1 star), showing strong community interest despite offering similar CLI disc‑burning functionality."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 4,457 stars (within the 1k–5k range), 3 contributors, and was updated just 1 day ago, signalling an active but small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 2 tests passed (0%) and while installation succeeded, the lack of functional test coverage suggests core usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a pure CLI with no PyPI package, no REST API, and is licensed GPL‑3.0, making programmatic integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed; a neutral score is applied."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 72 days old, has 133 forks and 37 open issues, indicating active development but still in an early‑stage release cycle."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data (apk install 5.43 s, git clone 2.41 s, dd copy 2.36 ms) is present but there is no comparative performance claim against alternatives, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments are mixed: a few praise the tool for making professional‑looking discs for small business or hobby use, while others note slow burn times and poor image quality. The overall sentiment is neutral with neither strong praise nor severe criticism."
+    }
+  },
+  "summary": "DiscImageStudio is a cross‑platform command‑line tool that creates disc images and burns them to CDs, DVDs, or Blu‑ray media with custom artwork. It is built in C# and runs locally without external API keys, exposing only a CLI interface. The tool is suited for hobbyists or small businesses needing to produce professional‑looking discs, but its relevance to modern LLM workflows is limited. It stands out with a relatively large GitHub following (4,457 stars) yet suffers from poor test coverage and limited integration options.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+  "tool_url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50346849",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 4457,
+      "forks": 133,
+      "open_issues": 37,
+      "watchers": 4457,
+      "contributors": 3,
+      "license": "GPL-3.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 72,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "ImgBurn",
+        "stars": 19,
+        "repo": "jlesage/docker-imgburn"
+      },
+      {
+        "name": "cdburnerxp",
+        "stars": 1,
+        "repo": "opsi4instituts/dfn_cdburnerxp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Professional-looking labels for low‑sales business",
+        "Useful for home and hobby use",
+        "Some users found decent results"
+      ],
+      "negative_signals": [
+        "Burning is slow and sometimes produces light, low‑contrast artwork",
+        "Limited compatibility and image quality issues",
+        "Not many users highlight strong performance or unique features"
+      ],
+      "justification": "Comments are mixed: a few praise the tool for making professional‑looking discs for small business or hobby use, while others note slow burn times and poor image quality. The overall sentiment is neutral with neither strong praise nor severe criticism.",
+      "comment_count": 30,
+      "hn_points": 295
+    }
+  }
+}
