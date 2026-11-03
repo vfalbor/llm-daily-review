@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Show HN: Kvittas, an Expense Splitting App",
+    "url": "https://kvittas.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=50351427",
+    "points": 5,
+    "comments": 2,
+    "author": "primalscreamer",
+    "age": "2026-11-03T12:53:48",
+    "scraped_at": "2026-11-03T14:00:02.187Z",
+    "tool_url": "https://kvittas.app/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "A web application for splitting expenses and bills among groups, similar to Splitwise.",
+    "use_modes": [
+      "Browser",
+      "REST API"
+    ],
+    "similar_tools": [
+      "Splitwise",
+      "Venmo",
+      "Zelle"
+    ],
+    "proposed_tests": [
+      "Visit https://kvittas.app/ and check page load success",
+      "Create a test user account via the sign‑up flow",
+      "Create a new expense group, add members, and verify group listing",
+      "Add an expense and assert that the split balances update correctly"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793714699777-xu2qj",
+    "log_dir": "/tmp/llm-review-1793714699777-xu2qj",
+    "install_success": true,
+    "install_time_s": 10.3,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_requests_time_s:0.635\nBENCHMARK:page_load_time_s:0.305\nBENCHMARK:page_load_mem_kb:323.0\nBENCHMARK:signup_flow_time_s:0.184\nBENCHMARK:signup_flow_mem_kb:23.9\nBENCHMARK:group_creation_time_s:0.211\nBENCHMARK:group_creation_mem_kb:43.0\nBENCHMARK:add_expense_time_s:0.186\nBENCHMARK:add_expense_mem_kb:24.2\nBENCHMARK:test_count:4\nBENCHMARK:vs_splitwise_latency_ratio:1.11",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk add nodejs\nINSTALL_OK | apk add npm\nINSTALL_OK | pip install requests\nBENCHMARK:install_requests_time_s:0.635\nBENCHMARK:page_load_time_s:0.305\nBENCHMARK:page_load_mem_kb:323.0\nTEST_PASS:page_load\nBENCHMARK:signup_flow_time_s:0.184\nBENCHMARK:signup_flow_mem_kb:23.9\nTEST_FAIL:signup_flow:HTTP Error 404: Not Found\nBENCHMARK:group_creation_time_s:0.211\nBENCHMARK:group_creation_mem_kb:43.0\nTEST_PASS:group_creation\nBENCHMARK:add_expense_time_s:0.186\nBENCHMARK:add_expense_mem_kb:24.2\nTEST_FAIL:add_expense:HTTP Error 404: Not Found\nBENCHMARK:test_count:4\nBENCHMARK:vs_splitwise_latency_ratio:1.11\nRUN_OK\n"
+  }
+}
