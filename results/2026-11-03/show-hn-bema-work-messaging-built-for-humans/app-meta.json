@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "Show HN: Bema: Work messaging built for humans",
+    "url": "https://getbema.app/",
+    "hn_url": "https://news.ycombinator.com/item?id=50351404",
+    "points": 5,
+    "comments": 3,
+    "author": "ben_d",
+    "age": "2026-11-03T12:51:11",
+    "scraped_at": "2026-11-03T14:00:02.188Z",
+    "tool_url": "https://getbema.app/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.87,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "An internal‑team messaging platform focused on human‑friendly UX.",
+    "use_modes": [
+      "Browser",
+      "WebSocket"
+    ],
+    "similar_tools": [
+      "Slack",
+      "Mattermost",
+      "Discord"
+    ],
+    "proposed_tests": [
+      "Navigate to https://getbema.app/ and confirm the home page renders",
+      "Create a new workspace via the onboarding flow",
+      "Send a test message in a channel and verify receipt via the WebSocket API",
+      "Check that message history is persisted and retrievable via the REST endpoint"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793714725556-fmjqi",
+    "log_dir": "/tmp/llm-review-1793714725556-fmjqi",
+    "install_success": true,
+    "install_time_s": 11.3,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:home_page_time_s:0.4508\nBENCHMARK:home_page_mem_peak_bytes:333615\nBENCHMARK:health_check_time_s:0.3861\nBENCHMARK:health_check_mem_peak_bytes:23906\nBENCHMARK:favicon_latency_time_s:0.3662\nBENCHMARK:favicon_latency_mem_peak_bytes:20384",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:home_page\nTEST_FAIL:health_check:unexpected response\nTEST_PASS:favicon_latency\nBENCHMARK:home_page_time_s:0.4508\nBENCHMARK:home_page_mem_peak_bytes:333615\nBENCHMARK:health_check_time_s:0.3861\nBENCHMARK:health_check_mem_peak_bytes:23906\nBENCHMARK:favicon_latency_time_s:0.3662\nBENCHMARK:favicon_latency_mem_peak_bytes:20384\nRUN_OK\n"
+  }
+}
