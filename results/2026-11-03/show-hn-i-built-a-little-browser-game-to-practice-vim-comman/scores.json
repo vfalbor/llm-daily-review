@@ -1,0 +1,83 @@
+{
+  "app_name": "hjkl — learn Vim by doing",
+  "url": "https://hjkl.duy.run/",
+  "scored_at": "2026-11-03T14:06:50.066Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The game replicates existing Vim learning tools like Vim Adventures and Vim Hero, offering no new approach (no days_since_created or fork data, and similar tools exist)."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded in 7.7 seconds despite lacking a PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a browser‑based Vim tutorial, it addresses a niche skill rather than a core LLM workflow, limiting its relevance to current AI development trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No GitHub stars or benchmark data are available, and the only comparison is to well‑known Vim games, showing minimal distinctive advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "Without a repository, community signals come from HN points (54) which place it in the 50–200 range, yielding a low community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed and the install succeeded, indicating less than 50% test coverage and notable usability gaps."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for a standalone browser game."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The site lacks explicit docs or wiki, but the page length is 17,396 characters, showing substantive content despite missing structured documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No version or changelog is listed and HN points are low, fitting the 'fresh Show HN, no version' proxy for low maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for this type of interactive game; no benchmark data provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the game as a useful Vim learning aid and express excitement, while a minority point out specific UX shortcomings and navigation frustrations, leading to an overall very positive but not flawless perception."
+    }
+  },
+  "summary": "A lightweight browser game teaches Vim navigation keys through interactive play. It runs entirely in the web browser and does not require any installation or API keys. The tool is suited for beginners who want a hands‑on way to practice Vim commands without reading documentation. While the content is fairly extensive, the lack of documentation, modest community engagement, and limited differentiation from existing Vim games are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://hjkl.duy.run/",
+  "tool_url": "https://hjkl.duy.run/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50347552",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "encouraging practice tool",
+        "positive community feedback",
+        "ease of learning Vim"
+      ],
+      "negative_signals": [
+        "UX issues like unclickable cells",
+        "keyboard navigation limitations",
+        "some confusion on markers"
+      ],
+      "justification": "The majority of comments praise the game as a useful Vim learning aid and express excitement, while a minority point out specific UX shortcomings and navigation frustrations, leading to an overall very positive but not flawless perception.",
+      "comment_count": 30,
+      "hn_points": 54
+    }
+  }
+}
