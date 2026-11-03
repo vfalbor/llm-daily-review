@@ -1,0 +1,81 @@
+{
+  "app_name": "Bema",
+  "url": "https://getbema.app/",
+  "scored_at": "2026-11-03T14:06:25.889Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and no quantitative comparison to Slack or Mattermost is provided, so the novelty cannot be determined."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "The container reports install_success true and install_time of 11.3 seconds, and the app runs in a browser without needing a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑SaaS messaging tool, it aligns with current remote‑work and team‑collaboration trends in the LLM‑enabled productivity space."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons are available, and only generic similarity to Slack, Mattermost, and Discord is mentioned."
+    },
+    "community": {
+      "score": 3,
+      "justification": "There is no GitHub repository; HN points are only 5 with mixed sentiment, indicating a very small community presence."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 out of 3 tests passed (66%), and install_success is true, showing core functionality works with modest friction."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The page shows no API/SDK/webhook mention and no PyPI package; only Browser and WebSocket use modes are listed, limiting easy programmatic integration."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The web page has only 4 characters of content, no docs/wiki link, and no examples, indicating extremely sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.0 is present on the site, satisfying the proxy rule for maturity scoring."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report home_page_time_s 0.4508 and health_check_time_s 0.3861, but no comparative data is provided, so a neutral score is applied."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments reflect mixed sentiment: two critical remarks about privacy and feature ambiguity, balanced by the developer’s supportive explanation of Slack integration."
+    }
+  },
+  "summary": "Bema is a web‑based team messaging platform that operates via a browser and WebSocket connections. It is built as a hosted SaaS service with no open‑source code or installable package. It targets teams seeking a human‑friendly chat experience as an alternative to Slack or Mattermost. The app’s only measurable strength is its reported version 1.0 and fast page load times, while its main drawbacks are the lack of documentation, integration APIs, and a very small community presence.",
+  "recommendation": "niche",
+  "app_url": "https://getbema.app/",
+  "tool_url": "https://getbema.app/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50351404",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Responsive developer reply clarifying functionality",
+        "Feature support for Slack integration"
+      ],
+      "negative_signals": [
+        "Privacy and data handling concerns",
+        "Lack of clarity on integration process"
+      ],
+      "justification": "The comments reflect mixed sentiment: two critical remarks about privacy and feature ambiguity, balanced by the developer’s supportive explanation of Slack integration.",
+      "comment_count": 3,
+      "hn_points": 5
+    }
+  }
+}
