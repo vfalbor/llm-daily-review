@@ -1,0 +1,83 @@
+{
+  "app_name": "Hacker Times",
+  "url": "https://hackertimes.ca/",
+  "scored_at": "2026-11-03T14:04:57.284Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only similarity to existing HN clones is listed, so evidence is insufficient to rate higher."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 9.8 s (<30 s) and the tool runs as a web SaaS, requiring no local dependencies."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑SaaS news aggregator, it aligns with current interest in curated, API‑driven content feeds."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Benchmark shows a response time of 0.72 ms versus a typical HN clone, indicating a speed advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN discussion accumulated 356 points across 30 comments, indicating solid community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 functional tests passed, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The site advertises a JSON API and webhook support, enabling programmatic integration despite lacking a PyPI package."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "The page contains 36,600 characters of content, includes examples, and provides a changelog, though no dedicated docs link is present."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Version 20.5 is displayed and a changelog exists, suggesting a mature, iterated product."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks report sub‑millisecond response times (e.g., vs_hnclone_response_ms = 0.72), showing strong performance."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the readability and daily-curated format, but raise concerns about typography choices, advertising practices, and paywall implementation, resulting in a moderately positive overall sentiment."
+    }
+  },
+  "summary": "Hacker Times is a self‑hosted, static‑site news reader that mimics Hacker News with a New York Times‑style layout. It serves content via a JSON API and webhook endpoints, allowing programmatic access. The tool suits developers or publishers who want a curated, API‑driven news feed without building their own scraper. Its standout strength is very fast response times (0.72 ms) while the main caveat is the lack of verified functionality in automated tests.",
+  "recommendation": "worth-watching",
+  "app_url": "https://hackertimes.ca/",
+  "tool_url": "https://hackertimes.ca/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50346981",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Readable format",
+        "Daily newsletter idea",
+        "Curated news style"
+      ],
+      "negative_signals": [
+        "Poor typography",
+        "Ads and tracking concerns",
+        "Unclear paywall/compliance"
+      ],
+      "justification": "Comments praise the readability and daily-curated format, but raise concerns about typography choices, advertising practices, and paywall implementation, resulting in a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 356
+    }
+  }
+}
