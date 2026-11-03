@@ -1,0 +1,34 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.10.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+INSTALL_OK | apk add nodejs
+INSTALL_OK | apk add npm
+INSTALL_OK | pip install requests
+BENCHMARK:install_requests_time_s:0.635
+BENCHMARK:page_load_time_s:0.305
+BENCHMARK:page_load_mem_kb:323.0
+TEST_PASS:page_load
+BENCHMARK:signup_flow_time_s:0.184
+BENCHMARK:signup_flow_mem_kb:23.9
+TEST_FAIL:signup_flow:HTTP Error 404: Not Found
+BENCHMARK:group_creation_time_s:0.211
+BENCHMARK:group_creation_mem_kb:43.0
+TEST_PASS:group_creation
+BENCHMARK:add_expense_time_s:0.186
+BENCHMARK:add_expense_mem_kb:24.2
+TEST_FAIL:add_expense:HTTP Error 404: Not Found
+BENCHMARK:test_count:4
+BENCHMARK:vs_splitwise_latency_ratio:1.11
+RUN_OK
