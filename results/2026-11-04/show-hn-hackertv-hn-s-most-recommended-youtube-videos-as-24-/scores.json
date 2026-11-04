@@ -1,0 +1,67 @@
+{
+  "app_name": "HackerTV",
+  "url": "https://hackertv.org/",
+  "scored_at": "2026-11-04T14:01:58.792Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app aggregates YouTube videos like existing tools (Hacker News Live Stream, HNStream, HN Live), indicating it is an incremental copy rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 17.3 s despite no PyPI package, showing the service is quickly reachable via the web."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a web‑SaaS streaming tool it does not address a core LLM workflow, making its relevance to today's LLM ecosystem moderate."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Benchmark shows a page load of 0.094 s with a vs_hnstream_page_load_ratio of 0.02, i.e., roughly 50× faster than a comparable HNStream service."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository, stars, or contributors were found, so quantitative community signals are missing."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and only basic run succeeded, indicating core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook (true) even though there is no PyPI package, giving a moderate integration path."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The site lacks docs, wiki, or examples and the page content is only 1,111 characters, suggesting sparse documentation."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "No version tag, changelog, or release notes were found, indicating an early‑stage product."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Page load time of 0.094 s and a very low vs_hnstream_page_load_ratio (0.02) demonstrate strong performance relative to similar services."
+    }
+  },
+  "summary": "HackerTV is a web‑SaaS that streams YouTube videos curated from top Hacker News posts. It offers a public API/webhook but lacks a package manager install or detailed documentation. The service is suited for users who want an always‑on HN‑focused video feed and value fast page loads, as evidenced by a 0.094 s load time that is ~50× quicker than comparable streams. Its main strength is speed, while the lack of docs, versioning, and community activity are significant drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://hackertv.org/",
+  "tool_url": "https://hackertv.org/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50346755",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
