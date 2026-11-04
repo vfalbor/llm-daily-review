@@ -1,0 +1,67 @@
+{
+  "app_name": "Uncracked City",
+  "url": "https://uncracked.city/",
+  "scored_at": "2026-11-04T14:01:09.924Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The game is similar to existing tools like ChatGPT Dungeon and AI Dungeon, indicating it is a near-duplicate rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Container install succeeded (true) in 8.9 seconds, but there is no PyPI package, so setup is moderately complex for a web SaaS."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a web‑SaaS LLM‑driven interactive fiction game, it aligns with the current surge in AI‑generated storytelling tools."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Benchmarks show a site load time of 0.016 s and LLM query latency of 1.75 ms, but no comparative data to similar tools is available."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository or star count is available, so community metrics are missing."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), indicating core functionality is barely working."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "Use modes list Browser and API, but the page lacks an SDK, PyPI package, or explicit API documentation."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "The site has no docs/wiki/link, but the page content length is 30,765 characters, giving a minimal baseline score."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Detected version is 0.95 and there is no changelog or release notes, suggesting pre‑1.0 maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data (site_load_time_s:0.016, llm_query_latency_ms:1.75, memory_peak_kb:3899.16) is present but lacks any comparative claims."
+    }
+  },
+  "summary": "Uncracked City is an interactive detective web game that lets players question LLM‑generated suspects. It runs in the browser and advertises an API mode, but no SDK or installation guide is provided. The tool is aimed at hobbyist gamers who want AI‑driven storytelling experiences, and its main strength is a very fast page load (0.016 s) and low query latency (1.75 ms), while the lack of documentation and limited test success are major drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://uncracked.city/",
+  "tool_url": "https://uncracked.city/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50358352",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
