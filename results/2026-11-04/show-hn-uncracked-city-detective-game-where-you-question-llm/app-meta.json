@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "url": "https://uncracked.city/",
+    "hn_url": "https://news.ycombinator.com/item?id=50358352",
+    "points": 90,
+    "comments": 42,
+    "author": "passkey1510",
+    "age": "2026-11-03T21:20:03",
+    "scraped_at": "2026-11-04T14:00:03.033Z",
+    "tool_url": "https://uncracked.city/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "An interactive detective game that uses an LLM to generate suspect responses and questions.",
+    "use_modes": [
+      "Browser",
+      "API"
+    ],
+    "similar_tools": [
+      "ChatGPT Dungeon",
+      "AI Dungeon",
+      "LLM-based interactive fiction",
+      "OpenAI API demos"
+    ],
+    "proposed_tests": [
+      "Check that the site loads within 5 seconds",
+      "Verify that the LLM endpoint returns a JSON response for a sample question",
+      "Measure average response latency for 10 consecutive queries",
+      "Test that the game state persists across browser sessions"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1793800837140-67wxh",
+    "log_dir": "/tmp/llm-review-1793800837140-67wxh",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:site_load_time_s:0.016\nBENCHMARK:llm_query_latency_ms:1.75\nBENCHMARK:memory_peak_kb:3899.16",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:git clone failed\nINSTALL_FAIL:npm install failed\nTEST_FAIL:server_start:Failed to start server\nBENCHMARK:site_load_time_s:0.016\nTEST_PASS:site_load\nBENCHMARK:llm_query_latency_ms:1.75\nTEST_FAIL:llm_json_response:HTTP 404\nTEST_FAIL:average_latency:HTTP 404\nTEST_FAIL:state_persistence:No session cookie\nBENCHMARK:memory_peak_kb:3899.16\nRUN_OK\n"
+  }
+}
