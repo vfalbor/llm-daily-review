@@ -1,0 +1,82 @@
+{
+  "app_name": "Kimi K3.1 Pro",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "scored_at": "2026-11-05T14:02:31.065Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 42.5 seconds (>30s) and there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "The app is a research-model LLM, directly matching current AI development trends for local inference."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub star counts or benchmark comparisons to similar tools (ChatGPT, LLaMA, Bloom) are available."
+    },
+    "community": {
+      "score": 9,
+      "justification": "HN points are 577 with 30 comments, indicating strong community interest and discussion."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%), below the 50% threshold, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The page mentions an API/SDK and Python Transformers usage, providing a clear integration path despite lacking a PyPI package."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Docs/wiki link is present, examples are available, and the page contains 20800 characters, indicating comprehensive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Detected version is 1.0, suggesting a stable release, though changelog and repository data are missing."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark data only includes installation times; no inference speed or resource usage metrics are provided."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise the model’s efficient streaming and potential for running on modest hardware, while noting real‑world constraints such as GPU scarcity and data‑center power issues. Overall sentiment is constructive and moderately positive."
+    }
+  },
+  "summary": "Kimi K3.1 Pro is a large language model released on Hugging Face that can be run locally via the Transformers Python API or a CLI. It provides full model weights and an API/SDK for integration, targeting users who want on‑premise inference without an external API key. Researchers and hobbyists with modest GPU resources will find it useful for experimenting with a 1.0‑version model. The model scores strong on community interest (577 HN points) and documentation depth, but its installation is relatively slow, core tests failed, and performance benchmarks are lacking.",
+  "recommendation": "worth-watching",
+  "app_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "tool_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50366999",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Easily deployable via SSD streaming",
+        "Efficient use of limited GPU/RAM",
+        "Potential for homelab use"
+      ],
+      "negative_signals": [
+        "GPU shortage and price concerns",
+        "Infrastructure and energy limitations"
+      ],
+      "justification": "Comments praise the model’s efficient streaming and potential for running on modest hardware, while noting real‑world constraints such as GPU scarcity and data‑center power issues. Overall sentiment is constructive and moderately positive.",
+      "comment_count": 30,
+      "hn_points": 577
+    }
+  }
+}
