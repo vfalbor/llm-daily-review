@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Kimi K3.1 Pro model weights are out",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "hn_url": "https://news.ycombinator.com/item?id=50366999",
+    "points": 578,
+    "comments": 164,
+    "author": "abrarthought",
+    "age": "2026-11-04T15:30:30",
+    "scraped_at": "2026-11-05T14:00:02.886Z",
+    "tool_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "Kimi K3.1 Pro is a large language model released by Moonshot AI, available on Hugging Face with full weights for local inference.",
+    "use_modes": [
+      "Python API (Transformers)",
+      "CLI"
+    ],
+    "similar_tools": [
+      "ChatGPT",
+      "LLaMA",
+      "Bloom"
+    ],
+    "proposed_tests": [
+      "Clone the Hugging Face repo and download the weights",
+      "Load the model with Hugging Face Transformers",
+      "Run a generation test with a prompt and record output length and latency",
+      "Verify that the model can generate text without requiring GPU if using CPU-only inference"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/moonshotai/Kimi-K3.1-Pro"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793887291145-hu1ur",
+    "log_dir": "/tmp/llm-review-1793887291145-hu1ur",
+    "install_success": true,
+    "install_time_s": 42.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.68\nBENCHMARK:pip_torch_install_s:0.80\nBENCHMARK:pip_transformers_install_s:33.24",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.68\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement torch (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for torch\nBENCHMARK:pip_torch_install_s:0.80\nINSTALL_OK\nBENCHMARK:pip_transformers_install_s:33.24\nTEST_FAIL:clone_repo:Cloning into '/tmp/kimi_k3_1_pro'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:clone_repo:clone_failed\nRUN_OK\n"
+  }
+}
