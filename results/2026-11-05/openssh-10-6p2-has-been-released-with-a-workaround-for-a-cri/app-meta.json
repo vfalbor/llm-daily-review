@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "OpenSSH 10.6p2 has been released with a workaround for a critical vulnerability",
+    "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+    "hn_url": "https://news.ycombinator.com/item?id=50377221",
+    "points": 120,
+    "comments": 44,
+    "author": "Animux",
+    "age": "2026-11-05T09:46:17",
+    "scraped_at": "2026-11-05T14:00:02.890Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/openssh/openssh-portable",
+    "confidence": 0.93,
+    "domain": "infra-ssh",
+    "app_type": "infra-ssh",
+    "description": "Official OpenSSH 10.6p2 release with security fixes and a critical vulnerability workaround.",
+    "use_modes": [
+      "CLI",
+      "Server"
+    ],
+    "similar_tools": [
+      "Dropbear",
+      "OpenSSH 9.x"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/openssh/openssh-portable",
+      "make configure && make && make install",
+      "run sshd -D to start server",
+      "connect with ssh client, verify key exchange and authentication",
+      "run sshd -t to check config syntax"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/openssh/openssh-portable"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793887415935-7hfr3",
+    "log_dir": "/tmp/llm-review-1793887415935-7hfr3",
+    "install_success": true,
+    "install_time_s": 28.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:3.35\nBENCHMARK:clone_time_s:18.20\nBENCHMARK:vs_dropbear_install_time_s:0.41\nBENCHMARK:vs_dropbear_sshd_start_time_s:2.00\nBENCHMARK:vs_dropbear_ssh_connection_time_s:1.60",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:3.35\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:18.20\nTEST_FAIL:build_install:configure failed: sh: can't open './configure': No such file or directory\n\nTEST_FAIL:sshd_start:[Errno 2] No such file or directory: 'sshd'\nTEST_SKIP:ssh_connection:sshd not started\nTEST_FAIL:sshd_config_syntax:[Errno 2] No such file or directory: 'sshd'\nBENCHMARK:vs_dropbear_install_time_s:0.41\nBENCHMARK:vs_dropbear_sshd_start_time_s:2.00\nBENCHMARK:vs_dropbear_ssh_connection_time_s:1.60\nRUN_OK\n"
+  }
+}
