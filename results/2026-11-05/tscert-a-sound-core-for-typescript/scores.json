@@ -1,0 +1,113 @@
+{
+  "app_name": "TScert: A Sound Core for TypeScript",
+  "url": "https://github.com/cristianoc/TScert",
+  "scored_at": "2026-11-05T14:05:48.441Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 20 days ago and is not a fork, but similar tools like ts-node have orders of magnitude more stars, indicating it is an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 21.2 seconds (under 30s) and no API key is required, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool-type-system for TypeScript, it addresses a niche developer need rather than a broad LLM workflow trend."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "It has 116 stars versus ts-node's 13,118 stars and esbuild's 40,123 stars, showing limited differentiation despite claiming soundness."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 116 stars, 1 contributor, and was updated today, placing it in the 100–1k star range with modest activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0%), indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project provides CLI and API modes but lacks a PyPI package and has a NOASSERTION license, offering only moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 20 days old with 3 forks and 12 open issues, indicating early-stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data (compile_time_ms:1.70, typecheck_error_ms:1.63) is present but lacks comparative figures, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "TScert is a TypeScript type‑checker and compiler core that aims for soundness and extensibility. It is implemented in TypeScript and offers both a CLI and an API for integration. The tool targets TypeScript developers who need a more rigorous type‑checking foundation, but its modest star count and limited benchmark evidence suggest it is an incremental addition rather than a breakthrough. Its main strength is the promise of soundness, while the lack of extensive testing and modest community activity are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/cristianoc/TScert",
+  "tool_url": "https://github.com/cristianoc/TScert",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50366465",
+  "domain": "devtool",
+  "app_type": "devtool-type-system",
+  "enriched": {
+    "github": {
+      "stars": 116,
+      "forks": 3,
+      "open_issues": 12,
+      "watchers": 116,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 20,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "TScert: a sound core for TypeScript. An independent checker, whose soundness is proved in Lean, accepts a TypeScript function only with a proof.",
+      "topics": [
+        "formal-verification",
+        "lean4",
+        "proof-carrying-code",
+        "type-safety",
+        "type-systems",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ts-node",
+        "stars": 13118,
+        "repo": "TypeStrong/ts-node"
+      },
+      {
+        "name": "babel-plugin-transform-typescript",
+        "stars": 221,
+        "repo": "leonardfactory/babel-plugin-transform-typescript-metadata"
+      },
+      {
+        "name": "esbuild",
+        "stars": 40123,
+        "repo": "evanw/esbuild"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 15
+    }
+  }
+}
