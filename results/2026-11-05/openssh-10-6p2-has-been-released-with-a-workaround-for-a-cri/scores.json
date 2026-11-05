@@ -1,0 +1,111 @@
+{
+  "app_name": "OpenSSH 10.6p2",
+  "url": "https://hachyderm.io/@damienmiller/117563026759098135",
+  "scored_at": "2026-11-05T14:04:40.666Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 4675 days old and is not a fork, indicating it is an established project rather than a brand‑new approach; it competes with similar tools like Dropbear."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 28.9 s and requires no API key, but there is no PyPI package, so setup is simple yet not a one‑click pip install."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑ssh security tool, it addresses current concerns about SSH vulnerabilities, fitting well into today’s AI‑driven DevOps workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 4,088 GitHub stars it outpaces Dropbear (2,454 stars) and the benchmark shows a fast vs_dropbear_install_time of 0.41 s, suggesting a speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 4,088 stars, 169 contributors, and a commit just 0 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%), showing limited core functionality under the test suite."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is available only via CLI/Server modes, has no PyPI package, and the license is listed as NOASSERTION, making automated integration modestly difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 4675 days old, has 2,210 forks and 155 open issues, indicating a mature, widely‑used project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks such as apk_install_time (3.35 s) and vs_dropbear_install_time (0.41 s) are reported, but no comparative data to other tools is available, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments show generally constructive discussion and useful clarification on the workaround and affected systems, but also highlight practical concerns and some confusion, yielding a moderately positive overall sentiment."
+    }
+  },
+  "summary": "OpenSSH 10.6p2 is a security‑focused SSH server and client release that includes a workaround for a critical vulnerability. It is built as a C‑based CLI/Server tool and distributed via source on GitHub rather than a package manager. System administrators maintaining SSH infrastructure will reach for this version when they need the latest fixes and the specific vulnerability mitigation. It benefits from a large, active community and strong star count, but the limited test pass rate and lack of easy package installation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://hachyderm.io/@damienmiller/117563026759098135",
+  "tool_url": "https://github.com/openssh/openssh-portable",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50377221",
+  "domain": "infra-ssh",
+  "app_type": "infra-ssh",
+  "enriched": {
+    "github": {
+      "stars": 4088,
+      "forks": 2210,
+      "open_issues": 155,
+      "watchers": 4088,
+      "contributors": 169,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4675,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Portable OpenSSH",
+      "topics": [
+        "c",
+        "cryptography",
+        "file-sharing",
+        "keychain",
+        "login",
+        "security"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Dropbear",
+        "stars": 2454,
+        "repo": "mkj/dropbear"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "good advice on disabling PasswordAuthentication",
+        "clarification on musl/Dropbear impact",
+        "useful discussion on backup strategies"
+      ],
+      "negative_signals": [
+        "concerns about practicality of workaround",
+        "mixed clarity on security notes",
+        "some confusion over affected systems"
+      ],
+      "justification": "The comments show generally constructive discussion and useful clarification on the workaround and affected systems, but also highlight practical concerns and some confusion, yielding a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 120
+    }
+  }
+}
