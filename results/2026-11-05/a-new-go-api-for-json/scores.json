@@ -1,0 +1,121 @@
+{
+  "app_name": "A new Go API for JSON",
+  "url": "https://go.dev/blog/jsonv2",
+  "scored_at": "2026-11-05T14:03:34.296Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 4461 days ago and is not a fork, but replicates existing JSON libraries such as encoding/json, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 20.1 seconds (<30s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Go JSON library it addresses a common need in current LLM‑augmented Go applications, fitting the prevalent ecosystem trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The repository has 139,589 stars, far outpacing json-iterator/go (13,853 stars) and encoding/json (21 stars), showing strong community preference despite no benchmark data."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 139,589 stars, 3,041 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No test suite was executed (0/0 tests) and the basic run failed, so quantitative QA evidence is missing."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Available via Go CLI (go get) and as a library import, with a BSD‑3‑Clause license, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki, GitHub Pages, or topic counts were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 4461 days old, has 20,982 forks and 9,902 open issues, indicating a mature and widely used codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so performance cannot be quantified."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise the new JSON API’s design and potential for reuse, but many express irritation about the runtime error return and lack of compile‑time type guarantees, reflecting a generally positive but cautiously critical reception."
+    }
+  },
+  "summary": "This tool is an enhanced Go standard library JSON package that can be imported as a library or fetched via the Go CLI. It builds on the existing encoding/json implementation and adds performance‑focused features, leveraging the Go ecosystem. It is best suited for Go developers needing a faster, more flexible JSON encoder/decoder in production code. The biggest strength is its massive community adoption (139k stars) and mature codebase, while the lack of published benchmarks and limited test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://go.dev/blog/jsonv2",
+  "tool_url": "https://github.com/golang/go",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50369106",
+  "domain": "language",
+  "app_type": "lang-package-manager",
+  "enriched": {
+    "github": {
+      "stars": 139589,
+      "forks": 20982,
+      "open_issues": 9902,
+      "watchers": 139589,
+      "contributors": 3041,
+      "license": "BSD-3-Clause",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4461,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "The Go programming language",
+      "topics": [
+        "go",
+        "golang",
+        "language",
+        "programming-language"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "encoding/json",
+        "stars": 21,
+        "repo": "FIXTradingCommunity/fix-json-encoding-spec"
+      },
+      {
+        "name": "json-iterator/go",
+        "stars": 13853,
+        "repo": "json-iterator/go"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2.1",
+      "summary": "Quick directory changing (super-cd)",
+      "requires_python": null,
+      "license": "http://www.opensource.org/licenses/mit-license.php",
+      "home_page": "http://code.google.com/p/go-tool/"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "appreciation of API redesign",
+        "acknowledgment of flexibility",
+        "interest in performance features"
+      ],
+      "negative_signals": [
+        "frustration with error handling",
+        "concern over type‑safety",
+        "issues with migration effort"
+      ],
+      "justification": "Comments praise the new JSON API’s design and potential for reuse, but many express irritation about the runtime error return and lack of compile‑time type guarantees, reflecting a generally positive but cautiously critical reception.",
+      "comment_count": 30,
+      "hn_points": 351
+    }
+  }
+}
