@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+    "url": "https://fireflyk64.github.io/wcmulti/",
+    "hn_url": "https://news.ycombinator.com/item?id=50369895",
+    "points": 225,
+    "comments": 31,
+    "author": "daniel_rh",
+    "age": "2026-11-04T18:51:27",
+    "scraped_at": "2026-11-05T14:00:02.896Z",
+    "tool_url": "https://github.com/fireflyk64/wcmulti",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A command-line tool that emulates the co-op mode in DOS Wing Commander, allowing multiple players to connect over the network.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "xwingdroid",
+      "wingman"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `npm install` (or `go build`) to build the binary",
+      "Execute `wcmulti --help` to confirm CLI options",
+      "Run `wcmulti start` and verify it listens on the expected port",
+      "Connect two instances and ensure they synchronize game state correctly",
+      "Measure start-up time and compare against baseline single-player execution"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/fireflyk64/wcmulti"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793887549887-xz29j",
+    "log_dir": "/tmp/llm-review-1793887549887-xz29j",
+    "install_success": true,
+    "install_time_s": 16.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 109, in <module>\n    bin_res = run_cmd(['npm','bin'], cwd=repo_dir)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 5, in run_cmd\n    return subprocess.run(cmd, cwd=cwd, env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/wcmulti'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_repo:Cloning into '/tmp/wcmulti'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:build_tool:[Errno 2] No such file or directory: '/tmp/wcmulti'\n"
+  }
+}
