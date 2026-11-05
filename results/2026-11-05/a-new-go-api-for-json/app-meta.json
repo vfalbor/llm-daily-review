@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "A new Go API for JSON",
+    "url": "https://go.dev/blog/jsonv2",
+    "hn_url": "https://news.ycombinator.com/item?id=50369106",
+    "points": 351,
+    "comments": 178,
+    "author": "olexsmir",
+    "age": "2026-11-04T17:52:11",
+    "scraped_at": "2026-11-05T14:00:02.889Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/golang/go",
+    "confidence": 0.88,
+    "domain": "language",
+    "app_type": "lang-package-manager",
+    "description": "Enhanced Go standard library JSON package with improved performance and features.",
+    "use_modes": [
+      "CLI (go get)",
+      "Library import"
+    ],
+    "similar_tools": [
+      "encoding/json",
+      "json-iterator/go"
+    ],
+    "proposed_tests": [
+      "go get golang.org/x/exp/jsonpath",
+      "import encoding/json and jsonpath, marshal a struct",
+      "measure marshaling/unmarshaling performance vs standard library",
+      "verify output consistency"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/golang/go"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793887352530-gnohv",
+    "log_dir": "/tmp/llm-review-1793887352530-gnohv",
+    "install_success": true,
+    "install_time_s": 20.1,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "OSError: [Errno 28] No space left on device\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/app/test.py\", line 88, in <module>\n    with open(os.path.join(helper_dir, 'main.go'), 'w') as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: [Errno 28] No space left on device\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:Cloning into '/tmp/go-src'...\nUpdating files:  50% (8214/16178)\nUpdating files:  51% (8251/16178)\nUpdating files:  52% (8413/16178)\nUpdating files:  53% (8575/16178)\nUpdating files:  54% (8737/16178)\nUpdating files:  55% (8898/16178)\nUpdating files:  56% (9060/16178)\nUpdating files:  57% (9222/16178)\nUpdating files:  58% (9384/16178)\nUpdating files:  59% (9546/16178)\nUpdating files:  60% (9707/16178)\nUpdating files:  61% (9869/16178)\nUpdating files:  62% (10031/16178)\nUpdating files:  63% (10193/16178)\nUpdating files:  64% (10354/16178)\nUpdating files:  65% (10516/16178)\nUpdating files:  66% (10678/16178)\nUpdating files:  67% (10840/16178)\nUpdating files:  68% (11002/16178)\nUpdating files:  69% (11163/16178)\nUpdating files:  70% (11325/16178)\nUpdating files:  71% (11487/16178)\nUpdating files:  72% (11649/16178)\nUpdating files:  73% (11810/16178)\nerror: unable to write file src/syscall/zsyscall_linux_arm.go\nerror: unable to write file src/syscall/zsyscall_linux_arm64.go\nerror: unable to write file src/syscall/zsyscall_linux_loong64.go\nerror: unable to write file src/syscall/zsyscall_linux_mips.go\nerror: unable to write file src/syscall/zsyscall_linux_mips64.go\nerror: unable to write file src/syscall/zsyscall_linux_mips64le.go\nerror: unable to write file src/syscall/zsyscall_linux_mipsle.go\nerror: unable to write file src/syscall/zsyscall_linux_ppc64.go\nerror: unable to write file src/syscall/zsyscall_linux_ppc64le.go\nerror: unable to write file src/syscall/zsyscall_linux_riscv64.go\nerror: unable to write file src/syscall/zsyscall_linux_s390x.go\nerror: unable to write file src/syscall/zsyscall_netbsd_386.go\nerror: unable to write file src/syscall/zsyscall_netbsd_amd64.go\nerror: unable to write file src/syscall/zsyscall_netbsd_arm.go\nerror: unable to write file src/syscall/zsyscall_netbsd_arm64.go\nerror: unable to write file src/syscall/zsyscall_openbsd_386.go\nerror: unable to write file src/syscall/zsyscall_openbsd_386.s\nerror: unable to write file src/syscall/zsyscall_openbsd_amd64.go\nerror: unable to write file src/syscall/zsyscall_openbsd_amd64.s\nerror: unable to write file src/syscall/zsyscall_openbsd_arm.go\nerror: unable to write file src/syscall/zsyscall_openbsd_arm.s\nerror: unable to write file src/syscall/zsyscall_openbsd_arm64.go\nerror: unable to write file src/syscall/zsyscall_openbsd_arm64.s\nerror: unable to write file src/syscall/zsyscall_openbsd_ppc64.go\nerror: unable to write file src/syscall/zsyscall_openbsd_ppc64.s\nerror: unable to write file src/syscall/zsyscall_openbsd_riscv64.go\nerror: unable to write file src/syscall/zsyscall_openbsd_riscv64.s\nerror: unable to write file src/syscall/zsyscall_plan9_386.go\nerror: unable to write file src/syscall/zsyscall_plan9_amd64.go\nerror: unable to write file src/syscall/zsyscall_plan9_arm.go\nerror: unable to write file src/syscall/zsyscall_solaris_amd64.go\nerror: unable to write file src/syscall/zsyscall_windows.go\nerror: unable to write file src/syscall/zsysctl_openbsd.go\nerror: unable to write file src/syscall/zsysnum_darwin_amd64.go\nerror: unable to write file src/syscall/zsysnum_darwin_arm64.go\nerror: unable to write file src/syscall/zsysnum_dragonfly_amd64.go\nerror: unable to write file src/syscall/zsysnum_freebsd_386.go\nerror: unable to write file src/syscall/zsysnum_freebsd_amd64.go\nerror: unable to write file src/syscall/zsysnum_freebsd_arm.go\nerror: unable to write fil"
+  }
+}
