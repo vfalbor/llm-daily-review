@@ -1,0 +1,83 @@
+{
+  "app_name": "Baidu released ERNIE 5.5 Flash Base",
+  "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+  "scored_at": "2026-11-05T14:01:29.199Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, and the model is listed alongside existing tools like GPT-4 and ERNIE 3.0, indicating no clear first‑of‑its‑kind claim."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded in 8.7 s but there is no PyPI package and the model requires an API key, suggesting moderate complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a multilingual LLM with Flash Attention, it addresses a current pain point in fast inference for LLM workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No star counts are available, and no benchmark lines were provided; the only differentiator mentioned is Flash Attention, giving a modest advantage over GPT‑4, ERNIE 3.0, and BLOOM."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository is detected; HN points are 104, which falls in the 100–200 range, yielding a neutral community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0 %), indicating core functionality is not verified despite install success."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions a Python API, CLI, and REST API, but there is no PyPI package and license information is missing, giving a moderate integration ease."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The site lacks a docs/wiki link but provides examples and has a long content length (27,009 chars); this yields a score above the baseline."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version is 5.5 (≥ 1.0), which according to proxy rules indicates a mature release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines are present, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Several commenters praise ERNIE 5.5 Flash’s performance and utility for local use, but others point out its lack of instruction fine‑tuning and compare it unfavorably with newer versions of rivals, leading to a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "ERNIE 5.5 Flash Base is a multilingual large language model released by Baidu that uses Flash Attention to accelerate inference. It is delivered via a Python API, CLI, and REST endpoint, requiring an API key for access. Researchers and developers needing faster local inference of a base model may find it useful, especially given its claimed speed improvements. The model shows modest differentiation and performance evidence, but limited community engagement and incomplete documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+  "tool_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50377078",
+  "domain": "llm-ai",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Strong performance claims versus other base models",
+        "Potential usefulness for businesses and local deployment",
+        "Encouragement from commenters to experiment"
+      ],
+      "negative_signals": [
+        "Criticism that it is only a base model, not instruction‑finetuned",
+        "Questions about the rationale for releasing an unfinished model",
+        "Concerns that it lags behind newer versions of competing models"
+      ],
+      "justification": "Several commenters praise ERNIE 5.5 Flash’s performance and utility for local use, but others point out its lack of instruction fine‑tuning and compare it unfavorably with newer versions of rivals, leading to a generally positive but cautiously critical sentiment.",
+      "comment_count": 30,
+      "hn_points": 104
+    }
+  }
+}
