@@ -1,0 +1,88 @@
+{
+  "app_name": "After a decade of reversing, I got co-op working in DOS Wing Commander",
+  "url": "https://fireflyk64.github.io/wcmulti/",
+  "scored_at": "2026-11-05T14:06:51.180Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be measured beyond noting it is a unique DOS co-op emulator."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 16.1 seconds, which is well under the 30‑second threshold, though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a devtool‑CLI for a legacy DOS game, which does not address any major current LLM workflow need."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Without repository stars or benchmark data we can only compare to wingman (669 stars) and note a different domain, leaving the advantage unclear."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 226, placing it in the 200‑300 range which maps to a community score of 5‑6."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed and the basic run failed, indicating less than 50% functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only, has no PyPI package, and no API modes are listed, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and the site was not examined, so documentation evidence is missing."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) we lack concrete maturity signals; HN points give a neutral proxy."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so performance cannot be assessed."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "Most comments applaud the project’s nostalgia and technical ingenuity, with few mild concerns about Go or technical details."
+    }
+  },
+  "summary": "This is a command‑line tool that recreates the co‑op mode of the DOS game Wing Commander, letting multiple players connect over a network. It runs locally without any external API keys and is distributed as source on GitHub. It is aimed at enthusiasts of retro gaming who want to experience multiplayer on modern hardware. The strongest point is that the installation succeeds quickly (16.1 s), but the tool fails basic runtime tests and lacks integration options, limiting its practical use.",
+  "recommendation": "niche",
+  "app_url": "https://fireflyk64.github.io/wcmulti/",
+  "tool_url": "https://github.com/fireflyk64/wcmulti",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50369895",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "wingman",
+        "stars": 669,
+        "repo": "dendoink/FrontendWingman"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "Nostalgic praise",
+        "Innovation in old games",
+        "Community enthusiasm"
+      ],
+      "negative_signals": [
+        "Skepticism about Go trust",
+        "Minor technical concerns"
+      ],
+      "justification": "Most comments applaud the project’s nostalgia and technical ingenuity, with few mild concerns about Go or technical details.",
+      "comment_count": 30,
+      "hn_points": 226
+    }
+  }
+}
