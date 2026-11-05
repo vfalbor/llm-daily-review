@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Baidu released ERNIE 5.5 Flash Base",
+    "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+    "hn_url": "https://news.ycombinator.com/item?id=50377078",
+    "points": 104,
+    "comments": 58,
+    "author": "pretext",
+    "age": "2026-11-05T09:29:12",
+    "scraped_at": "2026-11-05T14:00:02.881Z",
+    "tool_url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+    "source_type": "model",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "research-model",
+    "description": "ERNIE 5.5 Flash Base is a large multilingual language model released by Baidu, optimized for faster inference with Flash Attention.",
+    "use_modes": [
+      "Python API",
+      "CLI",
+      "REST API"
+    ],
+    "similar_tools": [
+      "GPT-4",
+      "ERNIE 3.0",
+      "BLOOM"
+    ],
+    "proposed_tests": [
+      "Download the checkpoint weights from the release page",
+      "Load the model using the Hugging Face Transformers library",
+      "Run a forward pass on a sample prompt and record latency",
+      "Compare the output token distribution to a baseline GPT model"
+    ],
+    "requires_api_key": true,
+    "is_open_source": false,
+    "repo_url": "https://github.com/baidu-research/ERNIE"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793887260372-iptdx",
+    "log_dir": "/tmp/llm-review-1793887260372-iptdx",
+    "install_success": true,
+    "install_time_s": 8.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.650\nBENCHMARK:pip_install_ernie-flash-base_s:0.986",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 143, in main\n    raise RuntimeError(\"Import failed\")\nRuntimeError: Import failed\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.650\nINSTALL_OK\nBENCHMARK:pip_install_ernie-flash-base_s:0.986\nTEST_FAIL:import_module:No module named 'ernie_flash_base'\nTEST_FAIL:main:Import failed\nRUN_OK\n"
+  }
+}
