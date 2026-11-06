@@ -1,0 +1,120 @@
+{
+  "app_name": "Nvidia Kubernetes Engine (NVKE)",
+  "url": "https://github.com/dsx-ai-factory/nvke",
+  "scored_at": "2026-11-06T14:07:22.254Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 93 days old, is not a fork, and offers a Kubernetes distribution similar to Kind, MicroK8s, and k3s, which have far more stars, indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11.3 seconds, showing a quick setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra-container tool, NVKE aligns with current trends of lightweight Kubernetes solutions for developers."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "NVKE has 236 stars versus 15,595 for Kind, 9,379 for MicroK8s, and 34,347 for k3s, showing minimal differentiation; benchmark data provides no performance advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 236 GitHub stars, 68 contributors, and was updated today (0 days since last commit), placing it in the 100–1k stars bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0%), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides CLI, API, and Dashboard modes and is released under Apache-2.0, but lacks a PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 93 days old with 70 forks and 155 open issues, indicating early-stage maturity without clear release tags."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows import_time_ms of 0.00 with no comparative data, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Several comments praise the open‑source nature and GPU support, but many users express confusion about what NVKE actually provides and its relevance outside NVIDIA’s partner ecosystem, leading to a balanced positive but cautious reception."
+    }
+  },
+  "summary": "NVKE is an open-source, lightweight Kubernetes distribution aimed at developers and small workloads, offering CLI, API, and Dashboard interfaces. It builds on the same Go codebase as other lightweight clusters but does not introduce novel features beyond existing tools like Kind and k3s. The project targets developers needing quick local clusters, but its limited differentiation and sparse test coverage are notable drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/dsx-ai-factory/nvke",
+  "tool_url": "https://github.com/dsx-ai-factory/nvke",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50387738",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 236,
+      "forks": 70,
+      "open_issues": 155,
+      "watchers": 236,
+      "contributors": 68,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 93,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "topics": [
+        "bare-metal",
+        "cluster-api",
+        "gpu",
+        "kubernetes",
+        "nvidia"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Kind",
+        "stars": 15595,
+        "repo": "kubernetes-sigs/kind"
+      },
+      {
+        "name": "MicroK8s",
+        "stars": 9379,
+        "repo": "canonical/microk8s"
+      },
+      {
+        "name": "k3s",
+        "stars": 34347,
+        "repo": "k3s-io/k3s"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "open source stack",
+        "managed cluster capability",
+        "GPU scheduling support"
+      ],
+      "negative_signals": [
+        "confusing description",
+        "limited applicability",
+        "mixed messaging"
+      ],
+      "justification": "Several comments praise the open‑source nature and GPU support, but many users express confusion about what NVKE actually provides and its relevance outside NVIDIA’s partner ecosystem, leading to a balanced positive but cautious reception.",
+      "comment_count": 23,
+      "hn_points": 102
+    }
+  }
+}
