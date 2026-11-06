@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "We've built an open-source feature flag server for 11 years",
+    "url": "https://github.com/Unleash/unleash",
+    "hn_url": "https://news.ycombinator.com/item?id=50391145",
+    "points": 35,
+    "comments": 18,
+    "author": "ivarconr",
+    "age": "2026-11-06T11:40:06",
+    "scraped_at": "2026-11-06T14:00:02.729Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "infra",
+    "app_type": "infra-storage",
+    "description": "Open‑source feature‑flag service that manages flags, experiments, and user targeting.",
+    "use_modes": [
+      "HTTP API",
+      "CLI",
+      "SDK (Java, JavaScript, Go, etc.)"
+    ],
+    "similar_tools": [
+      "LaunchDarkly OSS",
+      "Flagger",
+      "ConfigCat (self‑hosted)"
+    ],
+    "proposed_tests": [
+      "Docker‑compose bring up a single‑node Unleash instance.",
+      "Create a new flag via the REST API and verify its default state.",
+      "Send 10k toggle requests through the SDK and measure latency.",
+      "Run a health‑check endpoint and confirm 200 OK."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Unleash/unleash",
+    "tool_url": "https://github.com/Unleash/unleash"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793973708069-x1ozo",
+    "log_dir": "/tmp/llm-review-1793973708069-x1ozo",
+    "install_success": true,
+    "install_time_s": 180.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.83\nBENCHMARK:clone_time_s:7.35\nBENCHMARK:vs_launchdarkly_toggle_req_ratio:0.75",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.83\nINSTALL_OK\nBENCHMARK:clone_time_s:7.35\nINSTALL_FAIL:npm_install:npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.\nnpm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.\nnpm warn deprecated prom-client@15.1.3: prom-client has been replaced by @prometheus-io/client\nnpm warn deprecated db-migrate@0.11.14: 0.x is end of life, please upgrade to db-migrate 1.0\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, write\nnpm warn tar TAR_ENTRY_ERROR EN"
+  }
+}
