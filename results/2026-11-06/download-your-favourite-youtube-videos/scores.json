@@ -1,0 +1,107 @@
+{
+  "app_name": "Download your favourite YouTube videos",
+  "url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+  "scored_at": "2026-11-06T14:11:47.920Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so insufficient data to assess novelty."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 12.2 s, well under the 30 s threshold, and the package exists on PyPI."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑CLI for downloading YouTube videos, it addresses a general need but is not tied to current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Similar tools have far more stars (youtube-dl 141 k, yt‑dlp 205 k, streamlink 12 k) while this tool has no reported stars, indicating minimal differentiation."
+    },
+    "community": {
+      "score": 8,
+      "justification": "No GitHub repo, but HN points are 374 with positive sentiment, which maps to a community score of 7–8."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "0 of 1 tests passed (<50%) and the basic run failed, showing core functionality is broken."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available on PyPI but provides only a CLI interface with no API, giving only minimal integration capability."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available, so documentation evidence is missing."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The PyPI version is 0.6.2, indicating a pre‑1.0 release and limited maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported, so performance cannot be evaluated; a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments mostly praise the tool’s utility and flexibility, with several users discussing how it fits into their workflows. Criticism focuses on legal implications and the perceived complexity of using or configuring it, but no strong hostility is present."
+    }
+  },
+  "summary": "A command‑line utility that downloads YouTube videos and audio streams. It is distributed as a PyPI package and runs locally without any API keys. It is suited for users who need a quick way to fetch YouTube media via the terminal, but it offers little advantage over established tools like youtube‑dl or yt‑dlp. The main strength is its simplicity of installation, while the main caveat is poor test coverage and limited differentiation.",
+  "recommendation": "skip",
+  "app_url": "https://criminallyvulgar.dev/you-should-absolutely-download-your-favourite-youtube-videos/",
+  "tool_url": "https://github.com/cryptomancer/youtube-downloader",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50378571",
+  "domain": "devtool-cli",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "youtube-dl",
+        "stars": 141472,
+        "repo": "ytdl-org/youtube-dl"
+      },
+      {
+        "name": "yt-dlp",
+        "stars": 205689,
+        "repo": "yt-dlp/yt-dlp"
+      },
+      {
+        "name": "streamlink",
+        "stars": 11896,
+        "repo": "streamlink/streamlink"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.6.2",
+      "summary": "youtube-dl GUI simplify",
+      "requires_python": ">=3.6",
+      "license": "GPLv3",
+      "home_page": "https://www.github.com/blooser/youtube-downloader"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "practical download tool",
+        "flexible usage options",
+        "community support",
+        "technical discussion"
+      ],
+      "negative_signals": [
+        "legal concerns",
+        "complexity of setup",
+        "streaming vs downloading debate"
+      ],
+      "justification": "Comments mostly praise the tool’s utility and flexibility, with several users discussing how it fits into their workflows. Criticism focuses on legal implications and the perceived complexity of using or configuring it, but no strong hostility is present.",
+      "comment_count": 30,
+      "hn_points": 374
+    }
+  }
+}
