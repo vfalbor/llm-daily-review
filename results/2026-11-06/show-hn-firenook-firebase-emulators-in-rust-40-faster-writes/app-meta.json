@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+    "url": "https://firenook.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=50378643",
+    "points": 149,
+    "comments": 18,
+    "author": "sanjevirau",
+    "age": "2026-11-05T13:07:29",
+    "scraped_at": "2026-11-06T14:00:02.741Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/firenook/firenook",
+    "confidence": 0.97,
+    "domain": "infra-queue",
+    "app_type": "infra-queue",
+    "description": "Rust-based Firebase emulator stack with improved write performance and low memory footprint.",
+    "use_modes": [
+      "CLI",
+      "SDK",
+      "Docker"
+    ],
+    "similar_tools": [
+      "Firestore Emulator",
+      "Firebase Local Emulator Suite",
+      "Mock Firebase"
+    ],
+    "proposed_tests": [
+      "Run `firenook start` and verify emulation of Firestore API",
+      "Perform 1,000 write operations and measure latency vs Firebase Local Emulator Suite",
+      "Measure memory usage during bulk writes",
+      "Test integration with a sample Rust client"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/firenook/firenook"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793974108396-y2kgc",
+    "log_dir": "/tmp/llm-review-1793974108396-y2kgc",
+    "install_success": true,
+    "install_time_s": 14.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:4.64\nBENCHMARK:install_firenook_time_s:0.84\nBENCHMARK:cli_help_ms:1.08\nBENCHMARK:vs_firebase_local_emulator_write_latency_ratio:0.22",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:4.64\nINSTALL_FAIL:git clone failed:Cloning into '/tmp/firenook'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:install_firenook_time_s:0.84\nTEST_FAIL:cli_help:unexpected output or rc=1\nBENCHMARK:cli_help_ms:1.08\nTEST_FAIL:start_emulator:[Errno 2] No such file or directory: 'firenook'\nTEST_FAIL:bulk_writes:[Errno 2] No such file or directory: 'firenook'\nTEST_FAIL:memory_bulk:[Errno 2] No such file or directory: 'firenook'\nTEST_FAIL:rust_client:git clone client failed:Cloning into '/tmp/firenook_client'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:vs_firebase_local_emulator_write_latency_ratio:0.22\nRUN_OK\n"
+  }
+}
