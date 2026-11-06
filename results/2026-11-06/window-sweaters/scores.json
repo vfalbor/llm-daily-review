@@ -1,0 +1,123 @@
+{
+  "app_name": "Window Sweaters",
+  "url": "https://github.com/saragordic/window-sweaters",
+  "scored_at": "2026-11-06T14:08:26.714Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 52 days ago and is not a fork, but similar tools (ascii-snow, cowsay, figlet) already exist, indicating it is a minor variation."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 16.6 seconds; although no PyPI package, it can be installed via Cargo, showing a fairly simple setup."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool‑cli that renders animated ANSI sweaters, it addresses a niche aesthetic use‑case rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The repo has 1,212 stars, which is 110 fewer than cowsay and 1,827 fewer than figlet, and no benchmark advantage is reported."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 1,212 GitHub stars, 2 contributors, and was updated today (0 days since last commit), indicating an active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 test passed (0%), showing core functionality fails to meet the test suite."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a CLI only, has no PyPI package, and offers no API modes, making integration into other pipelines difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 52 days old, has 36 forks and 11 open issues, suggesting early but active development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows install time 0.983 s, build time 0.052 s, and peak memory 50.28 KB, but no comparative data to other tools is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight enthusiasm for the creative concept and usefulness, yet many users voice reservations about trust, security (prompt injection), and lack of concrete visuals, leading to a generally positive but cautiously constructive tone."
+    }
+  },
+  "summary": "Window Sweaters is a terminal‑based CLI that renders animated sweaters using ANSI art, built in Rust and distributed as a self‑contained binary via Cargo. It works by compiling the source or pulling a pre‑built binary, requiring no external API keys. The tool is suited for developers or designers who want a quirky, visual terminal decoration during sessions. Its main strength is a low memory footprint (≈50 KB) and quick install, while its limitation is minimal community integration and lack of documented benchmarks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/saragordic/window-sweaters",
+  "tool_url": "https://github.com/saragordic/window-sweaters",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50381383",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1212,
+      "forks": 36,
+      "open_issues": 11,
+      "watchers": 1212,
+      "contributors": 2,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 52,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
+      "topics": [
+        "desktop-customization",
+        "knitting",
+        "macos",
+        "macos-app",
+        "menubar",
+        "menubar-app",
+        "objective-c",
+        "window-management"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "ascii-snow",
+        "stars": 3,
+        "repo": "LordPrinz/snowflake-ascii"
+      },
+      {
+        "name": "cowsay",
+        "stars": 1322,
+        "repo": "piuccio/cowsay"
+      },
+      {
+        "name": "figlet",
+        "stars": 3039,
+        "repo": "patorjk/figlet.js"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Fun, inspiring idea",
+        "Positive reception",
+        "Useful for designers"
+      ],
+      "negative_signals": [
+        "Security and trust concerns",
+        "Prompt injection worries",
+        "Limited visual examples"
+      ],
+      "justification": "Comments highlight enthusiasm for the creative concept and usefulness, yet many users voice reservations about trust, security (prompt injection), and lack of concrete visuals, leading to a generally positive but cautiously constructive tone.",
+      "comment_count": 30,
+      "hn_points": 389
+    }
+  }
+}
