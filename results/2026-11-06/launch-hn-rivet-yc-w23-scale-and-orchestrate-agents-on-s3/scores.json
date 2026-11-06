@@ -1,0 +1,132 @@
+{
+  "app_name": "Rivet",
+  "url": "https://github.com/rivet-dev/rivet",
+  "scored_at": "2026-11-06T14:10:12.890Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 1239 days old, is not a fork, and targets a niche (S3-backed orchestration) that improves on existing workflow tools but does not introduce a fundamentally new paradigm."
+    },
+    "system_requirements": {
+      "score": 3,
+      "justification": "Install failed (install_success false) after 17.9 seconds, despite a PyPI package existing."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra-container tool for scaling LLM agents, it aligns with current trends of orchestrating LLM workloads."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Rivet has 6,738 stars, far fewer than Airflow (47,394), Argo (17,083) and Temporal (24,228), and its only unique claim is using S3 for state persistence."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 6,738 stars, 35 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 4 tests passed (25%) and the install step failed, indicating limited usability."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package (v1.6.0) is available, and the tool offers CLI, API, and SDK modes under an Apache-2.0 license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic tags was provided, so evidence is insufficient to score higher."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 1239 days old, has 308 forks and 381 open issues, indicating a mature but actively evolving project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output shows install_time_s 7.75 and clone_time_s 2.60, but no comparative data against alternatives, so a neutral score is applied."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Overall comments are supportive, praising integration ease, sandboxing, and real-world usage, but some users note performance, UX, and security doubts. The mix leans toward generally positive with constructive critique."
+    }
+  },
+  "summary": "Rivet is an open‑source framework that orchestrates LLM agents by persisting their state on S3. It provides a CLI, API, and SDK and runs as a containerized infra component written in Rust. The tool is aimed at teams needing scalable, self‑hosted agent pipelines, especially those already using S3 for storage. It benefits from a sizable community (6.7k stars) and recent activity, but its install failures and limited benchmark evidence temper its appeal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/rivet-dev/rivet",
+  "tool_url": "https://github.com/rivet-dev/rivet",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50381687",
+  "domain": "infra-container",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 6738,
+      "forks": 308,
+      "open_issues": 381,
+      "watchers": 6738,
+      "contributors": 35,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1239,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "The orchestrator for agentic workloads. A fast, high-density and scalable orchestrator for every workload an agent needs.",
+      "topics": [
+        "actor",
+        "actors",
+        "cloudflare",
+        "cloudflare-durable-objects",
+        "durable-objects",
+        "foundationdb",
+        "multiplayer",
+        "realtime",
+        "rust",
+        "serverless"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Airflow",
+        "stars": 47394,
+        "repo": "apache/airflow"
+      },
+      {
+        "name": "Argo Workflows",
+        "stars": 17083,
+        "repo": "argoproj/argo-workflows"
+      },
+      {
+        "name": "Temporal",
+        "stars": 24228,
+        "repo": "temporalio/temporal"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.6.0",
+      "summary": "A Python-to-S3 interface with added convenience features.",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://github.com/neighborhoods/rivet"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "smooth integration with existing infra",
+        "robust sandboxing via agentOS",
+        "positive community feedback and self-hosted use cases"
+      ],
+      "negative_signals": [
+        "concerns about sandbox performance and cost",
+        "complex UX and unclear use cases",
+        "security comparison worries"
+      ],
+      "justification": "Overall comments are supportive, praising integration ease, sandboxing, and real-world usage, but some users note performance, UX, and security doubts. The mix leans toward generally positive with constructive critique.",
+      "comment_count": 30,
+      "hn_points": 107
+    }
+  }
+}
