@@ -1,0 +1,98 @@
+{
+  "app_name": "Firenook",
+  "url": "https://firenook.dev/",
+  "scored_at": "2026-11-06T14:09:36.115Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so the novelty cannot be quantified beyond being a Rust-based emulator, resulting in a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 14.4 seconds, but there is no PyPI package, indicating a moderately simple setup with some manual steps."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra-queue tool providing faster Firebase emulation, it aligns well with current trends in local development environments for LLM‑backed applications."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Compared to similar tools with 11, 0, and 350 GitHub stars, Firenook shows a write‑latency ratio of 0.22, indicating roughly 4.5× faster writes, a clear performance advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub stars or contributors are available, but the HN post received 149 points and 17 comments with a sentiment score of 8/10, indicating an engaged but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 5 tests passed (<50%), showing core functionality is not reliably verified despite a successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available via CLI, SDK, and Docker, but lacks a PyPI package; these integration modes give moderate ease of embedding."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo data (wiki, pages, topics) is available and the website provides no documented evidence, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from HN points (149) which places it in the 100–300 range, yielding a neutral maturity rating."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmark shows a write‑latency ratio of 0.22 versus the Firebase Local Emulator, meaning writes are roughly 4.5× faster, exceeding the >2× improvement threshold."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments overwhelmingly celebrate Firenook’s speed, memory efficiency, and ease of use, with multiple users expressing enthusiasm and offering support. Only a handful of users raise minor concerns about why to stick with Firebase and the project’s cloud plans, which do not significantly detract from the overall positive reception."
+    }
+  },
+  "summary": "Firenook is a Rust‑based Firebase emulator stack that offers CLI, SDK, and Docker interfaces for local development. It achieves roughly 4.5× faster write operations and uses significantly less RAM than existing emulators. The tool targets developers who need high‑performance, low‑memory Firebase testing locally. It stands out for its speed advantage, but its lack of test coverage and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://firenook.dev/",
+  "tool_url": "https://github.com/firenook/firenook",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50378643",
+  "domain": "infra-queue",
+  "app_type": "infra-queue",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Firestore Emulator",
+        "stars": 11,
+        "repo": "AngularFirebase/147-firestore-emulator-rules-testing"
+      },
+      {
+        "name": "Firebase Local Emulator Suite",
+        "stars": 0,
+        "repo": "M4yankChoudhary/Firebase-Local-Emulator-Suite"
+      },
+      {
+        "name": "Mock Firebase",
+        "stars": 350,
+        "repo": "soumak77/firebase-mock"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "highly praised performance and usability",
+        "enthusiastic community support",
+        "positive founder endorsement"
+      ],
+      "negative_signals": [
+        "questioning necessity of Firebase",
+        "concerns about cloud future"
+      ],
+      "justification": "The comments overwhelmingly celebrate Firenook’s speed, memory efficiency, and ease of use, with multiple users expressing enthusiasm and offering support. Only a handful of users raise minor concerns about why to stick with Firebase and the project’s cloud plans, which do not significantly detract from the overall positive reception.",
+      "comment_count": 17,
+      "hn_points": 149
+    }
+  }
+}
