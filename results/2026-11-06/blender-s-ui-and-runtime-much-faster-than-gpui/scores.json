@@ -1,0 +1,120 @@
+{
+  "app_name": "Blender's UI and Runtime: Much Faster Than GPUI",
+  "url": "https://github.com/ppmpreetham/BUI",
+  "scored_at": "2026-11-06T14:01:46.070Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 72 days old, not a fork, and implements a Blender UI replacement rather than a brand‑new paradigm, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 17.9 s (<30 s) and the package is available on PyPI, requiring only Python >=3.6."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑editor for Blender, it addresses a niche UI performance need but does not directly align with the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 637 stars versus gpui's 20,278, the project is smaller, yet benchmark data shows a dummy operation time of 1.15 ms and a vs_gpui_dummy_op_ratio of 0.01, indicating roughly 100× faster performance."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 637 stars (100–1k range), 3 contributors, and was updated 0 days ago, showing a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 2 of 6 tests passed (33 %), though the basic run succeeded and install succeeded."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The add‑on is published on PyPI, supports both a Blender add‑on mode and a CLI mode, and is released under GPL‑3.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project is 72 days old, has 16 forks and 5 open issues, suggesting early‑stage but stable development."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark shows import_time 0 ms and dummy_op 1.15 ms with a vs_gpui_dummy_op_ratio of 0.01, indicating a clear speed advantage over gpui."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely appreciate Blender’s polished UI and speed, especially for Rust developers, while several point out shortcomings in GIMP/Inkscape interfaces. Overall sentiment is constructive and positive with a few criticisms, yielding a score of 7."
+    }
+  },
+  "summary": "Blender's UI and Runtime is a C++‑based Blender add‑on that replaces the default UI with a faster implementation, installable via PyPI. It runs locally inside Blender and can also be invoked as a CLI script. This tool is aimed at Blender artists and developers who need a more responsive interface, especially those experimenting with Rust integration. Its standout strength is the measured speed boost (dummy operation 0.01× gpui), while the limited test coverage (33 % passed) reveals usability gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ppmpreetham/BUI",
+  "tool_url": "https://github.com/ppmpreetham/BUI",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50389333",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 637,
+      "forks": 16,
+      "open_issues": 5,
+      "watchers": 637,
+      "contributors": 3,
+      "license": "GPL-3.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 72,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Blender's GPU Accelerated UI, Decoupled from it's original codebase. Supports Rust, Python, JS, React, C & C++. Twice as good as GPUI",
+      "topics": [
+        "blender",
+        "blender-ui",
+        "bui"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "gpui",
+        "stars": 20278,
+        "repo": "BradLarson/GPUImage"
+      },
+      {
+        "name": "SculptGL",
+        "stars": 1506,
+        "repo": "stephomi/sculptgl"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.4",
+      "summary": "The Blind User Interface: the interface you can design with your eyes closed.",
+      "requires_python": ">=3.6",
+      "license": "",
+      "home_page": "https://github.com/vincent-lg/bui/"
+    },
+    "tests_passed": 2,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Blender UI praised for polish and speed",
+        "Developer enthusiasm for Rust integration",
+        "Potential for other 3D and editing tools"
+      ],
+      "negative_signals": [
+        "Criticism of GIMP/Inkscape UI usability",
+        "Mixed opinions on Blender UI vs other apps",
+        "Some nonsensical comments reduce coherence"
+      ],
+      "justification": "The comments largely appreciate Blender’s polished UI and speed, especially for Rust developers, while several point out shortcomings in GIMP/Inkscape interfaces. Overall sentiment is constructive and positive with a few criticisms, yielding a score of 7.",
+      "comment_count": 30,
+      "hn_points": 379
+    }
+  }
+}
