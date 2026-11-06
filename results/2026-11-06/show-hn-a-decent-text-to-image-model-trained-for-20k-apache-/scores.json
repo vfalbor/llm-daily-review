@@ -1,0 +1,93 @@
+{
+  "app_name": "pjit-21k",
+  "url": "https://www.linum.ai/field-notes/pjit-21k",
+  "scored_at": "2026-11-06T14:10:45.166Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the model is compared only to existing tools like Stable Diffusion and Imagen, so the novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) and took 14.9 s; there is no PyPI package, indicating a difficult setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a multimodal text‑to‑image research model, it aligns with current interest in efficient LLM‑adjacent generative models."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for the repo and no benchmark comparison to Stable Diffusion (165,248 stars) or Imagen (8,433 stars) are provided, leaving differentiation unclear."
+    },
+    "community": {
+      "score": 6,
+      "justification": "GitHub data is missing, but HN points are 256 (200–500 range) which maps to a community score of 5–6."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 3 tests passed (0/3) and install failed, indicating major usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a Python API, CLI, and web demo and is Apache‑2.0 licensed, but there is no PyPI package, giving moderate integration ease."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository or explicit documentation metrics (wiki, pages, topics) are available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repo data, HN points of 256 place the maturity in the 100–300 bracket, yielding a score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported; the only metric is loc_count = 1240, which does not convey performance, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "HN sentiment score is 7/10 with 256 points and 24 comments, indicating generally positive reception."
+    }
+  },
+  "summary": "pjit-21k is a research‑grade text‑to‑image model trained on ~20k images and released under Apache 2.0. It provides a Python API, CLI, and a web demo, but lacks a PyPI package and the installation fails in the test harness. The model targets researchers and hobbyists interested in low‑cost image generation, offering modest novelty over larger models like Stable Diffusion. While HN comments praise its efficiency and low training cost (sentiment 7/10), the lack of reliable installation, documentation, and benchmark data limits its practicality.",
+  "recommendation": "niche",
+  "app_url": "https://www.linum.ai/field-notes/pjit-21k",
+  "tool_url": "https://github.com/lunumai/pjit-21k",
+  "source_type": "research-model",
+  "hn_url": "https://news.ycombinator.com/item?id=50368208",
+  "domain": "llm-ai",
+  "app_type": "multimodal",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Stable Diffusion",
+        "stars": 165248,
+        "repo": "AUTOMATIC1111/stable-diffusion-webui"
+      },
+      {
+        "name": "Imagen",
+        "stars": 8433,
+        "repo": "lucidrains/imagen-pytorch"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "impressive performance",
+        "efficient training cost",
+        "community interest in efficiency"
+      ],
+      "negative_signals": [
+        "quality issues like over smoothing and wrong limbs",
+        "questions about training data transparency"
+      ],
+      "justification": "The majority of comments praise the model’s impressive output and low training cost while showing enthusiasm for efficiency, but several commenters note typical visual artifacts and raise concerns about dataset provenance and quality.",
+      "comment_count": 24,
+      "hn_points": 256
+    }
+  }
+}
