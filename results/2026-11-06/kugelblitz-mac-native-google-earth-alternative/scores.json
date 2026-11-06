@@ -1,0 +1,83 @@
+{
+  "app_name": "Kugelblitz – Mac-Native Google Earth Alternative",
+  "url": "https://apps.metaebene.me/en/kugelblitz",
+  "scored_at": "2026-11-06T14:06:05.206Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No repository or creation date is available, and the tool is a macOS variant of existing map viewers, so there is insufficient quantitative evidence to rate higher."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 8.3 seconds, indicating a straightforward setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool-cli for macOS map navigation, it addresses a niche need that is not a primary focus of current LLM workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons are available; the app offers offline caching but quantitative advantage over OpenStreetMap Navigator or Google Earth Engine cannot be measured."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 142 with 30 comments, placing it in the 5‑6 range for community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (0/3), indicating less than 50% functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The page shows no API/SDK, no PyPI package, and the app is closed source, making integration difficult."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "Although there is no docs/wiki link, the page content length is 6652 characters, suggesting substantive information despite the lack of structured documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The site lists a detected version 1.0.2 and includes a changelog, indicating a stable release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No explicit benchmark results are provided; install times are available but do not allow comparison to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise Kugelblitz for smooth performance on new Macs and open-source data handling, but several users note its lack of support for older macOS versions, the closed-source nature, and express frustration with the developer’s attitude."
+    }
+  },
+  "summary": "Kugelblitz is a native macOS desktop application that lets users navigate 3‑D maps offline using OpenStreetMap data. It runs as a GUI with a command‑line export mode and does not require an API key. The tool is suited for macOS users who need a lightweight Google Earth alternative without internet connectivity. While it offers a stable 1.0.2 release and decent documentation depth, its closed‑source nature, lack of integration hooks, and poor test coverage limit its broader adoption.",
+  "recommendation": "niche",
+  "app_url": "https://apps.metaebene.me/en/kugelblitz",
+  "tool_url": "https://apps.metaebene.me/en/kugelblitz",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50389370",
+  "domain": "other",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "high performance on M1",
+        "smooth globe navigation",
+        "open-source data use"
+      ],
+      "negative_signals": [
+        "limited OS support",
+        "closed source",
+        "developer criticism"
+      ],
+      "justification": "Comments praise Kugelblitz for smooth performance on new Macs and open-source data handling, but several users note its lack of support for older macOS versions, the closed-source nature, and express frustration with the developer’s attitude.",
+      "comment_count": 30,
+      "hn_points": 142
+    }
+  }
+}
