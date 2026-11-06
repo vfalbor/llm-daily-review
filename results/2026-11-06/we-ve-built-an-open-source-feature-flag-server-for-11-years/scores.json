@@ -1,0 +1,131 @@
+{
+  "app_name": "Unleash",
+  "url": "https://github.com/Unleash/unleash",
+  "scored_at": "2026-11-06T14:05:04.631Z",
+  "total_score": 69,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 4,421 days old and is not a fork, but similar feature‑flag tools exist (e.g., Flagger) making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded but took 180.9 seconds, exceeding the <30 s threshold for top scores; a PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑storage feature‑flag service, it addresses a common need in modern cloud and LLM deployment pipelines."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Unleash has 13,984 stars versus Flagger's 5,429 (+158%) and a benchmark ratio of 0.75 against LaunchDarkly, indicating lower request load."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 13,984 stars, 262 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0% success) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists, the service offers HTTP API, CLI, and multiple SDKs, and is released under AGPL‑3.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or documentation quality was provided."
+    },
+    "maturity": {
+      "score": 9,
+      "justification": "The repo is 4,421 days old, has 925 forks and only 44 open issues, showing long‑term stability."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks show install_time 1.83 s, clone_time 7.35 s, and a launchdarkly request‑ratio of 0.75, suggesting a modest speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments praise Unleash’s ability to scale and provide flexible feature flag capabilities, but raise concerns about pricing, operational overhead, and potential outages, leading to an overall positive but cautiously optimistic sentiment."
+    }
+  },
+  "summary": "Unleash is an open‑source feature‑flag server that provides HTTP, CLI, and SDK interfaces for managing flags, experiments, and targeting. It is built as a TypeScript service with a Python client on PyPI and runs locally without requiring an API key. The tool is suited for engineering teams that need self‑hosted feature toggles and want to avoid vendor lock‑in. It stands out with a large community (13.9k stars) and a benchmarked 25% lower request load than LaunchDarkly, but its test suite shows 0 % pass rate, indicating reliability concerns.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Unleash/unleash",
+  "tool_url": "https://github.com/Unleash/unleash",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50391145",
+  "domain": "infra",
+  "app_type": "infra-storage",
+  "enriched": {
+    "github": {
+      "stars": 13984,
+      "forks": 925,
+      "open_issues": 44,
+      "watchers": 13984,
+      "contributors": 262,
+      "license": "AGPL-3.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4421,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Open-source feature management platform",
+      "topics": [
+        "activation-strategies",
+        "collaboration",
+        "continuous-delivery",
+        "continuous-deployment",
+        "devops",
+        "devtool",
+        "experiments",
+        "feature",
+        "feature-flags",
+        "feature-toggle",
+        "feature-toggles",
+        "feature-toggling",
+        "hacktoberfest",
+        "integration",
+        "platform-engineering",
+        "sdk",
+        "toggles",
+        "unleash",
+        "variants"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Flagger",
+        "stars": 5429,
+        "repo": "fluxcd/flagger"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.7.1",
+      "summary": "Creates release commits directly in git, unleashes them on PyPI and pushes tags to github.",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "http://github.com/mbr/unleash"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "valuable for scaling",
+        "provides flexibility",
+        "useful feature set"
+      ],
+      "negative_signals": [
+        "cost concerns",
+        "complexity and maintenance",
+        "outage risk"
+      ],
+      "justification": "Comments praise Unleash’s ability to scale and provide flexible feature flag capabilities, but raise concerns about pricing, operational overhead, and potential outages, leading to an overall positive but cautiously optimistic sentiment.",
+      "comment_count": 19,
+      "hn_points": 36
+    }
+  }
+}
