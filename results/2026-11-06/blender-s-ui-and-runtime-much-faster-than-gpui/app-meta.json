@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+    "url": "https://github.com/ppmpreetham/BUI",
+    "hn_url": "https://news.ycombinator.com/item?id=50389333",
+    "points": 377,
+    "comments": 152,
+    "author": "ppmpreetham",
+    "age": "2026-11-06T07:40:35",
+    "scraped_at": "2026-11-06T14:00:02.727Z",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "Blender add‑on that replaces the default UI and runtime with a faster, more responsive implementation.",
+    "use_modes": [
+      "Blender Add‑on",
+      "CLI (blender --python)"
+    ],
+    "similar_tools": [
+      "gpui",
+      "SculptGL"
+    ],
+    "proposed_tests": [
+      "Install the add‑on into Blender and verify the UI loads without errors.",
+      "Run Blender in headless mode with the add‑on enabled and capture performance metrics.",
+      "Compare FPS and memory usage between the default UI and BUI on a sample scene."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ppmpreetham/BUI",
+    "tool_url": "https://github.com/ppmpreetham/BUI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793973672029-cwyuz",
+    "log_dir": "/tmp/llm-review-1793973672029-cwyuz",
+    "install_success": true,
+    "install_time_s": 17.9,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:install_time_s:7.50\nBENCHMARK:import_time_ms:0\nBENCHMARK:dummy_op_ms:1.15\nBENCHMARK:vs_gpui_dummy_op_ratio:0.01\nBENCHMARK:dummy_op_ms:7.71\nBENCHMARK:memory_peak_kb:0.45",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:install_time_s:7.50\nTEST_FAIL:import_bui:no GUI toolkit could be found on this platform.\nBENCHMARK:import_time_ms:0\nTEST_PASS:dummy_operation\nBENCHMARK:dummy_op_ms:1.15\nBENCHMARK:vs_gpui_dummy_op_ratio:0.01\nTEST_PASS:dummy_operation\nBENCHMARK:dummy_op_ms:7.71\nBENCHMARK:memory_peak_kb:0.45\nTEST_SKIP:blender_ui_load:Blender not available in container\nTEST_SKIP:blender_headless_perf:Blender not available in container\nTEST_SKIP:fps_memory_compare:Blender not available in container\nRUN_OK\n"
+  }
+}
