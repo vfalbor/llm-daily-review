@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Pangram Image 1.0",
+    "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+    "hn_url": "https://news.ycombinator.com/item?id=50383294",
+    "points": 129,
+    "comments": 59,
+    "author": "gmays",
+    "age": "2026-11-05T19:27:52",
+    "scraped_at": "2026-11-06T14:00:02.745Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/pangram-io/pangram-image",
+    "confidence": 0.9,
+    "domain": "data-format",
+    "app_type": "data-format",
+    "description": "Open‑source image file format designed for efficient streaming and low‑bandwidth transfer.",
+    "use_modes": [
+      "CLI",
+      "Library"
+    ],
+    "similar_tools": [
+      "WebP",
+      "AVIF",
+      "JPEG XL"
+    ],
+    "proposed_tests": [
+      "Clone repo and build the `pangram` binary",
+      "Encode a sample PNG into Pangram format and verify size reduction",
+      "Decode the generated file and compare pixel fidelity to original",
+      "Benchmark encode/decode latency against WebP on the same dataset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/pangram-io/pangram-image"
+  },
+  "test_results": {
+    "run_id": "llm-review-1793974309297-zaiwx",
+    "log_dir": "/tmp/llm-review-1793974309297-zaiwx",
+    "install_success": true,
+    "install_time_s": 8.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_peak_mem_kb:1.71\nBENCHMARK:import_elapsed_ms:0.53",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement pangram-image (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --up\nTEST_FAIL:clone_and_build:git clone failed: Cloning into '/tmp/pangram_src'...\nfatal: could not read Username for 'https://github.com': No such device or address\n\nTEST_FAIL:import_pangram_image:No module named 'pangram_image'\nTEST_FAIL:encode_decode:No module named 'pangram_image'\nBENCHMARK:import_peak_mem_kb:1.71\nBENCHMARK:import_elapsed_ms:0.53\nRUN_OK\n"
+  }
+}
