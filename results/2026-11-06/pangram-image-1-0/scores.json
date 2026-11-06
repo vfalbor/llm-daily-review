@@ -1,0 +1,99 @@
+{
+  "app_name": "Pangram Image 1.0",
+  "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+  "scored_at": "2026-11-06T14:12:17.222Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "No GitHub repo data and the tool competes with well‑established formats like WebP (65,992 stars) and AVIF (707 stars), indicating it is an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 8.8 seconds, showing a relatively easy setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a data‑format tool, it addresses a niche need for low‑bandwidth image streaming, which is modestly relevant to current LLM‑driven pipelines."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Without a GitHub star count and with no benchmark comparison to dominant formats (WebP, AVIF, JPEG XL), its advantages appear limited."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 129 (within the 100–200 range) and 30 comments were analyzed, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3), showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is not on PyPI and only offers CLI and library modes; no explicit API or licensing information was found."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic metadata were available; only a blog announcement was found, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity is inferred from HN points (129) placing it in the 100–300 bracket, yielding a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows import elapsed time of 0.53 ms, but no comparative data to similar formats is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments highlight strong performance of the image detection and its potential moderation uses, but also point out calibration problems, limited accuracy on short texts and general skepticism about the broader utility of AI detection."
+    }
+  },
+  "summary": "Pangram Image 1.0 is an open‑source image file format aimed at efficient streaming and low‑bandwidth transfer. It provides both a CLI and a library interface and is built as a custom format rather than wrapping existing codecs. It is suited for developers needing lightweight image delivery in bandwidth‑constrained environments. The tool runs quickly (import under 1 ms) but lacks community traction, extensive documentation, and clear performance advantages over established formats like WebP and AVIF.",
+  "recommendation": "niche",
+  "app_url": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
+  "tool_url": "https://github.com/pangram-io/pangram-image",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50383294",
+  "domain": "data-format",
+  "app_type": "data-format",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "WebP",
+        "stars": 65992,
+        "repo": "webpack/webpack"
+      },
+      {
+        "name": "AVIF",
+        "stars": 707,
+        "repo": "Kagami/avif.js"
+      },
+      {
+        "name": "JPEG XL",
+        "stars": 26,
+        "repo": "ImageMagick/jpeg-xl"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "effective image detection",
+        "useful for moderation",
+        "robust signal"
+      ],
+      "negative_signals": [
+        "calibration issues",
+        "short text inaccuracy",
+        "skepticism about utility"
+      ],
+      "justification": "The comments highlight strong performance of the image detection and its potential moderation uses, but also point out calibration problems, limited accuracy on short texts and general skepticism about the broader utility of AI detection.",
+      "comment_count": 30,
+      "hn_points": 129
+    }
+  }
+}
