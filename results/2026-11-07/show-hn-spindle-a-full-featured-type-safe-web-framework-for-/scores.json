@@ -1,0 +1,105 @@
+{
+  "app_name": "Spindle",
+  "url": "https://github.com/hyphatech/spindle",
+  "scored_at": "2026-11-07T14:04:34.589Z",
+  "total_score": 36,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 30 days ago and is not a fork, but similar OCaml frameworks have thousands of stars, indicating Spindle is an incremental addition."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) and took 196.9 seconds; despite a PyPI package, the version is 0.0.0, suggesting a difficult setup."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web-framework for OCaml, it addresses a niche area not central to current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Spindle has only 20 stars versus 1,139, 781, and 22,909 stars for comparable tools, showing no clear advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repo has 20 stars, 1 contributor, and the last commit was 4 days ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "All tests failed (0 passed, install_success false) and basic run did not succeed."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists and the project offers CLI, HTTP server, and SDK modes under an MIT license, enabling moderate integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topics was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 30 days old with 1 fork and 0 open issues, indicating early-stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported, so performance cannot be evaluated."
+    }
+  },
+  "summary": "Spindle is a type-safe web framework for OCaml 5 that provides a minimal API for building HTTP services. It ships as a PyPI package and can be used via CLI, an HTTP server, or an SDK, and is licensed under MIT. The framework targets OCaml developers needing safety and ergonomics in web services, but its low star count and lack of benchmarks show limited differentiation and performance evidence. Installation fails and documentation details are scarce, making it risky for production use.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/hyphatech/spindle",
+  "tool_url": "https://github.com/hyphatech/spindle",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50377613",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": {
+      "stars": 20,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 20,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "OCaml",
+      "is_fork": false,
+      "days_since_update": 4,
+      "days_since_created": 30,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "The web framework for modern OCaml.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Ocsigen",
+        "stars": 1139,
+        "repo": "ocsigen/js_of_ocaml"
+      },
+      {
+        "name": "Opium",
+        "stars": 781,
+        "repo": "rgrinberg/opium"
+      },
+      {
+        "name": "Dream",
+        "stars": 22909,
+        "repo": "dream-num/univer"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.0",
+      "summary": "Package for computing the properties of classical magnetic systems",
+      "requires_python": ">=3.12",
+      "license": "MIT",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
