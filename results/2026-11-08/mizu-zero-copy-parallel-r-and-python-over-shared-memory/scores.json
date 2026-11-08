@@ -1,0 +1,121 @@
+{
+  "app_name": "Mizu – zero-copy parallel R and Python over shared memory",
+  "url": "https://github.com/shikokuchuo/pymizu",
+  "scored_at": "2026-11-08T14:05:17.322Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 79 days old, is not a fork, and offers a zero‑copy shared memory bridge between R and Python, which is an incremental improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 19 seconds (under 30 s) and the package is available on PyPI, requiring only Python ≥3.10."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data‑pipeline library for high‑performance parallel exchange, it addresses a common need in current LLM workflows that involve heavy data movement between languages."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 48 GitHub stars it is far less popular than Zarr (2,084 stars) and sharedmem (607 stars), but provides a unique zero‑copy R↔Python capability not found in those projects."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The project has 48 stars (<100), 2 contributors, and was updated today, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed and the basic run failed, showing core functionality is not reliably usable yet."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The library is published on PyPI, offers Python, R, and CLI integration modes, and is MIT‑licensed, making it straightforward to embed in pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 79 days old with 1 fork and 1 open issue, placing it in an early‑stage but usable state."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A single benchmark line reports import_time_ms:142, but no comparative data is available to assess performance relative to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "All three comments are supportive, highlighting accurate measurements, promising performance, and potential impact, with no criticisms noted."
+    }
+  },
+  "summary": "Mizu is a Python and R library that enables zero‑copy shared memory exchange between the two languages for high‑performance parallel data pipelines. It is distributed via PyPI and can be used as a Python package, R package, or through a CLI, requiring only Python ≥3.10. The tool is suited for developers who need fast inter‑process data transfer across R and Python, especially in LLM data‑processing workflows. While the benchmark reports a 142 ms import time, the lack of comparative performance data and failing test suite limit confidence in its current reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/shikokuchuo/pymizu",
+  "tool_url": "https://github.com/shikokuchuo/pymizu",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50380051",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": {
+      "stars": 48,
+      "forks": 1,
+      "open_issues": 1,
+      "watchers": 48,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 79,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Thread-speed async and parallel Python over shared memory",
+      "topics": [
+        "asynchronous-programming",
+        "python",
+        "shared-memory-parallelism"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PyArrow IPC",
+        "stars": 0,
+        "repo": "amoeba/pyarrow-ipc-example"
+      },
+      {
+        "name": "Zarr",
+        "stars": 2084,
+        "repo": "zarr-developers/zarr-python"
+      },
+      {
+        "name": "sharedmem",
+        "stars": 607,
+        "repo": "justinstenning/SharedMemory"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Thread-speed async and parallel Python over shared memory",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "objective performance metrics",
+        "lock-free async parallelism",
+        "potential game changer"
+      ],
+      "negative_signals": [],
+      "justification": "All three comments are supportive, highlighting accurate measurements, promising performance, and potential impact, with no criticisms noted.",
+      "comment_count": 3,
+      "hn_points": 36
+    }
+  }
+}
