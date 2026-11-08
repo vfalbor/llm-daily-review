@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 28,
+    "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+    "url": "https://github.com/hedgerow-dev/coldframe",
+    "hn_url": "https://news.ycombinator.com/item?id=50406292",
+    "points": 257,
+    "comments": 61,
+    "author": "",
+    "age": "2026-11-07T17:27:30",
+    "scraped_at": "2026-11-08T14:00:03.146Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/hedgerow-dev/coldframe",
+    "confidence": 0.94,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "A honeypot application that mimics a supermarket fridge controller to lure and log malicious traffic targeting IoT devices.",
+    "use_modes": [
+      "CLI",
+      "Docker",
+      "Python script"
+    ],
+    "similar_tools": [
+      "GooFuzz",
+      "IoT‑Honeypot",
+      "Honeyd"
+    ],
+    "proposed_tests": [
+      "docker pull hedgerow-dev/coldframe",
+      "Run the container and verify it accepts TCP connections on port 8080",
+      "Simulate a malicious client attempting to connect and ensure logs capture the interaction",
+      "Check that the honeypot serves the expected JSON API response for a healthy fridge"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/hedgerow-dev/coldframe"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146780317-dzi0b",
+    "log_dir": "/tmp/llm-review-1794146780317-dzi0b",
+    "install_success": true,
+    "install_time_s": 9.4,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.647\nBENCHMARK:pip_coldframe_install_s:1.151\nBENCHMARK:import_coldframe_time_ms:2.12\nBENCHMARK:import_coldframe_mem_peak_kb:20.94\nBENCHMARK:vs_coldframe_import_ratio:0.667",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 205, in <module>\n    main()\n  File \"/app/test.py\", line 184, in main\n    if docker_pull(image):\n       ^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 62, in docker_pull\n    result = subprocess.run(['docker', 'pull', image],\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'docker'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.647\nINSTALL_OK\nBENCHMARK:pip_coldframe_install_s:1.151\nTEST_PASS:import_coldframe\nBENCHMARK:import_coldframe_time_ms:2.12\nBENCHMARK:import_coldframe_mem_peak_kb:20.94\nBENCHMARK:vs_coldframe_import_ratio:0.667\n"
+  }
+}
