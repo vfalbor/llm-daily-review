@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Mizu – zero-copy parallel R and Python over shared memory",
+    "url": "https://github.com/shikokuchuo/pymizu",
+    "hn_url": "https://news.ycombinator.com/item?id=50380051",
+    "points": 35,
+    "comments": 3,
+    "author": "",
+    "age": "2026-11-05T15:09:04",
+    "scraped_at": "2026-11-08T14:00:03.145Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/shikokuchuo/pymizu",
+    "confidence": 0.95,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "Library enabling zero‑copy shared memory between R and Python processes for high‑performance parallel data exchange.",
+    "use_modes": [
+      "Python package",
+      "R package",
+      "CLI integration"
+    ],
+    "similar_tools": [
+      "PyArrow IPC",
+      "Zarr",
+      "sharedmem"
+    ],
+    "proposed_tests": [
+      "pip install pymizu",
+      "Run a simple Python script that creates a shared array and reads it from R",
+      "Measure memory usage before and after sharing to confirm zero‑copy behavior",
+      "Benchmark data transfer speed against numpy arrays in a loop"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/shikokuchuo/pymizu"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146637741-m9rdb",
+    "log_dir": "/tmp/llm-review-1794146637741-m9rdb",
+    "install_success": true,
+    "install_time_s": 19,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 201, in <module>\n    main()\n  File \"/app/test.py\", line 188, in main\n    baseline_time = benchmark_baseline()\n                    ^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 144, in benchmark_baseline\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pymizu:error: subprocess-exited-with-error\n  \n  × Building wheel for pymizu (pyproject.toml) did not run successfully.\n  │ exit code: 1\n  ╰─> [37 lines of output]\n      running bdist_wheel\n      running build\n      running build_py\n      creating build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/worker.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/child.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/_r.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/_map.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/_executor.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/_dimarray.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/_aio.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/__init__.py -> build/lib.linux-x86_64-cpython-312/pymizu\n      running egg_info\n      writing python/pymizu.egg-info/PKG-INFO\n      writing dependency_links to python/pymizu.egg-info/dependency_links.txt\n      writing requirements to python/pymizu.egg-info/requires.txt\n      writing top-level names to python/pymizu.egg-info/top_level.txt\n      reading manifest file 'python/pymizu.egg-info/SOURCES.txt'\n      reading manifest template 'MANIFEST.in'\n      warning: no previously-included files found matching 'AGENTS.md'\n      warning: no previously-included files found matching '.gitignore'\n      warning: no previously-included files found matching '.pre-commit-config.yaml'\n      warning: no previously-included files found matching 'codecov.yml'\n      warning: no previously-included files found matching 'Makefile'\n      no previously-included directories found matching '.github'\n      no previously-included directories found matching 'benchmarks'\n      no previously-included directories found matching 'docs'\n      no previously-included directories found matching 'skills'\n      adding license file 'LICENSE'\n      adding license file 'LICENSE.note'\n      writing manifest file 'python/pymizu.egg-info/SOURCES.txt'\n      copying python/pymizu/_pymizu.pyi -> build/lib.linux-x86_64-cpython-312/pymizu\n      copying python/pymizu/py.typed -> build/lib.linux-x86_64-cpython-312/pymizu\n      running build_ext\n      building 'pymizu._pymizu' extension\n      gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -Isrc/vendor/libmizu -I/usr/local/include/python3.12 -c src/_pymizu.c -o build/temp.linux-x86_64-cpython-312/src/_pymizu.o -std=c11 -pthread\n      error: [Errno 2] No such file or directory: 'gcc'\n      [end of output]\n  \n  note: This error originates from a subprocess, and is likely not a problem with pip.\n  ERROR: Failed building wheel for pymizu\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: Failed to build installable wheels for some pyproject.toml based projects (pymizu)\nINSTALL_OK\nINSTALL_FAIL:/tmp/pymizu_src:error: subprocess-exited-with-error\n  \n  × Building editable for pymizu (pyproject.toml) did not run successfully.\n  │ exit code: 1\n  ╰─> [20 lines of output]\n      /tmp/pip-build-env-mrqzi6x4/overlay/lib/python3.12/site-packages/vcs_versioning/_backends/_git.py:709: UserWarning: \"/tmp/pymizu_src\" is shallow and may cause errors\n        pre_parse(wd)\n      running edita"
+  }
+}
