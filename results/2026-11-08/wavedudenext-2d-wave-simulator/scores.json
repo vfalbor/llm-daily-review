@@ -1,0 +1,108 @@
+{
+  "app_name": "WaveDudeNext 2D Wave Simulator",
+  "url": "https://github.com/graealex/WaveDudeNext",
+  "scored_at": "2026-11-08T14:03:56.485Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 20 days ago and is not a fork, but similar tools (OpenSees with 854 stars and WaveSim with 351 stars) already exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 16.9 s (under 30 s) and runs locally without an API key, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a 2D wave propagation simulator for education, it addresses a niche need that is not a core part of current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The repo has 192 stars, far fewer than OpenSees (854) and WaveSim (351), and the benchmark ratio is 0.00, showing no performance advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 192 stars, 2 contributors, and the last commit was 1 day ago, indicating modest but active community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), indicating core functionality is limited and usability issues remain."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, but the tool offers a CLI and WebAssembly module and is licensed under GPL‑3.0, providing moderate integration options."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 20 days old with 18 forks and 7 open issues, suggesting early-stage development but some community activity."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark output shows a vs_phet_simulation_10k_steps_s_ratio of 0.00, indicating no measurable performance gain over the reference."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments mainly praise the tool and recommend related resources, with a few mild critiques about its 2D scope and some confusion over optical terminology."
+    }
+  },
+  "summary": "WaveDudeNext is a 2D wave propagation simulator written in Rust and compiled to WebAssembly for educational use. It runs locally via a CLI or as a WASM module without requiring an API key. The tool is suited for students or hobbyists learning wave physics, offering a simple interface but limited performance and community support. While it installs quickly, only one of five tests passes and benchmarks show no speed advantage, and documentation details are sparse.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/graealex/WaveDudeNext",
+  "tool_url": "https://github.com/graealex/WaveDudeNext",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50411083",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": {
+      "stars": 192,
+      "forks": 18,
+      "open_issues": 7,
+      "watchers": 192,
+      "contributors": 2,
+      "license": "GPL-3.0",
+      "language": "C#",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 20,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Interactive 2D wave optics simulator. Turn any image into a refractive scene, add sources, watch waves refract, diffract and interfere. Probes, intensity maps, video export.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "OpenSees",
+        "stars": 854,
+        "repo": "OpenSees/OpenSees"
+      },
+      {
+        "name": "WaveSim",
+        "stars": 351,
+        "repo": "0x23/WaveSimulator2D"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Praised as useful for photonics",
+        "Encouraging for newcomers",
+        "Highly recommended resources"
+      ],
+      "negative_signals": [
+        "Limited to 2D, desire for 3D",
+        "Some technical confusion about optical concepts"
+      ],
+      "justification": "The comments mainly praise the tool and recommend related resources, with a few mild critiques about its 2D scope and some confusion over optical terminology.",
+      "comment_count": 7,
+      "hn_points": 31
+    }
+  }
+}
