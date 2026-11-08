@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 201, in <module>
+    main()
+  File "/app/test.py", line 188, in main
+    baseline_time = benchmark_baseline()
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 144, in benchmark_baseline
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
