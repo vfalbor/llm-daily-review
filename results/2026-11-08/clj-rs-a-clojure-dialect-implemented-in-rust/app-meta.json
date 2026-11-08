@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "Clj.rs – a Clojure dialect implemented in Rust",
+    "url": "https://clj.rs/",
+    "hn_url": "https://news.ycombinator.com/item?id=50366902",
+    "points": 92,
+    "comments": 32,
+    "author": "",
+    "age": "2026-11-04T15:23:16",
+    "scraped_at": "2026-11-08T14:00:03.139Z",
+    "tool_url": "https://github.com/clj-rs/clj",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "language",
+    "app_type": "lang-transpiler",
+    "description": "A Clojure dialect written in Rust that compiles to native code, offering a fast and type‑safe alternative to the JVM implementation.",
+    "use_modes": [
+      "CLI",
+      "REPL"
+    ],
+    "similar_tools": [
+      "Clojure JVM",
+      "ClojureScript",
+      "Rust-Clojure"
+    ],
+    "proposed_tests": [
+      "Clone the repository and build the compiler",
+      "Compile and run the provided hello‑world program, verifying output",
+      "Measure compilation time and binary size against the JVM Clojure compiler",
+      "Run the REPL, evaluate a small macro, and check the result"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/clj-rs/clj"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146537970-r9j70",
+    "log_dir": "/tmp/llm-review-1794146537970-r9j70",
+    "install_success": true,
+    "install_time_s": 16.6,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_and_build:git clone failed: Cloning into '/tmp/cljrs_test/clj'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:hello_world:hello.clj example not found\nTEST_FAIL:baseline_comparison:Missing benchmark data for comparison\nTEST_FAIL:repl_macro:[Errno 2] No such file or directory: '/tmp/cljrs_test/clj/target/release/clj'\nRUN_OK\n"
+  }
+}
