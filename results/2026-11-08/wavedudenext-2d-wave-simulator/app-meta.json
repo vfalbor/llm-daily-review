@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "WaveDudeNext 2D Wave Simulator",
+    "url": "https://github.com/graealex/WaveDudeNext",
+    "hn_url": "https://news.ycombinator.com/item?id=50411083",
+    "points": 31,
+    "comments": 7,
+    "author": "",
+    "age": "2026-11-08T07:09:02",
+    "scraped_at": "2026-11-08T14:00:03.142Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/graealex/WaveDudeNext",
+    "confidence": 0.98,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "A 2D wave propagation simulator written in Rust and WebAssembly for educational purposes.",
+    "use_modes": [
+      "CLI",
+      "Web Assembly module"
+    ],
+    "similar_tools": [
+      "PhET Interactive Simulations",
+      "OpenSees",
+      "WaveSim"
+    ],
+    "proposed_tests": [
+      "Clone repository and run `cargo build` to ensure compilation passes.",
+      "Execute `cargo test` to run unit tests and validate simulation accuracy.",
+      "Run the provided `demo.html` in a browser and confirm wave patterns render.",
+      "Measure simulation performance by stepping through 10,000 timesteps and recording CPU time."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/graealex/WaveDudeNext"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146605904-lcvr6",
+    "log_dir": "/tmp/llm-review-1794146605904-lcvr6",
+    "install_success": true,
+    "install_time_s": 16.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:vs_phet_simulation_10k_steps_s_ratio:0.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:pip wavedudenext:ERROR: Could not find a version that satisfies the requirement wavedudenext (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for wavedudenext\nTEST_PASS:clone\nTEST_FAIL:build:error: could not find `Cargo.toml` in `/tmp/wavedudenext` or any parent directory\nTEST_FAIL:cargo_test:error: could not find `Cargo.toml` in `/tmp/wavedudenext` or any parent directory\nINSTALL_FAIL:pip -e /tmp/wavedudenext:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR:  /tmp/wavedudenext is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTEST_FAIL:import:No module named 'wavedudenext'\nTEST_FAIL:simulation_import:No module named 'wavedudenext'\nBENCHMARK:vs_phet_simulation_10k_steps_s_ratio:0.00\nRUN_OK\n"
+  }
+}
