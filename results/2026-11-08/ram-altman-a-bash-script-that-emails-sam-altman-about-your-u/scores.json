@@ -1,0 +1,74 @@
+{
+  "app_name": "RAM-Altman",
+  "url": "https://ram-altman.lol/",
+  "scored_at": "2026-11-08T14:02:16.536Z",
+  "total_score": 31,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is comparable to existing free utilities like htop and mailx, so we cannot assess a unique contribution."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation failed (install_success = false) despite a short 7.7 s attempt, indicating poor installability even though a PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool‑CLI that merely emails RAM stats, it does not address a prominent need in today’s LLM‑driven workflows."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The script offers no distinct features beyond what free tools such as htop, bat, and mailx already provide."
+    },
+    "community": {
+      "score": 1,
+      "justification": "No public GitHub repository or stars are detected, indicating virtually no community presence."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "Both installation and basic run failed (install_success = false, basic_run_success = false) and there are no test cases (0/0)."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The project is a standalone CLI with no API/SDK/webhook support; only a PyPI package is available."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The web page lacks docs, wiki, or a README but does contain examples (has_examples = true) and a large content body (73,073 characters)."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "A version number of 1.6 is shown on the site, yet there is no changelog, release notes, or repository activity to confirm stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data or performance claims are present, so a neutral default of 5 is applied."
+    }
+  },
+  "summary": "RAM-Altman is a Bash script that emails a predefined address with information about unused RAM on the local machine. It runs purely as a CLI tool and is distributed via a small PyPI package without any API or SDK. It is suitable only for users who need a quick, manual way to report RAM usage and are comfortable with command‑line scripts. The standout strength is its simplicity, but the lack of installation success, documentation, and community support are major drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://ram-altman.lol/",
+  "tool_url": "https://ram-altman.lol/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50412766",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.1",
+      "summary": "Recurrent Attention Model",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "UNKNOWN"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
