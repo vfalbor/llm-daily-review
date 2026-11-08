@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+    "url": "https://github.com/dmunozv04/isponsorblocktv",
+    "hn_url": "https://news.ycombinator.com/item?id=50410249",
+    "points": 67,
+    "comments": 29,
+    "author": "",
+    "age": "2026-11-08T03:47:19",
+    "scraped_at": "2026-11-08T14:00:03.146Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/dmunozv04/isponsorblocktv",
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Command‑line client that queries SponsorBlock API and inserts skip markers into YouTube TV playlists, enabling ad‑skipping on all TV clients.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "sponsorblock-cli",
+      "yt-dlp sponsorblock plugin"
+    ],
+    "proposed_tests": [
+      "pip install isponsorblocktv",
+      "Run `isponsorblocktv --help` to ensure CLI parses options",
+      "Create a mock YouTube TV playlist file and run the tool to insert skip markers",
+      "Verify that the output playlist matches expected JSON format"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/dmunozv04/isponsorblocktv"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146718549-amcej",
+    "log_dir": "/tmp/llm-review-1794146718549-amcej",
+    "install_success": true,
+    "install_time_s": 28.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:6.130\nBENCHMARK:pip_install_time_s:15.158\nBENCHMARK:import_isponsorblocktv_time_ms:0.91\nBENCHMARK:import_isponsorblocktv_mem_peak_kb:16.55",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 198, in <module>\n    main()\n  File \"/app/test.py\", line 163, in main\n    run_help()\n  File \"/app/test.py\", line 95, in run_help\n    success, out = run_cmd(cmd, capture=True)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 16, in run_cmd\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'isponsorblocktv'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\n( 1/26) Installing libgcc (15.2.0-r5)\n( 2/26) Installing jansson (2.15.0-r0)\n( 3/26) Installing libstdc++ (15.2.0-r5)\n( 4/26) Installing binutils (2.45.1-r1)\n( 5/26) Installing libgcc-static (15.2.0-r5)\n( 6/26) Installing libgomp (15.2.0-r5)\n( 7/26) Installing libatomic (15.2.0-r5)\n( 8/26) Installing gmp (6.3.0-r4)\n( 9/26) Installing isl26 (0.26-r2)\n(10/26) Installing mpfr4 (4.2.2-r0)\n(11/26) Installing mpc1 (1.3.1-r1)\n(12/26) Installing gcc (15.2.0-r5)\n(13/26) Installing musl-dev (1.2.6-r3)\n(14/26) Installing libxml2 (2.13.9-r2)\n(15/26) Installing llvm22-libs (22.1.3-r1)\n(16/26) Installing scudo-malloc (22.1.3-r0)\n(17/26) Installing rust (1.96.1-r0)\n(18/26) Installing libssh2 (1.11.1-r4)\n(19/26) Installing cargo (1.96.1-r0)\n(20/26) Installing ada-libs (4.0.0-r0)\n(21/26) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/26) Installing icu-libs (78.1-r0)\n(23/26) Installing simdjson (4.2.4-r0)\n(24/26) Installing simdutf (9.0.0-r0)\n(25/26) Installing nodejs (24.22.1-r1)\n(26/26) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 689.6 MiB in 77 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:6.130\nCollecting isponsorblocktv\n  Downloading isponsorblocktv-2.11.0-py3-none-any.whl.metadata (5.0 kB)\nCollecting aiohttp==3.14.3 (from isponsorblocktv)\n  Downloading aiohttp-3.14.3-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (8.3 kB)\nCollecting appdirs==1.4.4 (from isponsorblocktv)\n  Downloading appdirs-1.4.4-py2.py3-none-any.whl.metadata (9.0 kB)\nCollecting async-cache==1.1.1 (from isponsorblocktv)\n  Downloading async-cache-1.1.1.tar.gz (3.8 kB)\n  Installing build dependencies: started\n  Installing build dependencies: finished with status 'done'\n  Getting requirements to build wheel: started\n  Getting requirements to build wheel: finished with status 'done'\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nCollecting pychromecast==14.0.10 (from isponsorblocktv)\n  Downloading pychromecast-14.0.10-py2.py3-none-any.whl.metadata (9.8 kB)\nCollecting pyytlounge==3.3.0 (from isponsorblocktv)\n  Downloading pyytlounge-3.3.0-py3-none-any.whl.metadata (1.9 kB)\nCollecting rich-click==1.9.8 (from isponsorblocktv)\n  Downloading rich_click-1.9.8-py3-none-any.whl.metadata (8.7 kB)\nCollecting rich==15.0.0 (from isponsorblocktv)\n  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)\nCollecting ssdp==1.3.1 (from isponsorblocktv)\n  Downloading ssdp-1.3.1-py3-none-any.whl.metadata (7.2 kB)\nCollecting textual-slider==0.2.0 (from isponsorblocktv)\n  Downloading textual_slider-0.2.0-py3-none-any.whl.metadata (2.3 kB)\nCollecting textual==8.2.8 (from isponsorblocktv)\n  Downloading textual-8.2.8-py3-none-any.whl.metadata (9.1 kB)\nCollecting xmltodict==1.0.4 (from isponsorblocktv)\n  Downloading xmltodict-1.0.4-py3-none-any.whl.metadata (14 kB)\nCollecting yarl==1.24.5 (from isponsorblocktv)\n  Downloading yarl-1.24.5-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (103 kB)\nCollecting zeroconf==0.150.0 (from isponsorblocktv)\n  Downloading zeroconf-0.150.0-cp312-cp312-musllinux_1_2_x86_64.whl.metadata (6.6 kB)\nCollecting aiohappyeyeballs>=2.5.0 (from aiohttp==3.14.3->isponsorblocktv)\n  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)\nCollecting aiosignal>=1.4.0 (from aiohttp==3.14.3->isponsorblocktv)\n  Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 k"
+  }
+}
