@@ -1,0 +1,134 @@
+{
+  "app_name": "Llama-modchip",
+  "url": "https://github.com/synchopate/llama-modchip",
+  "scored_at": "2026-11-08T14:01:16.690Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is only 10 days old and is not a fork, but it solves a known problem with existing tools like llama.cpp and vllm, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 10.8 s, well under the 30 s threshold, and runs on consumer RAM without needing a GPU."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑inference tool that runs on CPU‑only hardware, it addresses a current pain point for developers without GPU access."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 159 GitHub stars it trails major alternatives (llama.cpp 133 716★, vllm 96 545★) but offers a unique \"modchip\" approach for GPU‑free inference."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 159 stars, 1 contributor and was updated today, placing it in the 100–1 000 star bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 6 tests passed (0 % pass rate) and the basic run succeeded, indicating core functionality is unreliable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "No PyPI package exists, but the tool provides both a CLI and a Python API under an Apache‑2.0 license, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 10 days old with 18 forks and 4 open issues, indicating early-stage but some activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were reported; therefore a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments mainly express doubt about output quality and readme clarity, with a few citing benchmark parity and small‑model promise; overall tone leans toward skepticism."
+    }
+  },
+  "summary": "Llama-modchip is a lightweight Llama inference implementation that runs on 64 GB of RAM without a GPU, using a custom modchip technique. It is built in Python and offers both a CLI and a Python API, but lacks a PyPI distribution. The tool is suited for developers who need CPU‑only inference on large RAM machines. It stands out for its GPU‑free approach yet trails major alternatives in adoption and performance evidence, and its test suite shows major functionality gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/synchopate/llama-modchip",
+  "tool_url": "https://github.com/synchopate/llama-modchip",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50411961",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 159,
+      "forks": 18,
+      "open_issues": 4,
+      "watchers": 159,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 10,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "🐋 Run 284B DeepSeek-V4-Flash (<59GiB RAM, 44.4 tok/s pp, 9.1-14.7 tok/s) & 30B MoEs (25-111 tok/s) on a pure 64GB CPU at 256K ctx (0 GPUs). SwiGLU-H2, Stockfish-PVS L3 & 13ms Claude Code restore.",
+      "topics": [
+        "ai-agents",
+        "apple-silicon",
+        "avx512",
+        "claude-code",
+        "cpu-inference",
+        "deepseek",
+        "deepseek-v4",
+        "gguf",
+        "hpc",
+        "llama-cpp",
+        "local-llm",
+        "mamba2",
+        "mixture-of-experts",
+        "nemotron",
+        "quantization",
+        "qwen3",
+        "speculative-decoding",
+        "stockfish",
+        "zen5"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "llama.cpp",
+        "stars": 133716,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "vllm",
+        "stars": 96545,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "fast-inference",
+        "stars": 185,
+        "repo": "Tencent/fast-causal-inference"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Benchmark parity claims",
+        "Small‑model feasibility",
+        "Potential for 2‑bit quant"
+      ],
+      "negative_signals": [
+        "Quality concerns",
+        "Readme readability",
+        "Skepticism about quantization"
+      ],
+      "justification": "Comments mainly express doubt about output quality and readme clarity, with a few citing benchmark parity and small‑model promise; overall tone leans toward skepticism.",
+      "comment_count": 22,
+      "hn_points": 55
+    }
+  }
+}
