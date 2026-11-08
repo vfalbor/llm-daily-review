@@ -1,0 +1,106 @@
+{
+  "app_name": "Clj.rs – a Clojure dialect implemented in Rust",
+  "url": "https://clj.rs/",
+  "scored_at": "2026-11-08T14:03:24.371Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so there is insufficient quantitative evidence to assess novelty."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 16.6 seconds and the package exists on PyPI, meeting the fast, easy‑install criteria."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a language transpiler, it aligns moderately with current trends of compiling high‑level languages to native code, but it is not a core LLM workflow component."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for the project and no benchmark data are available, so differentiation cannot be quantified beyond a neutral assumption."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repo is detected; HN points are 92, placing it in the 50–200 range which maps to a community score of 3–4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0%), indicating less than 50% functional coverage despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available on PyPI and offers CLI/REPL modes, but no API or explicit integration docs are provided."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository information (wiki, pages, topics) is available and no documentation signals were fetched, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data, the only proxy is HN points (92), which falls below the 200‑point threshold, yielding a low maturity indication."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output and no performance claims were found, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show a generally upbeat tone toward the Rust implementation of a Clojure-like language, with several users expressing enthusiasm and optimism for its future. However, many responses are off‑topic, sarcastic, or question the relevance of Lisp and macros, which dampens the overall positivity."
+    }
+  },
+  "summary": "Clj.rs is a Rust‑implemented dialect of Clojure that compiles to native code, providing a fast, type‑safe alternative to the traditional JVM implementation. It is distributed as a PyPI package and can be used via a CLI or REPL, but it lacks an API for programmatic integration. The tool is suited for developers who want a high‑performance Clojure‑like language without the JVM overhead, though its novelty and community support are unclear. While installation is quick, the test suite shows no functional tests passing and documentation is sparse, limiting confidence in its stability.",
+  "recommendation": "niche",
+  "app_url": "https://clj.rs/",
+  "tool_url": "https://github.com/clj-rs/clj",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50366902",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Clojure JVM",
+        "stars": 124,
+        "repo": "clojure/tools.analyzer.jvm"
+      },
+      {
+        "name": "ClojureScript",
+        "stars": 9393,
+        "repo": "clojure/clojurescript"
+      },
+      {
+        "name": "Rust-Clojure",
+        "stars": 145,
+        "repo": "borkdude/clojure-rust-graalvm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.0",
+      "summary": "Utilities for lazy iterables",
+      "requires_python": "<4.0,>=3.9",
+      "license": "MIT",
+      "home_page": "https://github.com/bfontaine/clj"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Interest in Rust/Lisp combo",
+        "Optimistic future prospects",
+        "Positive reception from niche community"
+      ],
+      "negative_signals": [
+        "Off-topic snark and criticism",
+        "Doubts about Lisp relevance",
+        "Lack of concrete technical discussion"
+      ],
+      "justification": "The comments show a generally upbeat tone toward the Rust implementation of a Clojure-like language, with several users expressing enthusiasm and optimism for its future. However, many responses are off‑topic, sarcastic, or question the relevance of Lisp and macros, which dampens the overall positivity.",
+      "comment_count": 30,
+      "hn_points": 92
+    }
+  }
+}
