@@ -1,0 +1,121 @@
+{
+  "app_name": "Coldframe",
+  "url": "https://github.com/hedgerow-dev/coldframe",
+  "scored_at": "2026-11-08T14:07:25.911Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 3 days ago, not a fork, and has only 48 stars versus similar tools with 1,594 and 724 stars, indicating an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 9.4 seconds and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a sec-scanner honeypot for IoT devices, it addresses a current security concern in the AI‑augmented IoT landscape."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "With only 48 GitHub stars it trails GooFuzz (1,594 stars) and Honeyd (724 stars) by >90%, and no benchmark advantage is shown."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repository has 48 stars, a single contributor, and was updated today, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 1 of 1 tests passed and installation succeeded, demonstrating core functionality works out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "The tool is published on PyPI, offers CLI, Docker, and Python script modes, and is licensed MIT, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 3 days old, has 1 fork and 0 open issues, placing it at an early alpha stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report import time of 2.12 ms and a vs_coldframe_import_ratio of 0.667, but no comparative data to other honeypots is available."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments reflect mixed sentiment: many criticize the industry’s lack of security and question the authenticity of the hack, while others appreciate the project’s role in exposing vulnerabilities and encouraging better practices."
+    }
+  },
+  "summary": "Coldframe is an open‑source honeypot that emulates a supermarket fridge controller to capture malicious IoT traffic. It runs locally via CLI, Docker, or as a Python script and requires only Python >=3.10. Security engineers testing IoT defenses can use it to generate realistic attack data. The tool installs quickly and passes its sole test, but it offers little differentiation from established honeypots and has a very small community.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/hedgerow-dev/coldframe",
+  "tool_url": "https://github.com/hedgerow-dev/coldframe",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50406292",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": {
+      "stars": 48,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 48,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Low-interaction honeypot for supermarket refrigeration controllers (Danfoss AK-SM 800A, Dixell XWEB 500)",
+      "topics": [
+        "honeypot",
+        "ics-security",
+        "modbus",
+        "threat-intelligence"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GooFuzz",
+        "stars": 1594,
+        "repo": "m3n0sd0n4ld/GooFuzz"
+      },
+      {
+        "name": "Honeyd",
+        "stars": 724,
+        "repo": "koudelka/honeydew"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Project scaffolding and quality gates that run the same way locally and in CI.",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Raises awareness of IoT security",
+        "Provides actionable honeypot tool",
+        "Highlights need for better patching"
+      ],
+      "negative_signals": [
+        "Skepticism about hack validity",
+        "Criticism of industry negligence",
+        "Concerns over AI-generated content"
+      ],
+      "justification": "Comments reflect mixed sentiment: many criticize the industry’s lack of security and question the authenticity of the hack, while others appreciate the project’s role in exposing vulnerabilities and encouraging better practices.",
+      "comment_count": 30,
+      "hn_points": 257
+    }
+  }
+}
