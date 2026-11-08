@@ -1,0 +1,33 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.10.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.2 MiB in 51 packages
+INSTALL_OK
+INSTALL_OK
+INSTALL_OK
+INSTALL_FAIL:pip wavedudenext:ERROR: Could not find a version that satisfies the requirement wavedudenext (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for wavedudenext
+TEST_PASS:clone
+TEST_FAIL:build:error: could not find `Cargo.toml` in `/tmp/wavedudenext` or any parent directory
+TEST_FAIL:cargo_test:error: could not find `Cargo.toml` in `/tmp/wavedudenext` or any parent directory
+INSTALL_FAIL:pip -e /tmp/wavedudenext:[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR:  /tmp/wavedudenext is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+TEST_FAIL:import:No module named 'wavedudenext'
+TEST_FAIL:simulation_import:No module named 'wavedudenext'
+BENCHMARK:vs_phet_simulation_10k_steps_s_ratio:0.00
+RUN_OK
