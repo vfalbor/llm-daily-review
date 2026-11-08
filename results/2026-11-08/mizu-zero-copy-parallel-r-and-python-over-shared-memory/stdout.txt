@@ -1,0 +1,104 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.10.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.0-r0)
+(13/13) Installing git-init-template (2.54.0-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.2 MiB in 51 packages
+INSTALL_OK
+INSTALL_FAIL:pymizu:error: subprocess-exited-with-error
+  
+  × Building wheel for pymizu (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [37 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/worker.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/child.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/_r.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/_map.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/_executor.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/_dimarray.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/_aio.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/__init__.py -> build/lib.linux-x86_64-cpython-312/pymizu
+      running egg_info
+      writing python/pymizu.egg-info/PKG-INFO
+      writing dependency_links to python/pymizu.egg-info/dependency_links.txt
+      writing requirements to python/pymizu.egg-info/requires.txt
+      writing top-level names to python/pymizu.egg-info/top_level.txt
+      reading manifest file 'python/pymizu.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no previously-included files found matching 'AGENTS.md'
+      warning: no previously-included files found matching '.gitignore'
+      warning: no previously-included files found matching '.pre-commit-config.yaml'
+      warning: no previously-included files found matching 'codecov.yml'
+      warning: no previously-included files found matching 'Makefile'
+      no previously-included directories found matching '.github'
+      no previously-included directories found matching 'benchmarks'
+      no previously-included directories found matching 'docs'
+      no previously-included directories found matching 'skills'
+      adding license file 'LICENSE'
+      adding license file 'LICENSE.note'
+      writing manifest file 'python/pymizu.egg-info/SOURCES.txt'
+      copying python/pymizu/_pymizu.pyi -> build/lib.linux-x86_64-cpython-312/pymizu
+      copying python/pymizu/py.typed -> build/lib.linux-x86_64-cpython-312/pymizu
+      running build_ext
+      building 'pymizu._pymizu' extension
+      gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -Isrc/vendor/libmizu -I/usr/local/include/python3.12 -c src/_pymizu.c -o build/temp.linux-x86_64-cpython-312/src/_pymizu.o -std=c11 -pthread
+      error: [Errno 2] No such file or directory: 'gcc'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pymizu
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (pymizu)
+INSTALL_OK
+INSTALL_FAIL:/tmp/pymizu_src:error: subprocess-exited-with-error
+  
+  × Building editable for pymizu (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [20 lines of output]
+      /tmp/pip-build-env-mrqzi6x4/overlay/lib/python3.12/site-packages/vcs_versioning/_backends/_git.py:709: UserWarning: "/tmp/pymizu_src" is shallow and may cause errors
+        pre_parse(wd)
+      running editable_wheel
+      creating /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info
+      writing /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/PKG-INFO
+      writing dependency_links to /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/dependency_links.txt
+      writing requirements to /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/requires.txt
+      writing top-level names to /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/top_level.txt
+      writing manifest file '/tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      adding license file 'LICENSE'
+      adding license file 'LICENSE.note'
+      writing manifest file '/tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu.egg-info/SOURCES.txt'
+      creating '/tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu-0.1.dev1+g7dc65665f.dist-info'
+      creating /tmp/pip-wheel-bmt_m5da/.tmp-fs4mbe_4/pymizu-0.1.dev1+g7dc65665f.dist-info/WHEEL
+      running build_py
+      running build_ext
+      building 'pymizu._pymizu' extension
+      gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O3 -Wall -fPIC -Isrc/vendor/libmizu -I/usr/local/include/python3.12 -c src/_pymizu.c -o /tmp/tmpr83jsdt3.build-temp/src/_pymizu.o -std=c11 -pthread
+      error: [Errno 2] No such file or directory: 'gcc'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building editable for pymizu
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: Failed to build installable wheels for some pyproject.toml based projects (pymizu)
+TEST_FAIL:import_pymizu:No module named 'pymizu'
+TEST_FAIL:functional_shared_array:No module named 'numpy'
+TEST_FAIL:memory_benchmark:No module named 'numpy'
+TEST_FAIL:transfer_speed:No module named 'numpy'
