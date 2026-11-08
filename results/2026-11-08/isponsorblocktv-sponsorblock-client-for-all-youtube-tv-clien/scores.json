@@ -1,0 +1,121 @@
+{
+  "app_name": "ISponsorBlockTV",
+  "url": "https://github.com/dmunozv04/isponsorblocktv",
+  "scored_at": "2026-11-08T14:06:18.916Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is 1757 days old, is not a fork, and adds a CLI wrapper for SponsorBlock that differs from the 1‑star sponsorblock-cli, representing a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded, took 28.5 s (<30 s) and the package is available on PyPI (v2.11.0), requiring only Python 3.11+."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI for YouTube TV ad‑skipping, it addresses a niche need that is not a core trend in current LLM workflows."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "The project has 6,821 stars versus the comparable sponsorblock-cli with only 1 star, a >6,800‑fold difference, and reports a fast import time of 0.91 ms."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The GitHub repo has 6,821 stars, 35 contributors, and was updated 5 days ago, indicating strong and active community support."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 1 test, 0 passed (0 %); although install succeeded, the basic run failed, showing core functionality is not yet reliable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is only a CLI (no API) but is published on PyPI and licensed under GPL‑3.0, allowing manual integration with some glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 1757 days old, has 295 forks and 83 open issues, and is at version 2.11.0, indicating a mature, stable project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows pip install time of 15.158 s and import time of 0.91 ms; without comparative data, performance appears average."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments are largely positive, praising the tool’s ease of use and effective ad skipping, while a few users raise concerns about the ethics of ad removal, technical hiccups, and a confusing title."
+    }
+  },
+  "summary": "ISponsorBlockTV is a command‑line client that contacts the SponsorBlock API and inserts skip markers into YouTube TV playlists, enabling ad‑skipping across TV clients. It runs locally as a Python package (v2.11.0) and requires no API key. The tool is suited for power users who manage YouTube TV setups and want a lightweight, open‑source ad‑skipping solution. It stands out with a large GitHub following (6,821 stars) compared to alternatives, but core functionality is still unstable as none of the automated tests passed.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/dmunozv04/isponsorblocktv",
+  "tool_url": "https://github.com/dmunozv04/isponsorblocktv",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50410249",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 6821,
+      "forks": 295,
+      "open_issues": 83,
+      "watchers": 6821,
+      "contributors": 35,
+      "license": "GPL-3.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 1757,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "SponsorBlock client for all YouTube TV clients.",
+      "topics": [
+        "androidtv",
+        "appletv",
+        "chromecast",
+        "python",
+        "roku",
+        "samsungtv",
+        "sponsorblock",
+        "tizen-tv",
+        "youtube"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "sponsorblock-cli",
+        "stars": 1,
+        "repo": "TheCactusVert/sponsorblock-client"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.11.0",
+      "summary": "SponsorBlock client for all YouTube TV clients",
+      "requires_python": ">=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "easy setup",
+        "effective ad skipping",
+        "well-received by users"
+      ],
+      "negative_signals": [
+        "ad-block fairness debate",
+        "some technical issues",
+        "misleading title concerns"
+      ],
+      "justification": "The comments are largely positive, praising the tool’s ease of use and effective ad skipping, while a few users raise concerns about the ethics of ad removal, technical hiccups, and a confusing title.",
+      "comment_count": 29,
+      "hn_points": 68
+    }
+  }
+}
