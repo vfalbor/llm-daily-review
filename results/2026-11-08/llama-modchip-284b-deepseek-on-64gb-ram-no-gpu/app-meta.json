@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+    "url": "https://github.com/synchopate/llama-modchip",
+    "hn_url": "https://news.ycombinator.com/item?id=50411961",
+    "points": 56,
+    "comments": 22,
+    "author": "",
+    "age": "2026-11-08T10:22:04",
+    "scraped_at": "2026-11-08T14:00:03.135Z",
+    "tool_url": "https://github.com/synchopate/llama-modchip",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A lightweight Llama inference implementation that runs on 64 GB of RAM without a GPU, using a custom modchip approach.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "vllm",
+      "fast-inference"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the binary",
+      "Run the provided inference script on a small DeepSeek model and measure latency",
+      "Verify that the model loads without a GPU and that memory usage stays under 64 GB",
+      "Run the CLI with the --benchmark flag and compare latency against llama.cpp"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/synchopate/llama-modchip"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794146450870-l62wz",
+    "log_dir": "/tmp/llm-review-1794146450870-l62wz",
+    "install_success": true,
+    "install_time_s": 10.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.74\nBENCHMARK:git_clone_s:1.74\nBENCHMARK:pip_install_s:0.62",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.74\nINSTALL_OK\nBENCHMARK:git_clone_s:1.74\nINSTALL_FAIL:pip install . exit 1\nBENCHMARK:pip_install_s:0.62\nTEST_FAIL:import_llama_modchip:No module named 'llama_modchip'\nTEST_SKIP:import_llama_modchip:import failed\nTEST_FAIL:load_model:No module named 'llama_modchip'\nTEST_FAIL:inference_latency:No module named 'llama_modchip'\nTEST_FAIL:cli_benchmark:[Errno 2] No such file or directory: 'modchip-cli'\nTEST_SKIP:vs_baseline:No module named 'llama_modchip'\nRUN_OK\n"
+  }
+}
