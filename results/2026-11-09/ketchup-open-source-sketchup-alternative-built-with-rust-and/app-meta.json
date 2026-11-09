@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+    "url": "https://ketchup3d.github.io/app/",
+    "hn_url": "https://news.ycombinator.com/item?id=50418176",
+    "points": 597,
+    "comments": 178,
+    "author": "",
+    "age": "2026-11-08T22:35:35",
+    "scraped_at": "2026-11-09T14:00:02.391Z",
+    "tool_url": "https://github.com/ketchup3d/ketchup",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A browser-based 3D modeling application similar to SketchUp, written in Rust with WebGPU bindings.",
+    "use_modes": [
+      "Web app",
+      "CLI build"
+    ],
+    "similar_tools": [
+      "SketchUp",
+      "LibreCAD",
+      "FreeCAD (Web)"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `cargo build --release`",
+      "Start dev server with `cargo run` and open localhost in browser",
+      "Measure load time and frame rate when opening a complex scene",
+      "Run unit tests with `cargo test` and confirm 100% coverage",
+      "Build production bundle and verify bundle size < 5MB"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ketchup3d/ketchup"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794232892725-4tv9l",
+    "log_dir": "/tmp/llm-review-1794232892725-4tv9l",
+    "install_success": true,
+    "install_time_s": 19.5,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.00\nBENCHMARK:test_time_s:0.00",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 85, in <module>\n    start_server()\n  File \"/app/test.py\", line 74, in start_server\n    server_process = subprocess.Popen(\n                     ^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/ketchup'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_FAIL:clone_repo:Cloning into '/tmp/ketchup'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:cargo_build:[Errno 2] No such file or directory: '/tmp/ketchup'\nBENCHMARK:install_time_s:0.00\nTEST_FAIL:cargo_test:[Errno 2] No such file or directory: '/tmp/ketchup'\nBENCHMARK:test_time_s:0.00\n"
+  }
+}
