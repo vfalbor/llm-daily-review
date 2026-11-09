@@ -1,0 +1,128 @@
+{
+  "app_name": "Psalm",
+  "url": "https://psalm.dev/articles/psalm-7",
+  "scored_at": "2026-11-09T14:04:57.397Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is 3639 days old and is not a fork, and its 5,918 stars place it between PHPStan (14,152 stars) and PHPMD (2,464 stars), indicating an incremental improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 12.8 seconds (well under 30 s) and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a PHP security and static analysis tool, Psalm addresses ongoing needs in PHP development, a core part of today's LLM‑enhanced code‑review workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Psalm has more stars than PHPMD (+3,454) but fewer than PHPStan, and its benchmark shows an import time of 0.01 ms, suggesting a speed advantage in startup."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The project has 5,918 stars, 489 contributors, and was updated 0 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 0 of 1 tests passed (<50%), though the install succeeded, showing core functionality is unreliable in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Psalm is published on PyPI, offers CLI, IDE plugins, and a GitHub Action, and is released under an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 3639 days old with 728 forks and 2,079 open issues, showing long‑term development but also considerable pending work."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark data reports an import time of 0.01 ms and psalm_bulk_ms of 0.81 ms, indicating good raw performance but lacking comparative figures."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Most comments focus on PHP’s limited type features and express frustration, but there is appreciation for existing static analysis tools and hope for future improvements. The overall tone leans toward constructive criticism rather than outright hostility."
+    }
+  },
+  "summary": "Psalm is a static analysis and security scanner for PHP that runs via CLI, IDE plugins, or a GitHub Action. It builds on the established PHP static‑analysis ecosystem and leverages fast import times (0.01 ms) to provide quick feedback. It is suited for PHP developers who need automated bug and security detection integrated into their CI pipelines. The tool benefits from a large, active community (5,918 stars, 489 contributors) but its test suite shows reliability issues, with 0 of 1 tests passing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://psalm.dev/articles/psalm-7",
+  "tool_url": "https://github.com/vimeo/psalm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50406107",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": {
+      "stars": 5918,
+      "forks": 728,
+      "open_issues": 2079,
+      "watchers": 5918,
+      "contributors": 489,
+      "license": "MIT",
+      "language": "PHP",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3639,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A PHP static analysis tool for finding errors and security vulnerabilities in PHP applications",
+      "topics": [
+        "hacktoberfest",
+        "php",
+        "security-analysis",
+        "static-analysis",
+        "taint-analysis",
+        "type-inference"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "PHPStan",
+        "stars": 14152,
+        "repo": "phpstan/phpstan"
+      },
+      {
+        "name": "PHPMD",
+        "stars": 2464,
+        "repo": "phpmd/phpmd"
+      },
+      {
+        "name": "SonarQube",
+        "stars": 11165,
+        "repo": "SonarSource/sonarqube"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1b0",
+      "summary": "Python Statistic Analysis & Machine Learning",
+      "requires_python": "<4.0,>=3.8",
+      "license": "GPL-3.0-only",
+      "home_page": "https://aszadzinski.github.io/psalm"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Tools like Psalm and PHPStan provide useful type annotations",
+        "Future hope for generics",
+        "Developers appreciate static analysis"
+      ],
+      "negative_signals": [
+        "Criticism of PHP core type system and lack of generics",
+        "Frustration over limited return type declarations",
+        "Debate over rewriting in Rust"
+      ],
+      "justification": "Most comments focus on PHP’s limited type features and express frustration, but there is appreciation for existing static analysis tools and hope for future improvements. The overall tone leans toward constructive criticism rather than outright hostility.",
+      "comment_count": 29,
+      "hn_points": 55
+    }
+  }
+}
