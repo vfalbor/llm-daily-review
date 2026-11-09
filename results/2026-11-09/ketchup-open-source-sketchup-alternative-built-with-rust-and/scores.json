@@ -1,0 +1,101 @@
+{
+  "app_name": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+  "url": "https://ketchup3d.github.io/app/",
+  "scored_at": "2026-11-09T14:02:27.236Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be measured from the data."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 19.5 seconds and the package is available on PyPI (v0.1.1), indicating an easy install."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "The tool is a web-frontend 3D modeling app with LLM integration, which is moderately relevant to current LLM workflows but not a core LLM tool."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for KetchUp is available, and no benchmark comparison is provided; only similar tools' stars (623 and 6,571) are known."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 597 with 30 comments, which places community strength in the 7‑8 range per the rubric."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0%) and basic run failed, indicating major usability issues."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The package exists on PyPI and offers both a web app and a CLI build, allowing moderate integration despite no explicit API."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo or wiki/pages data were found, and no documentation metrics are available, so a neutral score is used."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points exceed 300 (597) and the domain appears stable, yielding a maturity score of 6 per the proxy rules."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines or performance claims are present, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show general praise for the Rust‑based UI and LLM capabilities, but many users criticize the steep learning curve, confusing naming, and lack of intuitive features, resulting in an overall moderately positive but mixed reception."
+    }
+  },
+  "summary": "KetchUp is an open‑source, browser‑based 3D modeling tool built in Rust with WebGPU, offering a SketchUp‑like experience and optional CLI builds. It runs as a web app and can be installed via PyPI (v0.1.1). The project targets designers who want a free, Rust‑backed alternative for quick 3D sketches, especially those interested in LLM‑assisted modeling. Community interest is high (597 HN points), but the tool fails all functional tests and lacks clear documentation, making it hard to adopt out‑of‑the‑box.",
+  "recommendation": "niche",
+  "app_url": "https://ketchup3d.github.io/app/",
+  "tool_url": "https://github.com/ketchup3d/ketchup",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50418176",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "SketchUp",
+        "stars": 623,
+        "repo": "lairdubois/lairdubois-opencutlist-sketchup-extension"
+      },
+      {
+        "name": "LibreCAD",
+        "stars": 6571,
+        "repo": "LibreCAD/LibreCAD"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.1",
+      "summary": "A (maybe) useful tool to launch your tests commands in parallel with style",
+      "requires_python": ">=3.10,<4.0",
+      "license": "MIT",
+      "home_page": "https://github.com/rcommande/ketchup"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Rust UI impressive",
+        "LLM integration helpful",
+        "3D printing use cases"
+      ],
+      "negative_signals": [
+        "Poor usability and learning curve",
+        "Name confusion and trademark concerns",
+        "Limited intuitive features"
+      ],
+      "justification": "The comments show general praise for the Rust‑based UI and LLM capabilities, but many users criticize the steep learning curve, confusing naming, and lack of intuitive features, resulting in an overall moderately positive but mixed reception.",
+      "comment_count": 30,
+      "hn_points": 597
+    }
+  }
+}
