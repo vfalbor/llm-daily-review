@@ -1,0 +1,105 @@
+{
+  "app_name": "Dux",
+  "url": "https://duxlabs.dev/",
+  "scored_at": "2026-11-09T14:07:07.003Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date, fork flag, or direct comparison data were available, so a neutral score is assigned."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 10 seconds (under the 30‑second threshold) and the package is on PyPI, indicating an easy setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool Wayland compositor, it aligns with current Linux desktop tooling trends, which are actively discussed in the community."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for Dux is provided; compared to similar tools (Sway 61,346★, Wayfire 3,074★, river 7,420★) we cannot prove a clear advantage, so a middle score is given."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 312 with 30 comments and a positive sentiment score of 8/10, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 2/2 tests passed and installation succeeded, showing the tool works out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI (v0.1.0) and can be used as a desktop environment/compositor, though no explicit API or webhook details are listed."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo, wiki, or GitHub Pages data were found; without documented examples the score defaults to neutral."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The only version information is PyPI 0.1.0, indicating an early‑stage release with limited release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show import_time 0.001 s and functional_latency 0.000 s, but no comparative data to other compositors is available, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise Dux’s design, flexibility and the prospect of switching from other WMs, while a few express mild discomfort over the name and some debate about Wayland maturity. Overall reception is very positive with minor nitpicks."
+    }
+  },
+  "summary": "Dux is a lightweight Wayland compositor that adds a desktop shell, file manager, and theming support for Linux. It is distributed as a PyPI package (v0.1.0) and runs locally without requiring any API keys. It is suited for Linux users who want a minimal, integrated Wayland desktop environment. The tool installs quickly and passes all functional tests, but it lacks extensive documentation and its maturity is low, with only an early version released.",
+  "recommendation": "worth-watching",
+  "app_url": "https://duxlabs.dev/",
+  "tool_url": "https://github.com/duxlabs/dux",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50416053",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Sway",
+        "stars": 61346,
+        "repo": "FuelLabs/sway"
+      },
+      {
+        "name": "Wayfire",
+        "stars": 3074,
+        "repo": "WayfireWM/wayfire"
+      },
+      {
+        "name": "river",
+        "stars": 7420,
+        "repo": "rrousselGit/riverpod"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0",
+      "summary": "Security Information Master",
+      "requires_python": ">=3.6",
+      "license": "MIT",
+      "home_page": ""
+    },
+    "tests_passed": 2,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "enthusiastic switching interest",
+        "positive design & theming",
+        "flexibility with QML widgets"
+      ],
+      "negative_signals": [
+        "concerns over name association",
+        "mixed opinions on Wayland transition"
+      ],
+      "justification": "Most comments praise Dux’s design, flexibility and the prospect of switching from other WMs, while a few express mild discomfort over the name and some debate about Wayland maturity. Overall reception is very positive with minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 312
+    }
+  }
+}
