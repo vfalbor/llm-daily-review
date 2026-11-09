@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/app/test.py", line 128, in <module>
+    file_count = sum([len(files) for _, _, files in os.walk('/') if _.startswith('/tmp')])
+                                                                    ^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'startswith'
