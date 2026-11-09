@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+    "url": "https://github.com/samir-sarwar/samir-vllm",
+    "hn_url": "https://news.ycombinator.com/item?id=50424199",
+    "points": 43,
+    "comments": 6,
+    "author": "",
+    "age": "2026-11-09T11:36:55",
+    "scraped_at": "2026-11-09T14:00:02.393Z",
+    "tool_url": "https://github.com/samir-sarwar/samir-vllm",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A lightweight, fast inference wrapper for vLLM that simplifies model serving and streamlining GPU utilization.",
+    "use_modes": [
+      "CLI",
+      "Python API",
+      "REST API"
+    ],
+    "similar_tools": [
+      "vLLM",
+      "Ollama",
+      "NVIDIA Triton Inference Server"
+    ],
+    "proposed_tests": [
+      "pip install samir-vllm",
+      "import samir_vllm; model = samir_vllm.load('gpt-3.5')",
+      "response = model.generate('Hello world')",
+      "measure latency of a 10-token generation",
+      "benchmark throughput with 8 concurrent requests"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/samir-sarwar/samir-vllm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794232948872-adeti",
+    "log_dir": "/tmp/llm-review-1794232948872-adeti",
+    "install_success": false,
+    "install_time_s": 11.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:3.288",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 67, in <module>\n    if samir_vllm:\n       ^^^^^^^^^^\nNameError: name 'samir_vllm' is not defined\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_FAIL:pip install samir-vllm: Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'samir-vllm']' returned non-zero exit status 1.\nINSTALL_FAIL:pip -e /tmp/samir-vllm: Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', '-e', '/tmp/samir-vllm']' returned non-zero exit status 1.\nBENCHMARK:install_time_s:3.288\nTEST_FAIL:import_module:No module named 'samir_vllm'\n"
+  }
+}
