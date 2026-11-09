@@ -1,0 +1,105 @@
+{
+  "app_name": "Ginux",
+  "url": "https://zenodo.org/records/23682548",
+  "scored_at": "2026-11-09T14:01:31.319Z",
+  "total_score": 37,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No GitHub repository data means days_since_created and fork status are unavailable, so novelty cannot be quantified and is assigned a neutral score."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-type apps."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "The tool is a research infra-kernel; without concrete adoption or trend data, relevance is assessed as neutral."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has no reported GitHub stars while comparable tools have 10,774 (Xv6) and 7,868 (JOS) stars, indicating very low differentiation."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repo; HN points are only 23 with largely negative sentiment, showing a very small community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-type apps."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-type apps."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or documented topics were found; with no documentation signals, a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Absence of repository data and low HN points (23) indicate very low maturity."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research-type apps without reported benchmarks."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Most comments criticize the quality and trustworthiness of AI‑generated code and question the value of the project, though a few note the Rust implementation and the author’s reputation as mildly positive."
+    }
+  },
+  "summary": "Ginux is a research prototype kernel engineered with AI to run Linux userspace binaries. It is distributed as a Python package (v0.143.0) but lacks a public source repository, so installation details are limited to a successful Docker run. The project targets developers experimenting with AI‑generated system software, but its novelty and performance are unclear, and community feedback on HN is largely negative. The main strength is the ambitious AI‑driven engineering claim, while the lack of visible code, documentation, and community support are major drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://zenodo.org/records/23682548",
+  "tool_url": "https://github.com/ginux/kernel",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=50424147",
+  "domain": "infrastructure",
+  "app_type": "infra-kernel",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Xv6",
+        "stars": 10774,
+        "repo": "mit-pdos/xv6-riscv"
+      },
+      {
+        "name": "JOS",
+        "stars": 7868,
+        "repo": "panva/jose"
+      },
+      {
+        "name": "Linux",
+        "stars": 254958,
+        "repo": "torvalds/linux"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.143.0",
+      "summary": "The official Python library for the kernel API",
+      "requires_python": ">=3.9",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "some praise for Rust implementation",
+        "author with Rocky Linux background"
+      ],
+      "negative_signals": [
+        "AI slop concerns",
+        "security and trust worries",
+        "questionable usefulness"
+      ],
+      "justification": "Most comments criticize the quality and trustworthiness of AI‑generated code and question the value of the project, though a few note the Rust implementation and the author’s reputation as mildly positive.",
+      "comment_count": 30,
+      "hn_points": 23
+    }
+  }
+}
