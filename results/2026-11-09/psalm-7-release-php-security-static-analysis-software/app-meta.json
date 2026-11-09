@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Psalm 7 release: PHP security&static analysis software",
+    "url": "https://psalm.dev/articles/psalm-7",
+    "hn_url": "https://news.ycombinator.com/item?id=50406107",
+    "points": 55,
+    "comments": 28,
+    "author": "",
+    "age": "2026-11-07T17:06:18",
+    "scraped_at": "2026-11-09T14:00:02.394Z",
+    "tool_url": "https://github.com/vimeo/psalm",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "Psalm is a static analysis tool for PHP that detects bugs, potential security issues, and style violations.",
+    "use_modes": [
+      "CLI",
+      "IDE plugins",
+      "GitHub Action"
+    ],
+    "similar_tools": [
+      "PHPStan",
+      "PHPMD",
+      "SonarQube"
+    ],
+    "proposed_tests": [
+      "composer require vimeo/psalm",
+      "psalm --init",
+      "psalm --output-format=json",
+      "run Psalm on a sample PHP project and verify detection of known bugs",
+      "measure time to run on a 1MB codebase"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/vimeo/psalm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794233013321-lg4un",
+    "log_dir": "/tmp/llm-review-1794233013321-lg4un",
+    "install_success": true,
+    "install_time_s": 12.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.01\nBENCHMARK:import_mem_kib:0.00\nBENCHMARK:psalm_bulk_ms:0.81\nBENCHMARK:vs_phpstan_ratio:NA",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\n(1/5) Installing php85-common (8.5.12-r0)\n(2/5) Installing argon2-libs (20190702-r5)\n(3/5) Installing libedit (20260508.3.1-r1)\n(4/5) Installing libxml2 (2.13.9-r2)\n(5/5) Installing php85 (8.5.12-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 42.2 MiB in 56 packages\nINSTALL_OK\nOK: 42.2 MiB in 56 packages\nINSTALL_OK\n( 1/12) Installing php85-phar (8.5.12-r0)\n( 2/12) Installing php85-curl (8.5.12-r0)\n( 3/12) Installing php85-iconv (8.5.12-r0)\n( 4/12) Installing oniguruma (6.9.10-r0)\n( 5/12) Installing php85-mbstring (8.5.12-r0)\n( 6/12) Installing php85-openssl (8.5.12-r0)\n( 7/12) Installing libzip (1.11.4-r2)\n( 8/12) Installing php85-zip (8.5.12-r0)\n( 9/12) Installing libgcc (15.2.0-r5)\n(10/12) Installing libstdc++ (15.2.0-r5)\n(11/12) Installing 7zip (26.01-r0)\n(12/12) Installing composer (2.10.3-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 52.8 MiB in 68 packages\nINSTALL_OK\nCollecting psalm\n  Downloading psalm-0.0.1b0-py3-none-any.whl.metadata (1.3 kB)\nCollecting click (from psalm)\n  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)\nDownloading psalm-0.0.1b0-py3-none-any.whl (2.6 kB)\nDownloading click-8.5.1-py3-none-any.whl (126 kB)\nInstalling collected packages: click, psalm\nSuccessfully installed click-8.5.1 psalm-0.0.1b0\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nINSTALL_OK\nBENCHMARK:import_time_ms:0.01\nBENCHMARK:import_mem_kib:0.00\nTEST_FAIL:psalm_init:[Errno 2] No such file or directory: 'psalm'\nBENCHMARK:psalm_bulk_ms:0.81\nBENCHMARK:vs_phpstan_ratio:NA\nRUN_OK\n"
+  }
+}
