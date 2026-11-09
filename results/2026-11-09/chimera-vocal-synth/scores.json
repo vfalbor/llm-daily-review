@@ -1,0 +1,82 @@
+{
+  "app_name": "Chimera Vocal Synth",
+  "url": "https://chimera-vocal-synth.vercel.app/",
+  "scored_at": "2026-11-09T14:05:59.282Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is similar to existing vocal synthesizers, so we assign a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 17.1 seconds, but there is no PyPI package, indicating modest setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a multimodal vocal synthesizer it aligns with current generative AI trends for audio and text-to-singing, fitting the llm-tool category."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No GitHub stars or benchmark data are provided, and similar tools (Vocaloid, VALL‑E, Sinsy) dominate the space, giving only a small edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 269 with 30 comments, placing it in the 200–500 range which maps to a moderate community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0%), indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The page reports no API/SDK, no webhook support, and there is no PyPI package, making integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The website lacks docs or wiki links and the content length is only 7 characters, showing very sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 1.0 is detected on the site, which per proxy rules indicates a mature release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were found in the test output and no performance claims are present, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise Chimera’s creative approach and potential uses (voice training, language learning, musical exploration), while a few note technical issues or pronunciation concerns, leading to an overall very positive sentiment."
+    }
+  },
+  "summary": "Chimera Vocal Synth is a web‑based tool that generates singing audio from text prompts using a neural vocoder. It runs entirely in the browser without requiring an API key and offers a simple Web UI. It is suited for creators who want quick vocal demos or experimental music generation, leveraging the current interest in multimodal AI. Its main strength is the novelty of a browser‑only vocal synth, while the lack of documentation, integration options, and verified performance are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://chimera-vocal-synth.vercel.app/",
+  "tool_url": "https://chimera-vocal-synth.vercel.app/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50418182",
+  "domain": "llm-ai",
+  "app_type": "multimodal",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "innovative multimodal synthesis",
+        "useful for diverse applications",
+        "fun and engaging demos"
+      ],
+      "negative_signals": [
+        "technical hiccups on devices",
+        "mixed pronunciation feedback"
+      ],
+      "justification": "The majority of comments praise Chimera’s creative approach and potential uses (voice training, language learning, musical exploration), while a few note technical issues or pronunciation concerns, leading to an overall very positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 269
+    }
+  }
+}
