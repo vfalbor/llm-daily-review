@@ -1,0 +1,142 @@
+{
+  "app_name": "Flide",
+  "url": "https://github.com/OmniJev/Flide",
+  "scored_at": "2026-11-09T14:06:33.627Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 16 days ago (days_since_created=16) and is not a fork, but builds on existing Jev approach with a claimed 9.5x speed improvement, indicating a meaningful improvement rather than a brand‑new concept."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded (install_success=true) in 18.1 seconds (install_time_s=18.1) and the package is available on PyPI, meeting the easy‑setup criteria."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-codegen for decision‑model acceleration, it addresses a current need in LLM‑driven pipelines for faster inference, fitting today’s AI tooling trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Flide has 162 stars versus Jev's 24,306 stars, but claims a 9.5× speed gain; the benchmark import_time_ms=1.06 shows very low overhead, giving it a clear advantage in speed."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 162 stars (100–1k range) and 1 contributor, with the last commit today (days_since_update=0), indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (tests_passed=0, tests_total=2) and while install succeeded, the low test pass rate places it in the <50% bracket."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available on PyPI and provides a CLI and Rust crate, but lacks a REST API, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The project is 16 days old with 7 forks and 0 open issues, indicating early‑stage development without a stable release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows import_time_ms=1.06 and import_mem_peak_kb=7.88, but no comparative data to alternatives, leading to a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight Flide’s strong performance on decision‑heavy workloads and self‑hosted convenience, but also note that speed gains are context‑dependent, some larger models aren’t supported yet, and similar results can be achieved with modified vLLM."
+    }
+  },
+  "summary": "Flide is a code generator that converts high‑level decision models into Rust code to accelerate inference. It runs locally via a CLI or as a Rust crate and is distributed on PyPI. It targets developers who need fast, self‑hosted decision‑model serving, especially when GPU resources are available. Its standout strength is the claimed 9.5× speed boost, while its main caveat is limited test coverage and early‑stage maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/OmniJev/Flide",
+  "tool_url": "https://github.com/OmniJev/Flide",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50421155",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 162,
+      "forks": 7,
+      "open_issues": 0,
+      "watchers": 162,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 16,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "🔥🔥 The extremely fast inference engine for decision model",
+      "topics": [
+        "ai-agents",
+        "cuda",
+        "decision-making",
+        "deterministic-inference",
+        "gemma",
+        "inference-engine",
+        "jev",
+        "kv-cache",
+        "large-language-models",
+        "linear-attention",
+        "llm",
+        "llm-agents",
+        "llm-as-a-judge",
+        "llm-inference",
+        "llm-serving",
+        "multimodal",
+        "prefix-caching",
+        "pytorch",
+        "qwen",
+        "triton"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Jev",
+        "stars": 24306,
+        "repo": "browser-use/jev-ultrafast"
+      },
+      {
+        "name": "DecisionML",
+        "stars": 0,
+        "repo": "Prasannasri575/Decisionml"
+      },
+      {
+        "name": "DecisionTreeGen",
+        "stars": 3,
+        "repo": "jerryzhu94/DecisionTreeGenerator"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.10",
+      "summary": "Accelerating decision inference with exact state forking",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Fast inference for many questions",
+        "Self-hosted and GPU-friendly",
+        "Clear future roadmap"
+      ],
+      "negative_signals": [
+        "Speed benefits context-specific",
+        "Limited support for larger models",
+        "Alternative simpler solutions exist"
+      ],
+      "justification": "Comments highlight Flide’s strong performance on decision‑heavy workloads and self‑hosted convenience, but also note that speed gains are context‑dependent, some larger models aren’t supported yet, and similar results can be achieved with modified vLLM.",
+      "comment_count": 17,
+      "hn_points": 73
+    }
+  }
+}
