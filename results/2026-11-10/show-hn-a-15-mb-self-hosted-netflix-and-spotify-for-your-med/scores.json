@@ -1,0 +1,119 @@
+{
+  "app_name": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+  "url": "https://github.com/HolyArrs/HolyArrs",
+  "scored_at": "2026-11-10T14:01:46.278Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo was created today (0 days since creation) and is not a fork, but it replicates functionality of established media servers like Plex and Jellyfin, making it a near-duplicate."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 15.1 seconds (under the 30‑second threshold) and runs locally without requiring external API keys, though it lacks a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a media‑server tool, it has limited fit with today's primary LLM workflow trends, which focus on model serving and prompting."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has 259 stars, far fewer than Plex (11,763), Jellyfin (59,183) and Kodi (2,175), and no benchmark advantages are reported."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub shows 259 stars (100–1k range), only 1 contributor, and the repo was updated today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), indicating core functionality is limited despite successful installation."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available; the tool offers CLI and Web UI modes and is licensed under AGPL‑3.0, but no explicit API is provided."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details such as wiki or GitHub Pages are not provided in the data, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (0 days old), has 15 forks and 65 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were reported, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The majority of comments show curiosity about AI‑enabled subtitles and the lightweight self‑hosted nature, but several commenters criticize the project's very recent release, potential security issues, and risk of instability, leading to an overall moderately positive but cautious reception."
+    }
+  },
+  "summary": "This is a lightweight, self‑hosted media server that aggregates Netflix, Spotify, and other sources, offering both a CLI and a Web UI. It is built in Go and runs locally without needing API keys. It suits users who want a minimal‑footprint alternative to Plex or Jellyfin for personal media collections. While its small size (15 MB) and self‑hosting are strengths, the project is brand new, has very few stars, limited community support, and lacks performance benchmarks.",
+  "recommendation": "skip",
+  "app_url": "https://github.com/HolyArrs/HolyArrs",
+  "tool_url": "https://github.com/HolyArrs/HolyArrs",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50439000",
+  "domain": "other",
+  "app_type": "media-server",
+  "enriched": {
+    "github": {
+      "stars": 259,
+      "forks": 15,
+      "open_issues": 65,
+      "watchers": 259,
+      "contributors": 1,
+      "license": "AGPL-3.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "One self-hosted app for your shows, movies and music.",
+      "topics": [
+        "docker",
+        "homelab",
+        "jellyfin",
+        "media-server",
+        "plex",
+        "self-hosted"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Plex",
+        "stars": 11763,
+        "repo": "IBM/plex"
+      },
+      {
+        "name": "Jellyfin",
+        "stars": 59183,
+        "repo": "jellyfin/jellyfin"
+      },
+      {
+        "name": "Kodi",
+        "stars": 2175,
+        "repo": "koding/koding"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "AI subtitle features",
+        "low footprint, self-hosted"
+      ],
+      "negative_signals": [
+        "repo age and security concerns",
+        "instability worries"
+      ],
+      "justification": "The majority of comments show curiosity about AI‑enabled subtitles and the lightweight self‑hosted nature, but several commenters criticize the project's very recent release, potential security issues, and risk of instability, leading to an overall moderately positive but cautious reception.",
+      "comment_count": 30,
+      "hn_points": 54
+    }
+  }
+}
