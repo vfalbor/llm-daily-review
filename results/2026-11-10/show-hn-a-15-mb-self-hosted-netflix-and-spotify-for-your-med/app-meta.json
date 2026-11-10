@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+    "url": "https://github.com/HolyArrs/HolyArrs",
+    "hn_url": "https://news.ycombinator.com/item?id=50439000",
+    "points": 54,
+    "comments": 38,
+    "author": "",
+    "age": "2026-11-10T11:51:19",
+    "scraped_at": "2026-11-10T14:00:03.070Z",
+    "tool_url": "https://github.com/HolyArrs/HolyArrs",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "other",
+    "app_type": "media-server",
+    "description": "A lightweight, self‑hosted media server that aggregates content from Netflix, Spotify and other sources.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Plex",
+      "Jellyfin",
+      "Kodi"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `npm install` (or `yarn install`).",
+      "Start the server with `npm start` and verify the web UI loads at localhost:3000.",
+      "Add a sample media URL via the API and confirm it streams correctly.",
+      "Measure startup time and memory usage compared to a similar lightweight server."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/HolyArrs/HolyArrs"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794319269122-almm3",
+    "log_dir": "/tmp/llm-review-1794319269122-almm3",
+    "install_success": true,
+    "install_time_s": 15.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:repo_file_count:4007\nBENCHMARK:repo_size_kb:50144",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_FAIL:npm_install:exit 254\nTEST_SKIP:start_server:npm install failed\nINSTALL_FAIL:pip HolyArrs exit 1\nTEST_FAIL:pip_install_editable\nTEST_SKIP:import_pkg:install failed\nBENCHMARK:repo_file_count:4007\nBENCHMARK:repo_size_kb:50144\nRUN_OK\n"
+  }
+}
