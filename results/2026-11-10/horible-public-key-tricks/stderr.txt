@@ -1,0 +1,15 @@
+ERROR: Could not find a version that satisfies the requirement badcert (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for badcert
+Traceback (most recent call last):
+  File "/app/test.py", line 208, in <module>
+    main()
+  File "/app/test.py", line 166, in main
+    if not pip_install('badcert'):
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 32, in pip_install
+    reason = (res.stderr if res else "unknown").strip().replace("\n", " ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
