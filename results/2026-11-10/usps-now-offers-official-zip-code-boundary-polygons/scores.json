@@ -1,0 +1,79 @@
+{
+  "app_name": "USPS ZIP Code Boundaries",
+  "url": "https://postalpro.usps.com/zcb",
+  "scored_at": "2026-11-10T14:03:10.462Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and similar public datasets (OSM, Census TIGER) exist, so evidence is insufficient for a higher rating."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) with an install time of 56 s, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a research-dataset for GIS and spatial analysis, it addresses a common need in current mapping workflows, fitting today's data‑driven AI and analytics trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "No GitHub stars or benchmark data are available, and the dataset overlaps with OpenStreetMap and Census TIGER files, offering limited distinct advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 665 with 30 comments, indicating strong community attention despite the lack of a public repo."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0 %) and only basic run succeeded, showing core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook, but no PyPI package exists and license details are not provided."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "Docs/wiki link, changelog, and examples are present, and the page content length is 7,856 characters, indicating substantive documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Detected version is 1.0 and a changelog is available, suggesting a stable release despite the absence of a GitHub repo."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark lines all failed (e.g., download 404 and missing geopandas), providing no evidence of performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "The majority of comments express skepticism toward USPS pricing, licensing restrictions, and the claim that ZIP boundaries are accurate geospatial data, leading to a mostly negative reception."
+    }
+  },
+  "summary": "This is a downloadable dataset of official USPS ZIP Code boundary polygons for GIS and spatial analysis. It is accessed via a web page that offers an API/SDK and version 1.0 release notes, but lacks a package manager distribution. It is suited for analysts needing authoritative ZIP boundaries, especially when higher‑resolution official data is required. While the documentation is thorough and community interest is high (665 HN points), the tool fails all automated tests and provides no performance benchmarks, limiting its reliability.",
+  "recommendation": "niche",
+  "app_url": "https://postalpro.usps.com/zcb",
+  "tool_url": "https://postalpro.usps.com/zcb",
+  "source_type": "dataset",
+  "hn_url": "https://news.ycombinator.com/item?id=50431058",
+  "domain": "data",
+  "app_type": "research-dataset",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [],
+      "negative_signals": [
+        "Criticism of pricing and licensing",
+        "Concerns about data accuracy and misuse",
+        "Distrust in USPS data quality"
+      ],
+      "justification": "The majority of comments express skepticism toward USPS pricing, licensing restrictions, and the claim that ZIP boundaries are accurate geospatial data, leading to a mostly negative reception.",
+      "comment_count": 30,
+      "hn_points": 665
+    }
+  }
+}
