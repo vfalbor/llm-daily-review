@@ -1,0 +1,98 @@
+{
+  "app_name": "E-means",
+  "url": "https://e-means.github.io/",
+  "scored_at": "2026-11-10T14:03:37.577Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool appears similar to existing k-means variants, so only an incremental improvement can be inferred."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 10 seconds (install_success true) without requiring an API key, indicating a simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a data-analytics clustering tool, it addresses a common need but is not directly tied to the hottest LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count is available for the project, and benchmark data only shows tiny import times (e.g., import_e_means_time_ms 0.24) without comparison to alternatives."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 435 with 30 comments, indicating strong community interest despite the absence of GitHub metrics."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of five tests passed (0/5) and basic run failed, showing core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool provides a CLI and Python library but lacks a PyPI package and explicit API mode details, leaving integration effort uncertain."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No repository data or documentation metrics (wiki, pages, topics) were found, so only a neutral score can be assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 435 HN points and no release tags or fork data, the project shows moderate maturity but lacks clear versioning."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines only report import times (e.g., import_sklearn_time_ms 0.27) with no comparative performance claims."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments praise significant speed improvements and broad applicability, yet a few raise concerns over the intuitiveness and validation of the hyperparameter rules, indicating generally positive but constructive feedback."
+    }
+  },
+  "summary": "E-means is a lightweight implementation of the E-means clustering algorithm that claims faster convergence than standard k-means. It can be used via a CLI or as a Python library, running directly from source without a PyPI package. The tool is suited for data scientists needing quick clustering on large datasets, leveraging reported speedups in HN discussions. However, zero test passes and minimal documentation limit its reliability and ease of adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://e-means.github.io/",
+  "tool_url": "https://github.com/e-means/e-means",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50429734",
+  "domain": "data",
+  "app_type": "data-analytics",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "scikit-learn k-means",
+        "stars": 4,
+        "repo": "Rubentym/K-Means-Clustering-with-scikit-learn"
+      },
+      {
+        "name": "MiniBatchKMeans",
+        "stars": 5,
+        "repo": "RayanAAY-ops/MinibatchKmeans-vs-Kmeans"
+      },
+      {
+        "name": "HDBSCAN",
+        "stars": 3159,
+        "repo": "scikit-learn-contrib/hdbscan"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "high speedups reported",
+        "useful for large datasets",
+        "widely applicable"
+      ],
+      "negative_signals": [
+        "hyperparameter laws unclear",
+        "post-hoc fitting concerns"
+      ],
+      "justification": "The comments praise significant speed improvements and broad applicability, yet a few raise concerns over the intuitiveness and validation of the hyperparameter rules, indicating generally positive but constructive feedback.",
+      "comment_count": 30,
+      "hn_points": 435
+    }
+  }
+}
