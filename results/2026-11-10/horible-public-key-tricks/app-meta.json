@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Horible public key tricks",
+    "url": "https://maurycyz.com/projects/badcert/",
+    "hn_url": "https://news.ycombinator.com/item?id=50434264",
+    "points": 197,
+    "comments": 63,
+    "author": "",
+    "age": "2026-11-10T00:07:17",
+    "scraped_at": "2026-11-10T14:00:03.079Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/mcyz/badcert",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "security",
+    "app_type": "sec-crypto",
+    "description": "A collection of insecure public key handling patterns and tools to generate vulnerable certificates for testing crypto libraries.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "openssl",
+      "certbot",
+      "mkcert"
+    ],
+    "proposed_tests": [
+      "pip install badcert",
+      "Generate a self-signed certificate with badcert CLI",
+      "Attempt to load the certificate with OpenSSL and verify failure",
+      "Import the certificate into a Python script and test handshake",
+      "Compare performance with a correctly generated cert"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mcyz/badcert"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794319419016-u140t",
+    "log_dir": "/tmp/llm-review-1794319419016-u140t",
+    "install_success": true,
+    "install_time_s": 9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.548\nBENCHMARK:apk_openssl_install_s:0.519",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement badcert (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for badcert\nTraceback (most recent call last):\n  File \"/app/test.py\", line 208, in <module>\n    main()\n  File \"/app/test.py\", line 166, in main\n    if not pip_install('badcert'):\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 32, in pip_install\n    reason = (res.stderr if res else \"unknown\").strip().replace(\"\\n\", \" \")\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'strip'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.548\n(1/1) Installing openssl (3.5.9-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.9 MiB in 52 packages\nINSTALL_OK\nBENCHMARK:apk_openssl_install_s:0.519\n"
+  }
+}
