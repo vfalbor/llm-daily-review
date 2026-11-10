@@ -1,0 +1,95 @@
+{
+  "app_name": "Horible public key tricks",
+  "url": "https://maurycyz.com/projects/badcert/",
+  "scored_at": "2026-11-10T14:04:43.677Z",
+  "total_score": 42,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The tool replicates insecure certificate patterns already covered by openssl, certbot, and mkcert, offering no new approach; no creation date or fork information is available."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 9 seconds, well under the 30‑second benchmark for easy setup, though it is not available via PyPI."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a sec‑crypto testing utility it addresses a niche need in crypto library testing, which is moderately relevant to current security tooling trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Compared to similar tools (openssl 31,403 stars, certbot 33,321 stars, mkcert 59,856 stars) this project has no visible star count and provides no benchmark advantage."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data is available; HN points are 197, placing it in the 50‑200 range which maps to a community score of 3‑4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "The Docker run reported 0/0 tests passed and the basic run failed, indicating core functionality does not work out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The project offers a CLI and a Python API but lacks a PyPI package; license information is not provided."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) the maturity cannot be assessed, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No performance benchmark lines are present beyond install timings, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "Most comments focus on security flaws, the impracticality of the approach, and user frustration, with no substantial praise or constructive positive themes."
+    }
+  },
+  "summary": "Horible public key tricks is a CLI and Python API tool that generates deliberately vulnerable certificates for testing crypto libraries. It builds on standard OpenSSL primitives without adding novel cryptographic techniques. The tool is aimed at security engineers who need to fuzz or validate the robustness of certificate handling code. While it installs quickly, it fails basic execution tests and lacks community adoption, making it fragile in practice.",
+  "recommendation": "skip",
+  "app_url": "https://maurycyz.com/projects/badcert/",
+  "tool_url": "https://github.com/mcyz/badcert",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50434264",
+  "domain": "security",
+  "app_type": "sec-crypto",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "openssl",
+        "stars": 31403,
+        "repo": "openssl/openssl"
+      },
+      {
+        "name": "certbot",
+        "stars": 33321,
+        "repo": "certbot/certbot"
+      },
+      {
+        "name": "mkcert",
+        "stars": 59856,
+        "repo": "FiloSottile/mkcert"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [],
+      "negative_signals": [
+        "Security vulnerabilities highlighted",
+        "Complexity and impracticality criticized",
+        "Negative user experience comments"
+      ],
+      "justification": "Most comments focus on security flaws, the impracticality of the approach, and user frustration, with no substantial praise or constructive positive themes.",
+      "comment_count": 30,
+      "hn_points": 197
+    }
+  }
+}
