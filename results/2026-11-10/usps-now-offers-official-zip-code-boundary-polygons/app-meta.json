@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "USPS now offers official ZIP Code boundary polygons",
+    "url": "https://postalpro.usps.com/zcb",
+    "hn_url": "https://news.ycombinator.com/item?id=50431058",
+    "points": 664,
+    "comments": 338,
+    "author": "",
+    "age": "2026-11-09T19:58:59",
+    "scraped_at": "2026-11-10T14:00:03.072Z",
+    "tool_url": "https://postalpro.usps.com/zcb",
+    "source_type": "dataset",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "data",
+    "app_type": "research-dataset",
+    "description": "Official ZIP Code boundary polygons provided by USPS for mapping and spatial analysis.",
+    "use_modes": [
+      "Download",
+      "GIS software",
+      "Python (geopandas)"
+    ],
+    "similar_tools": [
+      "OpenStreetMap ZIP boundaries",
+      "US Census TIGER/Line ZIP files"
+    ],
+    "proposed_tests": [
+      "Download the ZIP file and unzip to confirm file integrity.",
+      "Load the shapefile into geopandas and verify CRS is EPSG:4326.",
+      "Count number of polygons and compare against known ZIP count.",
+      "Compute bounding boxes and ensure they fall within expected geographic limits."
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1794319307610-0g3kk",
+    "log_dir": "/tmp/llm-review-1794319307610-0g3kk",
+    "install_success": true,
+    "install_time_s": 56,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:download_time_s:FAIL:404 Client Error: Not Found for url: https://postalpro.usps.com/zcb/download/zip_boundary_polygons.zip\nBENCHMARK:overall_test_time_s:0.0000\nBENCHMARK:vs_osm_zip_boundary_ratio:FAIL:No module named 'geopandas'\nBENCHMARK:memory_peak_kb:0.00\nBENCHMARK:test_count:4\nBENCHMARK:dummy_metric:1.23",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.0-r0)\n(13/13) Installing git-init-template (2.54.0-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:download_time_s:FAIL:404 Client Error: Not Found for url: https://postalpro.usps.com/zcb/download/zip_boundary_polygons.zip\nTEST_FAIL:download:requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://postalpro.usps.com/zcb/download/zip_boundary_polygons.zip\nTEST_FAIL:load_shapefile:KeyError: 'download_dir'\nTEST_FAIL:polygon_count:KeyError: 'gdf'\nTEST_FAIL:bbox_limits:KeyError: 'gdf'\nBENCHMARK:overall_test_time_s:0.0000\nBENCHMARK:vs_osm_zip_boundary_ratio:FAIL:No module named 'geopandas'\nBENCHMARK:memory_peak_kb:0.00\nBENCHMARK:test_count:4\nBENCHMARK:dummy_metric:1.23\nRUN_OK\n"
+  }
+}
