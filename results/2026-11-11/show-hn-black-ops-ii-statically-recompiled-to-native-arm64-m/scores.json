@@ -1,0 +1,112 @@
+{
+  "app_name": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+  "url": "https://github.com/adrbn/bo2-mac",
+  "scored_at": "2026-11-11T14:02:32.252Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 7 days ago, not a fork, and unlike existing Doom/Quake ports it targets Black Ops II, giving a modest original contribution."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 13.7 s and the binary runs locally without an API key, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a game port for Apple Silicon, it aligns with the current macOS ARM64 trend but serves a niche gaming audience."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The repo has 140 stars versus 0 stars for the comparable Doom‑on‑macOS project, and benchmarks show a faster launch ratio (0.833) than Doom."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The GitHub repo has 140 stars, 1 contributor, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33 %) despite a successful install, indicating limited functional coverage."
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for this app type (game)"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is only 7 days old, has 10 forks and 0 open issues, suggesting early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show mixed results (import ratio 1.250, launch ratio 0.833) with no clear >2× advantage, so performance is average."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the native ARM64 port and appreciate the detailed explanation of the tooling chain, while a minority critique the README’s clarity and raise concerns about piracy and AI‑generated content. Overall sentiment remains very positive with minor nitpicks."
+    }
+  },
+  "summary": "Black Ops II has been statically recompiled to run natively on ARM64 macOS, providing a playable binary for Apple Silicon users. It is delivered as a CLI tool built from C++ sources and runs locally without external services. The project is aimed at enthusiasts who want to experience this specific title on modern Macs. While it stands out with 140 GitHub stars and a faster launch than comparable Doom ports, its documentation is sparse and test coverage is limited, indicating a prototype-level maturity.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/adrbn/bo2-mac",
+  "tool_url": "https://github.com/adrbn/bo2-mac",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50449891",
+  "domain": "other",
+  "app_type": "game",
+  "enriched": {
+    "github": {
+      "stars": 140,
+      "forks": 10,
+      "open_issues": 0,
+      "watchers": 140,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 7,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Call of Duty: Black Ops II statically recompiled from 32-bit x86 Windows to native ARM64 macOS: Remill → LLVM IR, a hand-written Win32 runtime, Direct3D 11 drawn by Metal. No Wine, no game files.",
+      "topics": [
+        "apple-silicon",
+        "black-ops-2",
+        "call-of-duty",
+        "llvm",
+        "macos",
+        "metal",
+        "remill",
+        "static-recompilation"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Doom on macOS",
+        "stars": 0,
+        "repo": "coffnix/doom3-on-macos-X-intel-Tiger"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "native ARM64 macOS port",
+        "technical depth and toolchain explanation",
+        "community enthusiasm and learning potential"
+      ],
+      "negative_signals": [
+        "README quality concerns",
+        "piracy/ethical debate"
+      ],
+      "justification": "The majority of comments praise the native ARM64 port and appreciate the detailed explanation of the tooling chain, while a minority critique the README’s clarity and raise concerns about piracy and AI‑generated content. Overall sentiment remains very positive with minor nitpicks.",
+      "comment_count": 22,
+      "hn_points": 61
+    }
+  }
+}
