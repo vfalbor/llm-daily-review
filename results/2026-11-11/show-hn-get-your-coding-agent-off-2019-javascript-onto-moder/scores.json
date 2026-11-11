@@ -1,0 +1,114 @@
+{
+  "app_name": "Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "scored_at": "2026-11-11T14:03:38.484Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 232 days ago, not a fork, and improves migration of legacy agents—a meaningful improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) after 11 s and no PyPI package is available, indicating a difficult setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-codegen library for modern web APIs, it aligns well with current LLM‑enhanced developer workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Has 3,985 stars versus LangChain's 149,353 and CrewAI's 60,766, offering a niche migration focus but no clear superiority."
+    },
+    "community": {
+      "score": 7,
+      "justification": "3,985 stars, 4 contributors, and the repo was updated 1 day ago, showing an active but mid‑size community."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 2 tests passed and the install failed, indicating core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Provides NPM and ESM import modes and is Apache‑2.0 licensed, allowing straightforward integration despite lacking a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit wiki, pages, or topic data were found; insufficient documentation signals a neutral score."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Repository is 232 days old with 132 forks and only 1 open issue, suggesting a moderately mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports a migration latency of 0.800 ms versus LangChain, but no comparative advantage is quantified."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments reflect a generally positive reception—developers appreciate the modern web practices and efficiency gains—while also voicing legitimate concerns over maintainability, AI-generated code quality, and potential technical debt. The balance leans slightly toward constructive criticism, yielding a score of 6."
+    }
+  },
+  "summary": "This is an open‑source JavaScript library that helps developers migrate legacy coding agents to modern web APIs. It can be imported via NPM or ESM and runs locally without an API key. It is suited for teams modernizing older codebases who need a lightweight migration aid. The library shows decent community activity and recent updates, but installation failures and limited documentation hinder adoption, and performance gains are unproven.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "tool_url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50443812",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 3985,
+      "forks": 132,
+      "open_issues": 1,
+      "watchers": 3985,
+      "contributors": 4,
+      "license": "Apache-2.0",
+      "language": null,
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 232,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "langchain",
+        "stars": 149353,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 60766,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "PromptLayer",
+        "stars": 5,
+        "repo": "MagnivOrg/my-chatgpt-promptlayer"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Practical modern web guidance",
+        "Developer efficiency",
+        "Community support"
+      ],
+      "negative_signals": [
+        "Code quality concerns",
+        "AI reliability worries",
+        "Potential technical debt"
+      ],
+      "justification": "The comments reflect a generally positive reception—developers appreciate the modern web practices and efficiency gains—while also voicing legitimate concerns over maintainability, AI-generated code quality, and potential technical debt. The balance leans slightly toward constructive criticism, yielding a score of 6.",
+      "comment_count": 30,
+      "hn_points": 401
+    }
+  }
+}
