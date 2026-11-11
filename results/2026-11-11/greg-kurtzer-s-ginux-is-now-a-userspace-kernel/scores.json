@@ -1,0 +1,103 @@
+{
+  "app_name": "Ginux",
+  "url": "https://github.com/gmkurtzer/ginux",
+  "scored_at": "2026-11-11T14:01:29.160Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "Created 31 days ago and is not a fork, while the closest alternative RunC has 13,548 stars versus Ginux's 579, indicating a novel userspace kernel approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 27.5 seconds; although no PyPI package exists, the build completes quickly, showing reasonable accessibility."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an infra-others tool, a userspace kernel is moderately relevant for sandboxing in current LLM workflows but not a core pain point."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Ginux has 579 stars compared to RunC's 13,548, and the only benchmark provided is a 51 ms compile time with no direct performance comparison, giving it only a modest edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 579 stars, 8 contributors, and was updated today (0 days since last commit), showing an active but still modest community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 out of 3 tests passed (33%), indicating core functionality works but many features are missing or unstable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "While there is no PyPI package, the project offers CLI, API, and SDK modes and is licensed Apache‑2.0, allowing reasonable integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topics was provided, so documentation quality cannot be assessed and defaults to neutral."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 31 days old with 65 forks and 28 open issues, indicating early-stage development without a stable release."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show a 51 ms compile time and 3,899 KB peak memory, but no comparative data is available, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "The majority of comments express doubts about the practical value, security implications, and commitment of the project, with only a few noting the author's reputation or possible isolation benefits."
+    }
+  },
+  "summary": "Ginux is a userspace reimplementation of the Linux kernel that provides a sandboxed execution environment. It is built in Rust and can be accessed via CLI, API, or SDK without requiring an API key. The tool is suited for developers needing isolated environments for LLM or container workloads, offering quick compile times (51 ms) but limited test coverage (1/3 tests passed). Its main strength is the novel approach to a userspace kernel, while the primary caveat is early-stage maturity and sparse documentation.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/gmkurtzer/ginux",
+  "tool_url": "https://github.com/gmkurtzer/ginux",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50450007",
+  "domain": "infrastructure",
+  "app_type": "infra-others",
+  "enriched": {
+    "github": {
+      "stars": 579,
+      "forks": 65,
+      "open_issues": 28,
+      "watchers": 579,
+      "contributors": 8,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 31,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "RunC",
+        "stars": 13548,
+        "repo": "opencontainers/runc"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "acknowledgement of respected author",
+        "potential for improved isolation"
+      ],
+      "negative_signals": [
+        "skepticism about usefulness",
+        "concerns about commitment and security",
+        "fear of AI control"
+      ],
+      "justification": "The majority of comments express doubts about the practical value, security implications, and commitment of the project, with only a few noting the author's reputation or possible isolation benefits.",
+      "comment_count": 30,
+      "hn_points": 96
+    }
+  }
+}
