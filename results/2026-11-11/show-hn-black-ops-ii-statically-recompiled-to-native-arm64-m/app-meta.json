@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+    "url": "https://github.com/adrbn/bo2-mac",
+    "hn_url": "https://news.ycombinator.com/item?id=50449891",
+    "points": 61,
+    "comments": 23,
+    "author": "",
+    "age": "2026-11-11T04:56:47",
+    "scraped_at": "2026-11-11T14:00:02.649Z",
+    "tool_url": "https://github.com/adrbn/bo2-mac",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "other",
+    "app_type": "game",
+    "description": "A statically recompiled binary of Call of Duty: Black Ops II for macOS on ARM64 architecture.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "Doom on macOS",
+      "Quake on macOS"
+    ],
+    "proposed_tests": [
+      "Download the release binary for macOS ARM64",
+      "Execute the binary and verify it launches without errors",
+      "Measure memory usage and CPU consumption during a short gameplay session",
+      "Check for crash logs or segmentation faults",
+      "Verify the binary size matches the published checksum"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/adrbn/bo2-mac"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794405690667-ys9nz",
+    "log_dir": "/tmp/llm-review-1794405690667-ys9nz",
+    "install_success": true,
+    "install_time_s": 13.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.670\nBENCHMARK:apk_python3_install_s:1.227\nBENCHMARK:apk_py3-pip_install_s:0.933\nBENCHMARK:git_clone_s:2.489\nBENCHMARK:pip_bo2-mac_install_s:0.640\nBENCHMARK:vs_doom_import_ms_ratio:1.250\nBENCHMARK:vs_doom_launch_s_ratio:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.670\nINSTALL_OK\nBENCHMARK:apk_python3_install_s:1.227\nINSTALL_OK\nBENCHMARK:apk_py3-pip_install_s:0.933\nTEST_PASS:git_clone\nBENCHMARK:git_clone_s:2.489\nINSTALL_FAIL:pip install /tmp/bo2-mac ([notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: Directory '/tmp/bo2-mac' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.)\nBENCHMARK:pip_bo2-mac_install_s:0.640\nTEST_FAIL:import_bo2_mac:No module named 'bo2_mac'\nTEST_FAIL:download_binary:HTTP Error 404: Not Found\nBENCHMARK:vs_doom_import_ms_ratio:1.250\nBENCHMARK:vs_doom_launch_s_ratio:0.833\nRUN_OK\n"
+  }
+}
