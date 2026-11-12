@@ -1,0 +1,54 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.10.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.1-r0)
+(13/13) Installing git-init-template (2.54.1-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.2 MiB in 51 packages
+INSTALL_OK
+INSTALL_OK
+BENCHMARK:npm_version_time_s:0.286
+BENCHMARK:npm_version_mem_peak_kb:50.2
+BENCHMARK:npm_version_check_time_s:0.286
+TEST_PASS:load_main_page
+BENCHMARK:load_page_time_s:1.041
+BENCHMARK:load_page_mem_peak_kb:13215.3
+TEST_PASS:export_stl
+BENCHMARK:export_stl_time_s:0.000
+BENCHMARK:export_stl_mem_peak_kb:13.8
+TEST_FAIL:render_100_objects:node error node:internal/modules/cjs/loader:1568
+  throw err;
+  ^
+
+Error: Cannot find module 'jsdom'
+Require stack:
+- /tmp/render_test.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (/tmp/render_test.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/tmp/render_test.js' ]
+}
+
+Node.js v24.22.3
+BENCHMARK:render_100_objects_time_s:0.955
+BENCHMARK:render_100_objects_mem_peak_kb:61.8
+BENCHMARK:cpu_count:4
+BENCHMARK:pid:1
+BENCHMARK:uptime_s:1794492247.724
+RUN_OK
