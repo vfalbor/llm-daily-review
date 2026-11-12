@@ -1,0 +1,121 @@
+{
+  "app_name": "Stela",
+  "url": "https://github.com/tylertms/Stela",
+  "scored_at": "2026-11-12T14:05:56.106Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 30 days ago and is not a fork, but similar tools (QEMU, UTM) already exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (false) despite a short install time of 6.9 s and a PyPI package being available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra‑IAC tool enabling x86‑64 binaries on Apple Silicon, it addresses a current hardware transition trend."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 1,168 stars versus QEMU's 14,023 and UTM's 36,850, and no benchmark data showing a clear advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repository has 1,168 stars, 3 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests ran (0/0) and the basic run failed, indicating core functionality is not usable out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "A PyPI package exists (v9.0.6) and the tool offers CLI and Docker modes, but there is no documented API for programmatic integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic counts were provided, so documentation quality cannot be assessed beyond the basic repo."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 30 days old, has 53 forks and 8 open issues, showing early adoption but limited release history."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be quantified."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments acknowledge the project's promise to bring macOS to Intel PCs and revive hackintosh enthusiasm, but many note it is currently slow, buggy, and requires more testing."
+    }
+  },
+  "summary": "Stela is a command‑line and Docker‑based emulation layer that lets x86‑64 binaries run on Apple Silicon hardware. It is built in Rust and distributed via PyPI, but the installation fails and no tests pass, indicating low usability. The project targets developers needing to revive hackintosh‑style workloads on Apple Silicon, offering a niche alternative to established emulators like QEMU and UTM. While the community shows moderate interest (1,168 stars) and recent commits, performance claims are unverified and documentation is sparse.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/tylertms/Stela",
+  "tool_url": "https://github.com/tylertms/Stela",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50460154",
+  "domain": "infrastructure",
+  "app_type": "infra-iac",
+  "enriched": {
+    "github": {
+      "stars": 1168,
+      "forks": 53,
+      "open_issues": 8,
+      "watchers": 1168,
+      "contributors": 3,
+      "license": "GPL-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 30,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "QEMU",
+        "stars": 14023,
+        "repo": "qemu/qemu"
+      },
+      {
+        "name": "UTM",
+        "stars": 36850,
+        "repo": "utmapp/UTM"
+      },
+      {
+        "name": "Parallels Desktop",
+        "stars": 171,
+        "repo": "xxk8/Parallels-Desktop20-free-file"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "9.0.6",
+      "summary": "Organize your project settings and secrets with ease",
+      "requires_python": "<4.0,>=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "revives hackintosh potential",
+        "supports macOS on x86",
+        "provides Apple Silicon emulation"
+      ],
+      "negative_signals": [
+        "slow performance",
+        "buggy and untested",
+        "limited hardware support"
+      ],
+      "justification": "The comments acknowledge the project's promise to bring macOS to Intel PCs and revive hackintosh enthusiasm, but many note it is currently slow, buggy, and requires more testing.",
+      "comment_count": 30,
+      "hn_points": 124
+    }
+  }
+}
