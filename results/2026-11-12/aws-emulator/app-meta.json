@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "AWS emulator",
+    "url": "https://github.com/aws/aws-emulator",
+    "hn_url": "https://news.ycombinator.com/item?id=50456631",
+    "points": 899,
+    "comments": 249,
+    "author": "",
+    "age": "2026-11-11T18:21:38",
+    "scraped_at": "2026-11-12T14:00:03.736Z",
+    "tool_url": "https://github.com/aws/aws-emulator",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "Container-based emulator that mocks AWS services for local development and testing.",
+    "use_modes": [
+      "CLI",
+      "Docker container",
+      "SDK"
+    ],
+    "similar_tools": [
+      "LocalStack",
+      "MinIO",
+      "AWS SAM CLI"
+    ],
+    "proposed_tests": [
+      "Pull the Docker image and run the emulator, verifying the health endpoint responds.",
+      "Use AWS CLI to list S3 buckets against the emulator and confirm empty bucket list.",
+      "Create a new S3 bucket via SDK and verify it appears in the bucket list.",
+      "Measure the time to perform a PutObject operation for a 1MB file."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/aws/aws-emulator"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794492094992-wgef5",
+    "log_dir": "/tmp/llm-review-1794492094992-wgef5",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.511",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement aws-emulator (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for aws-emulator\nTraceback (most recent call last):\n  File \"/app/test.py\", line 214, in <module>\n    main()\n  File \"/app/test.py\", line 148, in main\n    if not pip_install('aws-emulator'):\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 40, in pip_install\n    reason = res.stderr.strip()\n             ^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'strip'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.511\n"
+  }
+}
