@@ -1,0 +1,114 @@
+{
+  "app_name": "AWS emulator",
+  "url": "https://github.com/aws/aws-emulator",
+  "scored_at": "2026-11-12T14:02:35.756Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 61 days ago, not a fork, and replicates existing AWS emulators, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 8.6 s and requires no API key, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra‑container tool it directly addresses the current need for local AWS service mocking in LLM‑driven pipelines."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 3,942 stars it trails LocalStack (65,119) and MinIO (61,261) by over 94%, offering no clear unique advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 3,942 stars, 5 contributors, and was updated 1 day ago, showing active interest."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No tests were defined (0/0 passed) and the basic run failed, leaving insufficient evidence of usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "Although there is no PyPI package, the tool provides CLI, Docker, and SDK modes and is released under CC0‑1.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 61 days old, has 100 forks and 77 open issues, indicating early but active development."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark reports an install time of 0.511 s; without comparative data this suggests average performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments show a balance of excitement over AWS’s public commitment and useful tooling, but also widespread doubt about reliability, maintenance, and AI quality."
+    }
+  },
+  "summary": "AWS emulator is a container‑based tool that mimics AWS services for local development and testing. It runs as a Docker image and can be accessed via CLI or SDK, without requiring an AWS API key. Developers needing fast, offline AWS mocks will find it useful, especially when integrating into CI pipelines. The standout strength is its quick 0.511 s install time, but its low star count and lack of clear differentiating features compared to LocalStack limit its appeal.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/aws/aws-emulator",
+  "tool_url": "https://github.com/aws/aws-emulator",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50456631",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": {
+      "stars": 3942,
+      "forks": 100,
+      "open_issues": 77,
+      "watchers": 3942,
+      "contributors": 5,
+      "license": "CC0-1.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 61,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "AWS Emulator is a local emulator of the AWS APIs.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LocalStack",
+        "stars": 65119,
+        "repo": "localstack/localstack"
+      },
+      {
+        "name": "MinIO",
+        "stars": 61261,
+        "repo": "minio/minio"
+      },
+      {
+        "name": "AWS SAM CLI",
+        "stars": 6744,
+        "repo": "aws/aws-sam-cli"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Official announcements and documentation indicating real product",
+        "Commitment to maintenance and support by AWS",
+        "Positive comparisons to existing tools (Testcontainers, Copilot CLI)"
+      ],
+      "negative_signals": [
+        "Skepticism about long‑term support and maintenance",
+        "Concerns about AI-generated accuracy and edge‑case coverage",
+        "General distrust of new Amazon products due to past deprecation history"
+      ],
+      "justification": "Comments show a balance of excitement over AWS’s public commitment and useful tooling, but also widespread doubt about reliability, maintenance, and AI quality.",
+      "comment_count": 30,
+      "hn_points": 899
+    }
+  }
+}
