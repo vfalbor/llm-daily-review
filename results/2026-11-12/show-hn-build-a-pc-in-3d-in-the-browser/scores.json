@@ -1,0 +1,86 @@
+{
+  "app_name": "Build a PC in 3D in the Browser",
+  "url": "https://www.buildcores.com/",
+  "scored_at": "2026-11-12T14:03:41.520Z",
+  "total_score": 47,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be assessed and is given a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success = true) in 10 seconds, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web‑frontend 3D builder, it aligns with current WebGL trends but is niche within the broader LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Similar tools have very low star counts (3 and 5 stars), suggesting this project offers a distinct capability despite lacking its own star metric."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub data is available and Hacker News points are only 8, indicating minimal community engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0%) despite a successful install, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool provides only a Web UI (use_modes = Web UI) with no API or package distribution, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available, so documentation quality cannot be evaluated and receives a neutral score."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Absence of repository metrics and only 8 Hacker News points suggest the project is early‑stage and not mature."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was provided, so performance is given a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This is a client‑side WebGL/Three.js tool that lets users assemble a PC model in the browser. It runs as a pure web UI without any backend API or package distribution. It is suited for developers or hobbyists wanting an interactive 3D PC builder demo. The standout strength is its unique focus on PC assembly, while the main caveat is the lack of community support and integration options, as reflected by only 8 Hacker News points and no API.",
+  "recommendation": "niche",
+  "app_url": "https://www.buildcores.com/",
+  "tool_url": "https://github.com/buildcores/pc-in-3d",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50415379",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "A-Frame Editor",
+        "stars": 3,
+        "repo": "MitchellSmithDev/UnityAnimationFrameDataEditor"
+      },
+      {
+        "name": "WebGL Studio",
+        "stars": 5,
+        "repo": "iconic-whitemullein349/webgl-studio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 8
+    }
+  }
+}
