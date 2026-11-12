@@ -1,0 +1,15 @@
+ERROR: Could not find a version that satisfies the requirement aws-emulator (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for aws-emulator
+Traceback (most recent call last):
+  File "/app/test.py", line 214, in <module>
+    main()
+  File "/app/test.py", line 148, in main
+    if not pip_install('aws-emulator'):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 40, in pip_install
+    reason = res.stderr.strip()
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
