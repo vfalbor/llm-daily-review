@@ -1,0 +1,83 @@
+{
+  "app_name": "bootvine",
+  "url": "https://codeberg.org/wvhulle/bootvine",
+  "scored_at": "2026-11-12T14:01:33.328Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No repository data or creation date is available, and the tool is compared only to existing utilities like systemd-analyze and bootchart, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 23 seconds, which is under the 30‑second threshold, and the tool runs locally without requiring a PyPI package or external API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑cli for visualising systemd boot jobs, it addresses a common debugging need in current Linux system administration workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools (systemd-analyze, bootchart) it offers a live tree view, a distinct UI advantage, though no star or benchmark numbers are available to quantify the gap."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repository is present; HN points are 192 with 30 comments, which falls into the 100–200 range, yielding a modest community rating."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The test suite reported 0 tests (0/0), so there is insufficient quantitative data to assess ease of use."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The webpage mentions an API/SDK/webhook support despite the lack of a PyPI package, indicating moderate integration capability."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The site provides docs/wiki links, a changelog, examples, and a substantial content length of 10,404 characters, reflecting thorough documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 17.0.0 and a changelog are present, suggesting a mature, actively maintained project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported, so performance cannot be evaluated beyond a neutral default."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments show constructive appreciation for the idea and some enthusiasm for systemd's capabilities, but also raise valid concerns about systemd’s complexity, debugging, and the broader debate over init systems. Overall sentiment leans mildly positive with balanced critique."
+    }
+  },
+  "summary": "bootvine is a CLI tool that renders a live tree of systemd jobs during boot, helping developers debug boot sequences. It runs locally without external dependencies and advertises an API/SDK/webhook interface. The utility is useful for Linux system administrators needing real‑time visibility into init progress, offering a live view that static tools lack. Documentation is extensive and the project appears mature (v17.0.0), but community signals are modest and no performance benchmarks are provided.",
+  "recommendation": "worth-watching",
+  "app_url": "https://codeberg.org/wvhulle/bootvine",
+  "tool_url": "https://codeberg.org/wvhulle/bootvine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50425017",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Inspired by systemd for parallel boot",
+        "Improved boot visibility and control",
+        "Potential for broader use in other init systems"
+      ],
+      "negative_signals": [
+        "Criticism of systemd complexity and aggressiveness",
+        "Concerns over debugging and logging",
+        "Mixed views on systemd vs traditional init"
+      ],
+      "justification": "The comments show constructive appreciation for the idea and some enthusiasm for systemd's capabilities, but also raise valid concerns about systemd’s complexity, debugging, and the broader debate over init systems. Overall sentiment leans mildly positive with balanced critique.",
+      "comment_count": 30,
+      "hn_points": 192
+    }
+  }
+}
