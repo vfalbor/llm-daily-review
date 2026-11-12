@@ -1,0 +1,83 @@
+{
+  "app_name": "Aircad",
+  "url": "https://aircad.com/",
+  "scored_at": "2026-11-12T14:04:48.977Z",
+  "total_score": 52,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is provided, and the tool appears similar to existing web CAD editors like Onshape and Tinkercad, so we assign a neutral score."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded in 11.4 s and the container reports install_success true, but there is no PyPI package, indicating moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a web‑frontend CAD editor, which does not directly address current LLM workflow needs, so relevance is low."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Benchmark shows load_page time 1.041 s and render_100_objects 0.955 s, but without comparable data from similar tools, only a slight edge can be claimed."
+    },
+    "community": {
+      "score": 3,
+      "justification": "No GitHub repository is available; HN points are 56 with 24 comments, placing community engagement in the low tier."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "2 of 3 tests passed (≈66 %), meeting the ≥50 % threshold for core functionality."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The page mentions an API/SDK/webhook support despite lacking a PyPI package, indicating fairly easy integration."
+    },
+    "documentation": {
+      "score": 7,
+      "justification": "Docs/wiki link is present, examples are available, and the page content length is 131,631 characters (>5,000), showing substantial documentation."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Detected version is 0.07 and no changelog is provided, suggesting early-stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks include load_page 1.041 s and render_100_objects 0.955 s, but without comparative data they indicate average performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the product’s smooth experience, extensive export options and clear technical answers, while a few highlight concerns about pricing strategy, company size and kernel limitations."
+    }
+  },
+  "summary": "Aircad is a browser‑based 3D CAD editor that runs entirely in the browser using WebGL/WebGPU. It provides a Web UI with export options for STL and STEP formats and mentions an API/SDK for integration. The tool is suited for designers who need quick, client‑side modeling without installing desktop software, but its early version (0.07) and limited community signal modest stability. While documentation is extensive and basic performance is acceptable, pricing concerns and a small user base limit its appeal.",
+  "recommendation": "niche",
+  "app_url": "https://aircad.com/",
+  "tool_url": "https://aircad.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50441350",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "smooth UX and performance",
+        "good export support and flexibility",
+        "positive community feedback"
+      ],
+      "negative_signals": [
+        "concerns about pricing and business model",
+        "bus factor and company stability worries",
+        "questions about kernel and feature completeness"
+      ],
+      "justification": "The majority of comments praise the product’s smooth experience, extensive export options and clear technical answers, while a few highlight concerns about pricing strategy, company size and kernel limitations.",
+      "comment_count": 24,
+      "hn_points": 56
+    }
+  }
+}
