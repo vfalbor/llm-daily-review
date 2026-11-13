@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Rust 1.100",
+    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+    "hn_url": "https://news.ycombinator.com/item?id=50472038",
+    "points": 761,
+    "comments": 280,
+    "author": "",
+    "age": "2026-11-12T18:39:05",
+    "scraped_at": "2026-11-13T14:00:02.660Z",
+    "tool_url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "language",
+    "app_type": "lang-new",
+    "description": "The 1.100.0 release of the Rust programming language, featuring new language features, compiler improvements, and stability updates.",
+    "use_modes": [
+      "CLI",
+      "IDE"
+    ],
+    "similar_tools": [
+      "Go 1.22",
+      "TypeScript 5.3",
+      "Python 3.13"
+    ],
+    "proposed_tests": [
+      "Download rustup and install 1.100.0 toolchain",
+      "Compile and run a minimal 'Hello, world!' program",
+      "Run 'rustc --version' and verify output is 1.100.0",
+      "Execute 'cargo new testproj && cd testproj && cargo run' and ensure successful build"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/rust-lang/rust"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578490586-8h45w",
+    "log_dir": "/tmp/llm-review-1794578490586-8h45w",
+    "install_success": true,
+    "install_time_s": 19.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:rustup_install_time_s:0.129\nBENCHMARK:rustup_install_mem_kb:63.0\nBENCHMARK:hello_world_time_s:0.002\nBENCHMARK:hello_world_mem_kb:60.4\nBENCHMARK:rustc_version_time_s:0.001\nBENCHMARK:rustc_version_mem_kb:59.8\nBENCHMARK:cargo_new_run_time_s:0.001\nBENCHMARK:cargo_new_run_mem_kb:59.9\nBENCHMARK:vs_go1.22_cargo_new_run_ratio:0.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK:go\nINSTALL_OK:git\nINSTALL_OK:cargo\nINSTALL_OK:rust\nINSTALL_OK:nodejs\nINSTALL_OK:npm\nTEST_FAIL:rustup_install:[Errno 13] Permission denied: '/tmp/rust_test/rustup.sh'\nBENCHMARK:rustup_install_time_s:0.129\nBENCHMARK:rustup_install_mem_kb:63.0\nTEST_FAIL:hello_world:[Errno 2] No such file or directory: '/tmp/rust_test/.cargo/bin/rustc'\nBENCHMARK:hello_world_time_s:0.002\nBENCHMARK:hello_world_mem_kb:60.4\nTEST_FAIL:rustc_version:[Errno 2] No such file or directory: '/tmp/rust_test/.cargo/bin/rustc'\nBENCHMARK:rustc_version_time_s:0.001\nBENCHMARK:rustc_version_mem_kb:59.8\nTEST_FAIL:cargo_new_run:[Errno 2] No such file or directory: '/tmp/rust_test/.cargo/bin/cargo'\nBENCHMARK:cargo_new_run_time_s:0.001\nBENCHMARK:cargo_new_run_mem_kb:59.9\nBENCHMARK:vs_go1.22_cargo_new_run_ratio:0.00\nRUN_OK\n"
+  }
+}
