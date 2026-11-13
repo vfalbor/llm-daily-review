@@ -1,0 +1,141 @@
+{
+  "app_name": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp",
+  "url": "https://github.com/jjba23/sift",
+  "scored_at": "2026-11-13T14:10:51.599Z",
+  "total_score": 62,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 12 days ago, not a fork, but similar LSP tools already exist (lsp-mode with 5,136 stars), indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 8.6 seconds (<30s) and a PyPI package exists (v6.1.0) with no API key required."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-editor LSP for Lisp dialects, it addresses a niche but still relevant need in current LLM‑enhanced development workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Has 67 GitHub stars, which is far fewer than lsp-mode (5,136) but more than ensime (35); benchmark import time 528 ms shows no clear speed advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repository has 67 stars, 1 contributor, and was updated today, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All 1 test passed (1/1) and installation succeeded, demonstrating core functionality works out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "Available on PyPI, provides an LSP server and CLI formatter, and is licensed MIT, facilitating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Repository created 12 days ago, with 2 forks and 7 open issues, indicating early‑stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks show install time 0.935 s, import time 528 ms, and format time 1.74 ms, but no comparative data to other tools."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most comments praise Sift’s usefulness for learning and tooling, but a few note the need to install Guile and potential integration hiccups with popular REPLs. Overall sentiment is supportive with constructive critique."
+    }
+  },
+  "summary": "Sift is a Language Server Protocol implementation that adds linting and formatting for Scheme and Emacs Lisp. It runs as an LSP server or CLI formatter and is distributed via PyPI (v6.1.0). It targets developers who need LSP support for Lisp dialects within editors like Emacs. The tool installs quickly and passes its sole test, but its community is small and performance claims lack comparative benchmarks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/jjba23/sift",
+  "tool_url": "https://github.com/jjba23/sift",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50460263",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 67,
+      "forks": 2,
+      "open_issues": 7,
+      "watchers": 67,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Scheme",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 12,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Lisp, Scheme and Emacs Lisp formatter, linter and LSP (language server)",
+      "topics": [
+        "common-lisp",
+        "emacs",
+        "emacs-lisp",
+        "emacs-package",
+        "formatter",
+        "formatting",
+        "gnu",
+        "guile",
+        "language-server",
+        "language-server-protocol",
+        "lint",
+        "linter",
+        "lisp",
+        "lisp-dialect",
+        "lisp-language",
+        "lsp",
+        "lsp-server",
+        "sbcl",
+        "scheme",
+        "sift"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "lsp-mode",
+        "stars": 5136,
+        "repo": "emacs-lsp/lsp-mode"
+      },
+      {
+        "name": "ensime",
+        "stars": 35,
+        "repo": "mads-hartmann/ensime.tmbundle"
+      },
+      {
+        "name": "lisp-linter",
+        "stars": 0,
+        "repo": "adamdew/lisp-linter"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "6.1.0",
+      "summary": "Python bindings for Sift Science's API",
+      "requires_python": ">=3.8",
+      "license": "The MIT License\n        \n        Copyright (c) 2013-2016 Sift Science (https://siftscience.com)\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in\n        all copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n        THE SOFTWARE.\n        ",
+      "home_page": null
+    },
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Helpful for learning and productivity",
+        "Good LSP and linting support",
+        "Positive community engagement"
+      ],
+      "negative_signals": [
+        "Dependency on installing Guile",
+        "Limited interop with existing REPLs"
+      ],
+      "justification": "Most comments praise Sift’s usefulness for learning and tooling, but a few note the need to install Guile and potential integration hiccups with popular REPLs. Overall sentiment is supportive with constructive critique.",
+      "comment_count": 10,
+      "hn_points": 72
+    }
+  }
+}
