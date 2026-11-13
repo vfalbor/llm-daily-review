@@ -1,0 +1,124 @@
+{
+  "app_name": "Rust 1.100",
+  "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+  "scored_at": "2026-11-13T14:02:31.953Z",
+  "total_score": 70,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 5,993 days old and is not a fork, indicating it is an established language release rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 19.3 s (<30 s) and the tool is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a new Rust version, it aligns with current LLM infrastructure trends that favor Rust for performance‑critical components."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "It has 121,880 GitHub stars versus 3–40 stars for comparable Go, TypeScript, and Python releases, and benchmark ratios (vs_go1.22_cargo_new_run_ratio = 0.00) show orders‑of‑magnitude speed advantage."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo boasts 121,880 stars, 8,982 contributors, and was updated 0 days ago, indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0 %) and install succeeded, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI, offers CLI and IDE use modes, and is Apache‑2.0 licensed, allowing straightforward embedding in pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "With 5,993 days since creation, 16,669 forks and 12,589 open issues, the project is mature and widely adopted."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks show rustup install in 0.129 s and cargo new in 0.001 s, with a reported vs_go1.22 ratio of 0.00, indicating superior performance."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters praise new stabilizations and cargo improvements, but several raise legitimate concerns about dependency cooldowns and security update ergonomics, leading to a generally positive but cautiously critical tone."
+    }
+  },
+  "summary": "Rust 1.100 is the latest release of the Rust programming language, providing new language features and compiler improvements. It is distributed via the official Rust release channel and can be used through CLI or IDE integrations. Developers building high‑performance LLM pipelines will benefit from its speed and safety guarantees. The release shines with massive community adoption and benchmarked speed advantages, but its test suite currently shows zero passed tests, suggesting limited verified functionality.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+  "tool_url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50472038",
+  "domain": "language",
+  "app_type": "lang-new",
+  "enriched": {
+    "github": {
+      "stars": 121880,
+      "forks": 16669,
+      "open_issues": 12589,
+      "watchers": 121880,
+      "contributors": 8982,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5993,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "topics": [
+        "compiler",
+        "language",
+        "rust"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Go 1.22",
+        "stars": 3,
+        "repo": "vpakhuchyi/go-1.22-tracer-example"
+      },
+      {
+        "name": "TypeScript 5.3",
+        "stars": 1,
+        "repo": "samchon/ts-patch-typescript-v5.3-test"
+      },
+      {
+        "name": "Python 3.13",
+        "stars": 40,
+        "repo": "pamelafox/python-3.13-playground"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.3.1",
+      "summary": "Unit step transformation of Ribo-Seq data",
+      "requires_python": ">=3.8",
+      "license": "MIT license",
+      "home_page": "https://github.com/JackCurragh/RUST"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Stabilizing key features",
+        "New dependency cooldowns",
+        "Improved cargo install behavior"
+      ],
+      "negative_signals": [
+        "Concerns over cooldowns blocking urgent updates",
+        "Security advisory handling complexity"
+      ],
+      "justification": "Most commenters praise new stabilizations and cargo improvements, but several raise legitimate concerns about dependency cooldowns and security update ergonomics, leading to a generally positive but cautiously critical tone.",
+      "comment_count": 30,
+      "hn_points": 761
+    }
+  }
+}
