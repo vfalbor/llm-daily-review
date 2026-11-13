@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 16,
+    "title": "Show HN: Reflota – Open-source data recovery for NTFS/FAT disks with phased copy",
+    "url": "https://github.com/Christ10-8/reflota",
+    "hn_url": "https://news.ycombinator.com/item?id=50482455",
+    "points": 3,
+    "comments": 0,
+    "author": "",
+    "age": "2026-11-13T12:17:52",
+    "scraped_at": "2026-11-13T14:00:02.666Z",
+    "tool_url": "https://github.com/Christ10-8/reflota",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A cross‑platform command‑line utility that performs phased, incremental recovery of NTFS and FAT filesystem data, preserving file metadata and offering resumable copy.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "TestDisk",
+      "PhotoRec",
+      "R-Studio",
+      "chkdsk"
+    ],
+    "proposed_tests": [
+      "cargo build --release",
+      "reflota --help",
+      "create a small FAT image with a test file, corrupt part of it, then run `reflota recover test.img recovered/`",
+      "verify that recovered/ contains the original file and metadata",
+      "measure time to recover 100 MB of corrupted data"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Christ10-8/reflota"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578679063-yqou6",
+    "log_dir": "/tmp/llm-review-1794578679063-yqou6",
+    "install_success": true,
+    "install_time_s": 18,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:9.08\nBENCHMARK:build_time_s:0.06\nBENCHMARK:vs_testdisk_recover_ratio:0.00",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_OK | git\nINSTALL_OK | cargo\nINSTALL_OK | rust\nINSTALL_OK | build-base\nINSTALL_OK | openssl-dev\nBENCHMARK:install_time_s:9.08\nINSTALL_OK | git_clone\nINSTALL_FAIL:cargo_build:error: could not find `Cargo.toml` in `/reflota` or any parent directory\n\nBENCHMARK:build_time_s:0.06\nTEST_FAIL:help:binary not found\nINSTALL_OK | mtools\nINSTALL_FAIL:fat_image:[Errno 2] No such file or directory: 'mkfs.fat'\nINSTALL_OK | image_corrupted\nTEST_FAIL:full_recover:[Errno 2] No such file or directory: 'reflota/target/release/reflota'\nTEST_FAIL:verify:file missing\nINSTALL_OK | mtools\nINSTALL_FAIL:fat_image:[Errno 2] No such file or directory: 'mkfs.fat'\nINSTALL_OK | image_corrupted\nTEST_SKIP:recover_100mb:[Errno 2] No such file or directory: 'reflota/target/release/reflota'\nBENCHMARK:vs_testdisk_recover_ratio:0.00\nRUN_OK\n"
+  }
+}
