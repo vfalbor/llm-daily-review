@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 25,
+    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+    "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "hn_url": "https://news.ycombinator.com/item?id=50471650",
+    "points": 120,
+    "comments": 29,
+    "author": "",
+    "age": "2026-11-12T18:15:48",
+    "scraped_at": "2026-11-13T14:00:02.670Z",
+    "tool_url": "https://github.com/Parcha-ai/agentrun",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A framework for building self-improving, managed AI agents that can learn from experience and adjust their behavior over time.",
+    "use_modes": [
+      "CLI",
+      "Python SDK"
+    ],
+    "similar_tools": [
+      "LangChain",
+      "CrewAI",
+      "OpenAI Agent"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies via pip",
+      "Run the provided example agent with a simple task and verify it completes",
+      "Measure the agent's runtime latency for a standard prompt",
+      "Test the self-improvement hook by simulating a feedback loop and ensuring policy updates are persisted"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/Parcha-ai/agentrun"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578712853-ao53r",
+    "log_dir": "/tmp/llm-review-1794578712853-ao53r",
+    "install_success": true,
+    "install_time_s": 9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:import_time_ms:175.01\nBENCHMARK:memory_current_kb:0.61\nBENCHMARK:memory_peak_kb:0.61\nBENCHMARK:loc_count:0\nBENCHMARK:vs_langchain_import_ratio:0.85",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_ms:175.01\nTEST_FAIL:run_example_agent:module 'agentrun' has no attribute 'Agent'\nTEST_FAIL:self_improvement:module 'agentrun' has no attribute 'Agent'\nBENCHMARK:memory_current_kb:0.61\nBENCHMARK:memory_peak_kb:0.61\nBENCHMARK:loc_count:0\nBENCHMARK:vs_langchain_import_ratio:0.85\nRUN_OK\n"
+  }
+}
