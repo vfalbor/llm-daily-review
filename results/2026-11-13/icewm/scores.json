@@ -1,0 +1,117 @@
+{
+  "app_name": "IceWM",
+  "url": "https://ice-wm.org/",
+  "scored_at": "2026-11-13T14:01:29.168Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 2881 days ago, is not a fork, and has fewer stars than similar window managers (e.g., Openbox 1122 stars), indicating an incremental improvement rather than a breakthrough."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 11.2 seconds and required no API key, though no PyPI package exists, showing a fairly easy setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool‑unknown X11 window manager, it does not align with the dominant LLM workflow trends of 2024‑2025."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "IceWM has 427 stars versus Openbox's 1122, but its startup benchmark ratio of 0.05 against Openbox demonstrates a substantial speed advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repository has 427 stars, 204 contributors, and was updated 98 days ago, indicating an active and sizable community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 3 tests passed (<50%) despite a successful install, showing limited functional coverage in the test suite."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package, only X11 and CLI use modes, and the license is listed as NOASSERTION, providing minimal integration pathways."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub pages, or topic tags was found, so quantitative documentation data is unavailable."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The project is 2881 days old, has 28 forks and only 3 open issues, suggesting a moderately mature codebase."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmark shows a vs_openbox_startup_ms_ratio of 0.05, indicating IceWM starts roughly 20× faster than Openbox."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments nostalgically praise IceWM’s speed and feel, while a few note issues with modern transparency handling and design choices, leading to a generally positive but mildly critical sentiment."
+    }
+  },
+  "summary": "IceWM is a lightweight X11 window manager that provides a fast, minimal desktop environment. It runs locally via X11 or CLI and does not require an API key. It is suited for users seeking a low‑overhead, speed‑focused WM on Linux desktops. The standout strength is its extremely fast startup (0.05× Openbox), while the main caveat is limited integration options and sparse documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ice-wm.org/",
+  "tool_url": "https://github.com/ice-wm/icewm",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50478515",
+  "domain": "devtool",
+  "app_type": "devtool-unknown",
+  "enriched": {
+    "github": {
+      "stars": 427,
+      "forks": 28,
+      "open_issues": 3,
+      "watchers": 427,
+      "contributors": 204,
+      "license": "NOASSERTION",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 98,
+      "days_since_created": 2881,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Please, read the WiKi above...",
+      "topics": [
+        "ewmh",
+        "icewm",
+        "icewm-session"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Openbox",
+        "stars": 1122,
+        "repo": "addy-dclxvi/openbox-theme-collections"
+      },
+      {
+        "name": "Fluxbox",
+        "stars": 451,
+        "repo": "fluxbox/fluxbox"
+      },
+      {
+        "name": "i3",
+        "stars": 10620,
+        "repo": "i3/i3"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "nostalgic praise and snappy performance",
+        "positive comparison to other WM",
+        "appreciation for transparency improvements"
+      ],
+      "negative_signals": [
+        "concerns over GPU memory bandwidth",
+        "criticisms of color scheme and design"
+      ],
+      "justification": "The majority of comments nostalgically praise IceWM’s speed and feel, while a few note issues with modern transparency handling and design choices, leading to a generally positive but mildly critical sentiment.",
+      "comment_count": 30,
+      "hn_points": 264
+    }
+  }
+}
