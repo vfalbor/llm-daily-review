@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+    "url": "https://github.com/simpsoka/zigzag",
+    "hn_url": "https://news.ycombinator.com/item?id=50470488",
+    "points": 603,
+    "comments": 203,
+    "author": "",
+    "age": "2026-11-12T17:02:42",
+    "scraped_at": "2026-11-13T14:00:02.662Z",
+    "tool_url": "https://github.com/simpsoka/zigzag",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "A software application that interfaces with an embroidery machine to control operations without requiring a paid subscription.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "EmbroideryScript",
+      "EmbroideryControl",
+      "EmbroideryHost"
+    ],
+    "proposed_tests": [
+      "Clone repo and build the ZigZag executable",
+      "Connect to a simulated embroidery machine endpoint and verify command transmission",
+      "Run the CLI with '--help' and capture output",
+      "Execute a simple embroidery pattern command and confirm machine state changes"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/simpsoka/zigzag"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578553616-2wff0",
+    "log_dir": "/tmp/llm-review-1794578553616-2wff0",
+    "install_success": true,
+    "install_time_s": 21.4,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.902\nBENCHMARK:src_count:184\nBENCHMARK:languages:{\".rs\": 125, \".md\": 8, \".toml\": 4, \".lock\": 1, \".sh\": 7, \".py\": 2, \".txt\": 1, \".ico\": 1, \".mp4\": 1, \".jpg\": 1, \".plist\": 1, \".command\": 1, \".svg\": 5, \".png\": 5, \".icns\": 2, \".html\": 1, \".yml\": 1, \".2\": 1, \".idx\": 1, \".rev\": 1, \".pack\": 1, \".sample\": 13}\nBENCHMARK:file_count:184",
+    "error_log": "Cloning into '/tmp/zigzag'...\n    Updating crates.io index\n Downloading crates ...\n  Downloaded adler2 v2.0.1\n  Downloaded anstyle v1.0.14\n  Downloaded anstream v1.0.0\n  Downloaded anyhow v1.0.104\n  Downloaded anstyle-query v1.1.5\n  Downloaded arrayref v0.3.9\n  Downloaded autocfg v1.5.1\n  Downloaded arrayvec v0.7.8\n  Downloaded core_maths v0.1.1\n  Downloaded clap_lex v1.1.1\n  Downloaded cfg-if v1.0.5\n  Downloaded itoa v1.0.18\n  Downloaded quick-error v2.0.1\n  Downloaded colorchoice v1.0.5\n  Downloaded strict-num v0.1.1\n  Downloaded color_quant v1.1.0\n  Downloaded byteorder-lite v0.1.0\n  Downloaded heck v0.5.0\n  Downloaded zmij v1.0.23\n  Downloaded zune-jpeg v0.5.15\n  Downloaded unicode-bidi-mirroring v0.4.0\n  Downloaded pico-args v0.5.0\n  Downloaded xmlwriter v0.1.0\n  Downloaded utf8parse v0.2.2\n  Downloaded zune-core v0.5.3\n  Downloaded siphasher v1.0.4\n  Downloaded unicode-ccc v0.4.0\n  Downloaded is_terminal_polyfill v1.70.2\n  Downloaded weezl v0.1.12\n  Downloaded imagesize v0.13.0\n  Downloaded version_check v0.9.5\n  Downloaded unicode-vo v0.1.0\n  Downloaded i_key_sort v0.12.0\n  Downloaded fontconfig-parser v0.5.8\n  Downloaded unicode-script v0.5.8\n  Downloaded zerocopy-derive v0.8.63\n  Downloaded unicode-bidi v0.3.18\n  Downloaded slotmap v1.1.1\n  Downloaded zlib-rs v0.6.8\n  Downloaded png v0.17.16\n  Downloaded usvg v0.45.1\n  Downloaded kurbo v0.11.3\n  Downloaded serde_json v1.0.154\n  Downloaded ttf-parser v0.25.1\n  Downloaded tiny-skia v0.11.4\n  Downloaded zerocopy v0.8.63\n  Downloaded rustybuzz v0.20.1\n  Downloaded moxcms v0.8.1\n  Downloaded libm v0.2.16\n  Downloaded syn v2.0.119\n  Downloaded syn v3.0.9\n  Downloaded image v0.25.10\n  Downloaded kurbo v0.13.1\n  Downloaded clap_builder v4.6.7\n  Downloaded png v0.18.1\n  Downloaded i_overlay v9.1.0\n  Downloaded memchr v2.8.3\n  Downloaded fontdb v0.23.0\n  Downloaded tiff v0.11.3\n  Downloaded serde v1.0.229\n  Downloaded image-webp v0.2.4\n  Downloaded i_float v5.0.0\n  Downloaded flate2 v1.1.10\n  Downloaded euclid v0.22.14\n  Downloaded crc32fast v1.5.3\n  Downloaded clap v4.6.7\n  Downloaded bytemuck v1.25.2\n  Downloaded base64 v0.23.1\n  Downloaded base64 v0.22.1\n  Downloaded resvg v0.45.1\n  Downloaded miniz_oxide v0.9.1\n  Downloaded miniz_oxide v0.8.9\n  Downloaded log v0.4.34\n  Downloaded bitflags v2.13.2\n  Downloaded tinyvec v1.13.3\n  Downloaded libc v0.2.191\n  Downloaded serde_derive v1.0.229\n  Downloaded roxmltree v0.20.0\n  Downloaded proc-macro2 v1.0.107\n  Downloaded num-traits v0.2.19\n  Downloaded pxfm v0.1.30\n  Downloaded half v2.7.1\n  Downloaded clap_derive v4.6.7\n  Downloaded unicode-properties v0.1.4\n  Downloaded unicode-ident v1.0.27\n  Downloaded tiny-skia-path v0.11.4\n  Downloaded svgtypes v0.15.3\n  Downloaded smallvec v1.16.3\n  Downloaded serde_core v1.0.229\n  Downloaded memmap2 v0.9.12\n  Downloaded gif v0.14.2\n  Downloaded fdeflate v0.3.7\n  Downloaded thiserror-impl v2.0.21\n  Downloaded simd-adler32 v0.3.10\n  Downloaded rgb v0.8.53\n  Downloaded quote v1.0.47\n  Downloaded polycool v0.4.0\n  ",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:clone_time_s:1.902\nBENCHMARK:src_count:184\nBENCHMARK:languages:{\".rs\": 125, \".md\": 8, \".toml\": 4, \".lock\": 1, \".sh\": 7, \".py\": 2, \".txt\": 1, \".ico\": 1, \".mp4\": 1, \".jpg\": 1, \".plist\": 1, \".command\": 1, \".svg\": 5, \".png\": 5, \".icns\": 2, \".html\": 1, \".yml\": 1, \".2\": 1, \".idx\": 1, \".rev\": 1, \".pack\": 1, \".sample\": 13}\nTEST_PASS:source_count\n( 1/19) Installing libgcc (15.2.0-r5)\n( 2/19) Installing jansson (2.15.0-r0)\n( 3/19) Installing libstdc++ (15.2.0-r5)\n( 4/19) Installing binutils (2.45.1-r1)\n( 5/19) Installing libgcc-static (15.2.0-r5)\n( 6/19) Installing libgomp (15.2.0-r5)\n( 7/19) Installing libatomic (15.2.0-r5)\n( 8/19) Installing gmp (6.3.0-r4)\n( 9/19) Installing isl26 (0.26-r2)\n(10/19) Installing mpfr4 (4.2.2-r0)\n(11/19) Installing mpc1 (1.3.1-r1)\n(12/19) Installing gcc (15.2.0-r5)\n(13/19) Installing musl-dev (1.2.6-r3)\n(14/19) Installing libxml2 (2.13.9-r2)\n(15/19) Installing llvm22-libs (22.1.3-r1)\n(16/19) Installing scudo-malloc (22.1.3-r0)\n(17/19) Installing rust (1.96.1-r0)\n(18/19) Installing libssh2 (1.11.1-r4)\n(19/19) Installing cargo (1.96.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 623.4 MiB in 70 packages\nTEST_FAIL:build:'NoneType' object has no attribute 'strip'\nTEST_FAIL:cli_help:Binary not built\nTEST_FAIL:pattern_execution:Binary not built\nBENCHMARK:file_count:184\nRUN_OK\n"
+  }
+}
