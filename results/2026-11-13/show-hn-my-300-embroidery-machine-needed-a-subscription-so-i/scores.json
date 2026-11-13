@@ -1,0 +1,118 @@
+{
+  "app_name": "zigzag",
+  "url": "https://github.com/simpsoka/zigzag",
+  "scored_at": "2026-11-13T14:03:26.563Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 14 days ago and is not a fork, but similar embroidery tools exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 21.4 s (<30 s) and the package is on PyPI, requiring only Python ≥3.8."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a hardware‑IoT tool for embroidery machines, it addresses a niche maker need rather than a broad LLM workflow."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The repo has 486 stars versus no star data for similar tools, and it offers both CLI and Web UI, giving modest advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "486 GitHub stars, 1 contributor, and the repo was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25 %), indicating core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Available on PyPI with Apache‑2.0 license and supports CLI and Web UI, but no documented API, requiring manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is used."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Repo created 14 days ago, has 27 forks and only 2 open issues, showing early but active development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark results were supplied, so a neutral default is applied."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Many commenters praise the author’s ability to bypass the paid software, highlight AI support and device coverage, while a few note that the original firmware was poor and raise concerns about subscription lock‑in and future maintenance."
+    }
+  },
+  "summary": "Zigzag is a CLI and Web UI application that lets users control an embroidery machine without a paid subscription. It runs locally, is packaged on PyPI, and is written in Rust with a Python wrapper. Makers who want to avoid vendor lock‑in for their $300 embroidery hardware will find it useful. The standout strength is its open‑source freedom, while the main caveat is limited test coverage—only 25 % of functional tests passed.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/simpsoka/zigzag",
+  "tool_url": "https://github.com/simpsoka/zigzag",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50470488",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 486,
+      "forks": 27,
+      "open_issues": 2,
+      "watchers": 486,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 14,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+      "topics": [
+        "brother-skitch",
+        "embroidery",
+        "embroidery-digitizing",
+        "embroidery-software",
+        "machine-embroidery",
+        "macos",
+        "mcp",
+        "model-context-protocol",
+        "rust",
+        "svg",
+        "vector-editor",
+        "windows"
+      ]
+    },
+    "similar_github": [],
+    "pypi": {
+      "exists": true,
+      "version": "0.3.2",
+      "summary": "Package for finding peaks and valleys of time series.",
+      "requires_python": ">=3.8",
+      "license": "BSD-3-Clause",
+      "home_page": "https://github.com/jbn/ZigZag"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "DIY freedom from subscription",
+        "AI-assisted development",
+        "Wide device compatibility"
+      ],
+      "negative_signals": [
+        "Original bundled software criticized",
+        "Subscription model concerns",
+        "Some doubts about long‑term support"
+      ],
+      "justification": "Many commenters praise the author’s ability to bypass the paid software, highlight AI support and device coverage, while a few note that the original firmware was poor and raise concerns about subscription lock‑in and future maintenance.",
+      "comment_count": 30,
+      "hn_points": 604
+    }
+  }
+}
