@@ -1,0 +1,123 @@
+{
+  "app_name": "I'm making LLMs work on small and old devices",
+  "url": "https://github.com/hyperionaidev/smolmaxxing/",
+  "scored_at": "2026-11-13T14:04:37.692Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is only 9 days old, is not a fork, and while it adds low‑resource quantization it is similar to existing tools such as TinyLLM (which has 357 stars, 49% fewer than this project's 533 stars)."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 12.5 seconds, well under the 30‑second threshold, though it lacks a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑inference tool targeting low‑resource and older hardware, it addresses a current pain point in LLM deployment."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 533 stars it outperforms TinyLLM (+176 stars) but trails Ollama and vLLM by two orders of magnitude, and the only benchmark reported is an import time of 142 ms with no comparative data."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 533 GitHub stars (100–1k range), 1 contributor, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a CLI, Python API, and Docker image, and is MIT‑licensed, but no PyPI package is available."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 9 days old, has 15 forks and 2 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a single benchmark line (import_time_ms:142) is present and lacks comparison to alternatives, so performance cannot be judged."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments highlight enthusiasm for running LLMs on very old devices and praise practical demos, but also note significant hardware constraints and a somewhat niche audience."
+    }
+  },
+  "summary": "This is a lightweight LLM inference stack that runs on low‑resource or older hardware, using quantization, pruning, and hardware‑acceleration hooks. It provides a CLI, Python API, and Docker image, and does not require an API key. It is suited for developers needing to deploy models on constrained devices, with its main strength being the focus on very old hardware and a modest community enthusiasm (HN score 8, 409 points). The primary caveat is the lack of solid benchmark data and limited test coverage, as none of the two supplied tests passed.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/hyperionaidev/smolmaxxing/",
+  "tool_url": "https://github.com/hyperionaidev/smolmaxxing/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50468888",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": {
+      "stars": 533,
+      "forks": 15,
+      "open_issues": 2,
+      "watchers": 533,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 9,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "maxxing the ability to run different LLMs on the smallest devices possible",
+      "topics": [
+        "edge-ai",
+        "llama-cpp",
+        "llama-cpp-alternative",
+        "llm",
+        "local-llm",
+        "local-llm-support",
+        "on-device",
+        "quantization",
+        "quantization-algorithms"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Ollama",
+        "stars": 186889,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 96872,
+        "repo": "vllm-project/vllm"
+      },
+      {
+        "name": "TinyLLM",
+        "stars": 357,
+        "repo": "jasonacox/TinyLLM"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "low-resource innovation",
+        "community enthusiasm",
+        "practical demonstrations"
+      ],
+      "negative_signals": [
+        "hardware limitations",
+        "niche appeal"
+      ],
+      "justification": "Comments highlight enthusiasm for running LLMs on very old devices and praise practical demos, but also note significant hardware constraints and a somewhat niche audience.",
+      "comment_count": 30,
+      "hn_points": 409
+    }
+  }
+}
