@@ -1,0 +1,120 @@
+{
+  "app_name": "AgentRun",
+  "url": "https://github.com/Parcha-ai/agentrun",
+  "scored_at": "2026-11-13T14:06:15.976Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 51 days ago, not a fork, and implements a known agent pattern similar to LangChain and CrewAI, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 9 seconds (<30s) and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "As an llm-framework for self‑improving agents, it aligns directly with today's surge in agentic LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 770 GitHub stars it is far smaller than LangChain (149,452 stars), but the import‑time ratio of 0.85 shows it loads 15% faster than LangChain."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 770 stars, 4 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists (v0.2.5), the tool offers both a CLI and a Python SDK, and it is licensed Apache‑2.0."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 51 days old with 56 forks and 49 open issues, suggesting an early‑stage project without a stable release track."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows import_time_ms of 175.01 and a vs_langchain_import_ratio of 0.85, indicating a modest speed advantage over LangChain."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Overall feedback is encouraging with several users praising the open-source nature and agentic features, while a few comments point out high costs and unfinished UI/UX aspects."
+    }
+  },
+  "summary": "AgentRun is an open‑source framework that lets developers build self‑improving AI agents via a CLI and a Python SDK. It wraps existing LLM APIs and runs locally after installing the PyPI package. The tool is suited for teams wanting a lightweight, faster‑to‑import alternative to larger frameworks like LangChain. Its main strength is a 15% quicker import time, while the lack of passing tests and limited community size are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+  "tool_url": "https://github.com/Parcha-ai/agentrun",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50471650",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 770,
+      "forks": 56,
+      "open_issues": 49,
+      "watchers": 770,
+      "contributors": 4,
+      "license": "Apache-2.0",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 51,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "AgentRun is an open-source platform that supercharges your agents. It adds self-improvement, durable execution and a control plane on top of your favorite agent harness. Your agents become smarter, more fault tolerant and use fewer tokens with every run.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "LangChain",
+        "stars": 149452,
+        "repo": "langchain-ai/langchain"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 60849,
+        "repo": "joaomdmoura/crewAI"
+      },
+      {
+        "name": "OpenAI Agent",
+        "stars": 30649,
+        "repo": "openai/openai-agents-python"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.5",
+      "summary": "The easiest way to run AI or user generated python code safely in a docker container",
+      "requires_python": ">=3.10",
+      "license": "Apache-2.0",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "open-source community support",
+        "useful agentic tooling",
+        "cool architecture"
+      ],
+      "negative_signals": [
+        "cost concerns",
+        "UI/UX lack"
+      ],
+      "justification": "Overall feedback is encouraging with several users praising the open-source nature and agentic features, while a few comments point out high costs and unfinished UI/UX aspects.",
+      "comment_count": 29,
+      "hn_points": 120
+    }
+  }
+}
