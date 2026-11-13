@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "I'm making LLMs work on small and old devices",
+    "url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "hn_url": "https://news.ycombinator.com/item?id=50468888",
+    "points": 409,
+    "comments": 148,
+    "author": "",
+    "age": "2026-11-12T15:23:10",
+    "scraped_at": "2026-11-13T14:00:02.666Z",
+    "tool_url": "https://github.com/hyperionaidev/smolmaxxing/",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "A lightweight LLM inference stack designed to run on low‑resource or older hardware, featuring quantization, pruning and hardware acceleration hooks.",
+    "use_modes": [
+      "CLI",
+      "Python API",
+      "Docker"
+    ],
+    "similar_tools": [
+      "Ollama",
+      "vLLM",
+      "TinyLLM",
+      "OnnxRuntime"
+    ],
+    "proposed_tests": [
+      "pip install smolmaxxing",
+      "import smolmaxxing; model = smolmaxxing.load('tinyllama-2'); output = model('Hello world')",
+      "docker run --rm hyperionaidev/smolmaxxing --help",
+      "measure inference latency on a 512‑byte prompt on a Raspberry Pi 4",
+      "compare accuracy to the same model run in Ollama"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/hyperionaidev/smolmaxxing"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578608070-z7snx",
+    "log_dir": "/tmp/llm-review-1794578608070-z7snx",
+    "install_success": true,
+    "install_time_s": 12.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', 'smolmaxxing']' returned non-zero exit status 1.\nINSTALL_FAIL:Command '['/usr/local/bin/python', '-m', 'pip', 'install', '--quiet', '-e', '/tmp/smolmaxxing_src']' returned non-zero exit status 1.\nTEST_FAIL:import_module:No module named 'smolmaxxing'\nTEST_FAIL:compare_vs_ollama:No latency measured\nRUN_OK\n"
+  }
+}
