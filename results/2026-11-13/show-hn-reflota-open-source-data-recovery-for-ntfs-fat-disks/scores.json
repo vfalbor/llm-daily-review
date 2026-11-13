@@ -1,0 +1,99 @@
+{
+  "app_name": "Reflota",
+  "url": "https://github.com/Christ10-8/reflota",
+  "scored_at": "2026-11-13T14:05:11.610Z",
+  "total_score": 31,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository was created today (0 days since created) and is not a fork, but it targets the same problem as established tools like TestDisk which has 2,681 stars, indicating it is a near-duplicate."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (install_success true) in 18 seconds, though there is no PyPI package; the setup is still straightforward and runs on consumer hardware."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a devtool-cli for data recovery, it does not address a primary pain point in today's LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "Reflota has only 1 star versus thousands for TestDisk, PhotoRec, and R‑Studio, and benchmark data shows a recovery ratio of 0.00, offering no clear advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The GitHub repo has 1 star, 1 contributor, and was updated today, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of four tests passed (0/4) despite a successful install, showing core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only, has no PyPI package, and only offers a MIT license, making programmatic integration limited."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were found, so quantitative documentation data is missing."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository was created today (0 days since created) with 0 forks and 0 open issues, indicating an early, unproven stage."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark output shows install_time_s 9.08 and a recovery ratio of 0.00 versus TestDisk, providing no performance advantage."
+    }
+  },
+  "summary": "Reflota is a cross‑platform command‑line utility that performs phased, incremental recovery of NTFS and FAT filesystems. It is a pure Python CLI built from source without a PyPI package. The tool is aimed at users needing resumable disk recovery on local machines, but it offers no speed or recovery benefit over established solutions (recovery ratio 0.00) and lacks community adoption (1 GitHub star). Its main strength is the ability to run locally without an API key, while its primary drawback is the absence of tests passing and minimal documentation.",
+  "recommendation": "skip",
+  "hn_sentiment": null,
+  "app_url": "https://github.com/Christ10-8/reflota",
+  "tool_url": "https://github.com/Christ10-8/reflota",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50482455",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 1,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 1,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "TestDisk",
+        "stars": 2681,
+        "repo": "cgsecurity/testdisk"
+      },
+      {
+        "name": "PhotoRec",
+        "stars": 38,
+        "repo": "AlphaPoemPlay/PhotoRec-Premium-Setup-2026"
+      },
+      {
+        "name": "R-Studio",
+        "stars": 3620,
+        "repo": "microsoft/ResearchStudio"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
