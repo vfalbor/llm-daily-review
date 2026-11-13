@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp",
+    "url": "https://github.com/jjba23/sift",
+    "hn_url": "https://news.ycombinator.com/item?id=50460263",
+    "points": 72,
+    "comments": 10,
+    "author": "",
+    "age": "2026-11-11T23:09:27",
+    "scraped_at": "2026-11-13T14:00:02.671Z",
+    "tool_url": "https://github.com/jjba23/sift",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "A Language Server Protocol implementation with linting and formatting support for Lisp dialects, including Scheme and Emacs Lisp.",
+    "use_modes": [
+      "LSP server",
+      "CLI formatter"
+    ],
+    "similar_tools": [
+      "lsp-mode",
+      "ensime",
+      "lisp-linter"
+    ],
+    "proposed_tests": [
+      "Install sift via cargo install",
+      "Start the LSP server and connect with a minimal editor client to request diagnostics",
+      "Run `sift fmt` on a sample .lisp file and verify formatting output",
+      "Check that lint rules produce expected warnings on a deliberately malformed file"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/jjba23/sift"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578993795-026qg",
+    "log_dir": "/tmp/llm-review-1794578993795-026qg",
+    "install_success": true,
+    "install_time_s": 8.6,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.935\nBENCHMARK:import_time_ms:528.06\nBENCHMARK:import_peak_mem_kb:8547.31\nBENCHMARK:fmt_time_ms:1.74",
+    "error_log": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nTraceback (most recent call last):\n  File \"/app/test.py\", line 167, in <module>\n    main()\n  File \"/app/test.py\", line 146, in main\n    run_sift_fmt(sample_lisp, expected_fmt)\n  File \"/app/test.py\", line 77, in run_sift_fmt\n    if res.returncode != 0:\n       ^^^^^^^^^^^^^^\nAttributeError: 'FileNotFoundError' object has no attribute 'returncode'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.935\nINSTALL_OK\nBENCHMARK:import_time_ms:528.06\nBENCHMARK:import_peak_mem_kb:8547.31\nTEST_PASS:import\nBENCHMARK:fmt_time_ms:1.74\n"
+  }
+}
