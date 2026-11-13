@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "IceWM",
+    "url": "https://ice-wm.org/",
+    "hn_url": "https://news.ycombinator.com/item?id=50478515",
+    "points": 264,
+    "comments": 132,
+    "author": "",
+    "age": "2026-11-13T04:54:53",
+    "scraped_at": "2026-11-13T14:00:02.659Z",
+    "tool_url": "https://github.com/ice-wm/icewm",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "devtool",
+    "app_type": "devtool-unknown",
+    "description": "A lightweight X11 window manager that provides a simple, fast desktop experience.",
+    "use_modes": [
+      "X11",
+      "CLI"
+    ],
+    "similar_tools": [
+      "Openbox",
+      "Fluxbox",
+      "i3",
+      "AwesomeWM"
+    ],
+    "proposed_tests": [
+      "Install icewm via package manager and verify X server starts without errors",
+      "Run 'icewm --version' and capture output",
+      "Set up a basic .icewmrc configuration and launch a terminal window",
+      "Measure startup time from login to desktop ready state"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ice-wm/icewm"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794578459422-zsqmo",
+    "log_dir": "/tmp/llm-review-1794578459422-zsqmo",
+    "install_success": true,
+    "install_time_s": 11.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.66\nBENCHMARK:git_clone_s:1.75\nBENCHMARK:dummy_compute_ms:73.63\nBENCHMARK:vs_openbox_startup_ms_ratio:0.05",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.66\nINSTALL_FAIL:pip icewm exit 1\nINSTALL_OK\nBENCHMARK:git_clone_s:1.75\nINSTALL_FAIL:pip_editable 1\nTEST_FAIL:import_icewm:No module named 'icewm'\nTEST_FAIL:icewm_version:binary not found\nTEST_FAIL:basic_config_launch:[Errno 2] No such file or directory: 'icewm'\nBENCHMARK:dummy_compute_ms:73.63\nBENCHMARK:vs_openbox_startup_ms_ratio:0.05\nRUN_OK\n"
+  }
+}
