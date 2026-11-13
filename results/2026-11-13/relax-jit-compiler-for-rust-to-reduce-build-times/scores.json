@@ -1,0 +1,120 @@
+{
+  "app_name": "Relax",
+  "url": "https://makepad.github.io/relax/",
+  "scored_at": "2026-11-13T14:09:52.509Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created only 1 day ago and is not a fork, but similar JIT caching tools exist, indicating an incremental improvement rather than a breakthrough."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Installation failed (install_success false) and took 192.1 s, though a PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-build for Rust, it addresses the current ecosystem pain point of long compile times."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 396 stars it trails sccache (7,922 stars) and cargo‑cache (996 stars) by large margins, and no concrete benchmark advantage is provided."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 396 stars, 17 contributors, and was updated today (0 days since last commit), showing an active but still modest community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests were run (0/0) and the basic run failed, indicating core functionality is not usable out of the box."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "A PyPI package is published, the tool offers both a CLI and a Cargo plugin, and it uses an MIT license, making integration straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 1 day old, has 25 forks and 12 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most commenters praised the potential to cut Rust build times and expressed curiosity to try the tool, while a minority complained about UI sloppiness and questioned whether the borrow checker truly drives long compile times. Overall sentiment is very positive with only minor nitpicks."
+    }
+  },
+  "summary": "Relax is a Rust JIT compiler that caches compiled artifacts to speed up build times. It works as a Cargo plugin and a CLI, wrapping the Rust toolchain to reuse intermediate results. Rust developers looking to shave minutes off compilation would consider it, especially when experimenting with build‑time optimization. The tool shows promise in reducing build time but suffers from a broken installation, no test coverage, and limited documentation, making it risky for production use.",
+  "recommendation": "niche",
+  "app_url": "https://makepad.github.io/relax/",
+  "tool_url": "https://github.com/makepad/relax",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50458849",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 396,
+      "forks": 25,
+      "open_issues": 12,
+      "watchers": 396,
+      "contributors": 17,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "Relax Rust JIT",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "sccache",
+        "stars": 7922,
+        "repo": "mozilla/sccache"
+      },
+      {
+        "name": "cargo-cache",
+        "stars": 996,
+        "repo": "matthiaskrgr/cargo-cache"
+      },
+      {
+        "name": "cranelift",
+        "stars": 2508,
+        "repo": "bytecodealliance/cranelift"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0",
+      "summary": "",
+      "requires_python": null,
+      "license": "",
+      "home_page": "http://github.com/zvoase/django-relax/tree/master"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Significant build time reduction",
+        "Community interest and enthusiasm",
+        "Useful comparison to existing tools"
+      ],
+      "negative_signals": [
+        "Criticism of UI and code quality",
+        "Skepticism about borrow checker impact on speed"
+      ],
+      "justification": "Most commenters praised the potential to cut Rust build times and expressed curiosity to try the tool, while a minority complained about UI sloppiness and questioned whether the borrow checker truly drives long compile times. Overall sentiment is very positive with only minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
