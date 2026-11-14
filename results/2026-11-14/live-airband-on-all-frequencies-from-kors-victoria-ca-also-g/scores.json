@@ -1,0 +1,82 @@
+{
+  "app_name": "Orcas Airband",
+  "url": "https://orcasairband.com/",
+  "scored_at": "2026-11-14T14:10:26.215Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The app streams live ATC audio like existing services (AVWX, airband.us, VHFradio.io), indicating it is a near‑duplicate rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 12.4 s and the service runs in the browser with no extra dependencies or API key required."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web‑SaaS streaming ATC audio, it addresses a niche aviation need but does not align with the core LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No unique features or benchmark advantages are reported; the service offers similar functionality to the three listed competitors."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 280 (200–500 range) and 30 comments, which places community health in the 5–6 band."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0 %), though basic run succeeded; the low test pass rate indicates limited usability."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The web page shows no API/SDK, no PyPI package, and only browser use mode, making integration difficult."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "The site lacks docs/wiki links and its content length is only 441 characters, indicating sparse documentation."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A version number of 13.5 is displayed, suggesting a mature product despite the lack of a public repo or changelog."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines are all zero (site_load_ms, switch_freq_ms, latency_ms), providing no performance data; a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the transcription quality, usefulness for pilots, and the project’s technical ambition, while a few early replies express confusion or ask for more details on hardware and models."
+    }
+  },
+  "summary": "Orcas Airband is a web application that streams live ATC audio from KORS and nearby frequencies. It runs entirely in the browser and requires no API key or installation. Pilots and aviation enthusiasts can use it to listen to live communications when they need real‑time airband coverage. The service’s main strength is its high user enthusiasm (HN points 280, sentiment 8/10), but it lacks documentation, integration options, and clear performance advantages over existing alternatives.",
+  "recommendation": "skip",
+  "app_url": "https://orcasairband.com/",
+  "tool_url": "https://orcasairband.com/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50490593",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Excellent transcription accuracy",
+        "Useful tool for pilots and aviation community",
+        "High community enthusiasm"
+      ],
+      "negative_signals": [
+        "Initial confusion about purpose",
+        "Technical detail questions"
+      ],
+      "justification": "Most comments praise the transcription quality, usefulness for pilots, and the project’s technical ambition, while a few early replies express confusion or ask for more details on hardware and models.",
+      "comment_count": 30,
+      "hn_points": 280
+    }
+  }
+}
