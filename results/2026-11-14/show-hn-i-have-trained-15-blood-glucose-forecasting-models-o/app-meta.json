@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+    "url": "https://github.com/0xdeadf1sh/T1DMAI",
+    "hn_url": "https://news.ycombinator.com/item?id=50444761",
+    "points": 53,
+    "comments": 31,
+    "author": "",
+    "age": "2026-11-10T19:07:53",
+    "scraped_at": "2026-11-14T14:00:02.334Z",
+    "tool_url": "https://github.com/0xdeadf1sh/T1DMAI",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "data",
+    "app_type": "research-model",
+    "description": "Repository containing 15 machine learning models trained for blood glucose forecasting on personal data, with training, evaluation, and inference scripts.",
+    "use_modes": [
+      "Python library",
+      "CLI",
+      "Jupyter notebook"
+    ],
+    "similar_tools": [
+      "DeepGluco",
+      "GlucoPredict",
+      "DiabetesForecast"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies via pip",
+      "Run the training script on the provided sample dataset and verify that training completes without errors",
+      "Load the pretrained model and perform inference on a held‑out test set, checking that prediction shape matches expectations",
+      "Measure training time and compare it against a baseline model (e.g., simple linear regression)",
+      "Export the model as a PMML/ONNX file and load it with an alternative runtime to ensure interoperability"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/0xdeadf1sh/T1DMAI"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794665427736-glpfj",
+    "log_dir": "/tmp/llm-review-1794665427736-glpfj",
+    "install_success": true,
+    "install_time_s": 12.8,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:pip install error: Command '['/usr/local/bin/python', '-m', 'pip', 'install', '-r', '/tmp/T1DMAI/requirements.txt']' returned non-zero exit status 1.\nTEST_FAIL:import:No module named 'T1DMAI'\nTEST_FAIL:training:train.py not found\nTEST_FAIL:inference:inference.py not found\nTEST_FAIL:export_load:export.py not found\nTEST_FAIL:baseline_compare:No module named 'numpy'\nRUN_OK\n"
+  }
+}
