@@ -1,0 +1,83 @@
+{
+  "app_name": "Live map of U.S. flights during FAA nationwide ground stop",
+  "url": "https://grounds.top/",
+  "scored_at": "2026-11-14T14:08:00.041Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The tool offers a real‑time flight map similar to FlightAware, Flightradar24, and OpenSky Network, indicating it is an incremental copy rather than a new approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in the Docker run (install_success: true) and took only 12 seconds, and as a web SaaS it requires no local dependencies."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a web‑SaaS flight‑tracking map it does not address core LLM workflow needs, making its relevance to today’s LLM ecosystem low."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "Compared to similar tools, the only distinct claim is an API/webhook mention; no quantitative advantage (e.g., speed) is provided."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN discussion shows 172 points and 22 comments with a sentiment of 8/10, indicating a modest but engaged community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 3 functional tests, 0 passed (0/3), showing core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The page mentions an API/SDK/webhook (true) despite lacking a PyPI package, suggesting moderate integration effort."
+    },
+    "documentation": {
+      "score": 4,
+      "justification": "The site provides no docs, wiki, or examples (has docs/wiki/guide: false, has examples: false) even though the content length is large (85661 chars)."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version of 1.5 (>=1.0) and a stable public web service imply a reasonably mature product."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "The home page loads in 0.055 seconds, which is fast for a web app but no comparative benchmark is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the quick turnaround, real‑time flight visualization, and community impact, while a few note small visual or data‑source shortcomings, yielding a very positive but not flawless reception."
+    }
+  },
+  "summary": "This is a web SaaS that visualizes real‑time U.S. flight movements during FAA ground stops using live ADS‑B data. It runs entirely in the browser and offers an API/webhook for programmatic access. It is most useful for aviation enthusiasts or emergency planners needing immediate flight visibility during nationwide stops. The service loads quickly (0.055 s) but lacks documentation and its core functionality failed all automated tests, limiting reliability.",
+  "recommendation": "niche",
+  "app_url": "https://grounds.top/",
+  "tool_url": "https://grounds.top/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50491545",
+  "domain": "web",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "impressive speed and execution",
+        "useful real-time data",
+        "community appreciation"
+      ],
+      "negative_signals": [
+        "minor visual design concerns",
+        "question about data source",
+        "missing additional features"
+      ],
+      "justification": "Most comments praise the quick turnaround, real‑time flight visualization, and community impact, while a few note small visual or data‑source shortcomings, yielding a very positive but not flawless reception.",
+      "comment_count": 22,
+      "hn_points": 172
+    }
+  }
+}
