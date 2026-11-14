@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Ggml v1.0.0",
+    "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+    "hn_url": "https://news.ycombinator.com/item?id=50493062",
+    "points": 320,
+    "comments": 50,
+    "author": "",
+    "age": "2026-11-14T02:28:29",
+    "scraped_at": "2026-11-14T14:00:02.324Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/ggml-org/ggml",
+    "source_type": "tool",
+    "confidence": 0.87,
+    "domain": "devtool",
+    "app_type": "devtool",
+    "description": "Lightweight, header‑only C/C++ library for tensor operations optimized for inference workloads, used by many LLM inference projects.",
+    "use_modes": [
+      "C++ API",
+      "Python bindings via PyO3"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "exllamav2",
+      "vLLM",
+      "onnxruntime"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/ggml-org/ggml",
+      "build the library with CMake on Linux",
+      "compile a sample program that creates a 4‑dim tensor and performs a matmul",
+      "measure execution time for 1,000,000 random matmuls and compare to pure CPU implementation",
+      "run the provided Python example to load a small model and perform inference"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ggml-org/ggml"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794664869192-t120z",
+    "log_dir": "/tmp/llm-review-1794664869192-t120z",
+    "install_success": false,
+    "install_time_s": 192,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "\nTIMEOUT",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\n"
+  }
+}
