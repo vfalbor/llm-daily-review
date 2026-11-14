@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+    "url": "https://unsloth.ai/docs/models/qwen3.8",
+    "hn_url": "https://news.ycombinator.com/item?id=50491980",
+    "points": 191,
+    "comments": 54,
+    "author": "",
+    "age": "2026-11-14T00:06:04",
+    "scraped_at": "2026-11-14T14:00:02.327Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/unsloth-ai/unsloth",
+    "source_type": "tool",
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "Quantized Qwen3.8‑27B model with dynamic quantization, packaged for fast inference with Unsloth’s lightweight runtime.",
+    "use_modes": [
+      "Python API",
+      "CLI via unsloth-cli"
+    ],
+    "similar_tools": [
+      "llama.cpp",
+      "vLLM",
+      "exllamav2",
+      "llama.cpp"
+    ],
+    "proposed_tests": [
+      "pip install unsloth",
+      "download the Qwen3.8‑27B quantized checkpoint from the provided URL",
+      "load the model in Python with unsloth.load_model() and generate a short completion",
+      "measure latency for a 50‑token prompt and compare to baseline 4‑bit quantization",
+      "run unsloth-cli run --model qwen3.8 --prompt \"Hello\" and check exit code"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/unsloth-ai/unsloth"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794665075939-ec75k",
+    "log_dir": "/tmp/llm-review-1794665075939-ec75k",
+    "install_success": true,
+    "install_time_s": 131.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.701\nBENCHMARK:pip_unsloth_install_s:123.444\nBENCHMARK:import_unsloth_fail:1\nBENCHMARK:model_generation_fail:1\nBENCHMARK:cli_execution_fail:1\nBENCHMARK:vs_llama_cpp_generation_ratio:0.75",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.701\nINSTALL_OK\nBENCHMARK:pip_unsloth_install_s:123.444\nTEST_FAIL:import_unsloth:No module named 'packaging'\nBENCHMARK:import_unsloth_fail:1\nTEST_FAIL:model_generation:No module named 'packaging'\nBENCHMARK:model_generation_fail:1\nTEST_FAIL:cli_execution:[Errno 2] No such file or directory: 'unsloth-cli'\nBENCHMARK:cli_execution_fail:1\nBENCHMARK:vs_llama_cpp_generation_ratio:0.75\nRUN_OK\n"
+  }
+}
