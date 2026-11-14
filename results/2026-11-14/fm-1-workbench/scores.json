@@ -1,0 +1,83 @@
+{
+  "app_name": "FM-1 Workbench",
+  "url": "https://open.m-vave.com/fm1-workbench",
+  "scored_at": "2026-11-14T14:09:06.323Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only generic similarity to existing web IDEs (Jalangi, WebAssembly Studio) is listed, so novelty cannot be determined."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 9.2 seconds, well under the 30‑second benchmark for easy setup; despite no PyPI package, the web‑based nature requires no extra hardware."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑editor for FM‑1 Assembly, it addresses a niche but still relevant need for web‑based low‑level programming environments in today's developer tooling landscape."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No star counts are available, but the app mentions an API/SDK/webhook feature that similar playgrounds lack, giving it a modest edge."
+    },
+    "community": {
+      "score": 6,
+      "justification": "Without a GitHub repo, community health is inferred from Hacker News points (248), which falls in the 200‑500 range indicating a small but active audience."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), indicating core functionality is not reliably demonstrated despite a successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The page explicitly mentions an API/SDK/webhook, providing a clear integration path even though no PyPI package exists."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "No dedicated docs or wiki are present, but the page length is 223,201 characters and includes examples, satisfying the proxy rule for substantive content plus examples (+1)."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The detected version is 3.0, indicating a stable release version; absence of a changelog is noted but version number alone qualifies for a mature rating."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only a single benchmark (apk_git_install_s: 0.709 s) is reported with no comparative data, so a neutral default score is applied."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments highlight enthusiasm for the device’s firmware variety and affordability, but several note inconsistent quality and lack of certain emulations, leading to a generally positive but somewhat cautious sentiment."
+    }
+  },
+  "summary": "FM-1 Workbench is a browser‑based IDE for FM-1 Assembly that offers syntax highlighting, building, and emulation. It runs entirely in the web client and provides an API/SDK/webhook for external integration. The tool is suited for developers or hobbyists needing a lightweight, online assembly environment, especially when they want to hook the emulator into other workflows. Its strength is the built‑in API support, while the lack of passing tests and sparse documentation limit confidence in reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://open.m-vave.com/fm1-workbench",
+  "tool_url": "https://open.m-vave.com/fm1-workbench",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50488325",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Vibrant custom firmware ecosystem",
+        "Affordable, fun hardware",
+        "Encourages learning music theory"
+      ],
+      "negative_signals": [
+        "Mixed firmware quality",
+        "Limited native emulation",
+        "Concerns over AI-generated content"
+      ],
+      "justification": "Comments highlight enthusiasm for the device’s firmware variety and affordability, but several note inconsistent quality and lack of certain emulations, leading to a generally positive but somewhat cautious sentiment.",
+      "comment_count": 30,
+      "hn_points": 248
+    }
+  }
+}
