@@ -1,0 +1,119 @@
+{
+  "app_name": "Ggml v1.0.0",
+  "url": "https://github.com/ggml-org/ggml",
+  "scored_at": "2026-11-14T14:04:34.687Z",
+  "total_score": 64,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository was created 1517 days ago and is not a fork, but it implements a well‑known header‑only tensor library approach, making it an incremental improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success = false) and took 192 seconds before failing, despite a PyPI package being available."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool providing a lightweight C/C++ tensor library used by many LLM inference projects, it aligns strongly with current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 15,757 stars, which is far fewer than llama.cpp (135k) but 11,106 more than exllamav2, indicating a moderate advantage in community interest though no benchmark data is provided."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The repo has 15,757 stars, 920 contributors, and was updated only 1 day ago, showing an active and large community."
+    },
+    "ease_of_use": {
+      "score": 1,
+      "justification": "No tests passed (0/0) and the basic run failed, indicating the tool cannot be used out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package (v0.0.3) exists, the library offers both C++ API and Python bindings via PyO3, and it is released under an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details such as wiki presence or README depth were not provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 1517 days old, has 1,946 forks and 386 open issues, indicating a mature, widely‑used codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were supplied in the test output, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 9,
+      "justification": "The comments largely applaud ggml’s 1.0 release, highlight continuous speed boosts and hardware versatility, with only peripheral discussion on naming that does not detract from overall enthusiasm."
+    }
+  },
+  "summary": "Ggml v1.0.0 is a header‑only C/C++ library that provides fast tensor operations for LLM inference workloads, exposing both a native C++ API and Python bindings via PyO3. It builds on established GGML techniques and is packaged on PyPI, making it straightforward to add to existing pipelines. Developers needing a lightweight, cross‑platform inference backend will find it useful, especially given its strong community backing. Its main strength is the large, active contributor base, while the current installation process is unreliable, as evidenced by a failed install and no passing tests.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+  "tool_url": "https://github.com/ggml-org/ggml",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50493062",
+  "domain": "devtool",
+  "app_type": "devtool",
+  "enriched": {
+    "github": {
+      "stars": 15757,
+      "forks": 1946,
+      "open_issues": 386,
+      "watchers": 15757,
+      "contributors": 920,
+      "license": "MIT",
+      "language": "C++",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1517,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Tensor library for machine learning",
+      "topics": [
+        "machine-learning"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "llama.cpp",
+        "stars": 135000,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "exllamav2",
+        "stars": 4651,
+        "repo": "turboderp-org/exllamav2"
+      },
+      {
+        "name": "vLLM",
+        "stars": 96922,
+        "repo": "vllm-project/vllm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.3",
+      "summary": "GridGain ML Python API",
+      "requires_python": ">=3.4",
+      "license": "",
+      "home_page": "https://github.com/gridgain/ml-python-api/tree/master/python"
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 9,
+      "positive_signals": [
+        "milestone achievement",
+        "performance improvements",
+        "cross‑platform compatibility"
+      ],
+      "negative_signals": [],
+      "justification": "The comments largely applaud ggml’s 1.0 release, highlight continuous speed boosts and hardware versatility, with only peripheral discussion on naming that does not detract from overall enthusiasm.",
+      "comment_count": 30,
+      "hn_points": 320
+    }
+  }
+}
