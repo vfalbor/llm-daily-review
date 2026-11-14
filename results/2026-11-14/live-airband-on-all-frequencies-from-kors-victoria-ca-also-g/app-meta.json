@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+    "url": "https://orcasairband.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=50490593",
+    "points": 279,
+    "comments": 65,
+    "author": "",
+    "age": "2026-11-13T22:04:24",
+    "scraped_at": "2026-11-14T14:00:02.333Z",
+    "is_reviewable": true,
+    "tool_url": "https://orcasairband.com/",
+    "source_type": "tool",
+    "confidence": 0.8,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "Web application streaming live ATC audio from KORS and other nearby frequencies.",
+    "use_modes": [
+      "browser"
+    ],
+    "similar_tools": [
+      "AVWX",
+      "airband.us",
+      "VHFradio.io"
+    ],
+    "proposed_tests": [
+      "Load the site and confirm audio stream starts automatically",
+      "Switch to a different frequency and verify playback continues without interruption",
+      "Measure latency between transmission and playback to ensure under 5 seconds"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1794665347625-7c57z",
+    "log_dir": "/tmp/llm-review-1794665347625-7c57z",
+    "install_success": true,
+    "install_time_s": 12.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:site_load_ms:0.000\nBENCHMARK:switch_freq_ms:0.000\nBENCHMARK:latency_ms:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:Command '['npm', 'install']' returned non-zero exit status 1.\nTEST_FAIL:test_site_load:No audio element found\nTEST_FAIL:test_switch_frequency:Switch freq HTTP 404\nTEST_FAIL:test_latency:Health endpoint unreachable\nBENCHMARK:site_load_ms:0.000\nBENCHMARK:switch_freq_ms:0.000\nBENCHMARK:latency_ms:0.000\nRUN_OK\n"
+  }
+}
