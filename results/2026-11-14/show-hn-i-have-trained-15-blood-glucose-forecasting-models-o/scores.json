@@ -1,0 +1,124 @@
+{
+  "app_name": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+  "url": "https://github.com/0xdeadf1sh/T1DMAI",
+  "scored_at": "2026-11-14T14:10:53.521Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 108 days ago, not a fork, and offers 15 models whereas the closest alternatives have 0–4 stars, indicating a meaningful improvement over existing tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 12.8 seconds, well under the 30‑second threshold, and runs locally without needing an API key."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a research‑model for personal blood‑glucose forecasting, it addresses a niche ML use case rather than a core LLM workflow, giving it moderate relevance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 46 GitHub stars it outpaces DeepGluco (0 stars), GlucoPredict (1 star) and DiabetesForecast (4 stars) by large margins (+4500% to +1050%), showing clear advantage over similar projects."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 46 stars, a single contributor, and was updated today (0 days since last commit), placing it in the 100–1k star, small‑but‑active range."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (<50%), despite a successful install and basic run, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package, but the project provides a Python library, CLI, and Jupyter notebooks under an MIT license, allowing moderate integration effort."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 108 days old with 2 forks and 0 open issues, indicating early‑stage but stable development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output only notes an import time of 142 ms and provides no comparative performance data, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments largely praise the model’s performance, data‑driven approach, and accessibility for personal use, while a few raise minor doubts about alternative treatments and long‑term viability."
+    }
+  },
+  "summary": "This repository supplies 15 blood‑glucose forecasting models runnable as a Python library, CLI, or Jupyter notebook. It is built on standard Python tooling and runs locally without external APIs. Researchers or personal‑health hobbyists looking for ready‑to‑use forecasting scripts will find it useful, especially given its higher star count versus similar niche projects. Strengths include a clear advantage in community interest and a fast local setup, while the lack of passing tests and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/0xdeadf1sh/T1DMAI",
+  "tool_url": "https://github.com/0xdeadf1sh/T1DMAI",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50444761",
+  "domain": "data",
+  "app_type": "research-model",
+  "enriched": {
+    "github": {
+      "stars": 46,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 46,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 108,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A model zoo of blood glucose forecasters trained & tested on my own data",
+      "topics": [
+        "blood-glucose",
+        "blood-glucose-forecasting",
+        "blood-glucose-prediction",
+        "deep-learning",
+        "diabetes",
+        "t1dm",
+        "time-series",
+        "transformers",
+        "type-1-diabetes",
+        "xgboost"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "DeepGluco",
+        "stars": 0,
+        "repo": "FedericoKieffer/DeepGlucoseForecasting"
+      },
+      {
+        "name": "GlucoPredict",
+        "stars": 1,
+        "repo": "MSVWalker/GlucoPredict"
+      },
+      {
+        "name": "DiabetesForecast",
+        "stars": 4,
+        "repo": "chuyuezhou/DiabetesForecast"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "highly accurate forecasting",
+        "strong community interest",
+        "easy local deployment"
+      ],
+      "negative_signals": [
+        "some skepticism about long‑term solutions",
+        "limited discussion on ethical concerns"
+      ],
+      "justification": "Comments largely praise the model’s performance, data‑driven approach, and accessibility for personal use, while a few raise minor doubts about alternative treatments and long‑term viability.",
+      "comment_count": 30,
+      "hn_points": 53
+    }
+  }
+}
