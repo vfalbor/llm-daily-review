@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+    "url": "https://grounds.top/",
+    "hn_url": "https://news.ycombinator.com/item?id=50491545",
+    "points": 172,
+    "comments": 23,
+    "author": "",
+    "age": "2026-11-13T23:17:39",
+    "scraped_at": "2026-11-14T14:00:02.331Z",
+    "is_reviewable": true,
+    "tool_url": "https://grounds.top/",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-saas",
+    "description": "Real‑time map visualizing U.S. flight movements during FAA ground stops, powered by live ADS‑B data.",
+    "use_modes": [
+      "browser"
+    ],
+    "similar_tools": [
+      "FlightAware",
+      "Flightradar24",
+      "OpenSky Network"
+    ],
+    "proposed_tests": [
+      "Load the home page and verify map tiles render within 5 seconds",
+      "Subscribe to a flight feed and confirm a flight marker appears",
+      "Simulate a ground stop event and check that flight count drops to zero"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1794665222541-gzw5s",
+    "log_dir": "/tmp/llm-review-1794665222541-gzw5s",
+    "install_success": true,
+    "install_time_s": 12,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:home_page_load_s:0.055\nBENCHMARK:vs_flightaware_home_load_ratio:fail\nBENCHMARK:cpu_count:4\nBENCHMARK:memory_mb:7894.09\nBENCHMARK:thread_count:1",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:home_page_load_s:0.055\nTEST_FAIL:home_page_load:Map container not found\nTEST_FAIL:flight_marker:Expecting value: line 1 column 1 (char 0)\nTEST_FAIL:ground_stop_event:HTTP Error 404: Not Found\nBENCHMARK:vs_flightaware_home_load_ratio:fail\nBENCHMARK:cpu_count:4\nBENCHMARK:memory_mb:7894.09\nBENCHMARK:thread_count:1\nRUN_OK\n"
+  }
+}
