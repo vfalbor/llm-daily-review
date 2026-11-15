@@ -1,0 +1,107 @@
+{
+  "app_name": "Kiri – The Modern Container Runtime",
+  "url": "https://runkiri.com/",
+  "scored_at": "2026-11-15T14:02:06.885Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the tool is listed alongside established runtimes like runc and containerd, so we lack quantitative evidence of novelty."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 9.9 seconds (<30s) and the package exists on PyPI, indicating a straightforward, consumer‑hardware friendly setup."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infra-container tool, it supports modern workloads that many LLM pipelines run in, making it clearly useful for current AI development workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark comparison is available for Kiri, and while it mentions a Rust implementation, we cannot quantify any advantage over runc, containerd, or gVisor."
+    },
+    "community": {
+      "score": 3,
+      "justification": "There is no public GitHub repository; HN points are only 70, placing it in the 50–200 range which maps to a community score of 3‑4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (<50%), indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package is on PyPI and offers both a CLI and an API, providing a usable SDK‑like integration path."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or other documentation signals were found, so we assign a neutral score due to insufficient data."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository metadata, we rely on HN points (70) which suggest a low‑maturity project in the <200 point bracket."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report stress_5_containers_s of 0.003 and memory_peak_kb of 39492.66, but no comparative data are provided, so we assign a neutral score."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "Comments mainly express skepticism about the project’s novelty, code quality, and performance claims, with a few mentions of Rust and macOS focus. The overall tone leans negative, but a few constructive points are noted."
+    }
+  },
+  "summary": "Kiri is a lightweight container runtime that can be invoked via CLI or API. It is built as an open‑source project with a Rust implementation and is distributed through PyPI. The tool targets developers who need a composable runtime for modern workloads, especially those running LLM pipelines in containers. Installation is fast and simple, but the test suite shows zero passed tests and community sentiment on HN is largely skeptical, while performance numbers lack comparative context.",
+  "recommendation": "niche",
+  "app_url": "https://runkiri.com/",
+  "tool_url": "https://github.com/kiri-dev/kiri",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50504077",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "runc",
+        "stars": 13559,
+        "repo": "opencontainers/runc"
+      },
+      {
+        "name": "containerd",
+        "stars": 21485,
+        "repo": "containerd/containerd"
+      },
+      {
+        "name": "gVisor",
+        "stars": 20008,
+        "repo": "google/gvisor"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.5.1",
+      "summary": "Kiri",
+      "requires_python": ">=3.6",
+      "license": "",
+      "home_page": "https://github.com/kiri-ai/kiri"
+    },
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 4,
+      "positive_signals": [
+        "Rust implementation",
+        "desktop containers on macOS",
+        "potential speed claims"
+      ],
+      "negative_signals": [
+        "skepticism about AI‑generated code",
+        "large codebase concerns",
+        "performance claims not substantiated",
+        "security worries"
+      ],
+      "justification": "Comments mainly express skepticism about the project’s novelty, code quality, and performance claims, with a few mentions of Rust and macOS focus. The overall tone leans negative, but a few constructive points are noted.",
+      "comment_count": 30,
+      "hn_points": 70
+    }
+  }
+}
