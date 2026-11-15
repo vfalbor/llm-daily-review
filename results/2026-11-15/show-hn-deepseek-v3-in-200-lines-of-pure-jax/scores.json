@@ -1,0 +1,113 @@
+{
+  "app_name": "DeepSeek V3 JAX",
+  "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "scored_at": "2026-11-15T14:03:10.861Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 1 day ago and is not a fork, but replicates DeepSeek V3 in JAX, offering only an incremental implementation over existing large‑model repos."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded in 31 s (slightly above the <30 s ideal) and there is no PyPI package, requiring manual JAX setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm‑training tool written in pure JAX, it aligns with the current surge in research‑grade model implementations."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The repo has 182 stars versus 7,040–135,159 stars for similar tools, and the only benchmark reported is import_time_ms:142, which does not show a clear advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 182 GitHub stars, 3 contributors, and was updated today, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0%) despite a successful install, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "Provides a Python API and JAX usage but lacks a PyPI distribution; integration will require manual installation of dependencies."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository was created 1 day ago, has 16 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports only an import time of 142 ms with no comparative data, so performance is judged as average."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments applaud the project as a learning resource, praise the clear implementation in JAX, and express enthusiasm for recreating it, while a few note minor technical hurdles with AMD GPU support and the lack of larger‑scale training options."
+    }
+  },
+  "summary": "DeepSeek V3 JAX is a lightweight reimplementation of the DeepSeek V3 model in pure JAX for research experiments. It offers a Python API and runs locally without needing an API key, but installation requires manual JAX setup and no PyPI package exists. Researchers wanting a compact, open‑source reference implementation will find it useful, though the project is brand new with limited community traction. Its main strength is the concise 200‑line JAX code, while the lack of tests and minimal benchmark data are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "tool_url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50497589",
+  "domain": "llm-ai",
+  "app_type": "llm-training",
+  "enriched": {
+    "github": {
+      "stars": 182,
+      "forks": 16,
+      "open_issues": 0,
+      "watchers": 182,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "DeepSeek V3 (MLA, DeepSeekMoE, aux-loss-free balancing, MTP) in 190 lines of pure JAX, trained on a MacBook Air. Write-up: vaibhaav.in/writing/deepseek-v3-jax",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "DeepSeek-V2",
+        "stars": 7040,
+        "repo": "deepseek-ai/DeepSeek-Coder-V2"
+      },
+      {
+        "name": "LLaMA",
+        "stars": 135159,
+        "repo": "ggml-org/llama.cpp"
+      },
+      {
+        "name": "Gemma",
+        "stars": 7087,
+        "repo": "google/gemma.cpp"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "educational value",
+        "community support",
+        "cross‑platform accessibility"
+      ],
+      "negative_signals": [
+        "AMD driver hiccups",
+        "limited resources for larger models"
+      ],
+      "justification": "The majority of comments applaud the project as a learning resource, praise the clear implementation in JAX, and express enthusiasm for recreating it, while a few note minor technical hurdles with AMD GPU support and the lack of larger‑scale training options.",
+      "comment_count": 23,
+      "hn_points": 251
+    }
+  }
+}
