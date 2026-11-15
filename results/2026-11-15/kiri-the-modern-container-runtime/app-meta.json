@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 21,
+    "title": "Kiri – The Modern Container Runtime",
+    "url": "https://runkiri.com/",
+    "hn_url": "https://news.ycombinator.com/item?id=50504077",
+    "points": 70,
+    "comments": 32,
+    "author": "",
+    "age": "2026-11-15T04:40:41",
+    "scraped_at": "2026-11-15T14:00:03.040Z",
+    "tool_url": "https://github.com/kiri-dev/kiri",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A lightweight, secure, and composable container runtime built for modern workloads",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "runc",
+      "containerd",
+      "gVisor"
+    ],
+    "proposed_tests": [
+      "docker pull ghcr.io/kiri-dev/kiri:latest",
+      "run a simple hello-world container and measure start time",
+      "inspect runtime configuration via CLI",
+      "stress test with multiple concurrent containers"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/kiri-dev/kiri"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794751276490-tyqwk",
+    "log_dir": "/tmp/llm-review-1794751276490-tyqwk",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:stress_5_containers_s:0.003\nBENCHMARK:memory_peak_kb:39492.66",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK | git\nOK: 26.2 MiB in 51 packages\nINSTALL_OK | curl\nTEST_FAIL:docker_pull:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:hello_world_start:[Errno 2] No such file or directory: 'docker'\nTEST_FAIL:cli_inspect:[Errno 2] No such file or directory: 'docker'\nBENCHMARK:stress_5_containers_s:0.003\nBENCHMARK:memory_peak_kb:39492.66\nRUN_OK\n"
+  }
+}
