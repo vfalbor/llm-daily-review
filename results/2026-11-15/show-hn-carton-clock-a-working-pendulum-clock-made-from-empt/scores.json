@@ -1,0 +1,86 @@
+{
+  "app_name": "Carton Clock",
+  "url": "https://www.niklasroy.com/carton-clock/",
+  "scored_at": "2026-11-15T14:01:15.253Z",
+  "total_score": 39,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The tool is a physical pendulum clock made from cartons, while the closest similar projects have only 70 stars (Paper Clock) and 0 stars (DIY Clock Kit), indicating a novel mechanical approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded (true) in 9.1 seconds, but there is no PyPI package, so setup is modest but not fully streamlined."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a hardware-robotics craft, it does not align closely with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "Compared to similar tools with 70 and 0 stars, this project has no public repository stars, offering limited distinguishable features."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository was detected, so there are no stars, contributors, or recent activity to gauge community health."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 1 test passed (0%), though install succeeded; core functionality is not demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "No PyPI package, and the use modes are limited to a physical build and an Arduino sketch, providing minimal integration paths."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub wiki or GitHub Pages were found, and the repository lacks visible documentation resources."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Without a detected GitHub repository, there is no data on creation date, forks, or open issues to assess maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were provided in the test results, so a neutral default score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Carton Clock is a DIY pendulum clock built from recycled cardboard cartons, driven by a small motor and an Arduino sketch. It is a purely physical construct with no software package, targeting hobbyists who enjoy hands‑on electronics projects. The standout strength is its inventive reuse of everyday materials, while the main caveat is the lack of community support, documentation, and any performance benchmarks. ",
+  "recommendation": "skip",
+  "app_url": "https://www.niklasroy.com/carton-clock/",
+  "tool_url": "https://github.com/niklasroy/carton-clock",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50482279",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Paper Clock",
+        "stars": 70,
+        "repo": "alexthescott/ePaper-Spotify-Clock"
+      },
+      {
+        "name": "DIY Clock Kit",
+        "stars": 0,
+        "repo": "Kgray44/DIY-Clock-Kit"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 20
+    }
+  }
+}
