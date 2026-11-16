@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Mini.nvim Is Now on Tangled",
+    "url": "https://tangled.org/nvim-mini.org/mini.nvim",
+    "hn_url": "https://news.ycombinator.com/item?id=50512231",
+    "points": 79,
+    "comments": 29,
+    "author": "",
+    "age": "2026-11-15T23:55:41",
+    "scraped_at": "2026-11-16T14:00:02.793Z",
+    "tool_url": "https://github.com/folke/mini.nvim",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-editor",
+    "description": "A collection of modular Neovim plugins that provide lightweight alternatives to heavier plugins.",
+    "use_modes": [
+      "Neovim configuration",
+      "plugin integration"
+    ],
+    "similar_tools": [
+      "lazy.nvim",
+      "packer.nvim",
+      "vim-plug"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run `make install`",
+      "Create a minimal Neovim config that loads mini.nvim modules",
+      "Run a benchmark of file opening and LSP start time",
+      "Verify that each module provides its intended functionality (e.g., `mini.move`, `mini.align`)"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/folke/mini.nvim"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794838047658-j9edh",
+    "log_dir": "/tmp/llm-review-1794838047658-j9edh",
+    "install_success": true,
+    "install_time_s": 12.2,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.691\nBENCHMARK:pip_mini.nvim_install_s:0.932\nBENCHMARK:git_clone_s:1.672\nBENCHMARK:pip_editable_s:0.649",
+    "error_log": "ERROR: Could not find a version that satisfies the requirement mini.nvim (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for mini.nvim\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/mini.nvim does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTraceback (most recent call last):\n  File \"/app/test.py\", line 123, in <module>\n    main()\n  File \"/app/test.py\", line 106, in main\n    nvim_time = run_neovim_benchmark(str(repo_dir))\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 73, in run_neovim_benchmark\n    result = subprocess.run(nvim_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'nvim'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.691\nINSTALL_FAIL:pip mini.nvim exit=1\nBENCHMARK:pip_mini.nvim_install_s:0.932\nINSTALL_OK\nBENCHMARK:git_clone_s:1.672\nINSTALL_FAIL:pip -e /tmp/mini.nvim exit=1\nBENCHMARK:pip_editable_s:0.649\nTEST_FAIL:import_mini:No module named 'mini'\n"
+  }
+}
