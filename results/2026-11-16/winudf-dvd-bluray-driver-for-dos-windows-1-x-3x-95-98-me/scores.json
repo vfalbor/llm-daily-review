@@ -1,0 +1,101 @@
+{
+  "app_name": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+  "url": "https://github.com/ages2001/WINUDF",
+  "scored_at": "2026-11-16T14:01:42.059Z",
+  "total_score": 44,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 30 days ago, not a fork, and offers a similar function to existing tools like libdvdcss (304 stars) and fuseiso (6 stars) with only 20 stars itself, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (true) but took 35.2 seconds and there is no PyPI package, suggesting moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool-cli for mounting DVD/BD images on legacy Windows systems, it addresses a niche need that is less aligned with current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "With 20 GitHub stars it is far behind libdvdcss (304 stars) but slightly ahead of fuseiso (6 stars), offering limited unique advantage over existing drivers."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repository has 20 stars, 1 contributor, and was updated 10 days ago, indicating a small but recent community presence."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 5 tests passed (20%), and while install succeeded, the low test pass rate suggests core usability issues."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a CLI only, has no PyPI package, and is licensed GPL-3.0, providing limited integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repo is 30 days old with 1 fork and 2 open issues, placing it at an early, alpha‑like stage."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines report install and build times but no comparative performance data against alternatives, so no concrete performance claim can be made."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Winudf is a command‑line driver that enables mounting and reading DVD/ BluRay images on legacy Windows and DOS systems. It is a small C‑based CLI tool without a package manager distribution, built to work on very old operating systems. It is useful for developers or hobbyists needing to access optical media on vintage Windows environments. Its main strength is providing functionality for outdated platforms, while its limited community, sparse documentation, and lack of integration features are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/ages2001/WINUDF",
+  "tool_url": "https://github.com/ages2001/WINUDF",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50515182",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 20,
+      "forks": 1,
+      "open_issues": 2,
+      "watchers": 20,
+      "contributors": 1,
+      "license": "GPL-3.0",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 10,
+      "days_since_created": 30,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "UDF IFS (Installable File System driver) for DOS, Windows 1.0x/2.xx/3.xx/95/98/ME",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "libdvdcss",
+        "stars": 304,
+        "repo": "allienx/libdvdcss-dll"
+      },
+      {
+        "name": "fuseiso",
+        "stars": 6,
+        "repo": "jesustorresdev/FuseISOMenu"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 37
+    }
+  }
+}
