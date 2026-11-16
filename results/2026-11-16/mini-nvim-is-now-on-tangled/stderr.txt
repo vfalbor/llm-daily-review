@@ -1,0 +1,26 @@
+ERROR: Could not find a version that satisfies the requirement mini.nvim (from versions: none)
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for mini.nvim
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: file:///tmp/mini.nvim does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.
+Traceback (most recent call last):
+  File "/app/test.py", line 123, in <module>
+    main()
+  File "/app/test.py", line 106, in main
+    nvim_time = run_neovim_benchmark(str(repo_dir))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/test.py", line 73, in run_neovim_benchmark
+    result = subprocess.run(nvim_cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'nvim'
