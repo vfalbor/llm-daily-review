@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Making Atuin sync 32x faster with packfiles",
+    "url": "https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/",
+    "hn_url": "https://news.ycombinator.com/item?id=50456548",
+    "points": 26,
+    "comments": 11,
+    "author": "",
+    "age": "2026-11-11T18:14:36",
+    "scraped_at": "2026-11-16T14:00:02.792Z",
+    "tool_url": "https://github.com/atuinsh/atuin",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "An open‑source shell history manager that syncs across machines using efficient packfile compression.",
+    "use_modes": [
+      "CLI",
+      "CLI plugin"
+    ],
+    "similar_tools": [
+      "zsh-snap",
+      "oh-my-zsh history",
+      "fzf-history"
+    ],
+    "proposed_tests": [
+      "Install atuin via cargo and run `atuin sync` on two machines",
+      "Verify that history entries are correctly compressed and decompressed",
+      "Measure sync time for 10,000 entries before and after packfile optimization",
+      "Check integrity of history after sync with `atuin list`"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/atuinsh/atuin"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794837828363-0js8a",
+    "log_dir": "/tmp/llm-review-1794837828363-0js8a",
+    "install_success": true,
+    "install_time_s": 194.3,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\n    Updating crates.io index\n Downloading crates ...\n  Downloaded atuin v18.24.8\n  Installing atuin v18.24.8\n    Updating crates.io index\n     Locking 715 packages to latest compatible versions\n      Adding easy-cast v0.5.5 (available: v0.7.1)\n      Adding generic-array v0.14.7 (available: v0.14.9)\n      Adding matchit v0.8.4 (available: v0.8.6)\n      Adding rand v0.8.8 (available: v0.10.4)\n      Adding sysinfo v0.39.6 (available: v0.40.3)\n Downloading crates ...\n  Downloaded aead v0.5.2\n  Downloaded adler2 v2.0.1\n  Downloaded httpdate v1.0.3\n  Downloaded beef v0.5.2\n  Downloaded approx v0.5.1\n  Downloaded atoi v2.0.0\n  Downloaded async-stream v0.3.6\n  Downloaded http-body v1.1.0\n  Downloaded by_address v1.2.1\n  Downloaded crc v3.4.0\n  Downloaded async-stream-impl v0.3.6\n  Downloaded compare v0.0.6\n  Downloaded cpufeatures v0.3.1\n  Downloaded clap_lex v1.1.1\n  Downloaded cfg_aliases v0.1.1\n  Downloaded castaway v0.2.4\n  Downloaded cpufeatures v0.2.17\n  Downloaded cfg_aliases v0.2.2\n  Downloaded cfg-if v1.0.5\n  Downloaded atomic v0.6.1\n  Downloaded bit-set v0.5.3\n  Downloaded salsa20 v0.10.2\n  Downloaded critical-section v1.2.0\n  Downloaded clap-couture-derive v0.1.1\n  Downloaded sha1_smol v1.0.1\n  Downloaded signature v2.2.0\n  Downloaded time-macros v0.2.32\n  Downloaded toml_writer v1.2.0+spec-1.1.0\n  Downloaded unic-langid v0.9.6\n  Downloaded zeroize_derive v1.5.0\n  Downloaded zeroize v1.9.1\n  Downloaded prost-derive v0.14.6\n  Downloaded spki v0.7.3\n  Downloaded zstd v0.14.4\n  Downloaded zlib-rs v0.6.8\n  Downloaded zstd-safe v8.3.0\n  Downloaded tracing v0.1.44\n  Downloaded unicode-segmentation v1.13.3\n  Downloaded tracing-subscriber v0.3.23\n  Downloaded unicode-width v0.1.14\n  Downloaded wezterm-dynamic-derive v0.1.1\n  Downloaded tree-sitter-bash v0.25.1\n  Downloaded sqlx v0.9.0\n  Downloaded regex-syntax v0.8.11\n  Downloaded zstd-sys v2.1.3+zstd.1.5.7\n  Downloaded whoami v2.1.3\n  Downloaded tinyvec v1.13.3\n  Downloaded ring v0.17.14\n  Downloaded unicode-width v0.2.3\n  Downloaded uuid v1.29.2\n  Downloaded url v2.5.8\n  Downloaded logos v0.15.1\n  Downloaded fastrand v2.5.0\n  Downloaded dotenvy v0.15.7\n  Downloaded winnow v1.0.5\n  Downloaded file-id v0.2.3\n  Downloaded syn v1.0.109\n  Downloaded fancy-regex v0.11.0\n  Downloaded eye_declare v0.7.1\n  Downloaded eyre v0.6.14\n  Downloaded fallible-iterator v0.3.0\n  Downloaded eye_declare_engine v0.7.1\n  Downloaded eventsource-stream v0.2.3\n  Downloaded termwiz v0.23.3\n  Downloaded event-listener v5.4.2\n  Downloaded errno v0.3.15\n  Downloaded encoding_rs v0.8.44\n  Downloaded filedescriptor v0.8.3\n  Downloaded fallible-streaming-iterator v0.1.9\n  Downloaded termina v0.3.3\n  Downloaded erased-serde v0.4.11\n  Downloaded equivalent v1.0.3\n  Downloaded enum_dispatch v0.3.13\n  Downloaded either v1.19.0\n  Downloaded ed25519-dalek v2.2.0\n  Downloaded ed25519 v2.2.3\n  Downloaded easy-cast v0.5.5\n  Downloaded",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\n(1/8) Installing libgcc (15.2.0-r5)\n(2/8) Installing libstdc++ (15.2.0-r5)\n(3/8) Installing ada-libs (4.0.0-r0)\n(4/8) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(5/8) Installing icu-libs (78.1-r0)\n(6/8) Installing simdjson (4.2.4-r0)\n(7/8) Installing simdutf (9.0.0-r0)\n(8/8) Installing nodejs (24.22.3-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 87.7 MiB in 59 packages\nINSTALL_OK | nodejs\n(1/1) Installing npm (11.12.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 95.2 MiB in 60 packages\nINSTALL_OK | npm\nOK: 95.2 MiB in 60 packages\nINSTALL_OK | git\n( 1/17) Installing jansson (2.15.0-r0)\n( 2/17) Installing binutils (2.45.1-r1)\n( 3/17) Installing libgcc-static (15.2.0-r5)\n( 4/17) Installing libgomp (15.2.0-r5)\n( 5/17) Installing libatomic (15.2.0-r5)\n( 6/17) Installing gmp (6.3.0-r4)\n( 7/17) Installing isl26 (0.26-r2)\n( 8/17) Installing mpfr4 (4.2.2-r0)\n( 9/17) Installing mpc1 (1.3.1-r1)\n(10/17) Installing gcc (15.2.0-r5)\n(11/17) Installing musl-dev (1.2.6-r3)\n(12/17) Installing libxml2 (2.13.9-r2)\n(13/17) Installing llvm22-libs (22.1.3-r1)\n(14/17) Installing scudo-malloc (22.1.3-r0)\n(15/17) Installing rust (1.96.1-r0)\n(16/17) Installing libssh2 (1.11.1-r4)\n(17/17) Installing cargo (1.96.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 689.6 MiB in 77 packages\nINSTALL_OK | cargo\nOK: 689.6 MiB in 77 packages\nINSTALL_OK | rust\n"
+  }
+}
