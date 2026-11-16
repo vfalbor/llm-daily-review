@@ -1,0 +1,113 @@
+{
+  "app_name": "Mini.nvim",
+  "url": "https://tangled.org/nvim-mini.org/mini.nvim",
+  "scored_at": "2026-11-16T14:08:26.421Z",
+  "total_score": 43,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "The repo is a fork (is_fork: true) and was created 867 days ago, offering no new approach compared to similar tools."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (install_success: true) in 12.2 seconds, but there is no PyPI package, requiring manual setup."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool-editor plugin for Neovim, it fits current developer tooling trends but does not address a unique LLM‑related need."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "It has only 5 GitHub stars versus 21,732 for lazy.nvim, 8,089 for packer.nvim, and 35,787 for vim-plug, and benchmark times show no clear advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The repository has 5 stars, 30 contributors, and has not been updated for 867 days, indicating a very small active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 out of 1 test passed (0/1) and the basic run failed, indicating core functionality is not reliably usable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package exists, but the plugin can be integrated into Neovim configurations (use_modes: Neovim configuration, plugin integration) and is MIT licensed."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topics was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The project is 867 days old with 0 forks and 0 open issues, suggesting limited maturity and stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (e.g., pip_editable_s: 0.649) are present but lack comparative data to similar plugins, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments praise the lightweight, modular design of Mini.nvim and its minimal configuration, while a few mention that the Tangled site is currently just a mirror and raise minor concerns about platform stability."
+    }
+  },
+  "summary": "Mini.nvim is a collection of modular Neovim plugins that provide lightweight alternatives to larger plugins. It consists of Lua modules installed via git and configured directly in Neovim, without a PyPI package. The tool is aimed at Neovim users who want minimal configuration and a small footprint. It is praised for its modular design (positive HN sentiment), but suffers from an outdated repository, very few stars, and failing test coverage.",
+  "recommendation": "skip",
+  "app_url": "https://tangled.org/nvim-mini.org/mini.nvim",
+  "tool_url": "https://github.com/folke/mini.nvim",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50512231",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": {
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 5,
+      "contributors": 30,
+      "license": "MIT",
+      "language": null,
+      "is_fork": true,
+      "days_since_update": 867,
+      "days_since_created": 867,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Library of 40+ independent Lua modules improving overall Neovim (version 0.8 and higher) experience with minimal effort",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "lazy.nvim",
+        "stars": 21732,
+        "repo": "folke/lazy.nvim"
+      },
+      {
+        "name": "packer.nvim",
+        "stars": 8089,
+        "repo": "wbthomason/packer.nvim"
+      },
+      {
+        "name": "vim-plug",
+        "stars": 35787,
+        "repo": "junegunn/vim-plug"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "well‑designed small modules",
+        "nice set of plugins",
+        "minimal configuration"
+      ],
+      "negative_signals": [
+        "mirror status only",
+        "some platform concerns"
+      ],
+      "justification": "The majority of comments praise the lightweight, modular design of Mini.nvim and its minimal configuration, while a few mention that the Tangled site is currently just a mirror and raise minor concerns about platform stability.",
+      "comment_count": 29,
+      "hn_points": 79
+    }
+  }
+}
