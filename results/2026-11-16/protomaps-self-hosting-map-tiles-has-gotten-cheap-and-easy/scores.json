@@ -1,0 +1,85 @@
+{
+  "app_name": "Protomaps",
+  "url": "https://github.com/protomaps/protomaps",
+  "scored_at": "2026-11-16T14:02:33.518Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success=false) after 10.7 seconds despite a PyPI package existing."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The tool is an infra-storage map tiles server, which is peripheral to current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for the Protomaps repo is available; only similar tools' stars (3 and 2,924) are known, so quantitative differentiation cannot be assessed."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub repository data (stars, contributors, recent activity) is unavailable, leaving no community metrics."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and install failed, indicating core functionality does not work out of the box."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package exists (v0.0.1) and the tool offers CLI, HTTP API, and Docker modes, providing multiple integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic counts are available, and no explicit documentation metrics were found."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Creation date, fork count, and open issue data are missing, so maturity cannot be quantified."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.67 versus TileServer GL, indicating about 33% faster response."
+    }
+  },
+  "summary": "Protomaps is a lightweight, open‑source map tile server that can be self‑hosted and scaled via CLI, HTTP API, or Docker. It is built as a Go-based server with a minimal Python wrapper published on PyPI. The tool is suited for developers needing an on‑premise tile service rather than cloud providers. It stands out for faster latency (0.67× TileServer GL) but suffers from installation failures and lack of visible community activity.",
+  "recommendation": "niche",
+  "app_url": "https://bruceroettgers.eu/blog/protomaps/",
+  "tool_url": "https://github.com/protomaps/protomaps",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50509837",
+  "domain": "infrastructure",
+  "app_type": "infra-storage",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Mapbox Tileserver",
+        "stars": 3,
+        "repo": "stuart-xyz/mapbox-vector-tileserver"
+      },
+      {
+        "name": "TileServer GL",
+        "stars": 2924,
+        "repo": "maptiler/tileserver-gl"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.1",
+      "summary": "Interact with Protomaps API",
+      "requires_python": "",
+      "license": "",
+      "home_page": "https://protomaps.com/docs/python"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
