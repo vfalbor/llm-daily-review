@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 10,
+    "title": "Winudf – DVD / BluRay driver for DOS, Windows 1.x – 3x / 95 / 98 / ME",
+    "url": "https://github.com/ages2001/WINUDF",
+    "hn_url": "https://news.ycombinator.com/item?id=50515182",
+    "points": 38,
+    "comments": 1,
+    "author": "",
+    "age": "2026-11-16T08:00:13",
+    "scraped_at": "2026-11-16T14:00:02.782Z",
+    "tool_url": "https://github.com/ages2001/WINUDF",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "Command-line driver for mounting and reading DVD/BD images on legacy Windows systems",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "libdvdcss",
+      "VeraCrypt's disk image mounters",
+      "fuseiso"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the project",
+      "Run `winudf --help` and verify usage output",
+      "Mount a sample ISO image and list its contents",
+      "Measure time to mount and read a 4.7GB ISO"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ages2001/WINUDF"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794837649027-yd4xy",
+    "log_dir": "/tmp/llm-review-1794837649027-yd4xy",
+    "install_success": true,
+    "install_time_s": 35.2,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_install_nodejs_s:1.104\nBENCHMARK:apk_install_npm_s:0.826\nBENCHMARK:apk_install_git_s:0.67\nBENCHMARK:apk_install_cargo_s:5.083\nBENCHMARK:apk_install_rust_s:0.577\nBENCHMARK:clone_time_s:18.215\nBENCHMARK:cargo_build_time_s:0.03\nBENCHMARK:pip_install_time_s:0.856\nBENCHMARK:vs_libdvdcss_read_ratio:1.0\nBENCHMARK:memory_peak_kb:40.95",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_nodejs_s:1.104\nINSTALL_OK\nBENCHMARK:apk_install_npm_s:0.826\nINSTALL_OK\nBENCHMARK:apk_install_git_s:0.67\nINSTALL_OK\nBENCHMARK:apk_install_cargo_s:5.083\nINSTALL_OK\nBENCHMARK:apk_install_rust_s:0.577\nBENCHMARK:clone_time_s:18.215\nTEST_PASS:clone_repo\nBENCHMARK:cargo_build_time_s:0.03\nTEST_FAIL:cargo_build:error: could not find `Cargo.toml` in `/tmp/winudf` or any parent directory\nBENCHMARK:pip_install_time_s:0.856\nTEST_FAIL:pip_install:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/winudf does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_SKIP:help_output:build failed\nTEST_SKIP:mount_iso:build failed\nBENCHMARK:vs_libdvdcss_read_ratio:1.0\nBENCHMARK:memory_peak_kb:40.95\nRUN_OK\n"
+  }
+}
