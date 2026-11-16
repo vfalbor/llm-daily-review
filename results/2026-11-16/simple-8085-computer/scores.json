@@ -1,0 +1,79 @@
+{
+  "app_name": "Simple 8085 Computer",
+  "url": "https://www.hackster.io/mit41301/simple-8085-computer-9fe156",
+  "scored_at": "2026-11-16T14:03:46.973Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only generic similar tools are listed, so we cannot assess novelty beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 9.8 seconds, well under the 30‑second threshold, despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The app is a hardware 8085 emulator, which does not align with the current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star counts or benchmark comparisons are available for this project or its peers, so a neutral score is assigned."
+    },
+    "community": {
+      "score": 4,
+      "justification": "With no GitHub repo data, we rely on HN points (59) which place it in the 50–200 range, yielding a community score of 4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 6 tests passed (≈17%), indicating core functionality is largely missing."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool has no PyPI package and no documented API modes or license information, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation details such as wiki or GitHub pages are unavailable, so a neutral score is used."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Absent repository data, HN points (59) fall in the 50–200 bracket, leading to a maturity score of 5."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data was reported, so a neutral performance score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments focus on technical discussion about upgrading to 8088 and appreciation of the project; no significant criticism noted."
+    }
+  },
+  "summary": "Simple 8085 Computer is a hardware project that provides step‑by‑step instructions and source code for an 8085 CPU emulator. It runs as a local simulation and can be used for firmware development, built on a custom emulator written for the 8085 architecture. The tool is suited for hobbyists or educators needing a low‑cost 8085 platform, but it lacks strong community activity and modern relevance. Its main strength is a quick, successful installation (under 10 seconds), while the major drawback is very limited functional test coverage and minimal integration support.",
+  "recommendation": "niche",
+  "app_url": "https://www.hackster.io/mit41301/simple-8085-computer-9fe156",
+  "tool_url": "https://github.com/mit41301/simple-8085-computer",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50467599",
+  "domain": "hardware-iot",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "technical curiosity",
+        "interest in hardware upgrade",
+        "enthusiastic praise"
+      ],
+      "negative_signals": [],
+      "justification": "Comments focus on technical discussion about upgrading to 8088 and appreciation of the project; no significant criticism noted.",
+      "comment_count": 5,
+      "hn_points": 59
+    }
+  }
+}
