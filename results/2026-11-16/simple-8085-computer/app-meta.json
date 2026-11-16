@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Simple 8085 Computer",
+    "url": "https://www.hackster.io/mit41301/simple-8085-computer-9fe156",
+    "hn_url": "https://news.ycombinator.com/item?id=50467599",
+    "points": 59,
+    "comments": 5,
+    "author": "",
+    "age": "2026-11-12T14:18:04",
+    "scraped_at": "2026-11-16T14:00:02.791Z",
+    "tool_url": "https://github.com/mit41301/simple-8085-computer",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "hardware-iot",
+    "app_type": "hardware-robotics",
+    "description": "A minimal 8085 microprocessor computer build with step‑by‑step instructions and source code for the CPU emulator.",
+    "use_modes": [
+      "simulation",
+      "firmware development"
+    ],
+    "similar_tools": [
+      "8085‑sim",
+      "Intel‑8086‑emulator"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the 8085 emulator",
+      "Run the provided hello world program and verify output",
+      "Measure cycle count for a sample instruction set",
+      "Compare performance against 8085‑sim"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mit41301/simple-8085-computer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794837755106-2zyr9",
+    "log_dir": "/tmp/llm-review-1794837755106-2zyr9",
+    "install_success": true,
+    "install_time_s": 9.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:src_files_count:0\nBENCHMARK:src_langs:{}",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:clone_repo:Cloning into '/tmp/simple-8085-computer'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:src_files_count:0\nBENCHMARK:src_langs:{}\nTEST_PASS:count_source_files\nTEST_SKIP:build_emulator:No build system found\nTEST_SKIP:run_hello_world:No hello world script found\nTEST_SKIP:measure_cycle_count:No instruction file\nTEST_SKIP:compare_performance:Baseline or hello script missing\nRUN_OK\n"
+  }
+}
