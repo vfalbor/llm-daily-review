@@ -1,0 +1,126 @@
+{
+  "app_name": "Making Atuin sync 32x faster with packfiles",
+  "url": "https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/",
+  "scored_at": "2026-11-16T14:07:26.128Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repo is not a fork (is_fork false) and was created 2233 days ago, yet it has 32,478 stars compared to the next similar tool with only 1,550 stars, indicating a substantially new approach."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded (install_success true) but took 194.3 seconds, which is longer than the <30 s ideal, and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑cli for shell history synchronization, it addresses a common workflow need in current developer environments."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 32,478 stars versus 1,550 for the closest alternative and a claimed 32× speedup, it offers a clear advantage over zsh‑snap, oh‑my‑zsh history, and fzf‑history."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 32,478 stars, 344 contributors, and was updated today (days_since_update 0), reflecting a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "No tests were executed (tests_passed 0 / tests_total 0) and the basic run failed, indicating limited usability out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool is available on PyPI and is a CLI/plugin, but it provides no API or webhook support, limiting automated integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "The repository is 2233 days old, has 1,047 forks and 459 open issues, indicating a mature but still actively evolving project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be quantified."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments acknowledge a significant speedup and praise the tool, yet some users express caution about premature optimisation and question the magnitude of the improvement."
+    }
+  },
+  "summary": "Atuin is a CLI‑based shell history manager that compresses history into packfiles to sync across machines. It is written in Rust and distributed via PyPI, running locally without any API keys. The tool is aimed at developers who need fast, reliable history synchronization across multiple shells. It shines with a reported 32× speed improvement and a large, active community, but the current test suite shows no functional verification and documentation details are scarce.",
+  "recommendation": "worth-watching",
+  "app_url": "https://blog.atuin.sh/making-atuin-sync-32x-faster-with-packfiles/",
+  "tool_url": "https://github.com/atuinsh/atuin",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50456548",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 32478,
+      "forks": 1047,
+      "open_issues": 459,
+      "watchers": 32478,
+      "contributors": 344,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2233,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "✨ Making your shell magical",
+      "topics": [
+        "bash",
+        "fish",
+        "history",
+        "rust",
+        "shell",
+        "zsh"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "zsh-snap",
+        "stars": 1550,
+        "repo": "marlonrichert/zsh-snap"
+      },
+      {
+        "name": "oh-my-zsh history",
+        "stars": 3,
+        "repo": "lcrespom/oh-my-zsh-history-popup"
+      },
+      {
+        "name": "fzf-history",
+        "stars": 484,
+        "repo": "joshskidmore/zsh-fzf-history-search"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.0.4",
+      "summary": "A tool for challenge creation and management for CSTEM/Roboplay Competition",
+      "requires_python": "",
+      "license": "GPL3",
+      "home_page": ""
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Notable speed improvement",
+        "Positive user feedback"
+      ],
+      "negative_signals": [
+        "Concerns about over-optimisation",
+        "Skepticism over performance claims"
+      ],
+      "justification": "The comments acknowledge a significant speedup and praise the tool, yet some users express caution about premature optimisation and question the magnitude of the improvement.",
+      "comment_count": 11,
+      "hn_points": 26
+    }
+  }
+}
