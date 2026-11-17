@@ -1,0 +1,94 @@
+{
+  "app_name": "Axonnic",
+  "url": "https://github.com/axonnic/axonnic",
+  "scored_at": "2026-11-17T14:04:47.109Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only the existence of similar tools (Manus with 58,974 stars, Skeletor with 545 stars) is known, so novelty cannot be assessed beyond a neutral default."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 8.7 seconds, well under the 30‑second threshold for easy setup, even though no PyPI package exists."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a hardware‑robotics wearable sensor, it aligns moderately with current AI trends around embodied interfaces but is not a core LLM tool."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has no reported star count, while comparable tools like Manus have 58,974 stars and Skeletor 545 stars, indicating limited distinguishing advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository data is available; HN points are only 49 with 24 comments, placing it in the <50 points tier for community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 test passed (0%), which is below the 50% threshold, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers an API SDK and web dashboard (use_modes: wearable, API SDK, web dashboard), providing a reasonable integration path despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No documentation metrics (wiki, pages, topics) were retrieved; in the absence of evidence the neutral score of 5 is applied."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data or version tags and only 49 HN points, the project appears fresh with limited proven stability."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "No benchmark lines were provided; the only performance hint is the 8.7‑second install time, which is insufficient to assess relative speed."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Most comments focus on the technical promise and enthusiasm for real‑world uses, while a few raise valid concerns about calibration, marketing, and societal implications, yielding a generally positive but cautiously critical tone."
+    }
+  },
+  "summary": "Axonnic provides wearable sleeves that track finger motion and estimate force using embedded IMUs and pressure sensors. The hardware device includes a local API SDK and a web dashboard for integration into applications. It is suited for developers building gesture‑based interfaces or motion‑capture pipelines that need on‑body sensing. While the install succeeds quickly, the project lacks community traction, documentation, and benchmarked performance, and its novelty over established motion‑capture solutions is unclear.",
+  "recommendation": "skip",
+  "app_url": "https://news.ycombinator.com/item?id=50522776",
+  "tool_url": "https://github.com/axonnic/axonnic",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50522776",
+  "domain": "hardware",
+  "app_type": "hardware-robotics",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Manus",
+        "stars": 58974,
+        "repo": "FoundationAgents/OpenManus"
+      },
+      {
+        "name": "Skeletor",
+        "stars": 545,
+        "repo": "trainline/react-skeletor"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Technical depth and potential applications highlighted",
+        "Praise for core technology and use‑case ideas",
+        "Interest from niche markets such as sports and dance"
+      ],
+      "negative_signals": [
+        "Concerns about EMG baseline drift and long‑term reliability",
+        "Criticism of marketing language and site design",
+        "Skepticism about job displacement and broader impact"
+      ],
+      "justification": "Most comments focus on the technical promise and enthusiasm for real‑world uses, while a few raise valid concerns about calibration, marketing, and societal implications, yielding a generally positive but cautiously critical tone.",
+      "comment_count": 24,
+      "hn_points": 49
+    }
+  }
+}
