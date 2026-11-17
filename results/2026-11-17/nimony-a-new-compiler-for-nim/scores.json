@@ -1,0 +1,94 @@
+{
+  "app_name": "Nimony: A New Compiler for Nim",
+  "url": "https://nimony.org/",
+  "scored_at": "2026-11-17T14:01:21.010Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not available, and no star count is provided, so the novelty cannot be quantified and receives a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 20.5 seconds, which is under the 30‑second threshold, though the tool is not pip‑installable."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a language transpiler for Nim, it addresses modern tooling trends but serves a niche audience within the broader LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count or benchmark data is available to compare against Rustc (2,174 stars) and LLVM (41,480 stars), so a neutral score is assigned."
+    },
+    "community": {
+      "score": 5,
+      "justification": "With no GitHub repository, community is inferred from Hacker News points (109) and 30 comments, which falls in the 100‑200 range, yielding a moderate score."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No test suite was executed (0/0 tests), leaving no quantitative evidence of usability beyond a successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool provides both CLI and library use modes, enabling programmatic integration despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "Documentation indicators such as wiki, GitHub Pages, or topic tags are not available, so a neutral score is given."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from Hacker News points (109), placing it in the 100‑300 bracket which maps to a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were emitted, and no performance claims are present, so a default neutral score is applied."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments overall show enthusiasm for Nim 3’s new features and potential adoption, with positive remarks on performance and design. However, several users criticize the site’s aesthetic and express concerns over breaking changes and feature clarity, leading to a moderately positive tone."
+    }
+  },
+  "summary": "Nimony is a new compiler for the Nim language that aims to improve compilation speed and modern tooling support. It can be used via a command‑line interface or imported as a library, targeting developers who need a faster Nim compilation pipeline. The project installs successfully in about 20 seconds from source, but it lacks a PyPI distribution and any published benchmarks. Community interest is modest, reflected by 109 Hacker News points and 30 comments, while documentation and repository metrics are unavailable.",
+  "recommendation": "niche",
+  "app_url": "https://nimony.org/",
+  "tool_url": "https://github.com/nimony/nimony",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50512779",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Rustc",
+        "stars": 2174,
+        "repo": "rust-lang/rustc_codegen_cranelift"
+      },
+      {
+        "name": "LLVM",
+        "stars": 41480,
+        "repo": "llvm/llvm-project"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Excited about new language features",
+        "Potential for broader adoption",
+        "Fast website performance"
+      ],
+      "negative_signals": [
+        "Criticism of website design",
+        "Concerns about breaking changes",
+        "Some confusion about features"
+      ],
+      "justification": "The comments overall show enthusiasm for Nim 3’s new features and potential adoption, with positive remarks on performance and design. However, several users criticize the site’s aesthetic and express concerns over breaking changes and feature clarity, leading to a moderately positive tone.",
+      "comment_count": 30,
+      "hn_points": 109
+    }
+  }
+}
