@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "OpenCode Browse",
+    "url": "https://opencode.ai/product/browse",
+    "hn_url": "https://news.ycombinator.com/item?id=50523459",
+    "points": 305,
+    "comments": 185,
+    "author": "",
+    "age": "2026-11-16T21:20:37",
+    "scraped_at": "2026-11-17T14:00:03.259Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/opencode-ai/browse",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A lightweight, open-source code search and navigation tool that indexes local repositories and provides a fast, searchable interface via a CLI and a minimal web UI.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "ripgrep",
+      "the_silver_searcher",
+      "lsim",
+      "fd"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/opencode-ai/browse",
+      "make install",
+      "browse --help",
+      "browse --index ./sample-repo && browse --search \"fn main\""
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/opencode-ai/browse"
+  },
+  "test_results": {
+    "run_id": "llm-review-1794924156262-h5qrb",
+    "log_dir": "/tmp/llm-review-1794924156262-h5qrb",
+    "install_success": true,
+    "install_time_s": 14.9,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:6.145\nBENCHMARK:git_clone_time_s:0.310\nBENCHMARK:git_clone_memory_kb:60.4\nBENCHMARK:cargo_install_build_time_s:0.001\nBENCHMARK:cargo_install_build_memory_kb:60.3\nBENCHMARK:pip_editable_install_time_s:0.001\nBENCHMARK:pip_editable_install_memory_kb:59.9\nBENCHMARK:cli_help_time_s:0.001\nBENCHMARK:cli_help_memory_kb:60.2\nBENCHMARK:create_sample_repo_time_s:0.013\nBENCHMARK:create_sample_repo_memory_kb:61.9\nBENCHMARK:index_search_time_s:0.002\nBENCHMARK:index_search_memory_kb:60.0\nBENCHMARK:baseline_rg_search_time_s:0.784\nBENCHMARK:baseline_rg_search_memory_kb:60.1",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 209, in <module>\n    browse_time = timed_browse()\n                  ^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 207, in timed_browse\n    run_cli(['--search','fn main'], cwd=SAMPLE_REPO)\n  File \"/app/test.py\", line 138, in run_cli\n    return run_cmd(['browse'] + args, cwd=cwd)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/app/test.py\", line 8, in run_cmd\n    return subprocess.run(cmd, cwd=cwd, env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 548, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/local/lib/python3.12/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'browse'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:6.145\nBENCHMARK:git_clone_time_s:0.310\nBENCHMARK:git_clone_memory_kb:60.4\nTEST_FAIL:git_clone:Cloning into '/tmp/opencode_test/browse'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:cargo_install_build_time_s:0.001\nBENCHMARK:cargo_install_build_memory_kb:60.3\nBENCHMARK:pip_editable_install_time_s:0.001\nBENCHMARK:pip_editable_install_memory_kb:59.9\nTEST_FAIL:install:[Errno 2] No such file or directory: '/tmp/opencode_test/browse'\nBENCHMARK:cli_help_time_s:0.001\nBENCHMARK:cli_help_memory_kb:60.2\nTEST_FAIL:cli_help:[Errno 2] No such file or directory: 'browse'\nBENCHMARK:create_sample_repo_time_s:0.013\nBENCHMARK:create_sample_repo_memory_kb:61.9\nTEST_PASS:create_sample_repo\nBENCHMARK:index_search_time_s:0.002\nBENCHMARK:index_search_memory_kb:60.0\nTEST_FAIL:index_search:[Errno 2] No such file or directory: 'browse'\nBENCHMARK:baseline_rg_search_time_s:0.784\nBENCHMARK:baseline_rg_search_memory_kb:60.1\n"
+  }
+}
