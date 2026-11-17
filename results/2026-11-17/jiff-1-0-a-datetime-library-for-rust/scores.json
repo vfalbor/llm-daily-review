@@ -1,0 +1,105 @@
+{
+  "app_name": "Jiff",
+  "url": "https://burntsushi.net/jiff/",
+  "scored_at": "2026-11-17T14:02:34.513Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be assessed beyond being an incremental addition to existing Rust datetime crates."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 17.1 seconds and the package is on PyPI (v0.2.0), meeting the <30 s pip install criterion."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a Rust datetime library, it is useful for general programming but does not target a pressing LLM workflow need."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count is available for Jiff, while comparable tools have 6,316 (chrono) and 60,248 (time) stars, and no benchmark comparison is provided."
+    },
+    "community": {
+      "score": 6,
+      "justification": "GitHub metrics are missing, but Hacker News shows 407 points and 30 comments with a positive sentiment score of 7/10, placing it in the 200‑500 point range."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The test suite reported 0/0 tests and the basic run failed, providing no quantitative evidence of usability."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The library is published on PyPI and supports CLI, API, and SDK use modes, indicating straightforward integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic data were retrieved, and no separate documentation site was identified."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository metadata, the Hacker News signal of 407 points qualifies for the >300‑point maturity proxy."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report install_time_s 8.265, git_clone_time_s 0.302, and cargo_build_time_s 0.001, but no comparative data to other libraries is available."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments show widespread enthusiasm for Jiff and appreciation for its creator, but also feature a substantive discussion about the pros and cons of keeping date/time in the standard library versus relying on third‑party crates. The overall tone leans positive with constructive critique."
+    }
+  },
+  "summary": "Jiff is a Rust library that provides zero‑allocation handling of dates, times, and time zones, supporting RFC 3339 and ISO 8601 formats. It is distributed via PyPI and can be used through a CLI, API, or SDK. The tool is aimed at Rust developers needing high‑performance datetime operations, especially those building performance‑critical applications. It benefits from quick installation (17.1 s) and strong Hacker News enthusiasm (407 points), but lacks public repository metrics, extensive benchmarks, and comprehensive documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://burntsushi.net/jiff/",
+  "tool_url": "https://github.com/chronotope/jiff",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50519744",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "chrono",
+        "stars": 6316,
+        "repo": "amazon-science/chronos-forecasting"
+      },
+      {
+        "name": "time-rs",
+        "stars": 3611,
+        "repo": "laurent22/rsync-time-backup"
+      },
+      {
+        "name": "time",
+        "stars": 60248,
+        "repo": "CorentinJ/Real-Time-Voice-Cloning"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "Python bindings to the Jiff datetime library",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Strong community praise",
+        "Author friendliness",
+        "Potential future standard library"
+      ],
+      "negative_signals": [
+        "Concern over ecosystem fragmentation",
+        "Debate on std inclusion"
+      ],
+      "justification": "The comments show widespread enthusiasm for Jiff and appreciation for its creator, but also feature a substantive discussion about the pros and cons of keeping date/time in the standard library versus relying on third‑party crates. The overall tone leans positive with constructive critique.",
+      "comment_count": 30,
+      "hn_points": 407
+    }
+  }
+}
