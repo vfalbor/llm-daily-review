@@ -1,0 +1,83 @@
+{
+  "app_name": "Energy-Based Reasoners: 385x more efficient inference",
+  "url": "https://energy-based-reasoners.github.io/",
+  "scored_at": "2026-11-18T14:01:23.465Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not provided, so novelty cannot be assessed beyond a neutral baseline."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) and took 10.4 seconds, which is under the 30‑second threshold for easy setup despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-evaluation tool, it directly addresses the prevalent need for efficient LLM benchmarking in today's AI workflows."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No GitHub star data is available, but the benchmark reports an inference latency of 0.000 ms, suggesting a speed edge over similar tools such as lm-eval-harness and OpenAI evals."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository data (stars, contributors, recent activity) could be retrieved, indicating a very small or inactive community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "The test suite reported 0 passed out of 0 total tests, providing no quantitative evidence of usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool offers a Python API and CLI but lacks a PyPI package, requiring manual installation; this places integration effort at a moderate level."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No information on wiki, GitHub Pages, or README quality was available, so documentation quality cannot be judged beyond a neutral score."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, open issues) the maturity of the project cannot be determined, resulting in a neutral rating."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark output shows an inference latency of 0.000 ms, indicating exceptionally fast performance compared to typical evaluation harnesses."
+    }
+  },
+  "summary": "Energy-Based Reasoners provides a Python API and CLI for highly efficient inference of energy‑based models, targeting LLM evaluation workflows. It installs quickly (10.4 s) and runs without requiring an API key, but lacks a PyPI package, so setup is manual. The framework is best suited for researchers needing ultra‑fast benchmark runs, as its reported latency of 0.000 ms is a clear strength, while the absence of visible community activity and limited documentation are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://energy-based-reasoners.github.io/",
+  "tool_url": "https://github.com/energy-based-reasoners/energy-based-reasoners",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50543989",
+  "domain": "llm-ai",
+  "app_type": "llm-evaluation",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "lm-eval-harness",
+        "stars": 14500,
+        "repo": "EleutherAI/lm-evaluation-harness"
+      },
+      {
+        "name": "OpenAI evals",
+        "stars": 19767,
+        "repo": "openai/evals"
+      },
+      {
+        "name": "EvalAI",
+        "stars": 2050,
+        "repo": "Cloud-CV/EvalAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
