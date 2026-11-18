@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Solid 2.0",
+    "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+    "hn_url": "https://news.ycombinator.com/item?id=50536387",
+    "points": 338,
+    "comments": 107,
+    "author": "",
+    "age": "2026-11-17T18:56:17",
+    "scraped_at": "2026-11-18T14:00:02.442Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/solidjs/solid",
+    "source_type": "tool",
+    "confidence": 0.96,
+    "domain": "web",
+    "app_type": "web-frontend",
+    "description": "A declarative, efficient, and flexible JavaScript UI library that focuses on fine-grained reactivity and zero‑runtime overhead.",
+    "use_modes": [
+      "Browser",
+      "Node.js",
+      "SSR"
+    ],
+    "similar_tools": [
+      "React",
+      "Vue",
+      "Svelte"
+    ],
+    "proposed_tests": [
+      "Run npm install solid@2.0.0 and verify build scripts",
+      "Create a simple component that renders a list of 1000 items and measure rendering time",
+      "Test server‑side rendering with a minimal Express server",
+      "Benchmark reactivity update latency for a state change affecting 500 elements",
+      "Run TypeScript type-checking on a sample project and check for errors"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/solidjs/solid"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795010616241-visb7",
+    "log_dir": "/tmp/llm-review-1795010616241-visb7",
+    "install_success": true,
+    "install_time_s": 20.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:render_1000_bundle_ms:2962.24\nBENCHMARK:reactivity_latency_ms:96.17\nBENCHMARK:tsc_time_ms:1340.91\nBENCHMARK:vs_react_render_ratio:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_01_731Z-debug-0.log\nTEST_FAIL:basic_install:npm install failed\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_02_669Z-debug-0.log\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_03_324Z-debug-0.log\nBENCHMARK:render_1000_bundle_ms:2962.24\nTEST_FAIL:render_1000:bundle error npm warn exec The following package was not found and will be installed: esbuild@0.28.2\n✘ [ERROR] Could not resolve \"solid-js\"\n\n    tmp/solid_test_render/main.jsx:2:40:\n      2 │ import { createSignal, onCleanup } from \"solid-js\";\n        ╵                                         ~~~~~~~~~~\n\n  You can mark the path \"solid-js\" as external to exclude it from the bundle, which will remove this error and leave the unresolved path in the bundle.\n\n✘ [ERROR] Could not resolve \"solid-js/web\"\n\n    tmp/solid_test_render/main.jsx:3:23:\n      3 │ import { render } from \"solid-js/web\";\n        ╵                        ~~~~~~~~~~~~~~\n\n  You can mark the path \"solid-js/web\" as external to exclude it from the bundle, which will remove this error and leave the unresolved path in the bundle.\n\n2 errors\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_07_012Z-debug-0.log\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_07_770Z-debug-0.log\nTEST_FAIL:ssr_express:[Errno 111] Connection refused\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_10_483Z-debug-0.log\nBENCHMARK:reactivity_latency_ms:96.17\nTEST_PASS:reactivity_latency\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_11_304Z-debug-0.log\nINSTALL_FAIL:npm install error: npm error Tracker \"idealTree\" already exists\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-18T14_04_12_014Z-debug-0.log\nBENCHMARK:tsc_time_ms:1340.91\nTEST_FAIL:typescript_check:tsc errors npm warn exec The following package was not found and will be installed: tsc@2.0.4\nnpm warn deprecated tsc@2.0.4: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.\nBENCHMARK:vs_react_render_ratio:0.833\nRUN_OK\n"
+  }
+}
