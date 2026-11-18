@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "Energy-Based Reasoners: 385x more efficient inference",
+    "url": "https://energy-based-reasoners.github.io/",
+    "hn_url": "https://news.ycombinator.com/item?id=50543989",
+    "points": 168,
+    "comments": 25,
+    "author": "",
+    "age": "2026-11-18T09:29:32",
+    "scraped_at": "2026-11-18T14:00:02.428Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/energy-based-reasoners/energy-based-reasoners",
+    "confidence": 0.85,
+    "domain": "llm-ai",
+    "app_type": "llm-evaluation",
+    "description": "A framework for efficient inference of energy-based models, providing benchmarks and tooling for LLM evaluation.",
+    "use_modes": [
+      "Python API",
+      "CLI"
+    ],
+    "similar_tools": [
+      "lm-eval-harness",
+      "OpenAI evals",
+      "EvalAI"
+    ],
+    "proposed_tests": [
+      "pip install energy-based-reasoners",
+      "Run a provided evaluation script on a small LLM",
+      "Measure inference latency and compare to baseline",
+      "Verify correctness of output against reference results"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/energy-based-reasoners/energy-based-reasoners"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795010450649-1eih3",
+    "log_dir": "/tmp/llm-review-1795010450649-1eih3",
+    "install_success": true,
+    "install_time_s": 10.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.118\nBENCHMARK:process_rss_kb:920\nBENCHMARK:vs_lm_eval_harness_inference_latency_ms:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.118\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement energy-based-reasoners (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for energy-based-reasoners\nINSTALL_FAIL:git_clone:Cloning into '/tmp/energy-based-reasoners'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:process_rss_kb:920\nBENCHMARK:vs_lm_eval_harness_inference_latency_ms:0.000\nRUN_OK\n"
+  }
+}
