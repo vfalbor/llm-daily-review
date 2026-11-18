@@ -1,0 +1,122 @@
+{
+  "app_name": "jQuery 4.1.0",
+  "url": "https://github.com/jquery/jquery",
+  "scored_at": "2026-11-18T14:03:34.533Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository is 6,437 days old and is not a fork, and similar DOM libraries already exist, indicating an incremental rather than groundbreaking contribution."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 15.7 seconds (under 30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑frontend library it remains useful for maintaining large legacy sites, matching current frontend development needs."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "jQuery has 59,986 stars, far exceeding Zepto (15,052), Cash (7,724) and VanillaJS (1,161), giving it a clear advantage in adoption and ecosystem support."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 59,986 stars, 349 contributors, and was updated 0 days ago, showing a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0 %) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 8,
+      "justification": "A PyPI package exists (v1.2.3), the library works in both Browser and Node.js environments, and it is released under an MIT license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 6,437 days old, has 20,703 forks and only 96 open issues, indicating a mature and stable project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines (install_time_s 0.824 ms, require_version_ms 97.64 ms, ajax_vs_fetch_total_ms 83.47 ms) are present but lack comparative data, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the fact that jQuery 4.1 remains maintained and acknowledge its ongoing relevance in large legacy sites, while a minority express frustration with the quality of jQuery UI and the challenges of refactoring legacy code."
+    }
+  },
+  "summary": "jQuery 4.1.0 is a widely used JavaScript library for DOM manipulation, events, animation, and Ajax, built as a pure JS package with both browser and Node.js support. It is packaged on PyPI and installs quickly without external keys. The library is ideal for teams maintaining large legacy web applications that need a stable, well‑known tool. Its massive star count and active contributor base are its biggest strengths, while the current test suite shows no functional coverage, highlighting a reliability gap.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+  "tool_url": "https://github.com/jquery/jquery",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50537156",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 59986,
+      "forks": 20703,
+      "open_issues": 96,
+      "watchers": 59986,
+      "contributors": 349,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 6437,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "jQuery JavaScript Library",
+      "topics": [
+        "jquery"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Zepto",
+        "stars": 15052,
+        "repo": "madrobby/zepto"
+      },
+      {
+        "name": "Cash",
+        "stars": 7724,
+        "repo": "dthree/cash"
+      },
+      {
+        "name": "VanillaJS",
+        "stars": 1161,
+        "repo": "1Marc/modern-todomvc-vanillajs"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.2.3",
+      "summary": "Jquery javascript library for TurboGears",
+      "requires_python": null,
+      "license": "MIT",
+      "home_page": "UNKNOWN"
+    },
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "continued maintenance",
+        "legacy support",
+        "nostalgic appreciation"
+      ],
+      "negative_signals": [
+        "UI quality concerns",
+        "legacy pain points"
+      ],
+      "justification": "Most comments praise the fact that jQuery 4.1 remains maintained and acknowledge its ongoing relevance in large legacy sites, while a minority express frustration with the quality of jQuery UI and the challenges of refactoring legacy code.",
+      "comment_count": 30,
+      "hn_points": 347
+    }
+  }
+}
