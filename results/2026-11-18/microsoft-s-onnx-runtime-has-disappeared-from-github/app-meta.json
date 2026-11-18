@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 15,
+    "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+    "url": "https://github.com/microsoft/onnxruntime",
+    "hn_url": "https://news.ycombinator.com/item?id=50539610",
+    "points": 381,
+    "comments": 80,
+    "author": "",
+    "age": "2026-11-17T23:18:49",
+    "scraped_at": "2026-11-18T14:00:02.437Z",
+    "tool_url": "https://github.com/microsoft/onnxruntime",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.99,
+    "domain": "llm-ai",
+    "app_type": "llm-inference",
+    "description": "ONNX Runtime is a cross-platform, high-performance scoring engine for Open Neural Network Exchange (ONNX) models. It provides a lightweight runtime that can be embedded in applications or deployed as a server for inference.",
+    "use_modes": [
+      "CLI",
+      "HTTP API",
+      "SDK"
+    ],
+    "similar_tools": [
+      "TensorRT",
+      "OpenVINO",
+      "Triton Inference Server"
+    ],
+    "proposed_tests": [
+      "pip install onnxruntime",
+      "python -c \"import onnxruntime;print('import success')\"",
+      "Create a small ONNX model, load with onnxruntime and run inference",
+      "Measure inference latency and compare to baseline"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/microsoft/onnxruntime"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795010484871-8s18m",
+    "log_dir": "/tmp/llm-review-1795010484871-8s18m",
+    "install_success": true,
+    "install_time_s": 10,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.066\nBENCHMARK:import_time_ms:0.26\nBENCHMARK:onnxruntime_file_count:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip install onnxruntime error ERROR: Could not find a version that satisfies the requirement onnxruntime (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for onnxruntime\nBENCHMARK:install_time_s:1.066\nINSTALL_FAIL:git clone error Cloning into '/tmp/tmp0yhiktqv'...\nfatal: could not read Username for 'https://github.com': No such device or address\nTEST_FAIL:import_onnxruntime:No module named 'onnxruntime'\nBENCHMARK:import_time_ms:0.26\nTEST_SKIP:inference:import_failed\nBENCHMARK:onnxruntime_file_count:0\nRUN_OK\n"
+  }
+}
