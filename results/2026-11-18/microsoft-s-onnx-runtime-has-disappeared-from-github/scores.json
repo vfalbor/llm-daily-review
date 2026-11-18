@@ -1,0 +1,90 @@
+{
+  "app_name": "Microsoft's ONNX Runtime has disappeared from GitHub",
+  "url": "https://github.com/microsoft/onnxruntime",
+  "scored_at": "2026-11-18T14:02:23.806Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are unavailable, and no star count is provided, so the novelty cannot be quantified and defaults to a neutral score."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 10 seconds, which is under the 30‑second threshold, and the package exists on PyPI."
+    },
+    "current_relevance": {
+      "score": 9,
+      "justification": "The app type is llm-inference, a core component of today’s LLM workflows, making it highly relevant to the current AI ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "While similar tools have 11‑15 k stars, no star count is available for ONNX Runtime; its support for CLI, HTTP API, and SDK gives it a modest advantage."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository data (stars, contributors, update recency) is available, so a neutral community score is assigned."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0 %), which is below the 50 % threshold, indicating core functionality is not verified."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package is on PyPI and offers CLI, HTTP API, and SDK modes, enabling straightforward integration despite the missing license detail."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository, wiki, or GitHub Pages information is present, so documentation quality cannot be assessed beyond a neutral baseline."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data (creation date, forks, issues), maturity cannot be determined, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows an import time of 0.26 ms and install time of 1.066 s, indicating fast loading, though no comparative figures are available."
+    }
+  },
+  "summary": "ONNX Runtime is a cross‑platform engine that executes ONNX models via a CLI, HTTP API, or SDK. It runs locally without requiring an API key and is packaged on PyPI (v1.32.0, Python ≥3.11). The tool is suited for developers needing a lightweight, high‑performance inference runtime for LLMs. Benchmarks show a very fast import time of 0.26 ms, but the lack of repository data leaves its community health and maturity unclear.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/microsoft/onnxruntime",
+  "tool_url": "https://github.com/microsoft/onnxruntime",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50539610",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "TensorRT",
+        "stars": 15098,
+        "repo": "NVIDIA/TensorRT-LLM"
+      },
+      {
+        "name": "OpenVINO",
+        "stars": 11231,
+        "repo": "openvinotoolkit/openvino"
+      },
+      {
+        "name": "Triton Inference Server",
+        "stars": 11152,
+        "repo": "triton-inference-server/server"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.32.0",
+      "summary": "ONNX Runtime is a runtime accelerator for Machine Learning models",
+      "requires_python": ">=3.11",
+      "license": "MIT License",
+      "home_page": "https://onnxruntime.ai"
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
