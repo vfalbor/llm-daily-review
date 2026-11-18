@@ -1,0 +1,130 @@
+{
+  "app_name": "Solid 2.0",
+  "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+  "scored_at": "2026-11-18T14:04:43.146Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo is 3129 days old and is not a fork, indicating it is an established project rather than a brand‑new approach, so it is an incremental improvement over existing UI libraries."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 20.8 seconds and the package is available on PyPI, meeting the <30 s, pip‑install criteria."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a web‑frontend UI library, Solid 2.0 aligns with current trends of fine‑grained reactivity and zero‑runtime overhead in modern web development."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 36,373 stars it is smaller than React (252,786) and Vue (212,509) but the benchmark shows a render ratio of 0.833 versus React, indicating a measurable speed advantage."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 36,373 GitHub stars, 240 contributors, and the last commit was today (0 days ago), demonstrating a very active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 5 tests passed (20%), and while install succeeded, the low test pass rate reflects limited ease of use."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Solid 2.0 is published on PyPI (v0.2.0), supports Browser, Node.js, and SSR use modes, and uses an MIT license, providing straightforward integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score is assigned due to insufficient documentation evidence."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 3129 days old, has 1,157 forks and only 23 open issues, indicating a mature and stable project."
+    },
+    "performance": {
+      "score": 8,
+      "justification": "Benchmarks report render_1000_bundle_ms of 2962 ms and a vs_react_render_ratio of 0.833, showing Solid 2.0 renders about 17% faster than React."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters express excitement for Solid 2.0’s release and its growing ecosystem, while a minority voice concerns over political associations and mixed opinions on AI‑generated code and component library necessity."
+    }
+  },
+  "summary": "Solid 2.0 is a declarative JavaScript UI library that delivers fine‑grained reactivity with zero‑runtime overhead. It is built in TypeScript and can run in browsers, Node.js, or via server‑side rendering. Developers looking for a lightweight alternative to React or Vue will benefit from its faster render times and active contributor base. Its main strength is measurable performance gains (≈17% faster than React), while the low test pass rate (20%) suggests some usability issues.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
+  "tool_url": "https://github.com/solidjs/solid",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50536387",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": {
+      "stars": 36373,
+      "forks": 1157,
+      "open_issues": 23,
+      "watchers": 36373,
+      "contributors": 240,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3129,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "topics": [
+        "declarative",
+        "fine-grained",
+        "javascript",
+        "jsx",
+        "performance",
+        "proxies",
+        "reactive",
+        "solid"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "React",
+        "stars": 252786,
+        "repo": "react/react"
+      },
+      {
+        "name": "Vue",
+        "stars": 212509,
+        "repo": "vuejs/vue"
+      },
+      {
+        "name": "Svelte",
+        "stars": 89659,
+        "repo": "sveltejs/svelte"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.2.0",
+      "summary": "Pythonic state machines",
+      "requires_python": null,
+      "license": "UNKNOWN",
+      "home_page": "http://github.com/haaksmash/solid"
+    },
+    "tests_passed": 1,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "strong community enthusiasm",
+        "solid component library support",
+        "framework’s design system appeal"
+      ],
+      "negative_signals": [
+        "political controversy",
+        "some skepticism on AI agent usage",
+        "mixed views on component libraries"
+      ],
+      "justification": "Most commenters express excitement for Solid 2.0’s release and its growing ecosystem, while a minority voice concerns over political associations and mixed opinions on AI‑generated code and component library necessity.",
+      "comment_count": 30,
+      "hn_points": 338
+    }
+  }
+}
