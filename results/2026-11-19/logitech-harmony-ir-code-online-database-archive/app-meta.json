@@ -1,0 +1,47 @@
+{
+  "app": {
+    "rank": 27,
+    "title": "Logitech Harmony IR code online database archive",
+    "url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+    "hn_url": "https://news.ycombinator.com/item?id=50519778",
+    "points": 56,
+    "comments": 10,
+    "author": "",
+    "age": "2026-11-16T16:56:43",
+    "scraped_at": "2026-11-19T14:00:02.591Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "tool_url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+    "repo_url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+    "confidence": 0.97,
+    "domain": "data",
+    "app_type": "data-format",
+    "description": "A repository of Logitech Harmony remote control IR codes in JSON format.",
+    "use_modes": [
+      "CLI",
+      "API"
+    ],
+    "similar_tools": [
+      "remote-control-code-database",
+      "lircd-conf"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/pickysysadmin/logitech-harmony-ir-archive && ls -R",
+      "python -m json.tool logitech_harmony.json"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true
+  },
+  "test_results": {
+    "run_id": "llm-review-1795096971601-ky4zg",
+    "log_dir": "/tmp/llm-review-1795096971601-ky4zg",
+    "install_success": true,
+    "install_time_s": 113.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:import_time_s:0.0341\nBENCHMARK:json_files_count:341425\nBENCHMARK:vs_remote_control_code_database_import_ratio:0.2842",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:logitech-harmony-ir-archive:ERROR: Could not find a version that satisfies the requirement logitech-harmony-ir-archive (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for logitech-harmony-ir-archive\nTEST_FAIL:clone_repo:Cloning into '/tmp/logitech-harmony-ir-archive'...\nerror: unable to write file codesets/12/128114bd2c892c3e.json\nerror: unable to write file codesets/12/1282d079cbe65516.json\nerror: unable to write file codesets/12/128367edc9cb09b7.json\nerror: unable to write file codesets/12/128392b8654cc9af.json\nerror: unable to write file codesets/12/12842068514c5dd5.json\nerror: unable to write file codesets/12/1284daa46b1251e1.json\nerror: unable to write file codesets/12/12890b156161f3b3.json\nerror: unable to write file codesets/12/128bc86120e0dd8b.json\nerror: unable to write file codesets/12/128ce166c4b1aed4.json\nerror: unable to write file codesets/12/128e7dd1788e228b.json\nerror: unable to write file codesets/12/128ec5487a9a24e0.json\nerror: unable to write file codesets/12/128f34c017b7674d.json\nerror: unable to write file codesets/12/12901c2f63894a63.json\nerror: unable to write file codesets/12/1291f60eb7c1a846.json\nerror: unable to write file codesets/12/1293881b0d9c3b79.json\nerror: unable to write file codesets/12/1294a047d1316beb.json\nerror: unable to write file codesets/12/1295b0662df3e798.json\nerror: unable to write file codesets/12/1295f4637767cbf0.json\nerror: unable to write file codesets/12/129662fc923e3914.json\nerror: unable to write file codesets/12/12981d0a956bfcbd.json\nerror: unable to write file codesets/12/129f89f501201346.json\nerror: unable to write file codesets/12/12a06657b75ef1a3.json\nerror: unable to write file codesets/12/12a2eb76b60346fd.json\nerror: unable to write file codesets/12/12a6e3b2d3711737.json\nerror: unable to write file codesets/12/12a761d6de295568.json\nerror: unable to write file codesets/12/12a7632e6a2c37e1.json\nerror: unable to write file codesets/12/12a89c393d275067.json\nerror: unable to write file codesets/12/12a9318ef5f71a62.json\nerror: unable to write file codesets/12/12a960c6a5b57529.json\nerror: unable to write file codesets/12/12aa5745ce47ea7c.json\nerror: unable to write file codesets/12/12ab66abd3950242.json\nerror: unable to write file codesets/12/12ade27dc099c1c2.json\nerror: unable to write file codesets/12/12ae51e49b60df96.json\nerror: unable to write file codesets/12/12af070db94b85cd.json\nerror: unable to write file codesets/12/12aff8b2174b8249.json\nerror: unable to write file codesets/12/12b06a5c4003ee75.json\nerror: unable to write file codesets/12/12b0b0f7955d1c12.json\nerror: unable to write file codesets/12/12b0b45a4ffa8b28.json\nerror: unable to write file codesets/12/12b241c06db19c9e.json\nerror: unable to write file codesets/12/12b31e506b0c65ed.json\nerror: unable to write file codesets/12/12b5691b34585a90.json\nerror: unable to write file codesets/12/12b888acfaf73fba.json\nerror: unable to write file codesets/12/12ba5d0334c88167.json\nerror: unable to write file codesets/12/12bb9fd99e44ac7b.json\nerror: unable to write file codesets/12/12be226194f6f190.json\nerror: unable to write file codesets/12/12be6fe12a7672bf.json\nerror: unable to write file codesets/12/12beb6e9a7c1d5eb.json\nerror: unable to write file codesets/12/12c0934750a8cddb.json\nerror: unable to write "
+  }
+}
