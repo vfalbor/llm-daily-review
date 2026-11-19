@@ -1,0 +1,98 @@
+{
+  "app_name": "Foolscap",
+  "url": "https://foolscap.works/",
+  "scored_at": "2026-11-19T14:02:50.101Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The tool targets a similar problem space as Grammarly, AutoCrit, and Scrivener, which already exist, indicating an incremental improvement rather than a brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded (true) in 22.7 s, which is under the 30 s threshold, and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool-editor that provides context‑aware writing assistance without generating text, it fits current LLM workflow trends where non‑generative support is increasingly valued."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub stars are reported, but the tool’s non‑generative assistance differentiates it from Grammarly (1,633 stars) and Scrivener (585 stars); however, the import benchmark (2.34 ms) is slower than Scrivener’s 0.03 ms, limiting its advantage."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No public GitHub repository is detected and HN points are only 8 with a neutral sentiment, indicating very limited community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25 %), which is below the 50 % threshold for acceptable core functionality."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The package exists on PyPI and offers CLI, GUI, and API modes, but the license is not listed, requiring some manual integration effort."
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No GitHub repository, wiki, or GitHub Pages were found, and no documentation signals were present."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "Absence of a repository and only 8 HN points suggest the project is in an early, low‑visibility stage."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark shows import_time_ms of 2.34, which is slower than the Scrivener reference of 0.03 ms, offering no clear performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 4,
+      "justification": "HN sentiment score is 5/10 with only 8 points and 2 comments, yielding a neutral overall perception."
+    }
+  },
+  "summary": "Foolscap is a writing application that reads your manuscript and offers context‑aware suggestions without actually generating text. It runs locally, is distributed via PyPI, and provides CLI, GUI, and API interfaces built on standard Python tooling. It is aimed at writers who want AI‑powered assistance that augments rather than replaces their prose, especially those wary of auto‑generation. While its non‑generative approach is a distinguishing strength, the tool lacks community traction, documentation, and shows slower import performance compared to existing editors like Scrivener.",
+  "recommendation": "niche",
+  "app_url": "https://foolscap.works/",
+  "tool_url": "https://github.com/foolscap-works/foolscap",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50559749",
+  "domain": "devtool",
+  "app_type": "devtool-editor",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Grammarly",
+        "stars": 1633,
+        "repo": "znck/grammarly"
+      },
+      {
+        "name": "AutoCrit",
+        "stars": 89,
+        "repo": "CarperAI/autocrit"
+      },
+      {
+        "name": "Scrivener",
+        "stars": 585,
+        "repo": "mojotech/scrivener_ecto"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "24.9.0",
+      "summary": "Foolscap contains an RPC protocol for Twisted.",
+      "requires_python": ">=3.8",
+      "license": "MIT",
+      "home_page": "http://foolscap.lothar.com/trac"
+    },
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 8
+    }
+  }
+}
