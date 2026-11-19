@@ -1,0 +1,114 @@
+{
+  "app_name": "What's New in PHP 8.6",
+  "url": "https://www.php.net/releases/8.6/en.php",
+  "scored_at": "2026-11-19T14:01:48.456Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 5,635 days old and is not a fork, indicating an established language rather than a brand‑new approach; compared to similar runtimes it has vastly more stars, showing it is an incremental evolution."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 27 seconds despite no PyPI package, demonstrating a relatively smooth build process."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a lang-runtime, PHP 8.6 is still used but does not target the hottest LLM workflow pain points today."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 41,829 GitHub stars versus 25‑231 stars for comparable runtimes, PHP 8.6 stands out in popularity, though the release adds incremental features rather than unique capabilities."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 41,829 stars, 1,705 contributors, and was updated today (0 days since last commit), indicating a very active community."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Zero of one test passed (0 %) despite a successful install, suggesting core functionality is not yet reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is available via CLI and Web Server modes and is BSD‑3‑Clause licensed, but lacks a PyPI package, requiring manual integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repository is 5,635 days old, has 8,579 forks and 2,364 open issues, and the release is a stable version of a long‑standing language."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only generic install timings (apk install 7.96 s, git clone 11.52 s) are available; no performance benchmarks for PHP 8.6 were reported."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments praise performance and security improvements while raising legitimate concerns about PHP’s long‑term relevance and package quality, leading to a moderately positive overall sentiment."
+    }
+  },
+  "summary": "PHP 8.6 is the latest official release of the PHP server‑side scripting language, adding new language features and performance tweaks. It is built from the PHP source code in C and can be used via CLI or as a web server runtime. Developers maintaining PHP web applications will benefit from the update, especially those needing the latest async and security improvements. The project’s biggest strength is its massive, active community (41 k stars, 1.7 k contributors), while the lack of automated test coverage and missing package managers make immediate adoption less frictionless.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.php.net/releases/8.6/en.php",
+  "tool_url": "https://github.com/php/php-src",
+  "source_type": "article",
+  "hn_url": "https://news.ycombinator.com/item?id=50557870",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": {
+      "stars": 41829,
+      "forks": 8579,
+      "open_issues": 2364,
+      "watchers": 41829,
+      "contributors": 1705,
+      "license": "BSD-3-Clause",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5635,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "The PHP Interpreter",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Python 3.12",
+        "stars": 25,
+        "repo": "pascallj/python3.12-backport"
+      },
+      {
+        "name": "Ruby 3.3",
+        "stars": 1,
+        "repo": "sys0dm1n/docker-ruby-2.3.3"
+      },
+      {
+        "name": "Node.js 20",
+        "stars": 231,
+        "repo": "sangammukherjee/NodeJS-Course-2024-For-Beginners"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "ZTS overhead reduction",
+        "regular security patch cycle",
+        "improved async model"
+      ],
+      "negative_signals": [
+        "concerns about PHP decline",
+        "low‑quality packages",
+        "security vulnerability alerts"
+      ],
+      "justification": "Comments praise performance and security improvements while raising legitimate concerns about PHP’s long‑term relevance and package quality, leading to a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 152
+    }
+  }
+}
