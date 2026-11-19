@@ -1,0 +1,100 @@
+{
+  "app_name": "Logitech Harmony IR code online database archive",
+  "url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+  "scored_at": "2026-11-19T14:05:03.019Z",
+  "total_score": 60,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repository was created 81 days ago, is not a fork, and merely aggregates IR codes that already exist in similar tools (e.g., lircd-conf has 1 star), indicating an incremental contribution."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Installation succeeded but took 113.4 seconds, exceeding the <30s ideal, and there is no PyPI package, requiring manual setup."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a data-format archive for Logitech Harmony IR codes, it addresses a niche hardware‑control need rather than a core LLM workflow, limiting its relevance to current AI development trends."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 128 GitHub stars versus the closest alternative's 1 star and a benchmark import time of 0.0341 s (ratio 0.2842 compared to remote‑control-code‑database), it offers a clearly faster and more popular solution."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 128 stars, 2 contributors, and was updated 8 days ago, showing an active but modest community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 4 tests, 0 passed (0% pass rate) and although the basic run succeeded, the lack of passing tests indicates poor usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The repo provides a CLI and an API and is licensed CC0‑1.0, but without a PyPI package integration must be done manually."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 81 days old, has 40 forks and zero open issues, indicating a stable but still early‑stage project."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows an import time of 0.0341 s and a favorable vs_remote_control_code_database_import_ratio of 0.2842, suggesting good performance relative to peers."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments praise the effort to compile an IR database and express excitement about using the data for personal projects, with no significant criticism noted."
+    }
+  },
+  "summary": "This repository provides a curated JSON archive of Logitech Harmony remote‑control IR codes. It offers a simple CLI and API built on an open‑source CC0 license, and the data can be imported in about 0.03 seconds. It is useful for hobbyists or developers needing ready‑made IR code databases for custom automation projects. The standout strength is its speed and higher star count compared to similar tiny tools, while the main drawback is the lack of passing test cases and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+  "tool_url": "https://github.com/pickysysadmin/logitech-harmony-ir-archive",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50519778",
+  "domain": "data",
+  "app_type": "data-format",
+  "enriched": {
+    "github": {
+      "stars": 128,
+      "forks": 40,
+      "open_issues": 0,
+      "watchers": 128,
+      "contributors": 2,
+      "license": "CC0-1.0",
+      "language": "HTML",
+      "is_fork": false,
+      "days_since_update": 8,
+      "days_since_created": 81,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "An archive of every IR code and protocol format used by Logitech Harmony Remotes/Hubs",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "lircd-conf",
+        "stars": 1,
+        "repo": "mid0111/lircd.conf.d"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Helpful community effort",
+        "Convenience for users",
+        "Potential for DIY projects"
+      ],
+      "negative_signals": [],
+      "justification": "The comments praise the effort to compile an IR database and express excitement about using the data for personal projects, with no significant criticism noted.",
+      "comment_count": 10,
+      "hn_points": 56
+    }
+  }
+}
