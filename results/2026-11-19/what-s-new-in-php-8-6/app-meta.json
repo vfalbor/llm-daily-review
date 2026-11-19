@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "What's New in PHP 8.6",
+    "url": "https://www.php.net/releases/8.6/en.php",
+    "hn_url": "https://news.ycombinator.com/item?id=50557870",
+    "points": 151,
+    "comments": 74,
+    "author": "",
+    "age": "2026-11-19T09:27:15",
+    "scraped_at": "2026-11-19T14:00:02.583Z",
+    "tool_url": "https://github.com/php/php-src",
+    "source_type": "article",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "language",
+    "app_type": "lang-runtime",
+    "description": "Official release of PHP 8.6, a server‑side scripting language with new features and performance improvements.",
+    "use_modes": [
+      "CLI",
+      "Web Server"
+    ],
+    "similar_tools": [
+      "Python 3.12",
+      "Ruby 3.3",
+      "Node.js 20"
+    ],
+    "proposed_tests": [
+      "Download PHP 8.6 source, compile and run `php -v`.",
+      "Execute a simple script `<?php echo 'hello'; ?>` via CLI and web server.",
+      "Measure compile time and execution time for a benchmark script.",
+      "Run `php -r \"var_dump(PHP_VERSION);\"` and verify version string matches 8.6.*"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/php/php-src"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795096860879-7gh82",
+    "log_dir": "/tmp/llm-review-1795096860879-7gh82",
+    "install_success": true,
+    "install_time_s": 27,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:7.96\nBENCHMARK:git_clone_time_s:11.52",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into '/tmp/php_test_s89p8rw1/php-src'...\nUpdating files:  36% (10632/28882)\rUpdating files:  37% (10687/28882)\rUpdating files:  38% (10976/28882)\rUpdating files:  39% (11264/28882)\rUpdating files:  40% (11553/28882)\rUpdating files:  41% (11842/28882)\rUpdating files:  42% (12131/28882)\rUpdating files:  43% (12420/28882)\rUpdating files:  44% (12709/28882)\rUpdating files:  45% (12997/28882)\rUpdating files:  46% (13286/28882)\rUpdating files:  47% (13575/28882)\rUpdating files:  48% (13864/28882)\rUpdating files:  49% (14153/28882)\rUpdating files:  50% (14441/28882)\rUpdating files:  51% (14730/28882)\rUpdating files:  52% (15019/28882)\rUpdating files:  53% (15308/28882)\rUpdating files:  54% (15597/28882)\rUpdating files:  55% (15886/28882)\rUpdating files:  56% (16174/28882)\rUpdating files:  57% (16463/28882)\rUpdating files:  58% (16752/28882)\rUpdating files:  59% (17041/28882)\rUpdating files:  60% (17330/28882)\rUpdating files:  61% (17619/28882)\rUpdating files:  62% (17907/28882)\rUpdating files:  63% (18196/28882)\rUpdating files:  64% (18485/28882)\rUpdating files:  65% (18774/28882)\rerror: unable to write file ext/soap/php_encoding.c\nerror: unable to write file ext/soap/php_encoding.h\nerror: unable to write file ext/soap/php_http.c\nerror: unable to write file ext/soap/php_http.h\nerror: unable to write file ext/soap/php_packet_soap.c\nerror: unable to write file ext/soap/php_packet_soap.h\nerror: unable to write file ext/soap/php_schema.c\nerror: unable to write file ext/soap/php_schema.h\nerror: unable to write file ext/soap/php_sdl.c\nerror: unable to write file ext/soap/php_sdl.h\nerror: unable to write file ext/soap/php_soap.h\nerror: unable to write file ext/soap/php_xml.c\nerror: unable to write file ext/soap/php_xml.h\nerror: unable to write file ext/soap/soap.c\nerror: unable to write file ext/soap/soap.stub.php\nerror: unable to write file ext/soap/soap_arginfo.h\nerror: unable to write file ext/soap/tests/GHSA-85c2-q967-79q5.phpt\nerror: unable to write file ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt\nerror: unable to write file ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt\nerror: unable to write file ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt\nerror: unable to write file ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt\nerror: unable to write file ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt\nerror: unable to write file ext/soap/tests/SoapClient/invalid-encoding-option.phpt\nerror: unable to write file ext/soap/tests/SoapClient/missing-options-non-wsdl-mode.phpt\nerror: unable to write file ext/soap/tests/SoapClient/setSoapHeaders-invalid-headers.phpt\nerror: unable to write file ext/soap/tests/SoapClient/soapCall-invalid-headers.phpt\nerror: unable to write file ext/soap/tests/SoapFault/gh14586.phpt\nerror: unable to write file ext/soap/tests/SoapServer/SoapServer_constructor_errors.phpt\nerror: unable to write file ext/soap/tests/SoapServer/__getLastRespon",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\n( 1/59) Upgrading libcrypto3 (3.5.9-r0 -> 3.5.9-r1)\n( 2/59) Upgrading libssl3 (3.5.9-r0 -> 3.5.9-r1)\n( 3/59) Upgrading zlib (1.3.2-r1 -> 1.4-r0)\n( 4/59) Installing m4 (1.4.20-r1)\n( 5/59) Installing perl (5.42.3-r0)\n( 6/59) Installing autoconf (2.73-r0)\n( 7/59) Installing bison (3.8.2-r3)\n( 8/59) Installing libgcc (15.2.0-r5)\n( 9/59) Installing jansson (2.15.0-r0)\n(10/59) Installing libstdc++ (15.2.0-r5)\n(11/59) Installing binutils (2.45.1-r1)\n(12/59) Installing libgcc-static (15.2.0-r5)\n(13/59) Installing libgomp (15.2.0-r5)\n(14/59) Installing libatomic (15.2.0-r5)\n(15/59) Installing gmp (6.3.0-r4)\n(16/59) Installing isl26 (0.26-r2)\n(17/59) Installing mpfr4 (4.2.2-r0)\n(18/59) Installing mpc1 (1.3.1-r1)\n(19/59) Installing gcc (15.2.0-r5)\n(20/59) Installing musl-dev (1.2.6-r3)\n(21/59) Installing libxml2 (2.13.9-r2)\n(22/59) Installing llvm22-libs (22.1.3-r1)\n(23/59) Installing scudo-malloc (22.1.3-r0)\n(24/59) Installing rust (1.96.1-r0)\n(25/59) Installing libssh2 (1.11.1-r4)\n(26/59) Installing cargo (1.96.1-r0)\n(27/59) Installing brotli (1.2.1-r0)\n(28/59) Installing pkgconf (2.5.1-r0)\n(29/59) Installing brotli-dev (1.2.1-r0)\n(30/59) Installing c-ares-dev (1.34.9-r0)\n(31/59) Installing libidn2-dev (2.3.8-r0)\n(32/59) Installing libpsl-utils (0.21.5-r3)\n(33/59) Installing libpsl-dev (0.21.5-r3)\n(34/59) Installing nghttp2-dev (1.70.0-r0)\n(35/59) Installing openssl-dev (3.5.9-r1)\n(36/59) Installing zlib-dev (1.4-r0)\n(37/59) Installing zstd (1.5.7-r2)\n(38/59) Installing zstd-dev (1.5.7-r2)\n(39/59) Installing curl-dev (8.23.0-r0)\n(40/59) Installing perl-error (0.17030-r0)\n(41/59) Installing perl-git (2.54.1-r0)\n(42/59) Installing git-perl (2.54.1-r0)\n(43/59) Installing go (1.26.11-r0)\n(44/59) Installing xz (5.8.4-r0)\n(45/59) Installing xz-dev (5.8.4-r0)\n(46/59) Installing libxml2-utils (2.13.9-r2)\n(47/59) Installing libxml2-dev (2.13.9-r2)\n(48/59) Installing ada-libs (4.0.0-r0)\n(49/59) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(50/59) Installing icu-libs (78.1-r0)\n(51/59) Installing simdjson (4.2.4-r0)\n(52/59) Installing simdutf (9.0.0-r0)\n(53/59) Installing nodejs (24.22.3-r0)\n(54/59) Installing npm (11.12.1-r0)\n(55/59) Installing oniguruma (6.9.10-r0)\n(56/59) Installing oniguruma-dev (6.9.10-r0)\n(57/59) Installing re2c (4.5.1-r0)\n(58/59) Installing sqlite (3.53.4-r0)\n(59/59) Installing sqlite-dev (3.53.4-r0)\nExecuting busybox-1.37.0-r31.trigger\nExecuting ca-certificates-20261020-r0.trigger\nOK: 928.1 MiB in 107 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:7.96\nINSTALL_FAIL:git clone error: \nBENCHMARK:git_clone_time_s:11.52\nTEST_FAIL:clone_repo:git clone failed\nRUN_OK\n"
+  }
+}
