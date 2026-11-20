@@ -1,0 +1,96 @@
+{
+  "app_name": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+  "url": "https://github.com/bigcrimping/floppy3.5",
+  "scored_at": "2026-11-20T14:02:19.320Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 7 days ago and is not a fork, but similar tools exist with comparable functionality, indicating low novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded in 9.3 seconds and the repo builds locally; however there is no PyPI package, so some manual steps are needed."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a hardware‑IoT floppy NAS, it addresses a niche legacy use case rather than a mainstream LLM workflow."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project has 28 stars versus 12 stars for the closest alternative (Pi-Floppy), a 133% advantage, and its install‑time ratio of 0.08 shows it is significantly faster than FloppyNAS."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The GitHub repo has 28 stars, a single contributor, and was updated 3 days ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%) and install succeeded, showing limited core functionality out‑of‑the‑box."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "No PyPI package is available; the project offers embedded firmware and USB interface modes, but lacks a standard SDK or API."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 7 days old, has 1 fork and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows an install time of 1.19 s and a vs_floppynas_install_time_ratio of 0.08, suggesting it is considerably faster than a reference implementation."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "Floppy3.5 is a compact Wi‑Fi NAS that emulates a 3.5‑inch floppy drive for legacy systems, built as embedded firmware with a USB interface. It compiles locally in under 10 seconds and runs on modest hardware without needing an API key. The tool is aimed at hobbyists maintaining vintage computers who need a lightweight networked storage solution. It stands out with a much lower install‑time ratio (0.08) compared to similar projects, but its very new codebase, minimal community, and limited test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/bigcrimping/floppy3.5",
+  "tool_url": "https://github.com/bigcrimping/floppy3.5",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50560595",
+  "domain": "hardware",
+  "app_type": "hardware-iot",
+  "enriched": {
+    "github": {
+      "stars": 28,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 28,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 7,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A Portable 3.5\" Disk WiFi NAS",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Pi-Floppy",
+        "stars": 12,
+        "repo": "jackdoe/pico-mfm-floppy"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 17
+    }
+  }
+}
