@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+    "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+    "hn_url": "https://news.ycombinator.com/item?id=50561199",
+    "points": 37,
+    "comments": 17,
+    "author": "",
+    "age": "2026-11-19T15:16:02",
+    "scraped_at": "2026-11-20T14:00:02.719Z",
+    "tool_url": "https://github.com/hippomaps/hippomaps",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "data",
+    "app_type": "data-pipeline",
+    "description": "A deterministic NLP-based search engine optimized for OSM data, delivering sub‑second queries.",
+    "use_modes": [
+      "CLI",
+      "Web API"
+    ],
+    "similar_tools": [
+      "osm-search",
+      "Mapbox Geocoding API",
+      "Nominatim"
+    ],
+    "proposed_tests": [
+      "pip install hippomaps",
+      "index a sample OSM dataset",
+      "run a query for nearby cafés and measure latency",
+      "compare results with Nominatim for consistency",
+      "benchmark throughput with concurrent requests",
+      "validate determinism by re-running the same query"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/hippomaps/hippomaps"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795183340661-4k817",
+    "log_dir": "/tmp/llm-review-1795183340661-4k817",
+    "install_success": true,
+    "install_time_s": 21.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 7,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:pip install hippomaps exit 1\nINSTALL_FAIL:git clone https://github.com/hippomaps/hippomaps.git exit 128\nTEST_FAIL:import_module:No module named 'hippomaps'\nTEST_FAIL:import_hippomaps\nTEST_FAIL:import_hippomaps:No module named 'hippomaps'\nTEST_FAIL:nominatim_compare:No module named 'hippomaps'\nTEST_FAIL:throughput_import:No module named 'hippomaps'\nTEST_FAIL:determinism_import:No module named 'hippomaps'\nTEST_FAIL:sample_query_latency:No module named 'hippomaps'\nRUN_OK\n"
+  }
+}
