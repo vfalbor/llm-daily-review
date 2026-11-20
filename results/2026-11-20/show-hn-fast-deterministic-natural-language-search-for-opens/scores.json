@@ -1,0 +1,106 @@
+{
+  "app_name": "Fast deterministic natural language search for OpenStreetMap data",
+  "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+  "scored_at": "2026-11-20T14:03:26.102Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The tool targets the same problem as high‑star projects like osm-search (4,573 stars) and Nominatim (4,573 stars), indicating it is not a first‑of‑its‑kind approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded (true) in 21.4 seconds, which is under the 30 s threshold, and the package is available on PyPI."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a data‑pipeline tool that provides deterministic NLP search for OSM, it aligns with current trends of integrating LLM‑driven geospatial queries."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for this repo is available and there are no benchmark lines, so differentiation can only be inferred as average compared to similar tools with thousands of stars."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repo is detected; HN points are 38 with 18 comments, which places community engagement in the low‑range bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 7 tests, 0 passed (<50%), although installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The package exists on PyPI and offers both CLI and Web API use modes, facilitating integration despite missing license details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo metadata (wiki, pages, topics) is available and no explicit documentation signals were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without repository data the only signal is low HN points (38), suggesting limited maturity and adoption."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided in the test output, so a neutral default score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the project’s performance, novelty, and usability, with a few noting the significant hardware needs and questions about offline/mobility support."
+    }
+  },
+  "summary": "This tool provides a deterministic NLP‑based search over OpenStreetMap data via a CLI and Web API. It is built as a Python package (v0.1.17) that runs locally without requiring an API key. It is suited for developers needing sub‑second geospatial queries in custom pipelines, but its novelty is modest compared to established projects like osm-search and Nominatim. While installation is quick, the test suite fails completely and community signals are low, indicating limited stability and adoption.",
+  "recommendation": "niche",
+  "app_url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+  "tool_url": "https://github.com/hippomaps/hippomaps",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50561199",
+  "domain": "data",
+  "app_type": "data-pipeline",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "osm-search",
+        "stars": 4573,
+        "repo": "osm-search/Nominatim"
+      },
+      {
+        "name": "Mapbox Geocoding API",
+        "stars": 1,
+        "repo": "Yohannes19/Geocoding_App-Mapbox-API"
+      },
+      {
+        "name": "Nominatim",
+        "stars": 4573,
+        "repo": "osm-search/Nominatim"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.17",
+      "summary": "A toolbox for viewing, manipulating, and additional actions on HippUnfold outputs",
+      "requires_python": ">=3.7.0",
+      "license": "GPL-3.0 license",
+      "home_page": "https://github.com/jordandekraker/hippomaps"
+    },
+    "tests_passed": 0,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "innovative search, fast deterministic queries",
+        "useful feature set and UX",
+        "community enthusiasm and praise"
+      ],
+      "negative_signals": [
+        "high hardware requirements",
+        "offline limitations",
+        "technical uncertainty on mobile"
+      ],
+      "justification": "Most comments praise the project’s performance, novelty, and usability, with a few noting the significant hardware needs and questions about offline/mobility support.",
+      "comment_count": 18,
+      "hn_points": 38
+    }
+  }
+}
