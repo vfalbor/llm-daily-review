@@ -1,0 +1,90 @@
+{
+  "app_name": "The Strongest Sokoban Solver",
+  "url": "https://healeycodes.com/introducing-the-worlds-strongest-sokoban-solver",
+  "scored_at": "2026-11-20T14:05:46.121Z",
+  "total_score": 46,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Days since creation and fork status are not available, and no star data exists for this repo, so insufficient evidence to assess novelty."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 7.5 seconds, which is well under the 30‑second threshold, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "The tool is a devtool‑CLI Sokoban solver, which does not address any current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "Similar tools have 1 GitHub star each, while this project has no visible star count, and no benchmark advantage is reported."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub data; HN points are 99 with 22 comments, placing it in the 50–200 range which maps to a community score of 3–4."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (<50%), indicating core functionality is not verified despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 2,
+      "justification": "The tool is CLI‑only, has no PyPI package, and provides no API or SDK, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No repository metadata (wiki, pages, topics) is available and the article description does not provide measurable documentation quality."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "Without a GitHub repo or version tags, maturity relies only on HN points (99) which suggests an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were produced in the test output, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the clarity, usefulness, and technical depth of the solver writeup, with a few neutral complexity theory exchanges but no real criticism."
+    }
+  },
+  "summary": "The Strongest Sokoban Solver is a command‑line tool that computes optimal solutions for Sokoban puzzles using advanced search algorithms. It runs locally as a CLI without requiring any external API keys. It is suited for puzzle enthusiasts or researchers needing exact solutions, but its lack of a package manager release and minimal integration hooks limit its broader adoption. While the write‑up receives positive Hacker News feedback, the project shows limited community traction and maturity, and it offers no performance benchmarks over existing solvers.",
+  "recommendation": "niche",
+  "app_url": "https://healeycodes.com/introducing-the-worlds-strongest-sokoban-solver",
+  "tool_url": "https://github.com/healeycodes/sokoban-solver",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50523241",
+  "domain": "other",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "sokobano",
+        "stars": 1,
+        "repo": "dburihabwa/SokobanOSG"
+      },
+      {
+        "name": "Sokobano",
+        "stars": 1,
+        "repo": "dburihabwa/SokobanOSG"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Insightful heuristics and clear writeup",
+        "Community appreciation and practical use",
+        "Technical depth with complexity theory discussion"
+      ],
+      "negative_signals": [],
+      "justification": "Most comments praise the clarity, usefulness, and technical depth of the solver writeup, with a few neutral complexity theory exchanges but no real criticism.",
+      "comment_count": 22,
+      "hn_points": 99
+    }
+  }
+}
