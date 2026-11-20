@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 6,
+    "title": "Floppy3.5: A portable 3.5-inch floppy WiFi NAS",
+    "url": "https://github.com/bigcrimping/floppy3.5",
+    "hn_url": "https://news.ycombinator.com/item?id=50560595",
+    "points": 17,
+    "comments": 1,
+    "author": "",
+    "age": "2026-11-19T14:29:49",
+    "scraped_at": "2026-11-20T14:00:02.718Z",
+    "tool_url": "https://github.com/bigcrimping/floppy3.5",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "hardware",
+    "app_type": "hardware-iot",
+    "description": "A compact WiFi NAS that emulates a 3.5‑inch floppy drive for legacy systems.",
+    "use_modes": [
+      "Embedded firmware",
+      "USB interface"
+    ],
+    "similar_tools": [
+      "FloppyNAS",
+      "Pi-Floppy",
+      "USB-to-Floppy bridge"
+    ],
+    "proposed_tests": [
+      "flash firmware onto target board",
+      "connect via USB to a legacy PC and verify disk detection",
+      "access files over WiFi using SMB",
+      "measure power consumption in idle and active states",
+      "run stress test with concurrent read/write cycles"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/bigcrimping/floppy3.5"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795183283821-si9x2",
+    "log_dir": "/tmp/llm-review-1795183283821-si9x2",
+    "install_success": true,
+    "install_time_s": 9.3,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.19\nBENCHMARK:source_files_count:127\nBENCHMARK:src_h_count:63\nBENCHMARK:src_c_count:64\nBENCHMARK:vs_floppynas_install_time_ratio:0.08",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:1.19\nTEST_PASS:count_source_files\nBENCHMARK:source_files_count:127\nBENCHMARK:src_h_count:63\nBENCHMARK:src_c_count:64\nTEST_FAIL:run_python_examples:No python examples found\nTEST_FAIL:import_floppy_module:No module named 'floppy'\nBENCHMARK:vs_floppynas_install_time_ratio:0.08\nRUN_OK\n"
+  }
+}
