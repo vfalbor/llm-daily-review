@@ -1,0 +1,98 @@
+{
+  "app_name": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+  "url": "https://kobi.music/research/dettato",
+  "scored_at": "2026-11-20T14:01:22.406Z",
+  "total_score": 51,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and only a claim of 60x efficiency is given without quantitative comparison to similar tools."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 10.5 seconds (<30s) and the package is available on PyPI, requiring only Python >=3.10."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a research-model tool for audio-to-MIDI conversion, it addresses a niche AI use case rather than a core LLM workflow."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No star count for this repository is available; similar tools have 3,790–9,052 stars, and the benchmark only reports a hash_loop_ms of 0.99 without comparative data."
+    },
+    "community": {
+      "score": 2,
+      "justification": "No GitHub repository data is present and HN points are only 11 with neutral sentiment, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (0%) and install succeeded, showing core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI and offers both a CLI and a Python API, facilitating integration despite the missing license information."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub metadata (wiki, pages, topics) is available and no other documentation signals were provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data (creation date, forks, issues) the maturity cannot be assessed, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports only a hash_loop_ms of 0.99 and provides no comparison to other tools, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "This tool converts audio recordings to MIDI and claims a 60× reduction in inference cost. It is distributed as a PyPI package and can be used via a CLI or a Python API. Researchers or developers needing fast, low‑cost audio‑to‑MIDI conversion would find it useful. The standout strength is the reported efficiency gain, while the main caveat is the lack of community adoption and the absence of passed tests or benchmark comparisons.",
+  "recommendation": "niche",
+  "app_url": "https://kobi.music/research/dettato",
+  "tool_url": "https://github.com/kobi/dettato",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50526023",
+  "domain": "research",
+  "app_type": "research-model",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "aubio",
+        "stars": 3790,
+        "repo": "aubio/aubio"
+      },
+      {
+        "name": "librosa",
+        "stars": 9052,
+        "repo": "librosa/librosa"
+      },
+      {
+        "name": "onsets",
+        "stars": 247,
+        "repo": "jongwook/onsets-and-frames"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "2.0.0",
+      "summary": "Multi-instrument audio-to-MIDI transcription: notes, instrument-named tracks and drums from any recording",
+      "requires_python": ">=3.10",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 2 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 2,
+      "hn_points": 11
+    }
+  }
+}
