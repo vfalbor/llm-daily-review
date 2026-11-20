@@ -1,0 +1,136 @@
+{
+  "app_name": "FFmpeg 9.1 'Gauss'",
+  "url": "https://ffmpeg.org/download.html#release_9.1",
+  "scored_at": "2026-11-20T14:04:45.043Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is 5698 days old and is not a fork, but many similar tools exist (GStreamer, libav, HandBrake), indicating an incremental rather than brand‑new approach."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 22.8 s (under 30 s) and a PyPI package exists, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for audio/video processing, FFmpeg remains a core component of current multimedia pipelines."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "FFmpeg has 67,707 stars, far exceeding GStreamer (3,373), libav (11,074) and HandBrake (25,070), giving it a clear advantage in popularity and ecosystem reach."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 67,707 stars, 2,835 contributors, and was updated today (0 days since last commit)."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 7 tests passed (~14 %), indicating core functionality is largely unverified in the CI run."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "A PyPI package exists (v1.4) and the tool offers both CLI and library use modes, but the license is listed as NOASSERTION, which adds some integration uncertainty."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topics was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The project is 5698 days old, has 14,698 forks and only 3 open issues, indicating a mature and stable codebase."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data comparing speed or resource usage was supplied, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments overwhelmingly praise FFmpeg 9.1’s new capabilities (ASTC, AAC, Vulkan, libcurl, etc.) and express gratitude for the builds, while a few note minor issues with release documentation and build distribution, resulting in a strong but slightly tempered positive sentiment."
+    }
+  },
+  "summary": "FFmpeg 9.1 'Gauss' is a cross‑platform CLI and library for recording, converting, and streaming audio and video. It is built in C and distributed via a PyPI package, with both command‑line and library interfaces. It suits developers and media engineers who need a reliable, feature‑rich media processing tool. Its standout strength is massive community adoption (67 k stars) and maturity, while the limited test coverage (1/7 passed) suggests the current build may still have reliability gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://ffmpeg.org/download.html#release_9.1",
+  "tool_url": "https://github.com/FFmpeg/FFmpeg",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50569998",
+  "domain": "data",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 67707,
+      "forks": 14698,
+      "open_issues": 3,
+      "watchers": 67707,
+      "contributors": 2835,
+      "license": "NOASSERTION",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 5698,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "topics": [
+        "audio",
+        "c",
+        "ffmpeg",
+        "fft",
+        "hevc",
+        "hls",
+        "matroska",
+        "mp4",
+        "mpeg",
+        "multimedia",
+        "rtmp",
+        "rtsp",
+        "streaming",
+        "video",
+        "webm"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "GStreamer",
+        "stars": 3373,
+        "repo": "GStreamer/gstreamer"
+      },
+      {
+        "name": "libav",
+        "stars": 11074,
+        "repo": "leandromoreira/ffmpeg-libav-tutorial"
+      },
+      {
+        "name": "HandBrake",
+        "stars": 25070,
+        "repo": "HandBrake/HandBrake"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "1.4",
+      "summary": "ffmpeg python package url [https://github.com/jiashaokun/ffmpeg]",
+      "requires_python": "",
+      "license": "MIT Licence",
+      "home_page": "https://github.com/jiashaokun/ffmpeg"
+    },
+    "tests_passed": 1,
+    "tests_total": 7,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Extensive new features and performance improvements",
+        "Community appreciation and gratitude",
+        "Enhanced protocol support"
+      ],
+      "negative_signals": [
+        "Release notes and changelog confusion",
+        "Build and package distribution hiccups"
+      ],
+      "justification": "The comments overwhelmingly praise FFmpeg 9.1’s new capabilities (ASTC, AAC, Vulkan, libcurl, etc.) and express gratitude for the builds, while a few note minor issues with release documentation and build distribution, resulting in a strong but slightly tempered positive sentiment.",
+      "comment_count": 28,
+      "hn_points": 204
+    }
+  }
+}
