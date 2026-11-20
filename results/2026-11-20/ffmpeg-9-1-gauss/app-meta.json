@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 13,
+    "title": "FFmpeg 9.1 'Gauss'",
+    "url": "https://ffmpeg.org/download.html#release_9.1",
+    "hn_url": "https://news.ycombinator.com/item?id=50569998",
+    "points": 204,
+    "comments": 28,
+    "author": "",
+    "age": "2026-11-20T04:02:39",
+    "scraped_at": "2026-11-20T14:00:02.723Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/FFmpeg/FFmpeg",
+    "source_type": "tool",
+    "confidence": 0.96,
+    "domain": "data",
+    "app_type": "devtool-cli",
+    "description": "FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.",
+    "use_modes": [
+      "CLI",
+      "Library"
+    ],
+    "similar_tools": [
+      "GStreamer",
+      "libav",
+      "HandBrake"
+    ],
+    "proposed_tests": [
+      "git clone https://github.com/FFmpeg/FFmpeg",
+      "./configure --enable-shared",
+      "make -j$(nproc)",
+      "make install",
+      "ffmpeg -version",
+      "ffmpeg -i input.mp4 -c:v libx264 output.mp4",
+      "measure encoding time for a 5s clip"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/FFmpeg/FFmpeg"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795183407498-9e0et",
+    "log_dir": "/tmp/llm-review-1795183407498-9e0et",
+    "install_success": true,
+    "install_time_s": 22.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 7,
+    "benchmark_notes": "BENCHMARK:loc_count:3531\nBENCHMARK:source_files_count:11461",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:apk libx264-dev exit 1\nTEST_PASS:git_clone\nTEST_FAIL:configure:[Errno 13] Permission denied: './configure'\nTEST_FAIL:make:make failed: Makefile:2: ffbuild/config.mak: No such file or directory\nmake: *** No rule to make target 'ffbuild/config.mak'.  Stop.\n\nTEST_FAIL:make_install:make install failed: Makefile:2: ffbuild/config.mak: No such file or directory\nmake: *** No rule to make target 'ffbuild/config.mak'.  Stop.\n\nTEST_FAIL:ffmpeg_version:[Errno 2] No such file or directory: 'ffmpeg'\nTEST_FAIL:encoding:[Errno 2] No such file or directory: 'ffmpeg'\nBENCHMARK:loc_count:3531\nBENCHMARK:source_files_count:11461\nTEST_FAIL:import_ffmpeg:No module named 'ffmpeg'\nRUN_OK\n"
+  }
+}
