@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+    "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+    "hn_url": "https://news.ycombinator.com/item?id=50532613",
+    "points": 215,
+    "comments": 58,
+    "author": "",
+    "age": "2026-11-17T15:22:57",
+    "scraped_at": "2026-11-21T14:00:02.578Z",
+    "is_reviewable": true,
+    "tool_url": null,
+    "source_type": "tool",
+    "confidence": 0.75,
+    "domain": "data",
+    "app_type": "data-analytics",
+    "description": "A tax calculation utility released by Brazil's tax authority, available as an open‑source GitHub repository under the MIT license.",
+    "use_modes": [
+      "CLI",
+      "Web API",
+      "Library"
+    ],
+    "similar_tools": [
+      "IRS.gov tax calculators",
+      "TurboTax API",
+      "TaxJar"
+    ],
+    "proposed_tests": [
+      "Clone the repository and install dependencies",
+      "Run the provided CLI tool against a set of test tax scenarios",
+      "Measure execution time for 1000 tax calculation requests",
+      "Verify that results match documented expected outputs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1795269654536-ufc3m",
+    "log_dir": "/tmp/llm-review-1795269654536-ufc3m",
+    "install_success": true,
+    "install_time_s": 13.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:import_time_ms:0.65",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:import_time_ms:0.65\nTEST_SKIP:cli_basic:CLI not found\nTEST_FAIL:calc_1000:module 'tax_calculator' has no attribute 'TaxCalculator'\nTEST_FAIL:expected_output:module 'tax_calculator' has no attribute 'TaxCalculator'\nRUN_OK\n"
+  }
+}
