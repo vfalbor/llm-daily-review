@@ -1,0 +1,83 @@
+{
+  "app_name": "ClawDOS – An AI coding agent for DOS",
+  "url": "http://ricapar.net/ClawDOS/",
+  "scored_at": "2026-11-21T14:02:20.109Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so only the novelty mention in HN comments can be used, resulting in a neutral score."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 10.1 seconds despite no PyPI package, indicating a reasonably simple setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As an llm-assistant targeting legacy DOS environments, it addresses a niche rather than a broad current LLM workflow need."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Compared to similar tools like Copilot and DOSBox AI extensions, ClawDOS uniquely runs on real DOS hardware, offering a distinct but limited advantage."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub repo, but HN points are 112 with 30 comments, indicating a modest but engaged community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and basic run succeeded, showing core functionality is missing."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The webpage mentions an API/SDK/webhook (true) even though there is no PyPI package."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The site provides docs/wiki links (true), examples (true) and a substantial content length of 11,701 characters."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Version 2.8.0 is listed, showing a released version, but there is no changelog or repository activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports only import_time_ms: 0 and no comparative data, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments celebrate the novelty and potential utility of an AI coding agent for DOS and older Windows systems, while a few raise concerns about security, sandboxing, and the narrow scope of supported environments."
+    }
+  },
+  "summary": "ClawDOS is a lightweight AI coding assistant that runs directly in DOS environments, letting developers write and debug code on legacy IBM PC hardware. It operates via a command‑line DOS prompt and offers an API/SDK/webhook interface despite lacking a PyPI package. The tool is suited for developers maintaining or experimenting with vintage DOS systems who need AI‑assisted coding. Its standout strength is the unique ability to run on real DOS machines, while the main caveat is limited functionality reflected by zero passed tests and a narrow, niche audience.",
+  "recommendation": "worth-watching",
+  "app_url": "http://ricapar.net/ClawDOS/",
+  "tool_url": "http://ricapar.net/ClawDOS/",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50586292",
+  "domain": "llm-ai",
+  "app_type": "llm-assistant",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Creativity & novelty",
+        "Practical utility for legacy systems",
+        "Community enthusiasm"
+      ],
+      "negative_signals": [
+        "Security/sandboxing concerns",
+        "Limited platform support",
+        "Lack of modern tooling"
+      ],
+      "justification": "The majority of comments celebrate the novelty and potential utility of an AI coding agent for DOS and older Windows systems, while a few raise concerns about security, sandboxing, and the narrow scope of supported environments.",
+      "comment_count": 30,
+      "hn_points": 112
+    }
+  }
+}
