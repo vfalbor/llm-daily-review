@@ -1,0 +1,82 @@
+{
+  "app_name": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+  "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+  "scored_at": "2026-11-21T14:01:21.624Z",
+  "total_score": 65,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, so novelty cannot be quantified."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded (true) in 13.1 seconds, which is well under the 30‑second threshold for easy setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a data‑analytics tax calculator released by a government agency, it aligns with current trends toward open‑source public‑sector tools."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No star count is available, but the tool offers a unique open‑source government implementation compared to proprietary alternatives like TurboTax API."
+    },
+    "community": {
+      "score": 7,
+      "justification": "HN discussion shows 215 points and 30 comments with a sentiment score of 8/10, indicating a healthy community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 3 tests passed (0/3) despite a successful install, indicating core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The web page mentions an API/SDK/webhook support (true) and the MIT license, facilitating integration despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 8,
+      "justification": "The site provides documentation/wiki links (true), examples (true) and a long content body of 26,300 characters, indicating thorough docs."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "A detected version number 3.4.2 suggests a mature release, though no changelog is present."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 0.65 ms, but no comparative data are available to assess relative performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments praise the move for improving accessibility and reducing hidden costs, while a few express doubts about whether open-sourcing truly cuts costs or could lead to more bureaucracy. Overall sentiment is very positive."
+    }
+  },
+  "summary": "This is an open‑source tax calculation utility released by Brazil's tax authority, usable via CLI, Web API, or as a library. It runs locally with a fast import time of 0.65 ms and provides a public API, documented on a detailed government website. It is suited for developers or analysts needing a transparent, government‑backed tax calculator, especially those avoiding proprietary services. Strengths include strong documentation and community interest (215 HN points), while the low test pass rate (0/3) reveals usability gaps.",
+  "recommendation": "worth-watching",
+  "app_url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+  "tool_url": null,
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50532613",
+  "domain": "data",
+  "app_type": "data-analytics",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "open-source transparency",
+        "ease of access",
+        "potential cost savings"
+      ],
+      "negative_signals": [
+        "some skepticism on cost-effectiveness",
+        "concerns about proprietary alternatives"
+      ],
+      "justification": "Most comments praise the move for improving accessibility and reducing hidden costs, while a few express doubts about whether open-sourcing truly cuts costs or could lead to more bureaucracy. Overall sentiment is very positive.",
+      "comment_count": 30,
+      "hn_points": 215
+    }
+  }
+}
