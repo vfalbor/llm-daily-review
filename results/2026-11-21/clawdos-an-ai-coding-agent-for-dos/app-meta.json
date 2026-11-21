@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 9,
+    "title": "ClawDOS – An AI coding agent for DOS",
+    "url": "http://ricapar.net/ClawDOS/",
+    "hn_url": "https://news.ycombinator.com/item?id=50586292",
+    "points": 113,
+    "comments": 31,
+    "author": "",
+    "age": "2026-11-21T05:38:01",
+    "scraped_at": "2026-11-21T14:00:02.584Z",
+    "is_reviewable": true,
+    "tool_url": "http://ricapar.net/ClawDOS/",
+    "source_type": "tool",
+    "confidence": 0.88,
+    "domain": "llm-ai",
+    "app_type": "llm-assistant",
+    "description": "ClawDOS is a lightweight AI coding assistant designed to run in DOS environments, enabling developers to write and debug code directly from legacy systems.",
+    "use_modes": [
+      "Command line",
+      "Interactive DOS prompt"
+    ],
+    "similar_tools": [
+      "GitHub Copilot for Windows",
+      "DOSBox AI extensions",
+      "Vim AI plugins"
+    ],
+    "proposed_tests": [
+      "Download the ClawDOS executable and run in a DOS emulator",
+      "Execute a simple Python script generation task and verify output syntax",
+      "Measure response latency for a 100-character prompt",
+      "Validate that the assistant can handle multi‑line code completion in a DOS text editor"
+    ],
+    "requires_api_key": false,
+    "is_open_source": false,
+    "repo_url": null
+  },
+  "test_results": {
+    "run_id": "llm-review-1795269682991-3dexl",
+    "log_dir": "/tmp/llm-review-1795269682991-3dexl",
+    "install_success": true,
+    "install_time_s": 10.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_git_install_time_s:0.489\nBENCHMARK:pip_install_time_s:0.874\nBENCHMARK:git_clone_time_s:0.966\nBENCHMARK:pip_editable_install_time_s:0.615\nBENCHMARK:import_time_ms:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_time_s:0.489\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement clawdos (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for clawdos\nBENCHMARK:pip_install_time_s:0.874\nINSTALL_OK\nBENCHMARK:git_clone_time_s:0.966\nINSTALL_FAIL:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/clawdos_src does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nBENCHMARK:pip_editable_install_time_s:0.615\nBENCHMARK:import_time_ms:0\nTEST_FAIL:import_module:No module named 'clawdos'\nTEST_FAIL:code_generation:cannot access local variable 'clawdos' where it is not associated with a value\nTEST_FAIL:prompt_latency:cannot access local variable 'agent' where it is not associated with a value\nTEST_FAIL:multiline_completion:cannot access local variable 'agent' where it is not associated with a value\nRUN_OK\n"
+  }
+}
