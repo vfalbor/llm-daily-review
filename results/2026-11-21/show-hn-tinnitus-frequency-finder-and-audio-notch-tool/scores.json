@@ -1,0 +1,83 @@
+{
+  "app_name": "Tinnitus frequency finder and audio notch tool",
+  "url": "https://trynotched.com/find",
+  "scored_at": "2026-11-21T14:05:50.666Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available and similar tools (TinnitusTool, TinnitusFreqFinder) exist, so there is insufficient evidence of a novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Container test shows install_success true and install_time of 23 s, and the tool runs as a web app without needing a PyPI package."
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "The app is a web‑SaaS tinnitus tool, which does not address any current LLM workflow needs."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The tool offers an API/SDK mention but no benchmark or star counts to compare against similar tools, indicating only modest differentiation."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repo; HN points are 192 with 30 comments, placing it in the 100–200 range which maps to a community score of 4."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No automated tests were defined (0/0) and basic run failed, providing insufficient evidence to rate higher."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The web page mentions an API/SDK availability, enabling integration despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 6,
+      "justification": "The site lacks explicit docs or wiki links, but the page content length is 13,990 characters, indicating substantial explanatory material."
+    },
+    "maturity": {
+      "score": 7,
+      "justification": "Detected version is 2.5, which is ≥1.0, signalling a mature release despite missing changelog."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Most commenters report personal benefit and appreciation for an easy-to-use tool, while a few note that the frequency range may not cover all tinnitus cases and the underlying science remains mixed."
+    }
+  },
+  "summary": "This is a web‑based tool that lets users find their tinnitus frequency and apply an audio notch filter. It runs entirely in the browser and offers an API for programmatic access. It is suited for individuals seeking a quick, self‑service way to assess tinnitus pitch, especially those comfortable with web tools. The main strength is its accessible web UI and API, while the lack of published benchmarks and limited community signals are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://trynotched.com/find",
+  "tool_url": "https://trynotched.com/find",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50541568",
+  "domain": "devtool",
+  "app_type": "web-saas",
+  "enriched": {
+    "github": null,
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "User testimonials of relief",
+        "Accessible web tool",
+        "Community support and shared experiences"
+      ],
+      "negative_signals": [
+        "Limited frequency range concerns",
+        "Skepticism about effectiveness for all tinnitus types",
+        "Mixed scientific backing"
+      ],
+      "justification": "Most commenters report personal benefit and appreciation for an easy-to-use tool, while a few note that the frequency range may not cover all tinnitus cases and the underlying science remains mixed.",
+      "comment_count": 30,
+      "hn_points": 192
+    }
+  }
+}
