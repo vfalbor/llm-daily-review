@@ -1,0 +1,94 @@
+{
+  "app_name": "Winedroid – run Android apps without Android (WASM demo)",
+  "url": "https://winedroid.soham.sh/demo/",
+  "scored_at": "2026-11-21T14:06:13.415Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No GitHub repository data is available, so days_since_created and fork status cannot be determined; the tool appears similar to WebDroid and WebOS, indicating an incremental approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 9.3 seconds, showing a relatively simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "The app type is infra-container, which does not directly address current LLM workflow pain points."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has no visible star count, while similar tools have 117 (WebDroid) and 1,791 (WebOS) stars, and no benchmark superiority is demonstrated."
+    },
+    "community": {
+      "score": 6,
+      "justification": "HN points are 164, placing the project in the 100–200 range for community score."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 4 tests passed (0/4) and only basic run succeeded, indicating low functional coverage."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available; the tool offers WASM and Web UI modes but no documented API or SDK."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (no wiki, pages, or topics) is available, and only a demo URL is provided."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository data, maturity is inferred from HN points (164) which suggest a mid‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark shows fetch_demo_page_ms of 284.44 ms and install_time_s of 0.78 s, but no comparative data to similar tools is present."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "While several commenters praise the lightweight, browser‑friendly design and early functional demo, many note bugs, limited app support, and lack of proper security sandboxing, leading to a generally positive but cautious reception."
+    }
+  },
+  "summary": "Winedroid is a WASM‑based runtime that emulates Android APIs to let Android apps run inside a browser. It works by loading a Web UI that hosts the WASM engine and provides limited Android API support. The tool is suited for developers experimenting with Android app demos on web platforms, especially on Linux phones. Its main strength is the ability to run Android apps without a native Android environment, while its key caveat is limited compatibility, few functional tests passed, and modest community adoption (164 HN points, no GitHub stars).",
+  "recommendation": "niche",
+  "app_url": "https://winedroid.soham.sh/demo/",
+  "tool_url": "https://github.com/sohamshah/winedroid",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50580536",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "WebDroid",
+        "stars": 117,
+        "repo": "yeahhe365/WebDroid-Agent"
+      },
+      {
+        "name": "WebOS",
+        "stars": 1791,
+        "repo": "webosbrew/webos-homebrew-channel"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Lightweight browser-based approach",
+        "Potential use case for Linux phones",
+        "Early demo shows some apps work"
+      ],
+      "negative_signals": [
+        "Limited compatibility and bugs",
+        "Security sandboxing missing",
+        "Performance and reliability concerns"
+      ],
+      "justification": "While several commenters praise the lightweight, browser‑friendly design and early functional demo, many note bugs, limited app support, and lack of proper security sandboxing, leading to a generally positive but cautious reception.",
+      "comment_count": 30,
+      "hn_points": 164
+    }
+  }
+}
