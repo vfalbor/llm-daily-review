@@ -1,0 +1,107 @@
+{
+  "app_name": "Finite-time blow-up for the Navier–Stokes equations",
+  "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+  "scored_at": "2026-11-21T14:04:28.732Z",
+  "total_score": 34,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repository was created 1 day ago and is not a fork, but it reproduces existing Navier‑Stokes simulation work rather than introducing a fundamentally new approach."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "current_relevance": {
+      "score": 2,
+      "justification": "As a research-paper implementation of Navier‑Stokes simulations, it does not address a core need of the current LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "The project has 292 stars, far more than the 1‑star Navier‑Stokes‑simulator but far fewer than OpenFOAM's 2,324 stars, indicating modest advantage over very small tools but no clear edge over the dominant alternative."
+    },
+    "community": {
+      "score": 5,
+      "justification": "GitHub shows 292 stars (100–1k range), 1 contributor, and the repo was updated 1 day ago, reflecting a small but active community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "documentation": {
+      "score": 2,
+      "justification": "No wiki or GitHub Pages flags are present and no explicit documentation quality signals were found, indicating sparse docs."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository is only 1 day old, with 24 forks and 5 open issues, suggesting an early‑stage, pre‑release codebase."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research-paper type"
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments are divided, with some praising the AI's role in solving a major problem, while others express concerns over credit, novelty, and the use of brute‑force methods. This balanced mix leads to a neutral assessment."
+    }
+  },
+  "summary": "This is a research codebase that implements a numerical simulation of finite‑time blow‑up in the Navier‑Stokes equations. It is written in Lean and intended for use in Python or Jupyter notebooks. Researchers investigating fluid dynamics proofs would use it when exploring computational evidence for blow‑up scenarios. The project’s main strength is its modest community interest (292 stars), but it suffers from very limited documentation and an infant maturity level.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/tristanbuckmaster/navier-stokes/",
+  "tool_url": "https://github.com/tristanbuckmaster/navier-stokes",
+  "source_type": "research-paper",
+  "hn_url": "https://news.ycombinator.com/item?id=50576232",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 292,
+      "forks": 24,
+      "open_issues": 5,
+      "watchers": 292,
+      "contributors": 1,
+      "license": "none",
+      "language": "Lean",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": null,
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Navier-Stokes-simulator",
+        "stars": 1,
+        "repo": "davedx/navier-stokes-simulator"
+      },
+      {
+        "name": "OpenFOAM",
+        "stars": 2324,
+        "repo": "OpenFOAM/OpenFOAM-dev"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "AI-assisted breakthrough",
+        "potential for new proof methods"
+      ],
+      "negative_signals": [
+        "controversial credit attribution",
+        "skepticism about novelty"
+      ],
+      "justification": "The comments are divided, with some praising the AI's role in solving a major problem, while others express concerns over credit, novelty, and the use of brute‑force methods. This balanced mix leads to a neutral assessment.",
+      "comment_count": 30,
+      "hn_points": 300
+    }
+  }
+}
