@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "Finite-time blow-up for the Navier–Stokes equations",
+    "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+    "hn_url": "https://news.ycombinator.com/item?id=50576232",
+    "points": 300,
+    "comments": 94,
+    "author": "",
+    "age": "2026-11-20T15:34:31",
+    "scraped_at": "2026-11-21T14:00:02.596Z",
+    "tool_url": "https://github.com/tristanbuckmaster/navier-stokes",
+    "source_type": "research-paper",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "research",
+    "app_type": "research-paper",
+    "description": "Numerical simulation code exploring finite-time blow-up in Navier–Stokes equations",
+    "use_modes": [
+      "Python",
+      "Jupyter"
+    ],
+    "similar_tools": [
+      "Navier-Stokes-simulator",
+      "OpenFOAM"
+    ],
+    "proposed_tests": [
+      "Clone repo",
+      "Run provided Jupyter notebook",
+      "Verify that simulation outputs match published figures"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/tristanbuckmaster/navier-stokes"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795269806443-zrsyg",
+    "log_dir": "/tmp/llm-review-1795269806443-zrsyg",
+    "install_success": true,
+    "install_time_s": 10.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:vs_openfoam_import_time_ms:0.000\nBENCHMARK:vs_openfoam_simulation_latency_ms:0.000\nBENCHMARK:repo_file_count:2313\nBENCHMARK:process_mem_kb:912",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nTEST_PASS:clone\nTEST_FAIL:pip_install:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR:  . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\nTEST_FAIL:import:No module named 'navier_stokes'\nTEST_SKIP:simulation:import_failed\nBENCHMARK:vs_openfoam_import_time_ms:0.000\nBENCHMARK:vs_openfoam_simulation_latency_ms:0.000\nBENCHMARK:repo_file_count:2313\nBENCHMARK:process_mem_kb:912\nRUN_OK\n"
+  }
+}
