@@ -1,0 +1,48 @@
+{
+  "app": {
+    "rank": 30,
+    "title": "Winedroid – run Android apps without Android (WASM demo)",
+    "url": "https://winedroid.soham.sh/demo/",
+    "hn_url": "https://news.ycombinator.com/item?id=50580536",
+    "points": 164,
+    "comments": 43,
+    "author": "",
+    "age": "2026-11-20T19:30:16",
+    "scraped_at": "2026-11-21T14:00:02.603Z",
+    "tool_url": "https://github.com/sohamshah/winedroid",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.85,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A WASM-based runtime that emulates Android APIs to run Android apps in the browser",
+    "use_modes": [
+      "WASM",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "WebDroid",
+      "WebOS"
+    ],
+    "proposed_tests": [
+      "Clone repo and build WASM module",
+      "Open demo page and load sample APK",
+      "Verify that app UI renders and responds to input"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sohamshah/winedroid"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795269951998-l5u6v",
+    "log_dir": "/tmp/llm-review-1795269951998-l5u6v",
+    "install_success": true,
+    "install_time_s": 9.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.780\nBENCHMARK:clone_time_s:0.280\nBENCHMARK:build_time_s:0.001\nBENCHMARK:fetch_demo_page_ms:284.44\nBENCHMARK:memory_snapshot_time_ms:1.61\nBENCHMARK:vs_webdroid_build_ratio:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.780\nTEST_FAIL:clone_repo:Cloning into '/tmp/winedroid'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:clone_time_s:0.280\nTEST_FAIL:build_wasm:[Errno 2] No such file or directory: '/tmp/winedroid'\nBENCHMARK:build_time_s:0.001\nTEST_FAIL:fetch_demo_page:HTTP Error 404: Not Found\nBENCHMARK:fetch_demo_page_ms:284.44\nTEST_FAIL:memory_snapshot:[Errno 2] No such file or directory: '/tmp/winedroid'\nBENCHMARK:memory_snapshot_time_ms:1.61\nBENCHMARK:vs_webdroid_build_ratio:0.000\nRUN_OK\n"
+  }
+}
