@@ -1,0 +1,94 @@
+{
+  "app_name": "Slopstrap",
+  "url": "https://slopstrap.mikelacher.com/",
+  "scored_at": "2026-11-21T14:03:25.134Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The tool mirrors existing utilities like Tailwind (502 stars) and Windi (8 stars) and offers no unique approach, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 2,
+      "justification": "Install failed (install_success false) and took 8.1 s; there is no PyPI package, making installation difficult."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a web‑frontend CSS utility, it addresses a general web‑dev need but does not target a hot LLM‑related workflow."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "No GitHub stars are reported and the only comparison points are Tailwind (502 stars) and Windi (8 stars), showing minimal differentiation."
+    },
+    "community": {
+      "score": 7,
+      "justification": "No GitHub data, but Hacker News points are 352 with 30 comments, indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 2,
+      "justification": "0 of 1 tests passed and install_success is false, showing core functionality does not work out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool provides CSS and JS use modes but lacks a PyPI package; integration will require manual inclusion."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki/pages data available and no explicit documentation metrics were found."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "Absent repository data, but Hacker News points exceed 300, suggesting a moderately mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an install_time_s of 1.514 s, but no comparative data to similar tools is provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Hacker News sentiment score is 8/10 with 352 points and 30 comments, showing overall positive reception."
+    }
+  },
+  "summary": "Slopstrap is a lightweight CSS utility library that adds \"vibecoded\" styling to web pages. It ships as plain CSS or JavaScript and can be dropped into a project without an API key. Web developers looking for a quick, playful styling shortcut may reach for it, especially if they enjoy the humorous AI‑generated design. Its main strength is strong community buzz on Hacker News, but installation failures and lack of a package manager distribution are major drawbacks.",
+  "recommendation": "skip",
+  "app_url": "https://slopstrap.mikelacher.com/",
+  "tool_url": "https://github.com/mikelacher/slopstrap",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50576012",
+  "domain": "web",
+  "app_type": "web-frontend",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Tailwind CSS",
+        "stars": 502,
+        "repo": "Devzstudio/tailwind_to_css"
+      },
+      {
+        "name": "Windi CSS",
+        "stars": 8,
+        "repo": "brillout/vite-plugin-ssr_windi-css"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "creative humor",
+        "well designed AI output",
+        "community enjoyment"
+      ],
+      "negative_signals": [
+        "concerns about accessibility and contrast",
+        "criticisms of font choices",
+        "mixed opinions on LLM usage"
+      ],
+      "justification": "The majority of comments praise the playful, well-crafted design and humor of Slopstrap, with several users expressing enjoyment and admiration for its AI-generated styling. A minority raise issues about font contrast, accessibility, and the reliance on LLMs, but these are relatively few compared to the positive reception.",
+      "comment_count": 30,
+      "hn_points": 352
+    }
+  }
+}
