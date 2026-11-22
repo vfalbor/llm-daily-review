@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 18,
+    "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+    "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "hn_url": "https://news.ycombinator.com/item?id=50594132",
+    "points": 130,
+    "comments": 19,
+    "author": "",
+    "age": "2026-11-21T22:09:58",
+    "scraped_at": "2026-11-22T14:00:02.915Z",
+    "tool_url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "security",
+    "app_type": "sec-scanner",
+    "description": "Self‑hosted Python application that parses pcap files and runs 27 built‑in detectors to flag network anomalies and security issues.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "Zeek",
+      "Suricata",
+      "Tshark",
+      "Wireshark",
+      "Snort"
+    ],
+    "proposed_tests": [
+      "Clone the repo and install dependencies via pip install -r requirements.txt.",
+      "Run the CLI analyzer on a provided sample pcap and verify that the output contains at least one detection from the known set.",
+      "Spin up the web UI container, send a sample pcap via the UI, and confirm the dashboard displays detected events.",
+      "Benchmark analysis time on a 50MB pcap against a baseline Zeek run and verify that PcapAnalyzer completes within 2× the Zeek duration."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/sebaandrada-cell/PcapAnalyzer"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795356184831-7d7ld",
+    "log_dir": "/tmp/llm-review-1795356184831-7d7ld",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:apk_git_install_s:0.46\nBENCHMARK:repo_clone_s:1.14\nBENCHMARK:pip_install_s:0.58\nBENCHMARK:cli_analysis_s:0.02\nBENCHMARK:zeek_analysis_s:30.00\nBENCHMARK:vs_zeek_time_ratio:0.00",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 151, in <module>\n    main()\n  File \"/app/test.py\", line 146, in main\n    print_marker(f\"BENCHMARK:loc_count:{sum(1 for _ in open(repo_dir/'pcapanalyzer/__init__.py'))}\")\n                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/tmp/tmpz7o1qc7i/PcapAnalyzer/pcapanalyzer/__init__.py'\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.46\nINSTALL_OK\nBENCHMARK:repo_clone_s:1.14\nINSTALL_FAIL:\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/tmpz7o1qc7i/PcapAnalyzer does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n\nBENCHMARK:pip_install_s:0.58\nTEST_FAIL:import_module:No module named 'pcapanalyzer'\nTEST_PASS:create_pcap\nTEST_FAIL:cli_analysis:CompletedProcess(args='python -m pcapanalyzer.cli analyze /tmp/tmpz7o1qc7i/PcapAnalyzer/sample.pcap', returncode=1, stdout='', stderr=\"/usr/local/bin/python: Error while finding module specification for 'pcapanalyzer.cli' (ModuleNotFoundError: No module named 'pcapanalyzer')\\n\")\nBENCHMARK:cli_analysis_s:0.02\nBENCHMARK:zeek_analysis_s:30.00\nBENCHMARK:vs_zeek_time_ratio:0.00\n"
+  }
+}
