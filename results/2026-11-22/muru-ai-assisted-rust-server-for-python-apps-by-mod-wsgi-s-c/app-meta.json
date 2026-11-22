@@ -1,0 +1,53 @@
+{
+  "app": {
+    "rank": 19,
+    "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+    "url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "hn_url": "https://news.ycombinator.com/item?id=50597959",
+    "points": 14,
+    "comments": 0,
+    "author": "",
+    "age": "2026-11-22T09:57:01",
+    "scraped_at": "2026-11-22T14:00:02.916Z",
+    "tool_url": "https://github.com/simonwillison/muru",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "web",
+    "app_type": "web-framework",
+    "description": "A Rust‑backed server that executes Python WSGI applications, combining Rust performance with Python's ecosystem and providing AI‑assisted tooling for deployment and debugging.",
+    "use_modes": [
+      "CLI",
+      "HTTP API"
+    ],
+    "similar_tools": [
+      "mod_wsgi",
+      "uWSGI",
+      "gunicorn",
+      "FastAPI",
+      "Actix-web"
+    ],
+    "proposed_tests": [
+      "Clone the repository and build the binary with cargo build --release.",
+      "Deploy a simple Python Flask app using Muru and send an HTTP GET request to verify the correct response.",
+      "Benchmark the response latency of the same Flask app running under Muru vs mod_wsgi and compare performance.",
+      "Run Muru's AI assistance feature on a sample codebase and confirm that the suggested optimizations are applied.",
+      "Package Muru as a Docker image and deploy it to a local Kubernetes cluster, ensuring the pod starts successfully."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/simonwillison/muru"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795356246060-ni4yr",
+    "log_dir": "/tmp/llm-review-1795356246060-ni4yr",
+    "install_success": true,
+    "install_time_s": 12.9,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "  * If you need ICU with non-English locales and legacy charset support, install\n  * package icu-data-full.\nCloning into '/tmp/muru'...\nfatal: could not read Username for 'https://github.com': No such device or address\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\n( 1/33) Installing libgcc (15.2.0-r5)\n( 2/33) Installing jansson (2.15.0-r0)\n( 3/33) Installing libstdc++ (15.2.0-r5)\n( 4/33) Installing binutils (2.45.1-r1)\n( 5/33) Installing libgcc-static (15.2.0-r5)\n( 6/33) Installing libgomp (15.2.0-r5)\n( 7/33) Installing libatomic (15.2.0-r5)\n( 8/33) Installing gmp (6.3.0-r4)\n( 9/33) Installing isl26 (0.26-r2)\n(10/33) Installing mpfr4 (4.2.2-r0)\n(11/33) Installing mpc1 (1.3.1-r1)\n(12/33) Installing gcc (15.2.0-r5)\n(13/33) Installing musl-dev (1.2.6-r3)\n(14/33) Installing libxml2 (2.13.9-r3)\n(15/33) Installing llvm22-libs (22.1.3-r1)\n(16/33) Installing scudo-malloc (22.1.3-r0)\n(17/33) Installing rust (1.96.1-r0)\n(18/33) Installing libssh2 (1.11.1-r4)\n(19/33) Installing cargo (1.96.1-r0)\n(20/33) Installing ada-libs (4.0.0-r0)\n(21/33) Installing icu-data-en (78.1-r0)\n  Executing icu-data-en-78.1-r0.post-install\n(22/33) Installing icu-libs (78.1-r0)\n(23/33) Installing simdjson (4.2.4-r0)\n(24/33) Installing simdutf (9.0.0-r0)\n(25/33) Installing nodejs (24.22.3-r0)\n(26/33) Installing npm (11.12.1-r0)\n(27/33) Installing mpdecimal (4.0.1-r0)\n(28/33) Installing python3 (3.14.10-r1)\n(29/33) Installing python3-pycache-pyc0 (3.14.10-r1)\n(30/33) Installing pyc (3.14.10-r1)\n(31/33) Installing py3-pip-pyc (26.1.2-r1)\n(32/33) Installing python3-pyc (3.14.10-r1)\n(33/33) Installing py3-pip (26.1.2-r1)\nExecuting busybox-1.37.0-r31.trigger\nOK: 734.3 MiB in 84 packages\nINSTALL_OK\nINSTALL_FAIL:None\nTEST_FAIL:clone_repo:Could not clone repository\n"
+  }
+}
