@@ -1,0 +1,125 @@
+{
+  "app_name": "Fast-Anything",
+  "url": "https://github.com/EL4CTEO/fast-anything",
+  "scored_at": "2026-11-22T14:06:21.500Z",
+  "total_score": 68,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repository is brand new (0 days since created) and is not a fork, while its 947 stars vastly outpace the closest similar tool OptiRust's 3 stars, indicating a novel approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 10.9 seconds and the tool is installable via Cargo (no PyPI package), showing a reasonably simple setup."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a devtool-codegen library for optimizing hot code paths, it addresses the current developer focus on performance‑critical sections in mixed‑language projects."
+    },
+    "differentiation": {
+      "score": 9,
+      "justification": "With 947 GitHub stars versus OptiRust's 3 stars and a latency ratio of 0.8333 (≈16% faster) the project offers clear advantages over existing alternatives."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 947 stars, 3 contributors, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 3 tests passed (0%), though installation succeeded, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The package is not on PyPI and provides only a CLI and library interface with an MIT license, requiring manual glue code for integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository was created today (0 days old) with 62 forks and 17 open issues; lacking release tags makes maturity uncertain."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmark shows a latency ratio of 0.8333 against OptiRust, indicating a measurable performance gain though not a dramatic (>2×) improvement."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise Rust for performance and stable memory, noting benefits like WASM and speed gains, while a few criticize Python's slowness or question the value of switching languages, resulting in an overall positive but slightly mixed sentiment."
+    }
+  },
+  "summary": "Fast-Anything is a Rust library that pinpoints the slowest 5% of code and rewrites those sections for speed while leaving the rest in high‑level languages. It works as a CLI tool or library and can be added to projects via Cargo without needing an API key. Developers who need to squeeze performance out of critical hotspots will find it useful, especially when they already use Rust or can compile to WASM. The standout strength is its strong community interest (947 stars) and a ~16% latency improvement over OptiRust, but the lack of passing tests and minimal documentation are major caveats.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/EL4CTEO/fast-anything",
+  "tool_url": "https://github.com/EL4CTEO/fast-anything",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50596155",
+  "domain": "devtool",
+  "app_type": "devtool-codegen",
+  "enriched": {
+    "github": {
+      "stars": 947,
+      "forks": 62,
+      "open_issues": 17,
+      "watchers": 947,
+      "contributors": 3,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "developer-tools",
+        "ffi",
+        "mcp",
+        "mcp-server",
+        "napi-rs",
+        "nodejs",
+        "optimization",
+        "performance",
+        "profiler",
+        "pyo3",
+        "python",
+        "rewrite-it-in-rust",
+        "ruby",
+        "rust",
+        "typescript"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "OptiRust",
+        "stars": 3,
+        "repo": "charignon/optirust"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Rust performance gains",
+        "WASM deployment on npm",
+        "Stable memory usage in Rust"
+      ],
+      "negative_signals": [
+        "Python slower",
+        "Performance debate",
+        "Some argue virtue signaling"
+      ],
+      "justification": "The majority of comments praise Rust for performance and stable memory, noting benefits like WASM and speed gains, while a few criticize Python's slowness or question the value of switching languages, resulting in an overall positive but slightly mixed sentiment.",
+      "comment_count": 30,
+      "hn_points": 75
+    }
+  }
+}
