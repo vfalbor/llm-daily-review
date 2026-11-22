@@ -1,0 +1,114 @@
+{
+  "app_name": "Inkling-2-Mini in 5.4 GB Memory",
+  "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+  "scored_at": "2026-11-22T14:03:03.635Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 21 days ago and is not a fork, but similar models (Llama-2 7B, Gemma) already exist, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Installation succeeded but took 74 seconds (>30s) and there is no PyPI package, suggesting moderate setup complexity."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-model, it directly addresses the current demand for compact, low‑memory LLMs in the LLM ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The repo has 457 stars, far fewer than Gemma (7,089) and Llama-2 7B (2,196); the only quantitative claim is a 142 ms import time, giving no clear advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 457 stars (1k–5k range) and 1 contributor, with the last commit today (0 days since update), indicating an active but small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 6 tests passed (≈16%), though the install succeeded; the low test pass rate reflects limited usability."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but the model can be used via Python/HuggingFace and ONNX Runtime, and it is MIT‑licensed, offering moderate integration paths."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "GitHub data does not indicate presence of a wiki, GitHub Pages, or topic tags, and no explicit documentation quality signals were found."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 21 days old, has 19 forks and 11 open issues, suggesting early‑stage development with some community interest."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports an import time of 142 ms, but there is no comparative performance data against similar models."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments generally praise the model’s small size and local usability, noting it’s comparable to recent frontier models, while some users express confusion about the quantization approach and platform constraints, indicating constructive but not hostile criticism."
+    }
+  },
+  "summary": "Inkling-2-Mini is a compact 5.4 GB transformer model designed for low‑memory inference. It runs locally via HuggingFace Transformers or ONNX Runtime without needing an API key. It suits developers who need a small, open‑source LLM that fits on consumer hardware, especially on Apple Silicon. The model’s main strength is its tiny footprint, while its limited documentation and sparse test coverage are notable drawbacks.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+  "tool_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+  "source_type": "model",
+  "hn_url": "https://news.ycombinator.com/item?id=50591853",
+  "domain": "llm-ai",
+  "app_type": "llm-model",
+  "enriched": {
+    "github": {
+      "stars": 457,
+      "forks": 19,
+      "open_issues": 11,
+      "watchers": 457,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 21,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A quantization compiler that delivers 12× lower KL than Q4_K_M at the same file size",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Llama-2 7B",
+        "stars": 2196,
+        "repo": "LinkSoul-AI/Chinese-Llama-2-7b"
+      },
+      {
+        "name": "Gemma",
+        "stars": 7089,
+        "repo": "google/gemma.cpp"
+      },
+      {
+        "name": "Falcon-7B",
+        "stars": 29,
+        "repo": "htrivedi99/falcon-7b-truss"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Efficient 5.4GB model fits local hardware",
+        "Strong community discussion about quantization and deployment",
+        "Good comparison to recent frontier models"
+      ],
+      "negative_signals": [
+        "Some confusion about QAT and quantization process",
+        "Limited platform support (currently Apple Silicon only)",
+        "Mixed clarity on performance benchmarks"
+      ],
+      "justification": "Comments generally praise the model’s small size and local usability, noting it’s comparable to recent frontier models, while some users express confusion about the quantization approach and platform constraints, indicating constructive but not hostile criticism.",
+      "comment_count": 30,
+      "hn_points": 497
+    }
+  }
+}
