@@ -1,0 +1,114 @@
+{
+  "app_name": "unkernel",
+  "url": "https://github.com/pithings/unkernel",
+  "scored_at": "2026-11-22T14:01:35.432Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repo is only 9 days old, is not a fork, and while it offers a unique real Linux kernel in Wasm, many similar runtimes exist (wasm3, wasmer, wasi-sdk)."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 22.5 seconds (under 30s) and runs locally, though there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As a lang-runtime for WebAssembly, it matches the current surge in browser‑based sandboxed environments and dev tooling."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 910 stars it is far smaller than wasm3 (8,091) and wasmer (21,256), but it uniquely provides a real Linux kernel rather than just a generic Wasm runtime."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The project has 910 stars, 1 contributor, and was updated today (0 days since last commit), indicating an active but still small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50%), despite a successful install and basic run."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package and only a CLI/WASM binary are provided; integration will require manual glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 9 days old, has 49 forks and 7 open issues, suggesting early‑alpha status but some interest."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No runtime benchmark data was available; only install‑time metrics were recorded."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments show strong excitement about having a real Linux kernel in the browser and the potential for sandboxed dev environments, but many point out memory constraints, performance, and doubts about practical deployment, leading to an overall positive but cautious sentiment."
+    }
+  },
+  "summary": "A minimal Linux kernel compiled to WebAssembly, enabling kernel execution inside a Wasm sandbox. It is built in TypeScript and distributed as a CLI and WASM binary, without a package‑manager install. The tool is aimed at developers who want to experiment with in‑browser OS environments or sandboxed development sandboxes. Its standout strength is being the only project that runs a real Linux kernel in the browser, while its main caveat is its very new status, limited testing, and unknown performance characteristics.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/pithings/unkernel",
+  "tool_url": "https://github.com/pithings/unkernel",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50533945",
+  "domain": "language",
+  "app_type": "lang-runtime",
+  "enriched": {
+    "github": {
+      "stars": 910,
+      "forks": 49,
+      "open_issues": 7,
+      "watchers": 910,
+      "contributors": 1,
+      "license": "GPL-2.0",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 9,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "wasm3",
+        "stars": 8091,
+        "repo": "wasm3/wasm3"
+      },
+      {
+        "name": "wasmer",
+        "stars": 21256,
+        "repo": "wasmerio/wasmer"
+      },
+      {
+        "name": "wasi-sdk",
+        "stars": 1665,
+        "repo": "WebAssembly/wasi-sdk"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Real Linux kernel in WebAssembly, impressive demos",
+        "Enthusiastic potential use cases (playgrounds, dev envs)",
+        "Community interest in extending features"
+      ],
+      "negative_signals": [
+        "Practical limitations (memory, performance)",
+        "Skepticism about real-world usefulness",
+        "Complexity and need for more than kernel"
+      ],
+      "justification": "The comments show strong excitement about having a real Linux kernel in the browser and the potential for sandboxed dev environments, but many point out memory constraints, performance, and doubts about practical deployment, leading to an overall positive but cautious sentiment.",
+      "comment_count": 30,
+      "hn_points": 126
+    }
+  }
+}
