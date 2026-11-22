@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 2,
+    "title": "A real Linux kernel, compiled to WebAssembly",
+    "url": "https://github.com/pithings/unkernel",
+    "hn_url": "https://news.ycombinator.com/item?id=50533945",
+    "points": 126,
+    "comments": 43,
+    "author": "",
+    "age": "2026-11-17T16:35:46",
+    "scraped_at": "2026-11-22T14:00:02.906Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/pithings/unkernel",
+    "source_type": "tool",
+    "confidence": 0.94,
+    "domain": "language",
+    "app_type": "lang-runtime",
+    "description": "A minimal Linux kernel compiled to WebAssembly, enabling kernel execution in a Wasm sandbox.",
+    "use_modes": [
+      "WASM binary",
+      "CLI"
+    ],
+    "similar_tools": [
+      "wasm3",
+      "wasmer",
+      "wasi-sdk",
+      "wasmtime"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run the provided build script to generate a .wasm binary.",
+      "Execute the binary using a Wasm runtime (e.g., wasmtime) and verify that basic syscalls (read, write) function as expected.",
+      "Measure the size of the resulting .wasm file and compare it to a baseline Linux kernel compiled to a native binary.",
+      "Run a small user program (e.g., Hello World) compiled to Wasm and execute it inside the kernel, checking output correctness."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/pithings/unkernel"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795356057835-hh8se",
+    "log_dir": "/tmp/llm-review-1795356057835-hh8se",
+    "install_success": true,
+    "install_time_s": 22.5,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:apk_go_install_s:4.431\nBENCHMARK:apk_git_install_s:0.774\nBENCHMARK:apk_cargo_install_s:3.566\nBENCHMARK:apk_rust_install_s:0.762\nBENCHMARK:apk_nodejs_install_s:1.546\nBENCHMARK:apk_npm_install_s:1.045\nBENCHMARK:apk_wasmtime_install_s:1.557\nBENCHMARK:git_clone_s:1.260\nBENCHMARK:build_s:0.001\nBENCHMARK:hello_compile_s:0.000",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_go_install_s:4.431\nINSTALL_OK\nBENCHMARK:apk_git_install_s:0.774\nINSTALL_OK\nBENCHMARK:apk_cargo_install_s:3.566\nINSTALL_OK\nBENCHMARK:apk_rust_install_s:0.762\nINSTALL_OK\nBENCHMARK:apk_nodejs_install_s:1.546\nINSTALL_OK\nBENCHMARK:apk_npm_install_s:1.045\nINSTALL_OK\nBENCHMARK:apk_wasmtime_install_s:1.557\nINSTALL_OK\nBENCHMARK:git_clone_s:1.260\nINSTALL_FAIL:[Errno 2] No such file or directory: 'make'\nBENCHMARK:build_s:0.001\nTEST_FAIL:find_wasm:wasm binary not found\nTEST_FAIL:compile_hello:clang not found\nBENCHMARK:hello_compile_s:0.000\nRUN_OK\n"
+  }
+}
