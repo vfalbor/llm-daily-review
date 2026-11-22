@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Inkling-2-Mini in 5.4 GB Memory",
+    "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+    "hn_url": "https://news.ycombinator.com/item?id=50591853",
+    "points": 496,
+    "comments": 124,
+    "author": "",
+    "age": "2026-11-21T18:02:19",
+    "scraped_at": "2026-11-22T14:00:02.909Z",
+    "is_reviewable": true,
+    "tool_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+    "source_type": "model",
+    "confidence": 0.93,
+    "domain": "llm-ai",
+    "app_type": "llm-model",
+    "description": "A compact transformer-based language model (~5.4 GB) optimized for low‑memory inference.",
+    "use_modes": [
+      "Python inference via HuggingFace Transformers",
+      "ONNX Runtime"
+    ],
+    "similar_tools": [
+      "Llama-2 7B",
+      "Gemma",
+      "Falcon-7B"
+    ],
+    "proposed_tests": [
+      "Install the transformers library and load the model from the repo using AutoModelForCausalLM.",
+      "Run a short prompt and verify that the generated tokens are non‑empty and the shape matches expectations.",
+      "Export the model to ONNX and perform inference with ONNX Runtime, comparing latency to the PyTorch inference.",
+      "Measure GPU memory usage during inference to confirm it stays below 5 GB on a modest GPU."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ShinMegamiBoson/lookatmyquant"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795356096661-7bq0p",
+    "log_dir": "/tmp/llm-review-1795356096661-7bq0p",
+    "install_success": true,
+    "install_time_s": 74,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "",
+    "error_log": "[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK | INSTALL_FAIL:git:none\nINSTALL_OK | INSTALL_FAIL:torch:none\nINSTALL_OK | INSTALL_FAIL:transformers:none\nINSTALL_OK | INSTALL_FAIL:onnx:none\nINSTALL_OK | INSTALL_FAIL:onnxruntime:none\nINSTALL_OK | INSTALL_FAIL:psutil:none\nTEST_FAIL:import:No module named 'torch'\nTEST_PASS:package_install\nTEST_FAIL:generation:Couldn't instantiate the backend tokenizer from one of: \n(1) a `tokenizers` library serialization file, \n(2) a slow tokenizer instance to convert or \n(3) an equivalent slow tokenizer class to instantiate and convert. \nYou need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.\nTEST_FAIL:onnx_inference:No module named 'torch'\nTEST_FAIL:baseline_comparison:\nAutoModelForCausalLM requires PyTorch >= 2.6, but PyTorch was not found or an older version is installed.\nPlease install or upgrade PyTorch by following the instructions on the installation page:\nhttps://pytorch.org/get-started/locally/\nPlease note that you may need to restart your runtime after installation.\n\nTEST_FAIL:memory_check:name 'psutil' is not defined\nRUN_OK\n"
+  }
+}
