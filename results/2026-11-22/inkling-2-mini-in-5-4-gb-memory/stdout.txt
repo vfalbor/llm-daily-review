@@ -1,0 +1,37 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.5.7-r2)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.10.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.1-r0)
+(13/13) Installing git-init-template (2.54.1-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.2 MiB in 51 packages
+INSTALL_OK | INSTALL_FAIL:git:none
+INSTALL_OK | INSTALL_FAIL:torch:none
+INSTALL_OK | INSTALL_FAIL:transformers:none
+INSTALL_OK | INSTALL_FAIL:onnx:none
+INSTALL_OK | INSTALL_FAIL:onnxruntime:none
+INSTALL_OK | INSTALL_FAIL:psutil:none
+TEST_FAIL:import:No module named 'torch'
+TEST_PASS:package_install
+TEST_FAIL:generation:Couldn't instantiate the backend tokenizer from one of: 
+(1) a `tokenizers` library serialization file, 
+(2) a slow tokenizer instance to convert or 
+(3) an equivalent slow tokenizer class to instantiate and convert. 
+You need to have sentencepiece or tiktoken installed to convert a slow tokenizer to a fast one.
+TEST_FAIL:onnx_inference:No module named 'torch'
+TEST_FAIL:baseline_comparison:
+AutoModelForCausalLM requires PyTorch >= 2.6, but PyTorch was not found or an older version is installed.
+Please install or upgrade PyTorch by following the instructions on the installation page:
+https://pytorch.org/get-started/locally/
+Please note that you may need to restart your runtime after installation.
+
+TEST_FAIL:memory_check:name 'psutil' is not defined
+RUN_OK
