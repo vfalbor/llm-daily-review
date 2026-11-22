@@ -1,0 +1,121 @@
+{
+  "app_name": "PcapAnalyzer",
+  "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+  "scored_at": "2026-11-22T14:04:04.616Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Created 32 days ago and is not a fork, but replicates functionality of established tools like Zeek and Suricata, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 8.9 seconds, which is well under the 30‑second threshold, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a sec‑scanner for PCAP files, it addresses ongoing network security analysis needs, fitting current security tooling trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "The project has 159 stars versus Zeek's 8,271 and Suricata's 6,921, and while it offers 27 detectors, benchmark data shows only modest speed differences."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repository has 159 stars, a single contributor, and was updated 1 day ago, indicating a small but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%), and basic run failed, suggesting limited usability out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available; the tool offers CLI and Web UI modes and is Apache‑2.0 licensed, providing basic integration paths but requiring manual setup."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or topic metadata were provided, so documentation quality cannot be assessed from the available data."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 32 days old, has 1 fork, and zero open issues, indicating early‑stage but stable development."
+    },
+    "performance": {
+      "score": 7,
+      "justification": "Benchmarks show the CLI analysis completes in 0.02 s versus Zeek's 30 s, giving a large speed advantage (vs_zeek_time_ratio 0.00)."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments show some interest and practical use cases but are mixed with confusion about what the tool solves and potential privacy concerns, resulting in a moderately positive but cautious reception."
+    }
+  },
+  "summary": "PcapAnalyzer is a self‑hosted Python tool that parses PCAP files and runs 27 built‑in detectors to flag network anomalies. It operates via a CLI and a local Web UI, using no external API keys. Security analysts who need a lightweight, on‑premises alternative to heavyweight scanners like Zeek may find it useful. The main strength is its fast CLI analysis (0.02 s vs Zeek's 30 s), while limited documentation and low test pass rate are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+  "tool_url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50594132",
+  "domain": "security",
+  "app_type": "sec-scanner",
+  "enriched": {
+    "github": {
+      "stars": 159,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 159,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 32,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Free, self-hosted pcap analyzer with 27 problem detectors and AI investigation",
+      "topics": [
+        "fastapi",
+        "network-troubleshooting",
+        "packet-analysis",
+        "pcap",
+        "tshark",
+        "wireshark"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Zeek",
+        "stars": 8271,
+        "repo": "zeek/zeek"
+      },
+      {
+        "name": "Suricata",
+        "stars": 6921,
+        "repo": "OISF/suricata"
+      },
+      {
+        "name": "Tshark",
+        "stars": 501,
+        "repo": "hhhweihan/EasyTshark"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "similar tool already in use by industry",
+        "reuse of problem libraries speeds up analysis",
+        "practical local web app"
+      ],
+      "negative_signals": [
+        "unclear problem scope",
+        "concerns about AI data exposure",
+        "confusion over feature details"
+      ],
+      "justification": "The comments show some interest and practical use cases but are mixed with confusion about what the tool solves and potential privacy concerns, resulting in a moderately positive but cautious reception.",
+      "comment_count": 19,
+      "hn_points": 130
+    }
+  }
+}
