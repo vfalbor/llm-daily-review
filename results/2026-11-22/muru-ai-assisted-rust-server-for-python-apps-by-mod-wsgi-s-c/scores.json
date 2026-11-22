@@ -1,0 +1,90 @@
+{
+  "app_name": "Muru – AI-assisted Rust server for Python apps",
+  "url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "scored_at": "2026-11-22T14:05:15.106Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No data on creation date, fork status, or direct comparison to similar tools; therefore a neutral score is assigned."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Installation succeeded in 12.9 seconds (well under 30 s) and the package is available on PyPI, requiring only Python ≥3.11."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a Rust‑backed server for Python WSGI apps, it addresses a common need in modern AI‑augmented deployments, fitting current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "While similar tools like mod_wsgi (1,044★), uWSGI (3,551★) and gunicorn (10,731★) exist, Muru offers Rust performance and AI‑assisted deployment, a clear advantage in speed and tooling."
+    },
+    "community": {
+      "score": 5,
+      "justification": "No GitHub repository data is available and there are no HN metrics, so a neutral score is used."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 tests passed and the basic run failed, indicating less than 50 % test success."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The tool is published on PyPI and provides both a CLI and an HTTP API, making integration possible though documentation on SDKs is absent."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub wiki, pages, or topic data were retrieved; documentation quality cannot be assessed, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The package version is 0.1.0a34, indicating an early‑alpha release and no release history to gauge stability."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were provided in the test output, so a neutral performance score is used."
+    }
+  },
+  "summary": "Muru is a Rust‑based server that runs Python WSGI applications, offering AI‑assisted deployment and debugging tools. It ships as a PyPI package (v0.1.0a34) and can be used via a CLI or HTTP API. The tool is suited for developers who need high‑performance Python web serving while leveraging Rust's speed, especially in AI‑enhanced pipelines. While it promises Rust‑level performance over traditional servers like mod_wsgi or gunicorn, it currently lacks stable releases, comprehensive documentation, and passes no functional tests.",
+  "recommendation": "niche",
+  "app_url": "https://simonwillison.net/2026/Nov/21/muru/",
+  "tool_url": "https://github.com/simonwillison/muru",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50597959",
+  "domain": "web",
+  "app_type": "web-framework",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "mod_wsgi",
+        "stars": 1044,
+        "repo": "GrahamDumpleton/mod_wsgi"
+      },
+      {
+        "name": "uWSGI",
+        "stars": 3551,
+        "repo": "unbit/uwsgi"
+      },
+      {
+        "name": "gunicorn",
+        "stars": 10731,
+        "repo": "benoitc/gunicorn"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.1.0a34",
+      "summary": "Muru runtime library for WSGI and ASGI applications",
+      "requires_python": ">=3.11",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
