@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 11,
+    "title": "Show HN: News Blocklist – a DNS blocklist of 14k news and current-affairs sites",
+    "url": "https://github.com/ruairidhflint/news-blocklist",
+    "hn_url": "https://news.ycombinator.com/item?id=50611026",
+    "points": 11,
+    "comments": 2,
+    "author": "",
+    "age": "2026-11-23T13:02:52",
+    "scraped_at": "2026-11-23T14:00:02.728Z",
+    "tool_url": "https://github.com/ruairidhflint/news-blocklist",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "security",
+    "app_type": "sec-crypto",
+    "description": "A DNS-based blocklist for news and current‑affairs sites, usable with DNS filtering tools",
+    "use_modes": [
+      "CLI",
+      "Config file",
+      "API"
+    ],
+    "similar_tools": [
+      "Blocklist",
+      "Firebog",
+      "Pi-hole blacklists"
+    ],
+    "proposed_tests": [
+      "Clone the repo and run the provided install script",
+      "Generate a zone file and verify that known news domains resolve to NXDOMAIN",
+      "Load the blocklist into a local DNS server and query a sample domain",
+      "Measure lookup performance with a batch of 1000 queries"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/ruairidhflint/news-blocklist"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442698916-8vswi",
+    "log_dir": "/tmp/llm-review-1795442698916-8vswi",
+    "install_success": true,
+    "install_time_s": 9.7,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nTEST_FAIL:import:No module named 'news-blocklist'\nINSTALL_OK\nINSTALL_FAIL:editable_install:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/news-blocklist does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_FAIL:import_after_clone:No module named 'news-blocklist'\nTEST_FAIL:functional_test:No module named 'news_blocklist'\nTEST_FAIL:batch_lookup:No module named 'news_blocklist'\nTEST_FAIL:baseline_import:No module named 'dns'\nRUN_OK\n"
+  }
+}
