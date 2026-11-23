@@ -1,0 +1,98 @@
+{
+  "app_name": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+  "url": "https://github.com/elixir-hls/elixir-hls",
+  "scored_at": "2026-11-23T14:04:57.481Z",
+  "total_score": 49,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "The repository is only 3 days old and is not a fork, indicating a brand‑new implementation, but it follows established HLS concepts rather than introducing a fundamentally new approach."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 8.9 seconds, but there is no PyPI package, so setup requires cloning the repo and building locally."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑build for generating FPGA circuits, it addresses a niche hardware‑design workflow that is useful but not a core focus of the current LLM‑centric ecosystem."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With only 34 GitHub stars versus 16,808 for Chisel and 54 for Vivado HLS, the project is far less adopted, though it uniquely targets Elixir developers."
+    },
+    "community": {
+      "score": 4,
+      "justification": "The repo has 34 stars, a single contributor, and the last commit was 3 days ago, showing modest but recent activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero out of three tests passed (0/3) despite a successful install, indicating core functionality is not reliably verified."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project provides a CLI and an SDK under an Apache‑2.0 license, but lacks a PyPI package, requiring manual inclusion in pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repository is only 3 days old, has zero forks and zero open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "A benchmark line reports an install time of 0.73 s, but no comparative performance data against similar tools is available."
+    }
+  },
+  "summary": "Elixir HLS is a compiler that turns Elixir functions into high‑level synthesis code for FPGA generation. It ships as a CLI and SDK written in Elixir, requiring a local build rather than a pip install. The tool is aimed at Elixir developers who need to target FPGA hardware, offering a unique language bridge though it is still in a very early stage. While installation works quickly (8.9 s) and the project is actively updated, no tests pass and community adoption is low (34 stars, one contributor), and performance claims are minimal.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/elixir-hls/elixir-hls",
+  "tool_url": "https://github.com/elixir-hls/elixir-hls",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50584526",
+  "domain": "devtool",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": {
+      "stars": 34,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 34,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Elixir",
+      "is_fork": false,
+      "days_since_update": 3,
+      "days_since_created": 3,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "elixir-hls",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Chisel",
+        "stars": 16808,
+        "repo": "jpillora/chisel"
+      },
+      {
+        "name": "Catapult HLS",
+        "stars": 5,
+        "repo": "fastmachinelearning/hls4ml-catapult-framework"
+      },
+      {
+        "name": "Vivado HLS",
+        "stars": 54,
+        "repo": "Zaoldyeckk/High-Level-Synthesis-Flow-on-Zynq-using-Vivado-HLS"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
