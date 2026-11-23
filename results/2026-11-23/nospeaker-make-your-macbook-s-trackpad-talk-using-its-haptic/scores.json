@@ -1,0 +1,108 @@
+{
+  "app_name": "Nospeaker",
+  "url": "https://github.com/os6/nospeaker",
+  "scored_at": "2026-11-23T14:03:53.681Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "Created 1 day ago and is not a fork, but similar utilities (TapticTool, Haptik) already exist, indicating a near‑duplicate approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 13.1 s (under the 30 s threshold) despite lacking a PyPI package, showing a relatively easy setup."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a devtool‑CLI for macOS haptic feedback, it addresses a niche need rather than a core LLM workflow, giving it moderate relevance."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "The project has 976 GitHub stars versus 23 for the closest comparable tool (Haptik), indicating a clear advantage in community interest."
+    },
+    "community": {
+      "score": 8,
+      "justification": "The repo holds 976 stars, 1 contributor, and was updated 1 day ago, reflecting strong recent activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 3 tests passed (33%), showing limited functional coverage despite a successful install."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is a CLI only, has no PyPI package, and provides no API modes, limiting automated integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repository is 1 day old, has 52 forks and 8 open issues, suggesting early‑stage but actively explored code."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data shows a clone time of 1.025 s and a cargo build time of 0.001 s, but no comparative performance claims are available."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Comments overwhelmingly praise the inventive idea and nostalgic charm, with a few minor critiques about missing demo video and potential motor wear after repeated use."
+    }
+  },
+  "summary": "Nospeaker is a command‑line utility that drives the MacBook trackpad's haptic motor to emit audible or tactile notifications. It runs locally on macOS and is implemented in Swift, requiring no API keys. The tool is suited for developers who want quick, hardware‑level feedback without building their own haptic interface. It stands out with strong community interest (976 stars) but lacks comprehensive tests, an installable package, and clear integration hooks, making it a promising prototype rather than a production‑ready component.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/os6/nospeaker",
+  "tool_url": "https://github.com/os6/nospeaker",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50610318",
+  "domain": "hardware",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 976,
+      "forks": 52,
+      "open_issues": 8,
+      "watchers": 976,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "Swift",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 1,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "make your macbook's trackpad talk using its haptic motor",
+      "topics": [
+        "haptics",
+        "macos",
+        "swift",
+        "trackpad"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Haptik",
+        "stars": 23,
+        "repo": "hellohaptik/haptik_open_datasets"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "cool creative use of hardware",
+        "fun practical jokes",
+        "nostalgic appeal"
+      ],
+      "negative_signals": [
+        "concerns about motor wear",
+        "lack of demo video"
+      ],
+      "justification": "Comments overwhelmingly praise the inventive idea and nostalgic charm, with a few minor critiques about missing demo video and potential motor wear after repeated use.",
+      "comment_count": 15,
+      "hn_points": 44
+    }
+  }
+}
