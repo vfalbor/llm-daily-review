@@ -1,0 +1,98 @@
+{
+  "app_name": "XNU Linux: Full OS X GUI Userspace on Linux",
+  "url": "https://github.com/AFK-surf/xnulinux",
+  "scored_at": "2026-11-23T14:02:47.141Z",
+  "total_score": 58,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 3 days ago and is not a fork, but similar projects like Darwin and macOS in Docker exist, making it an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 9.7 seconds (<30s) and runs locally without an API key, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an infrastructure tool that lets Linux run macOS GUI apps, it addresses a niche but growing interest in cross‑platform development."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "With 1,094 stars it outpaces many similar hacks, and its full userspace implementation differs from Docker/QEMU approaches, though benchmark ratios show ~10% slower performance."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repo has 1,094 stars, 35 forks, and 1 open issue, with the last commit today, indicating an active but still small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 out of 6 tests passed (≈16.7%) despite a successful install, suggesting core functionality is limited."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "No PyPI package and no documented API; the project offers only CLI/GUI modes and a NOASSERTION license, making integration manual."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so evidence is insufficient."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 3 days old with 35 forks and a single contributor, indicating early-stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines are present (e.g., install_time_s 0.470) but only show ratios of 0.9 to a baseline, offering no clear advantage over alternatives."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The majority of comments express excitement and view the project as a cool, innovative hack that expands development possibilities, while a minority raise legitimate concerns about Apple’s licensing terms and current hardware restrictions. This balance places the overall sentiment in the generally positive range."
+    }
+  },
+  "summary": "XNU Linux implements macOS XNU kernel features in userspace on Linux, enabling full macOS GUI applications to run. It is built in Objective‑C++ and operates via CLI or GUI modes without requiring an API key. The tool is aimed at developers and hobbyists who want to hack macOS apps on Linux, especially those interested in cross‑platform experimentation. Its standout strength is providing a complete userspace GUI layer, while its main caveats are its very recent release, limited documentation, modest test coverage, and slightly slower performance than comparable approaches.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/AFK-surf/xnulinux",
+  "tool_url": "https://github.com/AFK-surf/xnulinux",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50607261",
+  "domain": "infrastructure",
+  "app_type": "infra-application",
+  "enriched": {
+    "github": {
+      "stars": 1094,
+      "forks": 35,
+      "open_issues": 1,
+      "watchers": 1094,
+      "contributors": 1,
+      "license": "NOASSERTION",
+      "language": "Objective-C++",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "topics": []
+    },
+    "similar_github": [],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "enthusiasm for cross-platform development",
+        "coolness of running macOS GUI on Linux",
+        "potential for hacking community"
+      ],
+      "negative_signals": [
+        "Apple EULA concerns",
+        "hardware limitations (Apple silicon only)",
+        "potential legal/ethical issues"
+      ],
+      "justification": "The majority of comments express excitement and view the project as a cool, innovative hack that expands development possibilities, while a minority raise legitimate concerns about Apple’s licensing terms and current hardware restrictions. This balance places the overall sentiment in the generally positive range.",
+      "comment_count": 30,
+      "hn_points": 445
+    }
+  }
+}
