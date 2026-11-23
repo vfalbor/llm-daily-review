@@ -1,0 +1,116 @@
+{
+  "app_name": "A Partial Evaluator for C",
+  "url": "https://phoenix.labri.fr/software/tempo/",
+  "scored_at": "2026-11-23T14:07:18.267Z",
+  "total_score": 48,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repo was created 543 days ago, is not a fork, and offers a similar capability to existing tools like Clang’s Partial Eval, indicating an incremental rather than novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 18.2 seconds (under 30 s) and the package is available on PyPI, requiring no API key."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a lang-transpiler for C, it addresses compile‑time optimization, which is useful but a niche within today’s broader LLM and AI tooling landscape."
+    },
+    "differentiation": {
+      "score": 3,
+      "justification": "The project has only 9 GitHub stars compared to 913 and 13,283 stars for similar tools, and no benchmark shows a clear speed advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "GitHub shows 9 stars, a single contributor, and the last commit was 62 days ago, indicating a very small active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 0 of 1 test passed (0 % success) despite a successful install, suggesting core functionality is not reliably demonstrated."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI, offers both CLI and library API modes, and uses an Apache‑2.0 license, facilitating integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or topic count was provided; documentation quality cannot be assessed from the available metrics."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 543 days old with 0 forks and 4 open issues; a version 0.12 on PyPI suggests early-stage maturity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark reports only an import time of 142 ms with no comparative data, so performance cannot be judged relative to alternatives."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments are mostly informational, pointing to other partial evaluators and discussing unrelated C code bugs. There is no strong positive or negative sentiment toward the project itself, resulting in a neutral score."
+    }
+  },
+  "summary": "A Partial Evaluator for C is a CLI and library tool that performs compile‑time optimizations and code specialization for C programs. It is built in Go and distributed via PyPI (v0.12) without requiring an API key. The tool is suited for developers needing custom C code specialization, but its low star count and lack of benchmark advantages limit its appeal. While installation is quick, the test suite shows no passing tests, and community support is minimal, making it a niche option to consider only if its specific partial evaluation capability is required.",
+  "recommendation": "skip",
+  "app_url": "https://phoenix.labri.fr/software/tempo/",
+  "tool_url": "https://github.com/tempo-lang/tempo",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50607627",
+  "domain": "language",
+  "app_type": "lang-transpiler",
+  "enriched": {
+    "github": {
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 4,
+      "watchers": 9,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Go",
+      "is_fork": false,
+      "days_since_update": 62,
+      "days_since_created": 543,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Tempo Choreographic Programming Language",
+      "topics": [
+        "choreographic-programming"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "C-Optimizer",
+        "stars": 913,
+        "repo": "Kappaemme-git/codex-complexity-optimizer"
+      },
+      {
+        "name": "SAGE",
+        "stars": 13283,
+        "repo": "roots/sage"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.12",
+      "summary": "Tempo Service",
+      "requires_python": null,
+      "license": "Apache License (2.0)",
+      "home_page": "http://tempo.openstack.org/"
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Helpful references to existing partial evaluators (LLPE, Tempo)",
+        "Comments show interest in building on LLVM"
+      ],
+      "negative_signals": [
+        "Limited direct praise or critique of the project",
+        "Discussion of unrelated C code bugs distracts from project"
+      ],
+      "justification": "The comments are mostly informational, pointing to other partial evaluators and discussing unrelated C code bugs. There is no strong positive or negative sentiment toward the project itself, resulting in a neutral score.",
+      "comment_count": 20,
+      "hn_points": 83
+    }
+  }
+}
