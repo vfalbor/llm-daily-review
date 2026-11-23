@@ -1,0 +1,114 @@
+{
+  "app_name": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+  "url": "https://github.com/mikuta0407/win4wine",
+  "scored_at": "2026-11-23T14:01:46.984Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository is 42 days old and is not a fork, but its purpose closely mirrors existing tools like WinCDEmu and CrossOver, making it a near‑duplicate rather than a novel approach."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 18.3 seconds without needing an API key, and the tool runs locally on consumer hardware despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool‑CLI that launches Windows shells via Wine, it addresses a niche use‑case not central to today's mainstream LLM workflows."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With 183 GitHub stars it trails similar projects (e.g., WinCDEmu at 1,463 stars) and offers only modest speed gains (startup 0.0012 ms) without clear unique features."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo has 183 stars, 2 contributors, and its last commit was 31 days ago, indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Out of 4 automated tests, 0 passed (0% success), indicating core functionality is not fully verified despite successful installation."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is only available as a CLI, has no PyPI package, and provides no API surface beyond command‑line usage; it is licensed under LGPL‑2.1."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or topic metadata were provided, so quantitative documentation evidence is missing."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 42 days old, has 8 forks and 4 open issues, suggesting early‑stage development but with some activity."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark data shows very fast startup (0.0012 ms) but lacks any comparative figures against similar tools, so a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "Comments are largely enthusiastic—many praise the visual integration and potential features—yet there are practical concerns about incomplete support and the use of legacy Windows components with inherent security risks."
+    }
+  },
+  "summary": "Win4wine is a Go‑based CLI that launches a Windows shell inside Wine to give Linux users a Windows‑style desktop experience. It runs locally without external APIs and installs in under 20 seconds, but it lacks a PyPI package and offers only a command‑line interface. The tool is suited for developers or power users who need quick access to Windows GUI apps on Linux, though its niche focus limits broader appeal. While installation works and startup is extremely fast, the project has minimal community traction, limited documentation, and no test coverage, making it a modest, early‑stage utility.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/mikuta0407/win4wine",
+  "tool_url": "https://github.com/mikuta0407/win4wine",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50610743",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 183,
+      "forks": 8,
+      "open_issues": 4,
+      "watchers": 183,
+      "contributors": 2,
+      "license": "LGPL-2.1",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 31,
+      "days_since_created": 42,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "Windows XP の Explorer を Wine 上で Linux のデスクトップシェルとして動かす / Run Windows XP's shell as the Linux desktop on Wine",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "WinCDEmu",
+        "stars": 1463,
+        "repo": "sysprogs/WinCDEmu"
+      },
+      {
+        "name": "CrossOver",
+        "stars": 1276,
+        "repo": "lacymorrow/crossover"
+      },
+      {
+        "name": "Crossover",
+        "stars": 1276,
+        "repo": "lacymorrow/crossover"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "impressive integration",
+        "exciting concept",
+        "enthusiastic support"
+      ],
+      "negative_signals": [
+        "not yet supported",
+        "security vulnerabilities",
+        "concern over legacy OS"
+      ],
+      "justification": "Comments are largely enthusiastic—many praise the visual integration and potential features—yet there are practical concerns about incomplete support and the use of legacy Windows components with inherent security risks.",
+      "comment_count": 9,
+      "hn_points": 24
+    }
+  }
+}
