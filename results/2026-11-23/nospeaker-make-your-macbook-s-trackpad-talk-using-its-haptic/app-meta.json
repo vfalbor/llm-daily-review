@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 7,
+    "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+    "url": "https://github.com/os6/nospeaker",
+    "hn_url": "https://news.ycombinator.com/item?id=50610318",
+    "points": 44,
+    "comments": 15,
+    "author": "",
+    "age": "2026-11-23T11:31:54",
+    "scraped_at": "2026-11-23T14:00:02.726Z",
+    "tool_url": "https://github.com/os6/nospeaker",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.92,
+    "domain": "hardware",
+    "app_type": "devtool-cli",
+    "description": "A command‑line utility that outputs haptic feedback through the MacBook trackpad to provide audible or tactile notifications.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "TapticTool",
+      "Haptik",
+      "macOS Taptic Feedback utilities"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `cargo build --release`",
+      "Execute the binary with `--help` and confirm usage instructions",
+      "Run `nospeaker test` to trigger a short vibration and verify haptic output",
+      "Measure latency from command execution to vibration onset"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/os6/nospeaker"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442568527-wutwq",
+    "log_dir": "/tmp/llm-review-1795442568527-wutwq",
+    "install_success": true,
+    "install_time_s": 13.1,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:clone_time_s:1.025\nBENCHMARK:src_file_count:34\nBENCHMARK:src_lang_count:8\nBENCHMARK:cargo_build_time_s:0.001",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:clone_time_s:1.025\nBENCHMARK:src_file_count:34\nBENCHMARK:src_lang_count:8\nTEST_PASS:source_counts\nBENCHMARK:cargo_build_time_s:0.001\nTEST_FAIL:cargo_build:cargo build error\nTEST_FAIL:binary_missing:binary not found after build\nRUN_OK\n"
+  }
+}
