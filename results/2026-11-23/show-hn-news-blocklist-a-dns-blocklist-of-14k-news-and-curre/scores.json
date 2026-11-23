@@ -1,0 +1,123 @@
+{
+  "app_name": "News Blocklist",
+  "url": "https://github.com/ruairidhflint/news-blocklist",
+  "scored_at": "2026-11-23T14:06:04.072Z",
+  "total_score": 45,
+  "scores": {
+    "novelty": {
+      "score": 3,
+      "justification": "The repo was created today (0 days since created) and is not a fork, but compared to similar tools it has only 5 stars versus 29,088, 130, and 1 stars, indicating it is a near‑duplicate with minimal differentiation."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 9.7 seconds despite no PyPI package, showing a simple setup without exotic dependencies."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a DNS blocklist for news sites (type sec-crypto), it addresses a niche security need that remains useful in current DNS filtering workflows."
+    },
+    "differentiation": {
+      "score": 4,
+      "justification": "It offers a 14k‑entry list but has far fewer stars than Blocklist (-29,083) and Firebog (-125), and no benchmark data to show a clear advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The GitHub repo has 5 stars, 2 contributors, and was updated today, placing it in the <100‑star, small‑community tier."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (0% pass rate) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project provides CLI, config‑file, and API modes and is MIT‑licensed, allowing moderate integration despite the lack of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository is brand new (0 days since creation), has 0 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were supplied in the test output, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "The comments are brief and neutral, noting a missed site and suggesting extensions, reflecting a balanced view with no major criticism."
+    }
+  },
+  "summary": "News Blocklist is a DNS‑based blocklist targeting 14k news and current‑affairs domains. It ships as a CLI, config file, and simple API built in Python without requiring an external API key. It is suited for security engineers or hobbyists who need a lightweight, locally‑run blocklist for DNS filtering. The project installs quickly but fails all automated tests and has minimal community adoption, while offering no performance claims.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/ruairidhflint/news-blocklist",
+  "tool_url": "https://github.com/ruairidhflint/news-blocklist",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50611026",
+  "domain": "security",
+  "app_type": "sec-crypto",
+  "enriched": {
+    "github": {
+      "stars": 5,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 5,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A DNS blocklist of news and current-affairs sites worldwide: a curated core plus news outlets from Wikidata. Hosts, domains, adblock, wildcard and dnsmasq formats.",
+      "topics": [
+        "adguard-home",
+        "blocklist",
+        "digital-wellbeing",
+        "dns",
+        "dnsmasq",
+        "filterlist",
+        "hosts",
+        "news",
+        "pihole",
+        "ublock-origin"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Blocklist",
+        "stars": 29088,
+        "repo": "hagezi/dns-blocklists"
+      },
+      {
+        "name": "Firebog",
+        "stars": 130,
+        "repo": "KnightmareVIIVIIXC/AIO-Firebog-Blocklists"
+      },
+      {
+        "name": "Pi-hole blacklists",
+        "stars": 1,
+        "repo": "HinataNRW/PiHole-Blacklists"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "Useful idea",
+        "Potential integration with feeds"
+      ],
+      "negative_signals": [
+        "Missing site",
+        "Limited scope"
+      ],
+      "justification": "The comments are brief and neutral, noting a missed site and suggesting extensions, reflecting a balanced view with no major criticism.",
+      "comment_count": 3,
+      "hn_points": 11
+    }
+  }
+}
