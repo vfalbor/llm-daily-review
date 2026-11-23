@@ -1,0 +1,114 @@
+{
+  "app_name": "I built a game where you are an LLM's subagent",
+  "url": "https://github.com/gulivan/worker755",
+  "scored_at": "2026-11-23T14:07:48.581Z",
+  "total_score": 67,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "The repo is only 11 days old, is not a fork, and its 194 stars are far fewer than similar tools, indicating a novel game‑based approach to LLM subagents."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 11 seconds (under the 30 s threshold) and the tool runs locally via CLI/Web UI despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As an llm‑framework that turns LLM interaction into a game, it addresses current interest in agent‑based LLM experimentation."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With only 194 stars versus 3,254–61,197 for comparable agents and a functional latency of 0.27 ms (vs LangChain ratio 0.002), it offers a uniquely fast, game‑style experience."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The project has 194 GitHub stars (100–1k range), 2 contributors, and was updated today (0 days since last commit), showing modest but active community engagement."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 5 tests passed (<50%), indicating core functionality is not reliably verified despite a successful basic run."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but the tool provides CLI and Web UI modes and is MIT‑licensed, allowing manual integration with some glue code."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 11 days old, has 7 forks and 0 open issues, indicating an early‑stage but stable release."
+    },
+    "performance": {
+      "score": 9,
+      "justification": "Benchmarks show import time 1.37 ms and functional latency 0.27 ms, with a latency ratio to LangChain of 0.002, representing a >2× speed advantage."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The majority of comments praise the game’s novelty, open-source nature, and educational value, while a minority raise ethical or future‑world concerns, leading to a highly positive but slightly cautious overall sentiment."
+    }
+  },
+  "summary": "This project is a game that lets a human act as a sub‑agent of an LLM, providing both a CLI and a Web UI for interactive agent‑based gameplay. It is built in TypeScript and runs locally, requiring an API key for the underlying LLM. The tool is suited for developers or hobbyists exploring LLM agents in a playful, educational setting. Its standout strength is extremely low latency (0.27 ms functional latency) compared to typical agent frameworks, while the main caveat is the lack of automated tests and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/gulivan/worker755",
+  "tool_url": "https://github.com/gulivan/worker755",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50599762",
+  "domain": "llm-ai",
+  "app_type": "llm-framework",
+  "enriched": {
+    "github": {
+      "stars": 194,
+      "forks": 7,
+      "open_issues": 0,
+      "watchers": 194,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 11,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A browser game where an AI manager thinks you are its subagent. Play at worker755.com",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "OpenAI Chat API",
+        "stars": 500,
+        "repo": "ninehills/chatglm-openai-api"
+      },
+      {
+        "name": "LangChain Agent",
+        "stars": 3254,
+        "repo": "langchain-ai/agent-chat-ui"
+      },
+      {
+        "name": "CrewAI",
+        "stars": 61197,
+        "repo": "joaomdmoura/crewAI"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Fun and innovative gameplay",
+        "Open-source with local LLM support",
+        "Community engagement and learning"
+      ],
+      "negative_signals": [
+        "Ethical concerns about subagents",
+        "Skepticism about future implications",
+        "Initial lack of local LLM support"
+      ],
+      "justification": "The majority of comments praise the game’s novelty, open-source nature, and educational value, while a minority raise ethical or future‑world concerns, leading to a highly positive but slightly cautious overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 341
+    }
+  }
+}
