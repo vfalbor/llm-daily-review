@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+    "url": "https://github.com/elixir-hls/elixir-hls",
+    "hn_url": "https://news.ycombinator.com/item?id=50584526",
+    "points": 67,
+    "comments": 0,
+    "author": "",
+    "age": "2026-11-21T00:47:57",
+    "scraped_at": "2026-11-23T14:00:02.727Z",
+    "tool_url": "https://github.com/elixir-hls/elixir-hls",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "devtool",
+    "app_type": "devtool-build",
+    "description": "A compiler that translates Elixir functions into High‑Level Synthesis (HLS) code for generating FPGA circuits.",
+    "use_modes": [
+      "CLI",
+      "SDK"
+    ],
+    "similar_tools": [
+      "Chisel",
+      "Catapult HLS",
+      "Vivado HLS"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `mix compile` to build the compiler",
+      "Create a minimal Elixir module and compile it to VHDL using the tool",
+      "Verify the generated VHDL contains the expected logic gates",
+      "Run the generated VHDL through a simulator and check functional correctness"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/elixir-hls/elixir-hls"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442635081-mcynd",
+    "log_dir": "/tmp/llm-review-1795442635081-mcynd",
+    "install_success": true,
+    "install_time_s": 8.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 3,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.73",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.73\nTEST_FAIL:clone_and_compile:[Errno 2] No such file or directory: 'mix'\nTEST_FAIL:generate_vhdl:[Errno 2] No such file or directory: 'mix'\nTEST_FAIL:simulate_vhdl:VHDL file missing\nRUN_OK\n"
+  }
+}
