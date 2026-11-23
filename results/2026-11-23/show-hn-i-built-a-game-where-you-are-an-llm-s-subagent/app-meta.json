@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 29,
+    "title": "Show HN: I built a game where you are an LLM's subagent",
+    "url": "https://github.com/gulivan/worker755",
+    "hn_url": "https://news.ycombinator.com/item?id=50599762",
+    "points": 340,
+    "comments": 80,
+    "author": "",
+    "age": "2026-11-22T13:56:58",
+    "scraped_at": "2026-11-23T14:00:02.737Z",
+    "tool_url": "https://github.com/gulivan/worker755",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "llm-ai",
+    "app_type": "llm-framework",
+    "description": "A game that treats the player as a subagent of an LLM, enabling interactive agent-based gameplay.",
+    "use_modes": [
+      "CLI",
+      "Web UI"
+    ],
+    "similar_tools": [
+      "OpenAI Chat API",
+      "LangChain Agent",
+      "CrewAI"
+    ],
+    "proposed_tests": [
+      "Clone repo and install dependencies with pip install -r requirements.txt",
+      "Run the game locally and verify the LLM subagent responds to player actions",
+      "Measure latency of LLM API calls via mock server",
+      "Check that the game logs interactions to a local file"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/gulivan/worker755"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442839595-2h1dy",
+    "log_dir": "/tmp/llm-review-1795442839595-2h1dy",
+    "install_success": true,
+    "install_time_s": 11,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.46\nBENCHMARK:clone_install_time_s:3.37\nBENCHMARK:import_time_ms:1.37\nBENCHMARK:functional_latency_ms:0.27\nBENCHMARK:mock_api_latency_ms:53.27\nBENCHMARK:log_file_size_bytes:0\nBENCHMARK:log_check_time_ms:0.15\nBENCHMARK:vs_langchain_functional_latency_ratio:0.002",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.46\nTEST_FAIL:clone_and_install:editable install failed: \n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/worker755 does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\n\nBENCHMARK:clone_install_time_s:3.37\nTEST_FAIL:import_package:worker755 package not found after install\nBENCHMARK:import_time_ms:1.37\nTEST_FAIL:functional_test:No module named 'worker755'\nBENCHMARK:functional_latency_ms:0.27\nTEST_FAIL:mock_server_latency:No module named 'worker755'\nBENCHMARK:mock_api_latency_ms:53.27\nTEST_FAIL:log_file_check:No module named 'worker755'\nBENCHMARK:log_file_size_bytes:0\nBENCHMARK:log_check_time_ms:0.15\nBENCHMARK:vs_langchain_functional_latency_ratio:0.002\nRUN_OK\n"
+  }
+}
