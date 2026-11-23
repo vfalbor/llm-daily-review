@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+    "url": "https://github.com/mikuta0407/win4wine",
+    "hn_url": "https://news.ycombinator.com/item?id=50610743",
+    "points": 24,
+    "comments": 9,
+    "author": "",
+    "age": "2026-11-23T12:28:11",
+    "scraped_at": "2026-11-23T14:00:02.723Z",
+    "tool_url": "https://github.com/mikuta0407/win4wine",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.93,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "A Go application that launches a Windows shell within Wine, providing a Linux desktop experience using Windows GUI.",
+    "use_modes": [
+      "CLI"
+    ],
+    "similar_tools": [
+      "WinCDEmu",
+      "CrossOver",
+      "Crossover"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `go build` to compile the binary",
+      "Execute the binary with `--help` and verify output",
+      "Run the binary and confirm it launches the Windows shell",
+      "Measure startup time and compare with a native Wine shell"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/mikuta0407/win4wine"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442468670-ynd6q",
+    "log_dir": "/tmp/llm-review-1795442468670-ynd6q",
+    "install_success": true,
+    "install_time_s": 18.3,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:clone_repo_time_s:1.2194\nBENCHMARK:clone_repo_time_s_mem_kb:60.12\nBENCHMARK:go_build_time_s:0.0110\nBENCHMARK:go_build_time_s_mem_kb:59.99\nBENCHMARK:help_output_time_s:0.0015\nBENCHMARK:help_output_time_s_mem_kb:59.62\nBENCHMARK:startup_time_ms:0.0012\nBENCHMARK:startup_time_ms_mem_kb:60.13\nBENCHMARK:repo_file_count:428\nBENCHMARK:repo_loc_count:0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK | nodejs\nINSTALL_OK | npm\nINSTALL_OK | git\nINSTALL_OK | cargo\nINSTALL_OK | rust\nINSTALL_OK | go\nBENCHMARK:clone_repo_time_s:1.2194\nBENCHMARK:clone_repo_time_s_mem_kb:60.12\nBENCHMARK:go_build_time_s:0.0110\nBENCHMARK:go_build_time_s_mem_kb:59.99\nTEST_FAIL:build:build failed\nBENCHMARK:help_output_time_s:0.0015\nBENCHMARK:help_output_time_s_mem_kb:59.62\nTEST_FAIL:help_output:[Errno 2] No such file or directory: '/tmp/win4wine_src/win4wine'\nBENCHMARK:startup_time_ms:0.0012\nBENCHMARK:startup_time_ms_mem_kb:60.13\nTEST_FAIL:startup:[Errno 2] No such file or directory: '/tmp/win4wine_src/win4wine'\nTEST_FAIL:benchmark_vs_baseline:unsupported operand type(s) for /: 'FileNotFoundError' and 'int'\nBENCHMARK:repo_file_count:428\nBENCHMARK:repo_loc_count:0\nRUN_OK\n"
+  }
+}
