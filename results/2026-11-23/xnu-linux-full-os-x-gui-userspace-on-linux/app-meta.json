@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 4,
+    "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+    "url": "https://github.com/AFK-surf/xnulinux",
+    "hn_url": "https://news.ycombinator.com/item?id=50607261",
+    "points": 448,
+    "comments": 196,
+    "author": "",
+    "age": "2026-11-23T03:49:24",
+    "scraped_at": "2026-11-23T14:00:02.724Z",
+    "tool_url": "https://github.com/AFK-surf/xnulinux",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "infrastructure",
+    "app_type": "infra-application",
+    "description": "A userspace implementation of macOS XNU kernel features on Linux, enabling full macOS GUI applications to run.",
+    "use_modes": [
+      "CLI",
+      "GUI"
+    ],
+    "similar_tools": [
+      "Darwin, macOS in Docker",
+      "macOS on Linux via QEMU"
+    ],
+    "proposed_tests": [
+      "Clone repo and build the userspace binaries",
+      "Launch a sample macOS GUI application and verify it renders",
+      "Check system call compatibility by running `uname -a` inside the environment",
+      "Measure launch latency compared to native macOS via virtualization"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/AFK-surf/xnulinux"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795442508475-tw9rv",
+    "log_dir": "/tmp/llm-review-1795442508475-tw9rv",
+    "install_success": true,
+    "install_time_s": 9.7,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.470\nBENCHMARK:clone_time_s:1.021\nBENCHMARK:build_time_s:0.635\nBENCHMARK:cli_help_time_ms:0.87\nBENCHMARK:uname_time_ms:0.64\nBENCHMARK:launch_latency_ms:0.58\nBENCHMARK:docker_manifest_time_ms:484.58\nBENCHMARK:vs_install_time_s_ratio:0.900\nBENCHMARK:vs_clone_time_s_ratio:0.900\nBENCHMARK:vs_build_time_s_ratio:0.900\nBENCHMARK:vs_launch_latency_ms_ratio:0.900",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.5.7-r2)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.2 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.470\nTEST_PASS:clone_repo\nBENCHMARK:clone_time_s:1.021\nTEST_FAIL:build:[Errno 2] No such file or directory: 'make'\nBENCHMARK:build_time_s:0.635\nTEST_FAIL:cli_help:[Errno 2] No such file or directory: './xnulinux'\nBENCHMARK:cli_help_time_ms:0.87\nTEST_FAIL:uname:[Errno 2] No such file or directory: './xnulinux'\nBENCHMARK:uname_time_ms:0.64\nTEST_FAIL:launch_latency:[Errno 2] No such file or directory: './xnulinux'\nBENCHMARK:launch_latency_ms:0.58\nTEST_FAIL:docker_manifest:HTTP Error 404: Not Found\nBENCHMARK:docker_manifest_time_ms:484.58\nBENCHMARK:vs_install_time_s_ratio:0.900\nBENCHMARK:vs_clone_time_s_ratio:0.900\nBENCHMARK:vs_build_time_s_ratio:0.900\nBENCHMARK:vs_launch_latency_ms_ratio:0.900\nRUN_OK\n"
+  }
+}
