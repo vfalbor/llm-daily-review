@@ -1,0 +1,99 @@
+{
+  "app_name": "Ladybird",
+  "url": "https://ladybird.org/posts/alpha/",
+  "scored_at": "2026-11-24T14:01:28.810Z",
+  "total_score": 56,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so quantitative novelty evidence is missing."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 27.4 s, which is under the 30 s threshold, but there is no PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑CLI for scaffolding modern web projects, it aligns with current developer tooling trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "No GitHub star count or benchmark comparison to similar tools (Create React App, Vite, Snowpack) is available."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 2154, which places it in the >500 range indicating strong community interest."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "2 of 6 tests passed (33 %), below the 50 % threshold, though install succeeded."
+    },
+    "ease_of_integration": {
+      "score": 3,
+      "justification": "The tool is CLI‑only, has no PyPI package, and provides no API modes, making integration difficult."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and no documentation metrics were found."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "HN points are 2154 (>300) and the domain appears stable, giving a moderate maturity signal."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark lines only report Vite times; no performance data for Ladybird itself, so a neutral score is used."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments highlight both appreciation for using proven libraries and AI‑powered progress, while raising legitimate concerns about code provenance, performance and feature limits, resulting in a generally positive but cautiously critical reception."
+    }
+  },
+  "summary": "Ladybird is a lightweight CLI that scaffolds modern web projects without configuration. It runs locally as a simple command‑line tool and does not require an API key. It is suited for developers who want a zero‑config starter for React‑style apps and prefer a fast, opinionated setup. The main strength is its quick install (27 s) and low overhead, while the lack of integration APIs and limited test coverage are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://ladybird.org/posts/alpha/",
+  "tool_url": "https://github.com/ladybirdorg/ladybird",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50614249",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Create React App",
+        "stars": 103221,
+        "repo": "react/create-react-app"
+      },
+      {
+        "name": "Vite",
+        "stars": 84068,
+        "repo": "vitejs/vite"
+      },
+      {
+        "name": "Snowpack",
+        "stars": 19260,
+        "repo": "FredKSchott/snowpack"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Adopts production‑grade libraries",
+        "AI‑driven development",
+        "Long‑term maintenance commitment"
+      ],
+      "negative_signals": [
+        "Moral/ownership concerns about Skia/ANGLE",
+        "Performance/feature criticisms",
+        "History storage issues"
+      ],
+      "justification": "Comments highlight both appreciation for using proven libraries and AI‑powered progress, while raising legitimate concerns about code provenance, performance and feature limits, resulting in a generally positive but cautiously critical reception.",
+      "comment_count": 30,
+      "hn_points": 2154
+    }
+  }
+}
