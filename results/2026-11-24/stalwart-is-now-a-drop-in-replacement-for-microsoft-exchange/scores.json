@@ -1,0 +1,99 @@
+{
+  "app_name": "Stalwart",
+  "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+  "scored_at": "2026-11-24T14:02:24.844Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be assessed beyond being an open-source mail server similar to Zimbra, Kolab and Mailu."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Install succeeded (true) in 9.2 seconds, which is well under the 30‑second threshold for easy setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a database‑nosql mail server, it addresses email infrastructure rather than the prevailing LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "No star count is available, but benchmark data shows insert latency of 5.451 ms versus a baseline of 6.001 ms (ratio 0.908), indicating a modest speed advantage over comparable solutions."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN points are 550 with 30 comments, which places community strength in the 7–8 range per the rubric."
+    },
+    "ease_of_use": {
+      "score": 9,
+      "justification": "All tests passed (1/1) and the installation succeeded, demonstrating high usability."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool offers CLI, HTTP API, SMTP, IMAP and LDAP interfaces, making integration straightforward despite the absence of a PyPI package."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub pages, or README quality was provided, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With 550 HN points and a stable domain, the proxy scoring rules assign a maturity level in the 6 range."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmark shows insert query time 5.451 ms versus baseline 6.001 ms (0.908×), a modest improvement but not a large (>2×) advantage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments largely express cautious optimism—highlighting fast development and OSS benefits—while many raise concerns about AI use, code quality, and the risk of replacing critical infrastructure, leading to an overall mixed but slightly positive sentiment."
+    }
+  },
+  "summary": "Stalwart is an open‑source mail server that aims to replace Microsoft Exchange with a unified mailbox, calendar and collaboration stack. It can be operated via CLI, HTTP API, SMTP, IMAP and LDAP, offering multiple integration points. The tool is suited for organizations that need a self‑hosted Exchange alternative and value a modest performance edge, as its insert latency is about 9% faster than a baseline. Its main drawback is the limited community presence and sparse documentation, reflected by low GitHub visibility and modest HN engagement.",
+  "recommendation": "worth-watching",
+  "app_url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+  "tool_url": "https://github.com/stalwartio/stalwart",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50620349",
+  "domain": "database",
+  "app_type": "database-nosql",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "Zimbra",
+        "stars": 253,
+        "repo": "Zimbra/zm-build"
+      },
+      {
+        "name": "Kolab",
+        "stars": 69,
+        "repo": "konradrenner/kolabnotes-android"
+      },
+      {
+        "name": "Mailu",
+        "stars": 7638,
+        "repo": "Mailu/Mailu"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Rapid code generation",
+        "Open-source nature",
+        "Confidence in engineering"
+      ],
+      "negative_signals": [
+        "Risk of replacing Exchange",
+        "AI-generated code concerns",
+        "Quality skepticism"
+      ],
+      "justification": "The comments largely express cautious optimism—highlighting fast development and OSS benefits—while many raise concerns about AI use, code quality, and the risk of replacing critical infrastructure, leading to an overall mixed but slightly positive sentiment.",
+      "comment_count": 30,
+      "hn_points": 550
+    }
+  }
+}
