@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 22,
+    "title": "GPUI is getting its own repository",
+    "url": "https://github.com/zed-industries/gpui",
+    "hn_url": "https://news.ycombinator.com/item?id=50619103",
+    "points": 324,
+    "comments": 113,
+    "author": "",
+    "age": "2026-11-23T20:52:54",
+    "scraped_at": "2026-11-24T14:00:02.337Z",
+    "is_reviewable": true,
+    "source_type": "tool",
+    "confidence": 0.92,
+    "domain": "devtool",
+    "app_type": "devtool-frontend",
+    "description": "GPUI is a lightweight, fast UI framework written in Rust for building native applications.",
+    "use_modes": [
+      "Rust library",
+      "CLI tool for scaffolding"
+    ],
+    "similar_tools": [
+      "Druid",
+      "Iced",
+      "Azul",
+      "egui"
+    ],
+    "proposed_tests": [
+      "Run `cargo build --example hello` and confirm binary builds successfully",
+      "Execute `cargo test` to run the included test suite and verify all pass",
+      "Measure render latency by running a benchmark example and recording frame times",
+      "Generate a minimal application with the CLI (`gpui new demo`) and ensure it compiles"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/zed-industries/gpui",
+    "tool_url": "https://github.com/zed-industries/gpui"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795528946748-k0zn8",
+    "log_dir": "/tmp/llm-review-1795528946748-k0zn8",
+    "install_success": true,
+    "install_time_s": 14.7,
+    "basic_run_success": false,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:5.82\nBENCHMARK:pip_install_time_s:1.45\nBENCHMARK:import_time_ms:1.24\nBENCHMARK:import_mem_peak_kb:7.89\nBENCHMARK:vs_egui_import_time_ms:0.800",
+    "error_log": "Traceback (most recent call last):\n  File \"/app/test.py\", line 206, in <module>\n    main()\n  File \"/app/test.py\", line 198, in main\n    if build_ok:\n       ^^^^^^^^\nUnboundLocalError: cannot access local variable 'build_ok' where it is not associated with a value\n",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r0)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.10.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:5.82\nINSTALL_OK\nBENCHMARK:pip_install_time_s:1.45\nTEST_SKIP:cargo_operations:source not available\nBENCHMARK:import_time_ms:1.24\nBENCHMARK:import_mem_peak_kb:7.89\nBENCHMARK:vs_egui_import_time_ms:0.800\n"
+  }
+}
