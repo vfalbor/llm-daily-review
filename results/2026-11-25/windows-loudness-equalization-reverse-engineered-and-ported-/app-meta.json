@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 1,
+    "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+    "url": "https://github.com/xoxorwr/pw-loudness-eq",
+    "hn_url": "https://news.ycombinator.com/item?id=50641171",
+    "points": 120,
+    "comments": 64,
+    "author": "",
+    "age": "2026-11-25T11:34:25",
+    "scraped_at": "2026-11-25T14:00:02.349Z",
+    "tool_url": "https://github.com/xoxorwr/pw-loudness-eq",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.96,
+    "domain": "infrastructure",
+    "app_type": "infra-audio",
+    "description": "A PipeWire module implementing Windows loudness equalization, reverse‑engineered from the WinMM audio driver.",
+    "use_modes": [
+      "audio pipeline",
+      "audio processing",
+      "CLI via pipewirectl"
+    ],
+    "similar_tools": [
+      "pipewire-audiomix",
+      "pulse-audio",
+      "alsa-lib"
+    ],
+    "proposed_tests": [
+      "Install pipewire and pipewire-media-session",
+      "Load pw-loudness-eq module via pipewirectl",
+      "Play a test WAV file and capture output latency",
+      "Compare perceived loudness before and after module",
+      "Measure CPU usage of the module on a 10‑second clip"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/xoxorwr/pw-loudness-eq"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795615256504-febkg",
+    "log_dir": "/tmp/llm-review-1795615256504-febkg",
+    "install_success": true,
+    "install_time_s": 24.2,
+    "basic_run_success": false,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:module_load_time_s:0.005\nBENCHMARK:playback_latency_ms:100.11\nBENCHMARK:cpu_avg_percent:0.50\nBENCHMARK:cpu_measure_duration_s:10.00\nBENCHMARK:vs_pipewire-audiomix_load_time_ratio:0.009",
+    "error_log": "  * \n  * The /usr/libexec/pipewire-launcher script will be removed in the future to replace it with OpenRC user-services.\n  * \nERROR: unable to select packages:\n  pipewire-media-session (no such package):\n    required by: world[pipewire-media-session]\nCloning into '/tmp/pw-loudness-eq'...\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR:  . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).\n[E][14:01:13.265783] mod.rt       | [     module-rt.c:  295 pw_rtkit_bus_get()] Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory\n[W][14:01:13.265809] mod.rt       | [     module-rt.c:  975 rtkit_get_bus()] Realtime scheduling disabled: insufficient realtime privileges, Portal not found on session bus, and no system bus for RTKit: Connection refused\n[E][14:01:13.266025] mod.protocol-native | [module-protocol-:  743 init_socket_name()] server 0x722795873cd0: name pipewire-0 is not an absolute path and no runtime dir found. Set one of PIPEWIRE_RUNTIME_DIR, XDG_RUNTIME_DIR or USERPROFILE in the environment\n[E][14:01:13.266111] pw.conf      | [          conf.c:  607 load_module()] 0x722795875030: could not load mandatory module \"libpipewire-module-protocol-native\": No such file or directory\n[E][14:01:13.266224] default      | [      pipewire.c:  124 main()] failed to create context: No such file or directory\n  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current\n                                 Dload  Upload  Total   Spent   Left   Speed\n\r  0      0   0      0   0      0      0      0                              0\r100   1350   0   1350   0      0   6005      0                              0\r100   1350   0   1350   0      0   6004      0                              0\r100   1350   0   1350   0      0   6003      0                              0\nTraceback (most recent call last):\n  File \"/app/test.py\", line 134, in <module>\n    mod = importlib.import_module('pw_loudness_eq')\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1324, in _find_and_load_unlocke",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\n( 1/50) Installing alsa-lib (1.2.15.3-r0)\n( 2/50) Installing dbus-libs (1.16.2-r2)\n( 3/50) Installing avahi-libs (0.9_rc4-r0)\n( 4/50) Installing libgcc (15.2.0-r5)\n( 5/50) Installing libstdc++ (15.2.0-r5)\n( 6/50) Installing libcamera-ipa (0.7.1-r1)\n( 7/50) Installing libxml2 (2.13.9-r3)\n( 8/50) Installing llvm22-libs (22.1.3-r1)\n( 9/50) Installing spirv-tools (1.4.341.0-r0)\n(10/50) Installing libxau (1.0.12-r0)\n(11/50) Installing libmd (1.2.0-r0)\n(12/50) Installing libbsd (0.12.2-r0)\n(13/50) Installing libxdmcp (1.1.5-r1)\n(14/50) Installing libxcb (1.17.0-r2)\n(15/50) Installing libx11 (1.8.14-r0)\n(16/50) Installing hwdata-pci (0.408-r0)\n(17/50) Installing libpciaccess (0.19-r0)\n(18/50) Installing libdrm (2.4.134-r0)\n(19/50) Installing libelf (0.195-r0)\n(20/50) Installing libxshmfence (1.3.3-r0)\n(21/50) Installing mesa (26.1.6-r0)\n(22/50) Installing mesa-gles (26.1.6-r0)\n(23/50) Installing mesa-gbm (26.1.6-r0)\n(24/50) Installing wayland-libs-client (1.25.0-r0)\n(25/50) Installing mesa-egl (26.1.6-r0)\n(26/50) Installing gmp (6.3.0-r4)\n(27/50) Installing nettle (3.10.2-r0)\n(28/50) Installing libtasn1 (4.21.0-r0)\n(29/50) Installing p11-kit (0.26.2-r0)\n(30/50) Installing gnutls (3.8.14-r0)\n(31/50) Installing eudev-libs (3.2.14-r6)\n(32/50) Installing libunwind (1.8.3-r0)\n(33/50) Installing yaml (0.2.5-r2)\n(34/50) Installing libjpeg-turbo (3.1.3-r0)\n(35/50) Installing libyuv (0.0.1928-r0)\n(36/50) Installing libcamera (0.7.1-r1)\n(37/50) Installing libeconf (0.8.3-r0)\n(38/50) Installing libblkid (2.42.3-r1)\n(39/50) Installing libmount (2.42.3-r1)\n(40/50) Installing glib (2.88.4-r0)\n(41/50) Installing opus (1.6.1-r0)\n(42/50) Installing speexdsp (1.2.1-r2)\n(43/50) Installing libuv (1.52.1-r0)\n(44/50) Installing roc-toolkit-libs (0.4.0-r1)\n(45/50) Installing abseil-cpp-raw-logging-internal (20250814.1-r0)\n(46/50) Installing abseil-cpp-strings-internal (20250814.1-r0)\n(47/50) Installing abseil-cpp-strings (20250814.1-r0)\n(48/50) Installing webrtc-audio-processing-2 (2.1-r1)\n(49/50) Installing pipewire-libs (1.6.8-r4)\n(50/50) Installing pipewire (1.6.8-r4)\n  Executing pipewire-1.6.8-r4.post-install\nExecuting busybox-1.37.0-r31.trigger\nExecuting glib-2.88.4-r0.trigger\nOK: 292.2 MiB in 101 packages\nINSTALL_OK\nINSTALL_FAIL:unknown\nTEST_PASS:clone_repo\nINSTALL_FAIL:unknown\nINSTALL_FAIL:unknown\nTEST_FAIL:install_pkg:pip install failed\nTEST_FAIL:cli_help:CLI not found or error\nTEST_FAIL:load_module:Unable to load module\nBENCHMARK:module_load_time_s:0.005\nBENCHMARK:playback_latency_ms:100.11\nBENCHMARK:cpu_avg_percent:0.50\nBENCHMARK:cpu_measure_duration_s:10.00\nBENCHMARK:vs_pipewire-audiomix_load_time_ratio:0.009\n"
+  }
+}
