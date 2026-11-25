@@ -1,0 +1,34 @@
+  * 
+  * The /usr/libexec/pipewire-launcher script will be removed in the future to replace it with OpenRC user-services.
+  * 
+ERROR: unable to select packages:
+  pipewire-media-session (no such package):
+    required by: world[pipewire-media-session]
+Cloning into '/tmp/pw-loudness-eq'...
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.
+
+[notice] A new release of pip is available: 25.0.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR:  . is not a valid editable requirement. It should either be a path to a local project or a VCS URL (beginning with bzr+http, bzr+https, bzr+ssh, bzr+sftp, bzr+ftp, bzr+lp, bzr+file, git+http, git+https, git+ssh, git+git, git+file, hg+file, hg+http, hg+https, hg+ssh, hg+static-http, svn+ssh, svn+http, svn+https, svn+svn, svn+file).
+[E][14:01:13.265783] mod.rt       | [     module-rt.c:  295 pw_rtkit_bus_get()] Failed to connect to system bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[W][14:01:13.265809] mod.rt       | [     module-rt.c:  975 rtkit_get_bus()] Realtime scheduling disabled: insufficient realtime privileges, Portal not found on session bus, and no system bus for RTKit: Connection refused
+[E][14:01:13.266025] mod.protocol-native | [module-protocol-:  743 init_socket_name()] server 0x722795873cd0: name pipewire-0 is not an absolute path and no runtime dir found. Set one of PIPEWIRE_RUNTIME_DIR, XDG_RUNTIME_DIR or USERPROFILE in the environment
+[E][14:01:13.266111] pw.conf      | [          conf.c:  607 load_module()] 0x722795875030: could not load mandatory module "libpipewire-module-protocol-native": No such file or directory
+[E][14:01:13.266224] default      | [      pipewire.c:  124 main()] failed to create context: No such file or directory
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0100   1350   0   1350   0      0   6005      0                              0100   1350   0   1350   0      0   6004      0                              0100   1350   0   1350   0      0   6003      0                              0
+Traceback (most recent call last):
+  File "/app/test.py", line 134, in <module>
+    mod = importlib.import_module('pw_loudness_eq')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'pw_loudness_eq'
