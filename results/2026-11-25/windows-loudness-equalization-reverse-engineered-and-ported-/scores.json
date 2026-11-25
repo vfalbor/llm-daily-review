@@ -1,0 +1,93 @@
+{
+  "app_name": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+  "url": "https://github.com/xoxorwr/pw-loudness-eq",
+  "scored_at": "2026-11-25T14:01:42.546Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 3 days ago, not a fork, and implements a known Windows loudness algorithm already available in pulse-audio and alsa-lib, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 24.2 seconds, which is under the 30‑second threshold for easy setup, despite lacking a PyPI package."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As an infra-audio PipeWire module, it addresses a niche audio‑processing need rather than a core LLM workflow, giving it moderate relevance."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "The project has 64 stars versus 174 and 502 stars for similar tools, but its module load time of 0.005 s and load‑time ratio of 0.009 show a clear speed advantage over pipewire-audiomix."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository holds 64 stars, 1 contributor, and was updated 2 days ago, placing it in the 100–1k star, active‑maintenance bracket."
+    },
+    "ease_of_use": {
+      "score": 4,
+      "justification": "Only 1 of 4 tests passed (25%) and basic run failed, indicating core functionality is not reliably usable out of the box."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package, but the module offers CLI access via pipewirectl and supports audio pipeline use modes; lack of a license and package manager support limits seamless integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub Pages, or topics were provided, so a neutral score is assigned per the guidelines."
+    },
+    "maturity": {
+      "score": 3,
+      "justification": "The repo is only 3 days old with 1 fork and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmarks show a module load time of 0.005 s and a load‑time ratio of 0.009, suggesting faster loading than comparable PipeWire modules, though no direct comparative numbers are available."
+    }
+  },
+  "summary": "This tool provides a PipeWire module that implements Windows loudness equalization by reverse‑engineering the WinMM driver. It runs as a C library invoked via the pipewirectl CLI and fits into audio pipelines on Linux. It is suited for audio engineers needing Windows‑style loudness processing on PipeWire systems. While its load time (0.005 s) is notably fast, the project is brand new, has limited community adoption, and its basic functionality still fails in most automated tests.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/xoxorwr/pw-loudness-eq",
+  "tool_url": "https://github.com/xoxorwr/pw-loudness-eq",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50641171",
+  "domain": "infrastructure",
+  "app_type": "infra-audio",
+  "enriched": {
+    "github": {
+      "stars": 64,
+      "forks": 1,
+      "open_issues": 0,
+      "watchers": 64,
+      "contributors": 1,
+      "license": "none",
+      "language": "C",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 3,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "pulse-audio",
+        "stars": 174,
+        "repo": "Audio-Solutions/pulse-visualizer"
+      },
+      {
+        "name": "alsa-lib",
+        "stars": 502,
+        "repo": "alsa-project/alsa-lib"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": null,
+      "reason": "no_comments"
+    }
+  }
+}
