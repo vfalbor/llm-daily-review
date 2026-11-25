@@ -1,0 +1,86 @@
+( 1/13) Installing brotli-libs (1.2.1-r0)
+( 2/13) Installing c-ares (1.34.9-r0)
+( 3/13) Installing libunistring (1.4.2-r0)
+( 4/13) Installing libidn2 (2.3.8-r0)
+( 5/13) Installing nghttp2-libs (1.70.0-r0)
+( 6/13) Installing libpsl (0.21.5-r3)
+( 7/13) Installing zstd-libs (1.6.0-r1)
+( 8/13) Installing libcurl (8.23.0-r0)
+( 9/13) Installing curl (8.23.0-r0)
+(10/13) Installing libexpat (2.11.0-r0)
+(11/13) Installing pcre2 (10.49-r0)
+(12/13) Installing git (2.54.1-r0)
+(13/13) Installing git-init-template (2.54.1-r0)
+Executing busybox-1.37.0-r31.trigger
+OK: 26.1 MiB in 51 packages
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+OK: 26.1 MiB in 51 packages
+INSTALL_OK
+( 1/50) Installing alsa-lib (1.2.15.3-r0)
+( 2/50) Installing dbus-libs (1.16.2-r2)
+( 3/50) Installing avahi-libs (0.9_rc4-r0)
+( 4/50) Installing libgcc (15.2.0-r5)
+( 5/50) Installing libstdc++ (15.2.0-r5)
+( 6/50) Installing libcamera-ipa (0.7.1-r1)
+( 7/50) Installing libxml2 (2.13.9-r3)
+( 8/50) Installing llvm22-libs (22.1.3-r1)
+( 9/50) Installing spirv-tools (1.4.341.0-r0)
+(10/50) Installing libxau (1.0.12-r0)
+(11/50) Installing libmd (1.2.0-r0)
+(12/50) Installing libbsd (0.12.2-r0)
+(13/50) Installing libxdmcp (1.1.5-r1)
+(14/50) Installing libxcb (1.17.0-r2)
+(15/50) Installing libx11 (1.8.14-r0)
+(16/50) Installing hwdata-pci (0.408-r0)
+(17/50) Installing libpciaccess (0.19-r0)
+(18/50) Installing libdrm (2.4.134-r0)
+(19/50) Installing libelf (0.195-r0)
+(20/50) Installing libxshmfence (1.3.3-r0)
+(21/50) Installing mesa (26.1.6-r0)
+(22/50) Installing mesa-gles (26.1.6-r0)
+(23/50) Installing mesa-gbm (26.1.6-r0)
+(24/50) Installing wayland-libs-client (1.25.0-r0)
+(25/50) Installing mesa-egl (26.1.6-r0)
+(26/50) Installing gmp (6.3.0-r4)
+(27/50) Installing nettle (3.10.2-r0)
+(28/50) Installing libtasn1 (4.21.0-r0)
+(29/50) Installing p11-kit (0.26.2-r0)
+(30/50) Installing gnutls (3.8.14-r0)
+(31/50) Installing eudev-libs (3.2.14-r6)
+(32/50) Installing libunwind (1.8.3-r0)
+(33/50) Installing yaml (0.2.5-r2)
+(34/50) Installing libjpeg-turbo (3.1.3-r0)
+(35/50) Installing libyuv (0.0.1928-r0)
+(36/50) Installing libcamera (0.7.1-r1)
+(37/50) Installing libeconf (0.8.3-r0)
+(38/50) Installing libblkid (2.42.3-r1)
+(39/50) Installing libmount (2.42.3-r1)
+(40/50) Installing glib (2.88.4-r0)
+(41/50) Installing opus (1.6.1-r0)
+(42/50) Installing speexdsp (1.2.1-r2)
+(43/50) Installing libuv (1.52.1-r0)
+(44/50) Installing roc-toolkit-libs (0.4.0-r1)
+(45/50) Installing abseil-cpp-raw-logging-internal (20250814.1-r0)
+(46/50) Installing abseil-cpp-strings-internal (20250814.1-r0)
+(47/50) Installing abseil-cpp-strings (20250814.1-r0)
+(48/50) Installing webrtc-audio-processing-2 (2.1-r1)
+(49/50) Installing pipewire-libs (1.6.8-r4)
+(50/50) Installing pipewire (1.6.8-r4)
+  Executing pipewire-1.6.8-r4.post-install
+Executing busybox-1.37.0-r31.trigger
+Executing glib-2.88.4-r0.trigger
+OK: 292.2 MiB in 101 packages
+INSTALL_OK
+INSTALL_FAIL:unknown
+TEST_PASS:clone_repo
+INSTALL_FAIL:unknown
+INSTALL_FAIL:unknown
+TEST_FAIL:install_pkg:pip install failed
+TEST_FAIL:cli_help:CLI not found or error
+TEST_FAIL:load_module:Unable to load module
+BENCHMARK:module_load_time_s:0.005
+BENCHMARK:playback_latency_ms:100.11
+BENCHMARK:cpu_avg_percent:0.50
+BENCHMARK:cpu_measure_duration_s:10.00
+BENCHMARK:vs_pipewire-audiomix_load_time_ratio:0.009
