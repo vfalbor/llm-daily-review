@@ -1,0 +1,120 @@
+{
+  "app_name": "Minipg: PostgreSQL as a Single Executable",
+  "url": "https://progrium.github.io/minipg/",
+  "scored_at": "2026-11-26T14:01:08.958Z",
+  "total_score": 59,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "The repo was created 36 days ago, is not a fork, and offers a single‑executable PostgreSQL variant that does not introduce a fundamentally new approach compared to existing databases."
+    },
+    "system_requirements": {
+      "score": 9,
+      "justification": "Install succeeded in 11.2 seconds (<30 s) and the package is available on PyPI, requiring no special hardware or API keys."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a lightweight database tool it is useful for simple testing and small apps, fitting current developer needs but not a core component of today's LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Minipg has 157 stars versus thousands for PostgreSQL (3,211), SQLite (24,836) and TimescaleDB (23,902), and its unique selling point is the single‑binary deployment despite lacking benchmark data."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repository has 157 stars, 2 contributors, and was last updated 5 days ago, indicating modest but active community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0%) despite a successful install, indicating core functionality is not verified by the test suite."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project is published on PyPI (MIT license) and provides a CLI and TCP/Unix socket interface, allowing programmatic use though no explicit SDK or OpenAI‑compatible API is mentioned."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No data on wiki, GitHub pages, or topic count was provided, so documentation quality cannot be assessed beyond a neutral default."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "The repository is 36 days old with 4 forks and 2 open issues, showing early‑stage development but active maintenance."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were present in the test output, so performance cannot be evaluated; a neutral score is assigned."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most users praise the single-executable convenience and testing utility, while a few note the 35 MB download and minor deployment issues."
+    }
+  },
+  "summary": "Minipg is a lightweight, single‑binary PostgreSQL‑compatible database that can be run via CLI or socket connections. It is packaged on PyPI and installs in about 11 seconds, requiring no special hardware or API keys. The tool targets developers needing a quick, portable database for testing or small applications. Its main strength is the ultra‑simple single‑executable deployment, while the lack of benchmark data and limited test coverage indicate uncertain performance and reliability.",
+  "recommendation": "worth-watching",
+  "app_url": "https://progrium.github.io/minipg/",
+  "tool_url": "https://github.com/progrium/minipg",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50650892",
+  "domain": "database",
+  "app_type": "database-relational",
+  "enriched": {
+    "github": {
+      "stars": 157,
+      "forks": 4,
+      "open_issues": 2,
+      "watchers": 157,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "Zig",
+      "is_fork": false,
+      "days_since_update": 5,
+      "days_since_created": 36,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "SQLite and PostgreSQL had a baby",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "PostgreSQL",
+        "stars": 3211,
+        "repo": "polardb/PolarDB-for-PostgreSQL"
+      },
+      {
+        "name": "SQLite",
+        "stars": 24836,
+        "repo": "sqlitebrowser/sqlitebrowser"
+      },
+      {
+        "name": "TimescaleDB",
+        "stars": 23902,
+        "repo": "timescale/timescaledb"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.11.0",
+      "summary": "Yet another PostgreSQL database driver",
+      "requires_python": null,
+      "license": "The MIT License (MIT)\n        \n        Copyright (c) 2014 Hajime Nakagami\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE.\n        ",
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "easy single-file deployment",
+        "useful for testing and small apps",
+        "no docker needed"
+      ],
+      "negative_signals": [
+        "large download size",
+        "some deployment complexities"
+      ],
+      "justification": "Most users praise the single-executable convenience and testing utility, while a few note the 35 MB download and minor deployment issues.",
+      "comment_count": 26,
+      "hn_points": 185
+    }
+  }
+}
