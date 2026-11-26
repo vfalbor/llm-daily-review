@@ -1,0 +1,62 @@
+{
+  "app": {
+    "rank": 26,
+    "title": "Unconditional Integer Factorization in Subexponential Time",
+    "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+    "hn_url": "https://news.ycombinator.com/item?id=50651627",
+    "points": 76,
+    "comments": 9,
+    "author": "",
+    "age": "2026-11-26T04:59:56",
+    "scraped_at": "2026-11-26T14:00:02.322Z",
+    "source_type": "research",
+    "is_reviewable": true,
+    "confidence": 0.97,
+    "domain": "research",
+    "app_type": "research-paper",
+    "tool_url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+    "description": "Implementation of an integer factorization algorithm that achieves subexponential time complexity, as described in a Google Research paper.",
+    "use_modes": [
+      "CLI",
+      "Python API"
+    ],
+    "similar_tools": [
+      "msieve",
+      "yafu",
+      "libtommath"
+    ],
+    "proposed_tests": [
+      {
+        "name": "Clone repository",
+        "steps": "git clone https://github.com/google-research/google-research.git && cd google-research/cogentic_research_papers/integer_factorization"
+      },
+      {
+        "name": "Install dependencies",
+        "steps": "pip install -r requirements.txt"
+      },
+      {
+        "name": "Run factorization on sample input",
+        "steps": "python factor.py --number 12345678901234567890 --output result.txt"
+      },
+      {
+        "name": "Verify output",
+        "steps": "Check that result.txt contains the correct prime factors as per the paper's example"
+      }
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/google-research/google-research"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795701997159-55ldr",
+    "log_dir": "/tmp/llm-review-1795701997159-55ldr",
+    "install_success": true,
+    "install_time_s": 31.9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:install_time_s:24.138",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:24.138\nINSTALL_OK\nTEST_FAIL:import_module:ModuleNotFoundError:No module named 'integer_factorization'\nRUN_OK\n"
+  }
+}
