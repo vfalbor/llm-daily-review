@@ -1,0 +1,106 @@
+{
+  "app_name": "Moat: Your OpenRouter Replacement",
+  "url": "https://commandcode.ai/moat",
+  "scored_at": "2026-11-26T14:04:36.783Z",
+  "total_score": 55,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "No creation date or fork information is available, and the description only mentions it as a lightweight replacement, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 5,
+      "justification": "Install succeeded but took 191.6 seconds, well above the <30 s threshold for high scores, while the package is on PyPI."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an llm-inference routing tool, it addresses a common need in today’s LLM workflow ecosystem."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Unlike OpenRouter, Moat requires no API key and offers CLI, HTTP API, and SDK modes, providing at least one clear advantage over the similar tools (which have 1,252–188,202 stars)."
+    },
+    "community": {
+      "score": 4,
+      "justification": "No GitHub repository is available; HN points are 130, placing it in the 50–200 range which maps to a community score of 3–4."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "No functional tests were run (0/0 passed) and basic run failed, so only neutral evidence is present."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool is published on PyPI (v0.13.1) and provides CLI, HTTP API, and SDK interfaces, facilitating integration despite missing license details."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repo, wiki, or documentation site information was found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata (creation date, forks, issues) the maturity cannot be assessed, resulting in a neutral score."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark lines were reported in the test output, so performance is scored neutrally."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Comments reflect a balance of praise for Moat’s cost‑saving, flexible approach and criticism over security, performance and transparency, resulting in a mixed overall sentiment."
+    }
+  },
+  "summary": "Moat is a self‑hosted routing layer that forwards requests to multiple LLM providers without needing an API key. It is distributed as a PyPI package and offers CLI, HTTP API, and SDK interfaces built on Python 3.12+. It is suited for developers who want a cheap, flexible alternative to OpenRouter for custom inference pipelines. Its main strength is the key‑less, multi‑mode integration, while the lack of documented benchmarks and limited community signals are notable drawbacks.",
+  "recommendation": "niche",
+  "app_url": "https://commandcode.ai/moat",
+  "tool_url": "https://github.com/commandcode/moat",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50652184",
+  "domain": "llm-ai",
+  "app_type": "llm-inference",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "OpenRouter",
+        "stars": 1252,
+        "repo": "OpenRouterArchived/openrouter-runner"
+      },
+      {
+        "name": "Ollama",
+        "stars": 188202,
+        "repo": "ollama/ollama"
+      },
+      {
+        "name": "vLLM",
+        "stars": 97619,
+        "repo": "vllm-project/vllm"
+      }
+    ],
+    "pypi": {
+      "exists": true,
+      "version": "0.13.1",
+      "summary": "The command line for MoaT",
+      "requires_python": ">=3.12",
+      "license": null,
+      "home_page": null
+    },
+    "tests_passed": 0,
+    "tests_total": 0,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [
+        "membership-based discount model",
+        "flexibility to try multiple models",
+        "cost-effective for some use cases"
+      ],
+      "negative_signals": [
+        "security concerns and data leakage",
+        "performance inconsistencies",
+        "questionable “no limits” claim"
+      ],
+      "justification": "Comments reflect a balance of praise for Moat’s cost‑saving, flexible approach and criticism over security, performance and transparency, resulting in a mixed overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 130
+    }
+  }
+}
