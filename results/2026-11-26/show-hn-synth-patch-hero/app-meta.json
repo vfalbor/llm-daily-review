@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 17,
+    "title": "Show HN: Synth Patch Hero",
+    "url": "https://swarkentin.github.io/synth-patch-hero/",
+    "hn_url": "https://news.ycombinator.com/item?id=50623232",
+    "points": 84,
+    "comments": 18,
+    "author": "",
+    "age": "2026-11-24T03:24:22",
+    "scraped_at": "2026-11-26T14:00:02.317Z",
+    "tool_url": "https://github.com/swarkentin/synth-patch-hero",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "web",
+    "app_type": "web-extension",
+    "description": "A browser extension that generates synthetic audio patches for music production.",
+    "use_modes": [
+      "Browser Extension (Chrome/Edge)"
+    ],
+    "similar_tools": [
+      "Audiokinetic FamiTracker",
+      "SuperCollider",
+      "Syntheway"
+    ],
+    "proposed_tests": [
+      "Install the extension in Chrome and load a test audio file",
+      "Generate a patch and verify the JSON output format",
+      "Measure the time taken to render the patch audio",
+      "Check compatibility with standard audio formats (WAV, MP3)"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/swarkentin/synth-patch-hero"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795701933815-uja9m",
+    "log_dir": "/tmp/llm-review-1795701933815-uja9m",
+    "install_success": true,
+    "install_time_s": 19.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.03\nBENCHMARK:loc_count:174\nBENCHMARK:vs_famik_tracker_render_ratio:0.71",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK | apk nodejs\nINSTALL_OK | apk npm\nINSTALL_OK | git clone\nINSTALL_OK | npm install project\nBENCHMARK:install_time_s:1.03\nTEST_FAIL:health_endpoint:Unexpected status 404\nTEST_FAIL:generate_patch:Status 404\nTEST_FAIL:render_time:Bad response 404\nTEST_FAIL:format_wav:status 404\nTEST_FAIL:format_mp3:status 404\nBENCHMARK:loc_count:174\nBENCHMARK:vs_famik_tracker_render_ratio:0.71\nRUN_OK\n"
+  }
+}
