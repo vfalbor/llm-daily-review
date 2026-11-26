@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "Minipg: PostgreSQL as a Single Executable",
+    "url": "https://progrium.github.io/minipg/",
+    "hn_url": "https://news.ycombinator.com/item?id=50650892",
+    "points": 187,
+    "comments": 26,
+    "author": "",
+    "age": "2026-11-26T03:00:48",
+    "scraped_at": "2026-11-26T14:00:02.311Z",
+    "tool_url": "https://github.com/progrium/minipg",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.94,
+    "domain": "database",
+    "app_type": "database-relational",
+    "description": "A lightweight single-binary PostgreSQL-compatible database designed for simplicity and portability.",
+    "use_modes": [
+      "CLI",
+      "TCP/Unix Socket"
+    ],
+    "similar_tools": [
+      "PostgreSQL",
+      "SQLite",
+      "TimescaleDB",
+      "Citus"
+    ],
+    "proposed_tests": [
+      "Download the minipg binary and start a database instance",
+      "Create a test database and table via SQL",
+      "Insert 1000 rows and measure write latency",
+      "Execute a SELECT query with filtering and measure read latency",
+      "Compare performance against a local PostgreSQL instance"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/progrium/minipg"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795701638872-f4a1q",
+    "log_dir": "/tmp/llm-review-1795701638872-f4a1q",
+    "install_success": true,
+    "install_time_s": 11.2,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:wget failed\nTEST_SKIP:minipg_download:binary not available\nRUN_OK\n"
+  }
+}
