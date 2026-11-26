@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 14,
+    "title": "Much shorter version of GRH Lean verification from Anthropic",
+    "url": "https://github.com/lsernau/grh-lean",
+    "hn_url": "https://news.ycombinator.com/item?id=50648050",
+    "points": 491,
+    "comments": 286,
+    "author": "",
+    "age": "2026-11-25T21:48:10",
+    "scraped_at": "2026-11-26T14:00:02.315Z",
+    "tool_url": "https://github.com/lsernau/grh-lean",
+    "source_type": "research-paper",
+    "is_reviewable": true,
+    "confidence": 0.9,
+    "domain": "research",
+    "app_type": "research-paper",
+    "description": "A Lean4 formalization of GRH (Graded Rewriting Homology) verification, providing a compact implementation.",
+    "use_modes": [
+      "CLI",
+      "Lean4 REPL"
+    ],
+    "similar_tools": [
+      "Lean4",
+      "Coq",
+      "Agda"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run `lake build` to compile the proofs",
+      "Execute `lake test` to run all test cases",
+      "Measure build time and memory consumption",
+      "Import the GRH module in a fresh Lean session and perform a simple proof check"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/lsernau/grh-lean"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795701878814-kvyp8",
+    "log_dir": "/tmp/llm-review-1795701878814-kvyp8",
+    "install_success": true,
+    "install_time_s": 12.8,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "benchmark_notes": "BENCHMARK:build_time_s:0.00\nBENCHMARK:test_time_s:0.00\nBENCHMARK:simple_proof_ms:0.86",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nTEST_PASS:clone_repo\nTEST_FAIL:lake_build:[Errno 2] No such file or directory: 'lake'\nBENCHMARK:build_time_s:0.00\nTEST_FAIL:lake_test:[Errno 2] No such file or directory: 'lake'\nBENCHMARK:test_time_s:0.00\nINSTALL_FAIL:Running command git clone --filter=blob:none --quiet https://github.com/lsernau/grh-lean.git /tmp/pip-req-build-my4cu7dk\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: git+https://github.com/lsernau/grh-lean.git does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_SKIP:pip_install:both pip and git fallback failed\nTEST_FAIL:import_GRH:No module named 'GRH'\nTEST_FAIL:simple_proof:[Errno 2] No such file or directory: 'lake'\nBENCHMARK:simple_proof_ms:0.86\nRUN_OK\n"
+  }
+}
