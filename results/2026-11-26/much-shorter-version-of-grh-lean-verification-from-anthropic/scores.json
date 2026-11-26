@@ -1,0 +1,114 @@
+{
+  "app_name": "Much shorter version of GRH Lean verification from Anthropic",
+  "url": "https://github.com/lsernau/grh-lean",
+  "scored_at": "2026-11-26T14:05:31.930Z",
+  "total_score": 50,
+  "scores": {
+    "novelty": {
+      "score": 4,
+      "justification": "The repository was created today (0 days since created) and is not a fork, but its star count (761) is far lower than similar tools like Lean4 (10,425 stars), indicating it is an incremental rather than novel contribution."
+    },
+    "system_requirements": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a research-paper formalization in Lean4, it does not directly address current LLM workflow pain points, making its relevance to today's LLM ecosystem low."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "Although it has fewer stars than Lean4, Coq, and Agda, the benchmark shows a simple proof time of 0.86 ms, suggesting a speed advantage in this specific verification task."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The project has 761 stars (100–1k range), 1 contributor, and was updated today (0 days since last commit), indicating a modest but active community."
+    },
+    "ease_of_use": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "ease_of_integration": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic count was provided, so a neutral score of 5 is assigned per the rule for insufficient documentation data."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "Created today (0 days), 78 forks and only 1 open issue suggest an early-stage alpha release."
+    },
+    "performance": {
+      "score": null,
+      "justification": "N/A for research-paper app type"
+    },
+    "hn_sentiment": {
+      "score": 7,
+      "justification": "The comments largely praise the dramatic reduction in code size and the collaborative nature of the work, while also expressing skepticism about AI-driven simplification, potential quality issues, and some criticisms of related community projects. Overall, the tone is generally positive but with constructive critique."
+    }
+  },
+  "summary": "This project provides a Lean4 formalization of the Graded Rewriting Homology (GRH) verification, offering a compact implementation that can be run via CLI or the Lean4 REPL. It builds on the Lean4 ecosystem and demonstrates a fast simple proof time of 0.86 ms. Researchers or mathematicians needing a succinct Lean4 proof of GRH may find it useful, especially for exploring formal verification workflows. Its main strength is the concise code size and speed, while its primary drawback is its very recent release and limited community adoption.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/lsernau/grh-lean",
+  "tool_url": "https://github.com/lsernau/grh-lean",
+  "source_type": "research-paper",
+  "hn_url": "https://news.ycombinator.com/item?id=50648050",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 761,
+      "forks": 78,
+      "open_issues": 1,
+      "watchers": 761,
+      "contributors": 1,
+      "license": "Apache-2.0",
+      "language": "Lean",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 0,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "Lean4",
+        "stars": 10425,
+        "repo": "leanprover/lean4"
+      },
+      {
+        "name": "Coq",
+        "stars": 3813,
+        "repo": "ms-jpq/coq_nvim"
+      },
+      {
+        "name": "Agda",
+        "stars": 2980,
+        "repo": "agda/agda"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 6,
+    "sentiment": {
+      "score": 7,
+      "positive_signals": [
+        "Huge code size reduction",
+        "Community-driven effort",
+        "Increased accessibility for mathematicians"
+      ],
+      "negative_signals": [
+        "Skepticism about AI reliability",
+        "Criticism of community projects",
+        "Concerns over quality and over-automation"
+      ],
+      "justification": "The comments largely praise the dramatic reduction in code size and the collaborative nature of the work, while also expressing skepticism about AI-driven simplification, potential quality issues, and some criticisms of related community projects. Overall, the tone is generally positive but with constructive critique.",
+      "comment_count": 30,
+      "hn_points": 491
+    }
+  }
+}
