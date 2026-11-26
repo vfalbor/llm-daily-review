@@ -1,0 +1,106 @@
+{
+  "app_name": "Unconditional Integer Factorization in Subexponential Time",
+  "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+  "scored_at": "2026-11-26T14:07:38.772Z",
+  "total_score": 66,
+  "scores": {
+    "novelty": {
+      "score": 8,
+      "justification": "The repository is 2974 days old, is not a fork, and its 39,508 stars vastly exceed similar tools (e.g., msieve 284 stars), indicating a novel contribution."
+    },
+    "system_requirements": null,
+    "current_relevance": {
+      "score": 3,
+      "justification": "As a research-paper on integer factorization, it does not address current LLM workflow pain points, making its relevance to the LLM ecosystem low."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "With 39,508 stars versus 284‑389‑817 for comparable factorization tools, it has a dramatically larger community and visibility, a clear differentiator."
+    },
+    "community": {
+      "score": 9,
+      "justification": "The project has 39,508 stars, 898 contributors, and was updated 0 days ago, showing an active and large community."
+    },
+    "ease_of_use": null,
+    "ease_of_integration": null,
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or README quality was provided, so a neutral score of 5 is assigned."
+    },
+    "maturity": {
+      "score": 8,
+      "justification": "The repo is 2974 days old, has 8,537 forks and 2,020 open issues, indicating a mature, widely-used project."
+    },
+    "performance": null,
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments mostly discuss the theoretical significance of the result with some skepticism about its practical implications and novelty, leading to a generally positive but cautiously critical sentiment."
+    }
+  },
+  "summary": "This research implementation provides a subexponential integer factorization algorithm described in a Google Research paper. It is available as a CLI and Python API built on Jupyter Notebook code. Researchers interested in number theory or cryptographic security may use it to explore theoretical advances, though its practical impact on RSA is questioned. The project’s strength is its large, active community (39k stars), while the main caveat is limited practical relevance and sparse documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+  "tool_url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+  "source_type": "research",
+  "hn_url": "https://news.ycombinator.com/item?id=50651627",
+  "domain": "research",
+  "app_type": "research-paper",
+  "enriched": {
+    "github": {
+      "stars": 39508,
+      "forks": 8537,
+      "open_issues": 2020,
+      "watchers": 39508,
+      "contributors": 898,
+      "license": "Apache-2.0",
+      "language": "Jupyter Notebook",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 2974,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Google Research",
+      "topics": [
+        "ai",
+        "machine-learning",
+        "research"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "msieve",
+        "stars": 284,
+        "repo": "radii/msieve"
+      },
+      {
+        "name": "yafu",
+        "stars": 389,
+        "repo": "bbuhrow/yafu"
+      },
+      {
+        "name": "libtommath",
+        "stars": 817,
+        "repo": "libtom/libtommath"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "unconditional subexponential proof",
+        "theoretical advancement",
+        "removes worst‑case hardness assumption"
+      ],
+      "negative_signals": [
+        "limited practical impact on RSA",
+        "skepticism about excitement",
+        "questioning novelty"
+      ],
+      "justification": "The comments mostly discuss the theoretical significance of the result with some skepticism about its practical implications and novelty, leading to a generally positive but cautiously critical sentiment.",
+      "comment_count": 9,
+      "hn_points": 76
+    }
+  }
+}
