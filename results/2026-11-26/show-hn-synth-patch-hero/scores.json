@@ -1,0 +1,104 @@
+{
+  "app_name": "Synth Patch Hero",
+  "url": "https://swarkentin.github.io/synth-patch-hero/",
+  "scored_at": "2026-11-26T14:06:35.790Z",
+  "total_score": 57,
+  "scores": {
+    "novelty": {
+      "score": 9,
+      "justification": "The repository is only 5 days old, is not a fork, and introduces a browser‑extension approach not seen in the listed similar tools."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 19.1 s and the tool runs as a Chrome/Edge extension without needing any API key or PyPI package."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a web‑extension for generating synth patches, it addresses a niche in music production but does not align with the dominant LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "With only 4 GitHub stars versus SuperCollider’s 6,860 stars, the project is much smaller, and the benchmark ratio of 0.71 against FamiTracker shows some performance difference but no clear advantage."
+    },
+    "community": {
+      "score": 3,
+      "justification": "The repo has 4 stars, a single contributor, and the last commit was 1 day ago, indicating a very small community."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Zero of the 5 tests passed (0 %), though the basic run succeeded and installation succeeded."
+    },
+    "ease_of_integration": {
+      "score": 4,
+      "justification": "The tool is only a browser extension with no PyPI package or public API, limiting programmatic integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub Pages, or documented topics were found, so quantitative documentation data is missing."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is 5 days old, has 2 forks and 0 open issues, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmarks report an install time of 1.03 s and a render ratio of 0.71, but there is no comparative data to judge relative performance."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most commenters praise the project for being an engaging, intuitive learning aid for analog synths, highlighting its fun interface and educational value. A few note technical snags—such as finicky matching, lower octave output problems, and missing UI controls—as minor drawbacks."
+    }
+  },
+  "summary": "Synth Patch Hero is a browser extension that creates synthetic audio patches for music production. It runs locally in Chrome or Edge without requiring any external API keys. The tool is suited for musicians or producers who want quick, in‑browser patch generation, leveraging a novel UI‑driven approach. Reviewers praise its intuitive, fun learning experience, while noting occasional finicky matching and missing UI controls. The project is very new, with minimal community size and modest documentation, so it is best considered an experimental add‑on.",
+  "recommendation": "worth-watching",
+  "app_url": "https://swarkentin.github.io/synth-patch-hero/",
+  "tool_url": "https://github.com/swarkentin/synth-patch-hero",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50623232",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 4,
+      "forks": 2,
+      "open_issues": 0,
+      "watchers": 4,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 1,
+      "days_since_created": 5,
+      "has_wiki": true,
+      "has_pages": true,
+      "description": "A struggling musician is in charge of building patches for new artists, learning the basics from oscillators, filters, adsr, and more!",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "SuperCollider",
+        "stars": 6860,
+        "repo": "supercollider/supercollider"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 5,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "intuitive learning tool",
+        "fun and engaging interface",
+        "great educational value"
+      ],
+      "negative_signals": [
+        "matching finicky for some users",
+        "lower octave output issues",
+        "lack of hide/reveal controls"
+      ],
+      "justification": "Most commenters praise the project for being an engaging, intuitive learning aid for analog synths, highlighting its fun interface and educational value. A few note technical snags—such as finicky matching, lower octave output problems, and missing UI controls—as minor drawbacks.",
+      "comment_count": 18,
+      "hn_points": 85
+    }
+  }
+}
