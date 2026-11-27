@@ -1,0 +1,123 @@
+{
+  "app_name": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+  "url": "https://github.com/antonpictures/youtube-punisher",
+  "scored_at": "2026-11-27T14:01:19.520Z",
+  "total_score": 54,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created 4 days ago, not a fork, and replicates functionality of many existing ad‑blocking extensions, indicating an incremental improvement."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded in 9.9 seconds (under the 30 s threshold) and requires no API key, though it is not available on PyPI."
+    },
+    "current_relevance": {
+      "score": 5,
+      "justification": "As a web‑extension that reloads YouTube on ads, it addresses a still‑present user pain point, but it is not directly tied to current LLM workflow trends."
+    },
+    "differentiation": {
+      "score": 6,
+      "justification": "The project has 229 stars, far fewer than Adblock Plus (2,415), uBlock Origin (5,856) and AdGuard (38,891), yet its auto‑reload feature is unique among them."
+    },
+    "community": {
+      "score": 6,
+      "justification": "The repo holds 229 stars, 2 contributors and was updated today (0 days since last commit), placing it in the 100–1,000 star bracket."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "Only 1 of 4 tests passed (25 %), indicating core functionality is unstable."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The extension is distributed as Chrome and Firefox add‑ons with an MIT license, but lacks a package manager install or API for programmatic integration."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki, GitHub pages, or documented topics were found, so documentation quality cannot be assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repository is only 4 days old, has 3 forks and 1 open issue, indicating early‑stage development."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "No benchmark data were provided, so performance cannot be evaluated."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "The comments highlight that the extension effectively blocks YouTube ads and empowers users, with many praising its cross‑browser support. However, there is notable frustration over Google’s ad blocker policies and compatibility problems on Chrome/Chromebooks, leading to a moderately positive overall sentiment."
+    }
+  },
+  "summary": "YouTube Ad Punisher is a browser extension that automatically reloads a YouTube page when an advertisement is detected, aiming to improve uninterrupted viewing. It is built as a Chrome and Firefox add‑on written in JavaScript and distributed via the GitHub repo without a package‑manager install. The tool is suited for users frustrated by YouTube ads who want a simple, install‑once solution. Its standout strength is the unique auto‑reload behavior, while the limited test coverage (1 of 4 tests passed) reveals stability concerns.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/antonpictures/youtube-punisher",
+  "tool_url": "https://github.com/antonpictures/youtube-punisher",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50657530",
+  "domain": "web",
+  "app_type": "web-extension",
+  "enriched": {
+    "github": {
+      "stars": 229,
+      "forks": 3,
+      "open_issues": 1,
+      "watchers": 229,
+      "contributors": 2,
+      "license": "MIT",
+      "language": "JavaScript",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 4,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "YouTube Ad Blocker - Chrome / Browser Extension",
+      "topics": [
+        "ad-blocker",
+        "ad-blocker-extension",
+        "ad-skipper",
+        "anti-ad",
+        "chrome-extension",
+        "manifest-v3",
+        "youtube",
+        "youtube-ad-remover"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "Adblock Plus",
+        "stars": 2415,
+        "repo": "xinggsf/Adblock-Plus-Rule"
+      },
+      {
+        "name": "uBlock Origin",
+        "stars": 5856,
+        "repo": "laylavish/uBlockOrigin-HUGE-AI-Blocklist"
+      },
+      {
+        "name": "AdGuard",
+        "stars": 38891,
+        "repo": "AdguardTeam/AdGuardHome"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Effective ad blocking and user control",
+        "Compatibility across browsers and platforms",
+        "Positive user experiences with alternative extensions"
+      ],
+      "negative_signals": [
+        "Frustration with Google’s ad blocker restrictions",
+        "Compatibility issues on Chrome/Chromebook",
+        "Mixed feelings about the necessity of ad subversion"
+      ],
+      "justification": "The comments highlight that the extension effectively blocks YouTube ads and empowers users, with many praising its cross‑browser support. However, there is notable frustration over Google’s ad blocker policies and compatibility problems on Chrome/Chromebooks, leading to a moderately positive overall sentiment.",
+      "comment_count": 30,
+      "hn_points": 451
+    }
+  }
+}
