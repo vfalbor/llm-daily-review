@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 8,
+    "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+    "url": "https://github.com/antonpictures/youtube-punisher",
+    "hn_url": "https://news.ycombinator.com/item?id=50657530",
+    "points": 451,
+    "comments": 537,
+    "author": "",
+    "age": "2026-11-26T17:36:47",
+    "scraped_at": "2026-11-27T14:00:02.964Z",
+    "tool_url": "https://github.com/antonpictures/youtube-punisher",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "web",
+    "app_type": "web-extension",
+    "description": "A browser extension that auto‑reloads YouTube pages when an ad is detected, improving viewing experience for users.",
+    "use_modes": [
+      "Chrome Extension",
+      "Firefox Add‑on"
+    ],
+    "similar_tools": [
+      "Adblock Plus",
+      "uBlock Origin",
+      "AdGuard"
+    ],
+    "proposed_tests": [
+      "Install the extension in Chrome and verify it is active on youtube.com",
+      "Simulate an ad appearance and ensure the page reloads automatically",
+      "Measure the reload latency and compare to manual reload time",
+      "Disable the extension and confirm no reload occurs"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/antonpictures/youtube-punisher"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795788050564-yxfw0",
+    "log_dir": "/tmp/llm-review-1795788050564-yxfw0",
+    "install_success": true,
+    "install_time_s": 9.9,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:install_time_s:0.000\nBENCHMARK:install_time_mem_kb:0.0\nBENCHMARK:loc_count:148\nBENCHMARK:test_files_count:4\nBENCHMARK:cpu_count:4",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:install_time_s:0.000\nBENCHMARK:install_time_mem_kb:0.0\nTEST_FAIL:install_extension:npm install failed: Command '['npm', 'install', '--omit=dev']' returned non-zero exit status 254.\nTEST_FAIL:simulate_ad_reload:reloadOnAd.js not found\nTEST_FAIL:reload_latency:HTTP Error 404: Not Found\nTEST_PASS:disable_extension\nBENCHMARK:loc_count:148\nBENCHMARK:test_files_count:4\nBENCHMARK:cpu_count:4\nRUN_OK\n"
+  }
+}
