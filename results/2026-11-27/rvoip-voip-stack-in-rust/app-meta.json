@@ -1,0 +1,50 @@
+{
+  "app": {
+    "rank": 24,
+    "title": "Rvoip: VoIP stack in Rust",
+    "url": "https://github.com/eisenzopf/rvoip",
+    "hn_url": "https://news.ycombinator.com/item?id=50658632",
+    "points": 146,
+    "comments": 35,
+    "author": "",
+    "age": "2026-11-26T19:18:09",
+    "scraped_at": "2026-11-27T14:00:02.972Z",
+    "tool_url": "https://github.com/eisenzopf/rvoip",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "infrastructure",
+    "app_type": "infra-networking",
+    "description": "A pure Rust implementation of a VoIP stack supporting SIP, RTP, and related protocols.",
+    "use_modes": [
+      "CLI",
+      "Library"
+    ],
+    "similar_tools": [
+      "pjsip",
+      "liblinphone",
+      "Jitsi‑Meet (libjitsi)"
+    ],
+    "proposed_tests": [
+      "Run `cargo build --release` and measure compile time",
+      "Execute the provided demo application and capture a SIP INVITE flow",
+      "Send 100 RTP packets to a test server and measure packet loss",
+      "Measure CPU and memory usage during a 5‑minute call"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/eisenzopf/rvoip"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795788080895-zgd75",
+    "log_dir": "/tmp/llm-review-1795788080895-zgd75",
+    "install_success": true,
+    "install_time_s": 77.6,
+    "basic_run_success": true,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:compile_time_s:14.303\nBENCHMARK:rtp_packets_sent:100\nBENCHMARK:rtp_packets_lost:6\nBENCHMARK:rtp_loss_percent:6.0\nBENCHMARK:cpu_dummy_work_s:44.348\nBENCHMARK:memory_peak_kb:0\nBENCHMARK:vs_pjsip_compile_ratio:0.572\nBENCHMARK:vs_pjsip_demo_help_ratio:0.0\nBENCHMARK:vs_pjsip_rtp_loss_ratio:6000.0",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nBENCHMARK:compile_time_s:14.303\nTEST_FAIL:compile:Updating crates.io index\n Downloading crates ...\n  Downloaded aead v0.5.2\n  Downloaded apodize v1.0.0\n  Downloaded form_urlencoded v1.2.3\n  Downloaded aead v0.6.1\n  Downloaded parking v2.2.1\n  Downloaded bitflags v1.3.2\n  Downloaded rust-ini v0.21.3\n  Downloaded rtc-srtp v0.21.1\n  Downloaded zeroize_derive v1.5.0\n  Downloaded zerocopy v0.8.55\n  Downloaded yaml_serde v0.10.7\n  Downloaded serdect v0.4.3\n  Downloaded tagptr v0.2.0\n  Downloaded zerovec v0.11.6\n  Downloaded tempfile v3.27.0\n  Downloaded zerotrie v0.2.4\n  Downloaded thiserror-impl v2.0.19\n  Downloaded moka v0.12.16\n  Downloaded thiserror-impl v1.0.69\n  Downloaded zerocopy-derive v0.8.55\n  Downloaded tinyvec v1.12.0\n  Downloaded yasna v0.6.0\n  Downloaded tracing-core v0.1.36\n  Downloaded want v0.3.1\n  Downloaded web-transport-trait v0.5.2\n  Downloaded wnaf v0.14.1\n  Downloaded uuid v1.27.0\n  Downloaded unicode-segmentation v1.13.3\n  Downloaded webpki-roots v0.26.11\n  Downloaded zerofrom v0.1.8\n  Downloaded zmij v1.0.23\n  Downloaded winnow v1.0.4\n  Downloaded yoke v0.8.3\n  Downloaded unicode-normalization v0.1.25\n  Downloaded yaml-rust2 v0.11.1\n  Downloaded webpki-roots v1.0.11\n  Downloaded x509-parser v0.18.1\n  Downloaded tracing v0.1.44\n  Downloaded zerovec-derive v0.11.3\n  Downloaded zerofrom-derive v0.1.7\n  Downloaded web-transport-quinn v0.13.6\n  Downloaded tokio v1.54.1\n  Downloaded yoke-derive v0.8.2\n  Downloaded winapi v0.3.9\n  Downloaded url v2.5.9\n  Downloaded unicode-ident v1.0.24\n  Downloaded tracing-subscriber v0.3.23\n  Downloaded unicase v2.10.0\n  Downloaded typenum v1.20.1\n  Downloaded utf8_iter v1.0.4\n  Downloaded untrusted v0.7.1\n  Downloaded universal-hash v0.6.1\n  Downloaded ucd-trie v0.1.7\n  Downloaded turn v0.17.3\n  Downloaded version_check v0.9.5\n  Downloaded tungstenite v0.30.0\n  Downloaded untrusted v0.9.0\n  Downloaded ucd-parse v0.1.14\n  Downloaded tower-http v0.6.11\n  Downloaded tower v0.5.3\n  Downloaded tokio-util v0.7.19\n  Downloaded libc v0.2.191\n  Downloaded typeid v1.0.3\n  Downloaded try-lock v0.2.5\n  Downloaded transpose v0.2.3\n  Downloaded tracing-serde v0.2.0\n  Downloaded time v0.3.55\n  Downloaded toml_writer v1.1.3+spec-1.1.0\n  Downloaded toml_parser v1.1.2+spec-1.1.0\n  Downloaded toml_datetime v1.1.1+spec-1.1.0\n  Downloaded toml v1.1.3+spec-1.1.0\n  Downloaded syn v3.0.3\n  Downloaded libmimalloc-sys v0.1.49\n  Downloaded itertools v0.14.0\n  Downloaded tracing-log v0.2.0\n  Downloaded tracing-attributes v0.1.31\n  Downloaded tower-service v0.3.3\n  Downloaded tower-layer v0.3.3\n  Downloaded tokio-tungstenite v0.30.0\n  Downloaded tokio-rustls v0.26.6\n  Downloaded tokio-macros v2.7.1\n  Downloaded tinyvec_macros v0.1.1\n  Downloaded syn v2.0.119\n  Downloaded tinystr v0.8.3\n  Downloaded tiny-keccak v2.0.2\n  Downloaded time-macros v0.2.32\n  Downloaded stun v0.17.3\n  Downloaded jsonwebtoken v12.0.0\n  Downloaded json5 v1.3.1\n  Downloaded idna v1.1.0\n  Downloaded icu_properties_data v2.2.0\n  Downloaded time-core v0.1.9\n  Downloaded ring v0.17.14\n  Downloaded jobserver v0.1.35\n  Downloaded itoa v1.0.18\n  Downloaded ipnet v2.12.2\n  Downloaded indexmap v2.14.0\n  Downloaded hyper v1.11.0\n  Downloaded hickory-proto v0.26.3\n  Downloaded nix v0.26.4\n  Downloaded inout v0.2.6\n  Downloaded icu_normalizer_data v2.2.0\n  Downloaded icu_normalizer v2.2.0\n  Downloaded icu_locale_core v2.2.0\n  Down"
+  }
+}
