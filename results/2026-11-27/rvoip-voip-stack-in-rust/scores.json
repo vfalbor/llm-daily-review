@@ -1,0 +1,122 @@
+{
+  "app_name": "Rvoip: VoIP stack in Rust",
+  "url": "https://github.com/eisenzopf/rvoip",
+  "scored_at": "2026-11-27T14:02:52.872Z",
+  "total_score": 61,
+  "scores": {
+    "novelty": {
+      "score": 7,
+      "justification": "Created 605 days ago, not a fork, and provides a Rust implementation of a VoIP stack where existing tools are mainly C/C++, indicating a meaningful improvement."
+    },
+    "system_requirements": {
+      "score": 6,
+      "justification": "Install succeeded but took 77.6 s, exceeding the <30 s ideal, and there is no PyPI package, requiring cargo build."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As an infra‑networking tool, it addresses VoIP needs which are still relevant, though not a primary focus of current LLM workflows."
+    },
+    "differentiation": {
+      "score": 7,
+      "justification": "Rvoip has 472 stars versus pjsip's 2,712 and liblinphone's 419; the compile‑time ratio 0.572 shows it compiles faster than pjsip, giving a clear speed advantage."
+    },
+    "community": {
+      "score": 7,
+      "justification": "The repository has 472 stars, 8 contributors, and was updated 0 days ago, indicating an active small community."
+    },
+    "ease_of_use": {
+      "score": 5,
+      "justification": "2 out of 4 tests passed (50%) and installation succeeded, meeting the minimum threshold for acceptable usability."
+    },
+    "ease_of_integration": {
+      "score": 6,
+      "justification": "The project is available as a Rust library (CLI and Library modes) with an MIT license, but no PyPI package, requiring manual glue code for non‑Rust environments."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages were found and the README quality could not be assessed, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "The repo is 605 days old, has 39 forks and 56 open issues, suggesting a moderately mature project but still in active development."
+    },
+    "performance": {
+      "score": 6,
+      "justification": "Benchmarks show a compile time of 14.303 s and a compile‑time ratio of 0.572 versus pjsip, indicating comparable performance with some speed gains but no dramatic advantage."
+    },
+    "hn_sentiment": {
+      "score": 6,
+      "justification": "Comments show enthusiasm for a Rust implementation but also criticism over missing features, lack of performance data, and doubts about full stack viability."
+    }
+  },
+  "summary": "Rvoip is a pure‑Rust VoIP stack that implements SIP, RTP and related protocols, offering both a CLI and a library interface. It builds on the Rust ecosystem and compiles faster than the established C‑based pjsip library, as shown by a 0.572 compile‑time ratio. The tool is suited for developers needing a low‑level, Rust‑native VoIP solution, especially those integrating it into Rust applications. While it benefits from an active small community and moderate maturity, documentation is sparse and benchmark coverage is limited, which may hinder adoption.",
+  "recommendation": "worth-watching",
+  "app_url": "https://github.com/eisenzopf/rvoip",
+  "tool_url": "https://github.com/eisenzopf/rvoip",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50658632",
+  "domain": "infrastructure",
+  "app_type": "infra-networking",
+  "enriched": {
+    "github": {
+      "stars": 472,
+      "forks": 39,
+      "open_issues": 56,
+      "watchers": 472,
+      "contributors": 8,
+      "license": "MIT",
+      "language": "Rust",
+      "is_fork": false,
+      "days_since_update": 0,
+      "days_since_created": 605,
+      "has_wiki": true,
+      "has_pages": false,
+      "description": "Open-source Rust SIP/VoIP stack: SIP, WebRTC, SRTP and AI voice agents behind one API. RFC 7502-benchmarked.",
+      "topics": [
+        "ai-agents",
+        "real-time-communication",
+        "rfc7502",
+        "rtp",
+        "rust",
+        "sbc",
+        "sip",
+        "srtp",
+        "telephony",
+        "voice-ai",
+        "voip",
+        "webrtc"
+      ]
+    },
+    "similar_github": [
+      {
+        "name": "pjsip",
+        "stars": 2712,
+        "repo": "pjsip/pjproject"
+      },
+      {
+        "name": "liblinphone",
+        "stars": 419,
+        "repo": "BelledonneCommunications/liblinphone"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 2,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 6,
+      "positive_signals": [
+        "Rust-based offering new option",
+        "Potential for integration",
+        "Community interest"
+      ],
+      "negative_signals": [
+        "Limited feature discussion",
+        "Lack of benchmarks/comparisons",
+        "Skepticism about completeness"
+      ],
+      "justification": "Comments show enthusiasm for a Rust implementation but also criticism over missing features, lack of performance data, and doubts about full stack viability.",
+      "comment_count": 30,
+      "hn_points": 146
+    }
+  }
+}
