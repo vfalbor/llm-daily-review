@@ -1,0 +1,112 @@
+{
+  "app_name": "Luciole Mono",
+  "url": "https://scriptor-pro.github.io/luciole-mono/",
+  "scored_at": "2026-11-28T14:01:31.925Z",
+  "total_score": 33,
+  "scores": {
+    "novelty": {
+      "score": 2,
+      "justification": "Created only 2 days ago and is not a fork, but it replicates existing terminal fonts (FiraCode, JetBrains Mono, Roboto Mono) with no unique features."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded in 14.4 seconds and the repo provides a simple CLI install, though no PyPI package is available."
+    },
+    "current_relevance": {
+      "score": 4,
+      "justification": "As a devtool-utility terminal font, it addresses a niche readability concern that is not a major focus in the current LLM workflow landscape."
+    },
+    "differentiation": {
+      "score": 2,
+      "justification": "The project has 0 GitHub stars versus 82,221 for FiraCode and 13,218 for JetBrains Mono, and benchmarked render time (0.12 ms) is slower than the baseline (0.09 ms)."
+    },
+    "community": {
+      "score": 2,
+      "justification": "The repository has 0 stars, 1 contributor, and was last updated 2 days ago, indicating minimal community activity."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 out of 4 tests passed (0%), though installation succeeded and basic run succeeded; less than 50% of tests pass."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "No PyPI package is available, but the tool offers CLI, GUI, and IDE modes and is released under a CC-BY-4.0 license."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No wiki or GitHub Pages information was provided; documentation details are insufficient, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 2,
+      "justification": "The repository is only 2 days old, has 0 forks and 0 open issues, indicating an early, untested stage."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark shows functional render time of 0.12 ms compared to a baseline of 0.09 ms, offering no performance advantage."
+    },
+    "hn_sentiment": {
+      "score": 3,
+      "justification": "Most comments point out readability problems such as bad kerning, thick letters, and overall legibility concerns, while only a few praise its math support and general fit as a monospaced font, leading to a generally negative sentiment."
+    }
+  },
+  "summary": "Luciole Mono is a terminal font intended to improve legibility in command‑line interfaces. It is distributed as a simple CLI/GUI/IDE utility without a PyPI package and runs locally. It suits users who need a monospaced font with better math glyphs, but its lack of community adoption and negligible performance gains limit its appeal. The main strength is its focus on legibility, while the primary drawback is its minimal differentiation from established fonts and poor test coverage.",
+  "recommendation": "skip",
+  "app_url": "https://scriptor-pro.github.io/luciole-mono/",
+  "tool_url": "https://github.com/scriptor-pro/luciole-mono",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50677091",
+  "domain": "devtool",
+  "app_type": "devtool-utility",
+  "enriched": {
+    "github": {
+      "stars": 0,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "contributors": 1,
+      "license": "CC-BY-4.0",
+      "language": "Python",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 2,
+      "has_wiki": false,
+      "has_pages": true,
+      "description": "Monospaced version of the Luciole typeface (for visually impaired readers), for terminals and code editors — CC-BY 4.0",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "FiraCode",
+        "stars": 82221,
+        "repo": "tonsky/FiraCode"
+      },
+      {
+        "name": "JetBrains Mono",
+        "stars": 13218,
+        "repo": "JetBrains/JetBrainsMono"
+      },
+      {
+        "name": "Roboto Mono",
+        "stars": 175,
+        "repo": "googlefonts/RobotoMono"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "sentiment": {
+      "score": 3,
+      "positive_signals": [
+        "good math coverage",
+        "works well as Luciole Mono"
+      ],
+      "negative_signals": [
+        "kerning and spacing issues",
+        "thick lettering and legibility doubts"
+      ],
+      "justification": "Most comments point out readability problems such as bad kerning, thick letters, and overall legibility concerns, while only a few praise its math support and general fit as a monospaced font, leading to a generally negative sentiment.",
+      "comment_count": 16,
+      "hn_points": 30
+    }
+  }
+}
