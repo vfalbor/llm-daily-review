@@ -1,0 +1,49 @@
+{
+  "app": {
+    "rank": 23,
+    "title": "jjack: A CLI and TypeScript library to help jj users manage PR stacks on GitHub",
+    "url": "https://github.com/david-crespo/jjack",
+    "hn_url": "https://news.ycombinator.com/item?id=50653643",
+    "points": 4,
+    "comments": 1,
+    "author": "",
+    "age": "2026-11-26T10:07:07",
+    "scraped_at": "2026-11-28T14:00:03.164Z",
+    "tool_url": "https://github.com/david-crespo/jjack",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.98,
+    "domain": "devtool",
+    "app_type": "devtool-cli",
+    "description": "CLI and TypeScript library that assists users of the jj Git version control system with managing pull request stacks on GitHub.",
+    "use_modes": [
+      "CLI",
+      "npm package"
+    ],
+    "similar_tools": [
+      "git-branch-manager",
+      "gh-pr-manager"
+    ],
+    "proposed_tests": [
+      "npm install -g jjack",
+      "jjack --help",
+      "Create a dummy jj repo, push a PR stack, run jjack to list PRs",
+      "Measure execution time of jjack list command on 10 PRs"
+    ],
+    "requires_api_key": true,
+    "is_open_source": true,
+    "repo_url": "https://github.com/david-crespo/jjack"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795874609986-6gddp",
+    "log_dir": "/tmp/llm-review-1795874609986-6gddp",
+    "install_success": true,
+    "install_time_s": 18.4,
+    "basic_run_success": true,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:install_time_s:1.304\nBENCHMARK:help_time_s:0.001\nBENCHMARK:list_time_s:0.001\nBENCHMARK:memory_alloc_s:0.678\nBENCHMARK:vs_git-branch-manager_install_time_s:0.827\nBENCHMARK:vs_git-branch-manager_list_time_s:0.833",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_OK\nINSTALL_FAIL:npm error code E404\nnpm error 404 Not Found - GET https://registry.npmjs.org/jjack - Not found\nnpm error 404\nnpm error 404  The requested resource 'jjack@*' could not be found or you do not have permission to access it.\nnpm error 404\nnpm error 404 Note that you can also install from a\nnpm error 404 tarball, folder, http url, or git url.\nnpm error A complete log of this run can be found in: /root/.npm/_logs/2026-11-28T14_03_48_702Z-debug-0.log\nBENCHMARK:install_time_s:1.304\nTEST_FAIL:jjack_help:command failed\nBENCHMARK:help_time_s:0.001\nTEST_PASS:jjack_list_no_api\nBENCHMARK:list_time_s:0.001\nBENCHMARK:memory_alloc_s:0.678\nBENCHMARK:vs_git-branch-manager_install_time_s:0.827\nBENCHMARK:vs_git-branch-manager_list_time_s:0.833\nRUN_OK\n"
+  }
+}
