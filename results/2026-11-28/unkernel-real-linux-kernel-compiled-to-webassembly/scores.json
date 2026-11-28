@@ -1,0 +1,99 @@
+{
+  "app_name": "Unkernel",
+  "url": "https://unkernel.dev/",
+  "scored_at": "2026-11-28T14:02:20.745Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so evidence is insufficient to rate higher; assigning a neutral score."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Install succeeded (true) in 11.1 s, well under the 30 s threshold, and no API key is required despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 7,
+      "justification": "As a devtool‑build that compiles the Linux kernel to WebAssembly, it addresses current interest in running native binaries in browsers and WASI runtimes."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Unlike wasmtime (18,906 ★), WasmKit (525 ★) and Emscripten (27,798 ★), Unkernel uniquely compiles a full Linux kernel to WASM, giving it a clear advantage."
+    },
+    "community": {
+      "score": 8,
+      "justification": "HN discussion shows 442 points and 30 comments with a sentiment of 8/10, indicating strong community interest despite no GitHub repo data."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 1 tests passed (0 %) and while installation succeeded, the lack of functional test coverage drops the usability rating."
+    },
+    "ease_of_integration": {
+      "score": 5,
+      "justification": "The tool offers CLI, Web, and Node.js modes but lacks a PyPI/NPM package, making automated integration moderately effortful."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository metadata (wiki, pages, topics) is available and the website provides limited documentation details."
+    },
+    "maturity": {
+      "score": 6,
+      "justification": "With no repository data, maturity is inferred from the strong HN signal (442 points) suggesting a reasonably mature project."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Only install‑time metrics (apk_install_time 3.37 s, git_clone_time 0.30 s) are present; no comparative performance benchmarks are provided."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "The comments largely celebrate Unkernel’s novelty, performance, and potential use cases, with a few pointing out browser compatibility, JIT security warnings, and iOS version requirements."
+    }
+  },
+  "summary": "Unkernel compiles the full Linux kernel to WebAssembly, enabling native Linux binaries to run in browsers or WASI runtimes. It is built as an open‑source CLI tool with Web and Node.js interfaces, but lacks a package manager distribution. The project is most useful for developers needing low‑level Linux capabilities in a sandboxed WebAssembly environment. Community buzz is high (442 HN points, sentiment 8/10), yet documentation and integration support are modest and functional tests are missing.",
+  "recommendation": "worth-watching",
+  "app_url": "https://unkernel.dev/",
+  "tool_url": "https://github.com/unkernel/unkernel",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50674218",
+  "domain": "infrastructure",
+  "app_type": "devtool-build",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "wasmtime",
+        "stars": 18906,
+        "repo": "bytecodealliance/wasmtime"
+      },
+      {
+        "name": "WasmKit",
+        "stars": 525,
+        "repo": "swiftwasm/WasmKit"
+      },
+      {
+        "name": "Emscripten",
+        "stars": 27798,
+        "repo": "emscripten-core/emscripten"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "innovative WebAssembly kernel",
+        "high performance and smoothness",
+        "useful for small scripts and dev tooling"
+      ],
+      "negative_signals": [
+        "compatibility issues in some browsers",
+        "concerns about JIT security",
+        "limited iOS support"
+      ],
+      "justification": "The comments largely celebrate Unkernel’s novelty, performance, and potential use cases, with a few pointing out browser compatibility, JIT security warnings, and iOS version requirements.",
+      "comment_count": 30,
+      "hn_points": 442
+    }
+  }
+}
