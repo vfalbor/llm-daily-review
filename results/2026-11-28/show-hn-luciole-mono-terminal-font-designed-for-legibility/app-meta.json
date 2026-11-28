@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 3,
+    "title": "Show HN: Luciole Mono – terminal font designed for legibility",
+    "url": "https://scriptor-pro.github.io/luciole-mono/",
+    "hn_url": "https://news.ycombinator.com/item?id=50677091",
+    "points": 30,
+    "comments": 16,
+    "author": "",
+    "age": "2026-11-28T12:50:15",
+    "scraped_at": "2026-11-28T14:00:03.152Z",
+    "tool_url": "https://github.com/scriptor-pro/luciole-mono",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.88,
+    "domain": "devtool",
+    "app_type": "devtool-utility",
+    "description": "A terminal font optimized for legibility, designed to improve readability in command‑line interfaces.",
+    "use_modes": [
+      "CLI",
+      "GUI",
+      "IDE"
+    ],
+    "similar_tools": [
+      "FiraCode",
+      "JetBrains Mono",
+      "Roboto Mono"
+    ],
+    "proposed_tests": [
+      "Clone the repo and build the font package with npm/yarn.",
+      "Install the font on a test machine and verify that it renders correctly in a terminal emulator.",
+      "Compare perceived readability by rendering a sample script in both Luciole Mono and a baseline font.",
+      "Measure file size and load time in a typical terminal session."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/scriptor-pro/luciole-mono"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795874462972-8v0ju",
+    "log_dir": "/tmp/llm-review-1795874462972-8v0ju",
+    "install_success": true,
+    "install_time_s": 14.4,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 4,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:4.284\nBENCHMARK:pip_install_time_s:0.876\nBENCHMARK:git_clone_time_s:0.903\nBENCHMARK:functional_render_ms:0.12\nBENCHMARK:baseline_compare_total_ms:0.09",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:4.284\nINSTALL_FAIL:ERROR: Could not find a version that satisfies the requirement luciole-mono (from versions: none)\n\n[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: No matching distribution found for luciole-mono\nBENCHMARK:pip_install_time_s:0.876\nINSTALL_OK\nBENCHMARK:git_clone_time_s:0.903\nINSTALL_FAIL:[notice] A new release of pip is available: 25.0.1 -> 26.3\n[notice] To update, run: pip install --upgrade pip\nERROR: file:///tmp/luciole-mono does not appear to be a Python project: neither 'setup.py' nor 'pyproject.toml' found.\nTEST_FAIL:import_luciole_mono:No module named 'luciole_mono'\nTEST_FAIL:functional_render:No module named 'luciole_mono'\nBENCHMARK:functional_render_ms:0.12\nTEST_FAIL:baseline_compare:No module named 'jetbrains_mono'\nBENCHMARK:baseline_compare_total_ms:0.09\nTEST_FAIL:file_size:module not found\nRUN_OK\n"
+  }
+}
