@@ -1,0 +1,99 @@
+{
+  "app_name": "Tabernetes",
+  "url": "https://tabernet.es/",
+  "scored_at": "2026-11-28T14:03:28.559Z",
+  "total_score": 63,
+  "scores": {
+    "novelty": {
+      "score": 5,
+      "justification": "Creation date and fork status are not provided, so novelty cannot be measured; the tool appears to be an incremental twist on existing local Kubernetes solutions."
+    },
+    "system_requirements": {
+      "score": 7,
+      "justification": "Installation succeeded (true) in 9 seconds, indicating a relatively simple setup despite the lack of a PyPI package."
+    },
+    "current_relevance": {
+      "score": 8,
+      "justification": "As an infra-container tool that enables lightweight local Kubernetes clusters, it aligns with current trends of rapid prototyping and browser‑based dev environments."
+    },
+    "differentiation": {
+      "score": 8,
+      "justification": "Unlike k3s (34,553 stars), minikube (32,278) and kind (15,653), Tabernetes runs each node in a browser tab, a unique UI‑centric approach with no direct equivalent."
+    },
+    "community": {
+      "score": 6,
+      "justification": "No GitHub data is available, but the HN post has 170 points and 30 comments, indicating moderate community interest."
+    },
+    "ease_of_use": {
+      "score": 3,
+      "justification": "0 of 2 tests passed (<50%), showing core functionality is not reliably verified in the Docker runner."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "The tool offers CLI, Web UI, and an API despite lacking a PyPI package, facilitating integration into pipelines."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No GitHub repository data (wiki, pages, topics) is available and no explicit documentation signals were found, so a neutral score is assigned."
+    },
+    "maturity": {
+      "score": 5,
+      "justification": "Without repository metadata, maturity is inferred from the HN engagement (170 points) but lacks concrete release or version information."
+    },
+    "performance": {
+      "score": 5,
+      "justification": "Benchmark output failed with a formatting error and provides no usable performance numbers; only install time (9 s) is known, so a neutral score is given."
+    },
+    "hn_sentiment": {
+      "score": 8,
+      "justification": "Most comments express curiosity, enthusiasm, and playful engagement with the concept, while a few raise legitimate technical questions about networking, node identification, and persistence. Overall sentiment is positive with minor nitpicks."
+    }
+  },
+  "summary": "Tabernetes is an infrastructure tool that creates a Kubernetes cluster by running each node inside a separate browser tab, allowing lightweight local experimentation without virtual machines. It provides a CLI, Web UI, and an API for interaction, and is built as an open‑source project hosted on GitHub. The tool is suited for developers who want quick, sandboxed Kubernetes environments directly in the browser. Its standout strength is the novel tab‑based node model, while the main caveat is the lack of reliable test coverage and limited documentation.",
+  "recommendation": "worth-watching",
+  "app_url": "https://tabernet.es/",
+  "tool_url": "https://github.com/tabernet/tabernet",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50672521",
+  "domain": "infrastructure",
+  "app_type": "infra-container",
+  "enriched": {
+    "github": null,
+    "similar_github": [
+      {
+        "name": "k3s",
+        "stars": 34553,
+        "repo": "k3s-io/k3s"
+      },
+      {
+        "name": "minikube",
+        "stars": 32278,
+        "repo": "kubernetes/minikube"
+      },
+      {
+        "name": "kind",
+        "stars": 15653,
+        "repo": "kubernetes-sigs/kind"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 8,
+      "positive_signals": [
+        "Innovative tab-based Kubernetes",
+        "Community curiosity and experimentation",
+        "Excitement for new use cases"
+      ],
+      "negative_signals": [
+        "Unclear networking integration",
+        "Node identity and persistence concerns",
+        "Some technical limitations"
+      ],
+      "justification": "Most comments express curiosity, enthusiasm, and playful engagement with the concept, while a few raise legitimate technical questions about networking, node identification, and persistence. Overall sentiment is positive with minor nitpicks.",
+      "comment_count": 30,
+      "hn_points": 170
+    }
+  }
+}
