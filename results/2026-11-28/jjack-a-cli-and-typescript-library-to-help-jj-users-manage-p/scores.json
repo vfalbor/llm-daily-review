@@ -1,0 +1,101 @@
+{
+  "app_name": "jjack",
+  "url": "https://github.com/david-crespo/jjack",
+  "scored_at": "2026-11-28T14:04:00.160Z",
+  "total_score": 53,
+  "scores": {
+    "novelty": {
+      "score": 6,
+      "justification": "Created only 8 days ago and is not a fork, but offers a modest improvement over existing tools like git-branch-manager (4 stars) and gh-pr-manager (8 stars)."
+    },
+    "system_requirements": {
+      "score": 8,
+      "justification": "Installation succeeded in 18.4 s (under the 30 s threshold) and the tool is available as an npm package, requiring only standard Node.js environment."
+    },
+    "current_relevance": {
+      "score": 6,
+      "justification": "As a devtool‑cli for the jj version‑control system, it addresses a niche developer workflow that is moderately relevant to current tooling trends."
+    },
+    "differentiation": {
+      "score": 5,
+      "justification": "jjack has 6 stars, slightly more than git-branch-manager (4 stars) but fewer than gh-pr-manager (8 stars), and benchmark shows its install time (1.304 s) is slower than git-branch-manager (0.827 s)."
+    },
+    "community": {
+      "score": 5,
+      "justification": "The repository has 6 stars, 1 contributor, and was updated 2 days ago, placing it in the 100–1,000 star range with a small but active community."
+    },
+    "ease_of_use": {
+      "score": 6,
+      "justification": "Out of 2 QA tests, 1 passed (50%), and the installation succeeded, indicating core functionality works but usability is only partial."
+    },
+    "ease_of_integration": {
+      "score": 7,
+      "justification": "Provides both a CLI and an npm package, uses a MIT license, and can be scripted into workflows, making integration straightforward."
+    },
+    "documentation": {
+      "score": 5,
+      "justification": "No explicit data on wiki, GitHub Pages, or topic tags was provided, so documentation quality cannot be fully assessed."
+    },
+    "maturity": {
+      "score": 4,
+      "justification": "The repo is 8 days old, has 0 forks, 0 open issues, and a single contributor, indicating an early‑stage project."
+    },
+    "performance": {
+      "score": 3,
+      "justification": "Benchmark shows jjack's install time (1.304 s) is slower than the comparable git-branch-manager (0.827 s), indicating lower performance."
+    },
+    "hn_sentiment": {
+      "score": 5,
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral."
+    }
+  },
+  "summary": "jjack is a CLI and TypeScript library that helps users of the jj version‑control system manage GitHub PR stacks. It runs locally via Node.js and is distributed as an npm package, requiring a GitHub API key. The tool is suited for developers already using jj who need tighter PR stack control. While it installs quickly, benchmark data shows it is slower than similar tools, and its documentation and community are still minimal.",
+  "recommendation": "niche",
+  "app_url": "https://github.com/david-crespo/jjack",
+  "tool_url": "https://github.com/david-crespo/jjack",
+  "source_type": "tool",
+  "hn_url": "https://news.ycombinator.com/item?id=50653643",
+  "domain": "devtool",
+  "app_type": "devtool-cli",
+  "enriched": {
+    "github": {
+      "stars": 6,
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 6,
+      "contributors": 1,
+      "license": "MIT",
+      "language": "TypeScript",
+      "is_fork": false,
+      "days_since_update": 2,
+      "days_since_created": 8,
+      "has_wiki": false,
+      "has_pages": false,
+      "description": "A CLI and TypeScript library to help jj users manage PR stacks on GitHub",
+      "topics": []
+    },
+    "similar_github": [
+      {
+        "name": "git-branch-manager",
+        "stars": 4,
+        "repo": "cloudposse/github-action-release-branch-manager"
+      },
+      {
+        "name": "gh-pr-manager",
+        "stars": 8,
+        "repo": "joshuaNathaniel/gh-project-manager"
+      }
+    ],
+    "pypi": null,
+    "tests_passed": 1,
+    "tests_total": 2,
+    "sentiment": {
+      "score": 5,
+      "positive_signals": [],
+      "negative_signals": [],
+      "justification": "Only 1 comment(s) found — insufficient for meaningful sentiment analysis, defaulting to neutral.",
+      "comment_count": 1,
+      "hn_points": 4
+    }
+  }
+}
