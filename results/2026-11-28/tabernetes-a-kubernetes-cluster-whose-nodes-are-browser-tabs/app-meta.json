@@ -1,0 +1,52 @@
+{
+  "app": {
+    "rank": 20,
+    "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+    "url": "https://tabernet.es/",
+    "hn_url": "https://news.ycombinator.com/item?id=50672521",
+    "points": 170,
+    "comments": 58,
+    "author": "",
+    "age": "2026-11-27T23:00:30",
+    "scraped_at": "2026-11-28T14:00:03.163Z",
+    "tool_url": "https://github.com/tabernet/tabernet",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.95,
+    "domain": "infrastructure",
+    "app_type": "infra-container",
+    "description": "A Kubernetes cluster that runs each node inside a separate browser tab, enabling lightweight local clusters and experimentation without a VM.",
+    "use_modes": [
+      "CLI",
+      "Web UI",
+      "API"
+    ],
+    "similar_tools": [
+      "k3s",
+      "minikube",
+      "kind",
+      "k3d"
+    ],
+    "proposed_tests": [
+      "Clone repo and run `npm install`",
+      "Execute `tabernet start` and verify pods reach Ready state",
+      "Deploy a sample Helm chart and confirm service accessibility",
+      "Measure cluster boot time and compare to kind"
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/tabernet/tabernet"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795874542071-0rk3c",
+    "log_dir": "/tmp/llm-review-1795874542071-0rk3c",
+    "install_success": true,
+    "install_time_s": 9,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 2,
+    "benchmark_notes": "BENCHMARK:memory_peak_kb:39492.66\nBENCHMARK:vs_kind_boot_ratio:fail:Unknown format code 'f' for object of type 'str'",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nINSTALL_FAIL:npm not found\nINSTALL_FAIL:Cloning into '/tmp/tabernet'...\nfatal: could not read Username for 'https://github.com': No such device or address\nINSTALL_FAIL:exception\nTEST_FAIL:cluster_start:exception\nTEST_SKIP:helm_deploy:helm not available\nBENCHMARK:memory_peak_kb:39492.66\nBENCHMARK:vs_kind_boot_ratio:fail:Unknown format code 'f' for object of type 'str'\nRUN_OK\n"
+  }
+}
