@@ -1,0 +1,51 @@
+{
+  "app": {
+    "rank": 5,
+    "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+    "url": "https://unkernel.dev/",
+    "hn_url": "https://news.ycombinator.com/item?id=50674218",
+    "points": 442,
+    "comments": 117,
+    "author": "",
+    "age": "2026-11-28T03:19:20",
+    "scraped_at": "2026-11-28T14:00:03.153Z",
+    "tool_url": "https://github.com/unkernel/unkernel",
+    "source_type": "tool",
+    "is_reviewable": true,
+    "confidence": 0.91,
+    "domain": "infrastructure",
+    "app_type": "devtool-build",
+    "description": "A tool that compiles the full Linux kernel to WebAssembly, enabling running native Linux binaries in browsers or WASI runtimes.",
+    "use_modes": [
+      "CLI",
+      "Web",
+      "Node.js"
+    ],
+    "similar_tools": [
+      "wasmtime",
+      "WasmKit",
+      "Emscripten"
+    ],
+    "proposed_tests": [
+      "Clone the repository and run the build pipeline to compile the kernel to .wasm.",
+      "Deploy the generated .wasm module in a simple web page and verify kernel boot messages.",
+      "Execute a basic system call (e.g., read/write) from a WASI program and assert expected output.",
+      "Measure build time and memory usage compared to a standard Linux kernel build."
+    ],
+    "requires_api_key": false,
+    "is_open_source": true,
+    "repo_url": "https://github.com/unkernel/unkernel"
+  },
+  "test_results": {
+    "run_id": "llm-review-1795874493384-di0rb",
+    "log_dir": "/tmp/llm-review-1795874493384-di0rb",
+    "install_success": true,
+    "install_time_s": 11.1,
+    "basic_run_success": true,
+    "tests_passed": 0,
+    "tests_total": 1,
+    "benchmark_notes": "BENCHMARK:apk_install_time_s:3.37\nBENCHMARK:git_clone_time_s:0.30",
+    "error_log": "",
+    "notes": "( 1/13) Installing brotli-libs (1.2.1-r0)\n( 2/13) Installing c-ares (1.34.9-r0)\n( 3/13) Installing libunistring (1.4.2-r0)\n( 4/13) Installing libidn2 (2.3.8-r0)\n( 5/13) Installing nghttp2-libs (1.70.0-r0)\n( 6/13) Installing libpsl (0.21.5-r3)\n( 7/13) Installing zstd-libs (1.6.0-r1)\n( 8/13) Installing libcurl (8.23.0-r0)\n( 9/13) Installing curl (8.23.0-r0)\n(10/13) Installing libexpat (2.11.0-r0)\n(11/13) Installing pcre2 (10.49-r0)\n(12/13) Installing git (2.54.1-r0)\n(13/13) Installing git-init-template (2.54.1-r0)\nExecuting busybox-1.37.0-r31.trigger\nOK: 26.1 MiB in 51 packages\nINSTALL_OK\nBENCHMARK:apk_install_time_s:3.37\nINSTALL_FAIL:git_clone:Cloning into '/tmp/unkernel_test_ljk7mb5d'...\nfatal: could not read Username for 'https://github.com': No such device or address\nBENCHMARK:git_clone_time_s:0.30\nTEST_SKIP:clone_repo:clone failed\nRUN_OK\n"
+  }
+}
